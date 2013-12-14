@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>peerblock</id>
+    <title>peerblock</title>
+    <version>1.1.0.518</version>
+    <authors>Mark Bulas,night_stalker_z,XhmikosR,Jason Casimir,A. Jesse Harper</authors>
+    <owners>dtgm</owners>
+    <summary>IP blocker</summary>
+    <description>PeerBlock lets you control who your computer "talks to" on the Internet.  By selecting appropriate lists of "known bad" computers, you can block communication with advertising or spyware oriented servers, computers monitoring your p2p activities, computers which have been "hacked", even entire countries!  They can't get in to your computer, and your computer won't try to send them anything either.
+	
+	Requires manual post-install setup.  
+	Version 1.1 currently does not support command-line switches.  See https://code.google.com/p/peerblock/issues/detail?id=400
+	Version 2.0 is expected to provide this functionality.
+	</description>
+    <projectUrl>http://www.peerblock.com/</projectUrl>
+    <tags>hosts.deny privacy peer-to-peer network</tags>
+    <copyright>© 2013 Peerblock, LLC</copyright>
+    <licenseUrl>http://opensource.org/licenses/Zlib</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://peerblock.googlecode.com/svn/trunk/src/peerblock/res/pb.ico</iconUrl>
+    <releaseNotes>Latest Stable Release: November 22, 2010
+	Major Changes
+	
+	* Display Yellow Icon if HTTP is Allowed - While HTTP Blocking is disabled, the PeerBlock tray icon will turn yellow to warn you that your system isn't as safe as it could be.
+	* Fixed "PeerBlock doesn't block unless update at startup" - Thanks to a code contribution by one of our users, "wopeg", we now have a fix for this problem.  Many thanks wopeg!!
+	* Limit Max Size of History.db - In the Settings panel, there will be a new option "History Size", defaulting to 100MB.  Setting this to a non-zero value should cause the history.db to be pruned/archived once it reaches this size.  This should help prevent problems with history.db becoming corrupted and/or growing to an absurd size.
+	* Systray "Allow HTTP" instead of "Block HTTP" - In the menu that appears when you right-click on the PeerBlock systray icon, the "Block HTTP" item has been renamed to "Allow HTTP".
+	* Warn if Exit While Blocking Recently - When you attempt to exit PeerBlock, if we've blocked some non-HTTP packet recently (i.e. within the past 60 seconds), we will pop up a warning message.
+	* Force PeerBlock to Start Enabled - If PeerBlock was disabled when you last exited it, it will now start as Enabled the next time you restart it.
+	* Allow HTTP for X minutes - The systray right-click menu has two new options: "Allow HTTP for 15 minutes" and "...for 60 minutes".  After the specified amount of time has passed, PeerBlock will revert to Blocking HTTP again.
+	* Click on tray icon to minimize window - Previously, left-clicking on the systray icon would merely display the PeerBlock window . . . even if it was previously displayed. Now, if the window is currently displayed left-clicking on the tray-icon will minimize it; and if the window is currently minimized, it will restore it.
+	* "Friendly" URLs - PeerBlock is now using "Friendly" URLs for most lists, instead of the URLs you can find at iblocklist.com.  These new URLs should actually be meaningful, instead of something like ".../?list=kpjsadfkljawjefklajwef".
+	* List-Add Sanity-Checking - After you've added a new URL-based list in the List Manager, PeerBlock will now perform a "sanity-check" of that URL.  It checks to make sure you haven't added the iblocklist.com "Description URL" instead of the "Update URL", lets you know if you're adding one of the Default Lists, checks for duplicates, recommends iblocklist.com URLs instead of other sites' URLs, etc.  PeerBlock will also offer to fix these URLs for you when possible.
+	* List "Optimization" - When you first upgrade to r277, PeerBlock will ask if you will allow it to "optimize" your lists.  If you let it, it will change bluetack.co.uk-hosted URLs over to iblocklist.com-hosted ones, rename list URLs to the new "Friendly" URL-names, and remove duplicated list entries.
+	* Saves "Last Known Good" Config - Each time PeerBlock successfully starts up, it will save aside a copy of your configuration as peerblock.conf.bak.  This way if your regular config file, peerblock.conf, ever gets corrupted (or you end up with some bad settings in there) and that prevents PeerBlock from starting, it will be able to load this saved copy instead.
+	* Multiple-select of Rows - You can now Ctrl+Click multiple lines in the main window as well as on history (and in the List Manager), to allow/block/copy multiple IP addresses at once.
+	
+	Full Changes List: http://www.peerblock.com/releases/public-releases/peerblock-1.1.0-r518-changes</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+	<file src="content\Licenses of included third party dependencies.txt" target="content\Licenses of included third party dependencies.txt" />
+  </files>
+</package>
