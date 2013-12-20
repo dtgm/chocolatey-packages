@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>thebrain</id>
+    <title>TheBrain (Install)</title>
+    <version>8.0.0.6</version>
+    <authors>TheBrain Technologies LP</authors>
+    <owners>dtgm</owners>
+    <summary>Mind mapping</summary>
+    <description>Organize and Find Everything the Way You Think
+	</description>
+    <projectUrl>http://www.thebrain.com/</projectUrl>
+    <tags>mindmap brainstorm file-management</tags>
+    <copyright>© 2013 TheBrain Technologies LP</copyright>
+    <licenseUrl>http://www.thebrain.com/about/legal/terms/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://github.com/dtgm/chocolateypackages/thebrain.install/thebrain.png</iconUrl>
+    <releaseNotes>
+	See "%ChocolateyInstall%\lib\thebrain.install-8.0.0.6\content\Release Notes.txt"
+	Full Changes [PDF]: http://assets.thebrain.com/documents/TheBrain%208.0%20Release%20Notes.pdf</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+	<file src="content\Release Notes.txt" target="content\Release Notes.txt" />
+  </files>
+</package>
