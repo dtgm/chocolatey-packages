@@ -1,7 +1,6 @@
-﻿$packageName = '{{PackageName}}'
+﻿$packageName = 'sandboxie.install'
 $installerType = 'EXE'
-$url  = '{{DownloadUrl}}'
-$url64 = '{{DownloadUrlx64}}'
-$silentArgs = '-q -overwrite'
+$url  = 'http://www.sandboxie.com/SandboxieInstall.exe'
+$silentArgs = '/install /S /D=C:\Program Files\Sandboxie'
 
-Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url" "$url64"
+Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url"
