@@ -1,0 +1,1 @@
+﻿#Install-VirtualPackage 'sandboxie.portable' 'sandboxie.install'
