@@ -1,1 +1,1 @@
-﻿#Install-VirtualPackage 'cyberduck.beta' 'cyberduck.install'
+﻿#Install-VirtualPackage 'cyberduck.install'
