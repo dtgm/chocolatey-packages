@@ -4,7 +4,7 @@
     <id>{{PackageName}}</id>
     <title>WinSSHD (Install)</title>
     <version>{{PackageVersion}}</version>
-    <authors>Ethan Brown</authors>
+    <authors>Bitvise Limited</authors>
     <owners>dtgm</owners>
     <summary>
 		SSH Server provides secure remote login capabilities to Windows workstations and servers. 
@@ -14,7 +14,7 @@
 
 		Bitvise SSH Server is ideal for remote administration of Windows servers; for advanced users who wish to access their home machine from work, or their work machine from home; as well as for a wide spectrum of advanced tasks, such as establishing a VPN using the SSH TCP/IP tunneling feature, or providing a secure file depository using SFTP.
 	</description>
-    <projectUrl>http://www.bitvise.com/ssh-server-download</projectUrl>
+    <projectUrl>http://www.bitvise.com/ssh-server</projectUrl>
     <tags>ssh server</tags>
     <copyright>Bitvise Limited</copyright>
     <licenseUrl>http://www.bitvise.com/ssh-server-license</licenseUrl>
