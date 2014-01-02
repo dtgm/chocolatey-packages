@@ -18,7 +18,7 @@
 		* Change files' creation and modification time stamps.
 	</description>
     <projectUrl>http://www.bulkrenameutility.co.uk/</projectUrl>
-    <tags>batch rename regex file</tags>
+    <tags>batch rename regex file usb</tags>
     <copyright>© TGRMN Software</copyright>
     <licenseUrl>https://raw.github.com/dtgm/chocolateyautomaticpackages/master/bulkrenameutility/License.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -26,9 +26,6 @@
     <releaseNotes>
 		http://www.bulkrenameutility.co.uk/Files/BRUChangelog.pdf
 	</releaseNotes>
-	<!--<dependencies>
-      <dependency id="" />
-    </dependencies>-->
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
