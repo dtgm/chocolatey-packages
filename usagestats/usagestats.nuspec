@@ -3,7 +3,7 @@
   <metadata>
     <id>usagestats</id>
     <title>Usage Statistics</title>
-    <version>1.4.1</version>
+    <version>1.4.1.20140104</version>
     <authors>Oystein Bjorke</authors>
     <owners>dtgm</owners>
     <summary>
@@ -39,9 +39,6 @@
     <licenseUrl>https://usagestats.codeplex.com/SourceControl/latest#License.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://raw.github.com/dtgm/chocolateyautomaticpackages/master/usagestats/usagestats.png</iconUrl>
-	<dependencies>
-      <dependency id="usagestats.install" version="[1.4.1]" />
-    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
