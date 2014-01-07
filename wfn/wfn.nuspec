@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>wfn</id>
+    <title>Windows Firewall Notifier</title>
+    <version>1.8.0</version>
+    <authors>Jérôme Saliba</authors>
+    <owners>dtgm</owners>
+    <summary>
+		Windows Firewall Notifier (WFN) extends the default Windows embedded firewall behavior, allowing to handle outgoing connections, and displaying (almost) real-time information about the current connections.
+	</summary>
+    <description>
+		* Enables the Windows embedded firewall
+		* Sets the firewall to block both inbound and outbound connections for which no rule exists
+		* Enables the default Windows firewall inbound connection notification
+		* Enables the Windows firewall outbound connections logging (disabled by default)
+		* Creates a scheduled task linked to the Windows firewall event log entries, allowing Windows Firewall Notifier to be launched when needed only
+	</description>
+    <projectUrl>https://wfn.codeplex.com/</projectUrl>
+    <tags>firewall security</tags>
+    <copyright>Jérôme Saliba</copyright>
+    <licenseUrl>https://wfn.codeplex.com/license</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://raw.github.com/dtgm/chocolateypackages/master/wfn/wfn.png</iconUrl>
+    <releaseNotes>
+		* modified the task creation for the current user so that it works properly on Windows 8.
+		* modified the task creation for accentuated user accounts names.
+		* fixed rules name/description resolution.
+		* minor improvements.
+		* added a simple update button in the WFN console (only shown when an update is available).
+		* fixed the logical application path resolution (could lead to improper rules creation in some specific cases).
+	</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
