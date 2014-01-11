@@ -1,11 +1,11 @@
 ﻿$packageName = 'cmder.portable'
-$url = 'https://github.com/bliker/cmder/releases/download/v1.1.1/cmder.7z'
+$url = 'https://github.com/bliker/cmder/releases/download/v1.1.3/cmder.7z'
 
-try { 
-  $installDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)" 
-  
+try {
+  $installDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+
   if (![System.IO.Directory]::Exists($installDir)) {[System.IO.Directory]::CreateDirectory($installDir)}
-  
+
   $tempDir = "$env:TEMP\chocolatey\$($packageName)"
   if (![System.IO.Directory]::Exists($tempDir)) {[System.IO.Directory]::CreateDirectory($tempDir)}
 
@@ -17,5 +17,5 @@ try {
   Write-ChocolateySuccess "$packageName"
 } catch {
   Write-ChocolateyFailure "$packageName" "$($_.Exception.Message)"
-  throw 
+  throw
 }
