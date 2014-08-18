@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>sandboxie.install</id>
+    <title>Sandboxie (Install)</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Ronen Tzur</authors>
+    <owners>dtgm</owners>
+    <summary>
+		Runs your programs in an isolated space which prevents them from making permanent changes to other programs and data in your computer
+	</summary>
+    <description>
+		* Secure Web Browsing: Running your Web browser under the protection of Sandboxie means that all malicious software downloaded by the browser is trapped in the sandbox and can be discarded trivially.
+		* Enhanced Privacy: Browsing history, cookies, and cached temporary files collected while Web browsing stay in the sandbox and don't leak into Windows.
+		* Secure E-mail: Viruses and other malicious software that might be hiding in your email can't break out of the sandbox and can't infect your real system.
+		* Windows Stays Lean: Prevent wear-and-tear in Windows by installing software into an isolated sandbox.
+	</description>
+    <projectUrl>http://www.sandboxie.com/</projectUrl>
+    <tags>security virtualization forensics</tags>
+    <copyright>© Ronen Tzur</copyright>
+    <licenseUrl>http://www.sandboxie.com/index.php?EndUserLicenseAgreement</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://raw.github.com/dtgm/chocolateyautomaticpackages/master/sandboxie/sandboxie.png</iconUrl>
+    <releaseNotes>
+		http://www.sandboxie.com/index.php?VersionChanges
+	</releaseNotes>
+	<!--<dependencies>
+      <dependency id="" />
+    </dependencies>-->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
