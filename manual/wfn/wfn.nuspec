@@ -21,7 +21,7 @@
     <copyright>Jérôme Saliba</copyright>
     <licenseUrl>https://wfn.codeplex.com/license</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://raw.github.com/dtgm/chocolateypackages/master/wfn/wfn.png</iconUrl>
+    <iconUrl>https://raw.github.com/dtgm/chocolatey-packages/master/icons/wfn.png</iconUrl>
     <releaseNotes>
 		* modified the task creation for the current user so that it works properly on Windows 8.
 		* modified the task creation for accentuated user accounts names.

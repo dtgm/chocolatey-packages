@@ -38,7 +38,7 @@
     <copyright>(c) 2012 Oystein Bjorke</copyright>
     <licenseUrl>https://usagestats.codeplex.com/SourceControl/latest#License.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://raw.github.com/dtgm/chocolateyautomaticpackages/master/usagestats/usagestats.png</iconUrl>
+    <iconUrl>https://raw.github.com/dtgm/chocolateyautomaticpackages/master/icons/usagestats.png</iconUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
