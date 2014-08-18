@@ -1,0 +1,17 @@
+*~
+*.swp
+*.swo
+*.suo
+*.bak
+*.orig
+*.nupkg
+Thumbs.db
+.DS_Store
+_ReSharper*
+*.resharper
+*.cache
+obj
+
+manual/wfn
+manual/stunnel
+automatic/cmder*
