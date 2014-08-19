@@ -4,17 +4,23 @@
     <id>sandboxie.install</id>
     <title>Sandboxie (Install)</title>
     <version>{{PackageVersion}}</version>
-    <authors>Ronen Tzur</authors>
+    <authors>Ronen "tzuk" Tzur</authors>
     <owners>dtgm</owners>
     <summary>
-		Runs your programs in an isolated space which prevents them from making permanent changes to other programs and data in your computer
-	</summary>
+			Executes processes in a protected, isolated space.  This helps to manage and limit access permissions a process has to your data.  Use it to safely test new software for usability, safely study behavior of known spyware and malware, or browse the web from a sandboxed browser to completely shield your computer and network from Internet Bad Things.
+		</summary>
     <description>
-		* Secure Web Browsing: Running your Web browser under the protection of Sandboxie means that all malicious software downloaded by the browser is trapped in the sandbox and can be discarded trivially.
-		* Enhanced Privacy: Browsing history, cookies, and cached temporary files collected while Web browsing stay in the sandbox and don't leak into Windows.
-		* Secure E-mail: Viruses and other malicious software that might be hiding in your email can't break out of the sandbox and can't infect your real system.
-		* Windows Stays Lean: Prevent wear-and-tear in Windows by installing software into an isolated sandbox.
-	</description>
+			* Secure Web Browsing: Running your Web browser under the protection of Sandboxie means that all malicious software downloaded by the browser is trapped in the sandbox and can be discarded trivially.
+			* Enhanced Privacy: Browsing history, cookies, and cached temporary files collected while Web browsing stay in the sandbox and don't leak into Windows.
+			* Secure E-mail: Viruses and other malicious software that might be hiding in your email can't break out of the sandbox and can't infect your real system.
+			* Windows Stays Lean: Prevent wear-and-tear in Windows by installing software into an isolated sandbox.
+			
+			* Shareware; free for personal, non-commercial use. After 30 days, nag screen that may be dismissed temporarily. Free version limited to one sandbox at a time and only software explicitly requested is run in the sandbox.
+			* Personal-use license for usage on (1) computer is €15 euros/year.
+			* Commercial-use license for usage on (1) business computer is €41 euros/year.
+			
+			* December 2013, Sandboxie was acquired by computer security firm Invincea.
+		</description>
     <projectUrl>http://www.sandboxie.com/</projectUrl>
     <tags>security virtualization forensics</tags>
     <copyright>© Ronen Tzur</copyright>
@@ -22,9 +28,12 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://raw.github.com/dtgm/chocolatey-packages/master/icons/sandboxie.png</iconUrl>
     <releaseNotes>
-		http://www.sandboxie.com/index.php?VersionChanges
-	</releaseNotes>
-	<!--<dependencies>
+			http://www.sandboxie.com/index.php?VersionChanges
+			http://www.sandboxie.com/index.php?KnownConflicts
+			http://www.sandboxie.com/index.php?FrequentlyAskedQuestions
+			http://www.sandboxie.com/index.php?FAQ_Licensing
+		</releaseNotes>
+		<!--<dependencies>
       <dependency id="" />
     </dependencies>-->
   </metadata>

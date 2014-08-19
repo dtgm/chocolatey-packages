@@ -1,3 +1,30 @@
+Version 8.0.1.2
+July 7, 2014
+• Fixed: Calendar items do not appear in search at OSX Mavericks (#2022)
+• Fixed: Some ICO files do not show, including links to OneNote
+
+Version 8.0.1.1
+May 22, 2014
+• Fixed: Issues with sync of Thought icons
+• Downloading of web content time-out adjusted from 30 to 5 seconds
+• Updated Dutch and German localizations
+• Fixed: When brains are stored in the Parallels share on Mac OS, they do not appear in the list
+• Fixed: Freemind files are not importing properly
+
+Version 8.0.0.8 (Windows only)
+February 12, 2014
+• Fixed: Text extraction sometime fails, causing indexing issues (slower indexing with missing index data)
+
+Version 8.0.0.7
+December 19, 2013
+• Added Polish localization
+• Fixed: Problem with the display of the Calendar can sometimes cause sync to fail with the message: “Could 
+not process the remote delta file: 0”
+• Fixed: Some alerts and confirmation messages in the preferences dialog show the incorrect icon
+• Fixed: Tip display sometimes causes exceptions
+• Fixed: Display of brains that are only available online outputs unnecessary exceptions to the log file
+• Updated to a newer installer version
+
 Version 8.0.0.6 
 December 10, 2013 
 • New utility added 

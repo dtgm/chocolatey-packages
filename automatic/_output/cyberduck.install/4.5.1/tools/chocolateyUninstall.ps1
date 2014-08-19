@@ -16,23 +16,6 @@ $uninstallString = "$uninstallString" -replace '[{]', '`{'
 $uninstallString = "$uninstallString" -replace '[}]', '`}'
 
 if ($uninstallString -ne "") {
-     & $uninstallString $silentArgs;
-}
-
-try {
-    $packageName = "cyberduck" 
-    Uninstall-ChocolateyPackage $packageName
-    Write-ChocolateySuccess $packageName
-} catch {
-    Write-ChocolateyFailure $packageName $($_.Exception.Message)
-    throw
-}
-
-try {
-    $packageName = "cyberduck.install"
-    Uninstall-ChocolateyPackage $packageName
-    Write-ChocolateySuccess $packageName
-} catch {
-    Write-ChocolateyFailure $packageName $($_.Exception.Message)
-    throw
+     Uninstall-ChocolateyPackage 'EXE' "$uninstallString $silentArgs";
+		 Write-ChocolateySuccess $packageName
 }
