@@ -4,7 +4,7 @@
     <id>sandboxie.beta</id>
     <title>Sandboxie (Beta)</title>
     <version>{{PackageVersion}}-beta</version>
-    <authors>Ronen Tzur</authors>
+    <authors>Ronen "tzuk" Tzur</authors>
     <owners>dtgm</owners>
     <summary>
 			Executes processes in a protected, isolated space.  This helps to manage and limit access permissions a process has to your data.  Use it to safely test new software for usability, safely study behavior of known spyware and malware, or browse the web from a sandboxed browser to completely shield your computer and network from Internet Bad Things.
@@ -28,8 +28,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://raw.github.com/dtgm/chocolatey-packages/master/icons/sandboxie.png</iconUrl>
     <releaseNotes>
-			Beta help forum http://forums.sandboxie.com/phpBB3/viewforum.php?f=43
-			4.13.2 changelog http://forums.sandboxie.com/phpBB3/viewtopic.php?f=48&t=19151
+			http://forums.sandboxie.com/phpBB3/index.php
 		</releaseNotes>
 	<!--<dependencies>
       <dependency id="" />
