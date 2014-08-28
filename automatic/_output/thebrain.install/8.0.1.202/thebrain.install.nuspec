@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>thebrain.install</id>
+    <title>TheBrain (Install)</title>
+    <version>8.0.1.202</version>
+    <authors>TheBrain Technologies LP</authors>
+    <owners>dtgm</owners>
+    <summary>Mind mapping</summary>
+    <description>Organize and Find Everything the Way You Think
+	* Java-based, semantic, XML repository for thoughts and files 
+	* Store can contain concept map with embedded text editor or pointers to files and URIs. (See https://en.wikipedia.org/wiki/Concept_map and https://en.wikipedia.org/wiki/File_manager)
+	* Alpha-blending overlay or traditional window presentation. (Transparency or drawn on background)
+	* Indexed search and statistical usage tracking with data visualization. (Fast search and info graphs about which concepts you work on)
+	</description>
+    <projectUrl>http://www.thebrain.com/</projectUrl>
+    <tags>mindmap brainstorm concept-map file-management</tags>
+    <copyright>© 2013 TheBrain Technologies LP</copyright>
+    <licenseUrl>http://www.thebrain.com/about/legal/terms/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://raw.github.com/dtgm/chocolatey-packages/master/icons/thebrain.png</iconUrl>
+    <releaseNotes>
+	See "%ChocolateyInstall%\lib\thebrain.install-8.0.1.202\content\Release Notes.txt"
+	Full Changes [PDF]: http://assets.thebrain.com/documents/TheBrain%208.0%20Release%20Notes.pdf</releaseNotes>
+    <dependencies>
+      <dependency id="javaruntime" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+		<file src="content\Release Notes.txt" target="content\Release Notes.txt" />
+  </files>
+</package>
