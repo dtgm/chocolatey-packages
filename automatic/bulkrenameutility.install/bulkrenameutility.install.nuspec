@@ -7,26 +7,24 @@
     <authors>Jim Willsher, TGRMN Software</authors>
     <owners>dtgm</owners>
     <summary>
-		Allows you to easily rename files and folders recursively based upon find-replace, character place, fields, sequences, regular expressions, EXIF data, and more.
-	</summary>
+			Allows you to easily rename files and folders recursively based upon find-replace, character place, fields, sequences, regular expressions, EXIF data, and more.
+		</summary>
     <description>
-		* Rename multiple files quickly, according to many flexible criteria.
-		* Rename files in many ways: add, replace, insert text into file names. Convert case, add numbers. Remove or change file extensions.
-		* Check the detailed preview before renaming.
-		* Rename photos using EXIF meta data (i.e. "Date Picture Taken", "Resolution" and other information embedded in all JPG photo files) Rename your holiday pictures from a meaningless dsc1790.jpg to NewYork1.jpg in a flash.
-		* Rename MP3 files using ID3 tags (a.k.a. MP3 ID3 tag renaming).
-		* Change files' creation and modification time stamps.
-	</description>
+			* Rename multiple files quickly, according to many flexible criteria.
+			* Rename files in many ways: add, replace, insert text into file names. Convert case, add numbers. Remove or change file extensions.
+			* Check the detailed preview before renaming.
+			* Rename photos using EXIF meta data (i.e. "Date Picture Taken", "Resolution" and other information embedded in all JPG photo files) Rename your holiday pictures from a meaningless dsc1790.jpg to NewYork1.jpg in a flash.
+			* Rename MP3 files using ID3 tags (a.k.a. MP3 ID3 tag renaming).
+			* Change files' creation and modification time stamps.
+		</description>
     <projectUrl>http://www.bulkrenameutility.co.uk/</projectUrl>
-    <tags>batch rename regex file</tags>
+    <tags>batch rename regex file usb</tags>
     <copyright>© TGRMN Software</copyright>
     <licenseUrl>https://raw.github.com/dtgm/chocolatey-packages/master/bulkrenameutility/License.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://raw.github.com/dtgm/chocolatey-packages/master/icons/bulkrenameutility.png</iconUrl>
     <releaseNotes>
-		http://www.bulkrenameutility.co.uk/Files/BRUChangelog.pdf
-	</releaseNotes>
-	<!--<dependencies>
+		<!--<dependencies>
       <dependency id="" />
     </dependencies>-->
   </metadata>
