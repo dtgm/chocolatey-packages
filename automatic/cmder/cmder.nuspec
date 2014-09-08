@@ -7,10 +7,19 @@
     <authors>Samuel Vasko</authors>
     <owners>dtgm</owners>
     <summary>Portable console emulator for Windows</summary>
-    <description>Cmder is a software package created out of pure frustration over the absence of nice console emulators on Windows. It is based on amazing software, and spiced up with the Monokai color scheme and a custom prompt layout. Looking sexy from the start.
-	
-	This package uncompresses to 250 MB and includes Unix commands via msysgit
-	See cmdermini.portable (7 MB) for basic console without msysgit</description>
+    <description>
+			Cmder is a software package created out of pure frustration over the absence of nice console emulators on Windows. It is based on amazing software, and spiced up with the Monokai color scheme and a custom prompt layout.
+			
+			Combines utility of 3 distinct tools:
+				Console emulator = Conemu
+				Cmd.exe enhancements = clink
+				Unix tools on windows = msysgit
+		
+			This package uncompresses to 250 MB and includes Unix commands via msysgit
+			See cmdermini (7 MB) for basic console without msysgit
+			
+			By default, this package installs into $BinRoot\cmder
+		</description>
     <projectUrl>http://bliker.github.io/cmder/</projectUrl>
     <tags>portable console command-line terminal</tags>
     <copyright>Copyright (c) 2013 Samuel Vasko</copyright>
@@ -18,16 +27,16 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://raw.github.com/bliker/cmder/master/icons/icon_48.png</iconUrl>
     <releaseNotes>
-		* Added git prompt
-		* Spaces in path are now tolerated
-		* Home path is set correctly
-		* Much better aliases
-		* Changed powershell/cmd shortcut to shift + alt + #
-		* Vim path is now loaded
-		* Smarter aliases
-	</releaseNotes>
-	<dependencies>
-      <dependency id="{{PackageName}}.portable" version="[{{PackageVersion}}]" />
+			* Added git prompt
+			* Spaces in path are now tolerated
+			* Home path is set correctly
+			* Much better aliases
+			* Changed powershell/cmd shortcut to shift + alt + #
+			* Vim path is now loaded
+			* Smarter aliases
+		</releaseNotes>
+		<dependencies>
+      <dependency id="cmder.portable" />
     </dependencies>
   </metadata>
   <files>

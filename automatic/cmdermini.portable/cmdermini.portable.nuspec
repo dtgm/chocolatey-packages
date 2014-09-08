@@ -2,30 +2,33 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>{{PackageName}}</id>
-    <title>Cmder Mini (Portable)</title>
+    <title>CmderMini (Portable)</title>
     <version>{{PackageVersion}}</version>
     <authors>Samuel Vasko</authors>
     <owners>dtgm</owners>
     <summary>Portable console emulator for Windows</summary>
-    <description>Cmder mini is a software package created out of pure frustration over the absence of nice console emulators on Windows. It is based on amazing software, and spiced up with the Monokai color scheme and a custom prompt layout. Looking sexy from the start.
+    <description>Cmder is a software package created out of pure frustration over the absence of nice console emulators on Windows. It is based on amazing software, and spiced up with the Monokai color scheme and a custom prompt layout.
+		
+		Combines utility of 2 distinct tools:
+			Console emulator = Conemu
+			Cmd.exe enhancements = clink
 	
-	This package uncompresses to 7 MB and excludes Unix commands via msysgit
-	See cmder.portable (250 MB) for full Unix console with msysgit</description>
-    <projectUrl>http://bliker.github.io/cmdermini/</projectUrl>
+		This package uncompresses to 7 MB and does not include Unix integration via msysgit
+		See cmder (250 MB) for enhanced console with Unix utilities via msysgit
+		
+		By default, this package installs into $BinRoot\cmdermini
+		</description>
+    <projectUrl>http://bliker.github.io/cmder/</projectUrl>
     <tags>portable console command-line terminal</tags>
     <copyright>Copyright (c) 2013 Samuel Vasko</copyright>
     <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://raw.github.com/bliker/cmder/master/icons/icon_48.png</iconUrl>
-    <releaseNotes>
-		* Added git prompt
-		* Spaces in path are now tolerated
-		* Home path is set correctly
-		* Much better aliases
-		* Changed powershell/cmd shortcut to shift + alt + #
-		* Vim path is now loaded
-		* Smarter aliases
-	</releaseNotes>
+		<dependencies>
+      <dependency id="7zip.commandline" />
+			<dependency id="vcredist2010" />
+			<dependency id="binroot" />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

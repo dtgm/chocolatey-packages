@@ -2,15 +2,23 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>{{PackageName}}</id>
-    <title>Cmder w/ msysgit (Portable)</title>
+    <title>Cmder (Portable)</title>
     <version>{{PackageVersion}}</version>
     <authors>Samuel Vasko</authors>
     <owners>dtgm</owners>
     <summary>Portable console emulator for Windows</summary>
-    <description>Cmder is a software package created out of pure frustration over the absence of nice console emulators on Windows. It is based on amazing software, and spiced up with the Monokai color scheme and a custom prompt layout. Looking sexy from the start.
+    <description>Cmder is a software package created out of pure frustration over the absence of nice console emulators on Windows. It is based on amazing software, and spiced up with the Monokai color scheme and a custom prompt layout.
+		
+		Combines utility of 3 distinct tools:
+			Console emulator = Conemu
+			Cmd.exe enhancements = clink
+			Unix tools on windows = msysgit
 	
-	This package uncompresses to 250 MB and includes Unix commands via msysgit
-	See cmdermini.portable (7 MB) for basic console without msysgit</description>
+		This package uncompresses to 250 MB and includes Unix commands via msysgit
+		See cmdermini (7 MB) for basic console without msysgit
+		
+		By default, this package installs into $BinRoot\cmder
+		</description>
     <projectUrl>http://bliker.github.io/cmder/</projectUrl>
     <tags>portable console command-line terminal</tags>
     <copyright>Copyright (c) 2013 Samuel Vasko</copyright>
@@ -28,6 +36,8 @@
 	</releaseNotes>
 	<dependencies>
       <dependency id="7zip.commandline" />
+			<dependency id="vcredist2010" />
+			<dependency id="binroot" />
     </dependencies>
   </metadata>
   <files>
