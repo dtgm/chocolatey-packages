@@ -23,7 +23,7 @@
     <copyright>Copyright (c) 2013 Samuel Vasko</copyright>
     <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://raw.github.com/bliker/cmder/master/icons/icon_48.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/bliker/cmder/master/icons/icon_48.png</iconUrl>
 		<dependencies>
       <dependency id="cmdermini.portable" />
     </dependencies>
