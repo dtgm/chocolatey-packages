@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>winsshd</id>
+    <title>WinSSHD</title>
+    <version>6.07</version>
+    <authors>Bitvise Limited</authors>
+    <owners>dtgm</owners>
+    <summary>
+		#Items that could be replaced based on what you call chocopkgup.exe with
+		#winsshd - Package Name (should be same as nuspec file and folder) |/p
+		#6.07 - The updated version | /v
+		#http://dl.bitvise.com/BvSshServer-Inst.exe - The url for the native file | /u
+		#C:\ProgramData\chocolatey\_work\BvSshServer-Inst.exe - Downloaded file if including it in package | /pp
+		# - This will be used later | /pg
+		# - The 64bit url for the native file | /u64
+		#{{checksum}} aaaa
+		
+		SSH Server provides secure remote login capabilities to Windows workstations and servers. 
+	</summary>
+    <description>
+		Security is our SSH server's key feature: in contrast with Telnet and FTP servers, Bitvise SSH Server encrypts data during transmission. Thus, no one can sniff your password or see what files you are transferring when you access your computer over SSH.
+
+		Bitvise SSH Server is ideal for remote administration of Windows servers; for advanced users who wish to access their home machine from work, or their work machine from home; as well as for a wide spectrum of advanced tasks, such as establishing a VPN using the SSH TCP/IP tunneling feature, or providing a secure file depository using SFTP.
+	</description>
+    <projectUrl>http://www.bitvise.com/ssh-server</projectUrl>
+    <tags>ssh server</tags>
+    <copyright>Bitvise Limited</copyright>
+    <licenseUrl>http://www.bitvise.com/ssh-server-license</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/master/icons/winsshd.png</iconUrl>
+    <releaseNotes>
+		http://www.bitvise.com/ssh-server-version-history
+	</releaseNotes>
+	<dependencies>
+      <dependency id="winsshd.install" version="[6.07]" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
