@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>sandboxie</id>
-    <title>sandboxie</title>
+    <id>{{PackageName}}</id>
+    <title>Sandboxie</title>
     <version>{{PackageVersion}}</version>
     <authors>Ronen "tzuk" Tzur</authors>
     <owners>dtgm</owners>
@@ -26,7 +26,7 @@
     <copyright>© Ronen Tzur</copyright>
     <licenseUrl>http://www.sandboxie.com/index.php?EndUserLicenseAgreement</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://raw.github.com/dtgm/chocolatey-packages/master/icons/sandboxie.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/master/icons/sandboxie.png</iconUrl>
     <releaseNotes>
 			http://www.sandboxie.com/index.php?VersionChanges
 			http://www.sandboxie.com/index.php?KnownConflicts
@@ -34,7 +34,7 @@
 			http://www.sandboxie.com/index.php?FAQ_Licensing
 		</releaseNotes>
 		<dependencies>
-      <dependency id="sandboxie.install" version="[{{PackageVersion}}]" />
+      <dependency id="{{PackageName}}.install" version="[{{PackageVersion}}]" />
     </dependencies>
   </metadata>
   <files>
