@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>{{PackageName}}</id>
+    <id>sandboxie.install</id>
     <title>Sandboxie (Install)</title>
-    <version>{{PackageVersion}}</version>
+    <version>4.14</version>
     <authors>Ronen "tzuk" Tzur</authors>
     <owners>dtgm</owners>
     <summary>
