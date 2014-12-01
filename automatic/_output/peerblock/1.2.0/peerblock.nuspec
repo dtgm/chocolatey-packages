@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
-  <metadata>
+	<metadata>
     <id>peerblock</id>
-    <title>peerblock</title>
+    <title>PeerBlock</title>
     <version>1.2.0</version>
     <authors>Mark Bulas,night_stalker_z,XhmikosR,Jason Casimir,A. Jesse Harper</authors>
     <owners>dtgm</owners>
     <summary>IP blocker</summary>
     <description>
-		PeerBlock lets you control who your computer "talks to" on the Internet.  By selecting appropriate lists of "known bad" computers, you can block communication with advertising or spyware oriented servers, computers monitoring your p2p activities, computers which have been "hacked", even entire countries!  They can't get in to your computer, and your computer won't try to send them anything either.
-		
-		* Requires manual post-install setup.  
-		* Version 1.1 currently does not support command-line switches.  Version 2.0 is expected to provide this functionality.  See https://code.google.com/p/peerblock/issues/detail?id=400
+PeerBlock lets you control who your computer "talks to" on the Internet.  By selecting appropriate lists of "known bad" computers, you can block communication with advertising or spyware oriented servers, computers monitoring your p2p activities, computers which have been "hacked", even entire countries!  They can't get in to your computer, and your computer won't try to send them anything either.
+
+* Requires manual post-install setup.  
+* Version 1.1 currently does not support command-line switches.  Version 2.0 is expected to provide this functionality.  See https://code.google.com/p/peerblock/issues/detail?id=400
 	</description>
     <projectUrl>http://www.peerblock.com/</projectUrl>
     <tags>hosts.deny privacy peer-to-peer network</tags>
     <copyright>© 2014 Peerblock, LLC</copyright>
     <licenseUrl>http://opensource.org/licenses/Zlib</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://peerblock.googlecode.com/svn/trunk/src/peerblock/res/pb.ico</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/master/icons/peerblock.png</iconUrl>
     <releaseNotes>http://www.peerblock.com/releases/public-releases/peerblock-1.2.0-r693</releaseNotes>
 		<!--<dependencies>
       <dependency id="" />
