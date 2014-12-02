@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>{{PackageName}}</id>
+    <id>sandboxie.beta</id>
     <title>Sandboxie (Beta)</title>
-    <version>{{PackageVersion}}-beta</version>
+    <version>4.15.5-beta</version>
     <authors>Ronen "tzuk" Tzur</authors>
     <owners>dtgm</owners>
     <summary>

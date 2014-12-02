@@ -1,8 +1,8 @@
-﻿$packageName = '{{PackageName}}'
+﻿$packageName = 'sandboxie.beta'
 $packageId = 'sandboxie'
 $installerType = 'EXE'
-$url  = '{{DownloadUrl}}'
-$url64 = '{{DownloadUrlx64}}'
+$url  = 'http://www.sandboxie.com/SandboxieInstall32-415-5.exe'
+$url64 = 'http://www.sandboxie.com/SandboxieInstall64-415-5.exe'
 $silentArgsInstall = '/install /S /D=C:\Program Files\Sandboxie'
 $silentArgsUpgrade = '/upgrade /S'
 $chocoRoot = $env:ChocolateyInstall
