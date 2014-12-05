@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>celestia</id>
+    <title>Celestia</title>
+    <version>1.6.1</version>
+    <authors>Celestia Development Team</authors>
+    <owners>dtgm</owners>
+    <summary>
+Real-time 3D visualization of space
+		</summary>
+    <description>
+Unlike most planetarium software, Celestia doesn't confine you to the surface of the Earth. You can travel throughout the solar system, to any of over 100,000 stars, or even beyond the galaxy.
+
+All movement in Celestia is seamless; the exponential zoom feature lets you explore space across a huge range of scales, from galaxy clusters down to spacecraft only a few meters across. A 'point-and-goto' interface makes it simple to navigate through the universe to the object you want to visit.
+
+Celestia is expandable. Celestia comes with a large catalog of stars, galaxies, planets, moons, asteroids, comets, and spacecraft. If that's not enough, you can download dozens of easy to install add-ons with more objects.
+		</description>
+    <projectUrl>http://celestia.sourceforge.net/</projectUrl>
+		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/master/icons/celestia.png</iconUrl>
+    <tags>3d, astronomy, education, simulation</tags>
+    <copyright>© Chris Laurel</copyright>
+    <licenseUrl>http://www.gnu.org/licenses/gpl-2.0.html#SEC1</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+http://sourceforge.net/projects/celestia/files/Celestia-win32-bin/1.6.1/
+		</releaseNotes>
+		<!--<dependencies>
+      <dependency id="" />
+    </dependencies>-->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
