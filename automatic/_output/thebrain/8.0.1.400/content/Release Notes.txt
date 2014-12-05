@@ -1,3 +1,15 @@
+Version 8.0.1.4
+November 20, 2014
+• Fixed: Mac OS X Yosemite problems accessing contacts
+• Fixed: Icon change not syncing if copied from file directory (#2048)
+• Fixed: Sometimes it is not possible to download a brain for local use 
+
+Version 8.0.1.3
+August 27, 2014
+• Fixed: Link direction changes during drag and drop rearranging of thoughts (#1732)
+• Fixed: New link type is not shown in the properties dialog sometimes on Windows (#1973)
+• Fixed: Mac OS installer file background image missing
+
 Version 8.0.1.2
 July 7, 2014
 • Fixed: Calendar items do not appear in search at OSX Mavericks (#2022)

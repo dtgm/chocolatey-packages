@@ -1,6 +1,5 @@
-﻿$packageName = '{{PackageName}}'
-
-try {
+﻿try {
+	$packageName = '{{PackageName}}'
 	$fileType = 'exe'
 	$silentArgs = '/S /remove'
 	$validExitCodes = @(0)
