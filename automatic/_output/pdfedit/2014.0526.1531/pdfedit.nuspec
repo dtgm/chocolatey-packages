@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>pdfedit</id>
+    <title>PDFedit</title>
+    <version>2014.0526.1531</version>
+    <authors>Eva Peskova</authors>
+    <owners>dtgm</owners>
+    <summary>
+PDFedit is a free open source pdf editor and a library for manipulating PDF documents.
+		</summary>
+    <description>
+PDFedit includes PDF manipulating library based on xpdf, GUI, set of command line tools and a pdf editor.  You can use it to read, change and extract information from a PDF file.  The graphical interface is based on QT.
+		</description>
+    <projectUrl>http://pdfedit.cz/</projectUrl>
+    <tags>pdf, editor, library, pdf-utilities</tags>
+    <copyright>© Alexander Shaduri</copyright>
+    <licenseUrl>http://creativecommons.org/licenses/GPL/2.0/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/master/icons/pdfedit.png</iconUrl>
+		<!--<dependencies>
+      <dependency id="" />
+    </dependencies>-->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
