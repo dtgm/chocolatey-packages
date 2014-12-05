@@ -13,10 +13,13 @@ S.M.A.R.T. Monitoring Tools (smartmontools) package contains two utility program
 Smartmontools was originally derived from the Linux ​smartsuite package and actually supports ATA/ATAPI/SATA-3 to -8 disks and SCSI disks and tape devices. It should run on any modern Darwin (Mac OS X), Linux, FreeBSD, NetBSD, OpenBSD, Solaris, OS/2, Cygwin, QNX, eComStation or Windows system. Smartmontools can also be run from one of many different Live CDs/DVDs.
 
 Due to OS-specific issues and also depending on the different state of smartmontools development on the platforms, device support is not the same for all OS platforms. We provide info about RAID-controller support here on the homepage and of course in the manpages.
+
+See 'smartmontools-win' for an alternate installer with additional bundled software.
+See 'GSmartControl' for a GTK GUI interface.
 		</description>
     <projectUrl>http://www.smartmontools.org/</projectUrl>
-    <tags>daemon, command-line, hardware, hard disk drive, reporting, monitoring</tags>
-    <copyright>© </copyright>
+    <tags>daemon, command-line, hardware, disk, reporting, monitoring</tags>
+    <copyright>© Bruce Allen</copyright>
     <licenseUrl>http://www.gnu.org/licenses/gpl-2.0.html#SEC1</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
