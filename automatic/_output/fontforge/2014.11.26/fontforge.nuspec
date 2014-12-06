@@ -2,9 +2,9 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>fontforge</id>
-    <title>fontforge</title>
+    <title>FontForge</title>
     <version>2014.11.26</version>
-    <authors>Michal Trojnara</authors>
+    <authors>George Williams</authors>
     <owners>dtgm</owners>
     <summary>
 Create and edit fonts in many formats: OpenType, TrueType, AAT, PostScript, Multiple Master, CID-Keyed, SVG and various bitmap formats
@@ -22,7 +22,7 @@ FontForge allows scripting via python, or with it’s legacy scripter, has built
 - Macintosh formats, including dfont and bin
 - Bitmap formats (bdf, FON, NFNT)
 - And its own SFD format. 
-- FontForge can also extract fonts fom PDFs.
+FontForge can also extract fonts fom PDFs and validate fonts for potential issues.
 		</description>
 		<projectUrl>https://fontforge.github.io/</projectUrl>
 		<tags>font, editor, typography, unicode, python</tags>
