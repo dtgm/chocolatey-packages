@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>{{PackageName}}</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Michal Trojnara</authors>
+    <owners>dtgm</owners>
+    <summary>
+Create and edit fonts in many formats: OpenType, TrueType, AAT, PostScript, Multiple Master, CID-Keyed, SVG and various bitmap formats
+	</summary>
+    <description>
+FontForge allows scripting via python, or with it’s legacy scripter, has built-in error recovery, and allows opening, editing, and converting  any of the following formats:
+- UFO (Unified Font Object)
+- WOFF (Web Open Format)
+- TrueType
+- OpenType
+- PostScript
+- Multiple-Master
+- CFF
+- SVG
+- Macintosh formats, including dfont and bin
+- Bitmap formats (bdf, FON, NFNT)
+- And its own SFD format. 
+- FontForge can also extract fonts fom PDFs.
+		</description>
+		<projectUrl>https://fontforge.github.io/</projectUrl>
+		<tags>font, editor, typography, unicode, python</tags>
+		<copyright>© George Williams</copyright>
+		<licenseUrl>http://fontforge.github.io/en-US/about/project/license/</licenseUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/master/icons/fontforge.png</iconUrl>
+	</metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>		
+</package>
