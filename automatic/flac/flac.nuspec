@@ -16,7 +16,7 @@ FLAC supports tagging, cover art, and fast seeking. FLAC is freely available and
 		</description>
     <projectUrl>https://xiph.org/flac</projectUrl>
 		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/master/icons/flac.png</iconUrl>
-    <tags>daemon, command-line, hardware, disk, reporting, monitoring</tags>
+    <tags>audio codec lossless encoder decoder</tags>
     <copyright>© Xiph.Org Foundation</copyright>
     <licenseUrl>https://xiph.org/flac/license.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -24,9 +24,6 @@ FLAC supports tagging, cover art, and fast seeking. FLAC is freely available and
 https://xiph.org/flac/changelog.html
 https://xiph.org/flac/documentation_bugs.html
 		</releaseNotes>
-		<dependencies>
-      <dependency id="binroot" />
-    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
