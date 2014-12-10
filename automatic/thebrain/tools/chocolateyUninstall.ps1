@@ -3,9 +3,9 @@
 	$fileType = 'exe'
 	$silentArgs = '-q'
 	$validExitCodes = @(0)
-	$chocoRoot = $env:ChocolateyInstall
+	$chocoRoot = $Env:ChocolateyInstall
 	if ($chocoRoot -eq $null) {
-		$chocoRoot = "$env:programdata\chocolatey"
+		$chocoRoot = "$Env:ProgramData\chocolatey"
 	}
 	$chocoLib = Join-Path $chocoRoot 'lib'
 	if (Test-Path $chocoLib\$packageName.install.[0-9]*) { 

@@ -1,1 +1,1 @@
-﻿#Install-VirtualPackage 'thebrain.install'
+﻿#Install-VirtualPackage '{{PackageName}}.install'

@@ -6,7 +6,7 @@
 	$validExitCodes = @(0)
 	$chocoRoot = $env:ChocolateyInstall
 	if ($chocoRoot -eq $null) {
-		$chocoRoot = "$env:programdata\chocolatey"
+		$chocoRoot = "$Env:ProgramData\chocolatey"
 	}
 	$chocoLib = Join-Path $chocoRoot 'lib'
 	if (Test-Path $chocoLib\$packageMeta.[0-9]*) { 
