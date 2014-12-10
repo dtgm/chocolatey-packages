@@ -14,7 +14,7 @@ PeerBlock lets you control who your computer "talks to" on the Internet.  By sel
 * Version 1.1 currently does not support command-line switches.  Version 2.0 is expected to provide this functionality.  See https://code.google.com/p/peerblock/issues/detail?id=400
 	</description>
     <projectUrl>http://www.peerblock.com/</projectUrl>
-    <tags>hosts.deny privacy peer-to-peer network</tags>
+    <tags>hosts.deny privacy p2p network</tags>
     <copyright>© 2014 Peerblock, LLC</copyright>
     <licenseUrl>http://opensource.org/licenses/Zlib</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

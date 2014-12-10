@@ -18,7 +18,7 @@ See 'smartmontools-win' for an alternate installer with additional bundled softw
 See 'GSmartControl' for a GTK GUI interface.
 		</description>
     <projectUrl>http://www.smartmontools.org/</projectUrl>
-    <tags>daemon, command-line, hardware, disk, reporting, monitoring</tags>
+    <tags>daemon command-line hardware disk reporting monitoring</tags>
     <copyright>© Bruce Allen</copyright>
     <licenseUrl>http://www.gnu.org/licenses/gpl-2.0.html#SEC1</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

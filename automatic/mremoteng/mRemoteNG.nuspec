@@ -22,7 +22,7 @@ mRemoteNG supports the following protocols:
 * rlogin
 * Raw Socket Connections
 		</description>
-		<tags>remote, manager, rdp, vnc, ssh, ica, telnet</tags>
+		<tags>remote manager rdp vnc ssh ica telnet</tags>
 		<projectUrl>http://www.mremoteng.org/</projectUrl>
 		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/master/icons/mRemoteNG.png</iconUrl>
 		<copyright>© Ronen Tzur</copyright>

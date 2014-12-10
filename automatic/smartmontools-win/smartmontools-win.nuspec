@@ -27,7 +27,7 @@ See 'smartmontools' for installing only command-line tools smartctl and smartd.
 See 'GSmartControl' for a GTK GUI interface.
 		</description>
     <projectUrl>http://www.netpower.fr/smartmontools</projectUrl>
-    <tags>daemon, command-line, hardware, disk, reporting, monitoring, mta</tags>
+    <tags>daemon command-line hardware disk reporting monitoring mta</tags>
     <copyright>
 All rights reserved respective of each software package.  Please see respective web pages of bundled software for copyrights.
 		</copyright>
