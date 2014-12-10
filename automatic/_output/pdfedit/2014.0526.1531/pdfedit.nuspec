@@ -18,9 +18,9 @@ PDFedit includes PDF manipulating library based on xpdf, GUI, set of command lin
     <licenseUrl>http://creativecommons.org/licenses/GPL/2.0/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/master/icons/pdfedit.png</iconUrl>
-		<!--<dependencies>
-      <dependency id="" />
-    </dependencies>-->
+		<dependencies>
+      <dependency id="vcredist2010" />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
