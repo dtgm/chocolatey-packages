@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>gcstar</id>
+    <title>GCstar</title>
+    <version>1.6.1</version>
+    <authors>Christian Jodar (Tian)</authors>
+    <owners>dtgm</owners>
+    <summary>
+GCstar is a free open source application for managing your collections.
+		</summary>
+    <description>
+Detailed information on each item can be automatically retrieved from the internet with plugins and you can store additional data, such as the location or who you've lent it to. You may also search and filter your collection by many criteria.
+
+GCstar manages these collections:
+- Movies
+- Video games
+- Books
+- Music
+- Numismatic
+- Wines
+- Board games
+- Comic books
+- TV shows episodes
+- Stamps
+- Periodicals
+- Mini vehicles
+- Smart cards
+- TV shows (series)
+- Computer software
+- User defined collections
+		</description>
+    <projectUrl>http://www.gcstar.org/</projectUrl>
+		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/master/icons/gcstar.png</iconUrl>
+    <tags>collection organizer library lending</tags>
+    <copyright>© Christian Jodar</copyright>
+    <licenseUrl>http://www.gnu.org/licenses/gpl.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+http://wiki.gcstar.org/en/install_windows
+		</releaseNotes>
+		<!--<dependencies>
+      <dependency id="" />
+    </dependencies>-->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
