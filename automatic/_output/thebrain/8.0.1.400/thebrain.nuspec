@@ -9,6 +9,7 @@
     <summary>Mind mapping</summary>
     <description>
 Organize and Find Everything the Way You Think
+
 * Java-based, semantic, XML repository for thoughts and files 
 * Store can contain concept map with embedded text editor or pointers to files and URIs. (See https://en.wikipedia.org/wiki/Concept_map and https://en.wikipedia.org/wiki/File_manager)
 * Alpha-blending overlay or traditional window presentation. (Transparency or drawn on background)
@@ -22,7 +23,7 @@ Organize and Find Everything the Way You Think
     <copyright>© TheBrain Technologies LP</copyright>
     <licenseUrl>http://www.thebrain.com/about/legal/terms/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/master/icons/thebrain.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/ecf22130c4f5a79fff92f1a40a252c557f72cd71/icons/thebrain.png</iconUrl>
     <releaseNotes>http://assets.thebrain.com/documents/TheBrain%208.0%20Release%20Notes.pdf</releaseNotes>
 		<dependencies>
       <dependency id="thebrain.install" version="[8.0.1.400]" />

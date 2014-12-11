@@ -4,7 +4,7 @@
 	$fileType = 'exe'
 	$silentArgs = '-q'
 	$validExitCodes = @(0)
-	$chocoRoot = $env:ChocolateyInstall
+	$chocoRoot = $Env:ChocolateyInstall
 	if ($chocoRoot -eq $null) {
 		$chocoRoot = "$Env:ProgramData\chocolatey"
 	}
