@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>MultiBit</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Jim Burton</authors>
+    <owners>dtgm</owners>
+    <summary>MultiBit is a Simplified Payment Verification (SPV) Bitcoin desktop client</summary>
+		<description>
+MultiBit relies on the following technologies:
+
+* Maven as the build system, so the usual Maven processes apply. If you're not familiar with Maven then download it first and follow their installation instructions.
+* ZXing ("Zebra Crossing") for QR codes
+* Bitcoinj for access to the Bitcoin network
+* IzPack for creating installers for Windows, Mac, Linux
+* Bitcoinj Enforcer Rules to prevent dependency chain attacks
+* XChange for access to several Bitcoin exchanges
+
+Getting started: https://multibit.org/en/help/v0.5/help_gettingStarted.html
+		</description>
+    <projectUrl>https://multibit.org/</projectUrl>
+    <tags>cryptocurrency bitcoin digital-wallet</tags>
+    <copyright>Bitcoin Solutions Ltd</copyright>
+    <licenseUrl>http://opensource.org/licenses/mit-license.php</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/00a3de079a41f2de124bd1600f9e8fb18ba4a0d7/icons/multibit.png</iconUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
