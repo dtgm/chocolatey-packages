@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>{{packageName}}</id>
+    <title>Audacious</title>
+    <version>{{packageVersion}}</version>
+    <authors>John Lindgren</authors>
+    <owners>dtgm</owners>
+    <summary>Advanced lightweight audio player</summary>
+		<description>
+Audacious is an advanced audio player. It is free, lightweight, based on GTK+, runs on Linux and many other *nix platforms and is focused on audio quality and supporting a wide range of audio codecs.
+
+Audacious is a fork of Beep Media Player (BMP), which itself is forked from XMMS.
+		</description>
+    <projectUrl>http://audacious-media-player.org/</projectUrl>
+		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/e8eab89fcfa534b3f2e5f66985e6d4665e14774c/icons/audacious.png</iconUrl>
+    <tags>audio player equalizer</tags>
+    <copyright>© Audacious</copyright>
+    <licenseUrl>https://raw.githubusercontent.com/audacious-media-player/audacious/master/COPYING</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>http://audacious-media-player.org/news/</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

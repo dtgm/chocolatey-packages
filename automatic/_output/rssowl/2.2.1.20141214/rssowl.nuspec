@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>rssowl</id>
+		<title>RSSOwl</title>
+    <version>2.2.1.20141214</version>
+    <authors>Benjamin Pasero</authors>
+    <owners>dtgm</owners>
+    <licenseUrl>http://www.rssowl.org/legal/epl-v10.html</licenseUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>http://www.rssowl.org/</projectUrl>
+		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/0ecce39e0968d5e99c1848096edc115cb3fffb62/icons/rssowl.png</iconUrl>
+    <summary>RSSOwl is a free and powerful news feed reader</summary>   
+    <description>
+Applications that collect data from RSS-compliant sites are called RSS readers or "aggregators."  RSSOwl is such an application. RSSOwl lets you gather, organize, update, and store information from any compliant source in a convenient, easy to use interface, save selected information in various formats for offline viewing and sharing, and much more. It's easy to configure and the best of all: It's platform-independent.
+		</description>
+    <releaseNotes>https://github.com/rssowl/RSSOwl/releases/tag/</releaseNotes>
+    <copyright>RSSOwl contributors and others</copyright>
+    <tags>news newsreader rss really-simple-syndication</tags>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
