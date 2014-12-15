@@ -6,9 +6,7 @@
     <version>{{packageVersion}}</version>
     <authors>Celestia Development Team</authors>
     <owners>dtgm</owners>
-    <summary>
-Real-time 3D visualization of space
-		</summary>
+    <summary>Real-time 3D visualization of space</summary>
     <description>
 Unlike most planetarium software, Celestia doesn't confine you to the surface of the Earth. You can travel throughout the solar system, to any of over 100,000 stars, or even beyond the galaxy.
 
@@ -22,12 +20,7 @@ Celestia is expandable. Celestia comes with a large catalog of stars, galaxies, 
     <copyright>© Chris Laurel</copyright>
     <licenseUrl>http://www.gnu.org/licenses/gpl-2.0.html#SEC1</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <releaseNotes>
-http://sourceforge.net/projects/celestia/files/Celestia-win32-bin/{{packageVersion}}/
-		</releaseNotes>
-		<!--<dependencies>
-      <dependency id="" />
-    </dependencies>-->
+    <releaseNotes>http://sourceforge.net/projects/celestia/files/Celestia-win32-bin/{{packageVersion}}/</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
