@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>blat</id>
+    <title>Blat</title>
+    <version>3.2.3</version>
+    <authors>Pedro Mendes, Mark Neal</authors>
+    <owners>dtgm</owners>
+    <summary>Command line SMTP mailer</summary>
+    <description>
+Blat is a small, efficent SMTP command line mailer for Windows. It is the SMTP *sending* part of an eMail User Agent (MUA) or eMail client. As such, Blat sends eMail via SMTP (or internet eMail) from the command line.
+
+Source code: http://sourceforge.net/projects/blat/files/Blat%20Source/
+		</description>
+    <projectUrl>http://www.blat.net/</projectUrl>
+		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/14865b351088f3886148a71cff54b8ccf66f452c/icons/blat.png</iconUrl>
+    <tags>email smtp mua command-line</tags>
+    <copyright>See source code</copyright>
+    <licenseUrl>http://www.blat.net/?docs/license.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>http://www.blat.net/?docs/ChangeLog.txt</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
