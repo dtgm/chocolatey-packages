@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>{{packageName}}</id>
+    <title>Freeplane</title>
+    <version>{{packageVersion}}</version>
+    <authors>Dimitry Polivaev,Volker Börchers</authors>
+    <owners>dtgm</owners>
+    <licenseUrl>http://en.wikipedia.org/wiki/GNU_General_Public_License</licenseUrl>
+    <projectUrl>http://freeplane.sourceforge.net/wiki/index.php/Home</projectUrl>
+		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/7886488357baf09108407cd5b103a9b927450454/icons/freeplane.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<summary>Freeplane is a free, open source mind mapping program</summary>
+    <description>
+Freeplane is a free and open source software application that supports thinking, sharing information and getting things done at work, in school and at home. The software can be used for mind mapping and analyzing the information contained in mind maps. Freeplane runs on any operating system that has a current version of Java installed. It can be run locally or portably from removable storage like a USB drive. 
+
+Originally based on FreeMind.  
+
+For more information, see http://freeplane.sourceforge.net/wiki/index.php/Goals
+		</description>
+    <releaseNotes>http://freeplane.sourceforge.net/wiki/index.php/Category:Change_log</releaseNotes>
+    <copyright />
+    <tags>freemind diagram mindmap graph visualization</tags>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
