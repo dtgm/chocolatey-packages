@@ -11,16 +11,9 @@ if ($chocoRoot -eq $null) {
 }
 $scriptPath = Split-Path -parent $MyInvocation.MyCommand.Definition
 $ahkFile = "$scriptPath\sandboxie.ahk"
-
-try {
-	Start-Process 'AutoHotKey' $ahkFile
-	if (Test-Path $chocoRoot\lib\$packageName.[0-9]*) { 
-		Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgsUpgrade" "$url" "$url64" -validExitCodes $validExitCodes
-	} else {
-		Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgsInstall" "$url" "$url64" -validExitCodes $validExitCodes
-	}
-	Write-ChocolateySuccess $packageName
-} catch {
-	Write-ChocolateyFailure $packageName $($_.Exception.Message)
-	throw
+Start-Process 'AutoHotKey' $ahkFile
+if (Test-Path $chocoRoot\lib\$packageName.[0-9]*) { 
+	Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgsUpgrade" "$url" "$url64" -validExitCodes $validExitCodes
+} else {
+	Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgsInstall" "$url" "$url64" -validExitCodes $validExitCodes
 }
