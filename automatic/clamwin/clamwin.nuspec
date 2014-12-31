@@ -15,7 +15,7 @@ AV that comes with an easy installer and open source code.
 Please note that ClamWin Free Antivirus does not include an on-access real-time scanner. You need to manually scan a file in order to detect a virus or spyware.
 		</description>
     <projectUrl>http://www.clamwin.com/</projectUrl>
-    <tags>antivirus virus-scanner no-real-time</tags>
+    <tags>antivirus virus-scanner no-real-time-scan notsilent</tags>
     <copyright>ClamWin Pty Ltd.</copyright>
     <licenseUrl>http://www.clamwin.com/content/view/226/52/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
