@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>pulse</id>
+    <title>Pulse</title>
+    <version>0.1.4</version>
+    <authors>ind.ie</authors>
+    <owners>dtgm</owners>
+    <summary>Distributed file synchronisation engine</summary>
+		<description>
+Synchronise your files without also sharing them with a stranger in the cloud.  Pulse is a low-level synchronisation engine for developers and technically-savvy users. If the thought of opening up a Terminal window makes you feel queasy, wait for Heartbeat.
+
+*  Private. Your data is only stored on your own devices. You don’t have to share with a stranger in a cloud.
+*  Encrypted. All communication is secured using TLS. Uses perfect forward secrecy to prevent eavesdroppers from ever gaining access to your data.
+*  Authenticated. Every node is identified by a strong cryptographic certificate. Only nodes you have explicitly allowed can connect to your cluster.
+*  Source code is available under GNU GPL v3 or later: https://source.ind.ie/project/pulse/tree/master
+*  Fork of Syncthing 
+
+For developers, Pulse offers a:
+
+*  simple and straighforward workflow.
+*  Web UI. Configure and monitor Pulse via a responsive and powerful interface accessible via your browser.
+*  Portable. Works on Mac OS X, Windows, Linux, FreeBSD and Solaris. Run it on your desktop computers and synchronise them with your server for backup.
+*  Simple. Pulse doesn't need IP addresses or advanced configuration. It just works over LAN and over the Internet. Every machine is identified by an ID. Just give your ID to you friends, share a folder, and watch.
+*  Powerful. Synchronise as many folders as you need with different people.
+		</description>
+    <projectUrl>https://ind.ie/pulse/</projectUrl>
+		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/341e0a0169c6f598cdb86b184b666d5108117790/icons/pulse.png</iconUrl>
+    <tags>api backup synchronisation engine</tags>
+    <copyright>https://ind.ie/</copyright>
+    <licenseUrl>https://source.ind.ie/project/pulse/tree/master#license</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>https://ind.ie/pulse/blog/pulse-release-0.1.4</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
