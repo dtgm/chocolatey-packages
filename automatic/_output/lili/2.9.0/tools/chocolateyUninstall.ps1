@@ -1,5 +1,6 @@
 try {
 	$packageName = 'lili'
+	$packageNameUn = 'LinuxLive'
 	$fileType = 'exe'
 	$silentArgs = '/S'
 	$validExitCodes = @(0)
@@ -10,8 +11,11 @@ try {
 	} else {
 		$unPath = 'HKLM:SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall'
 	}
-	$unString = (Get-ItemProperty $unPath\$packageName* UninstallString).UninstallString
-	Uninstall-ChocolateyPackage "$packageName" "$fileType" "$silentArgs" "$unFile" -validExitCodes $validExitCodes
+	$unProg = (Get-ItemProperty $unPath\$packageNameUn* UninstallString).UninstallString
+	if ($unProg | select-string -pattern /) {
+		$unProg = "$unProg" | %{ $_.Split(' /')[0]; }
+	}
+	Uninstall-ChocolateyPackage "$packageName" "$fileType" "$silentArgs" "$unProg" -validExitCodes $validExitCodes
 } catch {
   Write-ChocolateyFailure "$packageName" "$($_.Exception.Message)"
   throw 

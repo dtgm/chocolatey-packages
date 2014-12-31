@@ -9,7 +9,7 @@
 	if (![System.IO.Directory]::Exists($pkgTempDir)) {[System.IO.Directory]::CreateDirectory($pkgTempDir)}
 	Get-ChocolateyWebFile "$packageName" "$tempFile" "$url"
 	Copy-Item "$tempFile" "$installDir"
-	$exeFile = "$((Get-ChildItem "$installDir\rufus.exe")[0].Fullname)"
+	$exeFile = (Get-ChildItem "$installDir\rufus.exe" FullName).FullName
 	Remove-BinFile "$packageName" "$exeFile"
 	Generate-BinFile "$packageName" "$exeFile"
 	Write-ChocolateySuccess "$packageName"
