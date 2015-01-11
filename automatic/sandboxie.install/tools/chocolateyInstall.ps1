@@ -2,8 +2,10 @@
 $installerType = 'exe'
 $url  = '{{DownloadUrl}}'
 $url64 = '{{DownloadUrlx64}}'
-$silentArgsInstall = '/install /S /D=C:\Program Files\Sandboxie'
-$silentArgsUpgrade = '/upgrade /S'
+$checksum = '{{Checksum}}'
+$checksumType = 'sha1'
+$checksum64 = '{{Checksum64}}'
+$checksumType64 = 'sha1'
 $validExitCodes = @(0)
 $chocoRoot = $env:ChocolateyInstall
 if ($chocoRoot -eq $null) {
@@ -12,8 +14,9 @@ if ($chocoRoot -eq $null) {
 $scriptPath = Split-Path -parent $MyInvocation.MyCommand.Definition
 $ahkFile = "$scriptPath\sandboxie.ahk"
 Start-Process 'AutoHotKey' $ahkFile
-if (Test-Path $chocoRoot\lib\$packageName.[0-9]*) { 
-	Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgsUpgrade" "$url" "$url64" -validExitCodes $validExitCodes
+if (Test-Path $Env:ProgramFiles\$packageName*) { 
+	$silentArgs = '/upgrade /S'
 } else {
-	Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgsInstall" "$url" "$url64" -validExitCodes $validExitCodes
+	$silentArgs = '/install /S /D=C:\Program Files\Sandboxie'
 }
+Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgsInstall" "$url" "$url64" -validExitCodes $validExitCodes -checksum "$checksum" -checksumType "$checksumType" -checksum64 "$checksum64" -checksumType64 "$checksumType64"

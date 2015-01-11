@@ -8,7 +8,7 @@
     <owners>dtgm</owners>
     <summary>
 Create and edit fonts in many formats: OpenType, TrueType, AAT, PostScript, Multiple Master, CID-Keyed, SVG and various bitmap formats
-	</summary>
+		</summary>
     <description>
 FontForge allows scripting via python, or with it’s legacy scripter, has built-in error recovery, and allows opening, editing, and converting  any of the following formats:
 - UFO (Unified Font Object)
@@ -25,11 +25,12 @@ FontForge allows scripting via python, or with it’s legacy scripter, has built
 FontForge can also extract fonts fom PDFs and validate fonts for potential issues.
 		</description>
 		<projectUrl>https://fontforge.github.io/</projectUrl>
-		<tags>font editor typography unicode python</tags>
+		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/dae38b347795b2d67214a2a771769720067af18f/icons/fontforge.png</iconUrl>
+		<tags>font-editor typography unicode python</tags>
 		<copyright>© George Williams</copyright>
 		<licenseUrl>http://fontforge.github.io/en-US/about/project/license/</licenseUrl>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
-		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/master/icons/fontforge.png</iconUrl>
+		<releaseNotes>https://github.com/fontforge/fontforge/releases</releaseNotes>
 	</metadata>
   <files>
     <file src="tools\**" target="tools" />
