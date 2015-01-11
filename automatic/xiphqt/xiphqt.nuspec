@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>{{packageName}}</id>
+    <title>Xiph QuickTime Components</title>
+    <version>{{packageVersion}}</version>
+    <authors>Xiph Open Source Community</authors>
+    <owners>dtgm</owners>
+    <summary>QuickTime codecs for Ogg Vorbis, Speex, Theora, FLAC, and WebM</summary>
+    <description>
+Xiph QuickTime Components (XiphQT) is a set of QuickTime and Macintosh OS X plug-ins. Their role is to provide support for Xiph media compression and container formats.
+
+If you are an end user: installing XiphQT components is all you need to start using Xiph-formatted media files in a variety of applications - for example, listening to Ogg/Vorbis files in QuickTime Player or iTunes. The programming interfaces used in XiphQT allow the provided functionality to be available transparently to all media handling applications using QuickTime or OS X component mechanisms.
+
+If you are a programmer, you have built a Macintosh Core Audio or QuickTime-based application and would like to add Xiph formats support: most of the time there is hardly anything you will need to do to add support.
+		</description>
+    <projectUrl>http://www.xiph.org/quicktime/</projectUrl>
+		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/ae10945a00d196e50135c49ccfabc23f770f456f/icons/xiphqt.png</iconUrl>
+    <tags>quicktime codec ogg vorbis speex theora flac</tags>
+    <copyright>© Xiph.Org</copyright>
+    <licenseUrl>http://www.fsf.org/licensing/licenses/lgpl.html#TOC1</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>http://www.xiph.org/quicktime/release_notes.html</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

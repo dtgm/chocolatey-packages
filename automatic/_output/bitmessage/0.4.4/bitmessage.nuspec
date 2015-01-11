@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>bitmessage</id>
+    <title>Bitmessage</title>
+    <version>0.4.4</version>
+    <authors>Jonathan Warren</authors>
+    <owners>dtgm</owners>
+    <summary>P2P communications protocol used to send encrypted messages to another person or to many subscribers</summary>
+    <description>
+Bitmessage is decentralized and trustless, meaning that you need-not inherently trust any entities like root certificate authorities. It uses strong authentication which means that the sender of a message cannot be spoofed, and it aims to hide "non-content" data, like the sender and receiver of messages, from passive eavesdroppers like those running warrantless wiretapping programs.
+		</description>
+    <projectUrl>https://bitmessage.org</projectUrl>
+		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/6d62152d981c1afc00a360815217e81aaf19c74b/icons/bitmessage.png</iconUrl>
+    <tags>encryption p2p privacy communications</tags>
+    <copyright>© Bitmessage</copyright>
+    <licenseUrl>http://opensource.org/licenses/mit-license.php</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>https://bitmessage.org/wiki/Changelog</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

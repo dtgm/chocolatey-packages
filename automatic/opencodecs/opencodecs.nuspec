@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>{{packageName}}</id>
+    <title>Open Codecs</title>
+    <version>{{packageVersion}}</version>
+    <authors>Xiph Open Source Community</authors>
+    <owners>dtgm</owners>
+    <summary>Directshow Filters for Ogg Vorbis, Speex, Theora, FLAC, and WebM</summary>
+    <description>
+Xiph.org Directshow Filters for Ogg Vorbis, Speex, Theora, FLAC, and WebM as well as Annodex
+		
+If you are a Windows user who wants to be able to listen to .ogg files in Windows Media Player, Winamp, foobar2000 or other DirectShow-based media players, then this is what you want. The Xiph.org DirectShow filters support playing of files encoded with Vorbis, Speex, Theora, and/or FLAC.
+
+The latest development version is always available through SVN at http://svn.xiph.org/trunk/oggdsf/
+
+WebM support is based on versioned snapshots from WebM Project.  See http://code.google.com/p/webm/downloads/list
+
+Note: Xiph.org changed the install filename after version 0.83.17220.  The installer filename was previously "oggcodecs".  Oggcodecs did not include WebM or Annodex codecs.
+		</description>
+    <projectUrl>http://xiph.org/dshow/</projectUrl>
+		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/65e9d9f0fcea7687d7d938a7ce2b18bb1cd2415f/icons/xifish.png</iconUrl>
+    <tags>directshow codec ogg vorbis speex theora flac webm annodex</tags>
+    <copyright>© Xiph.Org</copyright>
+    <licenseUrl>http://www.xiph.org/licenses/bsd/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>http://xiph.org/dshow/news/</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
