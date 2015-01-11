@@ -33,9 +33,9 @@ http://www.sandboxie.com/index.php?KnownConflicts
 http://www.sandboxie.com/index.php?FrequentlyAskedQuestions
 http://www.sandboxie.com/index.php?FAQ_Licensing
 		</releaseNotes>
-		<!--<dependencies>
-      <dependency id="" />
-    </dependencies>-->
+		<!-- <dependencies>
+			<dependency id="autohotkey.portable" />
+		</dependencies> -->
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
