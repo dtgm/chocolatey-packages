@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>{{packageName}}</id>
+    <title>dupeGuru</title>
+    <version>{{packageVersion}}</version>
+    <authors>Virgil Dupras</authors>
+    <owners>dtgm</owners>
+    <summary>Find duplicate files on your computer</summary>
+    <description>
+dupeGuru is a tool to find duplicate files on your computer. It can scan either filenames or contents. The filename scan features a fuzzy matching algorithm that can find duplicate filenames even when they are not exactly the same. dupeGuru runs on Windows, Mac OS X and Linux.
+
+dupeGuru is efficient. Find your duplicate files in minutes, thanks to its quick fuzzy matching algorithm. dupeGuru not only finds filenames that are the same, but it also finds similar filenames.
+
+dupeGuru is customizable. You can tweak its matching engine to find exactly the kind of duplicates you want to find. The Preference page of the help file lists all the scanning engine settings you can change.
+
+dupeGuru is safe. Its engine has been especially designed with safety in mind. Its reference directory system as well as its grouping system prevent you from deleting files you didn't mean to delete.
+
+Do whatever you want with your duplicates. Not only can you delete duplicates files dupeGuru finds, but you can also move or copy them elsewhere. There are also multiple ways to filter and sort your results to easily weed out false duplicates (for low threshold scans).
+
+Supported languages: English, French, German, Chinese (Simplified), Czech, Italian, Armenian, Russian, Ukrainian, Brazilian, Vietnamese.
+
+Source code: https://github.com/hsoft/dupeguru
+		</description>
+    <projectUrl>http://www.hardcoded.net/dupeguru/</projectUrl>
+		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/5c5623fdb9144eefc5123721d8af21f8f2122648/icons/{{packageName}}.png</iconUrl>
+    <tags>file deduplication</tags>
+    <copyright>© Hardcoded Software</copyright>
+    <licenseUrl>https://raw.githubusercontent.com/hsoft/dupeguru/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>http://www.hardcoded.net/dupeguru/help/en/changelog.html</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
