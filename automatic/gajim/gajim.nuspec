@@ -10,7 +10,7 @@
     <description>
 The goal of Gajim is to provide a full featured and easy to use Jabber/XMPP client. Gajim works nicely with GNOME, but does not require it to run. It is released under the GNU General Public License.  Gajim uses a fork of the xmpppy library to do the interface with Jabber network.
 
-Features
+### Features
 
 * Tabbed chat window and single window modes
 * Group chat support (with Multi-User Chat protocol), invitation, chat to group chat transformation, minimize group chat to roster

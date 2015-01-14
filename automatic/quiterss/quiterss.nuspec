@@ -16,7 +16,7 @@ QuiteRSS is a open-source cross-platform RSS/Atom news feeds reader written on Q
 
 Idea: Quite fast and comfortable to user
 
-Features
+### Features
 
 * Embedded browser (Webkit core)
 * Feed and news filters: new, unread, starred, deleted (for news until restart application)
@@ -41,7 +41,10 @@ Features
 * Free working set (Windows)
 * Cross-platform: written in C++ and Qt
 * Multilingual: English, Arabic, Chinese (China), Chinese (Taiwan), Czech, Dutch, Farsi, Finnish, French, Galician, German, Greek, Hungarian, Italian, Japanese, Korean, Lithuanian, Polish, Portuguese (Brazil), Portuguese (Portugal), Romanian, Russian, Serbian, Slovak, Spanish, Swedish, Tajik, Turkish, Ukrainian, Vietnamese
-* Open-source: https://code.google.com/p/quite-rss/
+
+### Source code
+
+* https://code.google.com/p/quite-rss/
 		</description>
     <releaseNotes>http://quiterss.org/en/history</releaseNotes>
     <copyright>QuiteRSS Team</copyright>

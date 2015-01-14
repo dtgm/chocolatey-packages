@@ -6,10 +6,12 @@
     <version>{{PackageVersion}}</version>
     <authors>Jim Willsher, TGRMN Software</authors>
     <owners>dtgm</owners>
-    <summary>
-Allows you to easily rename files and folders recursively based upon find-replace, character place, fields, sequences, regular expressions, EXIF data, and more.
-		</summary>
+    <summary>Rename multiple files quickly with previews and undo</summary>
     <description>
+Bulk Rename Utility allows you to easily rename files and folders recursively based upon find-replace, character place, fields, sequences, regular expressions, EXIF data, and more.
+		
+### Features
+
 * Rename multiple files quickly, according to many flexible criteria.
 * Rename files in many ways: add, replace, insert text into file names. Convert case, add numbers. Remove or change file extensions.
 * Check the detailed preview before renaming.

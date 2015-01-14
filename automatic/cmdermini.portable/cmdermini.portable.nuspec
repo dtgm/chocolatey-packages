@@ -18,6 +18,8 @@ This package uncompresses to 7 MB and does not include Unix integration via msys
 See cmder (250 MB) for enhanced console with Unix utilities via msysgit
 
 By default, this package installs into $BinRoot\cmdermini
+
+Source code: https://github.com/bliker/cmder
 		</description>
     <projectUrl>http://bliker.github.io/cmder/</projectUrl>
     <tags>portable console command-line terminal</tags>

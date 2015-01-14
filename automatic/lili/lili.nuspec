@@ -10,7 +10,7 @@
     <description>
 LinuxLive USB Creator is a free and open-source software for Windows to create bootable USB flash drives or immediate virtualized instances of Linux distributions.
 
-Features
+### Features
 
 * No reboot needed; built-in virtualization lets you run your Linux within Windows
 * Intelligent processing: LiLi works with many Linux, even if they are not officially supported
@@ -24,7 +24,9 @@ Features
 Supports hundreds of Linux distributions: http://www.linuxliveusb.com/en/supported-linuxes
 Not able to create bootable images of BSD, Mac OSX, or Microsoft Windows operating systems.
 
-Open source: http://www.linuxliveusb.com/en/about/sources
+### Source code
+
+* http://www.linuxliveusb.com/en/about/sources
 		</description>
     <releaseNotes>http://www.linuxliveusb.com/en/release-notes</releaseNotes>
 		<language>en-us</language>

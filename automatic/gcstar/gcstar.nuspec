@@ -12,24 +12,24 @@ GCstar is a free open source application for managing your collections.
     <description>
 Detailed information on each item can be automatically retrieved from the internet with plugins and you can store additional data, such as the location or who you've lent it to. You may also search and filter your collection by many criteria.
 
-GCstar manages these collections:
+### Supported file collection types
 
-- Movies
-- Video games
-- Books
-- Music
-- Numismatic
-- Wines
-- Board games
-- Comic books
-- TV shows episodes
-- Stamps
-- Periodicals
-- Mini vehicles
-- Smart cards
-- TV shows (series)
-- Computer software
-- User defined collections
+* Movies
+* Video games
+* Books
+* Music
+* Numismatic
+* Wines
+* Board games
+* Comic books
+* TV shows episodes
+* Stamps
+* Periodicals
+* Mini vehicles
+* Smart cards
+* TV shows (series)
+* Computer software
+* User defined collections
 		</description>
     <projectUrl>http://www.gcstar.org/</projectUrl>
 		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/master/icons/gcstar.png</iconUrl>

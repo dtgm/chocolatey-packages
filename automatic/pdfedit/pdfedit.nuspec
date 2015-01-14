@@ -6,9 +6,7 @@
     <version>{{packageVersion}}</version>
     <authors>Eva Peskova</authors>
     <owners>dtgm</owners>
-    <summary>
-PDFedit is a free open source pdf editor and a library for manipulating PDF documents.
-		</summary>
+    <summary>Free open source pdf editor and a library for manipulating PDF documents.</summary>
     <description>
 PDFedit includes PDF manipulating library based on xpdf, GUI, set of command line tools and a pdf editor.  You can use it to read, change and extract information from a PDF file.  The graphical interface is based on QT.
 		</description>

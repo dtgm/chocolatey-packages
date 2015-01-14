@@ -22,4 +22,3 @@
 	Write-ChocolateyFailure $packageName $($_.Exception.Message)
 	throw
 }
-

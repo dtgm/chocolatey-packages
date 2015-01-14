@@ -19,6 +19,8 @@ This package uncompresses to 250 MB and includes Unix commands via msysgit
 See cmdermini (7 MB) for basic console without msysgit
 
 By default, this package installs into $BinRoot\cmder
+
+Source code: https://github.com/bliker/cmder
 		</description>
     <projectUrl>http://bliker.github.io/cmder/</projectUrl>
     <tags>portable console command-line terminal</tags>
@@ -26,15 +28,7 @@ By default, this package installs into $BinRoot\cmder
     <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/bliker/cmder/master/icons/icon_48.png</iconUrl>
-    <releaseNotes>
-* Added git prompt
-* Spaces in path are now tolerated
-* Home path is set correctly
-* Much better aliases
-* Changed powershell/cmd shortcut to shift + alt + #
-* Vim path is now loaded
-* Smarter aliases
-		</releaseNotes>
+    <releaseNotes>https://github.com/bliker/cmder/releases</releaseNotes>
 		<dependencies>
       <dependency id="cmder.portable" />
     </dependencies>
