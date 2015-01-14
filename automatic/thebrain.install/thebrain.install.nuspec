@@ -10,13 +10,18 @@
     <description>
 Organize and Find Everything the Way You Think
 
+### Features
+
 * Java-based, semantic, XML repository for thoughts and files 
 * Store can contain concept map with embedded text editor or pointers to files and URIs. (See https://en.wikipedia.org/wiki/Concept_map and https://en.wikipedia.org/wiki/File_manager)
 * Alpha-blending overlay or traditional window presentation. (Transparency or drawn on background)
 * Indexed search and statistical usage tracking with data visualization. (Fast search and info graphs about which concepts you work on)
 
-* Installs 30 day trial version with all features unlocked.
-* After 30 days, some advanced features are disabled.  See http://www.thebrain.com/store/version-details/ for details.
+### Commercial (Free with limited functionality)
+
+* Upon install, all features of the software are available for your trial.
+* After 30 days, all content created with advanced features remains accessible indefinitely.  Some advanced features are disabled and may be restored at any time by purchasing a license.  
+* For a comparison matrix of features supported by each license, see http://www.thebrain.com/store/version-details/
 		</description>
     <projectUrl>http://www.thebrain.com/</projectUrl>
     <tags>mindmap brainstorm concept-map file-management</tags>
