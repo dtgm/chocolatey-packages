@@ -1,6 +1,6 @@
 ﻿try {
 	$packageName = '{{PackageName}}'
-	$packageId = 'Auslogics Duplicate'
+	$packageUn = 'Auslogics Duplicate'
 	$fileType = 'exe'
 	$silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP'
 	$validExitCodes = @(0)
@@ -10,7 +10,7 @@
 	} else {
 		$unPath = 'HKLM:SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall'
 	}
-	$unString = (Get-ItemProperty "$unPath\*" | Where-Object {$_.DisplayName -like "$packageId*"}).UninstallString
+	$unString = (Get-ItemProperty "$unPath\*" | Where-Object {$_.DisplayName -like "$packageUn*"}).UninstallString
 	Uninstall-ChocolateyPackage "$packageName" "$fileType" "$silentArgs" "$unString" -validExitCodes $validExitCodes
   Write-ChocolateySuccess $packageName
 } catch {

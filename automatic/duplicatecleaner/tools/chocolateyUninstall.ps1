@@ -1,6 +1,6 @@
 ﻿try {
 	$packageName = '{{PackageName}}'
-	$packageId = 'Duplicate Cleaner Free'
+	$packageUn = 'Duplicate Cleaner Free'
 	$fileType = 'exe'
 	$silentArgs = '/S'
 	$validExitCodes = @(0)
@@ -10,7 +10,7 @@
 	} else {
 		$unPath = 'HKLM:SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall'
 	}
-	$unString = (Get-ItemProperty "$unPath\$packageId*" UninstallString).UninstallString
+	$unString = (Get-ItemProperty "$unPath\$packageUn*" UninstallString).UninstallString
 	Uninstall-ChocolateyPackage "$packageName" "$fileType" "$silentArgs" "$unString" -validExitCodes $validExitCodes
   Write-ChocolateySuccess $packageName
 } catch {

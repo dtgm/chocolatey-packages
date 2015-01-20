@@ -4,7 +4,7 @@ $url  = '{{DownloadUrl}}'
 $url64 = '{{DownloadUrlx64}}'
 $checksum = '{{Checksum}}'
 $checksumType = 'sha1'
-$checksum64 = '{{Checksum64}}'
+$checksum64 = '{{Checksumx64}}'
 $checksumType64 = 'sha1'
 $validExitCodes = @(0)
 $chocoRoot = $env:ChocolateyInstall
@@ -19,4 +19,4 @@ if (Test-Path $Env:ProgramFiles\$packageName*) {
 } else {
 	$silentArgs = '/install /S /D=C:\Program Files\Sandboxie'
 }
-Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgsInstall" "$url" "$url64" -validExitCodes $validExitCodes -checksum "$checksum" -checksumType "$checksumType" -checksum64 "$checksum64" -checksumType64 "$checksumType64"
+Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgsInstall" "$url" "$url64" -validExitCodes $validExitCodes -checksum "$checksum" -checksumType "$checksumType" -checksum64 "$checksum64" -checksumType64 "$checksumTypex64"
