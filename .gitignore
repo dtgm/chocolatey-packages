@@ -4,6 +4,7 @@
 *.suo
 *.bak
 *.orig
+*-orig.*
 *.nupkg
 Thumbs.db
 .DS_Store
