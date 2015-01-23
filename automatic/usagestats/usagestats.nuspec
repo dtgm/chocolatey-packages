@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>{{packageName}}</id>
+    <title>Usage Statistics</title>
+    <version>{{packageVersion}}</version>
+    <authors>Oystein Bjorke</authors>
+    <owners>dtgm</owners>
+    <summary>Generates statistics on the usage of keyboard and mouse</summary>
+    <description>
+This application generates statistics on the usage of keyboard and mouse.
+		
+### Mouse
+
+* Record mouse travel distance and number of mouse clicks
+* Record mouse wheel scrolling
+* Clicks per hour
+* Mouse track map (draws the mouse cursor track)
+* Drag track map (draws lines when mouse is down)
+* Click map (draws a point at each click)
+* Double click map (draws a point at each double-click)
+* Active mouse time (total time when the mouse has been in use)
+
+### Keyboard
+
+* Record keyboard strokes
+* Keystrokes per hour
+* Key frequency
+* Active keyboard time
+
+### Applications
+
+* Record time per application
+* Report mouse and keyboard usage per application
+
+### Interruptions
+
+* Records interruptions (no mouse/keyboard activity for a given time)
+* Interruptions per hour
+
+### Reports
+
+* Automatically stored as .txt and .png
+		</description>
+    <projectUrl>https://github.com/objorke/usagestats</projectUrl>
+		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/master/icons/{{packageName}}.png</iconUrl>
+    <tags>self-monitoring ui-development usage</tags>
+    <copyright>© Oystein Bjorke</copyright>
+    <licenseUrl>https://raw.githubusercontent.com/objorke/UsageStats/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>https://github.com/objorke/UsageStats/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
