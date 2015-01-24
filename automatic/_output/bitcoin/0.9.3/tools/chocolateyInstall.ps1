@@ -1,0 +1,1 @@
+#Install-VirtualPackage 'bitcoin.install' 'bitcoin.portable'
