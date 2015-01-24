@@ -2,5 +2,5 @@
 $installerType = 'EXE'
 $url  = '{{DownloadUrl}}'
 $silentArgs = '/S'
-
-Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url"
+$validExitCodes = @(0)
+Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url" -validExitCodes $validExitCodes

@@ -1,7 +1,9 @@
 ﻿$packageName = '{{PackageName}}'
 $packageVersion = '{{PackageVersion}}'
 $binRoot = Get-BinRoot
+echo "$binRoot"
 $installDir = Join-Path $binRoot "cmder"
+echo "$installDir"
 
 try { 
 	if (Test-Path $installDir){

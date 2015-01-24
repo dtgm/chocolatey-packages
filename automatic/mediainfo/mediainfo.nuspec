@@ -8,7 +8,7 @@
     <owners>dtgm</owners>
     <licenseUrl>http://mediaarea.net/en/MediaInfo/License</licenseUrl>
     <projectUrl>http://mediaarea.net/en/MediaInfo</projectUrl>
-    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/ad658697897280e5421cfbab5dc67f9e32957b63/icons/mediainfo.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/63827a08643582e89d636e350bfa8aa6c62eab55/icons/{{PackageName}}.svg</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <summary>Unified display of the most relevant technical and tag data for video and audio files</summary>
 		<description>
