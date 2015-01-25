@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>PandaBank</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Pandacoin Developers</authors>
+    <owners>dtgm</owners>
+    <summary>Decentralized, peer-to-peer (P2P) transactional system which achieves consensus via distributed proof-of-stake computing</summary>
+		<description>
+Pandabank manages and provides secure storage of your Pandacoins while earning 2.5% annual interest.  Pandacoin is different from Bitcoin or Litecoin in that coins can be earned without expensive mining equipment.  New pandacoins are generated from existing pandacoins at a rate of 2.5% per annum.  This occurs while PandaBank is running and requires negligible system resources.
+
+Pandacoin is a peer-to-peer Internet currency that enables instant, near-zero cost payments to anyone in the world. Pandacoin is an open source, global payment network that is fully decentralized without any central authorities. Mathematics secures the network and empowers individuals to control their own finances. Pandacoin features faster transaction confirmation times and improved storage efficiency than the leading math-based currency. With substantial industry support, trade volume and liquidity, Pandacoin is a proven medium of commerce complementary to Bitcoin.
+
+Pandacoin is a fork of Dogecoin.  The modifications to the network protocol are: 
+
+* proof-of-stake algorithm
+* 2.5% annual inflation
+
+### Disk Requirements - Pandacoin blockchain (public transactional database) size
+
+* {{PackageGuid}}
+
+### Previous Version Compatibility - Pandacoin blockchain hard-forks
+
+* http://pandacoinpnd.org/news/
+
+### Pandacoin Android wallet
+
+* https://play.google.com/store/apps/details?id=cc.pandacoin.wallet
+
+### Source code
+
+* https://github.com/Pandacoin-project/Pandacoin
+		</description>
+    <projectUrl>https://PandaCoinPND.org/</projectUrl>
+		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/ec866b7e9220d8ac105ae7b0b19f1e1f7677377a/icons/pandacoin.png</iconUrl>
+    <tags>pandacoin pnd wallet cryptocurrency p2p</tags>
+    <copyright>© Pandacoin Project</copyright>
+    <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>https://github.com/pandacoin-official/pandacoin/releases/</releaseNotes>
+		<dependencies>
+			<dependency id="{{PackageName}}.install" />
+    </dependencies>
+		</metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

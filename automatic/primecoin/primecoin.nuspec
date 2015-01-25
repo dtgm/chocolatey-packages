@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>Primecoin Wallet</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Primecoin Developers</authors>
+    <owners>dtgm</owners>
+    <summary>Decentralized, peer-to-peer (P2P) transactional system which achieves consensus via distributed computing</summary>
+    <description>
+Primecoin is an innovative cryptocurrency, a form of digital currency secured by cryptography and issued through a decentralized mining market. Derived from Satoshi Nakamoto's Bitcoin, Primecoin introduces an unique form of proof-of-work based on prime numbers, and is the first cryptocurrency in the world designed with scientific computing as its work.
+
+The innovative prime proof-of-work in Primecoin not only provides security and minting to the network, but also generates a special form of prime number chains of interest to mathematical research. Thus Primecoin network is energy-multiuse, compared to bitcoin network. Primecoin is designed to sustain a prosperous mining market and high level of security, while maintaining good scarcity property like gold. Primecoin also processes payment transactions 10x faster than bitcoin network.
+
+### Disk Requirements - Primecoin blockchain (public transactional database) size
+
+* {{PackageGuid}} 
+
+### Source code
+
+* http://sourceforge.net/projects/primecoin/
+		</description>
+    <projectUrl>http://primecoin.io/</projectUrl>
+		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/5ddac7b24255386ee6dad21cbb37e8bffffcb1fa/icons/{{PackageName}}.png</iconUrl>
+    <tags>primecoin xpm wallet cryptocurrency p2p</tags>
+    <copyright>© Primecoin</copyright>
+    <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>https://github.com/primecoin/primecoin/wiki/Versions-and-alerts</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>peercoin</id>
+    <title>Peercoin (PPCoin) Wallet</title>
+    <version>0.4.0</version>
+    <authors>Sunny King,Peercoin Developers</authors>
+    <owners>dtgm</owners>
+    <summary>First Energy-Efficient Cryptocurrency</summary>
+    <description>
+Peercoin is a peer-to-peer Internet currency that enables instant, near-zero cost payments to anyone in the world.  Peercoin is an open source, global payment network that is fully decentralized without any central authorities. Mathematics secures the network and empowers individuals to control their own finances.
+
+Peercoin was launched in 2012, making it one of the oldest and most reliable cryptocoin networks in existence.  Peercoin is the first proof-of-stake coin, which means it doesn’t require massive computing power to secure the network.  After Peercoins are held for 30 days, they are eligible to earn a 1% annualized reward.
+
+### Disk Requirements - Peercoin blockchain (public transactional database) size
+
+* As of 24 January 2015, the total size of the PPC blockchain was 0.3565 GB 
+
+### Peercoin technical details
+
+* http://peercoin.net/whitepaper
+
+### Source code
+
+* https://github.com/Peercoin-project/Peercoin
+		</description>
+    <projectUrl>http://peercoin.net/</projectUrl>
+		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/98953ed93f47326e931ea17fac706dec91f98044/icons/peercoin.png</iconUrl>
+    <tags>peercoin ppcoin ppc wallet cryptocurrency p2p</tags>
+    <copyright>© Peercoin Project</copyright>
+    <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>Feathercoin Wallet</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Feathercoin Developers</authors>
+    <owners>dtgm</owners>
+    <summary>Decentralized, peer-to-peer (P2P) transactional system which achieves consensus via distributed computing</summary>
+    <description>
+Feathercoin is a powerful open source digital currency with monetary properties likened to Bitcoin, Litecoin and a myriad of countless alt coins, but under the hood is something very different. Feathercoin is a highly upgraded and customised piece of software compared to the Bitcoin and Litecoin protocols. Based from btc, ltc evolved, from which ftc was born, with the intent to expand, experiment, and build onto the blockchain technology in a manner open to all for participation. Just over one year on, this has lead to the development of many extraordinary projects but none like NeoScrypt. Through the support of the community and the hard work of Phoenixcoin’s lead developer Ghostlander, we have taken Scrypt where it should have headed years ago now.
+
+Feathercoin is based on NeoScrypt and implements many features not seen in the majority of crypto coins. We have open source projects for ATM’s and Point of Sales equipment, t-shirt wallets, laser etched physical Feathercoins and Raspberry Pi based projects. There really are too many things to list but here are some of the technical aspects which differentiate Feathercoin from most:
+
+* NeoScrypt Algorithm
+* Current Gen ASIC resistance
+* 80 Coin reward per block
+* 336 million coins total
+* Block target is 1.0 minutes
+* Block reward halves every 2,100,000 blocks
+* Retarget every block with 15, 120 and 480 block averages and 25% damping.
+* Default Feathercoin network port is 9336
+* Default RPC mining port is 9337
+* eHRC (enhanced Hash Rate Compensation)
+* ACP (Advanced Checkpointing)
+
+### Disk Requirements - Feathercoin blockchain (public transactional database) size
+
+* {{PackageGuid}} 
+
+### Source code
+
+* https://github.com/FeatherCoin/Feathercoin
+		</description>
+    <projectUrl>https://www.feathercoin.com</projectUrl>
+		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/30d0a2cb59cc182f37f36b5cac95f2c8af8d5337/icons/{{PackageName}}.png</iconUrl>
+    <tags>feathercoin ftc wallet cryptocurrency p2p</tags>
+    <copyright>© Feathercoin</copyright>
+    <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>https://github.com/FeatherCoin/Feathercoin/blob/master-0.8/doc/release-notes.md</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

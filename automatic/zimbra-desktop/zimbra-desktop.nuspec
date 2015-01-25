@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>Zimbra Desktop</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Zimbra Inc</authors>
+    <owners>dtgm</owners>
+    <summary>Open source desktop project management</summary>
+    <description>
+Zimbra Desktop client lets you manage your various email accounts in one desktop tool. You can store and synch your email, calendar, contacts, files and documents between the servers and your computer, making them locally accessible when working off line. When you re-connect, all your data automatically syncs between the servers and your computer. Zimbra mail, Yahoo! mail, Gmail, Microsoft Outlook and any other work or personal email account that uses POP or IMAP can be set up in Zimbra Desktop. Each account is separately maintained. When you receive new email messages in any of your accounts, and you have Internet access, the messages are automatically downloaded to your Zimbra Desktop.
+
+The installer package has the following components:
+
+* Zimbra Desktop application
+* A built-in web interface
+* A mini Zimbra server
+* Java framework
+
+Zimbra Desktop supports the following account types:
+
+* Zimbra (for use with Zimbra Collaboration Suite or Zimbra Appliance)
+* Gmail
+* Yahoo! Mail
+* Microsoft Exchange (via IMAP)
+* Other email services using POP3 or IMAP4 access
+		</description>
+    <projectUrl>http://www.zimbra.com/downloads/zimbra-desktop</projectUrl>
+    <tags>collaboration task schedule</tags>
+    <copyright>© Zimbra Inc</copyright>
+    <licenseUrl>http://www.zimbra.com/legal/zimbra-public-eula-2-5</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/d93a3c81b69474d2c232f644dc6cef02a53f0838/icons/{{PackageName}}.png</iconUrl>
+		<releaseNotes>{{DownloadUrlx64}}</releaseNotes>
+		<dependencies>
+      <dependency id="javaruntime" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

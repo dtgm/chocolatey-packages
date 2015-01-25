@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>namecoin</id>
+    <title>Namecoin Wallet</title>
+    <version>0.3.80</version>
+    <authors>Namecoin Developers</authors>
+    <owners>dtgm</owners>
+    <summary>Decentralized key/value registration and transfer system based on Bitcoin technology</summary>
+    <description>
+Namecoin can be used for multiple purposes, for example a secure and censorship resistant replacement for DNS.
+
+Ownership of a name is based on ownership of a coin, which is in turn based on public key cryptography. The namecoin network reaches consensus every few minutes as to which names have been reserved or updated.
+		
+Namecoin was the first fork of Bitcoin and still is one of the most innovative altcoins. It was first to implement merged mining and a decentralized DNS. 
+
+### Frequently Asked Questions (FAQ)
+
+* https://wiki.namecoin.info/index.php?title=FAQ
+
+### Disk Requirements - Namecoin blockchain (public transactional database) size
+
+* As of 24 January 2015, the total size of the NMC blockchain was 1.41 GB
+
+### Previous Version Compatibility - Namecoin blockchain hard-forks
+
+* https://groups.google.com/forum/#!forum/namecoin-alerts
+
+### Source code
+
+* https://github.com/namecoin/namecoin
+		</description>
+    <projectUrl>http://namecoin.info/</projectUrl>
+		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/b7c48076aaf10f7771b8d165fbc5c1a6bc3a94c9/icons/namecoin.png</iconUrl>
+    <tags>namecoin nmc wallet cryptocurrency p2p</tags>
+    <copyright>© Namecoin Project</copyright>
+    <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>https://github.com/namecoin/namecoin/blob/namecoinq-release/changelog.md</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

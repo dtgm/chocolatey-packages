@@ -1,0 +1,1 @@
+#Install-VirtualPackage 'pandabank.install' 'pandabank.portable'
