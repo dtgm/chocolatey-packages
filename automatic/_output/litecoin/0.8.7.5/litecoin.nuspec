@@ -24,7 +24,7 @@ The rest is the same as Bitcoin:
 
 ### Disk Requirements - Litecoin blockchain (public transactional database) size
 
-* As of 24 January 2015, the total size of the LTC blockchain was 3.12 GB 
+* As of 25 January 2015, the total size of the LTC blockchain was __3.12 GB__ 
 
 ### Previous Version Compatibility - Litecoin blockchain hard-forks
 
@@ -40,7 +40,7 @@ The rest is the same as Bitcoin:
 		</description>
     <projectUrl>https://litecoin.org/</projectUrl>
 		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/9163e7f231dd93f693181f73b721f75c53e894fa/icons/litecoin.png</iconUrl>
-    <tags>litecoin ltc wallet currency p2p</tags>
+    <tags>litecoin ltc wallet cryptocurrency p2p</tags>
     <copyright>© Litecoin Project</copyright>
     <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

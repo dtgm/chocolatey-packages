@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>{{PackageName}}</id>
-    <title>Riecoin</title>
+    <title>Riecoin Wallet</title>
     <version>{{PackageVersion}}</version>
     <authors>Gatra,Riecoin Developers</authors>
     <owners>dtgm</owners>
