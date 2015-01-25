@@ -1,15 +1,15 @@
 $packageName = '{{PackageName}}'
 $packageVersion = '{{PackageVersion}}'
-$unzipLoc = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$installFolder = "$packageName-$packageVersion-win"
+$toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $url = '{{DownloadUrl}}'
-Install-ChocolateyZipPackage -packageName "$packageName" -url "$url" -unzipLocation "$unzipLoc"
+Install-ChocolateyZipPackage -packageName "$packageName" -url "$url" -unzipLocation "$toolsDir"
 try {
+	$installDir = (gci $toolsDir -dir).FullName
 	$osBitness = Get-ProcessorBits
 	if ($osBitness -eq 64) {
-		Remove-Item -Recurse (Join-Path "$unzipLoc" (Join-Path "$installFolder" '32'))
+		Remove-Item -Recurse (Join-Path "$installDir" '32')
 	} else {
-		Remove-Item -Recurse (Join-Path "$unzipLoc" (Join-Path "$installFolder" '64'))
+		Remove-Item -Recurse (Join-Path "$installDir" '64')
 	}
 	Write-ChocolateySuccess "$packageName"
 } catch {

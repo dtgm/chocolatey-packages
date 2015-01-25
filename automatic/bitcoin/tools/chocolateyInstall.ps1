@@ -1,1 +1,1 @@
-#Install-VirtualPackage 'bitcoin.install' 'bitcoin.portable'
+#Install-VirtualPackage '{{PackageName}}.install' '{{PackageName}}.portable'

@@ -16,10 +16,11 @@ New transactions are approved by computing a value determined dynamically by rec
 
 ### Disk Requirements - Bitcoin blockchain (public transactional database) size
 
-* As of 23 January 2015, the total size of the blockchain was 27.74 GB 
+* As of 24 January 2015, the total size of the BTC blockchain was 27.79 GB 
 * Size increases based on quantity of transactions; currently increasing about 50 MB per day
 * Data is slowly downloaded only when Bitcoin Core is running and connected to network
 * https://blockchain.info/charts/blocks-size
+* Blockchain is stored at %AppData%
 
 ### Previous Version Compatibility - Bitcoin hard-forks
 
@@ -32,10 +33,18 @@ New transactions are approved by computing a value determined dynamically by rec
 ### Source code
 
 * https://github.com/bitcoin/bitcoin
+
+### Security
+
+* This program should only be installed on a trusted machine.
+* By default, upon first execution, Bitcoin Core creates an unencrypted wallet file at %AppData%\Bitcoin\wallet.dat
+* Wallet.dat stores all your private keys for public Bitcoin addresses.  If this file is not encrypted, anyone with access to this file may withdraw funds from these addresses.  For this reason, you should encrypt the file as soon as possible with Bitcoin Core.
+* After encrypting wallet.dat, back up wallet.dat to at least one other storage medium.
+* For more information: https://bitcoin.org/en/secure-your-wallet
 		</description>
     <projectUrl>https://bitcoin.org/</projectUrl>
 		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/59a69e49179e03a2ab3ec8a8c228ecc8e79eb0b7/icons/bitcoin.png</iconUrl>
-    <tags>bitcoin btc wallet currency p2p</tags>
+    <tags>bitcoin btc wallet cryptocurrency p2p</tags>
     <copyright>© Bitcoin Project</copyright>
     <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
