@@ -1,17 +1,20 @@
 ﻿try {
 	$packageName = 'electrum'
-	$packageSearch = 'Armory'
 	$fileType = 'exe'
 	$silentArgs = '/S'
 	$validExitCodes = @(0)
-	$unPath = "HKLM:SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall"
-	$unPathx86 = "HKLM:SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall"
+	$unPath = Join-Path "$Env:ProgramFiles" "$packageName"
+	$unPathx86 = Join-Path "${Env:ProgramFiles(x86)}" "$packageName"
 	$osBitness = Get-ProcessorBits
 	if ($osBitness -eq 64) {
-		if ($unString=(Get-ItemProperty "$unpath\*$packageSearch*" UninstallString).UninstallString) {}
-			else { $unString=(Get-ItemProperty "$unPathx86\*$packageSearch*" UninstallString).UninstallString }
+		$unString = Join-Path "$unPathx86" "Uninstall.exe"
 		} else {
-		$unString = (Get-ItemProperty "$unPath\$packageSearch*" UninstallString).UninstallString
+		$unString = Join-Path "$unPath" "Uninstall.exe"
+	}
+	if (!$unString) {
+		Write-Warning "$packageName is not installed or installer may have changed it's install path."
+		Write-Warning "Please send message to package maintainers @ https://chocolatey.org/packages/$packageName/ContactOwners"
+		throw
 	}
 	Uninstall-ChocolateyPackage "$packageName" "$fileType" "$silentArgs" "$unString" -validExitCodes $validExitCodes
 	Write-ChocolateySuccess $packageName

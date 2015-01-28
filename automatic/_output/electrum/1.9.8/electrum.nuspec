@@ -2,11 +2,11 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>electrum</id>
-    <title>Electrum Wallet</title>
+    <title>Electrum</title>
     <version>1.9.8</version>
     <authors>Electrum Developers</authors>
     <owners>dtgm</owners>
-    <summary>Open-Source Bitcoin Wallet with Cold Storage and Multi-Signature Support</summary>
+    <summary>Lightweight Bitcoin client</summary>
     <description>
 Electrum is an easy to use Bitcoin wallet. It protects you from losing coins in a backup mistake or computer failure, because your wallet can be recovered from a secret phrase that you can write on paper or learn by heart. There is no waiting time when you start the client, because it does not download the Bitcoin blockchain.
 
@@ -24,15 +24,15 @@ Electrum is an easy to use Bitcoin wallet. It protects you from losing coins in 
 
 ### Source code
 
-* https://github.com/etotheipi/BitcoinArmory
+* https://github.com/spesmilo/electrum
 		</description>
-    <projectUrl>https://bitcoinarmory.com/</projectUrl>
-		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/08c52664dc77ed8f8087ea403fa245755212ae6d/icons/electrum.png</iconUrl>
+    <projectUrl>https://electrum.org</projectUrl>
+		<iconUrl>https://cdn.rawgit.com/spesmilo/electrum/34f835746b4545d2c505ebe123139a670f0aafe0/icons/electrum.png</iconUrl>
     <tags>bitcoin btc wallet cryptocurrency</tags>
-    <copyright>© Armory Technologies, Inc</copyright>
-    <licenseUrl>https://raw.githubusercontent.com/etotheipi/BitcoinArmory/master/LICENSE</licenseUrl>
+    <copyright>© Electrum</copyright>
+    <licenseUrl>https://raw.githubusercontent.com/spesmilo/electrum/master/LICENCE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <releaseNotes>https://bitcoinarmory.com/changelog/</releaseNotes>
+    <releaseNotes>https://raw.githubusercontent.com/spesmilo/electrum/master/RELEASE-NOTES</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
