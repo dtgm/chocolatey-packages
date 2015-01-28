@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>hpusbdisk</id>
+    <title>HP USB Disk Storage Format Tool</title>
+    <version>2.2.3.20140208</version>
+    <authors>Hewlett-Packard</authors>
+    <owners>tonigellida</owners>
+    <summary></summary>
+    <description>
+HP USB Disk Storage Format Tool utility will format any USB flash drive, with your choice of FAT, FAT32, or NTFS partition types.
+You can also make the disk bootable by specifying a file location.HP USB Disk Storage Format Tool utility will format any USB flash drive, with your choice of FAT, FAT32, or NTFS partition types.
+You can also make the disk bootable by specifying a file location.
+======= Notes =======
+Downloaded from Softpedia, due to redirection and download error, hosted on my page.
+	</description>
+    <projectUrl>http://www.softpedia.com/get/System/Hard-Disk-Utils/HP-USB-Disk-Storage-Format-Tool.shtml</projectUrl>
+    <tags>flash usb drive boot ntfs format bootable fat fat32</tags>
+    <copyright></copyright>
+    <licenseUrl>http://en.wikipedia.org/wiki/Freeware</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/hpusbdisk/hpusbdisk.jpeg</iconUrl>
+  </metadata>
+</package>

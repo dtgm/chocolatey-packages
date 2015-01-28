@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>clamwin</id>
+    <title>ClamWin Free Antivirus</title>
+    <version>0.98.1</version>
+    <authors>ClamWin</authors>
+    <owners>tonigellida</owners>
+    <summary></summary>
+    <description>
+[Please note that ClamWin Free Antivirus does not include an on-access real-time scanner. You need to manually scan a file in order to detect a virus or spyware.]
+ClamWin Free Antivirus comes with an easy installer and open source code. 
+It features:
+High detection rates for viruses and spyware.
+Scanning Scheduler.
+Automatic downloads of regularly updated Virus Database.
+Standalone virus scanner and right-click menu integration to Microsoft Windows Explorer.
+Addin to Microsoft Outlook to remove virus-infected attachments automatically.
+	</description>
+    <projectUrl>http://www.clamwin.com/content/view/18/46/</projectUrl>
+    <tags>antivirus virus-scanner no-real-time</tags>
+    <copyright></copyright>
+    <licenseUrl>http://www.gnu.org/copyleft/gpl.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/clamwin/clamwin.png</iconUrl>
+  </metadata>
+</package>
