@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>NetBeans Java SE</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Oracle Corporation</authors>
+    <owners>ComFreek dtgm murray</owners>
+    <summary>An open source IDE for Java (SE) development supporting Java 8.</summary>
+    <description>
+NetBeans provides an extensible IDE with rich functionality for Java development, such as code analyzers, refactoring tools and converters, which upgrade old language constructs to newer Java 8 concepts in your code (e.g. lambdas, functional operations and method references).
+		</description>
+    <projectUrl>https://netbeans.org/</projectUrl>
+		<iconUrl>https://cdn.rawgit.com/ComFreek/chocolatey-packages/779f5c96f817ed1fa0d76fd90841873dc6c0ba74/icons/{{packageName}}.png</iconUrl>
+    <tags>netbeans java ide development admin</tags>
+    <copyright>© 1997-2014, Oracle and/or its affiliates</copyright>
+    <licenseUrl>https://netbeans.org/about/legal/product-licences.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>https://netbeans.org/community/releases/{{DownloadUrlx64}}/relnotes.html</releaseNotes>
+    <dependencies>
+			<dependency id="jdk8" />
+		</dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
