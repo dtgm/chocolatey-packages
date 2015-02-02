@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>stellarium</id>
+    <title>Stellarium</title>
+    <version>0.13.2</version>
+    <authors>Stellarium Developers</authors>
+    <owners>dtgm</owners>
+    <summary>Free, open source planetarium for your computer</summary>
+    <description>
+Stellarium is a free open source planetarium for your computer. It shows a realistic sky in 3D, just like what you see with the naked eye, binoculars or a telescope.
+
+It is being used in planetarium projectors. Just set your coordinates and go.
+		</description>
+    <projectUrl>http://stellarium.org/</projectUrl>
+		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/633cd2192aa17513a17871957fbf90c6b972069c/icons/stellarium.png</iconUrl>
+    <tags>planetarium sky stars constellations</tags>
+    <copyright>© Stellarium Developers</copyright>
+    <licenseUrl>http://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>https://sourceforge.net/p/stellarium/news/</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
