@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>fsum</id>
+    <title>fsum</title>
+		<version>2.52</version>
+    <authors>SlavaSoft Inc</authors>
+    <owners>dtgm</owners>
+    <summary>Fast and handy freeware command line utility for file integrity verification</summary>
+		<description>
+Fsum offers a choice of 13 of the most popular hash and checksum functions for file message digest and checksum calculation.
+
+The most common use for FSUM is checking data files for corruption. A message digest or checksum calculation might be performed on data before transferring it from one location to another. Making the same calculation after the transfer and comparing the before and after results, you can determine if the received data is corrupted or not. If the results match, then the received data is likely accurate.
+
+### Features
+
+* Possibility to calculate a file message digest and/or  a checksum using any of the 12 well-known and documented hash and checksum algorithms: **MD2, MD4, MD5, SHA-1, SHA-2( 256, 384, 512), RIPEMD-160, PANAMA, TIGER,  ADLER32, CRC32**
+* Possibility to act recursively. FSUM can operate not only on files from a specific directory, but also on files from all subdirectories of the specified directory
+* Work with large size files. (Tested on file sizes of up to 15 GB)
+* Full compatibility with md5sum utility
+* Full .MD5 and .SFV file formats support
+* Automatic recognition of checksum file format (.MD5 or .SFV) while checking
+* Generates/verifies hashes/checksums for files of any type: music, audio, sound, video, image, icon, text, compression, etc., with the extensions: .mp3, .wav, .avi, .mpg, .midi, .mov, .dvd, .ram, .zip, .rar, .ico, .gif, .pif, .pic, .tif, .tiff, .txt, .doc, .pdf, .wps, .dat, .dll, .hex, .bin, .iso, .cpp, .dss, .par, .pps, .cue, .ram, .md5, .sfv, etc.
+
+Implemented using commercial library SlavaSoft QuickHash.
+
+### Previous Versions
+
+Unfortunately, only the latest version of fsum may be installed; attempting to install any previous version will result in the most recently released version being installed.  This issue is unique to this package.
+		</description>
+    <projectUrl>http://www.slavasoft.com/fsum/index.htm</projectUrl>
+    <licenseUrl>http://www.slavasoft.com/fsum/license-agreement.htm</licenseUrl>
+    <copyright>SlavaSoft Inc</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>commandline file checksum</tags>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

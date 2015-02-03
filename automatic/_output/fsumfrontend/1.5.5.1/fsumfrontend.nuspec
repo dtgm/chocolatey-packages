@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>fsumfrontend</id>
+    <title>Fsum Frontend</title>
+		<version>1.5.5.1</version>
+    <authors>Thierry Micholt</authors>
+    <owners>dtgm</owners>
+    <summary>GUI front-end for fsum</summary>
+		<description>
+Fsum Frontend is a free and easy-to-use tool that allows to compute message digests, checksums and HMACs for files and text strings. It supports drag-and-drop and you can handle multiple files at once. The checksum generated can be used to verify the integrity of the files.
+
+It supports 96 algorithms: alder8, adler16, adler32, ap hash, bdkr, cksum, cksum mpeg2, crc8, crc16, crc16 ccitt, crc16 ibm, crc16 x25, crc16 xmodem, crc16 zmodem, crc24, crc32, crc32 bzip2, crc32 jamcrc, crc32 mpeg2, crc64, crc64 ecma, djb hash, dha256, edonley/emule, elf32, fletcher8, fletcher16, fletcher32, fnv0-32, fnv0-64, fnv1-32, fnv1-64, fnv1a-32, fnv1a-64, fork256, ghash3, ghash5, gost, has160, haval (128, 160, 192, 224, 256 bits) (3, 4, 5 passes), jhash, js hash, md2, md4, md5, panama, pjw32, ripemd128, ripemd160, ripemd256, ripemd320, rs hash, sdbm, sha0, sha1, sha224, sha256, sha384, sha512, size64, snefru2 (128, 256 bits) (4, 8 passes), sum8, sum16, sum24, sum32, sum64, sumbsd, sumsyv, tiger128, tiger160, tiger192, tiger2, tiger tree, tiger tree 2, whirlpool0, whirlpool1, whirlpool2, xor8, xum32.
+
+It also supports SFV, MD5, SHA1/SHA2 files creation and verification.
+
+Some of these algorithms are based on the project jacksum (see http://www.jonelo.de/java/jacksum/index.html for more information) and flexiprovider (http://www.flexiprovider.de).
+
+### Features
+
+* Calculate the checksums, message digest and HMAC of files and text strings.
+* Verify files using a SFV/MD5/SHA1/SHA2 file and notify you if a file is corrupted or missing.
+* Verify a file containing a checksum in its name (Ex: readme[b7b9c51e].txt).
+* Create a checksums file.
+* Put a checksum in the file name.
+		</description>
+    <projectUrl>http://fsumfe.sourceforge.net/</projectUrl>
+		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/263380048489e4857a87681011e574ae9c232429/icons/fsumfrontend.png</iconUrl>
+    <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
+    <copyright>© Thierry Micholt</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>fsum file checksum</tags>
+		<releaseNotes>http://sourceforge.net/p/fsumfe/news/</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
