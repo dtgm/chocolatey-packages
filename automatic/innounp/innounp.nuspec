@@ -22,6 +22,9 @@ The advantages over InstallExplorer are:
     <copyright>QuickeneR,Ariman</copyright>		
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
     <tags>commandline InnoSetup extract</tags>
+		<dependencies>
+			<dependency id="7zip" />
+		</dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
