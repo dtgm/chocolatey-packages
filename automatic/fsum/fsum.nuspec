@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>{{PackageName}}</id>
     <title>fsum</title>
@@ -23,6 +23,10 @@ The most common use for FSUM is checking data files for corruption. A message di
 * Generates/verifies hashes/checksums for files of any type: music, audio, sound, video, image, icon, text, compression, etc., with the extensions: .mp3, .wav, .avi, .mpg, .midi, .mov, .dvd, .ram, .zip, .rar, .ico, .gif, .pif, .pic, .tif, .tiff, .txt, .doc, .pdf, .wps, .dat, .dll, .hex, .bin, .iso, .cpp, .dss, .par, .pps, .cue, .ram, .md5, .sfv, etc.
 
 Implemented using commercial library SlavaSoft QuickHash.
+
+### Previous Versions
+
+Unfortunately, only the latest version of {{PackageName}} may be installed; attempting to install any previous version will result in the most recently released version being installed.  This issue is unique to this package.
 		</description>
     <projectUrl>http://www.slavasoft.com/fsum/index.htm</projectUrl>
     <licenseUrl>http://www.slavasoft.com/fsum/license-agreement.htm</licenseUrl>
