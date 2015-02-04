@@ -12,17 +12,17 @@ GTK+ Runtime installer allows you to run GTK+ applications. Provides basic themi
 		
 GTK+ Runtime installer contains the following software (or pieces of it):
 
-GTK+, ATK, Pango, GLib, gdk_pixbuf: http://www.gtk.org/;
-* Cairo: http://cairographics.org/;
-* Expat: http://expat.sourceforge.net/;
-* Fontconfig: http://www.fontconfig.org/;
-* Freetype2: http://www.freetype.org/;
-* intl library (from gettext): http://www.gnu.org/software/gettext/;
-* JPEG library: http://www.ijg.org/;
-* libiconv: http://www.gnu.org/software/libiconv/;
-* libpng: http://www.libpng.org/pub/png/libpng.html;
-* LibTIFF: http://www.libtiff.org/;
-* zlib: http://www.zlib.net/.
+* GTK+, ATK, Pango, GLib, gdk_pixbuf: http://www.gtk.org/
+* Cairo: http://cairographics.org/
+* Expat: http://expat.sourceforge.net/
+* Fontconfig: http://www.fontconfig.org/
+* Freetype2: http://www.freetype.org/
+* intl library (from gettext): http://www.gnu.org/software/gettext/
+* JPEG library: http://www.ijg.org/
+* libiconv: http://www.gnu.org/software/libiconv/
+* libpng: http://www.libpng.org/pub/png/libpng.html
+* LibTIFF: http://www.libtiff.org/
+* zlib: http://www.zlib.net/
 		</description>
     <projectUrl>http://gtk-win.sourceforge.net/</projectUrl>
 		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/095179e19f8ce6dd85ddbeb99305dd6e66003f50/icons/gtk-runtime.png</iconUrl>
