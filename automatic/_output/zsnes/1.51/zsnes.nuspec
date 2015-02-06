@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>zsnes</id>
+    <title>ZSNES</title>
+    <version>1.51</version>
+    <authors>ZSNES Team</authors>
+    <owners>dtgm</owners>
+    <summary>SNES emulator written mostly in x86 low-level assembly language</summary>
+    <description>
+ZSNES emulates the Super Nintendo (SNES) game console, a 16-bit video game console that was very popular when released in the early 1990s.
+
+ZSNES has a lot of features (e.g. speed options, fast-forward function, image upscaling, multiplayer gameplay using a TCP/IP network, use of cheats, save states support, movie recording etc.) that are best described in ZSNES Documentation ( available as a HTML or TXT file) found in "docs" folder (after you extract the content of ZSNES archive). 
+
+To be able to play older cartridge-based ROM games you need the ROM images. Obviously, due to legal issues, ZSNES does not provide such files.
+
+Official ports exist for Linux, DOS, Mac OS X, Windows, and an unofficial port for Xbox.
+
+### Requirements
+* ZSNES for Windows requires DirectX 8.0 or greater to run.  Note, DirectX 8.0 was released November 12, 2000.
+		</description>
+    <projectUrl>http://www.zsnes.com/</projectUrl>
+		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/1b2a037ff918443eddb449949d357e7362020c98/icons/zsnes.png</iconUrl>
+    <tags>emulator snes gaming</tags>
+    <copyright>© ZSNES Team</copyright>
+    <licenseUrl>http://zsnes.cvs.sourceforge.net/viewvc/zsnes/zsnes/docs/license.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>http://www.zsnes.com/index.php?page=news</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
