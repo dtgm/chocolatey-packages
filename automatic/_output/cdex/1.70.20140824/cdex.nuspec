@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>cdex</id>
+    <title>CDex</title>
+    <version>1.70.20140824</version>
+    <authors>arianepaola codingmaster</authors>
+    <owners>tonigellida</owners>
+    <summary>
+CDex is a CD-Ripper, extracting digital audio data from an Audio CD.
+	</summary>
+    <description>
+CDex can extract the data directly (digital) from an Audio CD, which is generally called a CD Ripper or a CDDA utility.
+The resulting audio file can be a plain WAV file (useful for making compilation audio CDs) or the ripped audio data can be compressed using an audio encoder.
+	</description>
+	<releaseNotes>
+Stable version has bugs, I recommend to use the beta.
+	</releaseNotes>
+    <projectUrl>http://cdexos.sourceforge.net/</projectUrl>
+    <tags>checksIfIsInstalled audio-cd-ripper audio-cd ripping extract-tracks mp3</tags>
+    <copyright></copyright>
+    <licenseUrl>http://www.gnu.org/copyleft/gpl.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackagesbeta/master/cdex/cdex.png</iconUrl>
+  </metadata>
+</package>
