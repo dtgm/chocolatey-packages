@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>aria2</id>
+    <title>Aria2</title>
+    <version>1.18.0</version>
+    <authors>Tatsuhiro Tsujikawa</authors>
+    <owners>tonigellida</owners>
+    <summary></summary>
+    <description>
+aria2 is a multi-protocol and multi-source, cross platform download utility. The supported protocols are HTTP(S), FTP, BitTorrent (DHT, PEX, MSE/PE), and Metalink.
+aria2 can download a file from multiple sources/protocols and tries to utilize your maximum download bandwidth.
+It supports downloading a file from HTTP(S)/FTP and BitTorrent at the same time, while the data downloaded from HTTP(S)/FTP is uploaded to the BitTorrent swarm. Using Metalinks chunk checksums, aria2 automatically validates chunks of data while downloading a file like BitTorrent.
+There are other alternative applications. But aria2 has 2 distinctive features: (1) aria2 can download a file from several URIs(HTTP(S)/FTP/BitTorrent) and (2) If you give aria2 a list of URIs, aria2 downloads them concurrently.
+You dont have to wait for the current download queue to finish one file at a time anymore. aria2 tries to utilize your maximum download bandwidth and downloads files quickly.
+	</description>
+    <projectUrl>http://aria2.sourceforge.net/</projectUrl>
+    <tags>ftp command-line download-manager bittorrent metalink</tags>
+    <copyright></copyright>
+    <licenseUrl>http://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/aria2/aria2.png</iconUrl>
+  </metadata>
+</package>
