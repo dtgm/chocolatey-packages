@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
     <id>{{PackageName}}</id>
     <title>Peerunity (Portable)</title>
@@ -15,15 +15,12 @@ The project has been designed to provide people with a stable, secure, and featu
 To help facilitate broad community cooperation, a number of trusted Peercoin/Peershare community leaders have write permissions to the project's codebase, allowing for decentralization and continuity. Community members, old and new, are encouraged to find ways to contribute to the success of the project. If you have experience with programming, product design, QA engineering, translation, or have a different set of skills that you want to bring to the project, your involvement is appreciated!
 
 ### Disk Requirements - Peercoin blockchain (public transactional database) size
-
 * {{PackageGuid}} 
 
 ### Support forum
-
 * http://www.peercointalk.org/index.php?board=64.0
 
 ### Source code
-
 * https://github.com/Peerunity/Peerunity
 		</description>
     <projectUrl>http://peercoin.net/wallet</projectUrl>

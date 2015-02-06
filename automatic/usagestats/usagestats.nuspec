@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
     <id>{{packageName}}</id>
     <title>Usage Statistics</title>
@@ -11,7 +11,6 @@
 This application generates statistics on the usage of keyboard and mouse.
 		
 ### Mouse
-
 * Record mouse travel distance and number of mouse clicks
 * Record mouse wheel scrolling
 * Clicks per hour
@@ -22,28 +21,24 @@ This application generates statistics on the usage of keyboard and mouse.
 * Active mouse time (total time when the mouse has been in use)
 
 ### Keyboard
-
 * Record keyboard strokes
 * Keystrokes per hour
 * Key frequency
 * Active keyboard time
 
 ### Applications
-
 * Record time per application
 * Report mouse and keyboard usage per application
 
 ### Interruptions
-
 * Records interruptions (no mouse/keyboard activity for a given time)
 * Interruptions per hour
 
 ### Reports
-
 * Automatically stored as .txt and .png
 		</description>
     <projectUrl>https://github.com/objorke/usagestats</projectUrl>
-		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/master/icons/{{packageName}}.png</iconUrl>
+		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/347e9c828bcbe16a820ef36b07343b058e27a670/icons/{{packageName}}.png</iconUrl>
     <tags>self-monitoring ui-development usage</tags>
     <copyright>© Oystein Bjorke</copyright>
     <licenseUrl>https://raw.githubusercontent.com/objorke/UsageStats/master/LICENSE</licenseUrl>

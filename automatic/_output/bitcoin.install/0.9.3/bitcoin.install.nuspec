@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
     <id>bitcoin.install</id>
     <title>Bitcoin Core Wallet (Install)</title>
@@ -15,27 +15,22 @@ All transactions executed upon the Bitcoin network are public record.  Bitcoin C
 New transactions are approved by computing a value determined dynamically by recent conditions of the Bitcoin network which satisfy conditions specified within the Bitcoin protocol.  The Bitcoin protocol can only be modified by adjusting over 50% of currently running nodes, or in other words, upgrading to a new version.  Most upgrades only modify the user interface and make no changes to the Bitcoin protocol.  In the rare event a Bitcoin protocol update has been mandated, called a "hard fork", all software nodes that utilizes the Bitcoin blockchain must be upgraded by a certain date. 
 
 ### Disk Requirements - Bitcoin blockchain (public transactional database) size
-
-* As of 25 January 2015, the total size of the BTC blockchain was __27.79 GB__ 
+* As of 05 February 2015, the total size of the BTC blockchain was __28.31 GB__ 
 * Size increases based on quantity of transactions; currently increasing about 50 MB per day
 * Data is slowly downloaded only when Bitcoin Core is running and connected to network
 * https://blockchain.info/charts/blocks-size
 * Blockchain is stored at %AppData%
 
 ### Previous Version Compatibility - Bitcoin hard-forks
-
 * https://bitcoin.org/en/alerts
 
 ### Bitcoin node distribution
-
 * https://getaddr.bitnodes.io/
 
 ### Source code
-
 * https://github.com/bitcoin/bitcoin
 
 ### Security
-
 * This program should only be installed on a trusted machine.
 * By default, upon first execution, Bitcoin Core creates an unencrypted wallet file at %AppData%\Bitcoin\wallet.dat
 * Wallet.dat stores all your private keys for public Bitcoin addresses.  If this file is not encrypted, anyone with access to this file may withdraw funds from addresses stored in this file.  For this reason, you should encrypt the file as soon as possible with Bitcoin Core.
@@ -43,7 +38,7 @@ New transactions are approved by computing a value determined dynamically by rec
 * For more information: https://bitcoin.org/en/secure-your-wallet
 		</description>
     <projectUrl>https://bitcoin.org/</projectUrl>
-		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/59a69e49179e03a2ab3ec8a8c228ecc8e79eb0b7/icons/bitcoin.png</iconUrl>
+		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/19d35dff574b7496b92f235fa1503d47b861871a/icons/bitcoin.svg</iconUrl>
     <tags>bitcoin btc wallet cryptocurrency p2p</tags>
     <copyright>© Bitcoin Project</copyright>
     <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>

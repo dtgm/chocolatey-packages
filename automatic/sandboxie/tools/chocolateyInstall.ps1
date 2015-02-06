@@ -1,1 +1,1 @@
-﻿#Install-VirtualPackage 'sandboxie.portable' 'sandboxie.install'
+﻿#Install-VirtualPackage '{{PackageName}}.portable' '{{PackageName}}.install'

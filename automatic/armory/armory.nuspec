@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
     <id>{{PackageName}}</id>
     <title>Armory Wallet</title>
@@ -15,7 +15,6 @@ Armory’s focus is on bringing the most advanced functionality to Bitcoin users
 Although the Bitcoin network is good at securely transferring money, it is the users' responsibility to protect their own digital wallets, usually stored on their own computer. Never has personal computer security been so important, yet very few applications exist which provide such high levels of security and usability at the same time.
 
 ### Source code
-
 * https://github.com/etotheipi/BitcoinArmory
 		</description>
     <projectUrl>https://bitcoinarmory.com/</projectUrl>

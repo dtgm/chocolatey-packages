@@ -2,7 +2,7 @@
 	$packageName = '{{PackageName}}'
 	$packageUn = 'GNU Midnight'
 	$fileType = 'exe'
-	$silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP'
+	$silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
 	$validExitCodes = @(0)
 	$osBitness = Get-ProcessorBits
 	if ($osBitness -eq 64) {

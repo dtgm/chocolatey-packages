@@ -3,7 +3,7 @@ try {
 	$packageVersion = '0.10.2'
 	$installerType = 'exe'
 	$silentArgs = '/S'
-	$url = 'http://iweb.dl.sourceforge.net/project/riecoin/riecoin 0.10.2/riecoin-0.10.2-win.zip'
+	$url = 'http://softlayer-dal.dl.sourceforge.net/project/riecoin/riecoin 0.10.2/riecoin-0.10.2-win.zip'
 	$chocTempDir = Join-Path $env:TEMP 'chocolatey'
 	$pkgTempDir = Join-Path $chocTempDir $packageName
 	

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
     <id>{{PackageName}}</id>
     <title>fsum</title>
@@ -13,7 +13,6 @@ Fsum offers a choice of 13 of the most popular hash and checksum functions for f
 The most common use for FSUM is checking data files for corruption. A message digest or checksum calculation might be performed on data before transferring it from one location to another. Making the same calculation after the transfer and comparing the before and after results, you can determine if the received data is corrupted or not. If the results match, then the received data is likely accurate.
 
 ### Features
-
 * Possibility to calculate a file message digest and/or  a checksum using any of the 12 well-known and documented hash and checksum algorithms: **MD2, MD4, MD5, SHA-1, SHA-2( 256, 384, 512), RIPEMD-160, PANAMA, TIGER,  ADLER32, CRC32**
 * Possibility to act recursively. FSUM can operate not only on files from a specific directory, but also on files from all subdirectories of the specified directory
 * Work with large size files. (Tested on file sizes of up to 15 GB)
@@ -25,7 +24,6 @@ The most common use for FSUM is checking data files for corruption. A message di
 Implemented using commercial library SlavaSoft QuickHash.
 
 ### Previous Versions
-
 Unfortunately, only the latest version of {{PackageName}} may be installed; attempting to install any previous version will result in the most recently released version being installed.  This issue is unique to this package.
 		</description>
     <projectUrl>http://www.slavasoft.com/fsum/index.htm</projectUrl>

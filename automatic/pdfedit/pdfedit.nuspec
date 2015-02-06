@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
     <id>{{packageName}}</id>
     <title>PDFedit</title>
     <version>{{packageVersion}}</version>
     <authors>Eva Peskova</authors>
     <owners>dtgm</owners>
-    <summary>Free open source pdf editor and a library for manipulating PDF documents.</summary>
+    <summary>Open source pdf editor and library for manipulating PDF documents</summary>
     <description>
 PDFedit includes PDF manipulating library based on xpdf, GUI, set of command line tools and a pdf editor.  You can use it to read, change and extract information from a PDF file.  The graphical interface is based on QT.
 		</description>

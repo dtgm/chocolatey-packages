@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
     <id>{{packageName}}</id>
     <title>GCstar</title>
     <version>{{packageVersion}}</version>
     <authors>Christian Jodar (Tian)</authors>
     <owners>dtgm</owners>
-    <summary>
-GCstar is a free open source application for managing your collections.
-		</summary>
+    <summary>GCstar is a free open source application for managing your collections</summary>
     <description>
 Detailed information on each item can be automatically retrieved from the internet with plugins and you can store additional data, such as the location or who you've lent it to. You may also search and filter your collection by many criteria.
 
 ### Supported file collection types
-
 * Movies
 * Video games
 * Books
@@ -32,7 +29,7 @@ Detailed information on each item can be automatically retrieved from the intern
 * User defined collections
 		</description>
     <projectUrl>http://www.gcstar.org/</projectUrl>
-		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/master/icons/gcstar.png</iconUrl>
+		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/19d35dff574b7496b92f235fa1503d47b861871a/icons/{{PackageName}}.svg</iconUrl>
     <tags>collection organizer library lending</tags>
     <copyright>© Christian Jodar</copyright>
     <licenseUrl>http://www.gnu.org/licenses/gpl.html</licenseUrl>

@@ -1,6 +1,6 @@
 ﻿$packageName = '{{PackageName}}'
 $fileType = 'exe'
-$silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP'
+$silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
 $validExitCodes = @(0)
 $unPath = "HKLM:SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall"
 $unPathx86 = "HKLM:SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall"

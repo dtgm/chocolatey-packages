@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
     <id>{{PackageName}}</id>
     <title>ClamWin Free Antivirus</title>
@@ -11,7 +11,6 @@
 ClamWin Free Antivirus is based on ClamAV engine and uses GNU General Public License by the Free Software Foundation, and is free (as in freedom) software.
 
 ### Features
-
 * High detection rates for viruses and spyware;
 * Scanning Scheduler;
 * Automatic downloads of regularly updated Virus Database.
@@ -19,7 +18,6 @@ ClamWin Free Antivirus is based on ClamAV engine and uses GNU General Public Lic
 * Addin to Microsoft Outlook to remove virus-infected attachments automatically.
 
 ### Notes
-
 Please note that ClamWin Free Antivirus does not include an on-access, real-time scanner. You need to manually scan a file or schedule a scan via Task Scheduler in order to detect a virus or spyware.
 		</description>
     <projectUrl>http://www.clamwin.com/</projectUrl>

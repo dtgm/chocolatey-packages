@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
     <id>{{PackageName}}</id>
     <title>Namecoin Wallet</title>
@@ -15,23 +15,19 @@ Ownership of a name is based on ownership of a coin, which is in turn based on p
 Namecoin was the first fork of Bitcoin and still is one of the most innovative altcoins. It was first to implement merged mining and a decentralized DNS. 
 
 ### Frequently Asked Questions (FAQ)
-
 * https://wiki.namecoin.info/index.php?title=FAQ
 
 ### Disk Requirements - Namecoin blockchain (public transactional database) size
-
 * {{PackageGuid}}
 
 ### Previous Version Compatibility - Namecoin blockchain hard-forks
-
 * https://groups.google.com/forum/#!forum/namecoin-alerts
 
 ### Source code
-
 * https://github.com/namecoin/namecoin
 		</description>
     <projectUrl>http://namecoin.info/</projectUrl>
-		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/b7c48076aaf10f7771b8d165fbc5c1a6bc3a94c9/icons/{{PackageName}}.png</iconUrl>
+		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/19d35dff574b7496b92f235fa1503d47b861871a/icons/{{PackageName}}.svg</iconUrl>
     <tags>namecoin nmc wallet cryptocurrency p2p</tags>
     <copyright>© Namecoin Project</copyright>
     <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>

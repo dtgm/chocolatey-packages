@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
     <id>{{PackageName}}</id>
     <title>Bulk Rename Utility (Install)</title>
@@ -11,7 +11,6 @@
 Bulk Rename Utility allows you to easily rename files and folders recursively based upon find-replace, character place, fields, sequences, regular expressions, EXIF data, and more.
 		
 ### Features
-
 * Rename multiple files quickly, according to many flexible criteria.
 * Rename files in many ways: add, replace, insert text into file names. Convert case, add numbers. Remove or change file extensions.
 * Check the detailed preview before renaming.

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
     <id>{{PackageName}}</id>
     <version>{{PackageVersion}}</version>
@@ -15,7 +15,6 @@
 MediaInfo supplies technical and tag information about a video or audio file. Supports many audio and video formats, with different methods of viewing information.
 
 ### Display
-
 * Container: format, profile, commercial name of the format, duration, overall bit rate, writing application and library, title, author, director, album, track number, date, duration...
 * Video: format, codec id, aspect, frame rate, bit rate, color space, chroma subsampling, bit depth, scan type, scan order...
 * Audio: format, codec id, sample rate, channels, bit depth, language, bit rate...
@@ -23,7 +22,6 @@ MediaInfo supplies technical and tag information about a video or audio file. Su
 * Chapters: count of chapters, list of chapters...
 
 ### Analyticals
-
 * Container: MPEG-4, QuickTime, Matroska, AVI, MPEG-PS (including unprotected DVD), MPEG-TS (including unprotected Blu-ray), MXF, GXF, LXF, WMV, FLV, Real...
 * Tags: Id3v1, Id3v2, Vorbis comments, APE tags...
 * Video: MPEG-1/2 Video, H.263, MPEG-4 Visual (including DivX, XviD), H.264/AVC, Dirac...
@@ -31,7 +29,6 @@ MediaInfo supplies technical and tag information about a video or audio file. Su
 * Subtitles: CEA-608, CEA-708, DTVCC, SCTE-20, SCTE-128, ATSC/53, CDP, DVB Subtitle, Teletext, SRT, SSA, ASS, SAMI...
 
 ### Features
-
 * Read many video and audio file formats
 * View information in different formats (text, sheet, tree, HTML...)
 * Customise these viewing formats

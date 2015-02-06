@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
     <id>{{PackageName}}</id>
     <title>{{PackageName}}</title>
@@ -12,7 +12,9 @@ digiKam is an advanced digital photo management application.
 		<description>
 digiKam is an advanced digital photo management application for KDE, which makes importing and organizing digital photos a "snap". The photos are organized in albums which can be sorted chronologically, by folder layout or by custom collections.
 
-Note: Download file size is about 240 MiB and extracts to about 1.25 GiB.
+### System Requirements
+* Download file size is about **240 MiB**
+* Final install size is about **1.25 GiB**
 		</description>
     <projectUrl>http://www.digikam.org/</projectUrl>
     <tags>photo organizer</tags>
