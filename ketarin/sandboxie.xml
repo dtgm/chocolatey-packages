@@ -1,0 +1,116 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<Jobs>
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="336b03e4-e14a-4fe9-9934-9eb34555035f">
+    <WebsiteUrl />
+    <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64)</UserAgent>
+    <UserNotes>{version}=4.12
+
+{url}=http://www.sandboxie.com/SandboxieInstall32-{version:split:.:0}{version:split:.:1}.exe
+
+Actual download=http://www.sandboxie.com/SandboxieInstall32-412.exe
+</UserNotes>
+    <LastFileSize>3240792</LastFileSize>
+    <LastFileDate>2015-02-05T00:53:22.627492</LastFileDate>
+    <IgnoreFileInformation>false</IgnoreFileInformation>
+    <DownloadBeta>Default</DownloadBeta>
+    <DownloadDate xsi:nil="true" />
+    <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
+    <VariableChangeIndicator />
+    <CanBeShared>true</CanBeShared>
+    <ShareApplication>false</ShareApplication>
+    <ExclusiveDownload>false</ExclusiveDownload>
+    <HttpReferer />
+    <SetupInstructions />
+    <Variables>
+      <item>
+        <key>
+          <string>version</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>StartEnd</VariableType>
+            <Regex />
+            <Url>http://www.sandboxie.com/index.php?AllVersions</Url>
+            <StartText>&lt;TD style=" padding: 8px; border-bottom: solid black 1px; "&gt; Hash &lt;/TD&gt;
+&lt;/TR&gt;&lt;TR&gt;
+&lt;TD style=" padding: 8px; "&gt; </StartText>
+            <EndText> &lt;/TD</EndText>
+            <TextualContent />
+            <Name>version</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url64</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>http://www.sandboxie.com/SandboxieInstall64-{version:split:.:0}{version:split:.:1}-{version:split:.:2}.exe</TextualContent>
+            <Name>url64</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>http://www.sandboxie.com/attic/SandboxieInstall32-{version:split:.:0}{version:split:.:1}.exe</TextualContent>
+            <Name>url</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>checksum</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=32-\d*\.exe.*SHA1\s*)[\da-f]{40}(?=.*&lt;)</Regex>
+            <Url>http://www.sandboxie.com/index.php?AllVersions</Url>
+            <Name>checksum</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>checksumx64</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=64-\d*\.exe.*SHA1\s*)([\da-f]{40})(?=.*&lt;)</Regex>
+            <Url>http://www.sandboxie.com/index.php?AllVersions</Url>
+            <Name>checksumx64</Name>
+          </UrlVariable>
+        </value>
+      </item>
+    </Variables>
+    <ExecuteCommand />
+    <ExecutePreCommand>chocopkgup /p {appname}.install /v "{version}00" "{nopush}" /u "{preupdate-url}" /u64 "{url64}" /pp "{file}"</ExecutePreCommand>
+    <ExecuteCommandType>Batch</ExecuteCommandType>
+    <ExecutePreCommandType>Batch</ExecutePreCommandType>
+    <Category />
+    <SourceType>FixedUrl</SourceType>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\SandboxieInstall32-414.exe</PreviousLocation>
+    <DeletePreviousFile>true</DeletePreviousFile>
+    <Enabled>true</Enabled>
+    <FileHippoId />
+    <LastUpdated>2015-02-05T00:53:22.627492</LastUpdated>
+    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <FixedDownloadUrl>{url}</FixedDownloadUrl>
+    <Name>sandboxie</Name>
+  </ApplicationJob>
+</Jobs>
