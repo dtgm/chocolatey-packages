@@ -1,30 +1,47 @@
-# Exported automatic update job files from Ketarin for use with [Chocolatey Automatic Package Updater](https://chocolatey.org/packages/ChocolateyPackageUpdater)
+# Exported automatic update job files from [Ketarin](https://chocolatey.org/packages/ketarin) for use with [Chocolatey Automatic Package Updater](https://chocolatey.org/packages/ChocolateyPackageUpdater)
 
 ## Setup:
 
 1. `choco install chocolateypackageupdater`
-This will install two additional chocolatey packages: **nuget.commandline** and **ketarin**
-2. Configure installed chocolateypackageupdater files
-**$Env:ChocolateyInstall\tools\chocopkgup\chocopkgup.exe.config**
-Modify xml "add" tag with keyvalue "PackagesFolder" with value of "C:\path\to\chocolaty\packages" so it looks like:
+> This will install two additional chocolatey packages: **nuget.commandline** and **ketarin**
+2. Configure installed chocolateypackageupdater files: 
+  * `$Env:ChocolateyInstall\tools\chocopkgup\chocopkgup.exe.config`
+    * Modify xml "add" tag with keyvalue "PackagesFolder" with value of "C:\path\to\chocolaty\packages" so it looks like:
 `<add key="PackagesFolder" value="C:\path\to\chocolatey\packages"/>`
-"C:\path\to\chocolaty\packages\" will be the root folder of your chocolatey packages where each sub-directory will a different package where folder-name is equal to the "packageId"
-Note: packages will be published to an automatically generated sub-folder "_output" in this location by chocopkgup.exe.
+    * "C:\path\to\chocolaty\packages\" will be the root folder of your chocolatey packages where each sub-directory will a different package where folder-name is equal to the "packageId"
+  
+	  Note: packages will be published to an automatically generated sub-folder "_output" in this location by chocopkgup.exe.
 
-**$Env:ChocolateyInstall\tools\chocopkgup\ketarinupdate.cmd**
-Ensure the correct ketarin.exe file is being executed:
-`PS C:\> (get-command ketarin.exe).Definition
-C:\ProgramData\chocolatey\bin\Ketarin.exe`
+  * $Env:ChocolateyInstall\tools\chocopkgup\ketarinupdate.cmd**
+    * Ensure the correct ketarin.exe file is being executed:
+    *  `PS C:\> (get-command ketarin.exe).Definition
+        C:\ProgramData\chocolatey\bin\Ketarin.exe`
 
-3. Run ketarin.exe and import any of the XML files in this repository.
+3. Run ketarin.exe
 
-4. Ctrl+T | (File > Settings) > Commands
+4. Modify settings
+`Ctrl+T | (File > Settings)
 [General]
-Name: Version
-Value: {version}
+Custom Column Name = Version
+Custom Column Value = {version}
 
 [Commands]
-chocopkgup {nopush} --packagename={appname} --version={version} --pg="{packageGuid}" --url="{preupdate-url}" --urlx64="{url64}" --packagepath="{file}" --checksum="{checksum}" --c64="{checksumx64}" --debug
+chocopkgup {nopush} --packagename={appname} --version={version} --pg="{packageGuid}" --url="{preupdate-url}" --urlx64="{url64}" --packagepath="{file}" --checksum="{checksum}" --c64="{checksumx64}" --debug`
+
+5. Add Applications to ketarin with either File > New Application, or importing any of the XML files in this repository.
+
+6. Minimum Ketarin field requirements for applications
+[Application tab]
+  * Application name
+  * URL
+	* Variables > version
+	  * where **version** is a string as specified at http://docs.nuget.org/create/versioning and http://semver.org/
+	
+`Important: `Application name` must be all lowercase with no spaces or special characters.  To determine an appropriate name for your packages see the [package naming guidelines](https://github.com/chocolatey/chocolatey/wiki/CreatePackages#naming-your-package)`
+
+7. Create an associated folder `C:\path\to\chocolaty\packages\exampleprogram`
+
+8. Create an associated nuspec file `C:\path\to\chocolaty\packages\exampleprogram\exampleprogram.nuspec`
 
 ## How it works:
 
@@ -112,4 +129,8 @@ chocopkgup.exe /p[ackage] VALUE /v[ersion] VALUE [ /u[rl] VALUE /p[ackages]f[old
                                existing work package. Defaults to false.
       --dbg, --debug         debug - This instructs ChocoPkgUp to write out
                                all messages. Defaults to false.
-                               
+
+For more information see:
+
+https://github.com/chocolatey/chocolatey/wiki/CreatePackages
+https://github.com/chocolatey/chocolatey/wiki/AutomaticPackages
