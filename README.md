@@ -1,13 +1,17 @@
 # chocolatey-packages
 automatic and manual packages for management by [Chocolatey](https://chocolatey.org/) and available on the [Chocolatey package feed](https://chocolatey.org/packages)
 
+[Chocolatey wiki](https://github.com/chocolatey/choco/wiki)
+[Chocolatey frequently asked questions (FAQ)](https://github.com/chocolatey/choco/wiki/ChocolateyFAQs)
+
 ## Folder organization
 
 ### automatic
 Packages automatically maintained by: 
+
 1. scraping HTTP with regular expressions using ketarin, then
 2. populating a reserved layout to XML and powershell install/uninstall/setup scripts, and finally
-3. pushing the compiled zip file (saved as nupkg) content to chocalety feed for moderation
+3. pushing the compiled zip file (saved as nupkg) content to chocolaty feed for moderation
 
 Each sub-directory is equivalent to the application ID, otherwise known as the Application Name in Ketarin and stored in Ketarin's variable `{appname}`
 
@@ -20,7 +24,7 @@ file.nuspec N/A             '{{PackageName}}'
 
 #### Full example workflow
 
-1. Determine an appropriate install name via [package naming guidelines](https://github.com/chocolatey/chocolatey/wiki/CreatePackages#naming-your-package)
+Determine an appropriate install name via [package naming guidelines](https://github.com/chocolatey/chocolatey/wiki/CreatePackages#naming-your-package)
 
 Using GTK Runtime as an example, the following lists a sample usage of variables between the programs and files involved:
 
@@ -35,19 +39,19 @@ Pushed to https://chocolatey.org/packages/gtk-runtime
 
 Installable by `choco install gtk-runtime` 
 
-See `ketarin\README.md` for more information.
+See [ketarin\README.md](https://github.com/dtgm/chocolatey-packages/blob/master/ketarin/README.md) for more information about automatically updating packages from this repo.
 
 ### icons
 Icons presented on the respective chocolatey package page.
 
-e.g. the icon on `https://chocolatey.org/packages/gtk-runtime/2.24.10.20121010` is linked to `https://cdn.rawgit.com/dtgm/chocolatey-packages/19d35dff574b7496b92f235fa1503d47b861871a/icons/gtk-runtime.svg` and is configured by XML tag `<iconUrl>` in `gtk-runtime.nuspec`
+e.g. the icon on `https://chocolatey.org/packages/gtk-runtime/2.24.10.20121010` is linked to `https://cdn.rawgit.com/dtgm/chocolatey-packages/19d35dff574b7496b92f235fa1503d47b861871a/icons/gtk-runtime.svg` and is configured by XML tag `<iconUrl>` in `gtk-runtime.nuspec` when `nuget.exe push gtk-runtime.1.2.3.nupkg -Source https://chocolatey.org/` (performed without user intervention by `chocolateypackageupdater`).
 
 ### licenses 
 Limited use cases where the legal user agreements to terms of usage of the software for packages being installed is not available or not in reliably published way for Internet access.
 
 If applicable, this location would be pointed to by `<licenseUrl>`.
 
-Most all packages point directly to the LICENSE or COPYING file if the source code is publically available.  Otherwise, the `<licenseUrl>` points to the licensing terms as published on a publically available web page.
+However, most all packages point directly to the LICENSE or COPYING file if the source code is publicly available.  Otherwise, the `<licenseUrl>` points to the licensing terms as published on a publicly available web page.
 
 ### manual
 Packages that must have their nuspec and powershell control scripts manually edited (text editor), packaged (cpack) and pushed (cpush).
