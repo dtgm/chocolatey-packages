@@ -4,8 +4,8 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>675960</LastFileSize>
-    <LastFileDate>2015-01-29T04:35:58.4657625</LastFileDate>
+    <LastFileSize>675936</LastFileSize>
+    <LastFileDate>2015-02-05T15:45:57-06:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Avoid</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -24,12 +24,12 @@
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <Url>http://www.instalki.pl/programy/download/Windows/narzedzia_pomocnicze/GitHub.html</Url>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=assemblyIdentity.*?version=")([\d\.]+)(?=")</Regex>
+            <Url>http://github-windows.s3.amazonaws.com/GitHub.application</Url>
             <StartText>  &lt;meta name="keywords" content="GitHub, </StartText>
             <EndText>,</EndText>
-            <TextualContent>2.6.4.1</TextualContent>
+            <TextualContent />
             <Name>version</Name>
           </UrlVariable>
         </value>
@@ -41,9 +41,10 @@
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <TextualContent>https://github-windows.s3.amazonaws.com/GitHubSetup.exe</TextualContent>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=ResponseUri: )[^\r\n]+</Regex>
+            <Url>https://github-windows.s3.amazonaws.com/GitHubSetup.exe</Url>
+            <TextualContent />
             <Name>url</Name>
           </UrlVariable>
         </value>
@@ -57,7 +58,8 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>x</TextualContent>
+            <Url />
+            <TextualContent>{url}</TextualContent>
             <Name>url64</Name>
           </UrlVariable>
         </value>
@@ -69,9 +71,10 @@
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <TextualContent>x</TextualContent>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>[A-Fa-f0-9]{32}</Regex>
+            <Url>https://github-windows.s3.amazonaws.com/GitHubSetup.exe</Url>
+            <TextualContent />
             <Name>checksum</Name>
           </UrlVariable>
         </value>
@@ -85,14 +88,14 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>x</TextualContent>
+            <TextualContent>{checksum}</TextualContent>
             <Name>checksumx64</Name>
           </UrlVariable>
         </value>
       </item>
       <item>
         <key>
-          <string>nopush</string>
+          <string>yespush</string>
         </key>
         <value>
           <UrlVariable>
@@ -100,7 +103,7 @@
             <VariableType>Textual</VariableType>
             <Regex />
             <TextualContent>--nopush</TextualContent>
-            <Name>nopush</Name>
+            <Name>yespush</Name>
           </UrlVariable>
         </value>
       </item>
@@ -115,7 +118,7 @@
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-01-29T04:35:58.4657625</LastUpdated>
+    <LastUpdated>2015-02-08T19:57:21.6222041-06:00</LastUpdated>
     <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>githubforwindows</Name>
