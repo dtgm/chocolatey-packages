@@ -3,7 +3,7 @@
   <metadata>
     <id>vcredist2005</id>
 		<title>Microsoft Visual C++ 2005 SP1 Redistributable Package</title>
-    <version>8.0.6.0</version>
+    <version>8.1.0.0</version>
 		<authors>Microsoft</authors>
 		<owners>dtgm</owners>
 		<summary>This package installs runtime components of C Runtime (CRT), Standard C++, ATL, MFC, OpenMP and MSDIA libraries. For libraries that support side-by-side deployment model (CRT, SCL, ATL, MFC, OpenMP)</summary>
