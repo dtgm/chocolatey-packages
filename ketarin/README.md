@@ -35,9 +35,9 @@ chocopkgup {nopush} --packagename={appname} --version={version} --pg="{packageGu
   * Application name
   * URL
 	* Variables > version
-	  * where **version** is a string as specified at http://docs.nuget.org/create/versioning and http://semver.org/
+	* where **version** is a string as specified at http://docs.nuget.org/create/versioning and http://semver.org/
 	
-`Important: `Application name` must be all lowercase with no spaces or special characters.  To determine an appropriate name for your packages see the [package naming guidelines](https://github.com/chocolatey/chocolatey/wiki/CreatePackages#naming-your-package)`
+Important: `Application name` must be all lowercase with no spaces or special characters.  To determine an appropriate name for your packages see the [package naming guidelines](https://github.com/chocolatey/chocolatey/wiki/CreatePackages#naming-your-package)
 
 7. Create an associated folder `C:\path\to\chocolaty\packages\exampleprogram`
 
