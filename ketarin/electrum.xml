@@ -109,12 +109,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\electrum-1.9.8-setup.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\electrum-1.9.8-setup.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-01-27T18:33:26.1176524</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>electrum</Name>
   </ApplicationJob>

@@ -80,12 +80,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\Meld-3.12.3-win32.msi</PreviousLocation>
+    <PreviousLocation>{workdir}\Meld-3.12.3-win32.msi</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-01-03T20:06:39.2383719</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>meld</Name>
   </ApplicationJob>

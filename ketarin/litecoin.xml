@@ -150,12 +150,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\litecoin-0.8.7.5-win32-setup.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\litecoin-0.8.7.5-win32-setup.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-01-25T03:42:29.0740191</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>litecoin</Name>
   </ApplicationJob>

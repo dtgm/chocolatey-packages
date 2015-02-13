@@ -85,7 +85,7 @@
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated xsi:nil="true" />
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>zsnes</Name>
   </ApplicationJob>

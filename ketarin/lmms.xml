@@ -70,12 +70,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\lmms-1.1.0-win32.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\lmms-1.1.0-win32.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2014-12-24T04:34:11.1741104</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>lmms</Name>
   </ApplicationJob>

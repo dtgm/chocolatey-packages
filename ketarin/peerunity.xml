@@ -151,12 +151,12 @@ chocopkgup {nopush} --packagename={appname}.portable --version={version} --pg="{
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\peerunity-0.1.1-win.zip</PreviousLocation>
+    <PreviousLocation>{workdir}\peerunity-0.1.1-win.zip</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-01-25T03:44:37.0369696</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>peerunity</Name>
   </ApplicationJob>

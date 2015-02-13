@@ -41,12 +41,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\cmder_mini.zip</PreviousLocation>
+    <PreviousLocation>{workdir}\cmder_mini.zip</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-02-05T00:40:23.7572385</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>https://github.com/bliker/cmder/releases/download/v{version}/cmder_mini.zip</FixedDownloadUrl>
     <Name>cmdermini</Name>
   </ApplicationJob>

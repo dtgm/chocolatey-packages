@@ -68,12 +68,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\fsumfrontend-1.5.5.1-bin.zip</PreviousLocation>
+    <PreviousLocation>{workdir}\fsumfrontend-1.5.5.1-bin.zip</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-02-02T23:25:33.6801681-06:00</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>fsumfrontend</Name>
   </ApplicationJob>

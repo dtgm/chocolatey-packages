@@ -70,12 +70,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\RSSOwl.2.2.1.Windows.Installer.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\RSSOwl.2.2.1.Windows.Installer.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2014-12-14T23:05:21.1636656</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>rssowl</Name>
   </ApplicationJob>

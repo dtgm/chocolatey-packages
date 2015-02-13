@@ -41,12 +41,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\cmder.7z</PreviousLocation>
+    <PreviousLocation>{workdir}\cmder.7z</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-02-05T00:40:20.6024757</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>https://github.com/bliker/cmder/releases/download/v{version}/cmder.7z</FixedDownloadUrl>
     <Name>cmder</Name>
   </ApplicationJob>

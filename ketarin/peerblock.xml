@@ -72,12 +72,12 @@ https://code.google.com/p/peerblock/downloads/list</UserNotes>
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\PeerBlock-Setup_v1.2_r693.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\PeerBlock-Setup_v1.2_r693.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-02-05T00:50:15.5531925</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>peerblock</Name>
   </ApplicationJob>

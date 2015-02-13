@@ -89,7 +89,7 @@
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2014-01-05T04:33:18.3500198</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>duplicati</Name>
   </ApplicationJob>

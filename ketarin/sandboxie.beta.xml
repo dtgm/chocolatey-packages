@@ -69,12 +69,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\SandboxieInstall32-415-11.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\SandboxieInstall32-415-11.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-02-05T00:53:18.6205253</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>http://www.sandboxie.com/SandboxieInstall32-{version:split:.:0}{version:split:.:1}-{version:split:.:2}.exe</FixedDownloadUrl>
     <Name>sandboxie.beta</Name>
   </ApplicationJob>

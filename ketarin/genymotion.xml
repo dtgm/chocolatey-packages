@@ -116,7 +116,7 @@
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2014-12-01T21:14:54.0291938</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>genymotion</Name>
   </ApplicationJob>

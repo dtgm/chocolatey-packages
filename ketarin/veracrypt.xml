@@ -147,7 +147,7 @@
     <Enabled>false</Enabled>
     <FileHippoId />
     <LastUpdated>2014-12-19T22:37:45.3182978</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>veracrypt</Name>
   </ApplicationJob>

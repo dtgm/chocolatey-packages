@@ -89,7 +89,7 @@
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2014-12-10T09:30:17.649289</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>psi</Name>
   </ApplicationJob>

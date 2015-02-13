@@ -58,12 +58,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\stunnel-5.10-installer.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\stunnel-5.10-installer.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-02-05T00:53:34.0481683</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>https://www.stunnel.org/downloads/stunnel-{version}-installer.exe</FixedDownloadUrl>
     <Name>stunnel</Name>
   </ApplicationJob>

@@ -70,12 +70,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\xPSDesiredStateConfiguration_3.0.3.4.zip</PreviousLocation>
+    <PreviousLocation>{workdir}\xPSDesiredStateConfiguration_3.0.3.4.zip</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>false</Enabled>
     <FileHippoId />
     <LastUpdated>2014-12-31T01:58:12.3079642</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>DSC.PSDesiredStateConfiguration</Name>
   </ApplicationJob>
@@ -107,7 +107,7 @@
     <Enabled>false</Enabled>
     <FileHippoId />
     <LastUpdated xsi:nil="true" />
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl />
     <Name>Template.Ketarin-program-command</Name>
   </ApplicationJob>
@@ -261,12 +261,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\ActiveTcl8.6.3.1.298624-win32-ix86-threaded.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\ActiveTcl8.6.3.1.298624-win32-ix86-threaded.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-01-11T01:59:06.0714656</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>activetcl</Name>
   </ApplicationJob>
@@ -368,12 +368,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\Andy_v42_10.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\Andy_v42_10.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-01-28T07:30:28.6892498</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>andy</Name>
   </ApplicationJob>
@@ -465,7 +465,7 @@
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2014-06-25T23:31:39.0012034</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>arduinoide</Name>
   </ApplicationJob>
@@ -538,12 +538,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\Intel_Galileo_Arduino_SW_1.5.3_on_Windows_v1.0.2.zip</PreviousLocation>
+    <PreviousLocation>{workdir}\Intel_Galileo_Arduino_SW_1.5.3_on_Windows_v1.0.2.zip</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-01-29T04:34:46.0995136</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>arduinoidegalileo</Name>
   </ApplicationJob>
@@ -645,12 +645,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\aria2-1.18.8-win-32bit-build1.zip</PreviousLocation>
+    <PreviousLocation>{workdir}\aria2-1.18.8-win-32bit-build1.zip</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-01-28T19:50:10.4446594</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>aria2</Name>
   </ApplicationJob>
@@ -776,12 +776,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\armory_0.92.3_winAll.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\armory_0.92.3_winAll.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-01-25T04:40:29.5578908</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>armory</Name>
   </ApplicationJob>
@@ -842,12 +842,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\audacious-3.5.2-win32.zip</PreviousLocation>
+    <PreviousLocation>{workdir}\audacious-3.5.2-win32.zip</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2014-12-15T00:19:10.5952962</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>audacious</Name>
   </ApplicationJob>
@@ -920,12 +920,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\avast-browser-cleanup.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\avast-browser-cleanup.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-01-29T04:34:52.7300716</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>avastbrowsercleanup</Name>
   </ApplicationJob>
@@ -998,12 +998,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\avast_free_antivirus_setup.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\avast_free_antivirus_setup.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-02-02T04:34:10.2602079</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>avastfreeantivirus</Name>
   </ApplicationJob>
@@ -1157,12 +1157,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\bitcoin-0.9.3-win32-setup.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\bitcoin-0.9.3-win32-setup.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-01-25T03:42:16.4539895</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>bitcoin</Name>
   </ApplicationJob>
@@ -1226,7 +1226,7 @@
     <Enabled>false</Enabled>
     <FileHippoId />
     <LastUpdated>2014-08-18T23:39:06.564304</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>"https://bitcoin.org/bin/{version}/bitcoin-{version}-win32-setup.exe"</FixedDownloadUrl>
     <Name>bitcoin-core.install</Name>
   </ApplicationJob>
@@ -1276,7 +1276,7 @@
     <Enabled>false</Enabled>
     <FileHippoId />
     <LastUpdated>2014-08-18T23:39:06.564304</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>"https://bitcoin.org/bin/{version}/bitcoin-{version}-win.zip"</FixedDownloadUrl>
     <Name>bitcoin-core.portable</Name>
   </ApplicationJob>
@@ -1403,12 +1403,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\bitcoin-0.9.3-win.zip</PreviousLocation>
+    <PreviousLocation>{workdir}\bitcoin-0.9.3-win.zip</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-01-25T03:42:15.0403566</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>bitcoin.portable</Name>
   </ApplicationJob>
@@ -1478,12 +1478,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\Bitmessage v0.4.4.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\Bitmessage v0.4.4.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-01-29T13:37:38.9849959</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>bitmessage</Name>
   </ApplicationJob>
@@ -1585,12 +1585,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\blat323_32.full.zip</PreviousLocation>
+    <PreviousLocation>{workdir}\blat323_32.full.zip</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2014-12-15T02:16:50.9233563</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>blat</Name>
   </ApplicationJob>
@@ -1660,12 +1660,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\Blink-Installer.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\Blink-Installer.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-01-21T01:17:16.8348316</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>blink</Name>
   </ApplicationJob>
@@ -1740,7 +1740,7 @@
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated xsi:nil="true" />
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>bonjour-sdk</Name>
   </ApplicationJob>
@@ -1805,7 +1805,7 @@
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2014-08-18T23:39:04.6315625</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>http://www.bulkrenameutility.co.uk/Downloads/BRU_Setup_WinNTx86.exe</FixedDownloadUrl>
     <Name>bulkrenameutility</Name>
   </ApplicationJob>
@@ -1857,7 +1857,7 @@
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2014-08-18T23:39:06.564304</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>http://www.bulkrenameutility.co.uk/Downloads/BRU_NoInstall.zip</FixedDownloadUrl>
     <Name>bulkrenameutility.portable</Name>
   </ApplicationJob>
@@ -1973,12 +1973,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\CDex-1.77-win32.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\CDex-1.77-win32.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-01-28T19:17:06.0554945</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>cdex</Name>
   </ApplicationJob>
@@ -2052,12 +2052,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\celestia-win32-1.6.1.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\celestia-win32-1.6.1.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2014-12-19T02:17:21.0727939</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>celestia</Name>
   </ApplicationJob>
@@ -2131,12 +2131,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\clamwin-0.98.5-setup.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\clamwin-0.98.5-setup.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2014-12-19T03:55:41.1573841</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>clamwin</Name>
   </ApplicationJob>
@@ -2186,7 +2186,7 @@
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2014-09-08T01:15:13.7440882</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>https://github.com/bliker/cmder/releases/download/v{version}/cmder.7z</FixedDownloadUrl>
     <Name>cmder</Name>
   </ApplicationJob>
@@ -2236,7 +2236,7 @@
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2014-09-08T01:16:47.3874864</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>https://github.com/bliker/cmder/releases/download/v{version}/cmder_mini.zip</FixedDownloadUrl>
     <Name>cmdermini</Name>
   </ApplicationJob>
@@ -2295,12 +2295,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\Cyberduck-Installer-4.6.4.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\Cyberduck-Installer-4.6.4.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-01-28T13:29:24.0905678</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>cyberduck</Name>
   </ApplicationJob>
@@ -2400,12 +2400,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\dd-0.5.zip</PreviousLocation>
+    <PreviousLocation>{workdir}\dd-0.5.zip</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2014-12-31T07:33:28.6586221</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>dd</Name>
   </ApplicationJob>
@@ -2478,12 +2478,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\digiKam-installer-4.5.0-win32.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\digiKam-installer-4.5.0-win32.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2014-11-24T04:35:38.9974081</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>digiKam</Name>
   </ApplicationJob>
@@ -2570,12 +2570,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\InstallDoxBox_v60Beta.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\InstallDoxBox_v60Beta.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-01-02T21:36:01.1193999</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>doxbox</Name>
   </ApplicationJob>
@@ -2645,12 +2645,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\dupeguru_win64_3.9.1.msi</PreviousLocation>
+    <PreviousLocation>{workdir}\dupeguru_win64_3.9.1.msi</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-01-11T06:40:55.7754683</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>dupeguru</Name>
   </ApplicationJob>
@@ -2734,12 +2734,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\DuplicateCleaner_setup.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\DuplicateCleaner_setup.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-01-11T09:25:54.6075287</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>duplicatecleaner</Name>
   </ApplicationJob>
@@ -2809,12 +2809,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\duplicate-file-finder-setup.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\duplicate-file-finder-setup.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-01-27T04:33:38.2567375</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>duplicatefilefinder</Name>
   </ApplicationJob>
@@ -2879,7 +2879,7 @@
     <Enabled>false</Enabled>
     <FileHippoId />
     <LastUpdated>2014-01-05T04:33:22.9438274</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>http://duplicati.googlecode.com/files/Duplicati%20{version}.msi</FixedDownloadUrl>
     <Name>duplicati.beta</Name>
   </ApplicationJob>
@@ -2944,7 +2944,7 @@
     <Enabled>false</Enabled>
     <FileHippoId />
     <LastUpdated>2014-01-05T04:33:18.3500198</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>http://duplicati.googlecode.com/files/Duplicati%20{version}.msi</FixedDownloadUrl>
     <Name>duplicati.install</Name>
   </ApplicationJob>
@@ -2994,7 +2994,7 @@
     <Enabled>false</Enabled>
     <FileHippoId />
     <LastUpdated>2014-01-03T04:33:14.2333786</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>http://duplicati.googlecode.com/files/Duplicati%20{version}.zip</FixedDownloadUrl>
     <Name>duplicati.portable</Name>
   </ApplicationJob>
@@ -3082,12 +3082,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\EKeyfinder_v0.1beta7_win32.zip</PreviousLocation>
+    <PreviousLocation>{workdir}\EKeyfinder_v0.1beta7_win32.zip</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2014-12-19T03:28:30.415682</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url:encode}</FixedDownloadUrl>
     <Name>ekeyfinder</Name>
   </ApplicationJob>
@@ -3171,12 +3171,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\ekiga-setup-4.0.1+.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\ekiga-setup-4.0.1+.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-01-23T02:08:23.3298311</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>ekiga</Name>
   </ApplicationJob>
@@ -3289,12 +3289,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\electrum-1.9.8-setup.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\electrum-1.9.8-setup.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-01-27T18:33:26.1176524</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>electrum</Name>
   </ApplicationJob>
@@ -3448,12 +3448,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\feathercoin-0.8.7.1-setup.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\feathercoin-0.8.7.1-setup.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-01-25T03:42:43.7881013</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>feathercoin</Name>
   </ApplicationJob>
@@ -3523,12 +3523,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\finddupe.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\finddupe.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-01-11T08:27:13.3522085</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>finddupe</Name>
   </ApplicationJob>
@@ -3799,12 +3799,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\firefox-37.0a2.en-US.win32.installer.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\firefox-37.0a2.en-US.win32.installer.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-02-02T04:34:29.4331879</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>firefox-dev</Name>
   </ApplicationJob>
@@ -3878,12 +3878,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\flac-1.3.1-win.zip</PreviousLocation>
+    <PreviousLocation>{workdir}\flac-1.3.1-win.zip</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2014-12-10T14:39:58.759084</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>flac</Name>
   </ApplicationJob>
@@ -4009,12 +4009,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\FontForge-2014-12-31-Windows-r2.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\FontForge-2014-12-31-Windows-r2.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-01-10T22:44:05.8013463</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>fontforge</Name>
   </ApplicationJob>
@@ -4088,12 +4088,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\Freeplane-Setup-1.3.12.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\Freeplane-Setup-1.3.12.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2014-12-19T04:35:15.3566051</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>freeplane</Name>
   </ApplicationJob>
@@ -4179,12 +4179,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\gajim-0.16-1.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\gajim-0.16-1.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-01-03T11:17:29.9687157</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>gajim</Name>
   </ApplicationJob>
@@ -4258,12 +4258,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\GCstar_1.6.1_Setup.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\GCstar_1.6.1_Setup.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2014-12-10T06:52:31.567406</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>gcstar</Name>
   </ApplicationJob>
@@ -4383,7 +4383,7 @@
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2014-12-01T21:14:54.0291938</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>genymotion</Name>
   </ApplicationJob>
@@ -4498,12 +4498,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\GitHubSetup.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\GitHubSetup.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-01-29T04:35:58.4657625</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>githubforwindows</Name>
   </ApplicationJob>
@@ -4577,12 +4577,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\gsmartcontrol-0.8.7.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\gsmartcontrol-0.8.7.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2014-12-10T06:52:16.1642397</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>gsmartcontrol</Name>
   </ApplicationJob>
@@ -4709,12 +4709,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\gtk2-runtime-2.24.10-2012-10-10-ash.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\gtk2-runtime-2.24.10-2012-10-10-ash.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-01-18T03:25:30.3585441</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>gtk-runtime</Name>
   </ApplicationJob>
@@ -4807,7 +4807,7 @@
     <Enabled>false</Enabled>
     <FileHippoId />
     <LastUpdated>2014-07-25T13:00:28.2775441</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{mirrorUrl}</FixedDownloadUrl>
     <Name>hddguardian</Name>
   </ApplicationJob>
@@ -4884,7 +4884,7 @@
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated xsi:nil="true" />
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>i2p</Name>
   </ApplicationJob>
@@ -4969,12 +4969,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\innounp040.rar</PreviousLocation>
+    <PreviousLocation>{workdir}\innounp040.rar</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-01-21T22:55:54.5641146</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>innounp</Name>
   </ApplicationJob>
@@ -5049,12 +5049,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\italc-2.0.2-win32-setup.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\italc-2.0.2-win32-setup.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2014-12-10T10:30:47.3390164</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>italc</Name>
   </ApplicationJob>
@@ -5208,12 +5208,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\jstock-1.0.7u-setup.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\jstock-1.0.7u-setup.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2014-12-30T23:39:16.3701827</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>jstock</Name>
   </ApplicationJob>
@@ -5272,12 +5272,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\LinuxLive USB Creator 2.9.1.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\LinuxLive USB Creator 2.9.1.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2014-12-31T00:01:08.4858928</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>lili</Name>
   </ApplicationJob>
@@ -5361,12 +5361,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\HardLinkShellExt_win32.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\HardLinkShellExt_win32.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-01-28T17:51:21.284122</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>linkshellextension</Name>
   </ApplicationJob>
@@ -5440,12 +5440,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\linphone-3.7.0-setup.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\linphone-3.7.0-setup.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-01-03T15:21:21.6727016</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>linphone</Name>
   </ApplicationJob>
@@ -5599,12 +5599,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\litecoin-0.8.7.5-win32-setup.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\litecoin-0.8.7.5-win32-setup.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-01-25T03:42:29.0740191</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>litecoin</Name>
   </ApplicationJob>
@@ -5678,12 +5678,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\lmms-1.1.0-win32.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\lmms-1.1.0-win32.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2014-12-24T04:34:11.1741104</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>lmms</Name>
   </ApplicationJob>
@@ -5760,7 +5760,7 @@
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated xsi:nil="true" />
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>lyx</Name>
   </ApplicationJob>
@@ -5819,12 +5819,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\mRemoteNG-Installer-1.72.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\mRemoteNG-Installer-1.72.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2014-12-05T03:07:00.0857353</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>http://downloads.mremoteng.org/mRemoteNG-Installer-{version}.exe</FixedDownloadUrl>
     <Name>mRemoteNG</Name>
   </ApplicationJob>
@@ -5937,12 +5937,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\mcwin32-build185-setup.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\mcwin32-build185-setup.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-01-23T14:36:09.0730219</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>mc</Name>
   </ApplicationJob>
@@ -6030,12 +6030,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\MediaInfo_GUI_0.7.72_Windows.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\MediaInfo_GUI_0.7.72_Windows.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-01-23T14:50:52.5520213</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>mediainfo</Name>
   </ApplicationJob>
@@ -6119,12 +6119,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\Meld-3.12.3-win32.msi</PreviousLocation>
+    <PreviousLocation>{workdir}\Meld-3.12.3-win32.msi</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-01-03T20:06:39.2383719</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>meld</Name>
   </ApplicationJob>
@@ -6356,12 +6356,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\Mooncoin-1.862.1.7z</PreviousLocation>
+    <PreviousLocation>{workdir}\Mooncoin-1.862.1.7z</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-01-25T03:48:38.1002128</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>mooncoin</Name>
   </ApplicationJob>
@@ -6411,7 +6411,7 @@
     <Enabled>false</Enabled>
     <FileHippoId />
     <LastUpdated>2013-12-20T22:54:51.4057022</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>http://zer0dev.com/dld/download.php?id=1</FixedDownloadUrl>
     <Name>mremoteng.portable</Name>
   </ApplicationJob>
@@ -6524,12 +6524,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\setup-0.8.12.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\setup-0.8.12.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-01-28T07:32:55.6556082</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>msigna</Name>
   </ApplicationJob>
@@ -6588,12 +6588,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\multibit-0.5.18-windows-setup.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\multibit-0.5.18-windows-setup.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2014-12-19T03:20:28.3646781</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>multibit</Name>
   </ApplicationJob>
@@ -6747,12 +6747,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\Namecoin_v0.3.80_setup.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\Namecoin_v0.3.80_setup.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-01-25T03:42:46.7463639</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>namecoin</Name>
   </ApplicationJob>
@@ -6850,12 +6850,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\netbeans-8.0.2-javase-windows.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\netbeans-8.0.2-javase-windows.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-01-29T17:58:00.4261325</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>netbeans</Name>
   </ApplicationJob>
@@ -6953,12 +6953,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\nixnote-win32.zip</PreviousLocation>
+    <PreviousLocation>{workdir}\nixnote-win32.zip</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-01-23T02:55:53.6864234</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>nixnote</Name>
   </ApplicationJob>
@@ -7127,12 +7127,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\novacoin-nosetup-0.5.1-win32.7z</PreviousLocation>
+    <PreviousLocation>{workdir}\novacoin-nosetup-0.5.1-win32.7z</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-01-25T03:43:22.5339161</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>novacoin</Name>
   </ApplicationJob>
@@ -7193,7 +7193,7 @@
     <Enabled>false</Enabled>
     <FileHippoId />
     <LastUpdated xsi:nil="true" />
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>oggcodecs</Name>
   </ApplicationJob>
@@ -7249,12 +7249,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\opencodecs_0.85.17777.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\opencodecs_0.85.17777.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-01-04T18:32:07.6132992</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>opencodecs</Name>
   </ApplicationJob>
@@ -7340,12 +7340,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\openproj-1.4.msi</PreviousLocation>
+    <PreviousLocation>{workdir}\openproj-1.4.msi</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-01-23T15:02:50.2849853</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>openproj</Name>
   </ApplicationJob>
@@ -7429,12 +7429,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\pan-0.140-216.msi</PreviousLocation>
+    <PreviousLocation>{workdir}\pan-0.140-216.msi</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-01-23T02:55:38.2325194</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url:urldecode}</FixedDownloadUrl>
     <Name>pan</Name>
   </ApplicationJob>
@@ -7602,12 +7602,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\pandacoin-3.0.2.0-win32-setup.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\pandacoin-3.0.2.0-win32-setup.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-01-25T03:43:02.5807937</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>pandabank</Name>
   </ApplicationJob>
@@ -7775,12 +7775,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\pandacoin-3.0.2.0-win32.zip</PreviousLocation>
+    <PreviousLocation>{workdir}\pandacoin-3.0.2.0-win32.zip</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-01-25T03:43:18.0153778</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>pandabank.portable</Name>
   </ApplicationJob>
@@ -7867,12 +7867,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\pdfedit-20140526_1531.msi</PreviousLocation>
+    <PreviousLocation>{workdir}\pdfedit-20140526_1531.msi</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2014-12-10T06:52:25.214705</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>pdfedit</Name>
   </ApplicationJob>
@@ -7992,12 +7992,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\peazip-5.5.3.WINDOWS.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\peazip-5.5.3.WINDOWS.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-01-29T04:38:40.0667817</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>peazip</Name>
   </ApplicationJob>
@@ -8073,12 +8073,12 @@ https://code.google.com/p/peerblock/downloads/list</UserNotes>
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\PeerBlock-Setup_v1.2_r693.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\PeerBlock-Setup_v1.2_r693.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2014-11-26T15:24:22.4683078</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>peerblock</Name>
   </ApplicationJob>
@@ -8233,12 +8233,12 @@ https://code.google.com/p/peerblock/downloads/list</UserNotes>
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\ppcoin-0.4.0-win32-setup.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\ppcoin-0.4.0-win32-setup.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-01-25T03:43:47.2577982</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>peercoin</Name>
   </ApplicationJob>
@@ -8393,12 +8393,12 @@ chocopkgup {nopush} --packagename={appname}.portable --version={version} --pg="{
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\peerunity-0.1.1-win.zip</PreviousLocation>
+    <PreviousLocation>{workdir}\peerunity-0.1.1-win.zip</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-01-25T03:44:37.0369696</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>peerunity</Name>
   </ApplicationJob>
@@ -8518,7 +8518,7 @@ chocopkgup {nopush} --packagename={appname}.portable --version={version} --pg="{
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2014-12-01T00:02:00.7227068</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>popcorntime</Name>
   </ApplicationJob>
@@ -8673,12 +8673,12 @@ chocopkgup {nopush} --packagename={appname}.portable --version={version} --pg="{
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\primecoin-0.1.2-win32-setup.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\primecoin-0.1.2-win32-setup.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-01-25T03:43:56.6956895</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>primecoin</Name>
   </ApplicationJob>
@@ -8752,12 +8752,12 @@ chocopkgup {nopush} --packagename={appname}.portable --version={version} --pg="{
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\privoxy_setup_3.0.22.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\privoxy_setup_3.0.22.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2014-12-10T09:30:17.649289</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{urlDownload}</FixedDownloadUrl>
     <Name>privoxy</Name>
   </ApplicationJob>
@@ -8842,12 +8842,12 @@ chocopkgup {nopush} --packagename={appname}.portable --version={version} --pg="{
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\projectlibre-1.5.9.msi</PreviousLocation>
+    <PreviousLocation>{workdir}\projectlibre-1.5.9.msi</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-01-23T01:31:00.3752067</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>projectlibre</Name>
   </ApplicationJob>
@@ -8940,7 +8940,7 @@ chocopkgup {nopush} --packagename={appname}.portable --version={version} --pg="{
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2014-12-10T09:30:17.649289</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>psi</Name>
   </ApplicationJob>
@@ -9014,12 +9014,12 @@ chocopkgup {nopush} --packagename={appname}.portable --version={version} --pg="{
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\pulse-windows-386-0.1.4.zip</PreviousLocation>
+    <PreviousLocation>{workdir}\pulse-windows-386-0.1.4.zip</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2014-12-20T04:33:45.826906</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>pulse</Name>
   </ApplicationJob>
@@ -9108,12 +9108,12 @@ chocopkgup {nopush} --packagename={appname}.portable --version={version} --pg="{
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\QuiteRSS-0.17.5-Setup.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\QuiteRSS-0.17.5-Setup.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-01-23T02:56:02.8530812</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>quiterss</Name>
   </ApplicationJob>
@@ -9183,12 +9183,12 @@ chocopkgup {nopush} --packagename={appname}.portable --version={version} --pg="{
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\regscanner_setup.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\regscanner_setup.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-01-28T09:30:46.3361926</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>regscanner</Name>
   </ApplicationJob>
@@ -9343,12 +9343,12 @@ chocopkgup {nopush} --packagename={appname}.portable --version={version} --pg="{
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\riecoin-0.10.2-win.zip</PreviousLocation>
+    <PreviousLocation>{workdir}\riecoin-0.10.2-win.zip</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-01-25T03:44:23.3151691</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>riecoin</Name>
   </ApplicationJob>
@@ -9422,12 +9422,12 @@ chocopkgup {nopush} --packagename={appname}.portable --version={version} --pg="{
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\RSSOwl.2.2.1.Windows.Installer.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\RSSOwl.2.2.1.Windows.Installer.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2014-12-14T23:05:21.1636656</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>rssowl</Name>
   </ApplicationJob>
@@ -9487,12 +9487,12 @@ chocopkgup {nopush} --packagename={appname}.portable --version={version} --pg="{
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\rufus-1.4.12.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\rufus-1.4.12.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-01-02T17:59:33.4957416</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>rufus</Name>
   </ApplicationJob>
@@ -9600,12 +9600,12 @@ Actual download=http://www.sandboxie.com/SandboxieInstall32-412.exe
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\SandboxieInstall32-414.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\SandboxieInstall32-414.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2014-11-26T16:10:08.5478911</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>sandboxie</Name>
   </ApplicationJob>
@@ -9678,12 +9678,12 @@ Actual download=http://www.sandboxie.com/SandboxieInstall32-412.exe
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\SandboxieInstall32-415-11.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\SandboxieInstall32-415-11.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-01-31T04:35:13.5289681</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>http://www.sandboxie.com/SandboxieInstall32-{version:split:.:0}{version:split:.:1}-{version:split:.:2}.exe</FixedDownloadUrl>
     <Name>sandboxie.beta</Name>
   </ApplicationJob>
@@ -9733,7 +9733,7 @@ Actual download=http://www.sandboxie.com/SandboxieInstall32-412.exe
     <Enabled>false</Enabled>
     <FileHippoId />
     <LastUpdated>2013-12-20T22:54:51.4057022</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>http://zer0dev.com/dld/download.php?id=1</FixedDownloadUrl>
     <Name>sandboxie.portable</Name>
   </ApplicationJob>
@@ -9838,12 +9838,12 @@ Actual download=http://www.sandboxie.com/SandboxieInstall32-412.exe
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\smartmontools-6.3-1.win32-setup.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\smartmontools-6.3-1.win32-setup.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2014-12-04T21:54:26.4194869</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>smartmontools</Name>
   </ApplicationJob>
@@ -9967,7 +9967,7 @@ Actual download=http://www.sandboxie.com/SandboxieInstall32-412.exe
     <Enabled>false</Enabled>
     <FileHippoId />
     <LastUpdated>2014-12-02T03:47:04.7327994</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>http://{mirror}.dl.sourceforge.net/project/{urlPart}</FixedDownloadUrl>
     <Name>smartmontools 1 (not choco compatible)</Name>
   </ApplicationJob>
@@ -10122,7 +10122,7 @@ Actual download=http://www.sandboxie.com/SandboxieInstall32-412.exe
     <Enabled>false</Enabled>
     <FileHippoId />
     <LastUpdated>2014-12-04T18:59:22.7596915</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{mirrorUrl}</FixedDownloadUrl>
     <Name>smartmontools 2 (messy 301 redirect hack)</Name>
   </ApplicationJob>
@@ -10225,12 +10225,12 @@ Actual download=http://www.sandboxie.com/SandboxieInstall32-412.exe
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\smartmontools-win-6.3-1.zip</PreviousLocation>
+    <PreviousLocation>{workdir}\smartmontools-win-6.3-1.zip</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>false</Enabled>
     <FileHippoId />
     <LastUpdated>2014-12-13T04:33:39.4795167</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>smartmontools-win</Name>
   </ApplicationJob>
@@ -10332,12 +10332,12 @@ Actual download=http://www.sandboxie.com/SandboxieInstall32-412.exe
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\Small Registry Editor1.3.1.12.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\Small Registry Editor1.3.1.12.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-01-28T08:34:37.57282</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>sre</Name>
   </ApplicationJob>
@@ -10399,12 +10399,12 @@ Actual download=http://www.sandboxie.com/SandboxieInstall32-412.exe
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\stunnel-5.10-installer.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\stunnel-5.10-installer.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-01-23T02:56:07.9401699</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>https://www.stunnel.org/downloads/stunnel-{version}-installer.exe</FixedDownloadUrl>
     <Name>stunnel</Name>
   </ApplicationJob>
@@ -10457,7 +10457,7 @@ Actual download=http://www.sandboxie.com/SandboxieInstall32-412.exe
     <Enabled>false</Enabled>
     <FileHippoId />
     <LastUpdated>2014-04-14T04:33:17.3272888</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>https://www.stunnel.org/downloads/beta/stunnel-{version}-installer.exe</FixedDownloadUrl>
     <Name>stunnel.beta</Name>
   </ApplicationJob>
@@ -10527,12 +10527,12 @@ Actual download=http://www.sandboxie.com/SandboxieInstall32-412.exe
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\swftools-0.9.0.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\swftools-0.9.0.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-01-05T01:32:24.5574788</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>swftools</Name>
   </ApplicationJob>
@@ -10608,12 +10608,12 @@ https://code.google.com/p/peerblock/downloads/list</UserNotes>
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\PeerBlock-Setup_v1.2_r693.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\PeerBlock-Setup_v1.2_r693.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>false</Enabled>
     <FileHippoId />
     <LastUpdated>2014-11-26T15:24:22.4683078</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>syncless</Name>
   </ApplicationJob>
@@ -10669,12 +10669,12 @@ https://code.google.com/p/peerblock/downloads/list</UserNotes>
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\tsetup.0.7.10.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\tsetup.0.7.10.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-01-29T04:37:28.8234473</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>tdesktop</Name>
   </ApplicationJob>
@@ -10748,12 +10748,12 @@ https://code.google.com/p/peerblock/downloads/list</UserNotes>
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\TheBrain_windows_8_0_1_4.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\TheBrain_windows_8_0_1_4.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-01-02T16:37:40.8845576</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>thebrain</Name>
   </ApplicationJob>
@@ -10820,7 +10820,7 @@ http://assets.thebrain.com/downloads/TheBrain_windows-x64_8_0_1_2.exe</UserNotes
     <Enabled>false</Enabled>
     <FileHippoId />
     <LastUpdated>2014-08-18T19:59:52.3962521</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>http://assets.thebrain.com/downloads/TheBrain_windows_{version:regexreplace:\.:_}.exe</FixedDownloadUrl>
     <Name>thebrain [old url]</Name>
   </ApplicationJob>
@@ -10897,7 +10897,7 @@ http://assets.thebrain.com/downloads/TheBrain_windows-x64_8_0_1_2.exe</UserNotes
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated xsi:nil="true" />
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>tox</Name>
   </ApplicationJob>
@@ -10981,12 +10981,12 @@ http://assets.thebrain.com/downloads/TheBrain_windows-x64_8_0_1_2.exe</UserNotes
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\toxy_x86.zip</PreviousLocation>
+    <PreviousLocation>{workdir}\toxy_x86.zip</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-02-02T04:35:26.3846556</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>toxy</Name>
   </ApplicationJob>
@@ -11172,12 +11172,12 @@ http://assets.thebrain.com/downloads/TheBrain_windows-x64_8_0_1_2.exe</UserNotes
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\UMS-5.0.0-Java6.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\UMS-5.0.0-Java6.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-01-25T04:35:46.6175087</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>ums</Name>
   </ApplicationJob>
@@ -11271,7 +11271,7 @@ http://assets.thebrain.com/downloads/TheBrain_windows-x64_8_0_1_2.exe</UserNotes
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2013-12-20T22:54:51.4057022</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>usagestats</Name>
   </ApplicationJob>
@@ -11440,12 +11440,12 @@ http://assets.thebrain.com/downloads/TheBrain_windows-x64_8_0_1_2.exe</UserNotes
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\vcredist_x86.EXE</PreviousLocation>
+    <PreviousLocation>{workdir}\vcredist_x86.EXE</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>false</Enabled>
     <FileHippoId />
     <LastUpdated>2015-01-28T17:31:39.5396755</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>vcredist2005</Name>
   </ApplicationJob>
@@ -11596,7 +11596,7 @@ http://assets.thebrain.com/downloads/TheBrain_windows-x64_8_0_1_2.exe</UserNotes
     <Enabled>false</Enabled>
     <FileHippoId />
     <LastUpdated>2014-12-19T22:37:45.3182978</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>veracrypt</Name>
   </ApplicationJob>
@@ -11657,12 +11657,12 @@ http://assets.thebrain.com/downloads/TheBrain_windows-x64_8_0_1_2.exe</UserNotes
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\wpilauncher.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\wpilauncher.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-01-29T04:37:45.3313642</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>webpi</Name>
   </ApplicationJob>
@@ -11707,7 +11707,7 @@ http://assets.thebrain.com/downloads/TheBrain_windows-x64_8_0_1_2.exe</UserNotes
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\Windows_Tweaker_5.2-Setup.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\Windows_Tweaker_5.2-Setup.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
@@ -11771,12 +11771,12 @@ http://assets.thebrain.com/downloads/TheBrain_windows-x64_8_0_1_2.exe</UserNotes
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\BvSshServer-Inst.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\BvSshServer-Inst.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>false</Enabled>
     <FileHippoId />
     <LastUpdated>2014-10-28T06:23:20.5482581</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>http://dl.bitvise.com/BvSshServer-Inst.exe</FixedDownloadUrl>
     <Name>winsshd</Name>
   </ApplicationJob>
@@ -11846,12 +11846,12 @@ http://assets.thebrain.com/downloads/TheBrain_windows-x64_8_0_1_2.exe</UserNotes
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\xiph-qt-win32-0.1.5.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\xiph-qt-win32-0.1.5.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-01-04T11:21:51.002788</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>xiphqt</Name>
   </ApplicationJob>
@@ -12054,12 +12054,12 @@ http://assets.thebrain.com/downloads/TheBrain_windows-x64_8_0_1_2.exe</UserNotes
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\znotes.exe</PreviousLocation>
+    <PreviousLocation>{workdir}\znotes.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-01-24T15:07:58.2919044</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>znotes</Name>
   </ApplicationJob>
@@ -12148,7 +12148,7 @@ http://assets.thebrain.com/downloads/TheBrain_windows-x64_8_0_1_2.exe</UserNotes
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated xsi:nil="true" />
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>zsnes</Name>
   </ApplicationJob>
@@ -12236,7 +12236,7 @@ http://assets.thebrain.com/downloads/TheBrain_windows-x64_8_0_1_2.exe</UserNotes
     <Enabled>false</Enabled>
     <FileHippoId />
     <LastUpdated xsi:nil="true" />
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>zsnes.1</Name>
   </ApplicationJob>

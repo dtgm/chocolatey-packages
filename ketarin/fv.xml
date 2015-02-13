@@ -71,7 +71,7 @@
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-02-02T23:03:07.7859162-06:00</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>fv</Name>
   </ApplicationJob>

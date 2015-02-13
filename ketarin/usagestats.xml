@@ -90,7 +90,7 @@
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2013-12-20T22:54:51.4057022</LastUpdated>
-    <TargetPath>C:\ProgramData\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>usagestats</Name>
   </ApplicationJob>
