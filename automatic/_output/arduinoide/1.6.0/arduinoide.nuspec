@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>arduinoide</id>
+    <title>Arduino IDE</title>
+    <version>1.6.0</version>
+    <authors>Arduino team</authors>
+    <owners>tonigellida dtgm</owners>
+    <summary>Arduino is an open-source electronics prototyping platform based on flexible, easy-to-use hardware and software</summary>
+    <description>
+Arduino integrated development environment (IDE) is a cross-platform application written in Java, and derives from the IDE for the Processing programming language and the Wiring projects. It is designed to introduce programming to artists and other newcomers unfamiliar with software development. It includes a code editor with features such as syntax highlighting, brace matching, and automatic indentation, and is also capable of compiling and uploading programs to the board with a single click. A program or code written for Arduino is called a sketch.
+
+Arduino programs are written in C or C++. The Arduino IDE comes with a software library called "Wiring" from the original Wiring project, which makes many common input/output operations much easier. 
+
+[User forum](http://arduino.cc/forum/)
+[Source code repository](https://github.com/arduino/Arduino)
+[Issue tracker](https://github.com/arduino/Arduino/issues)
+		</description>
+    <projectUrl>http://arduino.cc/en/Main/Software</projectUrl>
+    <tags>ide electronics arduino processing programming</tags>
+    <copyright>© Arduino</copyright>
+    <licenseUrl>https://raw.githubusercontent.com/arduino/Arduino/master/license.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/a7ebd2d6965ec6c20cc23b9b9293202d5d2233a6/icons/arduinoide.png</iconUrl>
+		<releaseNotes>https://github.com/arduino/Arduino/releases/tag/1.6.0</releaseNotes>
+    <dependencies>
+      <dependency id="autohotkey.portable" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
