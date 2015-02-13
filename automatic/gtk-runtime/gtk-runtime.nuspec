@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
-    <id>{{packageName}}</id>
+    <id>{{PackageName}}</id>
     <title>GTK Runtime</title>
-    <version>{{packageVersion}}</version>
+    <version>{{PackageVersion}}</version>
     <authors>GTK+ Team</authors>
     <owners>dtgm</owners>
     <summary>Cross-platform widget toolkit for creating graphical user interfaces</summary>
