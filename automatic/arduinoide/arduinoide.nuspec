@@ -23,6 +23,9 @@ Arduino programs are written in C or C++. The Arduino IDE comes with a software 
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/a7ebd2d6965ec6c20cc23b9b9293202d5d2233a6/icons/{{PackageName}}.png</iconUrl>
 		<releaseNotes>https://github.com/arduino/Arduino/releases/tag/{{PackageVersion}}</releaseNotes>
+    <dependencies>
+      <dependency id="autohotkey.portable" />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
