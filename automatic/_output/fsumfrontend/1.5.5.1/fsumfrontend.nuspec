@@ -14,7 +14,7 @@ It supports 96 algorithms: alder8, adler16, adler32, ap hash, bdkr, cksum, cksum
 
 It also supports SFV, MD5, SHA1/SHA2 files creation and verification.
 
-Some of these algorithms are based on the project jacksum (see http://www.jonelo.de/java/jacksum/index.html for more information) and flexiprovider (http://www.flexiprovider.de).
+Some of these algorithms are based on the project [jacksum](http://www.jonelo.de/java/jacksum/index.html) and [flexiprovider](http://www.flexiprovider.de).
 
 ### Features
 * Calculate the checksums, message digest and HMAC of files and text strings.

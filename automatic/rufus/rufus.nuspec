@@ -21,9 +21,13 @@ Despite its small size, Rufus provides everything you need!
 
 Oh, and Rufus is fast. For instance it's about twice as fast as UNetbootin, Universal USB Installer or Windows 7 USB download tool, on the creation of a Windows 7 USB installation drive from an ISO. It is also marginally faster on the creation of Linux bootable USB from ISOs (http://rufus.akeo.ie/#ref1).
 
-A non exhaustive list of Rufus supported ISOs is also provided at http://rufus.akeo.ie/#ref2
+Frequently Asked Questions (FAQ): https://github.com/pbatard/rufus/wiki/FAQ
+
+A non-exhaustive list of Rufus supported ISOs: http://rufus.akeo.ie/#ref2
+
+Source code: https://github.com/pbatard/rufus/
 		</description>
-    <releaseNotes>http://rufus.akeo.ie/#versions</releaseNotes>
+    <releaseNotes>https://github.com/pbatard/rufus/blob/master/ChangeLog.txt</releaseNotes>
     <projectUrl>http://rufus.akeo.ie/</projectUrl>
 		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/b3aba1acb55094c68db73f87e4db4d72df664794/icons/rufus.png</iconUrl>
     <licenseUrl>http://www.gnu.org/licenses/gpl-3.0.html</licenseUrl>

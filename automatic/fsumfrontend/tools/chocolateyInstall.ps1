@@ -5,7 +5,8 @@ $url = '{{DownloadUrlx64}}'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 Install-ChocolateyZipPackage -PackageName "$packageName" -Url "$url" -UnzipLocation "$toolsDir"
 try {
-	Set-Content -Path ("$toolsDir\$packageName.exe.gui") -Value $nul
+	$installFile = Join-Path $toolsDir "$($packageName).exe"
+	Set-Content -Path ("$installFile.gui") -Value $nul
   Write-ChocolateySuccess "$packageName"
 } catch {
   Write-ChocolateyFailure "$packageName" "$($_.Exception.Message)"
