@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>FreeArc (Portable)</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Bulat Ziganshin</authors>
+    <owners>dtgm</owners>
+    <summary>General-purpose archiver</summary>
+    <description>
+FreeArc is fast but efficient compression and rich set of features.
+
+FreeArc works 2–5 times faster than best other compression programs.
+
+FreeArc combines best 7-zip and RAR features: auto-selected LZMA/PPMD/Multimedia compression, 1gb dictionary, exe/dict/delta data filters, updatable solid archives, SFXes, recovery record, AES+Twofish+Serpent encryption, Linux support and much more...
+		</description>
+    <projectUrl>http://freearc.org/</projectUrl>
+    <tags>file-archiver compression zip rar 7zip</tags>
+    <copyright>© Bulat Ziganshin</copyright>
+    <licenseUrl>https://freearc.svn.sourceforge.net/svnroot/freearc/Installer/License/License.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/f9c2de73ecefd7c57475a77d2072460982ff2aa7/icons/freearc.png</iconUrl>
+		<releaseNotes>http://freearc.org/News.aspx</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
