@@ -6,6 +6,49 @@ automatic and manual packages for management by [Chocolatey](https://chocolatey.
 
 ## Folder organization
 
+<pre>
+chocolatey-packages
+├── automatic
+│   ├── _output
+│   │   ├── andy    
+│   │   │   ├── 0.43.2    
+│   │   │   │   ├── tools
+│   │   │   │   │   ├── chocolateyInstall.ps1
+│   │   │   │   │   └── chocolateyUninstall.ps1
+│   │   │   │   ├── andy.0.43.2.nupkg
+│   │   │   │   └── andy.nuspec    
+│   │   │   └── 0.43.3  
+│   │   └── bitcoin 
+│   │   │   ...
+│   │   └── zsnes
+│   ├── andy
+│   │   ├── tools
+│   │   │   ├── chocolateyInstall.ps1
+│   │   │   └── chocolateyUninstall.ps1
+│   │   └── andy.nuspec
+│   ├── bitcoin
+│   │   ...
+│   └── zsnes
+├── icons
+│   ├── andy.png
+│   ├── bitcoin.svg
+│   │   ...
+│   └── zsnes.png
+├── ketarin
+│   ├── andy.xml
+│   ├── bitcoin.xml
+│   │   ...
+│   └── zsnes.xml
+├── licenses
+└── manual
+    └── hpusbdisk
+        ├── tools
+        │   ├── chocolateyInstall.ps1    
+        │   └── HPUSBDisk.exe    
+        ├── hpusbdisk.2.2.3.20150128.nupkg
+        └── hpusbdisk.nuspec
+</pre>
+
 ### automatic
 Packages automatically maintained by: 
 
