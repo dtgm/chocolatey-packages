@@ -1,6 +1,7 @@
 ﻿$packageName = 'cdex'
 $installerType = 'exe'
-$url = 'http://hivelocity.dl.sourceforge.net/project/cdexos/cdexos/CDex 1.77/CDex-1.77-win32.exe'
+# hack to overcome limitations of Ketarin/chocopkgup when using repos like sf.net
+$url = 'http://sourceforge.net/projects/cdexos/files/cdexos/CDex%201.77/CDex-1.77-win32.exe/download'
 $silentArgs = '/S'
 $validExitCodes = @(0) #please insert other valid exit codes here, exit codes for ms http://msdn.microsoft.com/en-us/library/aa368542(VS.85).aspx
 $checksum = 'd43ec3ca087086340baa9345161eb6cf78e5e035'
