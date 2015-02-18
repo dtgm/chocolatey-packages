@@ -3,7 +3,7 @@ try {
 	$packageVersion = '{{PackageVersion}}'
 	$installerType = 'exe'
 	$silentArgs = '/S'
-	$url = '{{DownloadUrl}}'
+	$url = '{{DownloadUrlx64}}'
 	$chocTempDir = Join-Path $env:TEMP 'chocolatey'
 	$pkgTempDir = Join-Path $chocTempDir $packageName
 	
