@@ -1,4 +1,4 @@
-﻿$packageName = "{{PackageName}}"
+$packageName = "{{PackageName}}"
 $url = "{{DownloadUrlx64}}"
 $url64 = "$url"
 $unzipLoc = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"

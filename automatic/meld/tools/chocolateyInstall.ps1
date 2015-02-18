@@ -1,4 +1,4 @@
-﻿$packageName = '{{PackageName}}'
+$packageName = '{{PackageName}}'
 $version = '{{PackageVersion}}'
 $uninstallRegistryPath_x86 = "HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\$packageName"
 $uninstallRegistryPath_x64 = "HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\$packageName"

@@ -1,4 +1,4 @@
-﻿$packageName = '{{PackageName}}'
+$packageName = '{{PackageName}}'
 $packageVersion = '{{PackageVersion}}'
 # no version-specific installers available, only latest
 $url = '{{DownloadUrl}}'

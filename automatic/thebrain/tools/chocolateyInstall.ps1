@@ -1,1 +1,1 @@
-﻿#Install-VirtualPackage '{{PackageName}}.install'
+#Install-VirtualPackage '{{PackageName}}.install'

@@ -10,6 +10,10 @@
     <description>
 Finddupe is a commandline tool for quick detection of duplicate files on a hard drive under Windows. Duplicate files can be detected, hardlinked, or deleted. Finddupe can also search for hardlinked files on your computer.  Finddupe has several possible use cases:
 
+  
+  $checksum = '{{Checksum}}'
+  $checksum = '{{Checksumx64}}'  
+
 ### Deleting duplicate files
 
 When working thru somebody elses photo collection, or MP3 collection, this tool is useful for deleting the files that are duplicate. Depending on how the media is organized, there can be a lot of duplicate files in a collection.
@@ -28,7 +32,7 @@ Unknown to most, the winodws NTFS file system has the ability to hard link files
 
 ### Source code
 * http://www.sentex.net/%7Emwandel/finddupe/finddupe-src.zip
-		</description>
+    </description>
     <projectUrl>http://www.sentex.net/~mwandel/finddupe/</projectUrl>
     <tags>file-duplicates deduplication commandline</tags>
     <copyright>© Matthias Wandel</copyright>

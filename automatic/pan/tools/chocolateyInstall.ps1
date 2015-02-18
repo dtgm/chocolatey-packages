@@ -1,4 +1,4 @@
-﻿$packageName = '{{PackageName}}'
+$packageName = '{{PackageName}}'
 $installerType = 'msi'	
 $silentArgs = '/quiet /qn /norestart'
 $url = '{{DownloadUrl}}'

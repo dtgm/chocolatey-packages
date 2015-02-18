@@ -1,1 +1,1 @@
-﻿#Install-VirtualPackage 'cmdermini.portable'
+#Install-VirtualPackage 'cmdermini.portable'

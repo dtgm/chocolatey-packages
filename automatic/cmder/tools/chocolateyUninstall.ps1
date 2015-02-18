@@ -1,4 +1,4 @@
-﻿$binRoot = Get-BinRoot
+$binRoot = Get-BinRoot
 $installDir = Join-Path $binRoot "cmder"
 
 try { 

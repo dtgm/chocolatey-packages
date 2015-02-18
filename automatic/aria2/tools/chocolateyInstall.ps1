@@ -1,4 +1,4 @@
-﻿$packageName = '{{PackageName}}'
+$packageName = '{{PackageName}}'
 $unzipLoc = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 # hack to overcome limitations of Ketarin/chocopkgup when using repos like sf.net
 $urlArray = {{DownloadUrlx64}}

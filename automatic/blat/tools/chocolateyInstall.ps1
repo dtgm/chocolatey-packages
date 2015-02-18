@@ -1,4 +1,4 @@
-﻿try {
+try {
   $packageName = "{{PackageName}}"
   $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
   # hack to overcome limitations of Ketarin/chocopkgup when using repos like sf.net

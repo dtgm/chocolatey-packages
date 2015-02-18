@@ -1,4 +1,4 @@
-﻿try {
+try {
   $packageName = '{{PackageName}}'
   $packageVersion = '{{PackageVersion}}'
   $unzipLoc = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"

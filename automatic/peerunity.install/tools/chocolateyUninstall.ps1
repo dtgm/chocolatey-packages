@@ -1,4 +1,4 @@
-﻿try {
+try {
   $packageName = '{{PackageName}}'
   $packageSearch = 'Peerunity'
   $fileType = 'exe'

@@ -1,4 +1,4 @@
-﻿$packageName = 'Bitvise SSH Server'
+$packageName = 'Bitvise SSH Server'
 $installerType = 'EXE'
 $url  = '{{DownloadUrl}}'
 $silentArgs = '-acceptEULA -startServer -startBssCtrl'

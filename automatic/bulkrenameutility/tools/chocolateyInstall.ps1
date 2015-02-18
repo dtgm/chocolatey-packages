@@ -1,1 +1,1 @@
-﻿#Install-VirtualPackage 'bulkrenameutility.portable' 'bulkrenameutility.install'
+#Install-VirtualPackage 'bulkrenameutility.portable' 'bulkrenameutility.install'

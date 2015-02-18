@@ -1,4 +1,4 @@
-﻿$packageName = '{{PackageName}}'
+$packageName = '{{PackageName}}'
 $url = '{{DownloadUrl}}'
 
 # Issue: config files were mutable every upgrade as stored in $ChocolateyInstall\lib\{programName}.{version}\tools 

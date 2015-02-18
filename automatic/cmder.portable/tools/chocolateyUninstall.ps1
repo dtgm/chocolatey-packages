@@ -1,4 +1,4 @@
-﻿$packageName = '{{PackageName}}'
+$packageName = '{{PackageName}}'
 $packageVersion = '{{PackageVersion}}'
 $binRoot = Get-BinRoot
 echo "$binRoot"

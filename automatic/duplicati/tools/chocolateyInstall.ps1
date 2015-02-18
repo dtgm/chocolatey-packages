@@ -1,4 +1,4 @@
-﻿$packageName = '{{PackageName}}'
+$packageName = '{{PackageName}}'
 $installerType = 'msi'
 $url  = '{{DownloadUrl}}'
 #$url  = 'http://duplicati.googlecode.com/files/Duplicati%201.3.4.msi'

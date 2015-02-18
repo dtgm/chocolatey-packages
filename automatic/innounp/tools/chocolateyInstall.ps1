@@ -1,4 +1,4 @@
-﻿try {
+try {
   $packageName = "{{PackageName}}"
   $url = "{{DownloadUrlx64}}"
   $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"

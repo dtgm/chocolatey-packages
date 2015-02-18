@@ -1,4 +1,4 @@
-﻿try {
+try {
   $packageName = '{{PackageName}}'
   $packageSearch = 'Zimbra Desktop'	
   $app = Get-WmiObject -class win32_product | Where-Object {$_.Name -like "$packageSearch"}

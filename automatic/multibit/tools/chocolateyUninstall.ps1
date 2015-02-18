@@ -1,4 +1,4 @@
-﻿try {
+try {
     $packageName = '{{PackageName}}'
     $fileType = 'exe'
     $silentArgs = '/S'

@@ -1,4 +1,4 @@
-﻿# Uninstall executable = Nullsoft Install System v2.46
+# Uninstall executable = Nullsoft Install System v2.46
 
 $silentArgs = "/S"
 $processor = Get-WmiObject Win32_Processor

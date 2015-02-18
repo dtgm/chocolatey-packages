@@ -1,4 +1,4 @@
-﻿try {
+try {
   $packageName = '{{PackageName}}'
   $packageUn = 'Auslogics Duplicate'
   $fileType = 'exe'

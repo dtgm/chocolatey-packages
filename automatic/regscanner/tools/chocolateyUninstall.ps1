@@ -1,4 +1,4 @@
-﻿try {
+try {
   $packageName = '{{PackageName}}'
   $packageSearch = 'NirSoft RegScanner'
   $fileType = 'exe'

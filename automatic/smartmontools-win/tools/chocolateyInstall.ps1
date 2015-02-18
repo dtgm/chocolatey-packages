@@ -1,4 +1,4 @@
-﻿try {
+try {
   $packageName = '{{PackageName}}'
   $installerType = 'exe'
   $url = '{{DownloadUrl}}'

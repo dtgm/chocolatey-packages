@@ -1,4 +1,4 @@
-﻿$packageName = '{{PackageName}}'
+$packageName = '{{PackageName}}'
 $packageVersion = '{{PackageVersion}}'
 $url = '{{DownloadUrl}}'
 $checksum = '{{Checksum}}'
