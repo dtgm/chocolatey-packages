@@ -14,8 +14,6 @@
 	}
 	Start-Process -FilePath "$cmd7z" -Wait -WorkingDirectory "$toolsDir" -ArgumentList "e $rarFile"
 	Remove-Item "$rarFile"
-  Write-ChocolateySuccess "$packageName"
 } catch {
-  Write-ChocolateyFailure "$packageName" "$($_.Exception.Message)"
-  throw
+  throw $_.Exception
 }

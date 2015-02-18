@@ -10,10 +10,8 @@ try {
 	if (Test-Path -Path "$installDir") {
 		Remove-Item -Path -Force "$installDir"
 	}
-	Write-ChocolateySuccess "$packageName"
 } catch {
-  Write-ChocolateyFailure "$packageName" "$($_.Exception.Message)"
-  throw 
+  throw $_.Exception 
 }
 
 if (Test-Path "$(Split-Path -parent $MyInvocation.MyCommand.Definition)\..\..\cmder.$packageVersion") {

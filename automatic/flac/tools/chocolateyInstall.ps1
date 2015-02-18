@@ -12,8 +12,6 @@ try {
 	} else {
 		Remove-Item -Recurse (Join-Path "$unzipLoc" (Join-Path "$installFolder" 'win64'))
 	}
-	Write-ChocolateySuccess "$packageName"
 } catch {
-  Write-ChocolateyFailure "$packageName" $($_.Exception.Message)
-  throw
+  throw $_.Exception
 }

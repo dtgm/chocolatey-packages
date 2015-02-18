@@ -19,8 +19,6 @@ try {
 	}
 	# run extracted installer
 	Install-ChocolateyInstallPackage "$packageName" "$installerType" "$silentArgs" "$installFile"
-	Write-ChocolateySuccess "$packageName"
 } catch {
-  Write-ChocolateyFailure "$packageName" $($_.Exception.Message)
-  throw
+  throw $_.Exception
 }

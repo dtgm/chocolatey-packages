@@ -11,8 +11,6 @@ try {
 	} else {
 		Remove-Item -Recurse (Join-Path "$installDir" '64')
 	}
-	Write-ChocolateySuccess "$packageName"
 } catch {
-  Write-ChocolateyFailure "$packageName" $($_.Exception.Message)
-  throw
+  throw $_.Exception
 }

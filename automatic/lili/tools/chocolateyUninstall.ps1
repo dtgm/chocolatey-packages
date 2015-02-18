@@ -17,6 +17,5 @@ try {
 	}
 	Uninstall-ChocolateyPackage "$packageName" "$fileType" "$silentArgs" "$unProg" -validExitCodes $validExitCodes
 } catch {
-  Write-ChocolateyFailure "$packageName" "$($_.Exception.Message)"
-  throw 
+  throw $_.Exception 
 }

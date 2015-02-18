@@ -6,6 +6,5 @@
 	$unString = (Get-ItemProperty HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\* | select DisplayName, UninstallString | Where-Object {$_.DisplayName -like "$packageName"}).UninstallString
 	Uninstall-ChocolateyPackage "$packageName" "$fileType" "$silentArgs" "$unString" -validExitCodes "$validExitCodes"
 } catch {
-	Write-ChocolateyFailure $packageName $($_.Exception.Message)
-	throw
+	throw $_.Exception
 }

@@ -19,6 +19,5 @@
 	Uninstall-ChocolateyPackage "$packageName" "$fileType" "$silentArgs" "$unFile" -validExitCodes $validExitCodes
 	Remove-Item "$ahkRun"
 } catch {
-  Write-ChocolateyFailure "$packageName" "$($_.Exception.Message)"
-  throw 
+  throw $_.Exception 
 }

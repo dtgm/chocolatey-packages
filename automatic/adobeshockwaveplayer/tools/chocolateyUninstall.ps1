@@ -16,8 +16,6 @@ try {
 		$unString = (Get-ItemProperty "$unPath\$packageSearch" UninstallString).UninstallString
 	}
 	Uninstall-ChocolateyPackage $packageName $installerType $silentArgs $unString -validExitCodes $validExitCodes 
-	Write-ChocolateySuccess $packageName	
 } catch {
-	Write-ChocolateyFailure $packageName $($_.Exception.Message)
-	throw 
+	throw $_.Exception 
 }

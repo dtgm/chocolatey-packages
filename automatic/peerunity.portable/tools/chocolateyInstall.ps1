@@ -12,8 +12,6 @@ try {
 		Remove-Item -Recurse (Join-Path "$toolsDir" '64')
 		Remove-Item (Get-ChildItem "$toolsDir\32\" -filter "*-win-setup.exe").fullname
 	}
-	Write-ChocolateySuccess "$packageName"
 } catch {
-  Write-ChocolateyFailure "$packageName" $($_.Exception.Message)
-  throw
+  throw $_.Exception
 }

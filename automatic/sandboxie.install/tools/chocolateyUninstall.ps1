@@ -29,8 +29,6 @@ try {
 		$unProg = $unString | %{ $_.Split(' /')[0]; }
 		Uninstall-ChocolateyPackage $packageName $fileType $silentArgs $unProg -validExitCodes $validExitCodes
   }
-  Write-ChocolateySuccess $packageName
 } catch {
-	Write-ChocolateyFailure $packageName $($_.Exception.Message)
-	throw
+	throw $_.Exception
 }

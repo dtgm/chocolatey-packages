@@ -15,6 +15,5 @@
 	$unFile = (Get-ItemProperty $unPath\$packageName* UninstallString).UninstallString
 	Uninstall-ChocolateyPackage "$packageName" "$fileType" "$silentArgs" "$unFile" -validExitCodes "$validExitCodes"
 } catch {
-	Write-ChocolateyFailure $packageName $($_.Exception.Message)
-	throw
+	throw $_.Exception
 }

@@ -11,9 +11,7 @@
 	}
 	$unString = (Get-ItemProperty $unPath\* | select DisplayName, UninstallString | Where-Object {$_.DisplayName -like "$packageName*"}).UninstallString
 	Uninstall-ChocolateyPackage "$packageName" "$fileType" "$silentArgs" "$unString" -validExitCodes $validExitCodes
-  Write-ChocolateySuccess $packageName
 } catch {
-	Write-ChocolateyFailure $packageName $($_.Exception.Message)
-	throw
+	throw $_.Exception
 }
 

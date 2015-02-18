@@ -7,8 +7,6 @@ Install-ChocolateyZipPackage -PackageName "$packageName" -Url "$url" -UnzipLocat
 try {
 	$installFile = Join-Path $toolsDir "$($packageName).exe"
 	Set-Content -Path ("$installFile.gui") -Value $nul
-  Write-ChocolateySuccess "$packageName"
 } catch {
-  Write-ChocolateyFailure "$packageName" "$($_.Exception.Message)"
-  throw
+  throw $_.Exception
 }

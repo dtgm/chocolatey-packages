@@ -6,6 +6,5 @@
 	$url = '{{DownloadUrl}}'
   Install-ChocolateyZipPackage "$packageName" "$url" "$unzipLoc"
 } catch {
-  Write-ChocolateyFailure $packageName $($_.Exception.Message)
-  throw
+  throw $_.Exception
 }

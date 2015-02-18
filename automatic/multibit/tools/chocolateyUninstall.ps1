@@ -11,8 +11,6 @@
     if ((Test-Path "$unFile") -or (Test-Path "$unFilex86")) {
         Uninstall-ChocolateyPackage $packageName $fileType $silentArgs $file -validExitCodes $validExitCodes
     }
-    Write-ChocolateySuccess $packageName
 } catch {
-    Write-ChocolateyFailure $packageName $($_.Exception.Message)
-    throw
+    throw $_.Exception
 }

@@ -21,8 +21,6 @@ try {
   Start-Process 'AutoHotKey' $ahkRun
   Start-ChocolateyProcessAsAdmin "$uninstallArgs $(Get-UninstallString)"
   Remove-Item "$ahkRun" -Force
-  Write-ChocolateySuccess $packageName
 } catch {
-  Write-ChocolateyFailure $packageName $($_.Exception.Message)
-  throw
+  throw $_.Exception
 }

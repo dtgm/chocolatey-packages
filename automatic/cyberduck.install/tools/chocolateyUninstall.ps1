@@ -22,17 +22,6 @@ if ($uninstallString -ne "") {
 try {
     $packageName = "cyberduck" 
     Uninstall-ChocolateyPackage $packageName
-    Write-ChocolateySuccess $packageName
 } catch {
-    Write-ChocolateyFailure $packageName $($_.Exception.Message)
-    throw
-}
-
-try {
-    $packageName = "cyberduck.install"
-    Uninstall-ChocolateyPackage $packageName
-    Write-ChocolateySuccess $packageName
-} catch {
-    Write-ChocolateyFailure $packageName $($_.Exception.Message)
-    throw
+    throw $_.Exception
 }

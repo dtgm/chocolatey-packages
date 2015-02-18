@@ -16,8 +16,6 @@ try {
 	}
 	$unString = "$unPath\$packageName\uninstall.exe"
 	Uninstall-ChocolateyPackage "$packageName" "$fileType" "$silentArgs" "$unString" -validExitCodes $validExitCodes
-  Write-ChocolateySuccess $packageName
 } catch {
-	Write-ChocolateyFailure $packageName $($_.Exception.Message)
-	throw
+	throw $_.Exception
 }

@@ -22,6 +22,5 @@
 		Remove-Item -Recurse -Force $installPath\$packageName*
 	}		
 } catch {
-  Write-ChocolateyFailure "$packageName" "$($_.Exception.Message)"
-  throw 
+  throw $_.Exception 
 }

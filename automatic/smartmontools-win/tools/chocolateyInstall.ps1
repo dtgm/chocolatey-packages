@@ -23,8 +23,6 @@
     Write-Debug "Installer is already extracted."
   }
   Install-ChocolateyInstallPackage "$packageName" "$installerType" "$silentArgs" "$file" -validExitCodes "$validExitCodes"
-  Write-ChocolateySuccess $packageName
 } catch {
-  Write-ChocolateyFailure $packageName $($_.Exception.Message)
-  throw
+  throw $_.Exception
 }

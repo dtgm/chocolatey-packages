@@ -56,8 +56,6 @@ try {
 			}
 		}
 	}
-	Write-ChocolateySuccess "$packageName"
 } catch {
-  Write-ChocolateyFailure "$packageName" "$($_.Exception.Message)"
-  throw 
+  throw $_.Exception 
 }

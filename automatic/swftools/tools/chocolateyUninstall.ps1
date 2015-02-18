@@ -17,8 +17,6 @@
 	Start-Process 'AutoHotKey' "$ahkRun"
 	Uninstall-ChocolateyPackage "$packageName" "$fileType" "$silentArgs" "$unString" -validExitCodes $validExitCodes
 	Remove-Item "$ahkRun" -Force
-  Write-ChocolateySuccess $packageName
 } catch {
-	Write-ChocolateyFailure $packageName $($_.Exception.Message)
-	throw
+	throw $_.Exception
 }

@@ -14,8 +14,6 @@ try {
 	Get-Content (Join-Path $batPath "$batName") | foreach-object { $_ -replace '(^java.*?")(.*?:\\.*?)(\\jacksum.jar)(".*?)',"`$1$toolsDir`$3`$4" } | Set-Content (Join-Path $chocoBinPath "$batName")
 	#Cleanup
 	Remove-Item -Recurse (Join-Path "$toolsDir" 'unix')
-	Write-ChocolateySuccess "$packageName"
 } catch {
-	Write-ChocolateyFailure $packageName $($_.Exception.Message)
-	throw
+	throw $_.Exception
 }

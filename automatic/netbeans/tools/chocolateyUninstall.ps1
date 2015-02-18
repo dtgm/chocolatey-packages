@@ -17,9 +17,7 @@ try {
   $uninstallArgs = '--silent'
   $validExitCodes = @(0)
   Start-ChocolateyProcessAsAdmin $uninstallArgs $(Get-UninstallString) -validExitCodes $validExitCodes
-  Write-ChocolateySuccess $packageName
 }
 catch {
-  Write-ChocolateyFailure $packageName $($_.Exception.Message)
-  throw
+  throw $_.Exception
 }

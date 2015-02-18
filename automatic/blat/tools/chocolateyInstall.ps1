@@ -13,6 +13,5 @@
   #Install-ChocolateyZipPackage -PackageName "$packageName" -Url "$url" -UnzipLocation "$toolsDir" -Url64bit "$url64" -specificFolder "" -checksum "$checksum" -checksumType "$checksumType"  checksum64 "$checksum64" -checksumType64 "$checksumType64"
 	Install-ChocolateyZipPackage -PackageName "$packageName" -Url "$url" -UnzipLocation "$toolsDir" -Url64bit "$url64"
 } catch {
-  Write-ChocolateyFailure $packageName $($_.Exception.Message)
-  throw
+  throw $_.Exception
 }

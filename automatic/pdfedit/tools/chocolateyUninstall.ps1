@@ -4,9 +4,7 @@
 	if ($app) {
 	  $msiArgs = $('/x' + $app.IdentifyingNumber + ' /quiet /qn /norestart')
 	  Start-ChocolateyProcessAsAdmin $msiArgs 'msiexec'
-	  Write-ChocolateySuccess $packageName
 	}
 } catch {
-	Write-ChocolateyFailure $packageName $($_.Exception.Message)
-	throw
+	throw $_.Exception
 }

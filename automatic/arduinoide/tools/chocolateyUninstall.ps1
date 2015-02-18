@@ -21,8 +21,6 @@ try {
 	Start-Sleep -Seconds 5
   Uninstall-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$unString" -validExitCodes $validExitCodes
   Remove-Item "$ahkRun" -Force
-	Write-ChocolateySuccess "$packageName"
 } catch {
-  Write-ChocolateyFailure "$packageName" "$($_.Exception.Message)"
-  throw 
+  throw $_.Exception 
 }

@@ -12,8 +12,6 @@
 		$unFile = (Get-ItemProperty HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\* | select DisplayName, UninstallString | Where-Object {$_.DisplayName -like "$packageName*"}).UninstallString
 	}
 	Uninstall-ChocolateyPackage $packageName $fileType $silentArgs $file -validExitCodes $validExitCodes
-	Write-ChocolateySuccess $packageName
 } catch {
-    Write-ChocolateyFailure $packageName $($_.Exception.Message)
-    throw
+    throw $_.Exception
 }

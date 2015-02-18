@@ -19,7 +19,5 @@ if (!($ahkProcess.HasExited)) {
 }
 Write-Debug "`'$ahkExe`' exited with $($ahkProcess.ExitCode)"
 if ($ahkProcess.ExitCode -ne 0) {
-	Write-ChocolateyFailure $packageName $($_.Exception.Message)
-	throw "AutoHotKey script for `'$packageName'` did not complete successfully."
+	throw $_.Exception "AutoHotKey script for `'$packageName'` did not complete successfully."
 }
-Write-ChocolateySuccess "$packageName"
