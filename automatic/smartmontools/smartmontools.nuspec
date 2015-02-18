@@ -16,7 +16,7 @@ Due to OS-specific issues and also depending on the different state of smartmont
 
 See 'smartmontools-win' for an alternate installer with additional bundled software.
 See 'GSmartControl' for a GTK GUI interface.
-		</description>
+    </description>
     <projectUrl>http://www.smartmontools.org/</projectUrl>
     <tags>daemon command-line hardware disk reporting monitoring</tags>
     <copyright>© Bruce Allen</copyright>
@@ -24,8 +24,8 @@ See 'GSmartControl' for a GTK GUI interface.
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
 http://www.smartmontools.org/browser/tags/RELEASE_6_3/smartmontools/ChangeLog
-		</releaseNotes>
-		<!--<dependencies>
+    </releaseNotes>
+    <!--<dependencies>
       <dependency id="" />
     </dependencies>-->
   </metadata>

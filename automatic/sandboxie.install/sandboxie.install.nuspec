@@ -25,9 +25,9 @@ A process sandbox helps to manage and limit access permissions a process has to 
 
 ### Note
 * December 2013, Sandboxie was acquired by computer security firm Invincea.
-		</description>
+    </description>
     <tags>security virtualization forensics shareware nagscreen</tags>
-		<projectUrl>http://www.sandboxie.com/</projectUrl>
+    <projectUrl>http://www.sandboxie.com/</projectUrl>
     <copyright>© Ronen Tzur</copyright>
     <licenseUrl>http://www.sandboxie.com/index.php?EndUserLicenseAgreement</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -37,10 +37,10 @@ http://www.sandboxie.com/index.php?VersionChanges
 http://www.sandboxie.com/index.php?KnownConflicts
 http://www.sandboxie.com/index.php?FrequentlyAskedQuestions
 http://www.sandboxie.com/index.php?FAQ_Licensing
-		</releaseNotes>
-		<!-- <dependencies>
-			<dependency id="autohotkey.portable" />
-		</dependencies> -->
+    </releaseNotes>
+    <!-- <dependencies>
+      <dependency id="autohotkey.portable" />
+    </dependencies> -->
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

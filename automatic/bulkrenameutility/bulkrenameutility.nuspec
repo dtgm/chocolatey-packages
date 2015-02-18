@@ -9,7 +9,7 @@
     <summary>Rename multiple files quickly with previews and undo</summary>
     <description>
 Bulk Rename Utility allows you to easily rename files and folders recursively based upon find-replace, character place, fields, sequences, regular expressions, EXIF data, and more.
-		
+    
 ### Features
 * Rename multiple files quickly, according to many flexible criteria.
 * Rename files in many ways: add, replace, insert text into file names. Convert case, add numbers. Remove or change file extensions.
@@ -17,7 +17,7 @@ Bulk Rename Utility allows you to easily rename files and folders recursively ba
 * Rename photos using EXIF meta data (i.e. "Date Picture Taken", "Resolution" and other information embedded in all JPG photo files) Rename your holiday pictures from a meaningless dsc1790.jpg to NewYork1.jpg in a flash.
 * Rename MP3 files using ID3 tags (a.k.a. MP3 ID3 tag renaming).
 * Change files' creation and modification time stamps.
-		</description>
+    </description>
     <projectUrl>http://www.bulkrenameutility.co.uk/</projectUrl>
     <tags>batch rename regex file</tags>
     <copyright>© TGRMN Software</copyright>
@@ -25,7 +25,7 @@ Bulk Rename Utility allows you to easily rename files and folders recursively ba
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/master/icons/bulkrenameutility.png</iconUrl>
     <releaseNotes>http://www.bulkrenameutility.co.uk/Files/BRUChangelog.pdf</releaseNotes>
-		<dependencies>
+    <dependencies>
       <dependency id="{{PackageName}}.install" version="[{{PackageVersion}}]" />
     </dependencies>
   </metadata>

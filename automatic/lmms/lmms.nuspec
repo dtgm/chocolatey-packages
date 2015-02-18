@@ -7,7 +7,7 @@
     <authors>Tobias Doerffel</authors>
     <owners>dtgm</owners>
     <summary>Open source digital audio workstation</summary>
-		<description>
+    <description>
 LMMS is a free cross-platform alternative to commercial programs like FL Studio®, which allow you to produce music with your computer. This includes the creation of melodies and beats, the synthesis and mixing of sounds, and arranging of samples. You can have fun with your MIDI-keyboard and much more; all in a user-friendly and modern interface.
 
 ### Features
@@ -19,9 +19,9 @@ LMMS is a free cross-platform alternative to commercial programs like FL Studio�
 * Full user-defined track-based automation and computer-controlled automation sources
 * Compatible with many standards such as SoundFont2, VST(i), LADSPA, GUS Patches, and full MIDI support
 * Import of MIDI and FLP (FL Studio®/Fruityloops® Project) files
-		</description>
+    </description>
     <projectUrl>https://lmms.io/</projectUrl>
-		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/19d35dff574b7496b92f235fa1503d47b861871a/icons/{{PackageName}}.svg</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/19d35dff574b7496b92f235fa1503d47b861871a/icons/{{PackageName}}.svg</iconUrl>
     <tags>music-production music-mixing beatbox</tags>
     <copyright>LMMS Team</copyright>
     <licenseUrl>https://github.com/LMMS/lmms/blob/master/COPYING</licenseUrl>

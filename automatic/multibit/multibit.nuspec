@@ -7,7 +7,7 @@
     <authors>Jim Burton</authors>
     <owners>dtgm</owners>
     <summary>MultiBit is a Simplified Payment Verification (SPV) Bitcoin desktop client</summary>
-		<description>
+    <description>
 MultiBit relies on the following technologies:
 
 * Maven as the build system, so the usual Maven processes apply. If you're not familiar with Maven then download it first and follow their installation instructions.
@@ -18,7 +18,7 @@ MultiBit relies on the following technologies:
 * XChange for access to several Bitcoin exchanges
 
 Getting started: https://multibit.org/en/help/v0.5/help_gettingStarted.html
-		</description>
+    </description>
     <projectUrl>https://multibit.org/</projectUrl>
     <tags>cryptocurrency bitcoin digital-wallet</tags>
     <copyright>Bitcoin Solutions Ltd</copyright>

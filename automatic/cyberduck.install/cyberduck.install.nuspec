@@ -28,7 +28,7 @@ Connect to every server. With an easy to use interface, connect to:
 
 ### Source code
 * https://trac.cyberduck.io/
-		</description>
+    </description>
     <projectUrl>http://cyberduck.io/</projectUrl>
     <tags>cloud storage file-browser</tags>
     <copyright>© 2002–2014 David V. Kocher, 2011–2014 Yves Langisch</copyright>
@@ -36,7 +36,7 @@ Connect to every server. With an easy to use interface, connect to:
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.cyberduck.io/img/cyberduck-icon-384.png</iconUrl>
     <releaseNotes>http://cyberduck.io/changelog/</releaseNotes>
-		<dependencies>
+    <dependencies>
       <dependency id="vcredist2010" />
     </dependencies>
   </metadata>

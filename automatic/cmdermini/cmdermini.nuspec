@@ -11,8 +11,8 @@
 Cmder is a software package created out of pure frustration over the absence of nice console emulators on Windows. It is based on amazing software, and spiced up with the Monokai color scheme and a custom prompt layout.
 
 Combines utility of 2 distinct tools:
-	Console emulator = Conemu
-	Cmd.exe enhancements = clink
+  Console emulator = Conemu
+  Cmd.exe enhancements = clink
 
 This package uncompresses to 7 MB and does not include Unix integration via msysgit
 See cmder (250 MB) for enhanced console with Unix utilities via msysgit
@@ -21,14 +21,14 @@ By default, this package installs into $BinRoot\cmdermini
 
 ### Source code
 * https://github.com/bliker/cmder
-		</description>
+    </description>
     <projectUrl>http://bliker.github.io/cmder/</projectUrl>
     <tags>portable console command-line terminal</tags>
     <copyright>Copyright (c) 2013 Samuel Vasko</copyright>
     <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/bliker/cmder/master/icons/icon_48.png</iconUrl>
-		<dependencies>
+    <dependencies>
       <dependency id="{{PackageName}}.portable" version="[{{PackageVersion}}]" />
     </dependencies>
   </metadata>

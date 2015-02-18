@@ -25,9 +25,9 @@ Lets you develop and debug your app across multiple browsers and devices by conn
 ### Web Audio Editor
 
 Inspect and interact with Web Audio API in real time to ensure that all audio nodes are connected in the way you expect.
-		</description>
+    </description>
     <projectUrl>https://www.mozilla.org/en-US/firefox/developer/</projectUrl>
-		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/8381b5bb3347ed7570c4492dec8d5c4e8b62a818/icons/{{PackageName}}.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/8381b5bb3347ed7570c4492dec8d5c4e8b62a818/icons/{{PackageName}}.png</iconUrl>
     <tags>browser mozilla firefox developer fx10</tags>
     <copyright>© Mozilla Foundation</copyright>
     <licenseUrl>http://www.mozilla.org/MPL/2.0/</licenseUrl>

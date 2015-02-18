@@ -14,15 +14,15 @@ Bitvise SSH Server is ideal for remote administration of Windows servers; for ad
 
 Personal Edition (installed by default) is free for non-commercial, personal use.  It has the following limitations:
 
-	* Can use only local Windows accounts (no domains).
-	* Can configure only one Windows group ('everyone').
-	* Can configure only one virtual group.
-	* Has a limit of 10 Windows account entries.
-	* Has a limit of 10 virtual account entries.
-	* GSSAPI authentication is disabled (Kerberos and NTLM).
+  * Can use only local Windows accounts (no domains).
+  * Can configure only one Windows group ('everyone').
+  * Can configure only one virtual group.
+  * Has a limit of 10 Windows account entries.
+  * Has a limit of 10 virtual account entries.
+  * GSSAPI authentication is disabled (Kerberos and NTLM).
 
 For any organizational use (non-commercial or commercial) or to remove the limitations of the Personal Edition, it is required to purchase a Standard Edition license and will require re-installing this package with the parameter -standardedition.  See http://www.bitvise.com/ssh-server-license for more information.
-	</description>
+  </description>
     <projectUrl>http://www.bitvise.com/ssh-server</projectUrl>
     <tags>ssh server</tags>
     <copyright>Bitvise Limited</copyright>
@@ -31,7 +31,7 @@ For any organizational use (non-commercial or commercial) or to remove the limit
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/master/icons/winsshd.png</iconUrl>
     <releaseNotes>
 http://www.bitvise.com/ssh-server-version-history
-		</releaseNotes>
+    </releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

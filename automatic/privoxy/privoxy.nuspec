@@ -15,9 +15,9 @@ Privoxy is a non-caching web proxy with advanced filtering capabilities for enha
 
 ### Source repository
 * http://sourceforge.net/projects/ijbswa/
-		</description>
+    </description>
     <projectUrl>http://www.privoxy.org/</projectUrl>
-		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/master/icons/privoxy.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/master/icons/privoxy.png</iconUrl>
     <tags>proxy network privacy network-filter ad-blocker</tags>
     <copyright>© Privoxy Developers</copyright>
     <licenseUrl>http://www.privoxy.org/user-manual/copyright.html</licenseUrl>

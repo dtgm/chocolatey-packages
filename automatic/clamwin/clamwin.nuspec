@@ -19,12 +19,12 @@ ClamWin Free Antivirus is based on ClamAV engine and uses GNU General Public Lic
 
 ### Notes
 Please note that ClamWin Free Antivirus does not include an on-access, real-time scanner. You need to manually scan a file or schedule a scan via Task Scheduler in order to detect a virus or spyware.
-		</description>
+    </description>
     <projectUrl>http://www.clamwin.com/</projectUrl>
     <tags>antivirus virus-scanner no-real-time-scan notsilent</tags>
     <copyright>ClamWin Pty Ltd.</copyright>
     <licenseUrl>http://www.clamwin.com/content/view/226/52/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/82dd10296475d3db371d5e8a86bfd768f2d093bb/icons/{{PackageName}}.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/82dd10296475d3db371d5e8a86bfd768f2d093bb/icons/{{PackageName}}.png</iconUrl>
   </metadata>
 </package>

@@ -11,9 +11,9 @@
 Stellarium is a free open source planetarium for your computer. It shows a realistic sky in 3D, just like what you see with the naked eye, binoculars or a telescope.
 
 It is used in planetarium projectors.  Just set your coordinates and go.
-		</description>
+    </description>
     <projectUrl>http://stellarium.org/</projectUrl>
-		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/19d35dff574b7496b92f235fa1503d47b861871a/icons/{{PackageName}}.svg</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/19d35dff574b7496b92f235fa1503d47b861871a/icons/{{PackageName}}.svg</iconUrl>
     <tags>planetarium sky stars constellations</tags>
     <copyright>© Stellarium Developers</copyright>
     <licenseUrl>http://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>

@@ -33,9 +33,9 @@ The rest is the same as Bitcoin:
 
 ### Source code
 * https://github.com/litecoin-project/litecoin
-		</description>
+    </description>
     <projectUrl>https://litecoin.org/</projectUrl>
-		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/19d35dff574b7496b92f235fa1503d47b861871a/icons/{{PackageName}}.svg</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/19d35dff574b7496b92f235fa1503d47b861871a/icons/{{PackageName}}.svg</iconUrl>
     <tags>litecoin ltc wallet cryptocurrency p2p</tags>
     <copyright>© Litecoin Project</copyright>
     <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>

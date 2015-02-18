@@ -13,9 +13,9 @@ Unlike most planetarium software, Celestia doesn't confine you to the surface of
 All movement in Celestia is seamless; the exponential zoom feature lets you explore space across a huge range of scales, from galaxy clusters down to spacecraft only a few meters across. A 'point-and-goto' interface makes it simple to navigate through the universe to the object you want to visit.
 
 Celestia is expandable. Celestia comes with a large catalog of stars, galaxies, planets, moons, asteroids, comets, and spacecraft. If that's not enough, you can download dozens of easy to install add-ons with more objects.
-		</description>
+    </description>
     <projectUrl>http://celestia.sourceforge.net/</projectUrl>
-		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/master/icons/celestia.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/master/icons/celestia.png</iconUrl>
     <tags>3d astronomy education simulation</tags>
     <copyright>© Chris Laurel</copyright>
     <licenseUrl>http://www.gnu.org/licenses/gpl-2.0.html#SEC1</licenseUrl>

@@ -2,12 +2,12 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
     <id>{{PackageName}}</id>
-		<version>{{PackageVersion}}</version>
+    <version>{{PackageVersion}}</version>
     <title>zNotes</title>
     <authors>Peter "proton" Savichev</authors>
     <owners>dtgm</owners>
     <summary>Lightweight cross-platform application for notes managment with simple interface</summary>
-		<description>
+    <description>
 zNotes is a note management application. It has a user friendly, attractive interface and has vertical tabs that can be placed on any side of your text area. Use it to organize your daily tasks as well as future activities like meetings, interviews, appointments, shopping, phone calls and anything else that would normally prompt you to jot down a note.
 When you first open zNotes you'll need to create a folder where it can store your notes, saving them as plain text. You can create notes using another application like KWord or OpenOffice and they'll show up in zNotes. You can turn on directory scanning or turn it off for new notes on startup, depending on what you prefer.
 
@@ -24,10 +24,10 @@ Written in the C++ programming language using Qt framework.
 When I migrated from XFCE, I could not find a program simular to xfce4-Notes-plugin, so I created this program.
 
 Has versions for GNU/Linux, Windows, OS/2.
-		</description>
+    </description>
     <releaseNotes>https://github.com/proton/zNotes/blob/master/CHANGELOG</releaseNotes>
     <projectUrl>http://sourceforge.net/projects/znotes/</projectUrl>
-		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/7bd89e2950eaf1857fd4cfb9cd76e51dad025ce5/icons/{{PackageName}}.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/7bd89e2950eaf1857fd4cfb9cd76e51dad025ce5/icons/{{PackageName}}.png</iconUrl>
     <licenseUrl>http://www.gnu.org/licenses/gpl-3.0.html</licenseUrl>
     <copyright>Peter "proton" Savichev</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

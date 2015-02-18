@@ -2,8 +2,8 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
     <id>{{PackageName}}</id>
-		<version>{{PackageVersion}}</version>
-		<title>LinuxLive USB Creator</title>
+    <version>{{PackageVersion}}</version>
+    <title>LinuxLive USB Creator</title>
     <authors>Thibaut Lauzière</authors>
     <owners>dtgm</owners>
     <summary>Create portable, bootable and virtualized USB devices running Linux</summary>   
@@ -25,14 +25,14 @@ Not able to create bootable images of BSD, Mac OSX, or Microsoft Windows operati
 
 ### Source code
 * http://www.linuxliveusb.com/en/about/sources
-		</description>
+    </description>
     <releaseNotes>http://www.linuxliveusb.com/en/release-notes</releaseNotes>
-		<language>en-us</language>
+    <language>en-us</language>
     <projectUrl>http://www.linuxliveusb.com/</projectUrl>
-		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/7f8a732cc81b6f3ef01ab277390181d0b1518ffe/icons/lili.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/7f8a732cc81b6f3ef01ab277390181d0b1518ffe/icons/lili.png</iconUrl>
     <licenseUrl>http://www.gnu.org/licenses/gpl-3.0.html</licenseUrl>
     <copyright>http://www.linuxliveusb.com/en/about</copyright>		
-		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <tags>liveusb linux virtualization</tags>
   </metadata>
   <files>

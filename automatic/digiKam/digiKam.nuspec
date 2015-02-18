@@ -8,21 +8,21 @@
     <owners>dtgm</owners>
     <summary>
 digiKam is an advanced digital photo management application.
-		</summary>
-		<description>
+    </summary>
+    <description>
 digiKam is an advanced digital photo management application for KDE, which makes importing and organizing digital photos a "snap". The photos are organized in albums which can be sorted chronologically, by folder layout or by custom collections.
 
 ### System Requirements
 * Download file size is about **240 MiB**
 * Final install size is about **1.25 GiB**
-		</description>
+    </description>
     <projectUrl>http://www.digikam.org/</projectUrl>
     <tags>photo organizer</tags>
     <copyright>GPL</copyright>
     <licenseUrl>https://gnu.org/licenses/gpl.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/master/icons/digikam.svg</iconUrl>
-		<!--<dependencies>
+    <!--<dependencies>
       <dependency id="" />
     </dependencies>-->
   </metadata>

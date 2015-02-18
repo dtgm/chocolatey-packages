@@ -6,9 +6,9 @@ $validExitCodes = @(0) #please insert other valid exit codes here, exit codes fo
 
 try {
 
-	Install-ChocolateyPackage $packageName $installerType $silentArgs $url -validExitCodes $validExitCodes
-	
-	
+  Install-ChocolateyPackage $packageName $installerType $silentArgs $url -validExitCodes $validExitCodes
+  
+  
 } catch {
-	throw $_.Exception 
+  throw $_.Exception 
 }

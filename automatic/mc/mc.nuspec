@@ -9,7 +9,7 @@
     <summary>Cross-platform, orthodox file manager and a clone of Norton Commander.</summary>
     <description>
 Native port of GNU Midnight Commander compiled for Windows.
-		
+    
 Features include the ability work with common archive formats as if they were simply another directory, and to function as an FTP client. Midnight Commander also includes an builtin editor/viewer, features include syntax highlighting for many languages, macros, code snippets, simple integration with external tools, automatic indentation, mouse support, clipboard and the ability to work in both ASCII and hex modes.
 
 Midnight Commander can also rename groups of files, move files to a different directory at the same time as it renames them. It lets the user specify the original and resulting file names using wildcard characters.
@@ -18,9 +18,9 @@ Specific information regarding the base Midnight Commander engine, can be found 
 
 * http://en.wikipedia.org/wiki/Midnight_Commander
 * http://www.midnight-commander.org
-		</description>
+    </description>
     <projectUrl>http://sourceforge.net/projects/mcwin32</projectUrl>
-		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/c9202b8ce6360e1f63046af5bd41cc8393ed9f91/icons/{{packageName}}.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/c9202b8ce6360e1f63046af5bd41cc8393ed9f91/icons/{{packageName}}.png</iconUrl>
     <tags>gnu file-manager</tags>
     <copyright>© adamy</copyright>
     <licenseUrl>http://fsfe.org/campaigns/gplv3/</licenseUrl>

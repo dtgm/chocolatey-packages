@@ -11,7 +11,7 @@
 Namecoin can be used for multiple purposes, for example a secure and censorship resistant replacement for DNS.
 
 Ownership of a name is based on ownership of a coin, which is in turn based on public key cryptography. The namecoin network reaches consensus every few minutes as to which names have been reserved or updated.
-		
+    
 Namecoin was the first fork of Bitcoin and still is one of the most innovative altcoins. It was first to implement merged mining and a decentralized DNS. 
 
 ### Frequently Asked Questions (FAQ)
@@ -25,9 +25,9 @@ Namecoin was the first fork of Bitcoin and still is one of the most innovative a
 
 ### Source code
 * https://github.com/namecoin/namecoin
-		</description>
+    </description>
     <projectUrl>http://namecoin.info/</projectUrl>
-		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/19d35dff574b7496b92f235fa1503d47b861871a/icons/{{PackageName}}.svg</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/19d35dff574b7496b92f235fa1503d47b861871a/icons/{{PackageName}}.svg</iconUrl>
     <tags>namecoin nmc wallet cryptocurrency p2p</tags>
     <copyright>© Namecoin Project</copyright>
     <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>

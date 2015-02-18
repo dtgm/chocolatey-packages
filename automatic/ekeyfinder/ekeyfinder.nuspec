@@ -7,7 +7,7 @@
     <authors>Sam Gleske</authors>
     <owners>dtgm</owners>
     <summary>Retrieves the product key used to install Windows from your registry or from an unbootable Windows installationc</summary>
-		<description>
+    <description>
 Enchanted Keyfinder is a Magical Jelly Bean Keyfinder (MJB KF) fork from the open source version of MJB KF. 
 
 * Works on Windows 9X, ME, NT/2K/XP, Vista/Win7, Office 2007, and various other software programs.
@@ -20,9 +20,9 @@ Enchanted Keyfinder is a Magical Jelly Bean Keyfinder (MJB KF) fork from the ope
 * Can check for program and config file updates
 * Command line options
 * No software installation
-		</description>
+    </description>
     <projectUrl>http://ekeyfinder.sourceforge.net</projectUrl>
-		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/47cec93d5ddaa321b2616314f7032e67773f6a75/icons/ekeyfinder.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/47cec93d5ddaa321b2616314f7032e67773f6a75/icons/ekeyfinder.png</iconUrl>
     <tags>key license recover</tags>
     <copyright>© Sam Gleske</copyright>
     <licenseUrl>http://www.gnu.org/licenses/gpl-3.0.html</licenseUrl>

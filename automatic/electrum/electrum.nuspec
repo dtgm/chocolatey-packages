@@ -23,9 +23,9 @@ Electrum is an easy to use Bitcoin wallet. It protects you from losing coins in 
 
 ### Source code
 * https://github.com/spesmilo/electrum
-		</description>
+    </description>
     <projectUrl>https://electrum.org</projectUrl>
-		<iconUrl>https://cdn.rawgit.com/spesmilo/electrum/34f835746b4545d2c505ebe123139a670f0aafe0/icons/{{PackageName}}.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/spesmilo/electrum/34f835746b4545d2c505ebe123139a670f0aafe0/icons/{{PackageName}}.png</iconUrl>
     <tags>bitcoin btc wallet cryptocurrency</tags>
     <copyright>© Electrum</copyright>
     <licenseUrl>https://raw.githubusercontent.com/spesmilo/electrum/master/LICENCE</licenseUrl>

@@ -2,8 +2,8 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
     <id>{{PackageName}}</id>
-		<version>{{PackageVersion}}</version>
-		<title>Inno Setup Unpacker</title>
+    <version>{{PackageVersion}}</version>
+    <title>Inno Setup Unpacker</title>
     <authors>QuickeneR,Ariman</authors>
     <owners>dtgm</owners>
     <summary>Unpacker for installations made by Inno Setup</summary>   
@@ -14,17 +14,17 @@ The advantages over InstallExplorer are:
 
 * Innounp is open source and based on IS source. Therefore, it is more likely to support future IS versions.
 * It recovers portions of the installation script (.iss file), including the registry changes and the compiled Innerfuse/RemObjects Pascal Script, if available.
-		</description>
+    </description>
     <releaseNotes>http://innounp.sourceforge.net/#History</releaseNotes>
-		<language>en-us</language>
+    <language>en-us</language>
     <projectUrl>http://innounp.sourceforge.net/</projectUrl>
     <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
     <copyright>QuickeneR,Ariman</copyright>		
-		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <tags>commandline InnoSetup extract</tags>
-		<dependencies>
-			<dependency id="7zip" />
-		</dependencies>
+    <dependencies>
+      <dependency id="7zip" />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

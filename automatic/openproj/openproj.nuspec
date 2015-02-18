@@ -9,14 +9,14 @@
     <summary>Open source desktop project management</summary>
     <description>
 OpenProj is an open-source desktop project management application similar to Microsoft Project. OpenProj has a familiar user interface and even opens existing MS Project files. OpenProj is interoperable with Project, Gantt Charts and PERT charts.
-		</description>
+    </description>
     <projectUrl>http://sourceforge.net/projects/openproj</projectUrl>
     <tags>project-management task schedule</tags>
     <copyright>© Ali Kheirolomoom</copyright>
     <licenseUrl>http://creativecommons.org/licenses/GPL/2.0/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/688d52b08863a66662142335bb08df1d90e5bce1/icons/{{PackageName}}.png</iconUrl>
-		<dependencies>
+    <dependencies>
       <dependency id="javaruntime" />
     </dependencies>
   </metadata>

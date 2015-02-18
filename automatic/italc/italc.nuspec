@@ -21,14 +21,14 @@ iTALC has been designed for usage in school, therefore it offers a lot of possib
 * home schooling - iTALC's network-technology is not restricted to a subnet and therefore students at home can join lessons via VPN-connections just by installing iTALC client
 
 Furthermore iTALC is optimized for usage on multi-core systems (by making heavy use of threads). No matter how many cores you have, iTALC can make use of all of them. 
-		</description>
-		<projectUrl>http://italc.sourceforge.net/</projectUrl>
-		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/master/icons/italc.png</iconUrl>
-		<tags>classroom-management remote-control</tags>
-		<copyright>© Tobias Doerffel</copyright>
-		<licenseUrl>http://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
-		<requireLicenseAcceptance>false</requireLicenseAcceptance>
-	</metadata>
+    </description>
+    <projectUrl>http://italc.sourceforge.net/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/master/icons/italc.png</iconUrl>
+    <tags>classroom-management remote-control</tags>
+    <copyright>© Tobias Doerffel</copyright>
+    <licenseUrl>http://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+  </metadata>
   <files>
     <file src="tools\**" target="tools" />
   </files>		

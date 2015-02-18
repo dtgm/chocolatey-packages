@@ -36,9 +36,9 @@ New transactions are approved by computing a value determined dynamically by rec
 * Wallet.dat stores all your private keys for public Bitcoin addresses.  If this file is not encrypted, anyone with access to this file may withdraw funds from addresses stored in this file.  For this reason, you should encrypt the file as soon as possible with Bitcoin Core.
 * After encrypting wallet.dat, back up wallet.dat to at least one other storage medium.
 * For more information: https://bitcoin.org/en/secure-your-wallet
-		</description>
+    </description>
     <projectUrl>https://bitcoin.org/</projectUrl>
-		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/19d35dff574b7496b92f235fa1503d47b861871a/icons/bitcoin.svg</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/19d35dff574b7496b92f235fa1503d47b861871a/icons/bitcoin.svg</iconUrl>
     <tags>bitcoin btc wallet currency p2p portable</tags>
     <copyright>© Bitcoin Project</copyright>
     <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>

@@ -14,9 +14,9 @@ Duplicate File Finder will help you locate and remove useless file duplicates to
 * Absolutely FREE -- This program is totally free with no term limitations for home or commercial use. Free regular updates included.
 * Smart algorithm -- The software uses intelligent algorithms to compare not only file names, but also contents to ensure no false search results.
 * Gives you full control -- You can specify the file types to look for, then go through the search results and decide which copies to delete.
-		</description>
+    </description>
     <projectUrl>http://www.auslogics.com/en/software/duplicate-file-finder/</projectUrl>
-		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/74b4deb4238ff4592c0f410cf0edd540832558c7/icons/{{packageName}}.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/74b4deb4238ff4592c0f410cf0edd540832558c7/icons/{{packageName}}.png</iconUrl>
     <tags>file-duplicates deduplication</tags>
     <copyright>© Auslogics</copyright>
     <licenseUrl>http://www.auslogics.com/en/support/product/duplicate-file-finder/</licenseUrl>

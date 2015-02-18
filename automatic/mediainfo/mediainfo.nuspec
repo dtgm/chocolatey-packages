@@ -11,7 +11,7 @@
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/63827a08643582e89d636e350bfa8aa6c62eab55/icons/{{PackageName}}.svg</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <summary>Unified display of the most relevant technical and tag data for video and audio files</summary>
-		<description>
+    <description>
 MediaInfo supplies technical and tag information about a video or audio file. Supports many audio and video formats, with different methods of viewing information.
 
 ### Display
@@ -37,7 +37,7 @@ MediaInfo supplies technical and tag information about a video or audio file. Su
 * Integrate with the shell (drag 'n' drop, and Context menu)
 * Internationalisation: display any language on any operating system
 * Localisation capability (for which volunteers are needed - please contact me!)
-		</description>
+    </description>
     <releaseNotes>http://mediaarea.net/MediaInfo/ChangeLog</releaseNotes>
     <copyright>MediaArea.net SARL</copyright>
     <tags>media info tag metadata file-formats file-analysis</tags>

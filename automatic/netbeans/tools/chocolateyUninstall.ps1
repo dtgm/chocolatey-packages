@@ -2,7 +2,7 @@ function Get-UninstallString {
   $regPath = 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\nbi-nb-base*'
   $key = Get-Item -Path $regPath -ErrorAction Stop
   $uninstallString = $key.GetValue('UninstallString')
-	# $uninstallString = (Get-ChildItem $regPath).GetValue('UninstallString')
+  # $uninstallString = (Get-ChildItem $regPath).GetValue('UninstallString')
    
   if ($uninstallString) {
     return $uninstallString
@@ -13,7 +13,7 @@ function Get-UninstallString {
 }
 
 try {
-	$packageName = '{{PackageName}}'
+  $packageName = '{{PackageName}}'
   $uninstallArgs = '--silent'
   $validExitCodes = @(0)
   Start-ChocolateyProcessAsAdmin $uninstallArgs $(Get-UninstallString) -validExitCodes $validExitCodes

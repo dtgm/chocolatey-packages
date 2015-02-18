@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<metadata>
-		<id>{{PackageName}}</id>
-		<title>mRemoteNG</title>
-		<version>{{PackageVersion}}</version>		
-		<authors>Riley McArdle</authors>
-		<owners>dtgm</owners>
-		<summary>Fork of mRemote, an open source, tabbed, multi-protocol, remote connections manager.</summary>
-		<description>
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>mRemoteNG</title>
+    <version>{{PackageVersion}}</version>		
+    <authors>Riley McArdle</authors>
+    <owners>dtgm</owners>
+    <summary>Fork of mRemote, an open source, tabbed, multi-protocol, remote connections manager.</summary>
+    <description>
 mRemoteNG is a fork of mRemote, an open source, tabbed, multi-protocol, remote connections manager. mRemoteNG adds bug fixes and new features to mRemote.
 
 It allows you to view all of your remote connections in a simple yet powerful tabbed interface.
@@ -21,18 +21,18 @@ It allows you to view all of your remote connections in a simple yet powerful ta
 * HTTP/HTTPS (Hypertext Transfer Protocol)
 * rlogin
 * Raw Socket Connections
-		</description>
-		<tags>remote manager rdp vnc ssh ica telnet</tags>
-		<projectUrl>http://www.mremoteng.org/</projectUrl>
-		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/f7504b3a5163574dde235f4b38b5e43d28903661/icons/mRemoteNG.png</iconUrl>
-		<copyright>© Riley McArdle</copyright>
-		<licenseUrl>http://www.gnu.org/licenses/gpl-2.0.html#SEC1</licenseUrl>
-		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+    </description>
+    <tags>remote manager rdp vnc ssh ica telnet</tags>
+    <projectUrl>http://www.mremoteng.org/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/f7504b3a5163574dde235f4b38b5e43d28903661/icons/mRemoteNG.png</iconUrl>
+    <copyright>© Riley McArdle</copyright>
+    <licenseUrl>http://www.gnu.org/licenses/gpl-2.0.html#SEC1</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>https://cdn.rawgit.com/rmcardle/mRemoteNG/develop/CHANGELOG.TXT</releaseNotes>	
-		<dependencies>
-			<dependency id="dotnet3.5" />
+    <dependencies>
+      <dependency id="dotnet3.5" />
     </dependencies>
-	</metadata>
+  </metadata>
   <files>
     <file src="tools\**" target="tools" />
   </files>		

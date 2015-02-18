@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<metadata>
+  <metadata>
     <id>{{PackageName}}</id>
     <title>PeerBlock</title>
     <version>{{PackageVersion}}</version>
@@ -15,7 +15,7 @@ PeerBlock lets you control who your computer "talks to" on the Internet.  By sel
 
 ### Limitations
 * Version 1.1 currently does not support command-line switches.  Version 2.0 is expected to provide this functionality.  See https://code.google.com/p/peerblock/issues/detail?id=400
-	</description>
+  </description>
     <projectUrl>http://www.peerblock.com/</projectUrl>
     <tags>hosts.deny privacy p2p network</tags>
     <copyright>© 2014 Peerblock, LLC</copyright>
@@ -23,7 +23,7 @@ PeerBlock lets you control who your computer "talks to" on the Internet.  By sel
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/master/icons/peerblock.png</iconUrl>
     <releaseNotes>http://www.peerblock.com/releases/public-releases/peerblock-{{PackageVersion}}-r{{DownloadUrlx64}}</releaseNotes>
-		<!--<dependencies>
+    <!--<dependencies>
       <dependency id="" />
     </dependencies>-->
   </metadata>

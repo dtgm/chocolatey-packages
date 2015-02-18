@@ -18,14 +18,14 @@ ProjectLibre is an open source alternative to Microsoft Project. It has been dow
 * PERT Chart
 * Network Diagram
 * Earned Value Costing
-		</description>
+    </description>
     <projectUrl>http://www.projectlibre.org/</projectUrl>
     <tags>project-management task schedule</tags>
     <copyright>© ProjectLibre</copyright>
     <licenseUrl>http://www.projectlibre.org/comment/615#comment-615</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/8a9629065a42a9032001915d06ed4f0136ebb7a2/icons/{{PackageName}}.png</iconUrl>
-		<dependencies>
+    <dependencies>
       <dependency id="javaruntime" />
     </dependencies>
   </metadata>

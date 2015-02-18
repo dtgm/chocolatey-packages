@@ -24,7 +24,7 @@ hugin also supports the use of masks which means that you can exclude parts of i
 Hugin also uses a separate (background) panorama stitcher. This means that you can render a panorama in the PTBatcherGUI stich window, while working on the next panorama in hugin.
 
 Starting with version 2011.2.0, Hugin is scriptable in Python. The scripting functionality is still in its infancy and requires more development and testing. For now it is available only in Linux and Windows, and currently there is no feedback from the plugin apart from it's success or failure, which is communicated in a dialog. If you're on Linux, you can start hugin from the command line and switch to the window you started it from while the plugin is running - then you'll see any console output it may produce.
-		</description>
+    </description>
     <projectUrl>http://hugin.sourceforge.net/</projectUrl>
     <tags>photo image panorama</tags>
     <copyright>© Pablo d'Angelo</copyright>
@@ -32,7 +32,7 @@ Starting with version 2011.2.0, Hugin is scriptable in Python. The scripting fun
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2938ad2d6521ed23e35ac3b15cb8ae24f7a55d37/icons/{{PackageName}}.svg</iconUrl>
     <releaseNotes>http://hugin.sourceforge.net/releases/</releaseNotes>
-		<dependencies>
+    <dependencies>
       <dependency id="{{PackageName}}.install" version="[{{PackageVersion}}]" />
     </dependencies>
   </metadata>

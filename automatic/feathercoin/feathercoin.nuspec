@@ -29,9 +29,9 @@ Feathercoin is based on NeoScrypt and implements many features not seen in the m
 
 ### Source code
 * https://github.com/FeatherCoin/Feathercoin
-		</description>
+    </description>
     <projectUrl>https://www.feathercoin.com</projectUrl>
-		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/30d0a2cb59cc182f37f36b5cac95f2c8af8d5337/icons/{{PackageName}}.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/30d0a2cb59cc182f37f36b5cac95f2c8af8d5337/icons/{{PackageName}}.png</iconUrl>
     <tags>feathercoin ftc wallet cryptocurrency p2p</tags>
     <copyright>© Feathercoin</copyright>
     <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>

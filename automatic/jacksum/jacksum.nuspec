@@ -19,22 +19,22 @@ Jacksum has opened it's source code and it is released under the terms of the GN
 Jacksum is **platform independent**, because it is written entirely in the Java programming language, the software runs on any platform having a Java Runtime Environment.
 
 Jacksum has multiple interfaces. It can be used on the command line, at your file browser/manager, and it can be found as engine also in many other [software projects](http://www.jonelo.de/java/jacksum/index.html#Incorporation).
-		
+    
 [Features](http://www.jonelo.de/java/jacksum/index.html#Features)
 [Frequently Asked Questions (FAQ)](http://www.jonelo.de/java/jacksum/index.html#FAQ)
 [Manual](http://www.jonelo.de/java/jacksum/index.html#manual)
 [Source code repository](http://sourceforge.net/projects/jacksum/files/)
-		</description>
+    </description>
     <projectUrl>http://www.jonelo.de/java/jacksum/index.html</projectUrl>
-		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/c3c386b0203f4620cd15b5f8eb5468538364987e/icons/{{packageName}}.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/c3c386b0203f4620cd15b5f8eb5468538364987e/icons/{{packageName}}.png</iconUrl>
     <tags>file checksum java commandline</tags>
     <copyright>© Johann N. Löfflmann</copyright>
     <licenseUrl>http://www.jonelo.de/java/jacksum/index.html#Copyright</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>http://www.jonelo.de/java/jacksum/index.html#History</releaseNotes>
-		<dependencies>
-			<dependency id="javaruntime" />
-		</dependencies>
+    <dependencies>
+      <dependency id="javaruntime" />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

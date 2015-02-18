@@ -19,14 +19,14 @@ aria2 is a multi-protocol &amp; multi-source, cross platform download utility.  
 
 ### Manual
 * http://aria2.sourceforge.net/manual/en/html/index.html
-		</description>
+    </description>
     <projectUrl>http://aria2.sourceforge.net/</projectUrl>
     <tags>command-line download-manager ftp bittorrent metalink</tags>
     <copyright>Tatsuhiro Tsujikawa</copyright>
     <licenseUrl>http://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/732a79a2b9e31faef3b3206fddc25e192d6b516b/icons/{{PackageName}}.png</iconUrl>
-		<releaseNotes>http://sourceforge.net/projects/aria2/files/stable/aria2-{{PackageVersion}}/</releaseNotes>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/732a79a2b9e31faef3b3206fddc25e192d6b516b/icons/{{PackageName}}.png</iconUrl>
+    <releaseNotes>http://sourceforge.net/projects/aria2/files/stable/aria2-{{PackageVersion}}/</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

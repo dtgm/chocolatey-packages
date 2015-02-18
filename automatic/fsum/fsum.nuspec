@@ -3,11 +3,11 @@
   <metadata>
     <id>{{PackageName}}</id>
     <title>fsum</title>
-		<version>{{PackageVersion}}</version>
+    <version>{{PackageVersion}}</version>
     <authors>SlavaSoft Inc</authors>
     <owners>dtgm</owners>
     <summary>Fast and handy freeware command line utility for file integrity verification</summary>
-		<description>
+    <description>
 Fsum offers a choice of 13 of the most popular hash and checksum functions for file message digest and checksum calculation.
 
 The most common use for FSUM is checking data files for corruption. A message digest or checksum calculation might be performed on data before transferring it from one location to another. Making the same calculation after the transfer and comparing the before and after results, you can determine if the received data is corrupted or not. If the results match, then the received data is likely accurate.
@@ -25,7 +25,7 @@ Implemented using commercial library SlavaSoft QuickHash.
 
 ### Previous Versions
 Unfortunately, only the latest version of {{PackageName}} may be installed; attempting to install any previous version will result in the most recently released version being installed.  This issue is unique to this package.
-		</description>
+    </description>
     <projectUrl>http://www.slavasoft.com/fsum/index.htm</projectUrl>
     <licenseUrl>http://www.slavasoft.com/fsum/license-agreement.htm</licenseUrl>
     <copyright>SlavaSoft Inc</copyright>

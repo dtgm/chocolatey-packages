@@ -9,7 +9,7 @@
     <summary>Generates statistics on the usage of keyboard and mouse</summary>
     <description>
 This application generates statistics on the usage of keyboard and mouse.
-		
+    
 ### Mouse
 * Record mouse travel distance and number of mouse clicks
 * Record mouse wheel scrolling
@@ -36,9 +36,9 @@ This application generates statistics on the usage of keyboard and mouse.
 
 ### Reports
 * Automatically stored as .txt and .png
-		</description>
+    </description>
     <projectUrl>https://github.com/objorke/usagestats</projectUrl>
-		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/347e9c828bcbe16a820ef36b07343b058e27a670/icons/{{packageName}}.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/347e9c828bcbe16a820ef36b07343b058e27a670/icons/{{packageName}}.png</iconUrl>
     <tags>self-monitoring ui-development usage</tags>
     <copyright>© Oystein Bjorke</copyright>
     <licenseUrl>https://raw.githubusercontent.com/objorke/UsageStats/master/LICENSE</licenseUrl>

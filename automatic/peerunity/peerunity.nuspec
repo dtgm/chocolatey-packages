@@ -22,18 +22,18 @@ To help facilitate broad community cooperation, a number of trusted Peercoin/Pee
 
 ### Source code
 * https://github.com/Peerunity/Peerunity
-		</description>
+    </description>
     <projectUrl>http://peercoin.net/wallet</projectUrl>
-		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/1da36fc47d868c27f466e911165b3a45391099d6/icons/{{PackageName}}.svg</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/1da36fc47d868c27f466e911165b3a45391099d6/icons/{{PackageName}}.svg</iconUrl>
     <tags>peercoin peershare ppc wallet cryptocurrency p2p</tags>
     <copyright>© Peerunity Project</copyright>
     <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>https://github.com/Peerunity/Peerunity/releases/</releaseNotes>
-		<dependencies>
-			<dependency id="{{PackageName}}.install" version="[{{PackageVersion}}]" />
+    <dependencies>
+      <dependency id="{{PackageName}}.install" version="[{{PackageVersion}}]" />
     </dependencies>
-	</metadata>
+  </metadata>
   <files>
     <file src="tools\**" target="tools" />
   </files>

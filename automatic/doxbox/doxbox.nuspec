@@ -14,9 +14,9 @@ DoxBox supports the LUKs and losetup encryption schemes that are in most Linux d
 
 ### FAQ
 * http://doxbox.squte.com/doxbox/faq.html
-		</description>
+    </description>
     <projectUrl>http://doxbox.eu</projectUrl>
-		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/80a3d0335f293e046ad836f3683041ea75cdcd93/icons/doxbox.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/80a3d0335f293e046ad836f3683041ea75cdcd93/icons/doxbox.png</iconUrl>
     <tags>disk-encryption security privacy</tags>
     <copyright>© tdk</copyright>
     <licenseUrl>https://github.com/t-d-k/doxbox/blob/master/docs/licence.md</licenseUrl>

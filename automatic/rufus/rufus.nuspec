@@ -2,12 +2,12 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
     <id>{{packageName}}</id>
-		<version>{{packageVersion}}</version>
+    <version>{{packageVersion}}</version>
     <title>Rufus</title>
     <authors>Pete "Akeo" Batard</authors>
     <owners>dtgm</owners>
     <summary>Create bootable USB drives from Windows and Linux images</summary>
-		<description>
+    <description>
 Rufus is a utility that helps format and create bootable USB flash drives, such as USB keys/pendrives, memory sticks, etc.
 
 It can be especially useful for cases where:
@@ -26,10 +26,10 @@ Frequently Asked Questions (FAQ): https://github.com/pbatard/rufus/wiki/FAQ
 A non-exhaustive list of Rufus supported ISOs: http://rufus.akeo.ie/#ref2
 
 Source code: https://github.com/pbatard/rufus/
-		</description>
+    </description>
     <releaseNotes>https://github.com/pbatard/rufus/blob/master/ChangeLog.txt</releaseNotes>
     <projectUrl>http://rufus.akeo.ie/</projectUrl>
-		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/b3aba1acb55094c68db73f87e4db4d72df664794/icons/rufus.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/b3aba1acb55094c68db73f87e4db4d72df664794/icons/rufus.png</iconUrl>
     <licenseUrl>http://www.gnu.org/licenses/gpl-3.0.html</licenseUrl>
     <copyright>Akeo Consulting</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

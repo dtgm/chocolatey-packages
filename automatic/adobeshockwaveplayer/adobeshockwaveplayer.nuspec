@@ -13,17 +13,17 @@ Adobe Shockwave (formerly Macromedia Shockwave) is a multimedia platform used to
 Unlike the Adobe Flash Player, the Adobe Shockwave Player is not commonly bundled with web browsers; if needed it must be downloaded.
 
 Shockwave movies are authored in the Adobe Director environment. While there is support for including Flash movies inside Shockwave files, authors often choose the Shockwave Director combination over Flash because it offers more features and more powerful tools. Features not replicated by Flash include a much faster rendering engine, and support for various network protocols, including Internet Relay Chat. Also, Shockwave's functionality can be extended with "Xtras".
-		</description>
+    </description>
     <projectUrl>http://get.adobe.com/shockwave/</projectUrl>
-		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/732a79a2b9e31faef3b3206fddc25e192d6b516b/icons/{{PackageName}}.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/732a79a2b9e31faef3b3206fddc25e192d6b516b/icons/{{PackageName}}.png</iconUrl>
     <tags>shockwave adobe-director</tags>
     <copyright>Adobe</copyright>
     <licenseUrl>http://www.adobe.com/products/players/shockwave-player-licensing-distribution.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-		<releaseNotes>{{PackageGuid}}</releaseNotes>
-		<dependencies>
-			<dependency id="autohotkey.portable" />
-		</dependencies>
+    <releaseNotes>{{PackageGuid}}</releaseNotes>
+    <dependencies>
+      <dependency id="autohotkey.portable" />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

@@ -25,7 +25,7 @@ A process sandbox helps to manage and limit access permissions a process has to 
 
 ### Note
 * December 2013, Sandboxie was acquired by computer security firm Invincea.
-		</description>
+    </description>
     <projectUrl>http://www.sandboxie.com/</projectUrl>
     <tags>security virtualization forensics</tags>
     <copyright>© Ronen Tzur</copyright>
@@ -37,8 +37,8 @@ http://www.sandboxie.com/index.php?VersionChanges
 http://www.sandboxie.com/index.php?KnownConflicts
 http://www.sandboxie.com/index.php?FrequentlyAskedQuestions
 http://www.sandboxie.com/index.php?FAQ_Licensing
-		</releaseNotes>
-		<dependencies>
+    </releaseNotes>
+    <dependencies>
       <dependency id="{{PackageName}}.install" version="[{{PackageVersion}}]" />
     </dependencies>
   </metadata>

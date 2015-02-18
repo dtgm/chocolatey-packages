@@ -13,9 +13,9 @@ Xiph QuickTime Components (XiphQT) is a set of QuickTime and Macintosh OS X plug
 If you are an end user: installing XiphQT components is all you need to start using Xiph-formatted media files in a variety of applications - for example, listening to Ogg/Vorbis files in QuickTime Player or iTunes. The programming interfaces used in XiphQT allow the provided functionality to be available transparently to all media handling applications using QuickTime or OS X component mechanisms.
 
 If you are a programmer, you have built a Macintosh Core Audio or QuickTime-based application and would like to add Xiph formats support: most of the time there is hardly anything you will need to do to add support.
-		</description>
+    </description>
     <projectUrl>http://www.xiph.org/quicktime/</projectUrl>
-		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/ae10945a00d196e50135c49ccfabc23f770f456f/icons/xiphqt.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/ae10945a00d196e50135c49ccfabc23f770f456f/icons/xiphqt.png</iconUrl>
     <tags>quicktime codec ogg vorbis speex theora flac</tags>
     <copyright>© Xiph.Org</copyright>
     <licenseUrl>http://www.fsf.org/licensing/licenses/lgpl.html#TOC1</licenseUrl>

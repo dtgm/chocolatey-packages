@@ -2,8 +2,8 @@ function Get-UninstallString {
   $regPath = 'HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\5f7eb300e2ea4ebf'
   $key = Get-Item -Path $regPath -ErrorAction Stop
   $uninstallString = $key.GetValue('UninstallString')
-	# $uninstallString = (Get-Item -Path $regPath).GetValue('UninstallString')
-	
+  # $uninstallString = (Get-Item -Path $regPath).GetValue('UninstallString')
+  
   if ($uninstallString) {
     return $uninstallString
   } else {
@@ -12,7 +12,7 @@ function Get-UninstallString {
 }
 
 try {
-	$packageName = '{{PackageName}}'
+  $packageName = '{{PackageName}}'
   $uninstallArgs = '& cmd /c'
   $scriptPath = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
   $ahkFile = Join-Path $scriptPath "$($packageName)Uninstall.ahk"

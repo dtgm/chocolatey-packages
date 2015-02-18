@@ -20,7 +20,7 @@ Organize and Find Everything the Way You Think
 * Upon install, all features of the software are available for your trial.
 * After 30 days, all content created with advanced features remains accessible indefinitely.  Some advanced features are disabled and may be restored at any time by purchasing a license.  
 * For a comparison matrix of features supported by each license, see http://www.thebrain.com/store/version-details/
-		</description>
+    </description>
     <projectUrl>http://www.thebrain.com/</projectUrl>
     <tags>mindmap brainstorm concept-map file-management</tags>
     <copyright>© TheBrain Technologies LP</copyright>
@@ -28,9 +28,9 @@ Organize and Find Everything the Way You Think
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/ecf22130c4f5a79fff92f1a40a252c557f72cd71/icons/thebrain.png</iconUrl>
     <releaseNotes>http://assets.thebrain.com/documents/TheBrain%208.0%20Release%20Notes.pdf</releaseNotes>
-		<dependencies>
+    <dependencies>
       <dependency id="thebrain.install" version="[{{PackageVersion}}]" />
-		</dependencies>
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

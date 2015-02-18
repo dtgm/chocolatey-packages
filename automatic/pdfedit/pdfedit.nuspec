@@ -9,14 +9,14 @@
     <summary>Open source pdf editor and library for manipulating PDF documents</summary>
     <description>
 PDFedit includes PDF manipulating library based on xpdf, GUI, set of command line tools and a pdf editor.  You can use it to read, change and extract information from a PDF file.  The graphical interface is based on QT.
-		</description>
+    </description>
     <projectUrl>http://pdfedit.cz/</projectUrl>
     <tags>pdf editor library pdf-utilities</tags>
     <copyright>© Alexander Shaduri</copyright>
     <licenseUrl>http://creativecommons.org/licenses/GPL/2.0/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/master/icons/pdfedit.png</iconUrl>
-		<dependencies>
+    <dependencies>
       <dependency id="vcredist2010" />
     </dependencies>
   </metadata>

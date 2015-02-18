@@ -28,9 +28,9 @@ The goal of Gajim is to provide a full featured and easy to use Jabber/XMPP clie
 * Link local (bonjour / zeroconf), BOSH
 * Other features via plugins
 * Gajim is available in 29 languages: Basque, Belarusian, Brasilian, British, Bulgarian, Chinese (simplified), Croatian, Czech, Danish, English, Esperanto, French, Galician, German, Hebrew, Hungarian, Italian, Japanese, Kazakh, Lithuanian, Norwegian (Bokmål), Polish, Russian, Serbian, Spanish, Slovak, Swedish, Turkish and Ukrainian
-		</description>
+    </description>
     <projectUrl>http://gajim.org/</projectUrl>
-		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/6d62152d981c1afc00a360815217e81aaf19c74b/icons/{{PackageName}}.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/6d62152d981c1afc00a360815217e81aaf19c74b/icons/{{PackageName}}.png</iconUrl>
     <tags>instant-messaging jabber xmpp encrypted</tags>
     <copyright>© The Gajim Team</copyright>
     <licenseUrl>https://gnu.org/licenses/gpl.html</licenseUrl>

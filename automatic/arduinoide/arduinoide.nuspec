@@ -15,14 +15,14 @@ Arduino programs are written in C or C++. The Arduino IDE comes with a software 
 [User forum](http://arduino.cc/forum/)
 [Source code repository](https://github.com/arduino/Arduino)
 [Issue tracker](https://github.com/arduino/Arduino/issues)
-		</description>
+    </description>
     <projectUrl>http://arduino.cc/en/Main/Software</projectUrl>
     <tags>ide electronics arduino processing programming</tags>
     <copyright>© Arduino</copyright>
     <licenseUrl>https://raw.githubusercontent.com/arduino/Arduino/master/license.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/a7ebd2d6965ec6c20cc23b9b9293202d5d2233a6/icons/{{PackageName}}.png</iconUrl>
-		<releaseNotes>https://github.com/arduino/Arduino/releases/tag/{{PackageVersion}}</releaseNotes>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/a7ebd2d6965ec6c20cc23b9b9293202d5d2233a6/icons/{{PackageName}}.png</iconUrl>
+    <releaseNotes>https://github.com/arduino/Arduino/releases/tag/{{PackageVersion}}</releaseNotes>
     <dependencies>
       <dependency id="autohotkey.portable" />
     </dependencies>

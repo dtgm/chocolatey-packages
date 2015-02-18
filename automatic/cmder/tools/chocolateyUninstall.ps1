@@ -2,9 +2,9 @@
 $installDir = Join-Path $binRoot "cmder"
 
 try { 
-	if (Test-Path $installDir){
-		try {
-			Chocolatey-Uninstall cmder.portable
-		} catch {
-			throw $_.Exception 
+  if (Test-Path $installDir){
+    try {
+      Chocolatey-Uninstall cmder.portable
+    } catch {
+      throw $_.Exception 
 }

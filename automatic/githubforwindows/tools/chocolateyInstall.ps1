@@ -14,10 +14,10 @@ $ahkFile = Join-Path $scriptPath "$($packageName)Install.ahk"
 $ahkProcess = Start-Process $ahkExe $ahkFile -PassThru
 Install-ChocolateyPackage -packageName "$packageName" -fileType "$installerType" -url "$url" -url64bit "$url64" -silentArgs "$silentArgs" -validExitCodes $validExitCodes -checksum "$checksum" -checksumType "$checksumType" -checksum64 "$checksumx64" -checksumType64 "$checksumTypex64"
 if (!($ahkProcess.HasExited)) { 
-	Write-Debug "Waiting for `'$ahkFile`' to finish running, please wait...."
-	Wait-Process -Id $ahkProcess.Id 
+  Write-Debug "Waiting for `'$ahkFile`' to finish running, please wait...."
+  Wait-Process -Id $ahkProcess.Id 
 }
 Write-Debug "`'$ahkExe`' exited with $($ahkProcess.ExitCode)"
 if ($ahkProcess.ExitCode -ne 0) {
-	throw $_.Exception "AutoHotKey script for `'$packageName'` did not complete successfully."
+  throw $_.Exception "AutoHotKey script for `'$packageName'` did not complete successfully."
 }

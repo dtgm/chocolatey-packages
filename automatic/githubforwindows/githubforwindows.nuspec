@@ -21,17 +21,17 @@ For cases where you have an existing repository using an SSH remote, GitHub for 
 You can add any repository already on your hard drive by dragging the folder in from Explorer. If that folder is a Git repository, GitHub for Windows will import all of the history and connect it to your GitHub account.
 
 Another great way to add repositories is to clone them directly from GitHub. You can do that right in the application by browsing through your personal account or any organizations you belong to. You can also clone with one click from any repository page on GitHub. Just look for the Clone in Desktop button.
-		</description>
+    </description>
     <projectUrl>https://windows.github.com</projectUrl>
     <tags>notsilent git client github distributed version control</tags>
     <copyright>© GitHub, Inc.</copyright>
     <licenseUrl>https://help.github.com/articles/github-terms-of-service/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/732a79a2b9e31faef3b3206fddc25e192d6b516b/icons/{{PackageName}}.png</iconUrl>
-		<releaseNotes>https://windows.github.com/release-notes.html</releaseNotes>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/732a79a2b9e31faef3b3206fddc25e192d6b516b/icons/{{PackageName}}.png</iconUrl>
+    <releaseNotes>https://windows.github.com/release-notes.html</releaseNotes>
     <dependencies>
-			<dependency id="autohotkey.portable" />
-			<dependency id="dotnet4.0" />
+      <dependency id="autohotkey.portable" />
+      <dependency id="dotnet4.0" />
     </dependencies>
   </metadata>
   <files>

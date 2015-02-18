@@ -31,7 +31,7 @@ Luminance HDR is an open source graphical user interface application that aims t
 * Tonemap HDR images
 * Copy exif data between sets of images
 * Supports internationalization
-		</description>
+    </description>
     <projectUrl>http://qtpfsgui.sourceforge.net</projectUrl>
     <tags>photo image picture hdr</tags>
     <copyright>© Davide Anastasia</copyright>
@@ -39,7 +39,7 @@ Luminance HDR is an open source graphical user interface application that aims t
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/f6e10a058e1e0e249c08ccd4b58ba37ce767be6b/icons/{{PackageName}}.svg</iconUrl>
     <releaseNotes>http://qtpfsgui.sourceforge.net/?cat=5</releaseNotes>
-		<dependencies>
+    <dependencies>
       <dependency id="{{PackageName}}.install" version="[{{PackageVersion}}]" />
     </dependencies>
   </metadata>

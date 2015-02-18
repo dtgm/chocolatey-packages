@@ -23,18 +23,18 @@ FontForge allows scripting via python, or with it’s legacy scripter, has built
 * And its own SFD format. 
 
 FontForge can also extract fonts fom PDFs and validate fonts for potential issues.
-		</description>
-		<projectUrl>https://fontforge.github.io/</projectUrl>
-		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/19d35dff574b7496b92f235fa1503d47b861871a/icons/{{PackageName}}.svg</iconUrl>
-		<tags>font-editor typography unicode python</tags>
-		<copyright>© George Williams</copyright>
-		<licenseUrl>http://fontforge.github.io/en-US/about/project/license/</licenseUrl>
-		<requireLicenseAcceptance>false</requireLicenseAcceptance>
-		<releaseNotes>https://github.com/fontforge/fontforge/releases</releaseNotes>
-		<dependencies>
-			<dependency id="autohotkey.portable" />
-		</dependencies>
-	</metadata>
+    </description>
+    <projectUrl>https://fontforge.github.io/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/19d35dff574b7496b92f235fa1503d47b861871a/icons/{{PackageName}}.svg</iconUrl>
+    <tags>font-editor typography unicode python</tags>
+    <copyright>© George Williams</copyright>
+    <licenseUrl>http://fontforge.github.io/en-US/about/project/license/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>https://github.com/fontforge/fontforge/releases</releaseNotes>
+    <dependencies>
+      <dependency id="autohotkey.portable" />
+    </dependencies>
+  </metadata>
   <files>
     <file src="tools\**" target="tools" />
   </files>		

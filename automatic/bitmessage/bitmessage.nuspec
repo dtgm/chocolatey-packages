@@ -13,9 +13,9 @@ Bitmessage is decentralized and trustless, meaning that you need-not inherently 
 [Community support forum](https://bitmessage.org/forum/)
 [Frequently Asked Questions](https://bitmessage.org/wiki/FAQ)
 [Source code repository](https://github.com/Bitmessage/PyBitmessage)
-		</description>
+    </description>
     <projectUrl>https://bitmessage.org</projectUrl>
-		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/7360d0d0c008f92e6ae5c5f2e8fcb3a09d0772ef/icons/{{PackageName}}.svg</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/7360d0d0c008f92e6ae5c5f2e8fcb3a09d0772ef/icons/{{PackageName}}.svg</iconUrl>
     <tags>encryption p2p privacy communications</tags>
     <copyright>© Bitmessage</copyright>
     <licenseUrl>http://opensource.org/licenses/mit-license.php</licenseUrl>

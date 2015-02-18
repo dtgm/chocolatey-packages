@@ -27,16 +27,16 @@ SWFTools is a collection of utilities for working with Adobe Flash files (SWF fi
 * AS3Compile A standalone ActionScript 3.0 compiler. Mostly compatible with Flex.
 
 SWFTools has been reported to work on Solaris, Linux (both 32 as well as 64 bit), FreeBSD, OpenBSD, HP-UX, Solaris, MacOS X and Windows 98/ME/2000/XP/Vista.
-		</description>
+    </description>
     <projectUrl>http://swftools.org/</projectUrl>
-		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/9e4975339ec9b232d6d594848b13cf9dde30da78/icons/{{packageName}}.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/9e4975339ec9b232d6d594848b13cf9dde30da78/icons/{{packageName}}.png</iconUrl>
     <tags>notsilent swf adobe flash</tags>
     <copyright>© Matthias Kramm</copyright>
     <licenseUrl>https://raw.githubusercontent.com/matthiaskramm/swftools/master/COPYING</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>http://swftools.org/changelog.html</releaseNotes>
-		<dependencies>
-			<dependency id="autohotkey.portable" />
+    <dependencies>
+      <dependency id="autohotkey.portable" />
     </dependencies>
   </metadata>
   <files>

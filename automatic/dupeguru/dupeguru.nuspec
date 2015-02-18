@@ -22,9 +22,9 @@ Supported languages: English, French, German, Chinese (Simplified), Czech, Itali
 
 ### Source code
 * https://github.com/hsoft/dupeguru
-		</description>
+    </description>
     <projectUrl>http://www.hardcoded.net/dupeguru/</projectUrl>
-		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/5c5623fdb9144eefc5123721d8af21f8f2122648/icons/{{packageName}}.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/5c5623fdb9144eefc5123721d8af21f8f2122648/icons/{{packageName}}.png</iconUrl>
     <tags>file deduplication</tags>
     <copyright>© Hardcoded Software</copyright>
     <licenseUrl>https://raw.githubusercontent.com/hsoft/dupeguru/master/LICENSE</licenseUrl>

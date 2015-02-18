@@ -7,15 +7,15 @@
     <authors>Josh Coalson, Erik de Castro Lopo</authors>
     <owners>dtgm</owners>
     <summary>Free Lossless Audio Codec</summary>
-		<description>
+    <description>
 FLAC stands for Free Lossless Audio Codec, an audio format similar to MP3, but lossless, meaning that audio is compressed in FLAC without any loss in quality. This is similar to how Zip works, except with FLAC you will get much better compression because it is designed specifically for audio, and you can play back compressed FLAC files in your favorite player (or your car or home stereo) just like you would an MP3 file.
 
 FLAC stands out as the fastest and most widely supported lossless audio codec, and the only one that at once is non-proprietary, is unencumbered by patents, has an open-source reference implementation, has a well documented format and API, and has several other independent implementations.
 
 FLAC supports tagging, cover art, and fast seeking. FLAC is freely available and supported on most operating systems, including Windows, "unix" (Linux, *BSD, Solaris, OS X, IRIX), BeOS, OS/2, and Amiga.
-		</description>
+    </description>
     <projectUrl>https://xiph.org/flac</projectUrl>
-		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/master/icons/flac.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/master/icons/flac.png</iconUrl>
     <tags>audio codec lossless encoder decoder</tags>
     <copyright>© Xiph.Org Foundation</copyright>
     <licenseUrl>https://xiph.org/flac/license.html</licenseUrl>
@@ -23,7 +23,7 @@ FLAC supports tagging, cover art, and fast seeking. FLAC is freely available and
     <releaseNotes>
 https://xiph.org/flac/changelog.html
 https://xiph.org/flac/documentation_bugs.html
-		</releaseNotes>
+    </releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

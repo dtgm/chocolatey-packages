@@ -7,9 +7,9 @@ $validExitCodes = @(0) #please insert other valid exit codes here, exit codes fo
 
 try {
 
-	Uninstall-ChocolateyPackage $packageName $installerType $silentArgs $unpath -validExitCodes $validExitCodes
+  Uninstall-ChocolateyPackage $packageName $installerType $silentArgs $unpath -validExitCodes $validExitCodes
   
-	
+  
 } catch {
-	throw $_.Exception 
+  throw $_.Exception 
 }

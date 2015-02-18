@@ -6,12 +6,12 @@ $installFolder = "$packageName-$packageVersion-win"
 $url = '{{DownloadUrlx64}}'
 Install-ChocolateyZipPackage "$packageName" "$url" "$unzipLoc"
 try {
-	$osBitness = Get-ProcessorBits
-	if ($osBitness -eq 64) {
-		Remove-Item -Recurse (Join-Path "$unzipLoc" (Join-Path "$installFolder" 'win32'))
-	} else {
-		Remove-Item -Recurse (Join-Path "$unzipLoc" (Join-Path "$installFolder" 'win64'))
-	}
+  $osBitness = Get-ProcessorBits
+  if ($osBitness -eq 64) {
+    Remove-Item -Recurse (Join-Path "$unzipLoc" (Join-Path "$installFolder" 'win32'))
+  } else {
+    Remove-Item -Recurse (Join-Path "$unzipLoc" (Join-Path "$installFolder" 'win64'))
+  }
 } catch {
   throw $_.Exception
 }

@@ -10,7 +10,7 @@ if ($chocoRoot -eq $null) {
 $chocoRoot = "$env:programdata\chocolatey"
 }
 if (Test-Path $chocoRoot\lib\$packageName.install.*) { 
-	Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgsUpgrade" "$url" "$url64"
+  Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgsUpgrade" "$url" "$url64"
 } else {
-	Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgsInstall" "$url" "$url64"
+  Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgsInstall" "$url" "$url64"
 }

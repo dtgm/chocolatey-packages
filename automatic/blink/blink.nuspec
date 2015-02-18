@@ -19,9 +19,9 @@ Blink is the best real-time communications client using SIP protocol. You can us
 
 [Wiki](http://blink-qt.ag-projects.com/)
 [Source code repository](http://devel.ag-projects.com/repositories/blink-qt)
-		</description>
+    </description>
     <projectUrl>http://icanblink.com</projectUrl>
-		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2d36d582524442618d1c3b8bc4f3830f9e75281d/icons/{{packageName}}.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2d36d582524442618d1c3b8bc4f3830f9e75281d/icons/{{packageName}}.png</iconUrl>
     <tags>blink sip phone calls telephony softphone</tags>
     <copyright>© 2009-2015 AG Projects B.V.</copyright>
     <licenseUrl>https://www.gnu.org/licenses/gpl-3.0.txt</licenseUrl>
