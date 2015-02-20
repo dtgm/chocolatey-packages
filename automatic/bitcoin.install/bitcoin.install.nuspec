@@ -19,23 +19,18 @@ New transactions are approved by computing a value determined dynamically by rec
 * Size increases based on quantity of transactions; currently increasing about 50 MB per day
 * Data is slowly downloaded only when Bitcoin Core is running and connected to network
 * https://blockchain.info/charts/blocks-size
-* Blockchain is stored at %AppData%
-
-### Previous Version Compatibility - Bitcoin hard-forks
-* https://bitcoin.org/en/alerts
-
-### Bitcoin node distribution
-* https://getaddr.bitnodes.io/
-
-### Source code
-* https://github.com/bitcoin/bitcoin
+* Blockchain is stored in %AppData%\Bitcoin\data
 
 ### Security
 * This program should only be installed on a trusted machine.
 * By default, upon first execution, Bitcoin Core creates an unencrypted wallet file at %AppData%\Bitcoin\wallet.dat
 * Wallet.dat stores all your private keys for public Bitcoin addresses.  If this file is not encrypted, anyone with access to this file may withdraw funds from addresses stored in this file.  For this reason, you should encrypt the file as soon as possible with Bitcoin Core.
 * After encrypting wallet.dat, back up wallet.dat to at least one other storage medium.
-* For more information: https://bitcoin.org/en/secure-your-wallet
+* More information about [securing your wallet](https://bitcoin.org/en/secure-your-wallet)
+
+[Previous Version Compatibility](https://bitcoin.org/en/alerts) (Bitcoin hard-forks)
+[Bitcoin node distribution](https://getaddr.bitnodes.io/)
+[Source code](https://github.com/bitcoin/bitcoin)
     </description>
     <projectUrl>https://bitcoin.org/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/19d35dff574b7496b92f235fa1503d47b861871a/icons/bitcoin.svg</iconUrl>
