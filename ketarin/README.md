@@ -1,6 +1,28 @@
 # Exported automatic update job files from [Ketarin](https://chocolatey.org/packages/ketarin) for use with [Chocolatey Automatic Package Updater](https://chocolatey.org/packages/ChocolateyPackageUpdater)
 
-## Setup:
+## About Ketarin
+
+[Homepage](https://ketarin.org/)
+[FAQ](https://ketarin.org/forum/topic/310-ketarin-faq)
+[Wiki](http://wiki.ketarin.org/)
+[Forum](https://ketarin.org/forum/)
+[GPLv2 License](http://scm.flyspray.org/repos/ketarin/LICENSE.txt)
+
+[Source code tar.gz](http://cdburnerxp.se/downloads/sourcecode/Ketarin.tar.gz)
+[Source code SVN](http://scm.flyspray.org/repos/ketarin/)
+
+
+Ketarin is a program to scrape webpages for content matching regex patterns, store it in built-in and/or user-defined variables, and use that information to populate a local SQLite database file.  Application entries may be uploaded or downloaded via an online repository or created and maintained locally.  Ketarin will then download the installation file, typically an MSI or EXE, to a local folder dependent on detecting a never version available.  Ketarin  may continue to attempt to run specified batch commands or c# scripts.  Typically, the scripting commands are used to silently install the program, but any commandline program may be triggered upon detection of an available application update.  
+
+Ketarin's tagline is "Keep your setup packages up-to-date..."
+
+> __What is it all about?__
+>Ketarin is a small application which automatically updates setup packages. As opposed to other tools, Ketarin is not meant to keep your system up-to-date, but rather to maintain a compilation of all important setup packages which can then be burned to disc or put on a USB stick.
+I created this application, because I couldn't find anything like it when I needed such a functionality. Since I don't want my efforts go to waste, I decided to release it to the public. Ketarin is open source, so you can also extend its functionality to fit your needs (just note that you may not use the icons that ship with it freely as well). I'd also appreciate source code contributions. Ketarin is written in C#, for the .NET Framework 2.0 and uses SQLite as database engine.
+> __How does it work?__
+>Basically, it monitors the content of web pages for changes and downloads files to a specified location. There is a tutorial explaining it all. Currently, you can either rely on a service based on FileHippo, or you can define your own rules, even using regular expressions (for advanced users). A similar application, for monitoring web pages, is Webmon and has sometimes served as guide.
+
+## Setup for use with chocolatey:
 
 1. `choco install chocolateypackageupdater`
 > This will install two additional chocolatey packages: **nuget.commandline** and **ketarin**
@@ -130,7 +152,14 @@ chocopkgup.exe /p[ackage] VALUE /v[ersion] VALUE [ /u[rl] VALUE /p[ackages]f[old
       --dbg, --debug         debug - This instructs ChocoPkgUp to write out
                                all messages. Defaults to false.
 
-For more information see:
+### c# scripts
+
+Working script environment may be seen in [Forms\CommandControl.cs](http://scm.flyspray.org/repos/ketarin/Forms/CommandControl.cs)
+Most work is done in the [ApplicationJob class](http://scm.flyspray.org/repos/ketarin/ApplicationJob.cs)
+
+
+                               
+### For more information see:
 
 https://github.com/chocolatey/chocolatey/wiki/CreatePackages
 https://github.com/chocolatey/chocolatey/wiki/AutomaticPackages
