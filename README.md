@@ -1,5 +1,18 @@
 # chocolatey-packages
-automatic and manual packages for management by [Chocolatey](https://chocolatey.org/) and available on the [Chocolatey package feed](https://chocolatey.org/packages)
+Automatic and manual nuget-based packages for management by [Chocolatey](https://chocolatey.org/).
+
+Chocolatey is a package manager like `apt-get` or `yum`; designed for a command-line interface for management and installing MSI, EXE, and portable user applications.
+Nuget is mainly designed for installing developer libraries.
+
+[Chocolatey package API ODATA feed](http://chocolatey.org/api/v2/)
+
+Presentation resources (read the Odata feed and presents it to you in various methods and formats)
+
+* Web: [Chocolatey.org](https://chocolatey.org/packages)
+* Web: [NuGetFeed.org](http://nugetfeed.org/)
+* App: [ChocolateyGUI](https://chocolatey.org/packages/ChocolateyGUI)
+* App: [OuiGuiChocolatey](https://chocolatey.org/packages/OuiGuiChocolatey)
+* Cmd: [choco list -h](https://chocolatey.org/packages/Chocolatey)
 
 [Chocolatey wiki](https://github.com/chocolatey/choco/wiki)
 [Chocolatey frequently asked questions (FAQ)](https://github.com/chocolatey/choco/wiki/ChocolateyFAQs)
@@ -50,49 +63,31 @@ chocolatey-packages
 </pre>
 
 ### automatic
-Packages automatically maintained by: 
 
-1. scraping HTTP with regular expressions using ketarin, then
-2. populating a reserved layout to XML and powershell install/uninstall/setup scripts, and finally
-3. pushing the compiled zip file (saved as nupkg) content to chocolaty feed for moderation
+#### Source files typically containing variable values
+
+Package manifest: [Nuspec](http://docs.nuget.org/Create/Nuspec-Reference) (nuspec)
+Install and uninstall scripts: [PowerShell](https://technet.microsoft.com/en-us/library/bb978526.aspx) (ps1)
+
+#### Source files typically __not__ containing variable values
+
+GUI automation: [AutoHotKey](http://ahkscript.org/) (ahk) or [AutoIt](https://www.autoitscript.com/site/autoit/) (au3)
+
+#### Automation process
+
+1. scraping HTTP with regular expressions using [ketarin](https://ketarin.org/), then
+2. populating a reserved layout to XML and powershell install/uninstall/setup scripts with [chocopkgupdater](https://chocolatey.org/packages/chocolateypackageupdater) or other scripts, and finally
+3. packing the generated source files into a zip file, saved as a [nupkg](http://docs.nuget.org/Create/Creating-and-Publishing-a-Symbol-Package)
+4. pushing the nupkg file to chocolaty feed for moderation
 
 Each sub-directory is equivalent to the application ID, otherwise known as the Application Name in Ketarin and stored in Ketarin's variable `{appname}`
-
-#### Example of variable exchange between programs:
-
-<pre>
-Location   User-config     Variable
---------   -----------     --------
-Ketarin: `Application Name` `{appname}`
-chocopkgup  N/A             --packagename={appname}
-file.nuspec N/A             '{{PackageName}}' 
-</pre>
-
-#### Full example workflow
-
-Determine an appropriate install name via [package naming guidelines](https://github.com/chocolatey/chocolatey/wiki/CreatePackages#naming-your-package)
-
-Using GTK Runtime as an example, the following lists a sample usage of variables between the programs and files involved:
-
-* Program | Ketarin | {appname} = Application Name = gtk-runtime
-
-> Note this is a user configurable variable 
-
-* Folder = C:\path\to\chocolatey-packages\automatic\gtk-runtime
-* File | nuspec = C:\path\to\chocolatey-packages\automatic\gtk-runtime\gtk-runtime.nuspec
-
-> Note: If Program, Folder, and File are not equivalent, a package will not be automatically produced.
-
-Pushed to https://chocolatey.org/packages/gtk-runtime
-
-Installable by `choco install gtk-runtime` 
 
 See [ketarin\README.md](https://github.com/dtgm/chocolatey-packages/blob/master/ketarin/README.md) for more information about automatically updating packages from this repo.
 
 ### icons
-Icons presented on the respective chocolatey package page.
+Icons pointed to in the nuspec manifest file by XML tag <iconUrl />.  These icons are the images as presented on Chocolatey.org for the respective package.
 
-e.g. the icon on `https://chocolatey.org/packages/gtk-runtime/2.24.10.20121010` is linked to `https://cdn.rawgit.com/dtgm/chocolatey-packages/19d35dff574b7496b92f235fa1503d47b861871a/icons/gtk-runtime.svg` and is configured by XML tag `<iconUrl>` in `gtk-runtime.nuspec` when `nuget.exe push gtk-runtime.1.2.3.nupkg -Source https://chocolatey.org/` (performed without user intervention by `chocolateypackageupdater`).
+e.g. the icon on `https://chocolatey.org/packages/gtk-runtime/2.24.10.20121010` is linked to `https://cdn.rawgit.com/dtgm/chocolatey-packages/19d35dff574b7496b92f235fa1503d47b861871a/icons/gtk-runtime.svg` and is configured in `gtk-runtime.nuspec` by XML tag `<iconUrl>`  when `nuget.exe push gtk-runtime.1.2.3.nupkg -Source https://chocolatey.org/` (performed without user intervention by `chocolateypackageupdater`).
 
 ### licenses 
 Limited use cases where the legal user agreements to terms of usage of the software for packages being installed is not available or not in reliably published way for Internet access.
@@ -106,8 +101,9 @@ Packages that must have their nuspec and powershell control scripts manually edi
 
 Only packages that __never__ get updated should be here.
 
+Note that while Nupkg files may contain any binary file, typically, they only contain essential wrapper information explaining where the install program is located and how to install the program.  However, since packages in this folder may no longer have an official published source, they may be more likely to contain the executable or install file(s) directly within the package.
+
 ## Others' repositories
-* [DEPRECATED] https://github.com/adgellida/chocolateyautomaticpackages
 * https://github.com/ferventcoder/chocolatey-packages
 * https://github.com/chocolatey/chocolatey-coreteampackages
 * https://github.com/alanstevens/ChocoPackages
@@ -116,5 +112,4 @@ Only packages that __never__ get updated should be here.
 * https://github.com/ComFreek/chocolatey-packages
 * https://github.com/yoshimov/chocolatey-packages
 * https://github.com/Redsandro/chocolatey
-
-[Chocolatey API feed](http://chocolatey.org/api/v2/)
+* [DEPRECATED] https://github.com/adgellida/chocolateyautomaticpackages
