@@ -14,8 +14,9 @@ Presentation resources (read the Odata feed and presents it to you in various me
 * App: [OuiGuiChocolatey](https://chocolatey.org/packages/OuiGuiChocolatey)
 * Cmd: [choco list -h](https://chocolatey.org/packages/Chocolatey)
 
- [Chocolatey Wiki](https://github.com/chocolatey/choco/wiki)
- [Chocolatey Frequently Asked Questions (FAQ)](https://github.com/chocolatey/choco/wiki/ChocolateyFAQs)
+[Chocolatey Wiki](https://github.com/chocolatey/choco/wiki)
+
+[Chocolatey Frequently Asked Questions (FAQ)](https://github.com/chocolatey/choco/wiki/ChocolateyFAQs)
 
 ## Folder organization
 
