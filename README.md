@@ -59,11 +59,14 @@ Packages automatically maintained by:
 Each sub-directory is equivalent to the application ID, otherwise known as the Application Name in Ketarin and stored in Ketarin's variable `{appname}`
 
 #### Example of variable exchange between programs:
+
+<pre>
 Location   User-config     Variable
 --------   -----------     --------
 Ketarin: `Application Name` `{appname}`
 chocopkgup  N/A             --packagename={appname}
 file.nuspec N/A             '{{PackageName}}' 
+</pre>
 
 #### Full example workflow
 
@@ -72,11 +75,13 @@ Determine an appropriate install name via [package naming guidelines](https://gi
 Using GTK Runtime as an example, the following lists a sample usage of variables between the programs and files involved:
 
 * Program | Ketarin | {appname} = Application Name = gtk-runtime
-> Note This is a user configurable variable 
+
+> Note this is a user configurable variable 
+
 * Folder = C:\path\to\chocolatey-packages\automatic\gtk-runtime
 * File | nuspec = C:\path\to\chocolatey-packages\automatic\gtk-runtime\gtk-runtime.nuspec
 
-Note: If Program, Folder, and File are not equivalent, a package will not be automatically produced.
+> Note: If Program, Folder, and File are not equivalent, a package will not be automatically produced.
 
 Pushed to https://chocolatey.org/packages/gtk-runtime
 
