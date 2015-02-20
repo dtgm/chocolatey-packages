@@ -8,7 +8,7 @@ $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 Install-ChocolateyZipPackage -PackageName "$packageName" -Url "$url" -UnzipLocation "$toolsDir" -Checksum "$checksum" -ChecksumType "$checksumType"
 try {
   $installFile = Join-Path $toolsDir "$($packageName).exe"
-  Set-Content -Path ("$installFile.gui") -Value $nul
+  Set-Content -Path ("$installFile.gui") -Value $null
 } catch {
   throw $_.Exception
 }
