@@ -1,6 +1,7 @@
 $packageName = '{{PackageName}}'
 $installerType = 'exe'
 $url = '{{DownloadUrl}}'
+$checksum = '{{Checksum}}'
 $silentArgs = '/S'
 $validExitCodes = @(0)
 

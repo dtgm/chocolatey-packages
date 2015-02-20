@@ -1,5 +1,6 @@
 $packageName = '{{PackageName}}'
 $url = '{{DownloadUrl}}'
+$checksum = '{{Checksum}}'
 
 # Issue: config files were mutable every upgrade as stored in $ChocolateyInstall\lib\{programName}.{version}\tools 
 # Solution: move installDir to $chocolateyBinRoot (environment variable set by package "BinRoot")

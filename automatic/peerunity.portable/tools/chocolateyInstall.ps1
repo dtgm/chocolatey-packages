@@ -2,6 +2,7 @@ $packageName = '{{PackageName}}'
 $packageVersion = '{{PackageVersion}}'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $url = '{{DownloadUrl}}'
+$checksum = '{{Checksum}}'
 Install-ChocolateyZipPackage -packageName "$packageName" -url "$url" -unzipLocation "$toolsDir"
 try {
   $osBitness = Get-ProcessorBits

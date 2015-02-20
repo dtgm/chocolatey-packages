@@ -1,5 +1,6 @@
 $packageName = '{{PackageName}}'
 $url = '{{DownloadUrl}}'
+$checksum = '{{Checksum}}'
 
 try { 
   $installDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)" 

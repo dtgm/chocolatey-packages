@@ -1,3 +1,5 @@
+# NOT PUSHED
+
 try {
   $packageName = '{{PackageName}}'
   $installerType = 'exe'

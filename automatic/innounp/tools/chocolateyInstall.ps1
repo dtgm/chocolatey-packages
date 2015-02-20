@@ -1,9 +1,11 @@
 try {
   $packageName = "{{PackageName}}"
   $url = "{{DownloadUrlx64}}"
+  $checksum = '{{Checksum}}'
+  $checksumType = 'sha1'
   $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
   $rarFile = "$toolsDir\innounp.rar"
-  Get-ChocolateyWebFile "$packageName" "$rarFile" "$url"
+  Get-ChocolateyWebFile "$packageName" "$rarFile" "$url" -Checksum "$checksum" -ChecksumType "$checksumType" 
   if (Test-Path "${Env:ProgramFiles(x86)}\7-zip") {
     $cmd7z = "${Env:ProgramFiles(x86)}\7-zip\7z.exe"
   }	elseif (Test-Path "$Env:ProgramFiles\7-zip") {
