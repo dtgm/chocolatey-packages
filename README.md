@@ -14,8 +14,9 @@ Presentation resources (read the Odata feed and presents it to you in various me
 * App: [OuiGuiChocolatey](https://chocolatey.org/packages/OuiGuiChocolatey)
 * Cmd: [choco list -h](https://chocolatey.org/packages/Chocolatey)
 
-[Chocolatey wiki](https://github.com/chocolatey/choco/wiki)
-[Chocolatey frequently asked questions (FAQ)](https://github.com/chocolatey/choco/wiki/ChocolateyFAQs)
+[Chocolatey Wiki](https://github.com/chocolatey/choco/wiki)
+
+[Chocolatey Frequently Asked Questions (FAQ)](https://github.com/chocolatey/choco/wiki/ChocolateyFAQs)
 
 ## Folder organization
 
@@ -64,16 +65,16 @@ chocolatey-packages
 
 ### automatic
 
-#### Source files typically containing variable values
+##### Source files typically containing variable values
 
 Package manifest: [Nuspec](http://docs.nuget.org/Create/Nuspec-Reference) (nuspec)
 Install and uninstall scripts: [PowerShell](https://technet.microsoft.com/en-us/library/bb978526.aspx) (ps1)
 
-#### Source files typically __not__ containing variable values
+##### Source files typically __not__ containing variable values
 
 GUI automation: [AutoHotKey](http://ahkscript.org/) (ahk) or [AutoIt](https://www.autoitscript.com/site/autoit/) (au3)
 
-#### Automation process
+##### Automation process
 
 1. scraping HTTP with regular expressions using [ketarin](https://ketarin.org/), then
 2. populating a reserved layout to XML and powershell install/uninstall/setup scripts with [chocopkgupdater](https://chocolatey.org/packages/chocolateypackageupdater) or other scripts, and finally
@@ -101,7 +102,7 @@ Packages that must have their nuspec and powershell control scripts manually edi
 
 Only packages that __never__ get updated should be here.
 
-Note that while Nupkg files may contain any binary file, typically, they only contain essential wrapper information explaining where the install program is located and how to install the program.  However, since packages in this folder may no longer have an official published source, they may be more likely to contain the executable or install file(s) directly within the package.
+Note that while Nupkg files may contain any binary file, typically, they only contain essential wrapper information explaining where the install program is located and how to install the program.  However, since packages in this folder may no longer have an official published source, they may be more likely to contain the executable or install file(s) directly within the zipped nupkg file.
 
 ## Others' repositories
 * https://github.com/ferventcoder/chocolatey-packages
