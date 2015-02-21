@@ -21,6 +21,9 @@ It is interoperable with many other standard compliant softwares, hardwares and 
     <licenseUrl>http://wiki.ekiga.org/index.php/Manual#License</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>https://git.gnome.org/browse/ekiga/plain/NEWS</releaseNotes>
+    <dependencies>
+      <dependency id="gtk-runtime" />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
