@@ -1,4 +1,4 @@
-﻿try {
+try {
 	$packageName = 'projectlibre'	
 	$app = Get-WmiObject -class win32_product | Where-Object {$_.Name -like "$packageName"}
 	if ($app) {

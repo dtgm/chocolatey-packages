@@ -1,4 +1,4 @@
-﻿try {
+try {
 	$packageName = 'pdfedit'
 	$installerType = 'msi'
 	$partialInstallArgs = '/quiet /qn /norestart TARGETDIR='

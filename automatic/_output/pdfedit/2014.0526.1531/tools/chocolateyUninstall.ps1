@@ -1,4 +1,4 @@
-﻿try {
+try {
 	$packageName = 'pdfedit'	
 	$app = Get-WmiObject -class win32_product | Where-Object {$_.Name -like "$packageName"}
 	if ($app) {
