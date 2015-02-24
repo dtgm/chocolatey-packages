@@ -1,0 +1,1 @@
+#Install-VirtualPackage 'regscanner.install' 'regscanner.portable'

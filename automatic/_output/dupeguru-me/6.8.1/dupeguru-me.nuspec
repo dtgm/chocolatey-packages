@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>dupeguru-me</id>
+    <title>dupeGuru Music Edition</title>
+    <version>6.8.1</version>
+    <authors>Virgil Dupras</authors>
+    <owners>dtgm</owners>
+    <summary>Find duplicate pictures in your music collection</summary>
+    <description>
+dupeGuru Music Edition (ME for short) is a tool to find duplicate songs in your music collection. It can scan filenames, tags or contents. dupeGuru ME is a big brother of dupeGuru. It does everything dupeGuru does, but it has more information columns (such as bitrate, duration, tags, etc..) and more scan types (filename with fields, tags and audio content). dupeGuru ME runs on Windows, Mac OS X and Linux.
+
+dupeGuru ME is efficient. Find your duplicate files in minutes, thanks to its quick fuzzy matching algorithm. dupeGuru ME not only finds filenames and tags that are the same, but it also finds similar ones. For example, with the right settings, dupeGuru ME can determine that "The White Stripes - Seven Nation Army" and "White Stripe - Seven Nation Armies" are duplicates.
+
+dupeGuru ME is customizable. You can tweak its matching engine to find exactly the kind of duplicates you want to find. The Preference page of the help file lists all the scanning engine settings you can change.
+
+dupeGuru ME is safe. Its engine has been especially designed with safety in mind. Its reference directory system as well as its grouping system prevent you from deleting files you didn't mean to delete.
+
+dupeGuru ME rocks. With support for MP3, WMA, AAC (iTunes format), OGG, FLAC, loss-less AAC and loss-less WMA, we can say that it got music built-in. Therefore, it rocks.
+
+Do whatever you want with your duplicates. Not only can you delete duplicates files dupeGuru finds, but you can also move or copy them elsewhere. There are also multiple ways to filter and sort your results to easily weed out false duplicates (for low threshold scans).
+
+Supported languages: English, French, German, Chinese (Simplified), Czech, Italian, Armenian, Russian, Ukrainian, Brazilian.
+
+[Documentation](http://hardcoded.net/dupeguru/help/en/)
+[User support forum](http://forum.hardcoded.net/1/)
+[Source code](https://github.com/hsoft/dupeguru)
+    </description>
+    <projectUrl>http://www.hardcoded.net/dupeguru/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/640f71b3c3e4c89b85daa06c2f3b74433afcf17e/icons/dupeguru-me.png</iconUrl>
+    <tags>music deduplication</tags>
+    <copyright>© Hardcoded Software</copyright>
+    <licenseUrl>https://raw.githubusercontent.com/hsoft/dupeguru/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>http://www.hardcoded.net/dupeguru/help/en/changelog.html</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
