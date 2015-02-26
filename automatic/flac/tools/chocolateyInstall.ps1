@@ -6,13 +6,15 @@ $installFolder = "$packageName-$packageVersion-win"
 $url = '{{DownloadUrlx64}}'
 $checksum = '{{Checksum}}'
 $checksumType = 'sha1'
-Install-ChocolateyZipPackage "$packageName" "$url" "$toolsDir" -Checksum "$checksum" -ChecksumType "$checksumType"
+
+Install-ChocolateyZipPackage -PackageName "$packageName" -Url "$url" -UnzipLocation "$toolsDir" -Url64bit "" -Checksum "$checksum" -ChecksumType "$checksumType"
+
 try {
   $osBitness = Get-ProcessorBits
   if ($osBitness -eq 64) {
-    Remove-Item -Recurse (Join-Path "$unzipLoc" (Join-Path "$installFolder" 'win32'))
+    Remove-Item -Recurse (Join-Path "$toolsDir" (Join-Path "$installFolder" 'win32'))
   } else {
-    Remove-Item -Recurse (Join-Path "$unzipLoc" (Join-Path "$installFolder" 'win64'))
+    Remove-Item -Recurse (Join-Path "$toolsDir" (Join-Path "$installFolder" 'win64'))
   }
 } catch {
   throw $_.Exception

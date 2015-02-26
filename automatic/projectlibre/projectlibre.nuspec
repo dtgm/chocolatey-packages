@@ -26,7 +26,7 @@ ProjectLibre is an open source alternative to Microsoft Project. It has been dow
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/8a9629065a42a9032001915d06ed4f0136ebb7a2/icons/{{PackageName}}.png</iconUrl>
     <dependencies>
-      <dependency id="javaruntime" />
+      <dependency id="{{PackageName}}.install" version="[{{PackageVersion}}]" />
     </dependencies>
   </metadata>
   <files>

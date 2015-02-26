@@ -1,6 +1,5 @@
 try {
   $packageName = '{{PackageName}}'
-  $packageVersion = '{{PackageVersion}}'
   $url = '{{DownloadUrlx64}}'
   $checksum = '{{Checksum}}'
   $checksumType = 'sha1'

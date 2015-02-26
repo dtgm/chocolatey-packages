@@ -62,7 +62,7 @@
       </item>
       <item>
         <key>
-          <string>yespush</string>
+          <string>yopush</string>
         </key>
         <value>
           <UrlVariable>
@@ -70,7 +70,7 @@
             <VariableType>Textual</VariableType>
             <Regex />
             <TextualContent>--nopush</TextualContent>
-            <Name>yespush</Name>
+            <Name>yopush</Name>
           </UrlVariable>
         </value>
       </item>
@@ -116,6 +116,20 @@
           </UrlVariable>
         </value>
       </item>
+      <item>
+        <key>
+          <string>cscript</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>0</TextualContent>
+            <Name>cscript</Name>
+          </UrlVariable>
+        </value>
+      </item>
     </Variables>
     <ExecuteCommand />
     <ExecutePreCommand />
@@ -123,7 +137,7 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>{workdir}\bitcoin-0.9.3-win.zip</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\bitcoin-0.9.3-win.zip</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />

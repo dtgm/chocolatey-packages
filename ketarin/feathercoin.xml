@@ -5,7 +5,7 @@
     <UserAgent />
     <UserNotes />
     <LastFileSize>7520744</LastFileSize>
-    <LastFileDate>2015-01-25T03:42:43.7881013</LastFileDate>
+    <LastFileDate>2015-02-05T16:56:55.5186029</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -33,48 +33,6 @@
       </item>
       <item>
         <key>
-          <string>url64</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <TextualContent>x</TextualContent>
-            <Name>url64</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>checksum</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <TextualContent />
-            <Name>checksum</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>checksumx64</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <TextualContent />
-            <Name>checksumx64</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
           <string>version</string>
         </key>
         <value>
@@ -89,7 +47,7 @@
       </item>
       <item>
         <key>
-          <string>yespush</string>
+          <string>nopush</string>
         </key>
         <value>
           <UrlVariable>
@@ -97,7 +55,7 @@
             <VariableType>Textual</VariableType>
             <Regex />
             <TextualContent>--nopush</TextualContent>
-            <Name>yespush</Name>
+            <Name>nopush</Name>
           </UrlVariable>
         </value>
       </item>
@@ -143,6 +101,20 @@
           </UrlVariable>
         </value>
       </item>
+      <item>
+        <key>
+          <string>cscript</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>2</TextualContent>
+            <Name>cscript</Name>
+          </UrlVariable>
+        </value>
+      </item>
     </Variables>
     <ExecuteCommand />
     <ExecutePreCommand />
@@ -150,11 +122,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>{workdir}\feathercoin-0.8.7.1-setup.exe</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\feathercoin-0.8.7.1-setup.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-01-25T03:42:43.7881013</LastUpdated>
+    <LastUpdated>2015-02-05T16:56:55.5186029</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>feathercoin</Name>

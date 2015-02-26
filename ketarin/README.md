@@ -163,3 +163,36 @@ Most work is done in the [ApplicationJob class](http://scm.flyspray.org/repos/ke
 
 https://github.com/chocolatey/chocolatey/wiki/CreatePackages
 https://github.com/chocolatey/chocolatey/wiki/AutomaticPackages
+
+
+> Added from main README
+> TODO: Integrate into this README
+
+#### Example of variable exchange between programs:
+
+<pre>
+Location    User-config         Variable
+--------    -----------         --------
+Ketarin:    Application Name    {appname}
+chocopkgup  N/A                 --packagename={appname}
+file.nuspec N/A                 {{PackageName}} 
+</pre>
+
+#### Full example workflow
+
+Determine an appropriate install name via [package naming guidelines](https://github.com/chocolatey/chocolatey/wiki/CreatePackages#naming-your-package)
+
+Using GTK Runtime as an example, the following lists a sample usage of variables between the programs and files involved:
+
+* Program | Ketarin | {appname} = Application Name = gtk-runtime
+
+> Note this is a user configurable variable 
+
+* Folder = C:\path\to\chocolatey-packages\automatic\gtk-runtime
+* File | nuspec = C:\path\to\chocolatey-packages\automatic\gtk-runtime\gtk-runtime.nuspec
+
+> Note: If Program, Folder, and File are not equivalent, a package will not be automatically produced.
+
+Pushed to https://chocolatey.org/packages/gtk-runtime
+
+Installable by `choco install gtk-runtime` 

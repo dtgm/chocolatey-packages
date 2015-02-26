@@ -6,7 +6,7 @@ if ($is64bit) {$installPath = ${Env:ProgramFiles(x86)}} else {$installPath = $En
 $installArgs = $($partialInstallArgs + '"' + $installPath + '"')
 # due to limitations of Ketarin/chocopkgup when using repos like sf.net:
 $url = '{{DownloadUrlx64}}'
-$checksum = '{{Checksum}}'
+$checksum = '{{Checksumx64}}'
 $checksumType = 'sha1'
 $validExitCodes = @(0)
 

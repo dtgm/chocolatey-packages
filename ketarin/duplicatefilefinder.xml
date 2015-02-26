@@ -4,8 +4,8 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>6946720</LastFileSize>
-    <LastFileDate>2015-01-27T04:33:38.2567375</LastFileDate>
+    <LastFileSize>6929688</LastFileSize>
+    <LastFileDate>2015-02-10T04:34:10.6948508</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -54,8 +54,22 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent />
+            <TextualContent>--nopush</TextualContent>
             <Name>nopush</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>cscript</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>2</TextualContent>
+            <Name>cscript</Name>
           </UrlVariable>
         </value>
       </item>
@@ -66,11 +80,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>{workdir}\duplicate-file-finder-setup.exe</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\duplicate-file-finder-setup.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-01-27T04:33:38.2567375</LastUpdated>
+    <LastUpdated>2015-02-10T04:34:10.6948508</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>duplicatefilefinder</Name>

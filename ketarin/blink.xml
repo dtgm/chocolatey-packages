@@ -5,7 +5,7 @@
     <UserAgent />
     <UserNotes />
     <LastFileSize>29197947</LastFileSize>
-    <LastFileDate>2015-02-09T01:01:39.4824558-06:00</LastFileDate>
+    <LastFileDate>2015-02-09T01:01:39.5039658</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -75,21 +75,7 @@
       </item>
       <item>
         <key>
-          <string>checksumx64</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <TextualContent>{checksum}</TextualContent>
-            <Name>checksumx64</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>yespush</string>
+          <string>yopush</string>
         </key>
         <value>
           <UrlVariable>
@@ -97,7 +83,21 @@
             <VariableType>Textual</VariableType>
             <Regex />
             <TextualContent>--nopush</TextualContent>
-            <Name>yespush</Name>
+            <Name>yopush</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>cscript</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>0</TextualContent>
+            <Name>cscript</Name>
           </UrlVariable>
         </value>
       </item>
@@ -108,11 +108,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>{workdir}\Blink-Installer.exe</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\Blink-Installer.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-09T01:01:39.5039658-06:00</LastUpdated>
+    <LastUpdated>2015-02-09T01:01:39.5039658</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>blink</Name>

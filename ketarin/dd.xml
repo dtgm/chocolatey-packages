@@ -5,7 +5,7 @@
     <UserAgent />
     <UserNotes />
     <LastFileSize>190960</LastFileSize>
-    <LastFileDate>2014-12-31T07:33:28.6586221</LastFileDate>
+    <LastFileDate>2015-02-05T00:40:27.6066412</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -96,11 +96,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>{workdir}\dd-0.5.zip</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\dd-0.5.zip</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2014-12-31T07:33:28.6586221</LastUpdated>
+    <LastUpdated>2015-02-05T00:40:27.6066412</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>dd</Name>

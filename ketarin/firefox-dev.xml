@@ -4,8 +4,8 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>41179656</LastFileSize>
-    <LastFileDate>2015-02-02T04:34:29.4331879</LastFileDate>
+    <LastFileSize>41235144</LastFileSize>
+    <LastFileDate>2015-02-20T04:34:07.6852344</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -33,7 +33,7 @@
       </item>
       <item>
         <key>
-          <string>yespush</string>
+          <string>yopush</string>
         </key>
         <value>
           <UrlVariable>
@@ -41,7 +41,7 @@
             <VariableType>Textual</VariableType>
             <Regex />
             <TextualContent>--nopush</TextualContent>
-            <Name>yespush</Name>
+            <Name>yopush</Name>
           </UrlVariable>
         </value>
       </item>
@@ -260,6 +260,20 @@
           </UrlVariable>
         </value>
       </item>
+      <item>
+        <key>
+          <string>cscript</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>0</TextualContent>
+            <Name>cscript</Name>
+          </UrlVariable>
+        </value>
+      </item>
     </Variables>
     <ExecuteCommand />
     <ExecutePreCommand />
@@ -267,11 +281,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>{workdir}\firefox-37.0a2.en-US.win32.installer.exe</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\firefox-37.0a2.en-US.win32.installer.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-02T04:34:29.4331879</LastUpdated>
+    <LastUpdated>2015-02-20T04:34:07.6852344</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>firefox-dev</Name>

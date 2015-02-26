@@ -5,7 +5,7 @@
     <UserAgent />
     <UserNotes />
     <LastFileSize>15370061</LastFileSize>
-    <LastFileDate>2015-01-29T13:37:38.9849959</LastFileDate>
+    <LastFileDate>2015-02-07T22:23:15.6898567</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -47,7 +47,7 @@
       </item>
       <item>
         <key>
-          <string>yespush</string>
+          <string>nopush</string>
         </key>
         <value>
           <UrlVariable>
@@ -55,7 +55,21 @@
             <VariableType>Textual</VariableType>
             <Regex />
             <TextualContent>--nopush</TextualContent>
-            <Name>yespush</Name>
+            <Name>nopush</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>cscript</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>2</TextualContent>
+            <Name>cscript</Name>
           </UrlVariable>
         </value>
       </item>
@@ -66,11 +80,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>{workdir}\Bitmessage v0.4.4.exe</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\Bitmessage v0.4.4.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-01-29T13:37:38.9849959</LastUpdated>
+    <LastUpdated>2015-02-07T22:23:15.6898567</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>bitmessage</Name>

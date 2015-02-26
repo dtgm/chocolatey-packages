@@ -16,4 +16,4 @@ Write-Verbose "                  [-siteTypeSettings=fileName]"
 Write-Verbose "                  [-startService]"
 Write-Verbose "                  [-startBssCtrl]"
 
-Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url"
+Install-ChocolateyPackage -PackageName "$packageName" -InstallerType "$installerType" -Url "$url" -SilentArgs "$silentArgs" -ValidExitCodes $validExitCodes -Checksum "$checksum" -ChecksumType "$checksumType"

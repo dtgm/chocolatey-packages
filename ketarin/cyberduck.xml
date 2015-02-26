@@ -55,7 +55,7 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>{workdir}\Cyberduck-Installer-4.6.4.exe</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\Cyberduck-Installer-4.6.4.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />

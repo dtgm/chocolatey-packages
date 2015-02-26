@@ -5,7 +5,7 @@
     <UserAgent />
     <UserNotes />
     <LastFileSize>17460736</LastFileSize>
-    <LastFileDate>2015-01-11T06:40:55.7754683</LastFileDate>
+    <LastFileDate>2015-02-05T00:40:51.2058027</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -54,8 +54,22 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent />
+            <TextualContent>--nopush</TextualContent>
             <Name>nopush</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>cscript</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>2</TextualContent>
+            <Name>cscript</Name>
           </UrlVariable>
         </value>
       </item>
@@ -66,11 +80,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>{workdir}\dupeguru_win64_3.9.1.msi</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\dupeguru_win64_3.9.1.msi</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-01-11T06:40:55.7754683</LastUpdated>
+    <LastUpdated>2015-02-05T00:40:51.2058027</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>dupeguru</Name>

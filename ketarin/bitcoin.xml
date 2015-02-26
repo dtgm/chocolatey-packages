@@ -4,8 +4,8 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>11421240</LastFileSize>
-    <LastFileDate>2015-01-25T03:42:16.4539895</LastFileDate>
+    <LastFileSize>11690232</LastFileSize>
+    <LastFileDate>2015-02-16T04:33:42.2395796</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -89,7 +89,7 @@
       </item>
       <item>
         <key>
-          <string>yespush</string>
+          <string>yopush</string>
         </key>
         <value>
           <UrlVariable>
@@ -97,7 +97,7 @@
             <VariableType>Textual</VariableType>
             <Regex />
             <TextualContent>--nopush</TextualContent>
-            <Name>yespush</Name>
+            <Name>yopush</Name>
           </UrlVariable>
         </value>
       </item>
@@ -143,6 +143,20 @@
           </UrlVariable>
         </value>
       </item>
+      <item>
+        <key>
+          <string>cscript</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>0</TextualContent>
+            <Name>cscript</Name>
+          </UrlVariable>
+        </value>
+      </item>
     </Variables>
     <ExecuteCommand />
     <ExecutePreCommand>chocopkgup {nopush} --packagename={appname}.install --version={version} --pg="{packageGuid}" --url="{preupdate-url}" --urlx64="{url64}" --packagepath="{file}" --checksum="{checksum}" --c64="{checksumx64}"</ExecutePreCommand>
@@ -150,11 +164,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>{workdir}\bitcoin-0.9.3-win32-setup.exe</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\bitcoin-0.10.0-win32-setup.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-01-25T03:42:16.4539895</LastUpdated>
+    <LastUpdated>2015-02-16T04:33:42.2395796</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>bitcoin</Name>

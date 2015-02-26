@@ -3,7 +3,10 @@ $packageVersion = '{{PackageVersion}}'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $url = '{{DownloadUrl}}'
 $checksum = '{{Checksum}}'
-Install-ChocolateyZipPackage -packageName "$packageName" -url "$url" -unzipLocation "$toolsDir"
+$checksumType = 'sha1'
+
+Install-ChocolateyZipPackage -PackageName "$packageName" -Url "$url" -UnzipLocation "$toolsDir" -Url64bit "" -Checksum "$checksum" -ChecksumType "$checksumType"
+
 try {
   $osBitness = Get-ProcessorBits
   if ($osBitness -eq 64) {

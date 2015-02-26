@@ -5,7 +5,7 @@
     <UserAgent />
     <UserNotes />
     <LastFileSize>429613</LastFileSize>
-    <LastFileDate>2014-12-19T03:28:30.415682</LastFileDate>
+    <LastFileDate>2015-02-05T00:42:07.194028</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -77,6 +77,34 @@
           </UrlVariable>
         </value>
       </item>
+      <item>
+        <key>
+          <string>nopush</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>--nopush</TextualContent>
+            <Name>nopush</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>cscript</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>2</TextualContent>
+            <Name>cscript</Name>
+          </UrlVariable>
+        </value>
+      </item>
     </Variables>
     <ExecuteCommand />
     <ExecutePreCommand />
@@ -84,11 +112,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>{workdir}\EKeyfinder_v0.1beta7_win32.zip</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\EKeyfinder_v0.1beta7_win32.zip</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2014-12-19T03:28:30.415682</LastUpdated>
+    <LastUpdated>2015-02-05T00:42:07.194028</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url:encode}</FixedDownloadUrl>
     <Name>ekeyfinder</Name>

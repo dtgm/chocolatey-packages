@@ -36,7 +36,7 @@
       </item>
       <item>
         <key>
-          <string>yespush</string>
+          <string>nopush</string>
         </key>
         <value>
           <UrlVariable>
@@ -44,7 +44,7 @@
             <VariableType>Textual</VariableType>
             <Regex />
             <TextualContent>--nopush</TextualContent>
-            <Name>yespush</Name>
+            <Name>nopush</Name>
           </UrlVariable>
         </value>
       </item>
@@ -91,6 +91,34 @@
           </UrlVariable>
         </value>
       </item>
+      <item>
+        <key>
+          <string>checksum64file</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>http://sourceforge.net/projects/aria2/files/stable/aria2-{version}/aria2-{version}-win-64bit-build1.zip/download</TextualContent>
+            <Name>checksum64file</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>cscript</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>2</TextualContent>
+            <Name>cscript</Name>
+          </UrlVariable>
+        </value>
+      </item>
     </Variables>
     <ExecuteCommand />
     <ExecutePreCommand />
@@ -98,7 +126,7 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>{workdir}\aria2-1.18.9-win-32bit-build1.zip</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\aria2-1.18.9-win-32bit-build1.zip</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />

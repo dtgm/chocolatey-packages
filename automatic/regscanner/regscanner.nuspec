@@ -24,6 +24,9 @@ RegScanner is a small utility that allows you to scan the Registry, find the des
     <licenseUrl>http://www.nirsoft.net/utils/regscanner.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/468462cc34fb3d747470afaa12f4e248f98f3303/icons/{{PackageName}}.png</iconUrl>
+    <dependencies>
+      <dependency id="{{PackageName}}.install" version="[{{PackageVersion}}]" />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

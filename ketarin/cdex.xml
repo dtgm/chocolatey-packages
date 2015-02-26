@@ -5,7 +5,7 @@
     <UserAgent />
     <UserNotes />
     <LastFileSize>13139941</LastFileSize>
-    <LastFileDate>2015-01-28T19:17:06.0554945</LastFileDate>
+    <LastFileDate>2015-02-16T16:44:44.1769797</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -93,15 +93,15 @@
       </item>
       <item>
         <key>
-          <string>checksumx64</string>
+          <string>cscript</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>{checksum}</TextualContent>
-            <Name>checksumx64</Name>
+            <TextualContent>0</TextualContent>
+            <Name>cscript</Name>
           </UrlVariable>
         </value>
       </item>
@@ -112,11 +112,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>{workdir}\CDex-1.77-win32.exe</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\CDex-1.77-win32.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-01-28T19:17:06.0554945</LastUpdated>
+    <LastUpdated>2015-02-16T16:44:44.1769797</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>cdex</Name>

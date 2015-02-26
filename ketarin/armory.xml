@@ -5,7 +5,7 @@
     <UserAgent />
     <UserNotes />
     <LastFileSize>16030722</LastFileSize>
-    <LastFileDate>2015-01-25T04:40:29.5578908</LastFileDate>
+    <LastFileDate>2015-02-05T00:38:32.6636175</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -33,48 +33,6 @@
       </item>
       <item>
         <key>
-          <string>url64</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <TextualContent>{url}</TextualContent>
-            <Name>url64</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>checksum</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <TextualContent />
-            <Name>checksum</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>checksumx64</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <TextualContent />
-            <Name>checksumx64</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
           <string>version</string>
         </key>
         <value>
@@ -89,7 +47,7 @@
       </item>
       <item>
         <key>
-          <string>yespush</string>
+          <string>nopush</string>
         </key>
         <value>
           <UrlVariable>
@@ -97,21 +55,21 @@
             <VariableType>Textual</VariableType>
             <Regex />
             <TextualContent>--nopush</TextualContent>
-            <Name>yespush</Name>
+            <Name>nopush</Name>
           </UrlVariable>
         </value>
       </item>
       <item>
         <key>
-          <string>packageGuid</string>
+          <string>cscript</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent />
-            <Name>packageGuid</Name>
+            <TextualContent>2</TextualContent>
+            <Name>cscript</Name>
           </UrlVariable>
         </value>
       </item>
@@ -122,11 +80,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>{workdir}\armory_0.92.3_winAll.exe</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\armory_0.92.3_winAll.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-01-25T04:40:29.5578908</LastUpdated>
+    <LastUpdated>2015-02-05T00:38:32.6636175</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>armory</Name>

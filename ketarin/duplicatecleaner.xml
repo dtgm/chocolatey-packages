@@ -5,7 +5,7 @@
     <UserAgent />
     <UserNotes />
     <LastFileSize>5172392</LastFileSize>
-    <LastFileDate>2015-01-11T09:25:54.6075287</LastFileDate>
+    <LastFileDate>2015-02-05T00:43:38.0383551</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -61,15 +61,29 @@
       </item>
       <item>
         <key>
-          <string>nopush</string>
+          <string>yopush</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent />
-            <Name>nopush</Name>
+            <TextualContent>--nopush</TextualContent>
+            <Name>yopush</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>cscript</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>0</TextualContent>
+            <Name>cscript</Name>
           </UrlVariable>
         </value>
       </item>
@@ -80,11 +94,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>{workdir}\DuplicateCleaner_setup.exe</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\DuplicateCleaner_setup.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-01-11T09:25:54.6075287</LastUpdated>
+    <LastUpdated>2015-02-05T00:43:38.0383551</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>duplicatecleaner</Name>
