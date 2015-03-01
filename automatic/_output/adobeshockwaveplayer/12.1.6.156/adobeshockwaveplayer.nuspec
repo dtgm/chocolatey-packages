@@ -13,17 +13,24 @@ Adobe Shockwave (formerly Macromedia Shockwave) is a multimedia platform used to
 Unlike the Adobe Flash Player, the Adobe Shockwave Player is not commonly bundled with web browsers; if needed it must be downloaded.
 
 Shockwave movies are authored in the Adobe Director environment. While there is support for including Flash movies inside Shockwave files, authors often choose the Shockwave Director combination over Flash because it offers more features and more powerful tools. Features not replicated by Flash include a much faster rendering engine, and support for various network protocols, including Internet Relay Chat. Also, Shockwave's functionality can be extended with "Xtras".
-		</description>
+    </description>
     <projectUrl>http://get.adobe.com/shockwave/</projectUrl>
-		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/732a79a2b9e31faef3b3206fddc25e192d6b516b/icons/adobeshockwaveplayer.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/732a79a2b9e31faef3b3206fddc25e192d6b516b/icons/adobeshockwaveplayer.png</iconUrl>
     <tags>shockwave adobe-director</tags>
     <copyright>Adobe</copyright>
     <licenseUrl>http://www.adobe.com/products/players/shockwave-player-licensing-distribution.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-		<releaseNotes>http://helpx.adobe.com/content/help/en/shockwave/release-note/release-notes-shockwave-12.html</releaseNotes>
-		<dependencies>
-			<dependency id="autohotkey.portable" />
-		</dependencies>
+    <releaseNotes>
+#### Program
+* http://helpx.adobe.com/content/help/en/shockwave/release-note/release-notes-shockwave-12.html
+
+#### Package
+* Dynamically retrieve download URL from FileHippo.com - [issue #9](https://github.com/dtgm/chocolatey-packages/issues/9)
+* Please help - If you are aware of a method of retrieving previous versions of this package from adobe.com, please [Contact Maintainers](http://www.chocolatey.org/packages/adobeshockwaveplayer/ContactOwners), preferably (requires a free [GitHub.com account](https://github.com/)), open a [new github issue](https://github.com/dtgm/chocolatey-packages/issues/new) and reference URL "https://github.com/dtgm/chocolatey-packages/issues/10"
+    </releaseNotes>
+    <dependencies>
+      <dependency id="autohotkey.portable" />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
