@@ -1,7 +1,7 @@
 ﻿$packageName = 'hpusbdisk'
 $checksum = '280298bcc4f6d2547babf36d8126cdef44fe4298'
 $checksumType = 'sha1'
-$toolsDir = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
+$toolsDir = $(Split-Path -Parent $MyInvocation.MyCommand.Definition)
 $installFile = Join-Path $toolsDir 'HPUSBDisk.exe'
 
 try {
