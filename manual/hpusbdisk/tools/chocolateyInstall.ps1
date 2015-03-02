@@ -1,11 +1,12 @@
-﻿try {
-	$packageName = 'hpusbdisk'
-	$checksum = '280298bcc4f6d2547babf36d8126cdef44fe4298'
-	$checksumType = 'sha1'
-  $toolsDir = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
-  $nodePath = Join-Path $toolsDir 'HPUSBDisk.exe'
-  Get-CheckSumValid -file $nodePath -checkSum $checksum -checksumType $checksumType
-  Set-Content -Path ("$toolsDir\$packageName.exe.gui") -Value $nul
+﻿$packageName = 'hpusbdisk'
+$checksum = '280298bcc4f6d2547babf36d8126cdef44fe4298'
+$checksumType = 'sha1'
+$toolsDir = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
+$installFile = Join-Path $toolsDir 'HPUSBDisk.exe'
+
+try {
+  Get-CheckSumValid -File $installFile -Checksum $checksum -ChecksumType $checksumType
+  Set-Content -Path ("$installFile.gui") -Value $null
 } catch {
   throw $_.Exception 
 }
