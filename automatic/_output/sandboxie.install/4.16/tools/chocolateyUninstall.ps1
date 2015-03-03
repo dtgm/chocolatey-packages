@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+$packageName = 'sandboxie.install'
 $packageSearch = 'sandboxie'
 $fileType = 'exe'
 $silentArgs = '/S /remove'
