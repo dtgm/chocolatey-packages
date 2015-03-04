@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>iconizer</id>
+    <title>Iconizer</title>
+    <version>2013.06.25</version>
+    <authors>Pavel Krejcir</authors>
+    <owners>dtgm</owners>
+    <summary>Create and edit MS Windows Icon (.ico) files</summary>
+    <description>
+Simple MS Windows GUI application to create and edit MS Windows Icon (.ico) files, including XP and Vista compatible icons. The source images can be loaded from PNG and BMP formats. PNG translucency is supported.
+
+It was inspired by old project png2ico, but it does not use the png2ico code. It has been written from scratch. The application provides GUI to easily manipulate the icon (.ico) files. Unlike png2ico projet, which was a corss platform command line utility, Iconizer only runs on MS Windows. The reason for not porting this application to other platforms is that icons are Windows specific, so it is not expected that somebody would like to create or edit icons on other platforms.
+    </description>
+    <projectUrl>http://sourceforge.net/projects/iconizer</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/9c715a208c94fd7ee3413bf638ac015a2717a80a/icons/iconizer.png</iconUrl>
+    <tags>image converter ico</tags>
+    <copyright>© Pavel Krejcir</copyright>
+    <licenseUrl>http://www.gnu.org/licenses/gpl-3.0.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
