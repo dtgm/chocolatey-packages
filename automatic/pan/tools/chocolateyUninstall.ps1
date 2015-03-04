@@ -1,11 +1,17 @@
+$packageName = '{{PackageName}}'
+$fileType = 'msi'
+$silentArgs = '/quiet /qn /norestart'
+$validExitCodes = @(0)
 try {
-  $packageName = '{{PackageName}}'
-  $app = Get-WmiObject -class win32_product | Where-Object {$_.Name -like "$packageName"}
-  if ($app) {
-    $msiArgs = $('/x' + $app.IdentifyingNumber + ' /quiet /qn /norestart')
-    Start-ChocolateyProcessAsAdmin $msiArgs 'msiexec'
-  }
+  Get-ItemProperty -Path @( 'HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*',
+                            'HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*',
+                            'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*' ) `
+                   -ErrorAction:SilentlyContinue `
+  | Where-Object   { $_.DisplayName -like "$packageName" } `
+  | ForEach-Object { Uninstall-ChocolateyPackage -PackageName "$packageName" `
+                                                 -FileType "$fileType" `
+                                                 -SilentArgs "$($_.PSChildName) $silentArgs" `
+                                                 -ValidExitCodes $validExitCodes }
 } catch {
   throw $_.Exception
 }
-
