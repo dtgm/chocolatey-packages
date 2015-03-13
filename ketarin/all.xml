@@ -284,7 +284,7 @@
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>activetcl</Name>
   </ApplicationJob>
-  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="42fdc98a-20e4-4a25-a1c7-d0509a67ebe5">
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="51301fcb-09a5-4ea0-950f-f6f85f931e32">
     <SourceTemplate><![CDATA[<Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="0fb30714-8ed0-4611-8f1b-cb8fec9dae91">
     <WebsiteUrl />
@@ -356,7 +356,7 @@
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64)</UserAgent>
     <UserNotes />
     <LastFileSize>13832160</LastFileSize>
-    <LastFileDate>2015-02-19T21:39:15.6963867</LastFileDate>
+    <LastFileDate>2015-03-01T15:53:59.4519048</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Avoid</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -525,10 +525,256 @@
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-19T21:39:15.6963867</LastUpdated>
+    <LastUpdated>2015-03-01T15:53:59.4519048</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>adobeshockwaveplayer</Name>
+  </ApplicationJob>
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="42fdc98a-20e4-4a25-a1c7-d0509a67ebe5">
+    <SourceTemplate><![CDATA[<Jobs>
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="0fb30714-8ed0-4611-8f1b-cb8fec9dae91">
+    <WebsiteUrl />
+    <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
+    <UserNotes />
+    <LastFileSize>384846</LastFileSize>
+    <LastFileDate>2012-05-23T02:09:37.7748325</LastFileDate>
+    <IgnoreFileInformation>false</IgnoreFileInformation>
+    <DownloadBeta>Default</DownloadBeta>
+    <DownloadDate xsi:nil="true" />
+    <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
+    <VariableChangeIndicator />
+    <CanBeShared>true</CanBeShared>
+    <ShareApplication>false</ShareApplication>
+    <ExclusiveDownload>false</ExclusiveDownload>
+    <HttpReferer />
+    <SetupInstructions />
+    <Variables>
+      <item>
+        <key>
+          <string>version</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>StartEnd</VariableType>
+            <Regex />
+            <Url><placeholder name="Url with version information" value="http://get.adobe.com/es/shockwave/" /></Url>
+            <StartText>&lt;TABLE cellspacing ="1" cellpadding ="6" border = "0"&gt;
+  &lt;TR&gt;
+    &lt;TH class="Title" align="center" width=90&gt;7-Zip </StartText>
+            <EndText>&lt;BR&gt;</EndText>
+            <TextualContent />
+            <Name>version</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url64</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>""</TextualContent>
+            <Name>url64</Name>
+          </UrlVariable>
+        </value>
+      </item>
+    </Variables>
+    <ExecuteCommand />
+    <ExecutePreCommand />
+    <ExecuteCommandType>Batch</ExecuteCommandType>
+    <ExecutePreCommandType>Batch</ExecutePreCommandType>
+    <Category />
+    <SourceType>FixedUrl</SourceType>
+    <DeletePreviousFile>true</DeletePreviousFile>
+    <Enabled>true</Enabled>
+    <FileHippoId />
+    <LastUpdated>2012-05-23T02:09:37.7748325</LastUpdated>
+    <TargetPath>C:\Chocolatey\_work\</TargetPath>
+    <FixedDownloadUrl><placeholder name="Download Url - Optional" value="http://fpdownload.macromedia.com/get/shockwave/default/english/win95nt/latest/Shockwave_Installer_Slim.exe" /></FixedDownloadUrl>
+    <Name><placeholder name="Name" value="adobeshockwaveplayer" /></Name>
+  </ApplicationJob>
+</Jobs>]]></SourceTemplate>
+    <WebsiteUrl />
+    <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64)</UserAgent>
+    <UserNotes>FileHippo.com URLs expire after a day or so</UserNotes>
+    <LastFileSize>13832160</LastFileSize>
+    <LastFileDate>2015-03-01T15:53:59.4519048</LastFileDate>
+    <IgnoreFileInformation>false</IgnoreFileInformation>
+    <DownloadBeta>Avoid</DownloadBeta>
+    <DownloadDate xsi:nil="true" />
+    <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
+    <VariableChangeIndicator />
+    <CanBeShared>true</CanBeShared>
+    <ShareApplication>false</ShareApplication>
+    <ExclusiveDownload>false</ExclusiveDownload>
+    <HttpReferer />
+    <SetupInstructions />
+    <Variables>
+      <item>
+        <key>
+          <string>version</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=mainInstaller: "Shockwave_)([\d\.]+)(?=_)</Regex>
+            <Url>http://get.adobe.com/shockwave/?platform_dist={UserAgent}</Url>
+            <StartText>&lt;title&gt;Descargar Shockwave Player </StartText>
+            <EndText> - FileHippo.com&lt;/title&gt;
+</EndText>
+            <TextualContent>12.1.4.1542</TextualContent>
+            <Name>version</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=ResponseUri: )[^\r\n]+</Regex>
+            <Url>http://www.filehippo.com{filePath}</Url>
+            <TextualContent />
+            <Name>url</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>getReleaseNotes</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <Url />
+            <TextualContent>http://helpx.adobe.com{getReleasenotesUrl}</TextualContent>
+            <Name>getReleaseNotes</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>getReleasenotesUrl</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=For more information on the latest update to Adobe Shockwave Player.*")(/content/help/.*?)(?=")</Regex>
+            <Url>http://helpx.adobe.com/shockwave.html</Url>
+            <Name>getReleasenotesUrl</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>fileHippoId</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=data-href=")(.*?)(?=")</Regex>
+            <Url>http://www.filehippo.com/download_shockwave/</Url>
+            <Name>fileHippoId</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>downloadPath</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=green button-link.*?href=")(.*?)(?=")</Regex>
+            <Url>{fileHippoId}</Url>
+            <Name>downloadPath</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>filePath</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=&lt;div class="download-confirmation-text"&gt;[\r\n]*&lt;a href="?)(/.*?[A-Fa-f0-9]{64}/*)(?=")</Regex>
+            <Url>http://www.filehippo.com/{downloadPath}</Url>
+            <Name>filePath</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>nopush</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>--nopush</TextualContent>
+            <Name>nopush</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>packageGuid</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>{getReleaseNotes}</TextualContent>
+            <Name>packageGuid</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>cscript</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>1</TextualContent>
+            <Name>cscript</Name>
+          </UrlVariable>
+        </value>
+      </item>
+    </Variables>
+    <ExecuteCommand />
+    <ExecutePreCommand />
+    <ExecuteCommandType>Batch</ExecuteCommandType>
+    <ExecutePreCommandType>Batch</ExecutePreCommandType>
+    <Category />
+    <SourceType>FixedUrl</SourceType>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\Shockwave_Installer_Full.exe</PreviousLocation>
+    <DeletePreviousFile>true</DeletePreviousFile>
+    <Enabled>false</Enabled>
+    <FileHippoId />
+    <LastUpdated>2015-03-01T15:53:59.4519048</LastUpdated>
+    <TargetPath>{workdir}\</TargetPath>
+    <FixedDownloadUrl>{url}</FixedDownloadUrl>
+    <Name>adobeshockwaveplayer [DEP]</Name>
   </ApplicationJob>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="28eaa56a-f149-43f3-b82a-9cc181050b0d">
     <WebsiteUrl />
@@ -655,8 +901,8 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>98093120</LastFileSize>
-    <LastFileDate>2015-02-13T11:46:54.4323407</LastFileDate>
+    <LastFileSize>107620136</LastFileSize>
+    <LastFileDate>2015-03-12T22:58:16.1772558</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Avoid</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -746,21 +992,21 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\arduino-1.6.0-windows.exe</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\arduino-1.6.1-windows.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-13T11:46:54.4323407</LastUpdated>
+    <LastUpdated>2015-03-12T22:58:16.1772558</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
-    <Name>arduinoide</Name>
+    <Name>arduino</Name>
   </ApplicationJob>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="4c2e8b90-16f3-4d84-a8aa-a2f31fe0afab">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
     <LastFileSize>167013871</LastFileSize>
-    <LastFileDate>2015-02-13T14:21:44.9649707</LastFileDate>
+    <LastFileDate>2015-03-12T23:58:06.2928111</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Avoid</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -795,7 +1041,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
             <Regex>(?&lt;=ResponseUri: )[^\r\n]+</Regex>
-            <Url>{getUrl2}</Url>
+            <Url>{getUrl3}</Url>
             <TextualContent />
             <Name>url</Name>
           </UrlVariable>
@@ -810,7 +1056,8 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
             <Regex>(?&lt;=arduino-windows-)([\d\.]+)(?=\.7z)</Regex>
-            <Url>{getUrl2}</Url>
+            <Url>{getUrl3}</Url>
+            <TextualContent />
             <Name>version</Name>
           </UrlVariable>
         </value>
@@ -843,6 +1090,34 @@
           </UrlVariable>
         </value>
       </item>
+      <item>
+        <key>
+          <string>cscript</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>1</TextualContent>
+            <Name>cscript</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>getUrl3</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>http://downloadmirror.intel.com/24357/eng/arduino-windows-1.0.4.7z</TextualContent>
+            <Name>getUrl3</Name>
+          </UrlVariable>
+        </value>
+      </item>
     </Variables>
     <ExecuteCommand />
     <ExecutePreCommand />
@@ -852,19 +1127,19 @@
     <SourceType>FixedUrl</SourceType>
     <PreviousLocation>C:\ProgramData\chocolatey\_work\arduino-windows-1.0.4.7z</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
-    <Enabled>false</Enabled>
+    <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-13T14:21:44.9649707</LastUpdated>
+    <LastUpdated>2015-03-12T23:58:06.2928111</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
-    <Name>arduinoidegalileo</Name>
+    <Name>arduino-intel</Name>
   </ApplicationJob>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="0451b01e-ae79-4979-a2f8-78f746b7ade4">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>1853749</LastFileSize>
-    <LastFileDate>2015-02-04T04:33:15.8379436</LastFileDate>
+    <LastFileSize>1850095</LastFileSize>
+    <LastFileDate>2015-02-24T04:33:15.2501195</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Avoid</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -985,11 +1260,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\aria2-1.18.9-win-32bit-build1.zip</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\aria2-1.18.10-win-32bit-build1.zip</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-04T04:33:15.8379436</LastUpdated>
+    <LastUpdated>2015-02-24T04:33:15.2501195</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>aria2</Name>
@@ -998,8 +1273,8 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>16030722</LastFileSize>
-    <LastFileDate>2015-02-05T00:38:32.6636175</LastFileDate>
+    <LastFileSize>22766182</LastFileSize>
+    <LastFileDate>2015-02-23T04:33:19.3050619</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -1074,11 +1349,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\armory_0.92.3_winAll.exe</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\armory_0.93_winAll.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-05T00:38:32.6636175</LastUpdated>
+    <LastUpdated>2015-02-23T04:33:19.3050619</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>armory</Name>
@@ -1087,8 +1362,8 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>19331247</LastFileSize>
-    <LastFileDate>2015-02-05T00:38:45.37461</LastFileDate>
+    <LastFileSize>20285474</LastFileSize>
+    <LastFileDate>2015-03-09T21:14:52.6153131</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -1168,11 +1443,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\audacious-3.5.2-win32.zip</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\audacious-3.6-win32.zip</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-05T00:38:45.37461</LastUpdated>
+    <LastUpdated>2015-03-09T21:14:52.6153131</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>audacious</Name>
@@ -1492,254 +1767,6 @@
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>bitcoin</Name>
   </ApplicationJob>
-  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="323b5f14-46aa-410a-b47c-1792645ac72a">
-    <SourceTemplate><![CDATA[<Jobs>
-  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="0fb30714-8ed0-4611-8f1b-cb8fec9dae91">
-    <WebsiteUrl />
-    <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64)</UserAgent>
-    <UserNotes />
-    <LastFileSize>384846</LastFileSize>
-    <LastFileDate>2012-05-23T02:09:37.7748325</LastFileDate>
-    <IgnoreFileInformation>false</IgnoreFileInformation>
-    <DownloadBeta>Default</DownloadBeta>
-    <DownloadDate xsi:nil="true" />
-    <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
-    <VariableChangeIndicator />
-    <CanBeShared>true</CanBeShared>
-    <ShareApplication>false</ShareApplication>
-    <ExclusiveDownload>false</ExclusiveDownload>
-    <HttpReferer />
-    <SetupInstructions />
-    <Variables>
-      <item>
-        <key>
-          <string>version</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>StartEnd</VariableType>
-            <Regex />
-            <Url><placeholder name="Url with version information" value="" /></Url>
-            <StartText>&lt;TABLE cellspacing ="1" cellpadding ="6" border = "0"&gt;
-  &lt;TR&gt;
-    &lt;TH class="Title" align="center" width=90&gt;7-Zip </StartText>
-            <EndText>&lt;BR&gt;</EndText>
-            <TextualContent />
-            <Name>version</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>url64</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <TextualContent>""</TextualContent>
-            <Name>url64</Name>
-          </UrlVariable>
-        </value>
-      </item>
-    </Variables>
-    <ExecuteCommand />
-    <ExecutePreCommand />
-    <ExecuteCommandType>Batch</ExecuteCommandType>
-    <ExecutePreCommandType>Batch</ExecutePreCommandType>
-    <Category />
-    <SourceType>FixedUrl</SourceType>
-    <DeletePreviousFile>true</DeletePreviousFile>
-    <Enabled>true</Enabled>
-    <FileHippoId />
-    <LastUpdated>2012-05-23T02:09:37.7748325</LastUpdated>
-    <TargetPath>C:\Chocolatey\_work\</TargetPath>
-    <FixedDownloadUrl><placeholder name="Download Url - Optional" value="http://nowhere.com/nothing{version}.zip" /></FixedDownloadUrl>
-    <Name><placeholder name="Name" value="duplicati" /></Name>
-  </ApplicationJob>
-</Jobs>]]></SourceTemplate>
-    <WebsiteUrl />
-    <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64)</UserAgent>
-    <UserNotes>https://bitcoin.org/bin/0.9.2.1/SHA256SUMS.asc</UserNotes>
-    <LastFileSize>2265088</LastFileSize>
-    <LastFileDate>2014-08-18T23:39:06.564304</LastFileDate>
-    <IgnoreFileInformation>false</IgnoreFileInformation>
-    <DownloadBeta>Default</DownloadBeta>
-    <DownloadDate xsi:nil="true" />
-    <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
-    <VariableChangeIndicator />
-    <CanBeShared>true</CanBeShared>
-    <ShareApplication>false</ShareApplication>
-    <ExclusiveDownload>false</ExclusiveDownload>
-    <HttpReferer />
-    <SetupInstructions />
-    <Variables>
-      <item>
-        <key>
-          <string>version</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>StartEnd</VariableType>
-            <Regex>"&gt;About This Section \(Latest Version ([\d+\.]+)\)&lt;/a&gt;</Regex>
-            <Url>https://bitcoin.org/en/download</Url>
-            <StartText>Latest version: </StartText>
-            <EndText>&lt;a type="application/rss+xml" </EndText>
-            <TextualContent />
-            <Name>version</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>url64</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <TextualContent>"https://bitcoin.org/bin/{version}/bitcoin-{version}-win64-setup.exe"</TextualContent>
-            <Name>url64</Name>
-          </UrlVariable>
-        </value>
-      </item>
-    </Variables>
-    <ExecuteCommand />
-    <ExecutePreCommand />
-    <ExecuteCommandType>Batch</ExecuteCommandType>
-    <ExecutePreCommandType>Batch</ExecutePreCommandType>
-    <Category />
-    <SourceType>FixedUrl</SourceType>
-    <PreviousLocation />
-    <DeletePreviousFile>true</DeletePreviousFile>
-    <Enabled>false</Enabled>
-    <FileHippoId />
-    <LastUpdated>2014-08-18T23:39:06.564304</LastUpdated>
-    <TargetPath>{workdir}\</TargetPath>
-    <FixedDownloadUrl>"https://bitcoin.org/bin/{version}/bitcoin-{version}-win32-setup.exe"</FixedDownloadUrl>
-    <Name>bitcoin-core.install</Name>
-  </ApplicationJob>
-  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="bc27aa1c-0c85-4327-b74c-8675de776ed8">
-    <SourceTemplate><![CDATA[<Jobs>
-  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="0fb30714-8ed0-4611-8f1b-cb8fec9dae91">
-    <WebsiteUrl />
-    <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64)</UserAgent>
-    <UserNotes />
-    <LastFileSize>384846</LastFileSize>
-    <LastFileDate>2012-05-23T02:09:37.7748325</LastFileDate>
-    <IgnoreFileInformation>false</IgnoreFileInformation>
-    <DownloadBeta>Default</DownloadBeta>
-    <DownloadDate xsi:nil="true" />
-    <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
-    <VariableChangeIndicator />
-    <CanBeShared>true</CanBeShared>
-    <ShareApplication>false</ShareApplication>
-    <ExclusiveDownload>false</ExclusiveDownload>
-    <HttpReferer />
-    <SetupInstructions />
-    <Variables>
-      <item>
-        <key>
-          <string>version</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>StartEnd</VariableType>
-            <Regex />
-            <Url><placeholder name="Url with version information" value="" /></Url>
-            <StartText>&lt;TABLE cellspacing ="1" cellpadding ="6" border = "0"&gt;
-  &lt;TR&gt;
-    &lt;TH class="Title" align="center" width=90&gt;7-Zip </StartText>
-            <EndText>&lt;BR&gt;</EndText>
-            <TextualContent />
-            <Name>version</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>url64</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <TextualContent>""</TextualContent>
-            <Name>url64</Name>
-          </UrlVariable>
-        </value>
-      </item>
-    </Variables>
-    <ExecuteCommand />
-    <ExecutePreCommand />
-    <ExecuteCommandType>Batch</ExecuteCommandType>
-    <ExecutePreCommandType>Batch</ExecutePreCommandType>
-    <Category />
-    <SourceType>FixedUrl</SourceType>
-    <DeletePreviousFile>true</DeletePreviousFile>
-    <Enabled>true</Enabled>
-    <FileHippoId />
-    <LastUpdated>2012-05-23T02:09:37.7748325</LastUpdated>
-    <TargetPath>C:\Chocolatey\_work\</TargetPath>
-    <FixedDownloadUrl><placeholder name="Download Url - Optional" value="http://nowhere.com/nothing{version}.zip" /></FixedDownloadUrl>
-    <Name><placeholder name="Name" value="duplicati" /></Name>
-  </ApplicationJob>
-</Jobs>]]></SourceTemplate>
-    <WebsiteUrl />
-    <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64)</UserAgent>
-    <UserNotes>https://bitcoin.org/bin/0.9.2.1/SHA256SUMS.asc</UserNotes>
-    <LastFileSize>2265088</LastFileSize>
-    <LastFileDate>2014-08-18T23:39:06.564304</LastFileDate>
-    <IgnoreFileInformation>false</IgnoreFileInformation>
-    <DownloadBeta>Default</DownloadBeta>
-    <DownloadDate xsi:nil="true" />
-    <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
-    <VariableChangeIndicator />
-    <CanBeShared>true</CanBeShared>
-    <ShareApplication>false</ShareApplication>
-    <ExclusiveDownload>false</ExclusiveDownload>
-    <HttpReferer />
-    <SetupInstructions />
-    <Variables>
-      <item>
-        <key>
-          <string>version</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>StartEnd</VariableType>
-            <Regex>"&gt;About This Section \(Latest Version ([\d+\.]+)\)&lt;/a&gt;</Regex>
-            <Url>https://bitcoin.org/en/download</Url>
-            <StartText>Latest version: </StartText>
-            <EndText>&lt;a type="application/rss+xml" </EndText>
-            <TextualContent />
-            <Name>version</Name>
-          </UrlVariable>
-        </value>
-      </item>
-    </Variables>
-    <ExecuteCommand />
-    <ExecutePreCommand />
-    <ExecuteCommandType>Batch</ExecuteCommandType>
-    <ExecutePreCommandType>Batch</ExecutePreCommandType>
-    <Category />
-    <SourceType>FixedUrl</SourceType>
-    <PreviousLocation />
-    <DeletePreviousFile>true</DeletePreviousFile>
-    <Enabled>false</Enabled>
-    <FileHippoId />
-    <LastUpdated>2014-08-18T23:39:06.564304</LastUpdated>
-    <TargetPath>{workdir}\</TargetPath>
-    <FixedDownloadUrl>"https://bitcoin.org/bin/{version}/bitcoin-{version}-win.zip"</FixedDownloadUrl>
-    <Name>bitcoin-core.portable</Name>
-  </ApplicationJob>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="27c32d0e-1872-4643-9cd7-b8588f073ee9">
     <WebsiteUrl />
     <UserAgent />
@@ -1918,6 +1945,7 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\bitcoin-0.10.0-win32-setup.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
@@ -2208,8 +2236,8 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>245317</LastFileSize>
-    <LastFileDate>2015-02-05T00:39:01.237452</LastFileDate>
+    <LastFileSize>246023</LastFileSize>
+    <LastFileDate>2015-03-04T11:58:12.3466442</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -2276,6 +2304,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
+            <Url />
             <TextualContent>{realVersion:regexreplace:(\d)(\d)(\d):$1.$2.$3}</TextualContent>
             <Name>version</Name>
           </UrlVariable>
@@ -2311,15 +2340,15 @@
       </item>
       <item>
         <key>
-          <string>nopush</string>
+          <string>noscript</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>--nopush</TextualContent>
-            <Name>nopush</Name>
+            <TextualContent>--noscript</TextualContent>
+            <Name>noscript</Name>
           </UrlVariable>
         </value>
       </item>
@@ -2344,11 +2373,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\blat323_32.full.zip</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\blat324_32.full.zip</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-05T00:39:01.237452</LastUpdated>
+    <LastUpdated>2015-03-04T11:58:12.3466442</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>blat</Name>
@@ -2966,8 +2995,8 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>106081972</LastFileSize>
-    <LastFileDate>2015-02-05T00:39:57.6964</LastFileDate>
+    <LastFileSize>101514105</LastFileSize>
+    <LastFileDate>2015-03-02T04:33:47.5605343</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -3060,11 +3089,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\clamwin-0.98.5-setup.exe</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\clamwin-0.98.6-setup.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-05T00:39:57.6964</LastUpdated>
+    <LastUpdated>2015-03-02T04:33:47.5605343</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>clamwin</Name>
@@ -3726,7 +3755,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>http://download.hardcoded.net/dupeguru_win64_{version}.msi</TextualContent>
+            <TextualContent>http://download.hardcoded.net/{getUrl}</TextualContent>
             <Name>url</Name>
           </UrlVariable>
         </value>
@@ -3773,6 +3802,20 @@
           </UrlVariable>
         </value>
       </item>
+      <item>
+        <key>
+          <string>getUrl</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>/?([^ "'&lt;&gt;\*]+{version}\.msi)</Regex>
+            <Url>http://download.hardcoded.net/</Url>
+            <Name>getUrl</Name>
+          </UrlVariable>
+        </value>
+      </item>
     </Variables>
     <ExecuteCommand />
     <ExecutePreCommand />
@@ -3788,6 +3831,212 @@
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>dupeguru</Name>
+  </ApplicationJob>
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="a0c42c1f-6cc2-40a0-8acc-850aa06567be">
+    <WebsiteUrl />
+    <UserAgent />
+    <UserNotes />
+    <LastFileSize>17534464</LastFileSize>
+    <LastFileDate>2015-02-21T20:33:26.7230908</LastFileDate>
+    <IgnoreFileInformation>false</IgnoreFileInformation>
+    <DownloadBeta>Default</DownloadBeta>
+    <DownloadDate xsi:nil="true" />
+    <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
+    <VariableChangeIndicator />
+    <CanBeShared>true</CanBeShared>
+    <ShareApplication>false</ShareApplication>
+    <ExclusiveDownload>false</ExclusiveDownload>
+    <HttpReferer />
+    <SetupInstructions />
+    <Variables>
+      <item>
+        <key>
+          <string>url</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>http://download.hardcoded.net/{getUrl}</TextualContent>
+            <Name>url</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>version</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=itemprop="softwareVersion"&gt;)([\d\.]+)(?=&lt;)</Regex>
+            <Url>http://www.hardcoded.net/dupeguru_me/</Url>
+            <Name>version</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>nopush</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>--nopush</TextualContent>
+            <Name>nopush</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>cscript</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>2</TextualContent>
+            <Name>cscript</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>getUrl</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>/?([^ "'&lt;&gt;\*]+{version}\.msi)</Regex>
+            <Url>http://download.hardcoded.net/</Url>
+            <Name>getUrl</Name>
+          </UrlVariable>
+        </value>
+      </item>
+    </Variables>
+    <ExecuteCommand />
+    <ExecutePreCommand />
+    <ExecuteCommandType>Batch</ExecuteCommandType>
+    <ExecutePreCommandType>Batch</ExecutePreCommandType>
+    <Category />
+    <SourceType>FixedUrl</SourceType>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\dupeguru_me_win64_6.8.1.msi</PreviousLocation>
+    <DeletePreviousFile>true</DeletePreviousFile>
+    <Enabled>true</Enabled>
+    <FileHippoId />
+    <LastUpdated>2015-02-21T20:33:26.7230908</LastUpdated>
+    <TargetPath>{workdir}\</TargetPath>
+    <FixedDownloadUrl>{url}</FixedDownloadUrl>
+    <Name>dupeguru-me</Name>
+  </ApplicationJob>
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="849ed906-3ec6-465d-aeff-7ff7ac8d8566">
+    <WebsiteUrl />
+    <UserAgent />
+    <UserNotes />
+    <LastFileSize>17963520</LastFileSize>
+    <LastFileDate>2015-02-21T20:33:30.7469523</LastFileDate>
+    <IgnoreFileInformation>false</IgnoreFileInformation>
+    <DownloadBeta>Default</DownloadBeta>
+    <DownloadDate xsi:nil="true" />
+    <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
+    <VariableChangeIndicator />
+    <CanBeShared>true</CanBeShared>
+    <ShareApplication>false</ShareApplication>
+    <ExclusiveDownload>false</ExclusiveDownload>
+    <HttpReferer />
+    <SetupInstructions />
+    <Variables>
+      <item>
+        <key>
+          <string>url</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>http://download.hardcoded.net/{getUrl}</TextualContent>
+            <Name>url</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>version</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=itemprop="softwareVersion"&gt;)([\d\.]+)(?=&lt;)</Regex>
+            <Url>http://www.hardcoded.net/dupeguru_pe/</Url>
+            <Name>version</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>nopush</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>--nopush</TextualContent>
+            <Name>nopush</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>cscript</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>2</TextualContent>
+            <Name>cscript</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>getUrl</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>/?([^ "'&lt;&gt;\*]+{version}\.msi)</Regex>
+            <Url>http://download.hardcoded.net/</Url>
+            <Name>getUrl</Name>
+          </UrlVariable>
+        </value>
+      </item>
+    </Variables>
+    <ExecuteCommand />
+    <ExecutePreCommand />
+    <ExecuteCommandType>Batch</ExecuteCommandType>
+    <ExecutePreCommandType>Batch</ExecutePreCommandType>
+    <Category />
+    <SourceType>FixedUrl</SourceType>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\dupeguru_pe_win64_2.10.1.msi</PreviousLocation>
+    <DeletePreviousFile>true</DeletePreviousFile>
+    <Enabled>true</Enabled>
+    <FileHippoId />
+    <LastUpdated>2015-02-21T20:33:30.7469523</LastUpdated>
+    <TargetPath>{workdir}\</TargetPath>
+    <FixedDownloadUrl>{url}</FixedDownloadUrl>
+    <Name>dupeguru-pe</Name>
   </ApplicationJob>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="c4fe0f64-204c-4f13-9642-1976f98b8d7b">
     <WebsiteUrl />
@@ -3895,7 +4144,21 @@
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="33ba9617-7e4c-4c3e-9190-fb076b8b336b">
     <WebsiteUrl />
     <UserAgent />
-    <UserNotes />
+    <UserNotes>http://downloads.auslogics.com/en/duplicate-file-finder/duplicate.xml
+&lt;Download_URLs&gt;
+&lt;Primary_Download_URL&gt;
+http://downloads.auslogics.com/en/duplicate-file-finder/duplicate-file-finder-setup.exe
+&lt;/Primary_Download_URL&gt;
+&lt;Secondary_Download_URL&gt;
+http://downloads.auslogics.com/en/duplicate-file-finder/duplicate-file-finder-setup.exe
+&lt;/Secondary_Download_URL&gt;
+&lt;Additional_Download_URL_1&gt;
+http://downloads.auslogics.com/en/duplicate-file-finder/duplicate-file-finder-setup.exe
+&lt;/Additional_Download_URL_1&gt;
+&lt;Additional_Download_URL_2&gt;
+http://downloads.auslogics.com/en/duplicate-file-finder/duplicate-file-finder-setup.exe
+&lt;/Additional_Download_URL_2&gt;
+&lt;/Download_URLs&gt;</UserNotes>
     <LastFileSize>6929688</LastFileSize>
     <LastFileDate>2015-02-10T04:34:10.6948508</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
@@ -3918,7 +4181,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>http://downloads.auslogics.com/en/duplicate-file-finder/duplicate-file-finder-setup.exe</TextualContent>
+            <TextualContent>{getUrl}</TextualContent>
             <Name>url</Name>
           </UrlVariable>
         </value>
@@ -3931,7 +4194,7 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=&lt;b&gt;Latest ver. )([\d\.]+)(?=&lt;/b&gt;)</Regex>
+            <Regex>(?&lt;=Latest v[er\.\s]+?)([\d\.]+)&lt;</Regex>
             <Url>https://www.auslogics.com/en/software/duplicate-file-finder/</Url>
             <Name>version</Name>
           </UrlVariable>
@@ -3962,6 +4225,20 @@
             <Regex />
             <TextualContent>2</TextualContent>
             <Name>cscript</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>getUrl</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>[^ "'&lt;&gt;\*]+\.exe</Regex>
+            <Url>http://www.auslogics.com/en/software/duplicate-file-finder/download/</Url>
+            <Name>getUrl</Name>
           </UrlVariable>
         </value>
       </item>
@@ -4415,7 +4692,7 @@ Note: probably deprecated; source repo has moved to github</UserNotes>
     <UserAgent />
     <UserNotes />
     <LastFileSize>21523827</LastFileSize>
-    <LastFileDate>2015-02-05T00:42:27.6247167</LastFileDate>
+    <LastFileDate>2015-02-20T23:51:51.3982997</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -4508,7 +4785,7 @@ Note: probably deprecated; source repo has moved to github</UserNotes>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-05T00:42:27.6247167</LastUpdated>
+    <LastUpdated>2015-02-20T23:51:51.3982997</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>ekiga</Name>
@@ -4841,8 +5118,8 @@ Note: probably deprecated; source repo has moved to github</UserNotes>
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>41235144</LastFileSize>
-    <LastFileDate>2015-02-20T04:34:07.6852344</LastFileDate>
+    <LastFileSize>39918256</LastFileSize>
+    <LastFileDate>2015-03-12T04:34:08.971837</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -4870,7 +5147,7 @@ Note: probably deprecated; source repo has moved to github</UserNotes>
       </item>
       <item>
         <key>
-          <string>yopush</string>
+          <string>nopush</string>
         </key>
         <value>
           <UrlVariable>
@@ -4878,7 +5155,7 @@ Note: probably deprecated; source repo has moved to github</UserNotes>
             <VariableType>Textual</VariableType>
             <Regex />
             <TextualContent>--nopush</TextualContent>
-            <Name>yopush</Name>
+            <Name>nopush</Name>
           </UrlVariable>
         </value>
       </item>
@@ -4919,7 +5196,7 @@ Note: probably deprecated; source repo has moved to github</UserNotes>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>.*(firefox.{1,20}win64-x86_64.installer.exe).*(\1)</Regex>
+            <Regex>.*(firefox.{1,20}win64.installer.exe).*(\1)</Regex>
             <Url>https://ftp.mozilla.org/pub/mozilla.org/firefox/nightly/latest-mozilla-aurora/</Url>
             <Name>url64Filename</Name>
           </UrlVariable>
@@ -5021,7 +5298,7 @@ Note: probably deprecated; source repo has moved to github</UserNotes>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>.*(firefox.{1,20}win64-x86_64.checksums)".*(\1)</Regex>
+            <Regex>.*(firefox.{1,20}win64.checksums)".*(\1)</Regex>
             <Url>https://ftp.mozilla.org/pub/mozilla.org/firefox/nightly/latest-mozilla-aurora/</Url>
             <Name>checksumx64File</Name>
           </UrlVariable>
@@ -5106,7 +5383,7 @@ Note: probably deprecated; source repo has moved to github</UserNotes>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>0</TextualContent>
+            <TextualContent>2</TextualContent>
             <Name>cscript</Name>
           </UrlVariable>
         </value>
@@ -5118,11 +5395,11 @@ Note: probably deprecated; source repo has moved to github</UserNotes>
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\firefox-37.0a2.en-US.win32.installer.exe</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\firefox-38.0a2.en-US.win32.installer.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-20T04:34:07.6852344</LastUpdated>
+    <LastUpdated>2015-03-12T04:34:08.971837</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>firefox-dev</Name>
@@ -5468,7 +5745,7 @@ Note: probably deprecated; source repo has moved to github</UserNotes>
       </item>
     </Variables>
     <ExecuteCommand />
-    <ExecutePreCommand>chocopkgup {nopush} --packagename={appname}.install --version={version} --pg="{packageGuid}" --url="{preupdate-url}" --urlx64="{url64}" --packagepath="{file}" --checksum="{checksum}" --c64="{checksumx64}"</ExecutePreCommand>
+    <ExecutePreCommand />
     <ExecuteCommandType>Batch</ExecuteCommandType>
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
@@ -5481,6 +5758,109 @@ Note: probably deprecated; source repo has moved to github</UserNotes>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>freearc</Name>
+  </ApplicationJob>
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="36195b4e-628b-45e6-ac63-8f2f6e590626">
+    <WebsiteUrl />
+    <UserAgent />
+    <UserNotes />
+    <LastFileSize>7938425</LastFileSize>
+    <LastFileDate>2015-02-21T21:01:44.5045461</LastFileDate>
+    <IgnoreFileInformation>false</IgnoreFileInformation>
+    <DownloadBeta>Default</DownloadBeta>
+    <DownloadDate xsi:nil="true" />
+    <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
+    <VariableChangeIndicator />
+    <CanBeShared>true</CanBeShared>
+    <ShareApplication>false</ShareApplication>
+    <ExclusiveDownload>false</ExclusiveDownload>
+    <HttpReferer />
+    <SetupInstructions />
+    <Variables>
+      <item>
+        <key>
+          <string>nopush</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>--nopush</TextualContent>
+            <Name>nopush</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>version</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>Last program version.*?([\d\.]+)</Regex>
+            <Url>http://freearc.org/</Url>
+            <Name>version</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>http://freearc.org{getUrl}</TextualContent>
+            <Name>url</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>getUrl</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>[^ "'&lt;&gt;\*]+\.exe</Regex>
+            <Url>http://freearc.org/Download.aspx</Url>
+            <Name>getUrl</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>cscript</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>2</TextualContent>
+            <Name>cscript</Name>
+          </UrlVariable>
+        </value>
+      </item>
+    </Variables>
+    <ExecuteCommand />
+    <ExecutePreCommand />
+    <ExecuteCommandType>Batch</ExecuteCommandType>
+    <ExecutePreCommandType>Batch</ExecutePreCommandType>
+    <Category />
+    <SourceType>FixedUrl</SourceType>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\FreeArc-0.666-win32.exe</PreviousLocation>
+    <DeletePreviousFile>true</DeletePreviousFile>
+    <Enabled>true</Enabled>
+    <FileHippoId />
+    <LastUpdated>2015-02-21T21:01:44.5045461</LastUpdated>
+    <TargetPath>{workdir}\</TargetPath>
+    <FixedDownloadUrl>{url}</FixedDownloadUrl>
+    <Name>freearc.install</Name>
   </ApplicationJob>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="0fdde8a9-c677-4a6a-b5ae-e21b474c93ba">
     <WebsiteUrl />
@@ -5892,7 +6272,7 @@ Note: probably deprecated; source repo has moved to github</UserNotes>
     <UserAgent />
     <UserNotes />
     <LastFileSize>1863475</LastFileSize>
-    <LastFileDate>2015-02-05T00:43:49.6379777</LastFileDate>
+    <LastFileDate>2015-02-21T19:57:00.9842849</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -5906,29 +6286,15 @@ Note: probably deprecated; source repo has moved to github</UserNotes>
     <Variables>
       <item>
         <key>
-          <string>url</string>
+          <string>getUrl</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=ResponseUri: )[^\r\n]+</Regex>
-            <Url>http://sourceforge.net/projects/fileverifier/files/fileverifier/0.6.3.5830/fv-0.6.3.5830W.zip/download</Url>
-            <Name>url</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>url64</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <TextualContent>http://sourceforge.net/projects/fileverifier/files/fileverifier/{version}/fv-{version}W.msi/download</TextualContent>
-            <Name>url64</Name>
+            <Regex>[^ "'&lt;&gt;\*]+\.msi/download</Regex>
+            <Url>http://sourceforge.net/projects/fileverifier/files/fileverifier/{version}/</Url>
+            <Name>getUrl</Name>
           </UrlVariable>
         </value>
       </item>
@@ -5974,6 +6340,62 @@ Note: probably deprecated; source repo has moved to github</UserNotes>
           </UrlVariable>
         </value>
       </item>
+      <item>
+        <key>
+          <string>url</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=ResponseUri: )[^\r\n]+</Regex>
+            <Url>http://sourceforge.net/projects/fileverifier/files/fileverifier/0.6.3.5830/fv-0.6.3.5830W.zip/download</Url>
+            <Name>url</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url64</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>{getUrl}</TextualContent>
+            <Name>url64</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>checksum</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>([a-fA-F0-9]{40})[\s\*]+{baseFile}\.msi</Regex>
+            <Url>http://sourceforge.net/projects/fileverifier/files/fileverifier/{version}/{baseFile}.sha1/download</Url>
+            <Name>checksum</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>baseFile</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>([^ "'&lt;&gt;\*/]+)\.msi</Regex>
+            <Url>http://sourceforge.net/projects/fileverifier/files/fileverifier/</Url>
+            <Name>baseFile</Name>
+          </UrlVariable>
+        </value>
+      </item>
     </Variables>
     <ExecuteCommand />
     <ExecutePreCommand />
@@ -5985,7 +6407,7 @@ Note: probably deprecated; source repo has moved to github</UserNotes>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-05T00:43:49.6379777</LastUpdated>
+    <LastUpdated>2015-02-21T19:57:00.9842849</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>fv</Name>
@@ -6457,7 +6879,7 @@ Note: probably deprecated; source repo has moved to github</UserNotes>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=&lt;a href="/projects/gsmartcontrol/files/latest/download\?source=files" title="/).*?(?=/)</Regex>
+            <Regex>/(\d+\.+[\d\.]+)/</Regex>
             <Url>http://sourceforge.net/projects/gsmartcontrol/files/</Url>
             <StartText>&lt;tr title="</StartText>
             <EndText>" class="folder "&gt;</EndText>
@@ -7105,7 +7527,7 @@ Note: probably deprecated; source repo has moved to github</UserNotes>
     <UserAgent />
     <UserNotes />
     <LastFileSize>206028</LastFileSize>
-    <LastFileDate>2015-02-17T23:36:39.1672805</LastFileDate>
+    <LastFileDate>2015-02-21T20:03:14.992459</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -7270,7 +7692,7 @@ Note: probably deprecated; source repo has moved to github</UserNotes>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-17T23:36:39.1672805</LastUpdated>
+    <LastUpdated>2015-02-21T20:03:14.992459</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>iconizer</Name>
@@ -7279,8 +7701,8 @@ Note: probably deprecated; source repo has moved to github</UserNotes>
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>1970845</LastFileSize>
-    <LastFileDate>2015-02-17T21:13:00.8001462</LastFileDate>
+    <LastFileSize>1982037</LastFileSize>
+    <LastFileDate>2015-03-10T04:33:53.8828451</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -7369,11 +7791,11 @@ Note: probably deprecated; source repo has moved to github</UserNotes>
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\ILSpy_2.2.0.1706_Binaries.zip</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\ILSpy_Master_2.3.0.1827_Binaries.zip</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-17T21:13:00.8001462</LastUpdated>
+    <LastUpdated>2015-03-10T04:33:53.8828451</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>ilspy</Name>
@@ -7629,6 +8051,167 @@ Note: probably deprecated; source repo has moved to github</UserNotes>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>innounp</Name>
   </ApplicationJob>
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="80588120-b630-498e-b6af-149ff55ed1b6">
+    <WebsiteUrl />
+    <UserAgent />
+    <UserNotes />
+    <LastFileSize>0</LastFileSize>
+    <LastFileDate xsi:nil="true" />
+    <IgnoreFileInformation>false</IgnoreFileInformation>
+    <DownloadBeta>Default</DownloadBeta>
+    <DownloadDate xsi:nil="true" />
+    <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
+    <VariableChangeIndicator />
+    <CanBeShared>true</CanBeShared>
+    <ShareApplication>false</ShareApplication>
+    <ExclusiveDownload>false</ExclusiveDownload>
+    <HttpReferer />
+    <SetupInstructions />
+    <Variables>
+      <item>
+        <key>
+          <string>nopush</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>--nopush</TextualContent>
+            <Name>nopush</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>version</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>Last program version.*?([\d\.]+)</Regex>
+            <Url>https://software.intel.com/en-us/iot/downloads</Url>
+            <Name>version</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>{getUrl}</TextualContent>
+            <Name>url</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url64</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>{getUrl64}</TextualContent>
+            <Name>url64</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>getUrl</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>[^ "'&lt;&gt;\*]+\.7z</Regex>
+            <Url>https://software.intel.com/sites/landingpage/iotdk/windows-development-kit.html</Url>
+            <Name>getUrl</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>getUrl64</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>[^ "'&lt;&gt;\*]+\.exe</Regex>
+            <Url>x</Url>
+            <Name>getUrl64</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>checksum</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>[A-Fa-f0-9]{32}</Regex>
+            <Url>md5</Url>
+            <TextualContent>{checksum}</TextualContent>
+            <Name>checksum</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>checksumx64</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=ResponseUri: )[^\r\n]+</Regex>
+            <Url>{url64}</Url>
+            <TextualContent>{checksum}</TextualContent>
+            <Name>checksumx64</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>cscript</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>0</TextualContent>
+            <Name>cscript</Name>
+          </UrlVariable>
+        </value>
+      </item>
+    </Variables>
+    <ExecuteCommand />
+    <ExecutePreCommand />
+    <ExecuteCommandType>Batch</ExecuteCommandType>
+    <ExecutePreCommandType>Batch</ExecutePreCommandType>
+    <Category />
+    <SourceType>FixedUrl</SourceType>
+    <PreviousLocation />
+    <DeletePreviousFile>true</DeletePreviousFile>
+    <Enabled>true</Enabled>
+    <FileHippoId />
+    <LastUpdated xsi:nil="true" />
+    <TargetPath>{workdir}\</TargetPath>
+    <FixedDownloadUrl>{url}</FixedDownloadUrl>
+    <Name>iotdk</Name>
+  </ApplicationJob>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="edfcb241-77ca-4ec6-8e2c-e94e76e1333c">
     <WebsiteUrl />
     <UserAgent />
@@ -7873,8 +8456,8 @@ Note: probably deprecated; source repo has moved to github</UserNotes>
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>18382993</LastFileSize>
-    <LastFileDate>2015-02-15T04:36:42.8734029</LastFileDate>
+    <LastFileSize>18382972</LastFileSize>
+    <LastFileDate>2015-02-24T04:34:15.8300359</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -8047,11 +8630,11 @@ Note: probably deprecated; source repo has moved to github</UserNotes>
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\jstock-1.0.7x-setup.exe</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\jstock-1.0.7z-setup.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-15T04:36:42.8734029</LastUpdated>
+    <LastUpdated>2015-02-24T04:34:15.8300359</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>jstock</Name>
@@ -8060,8 +8643,8 @@ Note: probably deprecated; source repo has moved to github</UserNotes>
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>71128407</LastFileSize>
-    <LastFileDate>2015-02-16T11:58:40.1783829</LastFileDate>
+    <LastFileSize>71110753</LastFileSize>
+    <LastFileDate>2015-03-12T04:35:00.9977136</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -8165,11 +8748,11 @@ Note: probably deprecated; source repo has moved to github</UserNotes>
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\kodi-14.1-Helix.exe</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\kodi-14.2-Helix_rc1.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-16T11:58:40.1783829</LastUpdated>
+    <LastUpdated>2015-03-12T04:35:00.9977136</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>kodi</Name>
@@ -8350,6 +8933,20 @@ Note: probably deprecated; source repo has moved to github</UserNotes>
             <Regex />
             <TextualContent>2</TextualContent>
             <Name>cscript</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>checksum64file</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>{url64}</TextualContent>
+            <Name>checksum64file</Name>
           </UrlVariable>
         </value>
       </item>
@@ -8611,8 +9208,8 @@ Note: probably deprecated; source repo has moved to github</UserNotes>
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>28870122</LastFileSize>
-    <LastFileDate>2015-02-05T00:45:41.291491</LastFileDate>
+    <LastFileSize>29423558</LastFileSize>
+    <LastFileDate>2015-03-09T19:57:02.1344889</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -8719,11 +9316,11 @@ Note: probably deprecated; source repo has moved to github</UserNotes>
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\lmms-1.1.0-win32.exe</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\lmms-1.1.3-win32.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-05T00:45:41.291491</LastUpdated>
+    <LastUpdated>2015-03-09T19:57:02.1344889</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>lmms</Name>
@@ -8836,7 +9433,7 @@ Note: probably deprecated; source repo has moved to github</UserNotes>
     <UserAgent />
     <UserNotes />
     <LastFileSize>36447466</LastFileSize>
-    <LastFileDate>2015-02-17T21:45:23.5372191</LastFileDate>
+    <LastFileDate>2015-02-21T20:09:55.0797758</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -8973,7 +9570,7 @@ Note: probably deprecated; source repo has moved to github</UserNotes>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-17T21:45:23.5372191</LastUpdated>
+    <LastUpdated>2015-02-21T20:09:55.0797758</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>lyx</Name>
@@ -9215,6 +9812,153 @@ Note: probably deprecated; source repo has moved to github</UserNotes>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>mc</Name>
+  </ApplicationJob>
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="0b8c652f-92cc-403f-a4ab-6a0f7482d822">
+    <WebsiteUrl />
+    <UserAgent />
+    <UserNotes />
+    <LastFileSize>0</LastFileSize>
+    <LastFileDate xsi:nil="true" />
+    <IgnoreFileInformation>false</IgnoreFileInformation>
+    <DownloadBeta>Default</DownloadBeta>
+    <DownloadDate xsi:nil="true" />
+    <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
+    <VariableChangeIndicator />
+    <CanBeShared>true</CanBeShared>
+    <ShareApplication>false</ShareApplication>
+    <ExclusiveDownload>false</ExclusiveDownload>
+    <HttpReferer />
+    <SetupInstructions />
+    <Variables>
+      <item>
+        <key>
+          <string>nopush</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>--nopush</TextualContent>
+            <Name>nopush</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>version</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>Last program version.*?([\d\.]+)</Regex>
+            <Url>x</Url>
+            <Name>version</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>{getUrl}</TextualContent>
+            <Name>url</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url64</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>{getUrl64}</TextualContent>
+            <Name>url64</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>getUrl</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>[^ "'&lt;&gt;\*]+\.exe</Regex>
+            <Url>x</Url>
+            <Name>getUrl</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>getUrl64</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>[^ "'&lt;&gt;\*]+\.exe</Regex>
+            <Url>x</Url>
+            <Name>getUrl64</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>checksum</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>[A-Fa-f0-9]{32}</Regex>
+            <Url>md5</Url>
+            <TextualContent>{checksum}</TextualContent>
+            <Name>checksum</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>checksumx64</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=ResponseUri: )[^\r\n]+</Regex>
+            <Url>{url64}</Url>
+            <TextualContent>{checksum}</TextualContent>
+            <Name>checksumx64</Name>
+          </UrlVariable>
+        </value>
+      </item>
+    </Variables>
+    <ExecuteCommand />
+    <ExecutePreCommand />
+    <ExecuteCommandType>Batch</ExecuteCommandType>
+    <ExecutePreCommandType>Batch</ExecutePreCommandType>
+    <Category />
+    <SourceType>FixedUrl</SourceType>
+    <PreviousLocation />
+    <DeletePreviousFile>true</DeletePreviousFile>
+    <Enabled>false</Enabled>
+    <FileHippoId />
+    <LastUpdated xsi:nil="true" />
+    <TargetPath>{workdir}\</TargetPath>
+    <FixedDownloadUrl>{url}</FixedDownloadUrl>
+    <Name>md5-and-sha-checksum-utility</Name>
   </ApplicationJob>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="eadad72e-1240-4714-a25e-3ccf7944b84a">
     <WebsiteUrl />
@@ -9757,8 +10501,8 @@ Note: probably deprecated; source repo has moved to github</UserNotes>
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>8754640</LastFileSize>
-    <LastFileDate>2015-02-13T02:54:33.2365163</LastFileDate>
+    <LastFileSize>8749552</LastFileSize>
+    <LastFileDate>2015-02-28T04:34:59.1831515</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -9876,11 +10620,11 @@ Note: probably deprecated; source repo has moved to github</UserNotes>
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\setup-0.8.12.exe</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\setup-0.8.15.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-13T02:54:33.2365163</LastUpdated>
+    <LastUpdated>2015-02-28T04:34:59.1831515</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>msigna</Name>
@@ -10126,7 +10870,9 @@ Note: probably deprecated; source repo has moved to github</UserNotes>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="ab6306b9-81a9-4e75-80d3-d2f7d96add95">
     <WebsiteUrl />
     <UserAgent />
-    <UserNotes />
+    <UserNotes>Previously getting location from:
+https://netbeans.org/community/releases/roadmap.html
+(?&lt;=href="/downloads/"&gt;Download v)([\d\.]+)(?=&lt;)</UserNotes>
     <LastFileSize>94134224</LastFileSize>
     <LastFileDate>2015-02-05T00:46:57.6584081</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
@@ -10148,8 +10894,9 @@ Note: probably deprecated; source repo has moved to github</UserNotes>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=href="/downloads/"&gt;Download v)[\d\.]+(?=&lt;)</Regex>
-            <Url>https://netbeans.org/community/releases/roadmap.html</Url>
+            <Regex>.*[^ '&lt;&gt;\*] NAME="([\d\.]+)</Regex>
+            <Url>http://download.netbeans.org/netbeans</Url>
+            <TextualContent />
             <Name>version</Name>
           </UrlVariable>
         </value>
@@ -10622,10 +11369,10 @@ Note: probably deprecated; source repo has moved to github</UserNotes>
   </ApplicationJob>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="0796e307-2030-4e92-8d00-f8b762573ab0">
     <WebsiteUrl />
-    <UserAgent />
+    <UserAgent>MSWin32</UserAgent>
     <UserNotes />
-    <LastFileSize>6831104</LastFileSize>
-    <LastFileDate>2015-02-05T00:47:24.9987069</LastFileDate>
+    <LastFileSize>6557090</LastFileSize>
+    <LastFileDate>2015-02-23T04:34:46.3815536</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -10646,7 +11393,7 @@ Note: probably deprecated; source repo has moved to github</UserNotes>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>http://sourceforge.net/projects/openproj/files/OpenProj%20Binaries/{version}/openproj-{version}.msi/download</TextualContent>
+            <TextualContent>{getUrl64}</TextualContent>
             <Name>url64</Name>
           </UrlVariable>
         </value>
@@ -10659,7 +11406,7 @@ Note: probably deprecated; source repo has moved to github</UserNotes>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=&lt;a href="/projects/openproj/files/latest/download\?source=files" title="/OpenProj Binaries/)([\d\.]+)(?=/)</Regex>
+            <Regex>/OpenProj%20Binaries/([\d\.]+)</Regex>
             <Url>http://sourceforge.net/projects/openproj/files/OpenProj%20Binaries/</Url>
             <TextualContent />
             <Name>version</Name>
@@ -10673,10 +11420,10 @@ Note: probably deprecated; source repo has moved to github</UserNotes>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
+            <VariableType>RegularExpression</VariableType>
             <Regex>(?&lt;=ResponseUri: )[^\r\n]+</Regex>
-            <Url>http://sourceforge.net/projects/openproj/files/OpenProj%20Binaries/{version}/openproj-{version}.msi/download</Url>
-            <TextualContent>http://hivelocity.dl.sourceforge.net/project/openproj/OpenProj%20Binaries/{version}/openproj-{version}.msi</TextualContent>
+            <Url>{getUrl}</Url>
+            <TextualContent />
             <Name>url</Name>
           </UrlVariable>
         </value>
@@ -10709,6 +11456,48 @@ Note: probably deprecated; source repo has moved to github</UserNotes>
           </UrlVariable>
         </value>
       </item>
+      <item>
+        <key>
+          <string>getUrl</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>http[^ "'&lt;&gt;\*]+\.zip/download</Regex>
+            <Url>http://sourceforge.net/projects/openproj/files/OpenProj%20Binaries/{version}/</Url>
+            <Name>getUrl</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>getUrl64</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>http[^ "'&lt;&gt;\*]+\.msi/download</Regex>
+            <Url>http://sourceforge.net/projects/openproj/files/OpenProj%20Binaries/{version}/</Url>
+            <Name>getUrl64</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>checksum64file</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>{url64}</TextualContent>
+            <Name>checksum64file</Name>
+          </UrlVariable>
+        </value>
+      </item>
     </Variables>
     <ExecuteCommand />
     <ExecutePreCommand />
@@ -10716,11 +11505,11 @@ Note: probably deprecated; source repo has moved to github</UserNotes>
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\openproj-1.4.msi</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\openproj-1.4.zip</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-05T00:47:24.9987069</LastUpdated>
+    <LastUpdated>2015-02-23T04:34:46.3815536</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>openproj</Name>
@@ -10959,7 +11748,7 @@ Note: probably deprecated; source repo has moved to github</UserNotes>
       </item>
     </Variables>
     <ExecuteCommand />
-    <ExecutePreCommand>chocopkgup {nopush} --packagename={appname}.install --version={version} --pg="{packageGuid}" --url="{preupdate-url}" --urlx64="{url64}" --packagepath="{file}" --checksum="{checksum}" --c64="{checksumx64}"</ExecutePreCommand>
+    <ExecutePreCommand />
     <ExecuteCommandType>Batch</ExecuteCommandType>
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
@@ -10972,6 +11761,165 @@ Note: probably deprecated; source repo has moved to github</UserNotes>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>pandabank</Name>
+  </ApplicationJob>
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="764590b3-8eae-4188-ba78-4a3df988f2d5">
+    <WebsiteUrl />
+    <UserAgent />
+    <UserNotes />
+    <LastFileSize>7937981</LastFileSize>
+    <LastFileDate>2015-02-05T00:47:44.3940205</LastFileDate>
+    <IgnoreFileInformation>false</IgnoreFileInformation>
+    <DownloadBeta>Default</DownloadBeta>
+    <DownloadDate xsi:nil="true" />
+    <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
+    <VariableChangeIndicator />
+    <CanBeShared>true</CanBeShared>
+    <ShareApplication>false</ShareApplication>
+    <ExclusiveDownload>false</ExclusiveDownload>
+    <HttpReferer />
+    <SetupInstructions />
+    <Variables>
+      <item>
+        <key>
+          <string>url</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>{getUrl}</TextualContent>
+            <Name>url</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>getUrl</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>[^ "'&lt;&gt;\*]+\.exe</Regex>
+            <Url>http://pandacoinpnd.org/download/</Url>
+            <Name>getUrl</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>majorVersion</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=&lt;a href="https://github.com/pandacoin-official/pandacoin/releases/download/v)([\d\.]+)(?=/)</Regex>
+            <Url>http://pandacoinpnd.org/download/</Url>
+            <Name>majorVersion</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>blockchainSize</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=var bcsize = ')(.*?)(?=')</Regex>
+            <Url>https://bchain.info/PND/</Url>
+            <Name>blockchainSize</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>packageGuid</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>As of {dd} {MMMM} {yyyy}, the total size of the {abbrev} blockchain was __{blockchainSize}__</TextualContent>
+            <Name>packageGuid</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>version</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=&lt;a href="https://github.com/pandacoin-official/pandacoin/releases/download/v[\d\.]+/pandacoin-)([\d\.]+)(?=-win32)</Regex>
+            <Url>http://pandacoinpnd.org/download/</Url>
+            <Name>version</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>abbrev</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>PND</TextualContent>
+            <Name>abbrev</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>nopush</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>--nopush</TextualContent>
+            <Name>nopush</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>cscript</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>2</TextualContent>
+            <Name>cscript</Name>
+          </UrlVariable>
+        </value>
+      </item>
+    </Variables>
+    <ExecuteCommand />
+    <ExecutePreCommand />
+    <ExecuteCommandType>Batch</ExecuteCommandType>
+    <ExecutePreCommandType>Batch</ExecutePreCommandType>
+    <Category />
+    <SourceType>FixedUrl</SourceType>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\pandacoin-3.0.2.0-win32-setup.exe</PreviousLocation>
+    <DeletePreviousFile>true</DeletePreviousFile>
+    <Enabled>true</Enabled>
+    <FileHippoId />
+    <LastUpdated>2015-02-05T00:47:44.3940205</LastUpdated>
+    <TargetPath>{workdir}\</TargetPath>
+    <FixedDownloadUrl>{url}</FixedDownloadUrl>
+    <Name>pandabank.install</Name>
   </ApplicationJob>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="135310c4-2587-478e-83aa-d73411633433">
     <WebsiteUrl />
@@ -10999,7 +11947,7 @@ Note: probably deprecated; source repo has moved to github</UserNotes>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>https://github.com/pandacoin-official/pandacoin/releases/download/v{majorVersion}/pandacoin-{version}-win32.zip</TextualContent>
+            <TextualContent>{getUrl}</TextualContent>
             <Name>url</Name>
           </UrlVariable>
         </value>
@@ -11102,6 +12050,20 @@ Note: probably deprecated; source repo has moved to github</UserNotes>
           </UrlVariable>
         </value>
       </item>
+      <item>
+        <key>
+          <string>getUrl</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>[^ "'&lt;&gt;\*]+\.zip</Regex>
+            <Url>http://pandacoinpnd.org/download/</Url>
+            <Name>getUrl</Name>
+          </UrlVariable>
+        </value>
+      </item>
     </Variables>
     <ExecuteCommand />
     <ExecutePreCommand />
@@ -11123,7 +12085,7 @@ Note: probably deprecated; source repo has moved to github</UserNotes>
     <UserAgent />
     <UserNotes>http://hivelocity.dl.sourceforge.net/project/pdfedit/pdfedit-win32/pdfedit-{realVersion}.msi</UserNotes>
     <LastFileSize>7458816</LastFileSize>
-    <LastFileDate>2015-02-05T00:47:58.0649965</LastFileDate>
+    <LastFileDate>2015-02-23T04:34:55.9593606</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -11162,7 +12124,7 @@ Note: probably deprecated; source repo has moved to github</UserNotes>
             <VariableType>Textual</VariableType>
             <Regex />
             <Url />
-            <TextualContent>{getUrl}</TextualContent>
+            <TextualContent>{getUrlRedir}</TextualContent>
             <Name>url64</Name>
           </UrlVariable>
         </value>
@@ -11189,7 +12151,7 @@ Note: probably deprecated; source repo has moved to github</UserNotes>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>http[^ "'&lt;&gt;\*]+\.msi[/\w]+</Regex>
+            <Regex>http://sourceforge.net/projects/pdfedit/files/([^ "'&lt;&gt;\*]+\.msi)</Regex>
             <Url>http://sourceforge.net/projects/pdfedit/files/pdfedit-win32/</Url>
             <Name>getUrl</Name>
           </UrlVariable>
@@ -11218,7 +12180,7 @@ Note: probably deprecated; source repo has moved to github</UserNotes>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>0</TextualContent>
+            <TextualContent>2</TextualContent>
             <Name>cscript</Name>
           </UrlVariable>
         </value>
@@ -11230,10 +12192,53 @@ Note: probably deprecated; source repo has moved to github</UserNotes>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=ResponseUri: )[^\r\n]+</Regex>
-            <Url>{getUrl}</Url>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <Url />
+            <TextualContent>{getMirror}/{getUrl}</TextualContent>
             <Name>url</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>getMirror</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=ResponseUri: )([^ "'&lt;&gt;\*]+pdfedit)/</Regex>
+            <Url>{getMirrorUrl}</Url>
+            <Name>getMirror</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>getMirrorUrl</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>http[^ "'&lt;&gt;\*]+\.zip/download</Regex>
+            <Url>https://sourceforge.net/projects/pdfedit/files/pdfedit-tools/tools-beta/</Url>
+            <Name>getMirrorUrl</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>getUrlRedir</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>http[^ "'&lt;&gt;\*]+\.msi/download</Regex>
+            <Url>http://sourceforge.net/projects/pdfedit/files/pdfedit-win32/</Url>
+            <Name>getUrlRedir</Name>
           </UrlVariable>
         </value>
       </item>
@@ -11246,9 +12251,9 @@ Note: probably deprecated; source repo has moved to github</UserNotes>
     <SourceType>FixedUrl</SourceType>
     <PreviousLocation>C:\ProgramData\chocolatey\_work\pdfedit-20140526_1531.msi</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
-    <Enabled>false</Enabled>
+    <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-05T00:47:58.0649965</LastUpdated>
+    <LastUpdated>2015-02-23T04:34:55.9593606</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>pdfedit</Name>
@@ -11258,7 +12263,100 @@ Note: probably deprecated; source repo has moved to github</UserNotes>
     <UserAgent />
     <UserNotes />
     <LastFileSize>6232090</LastFileSize>
-    <LastFileDate>2015-02-05T00:50:13.6081458</LastFileDate>
+    <LastFileDate>2015-03-09T22:23:12.2309202</LastFileDate>
+    <IgnoreFileInformation>false</IgnoreFileInformation>
+    <DownloadBeta>Avoid</DownloadBeta>
+    <DownloadDate xsi:nil="true" />
+    <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
+    <VariableChangeIndicator />
+    <CanBeShared>true</CanBeShared>
+    <ShareApplication>false</ShareApplication>
+    <ExclusiveDownload>false</ExclusiveDownload>
+    <HttpReferer />
+    <SetupInstructions />
+    <Variables>
+      <item>
+        <key>
+          <string>version</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>PeaZip\s*(\d[\d\.]+)</Regex>
+            <Url>http://peazip.sourceforge.net/</Url>
+            <StartText>PeaZip
+</StartText>
+            <EndText>&lt;/big&gt;&lt;/big&gt;&lt;/big&gt;</EndText>
+            <TextualContent>5.5.0.20141130</TextualContent>
+            <Name>version</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>cscript</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>2</TextualContent>
+            <Name>cscript</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>nopush</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>--nopush</TextualContent>
+            <Name>nopush</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>http://www.peazip.org/downloads/peazip-{version}.WINDOWS.exe</TextualContent>
+            <Name>url</Name>
+          </UrlVariable>
+        </value>
+      </item>
+    </Variables>
+    <ExecuteCommand />
+    <ExecutePreCommand />
+    <ExecuteCommandType>Batch</ExecuteCommandType>
+    <ExecutePreCommandType>Batch</ExecutePreCommandType>
+    <Category />
+    <SourceType>FixedUrl</SourceType>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\peazip-5.5.3.WINDOWS.exe</PreviousLocation>
+    <DeletePreviousFile>true</DeletePreviousFile>
+    <Enabled>true</Enabled>
+    <FileHippoId />
+    <LastUpdated>2015-03-09T22:23:12.2309202</LastUpdated>
+    <TargetPath>{workdir}\</TargetPath>
+    <FixedDownloadUrl>{url}</FixedDownloadUrl>
+    <Name>peazip</Name>
+  </ApplicationJob>
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="246c4b59-39f6-4aa6-aef0-09c104904113">
+    <WebsiteUrl />
+    <UserAgent />
+    <UserNotes />
+    <LastFileSize>6232090</LastFileSize>
+    <LastFileDate>2015-03-09T22:23:15.9050117</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Avoid</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -11329,7 +12427,7 @@ Note: probably deprecated; source repo has moved to github</UserNotes>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>0</TextualContent>
+            <TextualContent>2</TextualContent>
             <Name>cscript</Name>
           </UrlVariable>
         </value>
@@ -11348,28 +12446,42 @@ Note: probably deprecated; source repo has moved to github</UserNotes>
           </UrlVariable>
         </value>
       </item>
+      <item>
+        <key>
+          <string>checksum64file</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>{url64}</TextualContent>
+            <Name>checksum64file</Name>
+          </UrlVariable>
+        </value>
+      </item>
     </Variables>
     <ExecuteCommand />
-    <ExecutePreCommand>chocopkgup {nopush} --packagename={appname}.install --version={version} --pg="{packageGuid}" --url="{preupdate-url}" --urlx64="{url64}" --packagepath="{file}" --checksum="{checksum}" --c64="{checksumx64}"</ExecutePreCommand>
+    <ExecutePreCommand />
     <ExecuteCommandType>Batch</ExecuteCommandType>
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
     <PreviousLocation>C:\ProgramData\chocolatey\_work\peazip-5.5.3.WINDOWS.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
-    <Enabled>false</Enabled>
+    <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-05T00:50:13.6081458</LastUpdated>
+    <LastUpdated>2015-03-09T22:23:15.9050117</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
-    <Name>peazip</Name>
+    <Name>peazip.install</Name>
   </ApplicationJob>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="095f04ab-40c2-4869-811e-3eae7bcd79b7">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
     <LastFileSize>9386835</LastFileSize>
-    <LastFileDate>2015-02-13T09:43:27.3534271</LastFileDate>
+    <LastFileDate>2015-03-09T22:23:29.2371712</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -11390,7 +12502,7 @@ Note: probably deprecated; source repo has moved to github</UserNotes>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
             <Regex>(?&lt;=ResponseUri: )[^\r\n]+</Regex>
-            <Url>http://sourceforge.net/projects/peazip/files/{version}/peazip_portable-{version}.WINDOWS.zip/download</Url>
+            <Url>{getUrl}</Url>
             <TextualContent />
             <Name>url</Name>
           </UrlVariable>
@@ -11412,15 +12524,16 @@ Note: probably deprecated; source repo has moved to github</UserNotes>
       </item>
       <item>
         <key>
-          <string>nopush</string>
+          <string>version</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <TextualContent>--nopush</TextualContent>
-            <Name>nopush</Name>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>PeaZip\s*(\d[\d\.]+)</Regex>
+            <Url>http://peazip.sourceforge.net/index.html</Url>
+            <TextualContent />
+            <Name>version</Name>
           </UrlVariable>
         </value>
       </item>
@@ -11433,22 +12546,8 @@ Note: probably deprecated; source repo has moved to github</UserNotes>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>@('http://sourceforge.net/projects/peazip/files/{version}/peazip_portable-{version}.WINDOWS.zip/download', 'http://sourceforge.net/projects/peazip/files/{version}/peazip_portable-{version}.WIN64.zip/download')</TextualContent>
+            <TextualContent>@('{getUrl}', '{getUrl64}')</TextualContent>
             <Name>urlArray</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>cscript</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <TextualContent>0</TextualContent>
-            <Name>cscript</Name>
           </UrlVariable>
         </value>
       </item>
@@ -11461,89 +12560,8 @@ Note: probably deprecated; source repo has moved to github</UserNotes>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>http://sourceforge.net/projects/peazip/files/{version}/peazip_portable-{version}.WIN64.zip/download</TextualContent>
+            <TextualContent>{getUrl64}</TextualContent>
             <Name>checksum64file</Name>
-          </UrlVariable>
-        </value>
-      </item>
-    </Variables>
-    <ExecuteCommand />
-    <ExecutePreCommand />
-    <ExecuteCommandType>Batch</ExecuteCommandType>
-    <ExecutePreCommandType>Batch</ExecutePreCommandType>
-    <Category />
-    <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\peazip_portable-5.5.3.WINDOWS.zip</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
-    <Enabled>false</Enabled>
-    <FileHippoId />
-    <LastUpdated>2015-02-13T09:43:27.3534271</LastUpdated>
-    <TargetPath>{workdir}\</TargetPath>
-    <FixedDownloadUrl>{url}</FixedDownloadUrl>
-    <Name>peazip.portable</Name>
-  </ApplicationJob>
-  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="a8f8e8e7-ea36-4516-938f-f725333c722b">
-    <WebsiteUrl />
-    <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64)</UserAgent>
-    <UserNotes>http://peerblock.googlecode.com/files/PeerBlock-Setup_v1.1_r518.exe
-https://code.google.com/p/peerblock/downloads/list</UserNotes>
-    <LastFileSize>2374320</LastFileSize>
-    <LastFileDate>2015-02-05T00:50:15.5531925</LastFileDate>
-    <IgnoreFileInformation>false</IgnoreFileInformation>
-    <DownloadBeta>Default</DownloadBeta>
-    <DownloadDate xsi:nil="true" />
-    <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
-    <VariableChangeIndicator />
-    <CanBeShared>true</CanBeShared>
-    <ShareApplication>false</ShareApplication>
-    <ExclusiveDownload>false</ExclusiveDownload>
-    <HttpReferer />
-    <SetupInstructions />
-    <Variables>
-      <item>
-        <key>
-          <string>version</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>StartEnd</VariableType>
-            <Regex />
-            <Url>http://www.peerblock.com/releases</Url>
-            <StartText>public-releases/peerblock-</StartText>
-            <EndText>-</EndText>
-            <TextualContent />
-            <Name>version</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>revision</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=public-releases/peerblock-.+-r)\d+(?="&gt;PeerBlock)</Regex>
-            <Url>http://www.peerblock.com/releases</Url>
-            <StartText>-r</StartText>
-            <EndText>"&gt;PeerBlock </EndText>
-            <Name>revision</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>url</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <TextualContent>https://peerblock.googlecode.com/files/PeerBlock-Setup_v{version:split:.:0}.{version:split:.:1}_r{revision}.exe</TextualContent>
-            <Name>url</Name>
           </UrlVariable>
         </value>
       </item>
@@ -11572,6 +12590,230 @@ https://code.google.com/p/peerblock/downloads/list</UserNotes>
             <Regex />
             <TextualContent>2</TextualContent>
             <Name>cscript</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>getUrl</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>[^ "'&lt;&gt;\*]+WINDOWS\.zip/download</Regex>
+            <Url>http://peazip.sourceforge.net/peazip-portable.html</Url>
+            <Name>getUrl</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>getUrl64</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>[^ "'&lt;&gt;\*]+WIN64\.zip/download</Regex>
+            <Url>http://peazip.sourceforge.net/peazip-portable.html</Url>
+            <Name>getUrl64</Name>
+          </UrlVariable>
+        </value>
+      </item>
+    </Variables>
+    <ExecuteCommand />
+    <ExecutePreCommand />
+    <ExecuteCommandType>Batch</ExecuteCommandType>
+    <ExecutePreCommandType>Batch</ExecutePreCommandType>
+    <Category />
+    <SourceType>FixedUrl</SourceType>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\peazip_portable-5.5.3.WINDOWS.zip</PreviousLocation>
+    <DeletePreviousFile>true</DeletePreviousFile>
+    <Enabled>true</Enabled>
+    <FileHippoId />
+    <LastUpdated>2015-03-09T22:23:29.2371712</LastUpdated>
+    <TargetPath>{workdir}\</TargetPath>
+    <FixedDownloadUrl>{url}</FixedDownloadUrl>
+    <Name>peazip.portable</Name>
+  </ApplicationJob>
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="a8f8e8e7-ea36-4516-938f-f725333c722b">
+    <WebsiteUrl />
+    <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64)</UserAgent>
+    <UserNotes>http://peerblock.googlecode.com/files/PeerBlock-Setup_v1.1_r518.exe
+https://code.google.com/p/peerblock/downloads/list</UserNotes>
+    <LastFileSize>2374320</LastFileSize>
+    <LastFileDate>2015-02-05T00:50:15.5531925</LastFileDate>
+    <IgnoreFileInformation>false</IgnoreFileInformation>
+    <DownloadBeta>Default</DownloadBeta>
+    <DownloadDate xsi:nil="true" />
+    <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
+    <VariableChangeIndicator />
+    <CanBeShared>true</CanBeShared>
+    <ShareApplication>false</ShareApplication>
+    <ExclusiveDownload>false</ExclusiveDownload>
+    <HttpReferer />
+    <SetupInstructions />
+    <Variables>
+      <item>
+        <key>
+          <string>versionMajor</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>public-releases/peerblock-([\d\.]+)</Regex>
+            <Url>http://www.peerblock.com/releases</Url>
+            <StartText>public-releases/peerblock-</StartText>
+            <EndText>-</EndText>
+            <TextualContent />
+            <Name>versionMajor</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>versionBuild</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>public-releases/peerblock-[\d\.]+-?([\w\d]+)</Regex>
+            <Url>http://www.peerblock.com/releases</Url>
+            <StartText>-r</StartText>
+            <EndText>"&gt;PeerBlock </EndText>
+            <Name>versionBuild</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>{getUrl}</TextualContent>
+            <Name>url</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>getUrl</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>[^ "'&lt;&gt;\*]+\.exe</Regex>
+            <Url>http://www.peerblock.com/{getUrlPath}</Url>
+            <TextualContent />
+            <Name>getUrl</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>getUrlPath</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>/?([^ "'&lt;&gt;\*]+{versionBuild})</Regex>
+            <Url>http://www.peerblock.com/releases</Url>
+            <TextualContent />
+            <Name>getUrlPath</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>version</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>{versionMajor}{versionBuild:replace:r:.}</TextualContent>
+            <Name>version</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>nopush</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <Url />
+            <TextualContent>--nopush</TextualContent>
+            <Name>nopush</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>cscript</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>0</TextualContent>
+            <Name>cscript</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>x</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex />
+            <Url>https://code.google.com/p/peerblock/downloads/list</Url>
+            <Name>x</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>getChecksumUrl</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>([^ "'&lt;&gt;\*]+)"&gt;Other downloads</Regex>
+            <Url>http://www.peerblock.com/{getUrlPath}</Url>
+            <Name>getChecksumUrl</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>checksum</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=64-bit).*([A-Fa-f0-9]{40})</Regex>
+            <Url>http://www.peerblock.com/{getChecksumUrl}</Url>
+            <Name>checksum</Name>
           </UrlVariable>
         </value>
       </item>
@@ -12163,6 +13405,7 @@ https://code.google.com/p/peerblock/downloads/list</UserNotes>
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\peerunity-0.1.1-win.zip</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
@@ -12214,7 +13457,7 @@ https://code.google.com/p/peerblock/downloads/list</UserNotes>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
             <Regex>[^ "'&lt;&gt;\*]+\.exe</Regex>
-            <Url>https://popcorntime.io/</Url>
+            <Url>{getUrl}</Url>
             <TextualContent />
             <Name>url</Name>
           </UrlVariable>
@@ -12227,9 +13470,10 @@ https://code.google.com/p/peerblock/downloads/list</UserNotes>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <TextualContent>x</TextualContent>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>[^ "'&lt;&gt;\*]+\.exe</Regex>
+            <Url>https://popcorntime.io/</Url>
+            <TextualContent />
             <Name>getUrl</Name>
           </UrlVariable>
         </value>
@@ -12257,7 +13501,7 @@ https://code.google.com/p/peerblock/downloads/list</UserNotes>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>0</TextualContent>
+            <TextualContent>1</TextualContent>
             <Name>cscript</Name>
           </UrlVariable>
         </value>
@@ -12428,8 +13672,8 @@ https://code.google.com/p/peerblock/downloads/list</UserNotes>
     <WebsiteUrl />
     <UserAgent>MSWin32</UserAgent>
     <UserNotes />
-    <LastFileSize>510989</LastFileSize>
-    <LastFileDate>2014-12-10T09:30:17.649289</LastFileDate>
+    <LastFileSize>509008</LastFileSize>
+    <LastFileDate>2015-02-21T04:34:51.6614589</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -12536,11 +13780,11 @@ https://code.google.com/p/peerblock/downloads/list</UserNotes>
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\privoxy_setup_3.0.22.exe</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\privoxy_setup_3_0_23.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2014-12-10T09:30:17.649289</LastUpdated>
+    <LastUpdated>2015-02-21T04:34:51.6614589</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>privoxy</Name>
@@ -12549,8 +13793,8 @@ https://code.google.com/p/peerblock/downloads/list</UserNotes>
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>12418048</LastFileSize>
-    <LastFileDate>2015-02-05T00:52:05.0022342</LastFileDate>
+    <LastFileSize>11067419</LastFileSize>
+    <LastFileDate>2015-02-23T04:35:08.3403078</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -12569,10 +13813,10 @@ https://code.google.com/p/peerblock/downloads/list</UserNotes>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
+            <VariableType>RegularExpression</VariableType>
             <Regex>(?&lt;=ResponseUri: )[^\r\n]+</Regex>
-            <Url>https://sourceforge.net/projects/projectlibre/files/ProjectLibre/1.5.9/projectlibre-1.5.9.msi/download</Url>
-            <TextualContent>http://iweb.dl.sourceforge.net/project/projectlibre/ProjectLibre/{version}/projectlibre-{version}.msi</TextualContent>
+            <Url>{getUrl}</Url>
+            <TextualContent />
             <Name>url</Name>
           </UrlVariable>
         </value>
@@ -12599,7 +13843,7 @@ https://code.google.com/p/peerblock/downloads/list</UserNotes>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=&lt;a href="/projects/projectlibre/files/latest/download\?source=files" title="/ProjectLibre/)([\d\.]+)(?=/)</Regex>
+            <Regex>ProjectLibre/([\d\.]+)</Regex>
             <Url>http://sourceforge.net/projects/projectlibre/files/ProjectLibre/</Url>
             <Name>version</Name>
           </UrlVariable>
@@ -12633,6 +13877,48 @@ https://code.google.com/p/peerblock/downloads/list</UserNotes>
           </UrlVariable>
         </value>
       </item>
+      <item>
+        <key>
+          <string>getUrl</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>[^ "'&lt;&gt;\*]+\.zip/download</Regex>
+            <Url>https://sourceforge.net/projects/projectlibre/files/ProjectLibre/{version}/</Url>
+            <Name>getUrl</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>getUrl64</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>[^ "'&lt;&gt;\*]+\.msi/download</Regex>
+            <Url>https://sourceforge.net/projects/projectlibre/files/ProjectLibre/{version}/</Url>
+            <Name>getUrl64</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>checksum64file</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>{getUrl64}</TextualContent>
+            <Name>checksum64file</Name>
+          </UrlVariable>
+        </value>
+      </item>
     </Variables>
     <ExecuteCommand />
     <ExecutePreCommand />
@@ -12640,14 +13926,264 @@ https://code.google.com/p/peerblock/downloads/list</UserNotes>
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\projectlibre-1.5.9.msi</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\projectlibre-1.5.9.zip</PreviousLocation>
+    <DeletePreviousFile>true</DeletePreviousFile>
+    <Enabled>true</Enabled>
+    <FileHippoId />
+    <LastUpdated>2015-02-23T04:35:08.3403078</LastUpdated>
+    <TargetPath>{workdir}\</TargetPath>
+    <FixedDownloadUrl>{url}</FixedDownloadUrl>
+    <Name>projectlibre</Name>
+  </ApplicationJob>
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="d8076d89-09fc-4a5d-8f9e-f54332eb4980">
+    <WebsiteUrl />
+    <UserAgent />
+    <UserNotes />
+    <LastFileSize>11067419</LastFileSize>
+    <LastFileDate>2015-02-23T04:35:08.9738149</LastFileDate>
+    <IgnoreFileInformation>false</IgnoreFileInformation>
+    <DownloadBeta>Default</DownloadBeta>
+    <DownloadDate xsi:nil="true" />
+    <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
+    <VariableChangeIndicator />
+    <CanBeShared>true</CanBeShared>
+    <ShareApplication>false</ShareApplication>
+    <ExclusiveDownload>false</ExclusiveDownload>
+    <HttpReferer />
+    <SetupInstructions />
+    <Variables>
+      <item>
+        <key>
+          <string>url</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=ResponseUri: )[^\r\n]+</Regex>
+            <Url>{getUrl}</Url>
+            <TextualContent />
+            <Name>url</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url64</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>http://sourceforge.net/projects/projectlibre/files/ProjectLibre/{version}/projectlibre-{version}.msi/download</TextualContent>
+            <Name>url64</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>version</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>ProjectLibre/([\d\.]+)</Regex>
+            <Url>http://sourceforge.net/projects/projectlibre/files/ProjectLibre/</Url>
+            <Name>version</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>nopush</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>--nopush</TextualContent>
+            <Name>nopush</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>cscript</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>0</TextualContent>
+            <Name>cscript</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>getUrl</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>[^ "'&lt;&gt;\*]+\.zip/download</Regex>
+            <Url>https://sourceforge.net/projects/projectlibre/files/ProjectLibre/{version}/</Url>
+            <Name>getUrl</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>getUrl64</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>[^ "'&lt;&gt;\*]+\.msi/download</Regex>
+            <Url>https://sourceforge.net/projects/projectlibre/files/ProjectLibre/{version}/</Url>
+            <Name>getUrl64</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>checksum64file</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>{getUrl64}</TextualContent>
+            <Name>checksum64file</Name>
+          </UrlVariable>
+        </value>
+      </item>
+    </Variables>
+    <ExecuteCommand />
+    <ExecutePreCommand />
+    <ExecuteCommandType>Batch</ExecuteCommandType>
+    <ExecutePreCommandType>Batch</ExecutePreCommandType>
+    <Category />
+    <SourceType>FixedUrl</SourceType>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\projectlibre-1.5.9.zip</PreviousLocation>
+    <DeletePreviousFile>true</DeletePreviousFile>
+    <Enabled>true</Enabled>
+    <FileHippoId />
+    <LastUpdated>2015-02-23T04:35:08.9738149</LastUpdated>
+    <TargetPath>{workdir}\</TargetPath>
+    <FixedDownloadUrl>{url}</FixedDownloadUrl>
+    <Name>projectlibre.install</Name>
+  </ApplicationJob>
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="70d0505e-d9e5-4a30-a622-60a0ef4757e0">
+    <WebsiteUrl />
+    <UserAgent />
+    <UserNotes />
+    <LastFileSize>12418048</LastFileSize>
+    <LastFileDate>2015-02-05T00:52:05.0022342</LastFileDate>
+    <IgnoreFileInformation>false</IgnoreFileInformation>
+    <DownloadBeta>Default</DownloadBeta>
+    <DownloadDate xsi:nil="true" />
+    <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
+    <VariableChangeIndicator />
+    <CanBeShared>true</CanBeShared>
+    <ShareApplication>false</ShareApplication>
+    <ExclusiveDownload>false</ExclusiveDownload>
+    <HttpReferer />
+    <SetupInstructions />
+    <Variables>
+      <item>
+        <key>
+          <string>url</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=ResponseUri: )[^\r\n]+</Regex>
+            <Url>{getUrl}</Url>
+            <TextualContent />
+            <Name>url</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>version</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>ProjectLibre/([\d\.]+)</Regex>
+            <Url>http://sourceforge.net/projects/projectlibre/files/ProjectLibre/</Url>
+            <Name>version</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>nopush</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>--nopush</TextualContent>
+            <Name>nopush</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>cscript</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>0</TextualContent>
+            <Name>cscript</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>getUrl</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>[^ "'&lt;&gt;\*]+\.zip/download</Regex>
+            <Url>https://sourceforge.net/projects/projectlibre/files/ProjectLibre/{version}/</Url>
+            <Name>getUrl</Name>
+          </UrlVariable>
+        </value>
+      </item>
+    </Variables>
+    <ExecuteCommand />
+    <ExecutePreCommand />
+    <ExecuteCommandType>Batch</ExecuteCommandType>
+    <ExecutePreCommandType>Batch</ExecutePreCommandType>
+    <Category />
+    <SourceType>FixedUrl</SourceType>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\projectlibre-1.5.9.zip</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-02-05T00:52:05.0022342</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
-    <Name>projectlibre</Name>
+    <Name>projectlibre.portable</Name>
   </ApplicationJob>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="5645d424-91c3-4725-b5f7-3d337d44b359">
     <WebsiteUrl />
@@ -13338,8 +14874,8 @@ https://code.google.com/p/peerblock/downloads/list</UserNotes>
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>135936</LastFileSize>
-    <LastFileDate>2015-02-05T00:52:55.6259498</LastFileDate>
+    <LastFileSize>136168</LastFileSize>
+    <LastFileDate>2015-02-23T04:35:23.2070545</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -13376,6 +14912,123 @@ https://code.google.com/p/peerblock/downloads/list</UserNotes>
             <Regex />
             <TextualContent>http://www.nirsoft.net/utils/regscanner_setup.exe</TextualContent>
             <Name>url</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>getUrl</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>href="([^ "'&lt;&gt;\*]+\.exe)</Regex>
+            <Url>http://www.nirsoft.net/utils/regscanner.html</Url>
+            <Name>getUrl</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>yopush</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>--nopush</TextualContent>
+            <Name>yopush</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>cscript</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>0</TextualContent>
+            <Name>cscript</Name>
+          </UrlVariable>
+        </value>
+      </item>
+    </Variables>
+    <ExecuteCommand />
+    <ExecutePreCommand />
+    <ExecuteCommandType>Batch</ExecuteCommandType>
+    <ExecutePreCommandType>Batch</ExecutePreCommandType>
+    <Category />
+    <SourceType>FixedUrl</SourceType>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\regscanner_setup.exe</PreviousLocation>
+    <DeletePreviousFile>true</DeletePreviousFile>
+    <Enabled>true</Enabled>
+    <FileHippoId />
+    <LastUpdated>2015-02-23T04:35:23.2070545</LastUpdated>
+    <TargetPath>{workdir}\</TargetPath>
+    <FixedDownloadUrl>{url}</FixedDownloadUrl>
+    <Name>regscanner</Name>
+  </ApplicationJob>
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="19bed6f8-0b72-43f4-b229-dbe1f47b23a4">
+    <WebsiteUrl />
+    <UserAgent />
+    <UserNotes />
+    <LastFileSize>136168</LastFileSize>
+    <LastFileDate>2015-02-23T04:35:21.3681607</LastFileDate>
+    <IgnoreFileInformation>false</IgnoreFileInformation>
+    <DownloadBeta>Default</DownloadBeta>
+    <DownloadDate xsi:nil="true" />
+    <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
+    <VariableChangeIndicator />
+    <CanBeShared>true</CanBeShared>
+    <ShareApplication>false</ShareApplication>
+    <ExclusiveDownload>false</ExclusiveDownload>
+    <HttpReferer />
+    <SetupInstructions />
+    <Variables>
+      <item>
+        <key>
+          <string>version</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=&lt;li&gt;Version )([\d\.]+)</Regex>
+            <Url>http://www.nirsoft.net/utils/regscanner.html</Url>
+            <Name>version</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>http://www.nirsoft.net/utils/regscanner_setup.exe</TextualContent>
+            <Name>url</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>getUrl</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>href="([^ "'&lt;&gt;\*]+\.exe)</Regex>
+            <Url>http://www.nirsoft.net/utils/regscanner.html</Url>
+            <Name>getUrl</Name>
           </UrlVariable>
         </value>
       </item>
@@ -13418,10 +15071,155 @@ https://code.google.com/p/peerblock/downloads/list</UserNotes>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-05T00:52:55.6259498</LastUpdated>
+    <LastUpdated>2015-02-23T04:35:21.3681607</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
-    <Name>regscanner</Name>
+    <Name>regscanner.install</Name>
+  </ApplicationJob>
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="1cdc1ee1-3731-4cf3-9636-23ebb9670392">
+    <WebsiteUrl />
+    <UserAgent />
+    <UserNotes />
+    <LastFileSize>61233</LastFileSize>
+    <LastFileDate>2015-02-23T04:35:23.9754594</LastFileDate>
+    <IgnoreFileInformation>false</IgnoreFileInformation>
+    <DownloadBeta>Default</DownloadBeta>
+    <DownloadDate xsi:nil="true" />
+    <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
+    <VariableChangeIndicator />
+    <CanBeShared>true</CanBeShared>
+    <ShareApplication>false</ShareApplication>
+    <ExclusiveDownload>false</ExclusiveDownload>
+    <HttpReferer />
+    <SetupInstructions />
+    <Variables>
+      <item>
+        <key>
+          <string>version</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=&lt;li&gt;Version )([\d\.]+)</Regex>
+            <Url>http://www.nirsoft.net/utils/regscanner.html</Url>
+            <Name>version</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>http://www.nirsoft.net/utils/{getUrl}</TextualContent>
+            <Name>url</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>getUrl</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>href="/*([^ "'&lt;&gt;\*]+\.zip)</Regex>
+            <Url>http://www.nirsoft.net/utils/regscanner.html</Url>
+            <Name>getUrl</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url64</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>http://www.nirsoft.net/utils/{getUrl64}</TextualContent>
+            <Name>url64</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>getUrl64</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>href="/*([^ "'&lt;&gt;\*]+\64.zip)</Regex>
+            <Url>http://www.nirsoft.net/utils/regscanner.html</Url>
+            <Name>getUrl64</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>checksum64file</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>{url64}</TextualContent>
+            <Name>checksum64file</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>nopush</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>--nopush</TextualContent>
+            <Name>nopush</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>cscript</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>2</TextualContent>
+            <Name>cscript</Name>
+          </UrlVariable>
+        </value>
+      </item>
+    </Variables>
+    <ExecuteCommand />
+    <ExecutePreCommand />
+    <ExecuteCommandType>Batch</ExecuteCommandType>
+    <ExecutePreCommandType>Batch</ExecutePreCommandType>
+    <Category />
+    <SourceType>FixedUrl</SourceType>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\regscanner.zip</PreviousLocation>
+    <DeletePreviousFile>true</DeletePreviousFile>
+    <Enabled>true</Enabled>
+    <FileHippoId />
+    <LastUpdated>2015-02-23T04:35:23.9754594</LastUpdated>
+    <TargetPath>{workdir}\</TargetPath>
+    <FixedDownloadUrl>{url}</FixedDownloadUrl>
+    <Name>regscanner.portable</Name>
   </ApplicationJob>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="19d2cc5d-deb1-4cde-8dfc-a9d843075ef5">
     <WebsiteUrl />
@@ -13676,12 +15474,12 @@ https://code.google.com/p/peerblock/downloads/list</UserNotes>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>rssowl</Name>
   </ApplicationJob>
-  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="c3cc7f50-05b1-4585-bb69-8bbd016d070b">
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="b828f038-34bf-49e8-8376-43ba35a94a10">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>640424</LastFileSize>
-    <LastFileDate>2015-02-05T00:53:10.5596799</LastFileDate>
+    <LastFileSize>774560</LastFileSize>
+    <LastFileDate>2015-03-13T03:33:45.3907647</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -13700,8 +15498,8 @@ https://code.google.com/p/peerblock/downloads/list</UserNotes>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>StartEnd</VariableType>
-            <Regex>(?&lt;=href="http://sourceforge.net/projects/smartmontools/files/smartmontools/6.3/"&gt;&lt;span class="icon"&gt;.*?&lt;/span&gt;).*?(?=&lt;/a&gt;,)</Regex>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>[^ "'&lt;&gt;\*]+([\d\.]{3,})\.exe</Regex>
             <Url>http://rufus.akeo.ie/</Url>
             <StartText>href="downloads/rufus-</StartText>
             <EndText>.exe"</EndText>
@@ -13720,7 +15518,7 @@ https://code.google.com/p/peerblock/downloads/list</UserNotes>
             <VariableType>Textual</VariableType>
             <Regex />
             <Url />
-            <TextualContent>http://rufus.akeo.ie/downloads/rufus-{version}.exe</TextualContent>
+            <TextualContent>http://rufus.akeo.ie/{getUrl}</TextualContent>
             <Name>url</Name>
           </UrlVariable>
         </value>
@@ -13753,6 +15551,20 @@ https://code.google.com/p/peerblock/downloads/list</UserNotes>
           </UrlVariable>
         </value>
       </item>
+      <item>
+        <key>
+          <string>getUrl</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>/?([^ "'&lt;&gt;\*]+[\d\.]{3,}\.exe)</Regex>
+            <Url>http://rufus.akeo.ie/</Url>
+            <Name>getUrl</Name>
+          </UrlVariable>
+        </value>
+      </item>
     </Variables>
     <ExecuteCommand />
     <ExecutePreCommand />
@@ -13760,26 +15572,21 @@ https://code.google.com/p/peerblock/downloads/list</UserNotes>
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\rufus-1.4.12.exe</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\rufus-2.0.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-05T00:53:10.5596799</LastUpdated>
+    <LastUpdated>2015-03-13T03:33:45.3907647</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>rufus</Name>
   </ApplicationJob>
-  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="336b03e4-e14a-4fe9-9934-9eb34555035f">
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="4183f634-f31d-4dc2-9059-a53a43b4c746">
     <WebsiteUrl />
-    <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64)</UserAgent>
-    <UserNotes>{version}=4.12
-
-{url}=http://www.sandboxie.com/SandboxieInstall32-{version:split:.:0}{version:split:.:1}.exe
-
-Actual download=http://www.sandboxie.com/SandboxieInstall32-412.exe
-</UserNotes>
-    <LastFileSize>3240792</LastFileSize>
-    <LastFileDate>2015-02-05T00:53:22.627492</LastFileDate>
+    <UserAgent />
+    <UserNotes />
+    <LastFileSize>774560</LastFileSize>
+    <LastFileDate>2015-03-13T03:33:37.9081173</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -13798,8 +15605,227 @@ Actual download=http://www.sandboxie.com/SandboxieInstall32-412.exe
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>StartEnd</VariableType>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>[^ "'&lt;&gt;\*]+([\d\.]{3,})\.exe</Regex>
+            <Url>http://rufus.akeo.ie/</Url>
+            <StartText>href="downloads/rufus-</StartText>
+            <EndText>.exe"</EndText>
+            <TextualContent />
+            <Name>version</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
             <Regex />
+            <Url />
+            <TextualContent>http://rufus.akeo.ie/{getUrl}</TextualContent>
+            <Name>url</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>nopush</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>--nopush</TextualContent>
+            <Name>nopush</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>cscript</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>2</TextualContent>
+            <Name>cscript</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>getUrl</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>/?([^ "'&lt;&gt;\*]+[\d\.]{3,}\.exe)</Regex>
+            <Url>http://rufus.akeo.ie/</Url>
+            <Name>getUrl</Name>
+          </UrlVariable>
+        </value>
+      </item>
+    </Variables>
+    <ExecuteCommand />
+    <ExecutePreCommand />
+    <ExecuteCommandType>Batch</ExecuteCommandType>
+    <ExecutePreCommandType>Batch</ExecutePreCommandType>
+    <Category />
+    <SourceType>FixedUrl</SourceType>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\rufus-2.0.exe</PreviousLocation>
+    <DeletePreviousFile>true</DeletePreviousFile>
+    <Enabled>true</Enabled>
+    <FileHippoId />
+    <LastUpdated>2015-03-13T03:33:37.9081173</LastUpdated>
+    <TargetPath>{workdir}\</TargetPath>
+    <FixedDownloadUrl>{url}</FixedDownloadUrl>
+    <Name>rufus.install</Name>
+  </ApplicationJob>
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="bb521a37-29ba-45f2-97d0-2689b512188c">
+    <WebsiteUrl />
+    <UserAgent />
+    <UserNotes />
+    <LastFileSize>774560</LastFileSize>
+    <LastFileDate>2015-03-13T03:33:37.1377608</LastFileDate>
+    <IgnoreFileInformation>false</IgnoreFileInformation>
+    <DownloadBeta>Default</DownloadBeta>
+    <DownloadDate xsi:nil="true" />
+    <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
+    <VariableChangeIndicator />
+    <CanBeShared>true</CanBeShared>
+    <ShareApplication>false</ShareApplication>
+    <ExclusiveDownload>false</ExclusiveDownload>
+    <HttpReferer />
+    <SetupInstructions />
+    <Variables>
+      <item>
+        <key>
+          <string>version</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>[^ "'&lt;&gt;\*]+([\d\.]{3,})p\.exe</Regex>
+            <Url>http://rufus.akeo.ie/</Url>
+            <StartText>href="downloads/rufus-</StartText>
+            <EndText>.exe"</EndText>
+            <TextualContent />
+            <Name>version</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <Url />
+            <TextualContent>http://rufus.akeo.ie/{getUrl}</TextualContent>
+            <Name>url</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>nopush</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>--nopush</TextualContent>
+            <Name>nopush</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>cscript</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>2</TextualContent>
+            <Name>cscript</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>getUrl</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>/?([^ "'&lt;&gt;\*]+[\d\.]{3,}p\.exe)</Regex>
+            <Url>http://rufus.akeo.ie/</Url>
+            <Name>getUrl</Name>
+          </UrlVariable>
+        </value>
+      </item>
+    </Variables>
+    <ExecuteCommand />
+    <ExecutePreCommand />
+    <ExecuteCommandType>Batch</ExecuteCommandType>
+    <ExecutePreCommandType>Batch</ExecutePreCommandType>
+    <Category />
+    <SourceType>FixedUrl</SourceType>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\rufus-2.0p.exe</PreviousLocation>
+    <DeletePreviousFile>true</DeletePreviousFile>
+    <Enabled>true</Enabled>
+    <FileHippoId />
+    <LastUpdated>2015-03-13T03:33:37.1377608</LastUpdated>
+    <TargetPath>{workdir}\</TargetPath>
+    <FixedDownloadUrl>{url}</FixedDownloadUrl>
+    <Name>rufus.portable</Name>
+  </ApplicationJob>
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="336b03e4-e14a-4fe9-9934-9eb34555035f">
+    <WebsiteUrl />
+    <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64)</UserAgent>
+    <UserNotes>{version}=4.12
+
+{url}=http://www.sandboxie.com/SandboxieInstall32-{version:split:.:0}{version:split:.:1}.exe
+
+Actual download=http://www.sandboxie.com/SandboxieInstall32-412.exe
+</UserNotes>
+    <LastFileSize>3242120</LastFileSize>
+    <LastFileDate>2015-03-02T01:30:42.0085403</LastFileDate>
+    <IgnoreFileInformation>false</IgnoreFileInformation>
+    <DownloadBeta>Default</DownloadBeta>
+    <DownloadDate xsi:nil="true" />
+    <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
+    <VariableChangeIndicator />
+    <CanBeShared>true</CanBeShared>
+    <ShareApplication>false</ShareApplication>
+    <ExclusiveDownload>false</ExclusiveDownload>
+    <HttpReferer />
+    <SetupInstructions />
+    <Variables>
+      <item>
+        <key>
+          <string>version</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>"&gt;\s*([\d\.]+)\s*&lt;</Regex>
             <Url>http://www.sandboxie.com/index.php?AllVersions</Url>
             <StartText>&lt;TD style=" padding: 8px; border-bottom: solid black 1px; "&gt; Hash &lt;/TD&gt;
 &lt;/TR&gt;&lt;TR&gt;
@@ -13817,9 +15843,10 @@ Actual download=http://www.sandboxie.com/SandboxieInstall32-412.exe
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <TextualContent>http://www.sandboxie.com/SandboxieInstall64-{version:split:.:0}{version:split:.:1}-{version:split:.:2}.exe</TextualContent>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=64-bit).*?([^ "'&lt;&gt;\*]+\.exe)"</Regex>
+            <Url>http://www.sandboxie.com/index.php?AllVersions</Url>
+            <TextualContent />
             <Name>url64</Name>
           </UrlVariable>
         </value>
@@ -13831,9 +15858,10 @@ Actual download=http://www.sandboxie.com/SandboxieInstall32-412.exe
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <TextualContent>http://www.sandboxie.com/attic/SandboxieInstall32-{version:split:.:0}{version:split:.:1}.exe</TextualContent>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=32-bit).*?([^ "'&lt;&gt;\*]+\.exe)"</Regex>
+            <Url>http://www.sandboxie.com/index.php?AllVersions</Url>
+            <TextualContent />
             <Name>url</Name>
           </UrlVariable>
         </value>
@@ -13846,7 +15874,7 @@ Actual download=http://www.sandboxie.com/SandboxieInstall32-412.exe
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=32-\d*\.exe.*SHA1\s*)[\da-f]{40}(?=.*&lt;)</Regex>
+            <Regex>(?&lt;=32-\d*\.exe.*SHA1\s*)([\da-f]{40})(?=.*&lt;)</Regex>
             <Url>http://www.sandboxie.com/index.php?AllVersions</Url>
             <Name>checksum</Name>
           </UrlVariable>
@@ -13880,18 +15908,32 @@ Actual download=http://www.sandboxie.com/SandboxieInstall32-412.exe
           </UrlVariable>
         </value>
       </item>
+      <item>
+        <key>
+          <string>cscript</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>0</TextualContent>
+            <Name>cscript</Name>
+          </UrlVariable>
+        </value>
+      </item>
     </Variables>
     <ExecuteCommand />
-    <ExecutePreCommand>chocopkgup /p {appname}.install /v "{version}00" "{nopush}" /u "{preupdate-url}" /u64 "{url64}" /pp "{file}"</ExecutePreCommand>
+    <ExecutePreCommand>chocopkgup {nopush} --packagename={appname}.install --version={version} --pg="{packageGuid}" --url="{preupdate-url}" --urlx64="{url64}" --packagepath="{file}" --checksum="{checksum}" --c64="{checksumx64}" --debug</ExecutePreCommand>
     <ExecuteCommandType>Batch</ExecuteCommandType>
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\SandboxieInstall32-414.exe</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\SandboxieInstall32-416.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-05T00:53:22.627492</LastUpdated>
+    <LastUpdated>2015-03-02T01:30:42.0085403</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>sandboxie</Name>
@@ -13967,7 +16009,7 @@ Actual download=http://www.sandboxie.com/SandboxieInstall32-412.exe
     <SourceType>FixedUrl</SourceType>
     <PreviousLocation>C:\ProgramData\chocolatey\_work\SandboxieInstall32-415-12.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
-    <Enabled>true</Enabled>
+    <Enabled>false</Enabled>
     <FileHippoId />
     <LastUpdated>2015-02-12T04:34:34.4595974</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
@@ -14964,8 +17006,8 @@ Actual download=http://www.sandboxie.com/SandboxieInstall32-412.exe
   </ApplicationJob>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="135d0af0-5d49-4988-9bd1-332d3ed36813">
     <WebsiteUrl />
-    <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64)</UserAgent>
-    <UserNotes />
+    <UserAgent />
+    <UserNotes>http://sourceforge.net/projects/sre/files/SRE%20%201.3.1.12/Small%20Registry%20Editor1.3.1.12.exe/download</UserNotes>
     <LastFileSize>167424</LastFileSize>
     <LastFileDate>2015-02-05T00:53:28.7708975</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
@@ -14986,10 +17028,10 @@ Actual download=http://www.sandboxie.com/SandboxieInstall32-412.exe
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
+            <VariableType>RegularExpression</VariableType>
             <Regex>(?&lt;=ResponseUri: )[^\r\n]+</Regex>
-            <Url>http://sourceforge.net/projects/sre/files/SRE%20%20{version}/Small%20Registry%20Editor{version}.exe/download</Url>
-            <TextualContent>http://softlayer-dal.dl.sourceforge.net/project/sre/SRE%20%20{version}/Small%20Registry%20Editor{version}.exe</TextualContent>
+            <Url>{getUrl}</Url>
+            <TextualContent />
             <Name>url</Name>
           </UrlVariable>
         </value>
@@ -15003,7 +17045,7 @@ Actual download=http://www.sandboxie.com/SandboxieInstall32-412.exe
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>http://sourceforge.net/projects/sre/files/SRE%20%20{version}/Small%20Registry%20Editor{version}.exe/download</TextualContent>
+            <TextualContent>{getUrl}</TextualContent>
             <Name>url64</Name>
           </UrlVariable>
         </value>
@@ -15033,8 +17075,8 @@ Actual download=http://www.sandboxie.com/SandboxieInstall32-412.exe
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=&lt;meta http-equiv="refresh" content="5; url=)(.*?)(?="&gt;)</Regex>
-            <Url>http://sourceforge.net/projects/sre/files/SRE%20%20{version}/Small%20Registry%20Editor{version}.exe/download</Url>
+            <Regex>[^ "'&lt;&gt;\*]+\.exe/download</Regex>
+            <Url>http://sourceforge.net/projects/sre/files/SRE%20%20{version}/</Url>
             <Name>getUrl</Name>
           </UrlVariable>
         </value>
@@ -15080,13 +17122,13 @@ Actual download=http://www.sandboxie.com/SandboxieInstall32-412.exe
     <FileHippoId />
     <LastUpdated>2015-02-05T00:53:28.7708975</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
-    <FixedDownloadUrl>{url}</FixedDownloadUrl>
+    <FixedDownloadUrl>{url:encode}</FixedDownloadUrl>
     <Name>sre</Name>
   </ApplicationJob>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="1089822e-534f-408b-a057-5702f45223ae">
     <WebsiteUrl />
     <UserAgent>mswin32</UserAgent>
-    <UserNotes />
+    <UserNotes>http://sourceforge.net/projects/stellarium/files/Stellarium-win32/{version}/stellarium-{version}-win32.exe/download</UserNotes>
     <LastFileSize>131436036</LastFileSize>
     <LastFileDate>2015-02-05T00:59:04.5099167</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
@@ -15123,7 +17165,7 @@ Actual download=http://www.sandboxie.com/SandboxieInstall32-412.exe
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
             <Regex>(?&lt;=ResponseUri: )[^\r\n]+</Regex>
-            <Url>http://sourceforge.net/projects/stellarium/files/Stellarium-win32/{version}/stellarium-{version}-win32.exe/download</Url>
+            <Url>{getUrl}</Url>
             <Name>url</Name>
           </UrlVariable>
         </value>
@@ -15151,8 +17193,51 @@ Actual download=http://www.sandboxie.com/SandboxieInstall32-412.exe
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>@('http://sourceforge.net/projects/stellarium/files/Stellarium-win32/{version}/stellarium-{version}-win32.exe/download', 'http://sourceforge.net/projects/stellarium/files/Stellarium-win64/{version}/stellarium-{version}-win64.exe/download')</TextualContent>
+            <TextualContent>@('{getUrl}', '{getUrl64}')</TextualContent>
             <Name>urlArray</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>getUrl</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <Url />
+            <TextualContent>http://sourceforge.net/projects/stellarium/files/Stellarium-win32/{version}/stellarium-{version}-win32.exe/download</TextualContent>
+            <Name>getUrl</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>getUrl64</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>http://sourceforge.net/projects/stellarium/files/Stellarium-win64/{version}/stellarium-{version}-win64.exe/download</TextualContent>
+            <Name>getUrl64</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>checksum64file</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>{getUrl64}</TextualContent>
+            <Name>checksum64file</Name>
           </UrlVariable>
         </value>
       </item>
@@ -15204,8 +17289,8 @@ Actual download=http://www.sandboxie.com/SandboxieInstall32-412.exe
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64)</UserAgent>
     <UserNotes />
-    <LastFileSize>1338950</LastFileSize>
-    <LastFileDate>2015-02-05T00:53:34.0481683</LastFileDate>
+    <LastFileSize>1391371</LastFileSize>
+    <LastFileDate>2015-03-12T04:35:29.8444708</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -15286,11 +17371,11 @@ Actual download=http://www.sandboxie.com/SandboxieInstall32-412.exe
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\stunnel-5.10-installer.exe</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\stunnel-5.11-installer.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-05T00:53:34.0481683</LastUpdated>
+    <LastUpdated>2015-03-12T04:35:29.8444708</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>stunnel</Name>
@@ -15973,6 +18058,7 @@ http://assets.thebrain.com/downloads/TheBrain_windows-x64_8_0_1_2.exe</UserNotes
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\TheBrain_windows_8_0_1_4.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
@@ -15980,6 +18066,355 @@ http://assets.thebrain.com/downloads/TheBrain_windows-x64_8_0_1_2.exe</UserNotes
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>thebrain.install</Name>
+  </ApplicationJob>
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="f76f0271-0044-4208-8970-a7683c6ae728">
+    <WebsiteUrl />
+    <UserAgent />
+    <UserNotes />
+    <LastFileSize>25661440</LastFileSize>
+    <LastFileDate>2015-03-09T23:56:15.5625531</LastFileDate>
+    <IgnoreFileInformation>false</IgnoreFileInformation>
+    <DownloadBeta>Default</DownloadBeta>
+    <DownloadDate xsi:nil="true" />
+    <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
+    <VariableChangeIndicator />
+    <CanBeShared>true</CanBeShared>
+    <ShareApplication>false</ShareApplication>
+    <ExclusiveDownload>false</ExclusiveDownload>
+    <HttpReferer />
+    <SetupInstructions />
+    <Variables>
+      <item>
+        <key>
+          <string>nopush</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>--nopush</TextualContent>
+            <Name>nopush</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>version</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>[^ "'&lt;&gt;\*]+.msi"&gt;([\d\.]+)</Regex>
+            <Url>http://tortoisehg.bitbucket.org/download/index.html</Url>
+            <Name>version</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>{getUrl}</TextualContent>
+            <Name>url</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url64</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>{getUrl64}</TextualContent>
+            <Name>url64</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>getUrl</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>[^ "'&lt;&gt;\*]+x86\.msi</Regex>
+            <Url>http://tortoisehg.bitbucket.org/download/index.html</Url>
+            <Name>getUrl</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>getUrl64</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>[^ "'&lt;&gt;\*]+x64\.msi</Regex>
+            <Url>http://tortoisehg.bitbucket.org/download/index.html</Url>
+            <Name>getUrl64</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>checksum64file</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <Url />
+            <TextualContent>{getUrl64}</TextualContent>
+            <Name>checksum64file</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>cscript</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>2</TextualContent>
+            <Name>cscript</Name>
+          </UrlVariable>
+        </value>
+      </item>
+    </Variables>
+    <ExecuteCommand />
+    <ExecutePreCommand />
+    <ExecuteCommandType>Batch</ExecuteCommandType>
+    <ExecutePreCommandType>Batch</ExecutePreCommandType>
+    <Category />
+    <SourceType>FixedUrl</SourceType>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\tortoisehg-3.3.2-x86.msi</PreviousLocation>
+    <DeletePreviousFile>true</DeletePreviousFile>
+    <Enabled>true</Enabled>
+    <FileHippoId />
+    <LastUpdated>2015-03-09T23:56:15.5625531</LastUpdated>
+    <TargetPath>{workdir}\</TargetPath>
+    <FixedDownloadUrl>{url}</FixedDownloadUrl>
+    <Name>tortoisehg</Name>
+  </ApplicationJob>
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="98828b53-f953-4ffe-9171-04ec74691950">
+    <WebsiteUrl />
+    <UserAgent />
+    <UserNotes />
+    <LastFileSize>15560704</LastFileSize>
+    <LastFileDate>2015-03-09T20:52:51.2880353</LastFileDate>
+    <IgnoreFileInformation>false</IgnoreFileInformation>
+    <DownloadBeta>Default</DownloadBeta>
+    <DownloadDate xsi:nil="true" />
+    <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
+    <VariableChangeIndicator />
+    <CanBeShared>true</CanBeShared>
+    <ShareApplication>false</ShareApplication>
+    <ExclusiveDownload>false</ExclusiveDownload>
+    <HttpReferer />
+    <SetupInstructions />
+    <Variables>
+      <item>
+        <key>
+          <string>nopush</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>--nopush</TextualContent>
+            <Name>nopush</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>version</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>/projects/tortoisesvn/files/([\d\.]+)</Regex>
+            <Url>https://sourceforge.net/projects/tortoisesvn/files/</Url>
+            <Name>version</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <Url />
+            <TextualContent>{getMirror}/{getMirrorPath}</TextualContent>
+            <Name>url</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url64</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>{urlArray}</TextualContent>
+            <Name>url64</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>getUrl</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>="?([^ "'&lt;&gt;\*]+\.msi)(?=/download\s*title="[\w\d\s\.-]+32)</Regex>
+            <Url>http://tortoisesvn.net/downloads.html</Url>
+            <Name>getUrl</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>getUrl64</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>="?([^ "'&lt;&gt;\*]+\.msi)(?=/download\s*title="[\w\d\s\.-]+64)</Regex>
+            <Url>http://tortoisesvn.net/downloads.html</Url>
+            <Name>getUrl64</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>checksum64file</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <Url>{version}</Url>
+            <TextualContent>{getUrl64}</TextualContent>
+            <Name>checksum64file</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>urlArray</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>@('{getUrl}', '{getUrl64}')</TextualContent>
+            <Name>urlArray</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>getMirrorUrl</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>http[^ "'&lt;&gt;\*]+\.zip/download</Regex>
+            <Url>https://sourceforge.net/projects/tortoisesvn/files/1.8.10/Language%20Packs/</Url>
+            <Name>getMirrorUrl</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>getMirror</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=ResponseUri: )([^ "'&lt;&gt;\*]+tortoisesvn)/</Regex>
+            <Url>{getMirrorUrl}</Url>
+            <Name>getMirror</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>getMirrorPath</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>http://sourceforge.net/projects/tortoisesvn/files/([^ "'&lt;&gt;\*]+\.msi)</Regex>
+            <Url>http://tortoisesvn.net/downloads.html</Url>
+            <Name>getMirrorPath</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>cscript</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>1</TextualContent>
+            <Name>cscript</Name>
+          </UrlVariable>
+        </value>
+      </item>
+    </Variables>
+    <ExecuteCommand />
+    <ExecutePreCommand />
+    <ExecuteCommandType>Batch</ExecuteCommandType>
+    <ExecutePreCommandType>Batch</ExecutePreCommandType>
+    <Category />
+    <SourceType>FixedUrl</SourceType>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\TortoiseSVN-1.8.10.26129-win32-svn-1.8.11.msi</PreviousLocation>
+    <DeletePreviousFile>true</DeletePreviousFile>
+    <Enabled>true</Enabled>
+    <FileHippoId />
+    <LastUpdated>2015-03-09T20:52:51.2880353</LastUpdated>
+    <TargetPath>{workdir}\</TargetPath>
+    <FixedDownloadUrl>{url}</FixedDownloadUrl>
+    <Name>tortoisesvn</Name>
   </ApplicationJob>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="ed4265d6-e277-4cce-8c4d-521cdc6ef081">
     <WebsiteUrl />
@@ -16340,8 +18775,8 @@ http://assets.thebrain.com/downloads/TheBrain_windows-x64_8_0_1_2.exe</UserNotes
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>4471808</LastFileSize>
-    <LastFileDate>2015-02-16T18:36:11.8890822</LastFileDate>
+    <LastFileSize>4861952</LastFileSize>
+    <LastFileDate>2015-03-13T03:08:50.1041991</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -16377,7 +18812,7 @@ http://assets.thebrain.com/downloads/TheBrain_windows-x64_8_0_1_2.exe</UserNotes
             <VariableType>Textual</VariableType>
             <Regex />
             <Url />
-            <TextualContent>{realVersion:regexreplace:(\d+)\.(\d+)\.(\d+)\.(\d+)\.?(\d+)?:$1.$2.$3.$4$5}</TextualContent>
+            <TextualContent>{realVersion:regexreplace:(\d+)\.(\d+)\.(\d+)\.(\d+)\.?(\d+)?:$1.$2.$3$4$5}</TextualContent>
             <Name>version</Name>
           </UrlVariable>
         </value>
@@ -16518,8 +18953,22 @@ http://assets.thebrain.com/downloads/TheBrain_windows-x64_8_0_1_2.exe</UserNotes
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>0</TextualContent>
+            <TextualContent>2</TextualContent>
             <Name>cscript</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>checksum64file</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>{url64}</TextualContent>
+            <Name>checksum64file</Name>
           </UrlVariable>
         </value>
       </item>
@@ -16532,9 +18981,9 @@ http://assets.thebrain.com/downloads/TheBrain_windows-x64_8_0_1_2.exe</UserNotes
     <SourceType>FixedUrl</SourceType>
     <PreviousLocation>C:\ProgramData\chocolatey\_work\UltraVnc_1205_x86.msi</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
-    <Enabled>false</Enabled>
+    <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-16T18:36:11.8890822</LastUpdated>
+    <LastUpdated>2015-03-13T03:08:50.1041991</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>ultravnc</Name>
@@ -17897,6 +20346,126 @@ http://assets.thebrain.com/downloads/TheBrain_windows-x64_8_0_1_2.exe</UserNotes
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>xiphqt</Name>
+  </ApplicationJob>
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="4cbba614-373d-452b-a2d6-f4df09bebca9">
+    <WebsiteUrl />
+    <UserAgent />
+    <UserNotes />
+    <LastFileSize>1763793</LastFileSize>
+    <LastFileDate>2015-03-04T18:45:59.6773166</LastFileDate>
+    <IgnoreFileInformation>false</IgnoreFileInformation>
+    <DownloadBeta>Default</DownloadBeta>
+    <DownloadDate xsi:nil="true" />
+    <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
+    <VariableChangeIndicator />
+    <CanBeShared>true</CanBeShared>
+    <ShareApplication>false</ShareApplication>
+    <ExclusiveDownload>false</ExclusiveDownload>
+    <HttpReferer />
+    <SetupInstructions />
+    <Variables>
+      <item>
+        <key>
+          <string>nopush</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>--nopush</TextualContent>
+            <Name>nopush</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>cscript</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <Url />
+            <TextualContent>1</TextualContent>
+            <Name>cscript</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=ResponseUri: )[^\r\n]+</Regex>
+            <Url>{getUrl}</Url>
+            <TextualContent />
+            <Name>url</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url64</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>{getUrl}</TextualContent>
+            <Name>url64</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>getUrl</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>[^ "'&lt;&gt;\*]+\.exe/download</Regex>
+            <Url>https://sourceforge.net/projects/xshredder/files/</Url>
+            <Name>getUrl</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>version</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=files/latest/download")[^\d\.]+([\d\.]+)</Regex>
+            <Url>https://sourceforge.net/projects/xshredder/</Url>
+            <TextualContent />
+            <Name>version</Name>
+          </UrlVariable>
+        </value>
+      </item>
+    </Variables>
+    <ExecuteCommand />
+    <ExecutePreCommand />
+    <ExecuteCommandType>Batch</ExecuteCommandType>
+    <ExecutePreCommandType>Batch</ExecutePreCommandType>
+    <Category />
+    <SourceType>FixedUrl</SourceType>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\xShredder Setup.exe</PreviousLocation>
+    <DeletePreviousFile>true</DeletePreviousFile>
+    <Enabled>true</Enabled>
+    <FileHippoId />
+    <LastUpdated>2015-03-04T18:45:59.6773166</LastUpdated>
+    <TargetPath>{workdir}\</TargetPath>
+    <FixedDownloadUrl>{url}</FixedDownloadUrl>
+    <Name>xshredder</Name>
   </ApplicationJob>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="209c5850-8f4c-435a-9cd6-d658192a6274">
     <WebsiteUrl />
