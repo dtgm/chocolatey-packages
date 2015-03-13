@@ -1,15 +1,18 @@
+$packageName = '{{PackageName}}'
+$installerType = 'exe'
+$silentArgs = '/S'
+$validExitCodes = @(0)
 try {
-  $packageName = '{{PackageName}}'
-  $fileType = 'exe'
-  $silentArgs = '/S'
-  $validExitCodes = @(0)
-  $osBitness = Get-ProcessorBits
-  if ($osBitness -eq 64) {
-    $unString = (get-item -path HKLM:\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\lyx*).GetValue('UninstallString')
-  } else {
-    $unString = (get-item -path HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\lyx*).GetValue('UninstallString')
-  }
-  Uninstall-ChocolateyPackage "$packageName" "$fileType" "$silentArgs" "$unString" -validExitCodes $validExitCodes
+  Get-ItemProperty -Path @( 'HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*',
+                            'HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*',
+                            'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*' ) `
+                   -ErrorAction:SilentlyContinue `
+  | Where-Object   { $_.DisplayName -like "$packageName*" } `
+  | ForEach-Object { Uninstall-ChocolateyPackage -PackageName "$packageName" `
+                                                 -FileType "$installerType" `
+                                                 -SilentArgs "$silentArgs" `
+                                                 -File "$($_.UninstallString)" `
+                                                 -ValidExitCodes $validExitCodes }
 } catch {
-  throw $_.Exception.Message
+  throw $_.Exception
 }
