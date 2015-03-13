@@ -1,18 +1,18 @@
+$packageName = 'msigna'
+$installerType = 'exe'
+$silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
+$validExitCodes = @(0)
 try {
-  $packageName = 'msigna'
-  $installerType = 'exe'
-  $silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
-  $validExitCodes = @(0)
-  $processor = Get-WmiObject Win32_Processor
-  $is64bit = $processor.AddressWidth -eq 64
-  if ($is64bit) {
-    $unpath = "${Env:ProgramFiles(x86)}\$packageName\unins000.exe"
-  } else {
-    $unpath = "$Env:ProgramFiles\$packageName\unins000.exe"
-  }
-  Uninstall-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$unpath" -validExitCodes $validExitCodes
+  Get-ItemProperty -Path @( 'HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*',
+                            'HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*',
+                            'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*' ) `
+                   -ErrorAction:SilentlyContinue `
+  | Where-Object   { $_.DisplayName -like "$packageSearch*" } `
+  | ForEach-Object { Uninstall-ChocolateyPackage -PackageName "$packageName" `
+                                                 -FileType "$installerType" `
+                                                 -SilentArgs "$silentArgs" `
+                                                 -File "$($_.UninstallString)" `
+                                                 -ValidExitCodes $validExitCodes }
 } catch {
   throw $_.Exception
 }
-
-

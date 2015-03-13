@@ -12,9 +12,7 @@ mSIGNA™ offers both secure enterprise-level solutions and straightforward sing
 
 mSIGNA is an interactive desktop application for transacting on the bitcoin network supporting m-of-n signature policies and multiuser/multidevice account management. While the current release builds only support bitcoin, it is possible to compile it to support other bitcoin-like blockchain-based cryptocurrencies.
 
-### Library licensing
-
-mSIGNA™ is built atop, three custom libraries, CoinCore, CoinQ, and CoinDB, which provide all core functionality for managing bitcoin data structures, connecting to peers, and handling persistent storage.
+mSIGNA is built atop, three custom libraries, CoinCore, CoinQ, and CoinDB, which provide all core functionality for managing bitcoin data structures, connecting to peers, and handling persistent storage.
 
 * CoinCore is licensed under the [MIT license](http://opensource.org/licenses/mit-license.php).
 * CoinQ and CoinDB are licensed under the [AGPLv3 license](https://www.gnu.org/licenses/agpl.html).
@@ -22,7 +20,7 @@ mSIGNA™ is built atop, three custom libraries, CoinCore, CoinQ, and CoinDB, wh
     <projectUrl>https://ciphrex.com/products/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/ciphrex/CoinVault/4e4f47d84582ffd29c9e8d1996d508e679e6d608/res/icons/app_icons/256x256.png</iconUrl>
     <tags>bitcoin btc wallet cryptocurrency</tags>
-    <copyright>© 2013-Present Ciphrex Corporation</copyright>
+    <copyright>© 2013 Ciphrex Corporation</copyright>
     <licenseUrl>https://raw.githubusercontent.com/ciphrex/CoinVault/master/docs/eula.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>https://github.com/ciphrex/CoinVault/releases</releaseNotes>
