@@ -16,16 +16,16 @@ With phone as a joystick, you will never have to sacrifice the multi-touch or gy
 
 ### Notes
 Bonjour dependency is installed silently (not chocolatey package).
-		</description>
+    </description>
     <projectUrl>http://www.andyroid.net/</projectUrl>
     <tags>notSilent testing software-testing android-emulator virtualbox virtualization VM</tags>
     <copyright>ANDY</copyright>
     <licenseUrl>http://www.andyroid.net/terms-conditions</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/732a79a2b9e31faef3b3206fddc25e192d6b516b/icons/andy.png</iconUrl>
-		<releaseNotes>https://www.facebook.com/groups/AndySupport/</releaseNotes>
-		<dependencies>
-			<dependency id="virtualbox" />
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/269e4311cd8b524c71dbfb2a49237c3ed68929f9/icons/andy.png</iconUrl>
+    <releaseNotes>https://www.facebook.com/groups/AndySupport/</releaseNotes>
+    <dependencies>
+      <dependency id="virtualbox" />
     </dependencies>
   </metadata>
   <files>
