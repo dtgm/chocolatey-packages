@@ -10,4 +10,13 @@ $checksum64 = '4597c6f00b0824d3a69f3879bb5fd420a3a8cbef'
 $checksumType64 = 'sha1'
 $validExitCodes = @(0)
 
-Install-ChocolateyPackage -PackageName "$packageName" -FileType "$installerType" -Url "$url" -Url64bit "$url64" -SilentArgs "$silentArgs" -ValidExitCodes $validExitCodes -Checksum "$checksum" -ChecksumType "$checksumType" -Checksum64 "$checksum64" -ChecksumType64 "$checksumType64"
+Install-ChocolateyPackage -PackageName "$packageName" `
+                          -FileType "$installerType" `
+                          -SilentArgs "$silentArgs" `
+                          -Url "$url" `
+                          -Url64bit "$url64" `
+                          -ValidExitCodes $validExitCodes `
+                          -Checksum "$checksum" `
+                          -ChecksumType "$checksumType" `
+                          -Checksum64 "$checksum64" `
+                          -ChecksumType64 "$checksumType64"

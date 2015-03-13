@@ -13,7 +13,11 @@ try {
   } else {
     $unString = (Get-ItemProperty "$unPath\$packageSearch*" UninstallString).UninstallString
   }
-  Uninstall-ChocolateyPackage "$packageName" "$fileType" "$silentArgs" "$unString" -validExitCodes $validExitCodes
+  Uninstall-ChocolateyPackage -PackageName "$packageName" `
+                              -FileType "$fileType" `
+                              -SilentArgs "$silentArgs" `
+                              -File "$unString" `
+                              -validExitCodes $validExitCodes
 } catch {
   throw $_.Exception
 }

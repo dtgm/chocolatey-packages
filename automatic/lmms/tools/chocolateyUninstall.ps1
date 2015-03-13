@@ -1,10 +1,10 @@
+$packageName = '{{PackageName}}'
+$fileType = 'exe'
+$silentArgs = '/S'
+$validExitCodes = @(0)
+$unPath = 'HKLM:SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall'
+$unPathWow = 'HKLM:SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall'
 try {
-  $packageName = '{{PackageName}}'
-  $fileType = 'exe'
-  $silentArgs = '/S'
-  $validExitCodes = @(0)
-  $unPath = 'HKLM:SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall'
-  $unPathWow = 'HKLM:SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall'
   if ((Get-ItemProperty $unPath\$packageName)) {
     $unString = (Get-ItemProperty $unPath\$packageName UninstallString).UninstallString
   } elseif ((Get-ItemProperty $unPathWow\$packageName)) {
@@ -12,7 +12,11 @@ try {
   }	else {
     Write-Warning "$packageName is not installed."
   }
-  Uninstall-ChocolateyPackage "$packageName" "$fileType" "$silentArgs" "$unString" -validExitCodes $validExitCodes
+  Uninstall-ChocolateyPackage -PackageName "$packageName" `
+                              -FileType "$fileType" `
+                              -SilentArgs "$silentArgs" `
+                              -File "$unString" `
+                              -validExitCodes $validExitCodes
 } catch {
   throw $_.Exception
 }
