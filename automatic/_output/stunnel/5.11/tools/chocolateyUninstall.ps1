@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+$packageName = 'stunnel'
 $installerType = 'exe'
 $silentArgs = '/S'
 $validExitCodes = @(0)

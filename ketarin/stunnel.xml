@@ -4,8 +4,8 @@
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64)</UserAgent>
     <UserNotes />
-    <LastFileSize>1338950</LastFileSize>
-    <LastFileDate>2015-02-05T00:53:34.0481683</LastFileDate>
+    <LastFileSize>1391371</LastFileSize>
+    <LastFileDate>2015-03-12T04:35:29.8444708</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -39,15 +39,43 @@
       </item>
       <item>
         <key>
-          <string>checksum</string>
+          <string>nopush</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>12345</TextualContent>
-            <Name>checksum</Name>
+            <TextualContent>--nopush</TextualContent>
+            <Name>nopush</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>cscript</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>2</TextualContent>
+            <Name>cscript</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>https://www.stunnel.org/downloads/archive/{version:split:.:0}.x/stunnel-{version}-installer.exe</TextualContent>
+            <Name>url</Name>
           </UrlVariable>
         </value>
       </item>
@@ -58,13 +86,13 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>{workdir}\stunnel-5.10-installer.exe</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\stunnel-5.11-installer.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-05T00:53:34.0481683</LastUpdated>
+    <LastUpdated>2015-03-12T04:35:29.8444708</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
-    <FixedDownloadUrl>https://www.stunnel.org/downloads/stunnel-{version}-installer.exe</FixedDownloadUrl>
+    <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>stunnel</Name>
   </ApplicationJob>
 </Jobs>
