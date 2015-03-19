@@ -25,7 +25,7 @@ Snes9x is an SNES emulator written in C++ with official ports for Linux, Microso
 [Source code changelog](https://raw.githubusercontent.com/snes9xgit/snes9x/master/docs/changes.txt)
     </releaseNotes>
     <dependencies>
-      <dependency id="directx" version="9" />
+      <dependency id="directx" version="9.0.0.0" />
     </dependencies>
   </metadata>
   <files>
