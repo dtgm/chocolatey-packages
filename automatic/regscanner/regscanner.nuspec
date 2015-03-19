@@ -28,7 +28,4 @@ RegScanner is a small utility that allows you to scan the Registry, find the des
       <dependency id="{{PackageName}}.install" version="[{{PackageVersion}}]" />
     </dependencies>
   </metadata>
-  <files>
-    <file src="tools\**" target="tools" />
-  </files>
 </package>
