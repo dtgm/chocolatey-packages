@@ -6,4 +6,10 @@ $checksum = '{{Checksum}}'
 $checksumType = 'sha1'
 $validExitCodes = @(0)
 
-Install-ChocolateyPackage -packageName "$packageName" -FileType "$installerType" -url "$url" -silentArgs "$silentArgs" -validExitCodes $validExitCodes -Checksum "$checksum" -ChecksumType "$checksumType"
+Install-ChocolateyPackage -PackageName "$packageName" `
+                          -FileType "$installerType" `
+                          -SilentArgs "$silentArgs" `
+                          -Url "$url" `
+                          -ValidExitCodes $validExitCodes `
+                          -Checksum "$checksum" `
+                          -ChecksumType "$checksumType"

@@ -3,7 +3,7 @@ $installerType = 'exe'
 $checksum = '{{Checksum}}'
 $checksumType = 'sha1'
 $silentArgs = '/S /NCRC'
-$validExitCodes = @(0) #please insert other valid exit codes here, exit codes for ms http://msdn.microsoft.com/en-us/library/aa368542(VS.85).aspx
+$validExitCodes = @(0)
 $pwdPath = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
 $ahkFile = "$pwdPath\shockwave.ahk"
 $fileHippoName = "shockwave"
@@ -17,4 +17,10 @@ $url3 = Get-FilenameFromRegex "$url2" '/download/file/([\w\d]+)/' 'http://www.fi
 Write-Host "Found download URL: $url3"
 
 Start-Process 'AutoHotKey' $ahkFile
-Install-ChocolateyPackage $packageName $installerType $silentArgs $url3 -validExitCodes $validExitCodes -Checksum "$checksum" -ChecksumType "$checksumType"
+Install-ChocolateyPackage -PackageName "$packageName" `
+                          -FileType "$installerType" `
+                          -SilentArgs "$silentArgs" `
+                          -Url "$url3" `
+                          -ValidExitCodes $validExitCodes `
+                          -Checksum "$checksum" `
+                          -ChecksumType "$checksumType"
