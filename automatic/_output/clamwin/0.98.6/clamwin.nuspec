@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>clamwin</id>
+    <title>ClamWin Free Antivirus</title>
+    <version>0.98.6</version>
+    <authors>ClamWin</authors>
+    <owners>dtgm</owners>
+    <summary>Free, open source antivirus scanner</summary>
+    <description>
+ClamWin Free Antivirus is based on ClamAV engine and uses GNU General Public License by the Free Software Foundation, and is free (as in freedom) software.
+
+### Features
+* High detection rates for viruses and spyware;
+* Scanning Scheduler;
+* Automatic downloads of regularly updated Virus Database.
+* Standalone virus scanner and right-click menu integration to Microsoft Windows Explorer;
+* Addin to Microsoft Outlook to remove virus-infected attachments automatically.
+
+### Notes
+Please note that ClamWin Free Antivirus does not include an on-access, real-time scanner. You need to manually scan a file or schedule a scan via Task Scheduler in order to detect a virus or spyware.
+    </description>
+    <projectUrl>http://www.clamwin.com/</projectUrl>
+    <tags>antivirus virus-scanner no-real-time-scan notsilent</tags>
+    <copyright>ClamWin Pty Ltd.</copyright>
+    <licenseUrl>http://www.clamwin.com/content/view/226/52/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/82dd10296475d3db371d5e8a86bfd768f2d093bb/icons/clamwin.png</iconUrl>
+  </metadata>
+</package>
