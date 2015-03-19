@@ -1,10 +1,14 @@
+$packageName = '{{PackageName}}'
+$installerType = 'exe'
+$silentArgs = '/S'
+$unString = (get-item -path HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\kodi*).GetValue('UninstallString')
+$validExitCodes = @(0)
 try {
-  $packageName = '{{PackageName}}'
-  $fileType = 'exe'
-  $silentArgs = '/S'
-  $validExitCodes = @(0)
-  $unString = (get-item -path HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\kodi*).GetValue('UninstallString')
-  Uninstall-ChocolateyPackage "$packageName" "$fileType" "$silentArgs" "$unString" -validExitCodes $validExitCodes
+  Uninstall-ChocolateyPackage -PackageName "$packageName" `
+                              -FileType "$installerType" `
+                              -SilentArgs "$silentArgs" `
+                              -File "$unString" `
+                              -ValidExitCodes $validExitCodes
 } catch {
   throw $_.Exception.Message
 }
