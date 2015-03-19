@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>rufus.portable</id>
+    <version>1.4.12.535</version>
+    <title>Rufus (Portable) [Deprecated]</title>
+    <authors>Akeo Consulting</authors>
+    <owners>sbussinger</owners>
+    <licenseUrl>http://rufus.akeo.ie/</licenseUrl>
+    <projectUrl>http://rufus.akeo.ie/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>The "rufus.portable" package has been deprecated in favor of the "rufus" package because of Chocolatey naming conventions. Install that package instead. Create bootable USB drives the easy way. Rufus is a small utility that helps format and create bootable USB flash drives, such as USB keys/pendrives, memory sticks, etc.</description>
+    <tags>rufus boot bootable usb flash iso dos</tags>
+    <dependencies>
+      <dependency id="rufus" version="1.4.12" />
+    </dependencies>
+  </metadata>
+</package>

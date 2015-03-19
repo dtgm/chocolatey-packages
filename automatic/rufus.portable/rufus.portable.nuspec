@@ -3,7 +3,7 @@
   <metadata>
     <id>{{packageName}}</id>
     <version>{{packageVersion}}</version>
-    <title>Rufus</title>
+    <title>Rufus (Portable)</title>
     <authors>Pete "Akeo" Batard</authors>
     <owners>dtgm</owners>
     <summary>Create bootable USB drives from Windows and Linux images</summary>
@@ -32,8 +32,8 @@ Oh, and Rufus is fast. For instance it's about twice as fast as UNetbootin, Univ
     <copyright>Akeo Consulting</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <tags>liveusb linux windows</tags>
-    <dependencies>
-      <dependency id="{{PackageName}}.install" version="[{{PackageVersion}}]" />
-    </dependencies>
   </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
 </package>
