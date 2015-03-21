@@ -14,17 +14,23 @@ By using the Developer Edition, you gain access to tools and platform features a
 
 Additionally, the following experimental developer tools are persistent features of Firefox Developer Edition:
 
-### WebIDE
+### [WebIDE](https://developer.mozilla.org/docs/Tools/WebIDE)
 
 Allows you to develop, deploy and debug Web apps directly in your browser, or on a Firefox OS device. It lets you create a new Firefox OS app (which is just a web app) from a template, or open up the code of an existing app. From there you can edit the app’s files. It’s one click to run the app in a simulator and one more to debug it with the developer tools. Web IDE - YouTube
 
-### Valence (previously called Firefox Tools Adapter) 
+### [Valence](https://developer.mozilla.org/docs/Tools/Firefox_Tools_Adapter) (previously called Firefox Tools Adapter) 
 
 Lets you develop and debug your app across multiple browsers and devices by connecting the Firefox dev tools to other major browser engines. Valence also extends the awesome tools we've built to debug Firefox OS and Firefox for Android to the other major mobile browsers including Chrome on Android and Safari on iOS. So far these tools include our Inspector, Debugger and Console and Style Editor.
 
-### Web Audio Editor
+### [Web Audio Editor](https://developer.mozilla.org/docs/Tools/Web_Audio_Editor)
 
 Inspect and interact with Web Audio API in real time to ensure that all audio nodes are connected in the way you expect.
+
+Additional developer tools also available in the release build (via F12 key): [Responsive Design View](https://developer.mozilla.org/docs/Tools/Responsive_Design_View), [Page Inspector](https://developer.mozilla.org/docs/Tools/Page_Inspector), [Web Console](https://developer.mozilla.org/docs/Tools/Web_Console), [JavaScript Debugger](https://developer.mozilla.org/docs/Tools/Debugger), [Network Monitor](https://developer.mozilla.org/docs/Tools/Network_Monitor), and [Style Editor](https://developer.mozilla.org/docs/Tools/Style_Editor).
+
+[Mozilla Developer Network documentation](https://developer.mozilla.org/en-US/Firefox/Developer_Edition)
+[Privacy notice](https://www.mozilla.org/en-US/privacy/firefox/)
+[Source code](http://hg.mozilla.org/releases/mozilla-aurora/)
     </description>
     <projectUrl>https://www.mozilla.org/en-US/firefox/developer/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/09264db6fe62d7ffab92f088722deab819a4bb47/icons/{{PackageName}}.png</iconUrl>
@@ -32,7 +38,11 @@ Inspect and interact with Web Audio API in real time to ensure that all audio no
     <copyright>© Mozilla Foundation</copyright>
     <licenseUrl>http://www.mozilla.org/MPL/2.0/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <releaseNotes>https://www.mozilla.org/en-US/firefox/37.0a2/auroranotes/</releaseNotes>
+    <releaseNotes>
+[Overview changelog](https://www.mozilla.org/en-US/firefox/{{PackageVersion}}a2/auroranotes/)
+[Mozilla Developer Network release notes](https://developer.mozilla.org/en-US/Firefox/Releases/)
+[Source code commit changelog](http://hg.mozilla.org/releases/mozilla-aurora/tags/)
+    </releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

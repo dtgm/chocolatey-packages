@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>Fritzing</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Fachhochschule Potsdam</authors>
+    <owners>dtgm</owners>
+    <summary>Open-source hardware initiative that makes electronics accessible as a creative material for anyone</summary>
+    <description>
+Fritzing is a software tool, a community website and services in the spirit of Processing and Arduino, fostering a creative ecosystem that allows users to document their prototypes, share them with others, teach electronics in a classroom, and layout and manufacture professional pcbs.
+
+The Fritzing application is an Electronic Design Automation software with a low entry barrier, suited for the needs of makers and hobbyists. It offers a unique real-life "breadboard" view, and a parts library with many commonly used high-level components. Fritzing makes it very easy to communicate about circuits, as well as to turn them into PCB layouts ready for production. It is particularly popular among Arduino and Raspberry Pi users, and is widely used in education and creative tinkering.
+
+[Documentation](http://fritzing.org/learning/)
+[FAQ](http://fritzing.org/faq/)
+[User forum](http://fritzing.org/forum/)
+
+[Parts library](http://fritzing.org/parts/)
+[Parts source code](https://github.com/fritzing/fritzing-parts)
+[Fritzing source code](https://github.com/fritzing/fritzing-app)
+    </description>
+    <projectUrl>http://fritzing.org/home/</projectUrl>
+    <tags>prototype pcb processing arduino breadboard qt</tags>
+    <copyright>© Friends-of-Fritzing foundation</copyright>
+    <licenseUrl>https://github.com/fritzing/fritzing-app#licensing</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/d1e037cc7c943fda29b9067b3b1c3229d99402ff/icons/{{PackageName}}.png</iconUrl>
+    <releaseNotes>
+[What's New](http://fritzing.org/download/history-changes/)
+[Known Issues](http://fritzing.org/download/known-issues/)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

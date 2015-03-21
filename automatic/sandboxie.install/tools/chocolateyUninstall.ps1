@@ -1,6 +1,6 @@
 $packageName = '{{PackageName}}'
 $packageSearch = 'sandboxie'
-$fileType = 'exe'
+$installerType = 'exe'
 $silentArgs = '/S /remove'
 $validExitCodes = @(0)
 $unPath = Join-Path 'HKLM:SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall' $packageSearch
@@ -17,7 +17,11 @@ try {
   if ($unString | Select-String -Pattern / ) {
     $unString = $unString | %{ $_.Split(' /')[0]; }
   }
-  Uninstall-ChocolateyPackage "$packageName" "$fileType" "$silentArgs" "$unString" -validExitCodes $validExitCodes
+  Uninstall-ChocolateyPackage -PackageName "$packageName" `
+                              -FileType "$installerType" `
+                              -SilentArgs "$silentArgs" `
+                              -File "$unString" `
+                              -validExitCodes $validExitCodes
 } catch {
   throw $_.Exception.Message
 }

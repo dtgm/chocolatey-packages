@@ -14,4 +14,13 @@ if ((Test-Path $Env:ProgramFiles\$packageSearch*) -Or (Test-Path ${Env:ProgramFi
 } else {
   $silentArgs = '/install /S'
 }
-Install-ChocolateyPackage -PackageName "$packageName" -FileType "$installerType" -Url "$url" -Url64bit "$url64" -SilentArgs "$silentArgs" -ValidExitCodes $validExitCodes -Checksum "$checksum" -ChecksumType "$checksumType" -Checksum64 "$checksum64" -ChecksumType64 "$checksumType64"
+Install-ChocolateyPackage -PackageName "$packageName" `
+                          -FileType "$installerType" `
+                          -Url "$url" `
+                          -Url64bit "$url64" `
+                          -SilentArgs "$silentArgs" `
+                          -ValidExitCodes $validExitCodes `
+                          -Checksum "$checksum" `
+                          -ChecksumType "$checksumType" `
+                          -Checksum64 "$checksum64" `
+                          -ChecksumType64 "$checksumType64"

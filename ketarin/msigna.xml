@@ -4,8 +4,8 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>8754640</LastFileSize>
-    <LastFileDate>2015-01-28T07:32:55.6556082</LastFileDate>
+    <LastFileSize>8749552</LastFileSize>
+    <LastFileDate>2015-02-27T19:31:07-06:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -53,7 +53,7 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=^)([A-Fa-f0-9]{40})</Regex>
+            <Regex>[A-Fa-f0-9]{40}</Regex>
             <Url>https://ciphrex.com/releases/win64/setup-{version}.sha1.txt</Url>
             <TextualContent />
             <Name>checksum</Name>
@@ -62,7 +62,7 @@
       </item>
       <item>
         <key>
-          <string>nopush</string>
+          <string>yopush</string>
         </key>
         <value>
           <UrlVariable>
@@ -70,35 +70,21 @@
             <VariableType>Textual</VariableType>
             <Regex />
             <TextualContent>--nopush</TextualContent>
-            <Name>nopush</Name>
+            <Name>yopush</Name>
           </UrlVariable>
         </value>
       </item>
       <item>
         <key>
-          <string>url64</string>
+          <string>cscript</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>{url}</TextualContent>
-            <Name>url64</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>checksumx64</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <TextualContent>{checksum}</TextualContent>
-            <Name>checksumx64</Name>
+            <TextualContent>0</TextualContent>
+            <Name>cscript</Name>
           </UrlVariable>
         </value>
       </item>
@@ -109,11 +95,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>{workdir}\setup-0.8.12.exe</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\setup-0.8.15.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-01-28T07:32:55.6556082</LastUpdated>
+    <LastUpdated>2015-03-13T17:31:19.6455627-05:00</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>msigna</Name>
