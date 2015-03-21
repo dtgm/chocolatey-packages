@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>OpenHardwareMonitor</id>
+    <version>0.6.0.1403</version>
+    <title>Open Hardware Monitor</title>
+    <authors>Michael Müller</authors>
+    <owners>Redsandro</owners>
+    <licenseUrl>http://openhardwaremonitor.org/license/</licenseUrl>
+    <projectUrl>http://openhardwaremonitor.org</projectUrl>
+    <iconUrl>https://raw.github.com/Redsandro/chocolatey/master/openhardwaremonitor/img/openhardwaremonitor.128x128.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>The Open Hardware Monitor is a free open source software that monitors temperature sensors, fan speeds, voltages, load and clock speeds of a computer.</description>
+    <summary>The Open Hardware Monitor is a free open source software that monitors temperature sensors, fan speeds, voltages, load and clock speeds of a computer.</summary>
+    <releaseNotes />
+    <copyright />
+    <tags>hardware monitor admin tools smart foss</tags>
+    <dependencies>
+      <dependency id="Chocolatey" version="0.9.8.23" />
+    </dependencies>
+  </metadata>
+</package>
