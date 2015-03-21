@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
   <metadata>
-    <id>{{PackageName}}</id>
+    <id>openhardwaremonitor</id>
     <title>Open Hardware Monitor</title>
-    <version>{{PackageVersion}}</version>
+    <version>0.7.1</version>
     <authors>Michael Müller</authors>
     <owners>dtgm</owners>
     <summary>Open source software that monitors temperature sensors, fan speeds, voltages, load and clock speeds of a computer</summary>
@@ -18,7 +18,7 @@ Open Hardware Monitor supports most hardware monitoring chips found on todays ma
     <copyright>© 2010 Michael Möller</copyright>
     <licenseUrl>http://openhardwaremonitor.org/license/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/48b0b2e34bc608c6a8b400539b4ac3da3d59378d/icons/{{PackageName}}.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/48b0b2e34bc608c6a8b400539b4ac3da3d59378d/icons/openhardwaremonitor.png</iconUrl>
     <releaseNotes>
 [What's new](http://openhardwaremonitor.org/news/)
     </releaseNotes>
