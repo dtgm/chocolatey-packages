@@ -1,0 +1,53 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<Jobs>
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="b1181a8b-0113-4fb4-a016-c39b503a433f">
+    <WebsiteUrl />
+    <UserAgent />
+    <UserNotes />
+    <LastFileSize>2514510</LastFileSize>
+    <LastFileDate>2014-08-21T22:36:01.2885409</LastFileDate>
+    <IgnoreFileInformation>false</IgnoreFileInformation>
+    <DownloadBeta>Avoid</DownloadBeta>
+    <DownloadDate xsi:nil="true" />
+    <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
+    <VariableChangeIndicator />
+    <CanBeShared>true</CanBeShared>
+    <ShareApplication>false</ShareApplication>
+    <ExclusiveDownload>false</ExclusiveDownload>
+    <HttpReferer />
+    <SetupInstructions />
+    <Variables>
+      <item>
+        <key>
+          <string>version</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>StartEnd</VariableType>
+            <Regex />
+            <Url>http://www.softpedia.com/get/Tweak/System-Tweak/Windows-7-Registry-Tweaker.shtml</Url>
+            <StartText>&lt;span class="appver"&gt;</StartText>
+            <EndText>&lt;/span&gt;</EndText>
+            <TextualContent>2.2.0.183</TextualContent>
+            <Name>version</Name>
+          </UrlVariable>
+        </value>
+      </item>
+    </Variables>
+    <ExecuteCommand />
+    <ExecutePreCommand />
+    <ExecuteCommandType>Batch</ExecuteCommandType>
+    <ExecutePreCommandType>Batch</ExecutePreCommandType>
+    <Category />
+    <SourceType>FixedUrl</SourceType>
+    <PreviousLocation>{workdir}\Windows_Tweaker_5.2-Setup.exe</PreviousLocation>
+    <DeletePreviousFile>true</DeletePreviousFile>
+    <Enabled>false</Enabled>
+    <FileHippoId />
+    <LastUpdated>2014-08-21T22:36:01.2885409</LastUpdated>
+    <TargetPath>D:\chocolatey\_work\</TargetPath>
+    <FixedDownloadUrl>http://tweaker.blob.core.windows.net/downloads/Windows_Tweaker_{version}-Setup.exe</FixedDownloadUrl>
+    <Name>windows-tweaker</Name>
+  </ApplicationJob>
+</Jobs>
