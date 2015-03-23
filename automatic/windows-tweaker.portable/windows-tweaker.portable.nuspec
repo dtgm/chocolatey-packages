@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>Windows Tweaker (Portable)</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Siddharth Srivastava</authors>
+    <owners>dtgm</owners>
+    <summary>Open source program that can tweak many system settings without digging in registry</summary>
+    <description>
+Windows Tweaker is an open source program that can tweak many system settings.  Windows Tweaker has been written in C# and WPF using .net Framework 4.5, to allow users to easily change every possible setting in Windows without having to dig deep into registry.
+
+More than 100+ tweaks that allow you to customize your system and display settings, schedule shutdowns and lots more. Access to more than 35 Windows tools at your fingertip.
+
+[Screenshots](http://www.thewindowstweaker.com/screenshots/)
+[Source code](https://github.com/siddharth96/windows-tweaker)
+    </description>
+    <projectUrl>http://www.thewindowstweaker.com/</projectUrl>
+    <tags>customization tweaker registry</tags>
+    <copyright>Siddharth Srivastava</copyright>
+    <licenseUrl>http://www.gnu.org/licenses/gpl-3.0-standalone.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/5df5d849c2feb6a30225bad1f7a8e27d4cd2fa65/icons/windows-tweaker.png</iconUrl>
+    <releaseNotes>http://www.thewindowstweaker.com/changes/</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
