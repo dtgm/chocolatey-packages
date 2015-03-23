@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>hddguardian.install</id>
+    <title>HDD Guardian (Install)</title>
+    <version>0.6.2</version>
+    <authors>Eruestan</authors>
+    <owners>dtgm</owners>
+    <summary>Utility to monitor your hard drive(s) and SSD(s) health</summary>
+    <description>
+HDD Guardian is a front-end for smartctl, a tool for querying S.M.A.R.T. data of your hard drive. With HDD Guardian you can survey your hard disk health, preventing data loss due to hard drive death.
+
+### Features
+* easy device overview, with temperature, overall health and bad sectors indication
+* display an optional icon into the tray area for each local device
+* HDD Guardian tray icon change shield color if a device is failing
+* monitor virtual devices loaded from a shared smartctl output
+* displays device identity information
+* perform self-test and displays their results
+* allow enabling/disabling S.M.A.R.T., automatic offline data collection (an automatic test performed by device every four hours) and autosave of vendor-specific attributes
+* displays attributes information and graphs
+* displays device error log
+* allow to set device-specific attribute format and firmware debug
+* allow to set warnings behaviour
+* support for external (USB) devices, also in docking stations
+
+[Documentation](http://hddguardian.codeplex.com/documentation)
+[Source code repository](http://hddguardian.codeplex.com/SourceControl/latest)
+    </description>
+    <projectUrl>http://hddguardian.codeplex.com/</projectUrl>
+    <tags>s.m.a.r.t. gui hardware disk reporting monitoring</tags>
+    <copyright>© Eruestan</copyright>
+    <licenseUrl>http://hddguardian.codeplex.com/license</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/78c71f20caf1e55634919ecd0c08db736d06c978/icons/hddguardian.png</iconUrl>
+    <releaseNotes>http://hddguardian.codeplex.com/releases/view/574363</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
