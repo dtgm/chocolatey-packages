@@ -1,19 +1,22 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>mono3</id>
-    <version>3.2.3</version>
     <title>Mono</title>
+    <version>3.2.3</version>
     <authors>Mono Project</authors>
     <owners>Werner van Deventer</owners>
-    <licenseUrl>http://mono-project.com/FAQ:_Licensing</licenseUrl>
-    <projectUrl>http://mono-project.com/</projectUrl>
-    <iconUrl>https://github.com/ferventcoder/nugetpackages/raw/master/mono/mono-logo.png</iconUrl>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Mono, the open source development platform based on the .NET framework, allows developers to build Linux and cross-platform applications with improved developer productivity. Mono's .NET implementation is based on the ECMA standards for C# and the Common Language Infrastructure.</description>
     <summary>Mono, the open source development platform based on the .NET framework.</summary>
-    <releaseNotes />
-    <copyright />
+    <description>Mono, the open source development platform based on the .NET framework, allows developers to build Linux and cross-platform applications with improved developer productivity. Mono's .NET implementation is based on the ECMA standards for C# and the Common Language Infrastructure.</description>
+    <projectUrl>http://mono-project.com/</projectUrl>
     <tags>mono mono3 development cross-platform framework</tags>
+    <copyright></copyright>
+    <licenseUrl>http://mono-project.com/FAQ:_Licensing</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://github.com/ferventcoder/nugetpackages/raw/master/mono/mono-logo.png</iconUrl>
+    <releaseNotes></releaseNotes>
   </metadata>
+  <files>
+    <file src="\**" target="tools" />
+  </files>
 </package>
