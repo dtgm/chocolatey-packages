@@ -4,8 +4,8 @@
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.0</UserAgent>
     <UserNotes />
-    <LastFileSize>26626272</LastFileSize>
-    <LastFileDate>2014-12-01T21:14:54.0291938</LastFileDate>
+    <LastFileSize>26629792</LastFileSize>
+    <LastFileDate>2015-03-13T04:58:16.4121126</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Avoid</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -25,8 +25,8 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex />
-            <Url>https://www.genymotion.com/?ref=release-notes</Url>
+            <Regex>Genymotion-([\d\.]+)</Regex>
+            <Url>https://www.genymotion.com/assets/doc</Url>
             <StartText>    &lt;!--  VERSION </StartText>
             <EndText>  --&gt;</EndText>
             <TextualContent>2.3.1.20141201</TextualContent>
@@ -50,43 +50,15 @@
       </item>
       <item>
         <key>
-          <string>url64</string>
+          <string>cscript</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>x</TextualContent>
-            <Name>url64</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>checksum</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <TextualContent>x</TextualContent>
-            <Name>checksum</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>checksumx64</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <TextualContent>x</TextualContent>
-            <Name>checksumx64</Name>
+            <TextualContent>2</TextualContent>
+            <Name>cscript</Name>
           </UrlVariable>
         </value>
       </item>
@@ -111,11 +83,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>D:\chocolatey\_work\genymotion-2.3.1.exe</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\genymotion-2.4.0.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2014-12-01T21:14:54.0291938</LastUpdated>
+    <LastUpdated>2015-03-13T04:58:16.4121126</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>genymotion</Name>
