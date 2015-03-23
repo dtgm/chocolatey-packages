@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>Fontmatrix</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Pierre Marchand</authors>
+    <owners>dtgm</owners>
+    <summary>Free/libre font explorer and manager</summary>
+    <description>
+Fontmatrix is a free/libre font explorer for Linux, Windows and Mac. It’s for you. Enjoy it and, if you like it, get involved.
+
+According to Haralambous, here is what we can expect a font manager to provide:
+
+> What do we need in order to manage fonts effciently? Imagine that we have thousands of fonts—not an unrealistic proposition, if we work in a graphic-design studio. The following are the most frequent operations that we will have to perform:
+1. Choosing the correct font for our project. At this time, software is not yet able to recommend a font according to the characteristics of the project that we have in mind, but it can help us to create catalogues of type specimens from which our professional experience will allow us to make the right choice.
+2. Finding the font among the thousands in our possession. This operation may be quite delicate because, as we have seen, we often have multiple copies of the same font (or fonts with the same name), in different formats, coming from different foundries, etc. Later in this book, we shall see the differences among font formats and learn which are the most appropriate for each project. For now, what we can expect of a font manager is to present the available choices in a convenient fashion and to give us all the information that we need in order to make the decision.
+3. Enabling the font, and thus allowing our software to make use of it, preferably without having to restart the software or the computer.
+4. Disabling the font once our work is ﬁnished and re-enabling it automatically when we open a ﬁle in which it is used.
+5. Rapidly assembling all of the fonts used in a ﬁle and copying them into a folder near the ﬁle, if the ﬁle is to be sent to a colleague.
+
+[FAQ](http://fontmatrix.be/node/28)
+[Manual](http://fontmatrix.be/node/10)
+[Source code](http://svn.gna.org/svn/undertype/trunk/tools/typotek)
+    </description>
+    <projectUrl>http://fontmatrix.be/</projectUrl>
+    <tags>font manager</tags>
+    <copyright>© 2008 Pierre Marchand</copyright>
+    <licenseUrl>http://svn.gna.org/svn/undertype/trunk/tools/typotek/COPYING</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/4436af6a3f20ad035d7e14772a25bfc8736604cb/icons/{{PackageName}}.svg</iconUrl>
+    <releaseNotes>
+[Development changelog](http://svn.gna.org/svn/undertype/trunk/tools/typotek/ChangeLog)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>wxHexEditor</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Erdem U. Altinyurt</authors>
+    <owners>dtgm</owners>
+    <summary>Hex editor for big files</summary>
+    <description>
+wxHexEditor is another Hex Editor, built because there is no good hex editor for Linux systems, specifically for big files. It supports file sizes up to 2^64 bytes. Written with C++/wxWidgets GUI libs and builds exist for Windows, Mac OS, and Linux.
+
+Hex editors are a way of presenting, visualizing, and editing data within files not designed for textual format.  These files are typically known as binary files.
+
+#### Features
+* Ability to work with files up to 2EB (ExaByte)
+* Multi OS, Cross-Compileable
+* Small footprint on RAM
+* Raw Disk Access (on POSIX systems)
+
+[Wiki](http://wiki.wxhexeditor.org/)
+[Source code](https://sourceforge.net/p/wxhexeditor/code/HEAD/tree/trunk/)
+    </description>
+    <projectUrl>http://www.wxhexeditor.org/</projectUrl>
+    <tags>hex editor file binary text</tags>
+    <copyright>© Erdem U. Altinyurt</copyright>
+    <licenseUrl>https://sourceforge.net/p/wxhexeditor/code/HEAD/tree/trunk/docs/GPL.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/54d0c7882b33f818b812adec4da1338b7e4cf4a2/icons/{{PackageName}}.png</iconUrl>
+    <releaseNotes>
+[What's new](http://wiki.wxhexeditor.org/index.php5?title=Versions) [(mirror)](https://sourceforge.net/p/wxhexeditor/code/HEAD/tree/trunk/docs/Change.log)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
