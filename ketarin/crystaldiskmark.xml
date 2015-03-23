@@ -71,8 +71,8 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes>http://crystalmark.info/download/xyz/CrystalDiskMark{versionurl:replace:.:_}-en.exe </UserNotes>
-    <LastFileSize>1659040</LastFileSize>
-    <LastFileDate>2014-07-05T13:37:39.3608621</LastFileDate>
+    <LastFileSize>1016413</LastFileSize>
+    <LastFileDate>2014-04-05T07:14:47-05:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Avoid</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -91,9 +91,9 @@
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>StartEnd</VariableType>
-            <Regex>(?&lt;=&lt;h2&gt;\[.*CrystalDiskInfo ).*?(?= )</Regex>
-            <Url>http://www.majorgeeks.com/files/details/crystaldiskmark.html</Url>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>CrystalDiskMark\s*([\d\.]{3,})</Regex>
+            <Url>{urlBase}/projects/crystaldiskmark/</Url>
             <StartText>&lt;h1&gt;CrystalDiskMark </StartText>
             <EndText>b  &lt;/h1&gt;</EndText>
             <TextualContent />
@@ -103,17 +103,43 @@
       </item>
       <item>
         <key>
-          <string>versionurl</string>
+          <string>urlBase</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>StartEnd</VariableType>
+            <VariableType>Textual</VariableType>
             <Regex />
-            <Url>http://www.softpedia.com/get/System/Hard-Disk-Utils/CrystalDiskMark.shtml</Url>
-            <StartText>="softwareVersion"&gt;</StartText>
-            <EndText>&lt;/span&gt;</EndText>
-            <Name>versionurl</Name>
+            <TextualContent>http://sourceforge.jp</TextualContent>
+            <Name>urlBase</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>getUrl</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>/?([^ "'&lt;&gt;\*]+\.zip)</Regex>
+            <Url>{urlBase}/projects/crystaldiskmark/</Url>
+            <Name>getUrl</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>getUrlMirror</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>/?(frs/redir\.php[^ "'&lt;&gt;\*]+\.zip)</Regex>
+            <Url>{urlBase}/{getUrl}</Url>
+            <Name>getUrlMirror</Name>
           </UrlVariable>
         </value>
       </item>
@@ -126,8 +152,23 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>http://jaist.dl.sourceforge.jp/crystaldiskmark/46482/CrystalDiskMark{versionurl:replace:.:_}-en.exe</TextualContent>
+            <Url />
+            <TextualContent>http://{getMirror}.dl.sourceforge.jp/{appname}/{getUrlId}/{getUrlFile}</TextualContent>
             <Name>url</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>checksum</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>MD5[:\s]+([A-Fa-f0-9]{32})</Regex>
+            <Url>{urlBase}/{getUrl}</Url>
+            <Name>checksum</Name>
           </UrlVariable>
         </value>
       </item>
@@ -147,15 +188,58 @@
       </item>
       <item>
         <key>
-          <string>cscript</string>
+          <string>getUrlId</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>1</TextualContent>
-            <Name>cscript</Name>
+            <TextualContent>{getUrl:regex:/(\d+)/:1}</TextualContent>
+            <Name>getUrlId</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>getUrlFile</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <Url />
+            <TextualContent>{getUrl:regex:[^/]+\.zip}</TextualContent>
+            <Name>getUrlFile</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url64</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>http://sourceforge.jp/projects/{appname}/downloads/{getUrlId}/{getUrlFile}/</TextualContent>
+            <Name>url64</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>getMirror</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>{getUrlMirror:regex:\?m=([^&amp;]+):1}</TextualContent>
+            <Name>getMirror</Name>
           </UrlVariable>
         </value>
       </item>
@@ -166,12 +250,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>D:\chocolatey\_work\CrystalDiskMark3_0_3b-en.exe</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\CrystalDiskMark3_0_3b.zip</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
-    <Enabled>false</Enabled>
+    <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2014-07-05T13:37:39.3608621</LastUpdated>
-    <TargetPath>D:\chocolatey\_work\</TargetPath>
+    <LastUpdated>2015-03-23T01:18:19.531076-05:00</LastUpdated>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>crystaldiskmark</Name>
   </ApplicationJob>
