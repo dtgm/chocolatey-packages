@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>SpeedFan</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Alfredo Milani Comparetti</authors>
+    <owners>dtgm</owners>
+    <summary>Monitor voltages, fan speeds and temperatures in computers with hardware monitor chips</summary>
+    <description>
+SpeedFan is a program that monitors voltages, fan speeds and temperatures in computers with hardware monitor chips. SpeedFan can even access S.M.A.R.T. info and show hard disk temperatures. SpeedFan supports SCSI disks too. SpeedFan can even change the FSB on some hardware (but this should be considered a bonus feature). SpeedFan can access digital temperature sensors and can change fan speeds accordingly, thus reducing noise. 
+
+[Documentation](http://www.almico.com/sfarticles.php)
+[FAQ](http://www.almico.com/sffaq.php)
+[User forum](http://www.almico.com/forumindex.php)
+    </description>
+    <projectUrl>http://www.almico.com/speedfan.php</projectUrl>
+    <tags>system-monitor smart temperature overclock sensor voltage fan-speed control-fan</tags>
+    <copyright>© 2000 Alfredo Milani Comparetti</copyright>
+    <licenseUrl>http://support.moonpoint.com/downloads/windows/utilities/Hardware/speedfan_4-37-license.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/d1e037cc7c943fda29b9067b3b1c3229d99402ff/icons/{{PackageName}}.png</iconUrl>
+    <releaseNotes>
+[Changelog](http://www.almico.com/sfhistory.php)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="autohotkey.portable" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
