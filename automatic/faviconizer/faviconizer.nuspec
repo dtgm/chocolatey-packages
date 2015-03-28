@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>FavIconizer</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Stefan Kueng</authors>
+    <owners>dtgm</owners>
+    <summary>Persist the icons in your favorites in Internet Explorer</summary>
+    <description>
+If you use Internet Explorer for browsing the web then you know that for some links you add to your favorites, there is an icon indicating the webpage. These are called favicons. But after a while these icons get replaced in the favorites with the standard web icon again because the Microsoft Internet Explorer stores them in the web cache which gets cleaned up according to your settings, usually after a few weeks.
+
+Here's where FavIconizer comes to the rescue. It will scan all links you have in your favorites and check if the website has a favicon. If it has one, FavIconizer will download that icon and adjust the link in the favorites to use that.
+After FavIconizer is finished, you have all the favicons back in your favorites.
+
+[Source code](https://sourceforge.net/p/{{PackageName}}/code/HEAD/tree/)
+    </description>
+    <projectUrl>http://stefanstools.sourceforge.net/FavIconizer.html</projectUrl>
+    <tags>ie favicons</tags>
+    <copyright>© Stefan Kueng</copyright>
+    <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/13f9db1d16dbbb28c620899c975e6508d90fbf1c/icons/{{PackageName}}.ico</iconUrl>
+    <releaseNotes />
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
