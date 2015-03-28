@@ -11,12 +11,12 @@ function Get-UninstallString {
   }
 }
 
+$packageName = '{{PackageName}}'
+$uninstallArgs = '& cmd /c'
+$scriptPath = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
+$ahkFile = Join-Path $scriptPath "$($packageName)Uninstall.ahk"
+$ahkRun = "$Env:Temp\$(Get-Random).ahk"
 try {
-  $packageName = '{{PackageName}}'
-  $uninstallArgs = '& cmd /c'
-  $scriptPath = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
-  $ahkFile = Join-Path $scriptPath "$($packageName)Uninstall.ahk"
-  $ahkRun = "$Env:Temp\$(Get-Random).ahk"
   Copy-Item $ahkFile "$ahkRun" -Force
   Start-Process 'AutoHotKey' $ahkRun
   Start-ChocolateyProcessAsAdmin "$uninstallArgs $(Get-UninstallString)"
