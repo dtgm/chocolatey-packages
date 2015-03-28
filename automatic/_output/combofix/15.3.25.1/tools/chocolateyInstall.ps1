@@ -1,6 +1,6 @@
-﻿$packageName = '{{PackageName}}'
-$url = '{{DownloadUrl}}'
-$checksum = '{{Checksum}}'
+$packageName = 'combofix'
+$url = 'http://download.bleepingcomputer.com/sUBs/ComboFix.exe'
+$checksum = 'c81f708506d08bd057b21562fdd926d19355fa85'
 $checksumType = 'sha1'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $installFile = Join-Path $toolsDir "ComboFix.exe"

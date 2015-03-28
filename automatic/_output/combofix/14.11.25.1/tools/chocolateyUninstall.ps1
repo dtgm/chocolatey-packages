@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+$packageName = 'combofix'
 $desktop = $([System.Environment]::GetFolderPath([System.Environment+SpecialFolder]::DesktopDirectory))
 $shortcut_to_remove = "ComboFix.exe.lnk"
 

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
-    <id>{{PackageName}}</id>
+    <id>combofix</id>
     <title>ComboFix</title>
-    <version>{{PackageVersion}}</version>
+    <version>15.3.25.1</version>
     <authors>sUBs</authors>
     <owners>dtgm</owners>
     <summary>Scans your computer for known malware, and when found, attempts to clean these infections automatically</summary>
@@ -25,7 +25,7 @@ If you do so, it may lead to problems with the normal functionality of your comp
     <copyright></copyright>
     <licenseUrl>http://www.bleepingcomputer.com/user-agreement/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/1f25d7fb778819e076af2529bffc11fa600d1a45/icons/{{PackageName}}.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/1f25d7fb778819e076af2529bffc11fa600d1a45/icons/combofix.png</iconUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
