@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>ares</id>
+    <title>Ares Galaxy</title>
+    <version>2.2.5</version>
+    <authors>lap3k</authors>
+    <owners>tonigellida</owners>
+    <summary></summary>
+    <description>
+Ares is a free open source file sharing program that enables users to share any digital file including images, audio, video, software, documents, etc.
+You may now easily publish your files through the Ares peer to peer network.
+As a member of the virtual community, you can search and download just about any file shared by other users.
+Latest versions support BitTorrent protocol and Shoutcast radio stations.
+With Ares you can also join chat rooms or host your channel and meet new friends.
+	</description>
+    <projectUrl>http://aresgalaxy.sourceforge.net/</projectUrl>
+    <tags>file-sharing peer-to-peer</tags>
+    <copyright></copyright>
+    <licenseUrl>http://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/ares/ares.jpg</iconUrl>
+  </metadata>
+</package>
