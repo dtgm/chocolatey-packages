@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>sumo</id>
+    <title>SUMo</title>
+    <version>3.10.0.222</version>
+    <authors>KC Softwares</authors>
+    <owners>tonigellida</owners>
+    <summary></summary>
+    <description>
+SUMo, which stands for Software Update Monitor. Thanks to SUMo youll be able to keep your PC up-to-date by using the most recent version of your favorite software!
+Unlike build-in auto update features, SUMo tells you if updates are available before you need to use your software.
+
+Features
+
+Automatic detection of installed software
+Detects required updates / patchs for your software
+Filter / authorize Beta versions (user setting)
+Ignore list : only tracks software YOU want to track
+	</description>
+    <projectUrl>http://www.kcsoftwares.com/?sumo</projectUrl>
+    <tags>update-notifier</tags>
+    <copyright></copyright>
+    <licenseUrl>https://softwareula.wordpress.com/category/update-checker/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/sumo/sumo.png</iconUrl>
+  </metadata>
+</package>
