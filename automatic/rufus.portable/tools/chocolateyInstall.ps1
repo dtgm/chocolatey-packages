@@ -12,7 +12,6 @@ try {
                         -ChecksumType "$checksumType"
   Set-Content -Path ("$installFile.gui") `
               -Value $null
-
 } catch {
   throw $_.Exception
 }
