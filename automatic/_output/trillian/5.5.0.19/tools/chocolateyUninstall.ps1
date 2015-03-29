@@ -7,7 +7,7 @@ try {
                             'HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*',
                             'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*' ) `
                    -ErrorAction:SilentlyContinue `
-  | Where-Object   { $_.DisplayName -like "$packageName*" } `
+  | Where-Object   { $_.DisplayName -like "$packageName" } `
   | ForEach-Object { Uninstall-ChocolateyPackage -PackageName "$packageName" `
                                                  -FileType "$installerType" `
                                                  -SilentArgs "$($_.PSChildName) $silentArgs" `
