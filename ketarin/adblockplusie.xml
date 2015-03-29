@@ -1,13 +1,13 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
-  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="26e11003-034b-45cc-9753-9f56a842f162">
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="6b01e54e-f045-44ff-9e82-106a54d964da">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
     <LastFileSize>3981312</LastFileSize>
-    <LastFileDate>2015-03-29T02:22:28.0256513</LastFileDate>
+    <LastFileDate>2015-02-25T11:10:28-06:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
-    <DownloadBeta>Avoid</DownloadBeta>
+    <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
@@ -19,6 +19,20 @@
     <Variables>
       <item>
         <key>
+          <string>nopush</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>--nopush</TextualContent>
+            <Name>nopush</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
           <string>version</string>
         </key>
         <value>
@@ -27,9 +41,6 @@
             <VariableType>RegularExpression</VariableType>
             <Regex>&lt;b&gt;([\d\.]+)</Regex>
             <Url>https://hg.adblockplus.org/adblockplusie/tags</Url>
-            <StartText>&lt;meta name="description" content="Descargar Adblock Plus para Internet Explorer </StartText>
-            <EndText>. </EndText>
-            <TextualContent>1.2.0.20140908</TextualContent>
             <Name>version</Name>
           </UrlVariable>
         </value>
@@ -57,37 +68,8 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>https://downloads.adblockplus.org/adblockplusie-{version}-x64.msi
-</TextualContent>
+            <TextualContent>https://downloads.adblockplus.org/adblockplusie-{version}-x64.msi</TextualContent>
             <Name>url64</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>nopush</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <TextualContent>--nopush</TextualContent>
-            <Name>nopush</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>cscript</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <TextualContent>2</TextualContent>
-            <Name>cscript</Name>
           </UrlVariable>
         </value>
       </item>
@@ -105,6 +87,20 @@
           </UrlVariable>
         </value>
       </item>
+      <item>
+        <key>
+          <string>cscript</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>2</TextualContent>
+            <Name>cscript</Name>
+          </UrlVariable>
+        </value>
+      </item>
     </Variables>
     <ExecuteCommand />
     <ExecutePreCommand />
@@ -113,10 +109,10 @@
     <Category />
     <SourceType>FixedUrl</SourceType>
     <PreviousLocation>C:\ProgramData\chocolatey\_work\adblockplusie-1.4-x86.msi</PreviousLocation>
-    <DeletePreviousFile>false</DeletePreviousFile>
+    <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-03-29T02:22:28.0256513</LastUpdated>
+    <LastUpdated>2015-03-29T02:28:20.6562384-05:00</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>adblockplusie</Name>
