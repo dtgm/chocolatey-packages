@@ -20,5 +20,8 @@ Trillian connects to multiple instant messaging services without the need of run
     <licenseUrl>https://www.trillian.im/eula/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/d1e037cc7c943fda29b9067b3b1c3229d99402ff/icons/{{PackageName}}.png</iconUrl>
+    <releaseNotes>
+[Changelog](https://www.trillian.im/changelog/windows/5.5/)
+    </releaseNotes>
   </metadata>
 </package>

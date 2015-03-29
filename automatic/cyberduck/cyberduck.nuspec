@@ -40,7 +40,4 @@ Connect to every server. With an easy to use interface, connect to:
       <dependency id="{{PackageName}}.install" version="[{{PackageVersion}}]" />
     </dependencies>
   </metadata>
-  <files>
-    <file src="tools\**" target="tools" />
-  </files>
 </package>
