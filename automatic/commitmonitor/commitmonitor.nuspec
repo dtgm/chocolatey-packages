@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
-    <id>commitmonitor.portable</id>
-    <title>CommitMonitor (Portable)</title>
-    <version>1.8.7.831</version>
+    <id>{{PackageName}}</id>
+    <title>CommitMonitor</title>
+    <version>{{PackageVersion}}</version>
     <authors>Stefan Kueng</authors>
     <owners>dtgm</owners>
     <summary>Monitor SVN repositories and notifies you on new commits</summary>
@@ -39,8 +39,8 @@ As already mentioned, CommitMonitor resides in your system tray (if so required)
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/253042e1e4fffee812027fe0cc649c5cddce6435/icons/commitmonitor.png</iconUrl>
     <releaseNotes />
+    <dependencies>
+      <dependency id="{{PackageName}}.install" version="[{{PackageVersion}}]" />
+    </dependencies>
   </metadata>
-  <files>
-    <file src="tools\**" target="tools" />
-  </files>
 </package>
