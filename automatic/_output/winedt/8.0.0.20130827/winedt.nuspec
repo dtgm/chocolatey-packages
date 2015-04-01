@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>winedt</id>
+    <version>8.0.0.20130827</version>
+    <title>WinEdt</title>
+    <authors>Aleksander Simonic</authors>
+    <owners>Dosenpfand</owners>
+    <licenseUrl>http://www.winedt.com/registration.html</licenseUrl>
+    <projectUrl>http://www.winedt.com/</projectUrl>
+    <iconUrl>https://raw.github.com/Dosenpfand/chocolatey-packages/master/WinEdt/WinEdt.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>WinEdt is a powerful and versatile text editor for Windows with a strong predisposition towards the creation of LaTeX documents</description>
+    <summary>WinEdt is a powerful and versatile text editor for Windows with a strong predisposition towards the creation of LaTeX documents</summary>
+    <releaseNotes />
+    <copyright />
+    <tags>WinEdt latex editor</tags>
+  </metadata>
+</package>

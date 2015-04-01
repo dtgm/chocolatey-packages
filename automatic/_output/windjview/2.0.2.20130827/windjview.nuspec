@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>windjview</id>
+    <version>2.0.2.20130827</version>
+    <title>WinDjView</title>
+    <authors>Andrew Zhezherun, Leonid Zhezherun</authors>
+    <owners>Dosenpfand</owners>
+    <licenseUrl>http://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
+    <projectUrl>http://windjview.sourceforge.net/</projectUrl>
+    <iconUrl>https://raw.github.com/Dosenpfand/chocolatey-packages/master/WinDjView/WinDjView.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>WinDjView is a fast, compact and powerful DjVu viewer for Windows with tabbed interface, continuous scrolling and advanced printing options. It uses the free DjVuLibre library to decode DjVu documents. DjVu is a web-centric format and software platform for distributing documents and images.</description>
+    <summary>WinDjView is a fast, compact and powerful DjVu viewer for Windows with tabbed interface, continuous scrolling and advanced printing options. It uses the free DjVuLibre library to decode DjVu documents. DjVu is a web-centric format and software platform for distributing documents and images.</summary>
+    <releaseNotes />
+    <copyright>Copyright 2004-2012 Andrew Zhezherun, Leonid Zhezherun</copyright>
+    <tags>windjview djvu viewer</tags>
+  </metadata>
+</package>

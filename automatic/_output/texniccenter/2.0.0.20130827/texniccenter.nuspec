@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>texniccenter</id>
+    <version>2.0.0.20130827</version>
+    <title>TeXnicCenter</title>
+    <authors>The TeXnicCenter Team</authors>
+    <owners>Dosenpfand</owners>
+    <licenseUrl>http://texniccenter.sourceforge.net/copyright.html#gpl</licenseUrl>
+    <projectUrl>http://www.texniccenter.org/‎</projectUrl>
+    <iconUrl>https://raw.github.com/Dosenpfand/chocolatey-packages/master/TeXnicCenter/TeXnicCenter.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>TeXnicCenter 2 Beta 2 is what we call an integrated documentation environment (IDE) for LaTeX. That means that TeXnicCenter integrates all the functionality you need to create, write, build, fix, view and print your LaTeX documents.
+TeXnicCenter's innovative user interface, its powerful features, its large community (more than 1,000,000 users all over the world) and the fact that it is Free Open Source Software (GPL) makes it the first choice for LaTeX authors working on the Windows platform.</description>
+    <summary>TeXnicCenter 2 Beta 2 is what we call an integrated documentation environment (IDE) for LaTeX. That means that TeXnicCenter integrates all the functionality you need to create, write, build, fix, view and print your LaTeX documents.</summary>
+    <releaseNotes>Beta 2</releaseNotes>
+    <copyright>Copyright 1999-2013 The TeXnicCenter Team</copyright>
+    <tags>texniccenter latex editor ide</tags>
+  </metadata>
+</package>
