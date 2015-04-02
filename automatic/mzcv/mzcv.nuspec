@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>MozillaCookiesView</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm</owners>
+    <summary>Cookies Manager For Mozilla/Firefox/Netscape Browsers</summary>
+    <description>
+MozillaCookiesView is an alternative to the standard 'Cookie Manager' provided by
+Netscape and Mozilla browsers. It displays the details of all cookies stored inside 
+the cookies file (cookies.txt) in one table, and allows you to save the cookies list into
+text, HTML or XML file, delete unwanted cookies, and backup/restore the cookies file.
+    </description>
+    <projectUrl>http://www.nirsoft.net/utils/mzcv.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/mzcv.png</iconUrl>
+    <tags>manager mozilla firefox netscape delete view save backup restore</tags>
+    <copyright>© 2004 NirSoft</copyright>
+    <licenseUrl>http://www.nirsoft.net/utils/mzcv.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[What's New?](http://www.nirsoft.net/utils/mzcv.html)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

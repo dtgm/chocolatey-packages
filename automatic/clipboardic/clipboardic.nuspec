@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>Clipboardic utility</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm</owners>
+    <summary>Save/share your clipboard data</summary>
+    <description>
+Clipboardic is a small utility that listen to the clipboard activity, and each time that you copy something into the clipboard,
+it automatically save the copied data into Windows clipboard file (.clp).
+Later, when you need the copied data again, you can simply select the right clipboard file, and Clipboardic will automatically insert it into the
+clipboard.
+<br>
+Clipboardic also allows you to easily share the clipboard data between multiple computers on your local network.  
+    </description>
+    <projectUrl>http://www.nirsoft.net/utils/clipboardic.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/clipboardic.png</iconUrl>
+    <tags></tags>
+    <copyright>© 2009 NirSoft</copyright>
+    <licenseUrl>http://www.nirsoft.net/utils/clipboardic.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[What's New?](http://www.nirsoft.net/utils/clipboardic.html)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

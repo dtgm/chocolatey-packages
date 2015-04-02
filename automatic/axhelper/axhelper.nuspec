@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>ActiveXHelper</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm</owners>
+    <summary>View/Enable/Disable ActiveX Components</summary>
+    <description>
+ActiveXHelper is a small utility that allows you to view essential information about 
+ActiveX components installed on your computer.
+You can view the entire (and very large !) list of ActiveX components by loading it from
+HKEY_CLASSES_ROOT\CLSID Registry key, or alternatively, display only the ActiveX components that you
+specify.
+In addition, you can temporarily disable specific ActiveX components. 
+When ActiveX components are disabled, they cannot be used by any software, until you enable them again.
+    </description>
+    <projectUrl>http://www.nirsoft.net/utils/axhelper.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/axhelper.png</iconUrl>
+    <tags></tags>
+    <copyright>© 2004 NirSoft</copyright>
+    <licenseUrl>http://www.nirsoft.net/utils/axhelper.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[What's New?](http://www.nirsoft.net/utils/axhelper.html)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

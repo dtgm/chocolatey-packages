@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>Protected Storage PassView</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm</owners>
+    <summary>Recover Protected Storage passwords</summary>
+    <description>
+Protected Storage PassView is a small utility that reveals the passwords stored on your
+computer by Internet Explorer, Outlook Express and MSN Explorer. The passwords are revealed by reading
+the information from the Protected Storage.
+<br>
+Starting from version 1.60, this utility reveals all AutoComplete strings stored in Internet Explorer, not only the AutoComplete password, as in the previous versions.
+    </description>
+    <projectUrl>http://www.nirsoft.net/utils/pspv.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/pspv.png</iconUrl>
+    <tags>storage autocomplete password stored reveal recover crack recovery outlook express internet explorer free freeware</tags>
+    <copyright>© 2002 NirSoft</copyright>
+    <licenseUrl>http://www.nirsoft.net/utils/pspv.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[What's New?](http://www.nirsoft.net/utils/pspv.html)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

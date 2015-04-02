@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>MUICacheView</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm</owners>
+    <summary>Edit/delete MUICache items</summary>
+    <description>
+Each time that you start using a new application, 
+Windows operating system automatically extract the application name from the version resource of the exe file,
+and stores it for using it later, in Registry key known as the 'MuiCache'.
+    </description>
+    <projectUrl>http://www.nirsoft.net/utils/muicache_view.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/muicacheview.png</iconUrl>
+    <tags></tags>
+    <copyright>© 2008 NirSoft</copyright>
+    <licenseUrl>http://www.nirsoft.net/utils/muicache_view.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[What's New?](http://www.nirsoft.net/utils/muicache_view.html)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

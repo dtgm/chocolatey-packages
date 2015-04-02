@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>Access PassView</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm</owners>
+    <summary></summary>
+    <description>
+This utility reveals the database password of every password-protected mdb file that created with Microsoft Access 95/97/2000/XP or with Jet Database Engine 3.0/4.0 .
+It can be very useful if you forgot your Access Database password and you want to recover it.
+    </description>
+    <projectUrl>http://www.nirsoft.net/utils/accesspv.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/accesspv.png</iconUrl>
+    <tags></tags>
+    <copyright>© 2000 NirSoft</copyright>
+    <licenseUrl>http://www.nirsoft.net/utils/accesspv.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[What's New?](http://www.nirsoft.net/utils/accesspv.html)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>WinLister</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm</owners>
+    <summary>display the list of opened windows on your system</summary>
+    <description>
+This utility displays the list of opened windows on your system.
+For each window, some useful information is displayed: the title, the handle of window, location, size, class name, process number,
+the name of the program that created the window, and more...
+<br>
+In addition, you can easily hide, show, close or set to top-most mode the selected windows, or save the windows list to
+text or HTML file.
+    </description>
+    <projectUrl>http://www.nirsoft.net/utils/winlister.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/winlister.png</iconUrl>
+    <tags></tags>
+    <copyright>© 2003 NirSoft</copyright>
+    <licenseUrl>http://www.nirsoft.net/utils/winlister.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[What's New?](http://www.nirsoft.net/utils/winlister.html)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>ShortcutsMan</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm</owners>
+    <summary>Shortcuts Manager for Windows</summary>
+    <description>
+ShortcutsMan displays the details about all shortcuts that you have on your desktop
+and under your start menu.
+Broken shortcuts (shortcuts that point to file that doesn't exist) are automatically 
+painted with pink color.
+You select one or more shortcuts, and then delete them, resolve them or save the shortcut's details
+to HTML/Text/XML file. 
+    </description>
+    <projectUrl>http://www.nirsoft.net/utils/shman.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/shman.png</iconUrl>
+    <tags></tags>
+    <copyright>© 2004 NirSoft</copyright>
+    <licenseUrl>http://www.nirsoft.net/utils/shman.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[What's New?](http://www.nirsoft.net/utils/shman.html)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>StartBlueScreen</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm</owners>
+    <summary>Initiate a Blue Screen of Death (BSOD) in Windows operating system</summary>
+    <description>
+This utility, just as it sounds, allows your to crash the Windows operating system by initiating a Blue Screen of Death
+according to 5 parameters that you specify from command-line.
+    </description>
+    <projectUrl>http://www.nirsoft.net/utils/start_blue_screen.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/startbluescreen.png</iconUrl>
+    <tags></tags>
+    <copyright>© 2007 NirSoft</copyright>
+    <licenseUrl>http://www.nirsoft.net/utils/start_blue_screen.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[What's New?](http://www.nirsoft.net/utils/start_blue_screen.html)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

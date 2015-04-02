@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>ProcessActivityView</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm</owners>
+    <summary>Show file activity summary in the selected process</summary>
+    <description>
+ProcessActivityView creates a summary of all files and folders that the selected process tries to access.
+For each file that the process access, the following information is displayed:
+Number of times that the file was opened and closed, number of read/write calls, total number of
+read/write bytes, the dll that made the last open-file call, and more...
+    </description>
+    <projectUrl>http://www.nirsoft.net/utils/process_activity_view.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/processactivityview.png</iconUrl>
+    <tags></tags>
+    <copyright>© 2008 NirSoft</copyright>
+    <licenseUrl>http://www.nirsoft.net/utils/process_activity_view.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[What's New?](http://www.nirsoft.net/utils/process_activity_view.html)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

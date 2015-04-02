@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>MyUninstaller</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm</owners>
+    <summary>Alternative uninstaller to the standard Windows Add / Remove module</summary>
+    <description>
+MyUninstaller is an alternative uninstaller utility to the standard Add/Remove applet of Windows operating system.
+It displays the list of all installed application, and allows you to uninstall an application, delete an uninstall entry, and
+save the list of all installed applications into a text file or HTML file.<br>
+MyUninstaller also provides additional information for most installed applications that the standard Add/Remove applet doesn't display:
+product name, company, version, uninstall string, installation folder and more.
+    </description>
+    <projectUrl>http://www.nirsoft.net/utils/myuninst.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/myuninst.png</iconUrl>
+    <tags>add remove uninstall uninstaller applet software list control panel delete fast freeware</tags>
+    <copyright>© 2003 NirSoft</copyright>
+    <licenseUrl>http://www.nirsoft.net/utils/myuninst.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[What's New?](http://www.nirsoft.net/utils/myuninst.html)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>pcANYWHERE Hosts Scanner</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm</owners>
+    <summary></summary>
+    <description>
+This small utility can scan any range of 2 IP addresses and show the list of pcANYWHERE
+hosts within that range. It finds the pcANYWHERE hosts by sending a specific UDP packet
+to all hosts in the specified range. <br> 
+You can use this scanner for checking if there are pcANYWHERE hosts running on your TCP/IP network.  <br>
+Be aware that this utility can only detect pcANYWHERE hosts that listens on TCP/IP network.
+It cannot detect pcANYWHERE hosts on other networks.
+    </description>
+    <projectUrl>http://www.nirsoft.net/utils/pcanyscan.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/pcanyscan.png</iconUrl>
+    <tags></tags>
+    <copyright>© 2002 NirSoft</copyright>
+    <licenseUrl>http://www.nirsoft.net/utils/pcanyscan.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[What's New?](http://www.nirsoft.net/utils/pcanyscan.html)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>Take screenshot of Web site and save it to png/jpg/bmp/tiff/gif file</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm</owners>
+    <summary></summary>
+    <description>
+SiteShoter is a small utility that allows you to save a screenshot of any Web page into a file.
+It automatically creates hidden window of Internet Explorer, loads the desired Web page, and than save 
+the entire content of the Web page into an image file (.png, .jpg, .tiff, .bmp or .gif).
+You can also use SiteShoter to convert .html file on your local drive into image file.
+<br>
+You can use SiteShoter in user interface mode, or alternatively, you can run SiteShoter in command-line mode without displaying
+any user interface.
+    </description>
+    <projectUrl>http://www.nirsoft.net/utils/web_site_screenshot.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/siteshoter.png</iconUrl>
+    <tags>screenshot capture image ie gif png</tags>
+    <copyright>© 2008 NirSoft</copyright>
+    <licenseUrl>http://www.nirsoft.net/utils/web_site_screenshot.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[What's New?](http://www.nirsoft.net/utils/web_site_screenshot.html)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

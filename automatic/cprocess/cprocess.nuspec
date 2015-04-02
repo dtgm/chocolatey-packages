@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>CurrProces</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm</owners>
+    <summary>Freeware Process Viewer for Windows</summary>
+    <description>
+CurrProcess utility displays the list of all processes currently running on your system.
+For each process, you can view the list of all modules (DLL files) that the process loads into memory.
+for all processes and modules, additional useful information is also displayed: product name, version, company name, description of the file, the size of the file, and more.
+<br>
+In addition, CurrProcess allows you to do the following actions: 
+
+* Change the priority of a process.
+* Kill a process.
+* Dump memory of process into a text file.
+* Create HTML report containing information about a process with the list of all modules that it loads into memory.
+* Save the list of all running processes into text or HTML file.
+* Copy process or module information to the clipboard.
+    </description>
+    <projectUrl>http://www.nirsoft.net/utils/cprocess.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/cprocess.png</iconUrl>
+    <tags>viewer freeware kill dump memory</tags>
+    <copyright>© 2003 NirSoft</copyright>
+    <licenseUrl>http://www.nirsoft.net/utils/cprocess.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[What's New?](http://www.nirsoft.net/utils/cprocess.html)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

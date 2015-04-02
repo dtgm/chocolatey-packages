@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>OperaPassView</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm</owners>
+    <summary>Recover the passwords stored in Opera Web browser</summary>
+    <description>
+OperaPassView is a small password recovery tool that decrypts the content of the Opera Web browser password file (wand.dat) and 
+displays the list of all Web site passwords stored in this file.
+You can easily select one or more passwords in the OperaPassView window, and then copy the passwords list to the clipboard and save it into
+text/html/csv/xml file.
+    </description>
+    <projectUrl>http://www.nirsoft.net/utils/opera_password_recovery.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/operapassview.png</iconUrl>
+    <tags></tags>
+    <copyright>© 2010 NirSoft</copyright>
+    <licenseUrl>http://www.nirsoft.net/utils/opera_password_recovery.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[What's New?](http://www.nirsoft.net/utils/opera_password_recovery.html)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

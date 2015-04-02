@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>FoldersReport</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm</owners>
+    <summary>Creates report about the folders in your disk</summary>
+    <description>
+The FoldersReport utility scans a drive or a base folder that you select, and 
+displays essential information for each folder that it finds: 
+The size of all files inside the folder, The real files size on the disk, 
+number of files inside the folder, number of hidden files, number of compressed files,
+and number of subfolders.
+You can use this utility to easily find out which folders use the most space in your drive.
+You can scan the folders of your local drives, CD-ROM drives, and network resources
+on a remote computer. 
+    </description>
+    <projectUrl>http://www.nirsoft.net/utils/folrep.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/folrep.png</iconUrl>
+    <tags></tags>
+    <copyright>© 2003 NirSoft</copyright>
+    <licenseUrl>http://www.nirsoft.net/utils/folrep.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[What's New?](http://www.nirsoft.net/utils/folrep.html)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>Capture Flash video (.fl v) and RTSP/MMS streams from Video Web sites (Install)</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm</owners>
+    <summary></summary>
+    <description>
+While watching a video in a Web site, you may sometimes want to save the video into your local drive, 
+and then play it offline later.
+This utility allows you to capture .flv (Flash Video) files and RTSP/MMS video streams while the Web browser download and play them
+inside a Web page. After the entire video file is downloaded and played by the Web browser, the video file is saved in the folder
+that you selected, and you can play it offline later with any Video player.
+    </description>
+    <projectUrl>http://www.nirsoft.net/utils/web_video_capture.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/webvideocap.png</iconUrl>
+    <tags>video flv flash rtsp mms stream windows</tags>
+    <copyright>© 2007 NirSoft</copyright>
+    <licenseUrl>http://www.nirsoft.net/utils/web_video_capture.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[What's New?](http://www.nirsoft.net/utils/web_video_capture.html)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

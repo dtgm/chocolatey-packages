@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>Enterprise Manager PassView</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm</owners>
+    <summary>Recover SQL Server Passwords</summary>
+    <description>
+Enterprise Manager is a graphical tool that allows you to easily configure and manage
+your SQL Server. If you connect your SQL Server by using the SQL Server authentication,
+and you don't select the "Always prompt for login name and password" option, the password
+and the user-name are stored on your Registry.
+    </description>
+    <projectUrl>http://www.nirsoft.net/utils/empv.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/empv.png</iconUrl>
+    <tags></tags>
+    <copyright>© 2002 NirSoft</copyright>
+    <licenseUrl>http://www.nirsoft.net/utils/empv.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[What's New?](http://www.nirsoft.net/utils/empv.html)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>SocketSniff</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm</owners>
+    <summary>Windows Sockets (WinSock) Sniffer</summary>
+    <description>
+SocketSniff allows you to watch the Windows Sockets (WinSock) activity of the selected process.
+<br>
+For each created socket, the following information is displayed:
+socket handle, socket type, local and remote addresses, local and remote ports, total number of send/receive bytes, and more.
+You can also watch the content of each send or receive call, in Ascii mode or as Hex Dump.
+    </description>
+    <projectUrl>http://www.nirsoft.net/utils/socket_sniffer.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/socketsniff.png</iconUrl>
+    <tags></tags>
+    <copyright>© 2008 NirSoft</copyright>
+    <licenseUrl>http://www.nirsoft.net/utils/socket_sniffer.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[What's New?](http://www.nirsoft.net/utils/socket_sniffer.html)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

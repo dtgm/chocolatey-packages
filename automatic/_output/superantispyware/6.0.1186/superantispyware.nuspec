@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>superantispyware</id>
+    <title>SUPERAntiSpyware</title>
+    <version>6.0.1186</version>
+    <authors>SUPERAntiSpyware</authors>
+    <owners>dtgm</owners>
+    <summary>Anti-spyware scanner</summary>
+    <description>
+Detects and remove spyware, adware, malware, trojans, rogue software, worms, rootkits, parasites and other potentially harmful software applications, as well as restore modified system settings.
+    </description>
+    <projectUrl>http://www.superantispyware.com/</projectUrl>
+    <tags>anti-spyware anti-malware adware malware-removal trojans</tags>
+    <copyright>© Support.com Inc.</copyright>
+    <licenseUrl>http://www.superantispyware.com/eula.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/d1e037cc7c943fda29b9067b3b1c3229d99402ff/icons/superantispyware.png</iconUrl>
+    <releaseNotes>
+[Changelog](http://www.superantispyware.com/producthistory.html?id=SUPERANTISPYWAREFREE)
+    </releaseNotes>
+  </metadata>
+</package>

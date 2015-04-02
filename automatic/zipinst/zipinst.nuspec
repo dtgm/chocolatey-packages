@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>ZipInstaller</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm</owners>
+    <summary>Install Windows applications from ZIP file</summary>
+    <description>
+The ZipInstaller utility installs and uninstalls applications
+and utilities that do not provide an internal installation program.
+It automatically extracts all files from the Zip file, copies them to
+the destination folder you select, creates shortcuts in the start menu
+and in your desktop, and adds an uninstall module to allow you to automatically 
+remove the software in the future.
+    </description>
+    <projectUrl>http://www.nirsoft.net/utils/zipinst.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/zipinst.png</iconUrl>
+    <tags>install installer automatic uninstall self-install executables</tags>
+    <copyright>© 2003 NirSoft</copyright>
+    <licenseUrl>http://www.nirsoft.net/utils/zipinst.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[What's New?](http://www.nirsoft.net/utils/zipinst.html)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

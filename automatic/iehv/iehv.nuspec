@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>IE HistoryView</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm</owners>
+    <summary>Freeware Internet Explorer History Viewer</summary>
+    <description>
+Each time that you type a URL in the address bar or click on a link in Internet Explorer browser,
+the URL address is automatically added to the history index file.
+When you type a sequence of characters in the address bar, Internet Explorer automatically
+suggests you all URLs that begins with characters sequence that you typed (unless AutoComplete feature for Web addresses is turned off). 
+However, Internet Explorer doesn't allow you to view and edit the entire URL list that it
+stores inside the history file.
+    </description>
+    <projectUrl>http://www.nirsoft.net/utils/iehv.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/iehv.png</iconUrl>
+    <tags>internet explorer history view url address typed urls visited sites autocomplete</tags>
+    <copyright>© 2003 NirSoft</copyright>
+    <licenseUrl>http://www.nirsoft.net/utils/iehv.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[What's New?](http://www.nirsoft.net/utils/iehv.html)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

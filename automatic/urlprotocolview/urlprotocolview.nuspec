@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>URLProtocolView</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm</owners>
+    <summary>View/Enable/Disable URL protocols</summary>
+    <description>
+URLProtocolView is a simple utility that displays all URL protocols (for example: ftp:, telnet:, mailto:)
+that are currently installed on your system.
+For each URL protocol, the following information is displayed:
+The protocol name, the protocol description, the command-line that is executed when you type or click the
+URL, the product name, and the company name.
+<br>
+This utility also allows you to easily enable/disable the URL protocols.
+    </description>
+    <projectUrl>http://www.nirsoft.net/utils/url_protocol_view.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/urlprotocolview.png</iconUrl>
+    <tags>protocol enable disable</tags>
+    <copyright>© 2007 NirSoft</copyright>
+    <licenseUrl>http://www.nirsoft.net/utils/url_protocol_view.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[What's New?](http://www.nirsoft.net/utils/url_protocol_view.html)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

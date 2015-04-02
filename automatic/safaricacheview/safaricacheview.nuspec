@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>SafariCacheView</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm</owners>
+    <summary>View/extract the cache files of Safari Web browser</summary>
+    <description>
+SafariCacheView is a simple utility for Windows that reads and parses the cache file of Safari Web browser
+(cache.db) and displays the list of all cached files in a simple table.
+Every cache information line includes the following information:
+Filename, Content Type, URL, Content Length, Server Name, Server Time, Expiration Time, Last Modified Time, Content Encoding, 
+and Referrer.
+    </description>
+    <projectUrl>http://www.nirsoft.net/utils/safari_cache_view.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/safaricacheview.png</iconUrl>
+    <tags>web browser view cache.db windows extract</tags>
+    <copyright>© 2011 NirSoft</copyright>
+    <licenseUrl>http://www.nirsoft.net/utils/safari_cache_view.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[What's New?](http://www.nirsoft.net/utils/safari_cache_view.html)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

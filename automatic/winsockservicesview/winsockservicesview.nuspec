@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>WinsockServicesView</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm</owners>
+    <summary>View/disable/enable Winsock service providers</summary>
+    <description>
+This utility displays the details of all Winsock service providers installed on your system.
+For every Winsock service, the following information is displayed: 
+Display Name, Status (Enabled/Disabled), DLL Type (32-bit or 64-bit), DLL Filename, DLL Description/Version, and
+Created/Modified Time.
+<br>
+WinsockServicesView also allows you to easily disable/enable a Winsock service provider.
+    </description>
+    <projectUrl>http://www.nirsoft.net/utils/winsock_service_providers.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/winsockservicesview.png</iconUrl>
+    <tags>disable enable winsock service provider</tags>
+    <copyright>© 2012 NirSoft</copyright>
+    <licenseUrl>http://www.nirsoft.net/utils/winsock_service_providers.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[What's New?](http://www.nirsoft.net/utils/winsock_service_providers.html)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

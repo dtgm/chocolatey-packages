@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>FirefoxDownloadsView</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm</owners>
+    <summary>View the details of files downloaded with Firefox</summary>
+    <description>
+This utility displays the list of the latest files that you downloaded with Firefox.
+For every download record, the following information is displayed:
+Download URL, Download Filename (with full path), Referrer, MIME Type, File Size, Start/End Time, Download Duration, and Average Download Speed.
+    </description>
+    <projectUrl>http://www.nirsoft.net/utils/firefox_downloads_view.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/firefoxdownloadsview.png</iconUrl>
+    <tags>latest firefox downloads url filename size time</tags>
+    <copyright>© 2011 NirSoft</copyright>
+    <licenseUrl>http://www.nirsoft.net/utils/firefox_downloads_view.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[What's New?](http://www.nirsoft.net/utils/firefox_downloads_view.html)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>ActiveX Compatibility Manager</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm</owners>
+    <summary>disable/enable ActiveX components on IE</summary>
+    <description>
+This utility allows you to easily disable/enable ActiveX components on Internet Explorer browser.
+<br>
+It disables the desired ActiveX component by setting the &quot;kill bit&quot; of the desired CLSID under
+the following Registry key: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility 
+<br>
+For more information about this Registry key, read <a href="http://support.microsoft.com/default.aspx?kbid=240797" target="ms240797">this Microsoft article</a>
+    </description>
+    <projectUrl>http://www.nirsoft.net/utils/acm.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/acm.png</iconUrl>
+    <tags></tags>
+    <copyright>© 2004 NirSoft</copyright>
+    <licenseUrl>http://www.nirsoft.net/utils/acm.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[What's New?](http://www.nirsoft.net/utils/acm.html)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

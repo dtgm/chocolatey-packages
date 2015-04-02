@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>View the installed drivers list on Windows operating system</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm</owners>
+    <summary></summary>
+    <description>
+InstalledDriversList is a simple tool for Windows that lists all device drivers that are currently installed on your system.
+For every device driver, the following information is displayed:
+Driver Name, Display Name, Description, Startup Type, Driver type, Driver Group, Filename, File Size, Modified/Created Time of the driver file, 
+and version information of the driver file.
+<br>
+If the driver is currently running on Windows kernel, the following information is also displayed:
+Base Memory Address, End Address, Memory Size, and Load Count.
+    </description>
+    <projectUrl>http://www.nirsoft.net/utils/installed_drivers_list.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/installeddriverslist.png</iconUrl>
+    <tags>drivers list windows running</tags>
+    <copyright>© 2014 NirSoft</copyright>
+    <licenseUrl>http://www.nirsoft.net/utils/installed_drivers_list.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[What's New?](http://www.nirsoft.net/utils/installed_drivers_list.html)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>Dialupass</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm</owners>
+    <summary>Recover lost dialup/RAS/VPN password in Windows XP/Vista</summary>
+    <description>
+This utility enumerates all dialup/VPN entries on your computers, and displays 
+their logon details: User Name, Password, and Domain.
+You can use it to recover a lost password of your Internet connection or VPN.
+<br>
+Dialupass also allows you to save the dialup/VPN list into text/html/csv/xml file, or copy it to the clipboard.
+    </description>
+    <projectUrl>http://www.nirsoft.net/utils/dialupass.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/dialupass.png</iconUrl>
+    <tags>dialup vpn password recover vista windows</tags>
+    <copyright>© 2001 NirSoft</copyright>
+    <licenseUrl>http://www.nirsoft.net/utils/dialupass.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[What's New?](http://www.nirsoft.net/utils/dialupass.html)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

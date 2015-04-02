@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>Disable/enable codec drivers and DirectShow filters installed on your system</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm</owners>
+    <summary></summary>
+    <description>
+InstalledCodec is a small utility displays the list of all Codec drivers and DirectShow filters currently installed on your system.
+For each component the following information is displayed: Display Name, Type, Disabled Status, Installed/Modified Time,
+Description, Company Name, Filename, and more...
+<br> 
+It allows you to easily disable or enable any Codec/DirectShow component or export the list into text/xml/html file.
+    </description>
+    <projectUrl>http://www.nirsoft.net/utils/installed_codec.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/installedcodec.png</iconUrl>
+    <tags></tags>
+    <copyright>© 2007 NirSoft</copyright>
+    <licenseUrl>http://www.nirsoft.net/utils/installed_codec.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[What's New?](http://www.nirsoft.net/utils/installed_codec.html)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

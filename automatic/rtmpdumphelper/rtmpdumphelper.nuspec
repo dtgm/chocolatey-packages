@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>RTMPDumpHelper</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm</owners>
+    <summary>Download RTMP video/audio streams with RTMPDump toolkit</summary>
+    <description>
+RTMPDumpHelper is a small utility that can help you to easily download RTMP video/audio streams.
+
+By combining this utility and the proxy server of <a href="http://rtmpdump.mplayerhq.hu" target="rtmpdump">RTMPDump toolkit</a>, 
+you can simply open a Web page containing RTMP video stream in your favorite Web browser, 
+and while watching the video, it'll be saved to your disk automatically as .flv or .mp4 file.
+
+<br>
+RTMP is a streaming protocol used by Hulu, justin.tv, and by many live streaming Web sites.
+    </description>
+    <projectUrl>http://www.nirsoft.net/utils/rtmp_dump_helper.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/rtmpdumphelper.png</iconUrl>
+    <tags>dump helper video stream web browser</tags>
+    <copyright>© 2012 NirSoft</copyright>
+    <licenseUrl>http://www.nirsoft.net/utils/rtmp_dump_helper.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[What's New?](http://www.nirsoft.net/utils/rtmp_dump_helper.html)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>IE PassView (Install)</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm</owners>
+    <summary>Password Manager Program for Internet Explorer</summary>
+    <description>
+IE PassView is a small password management utility that reveals the passwords stored by Internet Explorer Web browser, and allows you to delete passwords that you don't need anymore.
+It supports all versions of Internet Explorer, from version 4.0 and up to 11.0.
+<br>
+For each password that is stored by Internet Explorer, the following information is displayed:
+Web address, Password Type (AutoComplete, Password-Protected Web Site, or FTP), Storage Location
+(Registry, Credentials File, or Protected Storage), and the user name/password pair.
+You can select one or more items from the passwords list and export them into text/html/csv/xml file.
+    </description>
+    <projectUrl>http://www.nirsoft.net/utils/internet_explorer_password.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/iepv.png</iconUrl>
+    <tags>password manager program delete view recover internet explorer</tags>
+    <copyright>© 2006 NirSoft</copyright>
+    <licenseUrl>http://www.nirsoft.net/utils/internet_explorer_password.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[What's New?](http://www.nirsoft.net/utils/internet_explorer_password.html)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

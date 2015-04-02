@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>AddrView</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm</owners>
+    <summary>extract URL addresses from HTML pages</summary>
+    <description>
+AddrView allows you to parse HTML pages and extract most URL addresses stored in them.
+AddrView extracts URLs of images (&lt;img&gt; tag), links to other files (&lt;a&gt; tag),
+CSS files, frames, Flash files, and more.
+<br>
+You can save the extracted addresses list to text, HTML or XML files, or add these
+addresses to your Favorities.
+    </description>
+    <projectUrl>http://www.nirsoft.net/utils/addrview.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/addrview.png</iconUrl>
+    <tags></tags>
+    <copyright>© 2004 NirSoft</copyright>
+    <licenseUrl>http://www.nirsoft.net/utils/addrview.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[What's New?](http://www.nirsoft.net/utils/addrview.html)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

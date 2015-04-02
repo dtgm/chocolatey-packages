@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>WinUpdatesList (Portable)</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm</owners>
+    <summary>View Windows Updates (Service Packs and Hotfixes)</summary>
+    <description>
+WinUpdatesList displays the list of all Windows updates (Service Packs and Hotfixes)
+installed on your local computer. For hotfix updates, this utility also displays the
+list of files updated with these hotfixes.
+In addition, it allows you to instantly open the Web link in Microsoft Web site that
+provides more information about the selected update, uninstall an update, copy the update information to the
+clipboard, or save it to text/HTML/XML file. 
+    </description>
+    <projectUrl>http://www.nirsoft.net/utils/wul.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/wul.png</iconUrl>
+    <tags>updates service packs hotfixes hot fixes list save html xml uninstall</tags>
+    <copyright>© 2004 NirSoft</copyright>
+    <licenseUrl>http://www.nirsoft.net/utils/wul.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[What's New?](http://www.nirsoft.net/utils/wul.html)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

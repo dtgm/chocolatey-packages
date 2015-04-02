@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>SimpleProgramDebugger</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm</owners>
+    <summary>Simple program debugger that shows all debug events</summary>
+    <description>
+SimpleProgramDebugger is a simple debugging tool for Windows that attaches to existing running program or starts a new program in debugging mode, and then
+displays all major debugging events occurs while the program is running, including Exception, Create Thread, Create Process, Exit Thread, Exit Process,
+Load DLL, Unload Dll, and Debug String.
+<br>
+After the debugging events are accumulated, you can easily export them into comma-delimited/tab-delimited/xml/html file or copy them to the
+clipboard and then paste them into Excel or any other spreadsheet application.
+    </description>
+    <projectUrl>http://www.nirsoft.net/utils/simple_program_debugger.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/simpleprogramdebugger.png</iconUrl>
+    <tags>winodws debugger program debug events</tags>
+    <copyright>© 2014 NirSoft</copyright>
+    <licenseUrl>http://www.nirsoft.net/utils/simple_program_debugger.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[What's New?](http://www.nirsoft.net/utils/simple_program_debugger.html)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

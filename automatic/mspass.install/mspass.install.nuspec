@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>MessenPas (Install)</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm</owners>
+    <summary>Instant Messenger Password Recovery Tool</summary>
+    <description>
+MessenPass is a password recovery tool that reveals the passwords of the following instant messenger applications:
+
+* MSN Messenger
+* Windows Messenger (In Windows XP)
+* Windows Live Messenger (In Windows XP/Vista/7)
+* Yahoo Messenger (Versions 5.x and 6.x)
+* Google Talk
+* ICQ Lite 4.x/5.x/2003
+* AOL Instant Messenger v4.6 or below, AIM 6.x, and AIM Pro.
+* Trillian
+* Trillian Astra
+* Miranda
+* GAIM/Pidgin
+* MySpace IM
+* PaltalkScene
+* Digsby
+
+MessenPass can only be used to recover the passwords for the current logged-on user on your local computer, and it only works if you chose the remember your password in one of the above programs.
+You cannot use this utility for grabbing the passwords of other users. 
+    </description>
+    <projectUrl>http://www.nirsoft.net/utils/mspass.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/mspass.png</iconUrl>
+    <tags>recovery recover instant messenger im lost crack msn icq yahoo trillian tools utilities freeware</tags>
+    <copyright>© 2004 NirSoft</copyright>
+    <licenseUrl>http://www.nirsoft.net/utils/mspass.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[What's New?](http://www.nirsoft.net/utils/mspass.html)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

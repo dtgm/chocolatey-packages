@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>CustomExplorerToolbar</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm</owners>
+    <summary>Add Copy/Cut/Paste buttons to the Explorer toolbar of Windows 7</summary>
+    <description>
+CustomExplorerToolbar is small utility for Windows 7 only, which allows you to 
+easily customize the toolbar of Windows Explorer, and
+ add buttons that were existed in previous versions of Windows, 
+ like Copy, Cut, Paste, Select All, and more.
+<br>
+This utility also allows you to remove the toolbar buttons that you
+previously added.
+    </description>
+    <projectUrl>http://www.nirsoft.net/utils/custom_explorer_toolbar.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/customexplorertoolbar.png</iconUrl>
+    <tags>explorer toolbar windows copy paste cut</tags>
+    <copyright>© 2011 NirSoft</copyright>
+    <licenseUrl>http://www.nirsoft.net/utils/custom_explorer_toolbar.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[What's New?](http://www.nirsoft.net/utils/custom_explorer_toolbar.html)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

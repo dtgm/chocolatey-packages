@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>WhatInStartup</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm</owners>
+    <summary>Disable/delete programs at Windows startup</summary>
+    <description>
+This utility displays the list of all applications that are loaded automatically when Windows starts up.
+For each application, the following information is displayed: Startup Type (Registry/Startup Folder), Command-Line String, Product Name, File Version, Company Name, 
+Location in the Registry or file system, and more.
+<br>
+It allows you to easily disable or delete unwanted programs that run in your Windows startup. 
+You can use it on your currently running instance of Windows, as well as you can use it on external instance of Windows in
+another drive. 
+<br>
+WhatInStartup also supports a special &quot;Permanent Disabling&quot; feature - If a program that you previously disabled 
+added itself again to the startup list of Windows, WhatInStartup will automatically detect the change and disable it again.
+    </description>
+    <projectUrl>http://www.nirsoft.net/utils/what_run_in_startup.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/whatinstartup.png</iconUrl>
+    <tags>folders windows registry disable delete programs external</tags>
+    <copyright>© 2009 NirSoft</copyright>
+    <licenseUrl>http://www.nirsoft.net/utils/what_run_in_startup.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[What's New?](http://www.nirsoft.net/utils/what_run_in_startup.html)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

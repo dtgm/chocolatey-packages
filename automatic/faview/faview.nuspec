@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>FavoritesView</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm</owners>
+    <summary>Favorites/Bookmarks Manager for Internet Explorer and Mozilla Firefox</summary>
+    <description>
+FavoritesView displays the list of all your Favorties (of Internet Explorer browser) and bookmarks (of Netscape/Mozilla browsers)
+in a single page. Each line in the list specifies the title of the item, the URL address, the created/modified date of the bookmark item, and the folder name.
+You select one or more of these bookmarks, and then copy them to the clipboard, delete them (Only for Internet Explorer Favorites), export them to tab-delimited text file, HTML file, or XML file.
+FavoritesView also allows you to locate duplicate URL addresses in your Favorites/Bookmarks or find specific item by specifying the URL or the title.  
+    </description>
+    <projectUrl>http://www.nirsoft.net/utils/faview.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/faview.png</iconUrl>
+    <tags></tags>
+    <copyright>© 2004 NirSoft</copyright>
+    <licenseUrl>http://www.nirsoft.net/utils/faview.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[What's New?](http://www.nirsoft.net/utils/faview.html)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
