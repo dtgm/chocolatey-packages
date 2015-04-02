@@ -1,18 +1,18 @@
 *~
+*.bak
+*.cache
+*.nupkg
+*.orig
 *.swp
 *.swo
 *.suo
-*.bak
-*.orig
+*.work
 *-orig.*
-*.nupkg
 Thumbs.db
 .DS_Store
 _ReSharper*
 *.resharper
-*.cache
+New folder*
+New Text Document*.txt
 obj
-
-manual/wfn
-manual/stunnel
-automatic/working
+*/working
