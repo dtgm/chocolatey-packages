@@ -9,9 +9,11 @@
     <summary>Host Names/IP Addresses/MAC Address Scanner</summary>
     <description>
 FastResolver is a small utility that resolves multiple host names into IP addresses and vice versa.
-You can simply type the list of IP addresses or host name that you want to resolve, 
-or alternatively, you can specify IP addresses range that you want to scan.
+
+You can simply type the list of IP addresses or host name that you want to resolve, or alternatively, you can specify IP addresses range that you want to scan.
+
 For local network, FastResolver also allows you to get the MAC address of all IP addresses that you scan.
+
 FastResolver is a multithreaded application, so it can resolve dozens of addresses within a few seconds.
     </description>
     <projectUrl>http://www.nirsoft.net/utils/fastresolver.html</projectUrl>

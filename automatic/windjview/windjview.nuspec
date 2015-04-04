@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{packageName}}</id>
+    <title>WinDjView</title>
+    <version>{{packageVersion}}</version>
+    <authors>Andrew Zhezherun, Leonid Zhezherun</authors>
+    <owners>dtgm</owners>
+    <summary>A fast, compact, and powerful DjVu viewer</summary>
+    <description>
+WinDjView is a fast, compact and powerful DjVu viewer for Windows with tabbed interface, continuous scrolling and advanced printing options. It uses the free DjVuLibre library to decode DjVu documents. DjVu is a web-centric format and software platform for distributing documents and images.
+
+[Source code](https://sourceforge.net/p/windjview/code/)
+    </description>
+    <projectUrl>http://windjview.sourceforge.net/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2cd7b088935b5385402c8bd43a3c8097d57c7dac/icons/{{packageName}}.png</iconUrl>
+    <tags>djvu viewer</tags>
+    <copyright>© 2004 Andrew Zhezherun, Leonid Zhezherun</copyright>
+    <licenseUrl>http://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>https://sourceforge.net/p/windjview/news/</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

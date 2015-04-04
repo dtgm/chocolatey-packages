@@ -8,9 +8,10 @@
     <owners>dtgm</owners>
     <summary>Recover lost WEP/WPA key/password stored by Wireless Zero Configuration service</summary>
     <description>
-WirelessKeyView recovers all wireless network security keys/passwords (WEP/WPA) stored in your computer by the 
-'Wireless Zero Configuration' service of Windows XP or by the 'WLAN AutoConfig' service of Windows Vista, Windows 7, Windows 8, and Windows Server 2008.
+WirelessKeyView recovers all wireless network security keys/passwords (WEP/WPA) stored in your computer by the 'Wireless Zero Configuration' service of Windows XP or by the 'WLAN AutoConfig' service of Windows Vista, Windows 7, Windows 8, and Windows Server 2008.
+
 It allows you to easily save all keys to text/html/xml file, or copy a single key to the clipboard.
+
 You can also export your wireless keys into a file and import these keys into another computer.
     </description>
     <projectUrl>http://www.nirsoft.net/utils/wireless_key.html</projectUrl>

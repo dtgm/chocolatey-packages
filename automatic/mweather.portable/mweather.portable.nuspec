@@ -9,8 +9,10 @@
     <summary>decode METAR world weather reports</summary>
     <description>
 The MetarWeather utility decodes METAR weather reports from around the world, 
-and displays them in a simple weather report table.  
+and displays them in a simple weather report table.
+
 You can save the weather report into text, HTML or XML files.
+
 MetarWeather can decode METAR reports from a text file, or download the latest
 reports directly from the Internet.
     </description>

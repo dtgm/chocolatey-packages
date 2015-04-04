@@ -9,14 +9,14 @@
     <summary>Windows Sockets (WinSock) Sniffer</summary>
     <description>
 SocketSniff allows you to watch the Windows Sockets (WinSock) activity of the selected process.
-<br>
-For each created socket, the following information is displayed:
-socket handle, socket type, local and remote addresses, local and remote ports, total number of send/receive bytes, and more.
+
+For each created socket, the following information is displayed: socket handle, socket type, local and remote addresses, local and remote ports, total number of send/receive bytes, and more.
+
 You can also watch the content of each send or receive call, in Ascii mode or as Hex Dump.
     </description>
     <projectUrl>http://www.nirsoft.net/utils/socket_sniffer.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/socketsniff.png</iconUrl>
-    <tags></tags>
+    <tags>network winsock sniffer</tags>
     <copyright>© 2008 NirSoft</copyright>
     <licenseUrl>http://www.nirsoft.net/utils/socket_sniffer.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

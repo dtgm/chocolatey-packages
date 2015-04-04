@@ -8,16 +8,13 @@
     <owners>dtgm</owners>
     <summary>Clean Registry entries and files in your system</summary>
     <description>
-CleanAfterMe allows you to easily clean files and Registry entries that are automatically 
-created by the Windows operating system during your regular computer work.
-<br>
-With CleanAfterMe, you can clean the cookies/history/cache/passwords of Internet Explorer,
-the 'Recent' folder, the Registry entries that record the last opened files, 
-the temporary folder of Windows, the event logs, the Recycle Bin, and more.
+CleanAfterMe allows you to easily clean files and Registry entries that are automatically created by the Windows operating system during your regular computer work.
+
+With CleanAfterMe, you can clean the cookies/history/cache/passwords of Internet Explorer, the 'Recent' folder, the Registry entries that record the last opened files, the temporary folder of Windows, the event logs, the Recycle Bin, and more.
     </description>
     <projectUrl>http://www.nirsoft.net/utils/clean_after_me.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/cleanafterme.png</iconUrl>
-    <tags>registry files command-line ie freeware</tags>
+    <tags>cli registry files ie freeware</tags>
     <copyright>© 2008 NirSoft</copyright>
     <licenseUrl>http://www.nirsoft.net/utils/clean_after_me.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

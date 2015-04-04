@@ -9,12 +9,12 @@
     <summary>Display MIME types information in your system</summary>
     <description>
 This utility displays the list of all MIME types defined in your system.
-For each MIME type, information about the associated file extension and installed plugin 
-is also displayed.
+
+For each MIME type, information about the associated file extension and installed plugin is also displayed.
     </description>
     <projectUrl>http://www.nirsoft.net/utils/mimeview.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/mimeview.png</iconUrl>
-    <tags></tags>
+    <tags>mime viewer</tags>
     <copyright>© 2003 NirSoft</copyright>
     <licenseUrl>http://www.nirsoft.net/utils/mimeview.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

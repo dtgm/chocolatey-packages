@@ -8,15 +8,13 @@
     <owners>dtgm</owners>
     <summary>Set the Modified Time of folders according the time of the files stored in it</summary>
     <description>
-FolderTimeUpdate is a simple tool for Windows that scans all files and folders under the base folder you choose, and updates
-the 'Modified Time' of every folder according the latest modified time of the files stored in it.
-<br>
-This tool might be useful if, for example, you backup a cluster of folders and then restore them into another disk,
-but the backup program doesn't restore the original modified time of the folders.
+FolderTimeUpdate is a simple tool for Windows that scans all files and folders under the base folder you choose, and updates the 'Modified Time' of every folder according the latest modified time of the files stored in it.
+
+This tool might be useful if, for example, you backup a cluster of folders and then restore them into another disk, but the backup program doesn't restore the original modified time of the folders.
     </description>
     <projectUrl>http://www.nirsoft.net/utils/folder_time_update.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/foldertimeupdate.png</iconUrl>
-    <tags>folder time update modified</tags>
+    <tags>folder time update</tags>
     <copyright>© 2014 NirSoft</copyright>
     <licenseUrl>http://www.nirsoft.net/utils/folder_time_update.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

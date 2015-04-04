@@ -8,12 +8,10 @@
     <owners>dtgm</owners>
     <summary>Capture POP3/IMAP/SMTP/FTP/HTTP passwords</summary>
     <description>
-SniffPass is small password monitoring software that listens to your network, capture
-the passwords that pass through your network adapter, and display them on the screen instantly.
-SniffPass can capture the passwords of the following Protocols:
-POP3, IMAP4, SMTP, FTP, and HTTP (basic authentication passwords).
+SniffPass is small password monitoring software that listens to your network, capture the passwords that pass through your network adapter, and display them on the screen instantly.
 
-<br>
+SniffPass can capture the passwords of the following Protocols: POP3, IMAP4, SMTP, FTP, and HTTP (basic authentication passwords).
+
 You can use this utility to recover lost Web/FTP/Email passwords.
     </description>
     <projectUrl>http://www.nirsoft.net/utils/password_sniffer.html</projectUrl>

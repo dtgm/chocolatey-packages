@@ -8,16 +8,13 @@
     <owners>dtgm</owners>
     <summary>Freeware Internet Explorer History Viewer</summary>
     <description>
-Each time that you type a URL in the address bar or click on a link in Internet Explorer browser,
-the URL address is automatically added to the history index file.
-When you type a sequence of characters in the address bar, Internet Explorer automatically
-suggests you all URLs that begins with characters sequence that you typed (unless AutoComplete feature for Web addresses is turned off). 
-However, Internet Explorer doesn't allow you to view and edit the entire URL list that it
-stores inside the history file.
+Each time that you type a URL in the address bar or click on a link in Internet Explorer browser, the URL address is automatically added to the history index file.
+
+When you type a sequence of characters in the address bar, Internet Explorer automatically suggests you all URLs that begins with characters sequence that you typed (unless AutoComplete feature for Web addresses is turned off). However, Internet Explorer doesn't allow you to view and edit the entire URL list that it stores inside the history file.
     </description>
     <projectUrl>http://www.nirsoft.net/utils/iehv.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/iehv.png</iconUrl>
-    <tags>internet explorer history view url address typed urls visited sites autocomplete</tags>
+    <tags>internet explorer ie history view</tags>
     <copyright>© 2003 NirSoft</copyright>
     <licenseUrl>http://www.nirsoft.net/utils/iehv.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

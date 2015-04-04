@@ -8,14 +8,13 @@
     <owners>dtgm</owners>
     <summary>Simple editor/designer for HTML files</summary>
     <description>
-HtmlDocEdit is a simple HTML designer/editor based on the Internet Explorer browser, that allows
-you to easily edit HTML files without any knowledge in HTML.
-with HtmlDocEdit you can change the font/color of selected text, add images, add links, add ordered and 
-unordered lists, and more...
+HtmlDocEdit is a simple HTML designer/editor based on the Internet Explorer browser, that allows you to easily edit HTML files without any knowledge in HTML.
+
+With HtmlDocEdit you can change the font/color of selected text, add images, add links, add ordered and unordered lists, and more...
     </description>
     <projectUrl>http://www.nirsoft.net/utils/html_doc_edit.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/htmldocedit.png</iconUrl>
-    <tags></tags>
+    <tags>html editor</tags>
     <copyright>© 2008 NirSoft</copyright>
     <licenseUrl>http://www.nirsoft.net/utils/html_doc_edit.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

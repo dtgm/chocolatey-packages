@@ -8,13 +8,11 @@
     <owners>dtgm</owners>
     <summary>Displays general information and statistics about an active wifi connection</summary>
     <description>
-WirelessConnectionInfo is a simple tool for Windows Vista/7/8/2008 that displays general information and statistics about the active wifi connection, including the
-SSID, BSSID, PHY Type, Signal Quality, Receiving rate, Transmission Rate, Authentication Algorithm, Channel Number, Total number of
-transmitted/received frames, and more...
+WirelessConnectionInfo is a simple tool for Windows Vista/7/8/2008 that displays general information and statistics about the active wifi connection, including the SSID, BSSID, PHY Type, Signal Quality, Receiving rate, Transmission Rate, Authentication Algorithm, Channel Number, Total number of transmitted/received frames, and more...
     </description>
     <projectUrl>http://www.nirsoft.net/utils/wireless_connection_information.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/wirelessconnectioninfo.png</iconUrl>
-    <tags>wireless connection information statistics</tags>
+    <tags>wifi connection info statistics</tags>
     <copyright>© 2015 NirSoft</copyright>
     <licenseUrl>http://www.nirsoft.net/utils/wireless_connection_information.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

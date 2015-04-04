@@ -8,15 +8,13 @@
     <owners>dtgm</owners>
     <summary>Monitor folder/drive/files changes on Windows</summary>
     <description>
-FolderChangesView is a simple tool that monitors the folder or disk drive that you choose and lists every filename that 
-is being modified, created, or deleted while the folder is being monitored.
-<br>
-You can use FolderChangesView with any local disk drive or with a remote network share, as long as you have read permission 
-to the selected folder.
+FolderChangesView is a simple tool that monitors the folder or disk drive that you choose and lists every filename that is being modified, created, or deleted while the folder is being monitored.
+
+You can use FolderChangesView with any local disk drive or with a remote network share, as long as you have read permission to the selected folder.
     </description>
     <projectUrl>http://www.nirsoft.net/utils/folder_changes_view.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/folderchangesview.png</iconUrl>
-    <tags>folder file changes view modified deleted created windows</tags>
+    <tags>folder file changes</tags>
     <copyright>© 2012 NirSoft</copyright>
     <licenseUrl>http://www.nirsoft.net/utils/folder_changes_view.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

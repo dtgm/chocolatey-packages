@@ -8,19 +8,17 @@
     <owners>dtgm</owners>
     <summary>View process threads information On Windows</summary>
     <description>
-ProcessThreadsView is a small utility that displays extensive information
-about all threads of the process that you choose.
-The threads information includes the ThreadID, Context Switches Count, Priority, Created Time,
-User/Kernel Time, Number of Windows, Window Title, Start Address, and more.
-<br>
-When selecting a thread in the upper pane, the lower pane displays the following information:
-Strings found in the stack, stack modules addresses, call stack, and processor registers.
-<br>
+ProcessThreadsView is a small utility that displays extensive information about all threads of the process that you choose.
+
+The threads information includes the ThreadID, Context Switches Count, Priority, Created Time, User/Kernel Time, Number of Windows, Window Title, Start Address, and more.
+
+When selecting a thread in the upper pane, the lower pane displays the following information: Strings found in the stack, stack modules addresses, call stack, and processor registers.
+
 ProcessThreadsView also allows you to suspend and resume one or more threads.
     </description>
     <projectUrl>http://www.nirsoft.net/utils/process_threads_view.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/processthreadsview.png</iconUrl>
-    <tags>threads information registers strings call stack windows</tags>
+    <tags>process threads registers strings call stack</tags>
     <copyright>© 2011 NirSoft</copyright>
     <licenseUrl>http://www.nirsoft.net/utils/process_threads_view.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

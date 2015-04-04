@@ -8,11 +8,10 @@
     <owners>dtgm</owners>
     <summary>View your search engine query in Google and others</summary>
     <description>
-MyLastSearch utility scans the cache and history files of your Web browser, and locate all search queries that you
-made with the most popular search engines (Google, Yahoo and MSN) and with popular social networking sites (Twitter, Facebook, MySpace).
-The search queries that you made are displayed in a table with the following columns: 
-Search Text, Search Engine, Search Time, Search Type (General, Video, Images), Web Browser, and the search URL.
-<br>
+MyLastSearch utility scans the cache and history files of your Web browser, and locate all search queries that you made with the most popular search engines (Google, Yahoo and MSN) and with popular social networking sites (Twitter, Facebook, MySpace).
+
+The search queries that you made are displayed in a table with the following columns: Search Text, Search Engine, Search Time, Search Type (General, Video, Images), Web Browser, and the search URL.
+
 You can select one or more search queries and then copy them to the clipboard or save them into text/html/xml file.
     </description>
     <projectUrl>http://www.nirsoft.net/utils/my_last_search.html</projectUrl>

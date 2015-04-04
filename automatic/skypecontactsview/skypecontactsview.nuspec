@@ -6,15 +6,14 @@
     <version>{{PackageVersion}}</version>
     <authors>Nir Sofer</authors>
     <owners>dtgm</owners>
-    <summary></summary>
+    <summary>Display list of all Skype contacts</summary>
     <description>
 SkypeContactsView is a simple tool that displays the list of all Skype contacts stored in the local database file of Skype.
-<br>
+
 For each contact, one or more of the following fields are displayed:
 Skype Name, Full Name, Display Name, Gender, ID, Birthday, Profile Time, Last Online Time, Last Used Time, Phone, Emails, and more...
-<br>
-SkypeContactsView also allows you to export the contacts list into text/tab-delimited/comma-delimited/xml/html file, or copy them to the clipboard
-and then paste them into Excel or other spreadsheet application.
+
+SkypeContactsView also allows you to export the contacts list into text/tab-delimited/comma-delimited/xml/html file, or copy them to the clipboard and then paste them into Excel or other spreadsheet application.
     </description>
     <projectUrl>http://www.nirsoft.net/utils/skype_contacts_view.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/skypecontactsview.png</iconUrl>

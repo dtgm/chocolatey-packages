@@ -2,26 +2,19 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
     <id>{{PackageName}}</id>
-    <title>Get information about Windows software that stopped responding/freezing (hang)</title>
+    <title>WhatIsHang </title>
     <version>{{PackageVersion}}</version>
     <authors>Nir Sofer</authors>
     <owners>dtgm</owners>
-    <summary></summary>
+    <summary>Get information about Windows software that stopped responding/freezing (hang)</summary>
     <description>
-Sometimes, Windows or a running application hangs, the user interface abruptly 
-stops responding, and you cannot determine what has caused the problem or how to 
-troubleshoot the issue. This utility tries to detect the software or process that is currently 
-hung, and displays some information that may allow you to sort out and understand 
-what exactly is at the root of such unexpected behavior.
-Most of the information displayed in WhatIsHang's report, 
-like Call Stack, Stack Data, Processor Registers, and Memory Data is designed for users with 
-Windows programming knowledge. However, WhatIsHang also presents a list of strings 
-and dll files related to the hang issue that can help users without 
-programming skills understand and overcome the causes of the problem and restore normal operation.
+Sometimes, Windows or a running application hangs, the user interface abruptly stops responding, and you cannot determine what has caused the problem or how to troubleshoot the issue. This utility tries to detect the software or process that is currently hung, and displays some information that may allow you to sort out and understand what exactly is at the root of such unexpected behavior.
+
+Most of the information displayed in WhatIsHang's report, like Call Stack, Stack Data, Processor Registers, and Memory Data is designed for users with Windows programming knowledge. However, WhatIsHang also presents a list of strings and dll files related to the hang issue that can help users without programming skills understand and overcome the causes of the problem and restore normal operation.
     </description>
     <projectUrl>http://www.nirsoft.net/utils/what_is_hang.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/whatishang.png</iconUrl>
-    <tags>hanging freeze software application windows report information stopped responding</tags>
+    <tags>hang freeze stop software application report info</tags>
     <copyright>© 2011 NirSoft</copyright>
     <licenseUrl>http://www.nirsoft.net/utils/what_is_hang.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

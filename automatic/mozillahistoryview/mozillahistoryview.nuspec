@@ -8,17 +8,13 @@
     <owners>dtgm</owners>
     <summary>View the list of visited web sites in Firefox/Mozilla/Netscape browsers</summary>
     <description>
-MozillaHistoryView is a small utility that reads the history data file (history.dat)
-of Firefox/Mozilla/Netscape Web browsers, and displays the list of all visited Web pages
-in the last days. 
-For each visited Web page, the following information is displayed:
-URL, First visit date, Last visit date, Visit counter, Referrer, Title, and Host name.
-<br>
-You can also easily export the history data to text/HTML/Xml file.
+MozillaHistoryView is a small utility that reads the history data file (history.dat) of Firefox/Mozilla/Netscape Web browsers, and displays the list of all visited Web pages in the last days. For each visited Web page, the following information is displayed: URL, First visit date, Last visit date, Visit counter, Referrer, Title, and Host name.
+
+You can also easily export the history data to text/HTML/XML file.
     </description>
     <projectUrl>http://www.nirsoft.net/utils/mozilla_history_view.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/mozillahistoryview.png</iconUrl>
-    <tags></tags>
+    <tags>mozilla firefox netscape history</tags>
     <copyright>© 2007 NirSoft</copyright>
     <licenseUrl>http://www.nirsoft.net/utils/mozilla_history_view.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

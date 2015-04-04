@@ -9,10 +9,9 @@
     <summary>View/disable/enable Winsock service providers</summary>
     <description>
 This utility displays the details of all Winsock service providers installed on your system.
-For every Winsock service, the following information is displayed: 
-Display Name, Status (Enabled/Disabled), DLL Type (32-bit or 64-bit), DLL Filename, DLL Description/Version, and
-Created/Modified Time.
-<br>
+
+For every Winsock service, the following information is displayed: Display Name, Status (Enabled/Disabled), DLL Type (32-bit or 64-bit), DLL Filename, DLL Description/Version, and Created/Modified Time.
+
 WinsockServicesView also allows you to easily disable/enable a Winsock service provider.
     </description>
     <projectUrl>http://www.nirsoft.net/utils/winsock_service_providers.html</projectUrl>

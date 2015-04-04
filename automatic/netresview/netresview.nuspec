@@ -9,7 +9,8 @@
     <summary>View computers/network shares</summary>
     <description>
 NetResView is a small utility that displays the list of all network resources (computers, disk shares, and printer shares) on your LAN.
-As opposed to &quot;My Network Places&quot; module of Windows, NetResView display all network resources from all domains/workgroups in one screen, and including admin/hidden shares.
+
+As opposed to "My Network Places" module of Windows, NetResView display all network resources from all domains/workgroups in one screen, and including admin/hidden shares.
     </description>
     <projectUrl>http://www.nirsoft.net/utils/netresview.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/netresview.png</iconUrl>

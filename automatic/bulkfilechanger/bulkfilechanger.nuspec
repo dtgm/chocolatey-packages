@@ -8,13 +8,11 @@
     <owners>dtgm</owners>
     <summary>Change date/time/attributes of multiple files</summary>
     <description>
-BulkFileChanger is a small utility that allows you to create files list from multiple folders, and 
-then make some action on them - Modify their created/modified/accessed time, change their file attribute
-(Read Only, Hidden, System), run an executable with these files as parameter, and copy/cut paste into Explorer.
+BulkFileChanger is a small utility that allows you to create files list from multiple folders, and then make some action on them - Modify their created/modified/accessed time, change their file attribute (Read Only, Hidden, System), run an executable with these files as parameter, and copy/cut paste into Explorer.
     </description>
     <projectUrl>http://www.nirsoft.net/utils/bulk_file_changer.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/bulkfilechanger.png</iconUrl>
-    <tags></tags>
+    <tags>modify file metadata</tags>
     <copyright>© 2010 NirSoft</copyright>
     <licenseUrl>http://www.nirsoft.net/utils/bulk_file_changer.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

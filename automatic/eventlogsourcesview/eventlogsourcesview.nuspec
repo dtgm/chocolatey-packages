@@ -9,9 +9,10 @@
     <summary>List of all event log sources installed on your system</summary>
     <description>
 EventLogSourcesView is a simple tool that displays the list of all event log sources installed on your system.
+
 For every event log source, the following information is displayed:
-Event Source Name, Event Type, DLL/EXE Files containing the event message strings, Registry Modified Time, and version information taken from the DLL/EXE file (Product Name, Company, File Description,
-File Version)
+
+Event Source Name, Event Type, DLL/EXE Files containing the event message strings, Registry Modified Time, and version information taken from the DLL/EXE file (Product Name, Company, File Description, File Version)
     </description>
     <projectUrl>http://www.nirsoft.net/utils/event_log_sources_view.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/eventlogsourcesview.png</iconUrl>

@@ -9,14 +9,12 @@
     <summary>View/Extract/Save Outlook Attachment</summary>
     <description>
 OutlookAttachView scans all messages stored in your Outlook, and displays the list of all attached files that it finds.
-You can easily select one or more attachments and save all of them into the desired folder, as well as you can delete unwanted large attachments that
-take too much disk space in your mailbox. 
-You can also save the list of attachments into xml/html/text/csv file.
- 
+
+You can easily select one or more attachments and save all of them into the desired folder, as well as you can delete unwanted large attachments that take too much disk space in your mailbox. You can also save the list of attachments into xml/html/text/csv file.
     </description>
     <projectUrl>http://www.nirsoft.net/utils/outlook_attachment.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/outlookattachview.png</iconUrl>
-    <tags>save outlook attachment attach</tags>
+    <tags>save outlook attachment</tags>
     <copyright>© 2009 NirSoft</copyright>
     <licenseUrl>http://www.nirsoft.net/utils/outlook_attachment.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

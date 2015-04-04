@@ -6,10 +6,11 @@
     <version>{{PackageVersion}}</version>
     <authors>Nir Sofer</authors>
     <owners>dtgm</owners>
-    <summary>captures all Web site files downloaded by your Web browser while browsing the Internet</summary>
+    <summary>Captures all Web site files downloaded by your Web browser while browsing the Internet</summary>
     <description>
 WebSiteSniffer is a packet sniffer tool that captures all Web site files downloaded by your Web browser while browsing the Internet, 
 and stores them on your hard drive under the base folder that you choose. WebSiteSniffer allows you to choose which type of Web site files will be captured:
+
 HTML Files, Text Files, XML Files, CSS Files, Video/Audio Files, Images, Scripts, and Flash (.swf) files.
     </description>
     <projectUrl>http://www.nirsoft.net/utils/web_site_sniffer.html</projectUrl>

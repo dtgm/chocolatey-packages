@@ -2,17 +2,24 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
     <id>{{PackageName}}</id>
-    <title>Win x PassView</title>
+    <title>Win9x PassView</title>
     <version>{{PackageVersion}}</version>
     <authors>Nir Sofer</authors>
     <owners>dtgm</owners>
-    <summary></summary>
+    <summary>Reveal passwords stored on your computer</summary>
     <description>
-The Win9x PassView utility reveals the passwords stored on your computer 
+The Win9x PassView utility reveals the passwords stored on your computer by Windows 95/98 operating system.
+
+It can reveal 4 types of passwords:
+
+* user name and the password of the current logged-on user
+* cached passwords of the current logged-on user
+* passwords of your network shares (Only with share-level access control)
+* password of the screen saver
     </description>
     <projectUrl>http://www.nirsoft.net/utils/win9xpv.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/win9xpv.png</iconUrl>
-    <tags></tags>
+    <tags>recover passwords security</tags>
     <copyright>© 2002 NirSoft</copyright>
     <licenseUrl>http://www.nirsoft.net/utils/win9xpv.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

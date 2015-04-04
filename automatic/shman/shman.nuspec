@@ -8,16 +8,15 @@
     <owners>dtgm</owners>
     <summary>Shortcuts Manager for Windows</summary>
     <description>
-ShortcutsMan displays the details about all shortcuts that you have on your desktop
-and under your start menu.
-Broken shortcuts (shortcuts that point to file that doesn't exist) are automatically 
-painted with pink color.
-You select one or more shortcuts, and then delete them, resolve them or save the shortcut's details
-to HTML/Text/XML file. 
+ShortcutsMan displays the details about all shortcuts that you have on your desktop and under your start menu.
+
+Broken shortcuts (shortcuts that point to file that doesn't exist) are automatically painted with pink color.
+
+You select one or more shortcuts, and then delete them, resolve them or save the shortcuts details to HTML/Text/XML file.
     </description>
     <projectUrl>http://www.nirsoft.net/utils/shman.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/shman.png</iconUrl>
-    <tags></tags>
+    <tags>shortcut info manager</tags>
     <copyright>© 2004 NirSoft</copyright>
     <licenseUrl>http://www.nirsoft.net/utils/shman.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

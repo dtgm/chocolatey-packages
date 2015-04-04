@@ -8,17 +8,15 @@
     <owners>dtgm</owners>
     <summary>View/Enable/Disable ActiveX Components</summary>
     <description>
-ActiveXHelper is a small utility that allows you to view essential information about 
-ActiveX components installed on your computer.
-You can view the entire (and very large !) list of ActiveX components by loading it from
-HKEY_CLASSES_ROOT\CLSID Registry key, or alternatively, display only the ActiveX components that you
-specify.
-In addition, you can temporarily disable specific ActiveX components. 
-When ActiveX components are disabled, they cannot be used by any software, until you enable them again.
+ActiveXHelper is a small utility that allows you to view essential information about ActiveX components installed on your computer.
+
+You can view the entire (and very large !) list of ActiveX components by loading it from HKEY_CLASSES_ROOT\CLSID Registry key, or alternatively, display only the ActiveX components that you specify.
+
+In addition, you can temporarily disable specific ActiveX components. When ActiveX components are disabled, they cannot be used by any software, until you enable them again.
     </description>
     <projectUrl>http://www.nirsoft.net/utils/axhelper.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/axhelper.png</iconUrl>
-    <tags></tags>
+    <tags>activex info</tags>
     <copyright>© 2004 NirSoft</copyright>
     <licenseUrl>http://www.nirsoft.net/utils/axhelper.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

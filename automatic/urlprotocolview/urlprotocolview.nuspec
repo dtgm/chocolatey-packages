@@ -8,12 +8,10 @@
     <owners>dtgm</owners>
     <summary>View/Enable/Disable URL protocols</summary>
     <description>
-URLProtocolView is a simple utility that displays all URL protocols (for example: ftp:, telnet:, mailto:)
-that are currently installed on your system.
-For each URL protocol, the following information is displayed:
-The protocol name, the protocol description, the command-line that is executed when you type or click the
-URL, the product name, and the company name.
-<br>
+URLProtocolView is a simple utility that displays all URL protocols (for example: ftp:, telnet:, mailto:) that are currently installed on your system.
+
+For each URL protocol, the following information is displayed: The protocol name, the protocol description, the command-line that is executed when you type or click the URL, the product name, and the company name.
+
 This utility also allows you to easily enable/disable the URL protocols.
     </description>
     <projectUrl>http://www.nirsoft.net/utils/url_protocol_view.html</projectUrl>

@@ -8,12 +8,11 @@
     <owners>dtgm</owners>
     <summary>Recover the password of Remote Desktop Connection utility</summary>
     <description>
-Remote Desktop PassView is a small utility that reveals the password stored by  
-Microsoft Remote Desktop Connection utility inside the .rdp files.
+Remote Desktop PassView is a small utility that reveals the password stored by Microsoft Remote Desktop Connection utility inside the .rdp files.
     </description>
     <projectUrl>http://www.nirsoft.net/utils/remote_desktop_password.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/rdpv.png</iconUrl>
-    <tags></tags>
+    <tags>rdp password recover</tags>
     <copyright>© 2006 NirSoft</copyright>
     <licenseUrl>http://www.nirsoft.net/utils/remote_desktop_password.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

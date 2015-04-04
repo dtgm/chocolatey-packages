@@ -6,18 +6,17 @@
     <version>{{PackageVersion}}</version>
     <authors>Nir Sofer</authors>
     <owners>dtgm</owners>
-    <summary>extract URL addresses from HTML pages</summary>
+    <summary>Extract URL addresses from HTML pages</summary>
     <description>
 AddrView allows you to parse HTML pages and extract most URL addresses stored in them.
-AddrView extracts URLs of images (&lt;img&gt; tag), links to other files (&lt;a&gt; tag),
-CSS files, frames, Flash files, and more.
-<br>
-You can save the extracted addresses list to text, HTML or XML files, or add these
-addresses to your Favorities.
+
+AddrView extracts URLs of images (&lt;img&gt; tag), links to other files (&lt;a&gt; tag), CSS files, frames, Flash files, and more.
+
+You can save the extracted addresses list to text, HTML or XML files, or add these addresses to your Favorities.
     </description>
     <projectUrl>http://www.nirsoft.net/utils/addrview.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/addrview.png</iconUrl>
-    <tags></tags>
+    <tags>url extract html</tags>
     <copyright>© 2004 NirSoft</copyright>
     <licenseUrl>http://www.nirsoft.net/utils/addrview.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

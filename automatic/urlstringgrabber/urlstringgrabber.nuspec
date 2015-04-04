@@ -8,13 +8,11 @@
     <owners>dtgm</owners>
     <summary>Grab URL strings of Web sites from Internet Explorer</summary>
     <description>
-URLStringGrabber is a small utility that scans all opened windows of Internet Explorer and 
-grab the URLs stored in them, including clickable links, images, script files, CSS files, RSS feeds,
-and flash (.swf) files.
+URLStringGrabber is a small utility that scans all opened windows of Internet Explorer and grab the URLs stored in them, including clickable links, images, script files, CSS files, RSS feeds, and flash (.swf) files.
     </description>
     <projectUrl>http://www.nirsoft.net/utils/url_string_grabber.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/urlstringgrabber.png</iconUrl>
-    <tags></tags>
+    <tags>text ie clipboard</tags>
     <copyright>© 2010 NirSoft</copyright>
     <licenseUrl>http://www.nirsoft.net/utils/url_string_grabber.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

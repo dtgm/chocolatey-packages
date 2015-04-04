@@ -9,17 +9,16 @@
     <summary>Turn on computers on your network with Wake-on-LAN packet</summary>
     <description>
 This utility allows you to easily turn on one or more computers remotely by sending Wake-on-LAN (WOL) packet to the remote computers.
-<br>
+
 When your computers are turned on,  WakeMeOnLan allows you to scan your network, and collect the MAC addresses of all your computers, and save the computers list into a file.
-Later, when your computers are turned off or in standby mode, you can use the stored computers list to easily choose the computer you want to turn on,
-and then turn on all these computers with a single click.
-<br>
-WakeMeOnLan also allows you to turn on a computer from command-line, by specifying the computer name, IP address, or the 
-MAC address of the remote network card.
+
+Later, when your computers are turned off or in standby mode, you can use the stored computers list to easily choose the computer you want to turn on, and then turn on all these computers with a single click.
+
+WakeMeOnLan also allows you to turn on a computer from command-line, by specifying the computer name, IP address, or the MAC address of the remote network card.
     </description>
     <projectUrl>http://www.nirsoft.net/utils/wake_on_lan.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/wakemeonlan.png</iconUrl>
-    <tags>on wake lan network remote computer scan command-line sleep</tags>
+    <tags>wol network remote magic-packet cli</tags>
     <copyright>© 2011 NirSoft</copyright>
     <licenseUrl>http://www.nirsoft.net/utils/wake_on_lan.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

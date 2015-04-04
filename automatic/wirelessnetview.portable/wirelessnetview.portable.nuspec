@@ -9,12 +9,12 @@
     <summary>Wireless Network Monitoring Software</summary>
     <description>
 WirelessNetView is a small utility that runs in the background, and monitor the activity of wireless networks around you.
-For each detected network, it displays the following information: 
-SSID, Last Signal Quality, Average Signal Quality, Detection Counter, Authentication Algorithm, Cipher Algorithm, MAC Address, RSSI, Channel Frequency, Channel Number, and more.
+
+For each detected network, it displays the following information: SSID, Last Signal Quality, Average Signal Quality, Detection Counter, Authentication Algorithm, Cipher Algorithm, MAC Address, RSSI, Channel Frequency, Channel Number, and more.
     </description>
     <projectUrl>http://www.nirsoft.net/utils/wireless_network_view.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/wirelessnetview.png</iconUrl>
-    <tags>network monitoring tool windows activity software</tags>
+    <tags>wifi network monitor</tags>
     <copyright>© 2008 NirSoft</copyright>
     <licenseUrl>http://www.nirsoft.net/utils/wireless_network_view.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

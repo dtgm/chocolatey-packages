@@ -8,18 +8,16 @@
     <owners>dtgm</owners>
     <summary>Creates report about the folders in your disk</summary>
     <description>
-The FoldersReport utility scans a drive or a base folder that you select, and 
-displays essential information for each folder that it finds: 
-The size of all files inside the folder, The real files size on the disk, 
-number of files inside the folder, number of hidden files, number of compressed files,
-and number of subfolders.
+The FoldersReport utility scans a drive or a base folder that you select, and displays essential information for each folder that it finds: 
+The size of all files inside the folder, The real files size on the disk, number of files inside the folder, number of hidden files, number of compressed files, and number of subfolders.
+
 You can use this utility to easily find out which folders use the most space in your drive.
-You can scan the folders of your local drives, CD-ROM drives, and network resources
-on a remote computer. 
+
+You can scan the folders of your local drives, CD-ROM drives, and network resources on a remote computer. 
     </description>
     <projectUrl>http://www.nirsoft.net/utils/folrep.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/folrep.png</iconUrl>
-    <tags></tags>
+    <tags>folder stats report</tags>
     <copyright>© 2003 NirSoft</copyright>
     <licenseUrl>http://www.nirsoft.net/utils/folrep.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

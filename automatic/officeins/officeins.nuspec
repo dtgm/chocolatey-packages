@@ -8,12 +8,11 @@
     <owners>dtgm</owners>
     <summary>Office Addin Manager (Enable/Disable Outlook/Word/Excel Add-Ins) </summary>
     <description>
-OfficeIns is a small utility that displays the details of all installed Microsoft Office (Word, Excel, Outlook, and so on...) add-ins on your computer,
-and allows you to disable / enable them.
+OfficeIns is a small utility that displays the details of all installed Microsoft Office (Word, Excel, Outlook, and so on...) add-ins on your computer, and allows you to disable / enable them.
     </description>
     <projectUrl>http://www.nirsoft.net/utils/officeins.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/officeins.png</iconUrl>
-    <tags>add-in manager enable disable excel word outlook project</tags>
+    <tags>add-in manager excel word outlook project</tags>
     <copyright>© 2004 NirSoft</copyright>
     <licenseUrl>http://www.nirsoft.net/utils/officeins.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

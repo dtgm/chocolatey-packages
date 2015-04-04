@@ -8,11 +8,9 @@
     <owners>dtgm</owners>
     <summary>Extract icon/cursor stored in EXE, DLL, OCX, CPL files</summary>
     <description>
-The IconsExtract utility scans the files and folders on your computer, 
-and extract the icons and cursors stored in EXE, DLL, OCX, CPL, and in 
-other file types. 
-You can save the extracted icons to ICO files (or CUR files for cursors), 
-or copy the image of a single icon into the clipboard.
+The IconsExtract utility scans the files and folders on your computer, and extract the icons and cursors stored in EXE, DLL, OCX, CPL, and in other file types.
+
+You can save the extracted icons to ICO files (or CUR files for cursors), or copy the image of a single icon into the clipboard.
     </description>
     <projectUrl>http://www.nirsoft.net/utils/iconsext.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/iconsext.png</iconUrl>

@@ -8,15 +8,13 @@
     <owners>dtgm</owners>
     <summary>Run a Windows program with a user of another process</summary>
     <description>
-RunFromProcess is a command-line utility that allows you to run a program  
-from another process that you choose.
-<br>
-The program that you run will be executed as a child of the specified process and it'll
-run with the same user and security context of the specified parent process. 
+RunFromProcess is a command-line utility that allows you to run a program from another process that you choose.
+
+The program that you run will be executed as a child of the specified process and it'll run with the same user and security context of the specified parent process. 
     </description>
     <projectUrl>http://www.nirsoft.net/utils/run_from_process.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/runfromprocess.png</iconUrl>
-    <tags>process program user system windows</tags>
+    <tags>process program user system</tags>
     <copyright>© 2011 NirSoft</copyright>
     <licenseUrl>http://www.nirsoft.net/utils/run_from_process.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

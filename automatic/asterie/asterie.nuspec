@@ -8,11 +8,13 @@
     <owners>dtgm</owners>
     <summary>Reveal asterisk passwords in Internet Explorer</summary>
     <description>
+When you login into a web site with user name and password, you sometimes have the option to store the password in your computer. If you choose to save the password, in the next time that we'll visit this site, the password field will be automatically filled with your password, but you won't be able to view it, because the password-box shows the password as sequence of asterisks (****).
 
+This utility reveals the passwords stored behind the asterisks in the web pages of Internet Explorer 5.0 and above. You can use it for recovering a lost web site password, if it's stored on your computer. 
     </description>
     <projectUrl>http://www.nirsoft.net/utils/asterie.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/asterie.png</iconUrl>
-    <tags></tags>
+    <tags>unmask hidden text</tags>
     <copyright>© 2002 NirSoft</copyright>
     <licenseUrl>http://www.nirsoft.net/utils/asterie.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

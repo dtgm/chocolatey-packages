@@ -8,9 +8,8 @@
     <owners>dtgm</owners>
     <summary>Grab data from list-view, tree-view, combo box, WebBrowser control, and text-box.</summary>
     <description>
-SysExporter utility allows you to grab the data stored in standard list-views, tree-views, list boxes, combo boxes, text-boxes, and WebBrowser/HTML controls from
-almost any application running on your system, and export it to text, HTML or XML file.
-<br>
+SysExporter utility allows you to grab the data stored in standard list-views, tree-views, list boxes, combo boxes, text-boxes, and WebBrowser/HTML controls from almost any application running on your system, and export it to text, HTML or XML file.
+
 Here's some examples for data that you can export with SysExporter:
 
 * The files list inside archive file (.zip, .rar, and so on) as displayed by WinZip or 7-Zip File Manager. 
@@ -24,7 +23,7 @@ Here's some examples for data that you can export with SysExporter:
     </description>
     <projectUrl>http://www.nirsoft.net/utils/sysexp.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/sysexp.png</iconUrl>
-    <tags></tags>
+    <tags>data visualizer lists</tags>
     <copyright>© 2003 NirSoft</copyright>
     <licenseUrl>http://www.nirsoft.net/utils/sysexp.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

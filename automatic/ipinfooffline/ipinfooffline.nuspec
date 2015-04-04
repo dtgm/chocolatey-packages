@@ -9,12 +9,12 @@
     <summary>IP Address country information</summary>
     <description>
 IPInfoOffline Allows you to view information about IP addresses, without connecting any external server.
+
 It uses a compressed IP addresses database that is stored inside the exe file.
-<br>
-For each IP address, the following information is displayed:
-IP block range, Organization (RIPE, ARIN, APNIC, LACNIC or AFRINIC), Assigned Date, Country Name, and Country Code.
-After retrieving the information about the desired IP addresses, You can copy the information to the clipboard,
-or save it into text/html/xml/csv file.
+
+For each IP address, the following information is displayed: IP block range, Organization (RIPE, ARIN, APNIC, LACNIC or AFRINIC), Assigned Date, Country Name, and Country Code.
+
+After retrieving the information about the desired IP addresses, You can copy the information to the clipboard, or save it into text/html/xml/csv file.
     </description>
     <projectUrl>http://www.nirsoft.net/utils/ip_country_info_offline.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/ipinfooffline.png</iconUrl>

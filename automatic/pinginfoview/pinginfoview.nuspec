@@ -8,15 +8,15 @@
     <owners>dtgm</owners>
     <summary>Ping to multiple host names/IP addresses</summary>
     <description>
-PingInfoView is a small utility that allows you to easily ping multiple host names and IP addresses, and 
-watch the result in one table.
-It automatically ping to all hosts every number of seconds that you specify, and displays the number of succeed and failed pings, as well
-as the average ping time.
+PingInfoView is a small utility that allows you to easily ping multiple host names and IP addresses, and watch the result in one table.
+
+It automatically ping to all hosts every number of seconds that you specify, and displays the number of succeed and failed pings, as well as the average ping time.
+
 You can also save the ping result into text/html/xml file, or copy it to the clipboard.
     </description>
     <projectUrl>http://www.nirsoft.net/utils/multiple_ping_tool.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/pinginfoview.png</iconUrl>
-    <tags></tags>
+    <tags>ping ip address host</tags>
     <copyright>© 2008 NirSoft</copyright>
     <licenseUrl>http://www.nirsoft.net/utils/multiple_ping_tool.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

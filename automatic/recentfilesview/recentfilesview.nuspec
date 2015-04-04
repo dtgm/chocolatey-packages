@@ -8,17 +8,17 @@
     <owners>dtgm</owners>
     <summary>View the list of recently opened files</summary>
     <description>
-Each time that you open a file from Windows Explorer or from a standard open/save dialog-box, 
-the name of the file that you opened is recorded by the operating system.
+Each time that you open a file from Windows Explorer or from a standard open/save dialog-box, the name of the file that you opened is recorded by the operating system.
+
 Some of the names are saved into the 'Recent' folder. Other are saved into the Registry.
-<br>
-This utility display the list of all recently opened files, and allows you to delete
-unwanted filename entries.
+
+This utility display the list of all recently opened files, and allows you to delete unwanted filename entries.
+
 You can also save the files list into text/html/xml file.
     </description>
     <projectUrl>http://www.nirsoft.net/utils/recent_files_view.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/recentfilesview.png</iconUrl>
-    <tags></tags>
+    <tags>recent files</tags>
     <copyright>© 2007 NirSoft</copyright>
     <licenseUrl>http://www.nirsoft.net/utils/recent_files_view.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

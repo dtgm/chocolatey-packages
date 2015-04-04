@@ -9,14 +9,14 @@
     <summary>Displays logon/logoff times on Windows Vista/7/8/2008</summary>
     <description>
 WinLogOnView is a simple tool for Windows Vista/7/8/2008 that analyses the security event log of Windows operating system, and detects the date/time that users logged on and logged off.
-For every time that a user log on/log off to your system, the following information is displayed:
-Logon ID, User Name, Domain, Computer, Logon Time, Logoff Time, Duration, and network address.
-<br>
+
+For every time that a user log on/log off to your system, the following information is displayed: Logon ID, User Name, Domain, Computer, Logon Time, Logoff Time, Duration, and network address.
+
 WinLogOnView also allows you to easily export the logon sessions information to tab-delimited/comma-delimited/html/xml file.
     </description>
     <projectUrl>http://www.nirsoft.net/utils/windows_log_on_times_view.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/winlogonview.png</iconUrl>
-    <tags>logoff date time windows</tags>
+    <tags>logoff date time</tags>
     <copyright>© 2013 NirSoft</copyright>
     <licenseUrl>http://www.nirsoft.net/utils/windows_log_on_times_view.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

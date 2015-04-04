@@ -9,14 +9,14 @@
     <summary>Calculate MD5/SHA1/CRC32 hash of files</summary>
     <description>
 HashMyFiles is small utility that allows you to calculate the MD5 and SHA1 hashes of one or more files in your system.
+
 You can easily copy the MD5/SHA1 hashes list into the clipboard, or save them into text/html/xml file.
-<br>
-HashMyFiles can also be launched from the context menu of Windows Explorer, and display the MD5/SHA1 hashes
-of the selected file or folder.
+
+HashMyFiles can also be launched from the context menu of Windows Explorer, and display the MD5/SHA1 hashes of the selected file or folder.
     </description>
     <projectUrl>http://www.nirsoft.net/utils/hash_my_files.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/hashmyfiles.png</iconUrl>
-    <tags>hash md5 sha1 crc32 windows</tags>
+    <tags>hash md5 sha1 crc32 checksum</tags>
     <copyright>© 2007 NirSoft</copyright>
     <licenseUrl>http://www.nirsoft.net/utils/hash_my_files.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

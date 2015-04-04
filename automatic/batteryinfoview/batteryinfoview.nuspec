@@ -6,17 +6,13 @@
     <version>{{PackageVersion}}</version>
     <authors>Nir Sofer</authors>
     <owners>dtgm</owners>
-    <summary>View battery information on laptops / netbooks</summary>
+    <summary>View battery information on laptops/netbooks</summary>
     <description>
-BatteryInfoView is a small utility for laptops and netbook computers that displays
-the current status and information about your battery.
-The displayed battery information includes the battery name,  
-manufacture name, serial number, manufacture date, power state (charging/discharging),
-current battery capacity, full charged capacity, voltage, charge/discharge rate, and more...
-<br>
-BatteryInfoView also provides a log window, which adds a new log line containing the battery status every 30 seconds or
-any other time interval that you choose. 
-  
+BatteryInfoView is a small utility for laptops and netbook computers that displays the current status and information about your battery.
+
+The displayed battery information includes the battery name, manufacture name, serial number, manufacture date, power state (charging/discharging), current battery capacity, full charged capacity, voltage, charge/discharge rate, and more...
+
+BatteryInfoView also provides a log window, which adds a new log line containing the battery status every 30 seconds or any other time interval that you choose.
     </description>
     <projectUrl>http://www.nirsoft.net/utils/battery_information_view.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/batteryinfoview.png</iconUrl>

@@ -2,17 +2,21 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
     <id>{{PackageName}}</id>
-    <title>Automatically download images from the Web, and create animation from them (Portable)</title>
+    <title>SeqDownload (Portable)</title>
     <version>{{PackageVersion}}</version>
     <authors>Nir Sofer</authors>
     <owners>dtgm</owners>
-    <summary></summary>
+    <summary>Automatically download images from the Web, and create animation from them</summary>
     <description>
+Many Web sites provides "live" images that are automatically updated every few seconds or minutes. When you browse to a Web page with live image, you always get the latest image from the last few minutes. But what about viewing some historical images from a few days ago, or watching the animation of the images from the last few hours ??
 
+Some Web sites provide limited options to do that, but most Web sites only allow you to watch the latest image.
+
+This utility allows you to automatically download an image file in every few seconds or minutes (according to your selection), and save it to your local drive. After collecting a fair amount of downloaded images in your local drive, you can easily create beautiful animation from the downloaded images or simply watch the historical images on your local download folder. You can also use this utility to frequently download non-image files, and store them on your local drive, so we'll always have in your computer the latest file from the remote Web site.
     </description>
     <projectUrl>http://www.nirsoft.net/utils/seqdownload.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/seqdownload.png</iconUrl>
-    <tags></tags>
+    <tags>download scheduler images</tags>
     <copyright>© 2003 NirSoft</copyright>
     <licenseUrl>http://www.nirsoft.net/utils/seqdownload.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

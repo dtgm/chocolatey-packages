@@ -8,12 +8,13 @@
     <owners>dtgm</owners>
     <summary>Alternative to AT utility of Windows</summary>
     <description>
-AtNow is a command-line utility that schedules programs and commands to run in the near future.<br>
+AtNow is a command-line utility that schedules programs and commands to run in the near future.
+
 By default, the commands are executed within 70 seconds or less from the moment that you run the AtNow utility with the desired command.
     </description>
     <projectUrl>http://www.nirsoft.net/utils/atnow.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/atnow.png</iconUrl>
-    <tags></tags>
+    <tags>cli scheduling at</tags>
     <copyright>© 2002 NirSoft</copyright>
     <licenseUrl>http://www.nirsoft.net/utils/atnow.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

@@ -9,9 +9,10 @@
     <summary>Windows Services/Drivers Tool (start/stop/restart service)</summary>
     <description>
 ServiWin utility displays the list of installed drivers and services on your system.
+
 For some of them, additional useful information is displayed: file description, version,
 product name, company that created the driver file, and more.
-<br>
+
 In addition, ServiWin allows you to easily stop, start, restart, pause, and continue
 service or driver, change the startup type of service or driver (automatic, manual, disabled,
 boot or system), save the list of services and drivers to file, or view HTML report of

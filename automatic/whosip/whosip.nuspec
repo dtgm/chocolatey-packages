@@ -8,14 +8,11 @@
     <owners>dtgm</owners>
     <summary>Get IP address information from command-line</summary>
     <description>
-WhosIP is a simple command-line utility that allows you to 
-easily find all available information about an IP address: 
-The owner of the IP address, the country/state name, IP addresses range, 
-contact information (address, phone, fax, and email), and more.
+WhosIP is a simple command-line utility that allows you to easily find all available information about an IP address: The owner of the IP address, the country/state name, IP addresses range, contact information (address, phone, fax, and email), and more.
     </description>
     <projectUrl>http://www.nirsoft.net/utils/whosip.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/whosip.png</iconUrl>
-    <tags></tags>
+    <tags>cli ip address</tags>
     <copyright>© 2004 NirSoft</copyright>
     <licenseUrl>http://www.nirsoft.net/utils/whosip.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

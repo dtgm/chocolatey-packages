@@ -8,13 +8,11 @@
     <owners>dtgm</owners>
     <summary>Loaded Windows Drivers List</summary>
     <description>
-DriverView utility displays the list of all device drivers currently loaded
-on your system. For each driver in the list, additional useful information is displayed:
-load address of the driver, description, version, product name, company that created the driver, and more. 
+DriverView utility displays the list of all device drivers currently loaded on your system. For each driver in the list, additional useful information is displayed: load address of the driver, description, version, product name, company that created the driver, and more.
     </description>
     <projectUrl>http://www.nirsoft.net/utils/driverview.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/driverview.png</iconUrl>
-    <tags></tags>
+    <tags>driver viewer</tags>
     <copyright>© 2003 NirSoft</copyright>
     <licenseUrl>http://www.nirsoft.net/utils/driverview.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

@@ -8,14 +8,13 @@
     <owners>dtgm</owners>
     <summary>Generate RegEdit .reg file from Registry changes made by application</summary>
     <description>
-RegFromApp monitors the Registry changes made by the application that you selected, and 
-creates a standard RegEdit registration file (.reg) that contains all the Registry changes made by 
-the application.
+RegFromApp monitors the Registry changes made by the application that you selected, and creates a standard RegEdit registration file (.reg) that contains all the Registry changes made by the application.
+
 You can use the generated .reg file to import these changes with RegEdit when it's needed.
     </description>
     <projectUrl>http://www.nirsoft.net/utils/reg_file_from_application.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/regfromapp.png</iconUrl>
-    <tags></tags>
+    <tags>registry monitor application</tags>
     <copyright>© 2008 NirSoft</copyright>
     <licenseUrl>http://www.nirsoft.net/utils/reg_file_from_application.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

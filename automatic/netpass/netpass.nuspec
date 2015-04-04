@@ -6,15 +6,17 @@
     <version>{{PackageVersion}}</version>
     <authors>Nir Sofer</authors>
     <owners>dtgm</owners>
-    <summary>Recover Windows XP/Vista network passwords (Credentials file) </summary>
+    <summary>Recover Windows XP/Vista network passwords (Credentials file)</summary>
     <description>
 When you connect to a network share on your LAN or to your .NET Passport account, Windows allows you to save your password in order to use it in each time that you connect the remote server.
+
 This utility recovers all network passwords stored on your system for the current logged-on user.
+
 It can also recover the passwords stored in Credentials file of external drive, as long as you know the last log-on password.
     </description>
     <projectUrl>http://www.nirsoft.net/utils/network_password_recovery.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/netpass.png</iconUrl>
-    <tags>recover network share passwords manager utility windows xp</tags>
+    <tags>recover network share passwords</tags>
     <copyright>© 2005 NirSoft</copyright>
     <licenseUrl>http://www.nirsoft.net/utils/network_password_recovery.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

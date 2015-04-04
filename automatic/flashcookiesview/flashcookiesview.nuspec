@@ -2,20 +2,21 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
     <id>{{PackageName}}</id>
-    <title>View the Flash cookies (Local Shared Object /.sol files) stored in your computer</title>
+    <title>FlashCookiesView</title>
     <version>{{PackageVersion}}</version>
     <authors>Nir Sofer</authors>
     <owners>dtgm</owners>
-    <summary></summary>
+    <summary>View the Flash cookies (Local Shared Object /.sol files) stored in your computer</summary>
     <description>
 FlashCookiesView is a small utility that displays the list of cookie files created by Flash component (Local Shared Object) in your Web browser.
+
 For each cookie file, the lower pane of FlashCookiesView displays the content of the file in readable format or as Hex dump.
-<br>
+
 You can also select one or more cookie files, and then copy them to the clipboard, save them to text/html/xml file or delete them.
     </description>
     <projectUrl>http://www.nirsoft.net/utils/flash_cookies_view.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/flashcookiesview.png</iconUrl>
-    <tags>cookies web browser view delete local shared objects lso .sol</tags>
+    <tags>cookies web browser lso sol</tags>
     <copyright>© 2009 NirSoft</copyright>
     <licenseUrl>http://www.nirsoft.net/utils/flash_cookies_view.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

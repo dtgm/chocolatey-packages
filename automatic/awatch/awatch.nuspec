@@ -9,13 +9,14 @@
     <summary>monitor your network adapter</summary>
     <description>
 AdapterWatch displays useful information about your network adapters:
-IP addresses, Hardware address, WINS servers, DNS servers, MTU value, Number of bytes
-received or sent, The current transfer speed, and more. 
+
+IP addresses, Hardware address, WINS servers, DNS servers, MTU value, Number of bytes received or sent, The current transfer speed, and more. 
+
 In addition, it displays general TCP/IP/UDP/ICMP statistics for your local computer.
     </description>
     <projectUrl>http://www.nirsoft.net/utils/awatch.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/awatch.png</iconUrl>
-    <tags></tags>
+    <tags>information network</tags>
     <copyright>© 2004 NirSoft</copyright>
     <licenseUrl>http://www.nirsoft.net/utils/awatch.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

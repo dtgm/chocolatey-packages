@@ -2,24 +2,24 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
     <id>{{PackageName}}</id>
-    <title>Internet Download Speed Test Software (Install)</title>
+    <title>DownTester (Install)</title>
     <version>{{PackageVersion}}</version>
     <authors>Nir Sofer</authors>
     <owners>dtgm</owners>
-    <summary></summary>
+    <summary>Test the download speed of your Internet connection</summary>
     <description>
 DownTester allows you to easily test your Internet download speed in multiple locations around the world.
+
 It automatically test the download speed of the URLs that you choose, one after another.
-It moves to the next download URL after the specified number of seconds has been elapsed
-or after it downloads the specified amount of KB - just according to your preferences.
-<br>
+
+It moves to the next download URL after the specified number of seconds has been elapsed or after it downloads the specified amount of KB - just according to your preferences.
 
 After the download test is finished, you can easily save the result into text/html/xml/csv file, or copy it to the clipboard and 
 paste it into Excel and other applications.
     </description>
     <projectUrl>http://www.nirsoft.net/utils/download_speed_tester.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/downtester.png</iconUrl>
-    <tags>broadband download speed test url windows http ftp utility</tags>
+    <tags>broadband download speed test</tags>
     <copyright>© 2009 NirSoft</copyright>
     <licenseUrl>http://www.nirsoft.net/utils/download_speed_tester.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

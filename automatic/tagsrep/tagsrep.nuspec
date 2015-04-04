@@ -6,18 +6,15 @@
     <version>{{PackageVersion}}</version>
     <authors>Nir Sofer</authors>
     <owners>dtgm</owners>
-    <summary></summary>
+    <summary>Displays statistical information about tags within HTML file</summary>
     <description>
-TagsReport reads HTML file and displays statistical information about the
-tags the appears in it. You can use this utility to locate problems in your HTML page.
-<br>
-For Example: If the end counter value for &lt;table&gt; tag is different from the
-start counter value, something is possibly wrong in your HTML file, because every
-&lt;table&gt; tag must have a closing tag (&lt;/table&gt;)
+TagsReport reads HTML file and displays statistical information about the tags the appears in it. You can use this utility to locate problems in your HTML page.
+
+For Example: If the end counter value for `<table>` tag is different from the start counter value, something is possibly wrong in your HTML file, because every `<table>` tag must have a closing tag (`</table>`).
     </description>
     <projectUrl>http://www.nirsoft.net/utils/tagsrep.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/tagsrep.png</iconUrl>
-    <tags></tags>
+    <tags>statistics html tags</tags>
     <copyright>© 2004 NirSoft</copyright>
     <licenseUrl>http://www.nirsoft.net/utils/tagsrep.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

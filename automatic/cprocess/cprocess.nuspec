@@ -6,12 +6,12 @@
     <version>{{PackageVersion}}</version>
     <authors>Nir Sofer</authors>
     <owners>dtgm</owners>
-    <summary>Freeware Process Viewer for Windows</summary>
+    <summary>Freeware Process Viewer</summary>
     <description>
 CurrProcess utility displays the list of all processes currently running on your system.
-For each process, you can view the list of all modules (DLL files) that the process loads into memory.
-for all processes and modules, additional useful information is also displayed: product name, version, company name, description of the file, the size of the file, and more.
-<br>
+
+For each process, you can view the list of all modules (DLL files) that the process loads into memory. For all processes and modules, additional useful information is also displayed: product name, version, company name, description of the file, the size of the file, and more.
+
 In addition, CurrProcess allows you to do the following actions: 
 
 * Change the priority of a process.

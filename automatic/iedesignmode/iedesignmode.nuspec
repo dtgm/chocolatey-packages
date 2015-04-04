@@ -8,17 +8,15 @@
     <owners>dtgm</owners>
     <summary>Switch to design mode in Internet Explorer</summary>
     <description>
-IEDesignMode Adds a new menu item into the context menu of Internet Explorer that allows you to 
-easily switch the active Internet Explorer window to design mode.
-<br>
-When a Web page in in design mode, you can change the location of images and other objects,
-change the current text, paste a new text into the Web page, and so on.
-After you made your changes, you can easily switch back to non-design mode and/or save the modified Web page 
-to HTML file.
+IEDesignMode Adds a new menu item into the context menu of Internet Explorer that allows you to easily switch the active Internet Explorer window to design mode.
+
+When a Web page in in design mode, you can change the location of images and other objects, change the current text, paste a new text into the Web page, and so on.
+
+After you made your changes, you can easily switch back to non-design mode and/or save the modified Web page to HTML file.
     </description>
     <projectUrl>http://www.nirsoft.net/utils/ie_design_mode.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/iedesignmode.png</iconUrl>
-    <tags></tags>
+    <tags>ie design-mode</tags>
     <copyright>© 2007 NirSoft</copyright>
     <licenseUrl>http://www.nirsoft.net/utils/ie_design_mode.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

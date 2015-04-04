@@ -8,9 +8,7 @@
     <owners>dtgm</owners>
     <summary>Password recovery for Outlook, Outlook Express, Thunderbird, Windows Mail, and more...</summary>
     <description>
-Mail PassView is a small password-recovery tool that reveals the passwords
-and other account details for the following email clients:
-<br>
+Mail PassView is a small password-recovery tool that reveals the passwords and other account details for the following email clients:
 
 *  Outlook Express
 *  Microsoft Outlook 2000 (POP3 and SMTP Accounts only)
@@ -28,7 +26,7 @@ and other account details for the following email clients:
     </description>
     <projectUrl>http://www.nirsoft.net/utils/mailpv.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/mailpv.png</iconUrl>
-    <tags>recover mail email gmail password recovery software free lost crack outlook express microsoft incredimail eudora</tags>
+    <tags>recover mail email gmail password lost crack outlook express microsoft incredimail eudora</tags>
     <copyright>© 2003 NirSoft</copyright>
     <licenseUrl>http://www.nirsoft.net/utils/mailpv.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

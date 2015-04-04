@@ -6,20 +6,19 @@
     <version>{{PackageVersion}}</version>
     <authors>Nir Sofer</authors>
     <owners>dtgm</owners>
-    <summary>control the sound volume with a wheel mouse</summary>
+    <summary>Control the sound volume with a wheel mouse</summary>
     <description>
 Volumouse provides you a quick and easy way to control the sound volume on your system - simply by rolling the wheel of your wheel mouse.
-<br>
+
 It allows you to define a set of rules for determining when the wheel will be used for changing the sound volume.
-For example: 
-You can configure Volumouse to use your mouse wheel for volume control when the Alt key is hold down,
-when the left mouse button is down, when the mouse cursor is over the taskbar, and so on...
-<br>
+
+For example: You can configure Volumouse to use your mouse wheel for volume control when the Alt key is hold down, when the left mouse button is down, when the mouse cursor is over the taskbar, and so on...
+
 When the conditions that you define are not satisfied, your mouse wheel will be used for the regular scrolling tasks, exactly as before.
     </description>
     <projectUrl>http://www.nirsoft.net/utils/volumouse.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/volumouse.png</iconUrl>
-    <tags>wheel sound adjust change control speaker freeware</tags>
+    <tags>sound speaker control</tags>
     <copyright>© 2004 NirSoft</copyright>
     <licenseUrl>http://www.nirsoft.net/utils/volumouse.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

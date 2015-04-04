@@ -6,13 +6,23 @@
     <version>{{PackageVersion}}</version>
     <authors>Nir Sofer</authors>
     <owners>dtgm</owners>
-    <summary></summary>
+    <summary>Displays the list of DLLs that are automatically injected on every process in your system</summary>
     <description>
-InjectedDLL is a small utility that displays the list of DLLs that are automatically injected on every process in your system.
+DLL injection is a quite common technique used by many programs and utilities, so the fact that you have injected DLLs in your system doesn't mean that something is wrong.
+
+The following type of legitimate programs may use DLL injection technique:
+
+* Programs that listen to keystroke on your systems: Macro recorders, key loggers, and so on...
+* Programs that listen to mouse moves and/or change the default mouse behavior. For example: Volumouse utility uses the vlmshlp.dll for listening the mouse wheel moves, and use it for changing the sound volume.
+* Debugging and diagnostics tools. For example: Microsoft Spy++ utility
+* Security related programs: Firewalls, Antivirus programs, AntiSpyware programs, and so on.
+* Programs that are well integrated into Windows environment. For example: Babylon translation software uses CAPTLIB.DLL in order to activate the dictionary with mouse buttons and the keyboard.
+
+In addition to the above list, DLL injection may also be used by malicious programs (Viruses, Trojans, Spywares).
     </description>
     <projectUrl>http://www.nirsoft.net/utils/injected_dll.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/injecteddll.png</iconUrl>
-    <tags></tags>
+    <tags>dll process rootkit security</tags>
     <copyright>© 2006 NirSoft</copyright>
     <licenseUrl>http://www.nirsoft.net/utils/injected_dll.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

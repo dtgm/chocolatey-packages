@@ -10,7 +10,7 @@
     <description>
 NetworkConnectLog is a simple utility that repeatedly scans your local area network (Using ARP and Netbios protocols) and add a new log
 line every time that a new computer or device connects to your network, and when a computer or device disconnects from your network.
-<br>
+
 After the connect/disconnect log lines are accumulated, you can easily export the log lines to comma-delimited/tab-delimited/html/xml file.
     </description>
     <projectUrl>http://www.nirsoft.net/utils/network_connect_log.html</projectUrl>

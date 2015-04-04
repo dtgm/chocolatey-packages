@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{packageName}}</id>
+    <title>TeXnicCenter</title>
+    <version>{{packageVersion}}</version>
+    <authors>TeXnicCenter Team</authors>
+    <owners>dtgm</owners>
+    <summary>Integrated documentation environment (IDE) for LaTeX</summary>
+    <description>
+TeXnicCenter is what we call an integrated documentation environment (IDE) for LaTeX. That means that TeXnicCenter integrates all the functionality you need to create, write, build, fix, view and print your LaTeX documents.
+
+TeXnicCenter's innovative user interface, its powerful features, its large community (more than 1,000,000 users all over the world) and the fact that it is Free Open Source Software (GPL) makes it the first choice for LaTeX authors working on the Windows platform.
+
+[Source code](https://sourceforge.net/p/texniccenter/code/ci/default/tree/)
+    </description>
+    <projectUrl>http://www.texniccenter.org/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/368ad81c24d3601b6f771eb5d90b672bfe842fdd/icons/{{packageName}}.ico</iconUrl>
+    <tags>documentation editor latex ide scintilla</tags>
+    <copyright>© 1999 The TeXnicCenter Team</copyright>
+    <licenseUrl>http://texniccenter.sourceforge.net/copyright.html#gpl</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

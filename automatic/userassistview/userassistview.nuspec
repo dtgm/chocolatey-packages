@@ -8,15 +8,13 @@
     <owners>dtgm</owners>
     <summary>Decrypt and displays the list of all UserAssist items in the Registry</summary>
     <description>
-This utility decrypt and displays the list of all UserAssist entries stored
-under HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist key in the Registry.
-The UserAssist key contains information about the exe files and links that you open frequently.
-you can save the list of UserAssist entries into text/html/xml/csv file, as well as you can delete unwanted 
-items.
+This utility decrypt and displays the list of all UserAssist entries stored under HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist key in the Registry.
+
+The UserAssist key contains information about the exe files and links that you open frequently. You can save the list of UserAssist entries into text/html/xml/csv file, as well as you can delete unwanted items.
     </description>
     <projectUrl>http://www.nirsoft.net/utils/userassist_view.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/userassistview.png</iconUrl>
-    <tags></tags>
+    <tags>userassist decrypt usage monitor</tags>
     <copyright>© 2008 NirSoft</copyright>
     <licenseUrl>http://www.nirsoft.net/utils/userassist_view.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

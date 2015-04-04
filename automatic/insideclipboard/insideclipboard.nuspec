@@ -8,17 +8,15 @@
     <owners>dtgm</owners>
     <summary>View the content of all formats stored in the Clipboard</summary>
     <description>
-Each time that you copy something into the clipboard for pasting it into another application, 
-the copied data is saved into multiple formats.
-The main clipboard application of Windows only display the basic clipboard formats, like text and bitmaps, but doesn't
-display the list of all formats that are stored in the clipboard.
-<br>
-InsideClipboard is a small utility that displays the binary content of all formats that are currently stored in the
-clipboard, and allow you to save the content of specific format into a binary file.
+Each time that you copy something into the clipboard for pasting it into another application, the copied data is saved into multiple formats.
+
+The main clipboard application of Windows only display the basic clipboard formats, like text and bitmaps, but doesn't display the list of all formats that are stored in the clipboard.
+
+InsideClipboard is a small utility that displays the binary content of all formats that are currently stored in the clipboard, and allow you to save the content of specific format into a binary file.
     </description>
     <projectUrl>http://www.nirsoft.net/utils/inside_clipboard.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/insideclipboard.png</iconUrl>
-    <tags></tags>
+    <tags>clipboard viewer</tags>
     <copyright>© 2007 NirSoft</copyright>
     <licenseUrl>http://www.nirsoft.net/utils/inside_clipboard.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

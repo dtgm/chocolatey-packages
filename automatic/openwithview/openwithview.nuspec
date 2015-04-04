@@ -8,16 +8,15 @@
     <owners>dtgm</owners>
     <summary>Disable/Enable items in the 'Open With' dialog-box of Windows</summary>
     <description>
-OpenWithView is a small utility that displays the list of all available applications in the 
-'Open With' dialog-box of Windows, and allows you to easily disable/enable the applications in the list.
+OpenWithView is a small utility that displays the list of all available applications in the 'Open With' dialog-box of Windows, and allows you to easily disable/enable the applications in the list.
+
 When application is disabled, it won't be displayed in the 'Other Programs' section of the 'Open With' dialog-box.
-<br>
-This utility can be useful if your 'Open With' window displays too much applications, and you want to
-remove the applications that you don't use frequently.
+
+This utility can be useful if your 'Open With' window displays too much applications, and you want to remove the applications that you don't use frequently.
     </description>
     <projectUrl>http://www.nirsoft.net/utils/open_with_view.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/openwithview.png</iconUrl>
-    <tags></tags>
+    <tags>open-with context-menu file-explorer</tags>
     <copyright>© 2008 NirSoft</copyright>
     <licenseUrl>http://www.nirsoft.net/utils/open_with_view.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

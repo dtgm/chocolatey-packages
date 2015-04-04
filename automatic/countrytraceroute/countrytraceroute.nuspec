@@ -9,10 +9,10 @@
     <summary>Fast Traceroute with IP country information</summary>
     <description>
 CountryTraceRoute is a Traceroute utility, similar to the tracert tool of Windows, but with graphical user interface, and it's also much faster than tracert of Windows.
+
 CountryTraceRoute also displays the country of the owner of every IP address found in the Traceroute.
-<br>
-After the Traceroute is completed, you can select all items (Ctrl+A) and then save them into csv/tab-delimited/html/xml file with 'Save Selected Items' option (Ctrl+S)
-or copy them to the clipboard (Ctrl+C) and then paste the result into Excel or other spreadsheet application.
+
+After the Traceroute is completed, you can select all items (Ctrl+A) and then save them into csv/tab-delimited/html/xml file with 'Save Selected Items' option (Ctrl+S) or copy them to the clipboard (Ctrl+C) and then paste the result into Excel or other spreadsheet application.
     </description>
     <projectUrl>http://www.nirsoft.net/utils/country_traceroute.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/countrytraceroute.png</iconUrl>

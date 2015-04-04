@@ -9,13 +9,14 @@
     <summary>WHOIS command line tool</summary>
     <description>
 WhoisCL is a simple command-line utility that allows you to easily get information about a registered domain.
+
 It automatically connect to the right WHOIS server, according to the top-level domain name, and retrieve the WHOIS record of the domain.
-<br>
+
 It supports both generic domains and country code domains.
     </description>
     <projectUrl>http://www.nirsoft.net/utils/whoiscl.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/whoiscl.png</iconUrl>
-    <tags>command-line record retrieve</tags>
+    <tags>cli whois record retrieve</tags>
     <copyright>© 2005 NirSoft</copyright>
     <licenseUrl>http://www.nirsoft.net/utils/whoiscl.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

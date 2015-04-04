@@ -9,7 +9,9 @@
     <summary>View the details of files downloaded with Firefox</summary>
     <description>
 This utility displays the list of the latest files that you downloaded with Firefox.
+
 For every download record, the following information is displayed:
+
 Download URL, Download Filename (with full path), Referrer, MIME Type, File Size, Start/End Time, Download Duration, and Average Download Speed.
     </description>
     <projectUrl>http://www.nirsoft.net/utils/firefox_downloads_view.html</projectUrl>

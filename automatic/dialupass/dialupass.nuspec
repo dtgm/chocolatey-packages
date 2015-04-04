@@ -8,15 +8,15 @@
     <owners>dtgm</owners>
     <summary>Recover lost dialup/RAS/VPN password in Windows XP/Vista</summary>
     <description>
-This utility enumerates all dialup/VPN entries on your computers, and displays 
-their logon details: User Name, Password, and Domain.
+This utility enumerates all dialup/VPN entries on your computers, and displays their logon details: User Name, Password, and Domain.
+
 You can use it to recover a lost password of your Internet connection or VPN.
-<br>
+
 Dialupass also allows you to save the dialup/VPN list into text/html/csv/xml file, or copy it to the clipboard.
     </description>
     <projectUrl>http://www.nirsoft.net/utils/dialupass.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/dialupass.png</iconUrl>
-    <tags>dialup vpn password recover vista windows</tags>
+    <tags>dialup vpn password recover vista</tags>
     <copyright>© 2001 NirSoft</copyright>
     <licenseUrl>http://www.nirsoft.net/utils/dialupass.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

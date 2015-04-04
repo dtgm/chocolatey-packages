@@ -8,17 +8,15 @@
     <owners>dtgm</owners>
     <summary>Reads and parses the history file of Safari Web browser (history.plist)</summary>
     <description>
-SafariHistoryView is a simple utility for Windows that reads and parses the history file of Safari Web browser
-(history.plist) and displays the browsing history in a simple table.
-Every browsing history line includes the following information: URL, Web Page Title, Last Visit Time, Visit Count, 
-Redirected To URL, and Record Index.
-<br>
-SafariHistoryView allows you to easily export the browsing history data into text/csv/html/xml file, or copy
-the data to the clipboard and then paste it into Excel.
+SafariHistoryView is a simple utility for Windows that reads and parses the history file of Safari Web browser (history.plist) and displays the browsing history in a simple table.
+
+Every browsing history line includes the following information: URL, Web Page Title, Last Visit Time, Visit Count, Redirected To URL, and Record Index.
+
+SafariHistoryView allows you to easily export the browsing history data into text/csv/html/xml file, or copy the data to the clipboard and then paste it into Excel.
     </description>
     <projectUrl>http://www.nirsoft.net/utils/safari_history_view.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/safarihistoryview.png</iconUrl>
-    <tags>history view visited sites history.plist</tags>
+    <tags>history visited safari</tags>
     <copyright>© 2011 NirSoft</copyright>
     <licenseUrl>http://www.nirsoft.net/utils/safari_history_view.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

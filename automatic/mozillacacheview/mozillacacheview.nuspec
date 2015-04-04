@@ -8,17 +8,15 @@
     <owners>dtgm</owners>
     <summary>View the cache files of Firefox/Mozilla browsers</summary>
     <description>
-MozillaCacheView is a small utility that reads the cache folder of Firefox/Mozilla/Netscape Web browsers,
-and displays the list of all files currently stored in the cache.
-For each cache file, the following information is displayed: URL, Content type, File size, Last modified time,
-Last fetched time, Expiration time, Fetch count, Server name, and more.
-<br>
-You can easily select one or more items from the cache list, and then extract the files to another folder, or 
-copy the URLs list to the clipboard.
+MozillaCacheView is a small utility that reads the cache folder of Firefox/Mozilla/Netscape Web browsers, and displays the list of all files currently stored in the cache.
+
+For each cache file, the following information is displayed: URL, Content type, File size, Last modified time, Last fetched time, Expiration time, Fetch count, Server name, and more.
+
+You can easily select one or more items from the cache list, and then extract the files to another folder, or copy the URLs list to the clipboard.
     </description>
     <projectUrl>http://www.nirsoft.net/utils/mozilla_cache_viewer.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/mozillacacheview.png</iconUrl>
-    <tags>mozilla cache extract web browser url windows</tags>
+    <tags>mozilla cache extract web browser</tags>
     <copyright>© 2007 NirSoft</copyright>
     <licenseUrl>http://www.nirsoft.net/utils/mozilla_cache_viewer.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

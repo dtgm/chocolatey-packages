@@ -2,87 +2,23 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
     <id>{{PackageName}}</id>
-    <title>Blue screen of death (STOP error) information in dump files. (Portable)</title>
+    <title>BlueScreenView (Portable)</title>
     <version>{{PackageVersion}}</version>
     <authors>Nir Sofer</authors>
     <owners>dtgm</owners>
-    <summary></summary>
+    <summary>Blue screen of death (STOP error) information in dump files</summary>
     <description>
 BlueScreenView scans all your minidump files created during 'blue screen of death' crashes, and displays the information about all crashes in one table.
-For each crash, BlueScreenView displays the minidump filename, the date/time of the crash, the basic crash
-information displayed in the blue screen (Bug Check Code and 4 parameters), and the details of the driver or module
-that possibly caused the crash (filename, product name, file description, and file version).
-<br>
+
+For each crash, BlueScreenView displays the minidump filename, the date/time of the crash, the basic crash information displayed in the blue screen (Bug Check Code and 4 parameters), and the details of the driver or module that possibly caused the crash (filename, product name, file description, and file version).
+
 For each crash displayed in the upper pane, you can view the details of the device drivers loaded during the crash in the lower pane.
+
 BlueScreenView also mark the drivers that their addresses found in the crash stack, so you can easily locate the suspected drivers that possibly caused the crash. 
     </description>
     <projectUrl>http://www.nirsoft.net/utils/blue_screen_view.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/bluescreenview.png</iconUrl>
-    <tags>screen death view reader dump minidump save crash stop error bsod</tags>
-    <copyright>© 2009 NirSoft</copyright>
-    <licenseUrl>http://www.nirsoft.net/utils/blue_screen_view.html</licenseUrl>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <releaseNotes>
-[What's New?](http://www.nirsoft.net/utils/blue_screen_view.html)
-    </releaseNotes>
-  </metadata>
-  <files>
-    <file src="tools\**" target="tools" />
-  </files>
-</package>
-<?xml version="1.0" encoding="utf-8"?>
-<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <metadata>
-    <id>{{PackageName}}</id>
-    <title>Blue screen of death (STOP error) information in dump files.</title>
-    <version>{{PackageVersion}}</version>
-    <authors>Nir Sofer</authors>
-    <owners>dtgm</owners>
-    <summary></summary>
-    <description>
-BlueScreenView scans all your minidump files created during 'blue screen of death' crashes, and displays the information about all crashes in one table.
-For each crash, BlueScreenView displays the minidump filename, the date/time of the crash, the basic crash
-information displayed in the blue screen (Bug Check Code and 4 parameters), and the details of the driver or module
-that possibly caused the crash (filename, product name, file description, and file version).
-<br>
-For each crash displayed in the upper pane, you can view the details of the device drivers loaded during the crash in the lower pane.
-BlueScreenView also mark the drivers that their addresses found in the crash stack, so you can easily locate the suspected drivers that possibly caused the crash. 
-    </description>
-    <projectUrl>http://www.nirsoft.net/utils/blue_screen_view.html</projectUrl>
-    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/bluescreenview.png</iconUrl>
-    <tags>screen death view reader dump minidump save crash stop error bsod</tags>
-    <copyright>© 2009 NirSoft</copyright>
-    <licenseUrl>http://www.nirsoft.net/utils/blue_screen_view.html</licenseUrl>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <releaseNotes>
-[What's New?](http://www.nirsoft.net/utils/blue_screen_view.html)
-    </releaseNotes>
-    <dependencies>
-      <dependency id="{{PackageName}}" version="[{{PackageVersion}}]" />
-    </dependencies>
-  </metadata>
-</package>
-<?xml version="1.0" encoding="utf-8"?>
-<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <metadata>
-    <id>{{PackageName}}</id>
-    <title>Blue screen of death (STOP error) information in dump files. (Portable)</title>
-    <version>{{PackageVersion}}</version>
-    <authors>Nir Sofer</authors>
-    <owners>dtgm</owners>
-    <summary></summary>
-    <description>
-BlueScreenView scans all your minidump files created during 'blue screen of death' crashes, and displays the information about all crashes in one table.
-For each crash, BlueScreenView displays the minidump filename, the date/time of the crash, the basic crash
-information displayed in the blue screen (Bug Check Code and 4 parameters), and the details of the driver or module
-that possibly caused the crash (filename, product name, file description, and file version).
-<br>
-For each crash displayed in the upper pane, you can view the details of the device drivers loaded during the crash in the lower pane.
-BlueScreenView also mark the drivers that their addresses found in the crash stack, so you can easily locate the suspected drivers that possibly caused the crash. 
-    </description>
-    <projectUrl>http://www.nirsoft.net/utils/blue_screen_view.html</projectUrl>
-    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/bluescreenview.png</iconUrl>
-    <tags>screen death view reader dump minidump save crash stop error bsod</tags>
+    <tags>bsod error crash stop dump minidump</tags>
     <copyright>© 2009 NirSoft</copyright>
     <licenseUrl>http://www.nirsoft.net/utils/blue_screen_view.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

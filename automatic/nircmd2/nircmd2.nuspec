@@ -8,16 +8,12 @@
     <owners>dtgm</owners>
     <summary>Windows command line tool</summary>
     <description>
-NirCmd is a small command-line utility that allows you to do some useful tasks without
-displaying any user interface. By running NirCmd with simple command-line option, you can
-write and delete values and keys in the Registry, write values into INI file, dial to your
-internet account or connect to a VPN network, restart windows or shut down the computer, 
-create shortcut to a file, change the created/modified date of a file, change your display
-settings, turn off your monitor, open the door of your CD-ROM drive, and more...
+NirCmd is a small command-line utility that allows you to do some useful tasks without displaying any user interface. By running NirCmd with simple command-line option, you can write and delete values and keys in the Registry, write values into INI file, dial to your
+internet account or connect to a VPN network, restart windows or shut down the computer, create shortcut to a file, change the created/modified date of a file, change your display settings, turn off your monitor, open the door of your CD-ROM drive, and more...
     </description>
     <projectUrl>http://www.nirsoft.net/utils/nircmd.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/nircmd2.png</iconUrl>
-    <tags>freeware dial monitor off create shortcut open cd-rom door turn registry change volume mute</tags>
+    <tags>cli control system</tags>
     <copyright>© 2003 NirSoft</copyright>
     <licenseUrl>http://www.nirsoft.net/utils/nircmd.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

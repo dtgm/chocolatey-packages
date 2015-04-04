@@ -9,12 +9,14 @@
     <summary>Shows programs previously executed on your system</summary>
     <description>
 ExecutedProgramsList is a simple tool that displays a list of programs and batch files that you previously executed on your system.
+
 For every program, ExecutedProgramsList displays the .exe file, the created/modified time of the .exe file,  and the current version information of the program (product name, product version, company name) if it's available.
+
 For some of the programs, the last time execution time of the program is also displayed.
     </description>
     <projectUrl>http://www.nirsoft.net/utils/executed_programs_list.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/executedprogramslist.png</iconUrl>
-    <tags>executed programs list windows</tags>
+    <tags>executed programs list</tags>
     <copyright>© 2015 NirSoft</copyright>
     <licenseUrl>http://www.nirsoft.net/utils/executed_programs_list.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

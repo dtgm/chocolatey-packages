@@ -8,24 +8,15 @@
     <owners>dtgm</owners>
     <summary>Dump EDID information</summary>
     <description>
-DumpEDID is a small console application that extract the EDID (&quot;Extended display identification data&quot;)
-records from your computer, analyze it, and dump it into the console window.
-EDID record provide essential information about your monitor: manufacture week/year, monitor manufacturer,
-monitor model, supported display modes, and so on...
-<br>
+DumpEDID is a small console application that extract the EDID (Extended Display Identification Data) records from your computer, analyze it, and dump it into the console window.
+
+EDID record provide essential information about your monitor: manufacture week/year, monitor manufacturer, monitor model, supported display modes, and so on...
+
 You can also get the EDID records of a remote computer, if you login to this computer with administrator rights.
-
-
-<h4 class="utilsubject">License</h4>
-This utility is released as freeware. 
-You are allowed to freely distribute this utility via floppy disk, CD-ROM, 
-Internet, or in any other way, as long as you don't charge anything for this.  
-If you distribute this utility, you must include all files in
-the distribution package, without any modification !
     </description>
     <projectUrl>http://www.nirsoft.net/utils/dump_edid.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/dumpedid.png</iconUrl>
-    <tags></tags>
+    <tags>cli edid dump information</tags>
     <copyright>© 2006 NirSoft</copyright>
     <licenseUrl>http://www.nirsoft.net/utils/dump_edid.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

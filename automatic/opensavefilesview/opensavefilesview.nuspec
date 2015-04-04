@@ -6,15 +6,15 @@
     <version>{{PackageVersion}}</version>
     <authors>Nir Sofer</authors>
     <owners>dtgm</owners>
-    <summary>Displays files that you previously opened with the standard open/save dialog-box of Windows</summary>
+    <summary>Displays files that you previously opened with the standard open/save dialog-box</summary>
     <description>
 OpenSaveFilesView is a simple tool that displays the list of files that you previously opened with the standard open/save dialog-box of Windows.
-For every file in the list, the following information is displayed: Filename, Extension, Order (The order that the files were opened for every file extension), Open Time (Available only for the last opened file of every file type), 
-File Modified/Created Time, File Size, and File Attributes.
+
+For every file in the list, the following information is displayed: Filename, Extension, Order (The order that the files were opened for every file extension), Open Time (Available only for the last opened file of every file type), File Modified/Created Time, File Size, and File Attributes.
     </description>
     <projectUrl>http://www.nirsoft.net/utils/open_save_files_view.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/opensavefilesview.png</iconUrl>
-    <tags></tags>
+    <tags>files open save</tags>
     <copyright>© 2014 NirSoft</copyright>
     <licenseUrl>http://www.nirsoft.net/utils/open_save_files_view.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

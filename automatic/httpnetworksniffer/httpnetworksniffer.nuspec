@@ -9,9 +9,8 @@
     <summary>http sniffer utility</summary>
     <description>
 HTTPNetworkSniffer is a packet sniffer tool that captures all HTTP requests/responses sent between the Web browser and the Web server and displays them in a simple table.
-For every HTTP request, the following information is displayed:
-Host Name, HTTP method (GET, POST, HEAD), URL Path, User Agent, Response Code, Response String, Content Type,
-Referer, Content Encoding, Transfer Encoding, Server Name, Content Length, Cookie String, and more...
+
+For every HTTP request, the following information is displayed: Host Name, HTTP method (GET, POST, HEAD), URL Path, User Agent, Response Code, Response String, Content Type, Referer, Content Encoding, Transfer Encoding, Server Name, Content Length, Cookie String, and more...
     </description>
     <projectUrl>http://www.nirsoft.net/utils/http_network_sniffer.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/httpnetworksniffer.png</iconUrl>

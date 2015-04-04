@@ -6,14 +6,13 @@
     <version>{{PackageVersion}}</version>
     <authors>Nir Sofer</authors>
     <owners>dtgm</owners>
-    <summary>add/edit toolbar buttons in Internet Explorer</summary>
+    <summary>Add/Edit toolbar buttons in Internet Explorer</summary>
     <description>
-The CustomizeIE utility allows you to easily add, edit and delete additional 
-toolbar buttons and menu items in Internet Explorer. (Version 5.0 and above)
+The CustomizeIE utility allows you to easily add, edit and delete additional toolbar buttons and menu items in Internet Explorer. (Version 5.0 and above)
     </description>
     <projectUrl>http://www.nirsoft.net/utils/ctie.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/ctie.png</iconUrl>
-    <tags></tags>
+    <tags>ie toolbar customizations</tags>
     <copyright>© 2003 NirSoft</copyright>
     <licenseUrl>http://www.nirsoft.net/utils/ctie.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

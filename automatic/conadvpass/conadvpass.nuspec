@@ -2,20 +2,23 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
     <id>{{PackageName}}</id>
-    <title>Remove Content Advisor Password</title>
+    <title>Content Advisor Password Remover</title>
     <version>{{PackageVersion}}</version>
     <authors>Nir Sofer</authors>
     <owners>dtgm</owners>
-    <summary></summary>
+    <summary>Remove Content Advisor Password</summary>
     <description>
 Content Advisor is a feature in Internet Explorer that allows supervisors to restrict the web sites that the users can browse. The supervisor can set a password in order to prevent from other users from changing the Content Advisor properties.
+
 If the supervisor forgets the password, he cannot change the Content Advisor properties in the regular way. The simplest way to solve this problem is to delete the password in the Registry.
-The password is stored in HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\Ratings. The "Key" value represents the encrypted password. <br>
+
+The password is stored in HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\Ratings. The "Key" value represents the encrypted password. 
+
 Advanced users can easily delete the password from the registry and thus they don't need this utility. User who doesn't want to deal with the registry, can use my utility for deleting the Content Advisor Password.
     </description>
     <projectUrl>http://www.nirsoft.net/utils/conadvpass.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/conadvpass.png</iconUrl>
-    <tags></tags>
+    <tags>content advisor remove ie</tags>
     <copyright>© 2002 NirSoft</copyright>
     <licenseUrl>http://www.nirsoft.net/utils/conadvpass.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

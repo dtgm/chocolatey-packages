@@ -8,16 +8,15 @@
     <owners>dtgm</owners>
     <summary>Special Folders Viewer</summary>
     <description>
-Windows operating system have dozens of special folders that are used for 
-storing application settings and files, storing Internet files, saving temporary files, storing shortcuts to other files, and so on.
-<br>
-This utility displays the list of all special folders in your system, and allows you to easily
-jump to the right folder simply by double-clicking the folder item.
+Windows operating system have dozens of special folders that are used for storing application settings and files, storing Internet files, saving temporary files, storing shortcuts to other files, and so on.
+
+This utility displays the list of all special folders in your system, and allows you to easily jump to the right folder simply by double-clicking the folder item.
+
 You can also save the list of all folder paths into text/html/xml file.
     </description>
     <projectUrl>http://www.nirsoft.net/utils/special_folders_view.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/specialfoldersview.png</iconUrl>
-    <tags>folders windows jump view csidl vista</tags>
+    <tags>folders jump view csidl vista</tags>
     <copyright>© 2008 NirSoft</copyright>
     <licenseUrl>http://www.nirsoft.net/utils/special_folders_view.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
