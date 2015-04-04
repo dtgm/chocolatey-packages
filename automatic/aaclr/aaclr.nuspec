@@ -27,7 +27,7 @@ And about resource usage: AAClr uses less than 2MB of private bytes - I think th
     <copyright>© Stefan Kueng</copyright>
     <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/58932758e06b5e8ad1576832e17ccdb6aff939ef/icons/{{PackageName}}.ico</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/9856ff4757b8ace9a7b612e953b068bbe21b211c/icons/{{PackageName}}.png</iconUrl>
     <releaseNotes />
   </metadata>
   <files>

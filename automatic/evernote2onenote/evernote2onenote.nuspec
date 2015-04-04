@@ -17,7 +17,7 @@ Evernote2Onenote uses the Evernote script engine ENScript.exe to export notes. T
     <copyright>© Stefan Kueng</copyright>
     <licenseUrl>https://www.gnu.org/licenses/gpl-3.0.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/3dcb813a25777f68656be7c3fdbf6f7e1b43c915/icons/{{PackageName}}.ico</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/9856ff4757b8ace9a7b612e953b068bbe21b211c/icons/{{PackageName}}.png</iconUrl>
     <releaseNotes />
     <dependencies>
       <dependency id="dotnet4.0" />
