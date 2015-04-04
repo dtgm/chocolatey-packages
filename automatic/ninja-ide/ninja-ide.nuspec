@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>Ninja-IDE</title>
+    <version>{{PackageVersion}}</version>
+    <authors>ninjas</authors>
+    <owners>dtgm</owners>
+    <summary>Ninja-IDE Is Not Just Another IDE</summary>
+    <description>
+Ninja-IDE is a cross-platform integrated development environment (IDE) that allows developers to create applications for any purpose making the task of writing software easier and more enjoyable. 
+
+It's also a secret ninja agency but this doesn't matter right now. 
+
+[Source code](https://github.com/ninja-ide/ninja-ide)
+    </description>
+    <projectUrl>http://ninja-ide.org/</projectUrl>
+    <tags>ide programming</tags>
+    <copyright>© 2010 ninjas</copyright>
+    <licenseUrl>https://github.com/ninja-ide/ninja-ide/blob/master/COPYING</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/7cbd59999fed62ac5066552d05c57ec244b6a0f3/icons/{{PackageName}}.png</iconUrl>
+    <releaseNotes />
+    <dependencies>
+      <dependency id="autohotkey.portable" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

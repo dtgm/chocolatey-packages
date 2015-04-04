@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>DreamPie</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Noam Yorav-Raphael</authors>
+    <owners>dtgm</owners>
+    <summary>The Python shell you've always dreamed about</summary>
+    <description>
+DreamPie is a Python shell which is designed to be reliable and fun. It is based on IDLE, the IDE shipped with Python.
+
+DreamPie was designed from the ground up to bring you a great interactive Python experience:
+
+* DreamPie features a new concept for an interactive shell: the window is divided into the history box, which lets you view previous commands and their output, and the code box, where you write your code. This allows you to edit any amount of code, just like in your favorite editor, and execute it when it's ready. You can also copy code from anywhere, edit it and run it instantly.
+* The Copy code only command will copy the code you want to keep, so you can save it in a file. The code is already formatted nicely with a four-space indentation.
+* Features automatic completion of attributes and file names.
+* Automatically displays function arguments and documentation.
+* Keeps your recent results in the result history, for later use.
+* Can automatically fold long outputs, so you can concentrate on what's important.
+* Lets you save the history of the session as an HTML file, for future reference. You can then load the history file into DreamPie, and quickly redo previous commands.
+* Automatically adds parentheses and optionally quotes when you press space after functions and methods. For example, type execfile fn and get execfile("fn").
+* Supports interactive plotting with matplotlib.
+* Supports virtually all Python implementations: 2.5+, 3.1+, Jython, IronPython and PyPy.
+* Cross-platform: Works on Windows, Linux and Mac.
+* Extremely fast and responsive.
+* Free software licensed under GPL version 3
+
+Some of the code is based on IDLE - the IDE shipped with Python. I contributed the AutoComplete feature to IDLE, and worked with it quite a lot, but became frustrated with its limitations. So I decided to write a new interactive shell, which will combine the best of IDLE, IPython and the plain old Python shell.
+
+[Source code](https://github.com/noamraph/dreampie)
+    </description>
+    <projectUrl>http://www.dreampie.org/</projectUrl>
+    <tags>python shell</tags>
+    <copyright>© 2012 Noam Yorav-Raphael</copyright>
+    <licenseUrl>https://github.com/noamraph/dreampie/blob/master/COPYING</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/8c7c9db8f80c5c151d4eed9648f78b4017753e46/icons/{{PackageName}}.png</iconUrl>
+    <releaseNotes>
+[Changelog](https://github.com/noamraph/dreampie/blob/master/whatsnew.md)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

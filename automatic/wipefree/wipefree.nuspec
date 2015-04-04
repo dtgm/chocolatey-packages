@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>WipeFree</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Jem Berkes</authors>
+    <owners>dtgm</owners>
+    <summary>Overwrite free disk space to make file recovery difficult</summary>
+    <description>
+Overwrites the blank space on a disk with random data, destroying any previously deleted information. Suitable for use on hard drives, floppy diskettes, or removable drives. Compatible with disk compression software (generates random, uncompressable data). Suitable for use on partitions up to 4 GB in size. 
+
+WARNING: The level of data security offered by WipeFree is minimal. Effectiveness depends on the file system, operating system and upon other programs (which may intercept data).
+    </description>
+    <projectUrl>http://www.pc-tools.net/win32/{{PackageName}}/</projectUrl>
+    <tags>cli overwrite</tags>
+    <copyright>© 2004 Jem Berkes</copyright>
+    <licenseUrl>https://en.wikipedia.org/wiki/Freeware</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes />
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

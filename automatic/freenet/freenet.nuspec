@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>Freenet</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Freenet Project</authors>
+    <owners>dtgm</owners>
+    <summary>Decentralised, anonymous network that is censorship-resistant</summary>
+    <description>
+Freenet is a peer-to-peer platform for censorship-resistant communication. It uses a decentralized distributed data store to keep and deliver information, and has a suite of free software for publishing and communicating on the Web without fear of censorship. Both Freenet and some of its associated tools were originally designed by Ian Clarke, who defined Freenet's goal as providing freedom of speech on the Internet with strong anonymity protection.
+
+By running this program you contribute to the security of the overall Freenet network.
+
+Freenet is installed by default into `$Env:LocalAppData\Freenet`
+
+After launching the program, you must first configure the program by connecting to http://127.0.0.1:8888/
+
+Tutorial: [Freenet Social Networking Guide](http://freesocial.draketo.de/)
+[FAQ](https://freenetproject.org/faq.html)
+[Documentation](https://freenetproject.org/documentation.html)
+[Wiki](https://wiki.freenetproject.org/Main_Page)
+[Source code](https://github.com/freenet/fred)
+    </description>
+    <projectUrl>https://freenetproject.org/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/78be841b359bc919b340717b4b3901d33805e4a9/icons/{{PackageName}}.png</iconUrl>
+    <tags>p2p anonymity decentralized freedom-of-speech java</tags>
+    <copyright>© 1999 Ian Clarke, Freenet Project</copyright>
+    <licenseUrl>https://github.com/freenet/fred/blob/next/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[What's New?](https://github.com/freenet/fred/releases)
+[Develoger Changelog](https://bugs.freenetproject.org/changelog_page.php)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>Frost</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Jan Gerritsen,K. Graul,Jose M. Arnesto</authors>
+    <owners>dtgm</owners>
+    <summary>Freenet front-end written in Java. Supports multiple up/downloads, messages, searching and more</summary>
+    <description>
+Frost is a Freenet client that provides newsgroup-like messaging, private encrypted messages, file upload and download functionality and a file sharing system.
+
+If this is your first time trying Frost, you'll see its quite different from other filesharing programs. Its anonymous, and yet has a very personal atmosphere.
+
+If you know how to use newsgroups, you'll find Frost very easy to use and will feel right at home. If you're used to other filesharing apps, you should know that the best way to find what you're looking for is to ask for it. If you can't find it in the search results, post a message to the relevant board and someone will respond to you. Common questions are answered in the Support area.
+
+[Screenshots](http://jtcfrost.sourceforge.net/screenshots.html)
+[Wiki](https://sourceforge.net/p/jtcfrost/wiki/Home/)
+[Source code](https://sourceforge.net/p/jtcfrost/code/HEAD/tree/)
+    </description>
+    <projectUrl>http://jtcfrost.sourceforge.net/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/07028d1765480c85ca1578820fd82629f261f471/icons/frost.png</iconUrl>
+    <tags>p2p filesharing freenet</tags>
+    <copyright>© 2005 Frost</copyright>
+    <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[What's New?](https://sourceforge.net/p/jtcfrost/news/)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="freenet" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

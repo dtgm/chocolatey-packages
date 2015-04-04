@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>Locate32</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Janne Huttunen</authors>
+    <owners>dtgm</owners>
+    <summary>Quickly find files and directories based on file names with index</summary>
+    <description>
+Locate is a program that can be used to find files from your hard disks. Before you can use program you must create a database containing file names. To create a database, use choose Update databases in locate32.exe or run updtdb32.exe. Check Databases tab in Settings dialog, for example, to index more drives than local drives.
+
+For more help run updtdb32 -h or locate -h. 
+
+[Source code](https://sourceforge.net/p/locate32/code/HEAD/tree/)
+    </description>
+    <projectUrl>http://locate32.cogit.net/</projectUrl>
+    <tags>file search index</tags>
+    <copyright>© 1997 Janne Huttunen</copyright>
+    <licenseUrl>https://sourceforge.net/p/locate32/code/HEAD/tree/trunk/LICENCE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/549f28feaae8f2e8d1e4fc90a1cdda3a1f92ddc3/icons/locate32.png</iconUrl>
+    <releaseNotes />
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
