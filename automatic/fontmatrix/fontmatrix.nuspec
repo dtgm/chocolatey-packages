@@ -32,6 +32,9 @@ According to Haralambous, here is what we can expect a font manager to provide:
     <releaseNotes>
 [Development changelog](http://svn.gna.org/svn/undertype/trunk/tools/typotek/ChangeLog)
     </releaseNotes>
+    <dependencies>
+      <dependency id="autohotkey.portable" />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

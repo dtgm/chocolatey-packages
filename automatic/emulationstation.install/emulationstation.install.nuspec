@@ -23,6 +23,9 @@ A graphical and themeable emulator front-end that allows you to access all your 
     <releaseNotes>
 [Changelog](http://emulationstation.org/news/)
     </releaseNotes>
+    <dependencies>
+      <dependency id="autohotkey.portable" />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

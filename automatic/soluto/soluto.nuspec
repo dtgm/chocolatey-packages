@@ -50,6 +50,9 @@ Soluto can provide additional remote management and reporting features by creati
 [What data does Soluto collect?](https://support.soluto.com/entries/20756861-what-data-does-soluto-collect)
 [Privacy Policy](https://www.soluto.com/legal/privacy-policy)
     </releaseNotes>
+    <dependencies>
+      <dependency id="autohotkey.portable" />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
