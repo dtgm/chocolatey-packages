@@ -41,11 +41,12 @@ Andy is an Android emulator that breaks down the barrier between desktop and mob
     <releaseNotes>
 ### Program
 
-https://www.facebook.com/groups/AndySupport/</releaseNotes>
+https://www.facebook.com/groups/AndySupport/
 
 ### Package
 
 [Bonjour](https://developer.apple.com/bonjour/index.html) (mDNSResponder) dependency is installed silently but is not uninstalled with Andy.
+    </releaseNotes>
     <dependencies>
       <dependency id="virtualbox" />
       <dependency id="autohotkey.portable" />
