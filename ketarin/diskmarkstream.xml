@@ -4,8 +4,8 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>2299279</LastFileSize>
-    <LastFileDate>2015-03-22T16:06:09.4549598</LastFileDate>
+    <LastFileSize>144371</LastFileSize>
+    <LastFileDate>2014-09-24T12:43:17-05:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -33,7 +33,21 @@
       </item>
       <item>
         <key>
-          <string>version</string>
+          <string>cscript</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>2</TextualContent>
+            <Name>cscript</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>urlBase</string>
         </key>
         <value>
           <UrlVariable>
@@ -41,8 +55,36 @@
             <VariableType>Textual</VariableType>
             <Regex />
             <Url />
-            <TextualContent>{getVersionMod:replace:%20:-}</TextualContent>
+            <TextualContent>https://sourceforge.net/projects/{appname}/files</TextualContent>
+            <Name>urlBase</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>version</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>href="/projects/diskmarkstream/files/([\d\.]+)</Regex>
+            <Url>{urlBase}</Url>
             <Name>version</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>getUrl</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>[^ "'&lt;&gt;\*]+\.zip/download</Regex>
+            <Url>{urlBase}/{version}/</Url>
+            <Name>getUrl</Name>
           </UrlVariable>
         </value>
       </item>
@@ -75,77 +117,6 @@
           </UrlVariable>
         </value>
       </item>
-      <item>
-        <key>
-          <string>urlBase</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <Url />
-            <TextualContent>https://sourceforge.net/projects/diskmarkstream/files</TextualContent>
-            <Name>urlBase</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>getUrl</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>RegularExpression</VariableType>
-            <Regex>[^ "'&lt;&gt;\*]+{version:replace:.:}\.zip/download</Regex>
-            <Url>{urlBase}/{getVersion}</Url>
-            <Name>getUrl</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>getVersion</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>RegularExpression</VariableType>
-            <Regex>href="/projects/diskmarkstream/files/([\d\.]+)</Regex>
-            <Url>{urlBase}</Url>
-            <Name>getVersion</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>getVersionMod</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <TextualContent>{getVersion:tolower}</TextualContent>
-            <Name>getVersionMod</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>cscript</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <TextualContent>1</TextualContent>
-            <Name>cscript</Name>
-          </UrlVariable>
-        </value>
-      </item>
     </Variables>
     <ExecuteCommand />
     <ExecutePreCommand />
@@ -153,10 +124,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\DMStream059.zip</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-03-22T16:06:09.4549598</LastUpdated>
+    <LastUpdated>2015-04-06T08:21:05.1126036-05:00</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>diskmarkstream</Name>
