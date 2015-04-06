@@ -54,4 +54,4 @@ Currently DropIt allows to perform the following 20 actions on your files and fo
       <dependency id="{{PackageName}}.install" version="[{{PackageVersion}}]" />
     </dependencies>
   </metadata>
-</package>
+</package>
