@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>RegEx Tester</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Pablo Osés</authors>
+    <owners>dtgm</owners>
+    <summary>Regular expression tester</summary>
+    <description>
+With RegEx Tester you can fully develop and test your regular expression against a target text. It's UI is designed to aid you in the RegEx developing. It uses and supports ALL of the features available in the .NET RegEx Class.
+
+[Source code](https://sourceforge.net/projects/regextester/files/RegExTester%20Sources/{{PackageVersion}}/)
+    </description>
+    <projectUrl>http://regextester.sourceforge.net/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/0d80b7b86eabd0251f1cdfc07e9e153072a593df/icons/{{PackageName}}.ico</iconUrl>
+    <tags>regex debug</tags>
+    <copyright>© 2003 Davide Mauri, 2006 Kurt Griffiths, 2009 Pablo Osés</copyright>
+    <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[Changelog](https://sourceforge.net/p/regextester/news/)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
