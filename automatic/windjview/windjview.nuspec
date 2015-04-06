@@ -6,10 +6,11 @@
     <version>{{packageVersion}}</version>
     <authors>Andrew Zhezherun, Leonid Zhezherun</authors>
     <owners>dtgm</owners>
-    <summary>A fast, compact, and powerful DjVu viewer</summary>
+    <summary>Fast, compact, and powerful DjVu viewer</summary>
     <description>
-WinDjView is a fast, compact and powerful DjVu viewer for Windows with tabbed interface, continuous scrolling and advanced printing options. It uses the free DjVuLibre library to decode DjVu documents. DjVu is a web-centric format and software platform for distributing documents and images.
+WinDjView is a fast, compact and powerful DjVu viewer for Windows with tabbed interface, continuous scrolling and advanced printing options. It uses the free [DjVuLibre](http://djvu.sourceforge.net/) library to decode DjVu documents. [DjVu](http://djvu.org/) is a web-centric format and software platform for distributing documents and images.
 
+[Forum](https://sourceforge.net/p/windjview/discussion/)
 [Source code](https://sourceforge.net/p/windjview/code/)
     </description>
     <projectUrl>http://windjview.sourceforge.net/</projectUrl>
@@ -18,9 +19,13 @@ WinDjView is a fast, compact and powerful DjVu viewer for Windows with tabbed in
     <copyright>© 2004 Andrew Zhezherun, Leonid Zhezherun</copyright>
     <licenseUrl>http://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <releaseNotes>https://sourceforge.net/p/windjview/news/</releaseNotes>
+    <releaseNotes>
+[News](http://windjview.sourceforge.net/news)
+[Changelog](http://windjview.sourceforge.net/version-history)
+[Known issues](https://sourceforge.net/p/windjview/bugs/)
+    </releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
   </files>
-</package>
+</package>

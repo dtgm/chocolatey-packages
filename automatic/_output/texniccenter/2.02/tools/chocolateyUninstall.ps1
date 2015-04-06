@@ -1,4 +1,4 @@
-﻿$packageName = '{{PackageName}}'
+$packageName = 'texniccenter'
 $installerType = 'exe'
 $silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
 $validExitCodes = @(0)
