@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>vcredist2013</id>
+    <version>12.0.0.20140222</version>
+    <title>Visual C++ Redistributable Packages for Visual Studio 2013</title>
+    <authors>Microsoft</authors>
+    <owners>Microsoft</owners>
+    <projectUrl>http://www.microsoft.com/en-us/download/details.aspx?id=40784</projectUrl>
+    <iconUrl>http://i.microsoft.com/global/ImageStore/PublishingImages/logos/56x56/microsoft_logo_56x56.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>The Visual C++ Redistributable Packages install run-time components that are required to run C++ applications that are built by using Visual Studio 2013.</description>
+    <summary>__NAME__</summary>
+    <copyright>http://www.microsoft.com/about/legal/en/us/IntellectualProperty/Copyright/Default.aspx</copyright>
+    <tags>visual c++ redistributable 2013 studio</tags>
+  </metadata>
+</package>
