@@ -10,18 +10,7 @@ try {
                    -ErrorAction:SilentlyContinue `
   | Where-Object   { $_.DisplayName -like "$packageSearch*" } `
   | ForEach-Object { 
-    #if ( $_.UninstallString | Select-String -Pattern '"\s+/') {
-      $unString = "$_.UninstallString" | %{ $_.Split('"')[1]; }
-    #  Write-Host "Removed switches from uninstall string."
-    #} else {
-    #  $unString = "$_.UninstallString"
-    #}
-    Write-Host "-------------------------------"
-    Write-Host "VARIABLE unString is  $unString"
-    Write-Host "VARIABLE unString is  $($unString)"
-    Write-Host "VARIABLE unString is  `"$unString`""
-    Write-Host "VARIABLE unString is  `'$unString`'"
-    Write-Host "-------------------------------"
+    $unString = "$_.UninstallString" | %{ $_.Split('"')[1]; }
     Uninstall-ChocolateyPackage -PackageName "$packageName" `
                                 -FileType "$installerType" `
                                 -SilentArgs "$silentArgs" `
