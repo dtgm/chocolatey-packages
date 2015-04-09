@@ -1,8 +1,20 @@
+# generated vars
 $packageName = '{{PackageName}}'
 $url = '{{DownloadUrl}}'
 $checksum = '{{Checksum}}'
+
+# static vars
 $checksumType = 'sha1'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
-Set-Content -Path ("$toolsDir\$packageName.exe.gui") -Value $null
-Install-ChocolateyZipPackage -PackageName "$packageName" -Url "$url" -UnzipLocation "$toolsDir" -Url64bit "" -Checksum "$checksum" -ChecksumType "$checksumType"
+# $Env:ChocolateyInstall\helpers\functions
+Install-ChocolateyZipPackage -PackageName "$packageName" `
+                             -Url "$url" `
+                             -UnzipLocation "$toolsDir" `
+                             -Url64bit "" `
+                             -Checksum "$checksum" `
+                             -ChecksumType "$checksumType"
+
+# create empty sidecar so shimgen creates shim for GUI rather than console
+Set-Content -Path ("$toolsDir\$packageName.exe.gui") `
+            -Value $null
