@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>GitHub</id>
+        <version>1.0.48.001</version>
+        <authors>GitHub</authors>
+        <projectUrl>http://windows.github.com/</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>A windows client for the popular GitHub project hosting site.</description>
+    </metadata>
+</package>
