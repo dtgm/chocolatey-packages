@@ -1,8 +1,8 @@
 Write-Verbose "Setting generated variables."
-$packageName = '{{PackageName}}'
+$packageName = 'github'
 $installerType = 'exe'
-$url = '{{DownloadUrl}}'
-$checksum = '{{Checksum}}'
+$url = 'https://github-windows.s3.amazonaws.com/GitHubSetup.exe'
+$checksum = 'D9BF1F1A1CF477F8A8FE1333E490FCD7'
 
 Write-Verbose "Setting static variables."
 $checksumType = 'md5'
