@@ -48,10 +48,13 @@ Currently DropIt allows to perform the following 20 actions on your files and fo
     <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-    
+[Changelog](http://www.dropitproject.com/changelog.txt)
     </releaseNotes>
+    <dependencies>
+      <dependency id="autohotkey.portable" />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
   </files>
-</package>
+</package>
