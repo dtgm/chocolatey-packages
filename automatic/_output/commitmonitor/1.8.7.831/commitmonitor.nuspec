@@ -20,7 +20,7 @@ Of course, you can configure the time interval CommitMonitor should check your r
 
 Just make sure in case you want to monitor a public open source repository to set the check interval not too small - you don't want to hammer those repositories!
 
-You can also put an `svnrobots.txt` file on your repository server to set a minimum time interval. See [the svnrobots documentation](http://stefanstools.sourceforge.net/svnrobots.html) for more details about this.
+You can also put an `svnrobots.txt` file on your repository server to set a minimum time interval. See the [svnrobots documentation](http://stefanstools.sourceforge.net/svnrobots.html) for more details about this.
 
 Once CommitMonitor has found new commits to one or more of the repositories you monitor, it shows a notification popup, and the system tray icon changes the "eyes" from black to red. And if you have the system tray animation enabled in the Options dialog, the eyes will also move around until you open CommitMonitor's main dialog (by double-clicking on the system tray icon) and read the commits.
 
