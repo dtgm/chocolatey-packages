@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>joinwav</id>
+    <title>JoinWav</title>
+    <version>1.0</version>
+    <authors>Jem Berkes</authors>
+    <owners>dtgm</owners>
+    <summary>Join many PCM WAV files into single audio file</summary>
+    <description>
+joinwav takes several input audio files in PCM WAV format and merges the files into a single output file. The resulting file is the exact sum of the input audio data and contains no gaps or silence between. A typical use might be combining the individual tracks from a ripped audio CD into a single file. This command line application is ideal for automated audio processing from a script or batch file.
+
+The software can handle output files up to 4 GBytes and does not create any temporary files.
+
+Input WAV files must have the same format (channels, bits, etc.) and output file will match. This program can merge most PCM WAV files (e.g. tracks ripped from audio CDs) but will not handle files with compression, errors, or unusual parameters.
+    </description>
+    <projectUrl>http://www.pc-tools.net/win32/joinwav/</projectUrl>
+    <tags>cli pcm wav join</tags>
+    <copyright>© 2004 Jem Berkes</copyright>
+    <licenseUrl>https://en.wikipedia.org/wiki/Freeware</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes />
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

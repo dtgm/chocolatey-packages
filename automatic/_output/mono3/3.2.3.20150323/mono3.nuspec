@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>mono3</id>
+    <title>[DEPRECATED] Mono</title>
+    <version>3.2.3.20150323</version>
+    <authors>Miguel de Icaza</authors>
+    <owners>dtgm</owners>
+    <summary>Mono, the open source development platform based on the .NET framework</summary>
+    <description>
+- - -
+This package has been deprecated in favor of __[mono](https://chocolatey.org/packages/mono)__ package because of Chocolatey naming conventions.  
+
+It is recommended that you uninstall this package before installing the new package: `cuninst mono3 &amp;&amp; cinst mono`
+
+If you have both packages installed, you may safely remove the mono3 chocolatey package by deleting the following directories: `%ChocolateyInstall%\lib\mono3.*`
+- - -
+    </description>
+    <projectUrl>https://chocolatey.org/packages/mono/</projectUrl>
+    <tags>deprecated</tags>
+    <dependencies>
+      <dependency id="mono" version="[3.0,4.0)" />
+    </dependencies>
+  </metadata>
+</package>

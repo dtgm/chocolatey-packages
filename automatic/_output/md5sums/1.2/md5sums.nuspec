@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>md5sums</id>
+    <title>MD5sums</title>
+    <version>1.2</version>
+    <authors>Jem Berkes</authors>
+    <owners>dtgm</owners>
+    <summary>Generate MD5 hashes of files (with progress indicator)</summary>
+    <description>
+MD5sums has user-friendly output, including a percent done indicator when processing large files. With its various command line switches you can customize MD5sums for use in scripts.
+
+The UNIX compatibility switch (-u) makes the output look like that from the Linux/BSD/UNIX md5 or md5sum commands.
+
+Besides the normal command line usage (see md5sums.txt), MD5sums can also be easily added to the windows shell. Use Windows Explorer to access your user profile directory (one level up from the "Start Menu" directory). Locate the "SendTo" folder and create a shortcut inside it to "md5sums -p" (pause before returning).
+
+If you have trouble locating your user profile directory, try this at the command prompt `echo %UserProfile%` or powershell console `$Env:UserProfile`.
+
+After adding MD5sums to the SendTo folder, you can select one or more files on the desktop (or in any other folder), and right-click to "Send To" md5sums. Each selected file will be processed.
+
+This is a win32 console application. There is no GUI, but you can use Explorer to drag files over md5sums.exe to obtain their md5 hashes.
+
+[FAQ](http://www.pc-tools.net/faq.shtml)
+    </description>
+    <projectUrl>http://www.pc-tools.net/win32/md5sums/</projectUrl>
+    <tags>cli md5 checksum files rfc1321</tags>
+    <copyright>© 2004 Jem Berkes</copyright>
+    <licenseUrl>https://en.wikipedia.org/wiki/Freeware</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[Changes](http://www.pc-tools.net/win32/md5sums/)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -6,7 +6,7 @@
     <version>4.8.12.187</version>
     <authors>adamy</authors>
     <owners>dtgm</owners>
-    <summary>Cross-platform, orthodox file manager and a clone of Norton Commander.</summary>
+    <summary>Cross-platform, orthodox file manager and clone of Norton Commander</summary>
     <description>
 Native port of GNU Midnight Commander compiled for Windows.
     
@@ -25,7 +25,9 @@ Specific information regarding the base Midnight Commander engine, can be found 
     <copyright>© adamy</copyright>
     <licenseUrl>http://fsfe.org/campaigns/gplv3/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <releaseNotes>http://sourceforge.net/projects/mcwin32/files/changelog.txt</releaseNotes>
+    <releaseNotes>
+[Changelog](http://sourceforge.net/projects/mcwin32/files/changelog.txt)
+    </releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

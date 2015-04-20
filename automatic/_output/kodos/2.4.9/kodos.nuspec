@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>kodos</id>
+    <title>Kodos</title>
+    <version>2.4.9</version>
+    <authors>Phil Schwartz</authors>
+    <owners>dtgm</owners>
+    <summary>Python regular expression debugger</summary>
+    <description>
+Kodos is a Python GUI utility for creating, testing and debugging regular expressions for the Python programming language. Kodos should aid any developer to efficiently and effortlessly develop regular expressions in Python. Since Python's implementation of regular expressions is based on the PCRE standard, Kodos should benefit developers in other programming languages that also adhere to the PCRE standard (Perl, PHP, etc...).
+
+[Regex library](http://kodos.sourceforge.net/regex-lib.html) of common reusable regular expression patterns [contributed](http://kodos.sourceforge.net/regex-lib-contrib.html) by users in kodos version >= 2.1.
+
+[Screenshots](http://kodos.sourceforge.net/screenshots.html)
+[Main interface window](http://kodos.sourceforge.net/mainwin.html)
+[Documentation](http://kodos.sourceforge.net/help/kodos.html)
+[Source code](https://sourceforge.net/projects/kodos/files/kodos/2.4.9/kodos-2.4.9.zip/download/)
+    </description>
+    <projectUrl>http://kodos.sourceforge.net/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/343c915b5f28caba1d86ef541f7c74a84cd37abd/icons/kodos.png</iconUrl>
+    <tags>debug regex python</tags>
+    <copyright>© 2002 Phil Schwartz</copyright>
+    <licenseUrl>http://kodos.sourceforge.net/gpl.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[Known issues](https://sourceforge.net/p/kodos/bugs/)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

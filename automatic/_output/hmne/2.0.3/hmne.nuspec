@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>hmne</id>
+    <title>HM NIS Edit</title>
+    <version>2.0.3</version>
+    <authors>Héctor Mauricio Rodríguez</authors>
+    <owners>dtgm</owners>
+    <summary>Editor/IDE for Nullsoft Scriptable Install System (NSIS)</summary>
+    <description>
+HM NIS Edit is the best Editor/IDE for Nullsoft Scriptable Install System (NSIS). Its useful for experts and beginners in the creation of Setup programs with the NSIS. Its Script Wizard will help you to create standard Setup programs with only few clicks, also its InstallOptions designer will help you to create your own custom pages with a friendly drag and drop interface.
+
+[Screenshots](http://hmne.sourceforge.net/index.php#Screenshot)
+[User support](https://sourceforge.net/projects/hmne/support)
+[Source code](https://sourceforge.net/p/hmne/code/)
+    </description>
+    <projectUrl>http://hmne.sourceforge.net/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/9aeed0b7b7e8c1fe68afb85aa3af03bb03a483bb/icons/hmne.png</iconUrl>
+    <tags>ide nsis editor</tags>
+    <copyright>© 2003 Héctor Mauricio Rodríguez</copyright>
+    <licenseUrl>http://hmne.cvs.sourceforge.net/viewvc/hmne/hmne/license.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[Changelog](http://hmne.sourceforge.net/changes.php)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

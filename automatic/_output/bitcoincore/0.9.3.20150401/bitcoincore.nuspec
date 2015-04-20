@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>bitcoincore</id>
+    <title>[DEPRECATED] BitCoin Core</title>
+    <version>0.9.3.20150401</version>
+    <authors>BitCoin</authors>
+    <owners>dtgm</owners>
+    <summary>BitCoin Core desktop BitCoin wallet</summary>
+    <description>
+- - -
+This package has been deprecated in favor of __[bitcoin](https://chocolatey.org/packages/bitcoin)__ package because of Chocolatey naming conventions.
+
+If you have both packages installed, you may safely remove the `bitcoincore` chocolatey package by deleting the following directories: `%ChocolateyInstall%\lib\bitcoincore*`
+- - -
+    </description>
+    <projectUrl>https://chocolatey.org/packages/bitcoin</projectUrl>
+    <tags>deprecated</tags>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <dependencies>
+      <dependency id="bitcoin" />
+    </dependencies>
+  </metadata>
+</package>

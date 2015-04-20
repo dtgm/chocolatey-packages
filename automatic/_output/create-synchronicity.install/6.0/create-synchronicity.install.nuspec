@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>create-synchronicity.install</id>
+    <title>Create Synchronicity (Install)</title>
+    <version>6.0</version>
+    <authors>Clément Pit--Claudel</authors>
+    <owners>dtgm</owners>
+    <summary>Easy, fast, and lightweight backup and synchronization</summary>
+    <description>
+Create Synchronicity is an easy, fast and powerful backup application. It synchronizes files and folders, has a neat interface, and can schedule backups to keep your data safe. Plus, it's open source, portable, multilingual, and very lightweight.
+
+[Features](http://synchronicity.sourceforge.net/features.html)
+[Screenshots](http://synchronicity.sourceforge.net/screenshots.html)
+[FAQ](http://synchronicity.sourceforge.net/faq.html)
+[Manual](http://synchronicity.sourceforge.net/help.html)
+    </description>
+    <projectUrl>http://synchronicity.sourceforge.net/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/fdb8cc8b9e2fe8d96807300ee8f0801feeb99cc7/icons/create-synchronicity.png</iconUrl>
+    <tags>backup sync</tags>
+    <copyright>© 2009 Create Software</copyright>
+    <licenseUrl>https://sourceforge.net/p/synchronicity/code/HEAD/tree/trunk/Create%20Synchronicity/COPYING</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [News](https://sourceforge.net/p/synchronicity/news/)
+* [Known issues](https://sourceforge.net/p/synchronicity/bugs/)
+* [Changelog](http://synchronicity.sourceforge.net/latest.html)
+* [Source code](https://sourceforge.net/p/synchronicity/code/HEAD/tree/)
+
+#### Package
+* Automatically generated and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>rehash</id>
+    <title>ReHash</title>
+    <version>0.2</version>
+    <authors>Dominik Reichl</authors>
+    <owners>dtgm</owners>
+    <summary>Console hash calculator</summary>
+    <description>
+ReHash is an easy-to-use console-based hash calculation tool written in C++. It supports many algorithms and output formats and it can be fully configured using some of the many command-line arguments which can be passed to the tool.
+
+The tool is compilable under Windows and Linux.
+
+It supports many algorithms, for example Adler32, CRC-16, CRC-16-CCITT, CRC-16-XMODEM, CRC-32, ELF-32, FCS-16, FCS-32, FNV-32, FNV-64, GHash-32-3, GHash-32-5, GOST-Hash, HAVAL (3/4/5, 256), MD2, MD4, MD5, SHA-1, SHA-256, SHA-384, SHA-512, Size64, Tiger, XUM32. For a full list see the ReHash documentation manual (included in downloadable package).
+
+It is possible to compute the HMACs of all algorithms.
+
+The tool can output the hashes in various formats like plain text, HTML, XML and CSV.
+
+ReHash can be fully configured using some of the many command-line arguments which can be passed to the tool. You can selectively activate/disable hash algorithms and set scanning options like scanning subdirectories recursively and excluding/including files using advanced file pattern matching.
+
+[Manual](http://rehash.sourceforge.net/rehash.html)
+
+Source code: http://sourceforge.net/projects/rehash/files/rehash/0.2/rehash-0.2-src.zip/download
+    </description>
+    <projectUrl>http://rehash.sourceforge.net/</projectUrl>
+    <tags>cli checksum</tags>
+    <copyright>© 2003 Dominik Reichl</copyright>
+    <licenseUrl>http://opensource.org/licenses/bsd-license.php</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[Known issues](http://sourceforge.net/p/rehash/bugs/)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

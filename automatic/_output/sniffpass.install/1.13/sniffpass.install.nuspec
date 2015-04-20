@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>sniffpass.install</id>
+    <title>SniffPass Password Sniffer (Install)</title>
+    <version>1.13</version>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm</owners>
+    <summary>Capture POP3/IMAP/SMTP/FTP/HTTP passwords</summary>
+    <description>
+SniffPass is small password monitoring software that listens to your network, capture the passwords that pass through your network adapter, and display them on the screen instantly.
+
+SniffPass can capture the passwords of the following Protocols: POP3, IMAP4, SMTP, FTP, and HTTP (basic authentication passwords).
+
+You can use this utility to recover lost Web/FTP/Email passwords.
+    </description>
+    <projectUrl>http://www.nirsoft.net/utils/password_sniffer.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/sniffpass.png</iconUrl>
+    <tags>monitoring sniffer capture pop3 imap smtp ftp http</tags>
+    <copyright>© 2005 NirSoft</copyright>
+    <licenseUrl>http://www.nirsoft.net/utils/password_sniffer.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[What's New?](http://www.nirsoft.net/utils/password_sniffer.html)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

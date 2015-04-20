@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>nirext</id>
+    <title>NirExt</title>
+    <version>1.01</version>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm</owners>
+    <summary>Adds 3 useful context menu extensions to your Windows Explorer</summary>
+    <description>
+NirExt allows you to change the icon of any folder you want, and change the text that appears when the mouse cursor moves over the folder. 
+
+The NirExt utility adds 3 useful context menu extensions to your Windows Explorer environment:
+
+* Folder Properties: This option is available in the context menu when you right-click on a folder in your file system. It allows you change the icon of any folder you want, and change the text that appears when the mouse cursor moves over the folder.
+* Advanced Run: This option is available in the context menu when you right-click on an executable file (*.EXE). It allows you to instantly run an application with command-line and some other options.
+* Create Shortcut: This option is available in the context menu when you right-click on any file in your system. It allows you to instantly create a shortcut and drop it into one of the following folders: Desktop, Start Menu, Programs folder under Start Menu, Common Desktop (for all users), Common Start Menu (for all users), and Common Programs folder (for all users) under Start Menu.
+    </description>
+    <projectUrl>http://www.nirsoft.net/utils/nirext.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/nirext.png</iconUrl>
+    <tags>icon context menu extension</tags>
+    <copyright>© 2003 NirSoft</copyright>
+    <licenseUrl>http://www.nirsoft.net/utils/nirext.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[What's New?](http://www.nirsoft.net/utils/nirext.html)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

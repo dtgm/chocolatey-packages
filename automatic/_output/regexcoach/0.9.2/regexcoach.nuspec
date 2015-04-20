@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>regexcoach</id>
+    <title>Regex Coach</title>
+    <version>0.9.2</version>
+    <authors>Dr. Edmund Weitz</authors>
+    <owners>dtgm</owners>
+    <summary>Interactive regular expressions</summary>
+    <description>
+The Regex Coach is a graphical application for Windows which can be used to experiment with (Perl-compatible) regular expressions interactively. It has the following features:
+
+* It shows whether a regular expression matches a particular target string.
+* It can also show which parts of the target string correspond to captured register groups or to arbitrary parts of the regular expression.
+* It can "walk" through the target string one match at a time.
+* It can simulate Perl's split and s/// (substitution) operators.
+* It tries to describe the regular expression in plain English.
+* It can show a graphical representation of the regular expression's parse tree.
+* It can single-step through the matching process as performed by the regex engine.
+* Everything happens in "real time", i.e. as soon as you make a change somewhere in the application all other parts are instantly updated.
+
+The Regex Coach is written in Common Lisp and was developed using the LispWorks development environment. The regex engine used is CL-PPCRE.
+
+[Documentation](http://weitz.de/regex-coach/#howto)
+[Compatibility with Perl](http://weitz.de/cl-ppcre/)
+    </description>
+    <projectUrl>http://weitz.de/regex-coach/</projectUrl>
+    <tags>regex ppcre freeware</tags>
+    <copyright>© 2003 Dr. Edmund Weitz</copyright>
+    <licenseUrl>http://weitz.de/regex-coach/#license</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/965c5af2efef8164d9e02f344442742c218d2495/icons/regexcoach.png</iconUrl>
+    <releaseNotes>
+#### Program
+* [Changelog](http://weitz.de/regex-coach/changelog.txt)
+* [Known issues](http://weitz.de/regex-coach/#bugs)
+
+#### Package
+* Automatically generated and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
