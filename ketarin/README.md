@@ -19,6 +19,7 @@ Ketarin's tagline is "Keep your setup packages up-to-date..."
 > __What is it all about?__
 >Ketarin is a small application which automatically updates setup packages. As opposed to other tools, Ketarin is not meant to keep your system up-to-date, but rather to maintain a compilation of all important setup packages which can then be burned to disc or put on a USB stick.
 I created this application, because I couldn't find anything like it when I needed such a functionality. Since I don't want my efforts go to waste, I decided to release it to the public. Ketarin is open source, so you can also extend its functionality to fit your needs (just note that you may not use the icons that ship with it freely as well). I'd also appreciate source code contributions. Ketarin is written in C#, for the .NET Framework 2.0 and uses SQLite as database engine.
+
 > __How does it work?__
 >Basically, it monitors the content of web pages for changes and downloads files to a specified location. There is a tutorial explaining it all. Currently, you can either rely on a service based on FileHippo, or you can define your own rules, even using regular expressions (for advanced users). A similar application, for monitoring web pages, is Webmon and has sometimes served as guide.
 
@@ -42,17 +43,21 @@ I created this application, because I couldn't find anything like it when I need
 3. Run ketarin.exe
 
 4. Modify settings
-`Ctrl+T | (File > Settings)
+<pre>
+Ctrl+T | (File > Settings)
 [General]
 Custom Column Name = Version
 Custom Column Value = {version}
 
 [Commands]
-chocopkgup {nopush} --packagename={appname} --version={version} --pg="{packageGuid}" --url="{preupdate-url}" --urlx64="{url64}" --packagepath="{file}" --checksum="{checksum}" --c64="{checksumx64}" --debug`
+
+chocopkgup {nopush} --packagename={appname} --version={version} --pg="{packageGuid}" --url="{preupdate-url}" --urlx64="{url64}" --packagepath="{file}" --checksum="{checksum}" --c64="{checksumx64}" --debug
+</pre>
 
 5. Add Applications to ketarin with either File > New Application, or importing any of the XML files in this repository.
 
 6. Minimum Ketarin field requirements for applications
+
 [Application tab]
   * Application name
   * URL
@@ -120,6 +125,7 @@ Typically not included as of Feb 2015:
 
 and output from `chocopkgup -?`
 
+<pre>
 Usage of Chocolatey Package Updater (chocopkgupdater)
 chocopkgup.exe /p[ackage] VALUE /v[ersion] VALUE [ /u[rl] VALUE /p[ackages]f[older] VALUE /disablepush ]
   -?, --help, -h             Prints out the options.
@@ -151,6 +157,7 @@ chocopkgup.exe /p[ackage] VALUE /v[ersion] VALUE [ /u[rl] VALUE /p[ackages]f[old
                                existing work package. Defaults to false.
       --dbg, --debug         debug - This instructs ChocoPkgUp to write out
                                all messages. Defaults to false.
+</pre>
 
 ### c# scripts
 
