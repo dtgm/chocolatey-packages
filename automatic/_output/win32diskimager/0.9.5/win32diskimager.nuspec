@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>win32diskimager</id>
+    <title>Win32 Disk Imager</title>
+    <version>0.9.5</version>
+    <authors>Justin Davis,Tobin Davis</authors>
+    <owners>dtgm</owners>
+    <summary>A tool for writing images to USB sticks or SD/CF cards</summary>
+    <description>
+This program is designed to write a raw disk image to removable SD or USB flash devices or backup these devices to a raw image file. It is very useful for embedded development, namely Arm development projects (Android, Ubuntu on Arm, etc). Anyone is free to branch and modify this program. Patches are always welcome.
+
+Simply run the utility, point it at your img, and then select the removable device to write to.
+
+This utility can not write CD-ROMs.
+
+Warning: Issues have been reported when using to write to USB Floppy drives (and occasionally other USB devices, although very rare). It is highly recommended that before an image is written to a device, the user should do a Read to a temporary file first. If this fails, please report the failure along with your system information (file a new bug, NOT a review).
+
+[Wiki](https://sourceforge.net/p/win32diskimager/wiki/Home/)
+    </description>
+    <projectUrl>https://sourceforge.net/projects/win32diskimager/</projectUrl>
+    <tags>disk raw image usb flash qt</tags>
+    <copyright>© ImageWriter developers</copyright>
+    <licenseUrl>https://sourceforge.net/p/win32diskimager/code/ci/master/tree/License.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/16ab6dec81d5650896cb481ca187d61d99fd6915/icons/win32diskimager.png</iconUrl>
+    <releaseNotes>
+#### Program
+* [News](https://sourceforge.net/p/win32diskimager/blog/)
+* [Changelog](https://sourceforge.net/p/win32diskimager/code/ci/master/tree/Changelog.txt)
+* [Known issues](https://sourceforge.net/p/win32diskimager/tickets/)
+* [Source code](https://sourceforge.net/p/win32diskimager/code/ci/master/tree/)
+
+#### Package
+* Automatically generated and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="win32diskimager.install" version="[0.9.5]" />
+    </dependencies>    
+  </metadata>
+</package>

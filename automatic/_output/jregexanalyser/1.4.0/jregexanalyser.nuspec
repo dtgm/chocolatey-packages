@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>jregexanalyser</id>
+    <title>jRegExAnalyser</title>
+    <version>1.4.0</version>
+    <authors>Kai G. Schwebke</authors>
+    <owners>dtgm</owners>
+    <summary>Interactive tool to write, test, debug, analyse and profile regular expressions</summary>
+    <description>
+jRegExAnalyser uses the original regular expression classes from the Open JDK kit released under the terms of the GPLv2 with CP exception. Local copies of these classes are instrumented to access the compiled pattern structure and trace the matching steps.
+    
+### Features
+* free and Open Source (GPLv2 with Class Path Exception)
+* complete support for Java 1.6 regular expressions
+* single and multi line edit of Regular Expressions
+* text input and text file import
+* display all matches, single matches or matching groups
+* possible test of replacement patterns
+* test of split operations
+* pattern visualization using Graphviz
+* history
+* export as Java String with escaping
+* rich set of analysis and debug functionality
+* deployment as conventional application or via Java Web Start
+
+[Screenshots](http://jregexanalyser.schwebke.com/jregexanalyser/webdoc/images/screenshot.png)
+[Documentation](http://jregexanalyser.schwebke.com/jregexanalyser/webdoc/)
+    </description>
+    <projectUrl>http://jregexanalyser.schwebke.com/</projectUrl>
+    <tags>regex java</tags>
+    <copyright>© 2011 Kai G. Schwebke</copyright>
+    <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/49cae2fda3a5e465d346a6616d8791026c95630e/icons/jregexanalyser.png</iconUrl>
+    <releaseNotes>
+#### Program
+* [Changelog](http://jregexanalyser.schwebke.com/jregexanalyser/webdoc/changes.html)
+* [Source code](http://jregexanalyser.schwebke.com)
+
+#### Package
+* Automatically generated and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

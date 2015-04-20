@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>atnow</id>
+    <title>AtNow</title>
+    <version>1.1</version>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm</owners>
+    <summary>Alternative to AT utility of Windows</summary>
+    <description>
+AtNow is a command-line utility that schedules programs and commands to run in the near future.
+
+By default, the commands are executed within 70 seconds or less from the moment that you run the AtNow utility with the desired command.
+    </description>
+    <projectUrl>http://www.nirsoft.net/utils/atnow.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/atnow.png</iconUrl>
+    <tags>cli scheduling at</tags>
+    <copyright>© 2002 NirSoft</copyright>
+    <licenseUrl>http://www.nirsoft.net/utils/atnow.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[What's New?](http://www.nirsoft.net/utils/atnow.html)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

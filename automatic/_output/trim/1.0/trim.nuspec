@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>trim</id>
+    <title>Trim</title>
+    <version>1.0</version>
+    <authors>Jem Berkes</authors>
+    <owners>dtgm</owners>
+    <summary>Trim a number of lines from the start of a text file</summary>
+    <description>
+Command-line tool used to monitor and control the sizes of (log) files. Examines a text file to see if its length has exceeded a certain limit; if it has, Trim removes a certain number of lines from the beginning of the file. Ideal for use in scripts.
+    </description>
+    <projectUrl>http://www.pc-tools.net/win32/trim/</projectUrl>
+    <tags>cli text file</tags>
+    <copyright>© 2004 Jem Berkes</copyright>
+    <licenseUrl>https://en.wikipedia.org/wiki/Freeware</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes />
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>wirelessnetconsole</id>
+    <title>WirelessNetConsole</title>
+    <version>1.00</version>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm</owners>
+    <summary>View wireless networks information (Console Application)</summary>
+    <description>
+WirelessNetConsole is a small console application that dumps all current detected wireless networks information into the standard output.
+
+For each wireless network, the following information is displayed: SSID, Signal Quality in %, PHY types, RSSI, MAC Address, Channel Frequency, and more.
+    </description>
+    <projectUrl>http://www.nirsoft.net/utils/wireless_net_console.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/wirelessnetconsole.png</iconUrl>
+    <tags>cli wifi network scan</tags>
+    <copyright>© 2008 NirSoft</copyright>
+    <licenseUrl>http://www.nirsoft.net/utils/wireless_net_console.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[What's New?](http://www.nirsoft.net/utils/wireless_net_console.html)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
