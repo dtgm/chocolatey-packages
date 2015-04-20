@@ -1,11 +1,11 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="6d549e7e-ccce-4cd7-aa46-12dfe5729c65">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes>antivirus AUTO CHANGEABLE title</UserNotes>
-    <LastFileSize>132469808</LastFileSize>
-    <LastFileDate>2015-02-03T04:34:09.5586537</LastFileDate>
+    <LastFileSize>150062624</LastFileSize>
+    <LastFileDate>2015-03-24T04:34:02.6976172</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Avoid</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -24,9 +24,9 @@
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>StartEnd</VariableType>
-            <Regex />
-            <Url>http://www.softpedia.com/get/Antivirus/Avast-Home-Edition.shtml</Url>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>Free Antivirus ([\d\.]+)</Regex>
+            <Url>http://www.filehippo.com/download_avast_antivirus/</Url>
             <StartText>&lt;span class="appver"&gt;</StartText>
             <EndText />
             <TextualContent>9.0.2008.20131118</TextualContent>
@@ -62,6 +62,20 @@
           </UrlVariable>
         </value>
       </item>
+      <item>
+        <key>
+          <string>cscript</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>1</TextualContent>
+            <Name>cscript</Name>
+          </UrlVariable>
+        </value>
+      </item>
     </Variables>
     <ExecuteCommand />
     <ExecutePreCommand />
@@ -69,11 +83,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>{workdir}\avast_free_antivirus_setup.exe</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\avast_free_antivirus_setup.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
-    <Enabled>false</Enabled>
+    <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-03T04:34:09.5586537</LastUpdated>
+    <LastUpdated>2015-03-24T04:34:02.6976172</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>avastfreeantivirus</Name>

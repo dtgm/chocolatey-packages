@@ -1,11 +1,11 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="1089822e-534f-408b-a057-5702f45223ae">
     <WebsiteUrl />
     <UserAgent>mswin32</UserAgent>
-    <UserNotes />
+    <UserNotes>http://sourceforge.net/projects/stellarium/files/Stellarium-win32/{version}/stellarium-{version}-win32.exe/download</UserNotes>
     <LastFileSize>131436036</LastFileSize>
-    <LastFileDate>2015-01-20T09:51:46-06:00</LastFileDate>
+    <LastFileDate>2015-02-05T00:59:04.5099167</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -40,7 +40,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
             <Regex>(?&lt;=ResponseUri: )[^\r\n]+</Regex>
-            <Url>http://sourceforge.net/projects/stellarium/files/Stellarium-win32/{version}/stellarium-{version}-win32.exe/download</Url>
+            <Url>{getUrl}</Url>
             <Name>url</Name>
           </UrlVariable>
         </value>
@@ -68,42 +68,57 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>@('http://sourceforge.net/projects/stellarium/files/Stellarium-win32/{version}/stellarium-{version}-win32.exe/download', 'http://sourceforge.net/projects/stellarium/files/Stellarium-win64/{version}/stellarium-{version}-win64.exe/download')</TextualContent>
+            <TextualContent>@('{getUrl}', '{getUrl64}')</TextualContent>
             <Name>urlArray</Name>
           </UrlVariable>
         </value>
       </item>
       <item>
         <key>
-          <string>checksum</string>
+          <string>getUrl</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>x</TextualContent>
-            <Name>checksum</Name>
+            <Url />
+            <TextualContent>http://sourceforge.net/projects/stellarium/files/Stellarium-win32/{version}/stellarium-{version}-win32.exe/download</TextualContent>
+            <Name>getUrl</Name>
           </UrlVariable>
         </value>
       </item>
       <item>
         <key>
-          <string>checksumx64</string>
+          <string>getUrl64</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>x</TextualContent>
-            <Name>checksumx64</Name>
+            <TextualContent>http://sourceforge.net/projects/stellarium/files/Stellarium-win64/{version}/stellarium-{version}-win64.exe/download</TextualContent>
+            <Name>getUrl64</Name>
           </UrlVariable>
         </value>
       </item>
       <item>
         <key>
-          <string>yespush</string>
+          <string>checksum64file</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>{getUrl64}</TextualContent>
+            <Name>checksum64file</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>nopush</string>
         </key>
         <value>
           <UrlVariable>
@@ -111,7 +126,21 @@
             <VariableType>Textual</VariableType>
             <Regex />
             <TextualContent>--nopush</TextualContent>
-            <Name>yespush</Name>
+            <Name>nopush</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>cscript</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>2</TextualContent>
+            <Name>cscript</Name>
           </UrlVariable>
         </value>
       </item>
@@ -122,12 +151,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>c:\ProgramData\chocolatey\_work\stellarium-0.13.2-win32.exe</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\stellarium-0.13.2-win32.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-02T12:35:37.6616933-06:00</LastUpdated>
-    <TargetPath>c:\ProgramData\chocolatey\_work\</TargetPath>
+    <LastUpdated>2015-02-05T00:59:04.5099167</LastUpdated>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>stellarium</Name>
   </ApplicationJob>

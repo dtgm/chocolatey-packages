@@ -1,11 +1,11 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="084d91c9-1068-42e5-a1da-f354275e4782">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>41235144</LastFileSize>
-    <LastFileDate>2015-02-20T04:34:07.6852344</LastFileDate>
+    <LastFileSize>40726712</LastFileSize>
+    <LastFileDate>2015-04-19T04:35:54.9255131</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -25,15 +25,15 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=ResponseUri: .*firefox-)([\d\.a]+)\.</Regex>
-            <Url>https://download.mozilla.org/?product=firefox-aurora-stub&amp;os=win&amp;lang=en-US</Url>
+            <Regex>.*firefox-([\d\.]+a2)\.en-US\.win32.installer.exe.*(\1)</Regex>
+            <Url>https://ftp.mozilla.org/{urlPath}</Url>
             <Name>realVersion</Name>
           </UrlVariable>
         </value>
       </item>
       <item>
         <key>
-          <string>yopush</string>
+          <string>nopush</string>
         </key>
         <value>
           <UrlVariable>
@@ -41,7 +41,7 @@
             <VariableType>Textual</VariableType>
             <Regex />
             <TextualContent>--nopush</TextualContent>
-            <Name>yopush</Name>
+            <Name>nopush</Name>
           </UrlVariable>
         </value>
       </item>
@@ -82,7 +82,7 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>.*(firefox.{1,20}win64-x86_64.installer.exe).*(\1)</Regex>
+            <Regex>.*(firefox.{1,20}win64.installer.exe).*(\1)</Regex>
             <Url>https://ftp.mozilla.org/pub/mozilla.org/firefox/nightly/latest-mozilla-aurora/</Url>
             <Name>url64Filename</Name>
           </UrlVariable>
@@ -140,7 +140,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
             <Regex>.*(firefox.{1,20}win32.checksums)".*(\1)</Regex>
-            <Url>https://ftp.mozilla.org/pub/mozilla.org/firefox/nightly/latest-mozilla-aurora/</Url>
+            <Url>https://ftp.mozilla.org/{urlPath}</Url>
             <TextualContent />
             <Name>checksumFile</Name>
           </UrlVariable>
@@ -184,8 +184,8 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>.*(firefox.{1,20}win64-x86_64.checksums)".*(\1)</Regex>
-            <Url>https://ftp.mozilla.org/pub/mozilla.org/firefox/nightly/latest-mozilla-aurora/</Url>
+            <Regex>.*(firefox.{1,20}win64.checksums)".*(\1)</Regex>
+            <Url>https://ftp.mozilla.org/{urlPath}</Url>
             <Name>checksumx64File</Name>
           </UrlVariable>
         </value>
@@ -199,7 +199,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
             <Regex>.*(firefox.{1,20}win32.installer.exe).*(\1)</Regex>
-            <Url>https://ftp.mozilla.org/pub/mozilla.org/firefox/nightly/latest-mozilla-aurora/</Url>
+            <Url>https://ftp.mozilla.org/{urlPath}</Url>
             <Name>urlFilename</Name>
           </UrlVariable>
         </value>
@@ -234,20 +234,6 @@
       </item>
       <item>
         <key>
-          <string>versionNumber</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=ResponseUri: .*firefox-)([\d\.]+)</Regex>
-            <Url>https://download.mozilla.org/?product=firefox-aurora-stub&amp;os=win&amp;lang=en-US</Url>
-            <Name>versionNumber</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
           <string>version</string>
         </key>
         <value>
@@ -255,7 +241,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>{versionNumber}</TextualContent>
+            <TextualContent>{realVersion:replace:a2::}</TextualContent>
             <Name>version</Name>
           </UrlVariable>
         </value>
@@ -281,11 +267,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\firefox-37.0a2.en-US.win32.installer.exe</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\firefox-39.0a2.en-US.win32.installer.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-20T04:34:07.6852344</LastUpdated>
+    <LastUpdated>2015-04-19T04:35:54.9255131</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>firefox-dev</Name>

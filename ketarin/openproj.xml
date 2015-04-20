@@ -1,11 +1,11 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="0796e307-2030-4e92-8d00-f8b762573ab0">
     <WebsiteUrl />
-    <UserAgent />
+    <UserAgent>MSWin32</UserAgent>
     <UserNotes />
-    <LastFileSize>6831104</LastFileSize>
-    <LastFileDate>2015-02-05T00:47:24.9987069</LastFileDate>
+    <LastFileSize>6557090</LastFileSize>
+    <LastFileDate>2015-02-23T04:34:46.3815536</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -26,7 +26,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>http://sourceforge.net/projects/openproj/files/OpenProj%20Binaries/{version}/openproj-{version}.msi/download</TextualContent>
+            <TextualContent>{getUrl64}</TextualContent>
             <Name>url64</Name>
           </UrlVariable>
         </value>
@@ -39,7 +39,7 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=&lt;a href="/projects/openproj/files/latest/download\?source=files" title="/OpenProj Binaries/)([\d\.]+)(?=/)</Regex>
+            <Regex>/OpenProj%20Binaries/([\d\.]+)</Regex>
             <Url>http://sourceforge.net/projects/openproj/files/OpenProj%20Binaries/</Url>
             <TextualContent />
             <Name>version</Name>
@@ -53,17 +53,17 @@
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
+            <VariableType>RegularExpression</VariableType>
             <Regex>(?&lt;=ResponseUri: )[^\r\n]+</Regex>
-            <Url>http://sourceforge.net/projects/openproj/files/OpenProj%20Binaries/{version}/openproj-{version}.msi/download</Url>
-            <TextualContent>http://hivelocity.dl.sourceforge.net/project/openproj/OpenProj%20Binaries/{version}/openproj-{version}.msi</TextualContent>
+            <Url>{getUrl}</Url>
+            <TextualContent />
             <Name>url</Name>
           </UrlVariable>
         </value>
       </item>
       <item>
         <key>
-          <string>yespush</string>
+          <string>nopush</string>
         </key>
         <value>
           <UrlVariable>
@@ -71,7 +71,63 @@
             <VariableType>Textual</VariableType>
             <Regex />
             <TextualContent>--nopush</TextualContent>
-            <Name>yespush</Name>
+            <Name>nopush</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>cscript</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>2</TextualContent>
+            <Name>cscript</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>getUrl</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>http[^ "'&lt;&gt;\*]+\.zip/download</Regex>
+            <Url>http://sourceforge.net/projects/openproj/files/OpenProj%20Binaries/{version}/</Url>
+            <Name>getUrl</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>getUrl64</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>http[^ "'&lt;&gt;\*]+\.msi/download</Regex>
+            <Url>http://sourceforge.net/projects/openproj/files/OpenProj%20Binaries/{version}/</Url>
+            <Name>getUrl64</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>checksum64file</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>{url64}</TextualContent>
+            <Name>checksum64file</Name>
           </UrlVariable>
         </value>
       </item>
@@ -82,11 +138,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>{workdir}\openproj-1.4.msi</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\openproj-1.4.zip</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-05T00:47:24.9987069</LastUpdated>
+    <LastUpdated>2015-02-23T04:34:46.3815536</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>openproj</Name>

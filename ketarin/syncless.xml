@@ -1,12 +1,12 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="a0e33a10-d3aa-4963-be31-2213dfc37e1c">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes>http://peerblock.googlecode.com/files/PeerBlock-Setup_v1.1_r518.exe
 https://code.google.com/p/peerblock/downloads/list</UserNotes>
-    <LastFileSize>2374320</LastFileSize>
-    <LastFileDate>2014-11-26T15:24:22.4683078</LastFileDate>
+    <LastFileSize>1204540</LastFileSize>
+    <LastFileDate>2015-04-06T09:38:05.8754897</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -25,9 +25,9 @@ https://code.google.com/p/peerblock/downloads/list</UserNotes>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>StartEnd</VariableType>
-            <Regex />
-            <Url>http://www.peerblock.com/releases</Url>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>Syncless%20([\d\.]+)\.zip</Regex>
+            <Url>https://code.google.com/p/big5sync/</Url>
             <StartText>public-releases/peerblock-</StartText>
             <EndText>-</EndText>
             <TextualContent />
@@ -37,17 +37,16 @@ https://code.google.com/p/peerblock/downloads/list</UserNotes>
       </item>
       <item>
         <key>
-          <string>revision</string>
+          <string>getUrl</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=public-releases/peerblock-.+-r)\d+(?="&gt;PeerBlock)</Regex>
-            <Url>http://www.peerblock.com/releases</Url>
-            <StartText>-r</StartText>
-            <EndText>"&gt;PeerBlock </EndText>
-            <Name>revision</Name>
+            <Regex>(big5sync.googlecode.com[^ "'&lt;&gt;\*]+\.zip)</Regex>
+            <Url>https://code.google.com/p/big5sync/</Url>
+            <TextualContent />
+            <Name>getUrl</Name>
           </UrlVariable>
         </value>
       </item>
@@ -60,8 +59,37 @@ https://code.google.com/p/peerblock/downloads/list</UserNotes>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>https://peerblock.googlecode.com/files/PeerBlock-Setup_v{version:split:.:0}.{version:split:.:1}_r{revision}.exe</TextualContent>
+            <Url />
+            <TextualContent>https://{getUrl}</TextualContent>
             <Name>url</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>nopush</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>--nopush</TextualContent>
+            <Name>nopush</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>cscript</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>2</TextualContent>
+            <Name>cscript</Name>
           </UrlVariable>
         </value>
       </item>
@@ -72,11 +100,11 @@ https://code.google.com/p/peerblock/downloads/list</UserNotes>
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>{workdir}\PeerBlock-Setup_v1.2_r693.exe</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\Syncless 2.1.zip</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
-    <Enabled>false</Enabled>
+    <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2014-11-26T15:24:22.4683078</LastUpdated>
+    <LastUpdated>2015-04-06T09:38:05.8754897</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>syncless</Name>

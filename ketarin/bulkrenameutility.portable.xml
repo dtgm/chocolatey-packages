@@ -1,8 +1,8 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="834676b3-eb56-4088-bbf6-c813a4e35aef">
     <WebsiteUrl />
-    <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64)</UserAgent>
+    <UserAgent />
     <UserNotes />
     <LastFileSize>2265088</LastFileSize>
     <LastFileDate>2014-08-18T23:39:06.564304</LastFileDate>
@@ -24,8 +24,8 @@
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>StartEnd</VariableType>
-            <Regex>"&gt;About This Section \(Latest Version ([\d+\.]+)\)&lt;/a&gt;</Regex>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>\.zip.*?([\d\.]+)\s{5,}</Regex>
             <Url>http://www.bulkrenameutility.co.uk/Download.php</Url>
             <StartText>
             &lt;td width="90%" valign="top"&gt;&lt;p&gt;&lt;span style="font-weight: bold"&gt;Bulk Rename Utility&lt;/span&gt;, version
@@ -33,6 +33,64 @@
             <EndText>                &amp;quot;&lt;span style="font-style: italic; font-weight: bold"&gt;&lt;u&gt;No-Installer&lt;/u&gt;</EndText>
             <TextualContent />
             <Name>version</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>getUrl</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>[/]*([^ "'&lt;&gt;\*]+\.zip)</Regex>
+            <Url>http://www.bulkrenameutility.co.uk/Download.php</Url>
+            <TextualContent />
+            <Name>getUrl</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <Url />
+            <TextualContent>http://www.bulkrenameutility.co.uk/{getUrl}</TextualContent>
+            <Name>url</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>nopush</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>--nopush</TextualContent>
+            <Name>nopush</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>cscript</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>2</TextualContent>
+            <Name>cscript</Name>
           </UrlVariable>
         </value>
       </item>
@@ -49,7 +107,7 @@
     <FileHippoId />
     <LastUpdated>2014-08-18T23:39:06.564304</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
-    <FixedDownloadUrl>http://www.bulkrenameutility.co.uk/Downloads/BRU_NoInstall.zip</FixedDownloadUrl>
+    <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>bulkrenameutility.portable</Name>
   </ApplicationJob>
 </Jobs>

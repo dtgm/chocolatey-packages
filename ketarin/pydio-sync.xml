@@ -1,11 +1,11 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="29397a2b-ebf4-4993-854a-f24449db3880">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>7509504</LastFileSize>
-    <LastFileDate>2015-04-05T18:41:18.3076277</LastFileDate>
+    <LastFileSize>21834752</LastFileSize>
+    <LastFileDate>2015-04-09T01:05:13.0518449</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -55,7 +55,7 @@
             <VariableType>Textual</VariableType>
             <Regex />
             <Url />
-            <TextualContent>{getMirror}{getUrl:regex:(?&lt;={getMirror}).*(?=/download)}</TextualContent>
+            <TextualContent>{getMirror}/{getUrl:regex:pydio\-sync.*(?=/download)}</TextualContent>
             <Name>url</Name>
           </UrlVariable>
         </value>
@@ -111,7 +111,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>{getMirror}{getUrl64:regex:(?&lt;={getMirror}).*(?=/download)}</TextualContent>
+            <TextualContent>{getMirror}/{getUrl64:regex:pydio\-sync.*(?=/download)}</TextualContent>
             <Name>checksum64file</Name>
           </UrlVariable>
         </value>
@@ -179,10 +179,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\Pydio-0.8.4-Windows-x86-Setup.msi</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-05T18:41:18.3076277</LastUpdated>
+    <LastUpdated>2015-04-09T01:05:13.0518449</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>pydio-sync</Name>

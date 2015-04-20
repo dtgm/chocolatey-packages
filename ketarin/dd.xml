@@ -1,4 +1,4 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="e7daec26-1cea-4e46-81bc-863d5d6f2abd">
     <WebsiteUrl />
@@ -19,17 +19,33 @@
     <Variables>
       <item>
         <key>
-          <string>realVersionBeta</string>
+          <string>nopush</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>StartEnd</VariableType>
+            <VariableType>Textual</VariableType>
             <Regex />
-            <Url>http://www.chrysocome.net/dd</Url>
+            <Url />
             <StartText>&lt;a href="downloads/dd-</StartText>
             <EndText>.zip"</EndText>
-            <Name>realVersionBeta</Name>
+            <TextualContent>--nopush</TextualContent>
+            <Name>nopush</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>cscript</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <Url />
+            <TextualContent>2</TextualContent>
+            <Name>cscript</Name>
           </UrlVariable>
         </value>
       </item>
@@ -43,35 +59,8 @@
             <VariableType>RegularExpression</VariableType>
             <Regex>(?&lt;=&lt;a href="downloads/dd-)[\d.]+(?=\.zip")</Regex>
             <Url>http://www.chrysocome.net/dd</Url>
+            <TextualContent />
             <Name>version</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>versionBeta</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <TextualContent>{realVersionBeta:replace:beta:.}</TextualContent>
-            <Name>versionBeta</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>url64</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <TextualContent>{versionBeta}</TextualContent>
-            <Name>url64</Name>
           </UrlVariable>
         </value>
       </item>

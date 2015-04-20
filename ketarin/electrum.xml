@@ -1,11 +1,11 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="f99a2efa-c1ea-4491-b164-f3982d3fc8f1">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>39784334</LastFileSize>
-    <LastFileDate>2015-02-05T00:42:52.6965528</LastFileDate>
+    <LastFileSize>46324491</LastFileSize>
+    <LastFileDate>2015-04-16T19:08:51.2160225</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -19,6 +19,21 @@
     <Variables>
       <item>
         <key>
+          <string>getUrl</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>/?([^"]+\.exe)</Regex>
+            <Url>https://download.electrum.org/?C=M;O=D</Url>
+            <TextualContent />
+            <Name>getUrl</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
           <string>url</string>
         </key>
         <value>
@@ -26,23 +41,9 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>https://download.electrum.org/electrum-{version}-setup.exe</TextualContent>
+            <Url />
+            <TextualContent>https://download.electrum.org/{getUrl}</TextualContent>
             <Name>url</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>checksum</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=md5:)([A-Fa-f0-9]{32})</Regex>
-            <Url>https://electrum.org/download.html</Url>
-            <TextualContent />
-            <Name>checksum</Name>
           </UrlVariable>
         </value>
       </item>
@@ -53,9 +54,10 @@
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=Latest release: Electrum-)([\d\.]+)(?=&lt;)</Regex>
-            <Url>https://electrum.org/download.html</Url>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <Url />
+            <TextualContent>{getUrl:regex:[\d\.]+(?=-setup\.exe)}</TextualContent>
             <Name>version</Name>
           </UrlVariable>
         </value>
@@ -95,11 +97,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\electrum-1.9.8-setup.exe</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\electrum-2.0.4-setup.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-05T00:42:52.6965528</LastUpdated>
+    <LastUpdated>2015-04-16T19:08:51.2160225</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>electrum</Name>
