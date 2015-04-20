@@ -1,11 +1,11 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="28eaa56a-f149-43f3-b82a-9cc181050b0d">
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64)</UserAgent>
-    <UserNotes />
-    <LastFileSize>529152</LastFileSize>
-    <LastFileDate>2015-02-07T00:08:18.2271133</LastFileDate>
+    <UserNotes>http://andysupport.s3.amazonaws.com/</UserNotes>
+    <LastFileSize>530104</LastFileSize>
+    <LastFileDate>2015-04-04T19:54:09.6653268</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Avoid</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -57,7 +57,7 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=/Andy_v)([\d_\-\.]+)(?=\.exe)</Regex>
+            <Regex>(?&lt;=_v)(.*)(?=\.exe)</Regex>
             <Url>http://www.andyroid.net/getandy.php</Url>
             <Name>realVersion</Name>
           </UrlVariable>
@@ -79,7 +79,7 @@
       </item>
       <item>
         <key>
-          <string>nopush</string>
+          <string>yopush</string>
         </key>
         <value>
           <UrlVariable>
@@ -87,7 +87,7 @@
             <VariableType>Textual</VariableType>
             <Regex />
             <TextualContent>--nopush</TextualContent>
-            <Name>nopush</Name>
+            <Name>yopush</Name>
           </UrlVariable>
         </value>
       </item>
@@ -112,11 +112,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\Andy_v43_3.exe</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\Andy_Android_Emulator_v43_1.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-07T00:08:18.2271133</LastUpdated>
+    <LastUpdated>2015-04-04T19:54:09.6653268</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>andy</Name>

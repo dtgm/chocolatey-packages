@@ -1,11 +1,11 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="fb97edca-5b8f-4720-9fe9-ce4bec79d9ab">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>12174872</LastFileSize>
-    <LastFileDate>2015-03-13T08:34:10-05:00</LastFileDate>
+    <LastFileSize>12292352</LastFileSize>
+    <LastFileDate>2015-04-14T04:40:10.0686854</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -80,11 +80,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\tsetup.0.7.20.exe</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\tsetup.0.8.4.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-03-17T00:06:55.3697657-05:00</LastUpdated>
+    <LastUpdated>2015-04-14T04:40:10.0686854</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>telegram.install</Name>

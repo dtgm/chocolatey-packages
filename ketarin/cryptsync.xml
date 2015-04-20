@@ -1,11 +1,11 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="66a4dec8-e03b-441e-9247-82ed69ac0d9c">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
     <LastFileSize>1982464</LastFileSize>
-    <LastFileDate>2015-03-15T07:57:51-05:00</LastFileDate>
+    <LastFileDate>2015-03-29T06:19:30.4607627</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -40,7 +40,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
             <Regex>projects/cryptsync-sk/files/([\d\.]+)</Regex>
-            <Url>https://sourceforge.net/projects/cryptsync-sk/files</Url>
+            <Url>https://sourceforge.net/projects/{appname}-sk/files</Url>
             <Name>version</Name>
           </UrlVariable>
         </value>
@@ -55,7 +55,7 @@
             <VariableType>Textual</VariableType>
             <Regex />
             <Url />
-            <TextualContent>{mirrorUrl}/project/cryptsync-sk/{version}/{fileName}</TextualContent>
+            <TextualContent>{mirrorUrl}/project/{appname}-sk/{version}/{fileName}</TextualContent>
             <Name>url</Name>
           </UrlVariable>
         </value>
@@ -83,7 +83,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
             <Regex>projects/cryptsync-sk/files/{version}/(CryptSync-{version}\.msi)/download</Regex>
-            <Url>https://sourceforge.net/projects/cryptsync-sk/files/{version}/</Url>
+            <Url>https://sourceforge.net/projects/{appname}-sk/files/{version}/</Url>
             <Name>fileName</Name>
           </UrlVariable>
         </value>
@@ -97,7 +97,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
             <Regex>projects/cryptsync-sk/files/{version}/(CryptSync64-{version}\.msi)/download</Regex>
-            <Url>https://sourceforge.net/projects/cryptsync-sk/files/{version}/</Url>
+            <Url>https://sourceforge.net/projects/{appname}-sk/files/{version}/</Url>
             <Name>fileName64</Name>
           </UrlVariable>
         </value>
@@ -111,7 +111,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
             <Regex>(http[^ "'&lt;&gt;\*]+)/project</Regex>
-            <Url>https://sourceforge.net/projects/stefanstools/files/BowPad/2.0.17/BowPad-2.0.17-portable.zip/download</Url>
+            <Url>https://sourceforge.net/projects/bowpad-sk/files/2.0.17/BowPad-2.0.17-portable.zip/download</Url>
             <TextualContent>{checksum}</TextualContent>
             <Name>mirrorUrl</Name>
           </UrlVariable>
@@ -198,7 +198,7 @@
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-03-28T01:01:58.9551147-05:00</LastUpdated>
+    <LastUpdated>2015-03-29T06:19:30.4607627</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>cryptsync</Name>

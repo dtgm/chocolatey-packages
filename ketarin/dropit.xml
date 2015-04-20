@@ -1,11 +1,11 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="98d2a968-dd9d-48b4-af9f-be84d9c1dbc7">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
     <LastFileSize>4224708</LastFileSize>
-    <LastFileDate>2014-10-04T03:32:01-05:00</LastFileDate>
+    <LastFileDate>2015-03-28T07:52:13.5314321</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -141,7 +141,7 @@
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-03-28T07:52:13.5314321-05:00</LastUpdated>
+    <LastUpdated>2015-03-28T07:52:13.5314321</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>dropit</Name>

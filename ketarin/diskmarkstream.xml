@@ -1,11 +1,11 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="7cf4f1eb-4721-4f30-9786-68d5397119fc">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>144371</LastFileSize>
-    <LastFileDate>2014-09-24T12:43:17-05:00</LastFileDate>
+    <LastFileSize>144270</LastFileSize>
+    <LastFileDate>2015-04-08T04:34:51.2334681</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -124,11 +124,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\DMStream059.zip</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\DiskMarkStream10.zip</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-06T08:21:05.1126036-05:00</LastUpdated>
+    <LastUpdated>2015-04-08T04:34:51.2334681</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>diskmarkstream</Name>

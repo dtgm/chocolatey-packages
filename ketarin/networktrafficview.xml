@@ -1,11 +1,11 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="675796b7-3065-49c6-bd1b-f1d44c3a34ac">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>0</LastFileSize>
-    <LastFileDate xsi:nil="true" />
+    <LastFileSize>103770</LastFileSize>
+    <LastFileDate>2015-04-02T19:12:43.2674212</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -53,7 +53,7 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>href="/?([^ "'&lt;&gt;\*]+\.zip)</Regex>
+            <Regex>href="/?([^ "'&lt;&gt;\*]+view\.zip)</Regex>
             <Url>http://www.nirsoft.net/utils/network_traffic_view.html</Url>
             <Name>urlFile</Name>
           </UrlVariable>
@@ -81,7 +81,7 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>href="/*([^ "'&lt;&gt;\*]+\64.zip)</Regex>
+            <Regex>href="/?([^ "'&lt;&gt;\*]+\64.zip)</Regex>
             <Url>http://www.nirsoft.net/utils/network_traffic_view.html</Url>
             <Name>url64File</Name>
           </UrlVariable>
@@ -136,11 +136,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation />
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\networktrafficview.zip</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated xsi:nil="true" />
+    <LastUpdated>2015-04-02T19:12:43.2674212</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>networktrafficview</Name>

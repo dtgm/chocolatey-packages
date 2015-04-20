@@ -1,11 +1,11 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="b107f854-e16d-4fcb-b829-852c5000bea8">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
     <LastFileSize>13595245</LastFileSize>
-    <LastFileDate>2014-11-30T16:45:51-06:00</LastFileDate>
+    <LastFileDate>2015-03-20T21:07:09.1798674</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -127,7 +127,7 @@
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-03-20T21:07:09.1798674-05:00</LastUpdated>
+    <LastUpdated>2015-03-20T21:07:09.1798674</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>deluge</Name>

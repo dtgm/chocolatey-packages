@@ -1,11 +1,11 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="6b01e54e-f045-44ff-9e82-106a54d964da">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
     <LastFileSize>3981312</LastFileSize>
-    <LastFileDate>2015-02-25T11:10:28-06:00</LastFileDate>
+    <LastFileDate>2015-03-29T02:28:20.6562384</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -112,7 +112,7 @@
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-03-29T02:28:20.6562384-05:00</LastUpdated>
+    <LastUpdated>2015-03-29T02:28:20.6562384</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>adblockplusie</Name>

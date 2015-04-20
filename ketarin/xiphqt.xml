@@ -1,11 +1,11 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="f18ad151-3695-46b1-8b54-f4397b48b72a">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
     <LastFileSize>234367</LastFileSize>
-    <LastFileDate>2015-01-04T11:21:51.002788</LastFileDate>
+    <LastFileDate>2015-02-05T00:55:50.4400204</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -66,11 +66,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>{workdir}\xiph-qt-win32-0.1.5.exe</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\xiph-qt-win32-0.1.5.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-01-04T11:21:51.002788</LastUpdated>
+    <LastUpdated>2015-02-05T00:55:50.4400204</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>xiphqt</Name>

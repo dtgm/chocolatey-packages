@@ -1,4 +1,4 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="c70c9f2f-f2e0-440e-ada2-e822a68a920b">
     <SourceTemplate><![CDATA[<Jobs>
@@ -72,7 +72,7 @@
     <UserAgent />
     <UserNotes />
     <LastFileSize>207245212</LastFileSize>
-    <LastFileDate>2014-07-05T13:47:29.8691561</LastFileDate>
+    <LastFileDate>2015-03-29T04:44:36.9394729</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Avoid</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -166,11 +166,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>D:\chocolatey\_work\KiCad_stable-2013.07.07-BZR4022_Win_full_version.exe</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\KiCad_stable-2013.07.07-BZR4022_Win_full_version.exe</PreviousLocation>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2014-07-05T13:47:29.8691561</LastUpdated>
+    <LastUpdated>2015-03-29T04:44:36.9394729</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>kicad</Name>

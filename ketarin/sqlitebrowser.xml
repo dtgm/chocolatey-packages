@@ -1,11 +1,11 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="00dd7440-3421-45c7-a5e0-9436b9623bbf">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
     <LastFileSize>10075808</LastFileSize>
-    <LastFileDate>2015-02-08T04:24:45-06:00</LastFileDate>
+    <LastFileDate>2015-02-18T15:26:46.8994041</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -113,7 +113,7 @@
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-18T15:26:46.8994041-06:00</LastUpdated>
+    <LastUpdated>2015-02-18T15:26:46.8994041</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>sqlitebrowser</Name>

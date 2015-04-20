@@ -1,11 +1,11 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="1e2a107d-f14e-4a42-9a73-b84e7a350d29">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
     <LastFileSize>12710343</LastFileSize>
-    <LastFileDate>2014-12-14T04:42:05-06:00</LastFileDate>
+    <LastFileDate>2015-03-29T10:07:46.2029028</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -156,7 +156,7 @@
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-03-29T10:00:07.5531557-05:00</LastUpdated>
+    <LastUpdated>2015-03-29T10:07:46.2029028</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>shareaza</Name>

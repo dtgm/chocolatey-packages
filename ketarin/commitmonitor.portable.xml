@@ -1,11 +1,11 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="4188bc4d-da1a-4c1f-a99c-98c0b072e441">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>1547422</LastFileSize>
-    <LastFileDate>2013-01-12T10:35:55-06:00</LastFileDate>
+    <LastFileSize>1588888</LastFileSize>
+    <LastFileDate>2015-04-01T16:58:36.9956315</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -152,11 +152,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\CommitMonitor-1.8.7.831.zip</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\CommitMonitor-1.10.2.1025.zip</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-03-28T03:51:30.8933259-05:00</LastUpdated>
+    <LastUpdated>2015-04-01T16:58:36.9956315</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>commitmonitor.portable</Name>

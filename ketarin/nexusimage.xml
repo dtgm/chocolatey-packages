@@ -1,11 +1,11 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="43e9e711-12ea-4968-8f17-1e90b95ed611">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
     <LastFileSize>2120737</LastFileSize>
-    <LastFileDate>2015-03-22T21:05:58.8490485</LastFileDate>
+    <LastFileDate>2015-03-23T03:23:07.4166764</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -112,7 +112,7 @@
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-03-22T21:05:58.8490485</LastUpdated>
+    <LastUpdated>2015-03-23T03:23:07.4166764</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>nexusimage</Name>

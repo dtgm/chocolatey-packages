@@ -1,4 +1,4 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="597d1a01-799b-44d2-90b1-cd12dddebd70">
     <SourceTemplate><![CDATA[<Jobs>
@@ -71,8 +71,8 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>49722181</LastFileSize>
-    <LastFileDate>2015-03-21T07:39:10.4119547</LastFileDate>
+    <LastFileSize>50293250</LastFileSize>
+    <LastFileDate>2015-04-04T04:36:14.4118537</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Avoid</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -232,11 +232,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\fritzing.0.9.1b.32.pc_1.zip</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\fritzing.0.9.2b.32.pc.zip</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-03-21T07:39:10.4119547</LastUpdated>
+    <LastUpdated>2015-04-04T04:36:14.4118537</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>fritzing</Name>

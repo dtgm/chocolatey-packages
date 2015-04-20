@@ -1,11 +1,11 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="1953a51b-4ae1-4a63-9b76-c19172be6c23">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>19331247</LastFileSize>
-    <LastFileDate>2015-02-05T00:38:45.37461</LastFileDate>
+    <LastFileSize>20290973</LastFileSize>
+    <LastFileDate>2015-04-04T04:33:52.6105339</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -85,11 +85,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\audacious-3.5.2-win32.zip</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\audacious-3.6.1-win32.zip</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-05T00:38:45.37461</LastUpdated>
+    <LastUpdated>2015-04-04T04:33:52.6105339</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>audacious</Name>

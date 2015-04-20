@@ -1,11 +1,11 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="55a9e4ec-2176-4b43-9502-4af27c1d2515">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
     <LastFileSize>160888</LastFileSize>
-    <LastFileDate>2015-03-21T04:41:15-05:00</LastFileDate>
+    <LastFileDate>2015-03-28T05:03:39.2654623</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -113,7 +113,7 @@
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-03-28T05:03:39.2654623-05:00</LastUpdated>
+    <LastUpdated>2015-03-28T05:03:39.2654623</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>evernote2onenote</Name>

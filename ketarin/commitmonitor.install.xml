@@ -1,11 +1,11 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="01249044-b00a-4bf7-814f-50dbc3f24a25">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>2293760</LastFileSize>
-    <LastFileDate>2013-01-12T10:36:21-06:00</LastFileDate>
+    <LastFileSize>2392064</LastFileSize>
+    <LastFileDate>2015-04-01T16:57:31.7722576</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -207,11 +207,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\CommitMonitor-1.8.7.831.msi</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\CommitMonitor-1.10.2.1025.msi</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-03-28T03:58:51.3115311-05:00</LastUpdated>
+    <LastUpdated>2015-04-01T16:57:31.7722576</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>commitmonitor.install</Name>

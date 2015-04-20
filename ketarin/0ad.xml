@@ -1,4 +1,4 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="f7a861a6-3893-4940-8e79-e22fd23e528b">
     <SourceTemplate><![CDATA[<Jobs>
@@ -72,7 +72,7 @@
     <UserAgent />
     <UserNotes />
     <LastFileSize>601503717</LastFileSize>
-    <LastFileDate>2015-03-13T17:07:07-05:00</LastFileDate>
+    <LastFileDate>2015-03-27T21:31:19.7435151</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Avoid</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -169,7 +169,7 @@
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-03-27T21:31:19.7435151-05:00</LastUpdated>
+    <LastUpdated>2015-03-27T21:31:19.7435151</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>0ad</Name>

@@ -1,11 +1,11 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="f3489b20-909b-418a-a975-549611b5b28b">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
     <LastFileSize>53156</LastFileSize>
-    <LastFileDate>2013-09-07T08:27:41-05:00</LastFileDate>
+    <LastFileDate>2015-03-28T02:47:11.2981915</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -213,7 +213,7 @@
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-03-28T02:47:11.2981915-05:00</LastUpdated>
+    <LastUpdated>2015-03-28T02:47:11.2981915</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>tabspace</Name>
