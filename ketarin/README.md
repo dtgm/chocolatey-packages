@@ -43,14 +43,14 @@ I created this application, because I couldn't find anything like it when I need
 3. Run ketarin.exe
 
 4. Modify settings
-<pre>
+```
 Ctrl+T | (File > Settings)
 [General]
 Custom Column Name = Version
 Custom Column Value = {version}
 [Commands]
 chocopkgup {nopush} --packagename={appname} --version={version} --pg="{packageGuid}" --url="{preupdate-url}" --urlx64="{url64}" --packagepath="{file}" --checksum="{checksum}" --c64="{checksumx64}" --debug
-</pre>
+```
 
 5. Add Applications to ketarin with either File > New Application, or importing any of the XML files in this repository.
 
