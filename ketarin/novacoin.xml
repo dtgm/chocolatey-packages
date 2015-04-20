@@ -1,11 +1,11 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="e0b8104d-67bc-417b-8e9d-3a606ccf0e57">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
     <LastFileSize>7517284</LastFileSize>
-    <LastFileDate>2015-01-25T03:43:22.5339161</LastFileDate>
+    <LastFileDate>2015-02-05T00:47:30.4813092</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -165,11 +165,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>{workdir}\novacoin-nosetup-0.5.1-win32.7z</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\novacoin-nosetup-0.5.1-win32.7z</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-01-25T03:43:22.5339161</LastUpdated>
+    <LastUpdated>2015-02-05T00:47:30.4813092</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>novacoin</Name>

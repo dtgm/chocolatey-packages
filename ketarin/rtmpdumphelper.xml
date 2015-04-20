@@ -1,11 +1,11 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="a41af84a-e37d-4328-bc7e-286a975620ee">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>0</LastFileSize>
-    <LastFileDate xsi:nil="true" />
+    <LastFileSize>118555</LastFileSize>
+    <LastFileDate>2015-04-02T19:16:56.6766606</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -40,7 +40,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>http://www.nirsoft.net/utils/{urlFile}</TextualContent>
+            <TextualContent>{urlFile}</TextualContent>
             <Name>url</Name>
           </UrlVariable>
         </value>
@@ -81,7 +81,7 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>href="/*([^ "'&lt;&gt;\*]+\64.zip)</Regex>
+            <Regex>href="/?([^ "'&lt;&gt;\*]+\64.zip)</Regex>
             <Url>http://www.nirsoft.net/utils/rtmp_dump_helper.html</Url>
             <Name>url64File</Name>
           </UrlVariable>
@@ -136,11 +136,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation />
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\rtmpdumphelper.zip</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated xsi:nil="true" />
+    <LastUpdated>2015-04-02T19:16:56.6766606</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>rtmpdumphelper</Name>

@@ -1,11 +1,11 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="1d6a7818-cf60-4188-a9b2-ed160c7cb4a0">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
     <LastFileSize>1957881</LastFileSize>
-    <LastFileDate>2015-03-21T06:18:17.08145</LastFileDate>
+    <LastFileDate>2015-03-23T03:22:09.9929238</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -112,7 +112,7 @@
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-03-21T06:18:17.08145</LastUpdated>
+    <LastUpdated>2015-03-23T03:22:09.9929238</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>nexusfont.portable</Name>

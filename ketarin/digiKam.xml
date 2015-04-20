@@ -1,11 +1,11 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="60a25b1c-ba78-4339-a60d-644efa9ba8bb">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>243887131</LastFileSize>
-    <LastFileDate>2015-02-05T00:42:00.5369596</LastFileDate>
+    <LastFileSize>243779991</LastFileSize>
+    <LastFileDate>2015-04-08T22:56:31.9990895</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -97,13 +97,13 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\digiKam-installer-4.5.0-win32.exe</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\digiKam-installer-4.9.0-win32.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-05T00:42:00.5369596</LastUpdated>
+    <LastUpdated>2015-04-08T22:56:31.9990895</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
-    <Name>digiKam</Name>
+    <Name>digikam</Name>
   </ApplicationJob>
 </Jobs>

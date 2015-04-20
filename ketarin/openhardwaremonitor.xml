@@ -1,11 +1,11 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="6f7001bd-6031-4a32-84ed-a040e9fea262">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
     <LastFileSize>511764</LastFileSize>
-    <LastFileDate>2014-12-30T16:51:59-06:00</LastFileDate>
+    <LastFileDate>2015-03-21T09:48:52.3411607</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -98,7 +98,7 @@
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-03-21T09:48:52.3411607-05:00</LastUpdated>
+    <LastUpdated>2015-03-21T09:48:52.3411607</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>openhardwaremonitor</Name>

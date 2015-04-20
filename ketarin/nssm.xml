@@ -1,11 +1,11 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="b1a13116-d92c-454e-b667-d278b032af5e">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
     <LastFileSize>351793</LastFileSize>
-    <LastFileDate>2014-08-31T10:36:26-05:00</LastFileDate>
+    <LastFileDate>2015-03-29T12:08:36.881544</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -98,7 +98,7 @@
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-03-29T12:08:36.881544-05:00</LastUpdated>
+    <LastUpdated>2015-03-29T12:08:36.881544</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>nssm</Name>

@@ -1,11 +1,11 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="acdee591-dbff-43c3-9298-d42b4eb59b1c">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes>http://crystalmark.info/download/xyz/CrystalDiskMark{versionurl:replace:.:_}-en.exe </UserNotes>
-    <LastFileSize>1659040</LastFileSize>
-    <LastFileDate>2014-04-05T07:14:47-05:00</LastFileDate>
+    <LastFileSize>1658864</LastFileSize>
+    <LastFileDate>2015-04-02T04:34:56.8212986</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Avoid</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -194,7 +194,7 @@
       </item>
       <item>
         <key>
-          <string>nopush</string>
+          <string>yopush</string>
         </key>
         <value>
           <UrlVariable>
@@ -202,7 +202,7 @@
             <VariableType>Textual</VariableType>
             <Regex />
             <TextualContent>--nopush</TextualContent>
-            <Name>nopush</Name>
+            <Name>yopush</Name>
           </UrlVariable>
         </value>
       </item>
@@ -227,11 +227,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\CrystalDiskMark3_0_3b-en.exe</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\CrystalDiskMark3_0_4-en.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-03-23T02:14:00.7107039-05:00</LastUpdated>
+    <LastUpdated>2015-04-02T04:34:56.8212986</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>crystaldiskmark</Name>

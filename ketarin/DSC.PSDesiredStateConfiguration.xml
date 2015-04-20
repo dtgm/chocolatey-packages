@@ -1,4 +1,4 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="08352c63-d3e7-4961-8b15-f8422a049b8c">
     <WebsiteUrl />
@@ -70,7 +70,7 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>{workdir}\xPSDesiredStateConfiguration_3.0.3.4.zip</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\xPSDesiredStateConfiguration_3.0.3.4.zip</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>false</Enabled>
     <FileHippoId />

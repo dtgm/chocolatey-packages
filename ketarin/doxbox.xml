@@ -1,11 +1,11 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="0104c185-f631-4c2b-8b1c-4f436c3322ab">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>2604613</LastFileSize>
-    <LastFileDate>2015-02-05T00:40:42.2652347</LastFileDate>
+    <LastFileSize>4489483</LastFileSize>
+    <LastFileDate>2015-04-17T04:34:55.2310603</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -111,11 +111,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\InstallDoxBox_v60Beta.exe</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\InstallDoxBox_v61Beta.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-05T00:40:42.2652347</LastUpdated>
+    <LastUpdated>2015-04-17T04:34:55.2310603</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>doxbox</Name>

@@ -1,11 +1,11 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="64b5e047-bedf-4840-a2d4-4f1452d0872b">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
     <LastFileSize>21523827</LastFileSize>
-    <LastFileDate>2015-02-05T00:42:27.6247167</LastFileDate>
+    <LastFileDate>2015-02-20T23:51:51.3982997</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -98,7 +98,7 @@
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-05T00:42:27.6247167</LastUpdated>
+    <LastUpdated>2015-02-20T23:51:51.3982997</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>ekiga</Name>

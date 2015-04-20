@@ -1,11 +1,11 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="e9943a07-a897-4d51-9ec8-e44858c9f95a">
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64)</UserAgent>
     <UserNotes />
-    <LastFileSize>3241472</LastFileSize>
-    <LastFileDate>2015-02-05T00:53:18.6205253</LastFileDate>
+    <LastFileSize>3242440</LastFileSize>
+    <LastFileDate>2015-02-12T04:34:34.4595974</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -69,11 +69,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>{workdir}\SandboxieInstall32-415-11.exe</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\SandboxieInstall32-415-12.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
-    <Enabled>true</Enabled>
+    <Enabled>false</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-05T00:53:18.6205253</LastUpdated>
+    <LastUpdated>2015-02-12T04:34:34.4595974</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>http://www.sandboxie.com/SandboxieInstall32-{version:split:.:0}{version:split:.:1}-{version:split:.:2}.exe</FixedDownloadUrl>
     <Name>sandboxie.beta</Name>

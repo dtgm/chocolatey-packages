@@ -1,11 +1,11 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="a36ddbc1-f1e0-4766-b68f-bf26c60fc53b">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
     <LastFileSize>19466856</LastFileSize>
-    <LastFileDate>2015-02-25T09:42:09-06:00</LastFileDate>
+    <LastFileDate>2015-03-28T12:27:50.5377269</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -101,7 +101,7 @@
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-03-28T12:22:30.8337658-05:00</LastUpdated>
+    <LastUpdated>2015-03-28T12:27:50.5377269</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>cyberduck.install</Name>

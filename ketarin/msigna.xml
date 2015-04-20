@@ -1,11 +1,11 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="85d0fd64-11c2-43b1-9801-fd454152dd01">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
     <LastFileSize>8749552</LastFileSize>
-    <LastFileDate>2015-02-27T19:31:07-06:00</LastFileDate>
+    <LastFileDate>2015-03-13T17:36:50.6130562</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -99,7 +99,7 @@
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-03-13T17:31:19.6455627-05:00</LastUpdated>
+    <LastUpdated>2015-03-13T17:36:50.6130562</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>msigna</Name>

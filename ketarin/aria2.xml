@@ -1,11 +1,11 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="0451b01e-ae79-4979-a2f8-78f746b7ade4">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>1853749</LastFileSize>
-    <LastFileDate>2015-02-04T04:33:15.8379436</LastFileDate>
+    <LastFileSize>1850095</LastFileSize>
+    <LastFileDate>2015-02-24T04:33:15.2501195</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Avoid</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -126,11 +126,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\aria2-1.18.9-win-32bit-build1.zip</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\aria2-1.18.10-win-32bit-build1.zip</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-04T04:33:15.8379436</LastUpdated>
+    <LastUpdated>2015-02-24T04:33:15.2501195</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>aria2</Name>
