@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>Regular Expression Editor</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Tobias Budde</authors>
+    <owners>dtgm</owners>
+    <summary>RegEx as a tool, not as a problem</summary>
+    <description>
+Regular Expression Editor (RegExpEditor) makes regular expressions (aka regex, regexp) easy. This simple tool manipulates text with regular expressions. Highlighting of regular expression results. See the real power of regex! Use Scala to do manipulate your search results even more.
+    </description>
+    <projectUrl>http://regexpeditor.sourceforge.net/</projectUrl>
+    <tags>regex testing scala java</tags>
+    <copyright>© Tobias Budde</copyright>
+    <licenseUrl>https://sourceforge.net/p/regexpeditor/code/ci/master/tree/license</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/102e8b21ef54050791c2abcd5a0a1a45e2b857ed/icons/{{PackageName}}.gif</iconUrl>
+    <releaseNotes>
+#### Program
+* [Source code](https://sourceforge.net/p/regexpeditor/code/ci/master/tree/)
+
+#### Package
+* Automatically generated and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="javaruntime" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
