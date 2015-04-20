@@ -1,11 +1,11 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="8fc42518-6b6d-43d5-b0ae-27b0d2e3096c">
     <WebsiteUrl />
     <UserAgent />
-    <UserNotes />
+    <UserNotes>http://hivelocity.dl.sourceforge.net/project/pdfedit/pdfedit-win32/pdfedit-{realVersion}.msi</UserNotes>
     <LastFileSize>7458816</LastFileSize>
-    <LastFileDate>2015-02-05T00:47:58.0649965</LastFileDate>
+    <LastFileDate>2015-02-23T04:34:55.9593606</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -43,7 +43,8 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>{realVersion}</TextualContent>
+            <Url />
+            <TextualContent>{getUrlRedir}</TextualContent>
             <Name>url64</Name>
           </UrlVariable>
         </value>
@@ -64,6 +65,48 @@
       </item>
       <item>
         <key>
+          <string>getUrl</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>http://sourceforge.net/projects/pdfedit/files/([^ "'&lt;&gt;\*]+\.msi)</Regex>
+            <Url>http://sourceforge.net/projects/pdfedit/files/pdfedit-win32/</Url>
+            <Name>getUrl</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>nopush</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>--nopush</TextualContent>
+            <Name>nopush</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>cscript</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>2</TextualContent>
+            <Name>cscript</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
           <string>url</string>
         </key>
         <value>
@@ -71,23 +114,66 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>http://hivelocity.dl.sourceforge.net/project/pdfedit/pdfedit-win32/pdfedit-{realVersion}.msi</TextualContent>
+            <Url />
+            <TextualContent>{getMirror}/{getUrl}</TextualContent>
             <Name>url</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>getMirror</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=ResponseUri: )([^ "'&lt;&gt;\*]+pdfedit)/</Regex>
+            <Url>{getMirrorUrl}</Url>
+            <Name>getMirror</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>getMirrorUrl</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>http[^ "'&lt;&gt;\*]+\.zip/download</Regex>
+            <Url>https://sourceforge.net/projects/pdfedit/files/pdfedit-tools/tools-beta/</Url>
+            <Name>getMirrorUrl</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>getUrlRedir</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>http[^ "'&lt;&gt;\*]+\.msi/download</Regex>
+            <Url>http://sourceforge.net/projects/pdfedit/files/pdfedit-win32/</Url>
+            <Name>getUrlRedir</Name>
           </UrlVariable>
         </value>
       </item>
     </Variables>
     <ExecuteCommand />
-    <ExecutePreCommand />
+    <ExecutePreCommand>echo {appname} updated to {version} on {dddd} at {HH}:{mm}</ExecutePreCommand>
     <ExecuteCommandType>Batch</ExecuteCommandType>
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>{workdir}\pdfedit-20140526_1531.msi</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\pdfedit-20140526_1531.msi</PreviousLocation>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-05T00:47:58.0649965</LastUpdated>
+    <LastUpdated>2015-02-23T04:34:55.9593606</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>pdfedit</Name>

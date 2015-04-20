@@ -1,11 +1,11 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="1b4223af-5352-41fe-a0eb-163d7485132e">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>144371</LastFileSize>
-    <LastFileDate>2015-04-06T08:21:05.1126036</LastFileDate>
+    <LastFileSize>2949154</LastFileSize>
+    <LastFileDate>2015-04-06T18:12:33.7702289</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -83,8 +83,8 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>href="/?{urlPath}/([^\(]+(stable\))/?</Regex>
-            <Url>{urlBase}</Url>
+            <Regex>href="/?{urlPath}/(DirSync%20Pro%20%28stable%29)</Regex>
+            <Url>{urlBase}/{urlPath}</Url>
             <Name>urlDir</Name>
           </UrlVariable>
         </value>
@@ -98,11 +98,11 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
             <Regex>href="/?{urlPath}/{urlDir}/([^/]+)</Regex>
-            <Url>{urlBase}/{urlDir}</Url>
+            <Url>{urlBase}/{urlPath}/{urlDir}</Url>
             <Name>urlVer</Name>
           </UrlVariable>
         </value>
-      </item>      
+      </item>
       <item>
         <key>
           <string>version</string>
@@ -111,8 +111,8 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>href="/?{urlPath}/{urlDir}/{urlVer}/DirSyncPro-(.*?)-Windows\.zip</Regex>
-            <Url>{urlBase}/{urlDir}/{urlVer}</Url>
+            <Regex>href="/?{urlPath}/{urlDir}/{urlVer}/DirSyncPro-([\d\.]+)</Regex>
+            <Url>{urlBase}/{urlPath}/{urlDir}/{urlVer}</Url>
             <Name>version</Name>
           </UrlVariable>
         </value>
@@ -126,7 +126,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
             <Regex>[^ "'&lt;&gt;\*]+Windows\.zip/download</Regex>
-            <Url>{urlBase}/{urlDir}/{urlVer}</Url>
+            <Url>{urlBase}/{urlPath}/{urlDir}/{urlVer}</Url>
             <Name>getUrl</Name>
           </UrlVariable>
         </value>
@@ -167,10 +167,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\DirSyncPro-1.50-Windows.zip</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-06T08:21:05.1126036</LastUpdated>
+    <LastUpdated>2015-04-06T18:12:33.7702289</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>dirsyncpro</Name>

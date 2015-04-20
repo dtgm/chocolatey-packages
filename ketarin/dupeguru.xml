@@ -1,4 +1,4 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="ecc676ad-1eea-4595-bd07-97c84a27b343">
     <WebsiteUrl />
@@ -26,7 +26,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>http://download.hardcoded.net/dupeguru_win64_{version}.msi</TextualContent>
+            <TextualContent>http://download.hardcoded.net/{getUrl}</TextualContent>
             <Name>url</Name>
           </UrlVariable>
         </value>
@@ -70,6 +70,20 @@
             <Regex />
             <TextualContent>2</TextualContent>
             <Name>cscript</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>getUrl</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>/?([^ "'&lt;&gt;\*]+{version}\.msi)</Regex>
+            <Url>http://download.hardcoded.net/</Url>
+            <Name>getUrl</Name>
           </UrlVariable>
         </value>
       </item>

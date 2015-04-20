@@ -1,11 +1,25 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="33ba9617-7e4c-4c3e-9190-fb076b8b336b">
     <WebsiteUrl />
     <UserAgent />
-    <UserNotes />
-    <LastFileSize>6929688</LastFileSize>
-    <LastFileDate>2015-02-10T04:34:10.6948508</LastFileDate>
+    <UserNotes>http://downloads.auslogics.com/en/duplicate-file-finder/duplicate.xml
+&lt;Download_URLs&gt;
+&lt;Primary_Download_URL&gt;
+http://downloads.auslogics.com/en/duplicate-file-finder/duplicate-file-finder-setup.exe
+&lt;/Primary_Download_URL&gt;
+&lt;Secondary_Download_URL&gt;
+http://downloads.auslogics.com/en/duplicate-file-finder/duplicate-file-finder-setup.exe
+&lt;/Secondary_Download_URL&gt;
+&lt;Additional_Download_URL_1&gt;
+http://downloads.auslogics.com/en/duplicate-file-finder/duplicate-file-finder-setup.exe
+&lt;/Additional_Download_URL_1&gt;
+&lt;Additional_Download_URL_2&gt;
+http://downloads.auslogics.com/en/duplicate-file-finder/duplicate-file-finder-setup.exe
+&lt;/Additional_Download_URL_2&gt;
+&lt;/Download_URLs&gt;</UserNotes>
+    <LastFileSize>7447632</LastFileSize>
+    <LastFileDate>2015-04-03T04:34:29.2993255</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -26,7 +40,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>http://downloads.auslogics.com/en/duplicate-file-finder/duplicate-file-finder-setup.exe</TextualContent>
+            <TextualContent>{getUrl}</TextualContent>
             <Name>url</Name>
           </UrlVariable>
         </value>
@@ -39,7 +53,7 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=&lt;b&gt;Latest ver. )([\d\.]+)(?=&lt;/b&gt;)</Regex>
+            <Regex>(?&lt;=Latest v[er\.\s]+?)([\d\.]+)&lt;</Regex>
             <Url>https://www.auslogics.com/en/software/duplicate-file-finder/</Url>
             <Name>version</Name>
           </UrlVariable>
@@ -73,6 +87,20 @@
           </UrlVariable>
         </value>
       </item>
+      <item>
+        <key>
+          <string>getUrl</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>[^ "'&lt;&gt;\*]+\.exe</Regex>
+            <Url>http://www.auslogics.com/en/software/duplicate-file-finder/download/</Url>
+            <Name>getUrl</Name>
+          </UrlVariable>
+        </value>
+      </item>
     </Variables>
     <ExecuteCommand />
     <ExecutePreCommand />
@@ -84,7 +112,7 @@
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-10T04:34:10.6948508</LastUpdated>
+    <LastUpdated>2015-04-03T04:34:29.2993255</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>duplicatefilefinder</Name>

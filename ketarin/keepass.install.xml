@@ -1,11 +1,11 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
-  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="865c9e97-c724-481f-8180-b947fda45f40">
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="b1acd63b-f5f6-4bde-b314-33c03f6b9e2c">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>2536151</LastFileSize>
-    <LastFileDate>2014-10-08T07:45:05-05:00</LastFileDate>
+    <LastFileSize>3055352</LastFileSize>
+    <LastFileDate>2015-04-11T06:53:19.5785793</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -19,7 +19,7 @@
     <Variables>
       <item>
         <key>
-          <string>nopush</string>
+          <string>yopush</string>
         </key>
         <value>
           <UrlVariable>
@@ -27,7 +27,7 @@
             <VariableType>Textual</VariableType>
             <Regex />
             <TextualContent>--nopush</TextualContent>
-            <Name>nopush</Name>
+            <Name>yopush</Name>
           </UrlVariable>
         </value>
       </item>
@@ -39,8 +39,9 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>href="/projects/{appname:split:.:0}/files/{urlPathDir:replace: :%20}/([^/]+)</Regex>
-            <Url>{urlHost}/projects/{appname:split:.:0}/files/{urlPathDir}</Url>
+            <Regex>{urlPath}/{urlPathDir}/([\d\.]+)</Regex>
+            <Url>{urlHost}/{urlPath}/{urlPathDir}/</Url>
+            <TextualContent />
             <Name>version</Name>
           </UrlVariable>
         </value>
@@ -83,7 +84,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
             <Regex>[^ "'&lt;&gt;\*]+\.exe/download</Regex>
-            <Url>{urlHost}/{urlPath}</Url>
+            <Url>{urlHost}/{urlPath}/{urlPathDir}/{version}/</Url>
             <Name>getUrl</Name>
           </UrlVariable>
         </value>
@@ -111,8 +112,8 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>projects/{appname:split:.:0}/files/latest.*?" title="/?([^/]+)</Regex>
-            <Url>{urlHost}/projects/{appname:split:.:0}/files/</Url>
+            <Regex>{urlPath}/(KeePass[^/]+)</Regex>
+            <Url>{urlHost}/{urlPath}/</Url>
             <Name>urlPathDir</Name>
           </UrlVariable>
         </value>
@@ -127,7 +128,7 @@
             <VariableType>Textual</VariableType>
             <Regex />
             <Url />
-            <TextualContent>projects/{appname:split:.:0}/files/{urlPathDir:encode}/{version}</TextualContent>
+            <TextualContent>projects/{appname:split:.:0}/files</TextualContent>
             <Name>urlPath</Name>
           </UrlVariable>
         </value>
@@ -182,11 +183,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\KeePass-2.28-Setup.exe</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\KeePass-2.29-Setup.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-08T05:06:10.2312287-05:00</LastUpdated>
+    <LastUpdated>2015-04-11T06:53:19.5785793</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>keepass.install</Name>

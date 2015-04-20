@@ -1,11 +1,11 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="5645d424-91c3-4725-b5f7-3d337d44b359">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>510989</LastFileSize>
-    <LastFileDate>2014-12-10T09:30:17.649289</LastFileDate>
+    <LastFileSize>23393783</LastFileSize>
+    <LastFileDate>2015-02-05T22:24:15.6367946</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -25,7 +25,7 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=&lt;a href="http://downloads.sourceforge.net/psi/psi-)[\d\.]+(?=-win32-setup\.exe"&gt;)</Regex>
+            <Regex>(?&lt;=&lt;a href="http://downloads.sourceforge.net/psi/psi-)([\d\.]+)(?=-win32-setup\.exe"&gt;)</Regex>
             <Url>http://psi-im.org/download/</Url>
             <StartText>&lt;a href="http://downloads.sourceforge.net/psi/psi-</StartText>
             <EndText>%20%28stable</EndText>
@@ -36,30 +36,31 @@
       </item>
       <item>
         <key>
-          <string>url64</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <TextualContent>{urlArray}</TextualContent>
-            <Name>url64</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>url</string>
+          <string>url64Fetch</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=ResponseUri: )[^\r\n]+</Regex>
-            <Url>http://sourceforge.net/projects/psi/files/Psi/{version}/psi-{version}-win32.exe/download</Url>
+            <Regex>(?&lt;=&lt;tr title="psi-{version}-win64-setup.exe" class="file "&gt;.*&lt;a href=")(.*?)(?=")</Regex>
+            <Url>http://sourceforge.net/projects/psi/files/Psi/{version}/</Url>
             <TextualContent />
-            <Name>url</Name>
+            <Name>url64Fetch</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>urlFetch</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=&lt;tr title="psi-{version}-win32-setup.exe" class="file "&gt;.*&lt;a href=")(.*?)(?=")</Regex>
+            <Url>http://sourceforge.net/projects/psi/files/Psi/{version}/</Url>
+            <TextualContent />
+            <Name>urlFetch</Name>
           </UrlVariable>
         </value>
       </item>
@@ -72,8 +73,66 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>@('http://sourceforge.net/projects/psi/files/Psi/{version}/psi-{version}-win32.exe/download', 'http://sourceforge.net/projects/psi/files/Psi/{version}/psi-{version}-win64.exe/download')</TextualContent>
+            <TextualContent>@('{urlFetch}', '{url64Fetch}')</TextualContent>
             <Name>urlArray</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=ResponseUri: )[^\r\n]+</Regex>
+            <Url>{urlFetch}</Url>
+            <TextualContent />
+            <Name>url</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url64</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <Url />
+            <TextualContent>{urlArray}</TextualContent>
+            <Name>url64</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>yopush</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>--nopush</TextualContent>
+            <Name>yopush</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>cscript</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>0</TextualContent>
+            <Name>cscript</Name>
           </UrlVariable>
         </value>
       </item>
@@ -84,11 +143,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation />
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\psi-0.15-win32-setup.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2014-12-10T09:30:17.649289</LastUpdated>
+    <LastUpdated>2015-02-05T22:24:15.6367946</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>psi</Name>

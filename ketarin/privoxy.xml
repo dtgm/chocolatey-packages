@@ -1,11 +1,11 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="dc51cdbe-c551-4299-aea2-ab7245fa34bf">
     <WebsiteUrl />
-    <UserAgent />
+    <UserAgent>MSWin32</UserAgent>
     <UserNotes />
-    <LastFileSize>510989</LastFileSize>
-    <LastFileDate>2014-12-10T09:30:17.649289</LastFileDate>
+    <LastFileSize>509008</LastFileSize>
+    <LastFileDate>2015-02-21T04:34:51.6614589</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -24,8 +24,8 @@
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>StartEnd</VariableType>
-            <Regex>(?&lt;=href="http://sourceforge.net/projects/smartmontools/files/smartmontools/6.3/"&gt;&lt;span class="icon"&gt;.*?&lt;/span&gt;).*?(?=&lt;/a&gt;,)</Regex>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>Win32/([\d\.]+)</Regex>
             <Url>http://sourceforge.net/projects/ijbswa/files/Win32/</Url>
             <StartText>&lt;a href="/projects/ijbswa/files/Win32/</StartText>
             <EndText>%20%28stable</EndText>
@@ -43,23 +43,65 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>http://sourceforge.net/projects/ijbswa/files/Win32/{version}%20%28stable%29/privoxy_setup_{version}.exe/download</TextualContent>
+            <TextualContent>http://sourceforge.net/projects/ijbswa/files/{getUrlPath}</TextualContent>
             <Name>url64</Name>
           </UrlVariable>
         </value>
       </item>
       <item>
         <key>
-          <string>urlDownload</string>
+          <string>url</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
             <Regex>(?&lt;=ResponseUri: )[^\r\n]+</Regex>
-            <Url>http://sourceforge.net/projects/ijbswa/files/Win32/{version}%20%28stable%29/privoxy_setup_{version}.exe/download</Url>
+            <Url>http://sourceforge.net/projects/ijbswa/files/{getUrlPath}</Url>
             <TextualContent />
-            <Name>urlDownload</Name>
+            <Name>url</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>getUrlPath</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>/([^"'&lt;&gt;\*]+\.exe)</Regex>
+            <Url>http://sourceforge.net/projects/ijbswa/files/Win32/{version}%20%28stable%29/</Url>
+            <Name>getUrlPath</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>nopush</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>--nopush</TextualContent>
+            <Name>nopush</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>cscript</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>2</TextualContent>
+            <Name>cscript</Name>
           </UrlVariable>
         </value>
       </item>
@@ -70,13 +112,13 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>{workdir}\privoxy_setup_3.0.22.exe</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\privoxy_setup_3_0_23.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2014-12-10T09:30:17.649289</LastUpdated>
+    <LastUpdated>2015-02-21T04:34:51.6614589</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
-    <FixedDownloadUrl>{urlDownload}</FixedDownloadUrl>
+    <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>privoxy</Name>
   </ApplicationJob>
 </Jobs>

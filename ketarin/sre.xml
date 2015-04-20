@@ -1,11 +1,11 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="135d0af0-5d49-4988-9bd1-332d3ed36813">
     <WebsiteUrl />
-    <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64)</UserAgent>
-    <UserNotes />
+    <UserAgent />
+    <UserNotes>http://sourceforge.net/projects/sre/files/SRE%20%201.3.1.12/Small%20Registry%20Editor1.3.1.12.exe/download</UserNotes>
     <LastFileSize>167424</LastFileSize>
-    <LastFileDate>2015-01-28T08:34:37.57282</LastFileDate>
+    <LastFileDate>2015-02-05T00:53:28.7708975</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -24,10 +24,10 @@
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
+            <VariableType>RegularExpression</VariableType>
             <Regex>(?&lt;=ResponseUri: )[^\r\n]+</Regex>
-            <Url>http://sourceforge.net/projects/sre/files/SRE%20%20{version}/Small%20Registry%20Editor{version}.exe/download</Url>
-            <TextualContent>http://softlayer-dal.dl.sourceforge.net/project/sre/SRE%20%20{version}/Small%20Registry%20Editor{version}.exe</TextualContent>
+            <Url>{getUrl}</Url>
+            <TextualContent />
             <Name>url</Name>
           </UrlVariable>
         </value>
@@ -41,7 +41,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>http://sourceforge.net/projects/sre/files/SRE%20%20{version}/Small%20Registry%20Editor{version}.exe/download</TextualContent>
+            <TextualContent>{getUrl}</TextualContent>
             <Name>url64</Name>
           </UrlVariable>
         </value>
@@ -71,15 +71,15 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=&lt;meta http-equiv="refresh" content="5; url=)(.*?)(?="&gt;)</Regex>
-            <Url>http://sourceforge.net/projects/sre/files/SRE%20%20{version}/Small%20Registry%20Editor{version}.exe/download</Url>
+            <Regex>[^ "'&lt;&gt;\*]+\.exe/download</Regex>
+            <Url>http://sourceforge.net/projects/sre/files/SRE%20%20{version}/</Url>
             <Name>getUrl</Name>
           </UrlVariable>
         </value>
       </item>
       <item>
         <key>
-          <string>yespush</string>
+          <string>nopush</string>
         </key>
         <value>
           <UrlVariable>
@@ -87,7 +87,21 @@
             <VariableType>Textual</VariableType>
             <Regex />
             <TextualContent>--nopush</TextualContent>
-            <Name>yespush</Name>
+            <Name>nopush</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>cscript</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>2</TextualContent>
+            <Name>cscript</Name>
           </UrlVariable>
         </value>
       </item>
@@ -98,13 +112,13 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>{workdir}\Small Registry Editor1.3.1.12.exe</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\Small Registry Editor1.3.1.12.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-01-28T08:34:37.57282</LastUpdated>
+    <LastUpdated>2015-02-05T00:53:28.7708975</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
-    <FixedDownloadUrl>{url}</FixedDownloadUrl>
+    <FixedDownloadUrl>{url:encode}</FixedDownloadUrl>
     <Name>sre</Name>
   </ApplicationJob>
 </Jobs>

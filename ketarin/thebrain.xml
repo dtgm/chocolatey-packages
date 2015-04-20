@@ -1,11 +1,15 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="7f4bcd0d-badf-42c1-a996-823a58b465e3">
     <WebsiteUrl />
     <UserAgent />
-    <UserNotes>added '/v "{version}00"' for incremental package fixes, based on https://github.com/chocolatey/chocolatey/wiki/CreatePackages#versioning-recommendations</UserNotes>
-    <LastFileSize>29894656</LastFileSize>
-    <LastFileDate>2015-02-05T00:55:11.2376425</LastFileDate>
+    <UserNotes>added '/v "{version}00"' for incremental package fixes, based on https://github.com/chocolatey/chocolatey/wiki/CreatePackages#versioning-recommendations
+
+direct access 
+http://assets.thebrain.com/downloads/TheBrain_windows_8_0_1_2.exe
+http://assets.thebrain.com/downloads/TheBrain_windows-x64_8_0_1_2.exe</UserNotes>
+    <LastFileSize>29698048</LastFileSize>
+    <LastFileDate>2015-03-19T15:55:08.429903</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -24,28 +28,13 @@
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>StartEnd</VariableType>
-            <Regex />
-            <Url>http://www.thebrain.com/products/thebrain/download/</Url>
-            <StartText>&lt;span style="font-size: small;"&gt;&lt;strong&gt;Version </StartText>
-            <EndText>.&lt;/strong</EndText>
-            <TextualContent />
-            <Name>version</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>url64</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <Url>https://code.google.com/p/duplicati/wiki/Downloads?tm=2</Url>
-            <TextualContent>http://api.thebrain.com/?a=doDirectDownload&amp;id=76</TextualContent>
-            <Name>url64</Name>
+            <Url />
+            <StartText>&lt;span style="font-size: small;"&gt;&lt;strong&gt;Version </StartText>
+            <EndText>.&lt;/strong</EndText>
+            <TextualContent>{realVersion}00</TextualContent>
+            <Name>version</Name>
           </UrlVariable>
         </value>
       </item>
@@ -63,18 +52,60 @@
           </UrlVariable>
         </value>
       </item>
+      <item>
+        <key>
+          <string>yopush</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>--nopush</TextualContent>
+            <Name>yopush</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>cscript</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>0</TextualContent>
+            <Name>cscript</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>realVersion</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>Version ([\d\.]*)\.</Regex>
+            <Url>http://www.thebrain.com/products/thebrain/download/</Url>
+            <Name>realVersion</Name>
+          </UrlVariable>
+        </value>
+      </item>
     </Variables>
     <ExecuteCommand />
-    <ExecutePreCommand>chocopkgup /p {appname}.install /v "{version}00" "{nopush}" /u "{preupdate-url}" /u64 "{url64}" /pp "{file}"</ExecutePreCommand>
+    <ExecutePreCommand />
     <ExecuteCommandType>Batch</ExecuteCommandType>
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>{workdir}\TheBrain_windows_8_0_1_4.exe</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\TheBrain_windows_8_0_1_5.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-05T00:55:11.2376425</LastUpdated>
+    <LastUpdated>2015-03-19T15:55:08.429903</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>thebrain</Name>

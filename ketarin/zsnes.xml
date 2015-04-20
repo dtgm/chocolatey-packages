@@ -1,20 +1,20 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
-  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="8d0e6ab7-fe8d-41cf-9b04-cf33c35925ed">
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="89cb6e3d-029e-4b1b-9f8c-fd5d7bc06258">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>0</LastFileSize>
-    <LastFileDate xsi:nil="true" />
+    <LastFileSize>867785</LastFileSize>
+    <LastFileDate>2015-02-05T00:56:50.5572087</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
-    <VariableChangeIndicator>version</VariableChangeIndicator>
+    <VariableChangeIndicator />
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
-    <HttpReferer>http://www.fosshub.com/ZSNES.html</HttpReferer>
+    <HttpReferer />
     <SetupInstructions />
     <Variables>
       <item>
@@ -25,7 +25,7 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=&lt;b&gt;Latest Version:&lt;/b&gt;\s)[\d\.]+(?=\s)</Regex>
+            <Regex>(?&lt;=&gt;)([\d\.]+)(?=[\s-]*Latest Version&lt;/td&gt;)</Regex>
             <Url>http://www.zsnes.com/index.php?page=files</Url>
             <Name>version</Name>
           </UrlVariable>
@@ -33,29 +33,29 @@
       </item>
       <item>
         <key>
-          <string>checksum</string>
+          <string>url</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=ZSNES\s*Windows.*version\s*)[\d\.]+(?=\s)</Regex>
-            <Url>http://www.fosshub.com/ZSNES.html</Url>
-            <Name>checksum</Name>
+            <Regex>(?&lt;=ResponseUri: )[^\r\n]+</Regex>
+            <Url>{urlFetch}</Url>
+            <Name>url</Name>
           </UrlVariable>
         </value>
       </item>
       <item>
         <key>
-          <string>nopush</string>
+          <string>getLatestDir</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <TextualContent>--nopush</TextualContent>
-            <Name>nopush</Name>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=&lt;tr title=")(.*?)(?=" class="folder\s*"&gt;)</Regex>
+            <Url>http://sourceforge.net/projects/zsnes/files/zsnes/</Url>
+            <Name>getLatestDir</Name>
           </UrlVariable>
         </value>
       </item>
@@ -68,8 +68,64 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>http://www.fosshub.com/genLink/ZSNES/zsnes-{version}-setup.exe</TextualContent>
+            <TextualContent>{urlFetch}</TextualContent>
             <Name>url64</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>urlFetch</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=\.zip" class="file "&gt;.*&lt;a href=")(.*?)(?=")</Regex>
+            <Url>http://sourceforge.net/projects/zsnes/files/zsnes/{getLatestDir}/</Url>
+            <Name>urlFetch</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>yopush</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>--nopush</TextualContent>
+            <Name>yopush</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>checksum</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=Windows.*SHA1:\s*)([A-Fa-f0-9]{40})</Regex>
+            <Url>http://www.fosshub.com/ZSNES.html</Url>
+            <Name>checksum</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>cscript</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>0</TextualContent>
+            <Name>cscript</Name>
           </UrlVariable>
         </value>
       </item>
@@ -80,13 +136,13 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation />
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\zsnesw151.zip</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated xsi:nil="true" />
+    <LastUpdated>2015-02-05T00:56:50.5572087</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
-    <FixedDownloadUrl>{url}</FixedDownloadUrl>
+    <FixedDownloadUrl>{url:encode}</FixedDownloadUrl>
     <Name>zsnes</Name>
   </ApplicationJob>
 </Jobs>

@@ -1,11 +1,11 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="202aff11-b5c6-4274-aab8-5cb77ad5099f">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>2475699</LastFileSize>
-    <LastFileDate>2015-01-23T14:36:09.0730219</LastFileDate>
+    <LastFileSize>2532063</LastFileSize>
+    <LastFileDate>2015-04-08T07:40:51.8300364</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -26,7 +26,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
             <Regex>(?&lt;=ResponseUri: )[^\r\n]+</Regex>
-            <Url>http://sourceforge.net/projects/mcwin32/files/mcwin32-build{buildVersion}-setup.exe/download</Url>
+            <Url>{getUrl}</Url>
             <TextualContent />
             <Name>url</Name>
           </UrlVariable>
@@ -34,15 +34,16 @@
       </item>
       <item>
         <key>
-          <string>buildVersion</string>
+          <string>versionBuild</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=&lt;tr title="mcwin32-build)([\d\.]+)(?=-setup\.exe)</Regex>
-            <Url>http://sourceforge.net/projects/mcwin32/files</Url>
-            <Name>buildVersion</Name>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <Url />
+            <TextualContent>{getUrl:regex:(?&lt;=build)[\d\.]+}</TextualContent>
+            <Name>versionBuild</Name>
           </UrlVariable>
         </value>
       </item>
@@ -55,7 +56,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>{gnuVersion}.{buildVersion}</TextualContent>
+            <TextualContent>{versionRelease}.{versionBuild}</TextualContent>
             <Name>version</Name>
           </UrlVariable>
         </value>
@@ -69,14 +70,14 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>http://sourceforge.net/projects/mcwin32/files/mcwin32-build{version:replace:.:}-setup.exe/download</TextualContent>
+            <TextualContent>{getUrl}</TextualContent>
             <Name>url64</Name>
           </UrlVariable>
         </value>
       </item>
       <item>
         <key>
-          <string>yespush</string>
+          <string>nopush</string>
         </key>
         <value>
           <UrlVariable>
@@ -84,21 +85,49 @@
             <VariableType>Textual</VariableType>
             <Regex />
             <TextualContent>--nopush</TextualContent>
-            <Name>yespush</Name>
+            <Name>nopush</Name>
           </UrlVariable>
         </value>
       </item>
       <item>
         <key>
-          <string>gnuVersion</string>
+          <string>versionRelease</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=based on the current )([\d\.]+)(?=\s)</Regex>
-            <Url>http://sourceforge.net/projects/mcwin32/</Url>
-            <Name>gnuVersion</Name>
+            <Regex>(?&lt;=\s{8})([\d\.]+)(?=\s{8})</Regex>
+            <Url>https://sourceforge.net/projects/mcwin32/files/</Url>
+            <Name>versionRelease</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>cscript</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>2</TextualContent>
+            <Name>cscript</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>getUrl</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>[^ "'&lt;&gt;\*]+\.exe/download</Regex>
+            <Url>http://sourceforge.net/projects/mcwin32/files/</Url>
+            <Name>getUrl</Name>
           </UrlVariable>
         </value>
       </item>
@@ -109,11 +138,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>{workdir}\mcwin32-build185-setup.exe</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\mcwin32-build189-setup.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-01-23T14:36:09.0730219</LastUpdated>
+    <LastUpdated>2015-04-08T07:40:51.8300364</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>mc</Name>

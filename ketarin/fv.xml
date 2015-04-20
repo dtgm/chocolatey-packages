@@ -1,11 +1,11 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
-  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="242d0a2c-e52a-4043-8599-38d965f14692">
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="ca1d2658-1273-4711-ad4b-d1bb5c2b6f1b">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>92359</LastFileSize>
-    <LastFileDate>2010-02-06T16:25:57-06:00</LastFileDate>
+    <LastFileSize>1863475</LastFileSize>
+    <LastFileDate>2015-04-03T07:10:16.251398</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -17,6 +17,20 @@
     <HttpReferer />
     <SetupInstructions />
     <Variables>
+      <item>
+        <key>
+          <string>getUrl</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>[^ "'&lt;&gt;\*]+\.msi/download</Regex>
+            <Url>http://sourceforge.net/projects/fileverifier/files/fileverifier/{version}/</Url>
+            <Name>getUrl</Name>
+          </UrlVariable>
+        </value>
+      </item>
       <item>
         <key>
           <string>version</string>
@@ -33,6 +47,34 @@
       </item>
       <item>
         <key>
+          <string>yopush</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>--nopush</TextualContent>
+            <Name>yopush</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>cscript</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>0</TextualContent>
+            <Name>cscript</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
           <string>url</string>
         </key>
         <value>
@@ -40,8 +82,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
             <Regex>(?&lt;=ResponseUri: )[^\r\n]+</Regex>
-            <Url>http://sourceforge.net/projects/fileverifier/files/fileverifier/{version}/fv-{version}W.msi/download</Url>
-            <TextualContent />
+            <Url>http://sourceforge.net/projects/fileverifier/files/fileverifier/0.6.3.5830/fv-0.6.3.5830W.zip/download</Url>
             <Name>url</Name>
           </UrlVariable>
         </value>
@@ -55,8 +96,36 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>http://sourceforge.net/projects/fileverifier/files/fileverifier/{version}/fv-{version}W.msi/download</TextualContent>
+            <TextualContent>{getUrl}</TextualContent>
             <Name>url64</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>checksum</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>([a-fA-F0-9]{40})[\s\*]+{baseFile}\.msi</Regex>
+            <Url>http://sourceforge.net/projects/fileverifier/files/fileverifier/{version}/{baseFile}.sha1/download</Url>
+            <Name>checksum</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>baseFile</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>([^ "'&lt;&gt;\*/]+)\.msi</Regex>
+            <Url>http://sourceforge.net/projects/fileverifier/files/fileverifier/</Url>
+            <Name>baseFile</Name>
           </UrlVariable>
         </value>
       </item>
@@ -67,10 +136,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\fv-0.6.3.5830W.zip</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-02T23:03:07.7859162-06:00</LastUpdated>
+    <LastUpdated>2015-04-03T07:10:16.251398</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>fv</Name>

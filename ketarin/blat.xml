@@ -1,11 +1,11 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="44d16911-fbfc-4bd7-ad51-5a3bb1bcfbcb">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>245317</LastFileSize>
-    <LastFileDate>2015-02-05T00:39:01.237452</LastFileDate>
+    <LastFileSize>246023</LastFileSize>
+    <LastFileDate>2015-03-04T11:58:12.3466442</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -72,6 +72,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
+            <Url />
             <TextualContent>{realVersion:regexreplace:(\d)(\d)(\d):$1.$2.$3}</TextualContent>
             <Name>version</Name>
           </UrlVariable>
@@ -107,15 +108,15 @@
       </item>
       <item>
         <key>
-          <string>nopush</string>
+          <string>noscript</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>--nopush</TextualContent>
-            <Name>nopush</Name>
+            <TextualContent>--noscript</TextualContent>
+            <Name>noscript</Name>
           </UrlVariable>
         </value>
       </item>
@@ -140,11 +141,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\blat323_32.full.zip</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\blat324_32.full.zip</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-05T00:39:01.237452</LastUpdated>
+    <LastUpdated>2015-03-04T11:58:12.3466442</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>blat</Name>
