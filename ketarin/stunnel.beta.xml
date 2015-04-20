@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Jobs>
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="1c0fa4c5-c3a0-40e6-88f0-99199e5da16f">
+    <WebsiteUrl />
+    <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64)</UserAgent>
+    <UserNotes />
+    <LastFileSize>1334556</LastFileSize>
+    <LastFileDate>2014-04-14T04:33:17.3272888</LastFileDate>
+    <IgnoreFileInformation>false</IgnoreFileInformation>
+    <DownloadBeta>Default</DownloadBeta>
+    <DownloadDate xsi:nil="true" />
+    <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
+    <VariableChangeIndicator />
+    <CanBeShared>true</CanBeShared>
+    <ShareApplication>false</ShareApplication>
+    <ExclusiveDownload>false</ExclusiveDownload>
+    <HttpReferer />
+    <SetupInstructions />
+    <Variables>
+      <item>
+        <key>
+          <string>version</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>StartEnd</VariableType>
+            <Regex>"&gt;About This Section \(Latest Version ([\d+\.]+)\)&lt;/a&gt;</Regex>
+            <Url>https://www.stunnel.org/downloads.html</Url>
+            <StartText>&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;a href="downloads/beta/stunnel-</StartText>
+            <EndText>-installer.exe</EndText>
+            <TextualContent />
+            <Name>version</Name>
+          </UrlVariable>
+        </value>
+      </item>
+    </Variables>
+    <ExecuteCommand />
+    <ExecutePreCommand />
+    <ExecuteCommandType>Batch</ExecuteCommandType>
+    <ExecutePreCommandType>Batch</ExecutePreCommandType>
+    <Category />
+    <SourceType>FixedUrl</SourceType>
+    <PreviousLocation>C:\dev\Chocolatey\_work\stunnel-5.02b2-installer.exe</PreviousLocation>
+    <DeletePreviousFile>true</DeletePreviousFile>
+    <Enabled>false</Enabled>
+    <FileHippoId />
+    <LastUpdated>2014-04-14T04:33:17.3272888</LastUpdated>
+    <TargetPath>{workdir}\</TargetPath>
+    <FixedDownloadUrl>https://www.stunnel.org/downloads/beta/stunnel-{version}-installer.exe</FixedDownloadUrl>
+    <Name>stunnel.beta</Name>
+  </ApplicationJob>
+</Jobs>
