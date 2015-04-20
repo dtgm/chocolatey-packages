@@ -5,17 +5,17 @@ Chocolatey Automatic Packages
 ## REQUIREMENTS
 * `>=` Microsoft Windows XP SP3
 * `>=` .NET Framework 4.0
-  ** [Web installer](http://www.microsoft.com/en-us/download/details.aspx?id=17851)
-  ** [Standalone installer](http://www.microsoft.com/en-us/download/details.aspx?id=24872)
+  * [Web installer](http://www.microsoft.com/en-us/download/details.aspx?id=17851)
+  * [Standalone installer](http://www.microsoft.com/en-us/download/details.aspx?id=24872)
 * `==` Chocolatey CLI
-  ** C:\> `@powershell -NoProfile -ExecutionPolicy unrestricted -Command "iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin`
-  ** PS:\> `iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))`
+  * C:\> `@powershell -NoProfile -ExecutionPolicy unrestricted -Command "iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin`
+  * PS:\> `iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))`
 * `==` [ChocolateyPackageUpdater](https://chocolatey.org/packages/ChocolateyPackageUpdater)
 * `==` [ketarin](https://chocolatey.org/packages/ketarin)
-  ** `+=` ketarin XML [templates](https://github.com/dtgm/chocolatey-packages/tree/master/ketarin)
-  ** `==` c# scripts
+  * `+=` ketarin XML [templates](https://github.com/dtgm/chocolatey-packages/tree/master/ketarin)
+  * `==` c# scripts
 * `+=` Chocolatey package source files (this directory)
-  ** (Note: The `_output` subdirectory is __not__ needed)
+  * (Note: The `_output` subdirectory is __not__ needed)
 
 To be able to automatically push to Chocolatey.org:
 * `==` Chocolatey.org [account](https://chocolatey.org/account/Register)
