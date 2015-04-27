@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>ExifToolGUI</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Bogdan Hrastnik</authors>
+    <owners>dtgm</owners>
+    <summary>GUI front-end for exiftool</summary>
+    <description>
+ExifToolGUI is a GUI front-end for [exiftool](https://chocolatey.org/packages/exiftool) to view metadata information with some editing features.
+
+There are many tools for viewing/editing metadata inside image files. In my opinion, ExifTool by Phil Harvey, is the best I've found so far. Here's why:
+
+* it shows more metadata tags than any other tool,
+* it allows to edit almost any metadata tag,
+* it is very secure to use, is regularly updated and has the best possible support.
+
+The only downside for many potential users is the fact, that ExifTool is a "command-line" utility. That means, there's no Graphic User Interface (GUI), so all work must be done by typing commands inside "Command Prompt" window. Such approach gives ExifTool great flexibility, but is somehow difficult to use -especially for those, who don't use ExifTool regularly.
+
+So, I've decided to make some simple ExifTool GUI for my private use. There are already some GUI's that make use of ExifTool, but some of them are not flexible enough (for my needs) and/or have somehow limited use. When making ExifToolGUI, the main goal was:
+
+* view all metadata that ExifTool recognizes,
+* ability to edit most frequently used metadata tags,
+* batch capability (where appropriate), means: you can select multiple files and modify them at once.
+
+Basic idea behind GUI is, to keep it simple! Thus, only those options are implemented, which I believe, are essential for majority of users.
+
+#### Community
+* [Forum](http://u88.n24.queensu.ca/exiftool/forum/index.php/board,7.0.html)
+
+#### Documentation
+* [Manual](http://u88.n24.queensu.ca/~bogdan/)
+* [Metadata articles](http://u88.n24.queensu.ca/~bogdan/articles/)
+    </description>
+    <projectUrl>http://u88.n24.queensu.ca/~bogdan/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/517692195d8ed24a5bd72aa9d91877c64d67438a/icons/{{PackageName}}.png</iconUrl>
+    <tags>metadata exif frontend freeware</tags>
+    <copyright>© 2007 Bogdan Hrastnik</copyright>
+    <licenseUrl>http://wikipedia.org/wiki/Freeware</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Changelog](http://u88.n24.queensu.ca/exiftool/forum/index.php/topic,2750.0.html)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="exiftool" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

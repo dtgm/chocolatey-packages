@@ -25,7 +25,7 @@ Ftpdmin has no notion of security or even passwords. Rather, once it is running,
 * Known issues: Ftpdmin will mess up directory handling if you connect with more than one client at a time. Fixing this would require a fair bit of work, as ftpdmin relies on the OS's current directory as its own directory, but the current directory is not thread local. However, the way ftpdmin is meant to be used, this isn't really a problem.
 
 #### Package
-* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+* Automatically built and uploaded
     </releaseNotes>
   </metadata>
   <files>
