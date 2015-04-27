@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>monodevelop</id>
+    <version>5.0.0.1</version>
+    <title>MonoDevelop</title>
+    <authors>Xamarin</authors>
+    <owners>Anthony Mastrean</owners>
+    <licenseUrl>http://www.gnu.org/licenses/lgpl-2.1.html</licenseUrl>
+    <projectUrl>http://monodevelop.com/</projectUrl>
+    <iconUrl>http://anthonymastrean.github.io/chocolateypackages/icons/monodevelop.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>MonoDevelop is an IDE primarily designed for C# and other .NET languages. MonoDevelop enables developers to quickly write desktop and ASP.NET Web applications on Linux, Windows and Mac OSX. MonoDevelop makes it easy for developers to port .NET applications created with Visual Studio to Linux and to maintain a single code base for all platforms.</description>
+    <tags>mono ide .net</tags>
+    <dependencies>
+      <dependency id="gtksharp" version="[2.12.25, 3.0)" />
+    </dependencies>
+  </metadata>
+</package>
