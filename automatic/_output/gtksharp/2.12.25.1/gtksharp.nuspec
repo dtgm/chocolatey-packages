@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>gtksharp</id>
+    <version>2.12.25.1</version>
+    <title>Gtk# (GtkSharp)</title>
+    <authors>Xamarin</authors>
+    <owners>Anthony Mastrean, Thai Phan</owners>
+    <projectUrl>http://www.mono-project.com/GtkSharp</projectUrl>
+    <iconUrl>http://anthonymastrean.github.io/chocolateypackages/icons/gtksharp.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Gtk# is a Graphical User Interface Toolkit for mono and .Net. The project binds the gtk+ toolkit and assorted GNOME libraries, enabling fully native graphical Gnome application development using the Mono and .Net development frameworks.</description>
+    <tags>gtk gui mono .net gnome</tags>
+    <dependencies>
+      <dependency id="dotnet4.0" />
+    </dependencies>
+  </metadata>
+</package>
