@@ -10,9 +10,9 @@
     <description>
 DataHealthCheck is a portable app to check your files for corruption or display their md5/sha1 hash. 
 
-It is faster than other apps because it checks for corrupted files and update hashes of changed files in one pass. 
+It is faster than other apps because it checks for corrupted files and update hashes of changed files in one pass.
 
-[Source code](https://github.com/cryptogeek/DataHealthCheck/)
+[Screenshots](https://github.com/cryptogeek/DataHealthCheck#screenshots)
     </description>
     <projectUrl>https://cryptogeek.ninja/DataHealthCheck</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/09316ad79e51dabb6a71adcb83d4a81886ebe2df/icons/{{PackageName}}.png</iconUrl>
@@ -21,7 +21,13 @@ It is faster than other apps because it checks for corrupted files and update ha
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <tags>checksum file integrity</tags>
     <releaseNotes>
+### Program
 [Changelog](https://cryptogeek.ninja/DataHealthCheck)
+[Known issues](https://github.com/cryptogeek/DataHealthCheck/issues/)
+[Source code](https://github.com/cryptogeek/DataHealthCheck/)
+
+### Package
+Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   </metadata>
   <files>
