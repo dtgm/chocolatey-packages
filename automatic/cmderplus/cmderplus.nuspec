@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>Cmder+</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Nicolas Arnaud-Cormos</authors>
+    <owners>dtgm</owners>
+    <summary>Cmder+ is a friendly fork of Cmder. It adds a number of features that may not be accepted upstream</summary>
+    <description>
+Cmder+ is a friendly fork of Cmder. It adds a number of features that may not be accepted upstream.
+    
+#### [Features](https://github.com/narnaud/cmderplus#features)
+    </description>
+    <projectUrl>http://jonls.dk/redshift/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/85b2cda701b3b00ed0c9aca8ca0a0a34dc9d5115/icons/{{PackageName}}.png</iconUrl>
+    <tags>console cli</tags>
+    <copyright>© Nicolas Arnaud-Cormos</copyright>
+    <licenseUrl>https://github.com/narnaud/cmderplus#license</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Changelog](https://github.com/narnaud/cmderplus/releases)
+* [Source code](https://github.com/narnaud/cmderplus/)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
