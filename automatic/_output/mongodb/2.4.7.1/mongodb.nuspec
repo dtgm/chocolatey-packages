@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>mongodb</id>
+    <version>2.4.7.1</version>
+    <title>MongoDB</title>
+    <authors>10gen</authors>
+    <owners>H. Alan Stevens</owners>
+    <licenseUrl>http://www.mongodb.org/display/DOCS/Licensing</licenseUrl>
+    <projectUrl>http://www.mongodb.org/</projectUrl>
+    <iconUrl>http://fc01.deviantart.net/fs70/f/2010/168/e/1/Icon_MongoDB_by_xkneo.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>MongoDB (from "humongous") is a scalable, high-performance, open source NoSQL database written in C++. This package installs MongoDB as a Windows service and binds to localhost. Type mongo at a command prompt to use the interactive, administrative shell. A batch script, MongoRotateLogs.bat, is included for convenient log rotation.</description>
+    <summary>MongoDB (from "humongous") is a scalable, high-performance, open source NoSQL database written in C++.</summary>
+    <tags>mongo db document database nosql</tags>
+  </metadata>
+</package>
