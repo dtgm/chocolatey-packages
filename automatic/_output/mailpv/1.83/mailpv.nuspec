@@ -34,7 +34,7 @@ Mail PassView is a small password-recovery tool that reveals the passwords and o
 [What's New?](http://www.nirsoft.net/utils/mailpv.html)
     </releaseNotes>
     <dependencies>
-      <dependency id="mailpv" version="[1.83]" />
+      <dependency id="mailpv.install" version="[1.83]" />
     </dependencies>
   </metadata>
 </package>

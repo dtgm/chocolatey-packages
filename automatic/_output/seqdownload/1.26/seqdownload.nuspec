@@ -24,7 +24,7 @@ This utility allows you to automatically download an image file in every few sec
 [What's New?](http://www.nirsoft.net/utils/seqdownload.html)
     </releaseNotes>
     <dependencies>
-      <dependency id="seqdownload" version="[1.26]" />
+      <dependency id="seqdownload.install" version="[1.26]" />
     </dependencies>
   </metadata>
 </package>

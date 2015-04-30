@@ -29,7 +29,8 @@ Create Synchronicity is an easy, fast and powerful backup application. It synchr
 * [Source code](https://sourceforge.net/p/synchronicity/code/HEAD/tree/)
 
 #### Package
-* Automatically generated and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

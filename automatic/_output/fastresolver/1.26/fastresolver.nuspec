@@ -26,7 +26,7 @@ FastResolver is a multithreaded application, so it can resolve dozens of address
 [What's New?](http://www.nirsoft.net/utils/fastresolver.html)
     </releaseNotes>
     <dependencies>
-      <dependency id="fastresolver" version="[1.26]" />
+      <dependency id="fastresolver.install" version="[1.26]" />
     </dependencies>
   </metadata>
 </package>

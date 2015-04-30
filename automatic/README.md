@@ -12,7 +12,7 @@ Chocolatey Automatic Packages
   * PS:\> `iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))`
 * `==` [ChocolateyPackageUpdater](https://chocolatey.org/packages/ChocolateyPackageUpdater)
 * `==` [ketarin](https://chocolatey.org/packages/ketarin)
-  * `+=` ketarin XML [templates](https://github.com/dtgm/chocolatey-packages/tree/master/ketarin)
+  * `+=` ketarin [XML templates](https://github.com/dtgm/chocolatey-packages/tree/master/ketarin)
   * `==` c# scripts
 * `+=` Chocolatey package source files (this directory)
   * (Note: The `_output` subdirectory is __not__ needed)

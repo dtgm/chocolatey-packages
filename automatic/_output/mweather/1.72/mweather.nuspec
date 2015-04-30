@@ -26,7 +26,7 @@ reports directly from the Internet.
 [What's New?](http://www.nirsoft.net/utils/mweather.html)
     </releaseNotes>
     <dependencies>
-      <dependency id="mweather" version="[1.72]" />
+      <dependency id="mweather.install" version="[1.72]" />
     </dependencies>
   </metadata>
 </package>

@@ -26,7 +26,7 @@ You can select one or more items from the passwords list and export them into te
 [What's New?](http://www.nirsoft.net/utils/internet_explorer_password.html)
     </releaseNotes>
     <dependencies>
-      <dependency id="iepv" version="[1.32]" />
+      <dependency id="iepv.install" version="[1.32]" />
     </dependencies>
   </metadata>
 </package>
