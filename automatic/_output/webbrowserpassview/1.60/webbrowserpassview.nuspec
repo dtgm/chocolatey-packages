@@ -24,7 +24,7 @@ This tool can be used to recover your lost/forgotten password of any Website, in
 [What's New?](http://www.nirsoft.net/utils/web_browser_password.html)
     </releaseNotes>
     <dependencies>
-      <dependency id="webbrowserpassview" version="[1.60]" />
+      <dependency id="webbrowserpassview.install" version="[1.60]" />
     </dependencies>
   </metadata>
 </package>
