@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>psi</id>
+    <title>Psi</title>
+    <version>0.15.0.20150506</version>
+    <authors>Justin Karneges,Kevin Smith</authors>
+    <owners>dtgm</owners>
+    <summary>Instant messaging application for the XMPP network</summary>
+    <description>
+Psi is a free instant messaging application designed for the open protocol XMPP network. Fast and lightweight, Psi is fully open-source and compatible with Windows, Linux, and Mac OS X.
+
+Extensible Messaging and Presence Protocol (XMPP) is an open technology for real-time communication, which powers a wide range of applications including instant messaging, presence, multi-party chat, voice and video calls, collaboration, lightweight middleware, content syndication, and generalized routing of XML data.  See http://xmpp.org/
+
+Because XMPP allows gateways to other services, which many servers support, it can also connect to Yahoo!, AIM, Gadu-Gadu, ICQ and Microsoft networks.[7] Other services available using gateway servers, include RSS and Atom news feeds, sending SMS messages to cellular networks and weather reports.
+
+Psi has built in GnuPG support for message encryption.  With Psi's full Unicode support and localizations, easy file transfers, customizable iconsets, and many other great features, you'll learn why users around the world are making the switch to free, open instant messaging.
+
+#### User support forum
+* https://groups.google.com/forum/#!forum/psi-users
+		</description>
+    <projectUrl>http://psi-im.org/</projectUrl>
+		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/70cdddfb917ea5ae438c8095129b374c1cf06408/icons/psi.png</iconUrl>
+    <tags>xmpp messenger chat gnupg qt</tags>
+    <copyright>© Psi Team</copyright>
+    <licenseUrl>https://raw.githubusercontent.com/psi-im/psi/master/COPYING</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Changelog](https://github.com/psi-im/psi/blob/master/README)
+* [Known issues](https://github.com/psi-im/psi/issues)
+* [Source code](https://github.com/psi-im/psi)
+
+#### Package
+* Uprev to match dependent version psi.install (Fix checksum for 64-bit installer)
+    </releaseNotes>
+		<dependencies>
+			<dependency id="psi.install" version="[0.15.0.20150506]" />
+    </dependencies>
+  </metadata>
+</package>
