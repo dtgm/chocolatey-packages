@@ -1,9 +1,15 @@
 $packageName = 'duplicatefilefinder'
-$installerType = 'exe'	
+$installerType = 'exe'
 $silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP- /TASKS=desktopicon'
 $url = 'http://downloads.auslogics.com/en/duplicate-file-finder/duplicate-file-finder-setup.exe'
-$checksum = 'bd3d1b25ff2f59ed396fa9e017560ad0b44d7fef'
+$checksum = 'efc9bd04101940df462e304e32ff53fc59dcf376'
 $checksumType = 'sha1'
 $validExitCodes = @(0)
 
-Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url" -validExitCodes $validExitCodes -Checksum "$checksum" -ChecksumType "$checksumType"
+Install-ChocolateyPackage -PackageName "$packageName" `
+                          -FileType "$installerType" `
+                          -SilentArgs "$silentArgs" `
+                          -Url "$url" `
+                          -ValidExitCodes $validExitCodes `
+                          -Checksum "$checksum" `
+                          -ChecksumType "$checksumType"
