@@ -39,7 +39,7 @@ You cannot use this utility for grabbing the passwords of other users.
 [What's New?](http://www.nirsoft.net/utils/mspass.html)
     </releaseNotes>
     <dependencies>
-      <dependency id="{{PackageName}}" version="[{{PackageVersion}}]" />
+      <dependency id="{{PackageName}}.install" version="[{{PackageVersion}}]" />
     </dependencies>
   </metadata>
 </package>

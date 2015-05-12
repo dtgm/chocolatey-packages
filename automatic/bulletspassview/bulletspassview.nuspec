@@ -22,7 +22,7 @@ After revealing the passwords, you can easily copy them to the clipboard or save
 [What's New?](http://www.nirsoft.net/utils/bullets_password_view.html)
     </releaseNotes>
     <dependencies>
-      <dependency id="{{PackageName}}" version="[{{PackageVersion}}]" />
+      <dependency id="{{PackageName}}.install" version="[{{PackageVersion}}]" />
     </dependencies>
   </metadata>
 </package>

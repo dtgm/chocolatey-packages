@@ -1,5 +1,5 @@
 $packageName = '{{PackageName}}'
-$packageSearch = 'Nirsoft sniffpasssniffpass'
+$packageSearch = 'Nirsoft sniffpass'
 $installerType = 'exe'
 $silentArgs = '/S'
 $validExitCodes = @(0)
