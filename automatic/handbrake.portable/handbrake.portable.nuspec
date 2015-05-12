@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>HandBrake (Portable)</title>
+    <version>{{PackageVersion}}</version>
+    <authors>The Handbrake Team</authors>
+    <owners>dtgm</owners>
+    <summary>CLI open source video transcoder</summary>
+    <description>
+HandBrake portable is a command line interface tool for converting video from nearly any format to a selection of modern, widely supported codecs.
+
+#### [Features](https://handbrake.fr/features.php)
+
+#### Documentation
+* [FAQ](https://trac.handbrake.fr/wiki/SupportFAQ)
+* [Wiki](https://trac.handbrake.fr/wiki#DocumentationHelp)
+* [Development](https://trac.handbrake.fr/wiki/Development)
+
+#### Community
+* [Forum](https://forum.handbrake.fr/)
+* [IRC](https://trac.handbrake.fr/wiki/IRC)
+
+### Executables
+CLI
+* HandBrakeCLI.exe
+    </description>
+    <projectUrl>http://handbrake.fr/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/a9745b5bde6672b15e1495fdda70fc14e3260226/icons/handbrake.png</iconUrl>
+    <tags>video transcoder encoder cli</tags>
+    <copyright>© The HandBrake Team</copyright>
+    <licenseUrl>https://github.com/HandBrake/HandBrake/blob/master/COPYING</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [News](https://handbrake.fr/news.php)
+* [Known issues](https://forum.handbrake.fr/viewforum.php?f=12)
+* Source code [SVN](svn://svn.handbrake.fr/HandBrake/trunk), [GitHub mirror](https://github.com/HandBrake/HandBrake)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
