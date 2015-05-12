@@ -178,8 +178,8 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>5158482</LastFileSize>
-    <LastFileDate>2015-04-05T20:07:35.6020859</LastFileDate>
+    <LastFileSize>5180428</LastFileSize>
+    <LastFileDate>2015-05-08T13:33:07.9856755</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -272,7 +272,7 @@
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-05T20:07:35.6020859</LastUpdated>
+    <LastUpdated>2015-05-08T13:33:07.9856755</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>0install</Name>
@@ -281,8 +281,8 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>5158482</LastFileSize>
-    <LastFileDate>2015-04-05T20:07:43.2607127</LastFileDate>
+    <LastFileSize>5180428</LastFileSize>
+    <LastFileDate>2015-05-08T13:32:54.0139416</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -375,7 +375,7 @@
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-05T20:07:43.2607127</LastUpdated>
+    <LastUpdated>2015-05-08T13:32:54.0139416</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>0install.install</Name>
@@ -384,8 +384,8 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>7202919</LastFileSize>
-    <LastFileDate>2015-04-05T22:04:49.4469755</LastFileDate>
+    <LastFileSize>7230926</LastFileSize>
+    <LastFileDate>2015-05-10T04:33:19.2474496</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -478,7 +478,7 @@
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-05T22:04:49.4469755</LastUpdated>
+    <LastUpdated>2015-05-10T04:33:19.2474496</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>0install.portable</Name>
@@ -554,8 +554,8 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>33131848</LastFileSize>
-    <LastFileDate>2014-11-30T16:16:25.0104688</LastFileDate>
+    <LastFileSize>35400312</LastFileSize>
+    <LastFileDate>2015-05-07T04:33:31.9049646</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Avoid</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -574,8 +574,8 @@
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>StartEnd</VariableType>
-            <Regex>(?-s:(\d+(?:\.\d+)+.*?|\d b[a-z]* ?\d+|\d+ sp\w+|r\d+)(?= ?([&lt;\[\]]))|(?-s:20\d\d-\d\d-\d\d))</Regex>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;="softwareVersion"&gt;)([\d\.]+)</Regex>
             <Url>http://www.softpedia.com/get/Antivirus/360-Total-Security.shtml</Url>
             <StartText>&lt;span class="appver" itemprop="softwareVersion"&gt;</StartText>
             <EndText> / </EndText>
@@ -633,12 +633,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>D:\chocolatey\_work\360TS_Setup.exe</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\360TS_Setup.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
-    <Enabled>false</Enabled>
+    <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2014-11-30T16:16:25.0104688</LastUpdated>
-    <TargetPath>D:\chocolatey\_work\</TargetPath>
+    <LastUpdated>2015-05-07T04:33:31.9049646</LastUpdated>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>360ts</Name>
   </ApplicationJob>
@@ -2476,7 +2476,7 @@
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64)</UserAgent>
     <UserNotes />
     <LastFileSize>13835576</LastFileSize>
-    <LastFileDate>2015-04-22T04:33:30.0055797</LastFileDate>
+    <LastFileDate>2015-05-11T02:21:17.7479172</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Avoid</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -2645,7 +2645,7 @@
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-22T04:33:30.0055797</LastUpdated>
+    <LastUpdated>2015-05-11T02:21:17.7479172</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>adobeshockwaveplayer</Name>
@@ -2896,14 +2896,12 @@
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>adobeshockwaveplayer [DEP]</Name>
   </ApplicationJob>
-  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="c9701f5c-4fe3-4ff7-ba29-0c8e8c4250a1">
-    <SourceTemplate><![CDATA[<Jobs>
-  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="0fb30714-8ed0-4611-8f1b-cb8fec9dae91">
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="b02da4f5-c0e6-4e5c-b62c-06179798e9a4">
     <WebsiteUrl />
-    <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
+    <UserAgent />
     <UserNotes />
-    <LastFileSize>384846</LastFileSize>
-    <LastFileDate>2012-05-23T02:09:37.7748325</LastFileDate>
+    <LastFileSize>2204160</LastFileSize>
+    <LastFileDate>2015-05-11T17:34:49.3836985</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -2917,69 +2915,18 @@
     <Variables>
       <item>
         <key>
-          <string>version</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>StartEnd</VariableType>
-            <Regex />
-            <Url><placeholder name="Url with version information" value="http://www.infospyware.com/utiles/winlockless/" /></Url>
-            <StartText>&lt;TABLE cellspacing ="1" cellpadding ="6" border = "0"&gt;
-  &lt;TR&gt;
-    &lt;TH class="Title" align="center" width=90&gt;7-Zip </StartText>
-            <EndText>&lt;BR&gt;</EndText>
-            <TextualContent />
-            <Name>version</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>url64</string>
+          <string>nopush</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>""</TextualContent>
-            <Name>url64</Name>
+            <TextualContent>--nopush</TextualContent>
+            <Name>nopush</Name>
           </UrlVariable>
         </value>
       </item>
-    </Variables>
-    <ExecuteCommand />
-    <ExecutePreCommand />
-    <ExecuteCommandType>Batch</ExecuteCommandType>
-    <ExecutePreCommandType>Batch</ExecutePreCommandType>
-    <Category />
-    <SourceType>FixedUrl</SourceType>
-    <DeletePreviousFile>true</DeletePreviousFile>
-    <Enabled>true</Enabled>
-    <FileHippoId />
-    <LastUpdated>2012-05-23T02:09:37.7748325</LastUpdated>
-    <TargetPath>C:\Chocolatey\_work\</TargetPath>
-    <FixedDownloadUrl><placeholder name="Download Url - Optional" value="http://hispasec.com/resources/soft/winlockless.exe" /></FixedDownloadUrl>
-    <Name><placeholder name="Name" value="winlockless" /></Name>
-  </ApplicationJob>
-</Jobs>]]></SourceTemplate>
-    <WebsiteUrl />
-    <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
-    <UserNotes />
-    <LastFileSize>2140160</LastFileSize>
-    <LastFileDate>2014-11-12T11:21:29.2850979</LastFileDate>
-    <IgnoreFileInformation>false</IgnoreFileInformation>
-    <DownloadBeta>Avoid</DownloadBeta>
-    <DownloadDate xsi:nil="true" />
-    <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
-    <VariableChangeIndicator />
-    <CanBeShared>true</CanBeShared>
-    <ShareApplication>false</ShareApplication>
-    <ExclusiveDownload>false</ExclusiveDownload>
-    <HttpReferer />
-    <SetupInstructions />
-    <Variables>
       <item>
         <key>
           <string>version</string>
@@ -2987,13 +2934,68 @@
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>StartEnd</VariableType>
+            <VariableType>Textual</VariableType>
             <Regex />
-            <Url>https://toolslib.net/downloads/finish/1/get/M6oc/</Url>
-            <StartText>Thank you for downloading AdwCleaner				&lt;small&gt;v</StartText>
-            <EndText>&lt;/small&gt;</EndText>
-            <TextualContent>4.000.20141013</TextualContent>
+            <Url />
+            <TextualContent>{getUrl2:regex:(?&lt;=adwcleaner_)[\d\.]{3,\}(?=\.exe)}</TextualContent>
             <Name>version</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=ResponseUri: )[^\r\n]+</Regex>
+            <Url>{getUrl2}</Url>
+            <TextualContent />
+            <Name>url</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>getUrl1</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>http://www.bleepingcomputer.com/download/adwcleaner/dl/([^/]+)</Regex>
+            <Url>http://www.bleepingcomputer.com/download/adwcleaner/</Url>
+            <Name>getUrl1</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>getUrl2</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>url=([^ "'&lt;&gt;\*]+\.exe)</Regex>
+            <Url>http://www.bleepingcomputer.com/download/adwcleaner/dl/{getUrl1}</Url>
+            <Name>getUrl2</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>cscript</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>2</TextualContent>
+            <Name>cscript</Name>
           </UrlVariable>
         </value>
       </item>
@@ -3004,13 +3006,13 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>D:\chocolatey\_work\AdwCleaner.exe</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
-    <Enabled>false</Enabled>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\adwcleaner_4.203.exe</PreviousLocation>
+    <DeletePreviousFile>false</DeletePreviousFile>
+    <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2014-11-12T11:21:29.2850979</LastUpdated>
-    <TargetPath>D:\chocolatey\_work\</TargetPath>
-    <FixedDownloadUrl>https://toolslib.net/downloads/finish/1/get/M6oc/</FixedDownloadUrl>
+    <LastUpdated>2015-05-11T17:34:49.3836985</LastUpdated>
+    <TargetPath>{workdir}\</TargetPath>
+    <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>adwcleaner</Name>
   </ApplicationJob>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="038188fa-78e4-4432-9f56-0bdded1609fb">
@@ -4480,6 +4482,126 @@ Trial version, portable ZIP package          &lt;/td&gt;
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>andy</Name>
   </ApplicationJob>
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="b15b3a9c-cd01-45ed-80fb-9adc347d0b98">
+    <WebsiteUrl />
+    <UserAgent />
+    <UserNotes />
+    <LastFileSize>10845039</LastFileSize>
+    <LastFileDate>2015-05-07T07:36:19.2298551</LastFileDate>
+    <IgnoreFileInformation>false</IgnoreFileInformation>
+    <DownloadBeta>Default</DownloadBeta>
+    <DownloadDate xsi:nil="true" />
+    <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
+    <VariableChangeIndicator />
+    <CanBeShared>true</CanBeShared>
+    <ShareApplication>false</ShareApplication>
+    <ExclusiveDownload>false</ExclusiveDownload>
+    <HttpReferer />
+    <SetupInstructions />
+    <Variables>
+      <item>
+        <key>
+          <string>nopush</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>--nopush</TextualContent>
+            <Name>nopush</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>version</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <Url />
+            <TextualContent>{getUrl:regex:[\d\.]{3,\}(?=.[Ss]etup\.exe)}</TextualContent>
+            <Name>version</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=ResponseUri: )[^\r\n]+</Regex>
+            <Url>{getUrl}</Url>
+            <TextualContent />
+            <Name>url</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>getUrl</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>[^ "'&lt;&gt;\*]+\.exe/download</Regex>
+            <Url>http://anomos.info/wp/downloads/</Url>
+            <Name>getUrl</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url64</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <Url />
+            <TextualContent>{getUrl}</TextualContent>
+            <Name>url64</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>cscript</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>2</TextualContent>
+            <Name>cscript</Name>
+          </UrlVariable>
+        </value>
+      </item>
+    </Variables>
+    <ExecuteCommand />
+    <ExecutePreCommand />
+    <ExecuteCommandType>Batch</ExecuteCommandType>
+    <ExecutePreCommandType>Batch</ExecutePreCommandType>
+    <Category />
+    <SourceType>FixedUrl</SourceType>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\Anomos_0.9.5_Setup.exe</PreviousLocation>
+    <DeletePreviousFile>false</DeletePreviousFile>
+    <Enabled>true</Enabled>
+    <FileHippoId />
+    <LastUpdated>2015-05-07T07:36:19.2298551</LastUpdated>
+    <TargetPath>{workdir}\</TargetPath>
+    <FixedDownloadUrl>{url}</FixedDownloadUrl>
+    <Name>anomos</Name>
+  </ApplicationJob>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="5f479370-e858-4c10-8f8c-22d0068cc2c2">
     <WebsiteUrl />
     <UserAgent />
@@ -4850,8 +4972,8 @@ Trial version, portable ZIP package          &lt;/td&gt;
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>76149528</LastFileSize>
-    <LastFileDate>2015-04-21T18:50:42.0609439</LastFileDate>
+    <LastFileSize>81034240</LastFileSize>
+    <LastFileDate>2015-05-07T04:34:16.3531897</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Avoid</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -4927,11 +5049,11 @@ Trial version, portable ZIP package          &lt;/td&gt;
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\arduino-1.6.3-windows.exe</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\arduino-1.6.4-windows.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-21T18:50:42.0609439</LastUpdated>
+    <LastUpdated>2015-05-07T04:34:16.3531897</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>arduino</Name>
@@ -5962,8 +6084,8 @@ Trial version, portable ZIP package          &lt;/td&gt;
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>273013</LastFileSize>
-    <LastFileDate>2015-04-16T04:33:39.1421283</LastFileDate>
+    <LastFileSize>273826</LastFileSize>
+    <LastFileDate>2015-05-08T13:32:38.490943</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -6073,7 +6195,7 @@ Trial version, portable ZIP package          &lt;/td&gt;
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-16T04:33:39.1421283</LastUpdated>
+    <LastUpdated>2015-05-08T13:32:38.490943</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>audioswitcher</Name>
@@ -6547,6 +6669,20 @@ Trial version, portable ZIP package          &lt;/td&gt;
           </UrlVariable>
         </value>
       </item>
+      <item>
+        <key>
+          <string>url</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>http://aa-download.avg.com/filedir/inst/{anchor32}.exe</TextualContent>
+            <Name>url</Name>
+          </UrlVariable>
+        </value>
+      </item>
     </Variables>
     <ExecuteCommand />
     <ExecutePreCommand />
@@ -6559,8 +6695,8 @@ Trial version, portable ZIP package          &lt;/td&gt;
     <Enabled>false</Enabled>
     <FileHippoId />
     <LastUpdated>2014-11-14T14:56:30.1567602</LastUpdated>
-    <TargetPath>D:\chocolatey\_work\</TargetPath>
-    <FixedDownloadUrl>http://aa-download.avg.com/filedir/inst/{anchor32}.exe</FixedDownloadUrl>
+    <TargetPath>{workdir}\</TargetPath>
+    <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>avgantivirusfree</Name>
   </ApplicationJob>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="865dbb4d-8eab-43b1-ad7c-f2530d2307db">
@@ -6767,7 +6903,7 @@ Trial version, portable ZIP package          &lt;/td&gt;
     <Enabled>false</Enabled>
     <FileHippoId />
     <LastUpdated>2014-10-22T23:45:21.7379316</LastUpdated>
-    <TargetPath>D:\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>avginternetsecurity</Name>
   </ApplicationJob>
@@ -6884,7 +7020,7 @@ Trial version, portable ZIP package          &lt;/td&gt;
     <Enabled>false</Enabled>
     <FileHippoId />
     <LastUpdated>2014-11-02T19:04:52.1429231</LastUpdated>
-    <TargetPath>D:\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>http://www.avg.com/download-file-ins-trituh</FixedDownloadUrl>
     <Name>avgpctuneup</Name>
   </ApplicationJob>
@@ -7001,7 +7137,7 @@ Trial version, portable ZIP package          &lt;/td&gt;
     <Enabled>false</Enabled>
     <FileHippoId />
     <LastUpdated>2014-07-30T20:13:11.3329384</LastUpdated>
-    <TargetPath>D:\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>http://personal.avira-update.com/package/webloader/win32/pecl/avira_free_antivirus.exe</FixedDownloadUrl>
     <Name>avirafreeantivirus</Name>
   </ApplicationJob>
@@ -8744,6 +8880,20 @@ Trial version, portable ZIP package          &lt;/td&gt;
           </UrlVariable>
         </value>
       </item>
+      <item>
+        <key>
+          <string>url</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>http://download.bitdefender.com/npd/free/Antivirus_Free_Edition.exe</TextualContent>
+            <Name>url</Name>
+          </UrlVariable>
+        </value>
+      </item>
     </Variables>
     <ExecuteCommand />
     <ExecutePreCommand />
@@ -8752,12 +8902,12 @@ Trial version, portable ZIP package          &lt;/td&gt;
     <Category />
     <SourceType>FixedUrl</SourceType>
     <PreviousLocation>D:\chocolatey\_work\Antivirus_Free_Edition.exe</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>false</Enabled>
     <FileHippoId />
     <LastUpdated>2014-07-05T13:36:34.4355832</LastUpdated>
-    <TargetPath>D:\chocolatey\_work\</TargetPath>
-    <FixedDownloadUrl>http://download.bitdefender.com/npd/free/Antivirus_Free_Edition.exe</FixedDownloadUrl>
+    <TargetPath>{workdir}\</TargetPath>
+    <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>bitdefenderavfree</Name>
   </ApplicationJob>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="2495d6d2-1330-43d9-9de0-6ef3ccefeab3">
@@ -10156,8 +10306,8 @@ http://www.opensource.apple.com/source/mDNSResponder/mDNSResponder-333.10/mDNSWi
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>230674</LastFileSize>
-    <LastFileDate>2015-04-02T15:44:02.6040503</LastFileDate>
+    <LastFileSize>231152</LastFileSize>
+    <LastFileDate>2015-05-10T04:33:57.1289228</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -10292,7 +10442,7 @@ http://www.opensource.apple.com/source/mDNSResponder/mDNSResponder-333.10/mDNSWi
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-02T15:44:02.6040503</LastUpdated>
+    <LastUpdated>2015-05-10T04:33:57.1289228</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>browsinghistoryview</Name>
@@ -12534,8 +12684,8 @@ http://www.opensource.apple.com/source/mDNSResponder/mDNSResponder-333.10/mDNSWi
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>5619691</LastFileSize>
-    <LastFileDate>2015-04-29T04:33:56.6008822</LastFileDate>
+    <LastFileSize>5623215</LastFileSize>
+    <LastFileDate>2015-05-09T04:34:09.9799934</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Avoid</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -12617,7 +12767,7 @@ http://www.opensource.apple.com/source/mDNSResponder/mDNSResponder-333.10/mDNSWi
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-29T04:33:56.6008822</LastUpdated>
+    <LastUpdated>2015-05-09T04:34:09.9799934</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>combofix</Name>
@@ -14396,8 +14546,8 @@ http://www.opensource.apple.com/source/mDNSResponder/mDNSResponder-333.10/mDNSWi
     <WebsiteUrl />
     <UserAgent />
     <UserNotes>http://crystalmark.info/download/xyz/CrystalDiskMark{versionurl:replace:.:_}-en.exe </UserNotes>
-    <LastFileSize>3003304</LastFileSize>
-    <LastFileDate>2015-05-02T04:34:33.7306379</LastFileDate>
+    <LastFileSize>3005720</LastFileSize>
+    <LastFileDate>2015-05-07T04:35:16.1417748</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Avoid</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -14619,11 +14769,11 @@ http://www.opensource.apple.com/source/mDNSResponder/mDNSResponder-333.10/mDNSWi
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\CrystalDiskMark4_0_2-en.exe</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\CrystalDiskMark4_0_3-en.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-05-02T04:34:33.7306379</LastUpdated>
+    <LastUpdated>2015-05-07T04:35:16.1417748</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>crystaldiskmark</Name>
@@ -15554,7 +15704,7 @@ http://www.opensource.apple.com/source/mDNSResponder/mDNSResponder-333.10/mDNSWi
     <UserAgent />
     <UserNotes />
     <LastFileSize>155648</LastFileSize>
-    <LastFileDate>2015-05-02T04:34:45.3828351</LastFileDate>
+    <LastFileDate>2015-05-07T20:05:28.6021735</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -15647,7 +15797,7 @@ http://www.opensource.apple.com/source/mDNSResponder/mDNSResponder-333.10/mDNSWi
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-05-02T04:34:45.3828351</LastUpdated>
+    <LastUpdated>2015-05-07T20:05:28.6021735</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>datahealthcheck</Name>
@@ -17678,7 +17828,7 @@ http://www.opensource.apple.com/source/mDNSResponder/mDNSResponder-333.10/mDNSWi
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\dispcalGUI-2.6.0.0-Setup.exe</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\dispcalGUI-3.0.0.0-Setup.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
@@ -18335,8 +18485,8 @@ http://www.opensource.apple.com/source/mDNSResponder/mDNSResponder-333.10/mDNSWi
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>93283</LastFileSize>
-    <LastFileDate>2015-04-02T16:33:52.7050285</LastFileDate>
+    <LastFileSize>93552</LastFileSize>
+    <LastFileDate>2015-05-11T04:35:13.3192582</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -18471,7 +18621,7 @@ http://www.opensource.apple.com/source/mDNSResponder/mDNSResponder-333.10/mDNSWi
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-02T16:33:52.7050285</LastUpdated>
+    <LastUpdated>2015-05-11T04:35:13.3192582</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>dnsquerysniffer</Name>
@@ -18481,7 +18631,7 @@ http://www.opensource.apple.com/source/mDNSResponder/mDNSResponder-333.10/mDNSWi
     <UserAgent />
     <UserNotes />
     <LastFileSize>129368</LastFileSize>
-    <LastFileDate>2015-05-03T04:35:07.6197182</LastFileDate>
+    <LastFileDate>2015-05-07T20:17:59.6957226</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -18574,7 +18724,7 @@ http://www.opensource.apple.com/source/mDNSResponder/mDNSResponder-333.10/mDNSWi
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-05-03T04:35:07.6197182</LastUpdated>
+    <LastUpdated>2015-05-07T20:17:59.6957226</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>domainhostingview</Name>
@@ -20699,8 +20849,8 @@ http://downloads.auslogics.com/en/duplicate-file-finder/duplicate-file-finder-se
 http://downloads.auslogics.com/en/duplicate-file-finder/duplicate-file-finder-setup.exe
 &lt;/Additional_Download_URL_2&gt;
 &lt;/Download_URLs&gt;</UserNotes>
-    <LastFileSize>7447632</LastFileSize>
-    <LastFileDate>2015-04-03T04:34:29.2993255</LastFileDate>
+    <LastFileSize>7445664</LastFileSize>
+    <LastFileDate>2015-05-11T13:27:56.7674229</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -20735,7 +20885,7 @@ http://downloads.auslogics.com/en/duplicate-file-finder/duplicate-file-finder-se
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
             <Regex>(?&lt;=Latest v[er\.\s]+?)([\d\.]+)&lt;</Regex>
-            <Url>https://www.auslogics.com/en/software/duplicate-file-finder/</Url>
+            <Url>http://www.auslogics.com/en/software/duplicate-file-finder/</Url>
             <Name>version</Name>
           </UrlVariable>
         </value>
@@ -20790,10 +20940,10 @@ http://downloads.auslogics.com/en/duplicate-file-finder/duplicate-file-finder-se
     <Category />
     <SourceType>FixedUrl</SourceType>
     <PreviousLocation>C:\ProgramData\chocolatey\_work\duplicate-file-finder-setup.exe</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-03T04:34:29.2993255</LastUpdated>
+    <LastUpdated>2015-05-11T13:27:56.7674229</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>duplicatefilefinder</Name>
@@ -22947,8 +23097,8 @@ Note: probably deprecated; source repo has moved to github</UserNotes>
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>64877</LastFileSize>
-    <LastFileDate>2015-04-02T15:45:31.8492227</LastFileDate>
+    <LastFileSize>65374</LastFileSize>
+    <LastFileDate>2015-05-08T13:32:07.8321367</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -23041,7 +23191,7 @@ Note: probably deprecated; source repo has moved to github</UserNotes>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-02T15:45:31.8492227</LastUpdated>
+    <LastUpdated>2015-05-08T13:32:07.8321367</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>esedatabaseview</Name>
@@ -23740,8 +23890,8 @@ Note: probably deprecated; source repo has moved to github</UserNotes>
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>4000589</LastFileSize>
-    <LastFileDate>2015-05-04T04:35:45.4075313</LastFileDate>
+    <LastFileSize>4000436</LastFileSize>
+    <LastFileDate>2015-05-10T04:35:50.6754936</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -23846,11 +23996,11 @@ Note: probably deprecated; source repo has moved to github</UserNotes>
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\exiftool-9.94.zip</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\exiftool-9.95.zip</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-05-04T04:35:45.4075313</LastUpdated>
+    <LastUpdated>2015-05-10T04:35:50.6754936</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>exiftool</Name>
@@ -31312,7 +31462,7 @@ regex subdir
     <UserAgent />
     <UserNotes />
     <LastFileSize>20212496</LastFileSize>
-    <LastFileDate>2015-04-30T04:36:17.9679402</LastFileDate>
+    <LastFileDate>2015-05-07T20:59:07.2433061</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -31420,7 +31570,7 @@ regex subdir
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-30T04:36:17.9679402</LastUpdated>
+    <LastUpdated>2015-05-07T20:59:07.2433061</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>glasswire</Name>
@@ -44506,7 +44656,7 @@ if (varCScript == "2") {
     <UserAgent />
     <UserNotes />
     <LastFileSize>46034944</LastFileSize>
-    <LastFileDate>2015-04-30T04:37:55.9690604</LastFileDate>
+    <LastFileDate>2015-05-07T20:11:01.0278486</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -44587,7 +44737,7 @@ if (varCScript == "2") {
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-30T04:37:55.9690604</LastUpdated>
+    <LastUpdated>2015-05-07T20:11:01.0278486</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>monodevelop</Name>
@@ -48708,6 +48858,109 @@ if (varCScript == "2") {
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>networktrafficview</Name>
   </ApplicationJob>
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="6e7d8a7b-56c9-4632-ba22-89e594cdfabe">
+    <WebsiteUrl />
+    <UserAgent />
+    <UserNotes />
+    <LastFileSize>12654688</LastFileSize>
+    <LastFileDate>2015-05-06T04:41:09.895732</LastFileDate>
+    <IgnoreFileInformation>false</IgnoreFileInformation>
+    <DownloadBeta>Default</DownloadBeta>
+    <DownloadDate xsi:nil="true" />
+    <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
+    <VariableChangeIndicator />
+    <CanBeShared>true</CanBeShared>
+    <ShareApplication>false</ShareApplication>
+    <ExclusiveDownload>false</ExclusiveDownload>
+    <HttpReferer />
+    <SetupInstructions />
+    <Variables>
+      <item>
+        <key>
+          <string>nopush</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>--nopush</TextualContent>
+            <Name>nopush</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>version</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>Version\s+([\d\.]+)</Regex>
+            <Url>http://www.newsbin.com/download.php</Url>
+            <Name>version</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>http://www.newsbin.com/download.php?filename=nb{version:replace:.:}-full.exe&amp;version={version}</TextualContent>
+            <Name>url</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url64</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>{url}</TextualContent>
+            <Name>url64</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>cscript</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>1</TextualContent>
+            <Name>cscript</Name>
+          </UrlVariable>
+        </value>
+      </item>
+    </Variables>
+    <ExecuteCommand />
+    <ExecutePreCommand />
+    <ExecuteCommandType>Batch</ExecuteCommandType>
+    <ExecutePreCommandType>Batch</ExecutePreCommandType>
+    <Category />
+    <SourceType>FixedUrl</SourceType>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\nb656-full.exe</PreviousLocation>
+    <DeletePreviousFile>false</DeletePreviousFile>
+    <Enabled>true</Enabled>
+    <FileHippoId />
+    <LastUpdated>2015-05-06T04:41:09.895732</LastUpdated>
+    <TargetPath>{workdir}\</TargetPath>
+    <FixedDownloadUrl>{url}</FixedDownloadUrl>
+    <Name>newsbin</Name>
+  </ApplicationJob>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="776cb8d0-2b7f-4fbe-b834-282398b31033">
     <WebsiteUrl />
     <UserAgent />
@@ -49926,7 +50179,7 @@ if (varCScript == "2") {
     <UserAgent />
     <UserNotes />
     <LastFileSize>21667945</LastFileSize>
-    <LastFileDate>2015-05-05T04:38:08.2302975</LastFileDate>
+    <LastFileDate>2015-05-07T20:20:28.1957443</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -50035,7 +50288,7 @@ if (varCScript == "2") {
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-05-05T04:38:08.2302975</LastUpdated>
+    <LastUpdated>2015-05-07T20:20:28.1957443</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>nirlauncher</Name>
@@ -55190,7 +55443,7 @@ if (varCScript == "2") {
     <UserAgent />
     <UserNotes />
     <LastFileSize>276856</LastFileSize>
-    <LastFileDate>2015-04-30T04:38:29.2001857</LastFileDate>
+    <LastFileDate>2015-05-07T20:15:29.1364078</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -55283,7 +55536,7 @@ if (varCScript == "2") {
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-30T04:38:29.2001857</LastUpdated>
+    <LastUpdated>2015-05-07T20:15:29.1364078</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>passwordscan</Name>
@@ -55293,7 +55546,7 @@ if (varCScript == "2") {
     <UserAgent />
     <UserNotes />
     <LastFileSize>276856</LastFileSize>
-    <LastFileDate>2015-04-30T04:38:28.9948865</LastFileDate>
+    <LastFileDate>2015-05-07T20:15:58.1373448</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -55386,7 +55639,7 @@ if (varCScript == "2") {
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-30T04:38:28.9948865</LastUpdated>
+    <LastUpdated>2015-05-07T20:15:58.1373448</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>passwordscan.install</Name>
@@ -55396,7 +55649,7 @@ if (varCScript == "2") {
     <UserAgent />
     <UserNotes />
     <LastFileSize>201478</LastFileSize>
-    <LastFileDate>2015-04-30T04:38:30.104481</LastFileDate>
+    <LastFileDate>2015-05-07T20:16:07.440323</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -55489,7 +55742,7 @@ if (varCScript == "2") {
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-30T04:38:30.104481</LastUpdated>
+    <LastUpdated>2015-05-07T20:16:07.440323</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>passwordscan.portable</Name>
@@ -58853,7 +59106,7 @@ https://code.google.com/p/peerblock/downloads/list</UserNotes>
       </item>
       <item>
         <key>
-          <string>download64file</string>
+          <string>checksum64file</string>
         </key>
         <value>
           <UrlVariable>
@@ -58861,7 +59114,7 @@ https://code.google.com/p/peerblock/downloads/list</UserNotes>
             <VariableType>Textual</VariableType>
             <Regex />
             <TextualContent>{url64Fetch}</TextualContent>
-            <Name>download64file</Name>
+            <Name>checksum64file</Name>
           </UrlVariable>
         </value>
       </item>
@@ -60497,8 +60750,8 @@ https://code.google.com/p/peerblock/downloads/list</UserNotes>
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>34572720</LastFileSize>
-    <LastFileDate>2015-04-28T04:39:24.7430226</LastFileDate>
+    <LastFileSize>34587248</LastFileSize>
+    <LastFileDate>2015-05-11T04:39:08.3672914</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -60620,7 +60873,7 @@ https://code.google.com/p/peerblock/downloads/list</UserNotes>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-28T04:39:24.7430226</LastUpdated>
+    <LastUpdated>2015-05-11T04:39:08.3672914</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>qtox</Name>
@@ -70659,8 +70912,8 @@ if (varCScript == "2") {
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>12876350</LastFileSize>
-    <LastFileDate>2015-04-29T04:39:47.2082537</LastFileDate>
+    <LastFileSize>12875316</LastFileSize>
+    <LastFileDate>2015-05-07T04:40:41.4774409</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -70764,11 +71017,11 @@ if (varCScript == "2") {
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\sqlitebrowser-3.6.0v2-win32.exe</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\sqlitebrowser-3.6.0v3-win32.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-29T04:39:47.2082537</LastUpdated>
+    <LastUpdated>2015-05-07T04:40:41.4774409</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>sqlitebrowser</Name>
@@ -71521,8 +71774,8 @@ if (varCScript == "2") {
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>1546875</LastFileSize>
-    <LastFileDate>2015-04-26T04:39:50.9948426</LastFileDate>
+    <LastFileSize>1555872</LastFileSize>
+    <LastFileDate>2015-05-09T04:40:10.3489674</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Avoid</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -71605,7 +71858,7 @@ if (varCScript == "2") {
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-26T04:39:50.9948426</LastUpdated>
+    <LastUpdated>2015-05-09T04:40:10.3489674</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>sumo</Name>
@@ -71787,8 +72040,8 @@ if (varCScript == "2") {
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>740611</LastFileSize>
-    <LastFileDate>2015-04-06T19:26:41.799611</LastFileDate>
+    <LastFileSize>718110</LastFileSize>
+    <LastFileDate>2015-05-10T04:40:07.1285035</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -71879,11 +72132,11 @@ if (varCScript == "2") {
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\SuperPutty-1.4.0.5.zip</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\SuperPuTTY-1.4.0.6.zip</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-06T19:26:41.799611</LastUpdated>
+    <LastUpdated>2015-05-10T04:40:07.1285035</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>superputty</Name>
@@ -73496,7 +73749,7 @@ https://code.google.com/p/peerblock/downloads/list</UserNotes>
     <UserAgent />
     <UserNotes />
     <LastFileSize>11363392</LastFileSize>
-    <LastFileDate>2015-05-02T04:40:22.8832661</LastFileDate>
+    <LastFileDate>2015-05-07T19:58:51.1535496</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -73575,7 +73828,7 @@ https://code.google.com/p/peerblock/downloads/list</UserNotes>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-05-02T04:40:22.8832661</LastUpdated>
+    <LastUpdated>2015-05-07T19:58:51.1535496</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>telegram</Name>
@@ -75092,8 +75345,8 @@ http://assets.thebrain.com/downloads/TheBrain_windows-x64_8_0_1_2.exe</UserNotes
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>25677824</LastFileSize>
-    <LastFileDate>2015-04-02T04:37:01.4364077</LastFileDate>
+    <LastFileSize>22089728</LastFileSize>
+    <LastFileDate>2015-05-10T04:40:30.6258114</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -75225,11 +75478,11 @@ http://assets.thebrain.com/downloads/TheBrain_windows-x64_8_0_1_2.exe</UserNotes
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\tortoisehg-3.3.3-x86.msi</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\tortoisehg-3.4-x86.msi</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-02T04:37:01.4364077</LastUpdated>
+    <LastUpdated>2015-05-10T04:40:30.6258114</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>tortoisehg</Name>
@@ -75708,8 +75961,8 @@ http://assets.thebrain.com/downloads/TheBrain_windows-x64_8_0_1_2.exe</UserNotes
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>2480930</LastFileSize>
-    <LastFileDate>2015-05-04T04:39:56.5140915</LastFileDate>
+    <LastFileSize>2485537</LastFileSize>
+    <LastFileDate>2015-05-10T04:40:35.5784871</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -75802,7 +76055,7 @@ http://assets.thebrain.com/downloads/TheBrain_windows-x64_8_0_1_2.exe</UserNotes
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-05-04T04:39:56.5140915</LastUpdated>
+    <LastUpdated>2015-05-10T04:40:35.5784871</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>toxy</Name>
@@ -76907,8 +77160,8 @@ http://assets.thebrain.com/downloads/TheBrain_windows-x64_8_0_1_2.exe</UserNotes
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>61201759</LastFileSize>
-    <LastFileDate>2015-05-05T04:40:13.8920858</LastFileDate>
+    <LastFileSize>61224113</LastFileSize>
+    <LastFileDate>2015-05-07T20:52:37.133253</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -76929,7 +77182,7 @@ http://assets.thebrain.com/downloads/TheBrain_windows-x64_8_0_1_2.exe</UserNotes
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
             <Regex>(?&lt;=ResponseUri: )[^\r\n]+</Regex>
-            <Url>http://sourceforge.net/projects/unimediaserver/files/Official%20Releases/Windows/UMS-{version}-Java{javaVersion0}.exe/download</Url>
+            <Url>http://sourceforge.net/projects/unimediaserver/files/Official%20Releases/Windows/UMS-{version}-Java{javaVersion1}.exe/download</Url>
             <TextualContent />
             <Name>url</Name>
           </UrlVariable>
@@ -77074,7 +77327,7 @@ http://assets.thebrain.com/downloads/TheBrain_windows-x64_8_0_1_2.exe</UserNotes
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>2</TextualContent>
+            <TextualContent>1</TextualContent>
             <Name>cscript</Name>
           </UrlVariable>
         </value>
@@ -77086,11 +77339,11 @@ http://assets.thebrain.com/downloads/TheBrain_windows-x64_8_0_1_2.exe</UserNotes
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\UMS-5.1.3-Java6.exe</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\UMS-5.1.3-Java7.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-05-05T04:40:13.8920858</LastUpdated>
+    <LastUpdated>2015-05-07T20:52:37.133253</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>ums</Name>
@@ -78169,8 +78422,8 @@ http://www.pps.univ-paris-diderot.fr/~vouillon/unison/
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>61880</LastFileSize>
-    <LastFileDate>2015-03-30T04:37:05.6290611</LastFileDate>
+    <LastFileSize>69768</LastFileSize>
+    <LastFileDate>2015-05-10T04:40:50.535068</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -78279,7 +78532,7 @@ http://www.pps.univ-paris-diderot.fr/~vouillon/unison/
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-03-30T04:37:05.6290611</LastUpdated>
+    <LastUpdated>2015-05-10T04:40:50.535068</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>utox</Name>
@@ -79460,8 +79713,8 @@ http://www.pps.univ-paris-diderot.fr/~vouillon/unison/
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>282845</LastFileSize>
-    <LastFileDate>2015-04-07T04:38:34.0424818</LastFileDate>
+    <LastFileSize>308107</LastFileSize>
+    <LastFileDate>2015-05-08T13:36:33.8217457</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -79554,7 +79807,7 @@ http://www.pps.univ-paris-diderot.fr/~vouillon/unison/
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-07T04:38:34.0424818</LastUpdated>
+    <LastUpdated>2015-05-08T13:36:33.8217457</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>wakemeonlan</Name>
@@ -81986,8 +82239,8 @@ http://www.pps.univ-paris-diderot.fr/~vouillon/unison/
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>257136</LastFileSize>
-    <LastFileDate>2015-04-02T15:54:27.6287633</LastFileDate>
+    <LastFileSize>257664</LastFileSize>
+    <LastFileDate>2015-05-07T04:41:28.3876646</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -82122,7 +82375,7 @@ http://www.pps.univ-paris-diderot.fr/~vouillon/unison/
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-02T15:54:27.6287633</LastUpdated>
+    <LastUpdated>2015-05-07T04:41:28.3876646</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>wifichannelmonitor</Name>
