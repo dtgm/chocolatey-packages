@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>hiphop</id>
+    <title>HipHop</title>
+    <version>0.4.6</version>
+    <authors>The HipHop Team</authors>
+    <owners>tonigellida</owners>
+    <summary>
+HipHop is an application that lets you listen instantly to more than 45 million songs (way more than iTunes's 26 million).
+	</summary>
+    <description>
+HipHop is an application that lets you listen instantly to more than 45 million songs (way more than iTunes's 26 million). It requires no sign up, displays no ads and is 100% safe. 
+	</description>
+    <projectUrl>http://gethiphop.net/</projectUrl>
+    <tags>mp3 music player popcorntime</tags>
+    <copyright></copyright>
+    <licenseUrl>http://www.gnu.org/copyleft/gpl.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/hiphop/hiphop.png</iconUrl>
+  </metadata>
+</package>

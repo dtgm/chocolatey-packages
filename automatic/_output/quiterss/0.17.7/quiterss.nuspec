@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>quiterss</id>
+    <title>QuiteRSS</title>
+    <version>0.17.7</version>
+    <authors>Aleksey Khokhryakov, Shilyaev Egor</authors>
+    <owners>dtgm</owners>
+    <licenseUrl>http://www.gnu.org/licenses/gpl-3.0.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>http://quiterss.org/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/25ce0b72c9c6892b4b86695228d8cb773b8f4283/icons/quiterss.png</iconUrl>
+    <summary>QuiteRSS is an open-source, cross-platform RSS/Atom news feeds reader</summary>   
+    <description>
+QuiteRSS is a open-source cross-platform RSS/Atom news feeds reader written on Qt/C++
+
+Idea: Quite fast and comfortable to user
+
+### Features
+* Embedded browser (Webkit core)
+* Feed and news filters: new, unread, starred, deleted (for news until restart application)
+* User filters
+* Proxy configuration: automatic or manual
+* Feed import wizard: Search feed URL if site URL was entered
+* Adblock
+* Click to Flash
+* Mark news starred
+* Automatic update feeds: on startup, by timer
+* Automatic cleanup on close using criterias
+* Enable/Disable images in news preview
+* Ability to quickly hide feed tree (for comfortable viewing)
+* Open feed or news in own tab
+* Quick news filter and quick search in browser
+* Sound notification on new news
+* Popup notification on new news
+* Show new or unread news counter on tray icon
+* Minimize on system tray: on start, on close, on minimize
+* Import/Export feeds (OPML-files)
+* Portable (Windows)
+* Free working set (Windows)
+* Cross-platform: written in C++ and Qt
+* Multilingual: English, Arabic, Chinese (China), Chinese (Taiwan), Czech, Dutch, Farsi, Finnish, French, Galician, German, Greek, Hungarian, Italian, Japanese, Korean, Lithuanian, Polish, Portuguese (Brazil), Portuguese (Portugal), Romanian, Russian, Serbian, Slovak, Spanish, Swedish, Tajik, Turkish, Ukrainian, Vietnamese
+
+### Source code
+* https://code.google.com/p/quite-rss/
+    </description>
+    <releaseNotes>http://quiterss.org/en/history</releaseNotes>
+    <copyright>QuiteRSS Team</copyright>
+    <tags>news newsreader news-aggregator atom feed-reader rss really-simple-syndication</tags>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
+  <metadata>
+    <id>sagethumbs</id>
+    <title>SageThumbs</title>
+    <version>2.0.0.22</version>
+    <authors>Nikolay Raspopov</authors>
+    <owners>dtgm</owners>
+    <summary>Powerful Windows shell extension allowing to preview images</summary>
+    <description>
+SageThumbs is a powerful shell extension allowing to preview enormous amount of image formats directly in Windows Explorer by using Pierre-e Gougelet's GFL library ([XnView](https://chocolatey.org/packages/xnview)'s author).
+
+As SageThumbs is a Windows Explorer context menu extension, there is no an executable file that you should launch to bring it up. To use it, just open any folder with image files in Windows Explorer, and then right-click a file you want to preview. You'll see the thumbnail immediately in the context menu. 
+
+#### [Features](http://www.cherubicsoft.com/en/projects/sagethumbs#features)
+* Extended thumbnail image view of explorer folder
+* Thumbnail image in explorer context menu (right-click menu)
+* Extended info tips
+* Support 162 image formats (224 extensions) via GFL Library
+* Support additional 26 image formats via XnView plugins (if installed)
+* Send by mail support
+* One-click conversion to popular image formats support
+* Wallpaper selection support
+* Copy to clipboard support
+
+#### XnView plugins
+
+SageThumbs can use external [XnView plugins](http://newsgroup.xnview.com/viewtopic.php?f%3D35%26t%3D11715#p44272) ([more plugins](http://newsgroup.xnview.com/viewtopic.php?f%3D35%26t%3D825#p2904)). If XnView is installed to the registry, SageThumbs [will find](https://sourceforge.net/p/sagethumbs/code/HEAD/tree/trunk/SageThumbs/SageThumbs.cpp#l1014) the proper plugin folder paths.
+
+If XnView is not installed, the plugins should be unpacked and placed in the default install location of XnView dependent on the bit depth:  
+
+* SageThumbs 32-bit installed on Windows 64-bit  = `${Env:ProgramFiles(x86)}\XnView\PlugIns\`
+* Any other install combination = `$Env:ProgramFiles\XnView\PlugIns\`
+
+#### System Requirements
+* Windows XP/2003/Vista/2008/7/2012/8/8.1 32/64-bit
+* About 5 Mb of disk space + additional space for cache
+    </description>
+    <projectUrl>http://www.cherubicsoft.com/en/projects/sagethumbs</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/6c36a30ca931a11774f57864e9a90fa1717e7a44/icons/sagethumbs.png</iconUrl>
+    <tags>windows explorer extension images thumbnail gallery</tags>
+    <copyright>© 2004 Nikolay Raspopov</copyright>
+    <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Changelog](http://www.cherubicsoft.com/projects/sagethumbs/versions)
+* [Known issues](https://sourceforge.net/p/sagethumbs/tickets/)
+* [Source code](https://sourceforge.net/p/sagethumbs/code/HEAD/tree/)
+
+#### Package
+* Automatically generated and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

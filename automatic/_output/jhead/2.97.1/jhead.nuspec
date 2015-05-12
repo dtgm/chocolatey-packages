@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>jhead</id>
+    <version>2.97.1</version>
+    <title>jhead</title>
+    <authors>Matthias Wandel</authors>
+    <owners>narnaud</owners>
+    <summary>Exif Jpeg header manipulation tool.</summary>
+    <description>The files coming out of a pretty much all Digital cameras are in the Exif flavour of Jpeg files. Exif files are for the most part Jpeg files, but start with a different header block, and contain additional data sections with camera settings, as well as a preview thumbnail picture as part of the Exif header. Many image browsers today make use of this integral thumbnail when browsing, while other browsers make their own thumbnails based on the image as a whole.
+	
+	Because I am interested in photography, I am always curious just exactly what settings my fully automatic digital camera actually did end up using. Back in 1999, when I originally wrote jhead, I couldn't find a program that would consistently display the settings, nor one that could be compiled into a simple executable. I have since added many more features to jhead, many of them the result of suggestions or code contributions.
+	
+	Though there are many programs out there now that can manipulate Exif headers today, for many tasks, jhead remains the simplest and most effective tool for the job, especially if used for automated or scripted tasks.</description>
+    <projectUrl>http://www.sentex.net/~mwandel/jhead/</projectUrl>
+    <tags>exif image</tags>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	 <dependencies>
+        <dependency id="jpegtran" version="9.0" />
+    </dependencies>
+  </metadata>
+</package>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>redshift</id>
+    <title>Redshift</title>
+    <version>1.10</version>
+    <authors>Jon Lund Steffensen</authors>
+    <owners>dtgm</owners>
+    <summary>Adjusts the color temperature according to the position of the sun</summary>
+    <description>
+Redshift adjusts the color temperature of your screen according to your surroundings. This may help your eyes hurt less if you are working in front of the screen at night.
+    
+Redshift adjusts the color temperature according to the position of the sun. A different color temperature is set during night and daytime. During twilight and early morning, the color temperature transitions smoothly from night to daytime temperature to allow your eyes to slowly adapt. At night the color temperature should be set to match the lamps in your room. This is typically a low temperature at around 3000K-4000K (default is 3700K). During the day, the color temperature should match the light from outside, typically around 5500K-6500K (default is 5500K). The light has a higher temperature on an overcast day.
+
+This program is inspired by [f.lux](https://chocolatey.org/packages/f.lux) (please see [this post](http://jonls.dk/2009/12/flux-for-linux/) for the reason why I started this project).
+
+#### Documentation
+* `redshift -h`
+    </description>
+    <projectUrl>http://jonls.dk/redshift/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/fb866eb3910eb882e0571f91e883c8e65a121136/icons/redshift.svg</iconUrl>
+    <tags>sleep display cli</tags>
+    <copyright>© Jon Lund Steffensen</copyright>
+    <licenseUrl>https://www.gnu.org/licenses/gpl-3.0.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Changelog](https://github.com/jonls/redshift/blob/master/NEWS.md)
+* [Known issues](http://jonls.dk/2010/09/windows-gamma-adjustments/)
+* [Source code](https://github.com/jonls/redshift/)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

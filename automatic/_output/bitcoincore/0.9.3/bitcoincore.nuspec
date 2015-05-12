@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>bitcoincore</id>
+        <version>0.9.3</version>
+        <title>BitCoin Core</title>
+        <authors>BitCoin</authors>
+        <owners>Mike Cole</owners>
+        <licenseUrl>https://github.com/bitcoin/bitcoin/blob/master/COPYING</licenseUrl>
+        <projectUrl>https://github.com/bitcoin/bitcoin</projectUrl>
+        <iconUrl>https://raw.githubusercontent.com/mikecole/chocolatey-packages/master/bitcoincore/bitcoincore.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Bitcoin Core is a full Bitcoin client and builds the backbone of the network. It offers high levels of security, privacy, and stability. However, it has fewer features and it takes a lot of space and memory.
+
+Bitcoin: https://bitcoin.org/</description>
+        <summary>BitCoin Core desktop BitCoin wallet</summary>
+        <tags>bitcoin</tags>
+    </metadata>
+</package>

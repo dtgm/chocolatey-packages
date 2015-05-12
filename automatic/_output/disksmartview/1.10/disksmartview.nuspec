@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>disksmartview</id>
+    <title>DiskSmartView</title>
+    <version>1.10</version>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm</owners>
+    <summary>Retrieves the S.M.A.R.T information from your IDE/SATA disk</summary>
+    <description>
+DiskSmartView is a small utility that retrieves the [S.M.A.R.T.](http://en.wikipedia.org/wiki/S.M.A.R.T.) information (S.M.A.R.T = Self-Monitoring, Analysis, and Reporting Technology) from IDE/SATA disks.
+
+This information includes the disk model/firmware/serial number, cylinders/heads, power-on hours (POH), internal temperature, disk errors rate, and more.
+
+You can use the S.M.A.R.T information retrieved by DiskSmartView to find out whether there is any significant problem in your disk drive.
+    </description>
+    <projectUrl>http://www.nirsoft.net/utils/disk_smart_view.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/disksmartview.png</iconUrl>
+    <tags>smart disk information ide sata</tags>
+    <copyright>© 2010 NirSoft</copyright>
+    <licenseUrl>http://www.nirsoft.net/utils/disk_smart_view.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[What's New?](http://www.nirsoft.net/utils/disk_smart_view.html)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

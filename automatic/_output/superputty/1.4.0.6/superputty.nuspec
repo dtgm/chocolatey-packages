@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>superputty</id>
+    <title>SuperPutty</title>
+    <version>1.4.0.6</version>
+    <authors>Jim Radford</authors>
+    <owners>dtgm</owners>
+    <summary>Telnet/SSH/SCP/SFTP client with tabs using PuTTY</summary>
+    <description>
+SuperPutty is a Windows GUI Application that allows the PuTTY SSH Client to be opened in Tabs. Additionally there is support for SCP to transfer files.
+
+SuperPutty is written in C# and runs on any Windows platform supporting the .NET Framework 3.5 or newer.
+
+### Features
+* Docking user interface allows personalized workspace and managing multiple PuTTY sessions easy
+* Export/Import session configuration
+* Upload files securely using the scp or sftp protocols
+* Layouts allow for customizing session views
+* Supports PuTTY session configurations including Private Keys
+* Supports SSH, RLogin, Telnet and RAW protocols
+* Supports local shell via MinTTY or puttycyg
+* Supports KiTTY
+
+[Screenshots](https://code.google.com/p/superputty/wiki/Screenshots)
+[Documentation](https://code.google.com/p/superputty/wiki/Documentation)
+[Forum](https://groups.google.com/forum/#!forum/superputty-discuss)
+[Source code](https://code.google.com/p/superputty/source/checkout)
+    </description>
+    <projectUrl>https://code.google.com/p/superputty/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/1aeb7495ea67a1024daa43d1c8ba45f9d2dde88c/icons/superputty.png</iconUrl>
+    <tags>tabs putty</tags>
+    <copyright>© 2009 Jim Radford</copyright>
+    <licenseUrl>https://code.google.com/p/superputty/source/browse/trunk/License.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[Changelog](https://code.google.com/p/superputty/source/browse/trunk/ReleaseNotes.txt)
+[Known issues](https://code.google.com/p/superputty/issues/list)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="putty" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
