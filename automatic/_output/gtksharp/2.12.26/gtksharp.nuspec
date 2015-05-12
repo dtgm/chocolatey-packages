@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
+  <metadata>
+    <id>gtksharp</id>
+    <title>Gtk# (GtkSharp)</title>
+    <version>2.12.26</version>
+    <authors>Xamarin</authors>
+    <owners>dtgm</owners>
+    <summary>Graphical User Interface Toolkit for mono and .Net</summary>
+    <description>
+Gtk# is a Graphical User Interface Toolkit for mono and .Net. The project binds the gtk+ toolkit and assorted GNOME libraries, enabling fully native graphical Gnome application development using the Mono and .Net development frameworks.
+
+#### Documentation
+* [Features](http://www.mono-project.com/docs/gui/gtksharp/#features)
+* [Screenshots](http://www.mono-project.com/docs/about-mono/showcase/screenshots/)
+* [FAQ](http://www.mono-project.com/docs/faq/general/)
+* [Manual](http://www.mono-project.com/docs/gui/gtksharp/)
+
+#### Community
+* [Forum](http://mono.1490590.n4.nabble.com/)
+* [Mailing lists](http://www.mono-project.com/community/help/mailing-lists/)
+* [IRC](http://www.mono-project.com/community/help/irc/)
+    </description>
+    <projectUrl>http://www.mono-project.com/GtkSharp</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/5a7a14e514904a49a05cae7a57b318895ac73361/icons/gtksharp.png</iconUrl>
+    <tags>gui toolkit gnome gtk mono dotnet</tags>
+    <copyright>© Mono Project</copyright>
+    <licenseUrl>https://github.com/mono/mono/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Roadmap](http://www.mono-project.com/docs/gui/gtksharp/plan/)
+* [Changelog](http://www.mono-project.com/docs/gui/gtksharp/new-in-version-2x/)
+* [Known issues](http://www.mono-project.com/community/bugs/)
+* [Source code](https://github.com/mono)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="dotnet4.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
