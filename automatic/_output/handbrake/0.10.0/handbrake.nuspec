@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>handbrake</id>
+    <version>0.10.0</version>
+    <title>HandBrake</title>
+    <authors>The Handbrake Team</authors>
+    <owners>Anthony Mastrean</owners>
+    <licenseUrl>https://github.com/HandBrake/HandBrake/blob/master/COPYING</licenseUrl>
+    <projectUrl>http://handbrake.fr/</projectUrl>
+    <iconUrl>http://anthonymastrean.github.io/chocolateypackages/icons/handbrake.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>HandBrake is a tool for converting video from nearly any format to a selection of modern, widely supported codecs.</description>
+    <summary>The open source video transcoder.</summary>
+    <tags>handbrake video transcoder encoder</tags>
+    <dependencies>
+      <dependency id="handbrake.install" version="[0.10, 0.11)" />
+    </dependencies>
+  </metadata>
+</package>
