@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>pyexiftoolgui</id>
+    <title>pyExifToolGUI</title>
+    <version>0.5</version>
+    <authors>H. van der Wolf</authors>
+    <owners>dtgm</owners>
+    <summary>Python pyside graphical frontend for the excellent open source command line tool ExifTool</summary>
+    <description>
+pyExifToolGui is a graphical frontend for the excellent open source command line tool ExifTool by Phil Harvey. pyExifToolGui is a python pySide QT4 script program that reads and writes all kind of metadata tags from/to image files. A strong point of this software is the ability to write the data, copied or not from a source image (reference image), to multiple images at once.
+
+My main goal was a tool to write gps data to my images as I photograph a lot inside buildings like Churches/Cathedrals and Musea (when allowed), which means that the gps functionality of my camera doesn't function.  And sometimes you have already made 20 photos while your GPS is still not up-to-date or uses settings from your previous location.
+
+Next to the gps functionality, I also wanted extensive renaming functionality, based on metadata in the images, to be part of this programs functionality.
+
+It also supports Googles new PhotoSphere options for panoramic images.
+
+pyExifToolGUI will slowly grow into a general exiftool Gui and will also write other tags to your images. 
+
+As of version 0.4 pyExifToolGUI tool is also a geotagging tool!
+
+#### Documentation
+* [Manual](https://hvdwolf.github.io/pyExifToolGUI/manual/pyexiftoolgui.html)
+    </description>
+    <projectUrl>https://hvdwolf.github.io/pyExifToolGUI/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/8b5e307e8a3c6a135f571ccec34a0832f5970736/icons/pyexiftoolgui.png</iconUrl>
+    <tags>metadata exif frontend</tags>
+    <copyright>© H. van der Wolf</copyright>
+    <licenseUrl>https://www.gnu.org/licenses/gpl-3.0.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Changelog](https://github.com/hvdwolf/pyExifToolGUI/releases)
+* [Development changelog](https://hvdwolf.github.io/pyExifToolGUI/Changelog.txt)
+* [Source code](https://github.com/hvdwolf/pyExifToolGUI)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="exiftool" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

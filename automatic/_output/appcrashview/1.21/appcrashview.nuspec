@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>appcrashview</id>
+    <title>AppCrashView</title>
+    <version>1.21</version>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm</owners>
+    <summary>View application crashes (.wer files) in Windows 7/Vista</summary>
+    <description>
+AppCrashView is a small utility for Windows Vista and Windows 7 that displays the details of all application crashes occurred in your system.
+
+The crashes information is extracted from the .wer files created by the Windows Error Reporting (WER) component of the operating system every time that a crash is occurred.
+
+AppCrashView also allows you to easily save the crashes list to text/csv/html/xml file.
+    </description>
+    <projectUrl>http://www.nirsoft.net/utils/app_crash_view.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/appcrashview.png</iconUrl>
+    <tags>crash .wer view vista</tags>
+    <copyright>© 2009 NirSoft</copyright>
+    <licenseUrl>http://www.nirsoft.net/utils/app_crash_view.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[What's New?](http://www.nirsoft.net/utils/app_crash_view.html)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

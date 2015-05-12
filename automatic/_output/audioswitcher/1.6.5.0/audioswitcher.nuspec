@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>audioswitcher</id>
+    <title>Audio Switcher</title>
+    <version>1.6.5.0</version>
+    <authors>Sean Chapman</authors>
+    <owners>dtgm</owners>
+    <summary>Easily Switch Default Audio Devices on Windows</summary>
+    <description>
+Easily switch the default audio device, input or output, on any Windows PC (Vista and above).
+
+Using this application you can switch output OR input sound devices at the click of a button, or the press of a key.
+
+I designed this application to be incredibly small and lightweight. There is no bloat, it does exactly what it should, nothing more, nothing less.
+
+[Source code](https://github.com/xenolightning?tab=repositories)
+    </description>
+    <projectUrl>http://audioswit.ch/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/ddf3e8934b6374c8806b58de6ab5995158cd1d81/icons/audioswitcher.png</iconUrl>
+    <tags>audio device manager</tags>
+    <copyright>© 2015 Forty One Limited</copyright>
+    <licenseUrl>https://github.com/xenolightning/AudioSwitcher/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[Changelog](http://services.audioswit.ch/versions/1.6.5.0/changelog.txt)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="dotnet4.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

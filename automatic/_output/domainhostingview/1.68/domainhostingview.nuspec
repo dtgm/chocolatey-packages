@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>domainhostingview</id>
+    <title>DomainHostingView</title>
+    <version>1.68</version>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm</owners>
+    <summary>Show domain hosting information</summary>
+    <description>
+DomainHostingView is a utility for Windows that collects extensive information about a domain by using a series of DNS and WHOIS queries,
+and generates HTML report that can be displayed in any Web browser.
+
+The information displayed by the report of DomainHostingView includes: 
+
+the hosting company or data center that hosts the Web server, mail server, and domain name server (DNS) of the specified domain, the created/changed/expire date of the domain, domain owner, domain registrar that registered the domain, list of all DNS records, and more...
+    </description>
+    <projectUrl>http://www.nirsoft.net/utils/domain_hosting_view.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/domainhostingview.png</iconUrl>
+    <tags>web hosting report whois company owner registrar information dns</tags>
+    <copyright>© 2011 NirSoft</copyright>
+    <licenseUrl>http://www.nirsoft.net/utils/domain_hosting_view.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[What's New?](http://www.nirsoft.net/utils/domain_hosting_view.html)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
