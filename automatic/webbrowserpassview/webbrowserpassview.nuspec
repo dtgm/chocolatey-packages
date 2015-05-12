@@ -24,7 +24,7 @@ This tool can be used to recover your lost/forgotten password of any Website, in
 [What's New?](http://www.nirsoft.net/utils/web_browser_password.html)
     </releaseNotes>
     <dependencies>
-      <dependency id="{{PackageName}}" version="[{{PackageVersion}}]" />
+      <dependency id="{{PackageName}}.install" version="[{{PackageVersion}}]" />
     </dependencies>
   </metadata>
 </package>

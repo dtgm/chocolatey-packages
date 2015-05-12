@@ -33,7 +33,7 @@ Microsoft Network Monitor Driver 3: Microsoft provides a new version of Microsof
 [What's New?](http://www.nirsoft.net/utils/smsniff.html)
     </releaseNotes>
     <dependencies>
-      <dependency id="{{PackageName}}" version="[{{PackageVersion}}]" />
+      <dependency id="{{PackageName}}.install" version="[{{PackageVersion}}]" />
     </dependencies>
   </metadata>
 </package>

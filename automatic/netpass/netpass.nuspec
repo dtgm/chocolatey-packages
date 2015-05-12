@@ -24,7 +24,7 @@ It can also recover the passwords stored in Credentials file of external drive, 
 [What's New?](http://www.nirsoft.net/utils/network_password_recovery.html)
     </releaseNotes>
     <dependencies>
-      <dependency id="{{PackageName}}" version="[{{PackageVersion}}]" />
+      <dependency id="{{PackageName}}.install" version="[{{PackageVersion}}]" />
     </dependencies>
   </metadata>
 </package>
