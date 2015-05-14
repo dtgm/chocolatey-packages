@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>zbar</id>
+    <version>0.10</version>
+    <title>ZBar</title>
+    <authors>spadix</authors>
+    <owners>dtgm</owners>
+    <summary>Bar code reader</summary>   
+    <description>
+ZBar is an open source software suite for reading bar codes from various sources, such as video streams, image files and raw intensity sensors. It supports many popular symbologies (types of bar codes) including EAN-13/UPC-A, UPC-E, EAN-8, Code 128, Code 39, Interleaved 2 of 5 and QR Code.
+
+The flexible, layered implementation facilitates bar code scanning and decoding for any application: use it stand-alone with the included GUI and command line programs, easily integrate a bar code scanning widget into your Qt, GTK+ or PyGTK GUI application, leverage one of the script or programming interfaces (Python, Perl, C++) ...all the way down to a streamlined C library suitable for embedded use.
+
+ZBar is licensed under the GNU LGPL 2.1 to enable development of both open source and commercial projects.
+
+### Features
+* cross platform - Linux/Unix, Windows, iPhone®, embedded...
+* high speed - real time scanning from video streams
+* small memory footprint
+* small code size - the core scanner and EAN decoder represent under 1K lines of C code
+* not limited to images
+* no floating point operations
+* suitable for embedded applications using inexpensive processors/hardware
+* modular components can be used together or separately
+
+### Community
+* [Forum](https://sourceforge.net/p/zbar/discussion/)
+* [Mailing list](https://sourceforge.net/p/zbar/mailman/)
+
+### Command line usage
+  `zbarcam --help`
+  `zbarimg --help`
+
+Example
+  `zbarimg -d examples\barcode.png`
+    </description>
+    <language>en-us</language>
+    <projectUrl>http://zbar.sourceforge.net/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/0029921738f17cf51044bfb89e252dcca497ab01/icons/zbar.png</iconUrl>
+    <licenseUrl>https://sourceforge.net/p/zbar/code/ci/default/tree/LICENSE</licenseUrl>
+    <copyright>© 2007 spadix</copyright>	
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>barcode cli</tags>
+    <releaseNotes>
+#### Program
+* [News](https://sourceforge.net/p/zbar/news/)
+* [Changelog](https://sourceforge.net/p/zbar/code/ci/default/tree/ChangeLog)
+* [Known issues](https://sourceforge.net/p/zbar/bugs/)
+* [Source code](https://sourceforge.net/p/zbar/code/ci/default/tree/)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
