@@ -1,11 +1,11 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="adf805bb-9e51-42a8-9506-961e4b362bb2">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>29160826</LastFileSize>
-    <LastFileDate>2015-02-05T00:38:22.1465847</LastFileDate>
+    <LastFileSize>29197975</LastFileSize>
+    <LastFileDate>2015-04-27T13:57:42-05:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -75,15 +75,15 @@
       </item>
       <item>
         <key>
-          <string>nopush</string>
+          <string>yopush</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
-            <Regex />
+            <Regex>.*([A-Fa-f0-9]{32})(?=.*-win32-ix86)</Regex>
             <TextualContent>--nopush</TextualContent>
-            <Name>nopush</Name>
+            <Name>yopush</Name>
           </UrlVariable>
         </value>
       </item>
@@ -164,11 +164,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\ActiveTcl8.6.3.1.298624-win32-ix86-threaded.exe</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
-    <Enabled>false</Enabled>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\ActiveTcl8.6.4.0.298892-win32-ix86-threaded.exe</PreviousLocation>
+    <DeletePreviousFile>false</DeletePreviousFile>
+    <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-05T00:38:22.1465847</LastUpdated>
+    <LastUpdated>2015-05-13T20:41:27.5531041-05:00</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>activetcl</Name>
