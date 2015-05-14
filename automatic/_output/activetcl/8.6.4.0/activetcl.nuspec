@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>activetcl</id>
+    <title>ActiveTcl</title>
+    <version>8.6.4.0</version>
+    <authors>ActiveState Software Inc</authors>
+    <owners>dtgm</owners>
+    <summary>Community edition distribution of the open source Tcl programming language</summary>
+    <description>
+Save time in your development cycles by starting with a precompiled Tcl distribution for out-of-the-box installation and standardization across the operating systems you rely on, including Windows, Linux and Mac OS X (as well as Solaris, AIX, and HP-UX in commercial Enterprise Edition). Develop once and deploy successfully across your production environment.
+
+#### Features
+* Precompiled Tcl distribution for out-of-the-box installation
+* Core Tcl binaries
+* TeaPot package manager
+* Extended documentation
+
+#### [Documentation](http://docs.activestate.com/activetcl/)
+
+#### Community
+* [Forum](http://community.activestate.com/forums/activetcl)
+* [Mailing list](http://aspn.activestate.com/ASPN/Mail/Browse/Threaded/ActiveTcl)
+
+### Install directory
+[`%ChocolateyBinRoot%`](https://github.com/chocolatey/choco/wiki/CreatePackages#installation-paths)
+
+### Edition installed
+Free [Community Edition](http://www.activestate.com/languages/compare-editions)
+    </description>
+    <projectUrl>http://www.activestate.com/activetcl</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/dea7e5a734f9b291203ef79b5cf58f6d562beb4d/icons/activetcl.png</iconUrl>
+    <tags>tcl programming language console ide</tags>
+    <copyright>© ActiveState Software Inc</copyright>
+    <licenseUrl>http://www.activestate.com/activetcl/license-agreement</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Release notes](http://docs.activestate.com/activetcl/8.6/at.release.html#new)
+* [Known issues](http://bugs.activestate.com/ActiveTcl/query.cgi)
+* [Source code](https://github.com/ActiveState/tcl)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="autohotkey.portable" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
