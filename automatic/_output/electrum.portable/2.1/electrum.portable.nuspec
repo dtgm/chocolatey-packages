@@ -20,9 +20,6 @@ Electrum is an easy to use Bitcoin wallet. It protects you from losing coins in 
 * Cold Storage: Sign transactions from a computer that is always offline. Broadcast them using a machine that does not have your keys.
 * Reachable: You can export your private keys into other Bitcoin clients.
 * Established: Electrum is open source and was first released in November 2011.
-
-### Source code
-* https://github.com/spesmilo/electrum
     </description>
     <projectUrl>https://electrum.org</projectUrl>
     <iconUrl>https://cdn.rawgit.com/spesmilo/electrum/34f835746b4545d2c505ebe123139a670f0aafe0/icons/electrum.png</iconUrl>
@@ -31,10 +28,15 @@ Electrum is an easy to use Bitcoin wallet. It protects you from losing coins in 
     <licenseUrl>https://raw.githubusercontent.com/spesmilo/electrum/master/LICENCE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
+#### Program
 [Changelog](https://raw.githubusercontent.com/spesmilo/electrum/master/RELEASE-NOTES)
+[Source code](https://github.com/spesmilo/electrum)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
   </files>
-</package>
+</package>

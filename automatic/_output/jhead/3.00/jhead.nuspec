@@ -5,7 +5,7 @@
     <version>3.00</version>
     <title>jhead</title>
     <authors>Matthias Wandel</authors>
-    <owners>dtgm narnaud</owners>
+    <owners>dtgm</owners>
     <summary>Exif JPEG header manipulation tool</summary>
     <description>
 The files coming out of a pretty much all Digital cameras are in the Exif flavour of Jpeg files. Exif files are for the most part Jpeg files, but start with a different header block, and contain additional data sections with camera settings, as well as a preview thumbnail picture as part of the Exif header. Many image browsers today make use of this integral thumbnail when browsing, while other browsers make their own thumbnails based on the image as a whole.
@@ -27,7 +27,7 @@ Though there are many programs out there now that can manipulate Exif headers to
 * Source code: [tar.gz](http://www.sentex.net/%7Emwandel/jhead/jhead-3.00.tar.gz)
 
 #### Package
-* Automatically built and uploaded
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
     <dependencies>
       <dependency id="jpegtran" version="9.0" />

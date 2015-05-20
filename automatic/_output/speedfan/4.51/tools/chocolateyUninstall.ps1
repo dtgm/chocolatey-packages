@@ -3,7 +3,7 @@ $fileType = 'exe'
 $silentArgs = '/S'
 $validExitCodes = @(0)
 $scriptPath = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
-$ahkFile = Join-Path $scriptPath "uninstall.ahk"
+$ahkFile = Join-Path $scriptPath "chocolateyUninstall.ahk"
 $ahkExe = 'AutoHotKey'
 $ahkRun = "$Env:Temp\$(Get-Random).ahk"
 Copy-Item $ahkFile "$ahkRun" -Force

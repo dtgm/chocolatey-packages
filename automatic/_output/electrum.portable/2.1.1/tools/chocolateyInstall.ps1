@@ -1,13 +1,18 @@
 $packageName = 'electrum.portable'
-$url = 'https://download.electrum.org/Electrum-2.1.1.zip'
-$checksum = 'f2905ee2775f37fb7ccd11755615304e6b0a8cdc'
+$url = 'https://download.electrum.org/electrum-2.1.1-portable.exe'
+$checksum = 'cddd2d1b3f3bf49f63899d540a8068fcc61aaef6'
 $checksumType = 'sha1'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$installFile = Join-Path $toolsDir "$($packageName).exe"
-
-Install-ChocolateyZipPackage -PackageName "$packageName" `
-                             -Url "$url" `
-                             -UnzipLocation "$toolsDir" `
-                             -Url64bit "" `
-                             -Checksum "$checksum" `
-                             -ChecksumType "$checksumType"
+$installFile = Join-Path $toolsDir "electrum-portable.exe"
+try {
+  Get-ChocolateyWebFile -PackageName "$packageName" `
+                        -FileFullPath "$installFile" `
+                        -Url "$url" `
+                        -Checksum "$checksum" `
+                        -ChecksumType "$checksumType"
+  # create an empty sidecar metadata file for closed-source shimgen.exe to prevent blank black window
+  Set-Content -Path ("$installFile.gui") `
+              -Value $null  
+} catch {
+  throw $_.Exception
+}
