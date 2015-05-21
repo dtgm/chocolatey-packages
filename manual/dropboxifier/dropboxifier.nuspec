@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>dropboxifier</id>
+    <title>Dropboxifier</title>
+    <version>0.1.8</version>
+    <authors>David Gagnon</authors>
+    <owners>dtgm</owners>
+    <summary>Backup and share saved data</summary>
+    <description>
+Dropboxifier helps you share saved games and application data between computers by simplifying the process of adding folders to Dropbox and creating symbolic links. If you've ever used Chrome/Firefox Sync, or played a game that had Steam Cloud support, then you've already experienced what Dropboxifier can do for you!
+
+Dropboxifier was originally made to work with Dropbox but will also work with any other online storage application that creates a virtual folder on your hard drive (SkyDrive, Google Drive, etc).
+
+So how does it work? Well, Dropboxifier simply fools applications into reading and writing directly from Dropbox! Saved games and profile data can be placed in Dropbox, a symbolic link put in its place (which is kind of like a shortcut at the file system level), and applications/games won't even notice - they will read and write directly to your Dropbox folder.
+
+#### Documentation
+* [Manual](http://dropboxifier.codeplex.com/documentation)
+
+#### Community
+* [Forum](http://dropboxifier.codeplex.com/discussions)
+    </description>
+    <projectUrl>http://dropboxifier.codeplex.com/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/08e7845c95a3939bed6c61e17047ab4a8c4401cd/icons/dropboxifier.png</iconUrl>
+    <tags>synchronization cloud backup symlink junction</tags>
+    <copyright>© David Gagnon</copyright>
+    <licenseUrl>http://dropboxifier.codeplex.com/license</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Changelog](http://dropboxifier.codeplex.com/releases/view/86633#ReleaseNotes)
+* [Known issues](http://dropboxifier.codeplex.com/workitem/list/basic)
+* [Source code](http://dropboxifier.codeplex.com/SourceControl/latest)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="dotnet4.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
