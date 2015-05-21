@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="8f26537a-0289-4199-a907-c6e62607bfb7">
     <WebsiteUrl />
@@ -42,7 +42,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>{getMirrorUrl}/{version}/{getFileName}</TextualContent>
+            <TextualContent>http{getUrl}</TextualContent>
             <Name>url</Name>
           </UrlVariable>
         </value>
@@ -55,7 +55,7 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>[^ "'&lt;&gt;\*]+Installer[-\d]{2,}\.exe</Regex>
+            <Regex>://[^ "'&lt;&gt;\*]+Installer[-\d]{2,}\.exe</Regex>
             <Url>http://www.lyx.org/Download</Url>
             <Name>getUrl</Name>
           </UrlVariable>
@@ -72,48 +72,6 @@
             <Regex />
             <TextualContent>--nopush</TextualContent>
             <Name>nopush</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>getMirrorUrl</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>RegularExpression</VariableType>
-            <Regex>([^ "'&lt;&gt;\*]+)'&gt;mirror&lt;</Regex>
-            <Url>http://www.lyx.org/Download</Url>
-            <Name>getMirrorUrl</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>getBaseUrl</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>RegularExpression</VariableType>
-            <Regex>([^ "'&lt;&gt;\*]+)/{version}/</Regex>
-            <Url>http://www.lyx.org/Download</Url>
-            <Name>getBaseUrl</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>getFileName</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>RegularExpression</VariableType>
-            <Regex>Installer:.*?/{version}/([^ "'&lt;&gt;\*]+)</Regex>
-            <Url>http://www.lyx.org/Download</Url>
-            <Name>getFileName</Name>
           </UrlVariable>
         </value>
       </item>
