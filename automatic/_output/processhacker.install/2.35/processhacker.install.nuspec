@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>processhacker.install</id>
+    <title>Process Hacker (Install)</title>
+    <version>2.35</version>
+    <authors>Wen Jia Liu</authors>
+    <owners>dtgm</owners>
+    <summary>View and manage processes, services and more with this TaskMgr alternative</summary>
+    <description>
+A free, powerful, multi-purpose tool that helps you monitor system resources, debug software and detect malware.
+
+Process Hacker was started in 2008 as an open source alternative to programs such as Task Manager and Process Explorer.
+
+#### Documentation
+* [Screenshots](http://processhacker.sourceforge.net/)
+* [Features](https://sourceforge.net/projects/processhacker#project-features)
+* [FAQ](http://processhacker.sourceforge.net/faq.php)
+* [Developer docs](http://processhacker.sourceforge.net/doc/)
+* [Developer stats](https://www.openhub.net/p/processhacker)
+
+#### Community
+* [Forum](http://processhacker.sourceforge.net/forums/)
+    </description>
+    <projectUrl>http://processhacker.sourceforge.net/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/ecf89d2382d3d3dd063b171e626c32d9ae81d70c/icons/processhacker.png</iconUrl>
+    <tags>process taskmgr procexp security debug</tags>
+    <copyright>© 2008 Wen Jia Liu</copyright>
+    <licenseUrl>http://svn.code.sf.net/p/processhacker/code/2.x/trunk/LICENSE.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [News](http://wj32.org/processhacker/forums/viewforum.php?f%3D1)
+* [Changelog](https://sourceforge.net/p/processhacker/code/HEAD/tree/2.x/trunk/CHANGELOG.txt)
+* [Known issues](http://wj32.org/processhacker/forums/viewforum.php?f=24)
+* [Source code](https://sourceforge.net/p/processhacker/code/HEAD/tree/)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+<!--    <dependencies>
+      <dependency id="processhacker.install.install" version="[2.35]" />
+    </dependencies> -->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

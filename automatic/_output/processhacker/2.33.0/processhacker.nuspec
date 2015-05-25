@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>processhacker</id>
+    <version>2.33.0</version>
+    <title>Process Hacker</title>
+    <authors>Wen Jia Liu</authors>
+    <owners>KidFashion</owners>
+    <licenseUrl>http://svn.code.sf.net/p/processhacker/code/2.x/trunk/LICENSE.txt</licenseUrl>
+    <projectUrl>http://processhacker.sourceforge.net/</projectUrl>
+    <iconUrl>http://processhacker.sourceforge.net/img/logo_64x64.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A free, powerful, multi-purpose tool that helps you monitor system resources, debug software and detect malware.</description>
+    <releaseNotes>Process Hacker 2.33 (27th of December 2013)
+New and Improved:
+* View digital signature information from process properties and peview
+* Signatures for Windows 8 apps are now detected
+* Improved file, key, process and thread handle properties
+* Added DPI Awareness column
+* Added new Windows 8.1 process protection information
+* KProcessHacker is no longer needed for highlighting of GUI threads
+* Added suspend count for threads on Windows 8.1
+* Updated DotNetTools plugin:
+  - Improved .NET assembly enumeration timeout handling
+Fixed:
+* Service start type and error control are never updated if modified outside of Process Hacker</releaseNotes>
+    <tags>sourceforge processhacker process taskmgr debug tool</tags>
+    <dependencies>
+      <dependency id="processhacker.portable" version="[2.33.0]" />
+    </dependencies>
+  </metadata>
+</package>
