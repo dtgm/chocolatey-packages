@@ -1,11 +1,11 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="27288b5b-5ce3-4ea2-8ddb-adbe716456ca">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>21659700</LastFileSize>
-    <LastFileDate>2015-04-19T18:16:25-05:00</LastFileDate>
+    <LastFileSize>22195711</LastFileSize>
+    <LastFileDate>2015-05-18T04:36:05.271615</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -138,11 +138,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\easytag-2.3.6-setup.exe</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\easytag-2.3.7-setup.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-27T20:05:55.5093022-05:00</LastUpdated>
+    <LastUpdated>2015-05-18T04:36:05.271615</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>easytag</Name>

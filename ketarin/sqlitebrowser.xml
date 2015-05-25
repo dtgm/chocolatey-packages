@@ -4,8 +4,8 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>10075808</LastFileSize>
-    <LastFileDate>2015-02-18T15:26:46.8994041</LastFileDate>
+    <LastFileSize>12875316</LastFileSize>
+    <LastFileDate>2015-05-07T04:40:41.4774409</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -109,11 +109,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\sqlitebrowser-3.5.1-win32.exe</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\sqlitebrowser-3.6.0v3-win32.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-18T15:26:46.8994041</LastUpdated>
+    <LastUpdated>2015-05-07T04:40:41.4774409</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>sqlitebrowser</Name>

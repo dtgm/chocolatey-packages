@@ -150,6 +150,20 @@
           </UrlVariable>
         </value>
       </item>
+      <item>
+        <key>
+          <string>url</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>http://aa-download.avg.com/filedir/inst/{anchor32}.exe</TextualContent>
+            <Name>url</Name>
+          </UrlVariable>
+        </value>
+      </item>
     </Variables>
     <ExecuteCommand />
     <ExecutePreCommand />
@@ -162,8 +176,8 @@
     <Enabled>false</Enabled>
     <FileHippoId />
     <LastUpdated>2014-11-14T14:56:30.1567602</LastUpdated>
-    <TargetPath>D:\chocolatey\_work\</TargetPath>
-    <FixedDownloadUrl>http://aa-download.avg.com/filedir/inst/{anchor32}.exe</FixedDownloadUrl>
+    <TargetPath>{workdir}\</TargetPath>
+    <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>avgantivirusfree</Name>
   </ApplicationJob>
 </Jobs>

@@ -4,8 +4,8 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>34551960</LastFileSize>
-    <LastFileDate>2015-03-29T11:06:03.3988962</LastFileDate>
+    <LastFileSize>34606000</LastFileSize>
+    <LastFileDate>2015-05-20T04:41:23.5297496</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -124,10 +124,10 @@
     <Category />
     <SourceType>FixedUrl</SourceType>
     <PreviousLocation>C:\ProgramData\chocolatey\_work\setup-qtox32.exe</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
-    <Enabled>true</Enabled>
+    <DeletePreviousFile>false</DeletePreviousFile>
+    <Enabled>false</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-03-29T11:06:03.3988962</LastUpdated>
+    <LastUpdated>2015-05-20T04:41:23.5297496</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>qtox</Name>

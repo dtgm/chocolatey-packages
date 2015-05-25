@@ -5,7 +5,7 @@
     <UserAgent />
     <UserNotes />
     <LastFileSize>115126</LastFileSize>
-    <LastFileDate>2015-04-02T19:08:25.0292053</LastFileDate>
+    <LastFileDate>2015-04-27T06:25:53.3655126</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -14,7 +14,7 @@
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
-    <HttpReferer />
+    <HttpReferer>http://www.nirsoft.net/utils/router_password_recovery.html</HttpReferer>
     <SetupInstructions />
     <Variables>
       <item>
@@ -95,10 +95,10 @@
     <Category />
     <SourceType>FixedUrl</SourceType>
     <PreviousLocation>C:\ProgramData\chocolatey\_work\routerpassview.zip</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-02T19:08:25.0292053</LastUpdated>
+    <LastUpdated>2015-04-27T06:25:53.3655126</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>routerpassview</Name>

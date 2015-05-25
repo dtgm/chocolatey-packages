@@ -70,7 +70,9 @@
 </Jobs>]]></SourceTemplate>
     <WebsiteUrl />
     <UserAgent />
-    <UserNotes>antivirus AUTO CHANGEABLE title</UserNotes>
+    <UserNotes>http://personal.avira-update.com/package/webloader/win32/pecl/avira_free_antivirus.exe
+
+https://package.avira.com/package/oeavira/win/int/avira_en_av_55508f5e328e5__ws.exe</UserNotes>
     <LastFileSize>3463800</LastFileSize>
     <LastFileDate>2014-07-30T20:13:11.3329384</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
@@ -101,6 +103,48 @@
           </UrlVariable>
         </value>
       </item>
+      <item>
+        <key>
+          <string>url</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>http://personal.avira-update.com/package/webloader/win32/pecl/avira_free_antivirus.exe</TextualContent>
+            <Name>url</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>nopush</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>--nopush</TextualContent>
+            <Name>nopush</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>cscript</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>1</TextualContent>
+            <Name>cscript</Name>
+          </UrlVariable>
+        </value>
+      </item>
     </Variables>
     <ExecuteCommand />
     <ExecutePreCommand />
@@ -113,8 +157,8 @@
     <Enabled>false</Enabled>
     <FileHippoId />
     <LastUpdated>2014-07-30T20:13:11.3329384</LastUpdated>
-    <TargetPath>D:\chocolatey\_work\</TargetPath>
-    <FixedDownloadUrl>http://personal.avira-update.com/package/webloader/win32/pecl/avira_free_antivirus.exe</FixedDownloadUrl>
+    <TargetPath>{workdir}\</TargetPath>
+    <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>avirafreeantivirus</Name>
   </ApplicationJob>
 </Jobs>

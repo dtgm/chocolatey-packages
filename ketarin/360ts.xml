@@ -71,8 +71,8 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>33131848</LastFileSize>
-    <LastFileDate>2014-11-30T16:16:25.0104688</LastFileDate>
+    <LastFileSize>36034168</LastFileSize>
+    <LastFileDate>2015-05-19T04:33:56.3085035</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Avoid</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -91,8 +91,8 @@
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>StartEnd</VariableType>
-            <Regex>(?-s:(\d+(?:\.\d+)+.*?|\d b[a-z]* ?\d+|\d+ sp\w+|r\d+)(?= ?([&lt;\[\]]))|(?-s:20\d\d-\d\d-\d\d))</Regex>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;="softwareVersion"&gt;)([\d\.]+)</Regex>
             <Url>http://www.softpedia.com/get/Antivirus/360-Total-Security.shtml</Url>
             <StartText>&lt;span class="appver" itemprop="softwareVersion"&gt;</StartText>
             <EndText> / </EndText>
@@ -150,12 +150,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>D:\chocolatey\_work\360TS_Setup.exe</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\360TS_Setup.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
-    <Enabled>false</Enabled>
+    <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2014-11-30T16:16:25.0104688</LastUpdated>
-    <TargetPath>D:\chocolatey\_work\</TargetPath>
+    <LastUpdated>2015-05-19T04:33:56.3085035</LastUpdated>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>360ts</Name>
   </ApplicationJob>

@@ -4,8 +4,8 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>2453597</LastFileSize>
-    <LastFileDate>2015-03-29T11:08:01.4894215</LastFileDate>
+    <LastFileSize>2525940</LastFileSize>
+    <LastFileDate>2015-05-20T04:42:47.7781311</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -96,9 +96,9 @@
     <SourceType>FixedUrl</SourceType>
     <PreviousLocation>C:\ProgramData\chocolatey\_work\toxy_x86.zip</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
-    <Enabled>true</Enabled>
+    <Enabled>false</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-03-29T11:08:01.4894215</LastUpdated>
+    <LastUpdated>2015-05-20T04:42:47.7781311</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>toxy</Name>

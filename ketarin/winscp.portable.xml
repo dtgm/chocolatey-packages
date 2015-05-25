@@ -1,11 +1,11 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="d11f8c02-d787-4b62-a12e-758789ded8ca">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
     <LastFileSize>4920517</LastFileSize>
-    <LastFileDate>2015-05-13T04:50:57-05:00</LastFileDate>
+    <LastFileDate>2015-05-24T20:22:07.589773</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -156,7 +156,7 @@
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-05-24T20:22:07.589773-05:00</LastUpdated>
+    <LastUpdated>2015-05-24T20:22:07.589773</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>winscp.portable</Name>

@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
-  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="600341d1-9dcc-4aff-9319-b6fe2f02438c">
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="72ce28d2-4cdc-4f37-906e-a77f917c327d">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>11690232</LastFileSize>
-    <LastFileDate>2015-02-16T04:33:42.2395796</LastFileDate>
+    <LastFileSize>11750944</LastFileSize>
+    <LastFileDate>2015-05-20T04:33:59.4250465</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -26,8 +26,36 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>https://bitcoin.org/bin/{version}/bitcoin-{version}-win32-setup.exe</TextualContent>
+            <TextualContent>https://bitcoin.org/{getUrl}</TextualContent>
             <Name>url</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url64</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>https://bitcoin.org/{getUrl64}</TextualContent>
+            <Name>url64</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>checksum64file</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>{url64}</TextualContent>
+            <Name>checksum64file</Name>
           </UrlVariable>
         </value>
       </item>
@@ -82,7 +110,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>As of {dd} {MMMM} {yyyy}, the total size of the {abbrev} blockchain was __{blockchainSize}__</TextualContent>
+            <TextualContent>As of {dd} {MMMM} {yyyy}, the total size of the {abbrev} blockchain is __{blockchainSize}__</TextualContent>
             <Name>packageGuid</Name>
           </UrlVariable>
         </value>
@@ -115,6 +143,34 @@
           </UrlVariable>
         </value>
       </item>
+      <item>
+        <key>
+          <string>getUrl</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>/*([^ "'&lt;&gt;\*]+-win32-setup\.exe)</Regex>
+            <Url>https://bitcoin.org/en/download</Url>
+            <Name>getUrl</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>getUrl64</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>/*([^ "'&lt;&gt;\*]+-win64-setup\.exe)</Regex>
+            <Url>https://bitcoin.org/en/download</Url>
+            <Name>getUrl64</Name>
+          </UrlVariable>
+        </value>
+      </item>
     </Variables>
     <ExecuteCommand />
     <ExecutePreCommand />
@@ -122,11 +178,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\bitcoin-0.10.0-win32-setup.exe</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\bitcoin-0.10.2-win32-setup.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-16T04:33:42.2395796</LastUpdated>
+    <LastUpdated>2015-05-20T04:33:59.4250465</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>bitcoin</Name>

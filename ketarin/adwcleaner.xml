@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
-  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="c9701f5c-4fe3-4ff7-ba29-0c8e8c4250a1">
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="53f03920-5baf-4413-9229-221f50601f68">
     <SourceTemplate><![CDATA[<Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="0fb30714-8ed0-4611-8f1b-cb8fec9dae91">
     <WebsiteUrl />
@@ -28,7 +28,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>StartEnd</VariableType>
             <Regex />
-            <Url><placeholder name="Url with version information" value="http://www.infospyware.com/utiles/winlockless/" /></Url>
+            <Url><placeholder name="Url with version information" value="http://get.adobe.com/es/shockwave/" /></Url>
             <StartText>&lt;TABLE cellspacing ="1" cellpadding ="6" border = "0"&gt;
   &lt;TR&gt;
     &lt;TH class="Title" align="center" width=90&gt;7-Zip </StartText>
@@ -64,15 +64,15 @@
     <FileHippoId />
     <LastUpdated>2012-05-23T02:09:37.7748325</LastUpdated>
     <TargetPath>C:\Chocolatey\_work\</TargetPath>
-    <FixedDownloadUrl><placeholder name="Download Url - Optional" value="http://hispasec.com/resources/soft/winlockless.exe" /></FixedDownloadUrl>
-    <Name><placeholder name="Name" value="winlockless" /></Name>
+    <FixedDownloadUrl><placeholder name="Download Url - Optional" value="http://fpdownload.macromedia.com/get/shockwave/default/english/win95nt/latest/Shockwave_Installer_Slim.exe" /></FixedDownloadUrl>
+    <Name><placeholder name="Name" value="adobeshockwaveplayer" /></Name>
   </ApplicationJob>
 </Jobs>]]></SourceTemplate>
     <WebsiteUrl />
-    <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
+    <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64)</UserAgent>
     <UserNotes />
-    <LastFileSize>2140160</LastFileSize>
-    <LastFileDate>2014-11-12T11:21:29.2850979</LastFileDate>
+    <LastFileSize>2224640</LastFileSize>
+    <LastFileDate>2015-05-25T04:33:23.4480969</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Avoid</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -91,13 +91,99 @@
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>StartEnd</VariableType>
-            <Regex />
-            <Url>https://toolslib.net/downloads/finish/1/get/M6oc/</Url>
-            <StartText>Thank you for downloading AdwCleaner				&lt;small&gt;v</StartText>
-            <EndText>&lt;/small&gt;</EndText>
-            <TextualContent>4.000.20141013</TextualContent>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>{appname}\s*?([\d\.]+)</Regex>
+            <Url>http://www.filehippo.com/download_adwcleaner/</Url>
+            <StartText>&lt;title&gt;Descargar Shockwave Player </StartText>
+            <EndText> - FileHippo.com&lt;/title&gt;
+</EndText>
+            <TextualContent>12.1.4.1542</TextualContent>
             <Name>version</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=ResponseUri: )[^\r\n]+</Regex>
+            <Url>http://www.filehippo.com{filePath}</Url>
+            <TextualContent />
+            <Name>url</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>fileHippoId</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=data-href=")(.*?)(?=")</Regex>
+            <Url>http://www.filehippo.com/download_{appname}/</Url>
+            <Name>fileHippoId</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>downloadPath</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=green button-link.*?href=")(.*?)(?=")</Regex>
+            <Url>{fileHippoId}</Url>
+            <Name>downloadPath</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>filePath</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=&lt;div class="download-confirmation-text"&gt;[\r\n]*&lt;a href="?)(/.*?[A-Fa-f0-9]{64}/*)(?=")</Regex>
+            <Url>http://www.filehippo.com/{downloadPath}</Url>
+            <Name>filePath</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>nopush</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>--nopush</TextualContent>
+            <Name>nopush</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>cscript</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>2</TextualContent>
+            <Name>cscript</Name>
           </UrlVariable>
         </value>
       </item>
@@ -108,13 +194,13 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>D:\chocolatey\_work\AdwCleaner.exe</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\adwcleaner_4.202.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
-    <Enabled>false</Enabled>
+    <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2014-11-12T11:21:29.2850979</LastUpdated>
-    <TargetPath>D:\chocolatey\_work\</TargetPath>
-    <FixedDownloadUrl>https://toolslib.net/downloads/finish/1/get/M6oc/</FixedDownloadUrl>
+    <LastUpdated>2015-05-25T04:33:23.4480969</LastUpdated>
+    <TargetPath>{workdir}\</TargetPath>
+    <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>adwcleaner</Name>
   </ApplicationJob>
 </Jobs>

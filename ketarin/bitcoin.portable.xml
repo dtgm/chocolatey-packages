@@ -4,8 +4,8 @@
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64)</UserAgent>
     <UserNotes />
-    <LastFileSize>30646800</LastFileSize>
-    <LastFileDate>2015-02-20T13:44:35.1597622</LastFileDate>
+    <LastFileSize>30724807</LastFileSize>
+    <LastFileDate>2015-05-20T04:34:23.43917</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -98,7 +98,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>As of {dd} {MMMM} {yyyy}, the total size of the {abbrev} blockchain was __{blockchainSize}__</TextualContent>
+            <TextualContent>As of {dd} {MMMM} {yyyy}, the total size of the {abbrev} blockchain is __{blockchainSize}__</TextualContent>
             <Name>packageGuid</Name>
           </UrlVariable>
         </value>
@@ -126,7 +126,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>1</TextualContent>
+            <TextualContent>2</TextualContent>
             <Name>cscript</Name>
           </UrlVariable>
         </value>
@@ -180,11 +180,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\bitcoin-0.10.0-win32.zip</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\bitcoin-0.10.2-win32.zip</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-20T13:44:35.1597622</LastUpdated>
+    <LastUpdated>2015-05-20T04:34:23.43917</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>bitcoin.portable</Name>

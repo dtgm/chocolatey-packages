@@ -4,8 +4,8 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>19466856</LastFileSize>
-    <LastFileDate>2015-03-28T12:27:50.5377269</LastFileDate>
+    <LastFileSize>22519096</LastFileSize>
+    <LastFileDate>2015-04-25T04:34:48.1703836</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -97,11 +97,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\Cyberduck-Installer-4.6.5.exe</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\Cyberduck-Installer-4.7.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-03-28T12:27:50.5377269</LastUpdated>
+    <LastUpdated>2015-04-25T04:34:48.1703836</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>cyberduck.install</Name>

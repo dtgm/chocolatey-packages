@@ -4,8 +4,8 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>46324491</LastFileSize>
-    <LastFileDate>2015-04-16T19:17:21.2640815</LastFileDate>
+    <LastFileSize>34266613</LastFileSize>
+    <LastFileDate>2015-05-22T04:37:14.9359426</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -27,7 +27,7 @@
             <VariableType>Textual</VariableType>
             <Regex />
             <Url>{url}</Url>
-            <TextualContent>{getUrl:regex:[\d\.]+(?=-setup\.exe)}</TextualContent>
+            <TextualContent>{getUrl:regex:(?&lt;=electrum.)[\d\.]{3,\}}</TextualContent>
             <Name>version</Name>
           </UrlVariable>
         </value>
@@ -40,7 +40,7 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>/?([^"]+\.exe)</Regex>
+            <Regex>/?([^"]+setup\.exe)</Regex>
             <Url>https://download.electrum.org/?C=M;O=D</Url>
             <Name>getUrl</Name>
           </UrlVariable>
@@ -95,11 +95,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\electrum-2.0.4-setup.exe</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\electrum-2.2-setup.exe</PreviousLocation>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-16T19:17:21.2640815</LastUpdated>
+    <LastUpdated>2015-05-22T04:37:14.9359426</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>electrum.install</Name>

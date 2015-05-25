@@ -5,7 +5,7 @@
     <UserAgent />
     <UserNotes />
     <LastFileSize>281808</LastFileSize>
-    <LastFileDate>2015-04-17T04:39:18.2312242</LastFileDate>
+    <LastFileDate>2015-04-27T07:02:43.6437716</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -14,7 +14,7 @@
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
-    <HttpReferer />
+    <HttpReferer>http://www.nirsoft.net/utils/web_browser_password.html</HttpReferer>
     <SetupInstructions />
     <Variables>
       <item>
@@ -95,10 +95,10 @@
     <Category />
     <SourceType>FixedUrl</SourceType>
     <PreviousLocation>C:\ProgramData\chocolatey\_work\webbrowserpassview_setup.exe</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-17T04:39:18.2312242</LastUpdated>
+    <LastUpdated>2015-04-27T07:02:43.6437716</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>webbrowserpassview.install</Name>

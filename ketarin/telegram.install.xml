@@ -4,8 +4,8 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>12292352</LastFileSize>
-    <LastFileDate>2015-04-14T04:40:10.0686854</LastFileDate>
+    <LastFileSize>13064208</LastFileSize>
+    <LastFileDate>2015-05-22T00:37:10.5591526</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -24,9 +24,10 @@
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=tsetup\.)([\d\.]+)(?=\.exe[\r\n]+)</Regex>
-            <Url>https://tdesktop.com/win</Url>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <Url />
+            <TextualContent>{url:regex:(?&lt;=tsetup\.)[\d\.]{3,\}(?=\.exe)}</TextualContent>
             <Name>version</Name>
           </UrlVariable>
         </value>
@@ -80,11 +81,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\tsetup.0.8.4.exe</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\tsetup.0.8.17.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-14T04:40:10.0686854</LastUpdated>
+    <LastUpdated>2015-05-22T00:37:10.5591526</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>telegram.install</Name>

@@ -113,7 +113,7 @@
     <Enabled>false</Enabled>
     <FileHippoId />
     <LastUpdated>2014-11-02T19:04:52.1429231</LastUpdated>
-    <TargetPath>D:\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>http://www.avg.com/download-file-ins-trituh</FixedDownloadUrl>
     <Name>avgpctuneup</Name>
   </ApplicationJob>

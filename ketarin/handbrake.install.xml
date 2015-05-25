@@ -1,11 +1,11 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="468e8f20-7461-4f12-bae4-ec19886942ff">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>0</LastFileSize>
-    <LastFileDate xsi:nil="true" />
+    <LastFileSize>15839599</LastFileSize>
+    <LastFileDate>2015-05-25T06:07:08.8939619</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -55,7 +55,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>https://handbrake.fr/{getUrl}</TextualContent>
+            <TextualContent>https://handbrake.fr/{urlPath}</TextualContent>
             <Name>url</Name>
           </UrlVariable>
         </value>
@@ -69,7 +69,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>https://handbrake.fr/{getUrl64}</TextualContent>
+            <TextualContent>https://handbrake.fr/{url64Path}</TextualContent>
             <Name>url64</Name>
           </UrlVariable>
         </value>
@@ -167,10 +167,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\HandBrake-0.10.1-i686-Win_GUI.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated xsi:nil="true" />
+    <LastUpdated>2015-05-25T06:07:08.8939619</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>handbrake.install</Name>

@@ -4,8 +4,8 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>61208428</LastFileSize>
-    <LastFileDate>2015-04-16T04:40:17.406046</LastFileDate>
+    <LastFileSize>61224113</LastFileSize>
+    <LastFileDate>2015-05-07T20:52:37.133253</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -26,7 +26,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
             <Regex>(?&lt;=ResponseUri: )[^\r\n]+</Regex>
-            <Url>http://sourceforge.net/projects/unimediaserver/files/Official%20Releases/Windows/UMS-{version}-Java{javaVersion0}.exe/download</Url>
+            <Url>http://sourceforge.net/projects/unimediaserver/files/Official%20Releases/Windows/UMS-{version}-Java{javaVersion1}.exe/download</Url>
             <TextualContent />
             <Name>url</Name>
           </UrlVariable>
@@ -171,7 +171,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>2</TextualContent>
+            <TextualContent>1</TextualContent>
             <Name>cscript</Name>
           </UrlVariable>
         </value>
@@ -183,11 +183,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\UMS-5.1.2-Java6.exe</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\UMS-5.1.3-Java7.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-16T04:40:17.406046</LastUpdated>
+    <LastUpdated>2015-05-07T20:52:37.133253</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>ums</Name>

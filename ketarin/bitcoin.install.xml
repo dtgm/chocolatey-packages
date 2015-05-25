@@ -4,8 +4,8 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>11690232</LastFileSize>
-    <LastFileDate>2015-02-16T04:33:42.2395796</LastFileDate>
+    <LastFileSize>11750944</LastFileSize>
+    <LastFileDate>2015-05-20T04:33:57.4473338</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -110,7 +110,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>As of {dd} {MMMM} {yyyy}, the total size of the {abbrev} blockchain was __{blockchainSize}__</TextualContent>
+            <TextualContent>As of {dd} {MMMM} {yyyy}, the total size of the {abbrev} blockchain is __{blockchainSize}__</TextualContent>
             <Name>packageGuid</Name>
           </UrlVariable>
         </value>
@@ -178,11 +178,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\bitcoin-0.10.0-win32-setup.exe</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\bitcoin-0.10.2-win32-setup.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-16T04:33:42.2395796</LastUpdated>
+    <LastUpdated>2015-05-20T04:33:57.4473338</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>bitcoin.install</Name>

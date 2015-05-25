@@ -5,7 +5,7 @@
     <UserAgent />
     <UserNotes>also "Index of" @ http://download.gna.org/bless/</UserNotes>
     <LastFileSize>789648</LastFileSize>
-    <LastFileDate>2015-03-22T22:05:49.9332906</LastFileDate>
+    <LastFileDate>2015-05-25T10:31:59.8248662</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -82,7 +82,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>1</TextualContent>
+            <TextualContent>2</TextualContent>
             <Name>cscript</Name>
           </UrlVariable>
         </value>
@@ -95,10 +95,10 @@
     <Category />
     <SourceType>FixedUrl</SourceType>
     <PreviousLocation>C:\ProgramData\chocolatey\_work\bless-bin-0.6.0.zip</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
-    <Enabled>false</Enabled>
+    <DeletePreviousFile>false</DeletePreviousFile>
+    <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-03-22T22:05:49.9332906</LastUpdated>
+    <LastUpdated>2015-05-25T10:31:59.8248662</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>bless</Name>

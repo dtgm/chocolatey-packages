@@ -5,7 +5,7 @@
     <UserAgent />
     <UserNotes />
     <LastFileSize>231124</LastFileSize>
-    <LastFileDate>2015-04-17T04:39:20.1788525</LastFileDate>
+    <LastFileDate>2015-04-27T06:28:04.4204186</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -14,7 +14,7 @@
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
-    <HttpReferer />
+    <HttpReferer>http://www.nirsoft.net/utils/web_browser_password.html</HttpReferer>
     <SetupInstructions />
     <Variables>
       <item>
@@ -98,7 +98,7 @@
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-17T04:39:20.1788525</LastUpdated>
+    <LastUpdated>2015-04-27T06:28:04.4204186</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>webbrowserpassview.portable</Name>

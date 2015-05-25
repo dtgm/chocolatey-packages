@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
-  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="f99a2efa-c1ea-4491-b164-f3982d3fc8f1">
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="aea5fc80-86b9-40a1-911f-eb13768c7ac2">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>46324491</LastFileSize>
-    <LastFileDate>2015-04-16T19:08:51.2160225</LastFileDate>
+    <LastFileSize>34266613</LastFileSize>
+    <LastFileDate>2015-05-22T04:37:03.782338</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -19,15 +19,29 @@
     <Variables>
       <item>
         <key>
+          <string>version</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <Url>{url}</Url>
+            <TextualContent>{getUrl:regex:(?&lt;=electrum.)[\d\.]{3,\}}</TextualContent>
+            <Name>version</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
           <string>getUrl</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>/?([^"]+\.exe)</Regex>
+            <Regex>/?([^"]+setup\.exe)</Regex>
             <Url>https://download.electrum.org/?C=M;O=D</Url>
-            <TextualContent />
             <Name>getUrl</Name>
           </UrlVariable>
         </value>
@@ -41,24 +55,8 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <Url />
             <TextualContent>https://download.electrum.org/{getUrl}</TextualContent>
             <Name>url</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>version</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <Url />
-            <TextualContent>{getUrl:regex:[\d\.]+(?=-setup\.exe)}</TextualContent>
-            <Name>version</Name>
           </UrlVariable>
         </value>
       </item>
@@ -97,11 +95,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\electrum-2.0.4-setup.exe</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\electrum-2.2-setup.exe</PreviousLocation>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-16T19:08:51.2160225</LastUpdated>
+    <LastUpdated>2015-05-22T04:37:03.782338</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>electrum</Name>

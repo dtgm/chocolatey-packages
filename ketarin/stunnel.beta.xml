@@ -2,10 +2,10 @@
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="1c0fa4c5-c3a0-40e6-88f0-99199e5da16f">
     <WebsiteUrl />
-    <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64)</UserAgent>
-    <UserNotes />
-    <LastFileSize>1334556</LastFileSize>
-    <LastFileDate>2014-04-14T04:33:17.3272888</LastFileDate>
+    <UserAgent>Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44</UserAgent>
+    <UserNotes>ftp://ftp.stunnel.org/pub/stunnel/beta/</UserNotes>
+    <LastFileSize>1532093</LastFileSize>
+    <LastFileDate>2015-05-24T04:40:11.2653934</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -14,7 +14,7 @@
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
-    <HttpReferer />
+    <HttpReferer>ftp://ftp.stunnel.org</HttpReferer>
     <SetupInstructions />
     <Variables>
       <item>
@@ -37,6 +37,48 @@
           </UrlVariable>
         </value>
       </item>
+      <item>
+        <key>
+          <string>url</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>https://www.stunnel.org/downloads/beta/stunnel-{version}-installer.exe</TextualContent>
+            <Name>url</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>x</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>StartEnd</VariableType>
+            <Regex />
+            <Url>ftp://ftp.stunnel.org/pub/stunnel/beta/</Url>
+            <Name>x</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>xx</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>StartEnd</VariableType>
+            <Regex />
+            <Url>ftp://ftp.stunnel.org/pub/stunnel/beta/stunnel-5.18b1-installer.exe</Url>
+            <Name>xx</Name>
+          </UrlVariable>
+        </value>
+      </item>
     </Variables>
     <ExecuteCommand />
     <ExecutePreCommand />
@@ -44,13 +86,13 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\dev\Chocolatey\_work\stunnel-5.02b2-installer.exe</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
-    <Enabled>false</Enabled>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\stunnel-5.18b2-installer.exe</PreviousLocation>
+    <DeletePreviousFile>false</DeletePreviousFile>
+    <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2014-04-14T04:33:17.3272888</LastUpdated>
+    <LastUpdated>2015-05-24T04:40:11.2653934</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
-    <FixedDownloadUrl>https://www.stunnel.org/downloads/beta/stunnel-{version}-installer.exe</FixedDownloadUrl>
+    <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>stunnel.beta</Name>
   </ApplicationJob>
 </Jobs>

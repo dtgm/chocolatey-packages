@@ -4,8 +4,8 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>76492800</LastFileSize>
-    <LastFileDate>2015-03-29T04:42:28.6877146</LastFileDate>
+    <LastFileSize>76496896</LastFileSize>
+    <LastFileDate>2015-04-25T04:38:11.6502045</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -140,11 +140,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\Komodo-Edit-9.0.0-15707.msi</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\Komodo-Edit-9.0.1-15745.msi</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-03-29T04:42:28.6877146</LastUpdated>
+    <LastUpdated>2015-04-25T04:38:11.6502045</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>komodo-edit</Name>

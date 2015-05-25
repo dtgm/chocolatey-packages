@@ -4,8 +4,8 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>25677824</LastFileSize>
-    <LastFileDate>2015-04-02T04:37:01.4364077</LastFileDate>
+    <LastFileSize>22089728</LastFileSize>
+    <LastFileDate>2015-05-20T04:42:34.2108501</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -137,11 +137,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\tortoisehg-3.3.3-x86.msi</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\tortoisehg-3.4%2B7-x86.msi</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-02T04:37:01.4364077</LastUpdated>
+    <LastUpdated>2015-05-20T04:42:34.2108501</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>tortoisehg</Name>

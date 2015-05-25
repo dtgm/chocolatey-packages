@@ -39,8 +39,8 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>href="/{urlPath}([^/]+)</Regex>
-            <Url>{urlHost}/{urlPath}</Url>
+            <Regex>href="/{urlPath}/{urlDir}/([^/]+)</Regex>
+            <Url>{urlHost}/{urlPath}/{urlDir}</Url>
             <TextualContent />
             <Name>version</Name>
           </UrlVariable>
@@ -84,7 +84,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
             <Regex>[^ "'&lt;&gt;\*]+\.exe/download</Regex>
-            <Url>{urlHost}/{urlPath}/{version}/</Url>
+            <Url>{urlHost}/{urlPath}/{urlDir}/{version}/</Url>
             <Name>getUrl</Name>
           </UrlVariable>
         </value>
@@ -110,24 +110,26 @@
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>RegularExpression</VariableType>
-            <Regex>href="/?(projects/hmne/files/HM[^"]+)</Regex>
-            <Url>{urlHost}/projects/hmne/files/</Url>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <Url />
+            <TextualContent>projects/hmne/files</TextualContent>
             <Name>urlPath</Name>
           </UrlVariable>
         </value>
       </item>
       <item>
         <key>
-          <string>cscript</string>
+          <string>urlDir</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <TextualContent>2</TextualContent>
-            <Name>cscript</Name>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>href="/?{urlPath}/(HM[^"/]+)</Regex>
+            <Url>{urlHost}/{urlPath}</Url>
+            <TextualContent />
+            <Name>urlDir</Name>
           </UrlVariable>
         </value>
       </item>

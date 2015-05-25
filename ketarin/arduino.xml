@@ -4,8 +4,8 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>107620136</LastFileSize>
-    <LastFileDate>2015-03-12T22:58:16.1772558</LastFileDate>
+    <LastFileSize>81034240</LastFileSize>
+    <LastFileDate>2015-05-07T04:34:16.3531897</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Avoid</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -26,7 +26,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>{getUrl}</TextualContent>
+            <TextualContent>http://arduino.cc/download.php?f=/arduino-{version}-windows.exe</TextualContent>
             <Name>url</Name>
           </UrlVariable>
         </value>
@@ -39,24 +39,10 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>arduino-([\d\.]+)-windows\.exe</Regex>
+            <Regex>(?&lt;=arduino-)([\d\.]+)</Regex>
             <Url>http://arduino.cc/en/Main/Software</Url>
             <TextualContent />
             <Name>version</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>getUrl</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>RegularExpression</VariableType>
-            <Regex>([^ "'&lt;&gt;\*]+\.exe)</Regex>
-            <Url>http://arduino.cc/en/Main/Software</Url>
-            <Name>getUrl</Name>
           </UrlVariable>
         </value>
       </item>
@@ -95,11 +81,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\arduino-1.6.1-windows.exe</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\arduino-1.6.4-windows.exe</PreviousLocation>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-03-12T22:58:16.1772558</LastUpdated>
+    <LastUpdated>2015-05-07T04:34:16.3531897</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>arduino</Name>
