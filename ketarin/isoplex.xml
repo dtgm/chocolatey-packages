@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="e7bcad1a-bc7f-43df-813e-8c41807716ed">
     <SourceTemplate><![CDATA[<Jobs>
@@ -70,9 +70,16 @@
 </Jobs>]]></SourceTemplate>
     <WebsiteUrl />
     <UserAgent />
-    <UserNotes />
-    <LastFileSize>60018700</LastFileSize>
-    <LastFileDate>2014-11-30T19:05:41.0460069</LastFileDate>
+    <UserNotes>http://isoplex.isohunt.to/files/isoplex-setup-{version}.exe
+
+http://isoplex.isohunt.to/files/IsoplexSetup-Win7.exe
+http://isoplex.isohunt.to/files/IsoplexSetup-Win8.exe
+
+http://isoplex.isohunt.to/?lang=en&amp;refname=&amp;refurl=#get-isoplex
+
+http://isoplex.isohunt.to/files/IsoplexInstaller-2.6.1.exe</UserNotes>
+    <LastFileSize>97385029</LastFileSize>
+    <LastFileDate>2015-05-20T04:25:27.1707648</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Avoid</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -110,7 +117,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>http://isoplex.isohunt.to/files/isoplex-setup-{version}.exe</TextualContent>
+            <TextualContent>http://isoplex.isohunt.to/files/IsoplexInstaller-{version}.exe</TextualContent>
             <Name>url</Name>
           </UrlVariable>
         </value>
@@ -150,12 +157,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>D:\chocolatey\_work\isoplex-setup-1.0.4.exe</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
-    <Enabled>false</Enabled>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\IsoplexInstaller-2.7.0.exe</PreviousLocation>
+    <DeletePreviousFile>false</DeletePreviousFile>
+    <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2014-11-30T19:05:41.0460069</LastUpdated>
-    <TargetPath>D:\chocolatey\_work\</TargetPath>
+    <LastUpdated>2015-05-20T04:25:27.1707648</LastUpdated>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>isoplex</Name>
   </ApplicationJob>
