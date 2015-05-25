@@ -1,18 +1,19 @@
 $packageName = 'bless'
-$url = '{url64}'
+$url = 'http://download.gna.org/bless/bless-bin-0.6.0.zip'
 $checksum = '0ebe1985ab2646cbe13899b93d4d6d27943ad47c'
 $checksumType = 'sha1'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$installFile = Join-Path $toolsDir "$($packageName).exe"
-try {
-  Get-ChocolateyWebFile -PackageName "$packageName" `
-                        -FileFullPath "$installFile" `
-                        -Url "$url" `
-                        -Checksum "$checksum" `
-                        -ChecksumType "$checksumType"
-  Set-Content -Path ("$installFile.gui") `
-              -Value $null
+$installFile = Join-Path -Path $toolsDir `
+                         -ChildPath "bless-bin-0.6.0" `
+               | Join-Path -ChildPath "bin" `
+               | Join-Path -ChildPath "bless.exe"
 
-} catch {
-  throw $_.Exception
-}
+Install-ChocolateyZipPackage -PackageName "$packageName" `
+                             -Url "$url" `
+                             -UnzipLocation "$toolsDir" `
+                             -Url64bit "" `
+                             -Checksum "$checksum" `
+                             -ChecksumType "$checksumType"
+
+Set-Content -Path ("$installFile.gui") `
+            -Value $null
