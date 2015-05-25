@@ -4,8 +4,8 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>2112043</LastFileSize>
-    <LastFileDate>2015-04-16T19:18:56.2593161</LastFileDate>
+    <LastFileSize>18675137</LastFileSize>
+    <LastFileDate>2015-05-21T04:37:04.8348612</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -25,7 +25,7 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>/?([^"]+\.zip)"</Regex>
+            <Regex>/?(electrum-[\d\.]{3,}-portable\.exe)"</Regex>
             <Url>https://download.electrum.org/?C=M;O=D</Url>
             <TextualContent />
             <Name>getUrl</Name>
@@ -57,7 +57,7 @@
             <VariableType>Textual</VariableType>
             <Regex />
             <Url />
-            <TextualContent>{getUrl:regex:[\d\.]{3,\}(?=\.zip)}</TextualContent>
+            <TextualContent>{getUrl:regex:(?&lt;=electrum.)[\d\.]{3,\}}</TextualContent>
             <Name>version</Name>
           </UrlVariable>
         </value>
@@ -97,11 +97,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\Electrum-2.0.4.zip</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\electrum-2.2-portable.exe</PreviousLocation>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-16T19:18:56.2593161</LastUpdated>
+    <LastUpdated>2015-05-21T04:37:04.8348612</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>electrum.portable</Name>

@@ -5,7 +5,7 @@
     <UserAgent />
     <UserNotes />
     <LastFileSize>47960</LastFileSize>
-    <LastFileDate>2015-04-17T21:54:46.7000441</LastFileDate>
+    <LastFileDate>2015-04-27T06:37:50.5903307</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -14,7 +14,7 @@
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
-    <HttpReferer />
+    <HttpReferer>http://www.nirsoft.net/utils/password_sniffer.html</HttpReferer>
     <SetupInstructions />
     <Variables>
       <item>
@@ -82,23 +82,245 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>2</TextualContent>
+            <TextualContent>0</TextualContent>
             <Name>cscript</Name>
           </UrlVariable>
         </value>
       </item>
+      <item>
+        <key>
+          <string>url64</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>http://www.nirsoft.net/{url64File}</TextualContent>
+            <Name>url64</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url64File</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>href="/?([^ "'&lt;&gt;\*]+64\.zip)</Regex>
+            <Url>http://www.nirsoft.net/utils/password_sniffer.html</Url>
+            <Name>url64File</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>checksum64file</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>{url64}</TextualContent>
+            <Name>checksum64file</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>cscriptl</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>2</TextualContent>
+            <Name>cscriptl</Name>
+          </UrlVariable>
+        </value>
+      </item>
     </Variables>
-    <ExecuteCommand />
+    <ExecuteCommand>////////////////////////////////////////////////////////////////////////////////////////
+/// version 6.5
+/// 
+/// per package scripting
+/// cscript = 0
+/// cscriptl = 2
+
+// REQUIRES:
+// global vars: workdir=corresponds to download location of installer file
+// app vars: nopush, checksum64file=corresponds to 64 bit install file
+// file vars: same as specified by chocopkgup
+string varCScript = app.Variables.ReplaceAllInString("{cscriptl}");
+if ((varCScript == "1") || (varCScript == "2")) {
+string varAppname = app.Variables.ReplaceAllInString("{appname}");
+string varVersion = app.Variables.ReplaceAllInString("{version}");
+string varChocoPkgOutput = app.Variables.ReplaceAllInString("{chocoPkgOutput}");
+string varChecksum = app.Variables.ReplaceAllInString("{checksum}");
+string varChecksumx64 = app.Variables.ReplaceAllInString("{checksumx64}");
+string varChecksum64File = app.Variables.ReplaceAllInString("{checksum64file}");
+string varChecksum64basefile = app.Variables.ReplaceAllInString("{checksum64file:basefile}");
+string varChecksum64ext = app.Variables.ReplaceAllInString("{checksum64file:ext}");
+string varWorkdir = app.Variables.ReplaceAllInString("{workdir}");
+string saveFileName64 = String.Concat(varChecksum64basefile, ".", varChecksum64ext);
+// equivalent to ketarin variable "{file}"
+string savePath = app.PreviousLocation;
+string pkgPath = Path.Combine(varChocoPkgOutput, varAppname, varVersion);
+string fileNameNuspec = String.Concat(varAppname, ".nuspec");
+string fileUriNuspec = Path.Combine(pkgPath, fileNameNuspec);
+string fileNameNupkg = String.Concat(varAppname, ".", varVersion, ".nupkg");
+string fileUriNupkg = Path.Combine(pkgPath, fileNameNupkg);
+
+if (varChecksum == "{checksum}") {
+  //System.Windows.Forms.MessageBox.Show(varChecksum);
+  // calculate SHA1
+  System.IO.FileStream fileSha1 = new System.IO.FileStream(savePath, System.IO.FileMode.Open);
+  System.Security.Cryptography.SHA1 sha1 = new System.Security.Cryptography.SHA1CryptoServiceProvider();
+  byte[] retValSha1 = sha1.ComputeHash(fileSha1);
+  fileSha1.Close();
+
+  // create a string
+  System.Text.StringBuilder sbSha1 = new System.Text.StringBuilder();
+  for (int i = 0; i &lt; retValSha1.Length; i++) {
+    sbSha1.Append(retValSha1[i].ToString("x2"));
+  }
+     
+  string replaceChecksum = sbSha1.ToString();
+  List&lt;string&gt; fileList = new List&lt;string&gt;(Directory.GetFiles(pkgPath, "*.ps1", SearchOption.AllDirectories));
+  string[] filesNuspec = Directory.GetFiles(pkgPath, "*.nuspec", SearchOption.AllDirectories);
+  fileList.AddRange(filesNuspec);
+  string[] files = fileList.ToArray();
+  foreach (string file in files) {
+    try {
+      string contents = File.ReadAllText(file);
+      contents = contents.Replace("{checksum}", replaceChecksum);
+      // Make files writable
+      // File.SetAttributes(file, FileAttributes.Normal);
+      File.WriteAllText(file, contents);
+    } catch (Exception ex) {
+      Console.WriteLine(ex.Message);
+    }
+  }
+}
+
+// only get checksum if {checksum64file} exists and points to a downloadable file
+if (varChecksumx64 == "{checksumx64}" &amp;&amp; varChecksum64File != "{checksum64file}") {
+//if (varChecksum64File != "{checksum64file}") {
+  // checksum for 32-bit file is the default {url} value
+  // checksum for 64-bit uses special var rather than use {url64} because we are using 
+  // {url64} to carry out another hack for some packages RE ketarin not following redirects (301)
+  string savePath64 = Path.Combine(varWorkdir, saveFileName64);
+  System.Net.WebClient webClient = new System.Net.WebClient();
+  webClient.Headers.Add("Referer","http://www.nirsoft.net/utils/");
+  webClient.DownloadFile(varChecksum64File, savePath64);
+
+  // calculate SHA1
+  System.IO.FileStream file64Sha1 = new System.IO.FileStream(savePath64, System.IO.FileMode.Open);
+  System.Security.Cryptography.SHA1 sha164 = new System.Security.Cryptography.SHA1CryptoServiceProvider();
+  byte[] retVal64Sha1 = sha164.ComputeHash(file64Sha1);
+  file64Sha1.Close();
+
+  // create a string
+  System.Text.StringBuilder sb64Sha1 = new System.Text.StringBuilder();
+  for (int i = 0; i &lt; retVal64Sha1.Length; i++) {
+    sb64Sha1.Append(retVal64Sha1[i].ToString("x2"));
+  }
+     
+  string replace64Checksum = sb64Sha1.ToString();
+  List&lt;string&gt; fileList = new List&lt;string&gt;(Directory.GetFiles(pkgPath, "*.ps1", SearchOption.AllDirectories));
+  string[] filesNuspec = Directory.GetFiles(pkgPath, "*.nuspec", SearchOption.AllDirectories);
+  fileList.AddRange(filesNuspec);
+  string[] files = fileList.ToArray();
+  foreach (string file in files) {
+    try {
+      string contents = File.ReadAllText(file);
+      contents = contents.Replace("{checksumx64}", replace64Checksum);
+      File.WriteAllText(file, contents);
+    } catch (Exception ex) {
+      Console.WriteLine(ex.Message);
+    }
+  }
+}
+
+int checkBeta = varVersion.Split('-').Length;
+if ( checkBeta == 2) {
+  string strPre = varVersion.Split('-')[1];
+  string strReplace = String.Concat(strPre, "&lt;/version&gt;");
+  //System.Windows.Forms.MessageBox.Show(checkBeta);
+  //System.Windows.Forms.MessageBox.Show(strPre);
+  //System.Windows.Forms.MessageBox.Show(strReplace);
+  // string strCheck = "."+(Get-Date -format "yyyyMMdd")+"&lt;/version&gt;";
+  string strCheck = String.Concat(".", DateTime.Now.ToString("yyyyMMdd"), "&lt;/version&gt;");
+  //System.Windows.Forms.MessageBox.Show(strCheck);
+  //string[] updateNuspec = Directory.GetFiles(pkgPath, "*.nuspec", SearchOption.TopDirectoryOnly);
+  string[] fileNuspec = Directory.GetFiles(pkgPath, "*.nuspec", SearchOption.AllDirectories);
+  foreach (string file in fileNuspec) {
+    //System.Windows.Forms.MessageBox.Show(file);
+    string contents = File.ReadAllText(file);
+    contents = contents.Replace(strCheck, strReplace);
+    File.WriteAllText(file, contents);
+  }
+}
+
+// delete existing nupkg made by chocopkgup; we leverage chocopkgup to create the structure/files in destination  
+System.Diagnostics.Process process1 = new System.Diagnostics.Process();
+System.Diagnostics.ProcessStartInfo proc1 = new System.Diagnostics.ProcessStartInfo();
+proc1.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden;
+proc1.UseShellExecute = true;
+proc1.WorkingDirectory = pkgPath;
+proc1.FileName = "cmd.exe";
+//proc1.Verb = "runas";
+proc1.Arguments = "/c "+"del /f " + fileUriNupkg;
+process1.StartInfo = proc1;
+process1.Start();
+
+// create a new nupkg
+System.Diagnostics.Process process2 = new System.Diagnostics.Process();
+System.Diagnostics.ProcessStartInfo proc2 = new System.Diagnostics.ProcessStartInfo();
+proc2.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden;
+proc2.UseShellExecute = true;
+proc2.WorkingDirectory = pkgPath;
+proc2.FileName = "cmd.exe";
+//proc2.Verb = "runas";
+//proc2.Arguments = "/c "+"cpack --verbose --allowunofficialbuild" + fileUriNuspec;
+proc2.Arguments = "/c "+"choco pack "+fileUriNuspec+" -d";
+process2.StartInfo = proc2;
+process2.Start();
+
+// push the nupkg
+if (varCScript == "2") {
+  System.Diagnostics.Process process3 = new System.Diagnostics.Process();
+  System.Diagnostics.ProcessStartInfo proc3 = new System.Diagnostics.ProcessStartInfo();
+  proc3.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden;
+  proc3.UseShellExecute = true;
+  proc3.WorkingDirectory = pkgPath;
+  proc3.FileName = "cmd.exe";
+//  proc3.Verb = "runas";
+  // Find nupkg in pkgPath
+  string[] pushPkg = Directory.GetFiles(pkgPath, "*.nupkg", SearchOption.TopDirectoryOnly);
+  foreach (String file in pushPkg) {
+//    System.Windows.Forms.MessageBox.Show(file);
+    proc3.Arguments = "/c "+"cpush " + file + " -d";
+  }
+  process3.StartInfo = proc3;
+  System.Threading.Thread.Sleep(2000);
+  process3.Start();
+}
+}</ExecuteCommand>
     <ExecutePreCommand />
-    <ExecuteCommandType>Batch</ExecuteCommandType>
+    <ExecuteCommandType>CS</ExecuteCommandType>
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
     <PreviousLocation>C:\ProgramData\chocolatey\_work\sniffpass.zip</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-17T21:54:46.7000441</LastUpdated>
+    <LastUpdated>2015-04-27T06:37:50.5903307</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>sniffpass.portable</Name>

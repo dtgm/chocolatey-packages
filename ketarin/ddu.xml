@@ -69,7 +69,7 @@
   </ApplicationJob>
 </Jobs>]]></SourceTemplate>
     <WebsiteUrl />
-    <UserAgent />
+    <UserAgent>Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)</UserAgent>
     <UserNotes>beta</UserNotes>
     <LastFileSize>1156783</LastFileSize>
     <LastFileDate>2014-10-22T23:41:52.0415755</LastFileDate>
@@ -81,7 +81,7 @@
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
-    <HttpReferer />
+    <HttpReferer>http://www.wagnardmobile.com/DDU/</HttpReferer>
     <SetupInstructions />
     <Variables>
       <item>
@@ -91,9 +91,9 @@
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>StartEnd</VariableType>
-            <Regex />
-            <Url>http://www.instalki.pl/programy/download/Windows/deinstalatory/Display_Driver_Uninstaller.html</Url>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=Current Version )[\d\.]+</Regex>
+            <Url>http://www.wagnardmobile.com/DDU/index.html</Url>
             <StartText>&lt;span itemprop="version"&gt;</StartText>
             <EndText>&lt;</EndText>
             <TextualContent />
@@ -110,8 +110,51 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>http://download.instalki.info/programy/Windows/Narzedzia/zarzadzanie_sterownikami/DDU.v{version}_www.INSTALKI.pl.exe</TextualContent>
+            <Url />
+            <TextualContent>http://www.wagnardmobile.com/DDU/download/DDU%20v{version}.exe</TextualContent>
             <Name>url</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>nopush</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>--nopush</TextualContent>
+            <Name>nopush</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>cscript</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>1</TextualContent>
+            <Name>cscript</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>x</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex />
+            <Url>http://www.guru3d.com/index.php?ct=files&amp;action=download&amp;</Url>
+            <Name>x</Name>
           </UrlVariable>
         </value>
       </item>
@@ -123,11 +166,11 @@
     <Category />
     <SourceType>FixedUrl</SourceType>
     <PreviousLocation>D:\chocolatey\_work\DDU.v13.4.2.0_www.INSTALKI.pl.exe</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>false</Enabled>
     <FileHippoId />
     <LastUpdated>2014-10-22T23:41:52.0415755</LastUpdated>
-    <TargetPath>D:\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>ddu</Name>
   </ApplicationJob>

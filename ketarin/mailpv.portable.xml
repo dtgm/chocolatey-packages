@@ -5,7 +5,7 @@
     <UserAgent />
     <UserNotes />
     <LastFileSize>68541</LastFileSize>
-    <LastFileDate>2015-04-02T18:49:53.643044</LastFileDate>
+    <LastFileDate>2015-04-27T06:30:56.4064744</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -14,7 +14,7 @@
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
-    <HttpReferer />
+    <HttpReferer>http://www.nirsoft.net/utils/mailpv.html</HttpReferer>
     <SetupInstructions />
     <Variables>
       <item>
@@ -98,7 +98,7 @@
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-02T18:49:53.643044</LastUpdated>
+    <LastUpdated>2015-04-27T06:30:56.4064744</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>mailpv.portable</Name>

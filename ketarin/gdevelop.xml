@@ -4,8 +4,8 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>68753194</LastFileSize>
-    <LastFileDate>2015-04-05T20:56:24.5154438</LastFileDate>
+    <LastFileSize>71128689</LastFileSize>
+    <LastFileDate>2015-04-21T04:36:52.1108519</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -110,11 +110,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\gd3678.exe</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\gd3680.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-05T20:56:24.5154438</LastUpdated>
+    <LastUpdated>2015-04-21T04:36:52.1108519</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>gdevelop</Name>

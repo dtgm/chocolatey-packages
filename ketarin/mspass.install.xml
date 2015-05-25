@@ -5,7 +5,7 @@
     <UserAgent />
     <UserNotes />
     <LastFileSize>140600</LastFileSize>
-    <LastFileDate>2015-04-02T16:27:16.1702711</LastFileDate>
+    <LastFileDate>2015-04-27T07:18:04.5255647</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -14,7 +14,7 @@
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
-    <HttpReferer />
+    <HttpReferer>http://www.nirsoft.net/utils/mspass.html</HttpReferer>
     <SetupInstructions />
     <Variables>
       <item>
@@ -95,10 +95,10 @@
     <Category />
     <SourceType>FixedUrl</SourceType>
     <PreviousLocation>C:\ProgramData\chocolatey\_work\mspass_setup.exe</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-02T16:27:16.1702711</LastUpdated>
+    <LastUpdated>2015-04-27T07:18:04.5255647</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>mspass.install</Name>

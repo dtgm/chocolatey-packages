@@ -4,8 +4,8 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>144270</LastFileSize>
-    <LastFileDate>2015-04-08T04:34:51.2334681</LastFileDate>
+    <LastFileSize>144822</LastFileSize>
+    <LastFileDate>2015-04-29T04:35:01.0319418</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -124,11 +124,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\DiskMarkStream10.zip</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\DiskMarkStream101.zip</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-08T04:34:51.2334681</LastUpdated>
+    <LastUpdated>2015-04-29T04:35:01.0319418</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>diskmarkstream</Name>

@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
-  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="246c4b59-39f6-4aa6-aef0-09c104904113">
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="67da154b-7902-462a-a4cc-9c8f94d003d6">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>6232090</LastFileSize>
-    <LastFileDate>2015-03-09T22:23:15.9050117</LastFileDate>
+    <LastFileSize>6285080</LastFileSize>
+    <LastFileDate>2015-05-13T12:37:59.0614006</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
-    <DownloadBeta>Avoid</DownloadBeta>
+    <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
@@ -19,19 +19,16 @@
     <Variables>
       <item>
         <key>
-          <string>version</string>
+          <string>url</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>PeaZip\s*(\d[\d\.]+)</Regex>
-            <Url>http://peazip.sourceforge.net/</Url>
-            <StartText>PeaZip
-</StartText>
-            <EndText>&lt;/big&gt;&lt;/big&gt;&lt;/big&gt;</EndText>
-            <TextualContent>5.5.0.20141130</TextualContent>
-            <Name>version</Name>
+            <Regex>(?&lt;=ResponseUri: )[^\r\n]+</Regex>
+            <Url>{getUrl}</Url>
+            <TextualContent />
+            <Name>url</Name>
           </UrlVariable>
         </value>
       </item>
@@ -44,40 +41,51 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <Url>http://peazip.sourceforge.net/</Url>
-            <StartText>PeaZip
-</StartText>
-            <EndText>&lt;/big&gt;&lt;/big&gt;&lt;/big&gt;</EndText>
-            <TextualContent>http://www.peazip.org/downloads/peazip-{version}.WIN64.exe</TextualContent>
+            <TextualContent>{urlArray}</TextualContent>
             <Name>url64</Name>
           </UrlVariable>
         </value>
       </item>
       <item>
         <key>
-          <string>url</string>
+          <string>version</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <TextualContent>http://www.peazip.org/downloads/peazip-{version}.WINDOWS.exe</TextualContent>
-            <Name>url</Name>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>PeaZip\s*(\d[\d\.]+)</Regex>
+            <Url>http://peazip.sourceforge.net/index.html</Url>
+            <TextualContent />
+            <Name>version</Name>
           </UrlVariable>
         </value>
       </item>
       <item>
         <key>
-          <string>cscript</string>
+          <string>urlArray</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>2</TextualContent>
-            <Name>cscript</Name>
+            <TextualContent>@('{getUrl}', '{getUrl64}')</TextualContent>
+            <Name>urlArray</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>checksum64file</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>{getUrl64}</TextualContent>
+            <Name>checksum64file</Name>
           </UrlVariable>
         </value>
       </item>
@@ -97,15 +105,43 @@
       </item>
       <item>
         <key>
-          <string>checksum64file</string>
+          <string>cscript</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>{url64}</TextualContent>
-            <Name>checksum64file</Name>
+            <TextualContent>2</TextualContent>
+            <Name>cscript</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>getUrl</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>[^ "'&lt;&gt;\*]+\.exe/download</Regex>
+            <Url>http://peazip.sourceforge.net/index.html</Url>
+            <Name>getUrl</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>getUrl64</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>[^ "'&lt;&gt;\*]+WIN64\.exe/download</Regex>
+            <Url>http://peazip.sourceforge.net/peazip-64bit.html</Url>
+            <Name>getUrl64</Name>
           </UrlVariable>
         </value>
       </item>
@@ -116,11 +152,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\peazip-5.5.3.WINDOWS.exe</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\peazip-5.6.0.WINDOWS.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-03-09T22:23:15.9050117</LastUpdated>
+    <LastUpdated>2015-05-13T12:37:59.0614006</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>peazip.install</Name>

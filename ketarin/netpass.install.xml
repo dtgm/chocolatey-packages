@@ -5,7 +5,7 @@
     <UserAgent />
     <UserNotes />
     <LastFileSize>129712</LastFileSize>
-    <LastFileDate>2015-04-17T21:36:48.2726645</LastFileDate>
+    <LastFileDate>2015-04-27T07:13:38.4192865</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -14,7 +14,7 @@
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
-    <HttpReferer />
+    <HttpReferer>http://www.nirsoft.net/utils/network_password_recovery.html</HttpReferer>
     <SetupInstructions />
     <Variables>
       <item>
@@ -95,10 +95,10 @@
     <Category />
     <SourceType>FixedUrl</SourceType>
     <PreviousLocation>C:\ProgramData\chocolatey\_work\netpass_setup.exe</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-17T21:36:48.2726645</LastUpdated>
+    <LastUpdated>2015-04-27T07:13:38.4192865</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>netpass.install</Name>

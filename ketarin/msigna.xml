@@ -4,8 +4,8 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>8749552</LastFileSize>
-    <LastFileDate>2015-03-13T17:36:50.6130562</LastFileDate>
+    <LastFileSize>8245744</LastFileSize>
+    <LastFileDate>2015-05-21T04:40:39.4055418</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -95,11 +95,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\setup-0.8.15.exe</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\setup-0.9.4.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-03-13T17:36:50.6130562</LastUpdated>
+    <LastUpdated>2015-05-21T04:40:39.4055418</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>msigna</Name>

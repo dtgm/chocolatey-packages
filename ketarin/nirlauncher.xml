@@ -4,8 +4,8 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>21593898</LastFileSize>
-    <LastFileDate>2015-04-14T04:37:49.7560207</LastFileDate>
+    <LastFileSize>21756394</LastFileSize>
+    <LastFileDate>2015-05-20T04:40:13.8295939</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -14,7 +14,7 @@
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
-    <HttpReferer />
+    <HttpReferer>http://launcher.nirsoft.net/download.html</HttpReferer>
     <SetupInstructions />
     <Variables>
       <item>
@@ -110,11 +110,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\nirsoft_package_1.19.29.zip</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\nirsoft_package_1.19.34.zip</PreviousLocation>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-14T04:37:49.7560207</LastUpdated>
+    <LastUpdated>2015-05-20T04:40:13.8295939</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>nirlauncher</Name>

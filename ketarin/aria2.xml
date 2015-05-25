@@ -4,8 +4,8 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>1850095</LastFileSize>
-    <LastFileDate>2015-02-24T04:33:15.2501195</LastFileDate>
+    <LastFileSize>1913651</LastFileSize>
+    <LastFileDate>2015-05-25T04:33:57.508505</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Avoid</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -126,11 +126,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\aria2-1.18.10-win-32bit-build1.zip</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\aria2-1.19.0-win-32bit-build1.zip</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-24T04:33:15.2501195</LastUpdated>
+    <LastUpdated>2015-05-25T04:33:57.508505</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>aria2</Name>

@@ -4,8 +4,8 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>13391205</LastFileSize>
-    <LastFileDate>2015-02-11T04:35:11.5544724</LastFileDate>
+    <LastFileSize>12850351</LastFileSize>
+    <LastFileDate>2015-04-20T04:38:33.8762056</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -85,11 +85,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\QuiteRSS-0.17.6-Setup.exe</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\QuiteRSS-0.17.7-Setup.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-11T04:35:11.5544724</LastUpdated>
+    <LastUpdated>2015-04-20T04:38:33.8762056</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>quiterss</Name>

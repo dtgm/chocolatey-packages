@@ -4,8 +4,8 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>13503651</LastFileSize>
-    <LastFileDate>2015-04-14T04:40:55.3588811</LastFileDate>
+    <LastFileSize>14251752</LastFileSize>
+    <LastFileDate>2015-05-22T00:30:06.7830872</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -95,11 +95,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\tportable.0.8.4.zip</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\tportable.0.8.17.zip</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-14T04:40:55.3588811</LastUpdated>
+    <LastUpdated>2015-05-22T00:30:06.7830872</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>telegram.portable</Name>

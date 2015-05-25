@@ -4,8 +4,8 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>61880</LastFileSize>
-    <LastFileDate>2015-03-30T04:37:05.6290611</LastFileDate>
+    <LastFileSize>69768</LastFileSize>
+    <LastFileDate>2015-05-10T04:40:50.535068</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -111,10 +111,10 @@
     <Category />
     <SourceType>FixedUrl</SourceType>
     <PreviousLocation>C:\ProgramData\chocolatey\_work\utox_runner.zip</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
-    <Enabled>true</Enabled>
+    <DeletePreviousFile>false</DeletePreviousFile>
+    <Enabled>false</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-03-30T04:37:05.6290611</LastUpdated>
+    <LastUpdated>2015-05-10T04:40:50.535068</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>utox</Name>

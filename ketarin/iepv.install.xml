@@ -5,7 +5,7 @@
     <UserAgent />
     <UserNotes />
     <LastFileSize>137808</LastFileSize>
-    <LastFileDate>2015-04-02T16:29:15.9383643</LastFileDate>
+    <LastFileDate>2015-04-27T07:21:38.2180934</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -14,7 +14,7 @@
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
-    <HttpReferer />
+    <HttpReferer>http://www.nirsoft.net/utils/internet_explorer_password.html</HttpReferer>
     <SetupInstructions />
     <Variables>
       <item>
@@ -95,10 +95,10 @@
     <Category />
     <SourceType>FixedUrl</SourceType>
     <PreviousLocation>C:\ProgramData\chocolatey\_work\iepv_setup.exe</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-02T16:29:15.9383643</LastUpdated>
+    <LastUpdated>2015-04-27T07:21:38.2180934</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>iepv.install</Name>

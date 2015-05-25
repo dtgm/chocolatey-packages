@@ -129,13 +129,13 @@ Actual download=http://www.sandboxie.com/SandboxieInstall32-412.exe
       </item>
     </Variables>
     <ExecuteCommand />
-    <ExecutePreCommand>chocopkgup {nopush} --packagename={appname}.install --version={version} --pg="{packageGuid}" --url="{preupdate-url}" --urlx64="{url64}" --packagepath="{file}" --checksum="{checksum}" --c64="{checksumx64}" --debug</ExecutePreCommand>
+    <ExecutePreCommand />
     <ExecuteCommandType>Batch</ExecuteCommandType>
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
     <PreviousLocation>C:\ProgramData\chocolatey\_work\SandboxieInstall32-416.exe</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-03-02T01:30:42.0085403</LastUpdated>

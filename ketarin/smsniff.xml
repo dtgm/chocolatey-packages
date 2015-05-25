@@ -4,8 +4,8 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>170288</LastFileSize>
-    <LastFileDate>2015-04-17T21:37:20.5282286</LastFileDate>
+    <LastFileSize>170408</LastFileSize>
+    <LastFileDate>2015-05-04T04:39:22.4891287</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -98,7 +98,7 @@
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-17T21:37:20.5282286</LastUpdated>
+    <LastUpdated>2015-05-04T04:39:22.4891287</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>smsniff</Name>

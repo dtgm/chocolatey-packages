@@ -101,6 +101,20 @@
           </UrlVariable>
         </value>
       </item>
+      <item>
+        <key>
+          <string>url</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>http://download.bitdefender.com/npd/free/Antivirus_Free_Edition.exe</TextualContent>
+            <Name>url</Name>
+          </UrlVariable>
+        </value>
+      </item>
     </Variables>
     <ExecuteCommand />
     <ExecutePreCommand />
@@ -109,12 +123,12 @@
     <Category />
     <SourceType>FixedUrl</SourceType>
     <PreviousLocation>D:\chocolatey\_work\Antivirus_Free_Edition.exe</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>false</Enabled>
     <FileHippoId />
     <LastUpdated>2014-07-05T13:36:34.4355832</LastUpdated>
-    <TargetPath>D:\chocolatey\_work\</TargetPath>
-    <FixedDownloadUrl>http://download.bitdefender.com/npd/free/Antivirus_Free_Edition.exe</FixedDownloadUrl>
+    <TargetPath>{workdir}\</TargetPath>
+    <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>bitdefenderavfree</Name>
   </ApplicationJob>
 </Jobs>

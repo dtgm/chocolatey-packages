@@ -1,11 +1,11 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="8f26537a-0289-4199-a907-c6e62607bfb7">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
     <LastFileSize>36447466</LastFileSize>
-    <LastFileDate>2015-03-13T17:42:09.1992715</LastFileDate>
+    <LastFileDate>2015-05-22T04:40:54.4361216</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -100,7 +100,7 @@
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-03-13T17:42:09.1992715</LastUpdated>
+    <LastUpdated>2015-05-22T04:40:54.4361216</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>lyx</Name>

@@ -204,7 +204,7 @@
     <Enabled>false</Enabled>
     <FileHippoId />
     <LastUpdated>2014-10-22T23:45:21.7379316</LastUpdated>
-    <TargetPath>D:\chocolatey\_work\</TargetPath>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>avginternetsecurity</Name>
   </ApplicationJob>

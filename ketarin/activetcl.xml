@@ -1,11 +1,11 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="adf805bb-9e51-42a8-9506-961e4b362bb2">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
     <LastFileSize>29197975</LastFileSize>
-    <LastFileDate>2015-04-27T13:57:42-05:00</LastFileDate>
+    <LastFileDate>2015-05-13T20:41:27.5531041</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -168,7 +168,7 @@
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-05-13T20:41:27.5531041-05:00</LastUpdated>
+    <LastUpdated>2015-05-13T20:41:27.5531041</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>activetcl</Name>

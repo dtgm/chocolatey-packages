@@ -4,8 +4,8 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>6142275</LastFileSize>
-    <LastFileDate>2015-02-20T01:47:51.8346141</LastFileDate>
+    <LastFileSize>6146198</LastFileSize>
+    <LastFileDate>2015-04-27T19:36:34.4596045</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -24,8 +24,8 @@
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>StartEnd</VariableType>
-            <Regex />
+            <VariableType>RegularExpression</VariableType>
+            <Regex>Version ([\d\.]+)</Regex>
             <Url>http://www.linuxliveusb.com/en/download</Url>
             <StartText>Version </StartText>
             <EndText>&lt;/span&gt;</EndText>
@@ -50,7 +50,7 @@
       </item>
       <item>
         <key>
-          <string>nopush</string>
+          <string>yopush</string>
         </key>
         <value>
           <UrlVariable>
@@ -58,7 +58,7 @@
             <VariableType>Textual</VariableType>
             <Regex />
             <TextualContent>--nopush</TextualContent>
-            <Name>nopush</Name>
+            <Name>yopush</Name>
           </UrlVariable>
         </value>
       </item>
@@ -71,7 +71,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>2</TextualContent>
+            <TextualContent>0</TextualContent>
             <Name>cscript</Name>
           </UrlVariable>
         </value>
@@ -83,11 +83,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\LinuxLive USB Creator 2.9.2.exe</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\LinuxLive USB Creator 2.9.3.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-20T01:47:51.8346141</LastUpdated>
+    <LastUpdated>2015-04-27T19:36:34.4596045</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>lili</Name>

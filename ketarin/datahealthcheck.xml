@@ -4,8 +4,8 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>155136</LastFileSize>
-    <LastFileDate>2015-04-03T08:22:40.7773939</LastFileDate>
+    <LastFileSize>155648</LastFileSize>
+    <LastFileDate>2015-05-07T20:05:28.6021735</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -39,8 +39,8 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>DataHealthCheck ([\d\.]+)</Regex>
-            <Url>https://cryptogeek.ninja/DataHealthCheck</Url>
+            <Regex>(?&lt;=bin/Release").*?title="([\d\.]+)"</Regex>
+            <Url>https://github.com/cryptogeek/DataHealthCheck/tree/master/DataHealthCheck/bin/</Url>
             <Name>version</Name>
           </UrlVariable>
         </value>
@@ -54,7 +54,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>{getUrl}</TextualContent>
+            <TextualContent>https://github.com/cryptogeek/DataHealthCheck/blob/master/DataHealthCheck/bin/Release/DataHealthCheck.exe?raw=true</TextualContent>
             <Name>url</Name>
           </UrlVariable>
         </value>
@@ -98,7 +98,7 @@
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-03T08:22:40.7773939</LastUpdated>
+    <LastUpdated>2015-05-07T20:05:28.6021735</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>datahealthcheck</Name>

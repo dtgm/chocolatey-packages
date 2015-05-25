@@ -1,11 +1,11 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="a0a76636-28d4-4aa2-93ba-102efc2d9b05">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
     <LastFileSize>2140303</LastFileSize>
-    <LastFileDate>2015-04-14T13:12:00-05:00</LastFileDate>
+    <LastFileDate>2015-04-27T16:29:39.1351625</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -128,7 +128,7 @@
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-27T16:29:39.1351625-05:00</LastUpdated>
+    <LastUpdated>2015-04-27T16:29:39.1351625</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>nano</Name>

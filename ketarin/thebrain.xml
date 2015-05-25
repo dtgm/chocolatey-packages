@@ -8,8 +8,8 @@
 direct access 
 http://assets.thebrain.com/downloads/TheBrain_windows_8_0_1_2.exe
 http://assets.thebrain.com/downloads/TheBrain_windows-x64_8_0_1_2.exe</UserNotes>
-    <LastFileSize>29698048</LastFileSize>
-    <LastFileDate>2015-03-19T15:55:08.429903</LastFileDate>
+    <LastFileSize>29696512</LastFileSize>
+    <LastFileDate>2015-04-25T04:43:15.6218008</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -101,11 +101,11 @@ http://assets.thebrain.com/downloads/TheBrain_windows-x64_8_0_1_2.exe</UserNotes
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\TheBrain_windows_8_0_1_5.exe</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\TheBrain_windows_8_0_1_6.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-03-19T15:55:08.429903</LastUpdated>
+    <LastUpdated>2015-04-25T04:43:15.6218008</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>thebrain</Name>

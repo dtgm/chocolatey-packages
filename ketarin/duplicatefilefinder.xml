@@ -18,8 +18,8 @@ http://downloads.auslogics.com/en/duplicate-file-finder/duplicate-file-finder-se
 http://downloads.auslogics.com/en/duplicate-file-finder/duplicate-file-finder-setup.exe
 &lt;/Additional_Download_URL_2&gt;
 &lt;/Download_URLs&gt;</UserNotes>
-    <LastFileSize>7447632</LastFileSize>
-    <LastFileDate>2015-04-03T04:34:29.2993255</LastFileDate>
+    <LastFileSize>7445664</LastFileSize>
+    <LastFileDate>2015-05-11T13:27:56.7674229</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -54,7 +54,7 @@ http://downloads.auslogics.com/en/duplicate-file-finder/duplicate-file-finder-se
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
             <Regex>(?&lt;=Latest v[er\.\s]+?)([\d\.]+)&lt;</Regex>
-            <Url>https://www.auslogics.com/en/software/duplicate-file-finder/</Url>
+            <Url>http://www.auslogics.com/en/software/duplicate-file-finder/</Url>
             <Name>version</Name>
           </UrlVariable>
         </value>
@@ -109,10 +109,10 @@ http://downloads.auslogics.com/en/duplicate-file-finder/duplicate-file-finder-se
     <Category />
     <SourceType>FixedUrl</SourceType>
     <PreviousLocation>C:\ProgramData\chocolatey\_work\duplicate-file-finder-setup.exe</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-03T04:34:29.2993255</LastUpdated>
+    <LastUpdated>2015-05-11T13:27:56.7674229</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>duplicatefilefinder</Name>

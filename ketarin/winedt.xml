@@ -4,8 +4,8 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>8744120</LastFileSize>
-    <LastFileDate>2015-04-06T01:02:09.7105493</LastFileDate>
+    <LastFileSize>8795944</LastFileSize>
+    <LastFileDate>2015-05-15T04:43:51.0957301</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -136,11 +136,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\winedt90-32.exe</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\winedt91-32.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-06T01:02:09.7105493</LastUpdated>
+    <LastUpdated>2015-05-15T04:43:51.0957301</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>winedt</Name>

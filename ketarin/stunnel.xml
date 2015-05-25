@@ -4,8 +4,8 @@
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64)</UserAgent>
     <UserNotes />
-    <LastFileSize>1526873</LastFileSize>
-    <LastFileDate>2015-04-17T04:38:42.2339653</LastFileDate>
+    <LastFileSize>1532427</LastFileSize>
+    <LastFileDate>2015-04-30T04:39:45.2196103</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -14,7 +14,7 @@
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
-    <HttpReferer />
+    <HttpReferer>https://www.stunnel.org</HttpReferer>
     <SetupInstructions />
     <Variables>
       <item>
@@ -79,6 +79,34 @@
           </UrlVariable>
         </value>
       </item>
+      <item>
+        <key>
+          <string>urgency</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>{version}[\w, ]+=(?:&lt;b&gt;)?(\w+)</Regex>
+            <Url>https://www.stunnel.org/versions.html</Url>
+            <Name>urgency</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>packageGuid</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>{urgency}</TextualContent>
+            <Name>packageGuid</Name>
+          </UrlVariable>
+        </value>
+      </item>
     </Variables>
     <ExecuteCommand />
     <ExecutePreCommand />
@@ -86,11 +114,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\stunnel-5.15-installer.exe</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\stunnel-5.17-installer.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-17T04:38:42.2339653</LastUpdated>
+    <LastUpdated>2015-04-30T04:39:45.2196103</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>stunnel</Name>
