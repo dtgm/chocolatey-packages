@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>retroshare</id>
+    <version>0.5.5.1</version>
+    <title>RetroShare</title>
+    <authors>The RetroShare Team</authors>
+    <owners>John4782</owners>
+    <licenseUrl>https://www.gnu.org/licenses/gpl.html</licenseUrl>
+    <projectUrl>http://retroshare.sourceforge.net/</projectUrl>
+    <iconUrl>http://retroshare.sourceforge.net/img/retrosharelogo2.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>RetroShare is a Open Source cross-platform, Friend-2-Friend and secure decentralised communication platform.
+It lets you to securely chat and share files with your friends, family and coworkers, using a web-of-trust to authenticate peers and OpenSSL to encrypt all communication. 
+RetroShare provides filesharing, chat, messages, forums and channels</description>
+    <summary>RetroShare</summary>
+    <releaseNotes />
+    <copyright />
+    <tags>John4782</tags>
+  </metadata>
+</package>

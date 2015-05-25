@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>findaes</id>
+    <title>findaes</title>
+    <version>1.2</version>
+    <authors>Jesse Kornblum</authors>
+    <owners>dtgm</owners>
+    <summary>Find AES keys using key schedules</summary>
+    <description>
+Searches for AES keys by searching for their key schedules. Able to find 128. 192, and 256 bit keys, such as those used by TrueCrypt and BitLocker. Originally intended for memory images, can use arbitrary data.
+    </description>
+    <projectUrl>https://sourceforge.net/projects/findaes/</projectUrl>
+    <tags>cryptography aes memory cli</tags>
+    <copyright>© Jesse Kornblum</copyright>
+    <licenseUrl>https://en.wikipedia.org/wiki/Public_domain</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Known issues](https://sourceforge.net/p/findaes/tickets/)
+* [Source code](https://sourceforge.net/p/findaes/code/ci/default/tree/)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
+  <metadata>
+    <id>quantumdreams</id>
+    <title>Quantum Dreams</title>
+    <version>0.1.201504</version>
+    <authors>ScienceAtHome</authors>
+    <owners>dtgm</owners>
+    <summary>Learn about quantum physics and help build quantum computers by playing games</summary>
+    <description>
+Dream the quantum dreams, and help us with cutting edge scientific research.
+
+Play this game now, to help us build a real quantum computer.
+
+#### How to play
+* Video tutorial, [youtube.com](https://www.youtube.com/watch?v=9ssgZtzr7r4)
+
+#### ScienceAtHome    
+* To contribute to our research, make sure you play our games with an active internet connection, as we are gathering data for our scientists based on your performance.
+* [Data policy](http://scienceathome.org/our-data-policy/)
+* [Science publications](http://scienceathome.org/science/) derived from game data
+    </description>
+    <projectUrl>http://scienceathome.org/games/quantum-dreams/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/35a7feca9cb8446eb9eec296f2e462e826a89f4a/icons/quantumdreams.png</iconUrl>
+    <tags>gaming citizen-science quantum-physics</tags>
+    <copyright>© ScienceAtHome</copyright>
+    <licenseUrl>https://wikipedia.org/wiki/Freeware</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [News](http://scienceathome.org/archive/)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
