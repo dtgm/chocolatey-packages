@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>hashdeep</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Jesse Kornblum</authors>
+    <owners>dtgm</owners>
+    <summary>Recursively compute and match cryptographic hashes</summary>
+    <description>
+Hashdeep is a set of cross-platform CLI tools to computer hashes, or message digests, for any number of files while optionally recursively digging through the directory structure. It can also take a list of known hashes and display the filenames of input files whose hashes either do or do not match any of the known hashes. This version supports MD5, SHA-1, SHA-256, Tiger, and Whirlpool hashes.
+
+Previously known as __md5deep__
+
+#### Community
+* [Forum](https://sourceforge.net/p/md5deep/discussion/)
+
+#### [Unicode issues](https://github.com/jessek/hashdeep#unicode-issues)
+
+#### Supported algorithms
+* MD5 algorithm is defined in RFC 1321: http://www.ietf.org/rfc/rfc1321.txt
+* SHA1 algorithm is defined in FIPS 180-1: http://www.itl.nist.gov/fipspubs/fip180-1.htm
+* SHA256 algorithm is defined FIPS 180-2: http://csrc.nist.gov/publications/fips/fips180-2/fips180-2.pdf
+* Tiger algorithm is defined at: http://www.cs.technion.ac.il/~biham/Reports/Tiger/
+* Whirlpool algorithm is defined at: http://planeta.terra.com.br/informatica/paulobarreto/WhirlpoolPage.html
+
+#### Command line usage
+  `hashdeep -h`
+  `md5deep -h`
+  `sha1deep -h`
+  `sha256deep -h`
+  `tigerdeep -h`
+  `whirlpooldeep -h`
+  
+Note: append `64` to above commands to execute the 64-bit version
+    </description>
+    <projectUrl>https://github.com/jessek/hashdeep</projectUrl>
+    <tags>checksum file md5deep cli</tags>
+    <copyright>© Jesse Kornblum</copyright>
+    <licenseUrl>https://github.com/jessek/hashdeep/blob/master/COPYING</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Changelog](https://github.com/jessek/hashdeep/blob/master/NEWS)
+* [Known issues](https://github.com/jessek/hashdeep/issues)
+* [Source code](https://github.com/jessek/hashdeep)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>Bless</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Alexandros Frantzis</authors>
+    <owners>dtgm</owners>
+    <summary>Gtk+ hex editor</summary>
+    <description>
+Bless is a high quality, full featured hex editor.  It is written in mono/Gtk# and its primary platform is GNU/Linux. However it should be able to run without problems on every platform that mono and Gtk# run.
+
+#### Features
+* Efficient editing of large data files and block devices
+* Multilevel undo - redo operations
+* Customizable data views
+* Fast data rendering on screen
+* Multiple tabs
+* Fast find and replace operations
+* A data conversion table
+* Advanced copy/paste capabilities
+* Highlighting of selection pattern matches in the file
+* Plugin based architecture
+* Export of data to text and html (others with plugins)
+* Bitwise operations on data
+* A comprehensive user manual
+
+#### Documentation
+* [Screenshots](http://home.gna.org/bless/screenshots.html)
+* [FAQ](http://home.gna.org/bless/bless-manual/ch06.html)
+* [Manual](http://home.gna.org/bless/bless-manual/index.html)
+
+#### Community
+* [Mailing list](http://gna.org/mail/?group=bless)
+    </description>
+    <projectUrl>http://home.gna.org/bless/</projectUrl>
+    <tags>hex editor</tags>
+    <copyright>© 2004 Alexandros Frantzis</copyright>
+    <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/a138f45d2491ed8aae82ed2287675b945a8af347/icons/{{PackageName}}.png</iconUrl>
+    <releaseNotes>
+#### Program
+* [News](http://home.gna.org/bless/news.html)
+* [Release log](http://gna.org/news/?group=bless)
+* [Known issues](http://gna.org/bugs/?group=bless)
+* [Source code](http://gna.org/svn/?group=bless)
+* [Source code archive](http://download.gna.org/bless/bless-{{PackageVersion}}.tar.gz) (tar.gz)
+* [Source code repository](http://download.gna.org/bless/bless.dev): `bzr branch http://download.gna.org/bless/bless.dev`
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="dotnet3.5" />
+      <dependency id="gtksharp" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
