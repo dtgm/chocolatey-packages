@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <version>{{PackageVersion}}</version>
+    <title>YaCy</title>
+    <authors>YaCy developers</authors>
+    <owners>dtgm</owners>
+    <summary>Decentralized web search</summary>
+    <description>
+YaCy is a search engine for the web, based on Solr and a peer-to-peer protocol. You may also use it without P2P as search appliance for a search portal or your intranet.
+
+It is neither a search portal nor a portal software but a peer-to-peer software that works on principles similar to file sharing. The difference is that you do not share any kind of data but web indexes. The YaCy search network consists of the peers that the people run. If you start YaCy then you are instantly part of that search network.
+
+YaCy also generates the indexes it organizes. YaCy is a web crawler for everybody, without censorship and central data retention.
+
+To be able to perform a search using the YaCy network, every user has to set up their own node. More users are leading to higher index capacity and better distributed indexing performance.
+
+### Documentation
+* [Screenshots](http://yacy.net/en/Screenshots.html)
+* [FAQ](http://www.yacy-websearch.net/wiki/index.php/En:FAQ)
+* [User Wiki](http://www.yacy-websearch.net/wiki/index.php/En:Start)
+* [Developer Wiki](http://www.yacy-websearch.net/wiki/index.php/Dev:Start)
+* [API](http://yacy.net/en/API.html)
+* [Architecture](http://yacy.net/en/Technology.html)
+
+### Community
+* [Forum](http://forum.yacy-websuche.de/)
+    </description>
+    <language>en-us</language>
+    <projectUrl>http://yacy.net</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/aaae5f8457ea1087ec2a155ef594617d8c7ff34d/icons/{{PackageName}}.png</iconUrl>
+    <licenseUrl>https://gitorious.org/yacy/rc1/source/COPYRIGHT</licenseUrl>
+    <copyright>© YaCy developers</copyright>	
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>p2p search engine</tags>
+    <releaseNotes>
+#### Program
+* [Changelog](http://mantis.tokeek.de/changelog_page.php)
+* [Roadmap](http://www.yacy-websearch.net/wiki/index.php/Dev:Roadmap)
+* [Known issues](http://mantis.tokeek.de/my_view_page.php)
+* [Source code](https://gitorious.org/yacy/rc1/)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="javaruntime" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
