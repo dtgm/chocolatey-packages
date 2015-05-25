@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>fah</id>
+    <version>7.4.4</version>
+    <title>Folding@home</title>
+    <authors>Pande Lab</authors>
+    <owners>dtgm</owners>
+    <summary>Distributed computing project to understand protein folding</summary>
+    <description>
+Help Stanford University scientists studying Alzheimer's, Huntington's, Parkinson's, and many cancers by simply running a piece of software on your computer. The program does this by building simulations of how proteins, RNA, and nanoscale synthetic polymers fold. 
+
+This program does not slow your computer down and only uses unused computer power.
+
+### Post-install notes
+1. Execute `FAHClient.exe`
+2. Enter a [name](http://folding.stanford.edu/home/fah-user-name/) and/or team #, and [Passkey](http://folding.stanford.edu/home/faq/faq-passkey/)
+
+### Documentation
+* [FAQs](http://folding.stanford.edu/home/community-support/#faqs)
+* [Configuration guide](http://folding.stanford.edu/home/guide/configuration-guide/)
+
+### Community
+* [Forum](https://foldingforum.org/)
+* [Teams and Stats](https://folding.stanford.edu/home/teams-stats/)
+    </description>
+    <language>en-us</language>
+    <projectUrl>http://folding.stanford.edu/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/e145d13e7f7bc677a6a22da74d0ff1441a554289/icons/fah.png</iconUrl>
+    <licenseUrl>http://folding.stanford.edu/home/faq/faq-opensource#ntoc4</licenseUrl>
+    <copyright>© Pande Lab, Stanford University</copyright>	
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>distributed-computing protein-folding biology science</tags>
+    <releaseNotes>
+#### Program
+* [News](http://folding.stanford.edu/home/blog)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="autohotkey.portable" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

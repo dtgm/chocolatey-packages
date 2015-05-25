@@ -1,0 +1,1 @@
+﻿Install-ChocolateyPackage 'RetroShare' 'EXE' '/S' 'http://kent.dl.sourceforge.net/project/retroshare/RetroShare/0.5.5b/RetroShare_0.5.5b_6876_setup.exe'
