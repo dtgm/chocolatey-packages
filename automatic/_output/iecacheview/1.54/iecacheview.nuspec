@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>iecacheview</id>
+    <title>IECacheView</title>
+    <version>1.54</version>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm</owners>
+    <summary>Internet Explorer Cache Viewer</summary>
+    <description>
+IECacheView is a small utility that reads the cache folder of Internet Explorer, and displays the list of all files currently stored in the cache.
+
+For each cache file, the following information is displayed: Filename, Content Type, URL, Last Accessed Time, Last Modified Time, Expiration Time, Number Of Hits, File Size, Folder Name, and full path of the cache filename.
+
+You can easily save the cache information into text/html/xml file, or copy the cache table to the clipboard and then paste it to another application, like Excel or OpenOffice Spreadsheet.
+    </description>
+    <projectUrl>http://www.nirsoft.net/utils/ie_cache_viewer.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/iecacheview.png</iconUrl>
+    <tags>explorer ie cache viewer</tags>
+    <copyright>© 2007 NirSoft</copyright>
+    <licenseUrl>http://www.nirsoft.net/utils/ie_cache_viewer.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[What's New?](http://www.nirsoft.net/utils/ie_cache_viewer.html)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

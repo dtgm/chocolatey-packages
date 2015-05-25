@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>telegram.portable</id>
+    <version>0.8.16</version>
+    <title>Telegram (Portable)</title>
+    <authors>telegramdesktop</authors>
+    <owners>dtgm</owners>
+    <licenseUrl>https://github.com/telegramdesktop/tdesktop/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://desktop.telegram.org/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/22f97d7004cdb3702d7ac64d4fc81b47e25e89cf/icons/telegram.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Telegram is a messaging app with a focus on speed and security, it's superfast, simple and free. You can use Telegram on all your devices at the same time - your messages sync seamlessly across any of your phones, tablets or computers.
+
+With Telegram, you can send messages, photos, videos and files of any type (doc, zip, mp3, etc) to people who are in your phone contacts and have Telegram. You can also create groups for up to 200 people or send broadcasts to up to 100 contacts. As a result, Telegram is like SMS and email combined - and can take care of all your personal or business messaging needs.
+
+[FAQ](https://telegram.org/faq)
+[Source code](https://github.com/telegramdesktop/tdesktop)</description>
+    <summary>Official Windows desktop client for the secure Telegram Messenger</summary>
+    <releaseNotes>[What's New](https://telegram.org/blog)
+[Changelog](https://desktop.telegram.org/#changelog)</releaseNotes>
+    <copyright>Pavel Durov and Nikolai Durov</copyright>
+    <tags>portable instant-messenger smartphone-messaging telegram android</tags>
+  </metadata>
+</package>
