@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="c70c9f2f-f2e0-440e-ada2-e822a68a920b">
     <SourceTemplate><![CDATA[<Jobs>
@@ -71,8 +71,8 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>207245212</LastFileSize>
-    <LastFileDate>2015-03-29T04:44:36.9394729</LastFileDate>
+    <LastFileSize>213916941</LastFileSize>
+    <LastFileDate>2015-05-25T13:03:47-05:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Avoid</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -91,29 +91,13 @@
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>RegularExpression</VariableType>
-            <Regex>href="/cao/KiCad_stable-([\d\.]+)-</Regex>
-            <Url>http://iut-tice.ujf-grenoble.fr/cao/</Url>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <Url />
             <StartText>&lt;A HREF="/cao/KiCad_stable-</StartText>
             <EndText>-BZR4022_Win_full_version.exe"&gt;</EndText>
-            <TextualContent />
+            <TextualContent>{verDateOrder}.{verBuild}</TextualContent>
             <Name>version</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>urlPath</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>RegularExpression</VariableType>
-            <Regex>/?([^ "'&lt;&gt;\*]+\.exe)</Regex>
-            <Url>http://iut-tice.ujf-grenoble.fr/cao/</Url>
-            <StartText>_Win_full_version.exe"&gt;</StartText>
-            <EndText>.exe&lt;/A&gt;&lt;br&gt;</EndText>
-            <Name>urlPath</Name>
           </UrlVariable>
         </value>
       </item>
@@ -126,8 +110,26 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>http://iut-tice.ujf-grenoble.fr/{urlPath}</TextualContent>
+            <Url />
+            <StartText>_Win_full_version.exe"&gt;</StartText>
+            <EndText>.exe&lt;/A&gt;&lt;br&gt;</EndText>
+            <TextualContent>http://www2.futureware.at/~nickoe/{getUrl}</TextualContent>
             <Name>url</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>getUrl</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>/?([^ "'&lt;&gt;\*]+86\.exe)</Regex>
+            <Url>http://www2.futureware.at/~nickoe/?C=N;O=D</Url>
+            <TextualContent />
+            <Name>getUrl</Name>
           </UrlVariable>
         </value>
       </item>
@@ -159,6 +161,135 @@
           </UrlVariable>
         </value>
       </item>
+      <item>
+        <key>
+          <string>url64</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <Url />
+            <TextualContent>http://www2.futureware.at/~nickoe/{getUrl64}</TextualContent>
+            <Name>url64</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>getUrl64</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>/?([^ "'&lt;&gt;\*]+64\.exe)</Regex>
+            <Url>http://www2.futureware.at/~nickoe/?C=N;O=D</Url>
+            <Name>getUrl64</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>checksum64file</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <Url />
+            <TextualContent>{url64}</TextualContent>
+            <Name>checksum64file</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>verDate</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=x86_64\.exe).*?(\d{2}-\w{3}-\d{4})</Regex>
+            <Url>http://www2.futureware.at/~nickoe/?C=N;O=D</Url>
+            <Name>verDate</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>verDateMonth</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>{verDate:multireplace:,:Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec:01,02,03,04,05,06,07,08,09,10,11,12}</TextualContent>
+            <Name>verDateMonth</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>verDateDot</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>{verDateMonth:replace:-:.}</TextualContent>
+            <Name>verDateDot</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>verDateOrder</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>{verDateDot:regexreplace:(\d+).(\d+).(\d+):$3.$2.$1}</TextualContent>
+            <Name>verDateOrder</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>verBuild</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <Url />
+            <TextualContent>{getUrl:regex:(?&lt;=-r)\d+(?=\.)}</TextualContent>
+            <Name>verBuild</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>x</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>StartEnd</VariableType>
+            <Regex />
+            <Url>{version}</Url>
+            <Name>x</Name>
+          </UrlVariable>
+        </value>
+      </item>
     </Variables>
     <ExecuteCommand />
     <ExecutePreCommand />
@@ -166,11 +297,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\KiCad_stable-2013.07.07-BZR4022_Win_full_version.exe</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\kicad-product-r5679.9ebcf41-i686.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-03-29T04:44:36.9394729</LastUpdated>
+    <LastUpdated>2015-05-25T19:07:08.8834493-05:00</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>kicad</Name>
