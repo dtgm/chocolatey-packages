@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>eMule</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Merkur,eMule-Team</authors>
+    <owners>dtgm</owners>
+    <summary>Free peer-to-peer (P2P) file sharing client</summary>
+    <description>
+Free, open source peer-to-peer file sharing client for connecting to eDonkey network and the Kad network.  The distinguishing features of eMule are the direct exchange of sources between client nodes, fast recovery of corrupted downloads, and the use of a credit system to reward frequent uploaders. Furthermore, eMule transmits data in zlib-compressed form to save bandwidth.
+
+eMule is coded in C++ using the Microsoft Foundation Classes. Since July 2002 eMule has been free software, released under the GNU General Public License; its popularity has led to eMule's codebase being used as the basis of cross-platform clients aMule, JMule, xMule, along with the release of many eMule mods (modifications of the original eMule) on the Internet.
+
+[Screenshots](http://www.emule-project.net/home/perl/general.cgi?rm=screenshots)
+[Forum](http://forum.emule-project.net/)
+[Documentation](http://www.emule-project.net/home/perl/help.cgi)
+[Source code](https://sourceforge.net/p/emule/code/ci/default/tree/)
+    </description>
+    <projectUrl>http://www.emule-project.net/</projectUrl>
+    <tags>file-sharing peer-to-peer edonkey kad</tags>
+    <copyright>© 2002 Merkur</copyright>
+    <licenseUrl>https://gnu.org/licenses/gpl.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/d1e037cc7c943fda29b9067b3b1c3229d99402ff/icons/{{PackageName}}.png</iconUrl>
+    <releaseNotes>
+[Changelog](http://www.emule-project.net/home/perl/news.cgi)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
