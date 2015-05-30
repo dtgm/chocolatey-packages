@@ -9,16 +9,80 @@
     <summary>SSL encryption wrapper</summary>
     <description>
 SSL encryption wrapper between remote client and local (inetd-startable) or remote server. It can be used to add SSL functionality to commonly used inetd daemons like POP2, POP3, and IMAP servers without any changes in the programs' code. It will negotiate an SSL connection using the OpenSSL or SSLeay libraries. It calls the underlying crypto libraries, so stunnel supports whatever cryptographic algorithms you compiled into your crypto package.  Written in C.
+
+#### [Features](https://www.stunnel.org/features.html)
+
+#### Documentation
+* [Screenshot](https://www.stunnel.org/screenshot.html)
+* [FAQ](http://www.usenix.org.uk/mirrors/stunnel/archive/doc-en/FAQ)
+* [Manual](https://www.stunnel.org/static/stunnel.html)
+* [Examples](https://www.stunnel.org/examples.html)
+* [Related docs](https://www.stunnel.org/docs.html)
+
+#### Community
+* [Forum]()
+* [Mailing list](https://www.stunnel.org/lists.html)
+* [Facebook]()
+* [Google+]()
+* [Twitter]()
     </description>
     <projectUrl>https://www.stunnel.org</projectUrl>
-    <tags>security cryptography internet proxy-server networking</tags>
-    <copyright>Copyright © 1998-2014 Michal Trojnara</copyright>
-    <licenseUrl>http://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/347e9c828bcbe16a820ef36b07343b058e27a670/icons/stunnel.png</iconUrl>
-    <releaseNotes>https://www.stunnel.org/sdf_ChangeLog.html</releaseNotes>
+    <tags>security cryptography internet proxy-server networking</tags>
+    <copyright>Copyright © 1998 Michal Trojnara</copyright>
+    <licenseUrl>https://www.stunnel.org/sdf_copying.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [News]()
+* [Release log](https://www.stunnel.org/versions.html)
+* [Security vulnerabilities](https://www.stunnel.org/vulns.html)
+* [Roadmap]()
+* [Changelog](https://www.stunnel.org/sdf_ChangeLog.html)
+* [Known issues]()
+* [Source code]()
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
   </files>		
+</package>
+
+
+    <description>
+
+#### [Features]()
+
+#### [Privacy Policy]()
+
+
+    </description>
+    <projectUrl></projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages//icons/{{PackageName}}.png</iconUrl>
+    <tags></tags>
+    <copyright>© </copyright>
+    <licenseUrl></licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [News]()
+* [Release log]()
+* [Roadmap]()
+* [Changelog]()
+* [Known issues]()
+* [Source code]()
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+<!--    <dependencies>
+      <dependency id="{{PackageName}}.install" version="[{{PackageVersion}}]" />
+    </dependencies> -->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
 </package>

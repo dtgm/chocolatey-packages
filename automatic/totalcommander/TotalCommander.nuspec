@@ -1,26 +1,45 @@
-<?xml version="1.0"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
-    <id>TotalCommander</id>
+    <id>{{PackageName}}</id>
     <title>Total Commander</title>
-    <version>8.01</version>
+    <version>{{PackageVersion}}</version>
     <authors>Christian Ghisler</authors>
-    <owners>__CHOCO_PKG_OWNER_NAME__</owners>
-    <summary>Total Commander - File Manager and Explorer Replacement</summary>
-    <description>Total Commander is a file manager replacement for Windows. Features: Drag/Drop from and to explorer/desktop. Packer shell for ZIP/ARJ/LHA/RAR/UC2/TAR/GZ/CAB/ACE. Command line, full text search also in packed files, button bar. Supports over 40 languages. FTP client, access to Network Neighborhood, Uuencode/Decode, compare, synchronize dirs. Changes: Unicode support, CHM help, names up to 1022 chars, breadcrumb bar, password safe, quick filter</description>
+    <owners>dtgm,Anthony Mastrean</owners>
+    <summary>File manager and explorer replacement</summary>
+    <description>
+Total Commander is a file manager replacement for Windows. Features: Drag/Drop from and to explorer/desktop. Packer shell for ZIP/ARJ/LHA/RAR/UC2/TAR/GZ/CAB/ACE. Command line, full text search also in packed files, button bar. Supports over 40 languages. FTP client, access to Network Neighborhood, Uuencode/Decode, compare, synchronize dirs. Changes: Unicode support, CHM help, names up to 1022 chars, breadcrumb bar, password safe, quick filter.
+
+[Features](http://keepass.info/features.html)
+[Screenshots](http://keepass.info/screenshots.html#scr2x)
+[FAQ](http://www.ghisler.com/faq.htm)
+[Forum](http://www.ghisler.ch/board/index.php)
+[Wiki](http://www.ghisler.ch/wiki/index.php)
+
+[Plugins](http://www.ghisler.ch/wiki/index.php/Developer%27s_corner)
+[Plugin downloads](http://totalcmd.net/)
+[Plugin development](http://totalcmd.net/directory/developer.html)
+
+http://www.ghisler.com/order.htm
+    </description>
     <projectUrl>http://www.ghisler.com</projectUrl>
-    <tags>Total Commander File Disk Manager</tags>
-    <copyright>1995-2012 by Christian Ghisler</copyright>
+    <tags>shareware file manager</tags>
+    <copyright>© 1995 Christian Ghisler</copyright>
     <licenseUrl>http://www.ghisler.com/faq.htm</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://github.com/calwell/nugetpackages/raw/master/TotalCommander/Total-Commander-icon.png</iconUrl>
-    <!--<dependencies>
-      <dependency id="" version="" />
-    </dependencies>-->
-    <releaseNotes></releaseNotes>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/92907451d61ad48c9e7ed7ab1df00f1b72214f7e/icons/{{PackageName}}.png</iconUrl>
+    <releaseNotes>
+### Program
+
+[News](http://www.ghisler.com/mailing.htm)
+[Known issues] ([forum](http://www.ghisler.ch/board/index.php?c=4&sid=213fe3b3217b2f1e5d9df18bbc03dd8d), ([wiki](http://www.ghisler.ch/wiki/index.php/Known_bugs_and_workarounds))
+
+### Package
+
+Automatically generated and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
-    <!--<file src="content\**" target="content" />-->
   </files>
 </package>

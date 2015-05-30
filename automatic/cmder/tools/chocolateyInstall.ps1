@@ -1,1 +1,0 @@
-#Install-VirtualPackage 'cmder.portable'

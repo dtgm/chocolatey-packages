@@ -1,5 +1,5 @@
 $packageName = '{{PackageName}}'
-$packageSearch = 'Nirsoft videocacheviewvideocacheview'
+$packageSearch = 'Nirsoft videocacheview'
 $installerType = 'exe'
 $silentArgs = '/S'
 $validExitCodes = @(0)

@@ -21,7 +21,7 @@ For example: If you install WinZip on your computer, you'll see a special WinZip
 [What's New?](http://www.nirsoft.net/utils/shexview.html)
     </releaseNotes>
     <dependencies>
-      <dependency id="{{PackageName}}" version="[{{PackageVersion}}]" />
+      <dependency id="{{PackageName}}.install" version="[{{PackageVersion}}]" />
     </dependencies>
   </metadata>
 </package>

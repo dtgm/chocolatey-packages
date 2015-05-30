@@ -20,7 +20,7 @@ IPNetInfo is a small utility that allows you to easily find all available inform
 [What's New?](http://www.nirsoft.net/utils/ipnetinfo.html)
     </releaseNotes>
     <dependencies>
-      <dependency id="{{PackageName}}" version="[{{PackageVersion}}]" />
+      <dependency id="{{PackageName}}.install" version="[{{PackageVersion}}]" />
     </dependencies>
   </metadata>
 </package>

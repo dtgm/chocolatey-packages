@@ -1,19 +1,12 @@
 $packageName = '{{PackageName}}'
-$packageVersion = '{{PackageVersion}}'
+$toolsPath = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+$unPath = Join-Path $toolsPath 'Uninstall-ChocolateyPath.psm1'
 $binRoot = Get-BinRoot
-$installDir = Join-Path $binRoot "cmdermini"
+$installPath = Join-Path $binRoot "cmdermini"
+# remove from path
+Import-Module $unPath
+Uninstall-ChocolateyPath $installPath 'User'
 
-try { 
-  if (Test-Path $installDir){
-    Remove-Item -Recurse -Force $installDir
-  }
-  if (Test-Path -Path "$installDir") {
-    Remove-Item -Path -Force "$installDir"
-  }
-} catch {
-  throw $_.Exception 
-}
-
-if (Test-Path "$(Split-Path -parent $MyInvocation.MyCommand.Definition)\..\..\cmder.$packageVersion") {
-  Chocolatey-Uninstall cmder
+if (Test-Path $installPath) {
+    Remove-Item -Path $installPath -Recurse -Force
 }

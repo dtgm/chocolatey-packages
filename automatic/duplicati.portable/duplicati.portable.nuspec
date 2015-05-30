@@ -1,26 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
-    <id>duplicati.portable</id>
-    <title>duplicati.portable</title>
-    <version>1.3.4.20131214</version>
-    <authors>kenneth@hexad.dk</authors>
+    <id>{{PackageName}}</id>
+    <title>Duplicati (Portable)</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Kenneth Skovhede</authors>
     <owners>dtgm</owners>
-    <summary>Duplicati is a free backup client that securely stores encrypted, incremental, compressed backups on cloud storage services and remote file servers.</summary>
-    <description>Duplicati works with Amazon S3, Windows Live SkyDrive, Google Drive (Google Docs), Rackspace Cloud Files or WebDAV, SSH, FTP (and many more).  Duplicati has built-in AES-256 encryption and backups can be signed using GNU Privacy Guard. A built-in scheduler makes sure that backups are always up-to-date. Last but not least, Duplicati provides various options and tweaks like filters, deletion rules, transfer and bandwidth options to run backups for specific purposes.
-</description>
+    <summary>Store securely encrypted backups on local or cloud storage services</summary>
+    <description>
+Duplicati is a backup client that securely stores encrypted, incremental, compressed backups on cloud storage services and remote file servers. It works with Amazon S3, Windows Live SkyDrive, Google Drive (Google Docs), Rackspace Cloud Files or WebDAV, SSH, FTP (and many more). Duplicati is open source and free.
+
+Duplicati has built-in AES-256 encryption and backups can be signed using GNU Privacy Guard. A built-in scheduler makes sure that backups are always up-to-date. Last but not least, Duplicati provides various options and tweaks like filters, deletion rules, transfer and bandwidth options to run backups for specific purposes.
+
+Duplicati is licensed under LGPL and available for Windows and Linux (.NET 2.0+ or Mono required). The Duplicati project was inspired by duplicity. Duplicati and duplicity are similar but not compatible. Duplicati is available in English, Spanish, French, German, Danish, Portugese, Italian, and Chinese.
+
+[Screenshots](https://plus.google.com/photos/112489598968242495432/albums/5656237519929944449)
+[FAQ](https://github.com/duplicati/duplicati/wiki/FAQ)
+Wiki: [GitHub](https://github.com/duplicati/duplicati/wiki), [GoogleCode](https://code.google.com/p/duplicati/wiki/TableOfContents) (deprecated)
+[HowTos](http://www.duplicati.com/howtos)
+
+[Source code](https://github.com/duplicati/duplicati)
+    </description>
     <projectUrl>http://www.duplicati.com/</projectUrl>
-    <tags>admin backup webdav online-backup incremental-backup vss backup-to-cloud command-line gui portable usb</tags>
-    <copyright></copyright>
+    <tags>backup cloud incremental vss</tags>
+    <copyright>© 2009 Kenneth Skovhede</copyright>
     <licenseUrl>http://www.gnu.org/licenses/lgpl.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://duplicati.googlecode.com/git/Duplicati/GUI/Duplicati.GUI.TrayIcon/SVGIcons/light/duplicati-logo.svg</iconUrl>
-    <!--<dependencies>
-      <dependency id="" version="" />
-    </dependencies>-->
-    <releaseNotes></releaseNotes>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/128248bea393239a8c1eb2cc45f1ae101fdea0ef/icons/duplicati.svg</iconUrl>
+    <releaseNotes>
+[News](http://www.duplicati.com/news)
+[Known issues](https://github.com/duplicati/duplicati/issues)
+    </releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
   </files>
-</package>
+</package>

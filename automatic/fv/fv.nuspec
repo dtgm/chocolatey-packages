@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
-    <id>{{packageName}}</id>
+    <id>{{PackageName}}</id>
     <title>FileVerifier++</title>
-    <version>{{packageVersion}}</version>
+    <version>{{PackageVersion}}</version>
     <authors>Tom Bramer</authors>
     <owners>dtgm</owners>
     <summary>Verify the integrity of files</summary>
@@ -33,18 +33,26 @@ FileVerifier++ is a Windows application for verifying the integrity of files. Fi
 * WHIRLPOOL
 * WHIRLPOOL-T
 
+### GUI
+* fv
+
+### Command line
+* fvc
+
 ### Source code
 * http://sourceforge.net/p/fileverifier/svn/
     </description>
     <projectUrl>http://www.programmingunlimited.net/siteexec/content.cgi?page=fv</projectUrl>
-    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/55b6d99f0c16a51ea65ec183005c862d614ed5b6/icons/{{PackageName}}.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/55b6d99f0c16a51ea65ec183005c862d614ed5b6/icons/fv.png</iconUrl>
     <tags>fv fvc file checksum</tags>
     <copyright>© 2008 Tom Bramer</copyright>
     <licenseUrl>http://www.programmingunlimited.net/siteexec/content.cgi?page=fv#license</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <releaseNotes>http://www.programmingunlimited.net/siteexec/content.cgi?page=fv#changelog</releaseNotes>
+    <releaseNotes>
+[Changelog](http://www.programmingunlimited.net/siteexec/content.cgi?page=fv#changelog)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="{{PackageName}}.install" version="[{{PackageVersion}}]" />
+    </dependencies>
   </metadata>
-  <files>
-    <file src="tools\**" target="tools" />
-  </files>
 </package>

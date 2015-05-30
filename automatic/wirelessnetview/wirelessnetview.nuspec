@@ -22,7 +22,7 @@ For each detected network, it displays the following information: SSID, Last Sig
 [What's New?](http://www.nirsoft.net/utils/wireless_network_view.html)
     </releaseNotes>
     <dependencies>
-      <dependency id="{{PackageName}}" version="[{{PackageVersion}}]" />
+      <dependency id="{{PackageName}}.install" version="[{{PackageVersion}}]" />
     </dependencies>
   </metadata>
 </package>

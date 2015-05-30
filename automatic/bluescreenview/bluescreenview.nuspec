@@ -26,7 +26,7 @@ BlueScreenView also mark the drivers that their addresses found in the crash sta
 [What's New?](http://www.nirsoft.net/utils/blue_screen_view.html)
     </releaseNotes>
     <dependencies>
-      <dependency id="{{PackageName}}" version="[{{PackageVersion}}]" />
+      <dependency id="{{PackageName}}.install" version="[{{PackageVersion}}]" />
     </dependencies>
   </metadata>
 </package>
