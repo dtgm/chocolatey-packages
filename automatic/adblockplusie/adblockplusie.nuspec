@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>Adblock Plus for Internet Explorer</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Wladimir Palant</authors>
+    <owners>dtgm</owners>
+    <summary>Block internet advertisements in Internet Explorer</summary>
+    <description>
+Adblock Plus lets you block annoying ads, tracking, malware and other things you may not want in your browser. 
+
+Adblock Plus itself has no functionality, in the sense that it does not block anything until you "tell" it what to do by adding filter lists. These filter lists are essentially an extensive set of rules, which tell Adblock Plus which elements of websites to block. You can add any filter list you want, for example to block tracking or malware. You can also create your own filter lists.
+
+[Documentation](https://adblockplus.org/en/documentation)
+[Acceptable Ads FAQ](https://adblockplus.org/en/acceptable-ads)
+[Privacy Policy](https://adblockplus.org/en/privacy)
+[Source code](https://hg.adblockplus.org/adblockplusie/)
+    </description>
+    <projectUrl>https://adblockplus.org/en/</projectUrl>
+    <tags>ie ad-blocker extension add-on</tags>
+    <copyright>© 2006 Wladimir Palant, 2011 Eyeo GmbH</copyright>
+    <licenseUrl>https://gnu.org/licenses/gpl.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/dd7121af88611d4f92e29187d065ba9a0fcaedeb/icons/{{PackageName}}.png</iconUrl>
+    <releaseNotes>
+[Changelog](https://hg.adblockplus.org/adblockplusie/log)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
