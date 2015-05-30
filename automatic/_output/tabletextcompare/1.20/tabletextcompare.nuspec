@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>tabletextcompare</id>
+    <title>TableTextCompare</title>
+    <version>1.20</version>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm</owners>
+    <summary>Compare csv/tab-delimited text files</summary>
+    <description>
+TableTextCompare is a small utility that allows you to easily compare 2 tab-delimited or
+comma-delimited (csv) files, and find out the difference between the 2 files.
+
+You can use this tool for comparing 2 different snapshots of data, created by other 
+NirSoft utilities, like DriverView, ServiWin, USBDeview, CurrPorts, WirelessNetView, ShellExView, and
+many others...
+
+For example, You can use DriverView utility to save 2 snapshots of loaded drivers list into a tab-delimited file,
+and then use TableTextCompare to easily find out which device drivers were added, removed, or changed 
+since the time that the first snapshot was taken.
+    </description>
+    <projectUrl>http://www.nirsoft.net/utils/csv_file_comparison.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/tabletextcompare.png</iconUrl>
+    <tags>csv tab-delimited text file snapshot</tags>
+    <copyright>© 2011 NirSoft</copyright>
+    <licenseUrl>http://www.nirsoft.net/utils/csv_file_comparison.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[What's New?](http://www.nirsoft.net/utils/csv_file_comparison.html)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
