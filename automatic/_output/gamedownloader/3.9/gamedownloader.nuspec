@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>gamedownloader</id>
+    <title>Game Downloader</title>
+    <version>3.9</version>
+    <authors>dev-fire</authors>
+    <owners>tonigellida</owners>
+    <summary></summary>
+    <description>
+Game Downloader is a portable and open source download client, which interacts with a server side library for downloading numerous games. With the help of this utility, you can download more than 200 games, by simply selecting a game category then selecting any game from the available list. This makes it easy to obtain games, without having to manually search and download the game via a browser.
+======= Notes =======
+This application requires the .NET Framework 3.5 to be installed, which is available via Windows Updates.
+	</description>
+    <projectUrl>http://dev-fire-gd.sourceforge.net/</projectUrl>
+    <tags>game downloads digital-distribution content-delivery game-store</tags>
+    <copyright></copyright>
+    <licenseUrl>http://www.gnu.org/licenses/gpl.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/gamedownloader/gamedownloader.png</iconUrl>
+  </metadata>
+</package>
