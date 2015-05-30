@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
-    <id>vcredist2013</id>
+    <id>{{PackageName}}</id>
     <title>Visual C++ Redistributable Packages for Visual Studio 2013</title>
-    <version>12.0.0.20140222</version>
+    <version>12.0.30501.0</version>
     <authors>Microsoft</authors>
     <owners>dtgm</owners>
     <summary>Run-time components that are required to run C++ applications that are built by using Visual Studio 2013</summary>
@@ -16,7 +16,19 @@ The Visual C++ Redistributable Packages install run-time components that are req
     <copyright>http://www.microsoft.com/about/legal/en/us/IntellectualProperty/Copyright/Default.aspx</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-For important information about this release, see the [Visual Studio 2013 Readme](http://go.microsoft.com/fwlink/?LinkId=323490).
+#### Date Published:  
+* 12/30/2014
+
+#### Supported Operating Systems:
+* Windows 7 SP1, Windows 8, Windows 8.1, Windows Server 2003, Windows Server 2008 R2 SP1, Windows Server 2008 SP2, Windows Server 2012, Windows Server 2012 R2, Windows Vista SP2, Windows XP
+
+#### [Known issues](http://go.microsoft.com/fwlink/?LinkId=323490)
+
+#### Additional requirements:
+Windows Update [KB2883200](http://support.microsoft.com/en-us/kb/2883200) is required for:
+
+* Windows 8.1 ([32-bit](http://www.microsoft.com/en-us/download/details.aspx?id=40755), [64-bit](http://www.microsoft.com/en-us/download/details.aspx?id=40749))
+* Windows Server 2012 R2 ([64-bit](http://www.microsoft.com/en-us/download/details.aspx?id=40774))
     </releaseNotes>
   </metadata>
   <files>

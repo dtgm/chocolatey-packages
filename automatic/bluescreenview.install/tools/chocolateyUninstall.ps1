@@ -1,5 +1,5 @@
 $packageName = '{{PackageName}}'
-$packageSearch = 'Nirsoft bluescreenviewbluescreenview'
+$packageSearch = 'Nirsoft bluescreenview'
 $installerType = 'exe'
 $silentArgs = '/S'
 $validExitCodes = @(0)

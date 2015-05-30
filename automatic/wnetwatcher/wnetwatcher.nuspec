@@ -24,7 +24,7 @@ You can also export the connected devices list into html/xml/csv/text file, or c
 [What's New?](http://www.nirsoft.net/utils/wireless_network_watcher.html)
     </releaseNotes>
     <dependencies>
-      <dependency id="{{PackageName}}" version="[{{PackageVersion}}]" />
+      <dependency id="{{PackageName}}.install" version="[{{PackageVersion}}]" />
     </dependencies>
   </metadata>
 </package>

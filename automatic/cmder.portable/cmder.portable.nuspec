@@ -8,7 +8,9 @@
     <owners>dtgm</owners>
     <summary>Portable console emulator for Windows</summary>
     <description>
-Cmder is a software package created out of pure frustration over the absence of nice console emulators on Windows. It is based on amazing software, and spiced up with the Monokai color scheme and a custom prompt layout.
+Cmder is a software package created out of pure frustration over absence of usable console emulator on Windows. It is based on ConEmu with major config overhaul. Monokai color scheme, amazing clink and custom prompt layout.
+
+The main advantage of Cmder is portability. It is designed to be totally self-contained with no external dependencies, that is makes it great for USB Sticks or Dropbox. So you can carry your console, aliases and binaries (like wget, curl and git) with you anywhere.
 
 Combines utility of 3 distinct tools:
   Console emulator = Conemu
@@ -20,20 +22,22 @@ See cmdermini (7 MB) for basic console without msysgit
 
 By default, this package installs into $BinRoot\cmder
 
-### Source code
-* https://github.com/bliker/cmder
+[Keyboard shortcuts](https://github.com/bliker/cmder#keyboard-shortcuts)
+[Wiki](https://github.com/bliker/cmder/wiki)
     </description>
     <projectUrl>http://bliker.github.io/cmder/</projectUrl>
-    <tags>portable console command-line terminal</tags>
-    <copyright>Copyright © 2013 Samuel Vasko</copyright>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/5844fbed740e87c941f6bd77c4cc23f084941dbc/icons/cmder.png</iconUrl>
+    <tags>console terminal cli</tags>
+    <copyright>© 2013 Samuel Vasko</copyright>
     <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/bliker/cmder/master/icons/icon_48.png</iconUrl>
-    <releaseNotes>https://github.com/bliker/cmder/releases</releaseNotes>
-  <dependencies>
-      <dependency id="7zip.commandline" />
+    <releaseNotes>
+[Changelog](https://github.com/bliker/cmder/releases)
+[Known issues](https://github.com/bliker/cmder/issues)
+[Source code](https://github.com/bliker/cmder)
+    </releaseNotes>
+    <dependencies>
       <dependency id="vcredist2010" />
-      <dependency id="binroot" />
     </dependencies>
   </metadata>
   <files>

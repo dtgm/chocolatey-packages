@@ -3,7 +3,7 @@ $installerType = 'msi'
 $silentArgs = '/quiet /qn /norestart'
 $url = '{{DownloadUrl}}'
 $checksum = '{{Checksum}}'
-$checksumType = 'sha1'
+$checksumType = 'md5'
 $validExitCodes = @(0)
 
 Install-ChocolateyPackage -PackageName "$packageName" `

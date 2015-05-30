@@ -28,7 +28,7 @@ If you have a movie player that is configured to play flv files, it also allows 
 [What's New?](http://www.nirsoft.net/utils/video_cache_view.html)
     </releaseNotes>
     <dependencies>
-      <dependency id="{{PackageName}}" version="[{{PackageVersion}}]" />
+      <dependency id="{{PackageName}}.install" version="[{{PackageVersion}}]" />
     </dependencies>
   </metadata>
 </package>

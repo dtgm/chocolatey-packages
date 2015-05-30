@@ -4,7 +4,7 @@
     <id>{{packageName}}</id>
     <title>Kodi</title>
     <version>{{packageVersion}}</version>
-    <authors>XMBC Foundation</authors>
+    <authors>XBMC Foundation</authors>
     <owners>dtgm</owners>
     <summary>Media player and entertainment hub</summary>
     <description>
@@ -13,7 +13,7 @@ Kodi (formerly known as XBMC) is an award-winning free and open source (GPL) sof
     <projectUrl>http://kodi.tv/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/b661f890dffb1beca5dd6dd0b660bc7e32244e5d/icons/{{packageName}}.svg</iconUrl>
     <tags>mediaserver video dlna</tags>
-    <copyright>© XMBC Foundation</copyright>
+    <copyright>© XBMC Foundation</copyright>
     <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>http://kodi.tv/tag/release/</releaseNotes>
@@ -21,4 +21,4 @@ Kodi (formerly known as XBMC) is an award-winning free and open source (GPL) sof
   <files>
     <file src="tools\**" target="tools" />
   </files>
-</package>
+</package>
