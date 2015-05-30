@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>adwcleaner</id>
+    <title>AdwCleaner</title>
+    <version>3.305</version>
+    <authors>Xplode</authors>
+    <owners>tonigellida</owners>
+    <summary>
+AdwCleaner is a free removal tool for : Adware (ads softwares) PUP/LPI (Potentially Undesirable Program) Toolbars Hijacker (Hijack of the browser's homepage).
+	</summary>
+    <description>
+AdwCleaner is a free removal tool for : Adware (ads softwares) PUP/LPI (Potentially Undesirable Program) Toolbars Hijacker (Hijack of the browser's homepage).
+It works with a Search and Delete mode.
+It can be easily uninstalled using the mode "Uninstall".
+	</description>
+    <projectUrl>http://general-changelog-team.fr/en/</projectUrl>
+    <tags>malware-scanner malware-remover toolbar-remover</tags>
+    <copyright></copyright>
+    <licenseUrl>http://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/adwcleaner/adwcleaner.png</iconUrl>
+  </metadata>
+</package>
