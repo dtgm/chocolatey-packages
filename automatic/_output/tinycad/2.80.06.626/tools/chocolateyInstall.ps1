@@ -1,4 +1,4 @@
-﻿$packageName = 'tinycad'
+$packageName = 'tinycad'
 $installerType = 'EXE'
 $url = 'http://netcologne.dl.sourceforge.net/project/tinycad/Official Release/2.80.06/TinyCAD_2.80.06_626_Production_Release.exe'
 $silentArgs = '/S'
