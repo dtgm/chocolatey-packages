@@ -1,5 +1,5 @@
 $packageName = '{{PackageName}}'
-$packageSearch = 'Nirsoft sysexp'
+$packageSearch = 'Nirsoft sysexpsysexp'
 $installerType = 'exe'
 $silentArgs = '/S'
 $validExitCodes = @(0)

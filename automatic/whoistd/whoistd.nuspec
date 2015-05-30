@@ -24,7 +24,7 @@ It support both generic domains and country code domains.
 [What's New?](http://www.nirsoft.net/utils/whois_this_domain.html)
     </releaseNotes>
     <dependencies>
-      <dependency id="{{PackageName}}.install" version="[{{PackageVersion}}]" />
+      <dependency id="{{PackageName}}" version="[{{PackageVersion}}]" />
     </dependencies>
   </metadata>
 </package>

@@ -1,18 +1,11 @@
-$packageName = '{{PackageName}}'
-$installerType = 'exe'
-$silentArgs = '/S'
-$validExitCodes = @(0)
 try {
-  Get-ItemProperty -Path @( 'HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*',
-                            'HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*',
-                            'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*' ) `
-                   -ErrorAction:SilentlyContinue `
-  | Where-Object   { $_.DisplayName -like "$packageName*" } `
-  | ForEach-Object { Uninstall-ChocolateyPackage -PackageName "$packageName" `
-                                                 -FileType "$installerType" `
-                                                 -SilentArgs "$($silentArgs)" `
-                                                 -File "$($_.UninstallString)" `
-                                                 -ValidExitCodes $validExitCodes }
+  $packageName = '{{PackageName}}'
+  $fileType = 'exe'
+  $silentArgs = '/S'
+  $validExitCodes = @(0)
+  $unPath = "HKCU:SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall"
+  $unString = (Get-ItemProperty "$unPath\$packageName*" UninstallString).UninstallString
+  Uninstall-ChocolateyPackage "$packageName" "$fileType" "$silentArgs" "$unString" -validExitCodes $validExitCodes
 } catch {
   throw $_.Exception
 }

@@ -3,7 +3,7 @@
   <metadata>
     <id>{{PackageName}}</id>
     <title>Sandboxie</title>
-    <version>{{PackageVersion}}{{PackageGuid}}</version>
+    <version>{{PackageVersion}}</version>
     <authors>Ronen "tzuk" Tzur</authors>
     <owners>dtgm</owners>
     <summary>Executes processes in a protected, isolated space, otherwise known as a "sandbox"</summary>
@@ -16,39 +16,33 @@ A process sandbox helps to manage and limit access permissions a process has to 
 * Secure E-mail: Viruses and other malicious software that might be hiding in your email can't break out of the sandbox and can't infect your real system.
 * Windows Stays Lean: Prevent wear-and-tear in Windows by installing software into an isolated sandbox.
 
-### Shareware; Free with limitations for personal, non-commercial use
+### Shareware; free for personal, non-commercial use
 * After 30 days, nag screen appears that may be dismissed temporarily.
 * Limited to one sandbox at a time.
 * Only software explicitly requested may run in the sandbox (sandboxed programs must be started from Sandboxie program rather than optionally intercepted on the fly).
-* For more information about licensing, see http://www.sandboxie.com/index.php?RegisterSandboxie and the [licensing FAQ](http://www.sandboxie.com/index.php?FAQ_Licensing).
+* [Personal-use](http://www.sandboxie.com/index.php?HomeUse) yearly and lifetime licenses are available without guaranteed technical support.
+* [Commercial-use](http://www.sandboxie.com/index.php?CommercialUse) yearly licenses are available.
 
-### Documentation
-* [How it works](http://www.sandboxie.com/index.php?HowItWorks)
-* [FAQ](http://www.sandboxie.com/index.php?FrequentlyAskedQuestions)
-* [Manual](http://www.sandboxie.com/index.php?HelpTopics)
-* [Known program conflicts](http://www.sandboxie.com/index.php?KnownConflicts)
-
-### Community
-* [Forum](http://forums.sandboxie.com/phpBB3/)
+[Frequently Asked Questions (FAQ)](http://www.sandboxie.com/index.php?FrequentlyAskedQuestions)
+[Licensing FAQ](http://www.sandboxie.com/index.php?FAQ_Licensing)
+[Documentation](http://www.sandboxie.com/index.php?HelpTopics)
+[User support forum](http://forums.sandboxie.com/phpBB3/)
+[Known Conflicts](http://www.sandboxie.com/index.php?KnownConflicts)
     </description>
-    <tags>security virtualization forensics shareware nagscreen</tags>
+    <tags>security virtualization forensics</tags>
     <projectUrl>http://www.sandboxie.com/</projectUrl>
-    <copyright>© 2004 Sandboxie Holdings LLC, © Dec 2013 Invincea</copyright>
+    <copyright>© 2004-2013 Sandboxie Holdings LLC, © Dec 2013 Invincea</copyright>
     <licenseUrl>http://www.sandboxie.com/index.php?EndUserLicenseAgreement</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/19d35dff574b7496b92f235fa1503d47b861871a/icons/sandboxie.png</iconUrl>
-<releaseNotes>
-#### Program
-* [News](http://forums.sandboxie.com/phpBB3/viewforum.php?f%3D2)
-* [Release log](http://www.sandboxie.com/index.php?AllVersions)
-* [Changelog](http://www.sandboxie.com/index.php?VersionChanges)
-* [Beta release notes](http://forums.sandboxie.com/phpBB3/viewforum.php?f%3D43)
-
-#### Package
-* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/19d35dff574b7496b92f235fa1503d47b861871a/icons/{{PackageName}}.png</iconUrl>
+    <releaseNotes>
+[Version Changes](http://www.sandboxie.com/index.php?VersionChanges)
     </releaseNotes>
     <dependencies>
       <dependency id="{{PackageName}}.install" version="[{{PackageVersion}}]" />
     </dependencies>
   </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
 </package>

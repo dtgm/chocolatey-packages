@@ -3,16 +3,11 @@ $url = '{{DownloadUrl}}'
 $checksum = '{{Checksum}}'
 $checksumType = 'sha1'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$installFile = Join-Path $toolsDir "electrum.exe"
-try {
-  Get-ChocolateyWebFile -PackageName "$packageName" `
-                        -FileFullPath "$installFile" `
-                        -Url "$url" `
-                        -Checksum "$checksum" `
-                        -ChecksumType "$checksumType"
-  # create an empty sidecar metadata file for closed-source shimgen.exe to prevent blank black window
-  Set-Content -Path ("$installFile.gui") `
-              -Value $null  
-} catch {
-  throw $_.Exception
-}
+$installFile = Join-Path $toolsDir "$($packageName).exe"
+
+Install-ChocolateyZipPackage -PackageName "$packageName" `
+                             -Url "$url" `
+                             -UnzipLocation "$toolsDir" `
+                             -Url64bit "" `
+                             -Checksum "$checksum" `
+                             -ChecksumType "$checksumType"

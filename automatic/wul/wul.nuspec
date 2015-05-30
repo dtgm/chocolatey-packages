@@ -22,7 +22,7 @@ In addition, it allows you to instantly open the Web link in Microsoft Web site 
 [What's New?](http://www.nirsoft.net/utils/wul.html)
     </releaseNotes>
     <dependencies>
-      <dependency id="{{PackageName}}.install" version="[{{PackageVersion}}]" />
+      <dependency id="{{PackageName}}" version="[{{PackageVersion}}]" />
     </dependencies>
   </metadata>
 </package>

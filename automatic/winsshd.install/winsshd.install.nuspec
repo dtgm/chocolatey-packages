@@ -22,13 +22,6 @@ Personal Edition (installed by default) is free for non-commercial, personal use
   * GSSAPI authentication is disabled (Kerberos and NTLM).
 
 For any organizational use (non-commercial or commercial) or to remove the limitations of the Personal Edition, it is required to purchase a Standard Edition license and will require re-installing this package with the parameter -standardedition.  See http://www.bitvise.com/ssh-server-license for more information.
-
-#### Package Parameters
-* `'"/InstallLocation=C:\Path\to\installationdirectory"'` - overwrite the default installation directory
-
-
-#### Example
-* `choco install {{PackageName}} -packageparameters '"/InstallLocation=C:\temp"'`
   </description>
     <projectUrl>http://www.bitvise.com/ssh-server</projectUrl>
     <tags>ssh server</tags>
@@ -37,7 +30,7 @@ For any organizational use (non-commercial or commercial) or to remove the limit
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/master/icons/winsshd.png</iconUrl>
     <releaseNotes>
-[Changelog](http://www.bitvise.com/ssh-server-version-history)
+http://www.bitvise.com/ssh-server-version-history
     </releaseNotes>
   </metadata>
   <files>

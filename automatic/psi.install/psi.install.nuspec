@@ -16,24 +16,19 @@ Because XMPP allows gateways to other services, which many servers support, it c
 
 Psi has built in GnuPG support for message encryption.  With Psi's full Unicode support and localizations, easy file transfers, customizable iconsets, and many other great features, you'll learn why users around the world are making the switch to free, open instant messaging.
 
-#### User support forum
+### User support forum
 * https://groups.google.com/forum/#!forum/psi-users
+
+### Source code
+* https://github.com/psi-im/psi
     </description>
     <projectUrl>http://psi-im.org/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/70cdddfb917ea5ae438c8095129b374c1cf06408/icons/psi.png</iconUrl>
     <tags>xmpp messenger chat gnupg qt</tags>
-    <copyright>© Psi Team</copyright>
+    <copyright>© the Psi Team</copyright>
     <licenseUrl>https://raw.githubusercontent.com/psi-im/psi/master/COPYING</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <releaseNotes>
-#### Program
-* [Changelog](https://github.com/psi-im/psi/blob/master/README)
-* [Known issues](https://github.com/psi-im/psi/issues)
-* [Source code](https://github.com/psi-im/psi)
-
-#### Package
-* Fix checksum for 64-bit installer
-    </releaseNotes>
+    <releaseNotes>https://github.com/psi-im/psi/blob/master/README</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

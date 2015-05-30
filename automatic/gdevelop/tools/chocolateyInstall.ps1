@@ -3,7 +3,7 @@ $installerType = 'exe'
 $silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
 $url = '{{DownloadUrl}}'
 $checksum = '{{Checksum}}'
-$checksumType = 'md5'
+$checksumType = 'sha1'
 $validExitCodes = @(0)
 
 Install-ChocolateyPackage -PackageName "$packageName" `

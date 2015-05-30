@@ -1,19 +1,16 @@
-$packageName = '{{PackageName}}'
-$packageSearch = $packageName
-$installerType = 'exe'
-$silentArgs = '/S'
-$validExitCodes = @(0)
 try {
-  Get-ItemProperty -Path @( 'HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*',
-                            'HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*',
-                            'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*' ) `
-                   -ErrorAction:SilentlyContinue `
-  | Where-Object   { $_.DisplayName -like "$packageSearch*" } `
-  | ForEach-Object { Uninstall-ChocolateyPackage -PackageName "$packageName" `
-                                                 -FileType "$installerType" `
-                                                 -SilentArgs "$($silentArgs)" `
-                                                 -File "$($_.UninstallString)" `
-                                                 -ValidExitCodes $validExitCodes }
+    $packageName = '{{PackageName}}'
+    $fileType = 'exe'
+    $silentArgs = '/S'
+    $unFile = "${Env:ProgramFiles}\digiKam\Uninstall.exe"
+    $unFilex86 = "${Env:ProgramFiles(x86)}\digiKam\Uninstall.exe"
+    $validExitCodes = @(0)
+
+    if (Test-Path "$unFilex86") {$file = "$unFilex86"}
+    if (Test-Path "$unFile") {$file = "$unFile"}
+    if ((Test-Path "$unFile") -or (Test-Path "$unFilex86")) {
+        Uninstall-ChocolateyPackage $packageName $fileType $silentArgs $file -validExitCodes $validExitCodes
+    }
 } catch {
-  throw $_.Exception
+    throw $_.Exception
 }

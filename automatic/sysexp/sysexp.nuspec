@@ -31,7 +31,7 @@ Here's some examples for data that you can export with SysExporter:
 [What's New?](http://www.nirsoft.net/utils/sysexp.html)
     </releaseNotes>
     <dependencies>
-      <dependency id="{{PackageName}}.install" version="[{{PackageVersion}}]" />
+      <dependency id="{{PackageName}}" version="[{{PackageVersion}}]" />
     </dependencies>
   </metadata>
 </package>

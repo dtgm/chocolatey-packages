@@ -1,5 +1,5 @@
 $packageName = '{{PackageName}}'
-$packageSearch = 'Nirsoft produkey'
+$packageSearch = 'Nirsoft produkeyprodukey'
 $installerType = 'exe'
 $silentArgs = '/S'
 $validExitCodes = @(0)
