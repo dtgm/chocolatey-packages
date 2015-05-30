@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>Isoplex</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Isohunt</authors>
+    <owners>dtgm</owners>
+    <summary>A movie searching and streaming application</summary>
+    <description>
+A movie searching and streaming application using torrents for distribution.
+
+#### Documentation
+* [Features](http://isoplex.isohunt.to/?refurl%3D#features)
+* [FAQ](http://community.isoplex.isohunt.to/c/faq)
+
+#### Community
+* [Forum](http://community.isoplex.isohunt.to/categories)
+* [Twitter](https://twitter.com/IsoplexApp)
+    </description>
+    <projectUrl>http://isoplex.isohunt.to</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/d1e037cc7c943fda29b9067b3b1c3229d99402ff/icons/{{PackageName}}.png</iconUrl>
+    <tags>p2p movie-catalog torrent isohunt popcorntime</tags>
+    <copyright>© Isoplex</copyright>
+    <licenseUrl>http://en.wikipedia.org/wiki/Freeware</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [News](http://community.isoplex.isohunt.to/c/news-and-announcements)
+* [Roadmap](http://community.isoplex.isohunt.to/c/isoplex-development-plan)
+* [Known issues](http://community.isoplex.isohunt.to/c/bug-report)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
