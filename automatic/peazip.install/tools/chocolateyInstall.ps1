@@ -1,12 +1,11 @@
 $packageName = '{{PackageName}}'
-$urlArray = {{DownloadUrlx64}}
-$url = $urlArray[0]
+$installerType = 'exe'
+$url = '{{DownloadUrl}}'
 $checksum = '{{Checksum}}'
 $checksumType = 'sha1'
-$url64 = $urlArray[1]
+$url64 = '{{DownloadUrlx64}}'
 $checksum64 = '{{Checksumx64}}'
 $checksumType64 = 'sha1'
-$installerType = 'exe'
 $silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
 $validExitCodes = @(0)
 

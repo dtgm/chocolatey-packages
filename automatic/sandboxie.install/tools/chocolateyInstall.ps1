@@ -8,18 +8,12 @@ $url64 = '{{DownloadUrlx64}}'
 $checksum64 = '{{Checksumx64}}'
 $checksumType64 = 'sha1'
 $validExitCodes = @(0)
-$silentArgs = '/S'
-$reg = Get-ItemProperty -Path @( 'HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*',
-                                    'HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*',
-                                    'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*' ) `
-                           -ErrorAction:SilentlyContinue `
-          | Where-Object   { $_.DisplayName -like "$packageSearch*" }
-if ($reg) { 
-  $silentArgs += ' /upgrade'
-} else {
-  $silentArgs += ' /install'
-}
 
+if ((Test-Path $Env:ProgramFiles\$packageSearch*) -Or (Test-Path ${Env:ProgramFiles(x86)}\$packageSearch*)) { 
+  $silentArgs = '/upgrade /S'
+} else {
+  $silentArgs = '/install /S'
+}
 Install-ChocolateyPackage -PackageName "$packageName" `
                           -FileType "$installerType" `
                           -Url "$url" `

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>TurnFlash (User Interface Version)</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm</owners>
+    <summary>Enable/Disable Flash in Internet Explorer</summary>
+    <description>
+Many Web sites today use the Macromedia Flash component for creating animated ads.
+These ads consumes additional bandwidth and sometimes even slow down your computer.
+Unfortunately, Internet Explorer doesn't provide a simple way to disable the Flash
+component. Furthermore, if you refuse to install the Flash component, 
+Internet Explorer will constantly ask you to install Flash in each time that you
+enter into a Web page that contains a Flash object. 
+
+This utility allows you to easily disable and enable the Flash component in 
+Internet Explorer browser (Version 5.00 and above). When you disable flash 
+with this utility, all new windows in Internet Explorer will be opened without
+using the Flash component. The disabling of Flash doesn't affect the windows that
+are already opened.
+While the Flash Component is disabled, Internet Explorer will not ask you to 
+download  and install it. However, the disabling of the Flash component might 
+cause a script error in some Web pages.
+Be aware that in Windows NT, 2000 and XP, this utility will not work if you 
+don't have permission to write to the Registry keys of Internet Explorer.
+    </description>
+    <projectUrl>http://www.nirsoft.net/utils/tflash2.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/tflash210.png</iconUrl>
+    <tags></tags>
+    <copyright>© 2003 NirSoft</copyright>
+    <licenseUrl>http://www.nirsoft.net/utils/tflash2.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[What's New?](http://www.nirsoft.net/utils/tflash2.html)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

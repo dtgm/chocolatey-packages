@@ -14,7 +14,8 @@ Ownership of a name is based on ownership of a coin, which is in turn based on p
     
 Namecoin was the first fork of Bitcoin and still is one of the most innovative altcoins. It was first to implement merged mining and a decentralized DNS. 
 
-[FAQ](https://wiki.namecoin.info/index.php?title=FAQ)
+### Frequently Asked Questions (FAQ)
+* https://wiki.namecoin.info/index.php?title=FAQ
 
 ### Disk Requirements - Namecoin blockchain (public transactional database) size
 * {{PackageGuid}}
@@ -26,16 +27,14 @@ Namecoin was the first fork of Bitcoin and still is one of the most innovative a
 * https://github.com/namecoin/namecoin
     </description>
     <projectUrl>http://namecoin.info/</projectUrl>
-    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/8ae1bc789979b1188d2945bfaeef34e29d0dcc39/icons/{{PackageName}}.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/19d35dff574b7496b92f235fa1503d47b861871a/icons/{{PackageName}}.svg</iconUrl>
     <tags>namecoin nmc wallet cryptocurrency p2p</tags>
     <copyright>© Namecoin Project</copyright>
     <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <releaseNotes>
-[Changelog](https://github.com/namecoin/namecoin/blob/namecoinq-release/changelog.md)
-    </releaseNotes>
+    <releaseNotes>https://github.com/namecoin/namecoin/blob/namecoinq-release/changelog.md</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
   </files>
-</package>
+</package>

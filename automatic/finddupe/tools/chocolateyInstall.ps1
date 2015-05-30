@@ -1,15 +1,13 @@
-$packageName = '{{PackageName}}'
-$url = '{{DownloadUrl}}'
-$checksum = '{{Checksum}}'
-$checksumType = 'sha1'
-$toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$installFile = Join-Path $toolsDir "$($packageName).exe"
 try {
-  Get-ChocolateyWebFile -PackageName "$packageName" `
-                        -FileFullPath "$installFile" `
-                        -Url "$url" `
-                        -Checksum "$checksum" `
-                        -ChecksumType "$checksumType"
+  $packageName = '{{PackageName}}'
+  $packageVersion = '{{PackageVersion}}'
+  $url = '{{DownloadUrl}}'
+  $checksum = '{{Checksum}}'
+  $checksumType = 'sha1'
+  $installDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+  $installFile = Join-Path $installDir "$($packageName).exe"
+
+  Get-ChocolateyWebFile "$packageName" "$installFile" "$url" -Checksum "$checksum" -ChecksumType "$checksumType
 } catch {
   throw $_.Exception
 }

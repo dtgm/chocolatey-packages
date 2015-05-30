@@ -3,13 +3,17 @@ $packageSearch = 'sandboxie'
 $installerType = 'exe'
 $silentArgs = '/S /remove'
 $validExitCodes = @(0)
+$unPath = Join-Path 'HKLM:SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall' $packageSearch
+$unPathWow6432 = Join-Path 'HKLM:SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall' $packageSearch
+
 try {
-  $reg = Get-ItemProperty -Path @( 'HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*',
-                                    'HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*',
-                                    'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*' ) `
-                           -ErrorAction:SilentlyContinue `
-          | Where-Object   { $_.DisplayName -like "$packageSearch*" }
-  $unString = $reg.UninstallString
+  if ($unString = (Get-Item -Path "$unPath*").GetValue('UninstallString')){}
+  elseif ($unString = (Get-Item -Path "$unPathWow6432*").GetValue('UninstallString')){}
+  else {
+    Write-Warning "Error: $packageName is not installed."
+    Write-Warning "Please contact package maintainer(s) at https://chocolatey.org/packages/$packageName/ContactOwners"
+    throw
+  }
   if ($unString | Select-String -Pattern / ) {
     $unString = $unString | %{ $_.Split(' /')[0]; }
   }
@@ -17,7 +21,7 @@ try {
                               -FileType "$installerType" `
                               -SilentArgs "$silentArgs" `
                               -File "$unString" `
-                              -ValidExitCodes $validExitCodes
+                              -validExitCodes $validExitCodes
 } catch {
-  throw $_.Exception
+  throw $_.Exception.Message
 }

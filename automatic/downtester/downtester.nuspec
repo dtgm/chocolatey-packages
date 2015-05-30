@@ -27,7 +27,7 @@ paste it into Excel and other applications.
 [What's New?](http://www.nirsoft.net/utils/download_speed_tester.html)
     </releaseNotes>
     <dependencies>
-      <dependency id="{{PackageName}}.install" version="[{{PackageVersion}}]" />
+      <dependency id="{{PackageName}}" version="[{{PackageVersion}}]" />
     </dependencies>
   </metadata>
 </package>

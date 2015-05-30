@@ -2,8 +2,8 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
     <id>{{PackageName}}</id>
-    <title>Firefox Beta</title>
-    <version>{{PackageGuid}}</version>
+    <title>Firefox Developer Edition</title>
+    <version>{{PackageVersion}}</version>
     <authors>Mozilla</authors>
     <owners>dtgm</owners>
     <summary>Web browser of the latest features in a more stable environment</summary>
@@ -32,13 +32,9 @@ Every 6 weeks, Firefox developers take the current stable features of each build
     <licenseUrl>http://www.mozilla.org/MPL/2.0/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-#### Program
 [Overview release notes](https://www.mozilla.org/firefox/beta/notes/)
 [Mozilla Developer Network release notes](https://developer.mozilla.org/Firefox/Releases/)
 [Source code changelog](http://hg.mozilla.org/releases/mozilla-beta/log/)
-
-#### Package
-* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   </metadata>
   <files>

@@ -6,25 +6,24 @@
     <version>{{PackageVersion}}</version>
     <authors>Nir Sofer</authors>
     <owners>dtgm</owners>
-    <summary>Alternative to RegEdit find/search/scan of Windows</summary>
+    <summary>Find/search in the Registry of Windows</summary>
     <description>
-RegScanner is a small utility that allows you to scan the Registry, find the desired Registry values
-that match to the specified search criteria, and display them in one list.
+RegScanner is a small utility that allows you to scan the Registry, find the desired Registry values that match to the specified search criteria, and display them in one list. After finding the Registry values, you can easily jump to the right value in RegEdit, simply by double-clicking the desired Registry item. You can also export the found Registry values into a .reg file that can be used in RegEdit.
 
-After finding the Registry values, you can easily jump to the right value in RegEdit, simply by
-double-clicking the desired Registry item.
-
-You can also export the found Registry values into a .reg file that can be used in RegEdit.
+### Advantages over RegEdit find of Windows
+* RegScanner utility display the entire search result at once, so you don't have to press F3 in order to find the next value.
+* In addition to the standard string search (Like in RegEdit), RegScanner can also find Registry values by data length, value type (REG_SZ, REG_DWORD, and so on), and by modified date of the key.
+* RegScanner can find a unicode string located inside a binary value.
+* RegScanner allows you to make a case sensitive search.
+* While scanning the Registry, RegScanner display the current scanned Registry key, as opposed to RegEdit, that simply display a boring "Searching the registry" dialog-box.
     </description>
+    <releaseNotes>http://www.nirsoft.net/utils/regscanner.html</releaseNotes>
     <projectUrl>http://www.nirsoft.net/utils/regscanner.html</projectUrl>
-    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/regscanner.png</iconUrl>
-    <tags>scanner regedit scan search find windows</tags>
-    <copyright>© 2004 NirSoft</copyright>
+    <tags>windows registry fast search</tags>
+    <copyright>© Nir Soft</copyright>
     <licenseUrl>http://www.nirsoft.net/utils/regscanner.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <releaseNotes>
-[What's New?](http://www.nirsoft.net/utils/regscanner.html)
-    </releaseNotes>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/468462cc34fb3d747470afaa12f4e248f98f3303/icons/{{PackageName}}.png</iconUrl>
     <dependencies>
       <dependency id="{{PackageName}}.install" version="[{{PackageVersion}}]" />
     </dependencies>

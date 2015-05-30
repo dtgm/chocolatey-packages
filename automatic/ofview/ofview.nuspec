@@ -24,7 +24,7 @@ Optionally, you can also close one or more opened files, or close the process th
 [What's New?](http://www.nirsoft.net/utils/opened_files_view.html)
     </releaseNotes>
     <dependencies>
-      <dependency id="{{PackageName}}.install" version="[{{PackageVersion}}]" />
+      <dependency id="{{PackageName}}" version="[{{PackageVersion}}]" />
     </dependencies>
   </metadata>
 </package>

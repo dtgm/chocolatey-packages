@@ -2,7 +2,7 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
     <id>{{PackageName}}</id>
-    <title>MyEventViewer</title>
+    <title>Alternative to standard event viewer of Windows</title>
     <version>{{PackageVersion}}</version>
     <authors>Nir Sofer</authors>
     <owners>dtgm</owners>

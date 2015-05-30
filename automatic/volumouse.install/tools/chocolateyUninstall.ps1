@@ -1,5 +1,5 @@
 $packageName = '{{PackageName}}'
-$packageSearch = 'Nirsoft volumouse'
+$packageSearch = 'Nirsoft volumousevolumouse'
 $installerType = 'exe'
 $silentArgs = '/S'
 $validExitCodes = @(0)

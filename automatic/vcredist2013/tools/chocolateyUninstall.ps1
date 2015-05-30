@@ -1,21 +1,16 @@
-﻿$packageName = '{{PackageName}}'
+﻿$packageName = 'vcredist2013'
 $packageSearch = 'Microsoft Visual C++ 2013 Redistributable'
 $installerType = 'exe'
 $silentArgs = '/uninstall /quiet'
-$validExitCodes = @(0,3010)  # http://msdn.microsoft.com/en-us/library/aa368542(VS.85).aspx
+$validExitCodes = @(0)
 try {
   Get-ItemProperty -Path @( 'HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*',
                             'HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*',
                             'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*' ) `
                    -ErrorAction:SilentlyContinue `
-  | Where-Object   { $_.DisplayName -Like "$packageSearch*" } `
+  | Where-Object   { $_.DisplayName -like "$packageSearch*" } `
   | ForEach-Object { 
-    if ( $_.UninstallString -Match '"?(.*?)(".*)?$' ) {
-      $unString = $matches[1]
-    } else {
-      Write-Error "No valid UninstallString found."
-      Write-Host "Continuing with default UninstallString."
-    }
+    $unString = "$_.UninstallString" | %{ $_.Split('"')[1]; }
     Uninstall-ChocolateyPackage -PackageName "$packageName" `
                                 -FileType "$installerType" `
                                 -SilentArgs "$silentArgs" `

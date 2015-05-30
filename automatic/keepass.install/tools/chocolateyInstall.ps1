@@ -1,15 +1,6 @@
-﻿$packageName = '{{PackageName}}'
-$installerType = 'exe'
-$silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
-$url = '{{DownloadUrlx64}}'
-$checksum = '{{Checksum}}'
-$checksumType = 'sha1'
-$validExitCodes = @(0)
+﻿$id     = "keepass.install"
+$url    = "http://downloads.sourceforge.net/project/keepass/KeePass%202.x/2.28/KeePass-2.28-Setup.exe"
+$kind   = "EXE"
+$silent = "/VERYSILENT"
 
-Install-ChocolateyPackage -PackageName "$packageName" `
-                          -FileType "$installerType" `
-                          -SilentArgs "$silentArgs" `
-                          -Url "$url" `
-                          -ValidExitCodes $validExitCodes `
-                          -Checksum "$checksum" `
-                          -ChecksumType "$checksumType"
+Install-ChocolateyPackage -PackageName $id -FileType $kind -SilentArgs $silent -Url $url

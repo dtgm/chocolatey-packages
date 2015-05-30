@@ -3,10 +3,10 @@
   <metadata>
     <id>{{PackageName}}</id>
     <title>Firefox Nightly</title>
-    <version>{{PackageGuid}}</version>
+    <version>{{PackageVersion}}</version>
     <authors>Mozilla</authors>
     <owners>dtgm</owners>
-    <summary>Web browser of the latest experimental features for testing</summary>
+    <summary>Web browser of the latest features for testing</summary>
     <description>
 Firefox Nightly builds are under active development and should be used only by advanced users for testing experimental features.
 
@@ -32,13 +32,9 @@ Every 6 weeks, Firefox developers take the current stable features of each build
     <licenseUrl>http://www.mozilla.org/MPL/2.0/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-#### Program
 [News](https://www.squarefree.com/burningedge/)
 [Report bugs](https://bugzilla.mozilla.org/enter_bug.cgi?product=Firefox)
 [Source code changelog](https://hg.mozilla.org/mozilla-central/log/)
-
-#### Package
-* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   </metadata>
   <files>

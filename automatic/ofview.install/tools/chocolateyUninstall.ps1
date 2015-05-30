@@ -1,5 +1,5 @@
 $packageName = '{{PackageName}}'
-$packageSearch = 'Nirsoft ofview'
+$packageSearch = 'Nirsoft ofviewofview'
 $installerType = 'exe'
 $silentArgs = '/S'
 $validExitCodes = @(0)

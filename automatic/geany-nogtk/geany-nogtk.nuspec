@@ -23,7 +23,7 @@ This package installs geany with the GTK runtime environment as a required depen
     <copyright>© 2006 Enrico Tröger, Matthew Brush, Colomban Wendling, Frank Lanitz, Nick Treleaven and Dominic Hopf</copyright>
     <licenseUrl>https://github.com/geany/geany/blob/master/COPYING</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/d1e037cc7c943fda29b9067b3b1c3229d99402ff/icons/geany.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/d1e037cc7c943fda29b9067b3b1c3229d99402ff/icons/{{PackageName}}.png</iconUrl>
     <releaseNotes>
 [Release Notes](http://www.geany.org/Documentation/ReleaseNotes)
 [Changelog](https://github.com/geany/geany/releases)

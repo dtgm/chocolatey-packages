@@ -1,5 +1,5 @@
 $packageName = '{{PackageName}}'
-$packageSearch = 'Nirsoft regscanner'
+$packageSearch = 'NirSoft RegScanner'
 $installerType = 'exe'
 $silentArgs = '/S'
 $validExitCodes = @(0)

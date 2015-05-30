@@ -1,19 +1,18 @@
-$packageName = '{{PackageName}}'
-$packageSearch = "$packageName"
-$installerType = 'exe'
-$silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
-$validExitCodes = @(0)
 try {
-  Get-ItemProperty -Path @( 'HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*',
-                            'HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*',
-                            'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*' ) `
-                   -ErrorAction:SilentlyContinue `
-  | Where-Object   { $_.DisplayName -like "$packageSearch*" } `
-  | ForEach-Object { Uninstall-ChocolateyPackage -PackageName "$packageName" `
-                                                 -FileType "$installerType" `
-                                                 -SilentArgs "$($silentArgs)" `
-                                                 -File "$($_.UninstallString)" `
-                                                 -ValidExitCodes $validExitCodes }
+  $packageName = '{{PackageName}}'
+  $fileType = 'exe'
+  $silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
+  $validExitCodes = @(0)
+  $unPath = "HKLM:SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall"
+  $unPathx86 = "HKLM:SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall"
+  $osBitness = Get-ProcessorBits
+  if ($osBitness -eq 64) {
+    if ($unString=(Get-ItemProperty "$unpath\$packageName*" UninstallString).UninstallString) {}
+    else { $unString=(Get-ItemProperty "$unPathx86\$packageName*" UninstallString).UninstallString }
+  } else {
+    $unString = (Get-ItemProperty "$unPath\$packageName*" UninstallString).UninstallString
+  }
+  Uninstall-ChocolateyPackage "$packageName" "$fileType" "$silentArgs" "$unString" -validExitCodes $validExitCodes
 } catch {
   throw $_.Exception
 }

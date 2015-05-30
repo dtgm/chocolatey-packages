@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
-    <id>{{PackageName}}</id>
+    <id>{{packageName}}</id>
     <title>Midnight Commander</title>
-    <version>{{PackageVersion}}</version>
+    <version>{{packageVersion}}</version>
     <authors>adamy</authors>
     <owners>dtgm</owners>
-    <summary>Cross-platform, orthodox file manager and clone of Norton Commander</summary>
+    <summary>Cross-platform, orthodox file manager and a clone of Norton Commander.</summary>
     <description>
 Native port of GNU Midnight Commander compiled for Windows.
     
@@ -25,9 +25,7 @@ Specific information regarding the base Midnight Commander engine, can be found 
     <copyright>© adamy</copyright>
     <licenseUrl>http://fsfe.org/campaigns/gplv3/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <releaseNotes>
-[Changelog](http://sourceforge.net/projects/mcwin32/files/changelog.txt)
-    </releaseNotes>
+    <releaseNotes>http://sourceforge.net/projects/mcwin32/files/changelog.txt</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

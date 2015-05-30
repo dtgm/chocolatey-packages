@@ -26,7 +26,7 @@ When the conditions that you define are not satisfied, your mouse wheel will be 
 [What's New?](http://www.nirsoft.net/utils/volumouse.html)
     </releaseNotes>
     <dependencies>
-      <dependency id="{{PackageName}}.install" version="[{{PackageVersion}}]" />
+      <dependency id="{{PackageName}}" version="[{{PackageVersion}}]" />
     </dependencies>
   </metadata>
 </package>

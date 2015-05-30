@@ -22,7 +22,7 @@ This utility allows you to capture .flv (Flash Video) files and RTSP/MMS video s
 [What's New?](http://www.nirsoft.net/utils/web_video_capture.html)
     </releaseNotes>
     <dependencies>
-      <dependency id="{{PackageName}}.install" version="[{{PackageVersion}}]" />
+      <dependency id="{{PackageName}}" version="[{{PackageVersion}}]" />
     </dependencies>
   </metadata>
 </package>

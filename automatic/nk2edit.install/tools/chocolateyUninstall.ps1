@@ -1,5 +1,5 @@
 $packageName = '{{PackageName}}'
-$packageSearch = 'Nirsoft nk2edit'
+$packageSearch = 'Nirsoft nk2editnk2edit'
 $installerType = 'exe'
 $silentArgs = '/S'
 $validExitCodes = @(0)

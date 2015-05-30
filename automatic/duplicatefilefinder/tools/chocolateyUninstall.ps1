@@ -1,19 +1,18 @@
-$packageName = '{{PackageName}}'
-$packageSearch = 'Auslogics Duplicate'
-$installerType = 'exe'
-$silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
-$validExitCodes = @(0)
 try {
-  Get-ItemProperty -Path @( 'HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*',
-                            'HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*',
-                            'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*' ) `
-                   -ErrorAction:SilentlyContinue `
-  | Where-Object   { $_.DisplayName -like "$packageSearch*" } `
-  | ForEach-Object { Uninstall-ChocolateyPackage -PackageName "$packageName" `
-                                                 -FileType "$installerType" `
-                                                 -SilentArgs "$($silentArgs)" `
-                                                 -File "$($_.UninstallString)" `
-                                                 -ValidExitCodes $validExitCodes }
+  $packageName = '{{PackageName}}'
+  $packageUn = 'Auslogics Duplicate'
+  $fileType = 'exe'
+  $silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
+  $validExitCodes = @(0)
+  $osBitness = Get-ProcessorBits
+  if ($osBitness -eq 64) {
+    $unPath = 'HKLM:SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall'
+  } else {
+    $unPath = 'HKLM:SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall'
+  }
+  $unString = (Get-ItemProperty "$unPath\*" | Where-Object {$_.DisplayName -like "$packageUn*"}).UninstallString
+  Uninstall-ChocolateyPackage "$packageName" "$fileType" "$silentArgs" "$unString" -validExitCodes $validExitCodes
 } catch {
   throw $_.Exception
 }
+

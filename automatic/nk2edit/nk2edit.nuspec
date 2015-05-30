@@ -22,7 +22,7 @@ In some circumstances, you may need to repair or modify the values appeared in t
 [What's New?](http://www.nirsoft.net/utils/outlook_nk2_edit.html)
     </releaseNotes>
     <dependencies>
-      <dependency id="{{PackageName}}.install" version="[{{PackageVersion}}]" />
+      <dependency id="{{PackageName}}" version="[{{PackageVersion}}]" />
     </dependencies>
   </metadata>
 </package>
