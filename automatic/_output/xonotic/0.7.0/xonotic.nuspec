@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>xonotic</id>
+    <title>Xonotic</title>
+    <version>0.7.0</version>
+    <authors>Team Xonotic</authors>
+    <owners>tonigellida</owners>
+    <summary></summary>
+    <description>
+Xonotic is a free (GPL), fast-paced first-person shooter that works on Windows, OS X and Linux.
+The project is geared towards providing addictive arena shooter gameplay which is all spawned and driven by the community itself.
+Xonotic is a direct successor of the Nexuiz project with years of development between them, and it aims to become the best possible open-source FPS (first-person-shooter) of its kind.
+======= Notes =======
+Previous version is removed and all your user data remains.
+	</description>
+    <projectUrl>http://www.xonotic.org/</projectUrl>
+    <tags>game first-person-shooter opengl quake</tags>
+    <copyright></copyright>
+    <licenseUrl>http://dev.xonotic.org/projects/3/wiki/Legal</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/xonotic/xonotic.png</iconUrl>
+  </metadata>
+</package>
