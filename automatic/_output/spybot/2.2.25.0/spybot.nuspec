@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>spybot</id>
+    <title>Spybot - Search and Destroy</title>
+    <version>2.2.25.0</version>
+    <authors>Safer Networking Ltd</authors>
+    <owners>tonigellida</owners>
+    <summary>
+Spybot - Search and Destroy detects and removes spyware, a relatively new kind of threat not yet covered by common anti-virus applications.
+	</summary>
+    <description>
+Spybot - Search and Destroy detects and removes spyware, a relatively new kind of threat not yet covered by common anti-virus applications.
+Companies and institutions need to buy licenses for the commercial versions of our software.
+Spyware silently tracks your surfing behaviour to create a marketing profile for you that is transmitted without your knowledge to the compilers and sold to advertising companies.
+If you see new toolbars in your Internet Explorer that you havent intentionally installed, if your browser crashes inexplicably, or if your home page has been "hijacked" (or changed without your knowledge), your computer is most probably infected with spyware.
+	</description>
+    <projectUrl>http://www.safer-networking.org/private/</projectUrl>
+    <tags>security anti-spyware malware-scanner anti-rootkit spyware-removal</tags>
+    <copyright></copyright>
+    <licenseUrl>http://www.safer-networking.org/eula-for-private-users/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/spybot/spybot.jpg</iconUrl>
+  </metadata>
+</package>

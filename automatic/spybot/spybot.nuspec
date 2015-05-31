@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>Spybot</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Safer-Networking Ltd</authors>
+    <owners>dtgm</owners>
+    <summary>Detects and removes spyware and rootkits</summary>
+    <description>
+For home users who want spyware protection for their own or their families Windows based Personal Computers and do not need additional antivirus protection. Users manually look after own updating. Can be upgraded to the ‘Home Edition’ if required.
+
+#### Freeware
+This package installs the free version of Spybot which allows full, manual scanning of malware and rootkits. For anti-virus protection and additional features licensed versions are available. For more info, see https://www.safer-networking.org/private/compare/
+
+#### Community
+* [Forum](https://forums.spybot.info/downloads.php?id=1)
+* [RSS news feed](https://www.safer-networking.org/feed/)
+* [Facebook](https://www.facebook.com/pages/Spybot-Search-Destroy/108833799151890)
+* [Twitter](https://www.twitter.com/SpybotSD)
+* [YouTube](https://www.youtube.com/user/SaferNetworking)
+    </description>
+    <projectUrl>http://www.safer-networking.org/private/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/d1e037cc7c943fda29b9067b3b1c3229d99402ff/icons/{{PackageName}}.png</iconUrl>
+    <tags>freeware anti-malware anti-spyware anti-rootkit scanner</tags>
+    <copyright>© 2000 Safer-Networking Ltd</copyright>
+    <licenseUrl>http://www.safer-networking.org/eula-for-private-users/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Release log](https://forums.spybot.info/downloads.php?id=1)
+* [Privacy Policy](https://www.safer-networking.org/privacy-policy/)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
