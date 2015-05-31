@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="453a4ace-3234-4ff5-97e8-8f174dd7f395">
     <SourceTemplate><![CDATA[<Jobs>
@@ -70,9 +70,9 @@
 </Jobs>]]></SourceTemplate>
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
-    <UserNotes>antivirus AUTO CHANGEABLE title</UserNotes>
-    <LastFileSize>165092752</LastFileSize>
-    <LastFileDate>2014-11-02T21:37:50.9112945</LastFileDate>
+    <UserNotes />
+    <LastFileSize>106536608</LastFileSize>
+    <LastFileDate>2015-05-30T14:11:42-05:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Avoid</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -81,9 +81,109 @@
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
-    <HttpReferer />
+    <HttpReferer>http://www.kaspersky.com/antivirus-removal-tool?form=1</HttpReferer>
     <SetupInstructions />
     <Variables>
+      <item>
+        <key>
+          <string>ver</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=version = ")[\d\.]{3,}</Regex>
+            <Url>http://devbuilds.kaspersky-labs.com/devbuilds/KVRT/latest/full/KVRT.xml</Url>
+            <Name>ver</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>urlHost</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>http://devbuilds.kaspersky-labs.com/devbuilds/KVRT</TextualContent>
+            <Name>urlHost</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>urlPath</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <Url />
+            <TextualContent>latest/full</TextualContent>
+            <Name>urlPath</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <Url>{urlHost}/{urlPath}</Url>
+            <TextualContent>http://devbuilds.kaspersky-labs.com/devbuilds/KVRT/latest/full/KVRT.exe</TextualContent>
+            <Name>url</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>nopush</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>--nopush</TextualContent>
+            <Name>nopush</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>cscript</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>2</TextualContent>
+            <Name>cscript</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>versionDate</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=timestamp = ")[\d\.]{8}</Regex>
+            <Url>http://devbuilds.kaspersky-labs.com/devbuilds/KVRT/latest/full/KVRT.xml</Url>
+            <Name>versionDate</Name>
+          </UrlVariable>
+        </value>
+      </item>
       <item>
         <key>
           <string>version</string>
@@ -92,29 +192,9 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
-            <Regex>2014-06-18</Regex>
-            <Url>http://www.comss.ru/page.php?id=93#new</Url>
-            <StartText>&lt;td&gt;&lt;time itemprop="dateModified" datetime="</StartText>
-            <EndText>"</EndText>
-            <TextualContent>{version2:replace:-:.}</TextualContent>
-            <Name>version</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>version2</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>StartEnd</VariableType>
             <Regex />
-            <Url>http://www.comss.ru/page.php?id=93#new</Url>
-            <StartText>&lt;td&gt;&lt;time itemprop="dateModified" datetime="</StartText>
-            <EndText>"</EndText>
-            <TextualContent>{version:replace:.:-}</TextualContent>
-            <Name>version2</Name>
+            <TextualContent>{versionDate:regexreplace:(\d{4\})(\d{2\})(\d{2\}):$1.$2.$3}</TextualContent>
+            <Name>version</Name>
           </UrlVariable>
         </value>
       </item>
@@ -125,13 +205,13 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>D:\chocolatey\_work\setup_11.0.3.8.x01_2014_11_02_21_28.exe</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
-    <Enabled>false</Enabled>
+    <PreviousLocation>F:\exe\KVRT.exe</PreviousLocation>
+    <DeletePreviousFile>false</DeletePreviousFile>
+    <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2014-11-02T21:37:50.9112945</LastUpdated>
-    <TargetPath>D:\chocolatey\_work\</TargetPath>
-    <FixedDownloadUrl>http://external.comss.ru/url.php?url=http://dl.comss.ru/kaspersky_removal.exe</FixedDownloadUrl>
+    <LastUpdated>2015-05-30T23:18:21.9263411-05:00</LastUpdated>
+    <TargetPath>{workdir}\</TargetPath>
+    <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>kvrt</Name>
   </ApplicationJob>
 </Jobs>
