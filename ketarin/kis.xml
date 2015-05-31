@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="c25ec81a-0e7a-486a-9aa3-7164e256ae0a">
     <SourceTemplate><![CDATA[<Jobs>
@@ -70,9 +70,9 @@
 </Jobs>]]></SourceTemplate>
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
-    <UserNotes>antivirus AUTO CHANGEABLE title</UserNotes>
-    <LastFileSize>204974912</LastFileSize>
-    <LastFileDate>2014-10-21T00:01:44.9213402</LastFileDate>
+    <UserNotes />
+    <LastFileSize>180322520</LastFileSize>
+    <LastFileDate>2015-05-18T14:22:47-05:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Avoid</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -81,7 +81,7 @@
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
-    <HttpReferer />
+    <HttpReferer>http://www.kaspersky.com/free-tools</HttpReferer>
     <SetupInstructions />
     <Variables>
       <item>
@@ -91,13 +91,100 @@
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <Url>http://www.comss.ru/page.php?id=1295</Url>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=Build: )\d+\.\d+\.\d+\.\d+</Regex>
+            <Url>http://products.kaspersky-labs.com/english/homeuser/kis2015/release_notes_kis_en.html</Url>
             <StartText>&lt;td&gt;&lt;span itemprop="softwareVersion"&gt;</StartText>
             <EndText />
-            <TextualContent>15.0.1.415</TextualContent>
+            <TextualContent />
             <Name>version</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>nopush</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>--nopush</TextualContent>
+            <Name>nopush</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>cscript</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>2</TextualContent>
+            <Name>cscript</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>urlHost</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <Url />
+            <TextualContent>http://products.kaspersky-labs.com/english/homeuser</TextualContent>
+            <Name>urlHost</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>urlPath</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>kis[^"]+</Regex>
+            <Url>{urlHost}</Url>
+            <TextualContent />
+            <Name>urlPath</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>urlFile</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>.*(kis{version}en\.exe)</Regex>
+            <Url>{urlHost}/{urlPath}</Url>
+            <TextualContent />
+            <Name>urlFile</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>{urlHost}/{urlPath}/{urlFile}</TextualContent>
+            <Name>url</Name>
           </UrlVariable>
         </value>
       </item>
@@ -108,13 +195,13 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>D:\chocolatey\_work\kis15.0.1.415en_6872.exe</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
-    <Enabled>false</Enabled>
+    <PreviousLocation>F:\exe\kis15.0.2.361en.exe</PreviousLocation>
+    <DeletePreviousFile>false</DeletePreviousFile>
+    <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2014-10-21T00:01:44.9213402</LastUpdated>
-    <TargetPath>D:\chocolatey\_work\</TargetPath>
-    <FixedDownloadUrl>http://products.kaspersky-labs.com/english/homeuser/kis2015/kis15.0.1.415en_6872.exe</FixedDownloadUrl>
+    <LastUpdated>2015-05-31T01:34:43.4705384-05:00</LastUpdated>
+    <TargetPath>{workdir}\</TargetPath>
+    <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>kis</Name>
   </ApplicationJob>
 </Jobs>
