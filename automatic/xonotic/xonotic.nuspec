@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>Xonotic</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Team Xonotic</authors>
+    <owners>dtgm</owners>
+    <summary>Free (GPL), fast-paced first-person shooter</summary>
+    <description>
+Xonotic is an addictive, arena-style first person shooter with crisp movement and a wide array of weapons. It combines intuitive mechanics with in-your-face action to elevate your heart rate.
+
+#### Documentation
+* [Screenshots](http://www.xonotic.org/media/)
+* [FAQ](http://www.xonotic.org/faq/)
+* [Wiki](https://gitlab.com/xonotic/xonotic/wikis/home)
+* [Manual](https://gitlab.com/xonotic/xonotic/wikis/Halogenes_Newbie_Corner)
+
+#### Community
+* [Forum](http://forums.xonotic.org/)
+* [Facebook](http://www.facebook.com/pages/Xonotic/106450756044750)
+* [YouTube](http://www.youtube.com/xonotic)
+* [Twitter](http://twitter.com/xonotic)
+
+#### System requirements
+* Download size: {{PackageGuid}}
+    </description>
+    <projectUrl>http://www.xonotic.org/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/d1e037cc7c943fda29b9067b3b1c3229d99402ff/icons/{{PackageName}}.png</iconUrl>
+    <tags>game first-person-shooter opengl quake</tags>
+    <copyright>© Team Xonotic</copyright>
+    <licenseUrl>http://dev.xonotic.org/projects/3/wiki/Legal</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [News](http://www.xonotic.org/posts/)
+* [Known issues](https://gitlab.com/groups/xonotic/issues)
+* [Source code](https://gitlab.com/xonotic/xonotic/tree/master)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
