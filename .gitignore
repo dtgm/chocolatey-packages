@@ -2,10 +2,12 @@
 *.bak
 *.cache
 *.nupkg
+*.old
 *.orig
 *.swp
 *.swo
 *.suo
+*.test
 *.work
 *-orig.*
 Thumbs.db
