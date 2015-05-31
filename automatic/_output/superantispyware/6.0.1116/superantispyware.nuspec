@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>superantispyware</id>
+    <title>SUPERAntiSpyware</title>
+    <version>6.0.1116</version>
+    <authors>SUPERAntiSpyware</authors>
+    <owners>tonigellida</owners>
+    <summary>
+SUPERAntiSpyware is a software application which can detect and remove spyware, adware, malware, trojans, rogue software, worms, rootkits, parasites and other potentially harmful software applications, as well as restore modified system settings.
+	</summary>
+    <description>
+SUPERAntiSpyware is a software application which can detect and remove spyware, adware, malware, trojans, rogue software, worms, rootkits, parasites and other potentially harmful software applications, as well as restore modified system settings.
+It can detect malware, however it is not designed to replace an antivirus software.
+	</description>
+    <projectUrl>http://www.superantispyware.com/</projectUrl>
+    <tags>notSilent anti-spyware anti-malware adware malware-removal trojans</tags>
+    <copyright></copyright>
+    <licenseUrl>http://www.superantispyware.com/eula.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/superantispyware/superantispyware.png</iconUrl>	
+  </metadata>
+</package>
