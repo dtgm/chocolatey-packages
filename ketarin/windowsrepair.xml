@@ -1,7 +1,8 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
-  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="33fcd8d2-e1c7-4ed1-9cda-e446d1dab98e">
-    <SourceTemplate><![CDATA[<Jobs>
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="38945efe-9a6f-4c65-b92e-a53f829a3df2">
+    <SourceTemplate><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="0fb30714-8ed0-4611-8f1b-cb8fec9dae91">
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
@@ -28,7 +29,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>StartEnd</VariableType>
             <Regex />
-            <Url><placeholder name="Url with version information" value="http://www.superantispyware.com/downloadfile.html?productid=SUPERANTISPYWAREFREE" /></Url>
+            <Url><placeholder name="Url with version information" value="http://www.tweaking.com/content/page/windows_repair_all_in_one.html" /></Url>
             <StartText>&lt;TABLE cellspacing ="1" cellpadding ="6" border = "0"&gt;
   &lt;TR&gt;
     &lt;TH class="Title" align="center" width=90&gt;7-Zip </StartText>
@@ -64,15 +65,15 @@
     <FileHippoId />
     <LastUpdated>2012-05-23T02:09:37.7748325</LastUpdated>
     <TargetPath>C:\Chocolatey\_work\</TargetPath>
-    <FixedDownloadUrl><placeholder name="Download Url - Optional" value="http://cdn.superantispyware.com/SUPERAntiSpyware.exe" /></FixedDownloadUrl>
-    <Name><placeholder name="Name" value="superantispyware" /></Name>
+    <FixedDownloadUrl><placeholder name="Download Url - Optional" value="http://www.tweaking.com/files/setups/tweaking.com_windows_repair_aio_setup.exe" /></FixedDownloadUrl>
+    <Name><placeholder name="Name" value="windowsrepair" /></Name>
   </ApplicationJob>
 </Jobs>]]></SourceTemplate>
     <WebsiteUrl />
-    <UserAgent />
+    <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
     <UserNotes />
-    <LastFileSize>22132648</LastFileSize>
-    <LastFileDate>2015-05-29T18:01:05-05:00</LastFileDate>
+    <LastFileSize>9817304</LastFileSize>
+    <LastFileDate>2014-11-30T16:38:02.3537579</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Avoid</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -91,69 +92,13 @@
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>RegularExpression</VariableType>
-            <Regex>Version:\s*([\d\.]+)</Regex>
-            <Url>http://www.superantispyware.com/downloadfile.html?productid=SUPERANTISPYWAREFREE</Url>
-            <StartText>Version: </StartText>
-            <EndText> )&lt;/i&gt;&lt;br&gt;</EndText>
+            <VariableType>StartEnd</VariableType>
+            <Regex />
+            <Url>http://www.tweaking.com/content/page/windows_repair_all_in_one.html</Url>
+            <StartText>Windows Repair (All in One) v</StartText>
+            <EndText />
             <TextualContent />
             <Name>version</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>url</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <TextualContent>{getUrl}</TextualContent>
-            <Name>url</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>nopush</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <TextualContent>--nopush</TextualContent>
-            <Name>nopush</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>cscript</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <TextualContent>2</TextualContent>
-            <Name>cscript</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>getUrl</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>RegularExpression</VariableType>
-            <Regex>href="([^ "'&lt;&gt;\*]+\.exe)</Regex>
-            <Url>http://www.superantispyware.com/downloadfile.html?productid=SUPERANTISPYWAREFREE</Url>
-            <Name>getUrl</Name>
           </UrlVariable>
         </value>
       </item>
@@ -164,13 +109,13 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\SUPERAntiSpyware.exe</PreviousLocation>
-    <DeletePreviousFile>false</DeletePreviousFile>
+    <PreviousLocation>D:\chocolatey\_work\tweaking.com_windows_repair_aio_setup.exe</PreviousLocation>
+    <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-05-31T12:17:33.747272-05:00</LastUpdated>
-    <TargetPath>{workdir}\</TargetPath>
-    <FixedDownloadUrl>{url}</FixedDownloadUrl>
-    <Name>superantispyware</Name>
+    <LastUpdated>2014-11-30T16:38:02.3537579</LastUpdated>
+    <TargetPath>D:\chocolatey\_work\</TargetPath>
+    <FixedDownloadUrl>http://www.tweaking.com/files/setups/tweaking.com_windows_repair_aio_setup.exe</FixedDownloadUrl>
+    <Name>windowsrepair</Name>
   </ApplicationJob>
 </Jobs>
