@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>avginternetsecurity</id>
+    <title>AVG Internet Security</title>
+    <version>14.0.4335</version>
+    <authors>AVG Technologies</authors>
+    <owners>tonigellida</owners>
+    <summary></summary>
+    <description>
+Comprehensive real-time protection against viruses, spyware, identity theft, poisoned web pages, and all types of malware that can threaten your valuable personal information.
+	</description>
+    <projectUrl>http://www.avg.com/us-en/internet-security</projectUrl>
+    <tags>trial-version security antivirus firewall anti-spyware</tags>
+    <copyright></copyright>
+    <licenseUrl>http://www.avg.com/eula</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/avginternetsecurity/avginternetsecurity.png</iconUrl>
+  </metadata>
+</package>

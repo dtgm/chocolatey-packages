@@ -1,6 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
-  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="865dbb4d-8eab-43b1-ad7c-f2530d2307db">
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="9a644285-6dab-4d71-acba-bb3c5b0ee60e">
     <SourceTemplate><![CDATA[<Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="0fb30714-8ed0-4611-8f1b-cb8fec9dae91">
     <WebsiteUrl />
@@ -70,9 +70,9 @@
 </Jobs>]]></SourceTemplate>
     <WebsiteUrl />
     <UserAgent />
-    <UserNotes>antivirus AUTO CHANGEABLE title</UserNotes>
-    <LastFileSize>167687120</LastFileSize>
-    <LastFileDate>2014-10-22T23:45:21.7379316</LastFileDate>
+    <UserNotes />
+    <LastFileSize>181443920</LastFileSize>
+    <LastFileDate>2015-05-20T07:06:43-05:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Avoid</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -86,67 +86,52 @@
     <Variables>
       <item>
         <key>
-          <string>version</string>
+          <string>versionMinor</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>StartEnd</VariableType>
-            <Regex />
-            <Url>http://www.comss.ru/page.php?id=956</Url>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=AVG INTERNET SECURITY \d{4}\.)[\d\.]{3,}</Regex>
+            <Url>http://www.avg.com/us-en/avg-release-notes</Url>
             <StartText>&lt;td&gt;&lt;span itemprop="softwareVersion"&gt;</StartText>
             <EndText />
             <TextualContent />
-            <Name>version</Name>
+            <Name>versionMinor</Name>
           </UrlVariable>
         </value>
       </item>
       <item>
         <key>
-          <string>url64</string>
+          <string>versionMajor</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=AVG INTERNET SECURITY \d{2})\d{2}(?=\.)</Regex>
+            <Url>http://www.avg.com/us-en/avg-release-notes</Url>
+            <StartText>&lt;table&gt;&lt;tr&gt;&lt;td width="110" height="38"&gt;&lt;a href="http://external.comss.ru/url.php?url=http://aa-download.avg.com/filedir/inst/</StartText>
+            <EndText>.exe"&gt;</EndText>
+            <TextualContent />
+            <Name>versionMajor</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>version</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <Url>http://www.comss.ru/download/AVG+Anti-Virus+Free+2013.html</Url>
-            <StartText>&lt;td width="23" height="23"&gt;&lt;a href="http://external.comss.ru/url.php?url=http://aa-download.avg.com/filedir/inst/</StartText>
-            <EndText>.exe</EndText>
-            <TextualContent>"http://download.avg.com/filedir/inst/{anchor64}.exe"</TextualContent>
-            <Name>url64</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>anchor32</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>StartEnd</VariableType>
-            <Regex />
-            <Url>http://www.comss.ru/download/AVG+Internet+Security.html</Url>
-            <StartText>&lt;table&gt;&lt;tr&gt;&lt;td width="110" height="38"&gt;&lt;a href="http://external.comss.ru/url.php?url=http://download.avg.com/filedir/inst/</StartText>
+            <Url />
+            <StartText>&lt;table&gt;&lt;tr&gt;&lt;td width="110" height="38"&gt;&lt;a href="http://external.comss.ru/url.php?url=http://aa-download.avg.com/filedir/inst/</StartText>
             <EndText>.exe"&gt;</EndText>
-            <Name>anchor32</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>anchor64</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>StartEnd</VariableType>
-            <Regex />
-            <Url>http://www.comss.ru/download/AVG+Internet+Security.html</Url>
-            <StartText>&lt;table&gt;&lt;tr&gt;&lt;td width="110" height="38"&gt;&lt;a href="http://external.comss.ru/url.php?url=http://download.avg.com/filedir/inst/</StartText>
-            <EndText>.exe"&gt;</EndText>
-            <Name>anchor64</Name>
+            <TextualContent>{versionMajor}.0.{versionMinor}</TextualContent>
+            <Name>version</Name>
           </UrlVariable>
         </value>
       </item>
@@ -159,14 +144,84 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>http://download.avg.com/filedir/inst/{anchor32}.exe</TextualContent>
+            <TextualContent>{getUrl}</TextualContent>
             <Name>url</Name>
           </UrlVariable>
         </value>
       </item>
       <item>
         <key>
-          <string>nopush</string>
+          <string>url64</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>{getUrl64}</TextualContent>
+            <Name>url64</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>getUrl</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>[^ "'&lt;&gt;\*]+avg_isc_x86.*?\.exe</Regex>
+            <Url>http://www.avg.com/ww-en/download.prd-isc</Url>
+            <Name>getUrl</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>getUrl64</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>[^ "'&lt;&gt;\*]+avg_isc_x64.*?\.exe</Regex>
+            <Url>http://www.avg.com/ww-en/download.prd-isc</Url>
+            <Name>getUrl64</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>checksum</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>[A-Fa-f0-9]{32}</Regex>
+            <Url>{getUrl}</Url>
+            <Name>checksum</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>checksumx64</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>[A-Fa-f0-9]{32}</Regex>
+            <Url>{getUrl64}</Url>
+            <Name>checksumx64</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>yopush</string>
         </key>
         <value>
           <UrlVariable>
@@ -174,7 +229,7 @@
             <VariableType>Textual</VariableType>
             <Regex />
             <TextualContent>--nopush</TextualContent>
-            <Name>nopush</Name>
+            <Name>yopush</Name>
           </UrlVariable>
         </value>
       </item>
@@ -187,7 +242,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>1</TextualContent>
+            <TextualContent>0</TextualContent>
             <Name>cscript</Name>
           </UrlVariable>
         </value>
@@ -199,11 +254,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>D:\chocolatey\_work\avg_isct_x86_all_2015_5557a8402.exe</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
-    <Enabled>false</Enabled>
+    <PreviousLocation>F:\exe\avg_isc_x86_all_2015_ltst_230.exe</PreviousLocation>
+    <DeletePreviousFile>false</DeletePreviousFile>
+    <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2014-10-22T23:45:21.7379316</LastUpdated>
+    <LastUpdated>2015-06-01T01:20:37.6672202-05:00</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>avginternetsecurity</Name>
