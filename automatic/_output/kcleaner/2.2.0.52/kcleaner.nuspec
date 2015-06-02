@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>kcleaner</id>
+    <title>KCleaner</title>
+    <version>2.2.0.52</version>
+    <authors>KC Softwares</authors>
+    <owners>tonigellida</owners>
+    <summary></summary>
+    <description>
+KCleaner is designed to be the most efficient Hard Disk cleaner, tracking every useless byte in order to give you all the ressources you may need for your documents, music, pictures, movies,...
+It is the first product of this kind featuring a full automatic mode, which works in background so that you don't have to care about when to launch it.
+As a proof of its efficiency, it often finds up to many Gb not even seen by its competitors so... give KCleaner a try !
+And if data security is something you are interested in, you'll love the secured file deletion methods proposed by KCleaner, making deleted files unrecoverable by any known mean.
+
+Features
+
+-Detects and cleans temporary and useless files (cache, unused setup files...)
+-Automatic mode working in background
+-Secured file deletion method
+-Expert mode : let users control any file deletion done by KCleaner
+-Internationalization support
+	</description>
+    <projectUrl>http://www.kcsoftwares.com/?kcleaner</projectUrl>
+    <tags>ccleaner system cleanup registry</tags>
+    <copyright></copyright>
+    <licenseUrl>https://softwareula.wordpress.com/tag/kc-softwares/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/kcleaner/kcleaner.png</iconUrl>
+  </metadata>
+</package>
