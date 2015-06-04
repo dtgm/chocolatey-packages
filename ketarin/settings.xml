@@ -786,7 +786,7 @@ string saveFileName64 = String.Concat(varChecksum64basefile, ".", varChecksum64e
 // equivalent to ketarin variable "{file}"
 //string savePath = app.PreviousLocation;
 string savePath = app.PreviousLocation;
-string pkgPath = Path.Combine(varChocoPkgOutput, varAppname, varVersion);`
+string pkgPath = Path.Combine(varChocoPkgOutput, varAppname, varVersion);
 string fileNameNuspec = String.Concat(varAppname, ".nuspec");
 string fileUriNuspec = Path.Combine(pkgPath, fileNameNuspec);
 string fileNameNupkg = String.Concat(varAppname, ".", varVersion, ".nupkg");
