@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>SABnzbd</id>
+    <version>0.7.5</version>
+    <title>SABnzbd+</title>
+    <authors>The SABnzbd+ Team</authors>
+    <owners>Ethan Brown</owners>
+    <licenseUrl>https://github.com/sabnzbd/sabnzbd/blob/master/LICENSE.txt</licenseUrl>
+    <projectUrl>http://sabnzbd.org/</projectUrl>
+    <iconUrl>https://github.com/Iristyle/ChocolateyPackages/raw/master/SABnzbd/SABnzbd.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>SABnzbd+ is an Open Source Binary Newsreader written in Python.
+It's totally free, incredibly easy to use, and works practically everywhere.
+SABnzbd makes Usenet as simple and streamlined as possible by automating everything we can. All you have to do is add an .nzb. SABnzbd takes over from there, where it will be automatically downloaded, verified, repaired, extracted and filed away with zero human interaction.
+
+This installer properly sets up a system service to keep SABnzbd always running in the background and also properly sets up firewall exclusions.
+
+Note that if this is a first time install it will be necessary to configure SABnzbd to allow other computers on your network to access the application.</description>
+    <summary>SABnzbd+ open source binary newsreader</summary>
+    <releaseNotes>-------------------------------------------------------------------------------
+     0.7.5Final by The SABnzbd-Team
+    -------------------------------------------------------------------------------
+    - Add missing %dn formula to Generic Sort
+    - Improve RSS logging
+    -------------------------------------------------------------------------------
+     0.7.5RC1 by The SABnzbd-Team
+    -------------------------------------------------------------------------------
+    - Prevent stuck jobs at end of pre-check.
+    - Fix issues with accented and special characters in names of downloaded files.
+    - Adjust nzbmatrix category table.
+    - Add 'prio_sort_list' special
+    - Add special option 'empty_postproc'.
+    - Prevent CherryPy crash when reading a cookie from another app which has a non-standard name.
+    - Prevent crash when trying to open non-existing "complete" folder from Windows System-tray icon.
+    - Fix problem with "Read" button when RSS feed name contains "&amp;".
+    - Prevent unusual SFV files from crashing post-processing.
+    - OSX: Retina compatible menu-bar icons.
+    - Don't show speed and ETA when download is paused during post-processing
+    - Prevent soft-crash when api-function "addfile" is called without parameters.
+    - Add news channel frame</releaseNotes>
+    <tags>usenet binary newsreader newgroups</tags>
+  </metadata>
+</package>

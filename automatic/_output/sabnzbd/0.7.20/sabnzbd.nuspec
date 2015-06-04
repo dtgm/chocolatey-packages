@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>sabnzbd</id>
+    <title>SABnzbd+</title>
+    <version>0.7.20</version>
+    <authors>The SABnzbd-team</authors>
+    <owners>dtgm</owners>
+    <summary>Open source binary newsreader</summary>
+    <description>
+SABnzbd is an open-source cross-platform binary newsreader written in Python. It simplifies the process of downloading from Usenet dramatically, thanks to its web-based user interface and advanced built-in post-processing options that automatically verify, repair, extract and clean up posts downloaded from Usenet.
+
+It's totally free, incredibly easy to use, and works practically everywhere.
+
+SABnzbd makes Usenet as simple and streamlined as possible by automating everything we can. All you have to do is add an .nzb. SABnzbd takes over from there, where it will be automatically downloaded, verified, repaired, extracted and filed away with zero human interaction.
+
+This installer properly sets up a system service to keep SABnzbd always running in the background and also properly sets up firewall exclusions.
+
+#### Documentation
+* [Features](http://wiki.sabnzbd.org/features)
+* [Screenshots](http://sabnzbd.org/screenshots/)
+* [FAQ](http://wiki.sabnzbd.org/faq)
+* [Manual](http://wiki.sabnzbd.org/)
+
+#### Community
+* [Forum](http://forums.sabnzbd.org/)
+    </description>
+    <projectUrl>http://sabnzbd.org/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/6c75bf28ba60396d606edc5d12833159e996b3a9/icons/sabnzbd.png</iconUrl>
+    <tags>usenet binary newsreader downloader</tags>
+    <copyright>© 2007 The SABnzbd-team</copyright>
+    <licenseUrl>https://github.com/sabnzbd/sabnzbd/blob/master/LICENSE.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [News](http://sabnzbd.org/blog/)
+* [Roadmap](http://wiki.sabnzbd.org/roadmap)
+* [Changelog](https://github.com/sabnzbd/sabnzbd/blob/develop/CHANGELOG.txt)
+* [Known issues](http://wiki.sabnzbd.org/known-issues)
+* [Source code](https://github.com/sabnzbd/sabnzbd)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

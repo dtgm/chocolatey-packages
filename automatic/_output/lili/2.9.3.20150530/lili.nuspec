@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>lili</id>
+    <version>2.9.3.20150530</version>
+    <title>LinuxLive USB Creator</title>
+    <authors>Thibaut Lauzière</authors>
+    <owners>dtgm</owners>
+    <summary>Create portable, bootable and virtualized USB devices running Linux</summary>   
+    <description>
+LinuxLive USB Creator is a free and open-source software for Windows to create bootable USB flash drives or immediate virtualized instances of Linux distributions.
+
+#### [Features](http://www.linuxliveusb.com/en/features)
+* No reboot needed; built-in virtualization lets you run your Linux within Windows
+* Intelligent processing: LiLi works with many Linux, even if they are not officially supported
+* Hidden installation: LiLi hides the Linux installation, your USB key stays clean
+* File integrity: tells you if your ISO is corrupted
+* Keeps your data on your USB device (formats only if needed)
+* Intelligent formatting: can format disks bigger than 32 GB
+* Auto-update: automatic updates when new Linux distributions are available
+* Works with .IMG files (experimental)
+
+Supports hundreds of Linux distributions: http://www.linuxliveusb.com/en/supported-linuxes
+Not able to create bootable images of BSD, Mac OSX, or Microsoft Windows operating systems.
+
+#### Documentation
+* [Screenshots](http://www.linuxliveusb.com/screenshots)
+* [FAQ](http://www.linuxliveusb.com/help/faq)
+* [Manual](http://www.linuxliveusb.com/help/guide)
+    </description>
+    <language>en-us</language>
+    <projectUrl>http://www.linuxliveusb.com/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/7f8a732cc81b6f3ef01ab277390181d0b1518ffe/icons/lili.png</iconUrl>
+    <licenseUrl>http://www.gnu.org/licenses/gpl-3.0.html</licenseUrl>
+    <copyright>© 2013 Thibaut Lauzière</copyright>	
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>liveusb linux virtualization</tags>
+    <releaseNotes>
+#### Program
+* [News](http://www.linuxliveusb.com/en/news/)
+* [Release notes](http://www.linuxliveusb.com/release-notes)
+* [Source code](http://www.linuxliveusb.com/about/sources)
+
+#### Package
+* Remove install/uninstall scripts; lili is a metapackage (not yet implemented as of chocolatey-0.9.9.6)
+* Cleaned up program release links
+* Fix by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="lili.install" version="[2.9.3.20150530]" />
+    </dependencies>
+  </metadata>
+</package>

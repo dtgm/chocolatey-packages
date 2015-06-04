@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>librecrypt</id>
+    <title>LibreCrypt</title>
+    <version>6.2-beta</version>
+    <authors>tdk</authors>
+    <owners>dtgm</owners>
+    <summary>Transparent on-the-fly disk encryption</summary>
+    <description>
+LibreCrypt (formerly DoxBox) is based on the discontinued FreeOTFE project. Under the licence of FreeOTFE any derived project has to have a new name. The main driver is still known as the 'FreeOTFE Driver', and driver filenames contain 'FreeOTFE' because it was not required to change these to conform to the licence.
+
+LibreCrypt supports the LUKs and losetup encryption schemes that are in most Linux distributions including secure ones used by enterprise, govt's and militaries.
+
+#### [Documentation](https://github.com/t-d-k/LibreCrypt/tree/master/docs)
+* [FAQ](https://github.com/t-d-k/LibreCrypt/blob/master/docs/FAQ.md)
+* [Getting started guide](https://github.com/t-d-k/LibreCrypt/blob/master/docs/getting_started.md)
+* [Technical](https://github.com/t-d-k/LibreCrypt/blob/master/docs/advanced_topics.md) 
+* [Command line options](https://github.com/t-d-k/LibreCrypt/blob/master/docs/command_line.md)
+    </description>
+    <projectUrl>http://www.librecrypt.eu/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/7379db8c459bb2a77d8483ea374e09e7a1088571/icons/librecrypt.png</iconUrl>
+    <tags>luks encryption security privacy</tags>
+    <copyright>© tdk</copyright>
+    <licenseUrl>https://github.com/t-d-k/LibreCrypt/blob/master/docs/licence.md</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [News](http://doxbox.squte.com/groups/doxbox)
+* [Roadmap](https://github.com/t-d-k/LibreCrypt/blob/master/docs/TODO_list.md)
+* [Changelog](https://github.com/t-d-k/LibreCrypt/blob/master/docs/version_history.md)
+* [Known issues](https://github.com/t-d-k/LibreCrypt/issues)
+* [Source code](https://github.com/t-d-k/LibreCrypt)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
