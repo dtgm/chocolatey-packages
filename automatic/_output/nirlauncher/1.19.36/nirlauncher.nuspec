@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>nirlauncher</id>
+    <title>NirLauncher</title>
+    <version>1.19.36</version>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm</owners>
+    <summary>Launcher for more than 180 portable freeware utilities from NirSoft</summary>
+    <description>
+NirLauncher is a package of more than 180 portable freeware utilities for Windows, all of them developed for NirSoft Web site during the last few years.
+
+[Screenshots](http://launcher.nirsoft.net/screenshots.html)
+    </description>
+    <projectUrl>http://launcher.nirsoft.net/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/4cbda2279e83ee20ab0302b1ce24b5f778b9a483/icons/nirlauncher.png</iconUrl>
+    <tags>nirsoft launcher</tags>
+    <copyright>© 2009 NirSoft</copyright>
+    <licenseUrl>http://launcher.nirsoft.net/donate.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[What's New?](http://blog.nirsoft.net/?s=nirlauncher)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
