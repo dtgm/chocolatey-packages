@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>smsniff</id>
+    <title>SmartSniff</title>
+    <version>2.20</version>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm</owners>
+    <summary>Packet Sniffer </summary>
+    <description>
+SmartSniff is a network monitoring utility that allows you to capture TCP/IP packets that pass through your network adapter, and view the captured data as sequence of conversations between clients and servers.
+
+You can view the TCP/IP conversations in Ascii mode (for text-based protocols, like HTTP, SMTP, POP3 and FTP.) or as hex dump. (for non-text base protocols, like DNS).  
+
+SmartSniff provides 3 methods for capturing TCP/IP packets:
+
+* Raw Sockets (Only for Windows 2000/XP or greater): Allows you to capture TCP/IP packets on your network without installing
+a capture driver. This method has some <a href="#problems">limitations and problems</a>.
+* WinPcap Capture Driver: Allows you to capture TCP/IP packets on all Windows operating systems.  This method is generally the preferred way to capture TCP/IP packets with SmartSniff, and it works better than the Raw Sockets method.
+* Microsoft Network Monitor Driver (Only for Windows 2000/XP/2003): Microsoft provides a free capture driver under Windows 2000/XP/2003 that can be used by SmartSniff, but this driver is not installed by default, and you have to manually install it.
+One of the tools in this package is netcap.exe. When you run this tool in the first time, the Network Monitor Driver
+will automatically be installed on your system.
+
+Microsoft Network Monitor Driver 3: Microsoft provides a new version of Microsoft Network Monitor driver (3.x) that is also supported under Windows 7/Vista/2008.  Starting from version 1.60, SmartSniff can use this driver to capture the network traffic.
+    </description>
+    <projectUrl>http://www.nirsoft.net/utils/smsniff.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/smsniff.png</iconUrl>
+    <tags>ip monitoring network packet sniffer capture sequence conversations hex dump ascii raw sockets winpcap</tags>
+    <copyright>© 2004 NirSoft</copyright>
+    <licenseUrl>http://www.nirsoft.net/utils/smsniff.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[What's New?](http://www.nirsoft.net/utils/smsniff.html)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="smsniff.install" version="[2.20]" />
+    </dependencies>
+  </metadata>
+</package>
