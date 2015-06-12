@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>BlueJ</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Michael Kölling</authors>
+    <owners>dtgm</owners>
+    <summary>Integrated Development Environment for Java</summary>
+    <description>
+An Integrated Development Environment for Java, developed mainly for educational purposes, but also suitable for small-scale software development.
+	
+It was developed to support the learning and teaching of object-oriented programming, and its design differs from other development environments as a result.
+
+#### Documentation
+* [Features](http://www.bluej.org/about.html)
+* [FAQ](http://www.bluej.org/faq.html)
+* [Install instructions](http://www.bluej.org/generic-installation-instructions.html)
+* [API](http://www.bluej.org/extensions/extensions.html)
+* [Manual](http://www.bluej.org/objects-first/)
+
+#### Community
+* [Forum](http://blueroom.bluej.org/)
+    </description>
+    <projectUrl>http://www.bluej.org/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/658bb3ac1353ce9c7f245eb81f60a5bce5471272/icons/{{PackageName}}.png</iconUrl>
+    <tags>programming ide java educational</tags>
+    <copyright>© BlueJ team</copyright>
+    <licenseUrl>http://www.bluej.org/about/LICENSE.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Roadmap](http://bugs.bluej.org/bluej/roadmap)
+* [Changelog](http://www.bluej.org/versions.html)
+* [Known issues](http://bugs.bluej.org/bluej)
+* [Source code](http://www.bluej.org/versions.html)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="jdk8" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
