@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>diskcountersview</id>
+    <title>DiskCountersView</title>
+    <version>1.20</version>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm</owners>
+    <summary>Retrieves the S.M.A.R.T information from your IDE/SATA disk </summary>
+    <description>
+DiskCountersView displays the system counters of each disk drive in your system, including the total number of read/write operations and the total number of read/write bytes.
+
+It also displays general drive information, like disk name, partition number, partition location, and so on. 
+    </description>
+    <projectUrl>http://www.nirsoft.net/utils/disk_counters_view.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/diskcountersview.png</iconUrl>
+    <tags>smart storage monitor</tags>
+    <copyright>© 2010 NirSoft</copyright>
+    <licenseUrl>http://www.nirsoft.net/utils/disk_counters_view.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[What's New?](http://www.nirsoft.net/utils/disk_counters_view.html)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

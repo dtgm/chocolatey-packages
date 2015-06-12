@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>smartmontools</id>
+    <title>smartmontools</title>
+    <version>6.4.1</version>
+    <authors>Bruce Allen and Christian Franke</authors>
+    <owners>dtgm</owners>
+    <summary>Self-Monitoring, Analysis and Reporting Technology System for storage systems</summary>
+    <description>
+S.M.A.R.T. Monitoring Tools (smartmontools) package contains two utility programs (smartctl and smartd) to control and monitor storage systems using the Self-Monitoring, Analysis and Reporting Technology System (SMART) built into most modern ATA and SCSI harddisks. 
+
+Smartmontools was originally derived from the Linux ​smartsuite package and actually supports ATA/ATAPI/SATA-3 to -8 disks and SCSI disks and tape devices. It should run on any modern Darwin (Mac OS X), Linux, FreeBSD, NetBSD, OpenBSD, Solaris, OS/2, Cygwin, QNX, eComStation or Windows system. Smartmontools can also be run from one of many different Live CDs/DVDs.
+
+Due to OS-specific issues and also depending on the different state of smartmontools development on the platforms, device support is not the same for all OS platforms. We provide info about RAID-controller support here on the homepage and of course in the manpages.
+
+See 'smartmontools-win' for an alternate installer with additional bundled software.
+See 'GSmartControl' for a GTK GUI interface.
+    </description>
+    <projectUrl>http://www.smartmontools.org/</projectUrl>
+    <tags>daemon command-line hardware disk reporting monitoring</tags>
+    <copyright>© Bruce Allen</copyright>
+    <licenseUrl>http://www.gnu.org/licenses/gpl-2.0.html#SEC1</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+http://www.smartmontools.org/browser/tags/RELEASE_6_3/smartmontools/ChangeLog
+    </releaseNotes>
+    <!--<dependencies>
+      <dependency id="" />
+    </dependencies>-->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>sqlitebrowser</id>
+    <title>DB Browser for SQLite</title>
+    <version>3.6.0.3</version>
+    <authors>René Peinthor,Martin Kleusberg ,Mauricio Piacentini,Justin Clift</authors>
+    <owners>dtgm</owners>
+    <summary>Light GUI (QT) editor for SQLite databases</summary>
+    <description>
+DB Browser for SQLite is a high quality, visual, open source tool to create, design, and edit database files compatible with SQLite.
+
+It is for users and developers wanting to create databases, search, and edit data. It uses a familiar spreadsheet-like interface, and you don't need to learn complicated SQL commands.
+
+Controls and wizards are available for users to:
+
+* Create and compact database files
+* Create, define, modify and delete tables
+* Create, define and delete indexes
+* Browse, edit, add and delete records
+* Search records
+* Import and export records as text
+* Import and export tables from/to CSV files
+* Import and export databases from/to SQL dump files
+* Issue SQL queries and inspect the results
+* Examine a log of all SQL commands issued by the application
+
+#### Previous names
+This project has previously been known as __SQLite Browser__ and __Database Browser for SQLite__.  
+
+In August 2014, the project was renamed to __Database Browser for SQLite__ at the request of [Richard Hipp](http://www.hwaci.com/drh) (creator of [SQLite](http://sqlite.org/)), as the previous name was creating unintended support issues.
+    </description>
+    <projectUrl>http://sqlitebrowser.org/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/0f1043745f1ba9e4be46fde84297b89b42bd3400/icons/sqlitebrowser.svg</iconUrl>
+    <licenseUrl>https://raw.githubusercontent.com/sqlitebrowser/sqlitebrowser/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <copyright>http://sqlitebrowser.org/#history</copyright>
+    <tags>sqlite database browser editor qt</tags>
+    <releaseNotes>
+#### Program
+* [Changelog](https://github.com/sqlitebrowser/sqlitebrowser/releases/tag/v3.6.0.3)
+* [Known issues](https://github.com/sqlitebrowser/sqlitebrowser/issues)
+* [Source code](https://github.com/sqlitebrowser/sqlitebrowser/)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

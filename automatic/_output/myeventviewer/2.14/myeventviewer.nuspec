@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>myeventviewer</id>
+    <title>MyEventViewer</title>
+    <version>2.14</version>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm</owners>
+    <summary>Simple alternative to Windows Event Viewer</summary>
+    <description>
+MyEventViewer is a simple alternative to the standard event viewer of Windows.
+
+As opposed to Windows event viewer, MyEventViewer allows you to watch multiple event logs in one list,
+as well as the event description and data are displayed in the main window, instead of opening a new one.
+
+Also, with MyEventViewer you can easily select multiple event items and then save them to HTML/Text/XML file,
+or copy them to the clipboard (Ctrl+C) and then paste them into Excel.
+    </description>
+    <projectUrl>http://www.nirsoft.net/utils/my_event_viewer.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/myeventviewer.png</iconUrl>
+    <tags>event viewer</tags>
+    <copyright>© 2008 NirSoft</copyright>
+    <licenseUrl>http://www.nirsoft.net/utils/my_event_viewer.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[What's New?](http://www.nirsoft.net/utils/my_event_viewer.html)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
