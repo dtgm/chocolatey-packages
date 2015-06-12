@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>kav</id>
+    <title>Kaspersky Anti-Virus</title>
+    <version>15.0.2.361</version>
+    <authors>Kaspersky Lab</authors>
+    <owners>dtgm</owners>
+    <summary>Antivirus protection from a range of IT threats and provides the basic tools needed to keep your PC secure</summary>
+    <description>
+Kaspersky Anti-Virus offers protection from a range of IT threats and provides the basic tools needed to keep your PC secure. Kaspersky lets you surf the web safely and keeps your PC free of viruses, Internet and email worms, and Trojans.
+
+#### Documentation
+* [Help](http://support.kaspersky.com/kav2015)
+* [Privacy Policy](http://www.kaspersky.com/privacy)
+
+#### Community
+* [Forum](http://forum.kaspersky.com/index.php?showforum=4)
+* [Facebook](http://www.facebook.com/Kaspersky)
+* [Google+](https://plus.google.com/104178448349952735431?prsrc=3)
+* [Twitter](http://twitter.com/Kaspersky)
+* [LinkedIn](https://www.linkedin.com/company/kaspersky-lab)
+
+#### Trial software (30 days)
+This package installs the Free 30-day trial version of Kaspersky Anti-Virus. For product comparison and purchase info, see http://www.kaspersky.com/anti-virus
+    </description>
+    <projectUrl>http://www.kaspersky.com/anti-virus-trial</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/dd7121af88611d4f92e29187d065ba9a0fcaedeb/icons/kav.png</iconUrl>
+    <tags>trial security antivirus antispyware</tags>
+    <copyright>© 1997 Kaspersky Lab</copyright>
+    <licenseUrl>http://support.kaspersky.com/11198</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* http://products.kaspersky-labs.com/english/homeuser/kav2015/release_notes_kav_en.html
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
