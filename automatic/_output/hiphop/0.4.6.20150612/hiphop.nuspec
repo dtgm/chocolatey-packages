@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>hiphop</id>
+    <version>0.4.6.20150612</version>
+    <title>[DEPRECATED] HipHop</title>
+    <authors>HipHop Team</authors>
+    <owners>dtgm</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>Listen instantly to more than 45 million songs</summary>
+    <description>
+- - -
+#### New package name: __[atraci](https://chocolatey.org/packages/atraci)__
+
+`hiphop` has been deprecated because the project changed names.
+
+`hiphop` exists only for backward compatibility to provide a transitional dummy package for existing users and scripts which may still use this package ID.
+    </description>
+    <projectUrl>https://chocolatey.org/packages/atraci</projectUrl>
+    <tags>deprecated</tags>
+    <copyright />
+    <dependencies>
+      <dependency id="atraci" />
+    </dependencies>
+  </metadata>
+</package>
