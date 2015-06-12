@@ -1,6 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
-  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="177a1366-2ff3-45fa-91cc-f6af0e574da8">
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="d37985d8-d395-48a6-92b3-6bf9326ee645">
     <SourceTemplate><![CDATA[<Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="0fb30714-8ed0-4611-8f1b-cb8fec9dae91">
     <WebsiteUrl />
@@ -70,9 +70,9 @@
 </Jobs>]]></SourceTemplate>
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
-    <UserNotes>antivirus AUTO CHANGEABLE title</UserNotes>
-    <LastFileSize>203660608</LastFileSize>
-    <LastFileDate>2014-10-21T00:12:05.0022506</LastFileDate>
+    <UserNotes>http://trial.kaspersky-labs.com/trial/registered/qrvfygw5pefa35x3hhxd/kav15.0.2.361en.exe</UserNotes>
+    <LastFileSize>178879688</LastFileSize>
+    <LastFileDate>2015-05-18T14:23:05-05:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Avoid</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -81,7 +81,7 @@
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
-    <HttpReferer />
+    <HttpReferer>http://www.kaspersky.com/free-tools</HttpReferer>
     <SetupInstructions />
     <Variables>
       <item>
@@ -91,13 +91,100 @@
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <Url>http://www.comss.ru/page.php?id=1296</Url>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=Build: )\d+\.\d+\.\d+\.\d+</Regex>
+            <Url>http://products.kaspersky-labs.com/english/homeuser/{urlPath}/release_notes_kav_en.html</Url>
             <StartText>&lt;td&gt;&lt;span itemprop="softwareVersion"&gt;</StartText>
             <EndText />
-            <TextualContent>15.0.1.415</TextualContent>
+            <TextualContent />
             <Name>version</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>nopush</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>--nopush</TextualContent>
+            <Name>nopush</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>cscript</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>2</TextualContent>
+            <Name>cscript</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>urlHost</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <Url />
+            <TextualContent>http://products.kaspersky-labs.com/english/homeuser</TextualContent>
+            <Name>urlHost</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>urlPath</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>kav[^"]+</Regex>
+            <Url>{urlHost}</Url>
+            <TextualContent />
+            <Name>urlPath</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>urlFile</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>.*(kav{version}en\.exe)</Regex>
+            <Url>{urlHost}/{urlPath}</Url>
+            <TextualContent />
+            <Name>urlFile</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>{urlHost}/{urlPath}/{urlFile}</TextualContent>
+            <Name>url</Name>
           </UrlVariable>
         </value>
       </item>
@@ -108,13 +195,13 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>D:\chocolatey\_work\kav15.0.1.415en_6868.exe</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
-    <Enabled>false</Enabled>
+    <PreviousLocation>F:\exe\kav15.0.2.361en.exe</PreviousLocation>
+    <DeletePreviousFile>false</DeletePreviousFile>
+    <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2014-10-21T00:12:05.0022506</LastUpdated>
-    <TargetPath>D:\chocolatey\_work\</TargetPath>
-    <FixedDownloadUrl>http://products.kaspersky-labs.com/english/homeuser/kav2015/kav15.0.1.415en_6868.exe</FixedDownloadUrl>
+    <LastUpdated>2015-06-12T04:47:28.3639429-05:00</LastUpdated>
+    <TargetPath>{workdir}\</TargetPath>
+    <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>kav</Name>
   </ApplicationJob>
 </Jobs>
