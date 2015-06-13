@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>Atraci</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Atraci Team</authors>
+    <owners>dtgm</owners>
+    <summary>Free music streaming player</summary>
+    <description>
+Atraci (formerly HipHop) is a streaming application for Windows, Mac and Linux that lets you listen instantly to more than 60 million songs (way more than iTunes's 26 million). It requires no sign up, displays no ads and is 100% safe.
+
+#### Documentation
+* [FAQ](https://github.com/Atraci/Atraci/wiki/FAQ)
+* [Wiki](https://github.com/Atraci/Atraci/wiki)
+
+#### Community
+* [IRC](http://webchat.freenode.net/?channels=Atraciapp)
+* [Gitter](https://gitter.im/Atraci/Atraci)
+* [Facebook](https://www.facebook.com/GetAtraci)
+* [Twitter](https://twitter.com/atraciapp)
+    </description>
+    <projectUrl>http://getatraci.net/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/4f9edf94e7581c705cc5abbab9d002c4b7d9de05/icons/{{PackageName}}.png</iconUrl>
+    <tags>mp3 music player popcorntime</tags>
+    <copyright>© Atraci Team</copyright>
+    <licenseUrl>https://github.com/Atraci/Atraci/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Changelog](https://github.com/Atraci/Atraci/releases)
+* [Known issues](https://github.com/Atraci/Atraci/issues)
+* [Source code](https://github.com/Atraci/Atraci)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
