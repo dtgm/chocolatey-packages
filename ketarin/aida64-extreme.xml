@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="4ad2f8c6-b551-4a01-b971-4d17ae0aa5cf">
     <SourceTemplate><![CDATA[<Jobs>
@@ -71,8 +71,8 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>15217928</LastFileSize>
-    <LastFileDate>2014-11-30T16:10:27.1229229</LastFileDate>
+    <LastFileSize>15630512</LastFileSize>
+    <LastFileDate>2015-06-09T04:27:57-05:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Avoid</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -86,17 +86,18 @@
     <Variables>
       <item>
         <key>
-          <string>anchor1</string>
+          <string>url</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>StartEnd</VariableType>
-            <Regex>(?&lt;=href="/downloads/)[0-9a-zA-Z. ]{1,}(?=exe)</Regex>
-            <Url>http://www.aida64.com/downloads</Url>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>[^ "'&lt;&gt;\*]+\.exe</Regex>
+            <Url>http://www.aida64.com/{getUrl}</Url>
             <StartText>&lt;a href="/downloads/aida64extreme</StartText>
             <EndText>exe"</EndText>
-            <Name>anchor1</Name>
+            <TextualContent />
+            <Name>url</Name>
           </UrlVariable>
         </value>
       </item>
@@ -107,9 +108,9 @@
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>StartEnd</VariableType>
-            <Regex>(?-s:(\d+(?:\.\d+)+.*?|\d b[a-z]* ?\d+|\d+ sp\w+|r\d+)(?= ?([&lt;\[\]]))|(?-s:20\d\d-\d\d-\d\d))</Regex>
-            <Url>http://www.softpedia.com/get/System/System-Info/AIDA64-Extreme-Edition.shtml</Url>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=product"&gt;AIDA64 Extreme.*?version"&gt;)[\d\.]{3,}</Regex>
+            <Url>http://www.aida64.com/downloads</Url>
             <StartText>	&lt;!-- google_ad_section_start --&gt;&lt;h1&gt;&lt;span itemprop="name"&gt;AIDA64 Extreme Edition&lt;/span&gt; &lt;span class="appver" itemprop="softwareVersion"&gt;</StartText>
             <EndText />
             <TextualContent>4.60.3001</TextualContent>
@@ -119,15 +120,16 @@
       </item>
       <item>
         <key>
-          <string>url</string>
+          <string>getUrl</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <TextualContent>http://download.aida64.com/aida64extreme{anchor1}.exe</TextualContent>
-            <Name>url</Name>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=product"&gt;AIDA64 Extreme.*?)downloads/[^"]+</Regex>
+            <Url>http://www.aida64.com/downloads</Url>
+            <TextualContent />
+            <Name>getUrl</Name>
           </UrlVariable>
         </value>
       </item>
@@ -154,7 +156,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>1</TextualContent>
+            <TextualContent>2</TextualContent>
             <Name>cscript</Name>
           </UrlVariable>
         </value>
@@ -166,12 +168,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>D:\chocolatey\_work\aida64extreme470.exe</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
-    <Enabled>false</Enabled>
+    <PreviousLocation>F:\exe\aida64extreme520.exe</PreviousLocation>
+    <DeletePreviousFile>false</DeletePreviousFile>
+    <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2014-11-30T16:10:27.1229229</LastUpdated>
-    <TargetPath>D:\chocolatey\_work\</TargetPath>
+    <LastUpdated>2015-06-13T15:15:26.9391075-05:00</LastUpdated>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>aida64-extreme</Name>
   </ApplicationJob>

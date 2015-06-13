@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>aida64-engineer</id>
+    <title>AIDA64 Engineer Edition</title>
+    <version>5.20.3400</version>
+    <authors>FinalWire Ltd</authors>
+    <owners>dtgm</owners>
+    <summary>Advanced system diagnostics utility for home users</summary>
+    <description>
+AIDA64 Engineer is a cutting-edge system information tool for IT technicians, which not only provides extremely detailed information about both hardware and installed software, but also helps users diagnose issues and offers benchmarks to measure the performance of both workstations and servers.
+
+#### Documentation
+* [FAQ](http://www.aida64.com/support/faq)
+
+#### Community
+* [Forum](http://forums.aida64.com/)
+* [Facebook](https://www.facebook.com/AIDA64)
+* [Google+](https://plus.google.com/+aida64)
+* [Twitter](https://twitter.com/FinalWire)
+
+#### Commercial software
+This package installs a 30-day trial version.
+
+#### AIDA64 [editions](http://www.aida64.com/compare-aida64-features)
+* [AIDA64 Extreme](https://chocolatey.org/packages/aida64-extreme)
+* [AIDA64 Network Audit](https://chocolatey.org/packages/aida64-networkaudit)
+* AIDA64 Engineer (you are here)
+* [AIDA64 Business](https://chocolatey.org/packages/aida64-business)
+    </description>
+    <projectUrl>http://www.aida64.com/products/aida64-engineer</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/d1e037cc7c943fda29b9067b3b1c3229d99402ff/icons/aida64-engineer.png</iconUrl>
+    <tags>trial diagnostic benchmark monitor</tags>
+    <copyright>© 2010 FinalWire Ltd</copyright>
+    <licenseUrl>http://www.aida64.com/licensing</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Release log](http://www.aida64.com/downloads/archive)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

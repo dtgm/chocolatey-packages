@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>aida64-networkaudit</id>
+    <title>AIDA64 Network Audit</title>
+    <version>4.60.3002</version>
+    <authors>FinalWire</authors>
+    <owners>tonigellida</owners>
+    <summary>
+A powerful and comprehensive auditing tools that can help network administrators to collect information, allowing for an efficient monitoring of the resources.
+	</summary>
+    <description>
+A powerful and comprehensive auditing tools that can help network administrators to collect information, allowing for an efficient monitoring of the resources.
+AIDA64 Network Audit is a complex toolset that serves in network audit and monitoring, allowing administrators to keep tabs on hardware and software inventory throughout corporate networks.
+The application’s range of uses varies because it includes modules for the advanced diagnosis of local systems, as well as components for network monitoring, being able to carry out multiple purposes at the same time.
+Compared to the other AIDA64 suites, the Network Audit was designed as a compromise for companies that don’t need the benchmark tests from AIDA64 Extreme or Engineer, but require the audit feature set of the Business version, which is the most complete of the series.
+All of the products are built on a common skeleton, which is why all of them boast the extensive reporting modules on local hardware and software, with support for sensor monitoring and uptime and downtime statistics.
+The collection of features that sets AIDA64 Network Audit apart from the rest includes comprehensive network reports, monitoring and alerting, being capable of assisting network administrators in their active watch upon all the available resources.
+The audit process is carried out by an integrated component called Audit Manager, which is able to generate reports on the computers inside the network by collecting information from a preconfigured database (Access, SQL Server, PostrgeSQL, Sybase, Oracle), as well as from local CSV files.
+Moreover, you can create various scenarios of the type of information to be gathered. You can ask for reports on all of the components inside the networked computers or you can opt for a more selective approach.
+Another important feature is the network alerting, which is able to notify administrators of various events (mostly suspicious changes) by sending emails or messages, as well as by posting an entry to a log server.
+With AIDA64 Network Audit, it’s easier and more comfortable to manage an entire network of computers. You can trust it with a variety of tasks, including hardware and software distribution, as well as the security of the entire network.
+	</description>
+    <projectUrl>http://www.aida64.com/</projectUrl>
+    <tags>trial-version benchmark</tags>
+    <copyright></copyright>
+    <licenseUrl>http://www.aida64.com/licensing-aida64</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/aida64-networkaudit/aida64-networkaudit.png</iconUrl>
+  </metadata>
+</package>

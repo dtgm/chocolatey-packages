@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>aida64-extreme</id>
+    <title>AIDA64 Extreme Edition</title>
+    <version>4.60.3001</version>
+    <authors>FinalWire</authors>
+    <owners>tonigellida</owners>
+    <summary>
+Streamlined Windows diagnostics, benchmarking and hardware monitoring software application with support for reports and email notifications.
+	</summary>
+    <description>
+Streamlined Windows diagnostics, benchmarking and hardware monitoring software application with support for reports and email notifications.
+AIDA64 Extreme Edition is an advanced system diagnostics utility that gathers important information on the computer's hardware and software configuration. It also lets users test the capabilities of the memory, CPU and FPU by running complex benchmarks. Suffice it to say, this tool is designed for advanced PC users.
+-Speedy installation and well-organized interface
+The setup procedure is fast and simple. AIDA64 is wrapped in a user-friendly interface with a neatly organized layout, where all information on PC components is broken down into separate categories. It is rather vast and covers general areas of the PC such as overlock, sensors and power management.
+-Thorough investigation for each PC component
+Detailed info can be obtained when it comes to the motherboard (e.g. CPU, chipset, BIOS), operating system (e.g. processes, system drivers, DLL files), server (e.g. shares, local and global groups), display (e.g. GPU, multi-monitor support, OpenGL), multimedia (e.g. audio and video codecs), storage (e.g. physical and optical drives), network (e.g. routes, IE cookies), DirectX, devices (e.g. input, printers), software (e.g. autostart entries, scheduled tasks, file types), security (e.g. firewall, antivirus), configuration (e.g. event logs, system files and folders), and database (e.g. BDE and ODBC drivers).
+-Run benchmarks and generate reports
+When it comes to testing the memory, CPU and FPU, AIDA64 analyzes the processor, CPU clock, motherboard, chipset and RAM to rank the computer in a list with other systems by comparison, based on hardware configuration. Information from any selected areas or all of them can be exported to reports for closer examination and safekeeping.
+-Configure program settings
+As far as AIDA64 Extreme Edition configuration is concerned, it is possible to switch to another UI language, change the layout order, point out the output folder for creating reports, enable email notifications when performing benchmarks, filter event logs, add custom components to the list to keep an eye on, and much more.
+-Evaluation and conclusion
+During benchmarks, AIDA64 Extreme Edition obviously puts a strain on CPU and RAM. However, it uses low resources otherwise. It has a good response time and worked well throughout our evaluation, without triggering the OS to hang, crash or pop up error messages. Those interested in extra features may look into AIDA64 Engineer, AIDA64 Business Edition and AIDA64 Network Audit.
+	</description>
+    <projectUrl>http://www.aida64.com/</projectUrl>
+    <tags>trial-version benchmark</tags>
+    <copyright></copyright>
+    <licenseUrl>http://www.aida64.com/licensing-aida64</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/aida64-extreme/aida64-extreme.png</iconUrl>
+  </metadata>
+</package>

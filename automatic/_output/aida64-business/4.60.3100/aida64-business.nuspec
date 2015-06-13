@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>aida64-business</id>
+    <title>AIDA64 Business Edition</title>
+    <version>4.60.3100</version>
+    <authors>FinalWire</authors>
+    <owners>tonigellida</owners>
+    <summary>
+Resourceful Windows network management solution for small and medium scale enterprises, featuring system information, monitoring, diagnostics, and benchmarks.
+	</summary>
+    <description>
+AIDA64 is a popular name in the user community when it comes to finding out extensive system information, monitoring hardware components and running benchmarks to find out how well they are ranked. The application is available in four flavors: Extreme, Engineer, Network Audit, and Business. The last one has the most features and, as the name implies, it is geared toward professional use.
+-Features available only to AIDA64 Business
+Unlike its lesser free counterparts, AIDA64 Business includes overclock information, system stability tests, monitor diagnostics, CPU, RAM and disk benchmarks, sensor logging and alerting, support for Logitech and Razer LCD, in addition to graphical remote control, remote user, disk health and virus database monitoring, automatic remote reporting, as well as ACPI browser and DRAM timings.
+-Same clean interface with neatly organized window
+In the interface department, AIDA64 preserves the same appearance for all four products. Business is wrapped in a classic window with all information split into multiple areas, depending on the component type. Users may find out comprehensive details about the motherboard, display, devices, DirectX, operating system, security, configuration, storage, network and other sections of the computer. For example, it is possible to keep track of the sensor temperature to prevent overheating (e.g. motherboard, CPU).
+-Detailed reports, tests, configuration
+Information for selected areas of everything can be exported to reports for closer investigation, as well as for comparison with future reports if hardware changes are made in the meantime, or when planning to upgrade the PC. 
+It is possible to perform monitor diagnostics by taking into account various criteria, such as LCD, brightness/contrast and convergence calibration tests, test system stability by stressing the CPU, FPU, cache, system memory, local disks or GPU, and so on.
+AIDA64 Business lets users customize a wide array of settings pertaining to each aspect of the software utility, such as layout, scheduled reports, email notifications, FTP uploads, content filtering, alerts, sensor indicators, and so on.
+-Evaluation and conclusion
+We have not come across any issues throughout our tests, since AIDA64 Business did not hang, crash or pop up error messages. If users are willing to spend time exploring the app, they will likely find out the resourceful features that AIDA64 Business has to offer. Clearly, it is designed for professionals and it is definitely worth taking a look at.
+	</description>
+    <projectUrl>http://www.aida64.com/</projectUrl>
+    <tags>trial-version benchmark</tags>
+    <copyright></copyright>
+    <licenseUrl>http://www.aida64.com/licensing-aida64</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/aida64-business/aida64-business.png</iconUrl>
+  </metadata>
+</package>
