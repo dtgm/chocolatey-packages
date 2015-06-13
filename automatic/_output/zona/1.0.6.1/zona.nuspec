@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>zona</id>
+    <title>Zona</title>
+    <version>1.0.6.1</version>
+    <authors>zona.ru</authors>
+    <owners>dtgm</owners>
+    <summary>Torrent streaming media player</summary>
+    <description>
+Torrent streaming media player
+
+#### Documentation
+* [FAQ](http://zona.ru/faq.html)
+* [Install help](http://zona.ru/install-help.html)
+
+#### Community
+* [Facebook](http://www.facebook.com/appzona)
+* [Twitter](http://twitter.com/zonateam)
+    </description>
+    <projectUrl>http://zona.ru/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/d1e037cc7c943fda29b9067b3b1c3229d99402ff/icons/zona.png</iconUrl>
+    <tags>p2p torrent streaming video-on-demand media-catalog popcorntime</tags>
+    <copyright>© 2011 Zona Team</copyright>
+    <licenseUrl>http://en.wikipedia.org/wiki/Freeware</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Changelog](http://zona.ru/changelog.html)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="javaruntime" />
+      <dependency id="autohotkey.portable" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
