@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>aida64-engineer</id>
+    <title>AIDA64 Engineer</title>
+    <version>4.60.3100</version>
+    <authors>FinalWire</authors>
+    <owners>tonigellida</owners>
+    <summary>
+A special edition of AIDA64 Extreme designed for corporate engineers, providing extensive system reports, as well as comprehensive diagnostics and benchmarking.
+	</summary>
+    <description>
+A special edition of AIDA64 Extreme designed for corporate engineers, providing extensive system reports, as well as comprehensive diagnostics and benchmarking.
+AIDA64 Engineer is a portable utility that provides technical information on your computer's hardware capabilities and allows you to generate reports and run benchmarks.
+Since installation is not a prerequisite, you can drop the program files somewhere on the hard disk and click the executable to run.
+It is also possible to use AIDA64 Engineer on any machine from a USB flash disk without any prior installations. What's more, the app does not add new entries to the Windows registry or Start menu, leaving the HDD clean after removal.
+The user-friendly interface provides quick access to information concerning power management, overclocking, sensors, motherboard, operating system DLL files and up time, server, display (e.g. OpenGL, fonts), DirectX, Windows devices, software licenses and desktop gadgets, benchmarks, and many others.
+You can use a simple wizard to generate a report with all pages, system summar only, hardware or software related pages, benchmarks, custom selection or load from file (to TXT, HTML or MHTML format).
+In addition, you can copy entire rows or pages to the Clipboard, customize the viewing mode, create a favorites list for quick access later on, as well as run a benchmark on disks, cache and memory.
+AIDA64 Engineer's functionality does not stop here. It is possible to use a comprehensive monitor diagnostics tool, test system stability by stressing the CPU, FPU, cache, system memory, local disks and GPUs, browse the ACPI, find out DRAM timings, as well as view AIDA64 CPUID data.
+The power user-oriented application requires low-to-moderate memory to work properly, while remaining light on the CPU. It is very responsive to commands and includes help documentation. We haven't come across any issues in our testing, since AIDA64 Engineer did not hang, crash or pop up error dialogs. All in all, it comes in handy whenever you want to analyze your computer's hardware.
+	</description>
+    <projectUrl>http://www.aida64.com/</projectUrl>
+    <tags>trial-version benchmark</tags>
+    <copyright></copyright>
+    <licenseUrl>http://www.aida64.com/licensing-aida64</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/aida64-engineer/aida64-engineer.png</iconUrl>
+  </metadata>
+</package>

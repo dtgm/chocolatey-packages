@@ -1,6 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
-  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="038188fa-78e4-4432-9f56-0bdded1609fb">
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="c686faff-418d-4acb-8bcf-f9a1e3abf29d">
     <SourceTemplate><![CDATA[<Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="0fb30714-8ed0-4611-8f1b-cb8fec9dae91">
     <WebsiteUrl />
@@ -71,8 +71,8 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>18143063</LastFileSize>
-    <LastFileDate>2014-11-30T16:08:42.061553</LastFileDate>
+    <LastFileSize>18617260</LastFileSize>
+    <LastFileDate>2015-03-23T18:17:49-05:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Avoid</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -86,17 +86,18 @@
     <Variables>
       <item>
         <key>
-          <string>anchor1</string>
+          <string>url2</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>StartEnd</VariableType>
-            <Regex>(?&lt;=href="/downloads/)[0-9a-zA-Z. ]{1,}(?=exe)</Regex>
-            <Url>http://www.aida64.com/downloads</Url>
-            <StartText>&lt;a href="/downloads/aida64business</StartText>
-            <EndText>zip"</EndText>
-            <Name>anchor1</Name>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>[^ "'&lt;&gt;\*]+\.exe</Regex>
+            <Url>http://www.aida64.com/{getUrl}</Url>
+            <StartText>&lt;a href="/downloads/aida64extreme</StartText>
+            <EndText>exe"</EndText>
+            <TextualContent />
+            <Name>url2</Name>
           </UrlVariable>
         </value>
       </item>
@@ -107,27 +108,28 @@
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>StartEnd</VariableType>
-            <Regex>(?-s:(\d+(?:\.\d+)+.*?|\d b[a-z]* ?\d+|\d+ sp\w+|r\d+)(?= ?([&lt;\[\]]))|(?-s:20\d\d-\d\d-\d\d))</Regex>
-            <Url>http://www.softpedia.com/get/System/System-Info/AIDA64-Business-Edition.shtml</Url>
-            <StartText>	&lt;!-- google_ad_section_start --&gt;&lt;h1&gt;&lt;span itemprop="name"&gt;AIDA64 Business Edition&lt;/span&gt; &lt;span class="appver" itemprop="softwareVersion"&gt;</StartText>
-            <EndText>&lt;/span&gt;</EndText>
-            <TextualContent>4.60.3002</TextualContent>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=product"&gt;AIDA64 Business.*?version"&gt;)[\d\.]{3,}</Regex>
+            <Url>http://www.aida64.com/downloads</Url>
+            <StartText>	&lt;!-- google_ad_section_start --&gt;&lt;h1&gt;&lt;span itemprop="name"&gt;AIDA64 Extreme Edition&lt;/span&gt; &lt;span class="appver" itemprop="softwareVersion"&gt;</StartText>
+            <EndText />
+            <TextualContent>4.60.3001</TextualContent>
             <Name>version</Name>
           </UrlVariable>
         </value>
       </item>
       <item>
         <key>
-          <string>url</string>
+          <string>getUrl</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <TextualContent>http://download.aida64.com/aida64business{anchor1}.zip</TextualContent>
-            <Name>url</Name>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=product"&gt;AIDA64 Business.*?)downloads/[^"]+</Regex>
+            <Url>http://www.aida64.com/downloads</Url>
+            <TextualContent />
+            <Name>getUrl</Name>
           </UrlVariable>
         </value>
       </item>
@@ -154,8 +156,22 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>1</TextualContent>
+            <TextualContent>2</TextualContent>
             <Name>cscript</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>http://download.aida64.com/aida64business{version:split:.:0}{version:split:.:1}.zip</TextualContent>
+            <Name>url</Name>
           </UrlVariable>
         </value>
       </item>
@@ -166,12 +182,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>D:\chocolatey\_work\aida64business470.zip</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
-    <Enabled>false</Enabled>
+    <PreviousLocation>F:\exe\aida64business520.zip</PreviousLocation>
+    <DeletePreviousFile>false</DeletePreviousFile>
+    <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2014-11-30T16:08:42.061553</LastUpdated>
-    <TargetPath>D:\chocolatey\_work\</TargetPath>
+    <LastUpdated>2015-06-13T15:28:52.0265543-05:00</LastUpdated>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>aida64-business</Name>
   </ApplicationJob>
