@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="28f243b2-5d9e-47d5-a8ad-27b819a5b086">
     <SourceTemplate><![CDATA[<Jobs>
@@ -70,9 +70,9 @@
 </Jobs>]]></SourceTemplate>
     <WebsiteUrl />
     <UserAgent />
-    <UserNotes>antivirus AUTO CHANGEABLE title</UserNotes>
-    <LastFileSize>29565032</LastFileSize>
-    <LastFileDate>2014-11-30T16:46:12.1059297</LastFileDate>
+    <UserNotes />
+    <LastFileSize>30525112</LastFileSize>
+    <LastFileDate>2015-06-02T05:45:32-05:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Avoid</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -91,9 +91,9 @@
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>StartEnd</VariableType>
-            <Regex />
-            <Url>http://zona.ru/</Url>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=changelog-release" id=")[\d\.]{3,}</Regex>
+            <Url>http://zona.ru/changelog.html</Url>
             <StartText>&gt;&lt;div class=version&gt;Ð’ÐµÑ€ÑÐ¸Ñ </StartText>
             <EndText />
             <TextualContent>9.0.2008.20131118</TextualContent>
@@ -110,7 +110,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>http://dl3.getz.tv/ZonaSetup_latest.exe</TextualContent>
+            <TextualContent>{getUrl2}</TextualContent>
             <Name>url</Name>
           </UrlVariable>
         </value>
@@ -138,8 +138,50 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>1</TextualContent>
+            <TextualContent>2</TextualContent>
             <Name>cscript</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>getUrl</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>[^ "'&lt;&gt;\*]+\.exe</Regex>
+            <Url>http://zona.ru/download.html</Url>
+            <Name>getUrl</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>getUrl2</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=ResponseUri: )[^\r\n]+</Regex>
+            <Url>{getUrl}</Url>
+            <Name>getUrl2</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url64</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>{getUrl}</TextualContent>
+            <Name>url64</Name>
           </UrlVariable>
         </value>
       </item>
@@ -150,12 +192,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>D:\chocolatey\_work\ZonaSetup_latest.exe</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
-    <Enabled>false</Enabled>
+    <PreviousLocation>F:\exe\ZonaSetup_latest.exe</PreviousLocation>
+    <DeletePreviousFile>false</DeletePreviousFile>
+    <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2014-11-30T16:46:12.1059297</LastUpdated>
-    <TargetPath>D:\chocolatey\_work\</TargetPath>
+    <LastUpdated>2015-06-12T20:01:08.5070024-05:00</LastUpdated>
+    <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>zona</Name>
   </ApplicationJob>
