@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="3d43965b-ddc1-4ef2-87f3-aa145d9a6b73">
     <WebsiteUrl />
@@ -25,7 +25,7 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=&lt;td\s*&gt;\s*&lt;a href=")(.*?)(?="&gt;Download)</Regex>
+            <Regex>[^ "'&lt;&gt;\*]+\.msi</Regex>
             <Url>http://www.zimbra.com/downloads/zimbra-desktop</Url>
             <Name>url</Name>
           </UrlVariable>
@@ -33,15 +33,15 @@
       </item>
       <item>
         <key>
-          <string>checksumFile</string>
+          <string>checksum</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=win32.msi"&gt;Download [\d\.]+&lt;/a&gt;\s*&lt;small&gt;\(&lt;a href=")(.*?)(?="&gt;)</Regex>
-            <Url>http://www.zimbra.com/downloads/zimbra-desktop</Url>
-            <Name>checksumFile</Name>
+            <Regex>[A-Fa-f0-9]{32}</Regex>
+            <Url>{url}.md5</Url>
+            <Name>checksum</Name>
           </UrlVariable>
         </value>
       </item>
@@ -53,7 +53,7 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=win32.msi"&gt;Download )([\d\.]+)(?=&lt;/a&gt;)</Regex>
+            <Regex>(?&lt;=Download )[\d\.]+</Regex>
             <Url>http://www.zimbra.com/downloads/zimbra-desktop</Url>
             <Name>version</Name>
           </UrlVariable>
@@ -61,7 +61,7 @@
       </item>
       <item>
         <key>
-          <string>nopush</string>
+          <string>yopush</string>
         </key>
         <value>
           <UrlVariable>
@@ -69,7 +69,7 @@
             <VariableType>Textual</VariableType>
             <Regex />
             <TextualContent>--nopush</TextualContent>
-            <Name>nopush</Name>
+            <Name>yopush</Name>
           </UrlVariable>
         </value>
       </item>
@@ -95,7 +95,7 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=Setup&lt;/a&gt;&amp;nbsp;\|&amp;nbsp;&lt;a href=")(.*?)(?=")</Regex>
+            <Regex>[^ "'&lt;&gt;\*]+Release_Notes.*?\.pdf</Regex>
             <Url>http://www.zimbra.com/downloads/zimbra-desktop</Url>
             <Name>releaseNotes</Name>
           </UrlVariable>
@@ -110,7 +110,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>2</TextualContent>
+            <TextualContent>0</TextualContent>
             <Name>cscript</Name>
           </UrlVariable>
         </value>
@@ -123,7 +123,7 @@
     <Category />
     <SourceType>FixedUrl</SourceType>
     <PreviousLocation>C:\ProgramData\chocolatey\_work\zdesktop_7_2_5_ga_b12038_20140417012326_win32.msi</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-02-05T00:56:35.3260039</LastUpdated>

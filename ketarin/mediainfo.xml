@@ -1,11 +1,11 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="eadad72e-1240-4714-a25e-3ccf7944b84a">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>4401520</LastFileSize>
-    <LastFileDate>2015-04-11T04:37:18.0456639</LastFileDate>
+    <LastFileSize>4768120</LastFileSize>
+    <LastFileDate>2015-05-25T19:59:35-05:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -25,24 +25,10 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=ResponseUri: )[^\r\n]+</Regex>
-            <Url>http://sourceforge.net/projects/mediainfo/files/binary/mediainfo-gui/{version}/MediaInfo_GUI_{version}_Windows.exe/download</Url>
+            <Regex>[^ "'&lt;&gt;\*]+\.exe</Regex>
+            <Url>http://mediaarea.net/en/MediaInfo/Download/Windows</Url>
             <TextualContent />
             <Name>url</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>url64</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <TextualContent>http://sourceforge.net/projects/mediainfo/files/binary/mediainfo-gui/{version}/MediaInfo_GUI_{version}_Windows.exe/download</TextualContent>
-            <Name>url64</Name>
           </UrlVariable>
         </value>
       </item>
@@ -98,11 +84,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\MediaInfo_GUI_0.7.73_Windows.exe</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <PreviousLocation>F:\exe\MediaInfo_GUI_0.7.74_Windows.exe</PreviousLocation>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-11T04:37:18.0456639</LastUpdated>
+    <LastUpdated>2015-06-05T02:52:12.7614031-05:00</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>mediainfo</Name>
