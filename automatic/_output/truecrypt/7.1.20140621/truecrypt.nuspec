@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>truecrypt</id>
+    <version>7.1.20140621</version>
+    <title>TrueCrypt</title>
+    <authors>tc-foundation</authors>
+    <owners>Yoshimov</owners>
+    <licenseUrl>http://truecrypt.ch/</licenseUrl>
+    <projectUrl>http://truecrypt.ch/</projectUrl>
+    <iconUrl>https://github.com/yoshimov/chocolatey-packages/raw/master/truecrypt/logo38px.gif</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Free open-source disk encryption software for Windows 7/Vista/XP, Mac OS X, and Linux</description>
+    <summary>Free open-source disk encryption software for Windows 7/Vista/XP, Mac OS X, and Linux</summary>
+    <releaseNotes />
+    <copyright />
+    <tags>truecrypt admin encrypt</tags>
+  </metadata>
+</package>
