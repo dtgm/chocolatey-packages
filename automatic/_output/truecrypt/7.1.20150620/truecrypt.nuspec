@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>truecrypt</id>
+    <title>TrueCrypt</title>
+    <version>7.1.20150620</version>
+    <authors>TrueCrypt Developers Association</authors>
+    <owners>dtgm</owners>
+    <summary>Free open-source cross-platform disk encryption software</summary>
+    <description>
+Free open-source disk encryption software for Windows 7/Vista/XP, Mac OS X, and Linux.
+
+### Abandonware
+TrueCrypt is currently unmaintained (since 2014), which may have security implications. The [original website](http://truecrypt.sourceforge.net/) and forums have been taken offline. For more information, see [Wikipedia](https://en.wikipedia.org/wiki/TrueCrypt#End_of_life_announcement) and the [community website](https://truecrypt.ch/) for plans on continuing development under a different name as required by the TrueCrypt license v3.0.
+
+### Security audit
+__Dec 2013:__ Prior to TrueCrypt developers abandoning the software, its security is brought to question and a public audit is called for and funded on a public [crowd-funding website](https://www.indiegogo.com/projects/the-truecrypt-audit). 
+__May 2014:__ The anonymous TrueCrypt developers announce no further development of TrueCrypt and recommend [Windows users](http://truecrypt.sourceforge.net/) to migrate to BitLocker, the closed source encryption available in certain versions of Microsoft Windows and [Mac OSX users](http://truecrypt.sourceforge.net/OtherPlatforms.html) migrate to OS' native encryption tools in Disk Utility.
+__Apr 2015__: The [audit is completed](http://istruecryptauditedyet.com/) of TrueCrypt version 7.1a and published on https://opencryptoaudit.org/. The entirety of the final report is available as [PDF](https://opencryptoaudit.org/reports/TrueCrypt_Phase_II_NCC_OCAP_final.pdf). An excerpt from that report follows:
+
+> The Open Crypto Audit Project engaged Cryptography Services (CS) to perform a scoped engagement
+on portions of TrueCrypt's cryptographic implementations and use. This review was narrowly scoped
+to specific aspects of the application, and was time-boxed to an engagement length that was deemed
+sufficient to give adequate coverage of the components in place.
+> [...]
+> CS identified four (4) issues, and none led to a complete bypass of confidentiality
+in common usage scenarios. The standard workflow of creating a volume and making use of it
+was reviewed, and no significant flaws were found that would impact it.
+
+### Version 7.2 (not installed)
+Concurrent to the May 2014 announcement of abandoning the project and recommending users migrate to other software, version __7.2__ was released as a closed source installer of TrueCrypt intended for migrating encrypted TrueCrypt containers to other encryption software.
+
+Due to the unexpected and suspicious announcement and lack of information detailing any changes or fixes made to the installer, it is generally advised __not__ to install version 7.2 for cautious users.
+
+### Version 7.1a
+Although open source version 7.1a was released 7 February 2012, no critical security issues are known and it has been found reliable and stable.
+
+__This package installs and verifies via SHA1 checksum version 7.1a__
+
+### Software documentation for 7.1a
+* [User Guide](https://download.truecrypt.ch/documentation/)
+* [Copyright information](https://github.com/FreeApophis/TrueCrypt#copyright-information)
+
+### Software community
+* [Forum](https://forum.truecrypt.ch/)
+* [Twitter](https://twitter.com/TrueCryptNext)
+    </description>
+    <projectUrl>https://truecrypt.ch/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/d909eae346c6edf23ab67464166226ba659ac1ee/icons/truecrypt.png</iconUrl>
+    <tags>abandonware truecrypt admin encryption</tags>
+    <copyright>© 2003-2012 TrueCrypt Developers Association</copyright>
+    <licenseUrl>https://github.com/FreeApophis/TrueCrypt/blob/master/License.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [News](https://truecrypt.ch/blog/)
+* [Release log](https://download.truecrypt.ch/older/)
+* [Known issues](https://github.com/FreeApophis/TrueCrypt/issues)
+* [Source code](https://github.com/FreeApophis/TrueCrypt)
+
+#### Package
+Manually built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm) to address following issues:
+
+* UNCHANGED: This package continues to install the last published open source release of TrueCrypt, version 7.1a, as made available by the community at https://truecrypt.ch/
+* FIX (Security): The installer now verifies the executable with [SHA1](https://en.wikipedia.org/wiki/SHA-1) [checksum](https://en.wikipedia.org/wiki/Checksum) before chocolatey proceeds with installation.  
+`choco feature list` will indicate if chocolatey is verifying the checksum upon install. By default, it is Enabled.  
+If `checksumFiles - [Disabled]` is returned, you may enable it with  
+`choco feature enable -n=checksumFiles`
+* FIX (Compatibility): The uninstaller now searches registry for install location rather than requiring default install location.
+* FIX (Deprecated): Removed and cleaned deprecated parts from both install and uninstall scripts.
+* FIX (Info): Additional information in nuspec: description, releaseNotes, tags, copyright
+* FIX (Info): Corrected information in nuspec: summary, authors, icon
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
