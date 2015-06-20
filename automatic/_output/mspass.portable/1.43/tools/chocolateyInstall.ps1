@@ -3,7 +3,7 @@ $url = 'http://www.nirsoft.net/toolsdownload/mspass.zip'
 $checksum = 'b36f51256f05bbae9d9386c623626908fae71d5e'
 $checksumType = 'sha1'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$installFile = Join-Path $toolsDir "$($packageName).exe"
+$installFile = Join-Path $toolsDir "mspass.exe"
 
 $chocTempDir = Join-Path $Env:Temp "chocolatey"
 $tempDir = Join-Path $chocTempDir "$packageName"

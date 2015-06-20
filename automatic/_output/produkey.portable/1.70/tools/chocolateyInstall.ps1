@@ -6,7 +6,7 @@ $url64 = 'http://www.nirsoft.net/utils/produkey-x64.zip'
 $checksum64 = '24a9d136d6dd54929cbb2d586b937c3b08e723bd'
 $checksumType64 = 'sha1'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$installFile = Join-Path $toolsDir "$($packageName).exe"
+$installFile = Join-Path $toolsDir "produkey.exe"
 
 Install-ChocolateyZipPackage -PackageName "$packageName" `
                              -Url "$url" `

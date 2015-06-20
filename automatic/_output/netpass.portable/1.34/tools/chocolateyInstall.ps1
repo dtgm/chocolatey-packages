@@ -6,7 +6,7 @@ $url64 = 'http://www.nirsoft.net/toolsdownload/netpass-x64.zip'
 $checksum64 = 'ab9992291800f0633735c901762861e567879a45'
 $checksumType64 = 'sha1'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$installFile = Join-Path $toolsDir "$($packageName).exe"
+$installFile = Join-Path $toolsDir "netpass.exe"
 
 $chocTempDir = Join-Path $Env:Temp "chocolatey"
 $tempDir = Join-Path $chocTempDir "$packageName"

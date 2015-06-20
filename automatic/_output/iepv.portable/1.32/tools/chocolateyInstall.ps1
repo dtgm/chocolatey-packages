@@ -3,14 +3,14 @@ $url = 'http://www.nirsoft.net/toolsdownload/iepv.zip'
 $checksum = 'db2c610612c72790d6c4782b9f6d8a2f061ec171'
 $checksumType = 'sha1'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$installFile = Join-Path $toolsDir "$($packageName).exe"
+$installFile = Join-Path $toolsDir "iepv.exe"
 
 $chocTempDir = Join-Path $Env:Temp "chocolatey"
 $tempDir = Join-Path $chocTempDir "$packageName"
 if (![System.IO.Directory]::Exists($tempDir)) {[System.IO.Directory]::CreateDirectory($tempDir)}
 $zipFile = Join-Path $tempDir "$($packageName).zip"
 
-$referer = "http://www.nirsoft.net/utils/$packageName.html"
+$referer = "http://www.nirsoft.net/utils/"
 $wc = New-Object System.Net.WebClient
 $wc.Headers.Add("Referer", $referer)
 $wc.DownloadFile($url, $zipFile)

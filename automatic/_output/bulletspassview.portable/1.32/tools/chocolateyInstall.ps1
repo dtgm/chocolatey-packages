@@ -6,7 +6,7 @@ $url64 = 'http://www.nirsoft.net/utils/bulletspassview-x64.zip'
 $checksum64 = 'd831b489e4753341c23ff5042dc1d8c02f123f57'
 $checksumType64 = 'sha1'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$installFile = Join-Path $toolsDir "$($packageName).exe"
+$installFile = Join-Path $toolsDir "bulletspassview.exe"
 
 Install-ChocolateyZipPackage -PackageName "$packageName" `
                              -Url "$url" `

@@ -3,7 +3,7 @@ $url = 'http://www.nirsoft.net/toolsdownload/mailpv.zip'
 $checksum = '9e495d2c7fe33544bdcaa199bf4cc6dc61b1fc13'
 $checksumType = 'sha1'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$installFile = Join-Path $toolsDir "$($packageName).exe"
+$installFile = Join-Path $toolsDir "mailpv.exe"
 
 $chocTempDir = Join-Path $Env:Temp "chocolatey"
 $tempDir = Join-Path $chocTempDir "$packageName"

@@ -6,7 +6,7 @@ $url64 = 'http://www.nirsoft.net/utils/smsniff-x64.zip'
 $checksum64 = '64431125d70800c060f934bcb0dbbf9afe3ee972'
 $checksumType64 = 'sha1'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$installFile = Join-Path $toolsDir "$($packageName).exe"
+$installFile = Join-Path $toolsDir "smsniff.exe"
 
 Install-ChocolateyZipPackage -PackageName "$packageName" `
                              -Url "$url" `

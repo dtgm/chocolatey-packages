@@ -4,7 +4,7 @@
     <id>smartmontools</id>
     <title>smartmontools</title>
     <version>6.4.1</version>
-    <authors>Bruce Allen and Christian Franke</authors>
+    <authors>Bruce Allen,Christian Franke</authors>
     <owners>dtgm</owners>
     <summary>Self-Monitoring, Analysis and Reporting Technology System for storage systems</summary>
     <description>
@@ -14,20 +14,33 @@ Smartmontools was originally derived from the Linux ​smartsuite package and ac
 
 Due to OS-specific issues and also depending on the different state of smartmontools development on the platforms, device support is not the same for all OS platforms. We provide info about RAID-controller support here on the homepage and of course in the manpages.
 
-See 'smartmontools-win' for an alternate installer with additional bundled software.
-See 'GSmartControl' for a GTK GUI interface.
+See [GSmartControl](https://chocolatey.org/packages/gsmartcontrol) for a GTK GUI interface.
+
+#### Documentation
+* [FAQ](http://www.smartmontools.org/wiki/FAQ)
+* [Help](http://www.smartmontools.org/wiki/Help)
+* [Manual](http://www.smartmontools.org/wiki/TocDoc)
+* [Developer](http://www.smartmontools.org/wiki/TocDeveloper)
+
+#### Community
+* [Mailing list](http://www.smartmontools.org/wiki/Help#Mailinglist)
     </description>
     <projectUrl>http://www.smartmontools.org/</projectUrl>
-    <tags>daemon command-line hardware disk reporting monitoring</tags>
+    <tags>cli s.m.a.r.t. disk reporting monitoring daemon</tags>
     <copyright>© Bruce Allen</copyright>
-    <licenseUrl>http://www.gnu.org/licenses/gpl-2.0.html#SEC1</licenseUrl>
+    <licenseUrl>http://www.smartmontools.org/browser/trunk/smartmontools/COPYING</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-http://www.smartmontools.org/browser/tags/RELEASE_6_3/smartmontools/ChangeLog
+#### Program
+* [News](http://www.smartmontools.org/browser/trunk/smartmontools/NEWS)
+* [Roadmap](http://www.smartmontools.org/roadmap)
+* [Changelog](http://www.smartmontools.org/browser/trunk/smartmontools/ChangeLog)
+* [Known issues](http://www.smartmontools.org/report/19)
+* [Source code](http://www.smartmontools.org/browser/trunk/smartmontools)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
-    <!--<dependencies>
-      <dependency id="" />
-    </dependencies>-->
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

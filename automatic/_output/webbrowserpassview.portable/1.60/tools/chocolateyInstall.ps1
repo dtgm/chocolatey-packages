@@ -3,7 +3,7 @@ $url = 'http://www.nirsoft.net/toolsdownload/webbrowserpassview.zip'
 $checksum = '69181cc4666cd62a0103e0d93d63231d035c5a0c'
 $checksumType = 'sha1'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$installFile = Join-Path $toolsDir "$($packageName).exe"
+$installFile = Join-Path $toolsDir "webbrowserpassview.exe"
 
 $chocTempDir = Join-Path $Env:Temp "chocolatey"
 $tempDir = Join-Path $chocTempDir "$packageName"

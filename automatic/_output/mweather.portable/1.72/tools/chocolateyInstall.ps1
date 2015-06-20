@@ -3,7 +3,7 @@ $url = 'http://www.nirsoft.net/utils/mweather.zip'
 $checksum = '6f2c2fa48525ec1ee221a2b5426f4a925973c23b'
 $checksumType = 'sha1'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$installFile = Join-Path $toolsDir "$($packageName).exe"
+$installFile = Join-Path $toolsDir "mweather.exe"
 
 Install-ChocolateyZipPackage -PackageName "$packageName" `
                              -Url "$url" `
