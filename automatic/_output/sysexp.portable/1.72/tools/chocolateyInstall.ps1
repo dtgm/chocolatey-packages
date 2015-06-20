@@ -6,7 +6,7 @@ $url64 = 'http://www.nirsoft.net/utils/sysexp-x64.zip'
 $checksum64 = '62a5c7d11151ff4896a37f69d3d841d0acd53960'
 $checksumType64 = 'sha1'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$installFile = Join-Path $toolsDir "$($packageName).exe"
+$installFile = Join-Path $toolsDir "sysexp.exe"
 
 Install-ChocolateyZipPackage -PackageName "$packageName" `
                              -Url "$url" `

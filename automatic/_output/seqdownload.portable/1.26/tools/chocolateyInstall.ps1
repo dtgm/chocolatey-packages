@@ -3,7 +3,7 @@ $url = 'http://www.nirsoft.net/utils/seqdownload.zip'
 $checksum = '64072ae687615c52268dd55ebb5d2d3d411256de'
 $checksumType = 'sha1'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$installFile = Join-Path $toolsDir "$($packageName).exe"
+$installFile = Join-Path $toolsDir "seqdownload.exe"
 
 Install-ChocolateyZipPackage -PackageName "$packageName" `
                              -Url "$url" `

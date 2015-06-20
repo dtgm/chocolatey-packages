@@ -6,7 +6,7 @@ $url64 = 'http://www.nirsoft.net/utils/volumouse-x64.zip'
 $checksum64 = 'b76621ef7d6693e9c32c7a45da3baaa0b191a968'
 $checksumType64 = 'sha1'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$installFile = Join-Path $toolsDir "$($packageName).exe"
+$installFile = Join-Path $toolsDir "volumouse.exe"
 
 Install-ChocolateyZipPackage -PackageName "$packageName" `
                              -Url "$url" `

@@ -3,7 +3,7 @@ $url = 'http://www.nirsoft.net/toolsdownload/pstpassword.zip'
 $checksum = 'd2ded3e308494edacd0b3bd851e5bf3eccb0ab8e'
 $checksumType = 'sha1'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$installFile = Join-Path $toolsDir "$($packageName).exe"
+$installFile = Join-Path $toolsDir "pstpassword.exe"
 
 $chocTempDir = Join-Path $Env:Temp "chocolatey"
 $tempDir = Join-Path $chocTempDir "$packageName"

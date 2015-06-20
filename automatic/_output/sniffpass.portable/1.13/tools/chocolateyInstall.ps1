@@ -6,7 +6,7 @@ $url64 = 'http://www.nirsoft.net/toolsdownload/sniffpass-x64.zip'
 $checksum64 = '878860943f7936ab9e8843ff0679701d5fc2981b'
 $checksumType64 = 'sha1'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$installFile = Join-Path $toolsDir "$($packageName).exe"
+$installFile = Join-Path $toolsDir "sniffpass.exe"
 
 $chocTempDir = Join-Path $Env:Temp "chocolatey"
 $tempDir = Join-Path $chocTempDir "$packageName"

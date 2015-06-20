@@ -6,7 +6,7 @@ $url64 = 'http://www.nirsoft.net/utils/videocacheview-x64.zip'
 $checksum64 = 'ae5c80afbb0e76f52506a43eac8b1709514fdd9f'
 $checksumType64 = 'sha1'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$installFile = Join-Path $toolsDir "$($packageName).exe"
+$installFile = Join-Path $toolsDir "videocacheview.exe"
 
 Install-ChocolateyZipPackage -PackageName "$packageName" `
                              -Url "$url" `
