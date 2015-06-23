@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>nunit</id>
+    <version>2.6.3.20140715</version>
+    <title>NUnit (Install)</title>
+    <authors>AKQA</authors>
+    <owners>Regardt Meyer</owners>
+    <licenseUrl>http://www.nunit.org/index.php?p=license&amp;=2.6.3</licenseUrl>
+    <projectUrl>http://www.nunit.org/index.php?p=home</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>nunit</description>
+    <summary>nunit</summary>
+    <releaseNotes />
+    <copyright />
+    <tags>nunit</tags>
+  </metadata>
+</package>
