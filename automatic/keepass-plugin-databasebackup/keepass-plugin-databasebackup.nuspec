@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>KeePass Plugin DataBaseBackup</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Francis Noël</authors>
+    <owners>dtgm</owners>
+    <summary>Plugin for KeePass 2.x to create backups of modified databases</summary>
+    <description>
+Plugin for KeePass 2.x to create backups of modified databases.
+    </description>
+    <projectUrl>http://keepass.info/plugins.html#databasebackup</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/ef1b47ff00f76bdaa47ab74d2262532d0d625be4/icons/{{PackageName}}.png</iconUrl>
+    <tags>keepass plugin backup database</tags>
+    <copyright>© 2006 Francis Noël</copyright>
+    <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Source code](http://keepass.info/extensions/v2/databasebackup/DataBaseBackup-{{PackageVersion}}-Source.zip)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="keepass" version="[2.27, 3.0)" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

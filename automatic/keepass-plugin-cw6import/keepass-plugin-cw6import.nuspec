@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>KeePass Plugin CW6Konverter</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Mario Linhart,Ria von der Wartburg</authors>
+    <owners>dtgm</owners>
+    <summary>Plugin for KeePass 2.x to covert CodeWallet 6 TXT file to a CSV file</summary>
+    <description>
+This tool converts a CodeWallet 6 TXT file to a CSV file that can be imported into KeePass using the [Generic CSV Importer](http://keepass.info/help/base/importexport.html#genericcsv).
+
+KeePass 2.x already includes an importer for CodeWallet 6 files. However, the Konverter additionally supports groups and field associations.
+    </description>
+    <projectUrl>http://keepass.info/plugins.html#cw6tocsv</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages//icons/{{PackageName}}.png</iconUrl>
+    <tags>keepass plugin import codewallet csv</tags>
+    <copyright>© Mario Linhart, Ria von der Wartburg</copyright>
+    <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Source code](http://keepass.info/extensions/v2/cw6import/CW6Konverter-2.1-Source.zip)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="keepass" version="[2.0, 3.0)" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

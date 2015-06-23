@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>Fossil SCM</title>
+    <version>{{PackageVersion}}</version>
+    <authors>D. Richard Hipp</authors>
+    <owners>dtgm</owners>
+    <summary>Simple, high-reliability, distributed software configuration management system</summary>
+    <description>
+Fossil is a cross-platform command line interface server that runs on Linux, BSD derivatives, Mac and Windows. It is capable of performing distributed version control, bug tracking, wiki services, and blogging. The software has a built-in web interface, which reduces project tracking complexity and promotes situational awareness. A user may simply type "fossil ui" from within any check-out and Fossil automatically opens the user's web browser in a page that gives detailed history and status information on that project.
+
+#### Documentation
+* [FAQ](https://www.fossil-scm.org/fossil/doc/trunk/www/faq.wiki)
+* [Wiki](https://www.fossil-scm.org/fossil/wcontent?all=1)
+* [Manual](https://www.fossil-scm.org/fossil/help)
+
+#### Community
+* [Mailing list](http://mailinglists.sqlite.org/cgi-bin/mailman/listinfo/fossil-users)
+    </description>
+    <projectUrl>http://www.fossil-scm.org/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/9e372a546699509d7a2c118677262ce898e9c017/icons/{{PackageName}}.png</iconUrl>
+    <tags>cli dvcs scm sqlite</tags>
+    <copyright>© 2007 D. Richard Hipp</copyright>
+    <licenseUrl>https://www.fossil-scm.org/fossil/doc/trunk/COPYRIGHT-BSD2.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [To Do](https://www.fossil-scm.org/fossil/wiki?name=To+Do+List)
+* [Changelog](https://www.fossil-scm.org/fossil/timeline?c=version-{{PackageVersion}};y=ci)
+* [Known issues](https://www.fossil-scm.org/fossil/rptview?rn=1)
+* [Source code](https://www.fossil-scm.org/fossil/dir?ci=tip)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="{{PackageName}}.portable" version="[{{PackageVersion}}]" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

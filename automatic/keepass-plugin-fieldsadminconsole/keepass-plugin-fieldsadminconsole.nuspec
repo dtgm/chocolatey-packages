@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>KeePass Plugin Fields Admin Console</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Jareth Lomson</authors>
+    <owners>dtgm</owners>
+    <summary>KeePass Plugin to perform bulk operations on fields</summary>
+    <description>
+KeePass Fields Admin Console is a KeePass plugin to get some statistics and perform bulk operations on fields.
+
+* Rename fields
+* Protect/Unprotect values for several entries
+* Modify selected values
+* Delete values or fields
+    </description>
+    <projectUrl>https://sourceforge.net/projects/kpfieldsadminconsole/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages//icons/{{PackageName}}.png</iconUrl>
+    <tags>keepass plugin field management</tags>
+    <copyright>© 2004 Jareth Lomson</copyright>
+    <licenseUrl>https://sourceforge.net/p/kpfieldsadminconsole/KPFAC/ci/master/tree/LICENSE.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Changelog](https://sourceforge.net/p/kpfieldsadminconsole/KPFAC/ci/master/tree/README.txt)
+* [Known issues](https://sourceforge.net/p/kpfieldsadminconsole/tickets/)
+* [Source code](https://sourceforge.net/p/kpfieldsadminconsole/KPFAC/ci/master/tree/)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="keepass" version="[2.09, 3.0)" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

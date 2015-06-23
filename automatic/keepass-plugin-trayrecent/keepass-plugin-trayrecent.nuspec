@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>Keepass Plugin TrayRecentFiles</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Fábio Beirão</authors>
+    <owners>dtgm</owners>
+    <summary>Plugin for KeePass 2.x to list your recent files directly on your systray icon</summary>
+    <description>
+TrayRecentFiles is a KeePass 2.x plugin that lists your recent files directly in the system tray icon menu.
+
+This plug-in will add the (exact) same "Open Recent" menu to your systray KeePass icon.
+
+I believe this is a very useful plugin for people who use more than one KeePass databases on a daily basis (such as me).
+    </description>
+    <projectUrl>https://github.com/fdbeirao/KeePassTrayRecentFiles</projectUrl>
+    <tags>keepass plugin traymenu</tags>
+    <copyright>© 2015 Fábio Beirão</copyright>
+    <licenseUrl>https://github.com/fdbeirao/KeePassTrayRecentFiles#disclaimer</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Known issues](https://github.com/fdbeirao/KeePassTrayRecentFiles/issues)
+* [Source code](https://github.com/fdbeirao/KeePassTrayRecentFiles)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="keepass" version="[2.0, 3.0)" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

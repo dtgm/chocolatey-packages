@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>KeePass Plugin KeeOtp</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Devin Martin</authors>
+    <owners>dtgm</owners>
+    <summary>Plugin for KeePass 2.x to generate TOTP authentication codes</summary>
+    <description>
+This is a KeePass plugin that adds support for two factor authentication into other systems using TOTP (Timed One Time Passwords). It stores TOTP secret keys in the KeePass database and generates TOTP codes from the key within KeePass.
+
+KeeOtp is compatible with [Google 2-Step Verification](https://encrypted.google.com/landing/2step/) and [Amazon AWS MFA](https://aws.amazon.com/iam/details/mfa/). It will work with most other [RFC 6238](http://www.ietf.org/rfc/rfc1628.txt) compliant TOTP implementations as well.
+    </description>
+    <projectUrl>https://bitbucket.org/devinmartin/keeotp/wiki/Home</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/49a040e608a3aaee26fb773f56a0dc6bf624c8ca/icons/{{PackageName}}.png</iconUrl>
+    <tags>keepass plugin security totp 2fa</tags>
+    <copyright>© 2012 Devin Martin</copyright>
+    <licenseUrl>https://bitbucket.org/devinmartin/keeotp/src/default/LICENSE.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Changelog](https://bitbucket.org/devinmartin/keeotp/wiki/ReleaseNotes)
+* [Known issues](https://bitbucket.org/devinmartin/keeotp/issues)
+* [Source code](https://bitbucket.org/devinmartin/keeotp/src)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="keepass" version="[2.20, 3.0)" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
