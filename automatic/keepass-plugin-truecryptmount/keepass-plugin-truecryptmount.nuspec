@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>KeePass Plugin TrueCryptMount</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Patrick Schaller</authors>
+    <owners>dtgm</owners>
+    <summary>Plugin for KeePass 2.x to mount TrueCrypt volumes</summary>
+    <description>
+This plugin allows you to save time mounting TrueCrypt volumes.
+
+It can automatically select the container, drive letter and even use KeePass' autotype functionality to automatically type the password.
+
+#### Documentation
+* [Manual](https://bitbucket.org/schalpat/keepasstruecryptmount/wiki/Home)
+* [API Reference](https://bitbucket.org/schalpat/keepasstruecryptmount/wiki/API%20Reference)
+    </description>
+    <projectUrl>https://bitbucket.org/schalpat/keepasstruecryptmount/wiki/Home</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/97bb31b0ee0d2084e82aacc72762709a872fea0d/icons/{{PackageName}}.png</iconUrl>
+    <tags>keepass plugin truecrypt mount</tags>
+    <copyright>© 2010 Patrick Schaller</copyright>
+    <licenseUrl>https://bitbucket.org/schalpat/keepasstruecryptmount/src/master/License.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Changelog](https://bitbucket.org/devinmartin/keeotp/wiki/ReleaseNotes)
+* [Known issues](https://bitbucket.org/schalpat/keepasstruecryptmount/issues)
+* [Source code](https://bitbucket.org/schalpat/keepasstruecryptmount/src)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="keepass" version="[2.0, 3.0)" />
+      <dependency id="truecrypt" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

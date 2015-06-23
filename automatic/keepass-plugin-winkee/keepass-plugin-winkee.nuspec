@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>KeePass Plugin WinKee</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Theo Beisch</authors>
+    <owners>dtgm</owners>
+    <summary>Plugin for KeePass 2.x to more securely automate KeePass startup</summary>
+    <description>
+WinKee helps to securely automate KeePass startup. WinKee separately encrypts, stores and
+retrieves KeePass database access credentials in the KeePass configuration (KeePass.config.xml)
+file.
+
+WinKee encrypts and enables persistance for KeePass access password and key file reference based on the present users windows account credentials.
+
+Password and key file path will be encrypted based on Windows account credentials - so anybody
+having access to the specific user account and the WinKee database keyfile will be granted
+KeePass database access. KeePass and WinKee can be configured to automatically open a specified
+database via command line argument options -keyfile: during a user's Windows session logon or at
+any time by e.g. using a batch file.
+    </description>
+    <projectUrl>http://keepass.info/plugins.html#winkee</projectUrl>
+    <tags>keepass plugin security automate</tags>
+    <copyright>© 2009 Theo Beisch</copyright>
+    <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Source code](http://keepass.info/extensions/v2/winkee/WinKee-{{PackageVersion}}-Source.zip)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="keepass" version="[2.28, 3.0)" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>KeePass Plugin PassIFox</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Perry Nguyen,Lukas Schulze</authors>
+    <owners>dtgm</owners>
+    <summary>KeePass 2 plugin to to expose password entries securely (256bit AES/CBC) over HTTP</summary>
+    <description>
+PassIFox is a plugin for KeePass 2.x and provides a means of exposing password entries securely (256bit AES/CBC) over HTTP.
+
+This plugin is primarily intended for use with PassIFox for Mozilla Firefox and chromeIPass for Google Chrome.
+
+[Documentation](https://github.com/pfn/passifox/blob/master/documentation/PassIFox.md)
+    </description>
+    <projectUrl>https://github.com/pfn/passifox</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/abea15e652b3237c2ba87b2fb4df1e01ce99443e/icons/{{PackageName}}.png</iconUrl>
+    <tags>keepass plugin firefox autocompletion</tags>
+    <copyright>© 2013 Perry Nguyen, Lukas Schulze</copyright>
+    <licenseUrl>https://github.com/pfn/passifox/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Known issues](https://github.com/pfn/passifox/issues)
+* [Source code](https://github.com/pfn/passifox/)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="keepass" version="[2.0, 3.0)" />
+      <dependency id="keepass-plugin-keepasshttp" />
+      <dependency id="firefox" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

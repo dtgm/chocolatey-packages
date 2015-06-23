@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>KeePass Plugin CodeWallet 3 Import</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Sebastian Baumhekel</authors>
+    <owners>dtgm</owners>
+    <summary>Plugin for KeePass 2.x to import TXT files that were exported by CodeWallet 3</summary>
+    <description>
+This plugin for KeePass 2.x can import TXT files that were exported by CodeWallet 3.
+
+Note that this importer is specifically for CodeWallet 3 files.
+
+KeePass 2.x already includes an importer for CodeWallet 6 files.
+    </description>
+    <projectUrl>http://keepass.info/plugins.html#cw3import</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/22e78059104d078e10d25c835dc97140095f489d/icons/{{PackageName}}.png</iconUrl>
+    <tags>keepass plugin import codewallet3</tags>
+    <copyright>© 2009 Sebastian Baumhekel</copyright>
+    <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Source code](http://keepass.info/plugins.html#cw3import)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="keepass" version="[2.0, 3.0)" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

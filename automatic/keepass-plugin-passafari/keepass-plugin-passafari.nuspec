@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>KeePass Plugin Passafari</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Michael Nowak</authors>
+    <owners>dtgm</owners>
+    <summary>KeePass 2 plugin to to expose password entries securely (256bit AES/CBC) over HTTP</summary>
+    <description>
+KeePassHttp is a plugin for KeePass 2.x and provides a means of exposing password entries securely (256bit AES/CBC) over HTTP.
+
+This plugin is primarily intended for use with PassIFox for Mozilla Firefox and chromeIPass for Google Chrome.
+
+#### Documentation
+* [Configuration](https://github.com/mmichaa/passafari.safariextension#configuration-and-options)
+* [Security](https://github.com/mmichaa/passafari.safariextension#security)
+* [Protocol](https://github.com/mmichaa/passafari.safariextension#protocol)
+    </description>
+    <projectUrl>https://github.com/mmichaa/passafari.safariextension</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/abea15e652b3237c2ba87b2fb4df1e01ce99443e/icons/{{PackageName}}.png</iconUrl>
+    <tags>keepass plugin safari autocompletion</tags>
+    <copyright>© Michael Nowak</copyright>
+    <licenseUrl>https://github.com/mmichaa/passafari.safariextension/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Known issues](https://github.com/mmichaa/passafari.safariextension/issues)
+* [Source code](https://github.com/mmichaa/passafari.safariextension)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="keepass" version="[2.0, 3.0)" />
+      <dependency id="keepass-plugin-keepasshttp" />
+      <dependency id="safari" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

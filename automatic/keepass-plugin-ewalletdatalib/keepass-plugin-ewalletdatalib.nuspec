@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>KeePass Plugin ewalletdatalib</title>
+    <version>{{PackageVersion}}</version>
+    <authors></authors>
+    <owners>dtgm</owners>
+    <summary>Plugin for KeePass 2.x to </summary>
+    <description>
+
+    </description>
+    <projectUrl>http://keepass.info/plugins.html#</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages//icons/{{PackageName}}.png</iconUrl>
+    <tags>keepass plugin </tags>
+    <copyright>© 200</copyright>
+    <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Source code](http://keepass.info/extensions/v2/ewalletdatalib/eWalletDataLiberator-{{PackageVersion}}.zip)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="keepass" version="[2.23, 3.0)" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
