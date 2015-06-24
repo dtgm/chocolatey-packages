@@ -17,16 +17,19 @@ aria2 is a multi-protocol &amp; multi-source, cross platform download utility.  
 * Metalink Enabled. aria2 supports The Metalink Download Description Format (aka Metalink v4), Metalink version 3 and Metalink/HTTP. Metalink offers the file verification, HTTP/FTP/BitTorrent integration and the various configurations for language, location, OS, etc.
 * Remote Control. aria2 supports RPC interface to control the aria2 process. The supported interfaces are JSON-RPC (over HTTP and WebSocket) and XML-RPC.
 
-### Manual
-* http://aria2.sourceforge.net/manual/en/html/index.html
+[Manual](http://aria2.sourceforge.net/manual/en/html/index.html)
+[Source code](https://github.com/tatsuhiro-t/aria2)
     </description>
     <projectUrl>http://aria2.sourceforge.net/</projectUrl>
-    <tags>command-line download-manager ftp bittorrent metalink</tags>
+    <tags>command-line download manager ftp bittorrent metalink</tags>
     <copyright>Tatsuhiro Tsujikawa</copyright>
     <licenseUrl>http://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/732a79a2b9e31faef3b3206fddc25e192d6b516b/icons/{{PackageName}}.png</iconUrl>
-    <releaseNotes>http://sourceforge.net/projects/aria2/files/stable/aria2-{{PackageVersion}}/</releaseNotes>
+    <releaseNotes>
+[News](https://sourceforge.net/projects/aria2/files/stable/aria2-{{PackageVersion}}/)
+[Known issues](https://github.com/tatsuhiro-t/aria2/issues)
+    </releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

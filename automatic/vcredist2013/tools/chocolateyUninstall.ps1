@@ -1,4 +1,4 @@
-﻿$packageName = '{{PackageName}}'
+﻿$packageName = 'vcredist2013'
 $packageSearch = 'Microsoft Visual C++ 2013 Redistributable'
 $installerType = 'exe'
 $silentArgs = '/uninstall /quiet'

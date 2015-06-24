@@ -5,7 +5,7 @@
     <title>SUMo</title>
     <version>{{PackageVersion}}</version>
     <authors>KC Softwares</authors>
-    <owners>tonigellida</owners>
+    <owners>dtgm</owners>
     <summary>Keep your PC up-to-date by using the most recent version of your favorite software</summary>
     <description>
 SUMo (__S__oftware __U__pdate __Mo__nitor) keeps your PC up-to-date and safe by using the most recent version of your favorite software.
@@ -20,6 +20,7 @@ Unlike built-in auto update features, SUMo tells you if updates are available be
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/d1e037cc7c943fda29b9067b3b1c3229d99402ff/icons/{{PackageName}}.png</iconUrl>
     <releaseNotes>
 [Changelog](http://www.kcsoftwares.com/bugs/changelog_page.php?project_id=11)
+[Known issues](http://www.kcsoftwares.com/bugs/view_all_bug_page.php)
     </releaseNotes>
     <dependencies>
       <dependency id="autohotkey.portable" />

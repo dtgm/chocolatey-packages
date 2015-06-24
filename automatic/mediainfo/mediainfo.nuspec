@@ -6,11 +6,7 @@
     <title>MediaInfo</title>
     <authors>Jérôme Martinez</authors>
     <owners>dtgm</owners>
-    <licenseUrl>http://mediaarea.net/en/MediaInfo/License</licenseUrl>
-    <projectUrl>http://mediaarea.net/en/MediaInfo</projectUrl>
-    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/63827a08643582e89d636e350bfa8aa6c62eab55/icons/{{PackageName}}.svg</iconUrl>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <summary>Unified display of the most relevant technical and tag data for video and audio files</summary>
+    <summary>Unified display of the most relevant technical and tag data for audio and video files</summary>
     <description>
 MediaInfo supplies technical and tag information about a video or audio file. Supports many audio and video formats, with different methods of viewing information.
 
@@ -37,10 +33,29 @@ MediaInfo supplies technical and tag information about a video or audio file. Su
 * Integrate with the shell (drag 'n' drop, and Context menu)
 * Internationalisation: display any language on any operating system
 * Localisation capability (for which volunteers are needed - please contact me!)
+
+#### Documentation
+* [Screenshots](http://mediaarea.net/en/MediaInfo/Screenshots)
+* [FAQ](http://mediaarea.net/en/MediaInfo/Support/FAQ)
+* [Supported formats](http://mediaarea.net/en/MediaInfo/Support/Formats)
+* [Supported tags](http://mediaarea.net/en/MediaInfo/Support/Tags)
+* [Forum](http://sourceforge.net/p/mediainfo/discussion/)
     </description>
-    <releaseNotes>http://mediaarea.net/MediaInfo/ChangeLog</releaseNotes>
-    <copyright>MediaArea.net SARL</copyright>
+    <projectUrl>http://mediaarea.net/en/MediaInfo</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/63827a08643582e89d636e350bfa8aa6c62eab55/icons/{{PackageName}}.svg</iconUrl>
+    <licenseUrl>http://mediaarea.net/en/MediaInfo/License</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <copyright>© 2002 MediaArea.net SARL</copyright>
     <tags>media info tag metadata file-formats file-analysis</tags>
+    <releaseNotes>
+#### Program
+* [Changelog](http://mediaarea.net/MediaInfo/ChangeLog)
+* [Known issues](http://sourceforge.net/p/mediainfo/bugs/)
+* [Source code](http://sourceforge.net/p/mediainfo/code/HEAD/tree/)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

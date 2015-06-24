@@ -22,17 +22,27 @@ Do whatever you want with your duplicates. Not only can you delete duplicates fi
 
 Supported languages: English, French, German, Chinese (Simplified), Czech, Italian, Armenian, Russian, Ukrainian, Brazilian.
 
-[Documentation](http://hardcoded.net/dupeguru/help/en/)
-[User support forum](http://forum.hardcoded.net/1/)
-[Source code](https://github.com/hsoft/dupeguru)
+#### Documentation
+* [Screenshots](http://www.hardcoded.net/dupeguru_me/screenshots)
+* [Screencasts](http://www.hardcoded.net/dupeguru_me/screencasts)
+* [Manual](http://hardcoded.net/dupeguru_me/help/en/)
+* [Forum](http://forum.hardcoded.net/1/)
     </description>
-    <projectUrl>http://www.hardcoded.net/dupeguru/</projectUrl>
+    <projectUrl>http://www.hardcoded.net/dupeguru_me/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/640f71b3c3e4c89b85daa06c2f3b74433afcf17e/icons/{{PackageName}}.png</iconUrl>
     <tags>music deduplication</tags>
-    <copyright>© Hardcoded Software</copyright>
+    <copyright>© 2001 Hardcoded Software</copyright>
     <licenseUrl>https://raw.githubusercontent.com/hsoft/dupeguru/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <releaseNotes>http://www.hardcoded.net/dupeguru/help/en/changelog.html</releaseNotes>
+    <releaseNotes>
+#### Program
+* [Changelog](http://hardcoded.net/dupeguru_me/help/en/changelog.html)
+* [Known issues](https://github.com/hsoft/dupeguru/issues)
+* [Source code](https://github.com/hsoft/dupeguru)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/d
+    </releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

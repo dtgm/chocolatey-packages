@@ -1,1 +1,1 @@
-#Install-VirtualPackage 'cmder.portable'
+﻿# MetaPackage

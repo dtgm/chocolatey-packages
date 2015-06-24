@@ -1,16 +1,15 @@
-try {
-  $packageName = '{{PackageName}}'
-  $fileType = 'exe'
-  $silentArgs = '/S'
-  $validExitCodes = @(0)
-  $osBitness = Get-ProcessorBits
-  if ($osBitness -eq 64) {
-    $unPath = 'HKLM:SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall'
-  } else {
-    $unPath = 'HKLM:SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall'
-  }
-  $unString = (Get-ItemProperty "$unPath\Universal Media Server*" UninstallString).UninstallString
-  Uninstall-ChocolateyPackage "$packageName" "$fileType" "$silentArgs" "$unString" -validExitCodes $validExitCodes
-} catch {
-  throw $_.Exception
-}
+$packageName = '{{PackageName}}'
+$packageSearch = "Universal Media Server"
+$installerType = 'exe'
+$silentArgs = '/S'
+$validExitCodes = @(0)
+Get-ItemProperty -Path @( 'HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*',
+                          'HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*',
+                          'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*' ) `
+                 -ErrorAction:SilentlyContinue `
+| Where-Object   { $_.DisplayName -like "$packageSearch" } `
+| ForEach-Object { Uninstall-ChocolateyPackage -PackageName "$packageName" `
+                                               -FileType "$installerType" `
+                                               -SilentArgs "$($silentArgs)" `
+                                               -File "$($_.UninstallString)" `
+                                               -ValidExitCodes $validExitCodes }

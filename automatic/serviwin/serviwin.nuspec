@@ -28,7 +28,7 @@ installed services/drivers in your default browser.
 [What's New?](http://www.nirsoft.net/utils/serviwin.html)
     </releaseNotes>
     <dependencies>
-      <dependency id="{{PackageName}}" version="[{{PackageVersion}}]" />
+      <dependency id="{{PackageName}}.install" version="[{{PackageVersion}}]" />
     </dependencies>
   </metadata>
 </package>

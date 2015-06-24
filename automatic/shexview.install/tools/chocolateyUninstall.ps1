@@ -1,5 +1,5 @@
 $packageName = '{{PackageName}}'
-$packageSearch = 'Nirsoft shexviewshexview'
+$packageSearch = 'Nirsoft shexview'
 $installerType = 'exe'
 $silentArgs = '/S'
 $validExitCodes = @(0)

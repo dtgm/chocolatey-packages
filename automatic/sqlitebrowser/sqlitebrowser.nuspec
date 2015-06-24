@@ -25,21 +25,26 @@ Controls and wizards are available for users to:
 * Issue SQL queries and inspect the results
 * Examine a log of all SQL commands issued by the application
 
-#### Source code
-* https://github.com/sqlitebrowser/sqlitebrowser/
-
 #### Previous names
 This project has previously been known as __SQLite Browser__ and __Database Browser for SQLite__.  
 
 In August 2014, the project was renamed to __Database Browser for SQLite__ at the request of [Richard Hipp](http://www.hwaci.com/drh) (creator of [SQLite](http://sqlite.org/)), as the previous name was creating unintended support issues.
     </description>
-    <releaseNotes>https://github.com/sqlitebrowser/sqlitebrowser/releases/tag/v{{PackageVersion}}</releaseNotes>
     <projectUrl>http://sqlitebrowser.org/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/0f1043745f1ba9e4be46fde84297b89b42bd3400/icons/{{PackageName}}.svg</iconUrl>
     <licenseUrl>https://raw.githubusercontent.com/sqlitebrowser/sqlitebrowser/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <copyright>http://sqlitebrowser.org/#history</copyright>
     <tags>sqlite database browser editor qt</tags>
+    <releaseNotes>
+#### Program
+* [Changelog](https://github.com/sqlitebrowser/sqlitebrowser/releases/tag/v{{PackageVersion}})
+* [Known issues](https://github.com/sqlitebrowser/sqlitebrowser/issues)
+* [Source code](https://github.com/sqlitebrowser/sqlitebrowser/)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
