@@ -11,6 +11,7 @@
 *.work
 *.handover
 *.new
+*.exist
 *-orig.*
 Thumbs.db
 .DS_Store
