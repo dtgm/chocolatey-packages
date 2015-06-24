@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>keepass-plugin-rdp</id>
+    <title>KeePass Plugin RDP</title>
+    <version>1.0</version>
+    <authors>Mikhail Ermakov</authors>
+    <owners>dtgm</owners>
+    <summary>KeePass plugin to connect via RDP</summary>
+    <description>
+This plugin allows to conveniently connect to a server via RDP.
+    </description>
+    <projectUrl>http://keepass.info/plugins.html#rdpplugin</projectUrl>
+    <tags>keepass plugin rdp</tags>
+    <copyright>© Mikhail Ermakov</copyright>
+    <licenseUrl>https://wikipedia.org/wiki/FOSS</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Source code](http://keepass.info/extensions/v2/rdpplugin/RDPPlugin-1.0-Source.zip)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="keepass" version="[2.09, 3.0)" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

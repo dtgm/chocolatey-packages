@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>cmdermini</id>
+    <title>CmderMini</title>
+    <version>1.2.0.20150624-beta</version>
+    <authors>Samuel Vasko</authors>
+    <owners>dtgm</owners>
+    <summary>Portable console emulator</summary>
+    <description>
+Cmder is a software package created out of pure frustration over absence of usable console emulator on Windows. It is based on ConEmu with major config overhaul. Monokai color scheme, amazing clink and custom prompt layout.
+
+The main advantage of Cmder is portability. It is designed to be totally self-contained with no external dependencies, that is makes it great for USB Sticks or Dropbox. So you can carry your console, aliases and binaries (like wget, curl and git) with you anywhere.
+
+Combines utility of 2 distinct tools:
+
+* Console emulator = Conemu
+* Cmd.exe enhancements = clink
+
+This package uncompresses to 7 MB and does not include Unix integration via msysgit.
+See [cmder](https://chocolatey.org/packages/cmder) (250 MB) for enhanced console with bundled Unix utilities via msysgit.
+
+By default, this package installs into `$BinRoot\cmdermini`
+    </description>
+    <projectUrl>http://bliker.github.io/cmder/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/5844fbed740e87c941f6bd77c4cc23f084941dbc/icons/cmder.png</iconUrl>
+    <projectSourceUrl>https://github.com/bliker/cmder</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/bliker/cmder/issues</bugTrackerUrl>
+    <docsUrl>https://github.com/bliker/cmder/wiki</docsUrl>
+    <tags>console terminal cli</tags>
+    <copyright>© 2013 Samuel Vasko</copyright>
+    <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[Changelog](https://github.com/bliker/cmder/releases)
+[Keyboard shortcuts](https://github.com/bliker/cmder#keyboard-shortcuts)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="cmdermini.portable" version="[1.2.0.20150624-beta]" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

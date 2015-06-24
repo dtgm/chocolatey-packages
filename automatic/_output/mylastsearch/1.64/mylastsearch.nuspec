@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>mylastsearch</id>
+    <title>MyLastSearch</title>
+    <version>1.64</version>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm</owners>
+    <summary>View your search engine query in Google and others</summary>
+    <description>
+MyLastSearch utility scans the cache and history files of your Web browser, and locate all search queries that you made with the most popular search engines (Google, Yahoo and MSN) and with popular social networking sites (Twitter, Facebook, MySpace).
+
+The search queries that you made are displayed in a table with the following columns: Search Text, Search Engine, Search Time, Search Type (General, Video, Images), Web Browser, and the search URL.
+
+You can select one or more search queries and then copy them to the clipboard or save them into text/html/xml file.
+    </description>
+    <projectUrl>http://www.nirsoft.net/utils/my_last_search.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/mylastsearch.png</iconUrl>
+    <tags>search engine query extract web browser history</tags>
+    <copyright>© 2007 NirSoft</copyright>
+    <licenseUrl>http://www.nirsoft.net/utils/my_last_search.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[What's New?](http://www.nirsoft.net/utils/my_last_search.html)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+  <metadata>
+    <id>nunit.install</id>
+    <version>3.0.0.2-beta</version>
+    <title>NUnit (Install)</title>
+    <authors>Charlie Poole,Rob Prouse</authors>
+    <owners>dtgm</owners>
+    <licenseUrl>https://github.com/nunit/nunit/wiki/License</licenseUrl>
+    <projectUrl>http://www.nunit.org/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/f741d8520fd414f8b453562e3091854efcf79305/icons/nunit.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>NUnit is a unit-testing framework for all .Net languages. Initially ported from JUnit, it is an xUnit based unit testing tool for Microsoft .NET. It is written entirely in C# and has been completely redesigned to take advantage of many .NET language features, for example custom attributes and other reflection related capabilities. NUnit brings xUnit to all .NET languages.</description>
+    <summary>Unit-testing framework for all .Net languages</summary>
+    <releaseNotes>#### Program
+* [Release notes](https://github.com/nunit/nunit/wiki/Release-Notes)
+* [Changelog](https://github.com/nunit/nunit/blob/master/CHANGES.txt)
+* [Roadmap](https://github.com/nunit/nunit/milestones)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)</releaseNotes>
+    <copyright>© 2002 NUnit.org</copyright>
+    <tags>development unit-test .net</tags>
+    <projectSourceUrl>https://github.com/nunit/nunit</projectSourceUrl>
+    <docsUrl>http://www.nunit.org/index.php?p=documentation</docsUrl>
+    <bugTrackerUrl>https://github.com/nunit/nunit/issues</bugTrackerUrl>
+  </metadata>
+</package>

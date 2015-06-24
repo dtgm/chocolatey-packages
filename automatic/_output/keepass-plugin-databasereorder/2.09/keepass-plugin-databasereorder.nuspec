@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>keepass-plugin-databasereorder</id>
+    <title>KeePass Plugin DataBaseReorder</title>
+    <version>2.09</version>
+    <authors>Francis Noël</authors>
+    <owners>dtgm</owners>
+    <summary>Plugin for KeePass 2.x to reorder all groups alphabetically</summary>
+    <description>
+DataBaseReorder plugin adds a command to reorder all groups alphabetically.
+
+Note: >=keepass-2.15 has group reordering commands built-in.
+    </description>
+    <projectUrl>http://keepass.info/plugins.html#</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/c31b45635c8179832ee9bfbd2766da250a934d4d/icons/keepass-plugin-databasereorder.png</iconUrl>
+    <tags>keepass plugin organize</tags>
+    <copyright>© 2006 Francis Noël</copyright>
+    <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Source code](http://keepass.info/extensions/v2/databasereorder/DataBaseReorder-2.08-Source.zip)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="keepass" version="[2.08, 2.15)" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

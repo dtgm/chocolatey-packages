@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>keepass-plugin-qualitycolumn</id>
+    <title>KeePass Plugin QualityColumn</title>
+    <version>1.2</version>
+    <authors>Dominik Reichl</authors>
+    <owners>dtgm</owners>
+    <summary>Plugin for KeePass 2.x to analyze password quality</summary>
+    <description>
+Adds support for a 'Password Quality' column in the main entry list.
+    </description>
+    <projectUrl>http://keepass.info/plugins.html#qcol</projectUrl>
+    <tags>keepass plugin security analysis</tags>
+    <copyright>© 2010 Dominik Reichl</copyright>
+    <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Source code](http://keepass.info/extensions/v2/qualitycolumn/QualityColumn-1.2-Source.zip)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="keepass" version="[2.25, 3.0)" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

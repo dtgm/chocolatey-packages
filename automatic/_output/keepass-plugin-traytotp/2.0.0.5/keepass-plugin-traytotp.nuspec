@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>keepass-plugin-traytotp</id>
+    <title>KeePass Plugin Tray TOTP</title>
+    <version>2.0.0.5</version>
+    <authors>Alexandre Gravel</authors>
+    <owners>dtgm</owners>
+    <summary>Plugin adding TOTP to KeePass2 tray menu, entry list and auto-type</summary>
+    <description>
+Time-based One-Time Password (TOTP) plugin to enable 2-step authentication (supports Google and Dropbox) by generating TOTPs from the KeePass tray icon. This plugin also provides a custom column to display and/or generate TOTPs. Auto-Type is also supported when the specified custom field is used in a keystroke sequence.
+    </description>
+    <projectUrl>https://sourceforge.net/projects/traytotp-kp2/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/5036be94daa9878299a2dcc1fa02b6f7c7a6aeac/icons/keepass-plugin-traytotp.png</iconUrl>
+    <tags>keepass plugin security authentication 2fa</tags>
+    <copyright>© Alexandre Gravel</copyright>
+    <licenseUrl>http://gplv3.fsf.org/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Changelog](https://sourceforge.net/projects/traytotp-kp2/files/Tray%20TOTP%20v.%202.0.0.5/)
+* [Known issues](http://sourceforge.net/p/traytotp-kp2/tickets/)
+* [Source code](http://sourceforge.net/p/traytotp-kp2/code/HEAD/tree/trunk/)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="keepass" version="[2.21, 3.0)" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

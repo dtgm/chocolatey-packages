@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>keepass-plugin-autotypecustomfieldpicker</id>
+    <title>KeePass Plugin AutoTypeCustomFieldPicker</title>
+    <version>1.0.0.0</version>
+    <authors>Bernd Bestel</authors>
+    <owners>dtgm</owners>
+    <summary>KeePass 2 plugin to provide support for a custom placeholder</summary>
+    <description>
+MicrosoftKeyImporter is a KeePass 2.x plugin to provide support for a placeholder `{PICKCUSTOMFIELD}`.
+
+When auto-typing a sequence containing this placeholder, a window is displayed that allows to pick a custom string field (whose value is then inserted at the placeholder's position).
+
+#### Purpose
+On some sites, particularly banking related sites, there are login forms where you have to enter "The answer for security question 3 out of 5". In KeePass, you probably have stored these answers in custom fields.
+
+With the current `{PICKCHARS}` placeholder you can pick single chars out of a field. But for this use case you need a placeholder for a complete field value.
+
+#### Usage
+Just use the new placeholder `{PICKCUSTOMFIELD}` in an Auto-Type sequence. When you execute such a sequence, a window will popup and let you choose a custom field (just like `{PICKCHARS}` does). The value of the picked custom field will be replaced in the Auto-Type sequence.
+    </description>
+    <projectUrl>https://github.com/berrnd/KeePassAutoTypeCustomFieldPicker</projectUrl>
+    <tags>keepass plugin customization</tags>
+    <copyright>© 2013 Bernd Bestel</copyright>
+    <licenseUrl>https://github.com/berrnd/KeePassAutoTypeCustomFieldPicker/blob/master/licence.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Known issues](https://github.com/berrnd/KeePassAutoTypeCustomFieldPicker/issues)
+* [Source code](https://github.com/berrnd/KeePassAutoTypeCustomFieldPicker)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="keepass" version="[2.0, 3.0)" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

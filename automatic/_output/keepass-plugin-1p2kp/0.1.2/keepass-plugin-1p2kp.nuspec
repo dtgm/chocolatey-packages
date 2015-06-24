@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>keepass-plugin-1p2kp</id>
+    <title>KeePass Plugin 1P2KeePass</title>
+    <version>0.1.2</version>
+    <authors>Dmitry Wolf</authors>
+    <owners>dtgm</owners>
+    <summary>Plugin for KeePass 2.x to import from 1Password Interchange Format (1pif)</summary>
+    <description>
+Plugin for KeePass 2.x to import from 1Password Interchange Format (1pif).
+
+Tested with 1Password 4.1.2 and KeePass 2.27.
+    </description>
+    <projectUrl>https://github.com/diimdeep/1P2KeePass</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/dfb037a5ecb3c94591815f3be6beee51316d9729/icons/keepass-plugin-1p2kp.png</iconUrl>
+    <tags>keepass plugin import 1password 1pif</tags>
+    <copyright>© Dmitry Wolf</copyright>
+    <licenseUrl>https://github.com/diimdeep/1P2KeePass/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Roadmap](https://github.com/diimdeep/1P2KeePass#todo)
+* [Known issues](https://github.com/diimdeep/1P2KeePass/issues)
+* [Source code](https://github.com/diimdeep/1P2KeePass)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="keepass" version="[2.0, 3.0)" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>blink</id>
+    <title>Blink</title>
+    <version>1.4.1</version>
+    <authors>Adrian Georgescu</authors>
+    <owners>dtgm</owners>
+    <summary>Real-time communications client using SIP protocol</summary>
+    <description>
+Blink is the best real-time communications client using SIP protocol. You can use it with many SIP providers, on the LAN using Bonjour and SIP2SIP free service.
+
+### Features
+* Voice and Video	
+* IM and Presence	
+* File Transfers	
+* Screen Sharing	
+* Conferencing
+
+[Wiki](http://blink-qt.ag-projects.com/)
+[Source code repository](http://devel.ag-projects.com/repositories/blink-qt)
+
+### Package-specific issue
+Attempting to install previous versions will fail.  Only the latest release of blink may be installed.
+    </description>
+    <projectUrl>http://icanblink.com</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2d36d582524442618d1c3b8bc4f3830f9e75281d/icons/blink.png</iconUrl>
+    <tags>blink sip phone calls telephony softphone</tags>
+    <copyright>© 2009-2015 AG Projects B.V.</copyright>
+    <licenseUrl>https://www.gnu.org/licenses/gpl-3.0.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[Changelog](http://icanblink.com/changelog-qt.phtml)
+[Development Notes](http://devel.ag-projects.com/repositories/blink-qt/Notes)
+[Development ToDo](http://devel.ag-projects.com/repositories/blink-qt/TODO)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

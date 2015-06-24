@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>keepass-plugin-keecloud</id>
+    <title>KeePass Plugin KeeCloud</title>
+    <version>1.0.43</version>
+    <authors>Devin Martin</authors>
+    <owners>dtgm</owners>
+    <summary>Plugin for KeePass 2.x to to add support for several online file services</summary>
+    <description>
+KeePass 2.x plugin to allow the natural functionality in KeePass to open and sync with URLs to work directly with online file providers. Supports Amazon S3 (s3://bucket/file) and Dropbox (dropbox://file) with others to come. See [supported services](https://bitbucket.org/devinmartin/keecloud/wiki/Supported-Protocols).
+
+Note: KeePass 2.x already has built-in support for synchronization of local files and files accessible via standard protocols (FTP, HTTP/WebDAV, ...), see the [Synchronization](http://keepass.info/help/v2/sync.html) help page for details. The KeeCloud plugin is only required when using online storage providers that aren't accessible using standard protocols.
+    </description>
+    <projectUrl>https://bitbucket.org/devinmartin/keecloud/wiki/Home</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/559f85eeb0412db780adb4614ef82b6fd3f63b3a/icons/keepass-plugin-keecloud.png</iconUrl>
+    <tags>keepass plugin backup sync cloud</tags>
+    <copyright>© 2013 Devin Martin</copyright>
+    <licenseUrl>https://bitbucket.org/devinmartin/keecloud/src/default/LICENSE.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Known issues](https://bitbucket.org/devinmartin/keecloud/issues)
+* [Source code](https://bitbucket.org/devinmartin/keecloud/src)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="keepass" version="[2.0, 3.0)" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
