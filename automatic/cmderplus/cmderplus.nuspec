@@ -12,8 +12,9 @@ Cmder+ is a friendly fork of Cmder. It adds a number of features that may not be
     
 #### [Features](https://github.com/narnaud/cmderplus#features)
     </description>
-    <projectUrl>http://jonls.dk/redshift/</projectUrl>
+    <projectUrl>https://github.com/narnaud/cmderplus/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/85b2cda701b3b00ed0c9aca8ca0a0a34dc9d5115/icons/{{PackageName}}.png</iconUrl>
+    <projectSourceUrl>https://github.com/narnaud/cmderplus/</projectSourceUrl>
     <tags>console cli</tags>
     <copyright>© Nicolas Arnaud-Cormos</copyright>
     <licenseUrl>https://github.com/narnaud/cmderplus#license</licenseUrl>
@@ -21,7 +22,6 @@ Cmder+ is a friendly fork of Cmder. It adds a number of features that may not be
     <releaseNotes>
 #### Program
 * [Changelog](https://github.com/narnaud/cmderplus/releases)
-* [Source code](https://github.com/narnaud/cmderplus/)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

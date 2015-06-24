@@ -1,12 +1,22 @@
-﻿$name = "keepass.portable"
-$url = "http://downloads.sourceforge.net/project/keepass/KeePass%202.x/2.28/KeePass-2.28.zip"
+﻿# generated vars
+$packageName = '{{PackageName}}'
+$url = '{{DownloadUrlx64}}'
+$checksum = '{{Checksum}}'
 
-$tools = Split-Path $MyInvocation.MyCommand.Definition
-$content = Join-Path (Split-Path $tools) "content"
+# static vars
+$checksumType = 'sha1'
+$toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
-$gui = Join-Path $content "KeePass.exe.gui"
+# $Env:ChocolateyInstall\helpers\functions
+Install-ChocolateyZipPackage -PackageName "$packageName" `
+                             -Url "$url" `
+                             -Url64bit "" `
+                             -UnzipLocation "$toolsDir" `
+                             -Checksum "$checksum" `
+                             -ChecksumType "$checksumType"
 
-New-Item $content -Type Directory -Force | Out-Null
-New-Item $gui -Type File -Force | Out-Null
-
-Install-ChocolateyZipPackage $name $url $content
+# create empty sidecar so shimgen creates shim for GUI rather than console
+$installFile = Join-Path -Path $toolsDir `
+                         -ChildPath "KeePass.exe.gui"
+Set-Content -Path $installFile `
+            -Value $null

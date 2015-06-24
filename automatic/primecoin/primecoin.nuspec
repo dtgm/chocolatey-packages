@@ -19,7 +19,7 @@ The innovative prime proof-of-work in Primecoin not only provides security and m
 * http://sourceforge.net/projects/primecoin/
     </description>
     <projectUrl>http://primecoin.io/</projectUrl>
-    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/19d35dff574b7496b92f235fa1503d47b861871a/icons/{{PackageName}}.svg</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/9856ff4757b8ace9a7b612e953b068bbe21b211c/icons/{{PackageName}}.png</iconUrl>
     <tags>primecoin xpm wallet cryptocurrency p2p</tags>
     <copyright>© Primecoin</copyright>
     <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
@@ -29,4 +29,4 @@ The innovative prime proof-of-work in Primecoin not only provides security and m
   <files>
     <file src="tools\**" target="tools" />
   </files>
-</package>
+</package>

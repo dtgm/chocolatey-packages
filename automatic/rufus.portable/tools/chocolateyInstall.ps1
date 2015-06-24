@@ -3,7 +3,7 @@ $url = '{{DownloadUrl}}'
 $checksum = '{{Checksum}}'
 $checksumType = 'sha1'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$installFile = Join-Path $toolsDir "$($packageName).exe"
+$installFile = Join-Path $toolsDir "rufus.exe"
 try {
   Get-ChocolateyWebFile -PackageName "$packageName" `
                         -FileFullPath "$installFile" `

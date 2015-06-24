@@ -11,15 +11,14 @@
 Sometimes it's necessary to create a lot of test files, or just a few but very big ones. Or you need a thousand folders with a thousand files in each of them to test with your application. FileTool can do that for you.
 
 Or you need to lock files to test how your application behaves if it can not access those files. FileTool can do that for you too.
-
-[Source code](https://code.google.com/p/stexbar/source/browse/#svn%2Ftrunk%2FMisc%2FFileTool)
     </description>
     <projectUrl>http://stefanstools.sourceforge.net/FileTool.html</projectUrl>
+    <projectSourceUrl>http://sourceforge.net/p/stefanstools/code/HEAD/tree/trunk/Misc/FileTool/</projectSourceUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/1e5b543fcbfbc832c6cf12d2ee4b219df59bdb5f/icons/filetool.png</iconUrl>
     <tags>file testing debug</tags>
     <copyright>© Stefan Kueng</copyright>
     <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/1e5b543fcbfbc832c6cf12d2ee4b219df59bdb5f/icons/filetool.png</iconUrl>
     <releaseNotes />
   </metadata>
   <files>

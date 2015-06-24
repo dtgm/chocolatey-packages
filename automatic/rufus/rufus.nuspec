@@ -36,4 +36,4 @@ Oh, and Rufus is fast. For instance it's about twice as fast as UNetbootin, Univ
       <dependency id="{{PackageName}}.install" version="[{{PackageVersion}}]" />
     </dependencies>
   </metadata>
-</package>
+</package>

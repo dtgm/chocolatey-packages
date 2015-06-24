@@ -10,21 +10,43 @@
     <description>
 ClamWin Free Antivirus is based on ClamAV engine and uses GNU General Public License by the Free Software Foundation, and is free (as in freedom) software.
 
-### Features
+#### Features
 * High detection rates for viruses and spyware;
 * Scanning Scheduler;
 * Automatic downloads of regularly updated Virus Database.
 * Standalone virus scanner and right-click menu integration to Microsoft Windows Explorer;
 * Addin to Microsoft Outlook to remove virus-infected attachments automatically.
 
-### Notes
 Please note that ClamWin Free Antivirus does not include an on-access, real-time scanner. You need to manually scan a file or schedule a scan via Task Scheduler in order to detect a virus or spyware.
+
+#### Documentation
+* [Screenshots](http://www.clamwin.com/content/view/23/55/)
+* [FAQ](http://www.clamwin.com/content/category/3/7/27/)
+* [Manual](http://www.clamwin.com/content/category/4/22/89/)
+* [Privacy Policy](www.clamwin.com/content/view/171/107/)
+
+#### Community
+* [Forum](http://forums.clamwin.com/)
+* [Mailing list](https://sourceforge.net/p/clamwin/mailman/)
     </description>
     <projectUrl>http://www.clamwin.com/</projectUrl>
-    <tags>antivirus virus-scanner no-real-time-scan notsilent</tags>
-    <copyright>ClamWin Pty Ltd.</copyright>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/82dd10296475d3db371d5e8a86bfd768f2d093bb/icons/{{PackageName}}.png</iconUrl>
+    <tags>notsilent antivirus virus-scanner security</tags>
+    <copyright>ClamWin Pty Ltd</copyright>
     <licenseUrl>http://www.clamwin.com/content/view/226/52/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/82dd10296475d3db371d5e8a86bfd768f2d093bb/icons/{{PackageName}}.png</iconUrl>
+    <releaseNotes>
+#### Program
+* [News](http://www.clamwin.com/content/blogcategory/20/100/)
+* [Changelog](https://sourceforge.net/p/clamwin/code/ci/master/tree/ChangeLog)
+* [Known issues](https://sourceforge.net/p/clamwin/bugs/)
+* [Source code](https://sourceforge.net/p/clamwin/code/ci/master/tree/)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
   </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
 </package>

@@ -13,6 +13,7 @@ Fontmatrix is a free/libre font explorer for Linux, Windows and Mac. It’s for 
 According to Haralambous, here is what we can expect a font manager to provide:
 
 > What do we need in order to manage fonts effciently? Imagine that we have thousands of fonts—not an unrealistic proposition, if we work in a graphic-design studio. The following are the most frequent operations that we will have to perform:
+
 1. Choosing the correct font for our project. At this time, software is not yet able to recommend a font according to the characteristics of the project that we have in mind, but it can help us to create catalogues of type specimens from which our professional experience will allow us to make the right choice.
 2. Finding the font among the thousands in our possession. This operation may be quite delicate because, as we have seen, we often have multiple copies of the same font (or fonts with the same name), in different formats, coming from different foundries, etc. Later in this book, we shall see the differences among font formats and learn which are the most appropriate for each project. For now, what we can expect of a font manager is to present the available choices in a convenient fashion and to give us all the information that we need in order to make the decision.
 3. Enabling the font, and thus allowing our software to make use of it, preferably without having to restart the software or the computer.

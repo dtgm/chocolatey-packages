@@ -24,14 +24,25 @@ Zimbra Desktop supports the following account types:
 * Yahoo! Mail
 * Microsoft Exchange (via IMAP)
 * Other email services using POP3 or IMAP4 access
+
+[Forum](http://community.zimbra.com/)
     </description>
     <projectUrl>http://www.zimbra.com/downloads/zimbra-desktop</projectUrl>
     <tags>collaboration task schedule</tags>
     <copyright>© Zimbra Inc</copyright>
-    <licenseUrl>http://www.zimbra.com/legal/zimbra-public-eula-2-5</licenseUrl>
+    <licenseUrl>http://www.zimbra.com/license/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/d93a3c81b69474d2c232f644dc6cef02a53f0838/icons/{{PackageName}}.png</iconUrl>
-    <releaseNotes>{{DownloadUrlx64}}</releaseNotes>
+    <releaseNotes>
+#### Program
+* [Release notes]({{DownloadUrlx64}})
+* [Roadmap](https://pm.zimbra.com/)
+* [Known issues](https://bugzilla.zimbra.com/describecomponents.cgi?product=ZD)
+* [Source code](http://wiki.zimbra.com/wiki/Building_Zimbra_using_Git), [sf.net](http://sourceforge.net/p/zimbra/code/HEAD/tree/trunk/)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
     <dependencies>
       <dependency id="javaruntime" />
     </dependencies>

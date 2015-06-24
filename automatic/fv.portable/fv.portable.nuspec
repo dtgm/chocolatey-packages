@@ -8,44 +8,30 @@
     <owners>dtgm</owners>
     <summary>Verify the integrity of files</summary>
     <description>
-FileVerifier++ is a Windows application for verifying the integrity of files. FileVerifier supports various algorithms by means of dynamically loadable hash libraries. It is a pure Win32 C++ application and doesn't have any dependencies other than what comes with Windows. Permanent installation is not required and may be burned to a CD or used from a flash drive.
+FileVerifier++ is an application for verifying the integrity of files. FileVerifier supports various algorithms by means of dynamically loadable hash libraries. It is a pure Win32 C++ application and doesn't have any dependencies other than what comes with Windows. Permanent installation is not required and may be burned to a CD or used from a flash drive.
 
 ### Supported hash algorithms
-* CRC16
-* CRC32
-* BZIP2 CRC
-* MPEG2 CRC
-* JamCRC
-* Posix CRC
+* CRC16/32
+* BZIP2/MPEG2/Jam/Posix CRC
 * ADLER32
-* MD4
-* MD5
+* MD4/5
 * EDONKEY2K
-* RIPEMD-128
-* RIPEMD-160
-* RIPEMD-256
-* RIPEMD-320
-* SHA-1
-* SHA-224
-* SHA-256
-* SHA-384
-* SHA-512
-* WHIRLPOOL
-* WHIRLPOOL-T
+* RIPEMD-128/160/256/320
+* SHA-1/224/256/384/512
+* WHIRLPOOL/-T
 
 ### GUI
-* fv
+* fv.exe
 
 ### Command line
-* fvc
-
-### Source code
-* http://sourceforge.net/p/fileverifier/svn/
+* fvc.exe
+    </description>
     </description>
     <projectUrl>http://www.programmingunlimited.net/siteexec/content.cgi?page=fv</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/55b6d99f0c16a51ea65ec183005c862d614ed5b6/icons/fv.png</iconUrl>
+    <projectSourceUrl>http://sourceforge.net/p/fileverifier/svn/</projectSourceUrl>
     <tags>fv fvc file checksum</tags>
-    <copyright>© 2008 Tom Bramer</copyright>
+    <copyright>© 2006 Tom Bramer</copyright>
     <licenseUrl>http://www.programmingunlimited.net/siteexec/content.cgi?page=fv#license</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>

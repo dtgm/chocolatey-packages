@@ -15,7 +15,7 @@ app = AVG AntiVirus Free Edition
 WinWait, %app%, , 3600
 WinMinimize, %app%
 
-WinWait, %winTitle%, , 3600
+WinWait, %winTitle%, , 300
 WinActivate
 Send, ^w
 

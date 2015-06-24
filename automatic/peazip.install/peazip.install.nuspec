@@ -5,7 +5,7 @@
     <title>PeaZip (Install)</title>
     <version>{{PackageVersion}}</version>
     <authors>Giorgio Tani</authors>
-    <owners>tonigellida dtgm</owners>
+    <owners>dtgm</owners>
     <summary>Cross-platform file archiver and file manager utility</summary>
     <description>
 A cross-platform file archiver and file manager utility.
@@ -20,7 +20,15 @@ Features of PeaZip includes extract, create and convert multiple archives at onc
     <licenseUrl>http://peazip.sourceforge.net/peazip-tos-privacy.html#peazip_copyright</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/19d35dff574b7496b92f235fa1503d47b861871a/icons/peazip.svg</iconUrl>
-    <releaseNotes>http://peazip.sourceforge.net/changelog.html</releaseNotes>
+    <releaseNotes>
+#### Program
+* [Changelog](http://peazip.sourceforge.net/changelog.html)
+* [Known issues](https://sourceforge.net/p/peazip/tickets/)
+* [Source code](http://sourceforge.net/projects/peazip/files/{{PackageVersion}}/peazip-{{PackageVersion}}.src.zip/download)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
