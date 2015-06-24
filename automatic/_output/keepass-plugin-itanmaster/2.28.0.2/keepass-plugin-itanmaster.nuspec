@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>keepass-plugin-itanmaster</id>
+    <title>KeePass Plugin iTanMaster</title>
+    <version>2.28.0.2</version>
+    <authors>Theo Beisch</authors>
+    <owners>dtgm</owners>
+    <summary>Plugin for KeePass 2.x manage ITan security tokens</summary>
+    <description>
+iTans or 'indexed security tokens' are becoming standard to improve access security in 
+online banking and similar applications.
+
+iTanMaster installs as a KeePass plugin and provides easy access to the encrypted storage 
+of indexed security tokens.
+
+iTanMaster supports single or dual token systems (presently Interactive Brokers and Flatex) where the final 
+token is constructed from two separately indexed and then concatenated token parts.
+
+In order to enable iTanMaster token selection the following conditions need to be met:
+
+* iTanMaster needs to be loaded (ITanMaster.dll resides in KeePass working directory, 
+  matches the KeePass version, KeePass Version &gt; 2.07, ....)
+* [optional * depending on your safety requirements] the website or application primary 
+  access key (for the 1st logon step) may be stored and configured according to KeePass 
+  window recognition rules. 
+  (The iTanWizard will generate an entry with button 'Store access entries' * this entry 
+  (if desired) needs to be configured by the user (username/password/window-identification))
+* a special access key titled &lt;ITAN2&gt; MUST be present in the group. 
+  This key will be used to identify the respective iTan entry window and then intercept 
+  the credentials creation so that iTanMaster can ask the user for a single (entry title = '&lt;ITAN2&gt;'), 
+  two (entry title = '&lt;ITAN2&gt;InteractiveBrokers') or three indices (&lt;ITAN2&gt;Flatex) to access the stored / encrypted iTan tokens.
+  (The iTanWizard can generate the &lt;ITAN2&gt; or &lt;ITAN2&gt;(InteractiveBrokers/Flatex) entries with 
+  'Store access entries').
+  The entry needs to be configured by the user to support window-identification.
+* iTans and access keys need to be stored in the same KeePass entry key group. 
+
+The iTanWizard currently supports 4 iTan import modes: InteractiveBrokers (IB), Flatex, Card and Sequential.
+
+* IB and Card: This mode is useful in case input data is sequenced in columns and possibly on multiple pages. 
+* IB only: the preset is 2 pages, 16 lines and 7 columns. Also (IB), the step 2 database entry (by button 'Store Access Entries') is generated as an &lt;ITAN2&gt;2 for dual token support.
+* Flatex: the preset is 1 page, 11 lines (A..M) and 9 columns (1..9). Also (Flatex), the step 2 database entry (by button 'Store Access Entries') is generated as an &lt;ITAN2&gt;2 for token support.
+* FlatexCH: the preset is 1 page, 10 lines (1..10) and 8 columns (A..H). Also (FlatexCH), the step 2 database entry (by button 'Store Access Entries') is generated as an &lt;ITAN2&gt;2 for token support.
+* Sequential: Parsing wil process the input text line by line, tokens separated by ' ' (space), leading and trailing whitespace is trimmed. 
+  
+You can also opt to import the iTANs marked as 'onetime use' - KeePass and iTanMaster will mark the tokens so that they will be expired if used.
+  
+As a note: for large amounts of tokens, using a scanner and OCR software had proven quite efficient. Visual verification is recommended though! (SimpleOCR - www.simpleocr.com - worked nicely for me).
+
+I recommended to generate and store the primary and secondary access keys first, using the iTanWizard ('Store Access Entries') and manually configuring the remaining details. This ensures those keys will be positioned on top of the list.
+    </description>
+    <projectUrl>http://keepass.info/plugins.html#itanmaster</projectUrl>
+    <tags>keepass plugin security</tags>
+    <copyright>© 2009 Theo Beisch</copyright>
+    <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Source code](http://keepass.info/extensions/v2/itanmaster/iTanMaster-2.28.0.2-Source.zip)
+
+__12/06/2014__
+* Fixed IP autotype problem (javaw was getting Return too early) by ensuring CLR /Win to consume Return and delay key entry by 500mS 
+* Added plugin Revision number to show on windows form
+
+__11/07/2014__
+* Added support for FlatexCH 1..10 / A..H / single token
+
+__03/01/2012__
+* Added support for broker Flatex AG (Germany)
+* The code now parses indexes from a single text box, blank delimits the individual tokens
+* (IB) Removed space as delimiter between tokens (website account access chokes on space between tokens)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="keepass" version="[2.28, 3.0)" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>dropit</id>
+    <title>DropIt</title>
+    <version>8.1.1</version>
+    <authors>Lupo PenSuite Team</authors>
+    <owners>dtgm</owners>
+    <summary>Flexible tool to automate processing and organizing files and folders</summary>
+    <description>
+When you need to organize files, DropIt can eliminate much of the drudgery of searching and manually opening folders and moving files around.
+
+Drop a group of different files and folders on the floating DropIt image and it sorts them to defined destination folders, compresses or extracts them, opens them with associated programs or performs other defined actions.
+
+You can define how filter your files (by name, directory, size, date, properties, content or regular expressions) and associate one of the 20 available actions to perform (Move, Copy, Compress, Extract, Rename, Delete, Split, Join, Encrypt, Decrypt, Open With, Upload, Send by Mail, Create Gallery, Create List, Create Playlist, Create Shortcut, Copy to Clipboard, Change Properties and Ignore). You can also organize your associations in profiles and automatically scan monitored folders at a defined time interval.
+
+#### Supported Actions
+
+Currently DropIt allows to perform the following 20 actions on your files and folders:
+
+* Move: to move files/folders to the defined destination folder (for example to organize images by date and properties).
+* Copy: to copy files/folders to the defined destination folder.
+* Compress: to compress files/folders in one of the supported destination archive formats (ZIP, 7Z, Self-Extracting EXE).
+* Extract: to extract supported archives in the defined destination folder (7Z, APM, ARJ, BZIP2, CAB, CHM, CPIO, DEB, DMG, EXE, FAT, FLV, GZIP, HFS, ISO, JAR, LHA, LZH, LZMA, MBR, MSI, MSLZ, NFTS, NSIS, ONEPKG, RAR, RPM, SMZIP, SQX, SWF, TAR, UDF, VHD, WIM, XAR, XZ, Z, ZIP).
+* Rename: to rename files/folders with the defined new name (using abbreviations to customize it).
+* Delete: to delete files/folders with the defined method: Directly Remove (files are removed, but they could be restored using a recovery tool), Safely Erase (files are overwritten with the “DoD 3-pass” wiping method, to make them unrecoverable), Send to Recycle Bin (files are sent to recycle bin and are still available from there).
+* Split: to split files/folders in parts with a defined size.
+* Join: to recombine files/folders previously split (automatically trying to load missing parts).
+* Encrypt: to encrypt files/folders in the defined destination folder (to protect your personal data).
+* Decrypt: to decrypt files/folders in the defined destination folder (previously encrypted with DropIt).
+* Open With: to open files with the defined destination program (parameters supported).
+* Upload: to upload files/folders to a server using FTP or SFTP protocols.
+* Send by Mail: to attach files/folders to a mail and send them using SMTP protocol.
+* Create Gallery: to create a image gallery in the destination folder (HTML). In particular you can create galleries with several themes like Brochure, Circles, Default, Pile, SquareHeads and many others.
+* Create List: to create a list of files/folders in one of the supported destination file formats (HTML, PDF, XLS, TXT, CSV, XML). In particular you can create HTML lists with several themes like Arrowistic, Casablanca, DeepGreen, Default, Precision and many others.
+* Create Playlist: to create a playlist of files in one of the supported destination file formats (M3U, M3U8, PLS, WPL).
+* Create Shortcut: to create file/folders shortcuts in the destination folder.
+* Copy to Clipboard: to copy the desired file information to the system Clipboard.
+* Change Properties: to change file date, time and attributes.
+* Ignore: to ignore files/folders and skip them during process.
+
+[Source code](https://sourceforge.net/p/dropit/code/HEAD/tree/)
+    </description>
+    <projectUrl>http://www.dropitproject.com/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/bdb8f2b28d0c7ddd767ae0a1ed97a1c06366215d/icons/dropit.png</iconUrl>
+    <tags>automation file-management organizer clean move sort</tags>
+    <copyright>© Lupo PenSuite Team</copyright>
+    <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[Changelog](http://www.dropitproject.com/changelog.txt)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="dropit.install" version="[8.1.1]" />
+    </dependencies>
+  </metadata>
+</package>

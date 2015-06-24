@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>keepass-plugin-twofishcipher</id>
+    <title>KeePass Plugin Twofish Cipher</title>
+    <version>1.3</version>
+    <authors>GoGoGadgetScott</authors>
+    <owners>dtgm</owners>
+    <summary>Enables KeePass to encrypt databases using the Twofish cipher</summary>
+    <description>
+Twofish Cipher is a KeePass 2.x plugin to allow encrypting databases using the Gost cipher.
+    </description>
+    <projectUrl>http://gogogadgetscott.info/keepass/twofishcipher/</projectUrl>
+    <tags>keepass plugin encryption twofish cipher</tags>
+    <copyright>© 2009 SEG Tech</copyright>
+    <licenseUrl>https://www.gnu.org/licenses/gpl-3.0</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Changelog](http://gogogadgetscott.info/keepass/twofishcipher/)
+* [Source code](http://gogogadgetscott.info/keepass/twofishcipher/TwofishCipher-1.3-Source.zip)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="keepass" version="[2.09, 3.0)" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

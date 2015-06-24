@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>monero</id>
+    <title>Monero Wallet</title>
+    <version>0.8.8.6</version>
+    <authors>Monero Project</authors>
+    <owners>dtgm</owners>
+    <summary>Monero: the secure, private, untraceable cryptocurrency</summary>
+    <description>
+Monero (XMR) is a new cryptocurrency which is based on CryptoNote code and is not a Bitcoin fork.
+
+Main Monero features that were inherited from CryptoNote are Ring Signatures and unlinkable transactions.
+
+### Community
+* [Forum](https://forum.getmonero.org/)
+* [Bitcointalk](https://bitcointalk.org/index.php?topic=583449.0)
+* [Reddit](http://www.reddit.com/r/monero)
+
+### Documentation
+* [FAQ](http://monero.org/faq/)
+* [Services](http://monero.org/services/)
+* [Developer blog](https://getmonero.org/blog/)
+    </description>
+    <projectUrl>http://getmonero.org/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/c4590da27cbdd25c5866eefaf0b8a4e54864c018/icons/monero.png</iconUrl>
+    <tags>xmr p2p anonymity cryptonote cryptonight cpu-mining</tags>
+    <copyright>© 2014 Monero Project</copyright>
+    <licenseUrl>https://github.com/monero-project/bitmonero#license</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [News](http://monero.org/news/)
+* [Missives](http://monero.org/missives/)
+* [Roadmap](https://getmonero.org/design-goals/)
+* [Changelog](https://github.com/monero-project/bitmonero/blob/development/ReleaseNotes.txt)
+* [Known issues](https://github.com/monero-project/bitmonero/issues)
+* [Source code](https://github.com/monero-project/bitmonero)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

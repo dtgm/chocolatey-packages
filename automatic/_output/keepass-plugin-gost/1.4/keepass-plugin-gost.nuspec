@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>keepass-plugin-gost</id>
+    <title>KeePass Plugin Gost</title>
+    <version>1.4</version>
+    <authors>Nikolay Kim</authors>
+    <owners>dtgm</owners>
+    <summary>KeePass 2 plugin to encrypt databases using the Gost cipher</summary>
+    <description>
+Gost is a KeePass 2.x plugin to allow encrypting databases using the [GOST 28147-89 cipher](https://wikipedia.org/wiki/GOST_28147-89).
+
+#### Features
+* The GOST block cipher, a Soviet and Russian government standard symmetric key block cipher, developed in 1970s and still relevant nowadays
+* Uses 256-bit key and operates on 64-bit blocks of data within 32 rounds
+* This implementation uses Cipher Feedback (CFB) mode
+    </description>
+    <projectUrl>https://github.com/yaruson/GostPlugin</projectUrl>
+    <tags>keepass plugin encryption cipher gost</tags>
+    <copyright>© 2015 Nikolay Kim</copyright>
+    <licenseUrl>https://github.com/yaruson/GostPlugin/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Known issues](https://github.com/yaruson/GostPlugin/issues)
+* [Source code](https://github.com/yaruson/GostPlugin)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="keepass" version="[2.0, 3.0)" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

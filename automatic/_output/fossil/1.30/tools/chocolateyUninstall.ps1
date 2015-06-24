@@ -1,0 +1,1 @@
+﻿write-host -foregroundColor YELLOW "NOTICE: Uninstall also fossil.portable package with command 'CUNINST fossil.portable' to complete uninstall"

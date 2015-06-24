@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>fossil</id>
+    <version>1.30</version>
+    <title>Fossil SCM</title>
+    <authors>D. Richard Hipp</authors>
+    <owners>zippy1981, KidFashion</owners>
+    <licenseUrl>http://www.fossil-scm.org/fossil/doc/trunk/COPYRIGHT-BSD2.txt</licenseUrl>
+    <projectUrl>http://www.fossil-scm.org/</projectUrl>
+    <iconUrl>http://www.fossil-scm.org/fossil/logo</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Fossil is a cross-platform server that runs on Linux, BSD derivatives, Mac and Windows. It is capable of performing distributed version control, bug tracking, wiki services, and blogging. The software has a built-in web interface, which reduces project tracking complexity and promotes situational awareness. A user may simply type "fossil ui" from within any check-out and Fossil automatically opens the user's web browser in a page that gives detailed history and status information on that project.</description>
+    <releaseNotes>Fossil v 1.30 (2015-01-19 11:29:00)
+
+Key changes in this release include:
+
+* Added the fossil bundle command.
+* Added the fossil purge command.
+* Added the fossil publish command.
+* Added the fossil unpublished command.
+* Enhance the /tree webpage to show the age of each file with the option to sort by age.
+* Enhance the /brlist webpage to show additional information about each branch and to be sortable by clicking on column headers.
+* Add support for Docker. Just install docker and type "sudo docker run -d -p 8080:8080 nijtmans/fossil" to get it running.
+* Add the fossil fusefs DIRECTORY command that mounts a Fuse Filesystem at the given DIRECTORY and populates it with read-only copies of all historical check-ins. This only works on systems that support FuseFS.
+* Add the administrative log that records all configuration.
+* Added the /sitemap webpage.
+* Added the /bloblist web page.
+* Let fossil new no longer create an initial empty commit by default. The first commit after checking out an empty repository will become the initial commit.
+* Added the fossil all dbstat and fossil all info commands.
+* Update SQLite to version 3.8.8.
+* Added the --verily option to the fossil clean command.
+* Add the "autosync-tries" setting to control the number of autosync attempts before returning an error.
+* Added a compile-time option (--with-miniz) to build using miniz instead of zlib. Disabled by default.
+* Support customization of commands and webpages, including the ability to add new ones, via the "TH1 hooks" feature. Disabled by default. Enabled via a compile-time option.
+* Add the [checkout], [render], [styleHeader], [styleFooter], [trace], [getParameter], [setParameter], [artifact], and [globalState] commands to TH1, primarily for use by TH1 hooks.
+* Automatically adjust the width of command-line timeline output according to the detected width of the terminal.
+* Prompt the user to optionally fix invalid UTF-8 at check-in.
+* Added a line-number toggle option to the /info and /artifact pages.
+* Most commands now issue errors rather than silently ignoring unrecognized command-line options.
+* Use full 40-character SHA1 hashes (instead of abbreviations) in most internal URLs.
+* The "ssh:" sync method on windows now uses "plink.exe" instead of "ssh" as the secure-shell client program.
+* Prevent a partial clone when the connection is lost.
+* Make the distinction between 301 and 302 redirects.
+* Allow commits against a closed check-in as long as the commit goes onto a different branch.
+* Improved cache control in the web interface reduces unnecessary requests for common resources like the page logo and CSS.
+* Fix a rare and long-standing sync protocol bug that would silently prevent the sync from running to completion. Before this bug-fix it was sometimes necessary to do "fossil sync --verily" to get two repositories in sync.
+* Add the files_of_checkin virtual table - useful for ad hoc queries in the fossil sql interface, and also used internally.
+* Added the "$secureurl" TH1 variable for use in headers and footers.
+* (Internal:) Add the ability to include resources as separate files in the source tree that are converted into constant byte arrays in the compiled binary. Use this feature to store the Tk script that implements the --tk diff option in a separate file for easier editing.
+* (Internal:) Implement a system of compile-time checks to help ensure the correctness of printf-style formatting strings.
+* Fix CVE-2014-3566, also known as the POODLE SSL 3.0 vulnerability.
+* Numerous documentation fixes and improvements.
+* Other obscure and minor bug fixes - see the timeline for details.</releaseNotes>
+    <copyright>Copyright 2007-2015</copyright>
+    <tags>chocolatey fossil scm sqlite</tags>
+    <dependencies>
+      <dependency id="fossil.portable" version="[1.30]" />
+    </dependencies>
+  </metadata>
+</package>
