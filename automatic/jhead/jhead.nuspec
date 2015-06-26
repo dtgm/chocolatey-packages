@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <version>{{PackageVersion}}</version>
+    <title>jhead</title>
+    <authors>Matthias Wandel</authors>
+    <owners>dtgm</owners>
+    <summary>Exif JPEG header manipulation tool</summary>
+    <description>
+The files coming out of a pretty much all Digital cameras are in the Exif flavour of Jpeg files. Exif files are for the most part Jpeg files, but start with a different header block, and contain additional data sections with camera settings, as well as a preview thumbnail picture as part of the Exif header. Many image browsers today make use of this integral thumbnail when browsing, while other browsers make their own thumbnails based on the image as a whole.
+
+Because I am interested in photography, I am always curious just exactly what settings my fully automatic digital camera actually did end up using. Back in 1999, when I originally wrote jhead, I couldn't find a program that would consistently display the settings, nor one that could be compiled into a simple executable. I have since added many more features to jhead, many of them the result of suggestions or code contributions.
+
+Though there are many programs out there now that can manipulate Exif headers today, for many tasks, jhead remains the simplest and most effective tool for the job, especially if used for automated or scripted tasks.
+
+[Documentation](http://www.sentex.net/~mwandel/jhead/usage.html)
+    </description>
+    <projectUrl>http://www.sentex.net/~mwandel/jhead/</projectUrl>
+    <tags>metadata exif image cli</tags>
+    <copyright>© 1999 Matthias Wandel</copyright>
+    <licenseUrl>https://creativecommons.org/licenses/publicdomain/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Changelog](http://www.sentex.net/~mwandel/jhead/changes.txt)
+* Source code: [tar.gz](http://www.sentex.net/%7Emwandel/{{PackageName}}/{{PackageName}}-{{PackageVersion}}.tar.gz)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="jpegtran" version="9.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

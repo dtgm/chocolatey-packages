@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>rawwrite</id>
+    <version>0.7</version>
+    <title>RawWrite</title>
+    <authors>John Newbigin</authors>
+    <owners>dtgm</owners>
+    <summary>Creating boot disks and other floppy disk images</summary>   
+    <description>
+RawWrite (or rawrite) is an essential tool for creating boot disks and other floppy disk images. Traditional rawwrite programs do not run under modern versions of windows so here is the Win32 version which does.
+
+Reads 1.44Meg Floppy Disks
+Writes 1.44Meg Floppy Disks
+    </description>
+    <language>en-us</language>
+    <projectUrl>http://www.chrysocome.net/rawwrite</projectUrl>
+    <projectSourceUrl>http://www.chrysocome.net//downloads/rawwritewin-0.7.src.zip</projectSourceUrl>
+    <licenseUrl>http://www.chrysocome.net/gpl</licenseUrl>
+    <copyright>© 2009 Chrysocome</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>floppy disk boot</tags>
+    <releaseNotes />
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
