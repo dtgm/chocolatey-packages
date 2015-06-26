@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Atom</id>
+    <version>0.174.1</version>
+    <title>Atom</title>
+    <authors>https://github.com/orgs/atom/members</authors>
+    <owners>Brad Gearon</owners>
+    <licenseUrl>https://github.com/atom/atom/LICENSE.md</licenseUrl>
+    <projectUrl>http://atom.io</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/atom/atom/master/resources/atom.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Read more on http://atom.io
+
+      This package always installs the latest version of Atom available.
+      So the version of Atom installed may be later than the version listed
+      as the chocolatey package version.
+
+      The version of Atom installed will also automatically update so you won't
+      need to upgrade it manually via chocolatey.</description>
+    <summary>Atom: A hackable text editor for the 21st Century</summary>
+    <releaseNotes>https://atom.io/releases</releaseNotes>
+    <copyright />
+    <tags>atom notepad text github</tags>
+  </metadata>
+</package>
