@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title></title>
+    <version>{{PackageVersion}}</version>
+    <authors></authors>
+    <owners>dtgm</owners>
+    <summary></summary>
+    <description>
+
+#### [Features]()
+
+#### [Privacy Policy]()
+
+#### Documentation
+* [Screenshots]()
+* [FAQ]()
+* [Wiki]()
+* [Manual]()
+
+#### Community
+* [Forum]()
+* [Mailing list]()
+* [Facebook]()
+* [Google+]()
+* [Twitter]()
+    </description>
+    <projectUrl></projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages//icons/{{PackageName}}.png</iconUrl>
+    <tags></tags>
+    <copyright>© </copyright>
+    <licenseUrl></licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [News]()
+* [Release log]()
+* [Roadmap]()
+* [Changelog]()
+* [Known issues]()
+* [Source code]()
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+<!--    <dependencies>
+      <dependency id="{{PackageName}}.install" version="[{{PackageVersion}}]" />
+    </dependencies> -->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
+
+
+
+
+
+AESTHETICS
+Remove space at end of tag
+/(?<=>)\s+$/$/
+
+
+1,/^<?xml version="1.0" encoding="utf-8"?>$/
+2,/^<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">$/
+3,/^\s\s<metadata>$/
+4,/(?<=<id>)[a-z0-9]{2,15}(?=</id>)
+
+analysis of debian
+===================
+aptitude search * -F "%p" > debpkgs.txt
+wc --bytes --chars --lines --max-line-length --words debpkgs.txt
+  27585   27585 2234385 2234385      80 debpkgs.txt
+grep --count "\." debpkgs.txt
+3101
+grep --count "-" debpkgs.txt
+23062
+grep --count --perl-regexp ".+\-.+\-.+" debpkgs.txt
+13568
+grep --count --perl-regexp "[^-]+\-[^-]+\-[^-]+" debpkgs.txt
+13567
+
+

@@ -1,0 +1,45 @@
+<!-- https://github.com/chocolatey/choco/wiki/CreatePackages#character-encoding -->
+<?xml version="1.0" encoding="utf-8"?>
+<!-- https://github.com/chocolatey/choco/wiki/CreatePackages#nuspec -->
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
+  <metadata>
+<!-- exampleprogramname; https://github.com/chocolatey/choco/wiki/CreatePackages#naming-your-package -->
+    <id>{{PackageName}}</id>  
+    <title>Example Program Name</title>  
+<!-- 1.2.3.4567-beta; https://github.com/chocolatey/choco/wiki/CreatePackages#versioning-recommendations -->
+    <version>{{PackageVersion}}</version> 
+<!-- Jane, Joe; Principal coder(s) of program delimited by commas -->
+    <authors></authors>
+<!-- ferventcoder; Username on chocolatey.org -->
+    <owners>ferventcoder</owners>
+    <summary>About 10 words or <80 characters explaining what program does</summary>
+<!-- expanded summary formatted by https://code.google.com/p/markdownsharp/; https://github.com/chocolatey/choco/wiki/CreatePackages#package-description-and-release-notes -->
+    <description>
+
+    </description>
+<!-- Must be URI format -->
+    <projectUrl>https://example.com/</projectUrl>
+<!-- one word subject or categories specific to program, delimited by space -->
+    <tags>subject category framework commandline notsilent</tags>
+    <copyright>© YEAR NAME</copyright>
+<!-- Must be URI format -->
+    <licenseUrl>https://github.com/PACKAGE_REPO/blob/master/docs/licence.md</licenseUrl>
+<!-- True only if user intervention *absolutely* required -->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+<!-- SVG or PNG, >=128px res; https://github.com/chocolatey/choco/wiki/CreatePackages#package-icon-guidelines -->
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/GitCommitHash/icons/{{packageName}}.png</iconUrl>
+<!-- if applicable; https://github.com/chocolatey/choco/wiki/CreatePackages#nuspec -->
+    <dependencies>
+<!-- semver formatting http://docs.nuget.org/docs/reference/versioning -->
+      <dependency id="" version"" />  <!-- 
+    </dependencies>
+<!-- package/program changelog, formatted by https://code.google.com/p/markdownsharp/; https://github.com/chocolatey/choco/wiki/CreatePackages#package-description-and-release-notes -->
+<!-- https://github.com/chocolatey/choco/wiki/CreatePackages#package-description-and-release-notes -->
+    <releaseNotes>
+
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
