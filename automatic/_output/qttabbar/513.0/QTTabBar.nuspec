@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>QTTabBar</id>
+    <version>513.0</version>
+    <title>QTTabBar</title>
+    <authors>QuizoApps</authors>
+    <owners>Matt Wrock</owners>
+    <licenseUrl>http://creativecommons.org/licenses/by-sa/3.0/</licenseUrl>
+    <projectUrl>http://qttabbar.wikidot.com/</projectUrl>
+    <iconUrl>http://qttabbar.sourceforge.net/wp-content/themes/atahualpa/images/site_logo_small.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>QTTabBar is extension for Windows Explorer that brings tabbed browsing to Microsoft's file browser, along with a host of other great features.</description>
+    <summary>Dragging Explorer into the modern era</summary>
+    <tags>productivity windows explorer admin</tags>
+  </metadata>
+</package>
