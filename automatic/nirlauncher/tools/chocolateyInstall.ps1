@@ -7,7 +7,7 @@ $installFile = Join-Path $toolsDir "$($packageName).exe"
 
 $chocTempDir = Join-Path $Env:Temp "chocolatey"
 $tempDir = Join-Path $chocTempDir "$packageName"
-if (![System.IO.Directory]::Exists($tempDir)) {[System.IO.Directory]::CreateDirectory($tempDir)}
+mkdir -f $tempDir | out-null
 $zipFile = Join-Path $tempDir "$($packageName).zip"
 
 $referer = "http://launcher.nirsoft.net/download.html"
