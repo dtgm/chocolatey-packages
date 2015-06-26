@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>Kaspersky Anti-Virus</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Kaspersky Lab</authors>
+    <owners>dtgm</owners>
+    <summary>Free antivirus scanner</summary>
+    <description>
+This free, easy-to-use scanner finds malware that may be hidden on your PC – even if you already have an antivirus product installed. Get a detailed security status report – plus tips on improving PC protection.
+
+#### Documentation
+* [Help](http://support.kaspersky.com/kav2015)
+* [Privacy Policy](http://www.kaspersky.com/privacy)
+
+#### Community
+* [Forum](http://forum.kaspersky.com/index.php?showforum=237)
+* [Facebook](http://www.facebook.com/Kaspersky)
+* [Google+](https://plus.google.com/104178448349952735431?prsrc=3)
+* [Twitter](http://twitter.com/Kaspersky)
+* [LinkedIn](https://www.linkedin.com/company/kaspersky-lab)
+    </description>
+    <projectUrl>http://www.kaspersky.com/security-scan</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/dd7121af88611d4f92e29187d065ba9a0fcaedeb/icons/{{PackageName}}.png</iconUrl>
+    <tags>antivirus antispyware</tags>
+    <copyright>© 1997 Kaspersky Lab</copyright>
+    <licenseUrl>http://support.kaspersky.com/11198</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* http://products.kaspersky-labs.com/english/homeuser/kav2015/release_notes_kav_en.html
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>Subtitle Workshop (Portable)</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Andrey Spiridonov</authors>
+    <owners>dtgm</owners>
+    <summary>Free application for creating, editing, and converting text-based subtitle files</summary>
+    <description>
+Subtitle Workshop is a free application for creating, editing, and converting text-based subtitle files. It supports all the subtitle formats you need and has all the features you would want.
+
+Subtitle Workshop is written in Delphi.
+
+#### Features
+* Supports converting between, creating, opening, editing, and saving over 60 (currently) subtitle formats via the Subtitle API library, as well as saving subtitles in a custom user-defined file format.
+* User-friendly, multi-language, customizable interface (including customizable shortcuts and translation mode).
+* Vast array of customizable tools and functions for automatic timing and text manipulations, including automatic durations, smart line adjusting, spell checking, FPS conversion, search and replace, and many more.
+* Comprehensive customizable system for automatically or manually detecting, marking, and fixing various timing and text subtitle errors.
+* Supports style tags (bold, italic, underline) and color tags in the subtitle text -- including full tags support for multiple tags in a single subtitle.
+* Supports displaying and manipulating the timing pauses (the time gap between two subtitles) and offers a CpS (Characters per Second) system.
+* Multi-level Undo-Redo system.
+* Integrated video player with customizable subtitles preview and full screen mode that would play any video or audio format the system has codecs installed for.
+* Offers various statistics about the subtitle file, including custom statistics based on user-defined rules about the timing or the text.
+* Supports the usage of external Pascal scripts, as well as find-and-replace text scripts (called OCR Scripts).
+
+#### Community
+* [Forum](https://sourceforge.net/p/subworkshop/discussion/)
+* [Facebook](http://facebook.com/subtitleworkshop)
+    </description>
+    <projectUrl>http://subworkshop.sourceforge.net/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/31a0ce8e7c91e0fb296083333bf3725f0d96d58a/icons/subtitleworkshop.png</iconUrl>
+    <tags>subtitle editor convert</tags>
+    <copyright>© 2013 Andrey Spiridonov</copyright>
+    <licenseUrl>http://www.gnu.org/licenses/gpl.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [News](http://subworkshop.sourceforge.net/news.php)
+* [Source code](https://sourceforge.net/projects/subworkshop/files/source/)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
