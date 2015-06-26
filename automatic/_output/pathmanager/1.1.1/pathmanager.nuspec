@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>pathmanager</id>
+    <title>Path Manager</title>
+    <version>1.1.1</version>
+    <authors>Sergey J. Azarkevich</authors>
+    <owners>dtgm</owners>
+    <summary>Manage system and user %PATH% environment variable</summary>
+    <description>
+Path Manager is a simple utility to manage system and user %PATH% environment variable.
+    </description>
+    <projectUrl>https://sourceforge.net/projects/pathmanager/</projectUrl>
+    <projectSourceUrl>http://sourceforge.net/p/pathmanager/code/HEAD/tree/</projectSourceUrl>
+    <bugTrackerUrl>http://sourceforge.net/p/pathmanager/bugs/</bugTrackerUrl>
+    <tags>admin tools environment</tags>
+    <copyright>© 2008 Sergey J. Azarkevich</copyright>
+    <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes />
+    <dependencies>
+      <dependency id="DotNet3.5" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

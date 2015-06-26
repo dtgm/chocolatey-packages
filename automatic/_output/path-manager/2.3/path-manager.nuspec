@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>path-manager</id>
+    <title>Path-Manager</title>
+    <version>2.3</version>
+    <authors>Anurag Saini</authors>
+    <owners>dtgm</owners>
+    <summary>Manage environment variables</summary>
+    <description>
+Path-Manager is a small utility for easy management of environment variables. It can add/modify/remove variables and can also save their values for backup.
+
+#### Features
+* Separately view all System and User environment variables
+* Clear and splitted view of entries
+* Options to check for invalid entries
+* Import/Export support for entire environment setting
+
+#### Maintainer's note
+`path-manager` appears to be a recoded derivative of [pathmanager](https://chocolatey.org/packages/pathmanager)
+    </description>
+    <projectUrl>https://sourceforge.net/projects/pathtool/</projectUrl>
+    <projectSourceUrl>https://sourceforge.net/projects/pathtool/files/Source/</projectSourceUrl>
+    <docsUrl>https://sourceforge.net/p/pathtool/code/ci/master/tree/Readme.md</docsUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/54800dd7d65c95fd597a15a0990bf2f6daf9f580/icons/path-manager.png</iconUrl>
+    <tags>admin tools environment portable</tags>
+    <copyright>© 2013 Anurag Saini</copyright>
+    <licenseUrl>https://sourceforge.net/p/pathtool/code/ci/master/tree/LICENSE.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+First version (v1.0) was developed with Visual Studio 2012 Express (C#, .NET 4.5)
+Second version (v2.0) is developed with Lazarus IDE v1.0.8 (Pascal)
+That means, from version 2.0 Path Manager is a native windows application and it no longer needs .NET framework.
+
+This change also resulted in increased size of executable however increase in performance and speed is significant. New executable of version 2.0 is compressed with upx.
+
+#### Overview of changes (v2.3):
+* Fixed problem of exception on startup
+* Added function to notify all windows that the environment variables have changed
+
+#### Overview of changes (v2.2):
+* Removed shortcuts for refresh and about (were causing problem in Windows XP)
+* Added Popup-Menu for variable-list and value-list
+* Restart As Admin button now invisible when Path-Manager is run as admin
+* It seemes that environment change message in not broadcast to applications, as for now, I am looking for some proper solution. For the meantime restarting explorer.exe should do the job.
+
+#### Overview of changes (v2.1):
+* Support for non-admin users
+* Fixed splitter position bug
+* Refresh environment data without relaunch
+
+#### Overview of changes (v2.0):
+* Now a standalone application, no need of .NET framework
+* Reduced memory consumption
+* Takes much less time in saving changes
+
+If you find any bugs in this program then please [mail Anurag Saini](anuragsn7@gmail.com).
+If you find any issues with install/uninstall of this package please [contact package maintainer](https://chocolatey.org/packages/path-manager/ContactOwners).
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>littleregistrycleaner</id>
+    <title>Little Registry Cleaner</title>
+    <version>1.6</version>
+    <authors>Little Apps</authors>
+    <owners>tonigellida</owners>
+    <summary></summary>
+    <description>
+Little Registry Cleaner is an open source program that is designed to cleanup Microsoft Windows Registry.
+It removes obsolete or unwanted items that build up in the registry over time in order to improve the stability and performance of your computer.
+	</description>
+    <projectUrl>http://www.little-apps.eu/little-registry-cleaner/index.html</projectUrl>
+    <tags>registry-cleaner registry-maintenance registry-optimization</tags>
+    <copyright></copyright>
+    <licenseUrl>http://www.gnu.org/copyleft/gpl.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/littleregistrycleaner/littleregistrycleaner.jpg</iconUrl>
+  </metadata>
+</package>
