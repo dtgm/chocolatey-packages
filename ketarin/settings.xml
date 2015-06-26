@@ -15,7 +15,7 @@
           <string>LastUpdateCheck</string>
         </key>
         <value>
-          <string>AAEAAAD/////AQAAAAAAAAAEAQAAAA9TeXN0ZW0uRGF0ZVRpbWUCAAAABXRpY2tzCGRhdGVEYXRhAAAJEEv+E1U/bNIIS/4TVT9s0ogL</string>
+          <string>AAEAAAD/////AQAAAAAAAAAEAQAAAA9TeXN0ZW0uRGF0ZVRpbWUCAAAABXRpY2tzCGRhdGVEYXRhAAAJELX8zVy9fdIItfzNXL190ogL</string>
         </value>
       </item>
       <item>
@@ -47,6 +47,38 @@
     &lt;/key&gt;
     &lt;value&gt;
       &lt;string&gt;{version}&lt;/string&gt;
+    &lt;/value&gt;
+  &lt;/item&gt;
+  &lt;item&gt;
+    &lt;key&gt;
+      &lt;string&gt;Filesize&lt;/string&gt;
+    &lt;/key&gt;
+    &lt;value&gt;
+      &lt;string&gt;{filesize:formatfilesize}&lt;/string&gt;
+    &lt;/value&gt;
+  &lt;/item&gt;
+  &lt;item&gt;
+    &lt;key&gt;
+      &lt;string&gt;host&lt;/string&gt;
+    &lt;/key&gt;
+    &lt;value&gt;
+      &lt;string&gt;{url:regex:(?&amp;lt;=//).*?(?=/)}&lt;/string&gt;
+    &lt;/value&gt;
+  &lt;/item&gt;
+  &lt;item&gt;
+    &lt;key&gt;
+      &lt;string&gt;packageGuid&lt;/string&gt;
+    &lt;/key&gt;
+    &lt;value&gt;
+      &lt;string&gt;{packageGuid}&lt;/string&gt;
+    &lt;/value&gt;
+  &lt;/item&gt;
+  &lt;item&gt;
+    &lt;key&gt;
+      &lt;string&gt;fileDate&lt;/string&gt;
+    &lt;/key&gt;
+    &lt;value&gt;
+      &lt;string&gt;{f:yyyy}.{f:MM}.{f:dd} {f:HH}{f:mm}&lt;/string&gt;
     &lt;/value&gt;
   &lt;/item&gt;
 &lt;/dictionary&gt;</string>
@@ -89,7 +121,7 @@
           <string>ConnectionTimeout</string>
         </key>
         <value>
-          <string>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uRGVjaW1hbAQAAAAFZmxhZ3MCaGkCbG8DbWlkAAAAAAgICAgAAAAAAAAAAA8AAAAAAAAACw==</string>
+          <string>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uRGVjaW1hbAQAAAAFZmxhZ3MCaGkCbG8DbWlkAAAAAAgICAgAAAAAAAAAADwAAAAAAAAACw==</string>
         </value>
       </item>
       <item>
@@ -145,7 +177,7 @@
           <string>ProxyPort</string>
         </key>
         <value>
-          <string>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uRGVjaW1hbAQAAAAFZmxhZ3MCaGkCbG8DbWlkAAAAAAgICAgAAAAAAAAAAAAAAAAAAAAACw==</string>
+          <string>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uRGVjaW1hbAQAAAAFZmxhZ3MCaGkCbG8DbWlkAAAAAAgICAgAAAAAAAAAALgiAAAAAAAACw==</string>
         </value>
       </item>
       <item>
@@ -177,7 +209,7 @@
           <string>MainForm/Size</string>
         </key>
         <value>
-          <string>System.Drawing.Size:737,890</string>
+          <string>System.Drawing.Size:1281,890</string>
         </value>
       </item>
       <item>
@@ -185,7 +217,7 @@
           <string>MainForm/Location</string>
         </key>
         <value>
-          <string>System.Drawing.Point:53,700</string>
+          <string>System.Drawing.Point:1,876</string>
         </value>
       </item>
       <item>
@@ -217,7 +249,7 @@
           <string>olvJobs/Application:LastDisplayIndex</string>
         </key>
         <value>
-          <string>System.Int32:-1</string>
+          <string>System.Int32:0</string>
         </value>
       </item>
       <item>
@@ -241,7 +273,7 @@
           <string>olvJobs/Last updated:LastDisplayIndex</string>
         </key>
         <value>
-          <string>System.Int32:-1</string>
+          <string>System.Int32:2</string>
         </value>
       </item>
       <item>
@@ -265,7 +297,7 @@
           <string>olvJobs/Progress:LastDisplayIndex</string>
         </key>
         <value>
-          <string>System.Int32:-1</string>
+          <string>System.Int32:4</string>
         </value>
       </item>
       <item>
@@ -281,7 +313,7 @@
           <string>olvJobs/Target:Width</string>
         </key>
         <value>
-          <string>System.Int32:59</string>
+          <string>System.Int32:159</string>
         </value>
       </item>
       <item>
@@ -289,7 +321,7 @@
           <string>olvJobs/Target:LastDisplayIndex</string>
         </key>
         <value>
-          <string>System.Int32:-1</string>
+          <string>System.Int32:5</string>
         </value>
       </item>
       <item>
@@ -313,7 +345,7 @@
           <string>olvJobs/Category:LastDisplayIndex</string>
         </key>
         <value>
-          <string>System.Int32:-1</string>
+          <string>System.Int32:6</string>
         </value>
       </item>
       <item>
@@ -329,7 +361,7 @@
           <string>olvJobs/Status:Width</string>
         </key>
         <value>
-          <string>System.Int32:80</string>
+          <string>System.Int32:52</string>
         </value>
       </item>
       <item>
@@ -337,7 +369,7 @@
           <string>olvJobs/Status:LastDisplayIndex</string>
         </key>
         <value>
-          <string>System.Int32:-1</string>
+          <string>System.Int32:7</string>
         </value>
       </item>
       <item>
@@ -345,7 +377,7 @@
           <string>olvJobs/LastSortColumn</string>
         </key>
         <value>
-          <string>System.String:Last updated</string>
+          <string>System.String:Application</string>
         </value>
       </item>
       <item>
@@ -377,7 +409,7 @@
           <string>olvJobs/Version:LastDisplayIndex</string>
         </key>
         <value>
-          <string>System.Int32:3</string>
+          <string>System.Int32:1</string>
         </value>
       </item>
       <item>
@@ -441,7 +473,7 @@
           <string>EditVariablesDialog/Size</string>
         </key>
         <value>
-          <string>System.Drawing.Size:1630,814</string>
+          <string>System.Drawing.Size:1630,732</string>
         </value>
       </item>
       <item>
@@ -449,7 +481,7 @@
           <string>EditVariablesDialog/Location</string>
         </key>
         <value>
-          <string>System.Drawing.Point:79,450</string>
+          <string>System.Drawing.Point:-3,1012</string>
         </value>
       </item>
       <item>
@@ -473,7 +505,7 @@
           <string>ApplicationJobDialog/Location</string>
         </key>
         <value>
-          <string>System.Drawing.Point:149,875</string>
+          <string>System.Drawing.Point:333,652</string>
         </value>
       </item>
       <item>
@@ -497,7 +529,7 @@
           <string>LogDialog/Location</string>
         </key>
         <value>
-          <string>System.Drawing.Point:57,43</string>
+          <string>System.Drawing.Point:0,5</string>
         </value>
       </item>
       <item>
@@ -577,7 +609,7 @@
           <string>olvErrors/LastSortOrder</string>
         </key>
         <value>
-          <string>System.Int32:1</string>
+          <string>System.Int32:2</string>
         </value>
       </item>
       <item>
@@ -1117,7 +1149,7 @@ if (varCScript == "2") {
     &lt;Category /&gt;
     &lt;SourceType&gt;FixedUrl&lt;/SourceType&gt;
     
-    &lt;DeletePreviousFile&gt;true&lt;/DeletePreviousFile&gt;
+    &lt;DeletePreviousFile&gt;false&lt;/DeletePreviousFile&gt;
     &lt;Enabled&gt;true&lt;/Enabled&gt;
     &lt;FileHippoId /&gt;
     
@@ -1128,13 +1160,163 @@ if (varCScript == "2") {
 &lt;/Jobs&gt;</string>
         </value>
       </item>
+      <item>
+        <key>
+          <string>olvJobs/x:Visibility</string>
+        </key>
+        <value>
+          <string>System.Boolean:True</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/x:Width</string>
+        </key>
+        <value>
+          <string>System.Int32:89</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/x:LastDisplayIndex</string>
+        </key>
+        <value>
+          <string>System.Int32:-1</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/Filesize:Visibility</string>
+        </key>
+        <value>
+          <string>System.Boolean:True</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/Filesize:Width</string>
+        </key>
+        <value>
+          <string>System.Int32:60</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/Filesize:LastDisplayIndex</string>
+        </key>
+        <value>
+          <string>System.Int32:8</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/url:Visibility</string>
+        </key>
+        <value>
+          <string>System.Boolean:True</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/url:Width</string>
+        </key>
+        <value>
+          <string>System.Int32:147</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/url:LastDisplayIndex</string>
+        </key>
+        <value>
+          <string>System.Int32:-1</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/host:Visibility</string>
+        </key>
+        <value>
+          <string>System.Boolean:True</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/host:Width</string>
+        </key>
+        <value>
+          <string>System.Int32:183</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/host:LastDisplayIndex</string>
+        </key>
+        <value>
+          <string>System.Int32:9</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/packageGuid:Visibility</string>
+        </key>
+        <value>
+          <string>System.Boolean:True</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/packageGuid:Width</string>
+        </key>
+        <value>
+          <string>System.Int32:115</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/packageGuid:LastDisplayIndex</string>
+        </key>
+        <value>
+          <string>System.Int32:10</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/fileDate:Visibility</string>
+        </key>
+        <value>
+          <string>System.Boolean:True</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/fileDate:Width</string>
+        </key>
+        <value>
+          <string>System.Int32:114</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/fileDate:LastDisplayIndex</string>
+        </key>
+        <value>
+          <string>System.Int32:3</string>
+        </value>
+      </item>
     </dictionary>
   </Settings>
   <GlobalVariables>
     <Variable Name="7z" Content="7z.exe" />
-    <Variable Name="curl" Content="curl.exe" />
+    <Variable Name="curl" Content="pycurl/7.18.2" />
     <Variable Name="workdir" Content="F:\exe" />
     <Variable Name="chocoPkgOutput" Content="C:\dev\chocolatey\chocolatey-packages\automatic\_output" />
+    <Variable Name="ie32" Content="Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C)" />
+    <Variable Name="ie64" Content="Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Win64; x64; Trident/4.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; Media Center PC 5.0; SLCC1; Tablet PC 2.0; .NET4.0C)" />
+    <Variable Name="firefox" Content="Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.10) Gecko/20100914 Firefox/3.6.10" />
+    <Variable Name="opera" Content="Opera/9.80 (Windows NT 6.1; U; en) Presto/2.6.30 Version/10.62" />
+    <Variable Name="chrome" Content="Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3 (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3" />
+    <Variable Name="wget" Content="wget/1.9+cvs-stable+(red+hat+modified)" />
   </GlobalVariables>
   <CodeSnippets>
     <Snippet Guid="7158800B-A188-4CAB-927C-31AA36FDD049" Name="chocopkgup" Type="1">chocopkgup {nopush} --packagename={appname} --version={version} --pg="{packageGuid}" --url="{preupdate-url}" --urlx64="{url64}" --packagepath="{file}" --checksum="{checksum}" --c64="{checksumx64}" --debug</Snippet>
@@ -1163,7 +1345,7 @@ string saveFileName64 = String.Concat(varChecksum64basefile, ".", varChecksum64e
 // equivalent to ketarin variable "{file}"
 //string savePath = app.PreviousLocation;
 string savePath = app.PreviousLocation;
-string pkgPath = Path.Combine(varChocoPkgOutput, varAppname, varVersion);`
+string pkgPath = Path.Combine(varChocoPkgOutput, varAppname, varVersion);
 string fileNameNuspec = String.Concat(varAppname, ".nuspec");
 string fileUriNuspec = Path.Combine(pkgPath, fileNameNuspec);
 string fileNameNupkg = String.Concat(varAppname, ".", varVersion, ".nupkg");

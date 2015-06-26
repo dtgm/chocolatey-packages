@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="75a2bcfe-50da-425f-b690-4cd33ef17338">
     <SourceTemplate><![CDATA[<Jobs>
@@ -69,10 +69,10 @@
   </ApplicationJob>
 </Jobs>]]></SourceTemplate>
     <WebsiteUrl />
-    <UserAgent>Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)</UserAgent>
+    <UserAgent>Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:40.0) Gecko/20100101 Firefox/40.0</UserAgent>
     <UserNotes>beta</UserNotes>
-    <LastFileSize>1156783</LastFileSize>
-    <LastFileDate>2014-10-22T23:41:52.0415755</LastFileDate>
+    <LastFileSize>1202458</LastFileSize>
+    <LastFileDate>2015-06-17T15:12:56-05:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Avoid</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -81,7 +81,7 @@
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
-    <HttpReferer>http://www.wagnardmobile.com/DDU/</HttpReferer>
+    <HttpReferer>http://www.wagnardmobile.com/DDU/ddudownload.htm</HttpReferer>
     <SetupInstructions />
     <Variables>
       <item>
@@ -139,22 +139,8 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>1</TextualContent>
+            <TextualContent>2</TextualContent>
             <Name>cscript</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>x</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>RegularExpression</VariableType>
-            <Regex />
-            <Url>http://www.guru3d.com/index.php?ct=files&amp;action=download&amp;</Url>
-            <Name>x</Name>
           </UrlVariable>
         </value>
       </item>
@@ -165,11 +151,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>D:\chocolatey\_work\DDU.v13.4.2.0_www.INSTALKI.pl.exe</PreviousLocation>
+    <PreviousLocation>F:\exe\DDU v15.3.0.2.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
-    <Enabled>false</Enabled>
+    <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2014-10-22T23:41:52.0415755</LastUpdated>
+    <LastUpdated>2015-06-24T21:36:54.4464111-05:00</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>ddu</Name>
