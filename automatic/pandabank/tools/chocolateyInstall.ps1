@@ -1,1 +1,1 @@
-#Install-VirtualPackage '{{PackageName}}.install' '{{PackageName}}.portable'
+# MetaPackage

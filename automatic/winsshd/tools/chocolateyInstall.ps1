@@ -1,1 +1,1 @@
-#Install-VirtualPackage 'winsshd.install' 'winsshd.portable'
+# MetaPackage

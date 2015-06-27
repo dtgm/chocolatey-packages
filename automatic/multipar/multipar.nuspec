@@ -34,4 +34,7 @@ Mutlipar can do file verification, error detection, correction and recovery to p
       <dependency id="{{PackageName}}.install" version="[{{PackageVersion}}]" />
     </dependencies>
   </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
 </package>

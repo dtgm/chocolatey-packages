@@ -1,4 +1,4 @@
-﻿$warningPreference = "Continue"
+$warningPreference = "Continue"
 $chocoLib = Join-Path $env:ChocolateyInstall "lib"
 if (Test-Path -PathType Container (Join-Path $chocoLib 'nunit.*')) {
   Write-Warning "Uninstall NOT complete."
@@ -8,7 +8,7 @@ if (Test-Path -PathType Container (Join-Path $chocoLib 'nunit.*')) {
   To retain future compatibility this package does not uninstall the dependent
   package it points to as designated with *.install or *.portable.`n
 "@
-  Write-Warning "Please also run the command(s):"
+  Write-Warning "To finish removing the program installed by package nunit, please also run the command:"
   Write-Host " `n`tcuninst " -NoNewLine
   $list = (Get-ChildItem -Directory $chocoLib\nunit.*).Name
   foreach ($i in $list) {
