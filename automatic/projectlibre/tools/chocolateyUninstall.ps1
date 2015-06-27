@@ -1,17 +1,18 @@
-$packageName = '{{PackageName}}'
-$fileType = 'msi'
-$silentArgs = '/quiet /qn /norestart'
-$validExitCodes = @(0)
-try {
-  Get-ItemProperty -Path @( 'HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*',
-                            'HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*',
-                            'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*' ) `
-                   -ErrorAction:SilentlyContinue `
-  | Where-Object   { $_.DisplayName -like "$packageName" } `
-  | ForEach-Object { Uninstall-ChocolateyPackage -PackageName "$packageName" `
-                                                 -FileType "$fileType" `
-                                                 -SilentArgs "$($_.PSChildName) $silentArgs" `
-                                                 -ValidExitCodes $validExitCodes }
-} catch {
-  throw $_.Exception
+$warningPreference = "Continue"
+$chocoLib = Join-Path $env:ChocolateyInstall "lib"
+if (Test-Path -PathType Container (Join-Path $chocoLib '{{PackageName}}.*')) {
+  Write-Warning "Uninstall NOT complete."
+  Write-Host 
+@"
+  This package is a metapackage; a chocolatey feature not yet fully implemented.
+  To retain future compatibility this package does not uninstall the dependent
+  package it points to as designated with *.install or *.portable.`n
+"@
+  Write-Warning "To finish removing the program installed by package {{PackageName}}, please also run the command:"
+  Write-Host " `n`tcuninst " -NoNewLine
+  $list = (Get-ChildItem -Directory $chocoLib\{{PackageName}}.*).Name
+  foreach ($i in $list) {
+    Write-Host "$i " -NoNewLine
+  }
+  Write-Host "-y"
 }
