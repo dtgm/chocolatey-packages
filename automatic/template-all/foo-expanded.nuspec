@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title></title>
+    <version>{{PackageVersion}}</version>
+    <authors></authors>
+    <owners>dtgm</owners>
+    <summary></summary>
+    <description>
+
+#### Documentation
+* [Features]()
+* [Screenshots]()
+* [FAQ]()
+* [Wiki]()
+* [Manual]()
+* [Privacy Policy]()
+
+#### Community
+* [Forum]()
+* [Facebook]()
+* [Google+]()
+* [Twitter]()
+    </description>
+    <projectUrl></projectUrl>
+    <projectSourceUrl></projectSourceUrl>
+    <bugTrackerUrl></bugTrackerUrl>
+    <docsUrl></docsUrl>
+    <mailingListUrl></mailingListUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages//icons/{{PackageName}}.png</iconUrl>
+    <tags></tags>
+    <copyright>© </copyright>
+    <licenseUrl></licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [News]()
+* [Release log]()
+* [Roadmap]()
+* [Changelog]()
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+<!--    <dependencies>
+      <dependency id="{{PackageName}}.install" version="[{{PackageVersion}}]" />
+    </dependencies> -->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
