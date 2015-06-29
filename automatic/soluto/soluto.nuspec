@@ -39,13 +39,13 @@ Soluto can provide additional remote management and reporting features by creati
 [User Support](https://support.soluto.com)
     </description>
     <projectUrl>https://www.soluto.com/</projectUrl>
+    <bugTrackerUrl>https://support.soluto.com/entries/20516273-read-this-first-known-issues</bugTrackerUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/55ce3c2643c3292374f558f3f37e23c17ed29d82/icons/{{PackageName}}.png</iconUrl>
     <tags>debug asset-management alert remote startup freeware</tags>
     <copyright>© 2008-2014 Soluto, 2014 Asurion LLC</copyright>
     <licenseUrl>https://www.soluto.com/legal/terms-of-use</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-[Known issues](https://support.soluto.com/entries/20516273-read-this-first-known-issues)
 [How secure is Soluto?](https://support.soluto.com/entries/20756886-How-secure-is-Soluto-)
 [What data does Soluto collect?](https://support.soluto.com/entries/20756861-what-data-does-soluto-collect)
 [Privacy Policy](https://www.soluto.com/legal/privacy-policy)

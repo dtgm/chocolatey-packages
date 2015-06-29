@@ -13,9 +13,9 @@ Encryptr is simple and easy to use. It stores your sensitive data like passwords
 Encryptr only ever encrypts or decrypts your data locally on your device. No plain text is ever sent to the server, not even your passphrase. This is what zero-knowledge means.
 
 [Wiki](https://github.com/devgeeks/Encryptr/wiki)
-[Source code](https://github.com/devgeeks/Encryptr/)
     </description>
     <projectUrl>https://encryptr.org/</projectUrl>
+    <projectSourceUrl>https://github.com/devgeeks/Encryptr/</projectSourceUrl>
     <tags>security encryption password manager cloud zero-knowledge</tags>
     <copyright>© 2014 Devgeeks</copyright>
     <licenseUrl>https://github.com/devgeeks/Encryptr/blob/master/LICENSE</licenseUrl>

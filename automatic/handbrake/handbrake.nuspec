@@ -22,6 +22,7 @@ HandBrake is a tool for converting video from nearly any format to a selection o
 * [IRC](https://trac.handbrake.fr/wiki/IRC)
     </description>
     <projectUrl>http://handbrake.fr/</projectUrl>
+    <bugTrackerUrl>https://forum.handbrake.fr/viewforum.php?f=12</bugTrackerUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/a9745b5bde6672b15e1495fdda70fc14e3260226/icons/{{PackageName}}.png</iconUrl>
     <tags>video transcoder encoder</tags>
     <copyright>© The HandBrake Team</copyright>
@@ -30,7 +31,6 @@ HandBrake is a tool for converting video from nearly any format to a selection o
     <releaseNotes>
 #### Program
 * [News](https://handbrake.fr/news.php)
-* [Known issues](https://forum.handbrake.fr/viewforum.php?f=12)
 * Source code [SVN](svn://svn.handbrake.fr/HandBrake/trunk), [GitHub mirror](https://github.com/HandBrake/HandBrake)
 
 #### Package

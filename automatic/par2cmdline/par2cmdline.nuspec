@@ -14,6 +14,8 @@ par2cmdline is a program for creating and using PAR2 files to detect damage in d
 * [Command line usage](https://github.com/Parchive/par2cmdline#using-par2cmdline)
     </description>
     <projectUrl>https://github.com/Parchive/par2cmdline</projectUrl>
+    <projectSourceUrl>https://github.com/Parchive/par2cmdline</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/Parchive/par2cmdline/issues</bugTrackerUrl>
     <tags>par file recovery</tags>
     <copyright>© Peter Brian Clements, Marcel Partap, Ike Devolder</copyright>
     <licenseUrl>https://github.com/Parchive/par2cmdline/blob/master/COPYING</licenseUrl>
@@ -21,9 +23,7 @@ par2cmdline is a program for creating and using PAR2 files to detect damage in d
     <releaseNotes>
 #### Program
 * [Changelog](https://github.com/Parchive/par2cmdline/blob/master/ChangeLog)
-* [Known issues](https://github.com/Parchive/par2cmdline/issues)
 * [Roadmap](https://github.com/Parchive/par2cmdline/blob/master/ROADMAP)
-* [Source code](https://github.com/Parchive/par2cmdline)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

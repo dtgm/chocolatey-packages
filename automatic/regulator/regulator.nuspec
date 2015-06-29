@@ -16,6 +16,7 @@ Inspired by [expresso](https://chocolatey.org/packages/expresso).
 Documentation: [ZIP](http://sourceforge.net/projects/regulator/files/The%20Regulator/{{PackageVersion}}/Regulator2Help.zip/download)
     </description>
     <projectUrl>http://regulator.sourceforge.net</projectUrl>
+    <bugTrackerUrl>https://sourceforge.net/p/regulator/bugs/</bugTrackerUrl>
     <tags>regex dotnet</tags>
     <copyright>© Roy Osherove</copyright>
     <licenseUrl>https://www.gnu.org/licenses/old-licenses/lgpl-2.0.html</licenseUrl>
@@ -24,7 +25,6 @@ Documentation: [ZIP](http://sourceforge.net/projects/regulator/files/The%20Regul
     <releaseNotes>
 #### Program
 * [Changelog](https://github.com/royosherove/dotnet-regex-tools/blob/master/Regulator2/TheRegulator/history.txt)
-* [Known issues](https://sourceforge.net/p/regulator/bugs/)
 * Source code: [repository](https://github.com/royosherove/dotnet-regex-tools), [ZIP](https://sourceforge.net/projects/regulator/files/The%20Regulator/{{PackageVersion}}/)
 
 #### Package

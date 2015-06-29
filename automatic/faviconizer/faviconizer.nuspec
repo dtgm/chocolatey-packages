@@ -13,9 +13,9 @@ If you use Internet Explorer for browsing the web then you know that for some li
 Here's where FavIconizer comes to the rescue. It will scan all links you have in your favorites and check if the website has a favicon. If it has one, FavIconizer will download that icon and adjust the link in the favorites to use that.
 After FavIconizer is finished, you have all the favicons back in your favorites.
 
-[Source code](https://sourceforge.net/p/{{PackageName}}/code/HEAD/tree/)
     </description>
     <projectUrl>http://stefanstools.sourceforge.net/FavIconizer.html</projectUrl>
+    <projectSourceUrl>https://sourceforge.net/p/{{PackageName}}/code/HEAD/tree/</projectSourceUrl>
     <tags>ie favicons</tags>
     <copyright>© Stefan Kueng</copyright>
     <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>

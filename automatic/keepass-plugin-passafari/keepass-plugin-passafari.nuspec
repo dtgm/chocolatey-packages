@@ -18,6 +18,8 @@ This plugin is primarily intended for use with PassIFox for Mozilla Firefox and 
 * [Protocol](https://github.com/mmichaa/passafari.safariextension#protocol)
     </description>
     <projectUrl>https://github.com/mmichaa/passafari.safariextension</projectUrl>
+    <projectSourceUrl>https://github.com/mmichaa/passafari.safariextension</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/mmichaa/passafari.safariextension/issues</bugTrackerUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/abea15e652b3237c2ba87b2fb4df1e01ce99443e/icons/{{PackageName}}.png</iconUrl>
     <tags>keepass plugin safari autocompletion</tags>
     <copyright>© Michael Nowak</copyright>
@@ -25,8 +27,6 @@ This plugin is primarily intended for use with PassIFox for Mozilla Firefox and 
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
 #### Program
-* [Known issues](https://github.com/mmichaa/passafari.safariextension/issues)
-* [Source code](https://github.com/mmichaa/passafari.safariextension)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

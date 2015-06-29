@@ -30,6 +30,7 @@ Not able to create bootable images of BSD, Mac OSX, or Microsoft Windows operati
     </description>
     <language>en-us</language>
     <projectUrl>http://www.linuxliveusb.com/</projectUrl>
+    <projectSourceUrl>http://www.linuxliveusb.com/about/sources</projectSourceUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/7f8a732cc81b6f3ef01ab277390181d0b1518ffe/icons/lili.png</iconUrl>
     <licenseUrl>http://www.gnu.org/licenses/gpl-3.0.html</licenseUrl>
     <copyright>© 2013 Thibaut Lauzière</copyright>	
@@ -39,7 +40,6 @@ Not able to create bootable images of BSD, Mac OSX, or Microsoft Windows operati
 #### Program
 * [News](http://www.linuxliveusb.com/en/news/)
 * [Release notes](http://www.linuxliveusb.com/release-notes)
-* [Source code](http://www.linuxliveusb.com/about/sources)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

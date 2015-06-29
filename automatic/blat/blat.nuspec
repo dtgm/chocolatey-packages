@@ -13,13 +13,13 @@ Blat is a small, efficent SMTP command-line interface (CLI) mailer for Windows. 
 Combine with Windows integrated command-line program `at` to schedule sending emails or posting later.
 
 [Philosophy](http://www.blat.net/?philosophy.html)
-[Documentation](http://www.blat.net/syntax/syntax.html)
 [FAQ](http://www.blat.net/?faq/index.html)
 [Examples](http://www.blat.net/examples/)
 [RFC compliance](http://www.blat.net/?RFC.html)
-[Source code](http://sourceforge.net/projects/blat/files/Blat%20Source/)
     </description>
     <projectUrl>http://www.blat.net/</projectUrl>
+    <projectSourceUrl>http://sourceforge.net/projects/blat/files/Blat%20Source/</projectSourceUrl>
+    <docsUrl>http://www.blat.net/syntax/syntax.html</docsUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/14865b351088f3886148a71cff54b8ccf66f452c/icons/blat.png</iconUrl>
     <tags>email smtp mua nntp usenet cli</tags>
     <copyright>http://www.blat.net/?docs/credits.html</copyright>

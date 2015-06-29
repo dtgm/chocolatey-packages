@@ -19,13 +19,13 @@ Every 6 weeks, Firefox developers take the current stable features of each build
 * [Firefox Developer Edition](https://chocolatey.org/packages/firefox-dev)
 * Firefox Nightly (you are here)
 
-[Mail list](https://mail.mozilla.org/listinfo/nightly-testers)
 [Forum](http://forums.mozillazine.org/viewforum.php?f=23)
 [Mozilla Developer Network documentation](https://developer.mozilla.org/en-US/docs/mozilla-central)
 [Privacy policy](https://www.mozilla.org/en-US/privacy/firefox/)
-[Source code](https://hg.mozilla.org/mozilla-central/)
     </description>
     <projectUrl>https://www.mozilla.org/firefox/nightly/</projectUrl>
+    <projectSourceUrl>https://hg.mozilla.org/mozilla-central/</projectSourceUrl>
+    <mailingListUrl>https://mail.mozilla.org/listinfo/nightly-testers</mailingListUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/34eed6fa346faeb2d0b97cf77868cf26c2af247b/icons/{{PackageName}}.png</iconUrl>
     <tags>browser mozilla firefox alpha</tags>
     <copyright>© Mozilla Foundation</copyright>

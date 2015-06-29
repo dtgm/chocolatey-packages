@@ -27,6 +27,8 @@ FAQs: [General](http://keepass.info/help/kb/faq.html), [Technical](http://keepas
 [Command line options](http://keepass.info/help/base/cmdline.html)
     </description>
     <projectUrl>http://keepass.info/</projectUrl>
+    <projectSourceUrl>http://sourceforge.net/projects/keepass/files/KeePass%202.x/{{PackageVersion}}/KeePass-{{PackageVersion}}-Source.zip/download</projectSourceUrl>
+    <bugTrackerUrl>https://sourceforge.net/p/keepass/bugs/</bugTrackerUrl>
     <tags>password safe</tags>
     <copyright>© 2003 Dominik Reichl, http://keepass.info/help/base/credits.html</copyright>
     <licenseUrl>http://keepass.info/help/v2/license.html</licenseUrl>
@@ -35,8 +37,6 @@ FAQs: [General](http://keepass.info/help/kb/faq.html), [Technical](http://keepas
     <releaseNotes>
 #### Program
 * [News](http://keepass.info/news/news_all.html)
-* [Known issues](https://sourceforge.net/p/keepass/bugs/)
-* [Source code](http://sourceforge.net/projects/keepass/files/KeePass%202.x/{{PackageVersion}}/KeePass-{{PackageVersion}}-Source.zip/download)
 
 #### Package
 * Automatically generated and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

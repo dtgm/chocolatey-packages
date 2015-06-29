@@ -16,6 +16,8 @@ KeePass Fields Admin Console is a KeePass plugin to get some statistics and perf
 * Delete values or fields
     </description>
     <projectUrl>https://sourceforge.net/projects/kpfieldsadminconsole/</projectUrl>
+    <projectSourceUrl>https://sourceforge.net/p/kpfieldsadminconsole/KPFAC/ci/master/tree/</projectSourceUrl>
+    <bugTrackerUrl>https://sourceforge.net/p/kpfieldsadminconsole/tickets/</bugTrackerUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages//icons/{{PackageName}}.png</iconUrl>
     <tags>keepass plugin field management</tags>
     <copyright>© 2004 Jareth Lomson</copyright>
@@ -24,8 +26,6 @@ KeePass Fields Admin Console is a KeePass plugin to get some statistics and perf
     <releaseNotes>
 #### Program
 * [Changelog](https://sourceforge.net/p/kpfieldsadminconsole/KPFAC/ci/master/tree/README.txt)
-* [Known issues](https://sourceforge.net/p/kpfieldsadminconsole/tickets/)
-* [Source code](https://sourceforge.net/p/kpfieldsadminconsole/KPFAC/ci/master/tree/)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

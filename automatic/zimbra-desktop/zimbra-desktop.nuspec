@@ -28,6 +28,8 @@ Zimbra Desktop supports the following account types:
 [Forum](http://community.zimbra.com/)
     </description>
     <projectUrl>http://www.zimbra.com/downloads/zimbra-desktop</projectUrl>
+    <projectSourceUrl>http://wiki.zimbra.com/wiki/Building_Zimbra_using_Git</projectSourceUrl>
+    <bugTrackerUrl>https://bugzilla.zimbra.com/describecomponents.cgi?product=ZD</bugTrackerUrl>
     <tags>collaboration task schedule</tags>
     <copyright>© Zimbra Inc</copyright>
     <licenseUrl>http://www.zimbra.com/license/</licenseUrl>
@@ -37,8 +39,6 @@ Zimbra Desktop supports the following account types:
 #### Program
 * [Release notes]({{DownloadUrlx64}})
 * [Roadmap](https://pm.zimbra.com/)
-* [Known issues](https://bugzilla.zimbra.com/describecomponents.cgi?product=ZD)
-* [Source code](http://wiki.zimbra.com/wiki/Building_Zimbra_using_Git), [sf.net](http://sourceforge.net/p/zimbra/code/HEAD/tree/trunk/)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

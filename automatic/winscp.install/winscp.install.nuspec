@@ -21,6 +21,8 @@ WinSCP is an open source free SFTP client, SCP client, FTPS client and FTP clien
 * [Forum](http://winscp.net/forum/index.php)
     </description>
     <projectUrl>http://winscp.net/</projectUrl>
+    <projectSourceUrl>http://sourceforge.net/p/winscp/code/</projectSourceUrl>
+    <bugTrackerUrl>http://winscp.net/tracker/</bugTrackerUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/5b5d9335e9008d5f0cb0960fcef183926c1bc6ad/icons/winscp.png</iconUrl>
     <tags>scp sftp ftp client</tags>
     <copyright>© 2000 Martin Přikryl</copyright>
@@ -31,8 +33,6 @@ WinSCP is an open source free SFTP client, SCP client, FTPS client and FTP clien
 * [News](http://sourceforge.net/p/winscp/news/)
 * [Roadmap](http://winscp.net/docs/history)
 * [Changelog](http://winscp.net/eng/docs/history#{{PackageVersion}})
-* [Known issues](http://winscp.net/tracker/)
-* [Source code](http://sourceforge.net/p/winscp/code/)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

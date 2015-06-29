@@ -25,12 +25,12 @@ ReHash can be fully configured using some of the many command-line arguments whi
 Source code: http://sourceforge.net/projects/rehash/files/rehash/0.2/rehash-0.2-src.zip/download
     </description>
     <projectUrl>http://rehash.sourceforge.net/</projectUrl>
+    <bugTrackerUrl>http://sourceforge.net/p/rehash/bugs/</bugTrackerUrl>
     <tags>cli checksum</tags>
     <copyright>© 2003 Dominik Reichl</copyright>
     <licenseUrl>http://opensource.org/licenses/bsd-license.php</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-[Known issues](http://sourceforge.net/p/rehash/bugs/)
     </releaseNotes>
   </metadata>
   <files>

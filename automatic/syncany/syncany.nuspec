@@ -17,10 +17,10 @@ Any storage: Syncany uses a plug-in based storage system. It can be used with an
 
 [User guide](http://syncany.readthedocs.org/en/latest/)
 [Wiki](https://github.com/syncany/syncany/wiki)
-[Mailing-list](https://launchpad.net/~syncany-team)
-[Source code](https://github.com/syncany/syncany)
     </description>
     <projectUrl>https://www.syncany.org/</projectUrl>
+    <projectSourceUrl>https://github.com/syncany/syncany</projectSourceUrl>
+    <mailingListUrl>https://launchpad.net/~syncany-team</mailingListUrl>
     <tags>filesharing cloud sync dropbox flickr ftp sftp s3 samba webdav</tags>
     <copyright>© Philipp C. Heckel</copyright>
     <licenseUrl>https://github.com/syncany/syncany/blob/develop/LICENSE.md</licenseUrl>

@@ -11,6 +11,7 @@
 Twofish Cipher is a KeePass 2.x plugin to allow encrypting databases using the Gost cipher.
     </description>
     <projectUrl>http://gogogadgetscott.info/keepass/twofishcipher/</projectUrl>
+    <projectSourceUrl>http://gogogadgetscott.info/keepass/twofishcipher/TwofishCipher-{{PackageVersion}}-Source.zip</projectSourceUrl>
     <tags>keepass plugin encryption twofish cipher</tags>
     <copyright>© 2009 SEG Tech</copyright>
     <licenseUrl>https://www.gnu.org/licenses/gpl-3.0</licenseUrl>
@@ -18,7 +19,6 @@ Twofish Cipher is a KeePass 2.x plugin to allow encrypting databases using the G
     <releaseNotes>
 #### Program
 * [Changelog](http://gogogadgetscott.info/keepass/twofishcipher/)
-* [Source code](http://gogogadgetscott.info/keepass/twofishcipher/TwofishCipher-{{PackageVersion}}-Source.zip)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

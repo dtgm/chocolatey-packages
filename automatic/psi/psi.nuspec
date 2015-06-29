@@ -20,6 +20,8 @@ Psi has built in GnuPG support for message encryption.  With Psi's full Unicode 
 * https://groups.google.com/forum/#!forum/psi-users
 		</description>
     <projectUrl>http://psi-im.org/</projectUrl>
+    <projectSourceUrl>https://github.com/psi-im/psi</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/psi-im/psi/issues</bugTrackerUrl>
 		<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/70cdddfb917ea5ae438c8095129b374c1cf06408/icons/{{PackageName}}.png</iconUrl>
     <tags>xmpp messenger chat gnupg qt</tags>
     <copyright>© Psi Team</copyright>
@@ -28,8 +30,6 @@ Psi has built in GnuPG support for message encryption.  With Psi's full Unicode 
     <releaseNotes>
 #### Program
 * [Changelog](https://github.com/psi-im/psi/blob/master/README)
-* [Known issues](https://github.com/psi-im/psi/issues)
-* [Source code](https://github.com/psi-im/psi)
 
 #### Package
 * Uprev to match dependent version psi.install (Fix checksum for 64-bit installer)

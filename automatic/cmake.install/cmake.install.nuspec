@@ -10,11 +10,11 @@
     <description>
 CMake is a family of tools designed to build, test and package software. CMake is used to control the software compilation process using simple platform and compiler independent configuration files. CMake generates native makefiles and workspaces that can be used in the compiler environment of your choice.
 
-[Documentation](http://www.cmake.org/documentation/)
 [Development](http://www.cmake.org/developer-resources/)
-[Source code](http://www.cmake.org/gitweb?p=cmake.git;a=summary)
     </description>
     <projectUrl>http://www.cmake.org/</projectUrl>
+    <projectSourceUrl>http://www.cmake.org/gitweb?p=cmake.git;a=summary</projectSourceUrl>
+    <docsUrl>http://www.cmake.org/documentation/</docsUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/4a10ab83c85abbcd25c72624739f130bd7ccba2c/icons/cmake.png</iconUrl>
     <tags>compiler make build</tags>
     <copyright>©  2000 Kitware Inc</copyright>

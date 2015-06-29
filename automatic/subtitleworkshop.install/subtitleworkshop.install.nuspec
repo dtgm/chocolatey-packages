@@ -29,6 +29,7 @@ Subtitle Workshop is written in Delphi.
 * [Facebook](http://facebook.com/subtitleworkshop)
     </description>
     <projectUrl>http://subworkshop.sourceforge.net/</projectUrl>
+    <projectSourceUrl>https://sourceforge.net/projects/subworkshop/files/source/</projectSourceUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/31a0ce8e7c91e0fb296083333bf3725f0d96d58a/icons/subtitleworkshop.png</iconUrl>
     <tags>subtitle editor convert</tags>
     <copyright>© 2013 Andrey Spiridonov</copyright>
@@ -37,7 +38,6 @@ Subtitle Workshop is written in Delphi.
     <releaseNotes>
 #### Program
 * [News](http://subworkshop.sourceforge.net/news.php)
-* [Source code](https://sourceforge.net/projects/subworkshop/files/source/)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

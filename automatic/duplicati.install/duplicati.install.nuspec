@@ -19,9 +19,10 @@ Duplicati is licensed under LGPL and available for Windows and Linux (.NET 2.0+ 
 Wiki: [GitHub](https://github.com/duplicati/duplicati/wiki), [GoogleCode](https://code.google.com/p/duplicati/wiki/TableOfContents) (deprecated)
 [HowTos](http://www.duplicati.com/howtos)
 
-[Source code](https://github.com/duplicati/duplicati)
     </description>
     <projectUrl>http://www.duplicati.com/</projectUrl>
+    <projectSourceUrl>https://github.com/duplicati/duplicati</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/duplicati/duplicati/issues</bugTrackerUrl>
     <tags>backup cloud incremental vss</tags>
     <copyright>© 2009 Kenneth Skovhede</copyright>
     <licenseUrl>http://www.gnu.org/licenses/lgpl.html</licenseUrl>
@@ -29,7 +30,6 @@ Wiki: [GitHub](https://github.com/duplicati/duplicati/wiki), [GoogleCode](https:
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/128248bea393239a8c1eb2cc45f1ae101fdea0ef/icons/duplicati.svg</iconUrl>
     <releaseNotes>
 [News](http://www.duplicati.com/news)
-[Known issues](https://github.com/duplicati/duplicati/issues)
     </releaseNotes>
   </metadata>
   <files>

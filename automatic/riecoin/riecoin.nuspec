@@ -22,9 +22,9 @@ That's the point of riecoin: the mining process, besides fulfilling its function
 * {{PackageGuid}} 
 
 [Previous Version Compatibility](http://riecoin.org/updates.html) (blockchain hard-forks)
-[Source code](https://github.com/riecoin/riecoin)
     </description>
     <projectUrl>http://www.riecoin.org/</projectUrl>
+    <projectSourceUrl>https://github.com/riecoin/riecoin</projectSourceUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/5ddac7b24255386ee6dad21cbb37e8bffffcb1fa/icons/{{PackageName}}.png</iconUrl>
     <tags>riecoin ric wallet cryptocurrency p2p</tags>
     <copyright>© 2013-Present Riecoin Developers</copyright>

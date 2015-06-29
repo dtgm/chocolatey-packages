@@ -15,6 +15,8 @@ MeGUI is the most comprehensive GUI based ISO MPEG-4 solution. It suports MPEG-4
     </description>
     <language>en-us</language>
     <projectUrl>http://sourceforge.net/projects/megui/</projectUrl>
+    <projectSourceUrl>http://sourceforge.net/p/megui/code/HEAD/tree/</projectSourceUrl>
+    <bugTrackerUrl>http://sourceforge.net/p/megui/bugs/</bugTrackerUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/ed218ea2f36e4652d9fe828073fade4c0b0d5ceb/icons/{{PackageName}}.png</iconUrl>
     <licenseUrl>http://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
     <copyright>© 2005 MeGUI</copyright>	
@@ -23,8 +25,6 @@ MeGUI is the most comprehensive GUI based ISO MPEG-4 solution. It suports MPEG-4
     <releaseNotes>
 #### Program
 * [Changelog](http://sourceforge.net/p/megui/code/HEAD/tree/megui/trunk/Changelog_full.txt?format)
-* [Known issues](http://sourceforge.net/p/megui/bugs/)
-* [Source code](http://sourceforge.net/p/megui/code/HEAD/tree/)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

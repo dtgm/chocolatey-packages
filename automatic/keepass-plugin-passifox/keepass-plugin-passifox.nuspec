@@ -12,9 +12,11 @@ PassIFox is a plugin for KeePass 2.x and provides a means of exposing password e
 
 This plugin is primarily intended for use with PassIFox for Mozilla Firefox and chromeIPass for Google Chrome.
 
-[Documentation](https://github.com/pfn/passifox/blob/master/documentation/PassIFox.md)
     </description>
     <projectUrl>https://github.com/pfn/passifox</projectUrl>
+    <projectSourceUrl>https://github.com/pfn/passifox/</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/pfn/passifox/issues</bugTrackerUrl>
+    <docsUrl>https://github.com/pfn/passifox/blob/master/documentation/PassIFox.md</docsUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/abea15e652b3237c2ba87b2fb4df1e01ce99443e/icons/{{PackageName}}.png</iconUrl>
     <tags>keepass plugin firefox autocompletion</tags>
     <copyright>© 2013 Perry Nguyen, Lukas Schulze</copyright>
@@ -22,8 +24,6 @@ This plugin is primarily intended for use with PassIFox for Mozilla Firefox and 
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
 #### Program
-* [Known issues](https://github.com/pfn/passifox/issues)
-* [Source code](https://github.com/pfn/passifox/)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

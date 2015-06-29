@@ -17,6 +17,8 @@ moneyGuru is a personal finance management application. With it, you can evaluat
 * [Forum](http://forum.hardcoded.net/2/)
     </description>
     <projectUrl>http://www.hardcoded.net/moneyguru/</projectUrl>
+    <projectSourceUrl>https://github.com/hsoft/moneyguru</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/hsoft/moneyguru/issues</bugTrackerUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/600645a95dc0787d9169448419f4a851f37bc4fe/icons/{{packageName}}.png</iconUrl>
     <tags>personal-finance accounting qt</tags>
     <copyright>© 2008 Hardcoded Software</copyright>
@@ -25,8 +27,6 @@ moneyGuru is a personal finance management application. With it, you can evaluat
     <releaseNotes>
 #### Program
 * [Changelog](http://www.hardcoded.net/moneyguru/help/en/changelog.html)
-* [Known issues](https://github.com/hsoft/moneyguru/issues)
-* [Source code](https://github.com/hsoft/moneyguru)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

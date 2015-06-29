@@ -15,14 +15,14 @@ This plug-in will add the (exact) same "Open Recent" menu to your systray KeePas
 I believe this is a very useful plugin for people who use more than one KeePass databases on a daily basis (such as me).
     </description>
     <projectUrl>https://github.com/fdbeirao/KeePassTrayRecentFiles</projectUrl>
+    <projectSourceUrl>https://github.com/fdbeirao/KeePassTrayRecentFiles</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/fdbeirao/KeePassTrayRecentFiles/issues</bugTrackerUrl>
     <tags>keepass plugin traymenu</tags>
     <copyright>© 2015 Fábio Beirão</copyright>
     <licenseUrl>https://github.com/fdbeirao/KeePassTrayRecentFiles#disclaimer</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
 #### Program
-* [Known issues](https://github.com/fdbeirao/KeePassTrayRecentFiles/issues)
-* [Source code](https://github.com/fdbeirao/KeePassTrayRecentFiles)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

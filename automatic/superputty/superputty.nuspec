@@ -23,11 +23,12 @@ SuperPutty is written in C# and runs on any Windows platform supporting the .NET
 * Supports KiTTY
 
 [Screenshots](https://code.google.com/p/superputty/wiki/Screenshots)
-[Documentation](https://code.google.com/p/superputty/wiki/Documentation)
 [Forum](https://groups.google.com/forum/#!forum/superputty-discuss)
-[Source code](https://code.google.com/p/superputty/source/checkout)
     </description>
     <projectUrl>https://code.google.com/p/superputty/</projectUrl>
+    <projectSourceUrl>https://code.google.com/p/superputty/source/checkout</projectSourceUrl>
+    <bugTrackerUrl>https://code.google.com/p/superputty/issues/list</bugTrackerUrl>
+    <docsUrl>https://code.google.com/p/superputty/wiki/Documentation</docsUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/1aeb7495ea67a1024daa43d1c8ba45f9d2dde88c/icons/{{PackageName}}.png</iconUrl>
     <tags>tabs putty</tags>
     <copyright>© 2009 Jim Radford</copyright>
@@ -35,7 +36,6 @@ SuperPutty is written in C# and runs on any Windows platform supporting the .NET
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
 [Changelog](https://code.google.com/p/superputty/source/browse/trunk/ReleaseNotes.txt)
-[Known issues](https://code.google.com/p/superputty/issues/list)
     </releaseNotes>
     <dependencies>
       <dependency id="putty" />

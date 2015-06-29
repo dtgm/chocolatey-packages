@@ -25,12 +25,14 @@ This library is part of dar and licensed under the GNU General Public License (G
 
 #### [Features](http://dar.linux.free.fr/doc/Features.html)
 
-#### [Documentation](http://dar.linux.free.fr/doc/index.html)
 
 #### Community
-* [Mail list](https://sourceforge.net/p/dar/mailman/)
     </description>
     <projectUrl>http://dar.linux.free.fr/</projectUrl>
+    <projectSourceUrl>https://sourceforge.net/p/dar/code/ci/master/tree/</projectSourceUrl>
+    <bugTrackerUrl>https://sourceforge.net/p/dar/bugs/</bugTrackerUrl>
+    <docsUrl>http://dar.linux.free.fr/doc/index.html</docsUrl>
+    <mailingListUrl>https://sourceforge.net/p/dar/mailman/</mailingListUrl>
     <iconUrl />
     <tags>backup cli c++</tags>
     <copyright>© Denis Corbin</copyright>
@@ -40,8 +42,6 @@ This library is part of dar and licensed under the GNU General Public License (G
 #### Program
 * [News](https://sourceforge.net/p/dar/code/ci/master/tree/NEWS)
 * [Changelog](https://sourceforge.net/p/dar/code/ci/master/tree/src/build/ChangeLog)
-* [Known issues](https://sourceforge.net/p/dar/bugs/)
-* [Source code](https://sourceforge.net/p/dar/code/ci/master/tree/)
 
 #### Package
 * Automatically generated and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

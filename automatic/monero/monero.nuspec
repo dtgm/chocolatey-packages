@@ -23,6 +23,8 @@ Main Monero features that were inherited from CryptoNote are Ring Signatures and
 * [Developer blog](https://getmonero.org/blog/)
     </description>
     <projectUrl>http://getmonero.org/</projectUrl>
+    <projectSourceUrl>https://github.com/monero-project/bitmonero</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/monero-project/bitmonero/issues</bugTrackerUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/c4590da27cbdd25c5866eefaf0b8a4e54864c018/icons/{{PackageName}}.png</iconUrl>
     <tags>xmr p2p anonymity cryptonote cryptonight cpu-mining</tags>
     <copyright>© 2014 Monero Project</copyright>
@@ -34,8 +36,6 @@ Main Monero features that were inherited from CryptoNote are Ring Signatures and
 * [Missives](http://monero.org/missives/)
 * [Roadmap](https://getmonero.org/design-goals/)
 * [Changelog](https://github.com/monero-project/bitmonero/blob/development/ReleaseNotes.txt)
-* [Known issues](https://github.com/monero-project/bitmonero/issues)
-* [Source code](https://github.com/monero-project/bitmonero)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

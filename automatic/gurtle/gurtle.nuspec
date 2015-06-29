@@ -13,9 +13,9 @@ Gurtle is a TortoiseSVN/TortoiseGit issue tracker plug-in (an IBugTraqProvider i
 With release 1.5, TortoiseSVN (and TortoiseGit later) introduced the possibility for anyone to author a COM-based plug-in that enables a user to query a project's issue tracking system during a commit. Gurtle is such a plug-in and enables the user to consult issues of a project hosted by Google Code from within the TortoiseSVN Commit dialog box. The screenshot below shows how the issue dialog box looks like in Gurtle for the project hosting support project.
 
 [Wiki](https://code.google.com/p/gurtle/w/list)
-[Source code](https://code.google.com/p/gurtle/source/checkout)
     </description>
     <projectUrl>https://code.google.com/p/gurtle/</projectUrl>
+    <projectSourceUrl>https://code.google.com/p/gurtle/source/checkout</projectSourceUrl>
     <tags>plugin tortoisesvn tortoisegit google</tags>
     <copyright>© Atif Aziz</copyright>
     <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>

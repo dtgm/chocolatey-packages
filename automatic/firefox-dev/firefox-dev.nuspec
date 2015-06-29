@@ -39,9 +39,9 @@ Every 6 weeks, Firefox developers take the current stable features of each build
 
 [Mozilla Developer Network documentation](https://developer.mozilla.org/en-US/Firefox/Developer_Edition)
 [Privacy notice](https://www.mozilla.org/en-US/privacy/firefox/)
-[Source code](http://hg.mozilla.org/releases/mozilla-aurora/)
     </description>
     <projectUrl>https://www.mozilla.org/en-US/firefox/developer/</projectUrl>
+    <projectSourceUrl>http://hg.mozilla.org/releases/mozilla-aurora/</projectSourceUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/09264db6fe62d7ffab92f088722deab819a4bb47/icons/{{PackageName}}.png</iconUrl>
     <tags>browser mozilla firefox developer</tags>
     <copyright>© Mozilla Foundation</copyright>

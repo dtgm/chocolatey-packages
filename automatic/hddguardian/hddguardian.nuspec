@@ -24,11 +24,11 @@ HDD Guardian is a front-end for smartctl, a tool for querying S.M.A.R.T. data of
 * allow to set warnings behaviour
 * support for external (USB) devices, also in docking stations
 
-[Documentation](http://hddguardian.codeplex.com/documentation)
 [Frequently Asked Questions (FAQ)](http://hddguardian.codeplex.com/wikipage?title=FAQ%20%2f%20Known%20issues&referringTitle=Home)
 [Source code repository](http://hddguardian.codeplex.com/SourceControl/latest)
     </description>
     <projectUrl>http://hddguardian.codeplex.com/</projectUrl>
+    <docsUrl>http://hddguardian.codeplex.com/documentation</docsUrl>
     <tags>s.m.a.r.t. gui hardware disk reporting monitoring</tags>
     <copyright>© Eruestan</copyright>
     <licenseUrl>http://hddguardian.codeplex.com/license</licenseUrl>

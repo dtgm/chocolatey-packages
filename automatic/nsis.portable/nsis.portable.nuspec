@@ -18,9 +18,9 @@ NSIS is script-based and allows you to create the logic to handle even the most 
 [FAQ](http://nsis.sourceforge.net/FAQ)
 [Documentation: User](http://nsis.sourceforge.net/Support)
 [Documentation: Developer](http://nsis.sourceforge.net/Developer_Center)
-[Source code](https://sourceforge.net/p/nsis/code/HEAD/tree/)
     </description>
     <projectUrl>http://nsis.sourceforge.net/</projectUrl>
+    <projectSourceUrl>https://sourceforge.net/p/nsis/code/HEAD/tree/</projectSourceUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/7d5e648830fdca7a958270dae82fba8c7fe44f5d/icons/nsis.png</iconUrl>
     <tags>installer build developer programming</tags>
     <copyright>© 1999 NSIS Contributors</copyright>

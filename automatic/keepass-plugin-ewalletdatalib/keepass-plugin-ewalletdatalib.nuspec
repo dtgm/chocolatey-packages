@@ -11,6 +11,7 @@
 
     </description>
     <projectUrl>http://keepass.info/plugins.html#</projectUrl>
+    <projectSourceUrl>http://keepass.info/extensions/v2/ewalletdatalib/eWalletDataLiberator-{{PackageVersion}}.zip</projectSourceUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages//icons/{{PackageName}}.png</iconUrl>
     <tags>keepass plugin </tags>
     <copyright>© 200</copyright>
@@ -18,7 +19,6 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
 #### Program
-* [Source code](http://keepass.info/extensions/v2/ewalletdatalib/eWalletDataLiberator-{{PackageVersion}}.zip)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

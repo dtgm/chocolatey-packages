@@ -23,6 +23,8 @@ Process Hacker was started in 2008 as an open source alternative to programs suc
 * [Forum](http://processhacker.sourceforge.net/forums/)
     </description>
     <projectUrl>http://processhacker.sourceforge.net/</projectUrl>
+    <projectSourceUrl>https://sourceforge.net/p/processhacker/code/HEAD/tree/</projectSourceUrl>
+    <bugTrackerUrl>http://wj32.org/processhacker/forums/viewforum.php?f=24</bugTrackerUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/ecf89d2382d3d3dd063b171e626c32d9ae81d70c/icons/processhacker.png</iconUrl>
     <tags>process taskmgr procexp security debug</tags>
     <copyright>© 2008 Wen Jia Liu</copyright>
@@ -32,8 +34,6 @@ Process Hacker was started in 2008 as an open source alternative to programs suc
 #### Program
 * [News](http://wj32.org/processhacker/forums/viewforum.php?f%3D1)
 * [Changelog](https://sourceforge.net/p/processhacker/code/HEAD/tree/2.x/trunk/CHANGELOG.txt)
-* [Known issues](http://wj32.org/processhacker/forums/viewforum.php?f=24)
-* [Source code](https://sourceforge.net/p/processhacker/code/HEAD/tree/)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

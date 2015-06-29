@@ -42,6 +42,8 @@ MediaInfo supplies technical and tag information about a video or audio file. Su
 * [Forum](http://sourceforge.net/p/mediainfo/discussion/)
     </description>
     <projectUrl>http://mediaarea.net/en/MediaInfo</projectUrl>
+    <projectSourceUrl>http://sourceforge.net/p/mediainfo/code/HEAD/tree/</projectSourceUrl>
+    <bugTrackerUrl>http://sourceforge.net/p/mediainfo/bugs/</bugTrackerUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/63827a08643582e89d636e350bfa8aa6c62eab55/icons/{{PackageName}}.svg</iconUrl>
     <licenseUrl>http://mediaarea.net/en/MediaInfo/License</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -50,8 +52,6 @@ MediaInfo supplies technical and tag information about a video or audio file. Su
     <releaseNotes>
 #### Program
 * [Changelog](http://mediaarea.net/MediaInfo/ChangeLog)
-* [Known issues](http://sourceforge.net/p/mediainfo/bugs/)
-* [Source code](http://sourceforge.net/p/mediainfo/code/HEAD/tree/)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

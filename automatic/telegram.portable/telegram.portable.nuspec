@@ -26,6 +26,8 @@ With Telegram, you can send messages, photos, videos and files of any type (doc,
 * [Twitter](https://telegram.org/faq#twitter)
     </description>
     <projectUrl>https://desktop.telegram.org/</projectUrl>
+    <projectSourceUrl>https://telegram.org/apps#source-code</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/telegramdesktop/tdesktop/issues</bugTrackerUrl>
     <tags>im messenger chat synchronized cloud</tags>
     <copyright>© 2013 Pavel Durov and Nikolai Durov</copyright>
     <licenseUrl>https://github.com/telegramdesktop/tdesktop/blob/master/LICENSE</licenseUrl>
@@ -35,8 +37,6 @@ With Telegram, you can send messages, photos, videos and files of any type (doc,
 #### Program
 * [News](https://telegram.org/blog)
 * [Changelog](https://desktop.telegram.org/#changelog)
-* [Known issues](https://github.com/telegramdesktop/tdesktop/issues)
-* [Source code](https://telegram.org/apps#source-code)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

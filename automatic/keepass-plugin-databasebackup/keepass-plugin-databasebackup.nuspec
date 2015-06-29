@@ -11,6 +11,7 @@
 Plugin for KeePass 2.x to create backups of modified databases.
     </description>
     <projectUrl>http://keepass.info/plugins.html#databasebackup</projectUrl>
+    <projectSourceUrl>http://keepass.info/extensions/v2/databasebackup/DataBaseBackup-{{PackageVersion}}-Source.zip</projectSourceUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/ef1b47ff00f76bdaa47ab74d2262532d0d625be4/icons/{{PackageName}}.png</iconUrl>
     <tags>keepass plugin backup database</tags>
     <copyright>© 2006 Francis Noël</copyright>
@@ -18,7 +19,6 @@ Plugin for KeePass 2.x to create backups of modified databases.
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
 #### Program
-* [Source code](http://keepass.info/extensions/v2/databasebackup/DataBaseBackup-{{PackageVersion}}-Source.zip)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

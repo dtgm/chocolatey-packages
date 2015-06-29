@@ -24,6 +24,8 @@ KeeAgent is a plugin for KeePass 2.x. It allows other programs to access SSH key
 * [Options and settings](http://lechnology.com/software/keeagent/usage/options-and-settings#content)
     </description>
     <projectUrl>http://lechnology.com/software/keeagent</projectUrl>
+    <projectSourceUrl>https://github.com/dlech/KeeAgent</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/dlech/KeeAgent/issues</bugTrackerUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/c46cf154c7b7e7b67e640ae9c65923a4e7e28a07/icons/{{PackageName}}.png</iconUrl>
     <tags>keepass plugin ssh authentication</tags>
     <copyright>© 2012 David Lechner</copyright>
@@ -33,8 +35,6 @@ KeeAgent is a plugin for KeePass 2.x. It allows other programs to access SSH key
 #### Program
 * [News](http://lechnology.com/category/keeagent-news/)
 * [Changelog](https://github.com/dlech/KeeAgent/blob/master/CHANGELOG.txt)
-* [Known issues](https://github.com/dlech/KeeAgent/issues)
-* [Source code](https://github.com/dlech/KeeAgent)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

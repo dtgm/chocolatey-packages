@@ -27,9 +27,11 @@ Diffuse is a graphical tool for merging and comparing text files. Diffuse is abl
 
 #### Community
 * [Forum](https://sourceforge.net/p/diffuse/discussion/)
-* [Mail list](https://sourceforge.net/p/diffuse/mailman/)
     </description>
     <projectUrl>http://diffuse.sourceforge.net/</projectUrl>
+    <projectSourceUrl>https://sourceforge.net/p/diffuse/code/HEAD/tree/</projectSourceUrl>
+    <bugTrackerUrl>https://sourceforge.net/p/diffuse/bugs/</bugTrackerUrl>
+    <mailingListUrl>https://sourceforge.net/p/diffuse/mailman/</mailingListUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/cbc58c8aa4e0792101579a9842fa7a6c839795cb/icons/{{PackageName}}.png</iconUrl>
     <tags>visual diff merge text</tags>
     <copyright>© 2006 Derrick Moser, Henri Menke</copyright>
@@ -39,8 +41,6 @@ Diffuse is a graphical tool for merging and comparing text files. Diffuse is abl
 #### Program
 * [Changelog](http://diffuse.sourceforge.net/releasehistory.html)
 * [Roadmap](http://diffuse.sourceforge.net/roadmap.html)
-* [Known issues](https://sourceforge.net/p/diffuse/bugs/)
-* [Source code](https://sourceforge.net/p/diffuse/code/HEAD/tree/)
 
 #### Package
 * Automatically generated and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

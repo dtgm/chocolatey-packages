@@ -11,9 +11,9 @@
 Opus is a totally open, royalty-free, highly versatile audio codec. Opus is unmatched for interactive speech and music transmission over the Internet, but is also intended for storage and streaming applications. It is standardized by the Internet Engineering Task Force (IETF) as RFC 6716 which incorporated technology from Skype's SILK codec and Xiph.Org's CELT codec.
 
 [FAQ](https://wiki.xiph.org/OpusFAQ)
-[Source code](http://git.xiph.org/?p=opus.git)
     </description>
     <projectUrl>http://www.opus-codec.org/</projectUrl>
+    <projectSourceUrl>http://git.xiph.org/?p=opus.git</projectSourceUrl>
     <tags>cli codec opus</tags>
     <copyright>© 2011 Opus</copyright>
     <licenseUrl>http://www.opus-codec.org/license/</licenseUrl>

@@ -29,6 +29,8 @@ To be able to perform a search using the YaCy network, every user has to set up 
     </description>
     <language>en-us</language>
     <projectUrl>http://yacy.net</projectUrl>
+    <projectSourceUrl>https://gitorious.org/yacy/rc1/</projectSourceUrl>
+    <bugTrackerUrl>http://mantis.tokeek.de/my_view_page.php</bugTrackerUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/aaae5f8457ea1087ec2a155ef594617d8c7ff34d/icons/{{PackageName}}.png</iconUrl>
     <licenseUrl>https://gitorious.org/yacy/rc1/source/COPYRIGHT</licenseUrl>
     <copyright>© YaCy developers</copyright>	
@@ -38,8 +40,6 @@ To be able to perform a search using the YaCy network, every user has to set up 
 #### Program
 * [Changelog](http://mantis.tokeek.de/changelog_page.php)
 * [Roadmap](http://www.yacy-websearch.net/wiki/index.php/Dev:Roadmap)
-* [Known issues](http://mantis.tokeek.de/my_view_page.php)
-* [Source code](https://gitorious.org/yacy/rc1/)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

@@ -12,7 +12,6 @@ Fritzing is a software tool, a community website and services in the spirit of P
 
 The Fritzing application is an Electronic Design Automation software with a low entry barrier, suited for the needs of makers and hobbyists. It offers a unique real-life "breadboard" view, and a parts library with many commonly used high-level components. Fritzing makes it very easy to communicate about circuits, as well as to turn them into PCB layouts ready for production. It is particularly popular among Arduino and Raspberry Pi users, and is widely used in education and creative tinkering.
 
-[Documentation](http://fritzing.org/learning/)
 [FAQ](http://fritzing.org/faq/)
 [User forum](http://fritzing.org/forum/)
 
@@ -21,6 +20,8 @@ The Fritzing application is an Electronic Design Automation software with a low 
 [Fritzing source code](https://github.com/fritzing/fritzing-app)
     </description>
     <projectUrl>http://fritzing.org/home/</projectUrl>
+    <bugTrackerUrl>http://fritzing.org/download/known-issues/</bugTrackerUrl>
+    <docsUrl>http://fritzing.org/learning/</docsUrl>
     <tags>prototype pcb processing arduino breadboard qt</tags>
     <copyright>© Friends-of-Fritzing foundation</copyright>
     <licenseUrl>https://github.com/fritzing/fritzing-app#licensing</licenseUrl>

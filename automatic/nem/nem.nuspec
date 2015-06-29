@@ -37,6 +37,7 @@ If you have difficulty remembering secure passwords, consider using secure passw
 4. [Tutorials](http://blog.nem.io/nem-tutorial-list/)
     </description>
     <projectUrl>http://nem.io/</projectUrl>
+    <bugTrackerUrl>https://github.com/NewEconomyMovement/NemCommunityClient/issues</bugTrackerUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/d088e836e4aadf4b609e65dce9aa0c37c3f18674/icons/{{PackageName}}.png</iconUrl>
     <tags>xem p2p cryptocurrency blockchain proof-of-importance poi</tags>
     <copyright>© 2014 NEM Project</copyright>
@@ -47,7 +48,6 @@ If you have difficulty remembering secure passwords, consider using secure passw
 * [News](http://blog.nem.io/)
 * [Release log](https://github.com/NewEconomyMovement/NemCommunityClient/releases)
 * [Roadmap](https://github.com/NewEconomyMovement/NemCommunityClient/milestones)
-* [Known issues](https://github.com/NewEconomyMovement/NemCommunityClient/issues)
 * [NCC source code](https://github.com/NewEconomyMovement/NemCommunityClient)
 * [NIS source code](https://github.com/NewEconomyMovement/NemInfrastructureServer)
 

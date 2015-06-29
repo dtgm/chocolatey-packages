@@ -10,9 +10,9 @@
     <description>
 Evernote2Onenote uses the Evernote script engine ENScript.exe to export notes. These notes are parsed and then imported into Onenote.
 
-[Source code](https://sourceforge.net/p/evimsync/code/HEAD/tree/trunk/evernote2onenote/)
     </description>
     <projectUrl>http://stefanstools.sourceforge.net/Evernote2Onenote.html</projectUrl>
+    <projectSourceUrl>https://sourceforge.net/p/evimsync/code/HEAD/tree/trunk/evernote2onenote/</projectSourceUrl>
     <tags>import evernote onenote</tags>
     <copyright>© Stefan Kueng</copyright>
     <licenseUrl>https://www.gnu.org/licenses/gpl-3.0.html</licenseUrl>

@@ -15,7 +15,6 @@ redistribution.  Because of this, Pine and Pico are not included with many GNU/L
 
 nano aims to solve these problems by emulating the functionality of Pico as closely as possible while addressing the problems above and providing other extra functionality.
 
-#### [Documentation](http://www.nano-editor.org/docs.php)
 * [Screenshots](http://www.nano-editor.org/screenshots.php)
 * [FAQ](http://www.nano-editor.org/dist/v{{PackageGuid}}/faq.html)
 * [Manual](http://www.nano-editor.org/dist/v{{PackageGuid}}/nano.html)
@@ -26,6 +25,9 @@ nano aims to solve these problems by emulating the functionality of Pico as clos
 * [Nano-devel](https://lists.gnu.org/mailman/listinfo/nano-devel) - development discussions
     </description>
     <projectUrl>http://www.nano-editor.org/</projectUrl>
+    <projectSourceUrl>http://svn.savannah.gnu.org/viewvc/trunk/nano/?root=nano</projectSourceUrl>
+    <bugTrackerUrl>https://savannah.gnu.org/bugs/?group=nano</bugTrackerUrl>
+    <docsUrl>http://www.nano-editor.org/docs.php</docsUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/f4ad6c3db2782dadeff6a9848225f43abca7a6d9/icons/{{PackageName}}.svg</iconUrl>
     <tags>gnu text editor</tags>
     <copyright>© 2002 GNU Project</copyright>
@@ -37,9 +39,7 @@ nano aims to solve these problems by emulating the functionality of Pico as clos
 * [Release log](http://www.nano-editor.org/dist/v{{PackageGuid}}/NEWS)
 * [Roadmap](http://www.nano-editor.org/dist/v{{PackageGuid}}/TODO)
 * [Changelog](http://www.nano-editor.org/dist/v{{PackageGuid}}/ChangeLog)
-* [Known issues](https://savannah.gnu.org/bugs/?group=nano)
 * [Upgrade notes](http://www.nano-editor.org/dist/v{{PackageGuid}}/UPGRADE)
-* [Source code](http://svn.savannah.gnu.org/viewvc/trunk/nano/?root=nano)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

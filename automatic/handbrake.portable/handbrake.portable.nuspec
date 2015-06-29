@@ -26,6 +26,7 @@ CLI
 * HandBrakeCLI.exe
     </description>
     <projectUrl>http://handbrake.fr/</projectUrl>
+    <bugTrackerUrl>https://forum.handbrake.fr/viewforum.php?f=12</bugTrackerUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/a9745b5bde6672b15e1495fdda70fc14e3260226/icons/handbrake.png</iconUrl>
     <tags>video transcoder encoder cli</tags>
     <copyright>© The HandBrake Team</copyright>
@@ -34,7 +35,6 @@ CLI
     <releaseNotes>
 #### Program
 * [News](https://handbrake.fr/news.php)
-* [Known issues](https://forum.handbrake.fr/viewforum.php?f=12)
 * Source code [SVN](svn://svn.handbrake.fr/HandBrake/trunk), [GitHub mirror](https://github.com/HandBrake/HandBrake)
 
 #### Package

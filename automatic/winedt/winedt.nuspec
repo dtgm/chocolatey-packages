@@ -26,11 +26,11 @@ WinEdt may be used for a __31 day__ trial period to evaluate the software.  All 
 ### Community content
 
 [Support](http://www.winedt.org/)
-[Documentation](http://www.winedt.org/Doc/)
 [FAQ](http://www.winedt.org/Doc/FAQ/)
 [TeX FAQ](http://www.tex.ac.uk/faq)
     </description>
     <projectUrl>http://www.winedt.com/</projectUrl>
+    <docsUrl>http://www.winedt.org/Doc/</docsUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/d5d78fc17432924a78acf27a880cceec5b1982df/icons/{{packageName}}.png</iconUrl>
     <tags>tex latex editor shareware nagscreen</tags>
     <copyright>© 1993 Aleksander Simonic</copyright>

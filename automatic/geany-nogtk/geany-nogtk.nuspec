@@ -16,9 +16,9 @@ This package installs geany with the GTK runtime environment as a required depen
 [Plugins](http://www.geany.org/Support/Plugins)
 [Manual](http://www.geany.org/Documentation/Manual)
 [Wiki](http://wiki.geany.org/)
-[Source code](https://github.com/geany/geany)
     </description>
     <projectUrl>http://www.geany.org/</projectUrl>
+    <projectSourceUrl>https://github.com/geany/geany</projectSourceUrl>
     <tags>text editor ide scintilla</tags>
     <copyright>© 2006 Enrico Tröger, Matthew Brush, Colomban Wendling, Frank Lanitz, Nick Treleaven and Dominic Hopf</copyright>
     <licenseUrl>https://github.com/geany/geany/blob/master/COPYING</licenseUrl>

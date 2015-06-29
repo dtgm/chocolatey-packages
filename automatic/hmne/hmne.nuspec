@@ -12,9 +12,9 @@ HM NIS Edit is the best Editor/IDE for Nullsoft Scriptable Install System (NSIS)
 
 [Screenshots](http://hmne.sourceforge.net/index.php#Screenshot)
 [User support](https://sourceforge.net/projects/hmne/support)
-[Source code](https://sourceforge.net/p/hmne/code/)
     </description>
     <projectUrl>http://hmne.sourceforge.net/</projectUrl>
+    <projectSourceUrl>https://sourceforge.net/p/hmne/code/</projectSourceUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/9aeed0b7b7e8c1fe68afb85aa3af03bb03a483bb/icons/{{PackageName}}.png</iconUrl>
     <tags>ide nsis editor</tags>
     <copyright>© 2003 Héctor Mauricio Rodríguez</copyright>

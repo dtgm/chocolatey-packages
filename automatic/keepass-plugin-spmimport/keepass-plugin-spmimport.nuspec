@@ -13,13 +13,13 @@ Adds an import module for files created by Steganos Password Manager.
 Note: KeePass has a built-in import module for Steganos Password Manager 2007 data.
     </description>
     <projectUrl>http://keepass.info/plugins.html#spmimport</projectUrl>
+    <projectSourceUrl>http://keepass.info/extensions/v2/spmimport/SpmImport-{{PackageVersion}}-Source.zip</projectSourceUrl>
     <tags>keepass plugin import steganos</tags>
     <copyright>© 2015 Dominik Reichl</copyright>
     <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
 #### Program
-* [Source code](http://keepass.info/extensions/v2/spmimport/SpmImport-{{PackageVersion}}-Source.zip)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

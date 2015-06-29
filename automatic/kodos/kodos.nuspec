@@ -14,17 +14,17 @@ Kodos is a Python GUI utility for creating, testing and debugging regular expres
 
 [Screenshots](http://kodos.sourceforge.net/screenshots.html)
 [Main interface window](http://kodos.sourceforge.net/mainwin.html)
-[Documentation](http://kodos.sourceforge.net/help/kodos.html)
-[Source code](https://sourceforge.net/projects/kodos/files/kodos/{{PackageVersion}}/kodos-{{PackageVersion}}.zip/download/)
     </description>
     <projectUrl>http://kodos.sourceforge.net/</projectUrl>
+    <projectSourceUrl>https://sourceforge.net/projects/kodos/files/kodos/{{PackageVersion}}/kodos-{{PackageVersion}}.zip/download/</projectSourceUrl>
+    <bugTrackerUrl>https://sourceforge.net/p/kodos/bugs/</bugTrackerUrl>
+    <docsUrl>http://kodos.sourceforge.net/help/kodos.html</docsUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/343c915b5f28caba1d86ef541f7c74a84cd37abd/icons/{{PackageName}}.png</iconUrl>
     <tags>debug regex python</tags>
     <copyright>© 2002 Phil Schwartz</copyright>
     <licenseUrl>http://kodos.sourceforge.net/gpl.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-[Known issues](https://sourceforge.net/p/kodos/bugs/)
     </releaseNotes>
   </metadata>
   <files>

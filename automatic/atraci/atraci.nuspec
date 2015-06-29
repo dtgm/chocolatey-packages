@@ -21,6 +21,8 @@ Atraci (formerly HipHop) is a streaming application for Windows, Mac and Linux t
 * [Twitter](https://twitter.com/atraciapp)
     </description>
     <projectUrl>http://getatraci.net/</projectUrl>
+    <projectSourceUrl>https://github.com/Atraci/Atraci</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/Atraci/Atraci/issues</bugTrackerUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/4f9edf94e7581c705cc5abbab9d002c4b7d9de05/icons/{{PackageName}}.png</iconUrl>
     <tags>mp3 music player popcorntime</tags>
     <copyright>© Atraci Team</copyright>
@@ -29,8 +31,6 @@ Atraci (formerly HipHop) is a streaming application for Windows, Mac and Linux t
     <releaseNotes>
 #### Program
 * [Changelog](https://github.com/Atraci/Atraci/releases)
-* [Known issues](https://github.com/Atraci/Atraci/issues)
-* [Source code](https://github.com/Atraci/Atraci)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

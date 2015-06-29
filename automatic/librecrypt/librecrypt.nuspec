@@ -12,13 +12,15 @@ LibreCrypt (formerly DoxBox) is based on the discontinued FreeOTFE project. Unde
 
 LibreCrypt supports the LUKs and losetup encryption schemes that are in most Linux distributions including secure ones used by enterprise, govt's and militaries.
 
-#### [Documentation](https://github.com/t-d-k/LibreCrypt/tree/master/docs)
 * [FAQ](https://github.com/t-d-k/LibreCrypt/blob/master/docs/FAQ.md)
 * [Getting started guide](https://github.com/t-d-k/LibreCrypt/blob/master/docs/getting_started.md)
 * [Technical](https://github.com/t-d-k/LibreCrypt/blob/master/docs/advanced_topics.md) 
 * [Command line options](https://github.com/t-d-k/LibreCrypt/blob/master/docs/command_line.md)
     </description>
     <projectUrl>http://www.librecrypt.eu/</projectUrl>
+    <projectSourceUrl>https://github.com/t-d-k/LibreCrypt</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/t-d-k/LibreCrypt/issues</bugTrackerUrl>
+    <docsUrl>https://github.com/t-d-k/LibreCrypt/tree/master/docs</docsUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/7379db8c459bb2a77d8483ea374e09e7a1088571/icons/{{PackageName}}.png</iconUrl>
     <tags>luks encryption security privacy</tags>
     <copyright>© tdk</copyright>
@@ -29,8 +31,6 @@ LibreCrypt supports the LUKs and losetup encryption schemes that are in most Lin
 * [News](http://doxbox.squte.com/groups/doxbox)
 * [Roadmap](https://github.com/t-d-k/LibreCrypt/blob/master/docs/TODO_list.md)
 * [Changelog](https://github.com/t-d-k/LibreCrypt/blob/master/docs/version_history.md)
-* [Known issues](https://github.com/t-d-k/LibreCrypt/issues)
-* [Source code](https://github.com/t-d-k/LibreCrypt)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

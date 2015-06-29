@@ -22,6 +22,7 @@ Electrum is an easy to use Bitcoin wallet. It protects you from losing coins in 
 * Established: Electrum is open source and was first released in November 2011.
     </description>
     <projectUrl>https://electrum.org</projectUrl>
+    <projectSourceUrl>https://github.com/spesmilo/electrum</projectSourceUrl>
     <iconUrl>https://cdn.rawgit.com/spesmilo/electrum/34f835746b4545d2c505ebe123139a670f0aafe0/icons/{{PackageName}}.png</iconUrl>
     <tags>bitcoin btc wallet cryptocurrency</tags>
     <copyright>© 2012 Electrum</copyright>
@@ -30,7 +31,6 @@ Electrum is an easy to use Bitcoin wallet. It protects you from losing coins in 
     <releaseNotes>
 #### Program
 [Changelog](https://raw.githubusercontent.com/spesmilo/electrum/master/RELEASE-NOTES)
-[Source code](https://github.com/spesmilo/electrum)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

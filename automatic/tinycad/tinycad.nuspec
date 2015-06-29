@@ -19,6 +19,8 @@ TinyCAD is a program for drawing electrical circuit diagrams commonly known as s
 * [Forum](https://sourceforge.net/p/tinycad/discussion/)
     </description>
     <projectUrl>https://sourceforge.net/projects/tinycad/</projectUrl>
+    <projectSourceUrl>https://sourceforge.net/p/tinycad/code/HEAD/tree/</projectSourceUrl>
+    <bugTrackerUrl>https://sourceforge.net/p/tinycad/bugs/</bugTrackerUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/d1e037cc7c943fda29b9067b3b1c3229d99402ff/icons/{{PackageName}}.png</iconUrl>
     <tags>eda pcb circuit-diagram electronic schematic</tags>
     <copyright>© beischer don_lucas mattpyne</copyright>
@@ -27,8 +29,6 @@ TinyCAD is a program for drawing electrical circuit diagrams commonly known as s
     <releaseNotes>
 #### Program
 * [News](https://sourceforge.net/p/tinycad/news/)
-* [Known issues](https://sourceforge.net/p/tinycad/bugs/)
-* [Source code](https://sourceforge.net/p/tinycad/code/HEAD/tree/)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

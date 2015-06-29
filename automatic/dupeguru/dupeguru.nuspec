@@ -27,6 +27,8 @@ Supported languages: English, French, German, Chinese (Simplified), Czech, Itali
 * [Forum](http://forum.hardcoded.net/1/)
     </description>
     <projectUrl>http://www.hardcoded.net/dupeguru/</projectUrl>
+    <projectSourceUrl>https://github.com/hsoft/dupeguru</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/hsoft/dupeguru/issues</bugTrackerUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/5c5623fdb9144eefc5123721d8af21f8f2122648/icons/{{packageName}}.png</iconUrl>
     <tags>file deduplication</tags>
     <copyright>© 2004 Hardcoded Software</copyright>
@@ -35,8 +37,6 @@ Supported languages: English, French, German, Chinese (Simplified), Czech, Itali
     <releaseNotes>
 #### Program
 * [Changelog](http://www.hardcoded.net/dupeguru/help/en/changelog.html)
-* [Known issues](https://github.com/hsoft/dupeguru/issues)
-* [Source code](https://github.com/hsoft/dupeguru)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

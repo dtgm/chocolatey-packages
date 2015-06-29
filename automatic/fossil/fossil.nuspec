@@ -16,9 +16,11 @@ Fossil is a cross-platform command line interface server that runs on Linux, BSD
 * [Manual](https://www.fossil-scm.org/fossil/help)
 
 #### Community
-* [Mailing list](http://mailinglists.sqlite.org/cgi-bin/mailman/listinfo/fossil-users)
     </description>
     <projectUrl>http://www.fossil-scm.org/</projectUrl>
+    <projectSourceUrl>https://www.fossil-scm.org/fossil/dir?ci=tip</projectSourceUrl>
+    <bugTrackerUrl>https://www.fossil-scm.org/fossil/rptview?rn=1</bugTrackerUrl>
+    <mailingListUrl>http://mailinglists.sqlite.org/cgi-bin/mailman/listinfo/fossil-users</mailingListUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/9e372a546699509d7a2c118677262ce898e9c017/icons/{{PackageName}}.png</iconUrl>
     <tags>cli dvcs scm sqlite</tags>
     <copyright>© 2007 D. Richard Hipp</copyright>
@@ -28,8 +30,6 @@ Fossil is a cross-platform command line interface server that runs on Linux, BSD
 #### Program
 * [To Do](https://www.fossil-scm.org/fossil/wiki?name=To+Do+List)
 * [Changelog](https://www.fossil-scm.org/fossil/timeline?c=version-{{PackageVersion}};y=ci)
-* [Known issues](https://www.fossil-scm.org/fossil/rptview?rn=1)
-* [Source code](https://www.fossil-scm.org/fossil/dir?ci=tip)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

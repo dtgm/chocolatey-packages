@@ -13,16 +13,16 @@ KPScript allows automating database operations in KeePass. There are two ways to
 * [Command Operations](http://keepass.info/help/v2_dev/scr_index.html): KPScript can be invoked using single commands. By passing the database location, its key, a command and eventually some parameters, simple operations like adding an entry can be performed. The syntax is very simple, no scripting knowledge is required. This method is ideal when you quickly want to do some small changes to the database. It is not recommended when you need to perform many operations, because for each command the database needs to be loaded from file, decrypted, modified, encrypted and written back to file.
 * [C# Script Files](http://keepass.info/help/v2_dev/scr_kps_index.html): These files are a lot more powerful than single command operations, but are also more complicated. You need to have heavy experience in C# programming and the KeePass 2.x internals. Within KPS files you can do everything that KeePass does.
 
-[Documentation](http://keepass.info/help/v2_dev/scr_index.html)
     </description>
     <projectUrl>http://keepass.info/plugins.html#kpscript</projectUrl>
+    <projectSourceUrl>http://keepass.info/extensions/v2/KPScript-{{PackageVersion}}-Source.zip</projectSourceUrl>
+    <docsUrl>http://keepass.info/help/v2_dev/scr_index.html</docsUrl>
     <tags>keepass plugin automate cli</tags>
     <copyright>© 2007 Dominik Reichl</copyright>
     <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
 #### Program
-* [Source code](http://keepass.info/extensions/v2/KPScript-{{PackageVersion}}-Source.zip)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

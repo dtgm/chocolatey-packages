@@ -36,6 +36,8 @@ The current status of the port can be summed up with something like, "It mostly 
 * [Forum](https://sourceforge.net/p/luckybackup/discussion/)
     </description>
     <projectUrl>http://luckybackup.sourceforge.net/</projectUrl>
+    <projectSourceUrl>http://sourceforge.net/p/luckybackup/code/</projectSourceUrl>
+    <bugTrackerUrl>http://luckybackup.sourceforge.net/bugs.html</bugTrackerUrl>
     <tags>backup sync rsync qt cli</tags>
     <copyright>© 2008 Loukas Avgeriou</copyright>
     <licenseUrl>http://luckybackup.sourceforge.net/manual.html#legal</licenseUrl>
@@ -46,8 +48,6 @@ The current status of the port can be summed up with something like, "It mostly 
 * [News](http://luckybackup.sourceforge.net/news.html)
 * [Changelog](http://luckybackup.sourceforge.net/changelog.html)
 * [Roadmap](http://luckybackup.sourceforge.net/todo.html)
-* [Known issues](http://luckybackup.sourceforge.net/bugs.html)
-* [Source code](http://sourceforge.net/p/luckybackup/code/)
 
 #### Package
 * Automatically generated and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

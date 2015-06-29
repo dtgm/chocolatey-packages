@@ -27,7 +27,6 @@ Scilab includes hundreds of mathematical functions. It has a high level programm
 
 Thanks to its ability to interconnect with [third-party technologies](https://www.scilab.org/scilab/interoperability/calculation_engine) and [applications](https://www.scilab.org/scilab/interoperability/connection_applications), Scilab can also act as a unique platform to bring together codes written in [different programming languages](https://www.scilab.org/scilab/interoperability/connection_languages) in a single, unified language, thus facilitating their distribution, their back-up and use.
 
-#### [Documentation](http://www.scilab.org/en/resources/documentation)
 * [Screenshots](https://www.scilab.org/scilab/gallery)
 * [Tutorials](http://www.scilab.org/en/resources/documentation/tutorials)
 * [Matlab-Scilab command equivalents](http://help.scilab.org/docs/current/fr_FR/section_36184e52ee88ad558380be4e92d3de21.html)
@@ -37,11 +36,14 @@ Thanks to its ability to interconnect with [third-party technologies](https://ww
 #### Community
 * [File exchange](http://fileexchange.scilab.org/)
 * [Forum](http://scilab.developpez.com/) (Français)
-* [Mail list](http://www.scilab.org/en/development/ml)
 * [IRC](http://www.scilab.org/resources/user_community/irc)
 * [Social media platforms](http://www.scilab.org/community/connect)
     </description>
     <projectUrl>https://www.scilab.org/</projectUrl>
+    <projectSourceUrl>https://www.scilab.org/development/sources/</projectSourceUrl>
+    <bugTrackerUrl>http://bugzilla.scilab.org/</bugTrackerUrl>
+    <docsUrl>http://www.scilab.org/en/resources/documentation</docsUrl>
+    <mailingListUrl>http://www.scilab.org/en/development/ml</mailingListUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/d11226adb2eea0b1211ccdb429a16d52c2e5718c/icons/{{PackageName}}.png</iconUrl>
     <tags>mathematics numerical computation</tags>
     <copyright>© Scilab Enterprises S.A.S, Inria</copyright>
@@ -52,10 +54,8 @@ Thanks to its ability to interconnect with [third-party technologies](https://ww
 * [What's New?](http://www.scilab.org/community/news/{{PackageGuid}}/)
 * [Release notes](http://www.scilab.org/community/news/{{PackageGuid}}/release_notes/)
 * [Changelog](http://gitweb.scilab.org/?p=scilab.git;a=tree;f=scilab)
-* [Known issues](http://bugzilla.scilab.org/)
 * [Development](https://www.scilab.org/development/)
 * [Version history](https://www.scilab.org/scilab/history/version/)
-* [Source code](https://www.scilab.org/development/sources/)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
