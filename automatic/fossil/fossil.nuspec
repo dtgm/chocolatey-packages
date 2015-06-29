@@ -13,13 +13,11 @@ Fossil is a cross-platform command line interface server that runs on Linux, BSD
 #### Documentation
 * [FAQ](https://www.fossil-scm.org/fossil/doc/trunk/www/faq.wiki)
 * [Wiki](https://www.fossil-scm.org/fossil/wcontent?all=1)
-* [Manual](https://www.fossil-scm.org/fossil/help)
-
-#### Community
     </description>
     <projectUrl>http://www.fossil-scm.org/</projectUrl>
     <projectSourceUrl>https://www.fossil-scm.org/fossil/dir?ci=tip</projectSourceUrl>
     <bugTrackerUrl>https://www.fossil-scm.org/fossil/rptview?rn=1</bugTrackerUrl>
+    <docsUrl>https://www.fossil-scm.org/fossil/help</docsUrl>
     <mailingListUrl>http://mailinglists.sqlite.org/cgi-bin/mailman/listinfo/fossil-users</mailingListUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/9e372a546699509d7a2c118677262ce898e9c017/icons/{{PackageName}}.png</iconUrl>
     <tags>cli dvcs scm sqlite</tags>

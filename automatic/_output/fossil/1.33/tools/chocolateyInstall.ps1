@@ -1,1 +1,1 @@
-﻿# MetaPackage
+# MetaPackage
