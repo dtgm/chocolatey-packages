@@ -15,9 +15,9 @@ nssm logs its progress to the system Event Log so you can get some idea of why a
 nssm also features a graphical service installation and removal facility. Admittedly this does suck. I hate trying to make GUIs
 
 [Manual](http://nssm.cc/commands)
-[Source code](http://git.nssm.cc/?p=nssm.git)
     </description>
     <projectUrl>http://nssm.cc/</projectUrl>
+    <projectSourceUrl>http://git.nssm.cc/?p=nssm.git</projectSourceUrl>
     <tags>service</tags>
     <copyright>© Iain Patterson</copyright>
     <licenseUrl>https://git.nssm.cc/?p=nssm.git;a=blob;f=README.txt;h=12db7e88a4cd83edb7023b2b92e7d3d5eabf1175;hb=HEAD#l882</licenseUrl>

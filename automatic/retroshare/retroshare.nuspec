@@ -26,6 +26,8 @@ RetroShare provides filesharing, chat, messages, forums and channels
 * [Blog](https://retroshareteam.wordpress.com/)
     </description>
     <projectUrl>http://retroshare.sourceforge.net/</projectUrl>
+    <projectSourceUrl>https://sourceforge.net/p/retroshare/code/HEAD/tree/</projectSourceUrl>
+    <bugTrackerUrl>https://sourceforge.net/p/retroshare/bugs/</bugTrackerUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/ad1fa54f9834f37c0f92404b8e40974a5498e5d7/icons/{{PackageName}}.png</iconUrl>
     <tags>p2p chat file-sharing wot security</tags>
     <copyright>© 2009 RetroShare Team</copyright>
@@ -36,8 +38,6 @@ RetroShare provides filesharing, chat, messages, forums and channels
 * [News](https://sourceforge.net/p/retroshare/news/)
 * [Roadmap](https://sourceforge.net/p/retroshare/code/HEAD/tree/trunk/TODO.txt)
 * [Changelog](http://sourceforge.net/p/retroshare/code/HEAD/tree/trunk/retroshare-gui/src/changelog.txt)
-* [Known issues](https://sourceforge.net/p/retroshare/bugs/)
-* [Source code](https://sourceforge.net/p/retroshare/code/HEAD/tree/)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

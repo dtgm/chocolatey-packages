@@ -31,9 +31,11 @@ Bless is a high quality, full featured hex editor.  It is written in mono/Gtk# a
 * [Manual](http://home.gna.org/bless/bless-manual/index.html)
 
 #### Community
-* [Mailing list](http://gna.org/mail/?group=bless)
     </description>
     <projectUrl>http://home.gna.org/bless/</projectUrl>
+    <projectSourceUrl>http://gna.org/svn/?group=bless</projectSourceUrl>
+    <bugTrackerUrl>http://gna.org/bugs/?group=bless</bugTrackerUrl>
+    <mailingListUrl>http://gna.org/mail/?group=bless</mailingListUrl>
     <tags>hex editor</tags>
     <copyright>© 2004 Alexandros Frantzis</copyright>
     <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
@@ -43,8 +45,6 @@ Bless is a high quality, full featured hex editor.  It is written in mono/Gtk# a
 #### Program
 * [News](http://home.gna.org/bless/news.html)
 * [Release log](http://gna.org/news/?group=bless)
-* [Known issues](http://gna.org/bugs/?group=bless)
-* [Source code](http://gna.org/svn/?group=bless)
 * [Source code archive](http://download.gna.org/bless/bless-{{PackageVersion}}.tar.gz) (tar.gz)
 * [Source code repository](http://download.gna.org/bless/bless.dev): `bzr branch http://download.gna.org/bless/bless.dev`
 

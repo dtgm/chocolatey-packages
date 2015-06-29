@@ -18,6 +18,8 @@ OpenStego is a steganography application that provides two functionalities: a) D
 * [Forum](https://sourceforge.net/p/{{PackageName}}/discussion/)
     </description>
     <projectUrl>http://www.openstego.info/</projectUrl>
+    <projectSourceUrl>https://sourceforge.net/p/{{PackageName}}/code/HEAD/tree/java/trunk/</projectSourceUrl>
+    <bugTrackerUrl>https://sourceforge.net/p/{{PackageName}}/bugs/</bugTrackerUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/e4c0e97f296e50ecf0a4da8a730764b609a832a9/icons/{{PackageName}}.svg</iconUrl>
     <tags>steganography security encryption</tags>
     <copyright>© Samir Vaidya</copyright>
@@ -27,8 +29,6 @@ OpenStego is a steganography application that provides two functionalities: a) D
 #### Program
 * [News](https://sourceforge.net/p/{{PackageName}}/news/)
 * [Changelog](http://www.openstego.info/changelog.html)
-* [Known issues](https://sourceforge.net/p/{{PackageName}}/bugs/)
-* [Source code](https://sourceforge.net/p/{{PackageName}}/code/HEAD/tree/java/trunk/)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

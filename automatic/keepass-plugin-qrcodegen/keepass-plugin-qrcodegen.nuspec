@@ -11,6 +11,7 @@
 Plugin for KeePass 2.x that can display passwords as QR codes.
     </description>
     <projectUrl>http://keepass.info/plugins.html#qrcodegen</projectUrl>
+    <projectSourceUrl>http://keepass.info/extensions/v2/qrcodegen/QrCodeGenerator-{{PackageVersion}}-Source.rar</projectSourceUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/c31b45635c8179832ee9bfbd2766da250a934d4d/icons/{{PackageName}}.png</iconUrl>
     <tags>keepass plugin qr</tags>
     <copyright>© 2011 Oliver Salzburg</copyright>
@@ -18,7 +19,6 @@ Plugin for KeePass 2.x that can display passwords as QR codes.
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
 #### Program
-* [Source code](http://keepass.info/extensions/v2/qrcodegen/QrCodeGenerator-{{PackageVersion}}-Source.rar)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

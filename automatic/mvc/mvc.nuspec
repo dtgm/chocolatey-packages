@@ -14,6 +14,8 @@ A super simple way to convert almost any video to MP4, WebM (vp8), Ogg Theora, o
     </description>
     <language>en-us</language>
     <projectUrl>http://www.mirovideoconverter.com/</projectUrl>
+    <projectSourceUrl>https://github.com/pculture/mirovideoconverter3</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/pculture/mirovideoconverter3/issues</bugTrackerUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/7a6fe096f123964e823e6376af3dec8169ecd331/icons/{{PackageName}}.png</iconUrl>
     <licenseUrl>http://www.gnu.org/licenses/gpl-3.0.html</licenseUrl>
     <copyright>© Participatory Culture Foundation</copyright>	
@@ -21,8 +23,6 @@ A super simple way to convert almost any video to MP4, WebM (vp8), Ogg Theora, o
     <tags>svg optimization gui cli</tags>
     <releaseNotes>
 #### Program
-* [Known issues](https://github.com/pculture/mirovideoconverter3/issues)
-* [Source code](https://github.com/pculture/mirovideoconverter3)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

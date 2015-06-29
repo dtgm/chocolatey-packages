@@ -14,9 +14,9 @@ It works with ANSI, UTF-8 and even UTF-16 (on Windows mostly referred to as Unic
 
 The conversion is done so that the alignment always stays the same - the conversion does not simply replace the characters, but uses an algorithm to find out how the replacement has to be done.
 
-[Source code](https://code.google.com/p/stexbar/source/browse/#svn%2Ftrunk%2FMisc%2Ftabspace)
     </description>
     <projectUrl>http://stefanstools.sourceforge.net/tabspace.html</projectUrl>
+    <projectSourceUrl>https://code.google.com/p/stexbar/source/browse/#svn%2Ftrunk%2FMisc%2Ftabspace</projectSourceUrl>
     <tags>cli file editing</tags>
     <copyright>© Stefan Kueng</copyright>
     <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>

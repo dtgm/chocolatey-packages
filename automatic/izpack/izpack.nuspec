@@ -12,12 +12,14 @@ IzPack is a widely used tool for packaging applications on the Java platform as 
 
 Easily make installers that work seamlessly on Microsoft Windows™, Linux™, Solaris™ and Mac OS X™. 
 
-#### [Documentation](http://docs.codehaus.org/display/IZPACK/)
 * [FAQ](http://docs.codehaus.org/display/IZPACK/FAQ+-+Frequently+asked+questions)
 * [User](http://docs.codehaus.org/display/IZPACK/User+documentation)
 * [Developer](http://izpack.org/developers/)
     </description>
     <projectUrl>http://izpack.org/</projectUrl>
+    <projectSourceUrl>https://github.com/izpack/izpack</projectSourceUrl>
+    <bugTrackerUrl>http://jira.codehaus.org/browse/IZPACK#selectedTab=com.atlassian.jira.plugin.system.project%3Aissues-panel</bugTrackerUrl>
+    <docsUrl>http://docs.codehaus.org/display/IZPACK/</docsUrl>
     <tags>java installer build developer programming</tags>
     <copyright>© 2001 Julien Ponge, 2004 Codehaus</copyright>
     <licenseUrl>https://github.com/izpack/izpack/blob/master/LICENSE</licenseUrl>
@@ -28,8 +30,6 @@ Easily make installers that work seamlessly on Microsoft Windows™, Linux™, S
 * [News](http://news.izpack.org/)
 * [Changelog](http://jira.codehaus.org/browse/IZPACK#selectedTab=com.atlassian.jira.plugin.system.project%3Achangelog-panel)
 * [Roadmap](http://jira.codehaus.org/browse/IZPACK#selectedTab=com.atlassian.jira.plugin.system.project%3Aroadmap-panel)
-* [Known issues](http://jira.codehaus.org/browse/IZPACK#selectedTab=com.atlassian.jira.plugin.system.project%3Aissues-panel)
-* [Source code](https://github.com/izpack/izpack)
 
 #### Package
 * Automatically generated and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

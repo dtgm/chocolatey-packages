@@ -27,9 +27,11 @@ Please note that ClamWin Free Antivirus does not include an on-access, real-time
 
 #### Community
 * [Forum](http://forums.clamwin.com/)
-* [Mailing list](https://sourceforge.net/p/clamwin/mailman/)
     </description>
     <projectUrl>http://www.clamwin.com/</projectUrl>
+    <projectSourceUrl>https://sourceforge.net/p/clamwin/code/ci/master/tree/</projectSourceUrl>
+    <bugTrackerUrl>https://sourceforge.net/p/clamwin/bugs/</bugTrackerUrl>
+    <mailingListUrl>https://sourceforge.net/p/clamwin/mailman/</mailingListUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/82dd10296475d3db371d5e8a86bfd768f2d093bb/icons/{{PackageName}}.png</iconUrl>
     <tags>notsilent antivirus virus-scanner security</tags>
     <copyright>ClamWin Pty Ltd</copyright>
@@ -39,8 +41,6 @@ Please note that ClamWin Free Antivirus does not include an on-access, real-time
 #### Program
 * [News](http://www.clamwin.com/content/blogcategory/20/100/)
 * [Changelog](https://sourceforge.net/p/clamwin/code/ci/master/tree/ChangeLog)
-* [Known issues](https://sourceforge.net/p/clamwin/bugs/)
-* [Source code](https://sourceforge.net/p/clamwin/code/ci/master/tree/)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

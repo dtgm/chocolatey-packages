@@ -22,6 +22,7 @@ EventGhost is an advanced, easy to use and extensible automation tool. It can us
 * [Forum](http://www.eventghost.org/forum/)
     </description>
     <projectUrl>http://www.eventghost.org/</projectUrl>
+    <projectSourceUrl>http://www.eventghost.org/downloads/</projectSourceUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/c7317174d0ca6b8f220fc6e72971f002f88844bb/icons/{{PackageName}}.png</iconUrl>
     <tags>automation x10 remote-control macro</tags>
     <copyright>© 2009 EventGhost Project</copyright>
@@ -30,7 +31,6 @@ EventGhost is an advanced, easy to use and extensible automation tool. It can us
     <releaseNotes>
 #### Program
 * [Changelog](http://www.eventghost.org/docs/changelog.html)
-* [Source code](http://www.eventghost.org/downloads/)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

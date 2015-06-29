@@ -26,11 +26,13 @@ Calibrate and characterize your display devices using one of the many supported 
 
 #### Community
 * [Forum](http://sourceforge.net/p/dispcalgui/discussion/932493/)
-* [Mail list](https://lists.sourceforge.net/lists/listinfo/dispcalgui-users)
 
 #### [System requirements](http://dispcalgui.hoech.net/#requirements)
     </description>
     <projectUrl>http://dispcalgui.hoech.net/</projectUrl>
+    <projectSourceUrl>https://sourceforge.net/p/dispcalgui/code/</projectSourceUrl>
+    <bugTrackerUrl>http://dispcalgui.hoech.net/#issues</bugTrackerUrl>
+    <mailingListUrl>https://lists.sourceforge.net/lists/listinfo/dispcalgui-users</mailingListUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/4f3a35e135d040f084d6e748e299201a3737b142/icons/{{PackageName}}.png</iconUrl>
     <tags>graphics calibration</tags>
     <copyright>© 2008 Florian Hoech</copyright>
@@ -41,8 +43,6 @@ Calibrate and characterize your display devices using one of the many supported 
 * [News](https://sourceforge.net/p/dispcalgui/news/)
 * [Roadmap](http://dispcalgui.hoech.net/#todo)
 * [Changelog](http://dispcalgui.hoech.net/#changelog)
-* [Known issues](http://dispcalgui.hoech.net/#issues)
-* [Source code](https://sourceforge.net/p/dispcalgui/code/)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

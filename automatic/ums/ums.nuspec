@@ -24,6 +24,8 @@ UMS is a fork of [PS3 Media Server](https://chocolatey.org/packages/ps3mediaserv
 * [Forum](http://www.universalmediaserver.com/forum/)
     </description>
     <projectUrl>http://www.universalmediaserver.com/</projectUrl>
+    <projectSourceUrl>https://github.com/UniversalMediaServer/UniversalMediaServer/</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/UniversalMediaServer/UniversalMediaServer/issues</bugTrackerUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/3d3e31a2eabede197532058b97ab0eb5d1ce8a4c/icons/{{PackageName}}.png</iconUrl>
     <tags>dlna-server media-center</tags>
     <copyright>© Universal Media Server</copyright>
@@ -34,8 +36,6 @@ UMS is a fork of [PS3 Media Server](https://chocolatey.org/packages/ps3mediaserv
 * [News](http://www.universalmediaserver.com/news/)
 * [Release log](http://sourceforge.net/projects/unimediaserver/files/Official%20Releases/Windows/)
 * [Changelog](https://github.com/UniversalMediaServer/UniversalMediaServer/blob/master/CHANGELOG.txt)
-* [Known issues](https://github.com/UniversalMediaServer/UniversalMediaServer/issues)
-* [Source code](https://github.com/UniversalMediaServer/UniversalMediaServer/)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

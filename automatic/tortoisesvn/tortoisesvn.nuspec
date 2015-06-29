@@ -12,13 +12,13 @@ TortoiseSVN is a really easy to use Revision control / version control / source 
 
 TortoiseSVN is implemented as a Windows shell extension. It's intuitive and easy to use, since it doesn't require the Subversion command line client to run and provides revision information graphically with overlay icons. TortoiseSVN is free to use, even in a commercial environment.
 
-[Documentation](http://tortoisesvn.net/support.html)
 [Frequently Asked Questions (FAQ)](http://tortoisesvn.net/faq.html)
 [Screenshots](http://tortoisesvn.net/screenshots.html)
-[Source code](https://code.google.com/p/tortoisesvn/source/checkout)
     </description>
     <tags>svn subversion scm revision-control</tags>
     <projectUrl>http://tortoisesvn.net/</projectUrl>
+    <projectSourceUrl>https://code.google.com/p/tortoisesvn/source/checkout</projectSourceUrl>
+    <docsUrl>http://tortoisesvn.net/support.html</docsUrl>
     <copyright>© 2004 TortoiseSVN Team</copyright>
     <licenseUrl>https://code.google.com/p/tortoisesvn/source/browse/trunk/src/gpl.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

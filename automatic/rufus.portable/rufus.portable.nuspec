@@ -23,10 +23,10 @@ Oh, and Rufus is fast. For instance it's about twice as fast as UNetbootin, Univ
 
 [FAQ](https://github.com/pbatard/rufus/wiki/FAQ)
 [Supported ISOs](http://rufus.akeo.ie/#ref2)
-[Source code](https://github.com/pbatard/rufus/)
     </description>
     <releaseNotes>https://github.com/pbatard/rufus/blob/master/ChangeLog.txt</releaseNotes>
     <projectUrl>http://rufus.akeo.ie/</projectUrl>
+    <projectSourceUrl>https://github.com/pbatard/rufus/</projectSourceUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/b3aba1acb55094c68db73f87e4db4d72df664794/icons/rufus.png</iconUrl>
     <licenseUrl>http://www.gnu.org/licenses/gpl-3.0.html</licenseUrl>
     <copyright>Akeo Consulting</copyright>

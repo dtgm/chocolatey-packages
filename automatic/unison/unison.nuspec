@@ -20,11 +20,11 @@ Unison shares a number of features with tools such as configuration management p
 * Unison has a clear and precise specification.
 * Unison is free; full source code is available under the GNU Public License.
 
-[Documentation](http://www.cis.upenn.edu/~bcpierce/unison/docs.html)
 [FAQ](https://alliance.seas.upenn.edu/~bcpierce/wiki/index.php)
-[Source code](http://www.seas.upenn.edu/~bcpierce/unison//svn-instructions.html)
     </description>
     <projectUrl>http://www.cis.upenn.edu/~bcpierce/unison/</projectUrl>
+    <projectSourceUrl>http://www.seas.upenn.edu/~bcpierce/unison//svn-instructions.html</projectSourceUrl>
+    <docsUrl>http://www.cis.upenn.edu/~bcpierce/unison/docs.html</docsUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2ce2d40089b0a2bc24fcecd137584328feeb9fd2/icons/{{PackageName}}.svg</iconUrl>
     <tags>backup sync gtk</tags>
     <copyright>© 1998 Benjamin C. Pierce, 2014 Alan Schmitt</copyright>

@@ -21,13 +21,13 @@ database via command line argument options -keyfile: during a user's Windows ses
 any time by e.g. using a batch file.
     </description>
     <projectUrl>http://keepass.info/plugins.html#winkee</projectUrl>
+    <projectSourceUrl>http://keepass.info/extensions/v2/winkee/WinKee-{{PackageVersion}}-Source.zip</projectSourceUrl>
     <tags>keepass plugin security automate</tags>
     <copyright>© 2009 Theo Beisch</copyright>
     <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
 #### Program
-* [Source code](http://keepass.info/extensions/v2/winkee/WinKee-{{PackageVersion}}-Source.zip)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

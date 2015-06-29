@@ -16,14 +16,14 @@ Gost is a KeePass 2.x plugin to allow encrypting databases using the [GOST 28147
 * This implementation uses Cipher Feedback (CFB) mode
     </description>
     <projectUrl>https://github.com/yaruson/GostPlugin</projectUrl>
+    <projectSourceUrl>https://github.com/yaruson/GostPlugin</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/yaruson/GostPlugin/issues</bugTrackerUrl>
     <tags>keepass plugin encryption cipher gost</tags>
     <copyright>© 2015 Nikolay Kim</copyright>
     <licenseUrl>https://github.com/yaruson/GostPlugin/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
 #### Program
-* [Known issues](https://github.com/yaruson/GostPlugin/issues)
-* [Source code](https://github.com/yaruson/GostPlugin)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

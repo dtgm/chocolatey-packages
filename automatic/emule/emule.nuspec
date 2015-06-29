@@ -14,10 +14,10 @@ eMule is coded in C++ using the Microsoft Foundation Classes. Since July 2002 eM
 
 [Screenshots](http://www.emule-project.net/home/perl/general.cgi?rm=screenshots)
 [Forum](http://forum.emule-project.net/)
-[Documentation](http://www.emule-project.net/home/perl/help.cgi)
-[Source code](https://sourceforge.net/p/emule/code/ci/default/tree/)
     </description>
     <projectUrl>http://www.emule-project.net/</projectUrl>
+    <projectSourceUrl>https://sourceforge.net/p/emule/code/ci/default/tree/</projectSourceUrl>
+    <docsUrl>http://www.emule-project.net/home/perl/help.cgi</docsUrl>
     <tags>file-sharing peer-to-peer edonkey kad</tags>
     <copyright>© 2002 Merkur</copyright>
     <licenseUrl>https://gnu.org/licenses/gpl.html</licenseUrl>

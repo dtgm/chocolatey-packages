@@ -13,6 +13,7 @@ This tool converts a CodeWallet 6 TXT file to a CSV file that can be imported in
 KeePass 2.x already includes an importer for CodeWallet 6 files. However, the Konverter additionally supports groups and field associations.
     </description>
     <projectUrl>http://keepass.info/plugins.html#cw6tocsv</projectUrl>
+    <projectSourceUrl>http://keepass.info/extensions/v2/cw6import/CW6Konverter-2.1-Source.zip</projectSourceUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages//icons/{{PackageName}}.png</iconUrl>
     <tags>keepass plugin import codewallet csv</tags>
     <copyright>© Mario Linhart, Ria von der Wartburg</copyright>
@@ -20,7 +21,6 @@ KeePass 2.x already includes an importer for CodeWallet 6 files. However, the Ko
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
 #### Program
-* [Source code](http://keepass.info/extensions/v2/cw6import/CW6Konverter-2.1-Source.zip)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

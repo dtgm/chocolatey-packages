@@ -21,6 +21,8 @@ ImageGlass is a simple picture viewer with which you will be able to display you
     </description>
     <language>en-us</language>
     <projectUrl>http://www.imageglass.org/</projectUrl>
+    <projectSourceUrl>https://github.com/d2phap/ImageGlass</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/d2phap/ImageGlass/issues</bugTrackerUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/f6a5da28b33459f0e68615f66a354683e47e81df/icons/{{PackageName}}.png</iconUrl>
     <licenseUrl>http://www.gnu.org/copyleft/gpl.html</licenseUrl>
     <copyright>© 2010 Dương Diệu Pháp</copyright>	
@@ -30,8 +32,6 @@ ImageGlass is a simple picture viewer with which you will be able to display you
 #### Program
 * [Release log](http://www.imageglass.org/download/release)
 * [Release notes](https://github.com/d2phap/ImageGlass/releases/tag/2.0.1.5)
-* [Known issues](https://github.com/d2phap/ImageGlass/issues)
-* [Source code](https://github.com/d2phap/ImageGlass)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

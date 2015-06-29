@@ -19,10 +19,10 @@ including Python, PHP, Go, Ruby, Perl, Tcl, NodeJS, HTML, CSS and JavaScript.
 * Kopy.io Integration
 * Minimap
 
-[Documentation](http://docs.activestate.com/komodo)
-[Source code](https://github.com/Komodo/KomodoEdit)
     </description>
     <projectUrl>http://komodoide.com/komodo-edit/</projectUrl>
+    <projectSourceUrl>https://github.com/Komodo/KomodoEdit</projectSourceUrl>
+    <docsUrl>http://docs.activestate.com/komodo</docsUrl>
     <tags>ide text editor</tags>
     <copyright>© ActiveState Software Inc</copyright>
     <licenseUrl>http://www.activestate.com/komodo-edit/license-agreement</licenseUrl>

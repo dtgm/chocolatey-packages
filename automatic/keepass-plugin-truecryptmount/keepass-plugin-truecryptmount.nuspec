@@ -17,6 +17,8 @@ It can automatically select the container, drive letter and even use KeePass' au
 * [API Reference](https://bitbucket.org/schalpat/keepasstruecryptmount/wiki/API%20Reference)
     </description>
     <projectUrl>https://bitbucket.org/schalpat/keepasstruecryptmount/wiki/Home</projectUrl>
+    <projectSourceUrl>https://bitbucket.org/schalpat/keepasstruecryptmount/src</projectSourceUrl>
+    <bugTrackerUrl>https://bitbucket.org/schalpat/keepasstruecryptmount/issues</bugTrackerUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/97bb31b0ee0d2084e82aacc72762709a872fea0d/icons/{{PackageName}}.png</iconUrl>
     <tags>keepass plugin truecrypt mount</tags>
     <copyright>© 2010 Patrick Schaller</copyright>
@@ -25,8 +27,6 @@ It can automatically select the container, drive letter and even use KeePass' au
     <releaseNotes>
 #### Program
 * [Changelog](https://bitbucket.org/devinmartin/keeotp/wiki/ReleaseNotes)
-* [Known issues](https://bitbucket.org/schalpat/keepasstruecryptmount/issues)
-* [Source code](https://bitbucket.org/schalpat/keepasstruecryptmount/src)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

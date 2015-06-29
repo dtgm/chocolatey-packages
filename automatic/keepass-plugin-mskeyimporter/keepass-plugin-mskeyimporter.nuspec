@@ -17,14 +17,14 @@ MicrosoftKeyImporter is a KeePass 2.x plugin for importing XML key files from MS
 * [FAQ](https://github.com/svickn/MicrosoftKeyImporterPlugin#faq)
     </description>
     <projectUrl>https://github.com/svickn/MicrosoftKeyImporterPlugin</projectUrl>
+    <projectSourceUrl>https://github.com/svickn/MicrosoftKeyImporterPlugin</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/svickn/MicrosoftKeyImporterPlugin/issues</bugTrackerUrl>
     <tags>keepass plugin import msdn key xml</tags>
     <copyright>© 2012 Stacy Vicknair</copyright>
     <licenseUrl>https://github.com/svickn/MicrosoftKeyImporterPlugin/blob/master/LICENSE.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
 #### Program
-* [Known issues](https://github.com/svickn/MicrosoftKeyImporterPlugin/issues)
-* [Source code](https://github.com/svickn/MicrosoftKeyImporterPlugin)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

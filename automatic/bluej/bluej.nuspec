@@ -23,6 +23,8 @@ It was developed to support the learning and teaching of object-oriented program
 * [Forum](http://blueroom.bluej.org/)
     </description>
     <projectUrl>http://www.bluej.org/</projectUrl>
+    <projectSourceUrl>http://www.bluej.org/versions.html</projectSourceUrl>
+    <bugTrackerUrl>http://bugs.bluej.org/bluej</bugTrackerUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/658bb3ac1353ce9c7f245eb81f60a5bce5471272/icons/{{PackageName}}.png</iconUrl>
     <tags>programming ide java educational</tags>
     <copyright>© BlueJ team</copyright>
@@ -32,8 +34,6 @@ It was developed to support the learning and teaching of object-oriented program
 #### Program
 * [Roadmap](http://bugs.bluej.org/bluej/roadmap)
 * [Changelog](http://www.bluej.org/versions.html)
-* [Known issues](http://bugs.bluej.org/bluej)
-* [Source code](http://www.bluej.org/versions.html)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

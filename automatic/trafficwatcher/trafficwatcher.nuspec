@@ -12,9 +12,9 @@ trafficWatcher is a small tool to monitor your network activity.
 
 Unlike other tools, trafficWatcher can differentiate between traffic inside your LAN and the traffic that reaches the internet. It shows the current up and download speed in a small icon in the system tray.  More detailed traffic information can be shown in the dialog.  The options page allows to set the network card to use and the max speed you expect.
 
-[Source code](https://sourceforge.net/p/trafficwatcher/code/HEAD/tree/trunk/)
     </description>
     <projectUrl>http://stefanstools.sourceforge.net/trafficWatcher.html</projectUrl>
+    <projectSourceUrl>https://sourceforge.net/p/trafficwatcher/code/HEAD/tree/trunk/</projectSourceUrl>
     <tags>network bandwidth monitor</tags>
     <copyright>© Stefan Kueng</copyright>
     <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>

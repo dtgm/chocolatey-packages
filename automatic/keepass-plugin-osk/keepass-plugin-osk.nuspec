@@ -13,13 +13,13 @@ When opening a database, this plugin automatically shows an on-screen keyboard f
 This plugin runs on Windows 2000 and higher. Unix-like systems are not supported.
     </description>
     <projectUrl>http://keepass.info/plugins.html#osk2</projectUrl>
+    <projectSourceUrl>http://keepass.info/extensions/v2/osk/OnScreenKeyboard2-{{PackageVersion}}-Source.zip</projectSourceUrl>
     <tags>keepass plugin security input</tags>
     <copyright>© 2011 Dominik Reichl</copyright>
     <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
 #### Program
-* [Source code](http://keepass.info/extensions/v2/osk/OnScreenKeyboard2-{{PackageVersion}}-Source.zip)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

@@ -17,15 +17,15 @@ The hybrid mode provides all the advantages of lossless compression with an addi
 WavPack employs only well known, public domain techniques (i.e., linear prediction with LMS adaptation, Elias and Golomb codes) in its implementation. Methods and algorithms that have ever been patented (e.g., arithmetic coding, LZW compression) are specifically avoided. This ensures that WavPack encoders and decoders will remain open and royalty-free.
 
 [Manual](http://www.wavpack.com/wavpack_doc.html)
-[Documentation](http://www.wavpack.com/downloads.html#documentation)
 [Forum](http://www.hydrogenaud.io/forums/index.php?showforum=68)
 
 [Software support](http://www.wavpack.com/index.html#Software)
 [Hardware support](http://www.wavpack.com/index.html#Hardware)
 
-[Source code](http://www.wavpack.com/downloads.html#sources)
     </description>
     <projectUrl>http://www.wavpack.com/</projectUrl>
+    <projectSourceUrl>http://www.wavpack.com/downloads.html#sources</projectSourceUrl>
+    <docsUrl>http://www.wavpack.com/downloads.html#documentation</docsUrl>
     <tags>cli audio compression archive</tags>
     <copyright>© WavPack</copyright>
     <licenseUrl>http://www.opus-codec.org/license/</licenseUrl>

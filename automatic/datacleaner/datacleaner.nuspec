@@ -15,10 +15,12 @@ Profiling is an essential activity of any Data Quality, Master Data Management o
 [Screenshots](http://datacleaner.org/screenshots)
 [FAQ](http://datacleaner.org/faq)
 [Forum](http://datacleaner.org/forum)
-[Documentation](http://datacleaner.org/docs)
 [Development](http://datacleaner.org/develop)
     </description>
     <projectUrl>https://sourceforge.net/projects/datacleaner/</projectUrl>
+    <projectSourceUrl>https://github.com/datacleaner/DataCleaner</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/datacleaner/DataCleaner/issues</bugTrackerUrl>
+    <docsUrl>http://datacleaner.org/docs</docsUrl>
     <tags>data profiling management datastore</tags>
     <copyright>© Neopost</copyright>
     <licenseUrl>https://github.com/datacleaner/DataCleaner/blob/master/COPYING.txt</licenseUrl>
@@ -28,8 +30,6 @@ Profiling is an essential activity of any Data Quality, Master Data Management o
 ### Program
 
 [News](http://datacleaner.org/news)
-[Known issues](https://github.com/datacleaner/DataCleaner/issues)
-[Source code](https://github.com/datacleaner/DataCleaner)
 
 ### Package
 

@@ -13,9 +13,9 @@ Belvedere sets up rules for taking actions on files (move, copy, delete, etc) ba
 Belvedere is a Windows knock-off of the Mac-only Hazel, and Gina has already guided you through setting up a self-cleaning Mac with Hazel, so for a few good ideas for how you might get started with Belvedere, check out her guide. Belvedere's not quite up to par with Hazel yet, but in time I'm hoping to implement as many of Hazel's features as I can for Windows users.
 
 [How-to Guide](http://lifehacker.com/5510961/how-to-automatically-clean-and-organize-your-desktop-downloads-and-other-folders)
-[Source code](https://github.com/mshorts/belvedere)
     </description>
     <projectUrl>http://lifehacker.com/341950/belvedere-automates-your-self+cleaning-pc</projectUrl>
+    <projectSourceUrl>https://github.com/mshorts/belvedere</projectSourceUrl>
     <tags>automation file-management organizer clean move sort</tags>
     <copyright>© Adam Pash, Matt Shorts</copyright>
     <licenseUrl>https://github.com/mshorts/belvedere/blob/master/LICENSE.txt</licenseUrl>

@@ -18,9 +18,9 @@ There are a few window messages predefined in SendMessage. If you need to send a
 
 Once you've entered the message information, click on either the "SendMessage" or "PostMessage" button and the message is sent or posted to your window.
 
-[Source code](https://sourceforge.net/p/sendmessage/code/HEAD/tree/)
     </description>
     <projectUrl>http://stefanstools.sourceforge.net/SendMessage.html</projectUrl>
+    <projectSourceUrl>https://sourceforge.net/p/sendmessage/code/HEAD/tree/</projectSourceUrl>
     <tags>testing debug</tags>
     <copyright>© Stefan Kueng</copyright>
     <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>

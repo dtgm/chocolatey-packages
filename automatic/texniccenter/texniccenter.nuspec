@@ -13,10 +13,10 @@ TeXnicCenter is what we call an integrated documentation environment (IDE) for L
 TeXnicCenter's innovative user interface, its powerful features, its large community (more than 1,000,000 users all over the world) and the fact that it is Free Open Source Software (GPL) makes it the first choice for LaTeX authors working on the Windows platform.
 
 [User support](http://www.texniccenter.org/support/)
-[Documentation](http://texniccenter.sourceforge.net/)
-[Source code](https://sourceforge.net/p/texniccenter/code/ci/default/tree/)
     </description>
     <projectUrl>http://www.texniccenter.org/</projectUrl>
+    <projectSourceUrl>https://sourceforge.net/p/texniccenter/code/ci/default/tree/</projectSourceUrl>
+    <docsUrl>http://texniccenter.sourceforge.net/</docsUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/368ad81c24d3601b6f771eb5d90b672bfe842fdd/icons/{{packageName}}.ico</iconUrl>
     <tags>documentation editor latex ide scintilla</tags>
     <copyright>© 1999 The TeXnicCenter Team</copyright>

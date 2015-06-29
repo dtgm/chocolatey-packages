@@ -21,11 +21,13 @@ By running this program you contribute to the security of the overall Freenet ne
 
 #### Documentation
 * [FAQ](https://freenetproject.org/faq.html)
-* [Documentation](https://freenetproject.org/documentation.html)
 * [Wiki](https://wiki.freenetproject.org/Main_Page)
 * [Freenet social networking guide](http://freesocial.draketo.de/)
     </description>
     <projectUrl>https://freenetproject.org/</projectUrl>
+    <projectSourceUrl>https://github.com/freenet/fred</projectSourceUrl>
+    <bugTrackerUrl>https://bugs.freenetproject.org/view_all_bug_page.php?filter=48936</bugTrackerUrl>
+    <docsUrl>https://freenetproject.org/documentation.html</docsUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/78be841b359bc919b340717b4b3901d33805e4a9/icons/{{PackageName}}.png</iconUrl>
     <tags>p2p anonymity decentralized freedom-of-speech</tags>
     <copyright>© 1999 Ian Clarke, Freenet Project</copyright>
@@ -36,8 +38,6 @@ By running this program you contribute to the security of the overall Freenet ne
 * [Release log](https://github.com/freenet/fred/releases)
 * [Roadmap](https://bugs.freenetproject.org/roadmap_page.php?project_id=1)
 * [Changelog](https://bugs.freenetproject.org/changelog_page.php?project_id=1)
-* [Known issues](https://bugs.freenetproject.org/view_all_bug_page.php?filter=48936)
-* [Source code](https://github.com/freenet/fred)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

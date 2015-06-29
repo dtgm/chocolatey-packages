@@ -21,6 +21,8 @@ Important! The internal image viewer in SVG Cleaner uses the QtSvg module for re
     </description>
     <language>en-us</language>
     <projectUrl>http://sourceforge.net/projects/svgcleaner/</projectUrl>
+    <projectSourceUrl>https://github.com/RazrFalcon/SVGCleaner</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/RazrFalcon/SVGCleaner/issues</bugTrackerUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/74919c34f7d92bd9fb8dec0740e362169880fbce/icons/{{PackageName}}.png</iconUrl>
     <licenseUrl>http://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
     <copyright>© 2013 Reizner Evgeniy</copyright>	
@@ -29,8 +31,6 @@ Important! The internal image viewer in SVG Cleaner uses the QtSvg module for re
     <releaseNotes>
 #### Program
 * [Changelog](https://github.com/RazrFalcon/SVGCleaner/blob/master/debian/changelog)
-* [Known issues](https://github.com/RazrFalcon/SVGCleaner/issues)
-* [Source code](https://github.com/RazrFalcon/SVGCleaner)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

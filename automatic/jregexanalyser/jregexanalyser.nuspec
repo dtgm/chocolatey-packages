@@ -25,9 +25,10 @@ jRegExAnalyser uses the original regular expression classes from the Open JDK ki
 * deployment as conventional application or via Java Web Start
 
 [Screenshots](http://jregexanalyser.schwebke.com/jregexanalyser/webdoc/images/screenshot.png)
-[Documentation](http://jregexanalyser.schwebke.com/jregexanalyser/webdoc/)
     </description>
     <projectUrl>http://jregexanalyser.schwebke.com/</projectUrl>
+    <projectSourceUrl>http://jregexanalyser.schwebke.com</projectSourceUrl>
+    <docsUrl>http://jregexanalyser.schwebke.com/jregexanalyser/webdoc/</docsUrl>
     <tags>regex java</tags>
     <copyright>© 2011 Kai G. Schwebke</copyright>
     <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
@@ -36,7 +37,6 @@ jRegExAnalyser uses the original regular expression classes from the Open JDK ki
     <releaseNotes>
 #### Program
 * [Changelog](http://jregexanalyser.schwebke.com/jregexanalyser/webdoc/changes.html)
-* [Source code](http://jregexanalyser.schwebke.com)
 
 #### Package
 * Automatically generated and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

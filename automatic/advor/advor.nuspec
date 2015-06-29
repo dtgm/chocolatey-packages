@@ -14,6 +14,8 @@ Advanced Onion Router is a portable client for the OR network and is intended to
 * [Forum](https://sourceforge.net/p/advtor/discussion/)
     </description>
     <projectUrl>https://sourceforge.net/projects/advtor/</projectUrl>
+    <projectSourceUrl>http://sourceforge.net/projects/advtor/files/AdvOR-{{PackageVersion}}/AdvOR-{{PackageVersion}}src.zip/download</projectSourceUrl>
+    <bugTrackerUrl>https://sourceforge.net/p/advtor/discussion/2254385/</bugTrackerUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/514cef6dad3feb56867500770c5c1559bfe3883f/icons/{{PackageName}}.png</iconUrl>
     <tags>tor onion</tags>
     <copyright>© Vektor</copyright>
@@ -21,8 +23,6 @@ Advanced Onion Router is a portable client for the OR network and is intended to
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
 #### Program
-* [Known issues](https://sourceforge.net/p/advtor/discussion/2254385/)
-* [Source code](http://sourceforge.net/projects/advtor/files/AdvOR-{{PackageVersion}}/AdvOR-{{PackageVersion}}src.zip/download)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

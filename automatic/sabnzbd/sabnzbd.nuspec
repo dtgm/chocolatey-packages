@@ -26,6 +26,8 @@ This installer properly sets up a system service to keep SABnzbd always running 
 * [Forum](http://forums.sabnzbd.org/)
     </description>
     <projectUrl>http://sabnzbd.org/</projectUrl>
+    <projectSourceUrl>https://github.com/sabnzbd/sabnzbd</projectSourceUrl>
+    <bugTrackerUrl>http://wiki.sabnzbd.org/known-issues</bugTrackerUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/6c75bf28ba60396d606edc5d12833159e996b3a9/icons/sabnzbd.png</iconUrl>
     <tags>usenet binary newsreader downloader</tags>
     <copyright>© 2007 The SABnzbd-team</copyright>
@@ -36,8 +38,6 @@ This installer properly sets up a system service to keep SABnzbd always running 
 * [News](http://sabnzbd.org/blog/)
 * [Roadmap](http://wiki.sabnzbd.org/roadmap)
 * [Changelog](https://github.com/sabnzbd/sabnzbd/blob/develop/CHANGELOG.txt)
-* [Known issues](http://wiki.sabnzbd.org/known-issues)
-* [Source code](https://github.com/sabnzbd/sabnzbd)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

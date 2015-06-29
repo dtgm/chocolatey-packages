@@ -28,9 +28,11 @@ KiCad includes a project manager and four main independent software tools:
 * [Developer docsumentation](http://www.kicad-pcb.org/display/DEV/KiCad+Development)
 
 #### Community
-* [Mailing list](http://groups.yahoo.com/group/kicad-users/)
     </description>
     <projectUrl>http://www.kicad-pcb.org/</projectUrl>
+    <projectSourceUrl>https://code.launchpad.net/kicad</projectSourceUrl>
+    <bugTrackerUrl>https://bugs.launchpad.net/kicad</bugTrackerUrl>
+    <mailingListUrl>http://groups.yahoo.com/group/kicad-users/</mailingListUrl>
     <tags>modeling cad engineering electronics electronic-design-automation schematic-capture pcb-layout</tags>
     <copyright>© 1992 Jean-Pierre Charras</copyright>
     <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
@@ -40,8 +42,6 @@ KiCad includes a project manager and four main independent software tools:
 #### Program
 * [Roadmap](http://bazaar.launchpad.net/~kicad-product-committers/kicad/product/view/head:/TODO.txt)
 * [Changelog](http://bazaar.launchpad.net/~kicad-product-committers/kicad/product/view/head:/CHANGELOG.txt)
-* [Known issues](https://bugs.launchpad.net/kicad)
-* [Source code](https://code.launchpad.net/kicad)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

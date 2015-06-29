@@ -18,10 +18,12 @@ Gtk# is a Graphical User Interface Toolkit for mono and .Net. The project binds 
 
 #### Community
 * [Forum](http://mono.1490590.n4.nabble.com/)
-* [Mailing lists](http://www.mono-project.com/community/help/mailing-lists/)
 * [IRC](http://www.mono-project.com/community/help/irc/)
     </description>
     <projectUrl>http://www.mono-project.com/GtkSharp</projectUrl>
+    <projectSourceUrl>https://github.com/mono</projectSourceUrl>
+    <bugTrackerUrl>http://www.mono-project.com/community/bugs/</bugTrackerUrl>
+    <mailingListUrl>http://www.mono-project.com/community/help/mailing-lists/</mailingListUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/5a7a14e514904a49a05cae7a57b318895ac73361/icons/{{PackageName}}.png</iconUrl>
     <tags>gui toolkit gnome gtk mono dotnet</tags>
     <copyright>© Mono Project</copyright>
@@ -31,8 +33,6 @@ Gtk# is a Graphical User Interface Toolkit for mono and .Net. The project binds 
 #### Program
 * [Roadmap](http://www.mono-project.com/docs/gui/gtksharp/plan/)
 * [Changelog](http://www.mono-project.com/docs/gui/gtksharp/new-in-version-2x/)
-* [Known issues](http://www.mono-project.com/community/bugs/)
-* [Source code](https://github.com/mono)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

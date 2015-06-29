@@ -15,6 +15,8 @@ It is faster than other apps because it checks for corrupted files and update ha
 [Screenshots](https://github.com/cryptogeek/DataHealthCheck#screenshots)
     </description>
     <projectUrl>https://cryptogeek.ninja/DataHealthCheck</projectUrl>
+    <projectSourceUrl>https://github.com/cryptogeek/DataHealthCheck/</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/cryptogeek/DataHealthCheck/issues/</bugTrackerUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/09316ad79e51dabb6a71adcb83d4a81886ebe2df/icons/{{PackageName}}.png</iconUrl>
     <licenseUrl>https://github.com/cryptogeek/DataHealthCheck</licenseUrl>
     <copyright>© 2014 cryptogeek</copyright>
@@ -23,8 +25,6 @@ It is faster than other apps because it checks for corrupted files and update ha
     <releaseNotes>
 ### Program
 [Changelog](https://cryptogeek.ninja/DataHealthCheck)
-[Known issues](https://github.com/cryptogeek/DataHealthCheck/issues/)
-[Source code](https://github.com/cryptogeek/DataHealthCheck/)
 
 ### Package
 Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

@@ -15,6 +15,7 @@ UltraVNC is an open source application that uses the VNC protocol to control ano
 [Forum](http://forum.ultravnc.info/)
     </description>
     <projectUrl>http://www.uvnc.com/</projectUrl>
+    <projectSourceUrl>https://sourceforge.net/p/ultravnc/code/HEAD/tree/</projectSourceUrl>
     <tags>notsilent vnc client server remote</tags>
     <copyright>© 2008 UltraVNC</copyright>
     <licenseUrl>http://www.uvnc.com/general/license.html</licenseUrl>
@@ -23,7 +24,6 @@ UltraVNC is an open source application that uses the VNC protocol to control ano
     <releaseNotes>
 #### Program
 * [Changelog](http://www.uvnc.com/general/whatsnew.html)
-* [Source code](https://sourceforge.net/p/ultravnc/code/HEAD/tree/)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

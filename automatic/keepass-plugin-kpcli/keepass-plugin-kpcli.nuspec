@@ -11,6 +11,8 @@
 KeePass Command Line Interface (kpcli) provides an interactive shell to work with KeePass 1.x or 2.x database files. This program was inspired by the author's use of the CLI of the Ked Password Manager ("kedpm -c") combined with my need to migrate to KeePass.
     </description>
     <projectUrl>http://kpcli.sourceforge.net/</projectUrl>
+    <projectSourceUrl>http://sourceforge.net/p/traytotp-kp2/code/HEAD/tree/trunk/</projectSourceUrl>
+    <bugTrackerUrl>http://sourceforge.net/p/kpcli/bugs/</bugTrackerUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages//icons/{{PackageName}}.png</iconUrl>
     <tags>keepass plugin cli</tags>
     <copyright>© Lester Hightower</copyright>
@@ -19,8 +21,6 @@ KeePass Command Line Interface (kpcli) provides an interactive shell to work wit
     <releaseNotes>
 #### Program
 * [Changelog](https://sourceforge.net/projects/traytotp-kp2/files/Tray%20TOTP%20v.%20{{PackageVersion}}/)
-* [Known issues](http://sourceforge.net/p/kpcli/bugs/)
-* [Source code](http://sourceforge.net/p/traytotp-kp2/code/HEAD/tree/trunk/)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

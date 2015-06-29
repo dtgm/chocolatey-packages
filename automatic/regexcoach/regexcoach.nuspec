@@ -21,10 +21,11 @@ The Regex Coach is a graphical application for Windows which can be used to expe
 
 The Regex Coach is written in Common Lisp and was developed using the LispWorks development environment. The regex engine used is CL-PPCRE.
 
-[Documentation](http://weitz.de/regex-coach/#howto)
 [Compatibility with Perl](http://weitz.de/cl-ppcre/)
     </description>
     <projectUrl>http://weitz.de/regex-coach/</projectUrl>
+    <bugTrackerUrl>http://weitz.de/regex-coach/#bugs</bugTrackerUrl>
+    <docsUrl>http://weitz.de/regex-coach/#howto</docsUrl>
     <tags>regex ppcre freeware</tags>
     <copyright>© 2003 Dr. Edmund Weitz</copyright>
     <licenseUrl>http://weitz.de/regex-coach/#license</licenseUrl>
@@ -33,7 +34,6 @@ The Regex Coach is written in Common Lisp and was developed using the LispWorks 
     <releaseNotes>
 #### Program
 * [Changelog](http://weitz.de/regex-coach/changelog.txt)
-* [Known issues](http://weitz.de/regex-coach/#bugs)
 
 #### Package
 * Automatically generated and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

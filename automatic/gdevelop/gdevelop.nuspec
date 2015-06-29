@@ -14,9 +14,9 @@ Alternatively, build games online with the GDevelop based web app [GDevApp](http
 
 [Forum](http://forum.compilgames.net/)
 [Wiki](http://wiki.compilgames.net/doku.php)
-[Source code](https://github.com/4ian/GD)
     </description>
     <projectUrl>http://www.compilgames.net/</projectUrl>
+    <projectSourceUrl>https://github.com/4ian/GD</projectSourceUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/1e10706b59b5ad94d558b41eb85aa082eb098191/icons/{{PackageName}}.png</iconUrl>
     <tags>game development ide html5 visual programming</tags>
     <copyright>© 2008 Florian Rival</copyright>

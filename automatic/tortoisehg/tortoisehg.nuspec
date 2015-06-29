@@ -18,10 +18,10 @@ TortoiseHg is primarily written in Python and PyQt (the Windows shell extension 
 [Frequently Asked Questions (FAQ)](http://tortoisehg.readthedocs.org/en/latest/faq.html)
 [Screenshots](http://tortoisehg.bitbucket.org/screenshots.html)
 [Developer documentation](https://bitbucket.org/tortoisehg/thg/wiki/developers/Home)
-[Source code](https://bitbucket.org/tortoisehg/thg/src)
     </description>
     <tags>hg mercurial scm revision-control</tags>
     <projectUrl>http://tortoisehg.bitbucket.org/</projectUrl>
+    <projectSourceUrl>https://bitbucket.org/tortoisehg/thg/src</projectSourceUrl>
     <copyright>© Steve Borho</copyright>
     <licenseUrl>https://bitbucket.org/tortoisehg/thg/src/2874791e505e3a6c7b18b6e2e88074c52f833448/COPYING.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

@@ -19,10 +19,12 @@ After installing, run `BoincMgr.exe` and choose a [BOINC project](http://boinc.b
 
 ### Community
 * [Forum](http://boinc.berkeley.edu/dev/)
-* [Mailing list](http://boinc.berkeley.edu/email_lists.php)
     </description>
     <language>en-us</language>
     <projectUrl>http://boinc.berkeley.edu/</projectUrl>
+    <projectSourceUrl>http://boinc.berkeley.edu/trac/wiki/SourceCodeGit</projectSourceUrl>
+    <bugTrackerUrl>http://boinc.berkeley.edu/wiki/Release_Notes#Known_Issues</bugTrackerUrl>
+    <mailingListUrl>http://boinc.berkeley.edu/email_lists.php</mailingListUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/48cba782eaa66669e6d75f0fd7a550d897127e8a/icons/{{PackageName}}.png</iconUrl>
     <licenseUrl>http://boinc.berkeley.edu/gitweb/?p=boinc-v2.git;a=blob;f=COPYRIGHT;hb=HEAD</licenseUrl>
     <copyright>© University of California</copyright>	
@@ -32,8 +34,6 @@ After installing, run `BoincMgr.exe` and choose a [BOINC project](http://boinc.b
 #### Program
 * [Release notes](http://boinc.berkeley.edu/wiki/Release_Notes)
 * [Version history](http://boinc.berkeley.edu/trac/wiki/VersionHistory)
-* [Known issues](http://boinc.berkeley.edu/wiki/Release_Notes#Known_Issues)
-* [Source code](http://boinc.berkeley.edu/trac/wiki/SourceCodeGit) ([gitweb](http://boinc.berkeley.edu/gitweb/?p=boinc-v2.git;a=tree))
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

@@ -26,7 +26,6 @@ ZBar is licensed under the GNU LGPL 2.1 to enable development of both open sourc
 
 ### Community
 * [Forum](https://sourceforge.net/p/zbar/discussion/)
-* [Mailing list](https://sourceforge.net/p/zbar/mailman/)
 
 ### Command line usage
   `zbarcam --help`
@@ -37,6 +36,9 @@ Example
     </description>
     <language>en-us</language>
     <projectUrl>http://zbar.sourceforge.net/</projectUrl>
+    <projectSourceUrl>https://sourceforge.net/p/zbar/code/ci/default/tree/</projectSourceUrl>
+    <bugTrackerUrl>https://sourceforge.net/p/zbar/bugs/</bugTrackerUrl>
+    <mailingListUrl>https://sourceforge.net/p/zbar/mailman/</mailingListUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/0029921738f17cf51044bfb89e252dcca497ab01/icons/{{PackageName}}.png</iconUrl>
     <licenseUrl>https://sourceforge.net/p/zbar/code/ci/default/tree/LICENSE</licenseUrl>
     <copyright>© 2007 spadix</copyright>	
@@ -46,8 +48,6 @@ Example
 #### Program
 * [News](https://sourceforge.net/p/zbar/news/)
 * [Changelog](https://sourceforge.net/p/zbar/code/ci/default/tree/ChangeLog)
-* [Known issues](https://sourceforge.net/p/zbar/bugs/)
-* [Source code](https://sourceforge.net/p/zbar/code/ci/default/tree/)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

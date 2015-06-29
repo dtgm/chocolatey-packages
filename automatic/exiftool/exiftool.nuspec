@@ -24,7 +24,6 @@ ExifTool is a platform-independent Perl library plus a command-line application 
 #### Community
 * [Forum](http://u88.n24.queensu.ca/exiftool/forum/)
 
-#### [Documentation](http://owl.phy.queensu.ca/~phil/exiftool/#links)
 * [FAQ](http://www.sno.phy.queensu.ca/~phil/exiftool/faq.html)
 * [Common usage mistakes](http://www.sno.phy.queensu.ca/~phil/exiftool/mistakes.html)
 * [Supported exif tag names](http://owl.phy.queensu.ca/~phil/exiftool/TagNames/index.html)
@@ -32,6 +31,9 @@ ExifTool is a platform-independent Perl library plus a command-line application 
 * [Manual](http://owl.phy.queensu.ca/~phil/exiftool/exiftool_pod.html)
     </description>
     <projectUrl>http://owl.phy.queensu.ca/~phil/exiftool/</projectUrl>
+    <projectSourceUrl>https://sourceforge.net/p/exiftool/code/ci/master/tree/</projectSourceUrl>
+    <bugTrackerUrl>http://www.sno.phy.queensu.ca/~phil/exiftool/#problems</bugTrackerUrl>
+    <docsUrl>http://owl.phy.queensu.ca/~phil/exiftool/#links</docsUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/7fb760e425c5cb8d65c51019365fcb9c89091dd8/icons/{{PackageName}}.png</iconUrl>
     <tags>metadata exif cli</tags>
     <copyright>© 2003 Phil Harvey</copyright>
@@ -40,8 +42,6 @@ ExifTool is a platform-independent Perl library plus a command-line application 
     <releaseNotes>
 #### Program
 * [Changelog](https://sourceforge.net/p/exiftool/code/ci/master/tree/Changes)
-* [Known issues](http://www.sno.phy.queensu.ca/~phil/exiftool/#problems)
-* [Source code](https://sourceforge.net/p/exiftool/code/ci/master/tree/)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

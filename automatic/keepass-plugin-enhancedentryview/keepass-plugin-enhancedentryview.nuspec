@@ -13,6 +13,8 @@ Plugin for KeePass 2.x to provide an enhanced entry view.
 [Announcement](https://sourceforge.net/p/keepass/discussion/329220/thread/03a3901b/#1a7f)
     </description>
     <projectUrl>https://sourceforge.net/projects/kpenhentryview/</projectUrl>
+    <projectSourceUrl>https://sourceforge.net/p/kpenhentryview/code</projectSourceUrl>
+    <bugTrackerUrl>https://sourceforge.net/p/kpenhentryview/tickets</bugTrackerUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages//icons/{{PackageName}}.png</iconUrl>
     <tags>keepass plugin customization</tags>
     <copyright>© 2013 Alex Vallat</copyright>
@@ -23,8 +25,6 @@ Plugin for KeePass 2.x to provide an enhanced entry view.
 * [News](https://sourceforge.net/p/kpenhentryview/news)
 * [Forum](https://sourceforge.net/p/kpenhentryview/discussion)
 * [Changelog](https://sourceforge.net/projects/kpenhentryview/files/v{{PackageVersion}})
-* [Known issues](https://sourceforge.net/p/kpenhentryview/tickets)
-* [Source code](https://sourceforge.net/p/kpenhentryview/code)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

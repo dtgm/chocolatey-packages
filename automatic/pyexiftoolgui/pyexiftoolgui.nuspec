@@ -24,6 +24,7 @@ As of version 0.4 pyExifToolGUI tool is also a geotagging tool!
 * [Manual](https://hvdwolf.github.io/pyExifToolGUI/manual/pyexiftoolgui.html)
     </description>
     <projectUrl>https://hvdwolf.github.io/pyExifToolGUI/</projectUrl>
+    <projectSourceUrl>https://github.com/hvdwolf/pyExifToolGUI</projectSourceUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/8b5e307e8a3c6a135f571ccec34a0832f5970736/icons/{{PackageName}}.png</iconUrl>
     <tags>metadata exif frontend</tags>
     <copyright>© H. van der Wolf</copyright>
@@ -33,7 +34,6 @@ As of version 0.4 pyExifToolGUI tool is also a geotagging tool!
 #### Program
 * [Changelog](https://github.com/hvdwolf/pyExifToolGUI/releases)
 * [Development changelog](https://hvdwolf.github.io/pyExifToolGUI/Changelog.txt)
-* [Source code](https://github.com/hvdwolf/pyExifToolGUI)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

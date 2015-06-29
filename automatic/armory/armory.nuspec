@@ -14,9 +14,9 @@ Armory’s focus is on bringing the most advanced functionality to Bitcoin users
 
 Although the Bitcoin network is good at securely transferring money, it is the users' responsibility to protect their own digital wallets, usually stored on their own computer. Never has personal computer security been so important, yet very few applications exist which provide such high levels of security and usability at the same time.
 
-[Source code](https://github.com/etotheipi/BitcoinArmory)
     </description>
     <projectUrl>https://bitcoinarmory.com/</projectUrl>
+    <projectSourceUrl>https://github.com/etotheipi/BitcoinArmory</projectSourceUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/08c52664dc77ed8f8087ea403fa245755212ae6d/icons/{{PackageName}}.png</iconUrl>
     <tags>bitcoin btc wallet cryptocurrency security</tags>
     <copyright>© Armory Technologies, Inc</copyright>

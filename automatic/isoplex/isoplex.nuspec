@@ -19,6 +19,7 @@ A movie searching and streaming application using torrents for distribution.
 * [Twitter](https://twitter.com/IsoplexApp)
     </description>
     <projectUrl>http://isoplex.isohunt.to</projectUrl>
+    <bugTrackerUrl>http://community.isoplex.isohunt.to/c/bug-report</bugTrackerUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/d1e037cc7c943fda29b9067b3b1c3229d99402ff/icons/{{PackageName}}.png</iconUrl>
     <tags>p2p movie-catalog torrent isohunt popcorntime</tags>
     <copyright>© Isoplex</copyright>
@@ -28,7 +29,6 @@ A movie searching and streaming application using torrents for distribution.
 #### Program
 * [News](http://community.isoplex.isohunt.to/c/news-and-announcements)
 * [Roadmap](http://community.isoplex.isohunt.to/c/isoplex-development-plan)
-* [Known issues](http://community.isoplex.isohunt.to/c/bug-report)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

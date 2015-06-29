@@ -27,6 +27,7 @@ Arduino programs are written in C or C++. The Arduino IDE comes with a software 
 * [Facebook](https://www.facebook.com/official.arduino)
     </description>
     <projectUrl>http://arduino.cc/en/Main/Software/</projectUrl>
+    <bugTrackerUrl>https://github.com/arduino/Arduino/issues</bugTrackerUrl>
     <tags>ide programming electronics microcontroller arduino</tags>
     <copyright>© 2005 Arduino</copyright>
     <licenseUrl>https://raw.githubusercontent.com/arduino/Arduino/master/license.txt</licenseUrl>
@@ -36,7 +37,6 @@ Arduino programs are written in C or C++. The Arduino IDE comes with a software 
 #### Program
 * [News](http://blog.arduino.cc/)
 * [Changelog](https://github.com/arduino/Arduino/releases/tag/{{PackageVersion}})
-* [Known issues](https://github.com/arduino/Arduino/issues) ([Alt](https://code.google.com/p/arduino/issues/list))
 * [Developer mailing list](https://groups.google.com/a/arduino.cc/forum/#!forum/developers)
 * [Source code repository](https://github.com/arduino/Arduino)
 

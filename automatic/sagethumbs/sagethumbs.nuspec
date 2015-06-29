@@ -37,6 +37,8 @@ If XnView is not installed, the plugins should be unpacked and placed in the def
 * About 5 Mb of disk space + additional space for cache
     </description>
     <projectUrl>http://www.cherubicsoft.com/en/projects/sagethumbs</projectUrl>
+    <projectSourceUrl>https://sourceforge.net/p/sagethumbs/code/HEAD/tree/</projectSourceUrl>
+    <bugTrackerUrl>https://sourceforge.net/p/sagethumbs/tickets/</bugTrackerUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/6c36a30ca931a11774f57864e9a90fa1717e7a44/icons/{{PackageName}}.png</iconUrl>
     <tags>windows explorer extension images thumbnail gallery</tags>
     <copyright>© 2004 Nikolay Raspopov</copyright>
@@ -45,8 +47,6 @@ If XnView is not installed, the plugins should be unpacked and placed in the def
     <releaseNotes>
 #### Program
 * [Changelog](http://www.cherubicsoft.com/projects/sagethumbs/versions)
-* [Known issues](https://sourceforge.net/p/sagethumbs/tickets/)
-* [Source code](https://sourceforge.net/p/sagethumbs/code/HEAD/tree/)
 
 #### Package
 * Automatically generated and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

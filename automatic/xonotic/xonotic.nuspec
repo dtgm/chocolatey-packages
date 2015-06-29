@@ -26,6 +26,8 @@ Xonotic is an addictive, arena-style first person shooter with crisp movement an
 * Download size: __{{PackageGuid}}__
     </description>
     <projectUrl>http://www.xonotic.org/</projectUrl>
+    <projectSourceUrl>https://gitlab.com/xonotic/xonotic/tree/master</projectSourceUrl>
+    <bugTrackerUrl>https://gitlab.com/groups/xonotic/issues</bugTrackerUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/d1e037cc7c943fda29b9067b3b1c3229d99402ff/icons/{{PackageName}}.png</iconUrl>
     <tags>game first-person-shooter opengl quake</tags>
     <copyright>© Team Xonotic</copyright>
@@ -34,8 +36,6 @@ Xonotic is an addictive, arena-style first person shooter with crisp movement an
     <releaseNotes>
 #### Program
 * [News](http://www.xonotic.org/posts/)
-* [Known issues](https://gitlab.com/groups/xonotic/issues)
-* [Source code](https://gitlab.com/xonotic/xonotic/tree/master)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

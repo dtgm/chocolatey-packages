@@ -23,9 +23,11 @@ See [GSmartControl](https://chocolatey.org/packages/gsmartcontrol) for a GTK GUI
 * [Developer](http://www.smartmontools.org/wiki/TocDeveloper)
 
 #### Community
-* [Mailing list](http://www.smartmontools.org/wiki/Help#Mailinglist)
     </description>
     <projectUrl>http://www.smartmontools.org/</projectUrl>
+    <projectSourceUrl>http://www.smartmontools.org/browser/trunk/smartmontools</projectSourceUrl>
+    <bugTrackerUrl>http://www.smartmontools.org/report/19</bugTrackerUrl>
+    <mailingListUrl>http://www.smartmontools.org/wiki/Help#Mailinglist</mailingListUrl>
     <tags>cli s.m.a.r.t. disk reporting monitoring daemon</tags>
     <copyright>© Bruce Allen</copyright>
     <licenseUrl>http://www.smartmontools.org/browser/trunk/smartmontools/COPYING</licenseUrl>
@@ -35,8 +37,6 @@ See [GSmartControl](https://chocolatey.org/packages/gsmartcontrol) for a GTK GUI
 * [News](http://www.smartmontools.org/browser/trunk/smartmontools/NEWS)
 * [Roadmap](http://www.smartmontools.org/roadmap)
 * [Changelog](http://www.smartmontools.org/browser/trunk/smartmontools/ChangeLog)
-* [Known issues](http://www.smartmontools.org/report/19)
-* [Source code](http://www.smartmontools.org/browser/trunk/smartmontools)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

@@ -17,6 +17,7 @@ If you instead want KeePass to generate one-time passwords, see the [{HMACOTP}](
 For generating time-based OTPs, see [KeeOtp](https://chocolatey.org/packages/keepass-plugin-keeotp) and [Tray TOTP](https://chocolatey.org/packages/keepass-plugin-traytotp) plugins.
     </description>
     <projectUrl>http://keepass.info/plugins.html#otpkeyprov</projectUrl>
+    <projectSourceUrl>http://keepass.info/extensions/v2/otpkeyprov/OtpKeyProv-{{PackageVersion}}-Source.zip</projectSourceUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/c31b45635c8179832ee9bfbd2766da250a934d4d/icons/{{PackageName}}.png</iconUrl>
     <tags>keepass plugin security otp</tags>
     <copyright>© 2011 Dominik Reichl</copyright>
@@ -24,7 +25,6 @@ For generating time-based OTPs, see [KeeOtp](https://chocolatey.org/packages/kee
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
 #### Program
-* [Source code](http://keepass.info/extensions/v2/otpkeyprov/OtpKeyProv-{{PackageVersion}}-Source.zip)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

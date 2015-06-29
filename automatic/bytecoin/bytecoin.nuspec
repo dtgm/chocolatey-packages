@@ -30,6 +30,8 @@ Technical
 * [Developer blog](https://bytecoin.org/blog/)
     </description>
     <projectUrl>https://bytecoin.org/</projectUrl>
+    <projectSourceUrl>https://github.com/amjuarez/bytecoin</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/amjuarez/bytecoin/issues</bugTrackerUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/3adf6dc10e926f2ac7d8b20a65f841332923dc6e/icons/{{PackageName}}.png</iconUrl>
     <tags>bcn p2p anonymity cryptonote cryptonight cpu-mining</tags>
     <copyright>© 2011 Bytecoin Project</copyright>
@@ -40,8 +42,6 @@ Technical
 * [News](https://bytecoin.org/news/)
 * [Roadmap](https://bytecoin.org/roadmap/)
 * [Changelog](https://github.com/amjuarez/bytecoin/blob/master/ReleaseNotes.txt)
-* [Known issues](https://github.com/amjuarez/bytecoin/issues)
-* [Source code](https://github.com/amjuarez/bytecoin)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

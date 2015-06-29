@@ -42,6 +42,8 @@ If you have difficulty remembering secure passwords, consider using secure passw
 * [Twitter](https://twitter.com/NxtCommunity)
     </description>
     <projectUrl>http://nxt.org/</projectUrl>
+    <projectSourceUrl>https://bitbucket.org/JeanLucPicard/nxt/src</projectSourceUrl>
+    <bugTrackerUrl>https://bitbucket.org/JeanLucPicard/nxt/issues</bugTrackerUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/ec964ef16307dd212f9a58c5ca64795488fba3f0/icons/{{PackageName}}.png</iconUrl>
     <tags>p2p cryptocurrency proof-of-stake</tags>
     <copyright>© 2013 The Nxt Core Developers</copyright>
@@ -51,8 +53,6 @@ If you have difficulty remembering secure passwords, consider using secure passw
 #### Program
 * [Roadmap](http://wiki.nxtcrypto.org/wiki/Planned_Features)
 * [Changelog](https://bitbucket.org/JeanLucPicard/nxt/raw/master/changelogs/nxt-client-{{PackageVersion}}.changelog.txt)
-* [Known issues](https://bitbucket.org/JeanLucPicard/nxt/issues)
-* [Source code](https://bitbucket.org/JeanLucPicard/nxt/src)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

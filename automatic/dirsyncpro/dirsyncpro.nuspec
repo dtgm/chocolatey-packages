@@ -23,9 +23,10 @@ DirSync Pro provides a real-time synchronization option which watches the source
 [Detailed features](http://www.dirsyncpro.org/features.html)
 [Screenshots](http://www.dirsyncpro.org/screen-shots.html)
 [FAQ](http://www.dirsyncpro.org/faq.html)
-[Source code](http://sourceforge.net/projects/directorysync/files/DirSync%20Pro%20%28stable%29/{{PackageVersion}}/DirSyncPro-{{PackageVersion}}-src.zip/download)
     </description>
     <projectUrl>http://www.dirsyncpro.org/</projectUrl>
+    <projectSourceUrl>http://sourceforge.net/projects/directorysync/files/DirSync%20Pro%20%28stable%29/{{PackageVersion}}/DirSyncPro-{{PackageVersion}}-src.zip/download</projectSourceUrl>
+    <bugTrackerUrl>https://sourceforge.net/p/directorysync/bugs/</bugTrackerUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2ce2d40089b0a2bc24fcecd137584328feeb9fd2/icons/{{PackageName}}.png</iconUrl>
     <tags>backup sync directory java</tags>
     <copyright>© O. Givi</copyright>
@@ -33,7 +34,6 @@ DirSync Pro provides a real-time synchronization option which watches the source
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
 [News](http://www.dirsyncpro.org/news.html)
-[Known issues](https://sourceforge.net/p/directorysync/bugs/)
 [@DirSyncPro](http://twitter.com/DirSyncPro)
     </releaseNotes>
   </metadata>

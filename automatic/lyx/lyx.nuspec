@@ -15,11 +15,11 @@ LyX is for people who want their writing to look great, right out of the box. No
 LyX is released under a Free Software/Open Source license, runs on Linux/Unix, Windows, and Mac OS X, and is available in several languages.
 
 [Screenshots](http://www.lyx.org/Screenshots)
-[Documentation](http://wiki.lyx.org/)
 [Development](http://www.lyx.org/Development)
-[Source code](http://www.lyx.org/trac/browser/lyxgit)
     </description>
     <projectUrl>http://www.lyx.org/</projectUrl>
+    <projectSourceUrl>http://www.lyx.org/trac/browser/lyxgit</projectSourceUrl>
+    <docsUrl>http://wiki.lyx.org/</docsUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/60335c8d0a70d0924e4685c79a5bb888002c11cc/icons/{{packageName}}.svg</iconUrl>
     <tags>tex latex document publishing</tags>
     <copyright>http://www.lyx.org/Credits#toc1</copyright>

@@ -53,6 +53,8 @@ Leanify is a lightweight lossless file minifier/optimizer. It removes unnecessar
     </description>
     <language>en-us</language>
     <projectUrl>https://github.com/JayXon/Leanify</projectUrl>
+    <projectSourceUrl>https://github.com/JayXon/Leanify</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/JayXon/Leanify/issues</bugTrackerUrl>
     <licenseUrl>https://github.com/JayXon/Leanify/blob/master/LICENSE</licenseUrl>
     <copyright>© JayXon</copyright>	
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -60,8 +62,6 @@ Leanify is a lightweight lossless file minifier/optimizer. It removes unnecessar
     <releaseNotes>
 #### Program
 * [Changelog](https://github.com/JayXon/Leanify/releases)
-* [Known issues](https://github.com/JayXon/Leanify/issues)
-* [Source code](https://github.com/JayXon/Leanify)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

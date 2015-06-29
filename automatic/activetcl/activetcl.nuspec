@@ -16,11 +16,9 @@ Save time in your development cycles by starting with a precompiled Tcl distribu
 * TeaPot package manager
 * Extended documentation
 
-#### [Documentation](http://docs.activestate.com/activetcl/)
 
 #### Community
 * [Forum](http://community.activestate.com/forums/activetcl)
-* [Mailing list](http://aspn.activestate.com/ASPN/Mail/Browse/Threaded/ActiveTcl)
 
 ### Install directory
 [`%ChocolateyBinRoot%`](https://github.com/chocolatey/choco/wiki/CreatePackages#installation-paths)
@@ -29,6 +27,10 @@ Save time in your development cycles by starting with a precompiled Tcl distribu
 Free [Community Edition](http://www.activestate.com/languages/compare-editions)
     </description>
     <projectUrl>http://www.activestate.com/activetcl</projectUrl>
+    <projectSourceUrl>https://github.com/ActiveState/tcl</projectSourceUrl>
+    <bugTrackerUrl>http://bugs.activestate.com/ActiveTcl/query.cgi</bugTrackerUrl>
+    <docsUrl>http://docs.activestate.com/activetcl/</docsUrl>
+    <mailingListUrl>http://aspn.activestate.com/ASPN/Mail/Browse/Threaded/ActiveTcl</mailingListUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/dea7e5a734f9b291203ef79b5cf58f6d562beb4d/icons/{{PackageName}}.png</iconUrl>
     <tags>tcl programming language console ide</tags>
     <copyright>© ActiveState Software Inc</copyright>
@@ -37,8 +39,6 @@ Free [Community Edition](http://www.activestate.com/languages/compare-editions)
     <releaseNotes>
 #### Program
 * [Release notes](http://docs.activestate.com/activetcl/8.6/at.release.html#new)
-* [Known issues](http://bugs.activestate.com/ActiveTcl/query.cgi)
-* [Source code](https://github.com/ActiveState/tcl)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
