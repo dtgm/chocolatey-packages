@@ -14,14 +14,13 @@ SSL encryption wrapper between remote client and local (inetd-startable) or remo
 * [Features](https://www.stunnel.org/features.html)
 * [Screenshot](https://www.stunnel.org/screenshot.html)
 * [FAQ](http://www.usenix.org.uk/mirrors/stunnel/archive/doc-en/FAQ)
-* [Manual](https://www.stunnel.org/static/stunnel.html)
 * [Examples](https://www.stunnel.org/examples.html)
 * [Related docs](https://www.stunnel.org/docs.html)
-
-#### Community
-* [Mailing list](https://www.stunnel.org/lists.html)
     </description>
     <projectUrl>https://www.stunnel.org</projectUrl>
+    <projectSourceUrl>ftp://ftp.stunnel.org/stunnel/</projectSourceUrl>
+    <docsUrl>https://www.stunnel.org/static/stunnel.html</docsUrl>
+    <mailingListUrl>https://www.stunnel.org/lists.html</mailingListUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/347e9c828bcbe16a820ef36b07343b058e27a670/icons/stunnel.png</iconUrl>
     <tags>security cryptography internet proxy-server networking</tags>
     <copyright>Copyright © 1998 Michal Trojnara</copyright>
@@ -32,7 +31,6 @@ SSL encryption wrapper between remote client and local (inetd-startable) or remo
 * [Release log](https://www.stunnel.org/versions.html)
 * [Security vulnerabilities](https://www.stunnel.org/vulns.html)
 * [Changelog](https://www.stunnel.org/sdf_ChangeLog.html)
-* [Source code](ftp://ftp.stunnel.org/stunnel/)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

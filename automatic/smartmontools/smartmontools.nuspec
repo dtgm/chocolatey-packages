@@ -18,15 +18,13 @@ See [GSmartControl](https://chocolatey.org/packages/gsmartcontrol) for a GTK GUI
 
 #### Documentation
 * [FAQ](http://www.smartmontools.org/wiki/FAQ)
-* [Help](http://www.smartmontools.org/wiki/Help)
 * [Manual](http://www.smartmontools.org/wiki/TocDoc)
 * [Developer](http://www.smartmontools.org/wiki/TocDeveloper)
-
-#### Community
     </description>
     <projectUrl>http://www.smartmontools.org/</projectUrl>
     <projectSourceUrl>http://www.smartmontools.org/browser/trunk/smartmontools</projectSourceUrl>
     <bugTrackerUrl>http://www.smartmontools.org/report/19</bugTrackerUrl>
+    <docsUrl>http://www.smartmontools.org/wiki/Help</docsUrl>
     <mailingListUrl>http://www.smartmontools.org/wiki/Help#Mailinglist</mailingListUrl>
     <tags>cli s.m.a.r.t. disk reporting monitoring daemon</tags>
     <copyright>© Bruce Allen</copyright>
