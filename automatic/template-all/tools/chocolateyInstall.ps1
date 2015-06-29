@@ -142,7 +142,7 @@ Get-ChocolateyWebFile -PackageName "$packageName" `
                       -ChecksumType "$checksumType" `
                       -Checksum64 "$checksum64" `
                       -ChecksumType64 "$checksumType64"
-# create an empty sidecar metadata file for closed-source shimgen.exe to prevent blank black window
+# create an empty sidecar metadata file for closed-source shimgen.exe to designate gui
 Set-Content -Path ("$installFile.gui") `
             -Value $null
 
