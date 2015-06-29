@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>scite</id>
+    <title>SciTE</title>
+    <version>3.5.7</version>
+    <authors>Neil Hodgson</authors>
+    <owners>dtgm</owners>
+    <summary>Lightweight, fast text editor using Scintilla library</summary>
+    <description>
+SciTE is a cross-platform, advanced text editor using the free, open source library Scintilla (developed by the same author).
+
+Lightweight and built for speed, it is designed mainly for source editing, and performs syntax highlighting and inline function reference for many different languages.
+
+Other text editors based on Scintilla are Geany (cross-platform), Notepad++ (Windows), and Notepad2 (Windows).
+
+    </description>
+    <projectUrl>http://www.scintilla.org/SciTEDownload.html</projectUrl>
+    <docsUrl>http://www.scintilla.org/SciTEDoc.html</docsUrl>
+    <tags>text editor</tags>
+    <copyright>© 1998 Neil Hodgson</copyright>
+    <licenseUrl>http://www.scintilla.org/License.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/652c92d8e7acbe702d1b0df02bab636e0e17b634/icons/scite.png</iconUrl>
+    <releaseNotes>http://www.scintilla.org/ScintillaHistory.html</releaseNotes>
+    <dependencies>
+      <dependency id="dotnet3.5" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
