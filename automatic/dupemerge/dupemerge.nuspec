@@ -39,6 +39,7 @@ Dupemerge has a dupe-find algorithm which is tuned to perform especially well on
 * [FAQ](http://schinagl.priv.at/nt/{{PackageName}}/{{PackageName}}.html#faq)
 * [Manual](http://schinagl.priv.at/nt/{{PackageName}}/{{PackageName}}.html#introduction)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://schinagl.priv.at/nt/{{PackageName}}/{{PackageName}}.html</projectUrl>
     <tags>cli ntfs data-integrity checksum dedupe freeware</tags>
     <copyright>© 2005 Hermann Schinagl</copyright>

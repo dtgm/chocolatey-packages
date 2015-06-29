@@ -15,6 +15,7 @@ Symantec pcANYWHERE has 2 different types of passwords:
 
 This utility can recover instantly both types of passwords.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/pcanypass.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/pcanypass.png</iconUrl>
     <tags>pcanywhere password recover</tags>

@@ -10,6 +10,7 @@
     <description>
 The CustomizeIE utility allows you to easily add, edit and delete additional toolbar buttons and menu items in Internet Explorer. (Version 5.0 and above)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/ctie.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/ctie.png</iconUrl>
     <tags>ie toolbar customizations</tags>

@@ -13,6 +13,7 @@ MD5summer is an application for Microsoft Windows 9x, NT, ME, 2000 and XP which 
 MD5summer is written in Borland Delphi 7.
 
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.md5summer.org/</projectUrl>
     <projectSourceUrl>http://www.md5summer.org/download.html</projectSourceUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/b382439006f549e262458dba0ef1024abb3aa1a9/icons/{{PackageName}}.png</iconUrl>

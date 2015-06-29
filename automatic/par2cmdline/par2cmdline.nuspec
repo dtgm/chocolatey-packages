@@ -13,6 +13,7 @@ par2cmdline is a program for creating and using PAR2 files to detect damage in d
 #### Documentation
 * [Command line usage](https://github.com/Parchive/par2cmdline#using-par2cmdline)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>https://github.com/Parchive/par2cmdline</projectUrl>
     <projectSourceUrl>https://github.com/Parchive/par2cmdline</projectSourceUrl>
     <bugTrackerUrl>https://github.com/Parchive/par2cmdline/issues</bugTrackerUrl>

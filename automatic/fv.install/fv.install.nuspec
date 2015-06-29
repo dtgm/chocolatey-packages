@@ -27,6 +27,7 @@ FileVerifier++ is an application for verifying the integrity of files. FileVerif
 * fvc.exe
     </description>
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.programmingunlimited.net/siteexec/content.cgi?page=fv</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/55b6d99f0c16a51ea65ec183005c862d614ed5b6/icons/fv.png</iconUrl>
     <projectSourceUrl>http://sourceforge.net/p/fileverifier/svn/</projectSourceUrl>

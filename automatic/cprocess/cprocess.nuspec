@@ -21,6 +21,7 @@ In addition, CurrProcess allows you to do the following actions:
 * Save the list of all running processes into text or HTML file.
 * Copy process or module information to the clipboard.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/cprocess.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/cprocess.png</iconUrl>
     <tags>viewer freeware kill dump memory</tags>

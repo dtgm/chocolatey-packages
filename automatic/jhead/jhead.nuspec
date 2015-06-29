@@ -15,6 +15,7 @@ Because I am interested in photography, I am always curious just exactly what se
 Though there are many programs out there now that can manipulate Exif headers today, for many tasks, jhead remains the simplest and most effective tool for the job, especially if used for automated or scripted tasks.
 
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.sentex.net/~mwandel/jhead/</projectUrl>
     <docsUrl>http://www.sentex.net/~mwandel/jhead/usage.html</docsUrl>
     <tags>metadata exif image cli</tags>

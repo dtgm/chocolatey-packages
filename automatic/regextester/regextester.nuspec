@@ -11,6 +11,7 @@
 With RegEx Tester you can fully develop and test your regular expression against a target text. It's UI is designed to aid you in the RegEx developing. It uses and supports ALL of the features available in the .NET RegEx Class.
 
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://regextester.sourceforge.net/</projectUrl>
     <projectSourceUrl>https://sourceforge.net/projects/regextester/files/RegExTester%20Sources/{{PackageVersion}}/</projectSourceUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/0d80b7b86eabd0251f1cdfc07e9e153072a593df/icons/{{PackageName}}.ico</iconUrl>

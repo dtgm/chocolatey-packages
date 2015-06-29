@@ -20,6 +20,7 @@ Wiki: [GitHub](https://github.com/duplicati/duplicati/wiki), [GoogleCode](https:
 [HowTos](http://www.duplicati.com/howtos)
 
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.duplicati.com/</projectUrl>
     <projectSourceUrl>https://github.com/duplicati/duplicati</projectSourceUrl>
     <bugTrackerUrl>https://github.com/duplicati/duplicati/issues</bugTrackerUrl>

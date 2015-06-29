@@ -12,6 +12,7 @@ SUMo (__S__oftware __U__pdate __Mo__nitor) keeps your PC up-to-date and safe by 
 
 Unlike built-in auto update features, SUMo tells you if updates are available before you need to use your software.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.kcsoftwares.com/?sumo</projectUrl>
     <bugTrackerUrl>http://www.kcsoftwares.com/bugs/view_all_bug_page.php</bugTrackerUrl>
     <tags>update-notifier</tags>

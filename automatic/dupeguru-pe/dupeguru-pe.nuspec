@@ -30,6 +30,7 @@ Supported languages: English, French, German, Chinese (Simplified), Czech, Itali
 * [Manual](http://hardcoded.net/dupeguru_pe/help/en/)
 * [Forum](http://forum.hardcoded.net/1/)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.hardcoded.net/dupeguru_pe/</projectUrl>
     <projectSourceUrl>https://github.com/hsoft/dupeguru</projectSourceUrl>
     <bugTrackerUrl>https://github.com/hsoft/dupeguru/issues</bugTrackerUrl>

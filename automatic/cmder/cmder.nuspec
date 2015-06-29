@@ -23,6 +23,7 @@ See [cmdermini](https://chocolatey.org/packages/cmdermini) (7 MB) for basic cons
 
 By default, this package installs into $BinRoot\cmder
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://bliker.github.io/cmder/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/5844fbed740e87c941f6bd77c4cc23f084941dbc/icons/cmder.png</iconUrl>
     <projectSourceUrl>https://github.com/bliker/cmder</projectSourceUrl>

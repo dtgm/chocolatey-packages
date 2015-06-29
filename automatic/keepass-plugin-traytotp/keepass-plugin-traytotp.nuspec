@@ -10,6 +10,7 @@
     <description>
 Time-based One-Time Password (TOTP) plugin to enable 2-step authentication (supports Google and Dropbox) by generating TOTPs from the KeePass tray icon. This plugin also provides a custom column to display and/or generate TOTPs. Auto-Type is also supported when the specified custom field is used in a keystroke sequence.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>https://sourceforge.net/projects/traytotp-kp2/</projectUrl>
     <projectSourceUrl>http://sourceforge.net/p/traytotp-kp2/code/HEAD/tree/trunk/</projectSourceUrl>
     <bugTrackerUrl>http://sourceforge.net/p/traytotp-kp2/tickets/</bugTrackerUrl>

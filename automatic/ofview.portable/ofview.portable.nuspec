@@ -14,6 +14,7 @@ For each opened file, additional information is displayed: handle value, read/wr
 
 Optionally, you can also close one or more opened files, or close the process that opened these files.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/opened_files_view.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/ofview.png</iconUrl>
     <tags>unlock files handle</tags>

@@ -17,6 +17,7 @@ mSIGNA is built atop, three custom libraries, CoinCore, CoinQ, and CoinDB, which
 * CoinCore is licensed under the [MIT license](http://opensource.org/licenses/mit-license.php).
 * CoinQ and CoinDB are licensed under the [AGPLv3 license](https://www.gnu.org/licenses/agpl.html).
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>https://ciphrex.com/products/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/ciphrex/CoinVault/4e4f47d84582ffd29c9e8d1996d508e679e6d608/res/icons/app_icons/256x256.png</iconUrl>
     <tags>bitcoin btc wallet cryptocurrency</tags>

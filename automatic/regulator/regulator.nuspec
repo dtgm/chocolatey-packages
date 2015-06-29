@@ -15,6 +15,7 @@ Inspired by [expresso](https://chocolatey.org/packages/expresso).
 [Forum](https://sourceforge.net/p/regulator/discussion/)
 Documentation: [ZIP](http://sourceforge.net/projects/regulator/files/The%20Regulator/{{PackageVersion}}/Regulator2Help.zip/download)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://regulator.sourceforge.net</projectUrl>
     <bugTrackerUrl>https://sourceforge.net/p/regulator/bugs/</bugTrackerUrl>
     <tags>regex dotnet</tags>

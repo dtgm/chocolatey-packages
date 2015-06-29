@@ -29,6 +29,7 @@ Pandacoin is a fork of Dogecoin.  The modifications to the network protocol are:
 ### Source code
 * https://github.com/Pandacoin-project/Pandacoin
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>https://PandaCoinPND.org/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/ec866b7e9220d8ac105ae7b0b19f1e1f7677377a/icons/pandacoin.png</iconUrl>
     <tags>pandacoin pnd wallet cryptocurrency p2p</tags>

@@ -26,6 +26,7 @@ GlassWire is a free network monitor and security tool with a built in firewall. 
 * [Google+](https://plus.google.com/+glasswire)
 * [Twitter](https://twitter.com/GlassWireLabs)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>https://www.glasswire.com</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/22579bfcdad1270bc825226ae0d75618b42a1b9d/icons/{{PackageName}}.png</iconUrl>
     <tags>visualize network traffic monitor firewall malware freeware</tags>

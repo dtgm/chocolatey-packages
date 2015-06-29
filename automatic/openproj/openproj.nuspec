@@ -10,6 +10,7 @@
     <description>
 OpenProj is an open-source desktop project management application similar to Microsoft Project. OpenProj has a familiar user interface and even opens existing MS Project files. OpenProj is interoperable with Project, Gantt Charts and PERT charts.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://sourceforge.net/projects/openproj</projectUrl>
     <tags>project-management task schedule</tags>
     <copyright>© Ali Kheirolomoom</copyright>

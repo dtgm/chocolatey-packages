@@ -10,6 +10,7 @@
     <description>
 Small registry editor for windows system provide you ability to change your registry setting even if your default registry editor is blocked by virus . It also enable blocked registry editor .
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://sourceforge.net/projects/sre/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/6f7a1586507156c3bd85b93ccebf82c1e23e2190/icons/{{PackageName}}.png</iconUrl>
     <licenseUrl>http://www.gnu.org/licenses/gpl.html</licenseUrl>

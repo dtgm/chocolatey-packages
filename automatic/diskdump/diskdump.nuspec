@@ -16,6 +16,7 @@ Note that this is a very quickly written program. It may (and probably does) hav
 
 DiskDump should work on Windows 2000 and newer systems. It requires MFC42.DLL (highly unlikely that one wouldn't have that though).
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.programmingunlimited.net/siteexec/content.cgi?page=dd</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/db586c7ffab25ce8531568b349e1e206e4696b4e/icons/diskdump.png</iconUrl>
     <projectSourceUrl>{{DownloadUrl}}</projectSourceUrl>

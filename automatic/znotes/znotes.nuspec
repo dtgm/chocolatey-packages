@@ -26,6 +26,7 @@ When I migrated from XFCE, I could not find a program simular to xfce4-Notes-plu
 Has versions for GNU/Linux, Windows, OS/2.
     </description>
     <releaseNotes>https://github.com/proton/zNotes/blob/master/CHANGELOG</releaseNotes>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://sourceforge.net/projects/znotes/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/7bd89e2950eaf1857fd4cfb9cd76e51dad025ce5/icons/{{PackageName}}.png</iconUrl>
     <licenseUrl>http://www.gnu.org/licenses/gpl-3.0.html</licenseUrl>

@@ -18,6 +18,7 @@ LÖVE is an *awesome* framework you can use to make 2D games in Lua. It's free, 
 * [Google+](https://plus.google.com/+love2d)
 * [Twitter](https://twitter.com/obey_love)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://love2d.org/</projectUrl>
     <projectSourceUrl>https://bitbucket.org/rude/love</projectSourceUrl>
     <bugTrackerUrl>https://bitbucket.org/rude/love/issues</bugTrackerUrl>

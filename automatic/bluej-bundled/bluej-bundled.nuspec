@@ -24,6 +24,7 @@ Oracle JDK is included with the installer allowing for portable usage. A non-JDK
 #### Community
 * [Forum](http://blueroom.bluej.org/)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.bluej.org/</projectUrl>
     <projectSourceUrl>http://www.bluej.org/versions.html</projectSourceUrl>
     <bugTrackerUrl>http://bugs.bluej.org/bluej</bugTrackerUrl>

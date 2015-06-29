@@ -12,6 +12,7 @@ Sometimes it's necessary to create a lot of test files, or just a few but very b
 
 Or you need to lock files to test how your application behaves if it can not access those files. FileTool can do that for you too.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://stefanstools.sourceforge.net/FileTool.html</projectUrl>
     <projectSourceUrl>http://sourceforge.net/p/stefanstools/code/HEAD/tree/trunk/Misc/FileTool/</projectSourceUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/1e5b543fcbfbc832c6cf12d2ee4b219df59bdb5f/icons/{{PackageName}}.png</iconUrl>

@@ -13,6 +13,7 @@ PassIFox is a plugin for KeePass 2.x and provides a means of exposing password e
 This plugin is primarily intended for use with PassIFox for Mozilla Firefox and chromeIPass for Google Chrome.
 
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>https://github.com/pfn/passifox</projectUrl>
     <projectSourceUrl>https://github.com/pfn/passifox/</projectSourceUrl>
     <bugTrackerUrl>https://github.com/pfn/passifox/issues</bugTrackerUrl>

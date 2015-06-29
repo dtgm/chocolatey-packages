@@ -12,6 +12,7 @@ HtmlDocEdit is a simple HTML designer/editor based on the Internet Explorer brow
 
 With HtmlDocEdit you can change the font/color of selected text, add images, add links, add ordered and unordered lists, and more...
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/html_doc_edit.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/htmldocedit.png</iconUrl>
     <tags>html editor</tags>

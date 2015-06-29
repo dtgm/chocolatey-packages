@@ -17,6 +17,7 @@ The advantages over InstallExplorer are:
     </description>
     <releaseNotes>http://innounp.sourceforge.net/#History</releaseNotes>
     <language>en-us</language>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://innounp.sourceforge.net/</projectUrl>
     <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
     <copyright>QuickeneR,Ariman</copyright>		

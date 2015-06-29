@@ -10,6 +10,7 @@
     <description>
 ptime will run any specified command and parameters, and measure the execution time (run time) in seconds, accurate to 5 millisecond or better. It is an automatic process timer, or program timer used for benchmark purposes.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.pc-tools.net/win32/{{PackageName}}/</projectUrl>
     <tags>cli process execution monitor</tags>
     <copyright>© 2004 Jem Berkes</copyright>

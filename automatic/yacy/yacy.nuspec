@@ -28,6 +28,7 @@ To be able to perform a search using the YaCy network, every user has to set up 
 * [Forum](http://forum.yacy-websuche.de/)
     </description>
     <language>en-us</language>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://yacy.net</projectUrl>
     <projectSourceUrl>https://gitorious.org/yacy/rc1/</projectSourceUrl>
     <bugTrackerUrl>http://mantis.tokeek.de/my_view_page.php</bugTrackerUrl>

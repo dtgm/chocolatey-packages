@@ -32,6 +32,7 @@ A process sandbox helps to manage and limit access permissions a process has to 
 * [Forum](http://forums.sandboxie.com/phpBB3/)
     </description>
     <tags>security virtualization forensics shareware nagscreen</tags>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.sandboxie.com/</projectUrl>
     <copyright>© 2004 Sandboxie Holdings LLC, © Dec 2013 Invincea</copyright>
     <licenseUrl>http://www.sandboxie.com/index.php?EndUserLicenseAgreement</licenseUrl>

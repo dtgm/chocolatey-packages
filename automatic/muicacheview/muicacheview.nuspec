@@ -10,6 +10,7 @@
     <description>
 Each time that you start using a new application, Windows operating system automatically extract the application name from the version resource of the exe file, and stores it for using it later, in Registry key known as the 'MuiCache'.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/muicache_view.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/muicacheview.png</iconUrl>
     <tags>mui cache</tags>

@@ -26,6 +26,7 @@ Implemented using commercial library SlavaSoft QuickHash.
 ### Previous Versions
 Unfortunately, only the latest version of {{PackageName}} may be installed; attempting to install any previous version will result in the most recently released version being installed.  This issue is unique to this package.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.slavasoft.com/fsum/index.htm</projectUrl>
     <licenseUrl>http://www.slavasoft.com/fsum/license-agreement.htm</licenseUrl>
     <copyright>SlavaSoft Inc</copyright>

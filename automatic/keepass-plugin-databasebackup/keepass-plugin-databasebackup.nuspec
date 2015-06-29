@@ -10,6 +10,7 @@
     <description>
 Plugin for KeePass 2.x to create backups of modified databases.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://keepass.info/plugins.html#databasebackup</projectUrl>
     <projectSourceUrl>http://keepass.info/extensions/v2/databasebackup/DataBaseBackup-{{PackageVersion}}-Source.zip</projectSourceUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/ef1b47ff00f76bdaa47ab74d2262532d0d625be4/icons/{{PackageName}}.png</iconUrl>

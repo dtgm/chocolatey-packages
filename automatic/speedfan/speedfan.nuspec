@@ -13,6 +13,7 @@ SpeedFan is a program that monitors voltages, fan speeds and temperatures in com
 [FAQ](http://www.almico.com/sffaq.php)
 [User forum](http://www.almico.com/forumindex.php)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.almico.com/speedfan.php</projectUrl>
     <docsUrl>http://www.almico.com/sfarticles.php</docsUrl>
     <tags>system-monitor smart temperature overclock sensor voltage fan-speed control-fan</tags>

@@ -20,6 +20,7 @@ By applying this simple and natural idea to file synchronization, users will be 
 [User](https://code.google.com/p/big5sync/wiki/UserGuide)
 [Developer](https://code.google.com/p/big5sync/wiki/DeveloperGuide)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://code.google.com/p/big5sync/</projectUrl>
     <projectSourceUrl>https://code.google.com/p/big5sync/source/</projectSourceUrl>
     <bugTrackerUrl>https://code.google.com/p/big5sync/wiki/KnownIssues20</bugTrackerUrl>

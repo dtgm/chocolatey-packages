@@ -15,6 +15,7 @@ Skype Name, Full Name, Display Name, Gender, ID, Birthday, Profile Time, Last On
 
 SkypeContactsView also allows you to export the contacts list into text/tab-delimited/comma-delimited/xml/html file, or copy them to the clipboard and then paste them into Excel or other spreadsheet application.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/skype_contacts_view.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/skypecontactsview.png</iconUrl>
     <tags>contacts view export</tags>

@@ -18,6 +18,7 @@
 
     </description>
 <!-- Must be URI format -->
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>https://example.com/</projectUrl>
 <!-- one word subject or categories specific to program, delimited by space -->
     <tags>subject category framework commandline notsilent</tags>

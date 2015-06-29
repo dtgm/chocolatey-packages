@@ -26,6 +26,7 @@ Finddupe is useful for detecting which files have changed and need backing up. S
 
 Unknown to most, the winodws NTFS file system has the ability to hard link files together. If you use finddupe with the -listlink option, finddupe will search for files that appear in multiple places as hard links.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.sentex.net/~mwandel/{{PackageName}}/</projectUrl>
     <tags>file-duplicates deduplication cli</tags>
     <copyright>© Matthias Wandel</copyright>

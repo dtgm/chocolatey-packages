@@ -30,6 +30,7 @@ This project has previously been known as __SQLite Browser__ and __Database Brow
 
 In August 2014, the project was renamed to __Database Browser for SQLite__ at the request of [Richard Hipp](http://www.hwaci.com/drh) (creator of [SQLite](http://sqlite.org/)), as the previous name was creating unintended support issues.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://sqlitebrowser.org/</projectUrl>
     <projectSourceUrl>https://github.com/sqlitebrowser/sqlitebrowser/</projectSourceUrl>
     <bugTrackerUrl>https://github.com/sqlitebrowser/sqlitebrowser/issues</bugTrackerUrl>

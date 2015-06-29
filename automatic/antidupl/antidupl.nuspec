@@ -18,6 +18,7 @@ AntiDupl.NET program is free and open-source software. It is simple to use, has 
 [Development](http://antidupl.sourceforge.net/data/help/english/index.html?page=developers.html)
 [Command line options](http://antidupl.sourceforge.net/data/help/english/index.html?page=args.html)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://antidupl.sourceforge.net/</projectUrl>
     <projectSourceUrl>https://sourceforge.net/p/antidupl/code/HEAD/tree/</projectSourceUrl>
     <bugTrackerUrl>https://sourceforge.net/p/antidupl/tickets/</bugTrackerUrl>

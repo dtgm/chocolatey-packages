@@ -38,6 +38,7 @@ EasyTAG is a simple application for viewing and editing tags in audio files. It 
 * [Screenshots](https://wiki.gnome.org/Apps/EasyTAG/Screenshots)
 * [FAQ](https://wiki.gnome.org/Apps/EasyTAG/FAQ)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>https://wiki.gnome.org/Apps/EasyTAG</projectUrl>
     <projectSourceUrl>https://git.gnome.org/browse/easytag/</projectSourceUrl>
     <bugTrackerUrl>https://bugzilla.gnome.org/page.cgi?id%3Dbrowse.html%26product%3Deasytag</bugTrackerUrl>

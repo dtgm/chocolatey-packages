@@ -24,6 +24,7 @@ GTK+ Runtime installer contains the following software (or pieces of it):
 * LibTIFF: http://www.libtiff.org/
 * zlib: http://www.zlib.net/
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://gtk-win.sourceforge.net/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/19d35dff574b7496b92f235fa1503d47b861871a/icons/{{PackageName}}.svg</iconUrl>
     <tags>development cross-platform gui-toolkit</tags>

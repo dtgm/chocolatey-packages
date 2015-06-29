@@ -12,6 +12,7 @@ This version does not actually do any conversion but it allows the flexible copy
     </description>
     <releaseNotes>http://www.chrysocome.net/dd</releaseNotes>
     <language>en-us</language>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.chrysocome.net/dd</projectUrl>
     <licenseUrl>http://www.chrysocome.net/gpl</licenseUrl>
     <copyright>Chrysocome</copyright>

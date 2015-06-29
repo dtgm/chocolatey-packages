@@ -10,6 +10,7 @@
     <description>
 NetBeans provides an extensible IDE with rich functionality for Java development, such as code analyzers, refactoring tools and converters, which upgrade old language constructs to newer Java 8 concepts in your code (e.g. lambdas, functional operations and method references).
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>https://netbeans.org/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/ComFreek/chocolatey-packages/779f5c96f817ed1fa0d76fd90841873dc6c0ba74/icons/{{packageName}}.png</iconUrl>
     <tags>netbeans java ide development</tags>

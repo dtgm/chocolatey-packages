@@ -17,6 +17,7 @@ Profiling is an essential activity of any Data Quality, Master Data Management o
 [Forum](http://datacleaner.org/forum)
 [Development](http://datacleaner.org/develop)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>https://sourceforge.net/projects/datacleaner/</projectUrl>
     <projectSourceUrl>https://github.com/datacleaner/DataCleaner</projectSourceUrl>
     <bugTrackerUrl>https://github.com/datacleaner/DataCleaner/issues</bugTrackerUrl>

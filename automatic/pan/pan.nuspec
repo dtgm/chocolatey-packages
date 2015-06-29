@@ -12,6 +12,7 @@ Pan is a Usenet newsreader that's good at both text and binaries. It supports of
 
 The 2006 redesign and rewrite of Pan has made Pan significantly faster, cut its memory footprint by 85% in large newsgroups, and added NZB and multiserver support. See its announcement for details.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://pan.rebelbase.com/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/3717a8f7533acd783ca2ab96d6e9a57a0ceb264a/icons/{{packageName}}.png</iconUrl>
     <tags>gtk usenet newsreader nzb</tags>

@@ -14,6 +14,7 @@ TeXnicCenter's innovative user interface, its powerful features, its large commu
 
 [User support](http://www.texniccenter.org/support/)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.texniccenter.org/</projectUrl>
     <projectSourceUrl>https://sourceforge.net/p/texniccenter/code/ci/default/tree/</projectSourceUrl>
     <docsUrl>http://texniccenter.sourceforge.net/</docsUrl>

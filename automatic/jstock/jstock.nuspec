@@ -10,6 +10,7 @@
     <description>
 JStock is a free stock market software for 26 countries. It provides Stock watchlist, Intraday stock price snapshot, Stock indicator editor, Stock indicator scanner and Portfolio management. Free SMS/email alert supported. It integrates seamless with Android.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://jstock.org</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/73f66d0487e883d1119a25e17bbb768809c455b8/icons/jstock.png</iconUrl>
     <tags>stocks investing market</tags>

@@ -10,6 +10,7 @@
     <description>
 Ares Galaxy is a free, open source BitTorrent and chat program that uses its own decentralized supernode/leaf network. Ares Galaxy has a simple, quick access interface with a built in audio/video viewer. Ares allows you to share any digital file including images, audio, video, software, documents, etc. You may now easily publish your files through the Ares’ peer-to-peer (P2P) network. As a member of the virtual community, you can search and download just about any file shared by other users. The latest versions also support the BitTorrent protocol and Shoutcast radio stations.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://aresgalaxy.sourceforge.net/</projectUrl>
     <tags>file-sharing p2p peer-to-peer</tags>
     <copyright></copyright>

@@ -28,6 +28,7 @@ Subtitle Workshop is written in Delphi.
 * [Forum](https://sourceforge.net/p/subworkshop/discussion/)
 * [Facebook](http://facebook.com/subtitleworkshop)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://subworkshop.sourceforge.net/</projectUrl>
     <projectSourceUrl>https://sourceforge.net/projects/subworkshop/files/source/</projectSourceUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/31a0ce8e7c91e0fb296083333bf3725f0d96d58a/icons/{{PackageName}}.png</iconUrl>

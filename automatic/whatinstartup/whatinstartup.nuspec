@@ -16,6 +16,7 @@ It allows you to easily disable or delete unwanted programs that run in your Win
 
 WhatInStartup also supports a special &quot;Permanent Disabling&quot; feature - If a program that you previously disabled added itself again to the startup list of Windows, WhatInStartup will automatically detect the change and disable it again.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/what_run_in_startup.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/whatinstartup.png</iconUrl>
     <tags>registry disable delete startup</tags>

@@ -27,6 +27,7 @@ HDD Guardian is a front-end for smartctl, a tool for querying S.M.A.R.T. data of
 [Frequently Asked Questions (FAQ)](http://hddguardian.codeplex.com/wikipage?title=FAQ%20%2f%20Known%20issues&referringTitle=Home)
 [Source code repository](http://hddguardian.codeplex.com/SourceControl/latest)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://hddguardian.codeplex.com/</projectUrl>
     <docsUrl>http://hddguardian.codeplex.com/documentation</docsUrl>
     <tags>s.m.a.r.t. gui hardware disk reporting monitoring</tags>

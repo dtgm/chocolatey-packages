@@ -14,6 +14,7 @@ Broken shortcuts (shortcuts that point to file that doesn't exist) are automatic
 
 You select one or more shortcuts, and then delete them, resolve them or save the shortcuts details to HTML/Text/XML file.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/shman.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/shman.png</iconUrl>
     <tags>shortcut info manager</tags>

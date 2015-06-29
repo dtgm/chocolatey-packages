@@ -16,6 +16,7 @@ BrowsingHistoryView allows you to watch the browsing history of all user profile
 
 You can also export the browsing history into csv/tab-delimited/html/xml file from the user interface, or from command-line, without displaying any user interface.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/browsing_history_view.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/browsinghistoryview.png</iconUrl>
     <tags>browser history ie chrome firefox safari export</tags>

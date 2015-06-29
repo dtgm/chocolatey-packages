@@ -19,6 +19,7 @@ ProjectLibre is an open source alternative to Microsoft Project. It has been dow
 * Network Diagram
 * Earned Value Costing
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.projectlibre.org/</projectUrl>
     <tags>project-management task schedule</tags>
     <copyright>© 2012 ProjectLibre</copyright>

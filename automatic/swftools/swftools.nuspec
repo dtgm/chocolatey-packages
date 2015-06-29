@@ -28,6 +28,7 @@ SWFTools is a collection of utilities for working with Adobe Flash files (SWF fi
 
 SWFTools has been reported to work on Solaris, Linux (both 32 as well as 64 bit), FreeBSD, OpenBSD, HP-UX, Solaris, MacOS X and Windows 98/ME/2000/XP/Vista.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://swftools.org/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/9e4975339ec9b232d6d594848b13cf9dde30da78/icons/{{packageName}}.png</iconUrl>
     <tags>notsilent swf adobe flash</tags>

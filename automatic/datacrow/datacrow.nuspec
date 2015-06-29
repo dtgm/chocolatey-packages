@@ -21,6 +21,7 @@ Reporting (based on XLST stylesheets and graphs), loan administration, item impo
 [FAQ](http://www.datacrow.net/#faq)
 [Discussion forums](https://sourceforge.net/p/datacrow/discussion/)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.datacrow.net/</projectUrl>
     <projectSourceUrl>https://sourceforge.net/p/datacrow/code/</projectSourceUrl>
     <tags>inventory collection organizer library</tags>

@@ -24,6 +24,7 @@ ReHash can be fully configured using some of the many command-line arguments whi
 
 Source code: http://sourceforge.net/projects/rehash/files/rehash/0.2/rehash-0.2-src.zip/download
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://rehash.sourceforge.net/</projectUrl>
     <bugTrackerUrl>http://sourceforge.net/p/rehash/bugs/</bugTrackerUrl>
     <tags>cli checksum</tags>

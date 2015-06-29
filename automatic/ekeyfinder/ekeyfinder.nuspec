@@ -21,6 +21,7 @@ Enchanted Keyfinder is a Magical Jelly Bean Keyfinder (MJB KF) fork from the ope
 * Command line options
 * No software installation
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://ekeyfinder.sourceforge.net</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/47cec93d5ddaa321b2616314f7032e67773f6a75/icons/ekeyfinder.png</iconUrl>
     <tags>key license recover</tags>

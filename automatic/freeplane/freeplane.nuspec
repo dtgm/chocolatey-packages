@@ -7,6 +7,7 @@
     <authors>Dimitry Polivaev,Volker Börchers</authors>
     <owners>dtgm</owners>
     <licenseUrl>http://en.wikipedia.org/wiki/GNU_General_Public_License</licenseUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://freeplane.sourceforge.net/wiki/index.php/Home</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/19d35dff574b7496b92f235fa1503d47b861871a/icons/{{PackageName}}.svg</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

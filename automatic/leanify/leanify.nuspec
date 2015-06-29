@@ -52,6 +52,7 @@ Leanify is a lightweight lossless file minifier/optimizer. It removes unnecessar
 #### [Command-line options](https://github.com/JayXon/Leanify#usage)
     </description>
     <language>en-us</language>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>https://github.com/JayXon/Leanify</projectUrl>
     <projectSourceUrl>https://github.com/JayXon/Leanify</projectSourceUrl>
     <bugTrackerUrl>https://github.com/JayXon/Leanify/issues</bugTrackerUrl>

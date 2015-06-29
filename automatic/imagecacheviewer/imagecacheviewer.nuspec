@@ -14,6 +14,7 @@ For every cached image file, the following information is displayed: URL of the 
 
 When selecting a cache item in the upper pane of ImageCacheViewer, the image is displayed in the lower pane, and you can copy the image to the clipboard by pressing Ctrl+M.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/image_cache_viewer.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/imagecacheviewer.png</iconUrl>
     <tags>cache viewer web browser firefox chrome ie</tags>

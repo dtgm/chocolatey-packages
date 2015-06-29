@@ -17,6 +17,7 @@ This plugin is primarily intended for use with PassIFox for Mozilla Firefox and 
 * [Security](https://github.com/pfn/keepasshttp#security)
 * [Protocol](https://github.com/pfn/keepasshttp#protocol)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>https://github.com/pfn/keepasshttp</projectUrl>
     <projectSourceUrl>https://github.com/pfn/keepasshttp</projectSourceUrl>
     <bugTrackerUrl>https://github.com/pfn/keepasshttp/issues</bugTrackerUrl>

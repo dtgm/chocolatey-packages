@@ -24,6 +24,7 @@ Synchronise your files without also sharing them with a stranger in the cloud.  
 *  Simple. Pulse doesn't need IP addresses or advanced configuration. It just works over LAN and over the Internet. Every machine is identified by an ID. Just give your ID to you friends, share a folder, and watch.
 *  Powerful. Synchronise as many folders as you need with different people.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>https://ind.ie/pulse/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/9e76f6cbc6dcad23fc7076c9e2a616b01e6e2b7b/icons/{{PackageName}}.svg</iconUrl>
     <tags>api backup synchronisation engine</tags>

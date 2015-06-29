@@ -21,6 +21,7 @@ Here's some examples for data that you can export with SysExporter:
 * The text inside a standard message-box of Windows.
 * The HTML inside any instance of Internet Explorer.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/sysexp.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/sysexp.png</iconUrl>
     <tags>data visualizer lists</tags>

@@ -18,6 +18,7 @@ Duplicate File Finder will help you locate and remove useless file duplicates to
 [Screenshots](http://www.auslogics.com/en/software/duplicate-file-finder/popup/screenshots/)
 [Frequently Asked Questions (FAQ)](http://www.auslogics.com/en/support/product/duplicate-file-finder/)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.auslogics.com/en/software/duplicate-file-finder/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/74b4deb4238ff4592c0f410cf0edd540832558c7/icons/{{packageName}}.png</iconUrl>
     <tags>file-duplicates deduplication</tags>

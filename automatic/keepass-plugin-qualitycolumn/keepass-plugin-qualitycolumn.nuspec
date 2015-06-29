@@ -10,6 +10,7 @@
     <description>
 Adds support for a 'Password Quality' column in the main entry list.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://keepass.info/plugins.html#qcol</projectUrl>
     <projectSourceUrl>http://keepass.info/extensions/v2/qualitycolumn/QualityColumn-{{PackageVersion}}-Source.zip</projectSourceUrl>
     <tags>keepass plugin security analysis</tags>

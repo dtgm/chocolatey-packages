@@ -15,6 +15,7 @@ to another. You can do these actions from the user interface or from command-lin
 
 MultiMonitorTool also provides a preview window, which allows you to watch a preview of every monitor on your system.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/multi_monitor_tool.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/multimonitortool.png</iconUrl>
     <tags>multiple monitors</tags>

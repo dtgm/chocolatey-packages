@@ -17,6 +17,7 @@ It can reveal 4 types of passwords:
 * passwords of your network shares (Only with share-level access control)
 * password of the screen saver
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/win9xpv.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/win9xpv.png</iconUrl>
     <tags>recover passwords security</tags>

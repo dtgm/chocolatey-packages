@@ -22,6 +22,7 @@ Process Hacker was started in 2008 as an open source alternative to programs suc
 #### Community
 * [Forum](http://processhacker.sourceforge.net/forums/)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://processhacker.sourceforge.net/</projectUrl>
     <projectSourceUrl>https://sourceforge.net/p/processhacker/code/HEAD/tree/</projectSourceUrl>
     <bugTrackerUrl>http://wj32.org/processhacker/forums/viewforum.php?f=24</bugTrackerUrl>

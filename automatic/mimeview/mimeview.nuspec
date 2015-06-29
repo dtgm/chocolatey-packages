@@ -12,6 +12,7 @@ This utility displays the list of all MIME types defined in your system.
 
 For each MIME type, information about the associated file extension and installed plugin is also displayed.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/mimeview.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/mimeview.png</iconUrl>
     <tags>mime viewer</tags>

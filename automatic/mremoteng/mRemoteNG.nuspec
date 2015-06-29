@@ -23,6 +23,7 @@ It allows you to view all of your remote connections in a simple yet powerful ta
 * Raw Socket Connections
     </description>
     <tags>remote manager rdp vnc ssh ica telnet</tags>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.mremoteng.org/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/f7504b3a5163574dde235f4b38b5e43d28903661/icons/mRemoteNG.png</iconUrl>
     <copyright>© Riley McArdle</copyright>

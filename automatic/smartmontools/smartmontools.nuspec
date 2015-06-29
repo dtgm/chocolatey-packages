@@ -21,6 +21,7 @@ See [GSmartControl](https://chocolatey.org/packages/gsmartcontrol) for a GTK GUI
 * [Manual](http://www.smartmontools.org/wiki/TocDoc)
 * [Developer](http://www.smartmontools.org/wiki/TocDeveloper)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.smartmontools.org/</projectUrl>
     <projectSourceUrl>http://www.smartmontools.org/browser/trunk/smartmontools</projectSourceUrl>
     <bugTrackerUrl>http://www.smartmontools.org/report/19</bugTrackerUrl>

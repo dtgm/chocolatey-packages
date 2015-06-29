@@ -30,6 +30,7 @@ For any organizational use (non-commercial or commercial) or to remove the limit
 #### Example
 * `choco install {{PackageName}} -packageparameters '"/InstallLocation=C:\temp"'`
   </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.bitvise.com/ssh-server</projectUrl>
     <tags>ssh server</tags>
     <copyright>Bitvise Limited</copyright>

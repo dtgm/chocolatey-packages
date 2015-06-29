@@ -19,6 +19,7 @@ Official ports exist for Linux, DOS, Mac OS X, Windows, and an unofficial port f
 ### Requirements
 * ZSNES for Windows requires DirectX 8.0 or greater to run.  Note, DirectX 8.0 was released November 12, 2000.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.zsnes.com/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/1b2a037ff918443eddb449949d357e7362020c98/icons/{{packageName}}.png</iconUrl>
     <tags>emulator snes gaming</tags>

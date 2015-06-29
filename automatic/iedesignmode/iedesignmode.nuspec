@@ -14,6 +14,7 @@ When a Web page in in design mode, you can change the location of images and oth
 
 After you made your changes, you can easily switch back to non-design mode and/or save the modified Web page to HTML file.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/ie_design_mode.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/iedesignmode.png</iconUrl>
     <tags>ie design-mode</tags>

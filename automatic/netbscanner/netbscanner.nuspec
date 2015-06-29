@@ -16,6 +16,7 @@ NetBScanner also shows whether a computer is a Master Browser.
 
 You can easily select one or more computers found by NetBScanner, and then export the list into csv/tab-delimited/xml/html file. 
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/netbios_scanner.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/netbscanner.png</iconUrl>
     <tags>network scanner netbios</tags>

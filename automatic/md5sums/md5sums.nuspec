@@ -22,6 +22,7 @@ This is a win32 console application. There is no GUI, but you can use Explorer t
 
 [FAQ](http://www.pc-tools.net/faq.shtml)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.pc-tools.net/win32/md5sums/</projectUrl>
     <tags>cli md5 checksum files rfc1321</tags>
     <copyright>© 2004 Jem Berkes</copyright>

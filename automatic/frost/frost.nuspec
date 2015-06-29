@@ -17,6 +17,7 @@ If you know how to use newsgroups, you'll find Frost very easy to use and will f
 [Screenshots](http://jtcfrost.sourceforge.net/screenshots.html)
 [Wiki](https://sourceforge.net/p/jtcfrost/wiki/Home/)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://jtcfrost.sourceforge.net/</projectUrl>
     <projectSourceUrl>https://sourceforge.net/p/jtcfrost/code/HEAD/tree/</projectSourceUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/07028d1765480c85ca1578820fd82629f261f471/icons/frost.png</iconUrl>

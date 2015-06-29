@@ -34,6 +34,7 @@ Previously known as __md5deep__
   
 Note: append `64` to above commands to execute the 64-bit version
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>https://github.com/jessek/hashdeep</projectUrl>
     <projectSourceUrl>https://github.com/jessek/hashdeep</projectSourceUrl>
     <bugTrackerUrl>https://github.com/jessek/hashdeep/issues</bugTrackerUrl>

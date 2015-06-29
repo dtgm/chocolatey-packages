@@ -19,6 +19,7 @@ Path-Manager is a small utility for easy management of environment variables. It
 #### Maintainer's note
 `path-manager` appears to be a recoded derivative of [pathmanager](https://chocolatey.org/packages/pathmanager)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>https://sourceforge.net/projects/pathtool/</projectUrl>
     <projectSourceUrl>https://sourceforge.net/projects/pathtool/files/Source/</projectSourceUrl>
     <docsUrl>https://sourceforge.net/p/pathtool/code/ci/master/tree/Readme.md</docsUrl>

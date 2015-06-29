@@ -10,6 +10,7 @@
     <description>
 This program will split a large file into a number of smaller sections. You can either specify the desired size of each partition, or give the name of a disk drive onto which multiple partitions will be copied.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.pc-tools.net/win32/{{PackageName}}/</projectUrl>
     <tags>cli file split</tags>
     <copyright>© 2004 Jem Berkes</copyright>

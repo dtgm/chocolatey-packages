@@ -14,6 +14,7 @@ It disables the desired ActiveX component by setting the &quot;kill bit&quot; of
 
 For more information about this Registry key, read this [Microsoft article](http://support.microsoft.com/default.aspx?kbid=240797).
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/acm.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/acm.png</iconUrl>
     <tags>activex component ie</tags>

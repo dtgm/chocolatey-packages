@@ -12,6 +12,7 @@ Overwrites the blank space on a disk with random data, destroying any previously
 
 WARNING: The level of data security offered by WipeFree is minimal. Effectiveness depends on the file system, operating system and upon other programs (which may intercept data).
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.pc-tools.net/win32/{{PackageName}}/</projectUrl>
     <tags>cli overwrite</tags>
     <copyright>© 2004 Jem Berkes</copyright>

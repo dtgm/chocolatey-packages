@@ -16,6 +16,7 @@ double-clicking the desired Registry item.
 
 You can also export the found Registry values into a .reg file that can be used in RegEdit.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/regscanner.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/regscanner.png</iconUrl>
     <tags>scanner regedit scan search find windows</tags>

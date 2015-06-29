@@ -17,6 +17,7 @@ OpenStego is a steganography application that provides two functionalities: a) D
 #### Community
 * [Forum](https://sourceforge.net/p/{{PackageName}}/discussion/)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.openstego.info/</projectUrl>
     <projectSourceUrl>https://sourceforge.net/p/{{PackageName}}/code/HEAD/tree/java/trunk/</projectSourceUrl>
     <bugTrackerUrl>https://sourceforge.net/p/{{PackageName}}/bugs/</bugTrackerUrl>

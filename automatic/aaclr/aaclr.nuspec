@@ -21,6 +21,7 @@ AAClr also detects changes in wallpapers by catching events from the system and 
 And about resource usage: AAClr uses less than 2MB of private bytes - I think that's not too much.
 
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://stefanstools.sourceforge.net/AAClr.html</projectUrl>
     <projectSourceUrl>https://code.google.com/p/stexbar/source/browse/#svn%2Ftrunk%2FMisc%2FAAClr</projectSourceUrl>
     <tags>tray aero customization</tags>

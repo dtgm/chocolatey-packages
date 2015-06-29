@@ -20,6 +20,7 @@ WinSCP is an open source free SFTP client, SCP client, FTPS client and FTP clien
 #### Community
 * [Forum](http://winscp.net/forum/index.php)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://winscp.net/</projectUrl>
     <projectSourceUrl>http://sourceforge.net/p/winscp/code/</projectSourceUrl>
     <bugTrackerUrl>http://winscp.net/tracker/</bugTrackerUrl>

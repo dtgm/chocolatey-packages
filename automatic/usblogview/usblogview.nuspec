@@ -12,6 +12,7 @@ USBLogView is a small utility that runs in the background and records the detail
 
 For every log line created by USBLogView, the following information is displayed: Event Type (Plug/Unplug), Event Time, Device Name, Description, Device Type, Drive Letter (For storage devices), Serial Number (Only for some types of devices), Vendor ID, Product ID, Vendor Name, Product Name, and more...
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/usb_log_view.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/usblogview.png</iconUrl>
     <tags>usb log record plug unplug</tags>

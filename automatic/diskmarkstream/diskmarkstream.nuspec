@@ -11,6 +11,7 @@
 DiskMarkStream is an automatic macro tool specially designed for CrystalDiskMark (CDM). It will start CDM with predefined settings and at completion of each test, will save screenshot and log then move on to next test. This consecutive unattended operation will help user to test various conditions and multiple drives at ease.
 
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>https://sourceforge.net/p/diskmarkstream/home/Home/</projectUrl>
     <projectSourceUrl>https://sourceforge.net/p/diskmarkstream/git/ci/master/tree/</projectSourceUrl>
     <tags>automation crystaldiskmark benchmark storage drive</tags>

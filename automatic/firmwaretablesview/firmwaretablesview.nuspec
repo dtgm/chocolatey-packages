@@ -12,6 +12,7 @@ FirmwareTablesView is a simple tool for Windows that displays a list of firmware
 
 You can view the content of these tables in Hex-dump format and export them to a binary file.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/firmware_tables_view.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/firmwaretablesview.png</iconUrl>
     <tags>hex binary firmware acpi bios</tags>

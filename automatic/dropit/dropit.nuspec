@@ -40,6 +40,7 @@ Currently DropIt allows to perform the following 20 actions on your files and fo
 * Ignore: to ignore files/folders and skip them during process.
 
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.dropitproject.com/</projectUrl>
     <projectSourceUrl>https://sourceforge.net/p/dropit/code/HEAD/tree/</projectSourceUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/bdb8f2b28d0c7ddd767ae0a1ed97a1c06366215d/icons/{{PackageName}}.png</iconUrl>

@@ -14,6 +14,7 @@ It displays the list of all installed application, and allows you to uninstall a
 
 MyUninstaller also provides additional information for most installed applications that the standard Add/Remove applet doesn't display: product name, company, version, uninstall string, installation folder and more.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/myuninst.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/myuninst.png</iconUrl>
     <tags>uninstaller</tags>

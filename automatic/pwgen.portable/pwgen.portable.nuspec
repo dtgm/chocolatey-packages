@@ -13,6 +13,7 @@ PWGen is a professional password generator capable of creating large amounts of 
 [Screenshots](https://sourceforge.net/p/pwgen-win/wiki/)
 [Forum](https://sourceforge.net/p/pwgen-win/discussion/)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://pwgen-win.sourceforge.net/</projectUrl>
     <projectSourceUrl>https://sourceforge.net/projects/pwgen-win/files/PWGen/{{PackageVersion}}/</projectSourceUrl>
     <bugTrackerUrl>https://sourceforge.net/p/pwgen-win/bugs/</bugTrackerUrl>

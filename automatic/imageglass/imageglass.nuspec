@@ -20,6 +20,7 @@ ImageGlass is a simple picture viewer with which you will be able to display you
 * [Google+](https://plus.google.com/+ImageglassOrg)
     </description>
     <language>en-us</language>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.imageglass.org/</projectUrl>
     <projectSourceUrl>https://github.com/d2phap/ImageGlass</projectSourceUrl>
     <bugTrackerUrl>https://github.com/d2phap/ImageGlass/issues</bugTrackerUrl>

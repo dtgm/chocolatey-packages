@@ -19,6 +19,7 @@ For better performances, the 64-bit version is highly recommended.
 Minimum requirement: Windows XP or later.
 
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>https://sourceforge.net/projects/whirlpoolfilech/</projectUrl>
     <projectSourceUrl>http://sourceforge.net/projects/whirlpoolfilech/files/{{PackageVersion}}/WFileCheck_source.7z/download</projectSourceUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/631092ff9e195e3830e34322e4adbd9409fde985/icons/{{PackageName}}.png</iconUrl>

@@ -14,6 +14,7 @@ Inno Setup is a tool to create installers for Microsoft Windows applications. in
     <releaseNotes>
 [Changelog](http://constexpr.org/innoextract/changelog)
     </releaseNotes>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://constexpr.org/innoextract/</projectUrl>
     <projectSourceUrl>https://github.com/dscharrer/innoextract</projectSourceUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/d4bc8c0cf5812db2a120b502951c49060a0bd22c/icons/{{PackageName}}.png</iconUrl>

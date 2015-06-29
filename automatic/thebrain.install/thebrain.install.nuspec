@@ -21,6 +21,7 @@ Organize and Find Everything the Way You Think
 * After 30 days, all content created with advanced features remains accessible indefinitely.  Some advanced features are disabled and may be restored at any time by purchasing a license.  
 * For a comparison matrix of features supported by each license, see http://www.thebrain.com/store/version-details/
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.thebrain.com/</projectUrl>
     <tags>mindmap brainstorm concept-map file-management</tags>
     <copyright>© TheBrain Technologies LP</copyright>

@@ -18,6 +18,7 @@ Any storage: Syncany uses a plug-in based storage system. It can be used with an
 [User guide](http://syncany.readthedocs.org/en/latest/)
 [Wiki](https://github.com/syncany/syncany/wiki)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>https://www.syncany.org/</projectUrl>
     <projectSourceUrl>https://github.com/syncany/syncany</projectSourceUrl>
     <mailingListUrl>https://launchpad.net/~syncany-team</mailingListUrl>

@@ -27,6 +27,7 @@ GUI
 CLI
 * HandBrakeCLI.exe
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://handbrake.fr/</projectUrl>
     <bugTrackerUrl>https://forum.handbrake.fr/viewforum.php?f=12</bugTrackerUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/a9745b5bde6672b15e1495fdda70fc14e3260226/icons/handbrake.png</iconUrl>

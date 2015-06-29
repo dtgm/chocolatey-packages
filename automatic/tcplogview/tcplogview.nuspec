@@ -15,6 +15,7 @@ For every log line, the following information is displayed:
 Even Time, Event Type (Open, Close, Listen), Local Address, Remote Address, Remote Host Name, Local Port, Remote Port, Process ID,
 Process Name, and the country information of the Remote IP (Requires to download IP to country file separately.)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/tcp_log_view.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/tcplogview.png</iconUrl>
     <tags>connections log view open closed listen</tags>

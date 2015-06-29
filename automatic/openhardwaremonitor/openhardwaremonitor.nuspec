@@ -11,6 +11,7 @@
 Open Hardware Monitor supports most hardware monitoring chips found on todays mainboards. The CPU temperature can be monitored by reading the core temperature sensors of Intel and AMD processors. The sensors of ATI and Nvidia video cards as well as SMART hard drive temperature can be displayed. The monitored values can be displayed in the main window, in a customizable desktop gadget, or in the system tray. The free Open Hardware Monitor software runs on 32-bit and 64-bit Microsoft Windows XP / Vista / 7 and any x86 based Linux operating systems without installation.
 
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://openhardwaremonitor.org</projectUrl>
     <projectSourceUrl>https://code.google.com/p/open-hardware-monitor/source/browse/#svn/trunk</projectSourceUrl>
     <docsUrl>http://openhardwaremonitor.org/documentation/</docsUrl>

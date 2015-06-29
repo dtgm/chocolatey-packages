@@ -10,6 +10,7 @@
     <description>
 Detects and remove spyware, adware, malware, trojans, rogue software, worms, rootkits, parasites and other potentially harmful software applications, as well as restore modified system settings.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.superantispyware.com/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/d1e037cc7c943fda29b9067b3b1c3229d99402ff/icons/{{PackageName}}.png</iconUrl>
     <tags>notSilent anti-spyware anti-malware adware trojan</tags>

@@ -16,6 +16,7 @@ You can also use SiteShoter to convert .html file on your local drive into image
 
 You can use SiteShoter in user interface mode, or alternatively, you can run SiteShoter in command-line mode without displaying any user interface.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/web_site_screenshot.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/siteshoter.png</iconUrl>
     <tags>screenshot capture image ie gif png</tags>

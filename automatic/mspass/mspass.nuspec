@@ -29,6 +29,7 @@ MessenPass can only be used to recover the passwords for the current logged-on u
 
 You cannot use this utility for grabbing the passwords of other users. 
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/mspass.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/mspass.png</iconUrl>
     <tags>recovery recover crack instant messenger im msn icq yahoo trillian freeware</tags>

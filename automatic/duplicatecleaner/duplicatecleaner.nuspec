@@ -14,6 +14,7 @@ Duplicate Cleaner will deep scan for all types of files - photos, music, films, 
 
 This package installs the free, non-commercial usage version.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.digitalvolcano.co.uk/duplicatecleaner.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/f782e9a976592d6a8e172bf28073de77b3972b73/icons/{{packageName}}.png</iconUrl>
     <tags>file-duplicates deduplication</tags>

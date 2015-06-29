@@ -12,6 +12,7 @@ Starting from Windows Vista, Microsoft uses symbolic links and junction points o
 
 This utility simply shows you a list of all symbolic links and junctions in the specified folder, and their target paths. It also allows you to save the symbolic links/junctions list into text/html/xml/csv file.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/ntfs_links_view.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/ntfslinksview.png</iconUrl>
     <tags>view junction symbolic links</tags>

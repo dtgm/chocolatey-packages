@@ -14,6 +14,7 @@ These ads consumes additional bandwidth and sometimes even slow down your comput
 
 Unfortunately, Internet Explorer doesn't provide a simple way to disable the Flash component. Furthermore, if you refuse to install the Flash component, Internet Explorer will constantly ask you to install Flash in each time that you enter into a Web page that contains a Flash object. 
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/tflash.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/tflash.png</iconUrl>
     <tags>cli flash block</tags>

@@ -25,6 +25,7 @@ Hugin also uses a separate (background) panorama stitcher. This means that you c
 
 Starting with version 2011.2.0, Hugin is scriptable in Python. The scripting functionality is still in its infancy and requires more development and testing. For now it is available only in Linux and Windows, and currently there is no feedback from the plugin apart from it's success or failure, which is communicated in a dialog. If you're on Linux, you can start hugin from the command line and switch to the window you started it from while the plugin is running - then you'll see any console output it may produce.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://hugin.sourceforge.net/</projectUrl>
     <tags>photo image panorama</tags>
     <copyright>© Pablo d'Angelo</copyright>

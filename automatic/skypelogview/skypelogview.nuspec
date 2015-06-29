@@ -13,6 +13,7 @@ transfers made by the specified Skype account.
 
 You can select one or more items from the logs list, and then copy them to the clipboard, or export them into text/html/csv/xml file.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/skype_log_view.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/skypelogview.png</iconUrl>
     <tags>log dbb</tags>

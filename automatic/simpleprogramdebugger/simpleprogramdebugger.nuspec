@@ -12,6 +12,7 @@ SimpleProgramDebugger is a simple debugging tool for Windows that attaches to ex
 
 After the debugging events are accumulated, you can easily export them into comma-delimited/tab-delimited/xml/html file or copy them to the clipboard and then paste them into Excel or any other spreadsheet application.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/simple_program_debugger.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/simpleprogramdebugger.png</iconUrl>
     <tags>debugger program events</tags>

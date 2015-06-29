@@ -12,6 +12,7 @@ AltStreamDump is a console application (Command Prompt) that dumps the list of N
 
 By using a few command-line options, you can also instruct AltStreamDump to displays the alternate streams list of other folders and to scan subfolders in the desired folder depth.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/alternate_stream_dump.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/altstreamdump.png</iconUrl>
     <tags>streams dump</tags>

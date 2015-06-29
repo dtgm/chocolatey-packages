@@ -20,6 +20,7 @@ Mooncoin is intended to provide the thrill of big coin hunting and trading but w
 ### Source code
 * https://github.com/Mooncoin-project/Mooncoin
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://mooncoin.com/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/5ddac7b24255386ee6dad21cbb37e8bffffcb1fa/icons/{{PackageName}}.svg</iconUrl>
     <tags>mooncoin moon wallet cryptocurrency p2p</tags>

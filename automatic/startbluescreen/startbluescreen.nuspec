@@ -10,6 +10,7 @@
     <description>
 This utility, just as it sounds, allows your to crash the Windows operating system by initiating a Blue Screen of Death according to 5 parameters that you specify from command-line.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/start_blue_screen.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/startbluescreen.png</iconUrl>
     <tags>debug bsod</tags>

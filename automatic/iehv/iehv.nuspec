@@ -12,6 +12,7 @@ Each time that you type a URL in the address bar or click on a link in Internet 
 
 When you type a sequence of characters in the address bar, Internet Explorer automatically suggests you all URLs that begins with characters sequence that you typed (unless AutoComplete feature for Web addresses is turned off). However, Internet Explorer doesn't allow you to view and edit the entire URL list that it stores inside the history file.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/iehv.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/iehv.png</iconUrl>
     <tags>internet explorer ie history view</tags>

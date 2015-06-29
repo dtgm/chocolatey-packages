@@ -26,6 +26,7 @@ Save time in your development cycles by starting with a precompiled Tcl distribu
 ### Edition installed
 Free [Community Edition](http://www.activestate.com/languages/compare-editions)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.activestate.com/activetcl</projectUrl>
     <projectSourceUrl>https://github.com/ActiveState/tcl</projectSourceUrl>
     <bugTrackerUrl>http://bugs.activestate.com/ActiveTcl/query.cgi</bugTrackerUrl>

@@ -14,6 +14,7 @@ Later, when you need the copied data again, you can simply select the right clip
 
 Clipboardic also allows you to easily share the clipboard data between multiple computers on your local network.  
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/clipboardic.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/clipboardic.png</iconUrl>
     <tags>clipboard share save</tags>

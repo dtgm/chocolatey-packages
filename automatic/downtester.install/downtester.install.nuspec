@@ -17,6 +17,7 @@ It moves to the next download URL after the specified number of seconds has been
 After the download test is finished, you can easily save the result into text/html/xml/csv file, or copy it to the clipboard and 
 paste it into Excel and other applications.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/download_speed_tester.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/downtester.png</iconUrl>
     <tags>broadband download speed test</tags>

@@ -25,6 +25,7 @@ RetroShare provides filesharing, chat, messages, forums and channels
 * [Twitter](https://twitter.com/retroshare)
 * [Blog](https://retroshareteam.wordpress.com/)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://retroshare.sourceforge.net/</projectUrl>
     <projectSourceUrl>https://sourceforge.net/p/retroshare/code/HEAD/tree/</projectSourceUrl>
     <bugTrackerUrl>https://sourceforge.net/p/retroshare/bugs/</bugTrackerUrl>

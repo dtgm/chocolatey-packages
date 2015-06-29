@@ -15,6 +15,7 @@ Kodos is a Python GUI utility for creating, testing and debugging regular expres
 [Screenshots](http://kodos.sourceforge.net/screenshots.html)
 [Main interface window](http://kodos.sourceforge.net/mainwin.html)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://kodos.sourceforge.net/</projectUrl>
     <projectSourceUrl>https://sourceforge.net/projects/kodos/files/kodos/{{PackageVersion}}/kodos-{{PackageVersion}}.zip/download/</projectSourceUrl>
     <bugTrackerUrl>https://sourceforge.net/p/kodos/bugs/</bugTrackerUrl>

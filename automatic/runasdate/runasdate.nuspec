@@ -16,6 +16,7 @@ date/time that you specify into the desired application.
 You can run multiple applications simultaneously, each application works with different date and time,
 while the real date/time of your system continues to run normally.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/run_as_date.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/runasdate.png</iconUrl>
     <tags>as date software windows</tags>

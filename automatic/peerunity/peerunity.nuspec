@@ -23,6 +23,7 @@ To help facilitate broad community cooperation, a number of trusted Peercoin/Pee
 ### Source code
 * https://github.com/Peerunity/Peerunity
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://peercoin.net/wallet</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/1da36fc47d868c27f466e911165b3a45391099d6/icons/{{PackageName}}.svg</iconUrl>
     <tags>peercoin peershare ppc wallet cryptocurrency p2p</tags>

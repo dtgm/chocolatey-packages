@@ -14,6 +14,7 @@ For every record found in the Jump Lists, the following information is displayed
 
 You can also export the Jump Lists records to csv/tab-delimited/xml/html file.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/jump_lists_view.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/jumplistsview.png</iconUrl>
     <tags>jumplist view</tags>

@@ -17,6 +17,7 @@ This package installs geany with the GTK runtime environment as a required depen
 [Manual](http://www.geany.org/Documentation/Manual)
 [Wiki](http://wiki.geany.org/)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.geany.org/</projectUrl>
     <projectSourceUrl>https://github.com/geany/geany</projectSourceUrl>
     <tags>text editor ide scintilla</tags>

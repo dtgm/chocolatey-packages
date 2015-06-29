@@ -14,6 +14,7 @@ The crashes information is extracted from the .wer files created by the Windows 
 
 AppCrashView also allows you to easily save the crashes list to text/csv/html/xml file.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/app_crash_view.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/appcrashview.png</iconUrl>
     <tags>crash .wer view vista</tags>

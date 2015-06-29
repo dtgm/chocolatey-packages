@@ -10,6 +10,7 @@
     <description>
 Link Shell Extension (LSE) provides for the creation of Hardlinks , Junctions , Volume Mountpoints , and Windows7/8's Symbolic Links, (herein referred to collectively as Links) a folder cloning process that utilises Hardlinks or Symbolic Links and a copy process taking care of Junctions, Symbolic Links, and Hardlinks. LSE, as its name implies is implemented as a Shell extension and is accessed from Windows Explorer, or similar file/folder managers.  The extension allows the user to select one or many files or folders, then using the mouse, complete the creation of the required Links - Hardlinks, Junctions or Symbolic Links or in the case of folders to create Clones consisting of Hard or Symbolic Links. LSE is supported on all Windows versions that support NTFS version 5.0 or later, including Windows XP64 and Windows7/8.  Hardlinks, Junctions and Symbolic Links are NOT supported on FAT file systems, and nor is the Cloning and Smart Copy process supported on FAT file systems.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://schinagl.priv.at/nt/hardlinkshellext/hardlinkshellext.html</projectUrl>
     <tags>explorer extension junction hardlink symboliclink freeware</tags>
     <copyright>© 1999 Hermann Schinagl</copyright>

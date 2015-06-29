@@ -12,6 +12,7 @@ The ZipInstaller utility installs and uninstalls applications and utilities that
 
 It automatically extracts all files from the Zip file, copies them to the destination folder you select, creates shortcuts in the start menu and in your desktop, and adds an uninstall module to allow you to automatically remove the software in the future.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/zipinst.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/zipinst.png</iconUrl>
     <tags>install installer automatic uninstall self-install executables</tags>

@@ -19,6 +19,7 @@ For example, You can use DriverView utility to save 2 snapshots of loaded driver
 and then use TableTextCompare to easily find out which device drivers were added, removed, or changed 
 since the time that the first snapshot was taken.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/csv_file_comparison.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/tabletextcompare.png</iconUrl>
     <tags>csv tab-delimited text file snapshot</tags>
