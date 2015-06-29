@@ -47,9 +47,7 @@ Install-ChocolateyPath "$installDir" 'User'
 move-item $(Join-Path $binRoot $fileName) $mongoPath -force
 
 $dataDir = Join-Path $mongoPath 'data'
-if (!$(Test-Path $dataDir)) {
-  mkdir $dataDir
-}
+if (!$(Test-Path $dataDir)) {mkdir $dataDir}
 $logsDir = Join-Path $mongoPath 'logs'
 if (!$(Test-Path $logsDir)){mkdir $logsDir}
 if (!$(Test-Path $tempDir)){mkdir $tempDir}

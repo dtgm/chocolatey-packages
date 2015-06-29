@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>retroshare</id>
+    <title>RetroShare</title>
+    <version>0.6.0-.18.032</version>
+    <authors>RetroShare Team</authors>
+    <owners>dtgm</owners>
+    <summary>Secured and decentralized communication system</summary>
+    <description>
+RetroShare is a Open Source cross-platform, Friend-2-Friend and secure decentralised communication platform.
+
+It lets you to securely chat and share files with your friends, family and coworkers, using a web-of-trust to authenticate peers and OpenSSL to encrypt all communication. 
+
+RetroShare provides filesharing, chat, messages, forums and channels
+
+#### Documentation
+* [Screenshots](http://retroshare.sourceforge.net/screenshots.html)
+* [FAQ](http://retroshare.sourceforge.net/wiki/index.php/Frequently_Asked_Questions)
+* [Wiki](http://retroshare.sourceforge.net/wiki/index.php/Main_Page)
+* [Manual](http://retroshare.sourceforge.net/wiki/index.php/Documentation)
+
+#### Community
+* [Forum](http://retroshare.sourceforge.net/forum/)
+* [Twitter](https://twitter.com/retroshare)
+* [Blog](https://retroshareteam.wordpress.com/)
+    </description>
+    <projectUrl>http://retroshare.sourceforge.net/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/ad1fa54f9834f37c0f92404b8e40974a5498e5d7/icons/retroshare.png</iconUrl>
+    <tags>p2p chat file-sharing wot security</tags>
+    <copyright>© 2009 RetroShare Team</copyright>
+    <licenseUrl>https://www.gnu.org/licenses/gpl.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [News](https://sourceforge.net/p/retroshare/news/)
+* [Roadmap](https://sourceforge.net/p/retroshare/code/HEAD/tree/trunk/TODO.txt)
+* [Changelog](http://sourceforge.net/p/retroshare/code/HEAD/tree/trunk/retroshare-gui/src/changelog.txt)
+* [Known issues](https://sourceforge.net/p/retroshare/bugs/)
+* [Source code](https://sourceforge.net/p/retroshare/code/HEAD/tree/)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
