@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>Syncless</title>
+    <version>{{PackageVersion}}</version>
+    <authors>big5sync</authors>
+    <owners>dtgm</owners>
+    <summary>Open-source and free synchronization tool so seamless you'll forget about it</summary>
+    <description>
+What makes Syncless so unique is the way synchronization is performed. The current paradigm in the way file synchronization is done is to create a job by setting folder pairs and then start synchronizing. Syncless does away with this completely by introducing the concept of folder tagging. No VSS (Volume Shadow Support): cannot sync open files.
+
+The concept of tagging has been applied by notable applications in various interesting ways. Facebook allows users to tag people into photos and almost all blog engines allows users to tag posts as a form of categorization. The main reason behind the increased use of tagging is because tagging is a very natural thought process that everyone does when trying to associate words or concepts with the unfamiliar.
+
+By applying this simple and natural idea to file synchronization, users will be able to synchronize folders by simply tagging different folders with the same tag, resulting in a near seamless experience in synchronization. A group of folders with the same tag will always be kept in sync automatically in real-time by Syncless, without any need for user intervention.
+
+### Documentation
+
+[Wiki](https://code.google.com/p/big5sync/w/list)
+[User](https://code.google.com/p/big5sync/wiki/UserGuide)
+[Developer](https://code.google.com/p/big5sync/wiki/DeveloperGuide)
+    </description>
+    <projectUrl>http://code.google.com/p/big5sync/</projectUrl>
+    <projectSourceUrl>https://code.google.com/p/big5sync/source/</projectSourceUrl>
+    <bugTrackerUrl>https://code.google.com/p/big5sync/wiki/KnownIssues20</bugTrackerUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/ad32e2142c40713cb74e265c9201f8cb8d7aa6ae/icons/{{PackageName}}.png</iconUrl>
+    <tags>tagging synchronization backup</tags>
+    <copyright>© big5sync</copyright>
+    <licenseUrl>http://www.gnu.org/licenses/gpl-3.0.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[Changelog](https://code.google.com/p/big5sync/wiki/Changelog)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
