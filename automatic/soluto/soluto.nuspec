@@ -38,6 +38,7 @@ Soluto can provide additional remote management and reporting features by creati
 [FAQ](https://www.soluto.com/contact-us/faqs)
 [User Support](https://support.soluto.com)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>https://www.soluto.com/</projectUrl>
     <bugTrackerUrl>https://support.soluto.com/entries/20516273-read-this-first-known-issues</bugTrackerUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/55ce3c2643c3292374f558f3f37e23c17ed29d82/icons/{{PackageName}}.png</iconUrl>

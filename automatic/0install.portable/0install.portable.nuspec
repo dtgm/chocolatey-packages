@@ -17,6 +17,7 @@ Zero Install also has some interesting features not often found in traditional p
 [Documentation: Portable](https://0install.de/about/portable/)
 [Documentation: Developer](https://0install.de/source/)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>https://0install.de/</projectUrl>
     <projectSourceUrl>https://github.com/0install/0install-win</projectSourceUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/23daa374e2e649e33d1f4b3ffe2ce07cb1614cd3/icons/0install.png</iconUrl>

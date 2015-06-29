@@ -16,6 +16,7 @@ Free with limited functionality: synchronize a maximum of 100 private files via 
 [User manual](https://www.goodsync.com/manual)
 [FAQ](https://www.goodsync.com/faq)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>https://www.goodsync.com/for-windows-desktop</projectUrl>
     <tags>trial-version sync cloud</tags>
     <copyright>© 2009 Siber Systems</copyright>

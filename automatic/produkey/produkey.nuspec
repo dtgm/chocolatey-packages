@@ -16,6 +16,7 @@ operating system/computer - by using command-line options.
 This utility can be useful if you lost the product key of your Windows/Office, and you want
 to reinstall it on your computer.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/product_cd_key_viewer.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/produkey.png</iconUrl>
     <tags>lost cd-key microsoft product key office windows vista 2003 2007 2010 adobe</tags>

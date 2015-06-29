@@ -33,6 +33,7 @@ Basic idea behind GUI is, to keep it simple! Thus, only those options are implem
 * [Manual](http://u88.n24.queensu.ca/~bogdan/)
 * [Metadata articles](http://u88.n24.queensu.ca/~bogdan/articles/)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://u88.n24.queensu.ca/~bogdan/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/517692195d8ed24a5bd72aa9d91877c64d67438a/icons/{{PackageName}}.png</iconUrl>
     <tags>metadata exif frontend freeware</tags>

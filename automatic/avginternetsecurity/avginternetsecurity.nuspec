@@ -26,6 +26,7 @@ This package installs a 30 day trial version of the commercial program AVG Inter
 * [Twitter](https://twitter.com/avgfree)
 * [LinkedIn](http://www.linkedin.com/company/avg)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.avg.com/internet-security</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/d1e037cc7c943fda29b9067b3b1c3229d99402ff/icons/{{PackageName}}.png</iconUrl>
     <tags>trial security firewall antivirus antispyware</tags>

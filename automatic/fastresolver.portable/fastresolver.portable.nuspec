@@ -16,6 +16,7 @@ For local network, FastResolver also allows you to get the MAC address of all IP
 
 FastResolver is a multithreaded application, so it can resolve dozens of addresses within a few seconds.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/fastresolver.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/fastresolver.png</iconUrl>
     <tags>multiple host names ip addresses</tags>

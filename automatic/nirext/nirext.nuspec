@@ -16,6 +16,7 @@ The NirExt utility adds 3 useful context menu extensions to your Windows Explore
 * Advanced Run: This option is available in the context menu when you right-click on an executable file (*.EXE). It allows you to instantly run an application with command-line and some other options.
 * Create Shortcut: This option is available in the context menu when you right-click on any file in your system. It allows you to instantly create a shortcut and drop it into one of the following folders: Desktop, Start Menu, Programs folder under Start Menu, Common Desktop (for all users), Common Start Menu (for all users), and Common Programs folder (for all users) under Start Menu.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/nirext.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/nirext.png</iconUrl>
     <tags>icon context menu extension</tags>

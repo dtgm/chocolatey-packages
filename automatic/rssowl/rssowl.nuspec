@@ -8,6 +8,7 @@
     <owners>dtgm</owners>
     <licenseUrl>http://www.rssowl.org/legal/epl-v10.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.rssowl.org/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/0ecce39e0968d5e99c1848096edc115cb3fffb62/icons/rssowl.png</iconUrl>
     <summary>RSSOwl is a free and powerful news feed reader</summary>   

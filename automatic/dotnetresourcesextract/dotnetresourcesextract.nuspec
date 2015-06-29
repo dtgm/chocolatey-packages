@@ -10,6 +10,7 @@
     <description>
 DotNetResourcesExtract is a small utility that scan dll/exe files of .NET applications, and extract all .NET embedded resources (Bitmaps, Gifs, HTML files, and so on) stored in them into the folder that you specify.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/dot_net_resources_extract.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/a538e55f975929b2f4eddd8149f7a41f74094119/icons/dotnetresourcesextract.gif</iconUrl>
     <tags>extract resources</tags>

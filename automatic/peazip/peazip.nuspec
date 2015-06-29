@@ -14,6 +14,7 @@ The program supports over 150 archive formats including 7Z, ACE, ARC, ARJ, BZ2, 
 
 Features of PeaZip includes extract, create and convert multiple archives at once, create self-extracting archives, split/join, encrypted password manager, strong encryption with two factor authentication, secure deletion, find duplicate files, calculate hashes, manage graphic files (rotate, crop, resize, convert).
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://peazip.sourceforge.net/</projectUrl>
     <projectSourceUrl>http://sourceforge.net/projects/peazip/files/{{PackageVersion}}/peazip-{{PackageVersion}}.src.zip/download</projectSourceUrl>
     <bugTrackerUrl>https://sourceforge.net/p/peazip/tickets/</bugTrackerUrl>

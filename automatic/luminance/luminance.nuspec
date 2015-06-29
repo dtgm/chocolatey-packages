@@ -32,6 +32,7 @@ Luminance HDR is an open source graphical user interface application that aims t
 * Copy exif data between sets of images
 * Supports internationalization
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://qtpfsgui.sourceforge.net</projectUrl>
     <tags>photo image picture hdr</tags>
     <copyright>© Davide Anastasia</copyright>

@@ -24,6 +24,7 @@ Kaspersky Internet Security combines antivirus protection with a personal firewa
 #### Trial software (30 days)
 This package installs the Free 30-day trial version of Kaspersky Internet Security. For purchase info, see http://www.kaspersky.com/internet-security
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://usa.kaspersky.com/downloads/free-home-trials/internet-security</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/dd7121af88611d4f92e29187d065ba9a0fcaedeb/icons/{{PackageName}}.png</iconUrl>
     <tags>trial security firewall antivirus antispyware</tags>

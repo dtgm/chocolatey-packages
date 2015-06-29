@@ -22,6 +22,7 @@ iTALC has been designed for usage in school, therefore it offers a lot of possib
 
 Furthermore iTALC is optimized for usage on multi-core systems (by making heavy use of threads). No matter how many cores you have, iTALC can make use of all of them. 
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://italc.sourceforge.net/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/master/icons/italc.png</iconUrl>
     <tags>classroom-management remote-control</tags>

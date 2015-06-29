@@ -19,6 +19,7 @@ CPU-Z is a freeware that gathers information on some of the main devices of your
 * [FAQ](http://www.cpuid.com/softwares/cpu-z.html#faq)
 * [Manual](http://www.cpuid.com/softwares/cpu-z.html#install)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.cpuid.com/softwares/cpu-z.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/3ef1b07d454c0560a5a89eae545b79af6a10d588/icons/cpu-z.png</iconUrl>
     <tags>system information hardware</tags>

@@ -14,6 +14,7 @@ For each cache file, the following information is displayed: URL, Content type, 
 
 You can easily select one or more items from the cache list, and then extract the files to another folder, or copy the URLs list to the clipboard.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/opera_cache_view.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/operacacheview.png</iconUrl>
     <tags>opera cache viewer</tags>

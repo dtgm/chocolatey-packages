@@ -29,6 +29,7 @@ DreamPie was designed from the ground up to bring you a great interactive Python
 Some of the code is based on IDLE - the IDE shipped with Python. I contributed the AutoComplete feature to IDLE, and worked with it quite a lot, but became frustrated with its limitations. So I decided to write a new interactive shell, which will combine the best of IDLE, IPython and the plain old Python shell.
 
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.dreampie.org/</projectUrl>
     <projectSourceUrl>https://github.com/noamraph/dreampie</projectSourceUrl>
     <tags>python shell</tags>

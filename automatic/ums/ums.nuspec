@@ -23,6 +23,7 @@ UMS is a fork of [PS3 Media Server](https://chocolatey.org/packages/ps3mediaserv
 #### Community
 * [Forum](http://www.universalmediaserver.com/forum/)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.universalmediaserver.com/</projectUrl>
     <projectSourceUrl>https://github.com/UniversalMediaServer/UniversalMediaServer/</projectSourceUrl>
     <bugTrackerUrl>https://github.com/UniversalMediaServer/UniversalMediaServer/issues</bugTrackerUrl>

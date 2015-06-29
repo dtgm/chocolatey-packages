@@ -17,6 +17,7 @@ Game Downloader is a portable and open source download client, which interacts w
 * Small and Portable.
 
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://dev-fire-gd.sourceforge.net/</projectUrl>
     <projectSourceUrl>http://sourceforge.net/projects/dev-fire-gd/files/Game%20Downloader%20{{PackageVersion}}/</projectSourceUrl>
     <tags>game downloads digital-distribution content-delivery game-store</tags>

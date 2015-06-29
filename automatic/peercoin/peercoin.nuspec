@@ -21,6 +21,7 @@ Peercoin was launched in 2012, making it one of the oldest and most reliable cry
 ### Source code
 * https://github.com/Peercoin-project/Peercoin
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://peercoin.net/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/19d35dff574b7496b92f235fa1503d47b861871a/icons/{{PackageName}}.svg</iconUrl>
     <tags>peercoin ppcoin ppc wallet cryptocurrency p2p</tags>

@@ -16,6 +16,7 @@ as well as the event description and data are displayed in the main window, inst
 Also, with MyEventViewer you can easily select multiple event items and then save them to HTML/Text/XML file,
 or copy them to the clipboard (Ctrl+C) and then paste them into Excel.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/my_event_viewer.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/myeventviewer.png</iconUrl>
     <tags>event viewer</tags>

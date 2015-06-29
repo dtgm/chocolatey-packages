@@ -23,6 +23,7 @@ Personal Edition (installed by default) is free for non-commercial, personal use
 
 For any organizational use (non-commercial or commercial) or to remove the limitations of the Personal Edition, it is required to purchase a Standard Edition license and will require re-installing this package with the parameter -standardedition.  See http://www.bitvise.com/ssh-server-license for more information.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.bitvise.com/ssh-server</projectUrl>
     <tags>ssh server</tags>
     <copyright>Bitvise Limited</copyright>

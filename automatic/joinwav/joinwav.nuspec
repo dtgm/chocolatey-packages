@@ -14,6 +14,7 @@ The software can handle output files up to 4 GBytes and does not create any temp
 
 Input WAV files must have the same format (channels, bits, etc.) and output file will match. This program can merge most PCM WAV files (e.g. tracks ripped from audio CDs) but will not handle files with compression, errors, or unusual parameters.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.pc-tools.net/win32/{{PackageName}}/</projectUrl>
     <tags>cli pcm wav join</tags>
     <copyright>© 2004 Jem Berkes</copyright>

@@ -19,6 +19,7 @@ Psi has built in GnuPG support for message encryption.  With Psi's full Unicode 
 #### User support forum
 * https://groups.google.com/forum/#!forum/psi-users
 		</description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://psi-im.org/</projectUrl>
     <projectSourceUrl>https://github.com/psi-im/psi</projectSourceUrl>
     <bugTrackerUrl>https://github.com/psi-im/psi/issues</bugTrackerUrl>

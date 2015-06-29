@@ -10,6 +10,7 @@
     <description>
 HTMLAsText utility converts HTML documents to simple text files, by removing all HTML tags and formatting the text according to your preferences.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/htmlastext.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/htmlastext.png</iconUrl>
     <tags>html text tags formatting</tags>

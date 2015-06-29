@@ -12,6 +12,7 @@ WirelessNetConsole is a small console application that dumps all current detecte
 
 For each wireless network, the following information is displayed: SSID, Signal Quality in %, PHY types, RSSI, MAC Address, Channel Frequency, and more.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/wireless_net_console.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/wirelessnetconsole.png</iconUrl>
     <tags>cli wifi network scan</tags>

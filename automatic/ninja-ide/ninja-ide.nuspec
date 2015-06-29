@@ -13,6 +13,7 @@ Ninja-IDE is a cross-platform integrated development environment (IDE) that allo
 It's also a secret ninja agency but this doesn't matter right now. 
 
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://ninja-ide.org/</projectUrl>
     <projectSourceUrl>https://github.com/ninja-ide/ninja-ide</projectSourceUrl>
     <tags>ide programming</tags>

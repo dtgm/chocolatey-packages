@@ -18,6 +18,7 @@ service or driver, change the startup type of service or driver (automatic, manu
 boot or system), save the list of services and drivers to file, or view HTML report of
 installed services/drivers in your default browser. 
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/serviwin.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/serviwin.png</iconUrl>
     <tags>windows alternative start stop restart</tags>

@@ -10,6 +10,7 @@
     <description>
 Regular Expression Editor (RegExpEditor) makes regular expressions (aka regex, regexp) easy. This simple tool manipulates text with regular expressions. Highlighting of regular expression results. See the real power of regex! Use Scala to do manipulate your search results even more.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://regexpeditor.sourceforge.net/</projectUrl>
     <projectSourceUrl>https://sourceforge.net/p/regexpeditor/code/ci/master/tree/</projectSourceUrl>
     <tags>regex testing scala java</tags>

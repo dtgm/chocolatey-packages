@@ -13,6 +13,7 @@ and stores them on your hard drive under the base folder that you choose. WebSit
 
 HTML Files, Text Files, XML Files, CSS Files, Video/Audio Files, Images, Scripts, and Flash (.swf) files.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/web_site_sniffer.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/websitesniffer.png</iconUrl>
     <tags>site capture files sniffer network browser</tags>

@@ -24,6 +24,7 @@ Kaspersky Anti-Virus offers protection from a range of IT threats and provides t
 #### Trial software (30 days)
 This package installs the Free 30-day trial version of Kaspersky Anti-Virus. For product comparison and purchase info, see http://www.kaspersky.com/anti-virus
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.kaspersky.com/anti-virus-trial</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/dd7121af88611d4f92e29187d065ba9a0fcaedeb/icons/{{PackageName}}.png</iconUrl>
     <tags>trial security antivirus antispyware</tags>

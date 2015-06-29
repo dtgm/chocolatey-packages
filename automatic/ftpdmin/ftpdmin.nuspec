@@ -14,6 +14,7 @@ Ftpdmin is not intended as an internet FTP server, or even intended to be left r
 
 Ftpdmin has no notion of security or even passwords. Rather, once it is running, everyone can connect to it. The only resemblance of security is the -g option (get only, disallows put), and the ability to specify a directory that ftpdmin shall consider the root directory.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.sentex.net/~mwandel/{{PackageName}}/</projectUrl>
     <tags>ftp server cli</tags>
     <copyright>© Matthias Wandel</copyright>

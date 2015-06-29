@@ -15,6 +15,7 @@ The information displayed by the report of DomainHostingView includes:
 
 the hosting company or data center that hosts the Web server, mail server, and domain name server (DNS) of the specified domain, the created/changed/expire date of the domain, domain owner, domain registrar that registered the domain, list of all DNS records, and more...
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/domain_hosting_view.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/domainhostingview.png</iconUrl>
     <tags>web hosting report whois company owner registrar information dns</tags>

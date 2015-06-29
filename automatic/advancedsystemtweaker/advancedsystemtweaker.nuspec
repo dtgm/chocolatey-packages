@@ -12,6 +12,7 @@
     <description>
 	A central hub for any kind of tweak or anything else that can be done via registry files, commands and vbscript files.
 	</description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.tweaking.com/content/page/advanced_system_tweaker.html</projectUrl>
     <tags>performance increase-performance tune-up</tags>
     <copyright></copyright>

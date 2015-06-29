@@ -15,6 +15,7 @@ AdwCleaner is a free removal tool for:
 * Toolbars
 * Hijacker (Hijack of the browser's homepage)
 	</description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>https://toolslib.net/downloads/viewdownload/1-adwcleaner/</projectUrl>
     <docsUrl>http://general-changelog-team.fr/en/tutorials</docsUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/dd7121af88611d4f92e29187d065ba9a0fcaedeb/icons/{{PackageName}}.png</iconUrl>

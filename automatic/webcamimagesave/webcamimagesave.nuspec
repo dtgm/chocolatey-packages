@@ -19,6 +19,7 @@ by using the font, color, and date/time format that you choose.
 
 You can also capture a single camera image from command-line, without displaying any user interface.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/web_cam_image_capture.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/webcamimagesave.png</iconUrl>
     <tags>camera still image save capture</tags>

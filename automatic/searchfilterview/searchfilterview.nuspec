@@ -10,6 +10,7 @@
     <description>
 When you search the content of files with Windows search, it uses the right search IFilter plugin according to the file extension. This utility allows you to easily view the search filters installed on your system and the file extensions that are associated with them, as well as it allows you to easily add or remove file extensions for these filters.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/search_filter_view.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/searchfilterview.png</iconUrl>
     <tags>ifilters search</tags>

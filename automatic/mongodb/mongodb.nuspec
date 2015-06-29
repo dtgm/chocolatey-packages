@@ -16,6 +16,7 @@ Developers access documents through rich, idiomatic drivers available in all pop
 
 [Get involved](http://www.mongodb.org/get-involved)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.mongodb.org/</projectUrl>
     <packageSourceUrl>http://www.mongodb.org/about/source-code/</packageSourceUrl>
     <docsUrl>http://docs.mongodb.org/</docsUrl>

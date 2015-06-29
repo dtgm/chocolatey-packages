@@ -13,6 +13,7 @@ For every window in the hierarchy, you can view its properties, like handle, cla
 
 You can use this utility in all Win32-based operating systems: Windows 95,98,ME,NT,2000,XP
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/winexp.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/winexp.png</iconUrl>
     <tags>window handle class properties</tags>

@@ -16,6 +16,7 @@ WinFontsView also allows you to view the fonts as Bold, as Italic or with underl
 
 If you need to find a font in non-English character set, WinFontsView also allows you to choose the right characters set of the fonts and to type the characters displayed in the sample text of each font. 
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/windows_fonts_viewer.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/winfontsview.png</iconUrl>
     <tags>font viewer</tags>

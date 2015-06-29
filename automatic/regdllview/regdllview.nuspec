@@ -21,6 +21,7 @@ exist in your Registry, you can manually remove these entries by using 'Delete A
 Starting from version 1.35, RegDllView also allows you to register dll/ocx files (like regsvr32), simply by 
 dragging one or more files from Explorer folder into the window of RegDllView. 
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/registered_dll_view.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/regdllview.png</iconUrl>
     <tags>registered dll view unregister delete remove progid clsid</tags>

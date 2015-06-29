@@ -12,6 +12,7 @@ This utility reveals the database password of every password-protected mdb file 
 
 It can be very useful if you forgot your Access Database password and you want to recover it.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/accesspv.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/accesspv.png</iconUrl>
     <tags>recover password mdb access</tags>

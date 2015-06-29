@@ -10,6 +10,7 @@
     <description>
 WebCacheImageInfo is a simple tool that searches for JPEG images with EXIF information stored inside the cache of your Web browser (Internet Explorer, Firefox, or Chrome), and then it displays the list of all images found in the cache with the interesting information stored in them, like the software that was used to create the image, the camera model that was used to photograph the image, and the date/time that the image was created.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/web_cache_image_info.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/webcacheimageinfo.png</iconUrl>
     <tags>cache image exif camera software</tags>

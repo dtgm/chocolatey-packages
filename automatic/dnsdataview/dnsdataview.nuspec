@@ -16,6 +16,7 @@ You can use the default DNS server of your Internet connection, or use any other
 
 After retrieving the DNS records for the desired domains, you can save them into text/xml/html/csv file.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/dns_records_viewer.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/dnsdataview.png</iconUrl>
     <tags>records nslookup mx</tags>

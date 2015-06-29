@@ -10,6 +10,7 @@
     <description>
 This utility allows you to easily create animation from image files (GIFs and JPGs) on your local drive. The animation is achieved by creating a simple HTML page with JavaScript animation, and running it on your default browser.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/jsae.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/jsae.png</iconUrl>
     <tags>javascript gif jpg</tags>

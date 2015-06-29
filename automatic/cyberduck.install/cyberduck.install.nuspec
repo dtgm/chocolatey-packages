@@ -29,6 +29,7 @@ Connect to every server. With an easy to use interface, connect to:
 ### Source code
 * https://trac.cyberduck.io/
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://cyberduck.io/</projectUrl>
     <tags>cloud storage file-browser</tags>
     <copyright>© 2002–2014 David V. Kocher, 2011–2014 Yves Langisch</copyright>

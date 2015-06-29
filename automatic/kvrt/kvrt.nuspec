@@ -28,6 +28,7 @@ Kaspersky Virus Removal Tool 2015 is not intended for long-term use as it does n
 #### Community
 * [Forum](http://forum.kaspersky.com/index.php?showforum=160)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.kaspersky.com/antivirus-removal-tool?form=1</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/dd7121af88611d4f92e29187d065ba9a0fcaedeb/icons/{{PackageName}}.png</iconUrl>
     <tags>freeware security antivirus vulnerability</tags>

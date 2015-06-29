@@ -10,6 +10,7 @@
     <description>
 The ExeInfo utility shows general information about executable files (*.exe), dynamic-link libraries (*.dll), ocx files, and drivers files. It can recognize all major types of executables, including MS-DOS files, New Executable files (16-bit) and Portable Executable files (32-bit).
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/exeinfo.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/exeinfo.png</iconUrl>
     <tags>info exe dll ocx drivers</tags>

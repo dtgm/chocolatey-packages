@@ -10,6 +10,7 @@
     <description>
 This program is a file viewer, editor and analyzer for text, binary, and (especially) executable files.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://hte.sourceforge.net/</projectUrl>
     <projectSourceUrl>https://github.com/sebastianbiallas/ht</projectSourceUrl>
     <bugTrackerUrl>https://github.com/sebastianbiallas/ht/issues</bugTrackerUrl>

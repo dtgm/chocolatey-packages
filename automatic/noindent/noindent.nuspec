@@ -10,6 +10,7 @@
     <description>
 NoIndent fixes formatting in plain text files by removing the leading space indents (not tab indents) from each line.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.pc-tools.net/win32/{{PackageName}}/</projectUrl>
     <tags>cli spacing</tags>
     <copyright>© 2004 Jem Berkes</copyright>

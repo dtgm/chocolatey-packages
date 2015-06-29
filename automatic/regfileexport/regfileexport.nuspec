@@ -12,6 +12,7 @@ RegFileExport is a small console application that allows you to easily extract d
 
 RegFileExport read the Registry file, ananlyze it, and then export the Registry data into a standard .reg file of Windows. You can export the entire Registry file, or only a specific Registry key.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/registry_file_offline_export.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/regfileexport.png</iconUrl>
     <tags>registry offline recover export</tags>

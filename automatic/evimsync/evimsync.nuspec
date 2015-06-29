@@ -13,6 +13,7 @@ EvImSync is a small tool to synchronize Evernote notebooks with a Gmail account.
 EvImSync uses the Evernote script engine ENScript.exe to import and export notes. These notes are parsed and then compared to emails in your Gmail account using the IMAP protocol. This requires that you have enabled IMAP in your Gmail settings.
 
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://stefanstools.sourceforge.net/EvImSync.html</projectUrl>
     <projectSourceUrl>https://sourceforge.net/p/evimsync/code/HEAD/tree/</projectSourceUrl>
     <tags>sync imap evernote onenote</tags>

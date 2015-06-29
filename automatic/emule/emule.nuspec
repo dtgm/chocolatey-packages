@@ -15,6 +15,7 @@ eMule is coded in C++ using the Microsoft Foundation Classes. Since July 2002 eM
 [Screenshots](http://www.emule-project.net/home/perl/general.cgi?rm=screenshots)
 [Forum](http://forum.emule-project.net/)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.emule-project.net/</projectUrl>
     <projectSourceUrl>https://sourceforge.net/p/emule/code/ci/default/tree/</projectSourceUrl>
     <docsUrl>http://www.emule-project.net/home/perl/help.cgi</docsUrl>

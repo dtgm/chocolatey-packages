@@ -18,6 +18,7 @@ WebM support is based on versioned snapshots from WebM Project.  See http://code
 
 Note: Xiph.org changed the install filename after version 0.83.17220.  The installer filename was previously "oggcodecs".  Oggcodecs did not include WebM or Annodex codecs.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://xiph.org/dshow/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/65e9d9f0fcea7687d7d938a7ce2b18bb1cd2415f/icons/xifish.png</iconUrl>
     <tags>directshow codec ogg vorbis speex theora flac webm annodex</tags>

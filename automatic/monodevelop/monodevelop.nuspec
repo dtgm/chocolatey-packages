@@ -24,6 +24,7 @@ There are numerous goals that MonoDevelop hopes to achieve. Some of these are:
 * [Manual](http://www.monodevelop.com/documentation/)
 * [Developers](http://www.monodevelop.com/developers/)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://monodevelop.com/</projectUrl>
     <projectSourceUrl>https://github.com/mono/mono</projectSourceUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/bae8c08374744857d3b9827c9a1463c94a683ea8/icons/{{PackageName}}.png</iconUrl>

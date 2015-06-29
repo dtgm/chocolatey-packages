@@ -12,6 +12,7 @@ BluetoothCL is a small console application that dumps all current detected bluet
 
 For each Bluetooth device, the following information is displayed: MAC Address, Name, Major Device Type, Minor Device Type, and optionally the company name of the device (if external file of MAC addresses - oui.txt is provided)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/bluetoothcl.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/bluetoothcl.png</iconUrl>
     <tags>cli bluetooth dump</tags>

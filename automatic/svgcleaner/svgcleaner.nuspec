@@ -20,6 +20,7 @@ Images cleaned by SVG Cleaner are typically 40-60 percent smaller than the origi
 Important! The internal image viewer in SVG Cleaner uses the QtSvg module for rendering SVG images. Qt supports only the static features of SVG 1.2 Tiny, and that imposes a number of restrictions on rendering of advanced features. For instance, elements such as clipPath, mask, filters etc. will not be rendered at all.
     </description>
     <language>en-us</language>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://sourceforge.net/projects/svgcleaner/</projectUrl>
     <projectSourceUrl>https://github.com/RazrFalcon/SVGCleaner</projectSourceUrl>
     <bugTrackerUrl>https://github.com/RazrFalcon/SVGCleaner/issues</bugTrackerUrl>

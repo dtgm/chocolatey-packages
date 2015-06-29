@@ -16,6 +16,7 @@ Device Name, Device Address, Event Time, Event Type ('Device Arrival' or 'Device
 
 BluetoothLogView also allows you to specify a description for every device (according to its MAC address) that will appear under the 'Description' column.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/bluetooth_log_view.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/bluetoothlogview.png</iconUrl>
     <tags>log trace phone monitor</tags>

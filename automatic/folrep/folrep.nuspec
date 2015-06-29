@@ -15,6 +15,7 @@ You can use this utility to easily find out which folders use the most space in 
 
 You can scan the folders of your local drives, CD-ROM drives, and network resources on a remote computer. 
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/folrep.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/folrep.png</iconUrl>
     <tags>folder stats report</tags>

@@ -16,6 +16,7 @@ nssm also features a graphical service installation and removal facility. Admitt
 
 [Manual](http://nssm.cc/commands)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://nssm.cc/</projectUrl>
     <projectSourceUrl>http://git.nssm.cc/?p=nssm.git</projectSourceUrl>
     <tags>service</tags>

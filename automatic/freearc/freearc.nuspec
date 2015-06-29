@@ -14,6 +14,7 @@ FreeArc works 2–5 times faster than best other compression programs.
 
 FreeArc combines best 7-zip and RAR features: auto-selected LZMA/PPMD/Multimedia compression, 1gb dictionary, exe/dict/delta data filters, updatable solid archives, SFXes, recovery record, AES+Twofish+Serpent encryption, Linux support and much more...
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://freearc.org/</projectUrl>
     <tags>file-archiver compression zip rar 7zip</tags>
     <copyright>© 2004 Bulat Ziganshin</copyright>

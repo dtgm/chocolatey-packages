@@ -12,6 +12,7 @@ Audacious is an advanced audio player. It is free, lightweight, based on GTK+, r
 
 Audacious is a fork of Beep Media Player (BMP), which itself is forked from XMMS.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://audacious-media-player.org/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/19d35dff574b7496b92f235fa1503d47b861871a/icons/{{PackageName}}.svg</iconUrl>
     <tags>audio player equalizer</tags>

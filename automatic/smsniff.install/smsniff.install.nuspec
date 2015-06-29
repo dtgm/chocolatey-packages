@@ -23,6 +23,7 @@ will automatically be installed on your system.
 
 Microsoft Network Monitor Driver 3: Microsoft provides a new version of Microsoft Network Monitor driver (3.x) that is also supported under Windows 7/Vista/2008.  Starting from version 1.60, SmartSniff can use this driver to capture the network traffic.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/smsniff.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/smsniff.png</iconUrl>
     <tags>ip monitoring network packet sniffer capture sequence conversations hex dump ascii raw sockets winpcap</tags>

@@ -12,6 +12,7 @@ MozillaHistoryView is a small utility that reads the history data file (history.
 
 You can also easily export the history data to text/HTML/XML file.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/mozilla_history_view.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/mozillahistoryview.png</iconUrl>
     <tags>mozilla firefox netscape history</tags>

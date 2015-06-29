@@ -14,6 +14,7 @@ By combining this utility and the proxy server of [RTMPDump toolkit](http://rtmp
 
 RTMP is a streaming protocol used by Hulu, justin.tv, and by many live streaming Web sites.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/rtmp_dump_helper.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/rtmpdumphelper.png</iconUrl>
     <tags>dump helper video rtmp stream</tags>

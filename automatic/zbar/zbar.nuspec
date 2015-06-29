@@ -35,6 +35,7 @@ Example
   `zbarimg -d examples\barcode.png`
     </description>
     <language>en-us</language>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://zbar.sourceforge.net/</projectUrl>
     <projectSourceUrl>https://sourceforge.net/p/zbar/code/ci/default/tree/</projectSourceUrl>
     <bugTrackerUrl>https://sourceforge.net/p/zbar/bugs/</bugTrackerUrl>

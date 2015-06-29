@@ -12,6 +12,7 @@ Junkware Removal Tool is a security utility that searches for and removes common
 
 When run, Junkware Removal Tool will remove all traces of these programs including their services, processes, files, folders, registry keys, registry values, and browser plugins.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://thisisudax.org/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/dd7121af88611d4f92e29187d065ba9a0fcaedeb/icons/{{PackageName}}.png</iconUrl>
     <tags>malware-scanner malware-remover toolbar-remover</tags>

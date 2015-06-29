@@ -41,6 +41,7 @@ If you have difficulty remembering secure passwords, consider using secure passw
 * [Google+](https://plus.google.com/+NxtcommunityOrg)
 * [Twitter](https://twitter.com/NxtCommunity)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://nxt.org/</projectUrl>
     <projectSourceUrl>https://bitbucket.org/JeanLucPicard/nxt/src</projectSourceUrl>
     <bugTrackerUrl>https://bitbucket.org/JeanLucPicard/nxt/issues</bugTrackerUrl>

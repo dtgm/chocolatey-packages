@@ -14,6 +14,7 @@ For each URL protocol, the following information is displayed: The protocol name
 
 This utility also allows you to easily enable/disable the URL protocols.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/url_protocol_view.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/urlprotocolview.png</iconUrl>
     <tags>protocol enable disable</tags>

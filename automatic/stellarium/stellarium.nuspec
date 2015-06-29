@@ -12,6 +12,7 @@ Stellarium is a free open source planetarium for your computer. It shows a reali
 
 It is used in planetarium projectors.  Just set your coordinates and go.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://stellarium.org/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/19d35dff574b7496b92f235fa1503d47b861871a/icons/{{PackageName}}.svg</iconUrl>
     <tags>planetarium sky stars constellations</tags>

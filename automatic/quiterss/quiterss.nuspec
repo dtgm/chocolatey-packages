@@ -8,6 +8,7 @@
     <owners>dtgm</owners>
     <licenseUrl>http://www.gnu.org/licenses/gpl-3.0.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://quiterss.org/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/25ce0b72c9c6892b4b86695228d8cb773b8f4283/icons/quiterss.png</iconUrl>
     <summary>QuiteRSS is an open-source, cross-platform RSS/Atom news feeds reader</summary>   

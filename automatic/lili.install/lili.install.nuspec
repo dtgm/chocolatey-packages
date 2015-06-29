@@ -29,6 +29,7 @@ Not able to create bootable images of BSD, Mac OSX, or Microsoft Windows operati
 * [Manual](http://www.linuxliveusb.com/help/guide)
     </description>
     <language>en-us</language>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.linuxliveusb.com/</projectUrl>
     <projectSourceUrl>http://www.linuxliveusb.com/about/sources</projectSourceUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/7f8a732cc81b6f3ef01ab277390181d0b1518ffe/icons/lili.png</iconUrl>

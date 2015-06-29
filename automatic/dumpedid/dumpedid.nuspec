@@ -14,6 +14,7 @@ EDID record provide essential information about your monitor: manufacture week/y
 
 You can also get the EDID records of a remote computer, if you login to this computer with administrator rights.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/dump_edid.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/dumpedid.png</iconUrl>
     <tags>cli edid dump information</tags>

@@ -12,6 +12,7 @@ The IconsExtract utility scans the files and folders on your computer, and extra
 
 You can save the extracted icons to ICO files (or CUR files for cursors), or copy the image of a single icon into the clipboard.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/iconsext.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/iconsext.png</iconUrl>
     <tags>icons extractor cursor exe dll scan ico cur</tags>

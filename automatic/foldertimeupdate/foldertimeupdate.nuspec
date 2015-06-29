@@ -12,6 +12,7 @@ FolderTimeUpdate is a simple tool for Windows that scans all files and folders u
 
 This tool might be useful if, for example, you backup a cluster of folders and then restore them into another disk, but the backup program doesn't restore the original modified time of the folders.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/folder_time_update.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/foldertimeupdate.png</iconUrl>
     <tags>folder time update</tags>

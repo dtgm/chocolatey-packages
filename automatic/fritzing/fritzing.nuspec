@@ -19,6 +19,7 @@ The Fritzing application is an Electronic Design Automation software with a low 
 [Parts source code](https://github.com/fritzing/fritzing-parts)
 [Fritzing source code](https://github.com/fritzing/fritzing-app)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://fritzing.org/home/</projectUrl>
     <bugTrackerUrl>http://fritzing.org/download/known-issues/</bugTrackerUrl>
     <docsUrl>http://fritzing.org/learning/</docsUrl>

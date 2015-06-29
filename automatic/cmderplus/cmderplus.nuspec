@@ -12,6 +12,7 @@ Cmder+ is a friendly fork of Cmder. It adds a number of features that may not be
     
 #### [Features](https://github.com/narnaud/cmderplus#features)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>https://github.com/narnaud/cmderplus/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/85b2cda701b3b00ed0c9aca8ca0a0a34dc9d5115/icons/{{PackageName}}.png</iconUrl>
     <projectSourceUrl>https://github.com/narnaud/cmderplus/</projectSourceUrl>

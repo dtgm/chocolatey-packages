@@ -21,6 +21,7 @@ After installing, run `BoincMgr.exe` and choose a [BOINC project](http://boinc.b
 * [Forum](http://boinc.berkeley.edu/dev/)
     </description>
     <language>en-us</language>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://boinc.berkeley.edu/</projectUrl>
     <projectSourceUrl>http://boinc.berkeley.edu/trac/wiki/SourceCodeGit</projectSourceUrl>
     <bugTrackerUrl>http://boinc.berkeley.edu/wiki/Release_Notes#Known_Issues</bugTrackerUrl>

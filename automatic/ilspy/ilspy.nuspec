@@ -30,6 +30,7 @@ Development started after Red Gate announced that the free version of .NET Refle
 * Extensible via plugins (MEF)
 * Assembly Lists
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://ilspy.net/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/086a1789d89703105f9e383da6d2eafb2e90f4af/icons/{{packageName}}.png</iconUrl>
     <tags>dotnet decompiler</tags>

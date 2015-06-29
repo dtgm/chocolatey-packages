@@ -15,6 +15,7 @@ Kaspersky Security Scan is a handy and reliable antivirus solution designed to s
 Kaspersky Security Scan performs in-depth scans of you computer and detects viruses that are residing on your system via the cloud-based database.
 Kaspersky Security Scan also checks for security issues, such as the presence of an antivirus system or firewall.
 	</description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://free.kaspersky.com/</projectUrl>
     <tags>notSilent notUninstallable free-version no-fix-infections no-real-time-protection security antivirus vulnerability</tags>
     <copyright></copyright>

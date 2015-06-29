@@ -17,6 +17,7 @@ This plugin is primarily intended for use with PassIFox for Mozilla Firefox and 
 * [Security](https://github.com/mmichaa/passafari.safariextension#security)
 * [Protocol](https://github.com/mmichaa/passafari.safariextension#protocol)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>https://github.com/mmichaa/passafari.safariextension</projectUrl>
     <projectSourceUrl>https://github.com/mmichaa/passafari.safariextension</projectSourceUrl>
     <bugTrackerUrl>https://github.com/mmichaa/passafari.safariextension/issues</bugTrackerUrl>

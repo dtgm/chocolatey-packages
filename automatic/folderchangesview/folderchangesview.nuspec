@@ -12,6 +12,7 @@ FolderChangesView is a simple tool that monitors the folder or disk drive that y
 
 You can use FolderChangesView with any local disk drive or with a remote network share, as long as you have read permission to the selected folder.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/folder_changes_view.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/folderchangesview.png</iconUrl>
     <tags>folder file changes</tags>

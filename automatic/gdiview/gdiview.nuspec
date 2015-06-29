@@ -12,6 +12,7 @@ GDIView is a unique tool that displays the list of GDI handles (brushes, pens, f
 
 This tool can be useful for developers that need to trace GDI resources leak in their software.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/gdi_handles.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/gdiview.png</iconUrl>
     <tags>handles resources leak brushes pens fonts bitmaps</tags>

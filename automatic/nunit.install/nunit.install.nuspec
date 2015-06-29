@@ -10,6 +10,7 @@
     <description>
 NUnit is a unit-testing framework for all .Net languages. Initially ported from JUnit, it is an xUnit based unit testing tool for Microsoft .NET. It is written entirely in C# and has been completely redesigned to take advantage of many .NET language features, for example custom attributes and other reflection related capabilities. NUnit brings xUnit to all .NET languages.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nunit.org/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/f741d8520fd414f8b453562e3091854efcf79305/icons/nunit.png</iconUrl>
     <projectSourceUrl>https://github.com/nunit/nunit</projectSourceUrl>

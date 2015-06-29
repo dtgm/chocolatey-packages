@@ -10,6 +10,7 @@
     <description>
 The Visual C++ Redistributable Packages install run-time components that are required to run applications that are developed by using Visual Studio 2013, on computers that don't have Visual Studio 2013 installed. These packages install run-time components of these libraries: C Runtime (CRT), Standard C++, ATL, MFC, C++ AMP, and OpenMP.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.microsoft.com/en-us/download/details.aspx?id=40784</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/d04fa0bcd6996bde7e372d426aee525944c23665/icons/vcredist2013.png</iconUrl>
     <tags>visual c++ redistributable 2013 studio</tags>

@@ -12,6 +12,7 @@ CustomExplorerToolbar is small utility for Windows 7 only, which allows you to e
 
 This utility also allows you to remove the toolbar buttons that you previously added.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/custom_explorer_toolbar.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/customexplorertoolbar.png</iconUrl>
     <tags>explorer toolbar copy paste cut</tags>

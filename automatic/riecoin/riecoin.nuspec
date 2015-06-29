@@ -23,6 +23,7 @@ That's the point of riecoin: the mining process, besides fulfilling its function
 
 [Previous Version Compatibility](http://riecoin.org/updates.html) (blockchain hard-forks)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.riecoin.org/</projectUrl>
     <projectSourceUrl>https://github.com/riecoin/riecoin</projectSourceUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/5ddac7b24255386ee6dad21cbb37e8bffffcb1fa/icons/{{PackageName}}.png</iconUrl>

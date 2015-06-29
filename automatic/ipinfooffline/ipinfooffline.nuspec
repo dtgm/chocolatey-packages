@@ -16,6 +16,7 @@ For each IP address, the following information is displayed: IP block range, Org
 
 After retrieving the information about the desired IP addresses, You can copy the information to the clipboard, or save it into text/html/xml/csv file.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/ip_country_info_offline.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/ipinfooffline.png</iconUrl>
     <tags>address country information offline</tags>

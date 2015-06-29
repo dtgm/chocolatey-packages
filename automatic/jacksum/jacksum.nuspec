@@ -25,6 +25,7 @@ Jacksum has multiple interfaces. It can be used on the command line, at your fil
 [Manual](http://www.jonelo.de/java/jacksum/index.html#manual)
 [Source code repository](http://sourceforge.net/projects/jacksum/files/)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.jonelo.de/java/jacksum/index.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/c3c386b0203f4620cd15b5f8eb5468538364987e/icons/{{packageName}}.png</iconUrl>
     <tags>file checksum java commandline</tags>

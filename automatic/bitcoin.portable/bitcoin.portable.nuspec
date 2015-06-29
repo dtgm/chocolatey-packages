@@ -39,6 +39,7 @@ New transactions are approved by computing a value determined dynamically by rec
 * [How it works](https://bitcoin.org/en/how-it-works)
 * [Developer](https://bitcoin.org/en/developer-documentation)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>https://bitcoin.org/</projectUrl>
     <projectSourceUrl>https://github.com/bitcoin/bitcoin</projectSourceUrl>
     <bugTrackerUrl>https://github.com/bitcoin/bitcoin/issues</bugTrackerUrl>

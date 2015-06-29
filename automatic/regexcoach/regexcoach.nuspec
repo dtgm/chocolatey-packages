@@ -23,6 +23,7 @@ The Regex Coach is written in Common Lisp and was developed using the LispWorks 
 
 [Compatibility with Perl](http://weitz.de/cl-ppcre/)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://weitz.de/regex-coach/</projectUrl>
     <bugTrackerUrl>http://weitz.de/regex-coach/#bugs</bugTrackerUrl>
     <docsUrl>http://weitz.de/regex-coach/#howto</docsUrl>

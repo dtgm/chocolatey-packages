@@ -29,6 +29,7 @@ Technical
 * [CryptoNote technology](https://bytecoin.org/cryptonote/)
 * [Developer blog](https://bytecoin.org/blog/)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>https://bytecoin.org/</projectUrl>
     <projectSourceUrl>https://github.com/amjuarez/bytecoin</projectSourceUrl>
     <bugTrackerUrl>https://github.com/amjuarez/bytecoin/issues</bugTrackerUrl>

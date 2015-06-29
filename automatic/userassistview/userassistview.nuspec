@@ -12,6 +12,7 @@ This utility decrypt and displays the list of all UserAssist entries stored unde
 
 The UserAssist key contains information about the exe files and links that you open frequently. You can save the list of UserAssist entries into text/html/xml/csv file, as well as you can delete unwanted items.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/userassist_view.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/userassistview.png</iconUrl>
     <tags>userassist decrypt usage monitor</tags>

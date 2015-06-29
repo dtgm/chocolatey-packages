@@ -27,6 +27,7 @@ Zimbra Desktop supports the following account types:
 
 [Forum](http://community.zimbra.com/)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.zimbra.com/downloads/zimbra-desktop</projectUrl>
     <projectSourceUrl>http://wiki.zimbra.com/wiki/Building_Zimbra_using_Git</projectSourceUrl>
     <bugTrackerUrl>https://bugzilla.zimbra.com/describecomponents.cgi?product=ZD</bugTrackerUrl>

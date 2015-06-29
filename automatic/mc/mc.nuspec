@@ -19,6 +19,7 @@ Specific information regarding the base Midnight Commander engine, can be found 
 * http://en.wikipedia.org/wiki/Midnight_Commander
 * http://www.midnight-commander.org
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://sourceforge.net/projects/mcwin32</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/c9202b8ce6360e1f63046af5bd41cc8393ed9f91/icons/{{packageName}}.png</iconUrl>
     <tags>gnu file-manager</tags>

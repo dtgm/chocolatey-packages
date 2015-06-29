@@ -19,6 +19,7 @@ aria2 is a multi-protocol &amp; multi-source, cross platform download utility.  
 
 [Manual](http://aria2.sourceforge.net/manual/en/html/index.html)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://aria2.sourceforge.net/</projectUrl>
     <projectSourceUrl>https://github.com/tatsuhiro-t/aria2</projectSourceUrl>
     <bugTrackerUrl>https://github.com/tatsuhiro-t/aria2/issues</bugTrackerUrl>

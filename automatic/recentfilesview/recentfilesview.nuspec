@@ -16,6 +16,7 @@ This utility display the list of all recently opened files, and allows you to de
 
 You can also save the files list into text/html/xml file.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/recent_files_view.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/recentfilesview.png</iconUrl>
     <tags>recent files</tags>

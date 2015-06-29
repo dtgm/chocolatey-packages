@@ -49,6 +49,7 @@ As a note: for large amounts of tokens, using a scanner and OCR software had pro
 
 I recommended to generate and store the primary and secondary access keys first, using the iTanWizard ('Store Access Entries') and manually configuring the remaining details. This ensures those keys will be positioned on top of the list.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://keepass.info/plugins.html#itanmaster</projectUrl>
     <projectSourceUrl>http://keepass.info/extensions/v2/itanmaster/iTanMaster-{{PackageVersion}}-Source.zip</projectSourceUrl>
     <tags>keepass plugin security</tags>

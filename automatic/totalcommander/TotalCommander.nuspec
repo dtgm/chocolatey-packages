@@ -22,6 +22,7 @@ Total Commander is a file manager replacement for Windows. Features: Drag/Drop f
 
 http://www.ghisler.com/order.htm
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.ghisler.com</projectUrl>
     <tags>shareware file manager</tags>
     <copyright>© 1995 Christian Ghisler</copyright>

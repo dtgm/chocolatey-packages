@@ -14,6 +14,7 @@ If you are an end user: installing XiphQT components is all you need to start us
 
 If you are a programmer, you have built a Macintosh Core Audio or QuickTime-based application and would like to add Xiph formats support: most of the time there is hardly anything you will need to do to add support.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.xiph.org/quicktime/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/ae10945a00d196e50135c49ccfabc23f770f456f/icons/xiphqt.png</iconUrl>
     <tags>quicktime codec ogg vorbis speex theora flac</tags>

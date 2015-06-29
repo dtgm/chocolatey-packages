@@ -12,6 +12,7 @@ RunFromProcess is a command-line utility that allows you to run a program from a
 
 The program that you run will be executed as a child of the specified process and it'll run with the same user and security context of the specified parent process. 
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/run_from_process.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/runfromprocess.png</iconUrl>
     <tags>process program user system</tags>

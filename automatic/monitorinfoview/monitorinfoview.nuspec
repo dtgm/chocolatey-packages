@@ -14,6 +14,7 @@ The information is extracted from the EDID (&quot;Extended display identificatio
 
 You can also view the monitor information of multiple computers on your network, if you login to these computers with administrator rights.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/monitor_info_view.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/monitorinfoview.png</iconUrl>
     <tags>monitor edid information</tags>

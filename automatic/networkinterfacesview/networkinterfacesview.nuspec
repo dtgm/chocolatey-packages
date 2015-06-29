@@ -16,6 +16,7 @@ For every network interface found on your system, the following information is d
 
 You can select one or more network interface items and then export them to xml/html/csv/tab-delimited file, or copy them into the clipboard and then paste them into Excel or other spreadsheet application.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/network_interfaces.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/networkinterfacesview.png</iconUrl>
     <tags>network interfaces info</tags>

@@ -17,6 +17,7 @@ Combine with Windows integrated command-line program `at` to schedule sending em
 [Examples](http://www.blat.net/examples/)
 [RFC compliance](http://www.blat.net/?RFC.html)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.blat.net/</projectUrl>
     <projectSourceUrl>http://sourceforge.net/projects/blat/files/Blat%20Source/</projectSourceUrl>
     <docsUrl>http://www.blat.net/syntax/syntax.html</docsUrl>

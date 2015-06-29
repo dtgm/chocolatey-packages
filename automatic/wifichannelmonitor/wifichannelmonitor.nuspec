@@ -16,6 +16,7 @@ For every access point, the following information is displayed: SSID, MAC Addres
 
 For every client, the following information is displayed: MAC Address, Device Manufacturer, SSID list that the client tries to connect, Sent Data Bytes, Received Data Bytes, Probe Requests Count, and more...
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/wifi_channel_monitor.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/wifichannelmonitor.png</iconUrl>
     <tags>monitor mode channel ssid</tags>

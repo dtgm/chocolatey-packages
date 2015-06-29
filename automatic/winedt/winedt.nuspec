@@ -29,6 +29,7 @@ WinEdt may be used for a __31 day__ trial period to evaluate the software.  All 
 [FAQ](http://www.winedt.org/Doc/FAQ/)
 [TeX FAQ](http://www.tex.ac.uk/faq)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.winedt.com/</projectUrl>
     <docsUrl>http://www.winedt.org/Doc/</docsUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/d5d78fc17432924a78acf27a880cceec5b1982df/icons/{{packageName}}.png</iconUrl>

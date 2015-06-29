@@ -20,6 +20,7 @@ Learn about physics and help us build the future quantum computers by playing ga
 * [Data policy](http://scienceathome.org/our-data-policy/)
 * [Science publications](http://scienceathome.org/science/) derived from game data
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://scienceathome.org/games/quantum-shooter-alpha/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/67b967422d1fd2607e227b592dd069a6cd34ff02/icons/{{PackageName}}.png</iconUrl>
     <tags>gaming citizen-science quantum-physics</tags>

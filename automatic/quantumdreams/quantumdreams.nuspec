@@ -20,6 +20,7 @@ Play this game now, to help us build a real quantum computer.
 * [Data policy](http://scienceathome.org/our-data-policy/)
 * [Science publications](http://scienceathome.org/science/) derived from game data
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://scienceathome.org/games/quantum-dreams/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/35a7feca9cb8446eb9eec296f2e462e826a89f4a/icons/{{PackageName}}.png</iconUrl>
     <tags>gaming citizen-science quantum-physics</tags>

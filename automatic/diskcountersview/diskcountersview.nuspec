@@ -12,6 +12,7 @@ DiskCountersView displays the system counters of each disk drive in your system,
 
 It also displays general drive information, like disk name, partition number, partition location, and so on. 
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/disk_counters_view.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/diskcountersview.png</iconUrl>
     <tags>smart storage monitor</tags>

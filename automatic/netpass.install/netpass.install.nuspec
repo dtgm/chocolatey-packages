@@ -14,6 +14,7 @@ This utility recovers all network passwords stored on your system for the curren
 
 It can also recover the passwords stored in Credentials file of external drive, as long as you know the last log-on password.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/network_password_recovery.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/netpass.png</iconUrl>
     <tags>recover network share passwords</tags>

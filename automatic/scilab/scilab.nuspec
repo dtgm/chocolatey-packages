@@ -39,6 +39,7 @@ Thanks to its ability to interconnect with [third-party technologies](https://ww
 * [IRC](http://www.scilab.org/resources/user_community/irc)
 * [Social media platforms](http://www.scilab.org/community/connect)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>https://www.scilab.org/</projectUrl>
     <projectSourceUrl>https://www.scilab.org/development/sources/</projectSourceUrl>
     <bugTrackerUrl>http://bugzilla.scilab.org/</bugTrackerUrl>

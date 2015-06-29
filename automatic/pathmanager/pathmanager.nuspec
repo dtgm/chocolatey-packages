@@ -10,6 +10,7 @@
     <description>
 Path Manager is a simple utility to manage system and user %PATH% environment variable.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>https://sourceforge.net/projects/pathmanager/</projectUrl>
     <projectSourceUrl>http://sourceforge.net/p/pathmanager/code/HEAD/tree/</projectSourceUrl>
     <bugTrackerUrl>http://sourceforge.net/p/pathmanager/bugs/</bugTrackerUrl>

@@ -12,6 +12,7 @@ TagsReport reads HTML file and displays statistical information about the tags t
 
 For Example: If the end counter value for `<table>` tag is different from the start counter value, something is possibly wrong in your HTML file, because every `<table>` tag must have a closing tag (`</table>`).
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/tagsrep.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/tagsrep.png</iconUrl>
     <tags>statistics html tags</tags>

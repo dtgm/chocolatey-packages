@@ -22,6 +22,7 @@ Unison shares a number of features with tools such as configuration management p
 
 [FAQ](https://alliance.seas.upenn.edu/~bcpierce/wiki/index.php)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.cis.upenn.edu/~bcpierce/unison/</projectUrl>
     <projectSourceUrl>http://www.seas.upenn.edu/~bcpierce/unison//svn-instructions.html</projectSourceUrl>
     <docsUrl>http://www.cis.upenn.edu/~bcpierce/unison/docs.html</docsUrl>

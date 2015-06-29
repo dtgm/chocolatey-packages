@@ -23,6 +23,7 @@ Every 6 weeks, Firefox developers take the current stable features of each build
 [Mozilla Developer Network documentation](https://developer.mozilla.org/en-US/docs/mozilla-central)
 [Privacy policy](https://www.mozilla.org/en-US/privacy/firefox/)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>https://www.mozilla.org/firefox/nightly/</projectUrl>
     <projectSourceUrl>https://hg.mozilla.org/mozilla-central/</projectSourceUrl>
     <mailingListUrl>https://mail.mozilla.org/listinfo/nightly-testers</mailingListUrl>

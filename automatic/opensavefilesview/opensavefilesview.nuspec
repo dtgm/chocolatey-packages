@@ -12,6 +12,7 @@ OpenSaveFilesView is a simple tool that displays the list of files that you prev
 
 For every file in the list, the following information is displayed: Filename, Extension, Order (The order that the files were opened for every file extension), Open Time (Available only for the last opened file of every file type), File Modified/Created Time, File Size, and File Attributes.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/open_save_files_view.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/opensavefilesview.png</iconUrl>
     <tags>files open save</tags>

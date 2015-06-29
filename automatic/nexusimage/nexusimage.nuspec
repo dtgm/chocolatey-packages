@@ -12,6 +12,7 @@ NexusFile is a simple image viewer.
 
 Freeware; fully functional for personal or commercial use.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.xiles.net/</projectUrl>
     <tags>image viewer</tags>
     <copyright>© 2015 xiles</copyright>

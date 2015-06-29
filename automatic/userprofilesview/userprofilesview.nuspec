@@ -14,6 +14,7 @@ For each user profile, the following information is displayed: Domain\User Name,
 
 You can save the profiles list into text/xml/html/csv file.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/user_profiles_view.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/userprofilesview.png</iconUrl>
     <tags>user profile viewer</tags>

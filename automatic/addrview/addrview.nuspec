@@ -14,6 +14,7 @@ AddrView extracts URLs of images (&lt;img&gt; tag), links to other files (&lt;a&
 
 You can save the extracted addresses list to text, HTML or XML files, or add these addresses to your Favorities.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/addrview.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/addrview.png</iconUrl>
     <tags>url extract html</tags>

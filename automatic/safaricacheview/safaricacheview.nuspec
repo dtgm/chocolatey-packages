@@ -12,6 +12,7 @@ SafariCacheView is a simple utility for Windows that reads and parses the cache 
 
 Every cache information line includes the following information: Filename, Content Type, URL, Content Length, Server Name, Server Time, Expiration Time, Last Modified Time, Content Encoding, and Referrer.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/safari_cache_view.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/safaricacheview.png</iconUrl>
     <tags>safari view cache extract</tags>

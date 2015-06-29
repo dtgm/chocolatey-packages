@@ -33,6 +33,7 @@ dotPeek borrows most of its features from JetBrains [ReSharper](https://chocolat
 * [Google+](http://www.facebook.com/JetBrains)
 * [Twitter](http://www.twitter.com/dotpeek)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.jetbrains.com/decompiler/</projectUrl>
     <bugTrackerUrl>https://youtrack.jetbrains.com/issues/DOTP</bugTrackerUrl>
     <docsUrl>https://www.jetbrains.com/decompiler/documentation/</docsUrl>

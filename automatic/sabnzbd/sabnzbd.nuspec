@@ -25,6 +25,7 @@ This installer properly sets up a system service to keep SABnzbd always running 
 #### Community
 * [Forum](http://forums.sabnzbd.org/)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://sabnzbd.org/</projectUrl>
     <projectSourceUrl>https://github.com/sabnzbd/sabnzbd</projectSourceUrl>
     <bugTrackerUrl>http://wiki.sabnzbd.org/known-issues</bugTrackerUrl>

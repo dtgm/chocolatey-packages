@@ -12,6 +12,7 @@ Protected Storage PassView is a small utility that reveals the passwords stored 
 
 Starting from version 1.60, this utility reveals all AutoComplete strings stored in Internet Explorer, not only the AutoComplete password, as in the previous versions.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/pspv.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/pspv.png</iconUrl>
     <tags>storage autocomplete password stored reveal recover crack recovery outlook express internet explorer free freeware</tags>

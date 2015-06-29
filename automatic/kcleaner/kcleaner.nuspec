@@ -14,6 +14,7 @@ It is the first product of this kind featuring a full automatic mode, which work
 
 As a proof of its efficiency, it often finds up to many Gb not even seen by its competitors so... give KCleaner a try! And if data security is something you are interested in, you'll love the secured file deletion methods proposed by KCleaner, making deleted files unrecoverable by any known mean.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.kcsoftwares.com/?kcleaner</projectUrl>
     <bugTrackerUrl>http://www.kcsoftwares.com/bugs/view_all_bug_page.php</bugTrackerUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/dd7121af88611d4f92e29187d065ba9a0fcaedeb/icons/{{PackageName}}.png</iconUrl>

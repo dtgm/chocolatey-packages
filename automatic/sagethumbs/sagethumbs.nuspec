@@ -36,6 +36,7 @@ If XnView is not installed, the plugins should be unpacked and placed in the def
 * Windows XP/2003/Vista/2008/7/2012/8/8.1 32/64-bit
 * About 5 Mb of disk space + additional space for cache
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.cherubicsoft.com/en/projects/sagethumbs</projectUrl>
     <projectSourceUrl>https://sourceforge.net/p/sagethumbs/code/HEAD/tree/</projectSourceUrl>
     <bugTrackerUrl>https://sourceforge.net/p/sagethumbs/tickets/</bugTrackerUrl>

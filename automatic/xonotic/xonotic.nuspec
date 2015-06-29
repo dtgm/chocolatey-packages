@@ -25,6 +25,7 @@ Xonotic is an addictive, arena-style first person shooter with crisp movement an
 #### System requirements
 * Download size: __{{PackageGuid}}__
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.xonotic.org/</projectUrl>
     <projectSourceUrl>https://gitlab.com/xonotic/xonotic/tree/master</projectSourceUrl>
     <bugTrackerUrl>https://gitlab.com/groups/xonotic/issues</bugTrackerUrl>

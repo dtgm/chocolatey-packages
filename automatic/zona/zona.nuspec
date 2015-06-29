@@ -18,6 +18,7 @@ Torrent streaming media player
 * [Facebook](http://www.facebook.com/appzona)
 * [Twitter](http://twitter.com/zonateam)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://zona.ru/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/d1e037cc7c943fda29b9067b3b1c3229d99402ff/icons/{{PackageName}}.png</iconUrl>
     <tags>p2p torrent streaming video-on-demand media-catalog popcorntime</tags>

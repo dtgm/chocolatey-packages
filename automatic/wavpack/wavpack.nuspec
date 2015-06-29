@@ -23,6 +23,7 @@ WavPack employs only well known, public domain techniques (i.e., linear predicti
 [Hardware support](http://www.wavpack.com/index.html#Hardware)
 
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.wavpack.com/</projectUrl>
     <projectSourceUrl>http://www.wavpack.com/downloads.html#sources</projectSourceUrl>
     <docsUrl>http://www.wavpack.com/downloads.html#documentation</docsUrl>

@@ -28,6 +28,7 @@ This package installs a 30-day trial version.
 * AIDA64 Engineer (you are here)
 * [AIDA64 Business](https://chocolatey.org/packages/aida64-business)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.aida64.com/products/aida64-engineer</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/d1e037cc7c943fda29b9067b3b1c3229d99402ff/icons/{{PackageName}}.png</iconUrl>
     <tags>trial diagnostic benchmark monitor</tags>

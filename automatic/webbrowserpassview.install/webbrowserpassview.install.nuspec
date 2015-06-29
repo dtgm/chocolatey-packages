@@ -14,6 +14,7 @@ Internet Explorer (Version 4.0 - 11.0), Mozilla Firefox (All Versions), Google C
 
 This tool can be used to recover your lost/forgotten password of any Website, including popular Web sites, like Facebook, Yahoo, Google, and GMail, as long as the password is stored by your Web Browser. 
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/web_browser_password.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/webbrowserpassview.png</iconUrl>
     <tags>browser password recover lost ie firefox opera chrome facebook</tags>

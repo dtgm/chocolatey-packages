@@ -18,6 +18,7 @@ digiKam is an advanced digital photo management application for KDE, which makes
 [FAQ](https://www.digikam.org/faq/digikam)
 [Wiki](https://userbase.kde.org/Digikam/Tutorials)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.digikam.org/</projectUrl>
     <projectSourceUrl>https://www.digikam.org/download?q=download/GIT</projectSourceUrl>
     <docsUrl>https://www.digikam.org/docs</docsUrl>

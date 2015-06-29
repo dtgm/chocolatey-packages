@@ -14,6 +14,7 @@ Every browsing history line includes the following information: URL, Web Page Ti
 
 SafariHistoryView allows you to easily export the browsing history data into text/csv/html/xml file, or copy the data to the clipboard and then paste it into Excel.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/safari_history_view.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/safarihistoryview.png</iconUrl>
     <tags>history visited safari</tags>

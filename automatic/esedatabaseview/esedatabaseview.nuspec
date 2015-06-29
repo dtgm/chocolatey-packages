@@ -14,6 +14,7 @@ It displays a list of all tables available in the opened database file, allows y
 
 ESEDatabaseView also allows you to easily choose one or more records, and then export them into comma-delimited/tab-delimited/html/xml file, or copy the records to the clipboard (Ctrl+C) and then paste them into Excel or other spreadsheet application.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/ese_database_view.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/esedatabaseview.png</iconUrl>
     <tags>edb jet blue database export</tags>

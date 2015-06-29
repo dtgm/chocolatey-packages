@@ -14,6 +14,7 @@ The latency value calculated by NetworkLatencyView is very similar to the result
 
 NetworkLatencyView also allows you to easily export the latency information to text/csv/tab-delimited/html/xml file, or copy the information to the clipboard and then paste it to Excel or other application.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/network_latency_view.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/networklatencyview.png</iconUrl>
     <tags>latency ping calculate tcp</tags>

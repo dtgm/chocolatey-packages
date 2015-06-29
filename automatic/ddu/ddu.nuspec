@@ -24,6 +24,7 @@ The current effect after you use this driver removal will be similar as if its t
 * [Forum - AMD](http://forums.guru3d.com/showthread.php?t=379505#posts)
 * [Twitter](https://twitter.com/Wagnard)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.wagnardmobile.com/DDU/info.htm</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/c0fc93b64a6310ad3f806da5164a5aa6adf9244a/icons/{{PackageName}}.png</iconUrl>
     <tags>driver uninstaller nvidia ati</tags>

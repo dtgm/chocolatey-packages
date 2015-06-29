@@ -14,6 +14,7 @@ For every DNS query, the following information is displayed: Host Name, Port Num
 
 You can easily export the DNS queries information to csv/tab-delimited/xml/html file, or copy the DNS queries to the clipboard, and then paste them into Excel or other spreadsheet application.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/dns_query_sniffer.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/dnsquerysniffer.png</iconUrl>
     <tags>query sniffer a aaaa ip host</tags>

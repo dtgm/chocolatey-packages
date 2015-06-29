@@ -14,6 +14,7 @@ Unlike the Adobe Flash Player, the Adobe Shockwave Player is not commonly bundle
 
 Shockwave movies are authored in the Adobe Director environment. While there is support for including Flash movies inside Shockwave files, authors often choose the Shockwave Director combination over Flash because it offers more features and more powerful tools. Features not replicated by Flash include a much faster rendering engine, and support for various network protocols, including Internet Relay Chat. Also, Shockwave's functionality can be extended with "Xtras".
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://get.adobe.com/shockwave/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/732a79a2b9e31faef3b3206fddc25e192d6b516b/icons/{{PackageName}}.png</iconUrl>
     <tags>shockwave adobe-director</tags>

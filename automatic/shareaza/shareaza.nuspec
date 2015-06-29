@@ -14,6 +14,7 @@ Shareaza is a very powerful multi-network peer-to-peer file-sharing client suppo
 [Forum](http://shareaza.sourceforge.net/phpbb/)
 [Wiki](http://shareaza.sourceforge.net/mediawiki/)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://shareaza.sourceforge.net/</projectUrl>
     <projectSourceUrl>https://sourceforge.net/p/shareaza/code/HEAD/tree/</projectSourceUrl>
     <tags>p2p filesharing</tags>

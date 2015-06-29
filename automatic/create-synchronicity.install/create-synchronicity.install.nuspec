@@ -15,6 +15,7 @@ Create Synchronicity is an easy, fast and powerful backup application. It synchr
 [FAQ](http://synchronicity.sourceforge.net/faq.html)
 [Manual](http://synchronicity.sourceforge.net/help.html)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://synchronicity.sourceforge.net/</projectUrl>
     <projectSourceUrl>https://sourceforge.net/p/synchronicity/code/HEAD/tree/</projectSourceUrl>
     <bugTrackerUrl>https://sourceforge.net/p/synchronicity/bugs/</bugTrackerUrl>

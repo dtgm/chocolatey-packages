@@ -16,6 +16,7 @@ Genymotion is the commercial, rebranded version of the discontinued AndroVM open
 [FAQ](https://www.genymotion.com/#!/support#faq)
 [Developer User Guide](https://www.genymotion.com/#!/developers/user-guide)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>https://www.genymotion.com</projectUrl>
     <tags>testing software android emulator androvm virtualbox virtualization vm</tags>
     <copyright>© 2014 Genymobile</copyright>

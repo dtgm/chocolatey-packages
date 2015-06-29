@@ -13,6 +13,7 @@ A super simple way to convert almost any video to MP4, WebM (vp8), Ogg Theora, o
 [Command line conversion matrix](http://develop.participatoryculture.org/index.php/ConversionMatrix)
     </description>
     <language>en-us</language>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.mirovideoconverter.com/</projectUrl>
     <projectSourceUrl>https://github.com/pculture/mirovideoconverter3</projectSourceUrl>
     <bugTrackerUrl>https://github.com/pculture/mirovideoconverter3/issues</bugTrackerUrl>

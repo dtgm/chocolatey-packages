@@ -14,6 +14,7 @@ These packages install runtime components of C Runtime (CRT), Standard C++, ATL,
 This will install both the 32 and 64 bit versions on a 64 bit OS.  The 32 bit version will only be installed on a 32 bit OS.
     </description>
     <releaseNotes>http://support.microsoft.com/kb/2019667</releaseNotes>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.microsoft.com/en-us/download/details.aspx?id=26347</projectUrl>
     <tags>notsilent visual c++ redistributable 2005 studio</tags>
     <copyright>© Microsoft</copyright>

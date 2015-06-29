@@ -20,6 +20,7 @@ Hex editors are a way of presenting, visualizing, and editing data within files 
 
 [Wiki](http://wiki.wxhexeditor.org/)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.wxhexeditor.org/</projectUrl>
     <projectSourceUrl>https://sourceforge.net/p/wxhexeditor/code/HEAD/tree/trunk/</projectSourceUrl>
     <tags>hex editor file binary text</tags>

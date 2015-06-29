@@ -16,6 +16,7 @@ DevManView can also load the devices list from external instance of Windows and 
 
 This feature can be useful if you have Windows operating system with booting problems, and you want to disable the problematic device.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/device_manager_view.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/devmanview.png</iconUrl>
     <tags>manager view disable enable uninstall remote registry external</tags>

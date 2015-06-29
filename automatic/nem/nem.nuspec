@@ -36,6 +36,7 @@ If you have difficulty remembering secure passwords, consider using secure passw
 3. [Acquire XEM](http://nem.io/#buyheader)
 4. [Tutorials](http://blog.nem.io/nem-tutorial-list/)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://nem.io/</projectUrl>
     <bugTrackerUrl>https://github.com/NewEconomyMovement/NemCommunityClient/issues</bugTrackerUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/d088e836e4aadf4b609e65dce9aa0c37c3f18674/icons/{{PackageName}}.png</iconUrl>

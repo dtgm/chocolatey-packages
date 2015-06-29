@@ -12,6 +12,7 @@ Plugin for KeePass 2.x to import from 1Password Interchange Format (1pif).
 
 Tested with 1Password 4.1.2 and KeePass 2.27.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>https://github.com/diimdeep/1P2KeePass</projectUrl>
     <projectSourceUrl>https://github.com/diimdeep/1P2KeePass</projectSourceUrl>
     <bugTrackerUrl>https://github.com/diimdeep/1P2KeePass/issues</bugTrackerUrl>

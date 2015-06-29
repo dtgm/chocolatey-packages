@@ -25,6 +25,7 @@ This program does not slow your computer down and only uses unused computer powe
 * [Teams and Stats](https://folding.stanford.edu/home/teams-stats/)
     </description>
     <language>en-us</language>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://folding.stanford.edu/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/e145d13e7f7bc677a6a22da74d0ff1441a554289/icons/{{PackageName}}.png</iconUrl>
     <licenseUrl>http://folding.stanford.edu/home/faq/faq-opensource#ntoc4</licenseUrl>

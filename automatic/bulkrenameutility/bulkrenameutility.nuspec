@@ -18,6 +18,7 @@ Bulk Rename Utility allows you to easily rename files and folders recursively ba
 * Rename MP3 files using ID3 tags (a.k.a. MP3 ID3 tag renaming).
 * Change files' creation and modification time stamps.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.bulkrenameutility.co.uk/</projectUrl>
     <tags>batch rename regex file</tags>
     <copyright>© TGRMN Software</copyright>

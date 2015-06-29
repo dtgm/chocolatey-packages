@@ -14,6 +14,7 @@ Freeware; fully functional for personal or commercial use.
 
 [User forum](https://groups.google.com/forum/#!forum/babelstone)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.babelstone.co.uk/Software/BabelPad.html</projectUrl>
     <tags>unicode text-editor</tags>
     <copyright>© Andrew West</copyright>

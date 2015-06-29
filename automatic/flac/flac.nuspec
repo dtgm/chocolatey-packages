@@ -14,6 +14,7 @@ FLAC stands out as the fastest and most widely supported lossless audio codec, a
 
 FLAC supports tagging, cover art, and fast seeking. FLAC is freely available and supported on most operating systems, including Windows, "unix" (Linux, *BSD, Solaris, OS X, IRIX), BeOS, OS/2, and Amiga.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>https://xiph.org/flac</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/master/icons/flac.png</iconUrl>
     <tags>audio codec lossless encoder decoder</tags>

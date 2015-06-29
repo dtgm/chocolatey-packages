@@ -13,6 +13,7 @@ ResourcesExtract is a small utility that scans dll/ocx/exe files and extract all
 
 You can use ResourcesExtract in user interface mode, or alternatively, you can run ResourcesExtract in command-line mode without displaying any user interface. 
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/resources_extract.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/resourcesextract.png</iconUrl>
     <tags>grab resources bitmaps icons binary dll</tags>

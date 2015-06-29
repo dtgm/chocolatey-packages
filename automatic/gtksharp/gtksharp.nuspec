@@ -20,6 +20,7 @@ Gtk# is a Graphical User Interface Toolkit for mono and .Net. The project binds 
 * [Forum](http://mono.1490590.n4.nabble.com/)
 * [IRC](http://www.mono-project.com/community/help/irc/)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.mono-project.com/GtkSharp</projectUrl>
     <projectSourceUrl>https://github.com/mono</projectSourceUrl>
     <bugTrackerUrl>http://www.mono-project.com/community/bugs/</bugTrackerUrl>

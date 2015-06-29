@@ -10,6 +10,7 @@
     <description>
 This small utility displays the list of Internet Explorer components that are installed on your computer.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/iecompo.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/iecompo.png</iconUrl>
     <tags>ie components info</tags>

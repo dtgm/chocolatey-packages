@@ -12,6 +12,7 @@ Simple MS Windows GUI application to create and edit MS Windows Icon (.ico) file
 
 It was inspired by old project png2ico, but it does not use the png2ico code. It has been written from scratch. The application provides GUI to easily manipulate the icon (.ico) files. Unlike png2ico projet, which was a corss platform command line utility, Iconizer only runs on MS Windows. The reason for not porting this application to other platforms is that icons are Windows specific, so it is not expected that somebody would like to create or edit icons on other platforms.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://sourceforge.net/projects/iconizer</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/9c715a208c94fd7ee3413bf638ac015a2717a80a/icons/{{packageName}}.png</iconUrl>
     <tags>image converter ico</tags>

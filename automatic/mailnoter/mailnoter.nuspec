@@ -50,6 +50,7 @@ Another nice feature of MailNoter: selecting files in Explorer and hitting the h
 So, as I said: it's a small tool which doesn't do much. But it helps me with gathering my notes.
 
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://stefanstools.sourceforge.net/MailNoter.html</projectUrl>
     <projectSourceUrl>https://sourceforge.net/p/mailnoter/code/HEAD/tree/</projectSourceUrl>
     <tags>tray hotkey notes email attachment</tags>

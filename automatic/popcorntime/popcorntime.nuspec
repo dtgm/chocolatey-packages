@@ -13,6 +13,7 @@ Watch movies free on your desktop, with a big movie catalog.
 [FAQ](https://popcorntime.io/faq)
 [User support forums](https://discuss.popcorntime.io/)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>https://popcorntime.io/</projectUrl>
     <projectSourceUrl>https://git.popcorntime.io/popcorntime/desktop/tree/master</projectSourceUrl>
     <tags>peer-to-peer movie-catalog torrent</tags>

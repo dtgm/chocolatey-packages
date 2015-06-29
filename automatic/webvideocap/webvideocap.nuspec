@@ -12,6 +12,7 @@ While watching a video in a Web site, you may sometimes want to save the video i
 
 This utility allows you to capture .flv (Flash Video) files and RTSP/MMS video streams while the Web browser download and play them inside a Web page. After the entire video file is downloaded and played by the Web browser, the video file is saved in the folder that you selected, and you can play it offline later with any Video player.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/web_video_capture.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/webvideocap.png</iconUrl>
     <tags>video flv flash rtsp mms stream</tags>

@@ -18,6 +18,7 @@ Warning: Issues have been reported when using to write to USB Floppy drives (and
 
 [Wiki](https://sourceforge.net/p/win32diskimager/wiki/Home/)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>https://sourceforge.net/projects/win32diskimager/</projectUrl>
     <projectSourceUrl>https://sourceforge.net/p/win32diskimager/code/ci/master/tree/</projectSourceUrl>
     <bugTrackerUrl>https://sourceforge.net/p/win32diskimager/tickets/</bugTrackerUrl>

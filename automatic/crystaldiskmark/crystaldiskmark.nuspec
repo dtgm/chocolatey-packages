@@ -23,6 +23,7 @@ CrystalDiskMark is a small benchmark utility for your Hard Disk Drives (HDDs) an
 [FAQ](http://crystalmark.info/software/CrystalDiskMark/manual-en/Faq.html)
 [User manual](http://crystalmark.info/software/CrystalDiskMark/manual-en/)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://crystalmark.info/software/CrystalDiskMark/index-e.html</projectUrl>
     <tags>benchmark storage drive</tags>
     <copyright>© 2007 Noriyuki Miyazaki</copyright>

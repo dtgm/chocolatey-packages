@@ -26,6 +26,7 @@ jRegExAnalyser uses the original regular expression classes from the Open JDK ki
 
 [Screenshots](http://jregexanalyser.schwebke.com/jregexanalyser/webdoc/images/screenshot.png)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://jregexanalyser.schwebke.com/</projectUrl>
     <projectSourceUrl>http://jregexanalyser.schwebke.com</projectSourceUrl>
     <docsUrl>http://jregexanalyser.schwebke.com/jregexanalyser/webdoc/</docsUrl>

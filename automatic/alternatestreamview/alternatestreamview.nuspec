@@ -12,6 +12,7 @@ AlternateStreamView is a small utility that allows you to scan your NTFS drive, 
 
 After scanning and finding the alternate streams, you can extract these streams into the specified folder, delete unwanted streams, or save the streams list into text/html/csv/xml file.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/alternate_data_streams.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/alternatestreamview.png</iconUrl>
     <tags>copy delete ntfs alternate data streams</tags>

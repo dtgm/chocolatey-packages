@@ -16,6 +16,7 @@ MicrosoftKeyImporter is a KeePass 2.x plugin for importing XML key files from MS
 * Select the KeysExport.xml file that you've exported from MSDN or TechNet and click __OK__.
 * [FAQ](https://github.com/svickn/MicrosoftKeyImporterPlugin#faq)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>https://github.com/svickn/MicrosoftKeyImporterPlugin</projectUrl>
     <projectSourceUrl>https://github.com/svickn/MicrosoftKeyImporterPlugin</projectSourceUrl>
     <bugTrackerUrl>https://github.com/svickn/MicrosoftKeyImporterPlugin/issues</bugTrackerUrl>

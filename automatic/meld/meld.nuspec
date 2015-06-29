@@ -13,6 +13,7 @@ You can compare two or three folders and launch file comparisons. You can browse
 
 Written with Python and GTK. While in theory meld could be compiled for Windows and OS X currently there is no download for these platforms so we do not list it as cross platform.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://meldmerge.org/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/ffbb085179c0a6ff04499da4902d485d7945fde9/icons/{{PackageName}}.png</iconUrl>
     <tags>file-compare diff folder-compare merging merge-folders</tags>

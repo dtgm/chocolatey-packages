@@ -14,6 +14,7 @@ IP addresses, Hardware address, WINS servers, DNS servers, MTU value, Number of 
 
 In addition, it displays general TCP/IP/UDP/ICMP statistics for your local computer.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/awatch.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/awatch.png</iconUrl>
     <tags>information network</tags>

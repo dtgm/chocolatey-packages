@@ -14,6 +14,7 @@ For each component the following information is displayed: Display Name, Type, D
  
 It allows you to easily disable or enable any Codec/DirectShow component or export the list into text/xml/html file.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/installed_codec.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/installedcodec.png</iconUrl>
     <tags>codec directshow</tags>

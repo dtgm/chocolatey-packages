@@ -16,6 +16,7 @@ The password is stored in HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentV
 
 Advanced users can easily delete the password from the registry and thus they don't need this utility. User who doesn't want to deal with the registry, can use my utility for deleting the Content Advisor Password.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/conadvpass.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/conadvpass.png</iconUrl>
     <tags>content advisor remove ie</tags>

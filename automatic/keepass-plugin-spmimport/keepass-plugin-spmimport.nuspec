@@ -12,6 +12,7 @@ Adds an import module for files created by Steganos Password Manager.
 
 Note: KeePass has a built-in import module for Steganos Password Manager 2007 data.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://keepass.info/plugins.html#spmimport</projectUrl>
     <projectSourceUrl>http://keepass.info/extensions/v2/spmimport/SpmImport-{{PackageVersion}}-Source.zip</projectSourceUrl>
     <tags>keepass plugin import steganos</tags>

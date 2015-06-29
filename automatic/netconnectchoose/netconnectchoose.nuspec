@@ -12,6 +12,7 @@ NetConnectChoose is a simple tool that allows you to easily choose the default I
 
 It also displays extensive information about every active network/Internet connection, including network adapter name, MAC Address, Name Servers, MTU, Interface Speed, current incoming/outgoing data speed, number of received/sent packets, received/sent bytes, and more...
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/net_connect_choose.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/netconnectchoose.png</iconUrl>
     <tags>network connection</tags>

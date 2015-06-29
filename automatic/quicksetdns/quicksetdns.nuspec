@@ -12,6 +12,7 @@ QuickSetDNS is a simple tool that allows you to easily change the DNS servers th
 
 You can set the desired DNS servers from the user interface, by choosing from a list of DNS servers that you defined, or from command-line, without displaying any user interface.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/quick_set_dns.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/quicksetdns.png</iconUrl>
     <tags>dns server connection</tags>

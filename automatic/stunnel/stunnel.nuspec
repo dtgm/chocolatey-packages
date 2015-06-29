@@ -17,6 +17,7 @@ SSL encryption wrapper between remote client and local (inetd-startable) or remo
 * [Examples](https://www.stunnel.org/examples.html)
 * [Related docs](https://www.stunnel.org/docs.html)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>https://www.stunnel.org</projectUrl>
     <projectSourceUrl>ftp://ftp.stunnel.org/stunnel/</projectSourceUrl>
     <docsUrl>https://www.stunnel.org/static/stunnel.html</docsUrl>

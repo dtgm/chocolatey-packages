@@ -23,6 +23,7 @@ Blink is the best real-time communications client using SIP protocol. You can us
 ### Package-specific issue
 Attempting to install previous versions will fail.  Only the latest release of {{PackageName}} may be installed.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://icanblink.com</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2d36d582524442618d1c3b8bc4f3830f9e75281d/icons/{{PackageName}}.png</iconUrl>
     <tags>blink sip phone calls telephony softphone</tags>

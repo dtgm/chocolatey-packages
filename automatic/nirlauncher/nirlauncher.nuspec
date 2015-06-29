@@ -28,6 +28,7 @@ NirLauncher is a package of more than 180 portable freeware utilities for Window
 * __False Positives:__ Many Antivirus programs display false alerts, saying that the password-recovery utilities of NirSoft are infected with Trojan/Virus/Malware; [more info](http://blog.nirsoft.net/2009/05/17/antivirus-companies-cause-a-big-headache-to-small-developers/).
 * __Reporting false alerts:__ If your Antivirus software shows a false alert, you can use the following article that explains how to send a report about a false positive issue to your Antivirus company: [How to Report Malware or False Positives to Antivirus Vendors](http://www.techsupportalert.com/content/how-report-malware-or-false-positives-multiple-antivirus-vendors.htm)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://launcher.nirsoft.net/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/4cbda2279e83ee20ab0302b1ce24b5f778b9a483/icons/nirlauncher.png</iconUrl>
     <tags>nirsoft launcher suite admin utility tools</tags>

@@ -17,6 +17,7 @@ LibreCrypt supports the LUKs and losetup encryption schemes that are in most Lin
 * [Technical](https://github.com/t-d-k/LibreCrypt/blob/master/docs/advanced_topics.md) 
 * [Command line options](https://github.com/t-d-k/LibreCrypt/blob/master/docs/command_line.md)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.librecrypt.eu/</projectUrl>
     <projectSourceUrl>https://github.com/t-d-k/LibreCrypt</projectSourceUrl>
     <bugTrackerUrl>https://github.com/t-d-k/LibreCrypt/issues</bugTrackerUrl>

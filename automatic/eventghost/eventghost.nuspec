@@ -21,6 +21,7 @@ EventGhost is an advanced, easy to use and extensible automation tool. It can us
 #### Community
 * [Forum](http://www.eventghost.org/forum/)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.eventghost.org/</projectUrl>
     <projectSourceUrl>http://www.eventghost.org/downloads/</projectSourceUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/c7317174d0ca6b8f220fc6e72971f002f88844bb/icons/{{PackageName}}.png</iconUrl>

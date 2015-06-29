@@ -15,6 +15,7 @@ This plugin is primarily intended for use with PassIFox for Mozilla Firefox and 
 #### Documentation
 * [Configuration](https://github.com/nredko/NotesIPass)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>https://github.com/nredko/NotesIPass</projectUrl>
     <projectSourceUrl>https://github.com/nredko/NotesIPass</projectSourceUrl>
     <bugTrackerUrl>https://github.com/nredko/NotesIPass/issues</bugTrackerUrl>
