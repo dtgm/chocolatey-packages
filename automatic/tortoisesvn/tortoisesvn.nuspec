@@ -12,8 +12,8 @@ TortoiseSVN is a really easy to use Revision control / version control / source 
 
 TortoiseSVN is implemented as a Windows shell extension. It's intuitive and easy to use, since it doesn't require the Subversion command line client to run and provides revision information graphically with overlay icons. TortoiseSVN is free to use, even in a commercial environment.
 
-[Frequently Asked Questions (FAQ)](http://tortoisesvn.net/faq.html)
 [Screenshots](http://tortoisesvn.net/screenshots.html)
+[Frequently Asked Questions (FAQ)](http://tortoisesvn.net/faq.html)
     </description>
     <tags>svn subversion scm revision-control</tags>
     <projectUrl>http://tortoisesvn.net/</projectUrl>
@@ -24,10 +24,14 @@ TortoiseSVN is implemented as a Windows shell extension. It's intuitive and easy
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/a1754dce4a694ba8d9cfe59b41dc11c0190b3ac3/icons/{{PackageName}}.png</iconUrl>
     <releaseNotes>
-[Overview changelog](http://tortoisesvn.net/newsarchive.html)
-[Release changelog](http://tortoisesvn.net/Changelog.txt)
-[Beta changelog](https://code.google.com/p/tortoisesvn/source/browse/trunk/src/Changelog.txt)
-[Nightly changelog](http://svn.apache.org/repos/asf/subversion/trunk/CHANGES)
+#### Program
+* [Overview changelog](http://tortoisesvn.net/newsarchive.html)
+* [Release changelog](http://tortoisesvn.net/Changelog.txt)
+* [Beta changelog](https://code.google.com/p/tortoisesvn/source/browse/trunk/src/Changelog.txt)
+* [Nightly changelog](http://svn.apache.org/repos/asf/subversion/trunk/CHANGES)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   </metadata>
   <files>

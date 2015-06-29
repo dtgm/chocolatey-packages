@@ -282,7 +282,7 @@
     <UserAgent />
     <UserNotes />
     <LastFileSize>5226462</LastFileSize>
-    <LastFileDate>2015-06-24T07:32:19-05:00</LastFileDate>
+    <LastFileDate>2015-06-26T06:06:31.2133103</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -375,7 +375,7 @@
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-06-26T06:06:31.2133103-05:00</LastUpdated>
+    <LastUpdated>2015-06-26T06:06:31.2133103</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>0install.install</Name>
@@ -10970,7 +10970,7 @@ https://package.avira.com/package/oeavira/win/int/avira_en_av_55508f5e328e5__ws.
     <UserAgent />
     <UserNotes />
     <LastFileSize>141864</LastFileSize>
-    <LastFileDate>2015-04-17T21:36:35.4237384</LastFileDate>
+    <LastFileDate>2015-06-27T00:34:13.5397004</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -11063,7 +11063,7 @@ https://package.avira.com/package/oeavira/win/int/avira_en_av_55508f5e328e5__ws.
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-17T21:36:35.4237384</LastUpdated>
+    <LastUpdated>2015-06-27T00:34:13.5397004</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>bluescreenview</Name>
@@ -12339,7 +12339,7 @@ http://www.opensource.apple.com/source/mDNSResponder/mDNSResponder-333.10/mDNSWi
     <UserAgent />
     <UserNotes />
     <LastFileSize>132112</LastFileSize>
-    <LastFileDate>2015-04-17T21:36:41.7284034</LastFileDate>
+    <LastFileDate>2015-06-27T00:34:28.9304662</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -12432,7 +12432,7 @@ http://www.opensource.apple.com/source/mDNSResponder/mDNSResponder-333.10/mDNSWi
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-17T21:36:41.7284034</LastUpdated>
+    <LastUpdated>2015-06-27T00:34:28.9304662</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>bulletspassview</Name>
@@ -13831,8 +13831,8 @@ http://www.opensource.apple.com/source/mDNSResponder/mDNSResponder-333.10/mDNSWi
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>12612087</LastFileSize>
-    <LastFileDate>2015-06-12T04:35:48.1249555</LastFileDate>
+    <LastFileSize>12614891</LastFileSize>
+    <LastFileDate>2015-06-28T20:05:30.2704775</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -13921,11 +13921,11 @@ http://www.opensource.apple.com/source/mDNSResponder/mDNSResponder-333.10/mDNSWi
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\cmake-3.3.0-rc2-win32-x86.exe</PreviousLocation>
+    <PreviousLocation>F:\exe\cmake-3.3.0-rc3-win32-x86.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-06-12T04:35:48.1249555</LastUpdated>
+    <LastUpdated>2015-06-28T20:05:30.2704775</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>cmake</Name>
@@ -13934,8 +13934,8 @@ http://www.opensource.apple.com/source/mDNSResponder/mDNSResponder-333.10/mDNSWi
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>12612087</LastFileSize>
-    <LastFileDate>2015-06-12T04:35:55.6385788</LastFileDate>
+    <LastFileSize>12614891</LastFileSize>
+    <LastFileDate>2015-06-28T20:05:14.9794825</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -14024,11 +14024,11 @@ http://www.opensource.apple.com/source/mDNSResponder/mDNSResponder-333.10/mDNSWi
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\cmake-3.3.0-rc2-win32-x86.exe</PreviousLocation>
+    <PreviousLocation>F:\exe\cmake-3.3.0-rc3-win32-x86.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-06-12T04:35:55.6385788</LastUpdated>
+    <LastUpdated>2015-06-28T20:05:14.9794825</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>cmake.install</Name>
@@ -14037,8 +14037,8 @@ http://www.opensource.apple.com/source/mDNSResponder/mDNSResponder-333.10/mDNSWi
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>16293774</LastFileSize>
-    <LastFileDate>2015-06-12T04:36:22.3272451</LastFileDate>
+    <LastFileSize>16297531</LastFileSize>
+    <LastFileDate>2015-06-28T20:05:23.0902221</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -14127,11 +14127,11 @@ http://www.opensource.apple.com/source/mDNSResponder/mDNSResponder-333.10/mDNSWi
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\cmake-3.3.0-rc2-win32-x86.zip</PreviousLocation>
+    <PreviousLocation>F:\exe\cmake-3.3.0-rc3-win32-x86.zip</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-06-12T04:36:22.3272451</LastUpdated>
+    <LastUpdated>2015-06-28T20:05:23.0902221</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>cmake.portable</Name>
@@ -14768,8 +14768,8 @@ http://www.opensource.apple.com/source/mDNSResponder/mDNSResponder-333.10/mDNSWi
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>5630239</LastFileSize>
-    <LastFileDate>2015-06-25T04:35:18.8971672</LastFileDate>
+    <LastFileSize>5630589</LastFileSize>
+    <LastFileDate>2015-06-27T10:59:30-05:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Avoid</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -14851,7 +14851,7 @@ http://www.opensource.apple.com/source/mDNSResponder/mDNSResponder-333.10/mDNSWi
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-06-25T04:35:18.8971672</LastUpdated>
+    <LastUpdated>2015-06-29T05:25:57.5575178-05:00</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>combofix</Name>
@@ -15718,8 +15718,8 @@ http://www.opensource.apple.com/source/mDNSResponder/mDNSResponder-333.10/mDNSWi
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>483648</LastFileSize>
-    <LastFileDate>2015-04-02T15:44:33.8995342</LastFileDate>
+    <LastFileSize>575268</LastFileSize>
+    <LastFileDate>2015-06-28T13:15:31-05:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -15812,7 +15812,7 @@ http://www.opensource.apple.com/source/mDNSResponder/mDNSResponder-333.10/mDNSWi
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-02T15:44:33.8995342</LastUpdated>
+    <LastUpdated>2015-06-29T05:25:55.0108341-05:00</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>countrytraceroute</Name>
@@ -18492,8 +18492,8 @@ http://www.opensource.apple.com/source/mDNSResponder/mDNSResponder-333.10/mDNSWi
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:40.0)</UserAgent>
     <UserNotes>beta</UserNotes>
-    <LastFileSize>1202458</LastFileSize>
-    <LastFileDate>2015-06-24T21:36:54.4464111</LastFileDate>
+    <LastFileSize>1202791</LastFileSize>
+    <LastFileDate>2015-06-27T10:48:11-05:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Avoid</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -18572,11 +18572,11 @@ http://www.opensource.apple.com/source/mDNSResponder/mDNSResponder-333.10/mDNSWi
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\DDU v15.3.0.2.exe</PreviousLocation>
+    <PreviousLocation>F:\exe\DDU v15.3.0.3.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-06-24T21:36:54.4464111</LastUpdated>
+    <LastUpdated>2015-06-29T05:26:02.5394382-05:00</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>ddu</Name>
@@ -21872,12 +21872,159 @@ http://www.opensource.apple.com/source/mDNSResponder/mDNSResponder-333.10/mDNSWi
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>dotnetresourcesextract</Name>
   </ApplicationJob>
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="411a6ad4-6a07-413e-89c7-661b641fd3d8">
+    <WebsiteUrl />
+    <UserAgent>Mozilla/5.0 (Windows NT 6.3; WOW64) </UserAgent>
+    <UserNotes />
+    <LastFileSize>48936552</LastFileSize>
+    <LastFileDate>2015-06-27T02:56:40.0641031</LastFileDate>
+    <IgnoreFileInformation>false</IgnoreFileInformation>
+    <DownloadBeta>Default</DownloadBeta>
+    <DownloadDate xsi:nil="true" />
+    <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
+    <VariableChangeIndicator />
+    <CanBeShared>true</CanBeShared>
+    <ShareApplication>false</ShareApplication>
+    <ExclusiveDownload>false</ExclusiveDownload>
+    <HttpReferer>http://www.jetbrains.com/decompiler/download/</HttpReferer>
+    <SetupInstructions />
+    <Variables>
+      <item>
+        <key>
+          <string>nopush</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>--nopush</TextualContent>
+            <Name>nopush</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>version</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <Url />
+            <TextualContent>{getUrl:regex:(?&lt;=_)[\d\.]{3,\}(?=\.exe)}</TextualContent>
+            <Name>version</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>{getUrl}</TextualContent>
+            <Name>url</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url64</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>{getUrl64}</TextualContent>
+            <Name>url64</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>getUrl</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>[^ "'&lt;&gt;\*]+\.exe</Regex>
+            <PostData>versionDP=long</PostData>
+            <Url>https://www.jetbrains.com/decompiler/download/download_thanks.jsp?os=32bit</Url>
+            <Name>getUrl</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>getUrl64</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>[^ "'&lt;&gt;\*]+\.exe</Regex>
+            <Url>https://www.jetbrains.com/decompiler/download/download_thanks.jsp?os=64bit</Url>
+            <Name>getUrl64</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>cscript</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>2</TextualContent>
+            <Name>cscript</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>checksum64file</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>{url64}</TextualContent>
+            <Name>checksum64file</Name>
+          </UrlVariable>
+        </value>
+      </item>
+    </Variables>
+    <ExecuteCommand />
+    <ExecutePreCommand />
+    <ExecuteCommandType>Batch</ExecuteCommandType>
+    <ExecutePreCommandType>Batch</ExecutePreCommandType>
+    <Category />
+    <SourceType>FixedUrl</SourceType>
+    <PreviousLocation>F:\exe\dotPeek32_1.4.1.exe</PreviousLocation>
+    <DeletePreviousFile>false</DeletePreviousFile>
+    <Enabled>true</Enabled>
+    <FileHippoId />
+    <LastUpdated>2015-06-27T02:56:40.0641031</LastUpdated>
+    <TargetPath>{workdir}\</TargetPath>
+    <FixedDownloadUrl>{url}</FixedDownloadUrl>
+    <Name>dotpeek</Name>
+  </ApplicationJob>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="ea02cc76-10ab-4a86-9a84-745ba0788352">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
     <LastFileSize>138264</LastFileSize>
-    <LastFileDate>2015-04-27T07:52:29.7255793</LastFileDate>
+    <LastFileDate>2015-06-27T00:28:49.0700269</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -21970,7 +22117,7 @@ http://www.opensource.apple.com/source/mDNSResponder/mDNSResponder-333.10/mDNSWi
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-27T07:52:29.7255793</LastUpdated>
+    <LastUpdated>2015-06-27T00:28:49.0700269</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>downtester</Name>
@@ -23943,7 +24090,7 @@ http://www.duplicati.com/
 https://code.google.com/p/duplicati/wiki/Downloads?tm=2
 Note: probably deprecated; source repo has moved to github</UserNotes>
     <LastFileSize>10008254</LastFileSize>
-    <LastFileDate>2015-04-08T13:53:01.3816629</LastFileDate>
+    <LastFileDate>2015-06-27T00:28:52.185289</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -24056,7 +24203,7 @@ Note: probably deprecated; source repo has moved to github</UserNotes>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-08T13:53:01.3816629</LastUpdated>
+    <LastUpdated>2015-06-27T00:28:52.185289</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>duplicati</Name>
@@ -27107,8 +27254,8 @@ http://cf.cdn.neosmart.net/software/EasyBCD/community/EasyBCD%202.2.exe?response
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>4010347</LastFileSize>
-    <LastFileDate>2015-06-03T04:36:37.8802115</LastFileDate>
+    <LastFileSize>4011821</LastFileSize>
+    <LastFileDate>2015-06-28T20:08:52.7281015</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -27213,11 +27360,11 @@ http://cf.cdn.neosmart.net/software/EasyBCD/community/EasyBCD%202.2.exe?response
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\exiftool-9.97.zip</PreviousLocation>
+    <PreviousLocation>F:\exe\exiftool-9.98.zip</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-06-03T04:36:37.8802115</LastUpdated>
+    <LastUpdated>2015-06-28T20:08:52.7281015</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>exiftool</Name>
@@ -27835,7 +27982,7 @@ http://cf.cdn.neosmart.net/software/EasyBCD/community/EasyBCD%202.2.exe?response
     <UserAgent />
     <UserNotes />
     <LastFileSize>117088</LastFileSize>
-    <LastFileDate>2015-04-27T07:52:29.8194298</LastFileDate>
+    <LastFileDate>2015-06-27T00:29:01.3009859</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -27928,7 +28075,7 @@ http://cf.cdn.neosmart.net/software/EasyBCD/community/EasyBCD%202.2.exe?response
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-27T07:52:29.8194298</LastUpdated>
+    <LastUpdated>2015-06-27T00:29:01.3009859</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>fastresolver</Name>
@@ -32425,7 +32572,7 @@ regex subdir
     <UserAgent />
     <UserNotes />
     <LastFileSize>1751422</LastFileSize>
-    <LastFileDate>2015-06-18T03:08:27.5375619</LastFileDate>
+    <LastFileDate>2015-05-23T12:32:08-05:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -32519,7 +32666,7 @@ regex subdir
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-06-18T03:08:27.5375619</LastUpdated>
+    <LastUpdated>2015-06-29T06:02:20.1395001-05:00</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>fossil</Name>
@@ -32529,7 +32676,7 @@ regex subdir
     <UserAgent />
     <UserNotes />
     <LastFileSize>1751422</LastFileSize>
-    <LastFileDate>2015-06-18T03:11:41.0391356</LastFileDate>
+    <LastFileDate>2015-05-23T12:32:08-05:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -32623,7 +32770,7 @@ regex subdir
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-06-18T03:11:41.0391356</LastUpdated>
+    <LastUpdated>2015-06-29T06:02:28.9205207-05:00</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>fossil.portable</Name>
@@ -32941,8 +33088,8 @@ regex subdir
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>15264344</LastFileSize>
-    <LastFileDate>2015-06-03T20:05:16.8131876</LastFileDate>
+    <LastFileSize>17928312</LastFileSize>
+    <LastFileDate>2015-06-28T20:09:26.1565941</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -33051,7 +33198,7 @@ regex subdir
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-06-03T20:05:16.8131876</LastUpdated>
+    <LastUpdated>2015-06-28T20:09:26.1565941</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>freenet</Name>
@@ -33838,7 +33985,7 @@ regex subdir
     <UserAgent />
     <UserNotes />
     <LastFileSize>50293250</LastFileSize>
-    <LastFileDate>2015-04-04T04:36:14.4118537</LastFileDate>
+    <LastFileDate>2015-06-27T05:02:26.8822777</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Avoid</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -34002,7 +34149,7 @@ regex subdir
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-04T04:36:14.4118537</LastUpdated>
+    <LastUpdated>2015-06-27T05:02:26.8822777</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>fritzing</Name>
@@ -34748,7 +34895,7 @@ regex subdir
     <UserAgent />
     <UserNotes />
     <LastFileSize>1863475</LastFileSize>
-    <LastFileDate>2015-04-03T07:07:29.6030441</LastFileDate>
+    <LastFileDate>2015-06-27T05:02:23.3670506</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -34883,7 +35030,7 @@ regex subdir
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-03T07:07:29.6030441</LastUpdated>
+    <LastUpdated>2015-06-27T05:02:23.3670506</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>fv.install</Name>
@@ -40595,7 +40742,7 @@ regex subdir
     <UserAgent />
     <UserNotes />
     <LastFileSize>137808</LastFileSize>
-    <LastFileDate>2015-04-27T07:52:34.6664352</LastFileDate>
+    <LastFileDate>2015-06-27T00:34:46.2765747</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -40688,7 +40835,7 @@ regex subdir
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-27T07:52:34.6664352</LastUpdated>
+    <LastUpdated>2015-06-27T00:34:46.2765747</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>iepv</Name>
@@ -42241,7 +42388,7 @@ regex subdir
     <UserAgent />
     <UserNotes />
     <LastFileSize>133008</LastFileSize>
-    <LastFileDate>2015-04-27T07:52:40.5673081</LastFileDate>
+    <LastFileDate>2015-06-27T00:29:12.8176309</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -42334,7 +42481,7 @@ regex subdir
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-27T07:52:40.5673081</LastUpdated>
+    <LastUpdated>2015-06-27T00:29:12.8176309</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>ipnetinfo</Name>
@@ -43452,8 +43599,8 @@ http://isoplex.isohunt.to/files/IsoplexInstaller-2.6.1.exe</UserNotes>
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>2950210</LastFileSize>
-    <LastFileDate>2015-06-26T04:38:50.7312659</LastFileDate>
+    <LastFileSize>2950645</LastFileSize>
+    <LastFileDate>2015-06-28T20:11:09.6467745</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Avoid</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -43549,7 +43696,7 @@ http://isoplex.isohunt.to/files/IsoplexInstaller-2.6.1.exe</UserNotes>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-06-26T04:38:50.7312659</LastUpdated>
+    <LastUpdated>2015-06-28T20:11:09.6467745</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>jrt</Name>
@@ -51087,8 +51234,8 @@ https://sourceforge.net/projects/repo/files/</UserNotes>
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
     <UserNotes />
-    <LastFileSize>104799904</LastFileSize>
-    <LastFileDate>2015-06-26T04:40:40.8240733</LastFileDate>
+    <LastFileSize>105914528</LastFileSize>
+    <LastFileDate>2015-06-29T04:25:56-05:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Avoid</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -51253,7 +51400,7 @@ https://sourceforge.net/projects/repo/files/</UserNotes>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-06-26T04:40:40.8240733</LastUpdated>
+    <LastUpdated>2015-06-29T05:26:33.7040069-05:00</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>kvrt</Name>
@@ -53110,7 +53257,7 @@ actually for IBM Lotus Notes</UserNotes>
     <UserAgent />
     <UserNotes />
     <LastFileSize>2769104</LastFileSize>
-    <LastFileDate>2015-04-17T19:38:53.0760646</LastFileDate>
+    <LastFileDate>2015-06-27T00:29:17.5394823</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -53232,7 +53379,7 @@ actually for IBM Lotus Notes</UserNotes>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-17T19:38:53.0760646</LastUpdated>
+    <LastUpdated>2015-06-27T00:29:17.5394823</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>love</Name>
@@ -55028,7 +55175,7 @@ if (varCScript == "2") {
     <UserAgent />
     <UserNotes />
     <LastFileSize>136888</LastFileSize>
-    <LastFileDate>2015-04-27T07:52:40.8244202</LastFileDate>
+    <LastFileDate>2015-06-27T00:29:23.7825049</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -55121,7 +55268,7 @@ if (varCScript == "2") {
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-27T07:52:40.8244202</LastUpdated>
+    <LastUpdated>2015-06-27T00:29:23.7825049</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>mailpv</Name>
@@ -56855,6 +57002,140 @@ if (varCScript == "2") {
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>moneyguru</Name>
   </ApplicationJob>
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="5469e451-2352-4054-a382-23ef4309b28d">
+    <WebsiteUrl />
+    <UserAgent />
+    <UserNotes>http://www.mongodb.org/downloads
+http://www.mongodb.org/dl/win32/x86_64
+http://docs.mongodb.org/manual/tutorial/install-mongodb-on-windows/#id2</UserNotes>
+    <LastFileSize>0</LastFileSize>
+    <LastFileDate xsi:nil="true" />
+    <IgnoreFileInformation>false</IgnoreFileInformation>
+    <DownloadBeta>Default</DownloadBeta>
+    <DownloadDate xsi:nil="true" />
+    <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
+    <VariableChangeIndicator />
+    <CanBeShared>true</CanBeShared>
+    <ShareApplication>false</ShareApplication>
+    <ExclusiveDownload>false</ExclusiveDownload>
+    <HttpReferer />
+    <SetupInstructions />
+    <Variables>
+      <item>
+        <key>
+          <string>nopush</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>--nopush</TextualContent>
+            <Name>nopush</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>version</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=data-production-version=")[\d\.]{3,}</Regex>
+            <Url>http://www.mongodb.org/downloads</Url>
+            <Name>version</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>http://downloads.mongodb.org/win32/mongodb-win32-i386-{version}.zip</TextualContent>
+            <Name>url</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url64</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>http://downloads.mongodb.org/win32/mongodb-win32-x86_64-{version}.zip</TextualContent>
+            <Name>url64</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>checksum</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>[A-Fa-f0-9]{40}</Regex>
+            <Url>{url}.sha1</Url>
+            <TextualContent>{checksum}</TextualContent>
+            <Name>checksum</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>checksumx64</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>[A-Fa-f0-9]{40}</Regex>
+            <Url>{url64}.sha1</Url>
+            <TextualContent>{checksum}</TextualContent>
+            <Name>checksumx64</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>cscript</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>0</TextualContent>
+            <Name>cscript</Name>
+          </UrlVariable>
+        </value>
+      </item>
+    </Variables>
+    <ExecuteCommand />
+    <ExecutePreCommand />
+    <ExecuteCommandType>Batch</ExecuteCommandType>
+    <ExecutePreCommandType>Batch</ExecutePreCommandType>
+    <Category />
+    <SourceType>FixedUrl</SourceType>
+    <DeletePreviousFile>false</DeletePreviousFile>
+    <Enabled>false</Enabled>
+    <FileHippoId />
+    <LastUpdated xsi:nil="true" />
+    <TargetPath>{workdir}\</TargetPath>
+    <FixedDownloadUrl>{url}</FixedDownloadUrl>
+    <Name>mongodb</Name>
+  </ApplicationJob>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="0e6e70f3-f247-4fe8-afc7-9fb2f676dca1">
     <WebsiteUrl />
     <UserAgent />
@@ -57030,7 +57311,7 @@ http://docs.mongodb.org/manual/tutorial/install-mongodb-on-windows/#id2</UserNot
     <LastUpdated xsi:nil="true" />
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
-    <Name>mongodb</Name>
+    <Name>mongodb [MSI]</Name>
   </ApplicationJob>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="b1b20343-610d-4bc2-bbc3-261a7fc30e46">
     <WebsiteUrl />
@@ -57805,7 +58086,7 @@ http://docs.mongodb.org/manual/tutorial/install-mongodb-on-windows/#id2</UserNot
     <UserAgent />
     <UserNotes />
     <LastFileSize>140600</LastFileSize>
-    <LastFileDate>2015-04-27T07:52:44.9872284</LastFileDate>
+    <LastFileDate>2015-06-27T00:29:31.1272248</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -57898,7 +58179,7 @@ http://docs.mongodb.org/manual/tutorial/install-mongodb-on-windows/#id2</UserNot
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-27T07:52:44.9872284</LastUpdated>
+    <LastUpdated>2015-06-27T00:29:31.1272248</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>mspass</Name>
@@ -58469,7 +58750,7 @@ http://docs.mongodb.org/manual/tutorial/install-mongodb-on-windows/#id2</UserNot
     <UserAgent />
     <UserNotes />
     <LastFileSize>960756</LastFileSize>
-    <LastFileDate>2015-06-04T23:28:48.8842293</LastFileDate>
+    <LastFileDate>2015-06-27T00:30:04.4679373</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -58562,7 +58843,7 @@ http://docs.mongodb.org/manual/tutorial/install-mongodb-on-windows/#id2</UserNot
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-06-04T23:28:48.8842293</LastUpdated>
+    <LastUpdated>2015-06-27T00:30:04.4679373</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>multipar</Name>
@@ -59056,7 +59337,7 @@ http://docs.mongodb.org/manual/tutorial/install-mongodb-on-windows/#id2</UserNot
     <UserAgent />
     <UserNotes />
     <LastFileSize>285000</LastFileSize>
-    <LastFileDate>2015-04-27T07:52:45.0116684</LastFileDate>
+    <LastFileDate>2015-06-27T00:29:36.7292581</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -59149,7 +59430,7 @@ http://docs.mongodb.org/manual/tutorial/install-mongodb-on-windows/#id2</UserNot
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-27T07:52:45.0116684</LastUpdated>
+    <LastUpdated>2015-06-27T00:29:36.7292581</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>mweather</Name>
@@ -60558,7 +60839,7 @@ https://netbeans.org/community/releases/roadmap.html
     <UserAgent />
     <UserNotes />
     <LastFileSize>129712</LastFileSize>
-    <LastFileDate>2015-04-17T21:36:48.6480557</LastFileDate>
+    <LastFileDate>2015-06-27T00:29:42.2169744</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -60651,7 +60932,7 @@ https://netbeans.org/community/releases/roadmap.html
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-17T21:36:48.6480557</LastUpdated>
+    <LastUpdated>2015-06-27T00:29:42.2169744</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>netpass</Name>
@@ -63972,7 +64253,7 @@ if (varCScript == "2") {
     <UserAgent />
     <UserNotes />
     <LastFileSize>7509504</LastFileSize>
-    <LastFileDate>2015-04-05T18:20:18.3106118</LastFileDate>
+    <LastFileDate>2015-06-27T00:30:02.1474351</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -64150,7 +64431,7 @@ if (varCScript == "2") {
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-05T18:20:18.3106118</LastUpdated>
+    <LastUpdated>2015-06-27T00:30:02.1474351</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>npackd</Name>
@@ -64160,7 +64441,7 @@ if (varCScript == "2") {
     <UserAgent />
     <UserNotes />
     <LastFileSize>3087872</LastFileSize>
-    <LastFileDate>2015-04-05T19:15:33.9724697</LastFileDate>
+    <LastFileDate>2015-06-27T00:30:19.0948011</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -64296,7 +64577,7 @@ if (varCScript == "2") {
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-05T19:15:33.9724697</LastUpdated>
+    <LastUpdated>2015-06-27T00:30:19.0948011</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>npackd-cli</Name>
@@ -65667,7 +65948,7 @@ if (varCScript == "2") {
     <UserAgent />
     <UserNotes />
     <LastFileSize>3023406</LastFileSize>
-    <LastFileDate>2015-06-23T21:59:08.52659</LastFileDate>
+    <LastFileDate>2015-06-27T00:30:16.4462935</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -65774,7 +66055,7 @@ if (varCScript == "2") {
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-06-23T21:59:08.52659</LastUpdated>
+    <LastUpdated>2015-06-27T00:30:16.4462935</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>nunit</Name>
@@ -66444,7 +66725,7 @@ if (varCScript == "2") {
     <UserAgent />
     <UserNotes />
     <LastFileSize>137408</LastFileSize>
-    <LastFileDate>2015-04-17T21:37:02.4913512</LastFileDate>
+    <LastFileDate>2015-06-27T00:30:29.7998383</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -66537,7 +66818,7 @@ if (varCScript == "2") {
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-17T21:37:02.4913512</LastUpdated>
+    <LastUpdated>2015-06-27T00:30:29.7998383</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>ofview</Name>
@@ -69603,7 +69884,7 @@ if (varCScript == "2") {
     <UserAgent />
     <UserNotes />
     <LastFileSize>276856</LastFileSize>
-    <LastFileDate>2015-05-07T20:15:29.1364078</LastFileDate>
+    <LastFileDate>2015-06-27T00:30:42.3050598</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -69696,7 +69977,7 @@ if (varCScript == "2") {
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-05-07T20:15:29.1364078</LastUpdated>
+    <LastUpdated>2015-06-27T00:30:42.3050598</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>passwordscan</Name>
@@ -70808,7 +71089,7 @@ if (varCScript == "2") {
     <UserAgent />
     <UserNotes />
     <LastFileSize>6292277</LastFileSize>
-    <LastFileDate>2015-06-15T04:41:23.631087</LastFileDate>
+    <LastFileDate>2015-06-26T10:00:56-05:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -70956,10 +71237,10 @@ if (varCScript == "2") {
     <Category />
     <SourceType>FixedUrl</SourceType>
     <PreviousLocation>F:\exe\peazip-5.6.1.WINDOWS.exe</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-06-15T04:41:23.631087</LastUpdated>
+    <LastUpdated>2015-06-29T05:41:00.9550211-05:00</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>peazip</Name>
@@ -70969,7 +71250,7 @@ if (varCScript == "2") {
     <UserAgent />
     <UserNotes />
     <LastFileSize>6292277</LastFileSize>
-    <LastFileDate>2015-06-15T04:41:19.7313991</LastFileDate>
+    <LastFileDate>2015-06-26T10:00:56-05:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -71117,10 +71398,10 @@ if (varCScript == "2") {
     <Category />
     <SourceType>FixedUrl</SourceType>
     <PreviousLocation>F:\exe\peazip-5.6.1.WINDOWS.exe</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-06-15T04:41:19.7313991</LastUpdated>
+    <LastUpdated>2015-06-29T05:41:25.2539122-05:00</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>peazip.install</Name>
@@ -71130,7 +71411,7 @@ if (varCScript == "2") {
     <UserAgent />
     <UserNotes />
     <LastFileSize>9460279</LastFileSize>
-    <LastFileDate>2015-06-15T04:41:35.3282386</LastFileDate>
+    <LastFileDate>2015-06-14T04:41:18-05:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -71278,10 +71559,10 @@ if (varCScript == "2") {
     <Category />
     <SourceType>FixedUrl</SourceType>
     <PreviousLocation>F:\exe\peazip_portable-5.6.1.WINDOWS.zip</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-06-15T04:41:35.3282386</LastUpdated>
+    <LastUpdated>2015-06-29T05:42:30.1306905-05:00</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>peazip.portable</Name>
@@ -72706,7 +72987,7 @@ https://code.google.com/p/peerblock/downloads/list</UserNotes>
     <UserAgent />
     <UserNotes />
     <LastFileSize>1986032</LastFileSize>
-    <LastFileDate>2015-05-25T11:48:03.861356</LastFileDate>
+    <LastFileDate>2015-06-27T00:31:19.6118814</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -72856,7 +73137,7 @@ https://code.google.com/p/peerblock/downloads/list</UserNotes>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-05-25T11:48:03.861356</LastUpdated>
+    <LastUpdated>2015-06-27T00:31:19.6118814</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>processhacker</Name>
@@ -74665,7 +74946,7 @@ https://code.google.com/p/peerblock/downloads/list</UserNotes>
     <UserAgent />
     <UserNotes />
     <LastFileSize>109053</LastFileSize>
-    <LastFileDate>2015-04-27T07:52:49.4862039</LastFileDate>
+    <LastFileDate>2015-06-27T00:30:55.8984903</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -74758,7 +75039,7 @@ https://code.google.com/p/peerblock/downloads/list</UserNotes>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-27T07:52:49.4862039</LastUpdated>
+    <LastUpdated>2015-06-27T00:30:55.8984903</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>pstpassword</Name>
@@ -75184,7 +75465,7 @@ https://code.google.com/p/peerblock/downloads/list</UserNotes>
     <UserAgent />
     <UserNotes />
     <LastFileSize>1410995</LastFileSize>
-    <LastFileDate>2015-04-21T21:42:43.1974598</LastFileDate>
+    <LastFileDate>2015-06-27T00:31:12.3642127</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -75351,7 +75632,7 @@ https://code.google.com/p/peerblock/downloads/list</UserNotes>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-21T21:42:43.1974598</LastUpdated>
+    <LastUpdated>2015-06-27T00:31:12.3642127</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>pwgen</Name>
@@ -76140,7 +76421,7 @@ https://code.google.com/p/peerblock/downloads/list</UserNotes>
     <UserAgent />
     <UserNotes />
     <LastFileSize>5519954</LastFileSize>
-    <LastFileDate>2015-06-08T04:40:16.0170181</LastFileDate>
+    <LastFileDate>2015-06-08T01:04:08-05:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -76176,7 +76457,7 @@ https://code.google.com/p/peerblock/downloads/list</UserNotes>
             <VariableType>Textual</VariableType>
             <Regex />
             <Url />
-            <TextualContent>{getUrl:regex:(?&lt;=QTTabBar_)[\d\.]{3,\}(?=\.zip)}</TextualContent>
+            <TextualContent>{getUrl:regex:(?&lt;=QTTabBar_)[\d\.]{3,\}(?=\.zip)}.0</TextualContent>
             <Name>version</Name>
           </UrlVariable>
         </value>
@@ -76218,7 +76499,7 @@ https://code.google.com/p/peerblock/downloads/list</UserNotes>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>1</TextualContent>
+            <TextualContent>2</TextualContent>
             <Name>cscript</Name>
           </UrlVariable>
         </value>
@@ -76231,10 +76512,10 @@ https://code.google.com/p/peerblock/downloads/list</UserNotes>
     <Category />
     <SourceType>FixedUrl</SourceType>
     <PreviousLocation>F:\exe\QTTabBar_1025.zip</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-06-08T04:40:16.0170181</LastUpdated>
+    <LastUpdated>2015-06-29T06:37:51.8550963-05:00</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>qttabbar</Name>
@@ -78792,8 +79073,8 @@ https://code.google.com/p/peerblock/downloads/list</UserNotes>
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>18834106</LastFileSize>
-    <LastFileDate>2015-06-09T04:45:19.6133725</LastFileDate>
+    <LastFileSize>18930705</LastFileSize>
+    <LastFileDate>2015-06-28T20:17:49.0401939</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -78939,11 +79220,11 @@ https://code.google.com/p/peerblock/downloads/list</UserNotes>
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\RetroShare_0.6.0_8401_rc1_setup.exe</PreviousLocation>
+    <PreviousLocation>F:\exe\RetroShare_0.6.0_8551_rc2_setup.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-06-09T04:45:19.6133725</LastUpdated>
+    <LastUpdated>2015-06-28T20:17:49.0401939</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>retroshare</Name>
@@ -81755,8 +82036,8 @@ Actual download=http://www.sandboxie.com/SandboxieInstall32-412.exe
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>2912256</LastFileSize>
-    <LastFileDate>2015-05-30T15:37:41.2938777</LastFileDate>
+    <LastFileSize>2932736</LastFileSize>
+    <LastFileDate>2015-06-29T05:38:14.0063402-05:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -81903,11 +82184,11 @@ Actual download=http://www.sandboxie.com/SandboxieInstall32-412.exe
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\scite-3.5.6.msi</PreviousLocation>
+    <PreviousLocation>F:\exe\scite-3.5.7.msi</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-05-30T15:37:41.2938777</LastUpdated>
+    <LastUpdated>2015-06-29T05:38:14.1001915-05:00</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>scite</Name>
@@ -82283,7 +82564,7 @@ Actual download=http://www.sandboxie.com/SandboxieInstall32-412.exe
     <UserAgent />
     <UserNotes />
     <LastFileSize>113322</LastFileSize>
-    <LastFileDate>2015-04-27T07:52:53.8551565</LastFileDate>
+    <LastFileDate>2015-06-27T00:35:05.2927404</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -82376,7 +82657,7 @@ Actual download=http://www.sandboxie.com/SandboxieInstall32-412.exe
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-27T07:52:53.8551565</LastUpdated>
+    <LastUpdated>2015-06-27T00:35:05.2927404</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>seqdownload</Name>
@@ -82592,7 +82873,7 @@ Actual download=http://www.sandboxie.com/SandboxieInstall32-412.exe
     <UserAgent />
     <UserNotes />
     <LastFileSize>125360</LastFileSize>
-    <LastFileDate>2015-04-27T07:52:53.884485</LastFileDate>
+    <LastFileDate>2015-06-27T00:31:35.8587604</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -82685,7 +82966,7 @@ Actual download=http://www.sandboxie.com/SandboxieInstall32-412.exe
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-27T07:52:53.884485</LastUpdated>
+    <LastUpdated>2015-06-27T00:31:35.8587604</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>serviwin</Name>
@@ -83268,7 +83549,7 @@ Actual download=http://www.sandboxie.com/SandboxieInstall32-412.exe
     <UserAgent />
     <UserNotes />
     <LastFileSize>140960</LastFileSize>
-    <LastFileDate>2015-04-17T21:37:13.9613418</LastFileDate>
+    <LastFileDate>2015-06-27T00:35:14.745629</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -83361,7 +83642,7 @@ Actual download=http://www.sandboxie.com/SandboxieInstall32-412.exe
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-17T21:37:13.9613418</LastUpdated>
+    <LastUpdated>2015-06-27T00:35:14.745629</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>shexview</Name>
@@ -84363,7 +84644,7 @@ Actual download=http://www.sandboxie.com/SandboxieInstall32-412.exe
     <UserAgent />
     <UserNotes />
     <LastFileSize>1095628</LastFileSize>
-    <LastFileDate>2015-06-16T04:37:13.6719521</LastFileDate>
+    <LastFileDate>2015-06-04T11:47:43-05:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -84528,7 +84809,7 @@ Actual download=http://www.sandboxie.com/SandboxieInstall32-412.exe
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-06-16T04:37:13.6719521</LastUpdated>
+    <LastUpdated>2015-06-29T05:58:07.0537522-05:00</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>smartmontools</Name>
@@ -84720,12 +85001,12 @@ Actual download=http://www.sandboxie.com/SandboxieInstall32-412.exe
     <SourceType>FixedUrl</SourceType>
     <PreviousLocation>F:\exe\smartmontools-6.4-1.win32-setup.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
-    <Enabled>true</Enabled>
+    <Enabled>false</Enabled>
     <FileHippoId />
     <LastUpdated>2015-06-16T04:30:26.9055862</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
-    <Name>smartmontools</Name>
+    <Name>smartmontools [md5]</Name>
   </ApplicationJob>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="fb58333a-cf93-4de7-b7b7-a899b84296fc">
     <SourceTemplate><![CDATA[<Jobs>
@@ -85751,7 +86032,7 @@ Actual download=http://www.sandboxie.com/SandboxieInstall32-412.exe
     <UserAgent />
     <UserNotes />
     <LastFileSize>112814</LastFileSize>
-    <LastFileDate>2015-04-17T21:37:28.3751708</LastFileDate>
+    <LastFileDate>2015-06-27T00:31:53.0847245</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -85844,7 +86125,7 @@ Actual download=http://www.sandboxie.com/SandboxieInstall32-412.exe
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-17T21:37:28.3751708</LastUpdated>
+    <LastUpdated>2015-06-27T00:31:53.0847245</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>sniffpass</Name>
@@ -88212,7 +88493,7 @@ http://spybot-mirror.com/files/spybot-2.4.exe
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64)</UserAgent>
     <UserNotes />
     <LastFileSize>1536698</LastFileSize>
-    <LastFileDate>2015-06-17T04:43:36.922954</LastFileDate>
+    <LastFileDate>2015-06-16T08:35:19-05:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -88325,7 +88606,7 @@ http://spybot-mirror.com/files/spybot-2.4.exe
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-06-17T04:43:36.922954</LastUpdated>
+    <LastUpdated>2015-06-29T05:54:04.5227369-05:00</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>stunnel</Name>
@@ -90076,7 +90357,7 @@ https://code.google.com/p/peerblock/downloads/list</UserNotes>
     <UserAgent />
     <UserNotes />
     <LastFileSize>117230</LastFileSize>
-    <LastFileDate>2015-04-17T21:37:32.8405012</LastFileDate>
+    <LastFileDate>2015-06-27T00:32:06.1008901</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -90169,7 +90450,7 @@ https://code.google.com/p/peerblock/downloads/list</UserNotes>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-17T21:37:32.8405012</LastUpdated>
+    <LastUpdated>2015-06-27T00:32:06.1008901</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>sysexp</Name>
@@ -96862,7 +97143,7 @@ http://www.pps.univ-paris-diderot.fr/~vouillon/unison/
     <UserAgent />
     <UserNotes />
     <LastFileSize>177896</LastFileSize>
-    <LastFileDate>2015-06-18T05:04:47.3250825</LastFileDate>
+    <LastFileDate>2015-06-27T00:32:18.6902148</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -96955,7 +97236,7 @@ http://www.pps.univ-paris-diderot.fr/~vouillon/unison/
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-06-18T05:04:47.3250825</LastUpdated>
+    <LastUpdated>2015-06-27T00:32:18.6902148</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>videocacheview</Name>
@@ -97316,7 +97597,7 @@ http://www.pps.univ-paris-diderot.fr/~vouillon/unison/
     <UserAgent />
     <UserNotes />
     <LastFileSize>131848</LastFileSize>
-    <LastFileDate>2015-04-17T21:37:48.6537493</LastFileDate>
+    <LastFileDate>2015-06-27T00:32:30.7895837</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -97409,7 +97690,7 @@ http://www.pps.univ-paris-diderot.fr/~vouillon/unison/
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-17T21:37:48.6537493</LastUpdated>
+    <LastUpdated>2015-06-27T00:32:30.7895837</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>volumouse</Name>
@@ -97874,7 +98155,7 @@ http://www.pps.univ-paris-diderot.fr/~vouillon/unison/
     <UserAgent />
     <UserNotes />
     <LastFileSize>281808</LastFileSize>
-    <LastFileDate>2015-04-27T07:52:58.1713184</LastFileDate>
+    <LastFileDate>2015-06-27T00:35:31.815065</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -97967,7 +98248,7 @@ http://www.pps.univ-paris-diderot.fr/~vouillon/unison/
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-27T07:52:58.1713184</LastUpdated>
+    <LastUpdated>2015-06-27T00:35:31.815065</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>webbrowserpassview</Name>
@@ -98182,8 +98463,8 @@ http://www.pps.univ-paris-diderot.fr/~vouillon/unison/
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>82118</LastFileSize>
-    <LastFileDate>2015-04-02T15:53:30.1244081</LastFileDate>
+    <LastFileSize>82174</LastFileSize>
+    <LastFileDate>2015-06-27T08:14:30-05:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -98276,7 +98557,7 @@ http://www.pps.univ-paris-diderot.fr/~vouillon/unison/
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-02T15:53:30.1244081</LastUpdated>
+    <LastUpdated>2015-06-29T05:26:07.8097545-05:00</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>webcacheimageinfo</Name>
@@ -98773,7 +99054,7 @@ http://www.pps.univ-paris-diderot.fr/~vouillon/unison/
     <UserAgent />
     <UserNotes />
     <LastFileSize>101438</LastFileSize>
-    <LastFileDate>2015-04-27T07:52:58.2006474</LastFileDate>
+    <LastFileDate>2015-06-27T00:35:40.8521594</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -98866,7 +99147,7 @@ http://www.pps.univ-paris-diderot.fr/~vouillon/unison/
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-27T07:52:58.2006474</LastUpdated>
+    <LastUpdated>2015-06-27T00:35:40.8521594</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>webvideocap</Name>
@@ -99795,7 +100076,7 @@ http://www.pps.univ-paris-diderot.fr/~vouillon/unison/
     <UserAgent />
     <UserNotes />
     <LastFileSize>132480</LastFileSize>
-    <LastFileDate>2015-06-06T04:43:00.5961706</LastFileDate>
+    <LastFileDate>2015-06-27T00:32:50.8669155</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -99888,7 +100169,7 @@ http://www.pps.univ-paris-diderot.fr/~vouillon/unison/
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-06-06T04:43:00.5961706</LastUpdated>
+    <LastUpdated>2015-06-27T00:32:50.8669155</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>whoistd</Name>
@@ -100455,7 +100736,7 @@ http://www.pps.univ-paris-diderot.fr/~vouillon/unison/
     <UserAgent />
     <UserNotes />
     <LastFileSize>12290974</LastFileSize>
-    <LastFileDate>2015-04-11T05:33:44.184287</LastFileDate>
+    <LastFileDate>2014-03-19T12:51:39-05:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -100593,7 +100874,7 @@ http://www.pps.univ-paris-diderot.fr/~vouillon/unison/
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-11T05:33:44.184287</LastUpdated>
+    <LastUpdated>2015-06-29T05:47:21.1941325-05:00</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>win32diskimager</Name>
@@ -104339,7 +104620,7 @@ if (varCScript == "2") {
     <UserAgent />
     <UserNotes />
     <LastFileSize>130264</LastFileSize>
-    <LastFileDate>2015-06-03T04:47:03.4299701</LastFileDate>
+    <LastFileDate>2015-06-27T00:32:58.6765576</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -104432,7 +104713,7 @@ if (varCScript == "2") {
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-06-03T04:47:03.4299701</LastUpdated>
+    <LastUpdated>2015-06-27T00:32:58.6765576</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>wirelessnetview</Name>
@@ -104999,7 +105280,7 @@ if (varCScript == "2") {
     <UserAgent />
     <UserNotes />
     <LastFileSize>121928</LastFileSize>
-    <LastFileDate>2015-04-27T07:53:08.4714509</LastFileDate>
+    <LastFileDate>2015-06-27T00:33:10.2470515</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -105092,7 +105373,7 @@ if (varCScript == "2") {
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-27T07:53:08.4714509</LastUpdated>
+    <LastUpdated>2015-06-27T00:33:10.2470515</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>wul</Name>
