@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>softwareinformer</id>
+    <title>Software Informer</title>
+    <version>1.2.918</version>
+    <authors>Informer Technologies, Inc.</authors>
+    <owners>tonigellida</owners>
+    <summary></summary>
+    <description>
+Software Informer is a programme, whose primary aim is to give you the up-to-date information about the software you actually use.
+Whenever a more recent version of any programme becomes available, Software Informer notifies you and offers a link for downloading the update.
+It also allows you to keep track of comments and questions on corresponding software.
+Not only that, but also a whole software-related social network paired with our siClient program, where you will be able to: 
+-Get notifications about important software updates
+-Find a perfect program according to your needs
+-Ask questions and get feedback from experienced users
+-Share your opinions
+-Meet people with similar interests
+-And much more
+	</description>
+    <projectUrl>http://software.informer.com/landing/</projectUrl>
+    <tags>software-updates rating update-notifier</tags>
+    <copyright></copyright>
+    <licenseUrl>http://software.informer.com/privacy.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/softwareinformer/softwareinformer.jpg</iconUrl>
+  </metadata>
+</package>
