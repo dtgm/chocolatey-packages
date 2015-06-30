@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>colorconsole</id>
+    <title>ColorConsole</title>
+    <version>2.26</version>
+    <authors>Nenad Hrg</authors>
+    <owners>tonigellida</owners>
+    <summary>
+ColorConsole brings a little color to your black and white world of Windows console.
+	</summary>
+    <description>
+ColorConsole brings a little color to your black and white world of Windows console.
+One can save many hand moves and also time!
+An installation of ColorConsole is not required and can be executed easily from the desktop.
+Features:
+-Favorites commands Export to HTML and RTF Copy,Paste,Cut...
+-Changeable font style and color Tabbed working with multi cmd.exe.
+-Fast folder switch. 
+	</description>
+    <projectUrl>http://www.softwareok.com/?seite=Freeware/ColorConsole</projectUrl>
+    <tags>console command cmd-replacement prompt cmd</tags>
+    <copyright></copyright>
+    <licenseUrl>http://www.softwareok.com/?seite=Freeware/ColorConsole/Eula</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/colorconsole/colorconsole.png</iconUrl>
+  </metadata>
+</package>
