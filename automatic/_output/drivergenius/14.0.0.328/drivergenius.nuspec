@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>drivergenius</id>
+    <title>Driver Genius</title>
+    <version>14.0.0.328</version>
+    <authors>Driver-Soft Inc.</authors>
+    <owners>tonigellida</owners>
+    <summary>
+Driver Genius Professional is a professional driver management tool that features both driver management and hardware diagnostics.
+	</summary>
+    <description>
+Driver Genius Professional is a professional driver management tool that features both driver management and hardware diagnostics.
+Driver Genius Professional can backup, restore and update all your drivers in several mouse clicks.
+	</description>
+    <projectUrl>http://www.driver-soft.com/product.html</projectUrl>
+    <tags>trial-version driver-update driver-backup driver-download driver-restore</tags>
+    <copyright></copyright>
+    <licenseUrl>http://www.driver-soft.com/license.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/drivergenius/drivergenius.jpg</iconUrl>
+  </metadata>
+</package>
