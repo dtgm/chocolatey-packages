@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>advancedsystemtweaker</id>
+    <title>Advanced System Tweaker</title>
+    <version>2.0.0</version>
+    <authors>Tweaking.com</authors>
+    <owners>tonigellida</owners>
+    <summary></summary>
+    <description>
+Advanced System Tweaker is a central hub for any kind of tweak or anything else that can be done via registry files, commands and vbscript files.
+The add-ons in the program allow it to grow and handle just about anything.
+The program has a direct link to search and find the growing list of add-ons.
+Using the program is easy. Browse through the installed add-ons and runs the one you want.
+For a 1 click solution you can use Simple System Tweaker.
+Unlike Simple Performance Boost, Advanced System Tweaker is add-on supported.
+So it has unlimited possibility. You also only run 1 tweak at a time.
+	</description>
+    <projectUrl>http://www.tweaking.com/content/page/advanced_system_tweaker.html</projectUrl>
+    <tags>performance increase-performance tune-up</tags>
+    <copyright></copyright>
+    <licenseUrl>http://www.tweaking.com/core/termsofuse/index.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/advancedsystemtweaker/advancedsystemtweaker.png</iconUrl>
+  </metadata>
+</package>
