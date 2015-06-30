@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>partitionwizard</id>
+	<title>MiniTool Partition Wizard Home Edition</title>
+    <version>8.1.1</version>
+    <authors>MT Solution Ltd.</authors>
+    <owners>Redsandro tonigellida</owners>
+    <summary>Home users can perform complicated partition operations by using this powerful yet free partition manager to manage their hard disk.</summary>
+    <description>
+MiniTool Partition Wizard Home Edition is a free partition manager software designed by MT Solution Ltd.
+Home users can perform complicated partition operations by using this powerful yet free partition manager to manage their hard disk.
+Functions include: Resizing partitions, Copying partitions, Create partition, Delete partition, Format partition, Convert partition, Explore partition, Hide partition, Change drive letter, Set active partition, Partition Recovery.
+	</description>
+    <projectUrl>http://www.partitionwizard.com/free-partition-manager.html</projectUrl>
+    <tags>storage partition disk drive hard-drive system-utilities filesystem-tools partitioning disk-tools</tags>
+    <copyright></copyright>
+    <licenseUrl>http://www.partitionwizard.com/comparison.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/partitionwizard/partitionwizard.png</iconUrl>
+  </metadata>
+</package>
