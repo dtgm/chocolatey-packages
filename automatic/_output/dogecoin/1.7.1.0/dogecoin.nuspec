@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>dogecoin</id>
+    <version>1.7.1.0</version>
+    <title>Dogecoin</title>
+    <authors>Jackson Palmer</authors>
+    <owners>George Brooke</owners>
+    <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>http://dogecoin.com</projectUrl>
+    <iconUrl>http://dogecoin.com/imgs/dogecoin-300.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Dogecoin is an open source peer-to-peer digital currency, favored by Shiba Inus worldwide.</description>
+    <summary>Dogecoin Core Wallet</summary>
+    <tags>dogecoin cryptocurrency</tags>
+  </metadata>
+</package>
