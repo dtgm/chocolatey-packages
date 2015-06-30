@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>systemninja</id>
+    <title>System Ninja</title>
+    <version>{}.0.0.20140324</version>
+    <authors>SingularLabs</authors>
+    <owners>tonigellida</owners>
+    <summary>
+System Ninja is a fast, powerful and effective system optimization solution for Windows XP, Windows Vista and Windows 7.
+	</summary>
+    <description>
+System Ninja is a fast, powerful and effective system optimization solution for Windows XP, Windows Vista and Windows 7.
+It’s designed to quickly remove junk files, improve system speed and help fix problems.
+	</description>
+    <projectUrl>http://singularlabs.com/software/system-ninja/</projectUrl>
+    <tags>cleaner</tags>
+    <copyright></copyright>
+    <licenseUrl>http://en.wikipedia.org/wiki/Freeware</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/systemninja/systemninja.png</iconUrl>
+  </metadata>
+</package>
