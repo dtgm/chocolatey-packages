@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>softwareinformer</id>
+    <title>Software Informer</title>
+    <version>1.4.1303</version>
+    <authors>Informer Technologies, Inc</authors>
+    <owners>dtgm</owners>
+    <summary>Get the up-to-date information about the software you actually use</summary>
+    <description>
+Software Informer Client (siClient) is a lightweight utility that creates a list of all of your installed programs and their versions, then compares each item on that list against Software Informer’s database automatically on a daily basis to identify newer versions of programs, and informs you about any available updates. Please see the [privacy policy](http://software.informer.com/privacy.html) for what information is shared.
+
+#### Features
+* Detects your installed software automatically and displays available up-to-date info about your programs.
+* Keeps your software and hardware drivers up to date.
+* Suggests other programs that you may find interesting.
+* Learn new things and share your knowledge on program pages, or by commenting on articles and reviews from within the program.
+
+#### Documentation
+* [Screenshots](http://software-informer.software.informer.com/screenshot/)
+* [Developers](http://software.informer.com/partners.php)
+
+#### Community
+* [Forum](http://software-informer.software.informer.com/questions/)
+* [Facebook](http://www.facebook.com/softinformer)
+* [Google+](https://plus.google.com/109065392995436727422/)
+* [Twitter](http://twitter.com/soft_informer)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/softwareinformer/1.4.1303</packageSourceUrl>
+    <projectUrl>http://software.informer.com/landing/</projectUrl>
+    <docsUrl>http://software.informer.com/help.html</docsUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/408ded4dd91e2df4543abc86857677fb7e10c0d3/icons/softwareinformer.png</iconUrl>
+    <tags>freeware software updater notifier crowd</tags>
+    <copyright>© 2008 Informer Technologies, Inc</copyright>
+    <licenseUrl>http://software.informer.com/privacy.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [News](http://news.software.informer.com/)
+* [Release log](http://software-informer.software.informer.com/versions/)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="autohotkey.portable" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
