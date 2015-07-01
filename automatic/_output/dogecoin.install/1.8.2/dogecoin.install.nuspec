@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
-    <id>{{PackageName}}</id>
-    <title>Dogecoin Core Wallet</title>
-    <version>{{PackageVersion}}</version>
+    <id>dogecoin.install</id>
+    <title>Dogecoin Core Wallet (Install)</title>
+    <version>1.8.2</version>
     <authors>Jackson Palmer</authors>
     <owners>dtgm</owners>
     <summary>Cryptocurrency like Bitcoin, although it does not use SHA256 as its proof of work (POW)</summary>
@@ -18,12 +18,12 @@ Dogecoin is an open source peer-to-peer digital currency, favored by Shiba Inus 
 * [IRC](http://webchat.freenode.net/?nick=Shibe..%26channels=%23dogecoin%26prompt=1)
 * [Reddit](http://www.reddit.com/r/dogecoin)
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/dogecoin.install/1.8.2</packageSourceUrl>
     <projectUrl>http://dogecoin.com</projectUrl>
     <projectSourceUrl>https://github.com/dogecoin/dogecoin</projectSourceUrl>
     <bugTrackerUrl>https://github.com/dogecoin/dogecoin/issues</bugTrackerUrl>
     <docsUrl>http://www.reddit.com/r/dogecoin/wiki/dogecoincoreguide</docsUrl>
-    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/f3b31a1cb57ec3c58abe05507dc3693115733ae1/icons/{{PackageName}}.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/f3b31a1cb57ec3c58abe05507dc3693115733ae1/icons/dogecoin.png</iconUrl>
     <tags>ltc doge p2p cryptocurrency</tags>
     <copyright>© 2012 The Ðogecoin Project</copyright>
     <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
@@ -36,9 +36,6 @@ Dogecoin is an open source peer-to-peer digital currency, favored by Shiba Inus 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
-    <dependencies>
-      <dependency id="{{PackageName}}.install" version="[{{PackageVersion}}]" />
-    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
