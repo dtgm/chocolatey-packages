@@ -1,24 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
     <id>{{PackageName}}</id>
     <title>System Ninja</title>
     <version>{{PackageVersion}}</version>
     <authors>SingularLabs</authors>
-    <owners>tonigellida</owners>
-    <summary>
-	A fast, powerful and effective system optimization solution.
-	</summary>
+    <owners>dtgm</owners>
+    <summary>Fast, powerful and effective system optimization solution</summary>
     <description>
-	A fast, powerful and effective system optimization solution.
-	
-	It’s designed to quickly remove junk files, improve system speed and help fix problems.
-	</description>
-    <projectUrl>http://singularlabs.com/software/system-ninja/</projectUrl>
-    <tags>cleaner</tags>
-    <copyright></copyright>
-    <licenseUrl>http://en.wikipedia.org/wiki/Freeware</licenseUrl>
+System Ninja is a fast, powerful and effective system optimization solution for Windows. It’s designed to quickly remove junk files, improve system speed and fix problems.
+
+System Ninja has a small number of [plugins](https://singularlabs.com/software/system-ninja/plugins/) available that extend its functionality. Microsoft .NET developers can create custom utilities for System Ninja, allowing them to leverage the power of the System Ninja API.
+
+#### Documentation
+* [Features](https://singularlabs.com/software/system-ninja/feature-overview/)
+* [Privacy policy](https://singularlabs.com/privacy/)
+
+#### Community
+* [Forum](https://singularlabs.com/forums/forum/system-ninja-support/)
+* [Facebook](https://www.facebook.com/SingularLabs)
+* [Google+](https://plus.google.com/102794460387664519795)
+* [Twitter](http://twitter.com/SingularLabs)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <projectUrl>https://singularlabs.com/software/system-ninja/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/c9f5d2fb09282df62f9720e24b82530de4533216/icons/{{PackageName}}.png</iconUrl>
+    <tags>system cleaner</tags>
+    <copyright>© 2015 SingularLabs</copyright>
+    <licenseUrl>https://singularlabs.com/legal/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://cdn.rawgit.com/adgellida/chocolateyautomaticpackages/master/icons/{{PackageName}}.png</iconUrl>
+    <releaseNotes>
+#### Program
+* [Release log](https://singularlabs.com/b/news/releases/)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="{{PackageName}}.install" version="[{{PackageVersion}}]" />
+    </dependencies>
   </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
 </package>

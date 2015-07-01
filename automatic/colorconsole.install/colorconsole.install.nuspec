@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>ColorConsole (Install)</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Nenad Hrg</authors>
+    <owners>dtgm</owners>
+    <summary>Brings a little color to your black and white world of Windows console</summary>
+    <description>
+ColorConsole brings a little color to your black and white world of Windows console (cmd.exe). One can save many hand moves and also time!
+
+#### Features:
+* Favorites commands
+* Export to HTML and RTF
+* Copy,Paste,Cut... 
+* Changeable font style and color 
+* Tabbed working with multi cmd.exe.
+* Fast folder switch.
+* Portable tool (data stored in local registry)
+
+[Screenshots](http://www.softwareok.com/?seite=Freeware/ColorConsole/Screenshots)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <projectUrl>http://www.softwareok.com/?seite=Freeware/ColorConsole</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/408ded4dd91e2df4543abc86857677fb7e10c0d3/icons/colorconsole.png</iconUrl>
+    <tags>freeware console cli</tags>
+    <copyright>© Nenad Hrg</copyright>
+    <licenseUrl>http://www.softwareok.com/?seite=Freeware/ColorConsole/Eula</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Changelog](http://www.softwareok.com/?seite=Freeware/ColorConsole/History)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
