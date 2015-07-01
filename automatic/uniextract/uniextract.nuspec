@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>Universal Extractor</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Jared Breland</authors>
+    <owners>dtgm</owners>
+    <summary>Decompress and extract files from any type of archive or installer</summary>
+    <description>
+Universal Extractor is a program designed to decompress and extract files from any type of archive or installer, such as ZIP or RAR files, self-extracting EXE files, application installers, etc ([supported formats](http://legroom.net/software/uniextract%23formats)).  It's able to support so many varied file formats by utilizing many [backend utilities](http://legroom.net/software/uniextract%23credits).
+
+Please note that Universal Extractor is not intended to be a general purpose archiving program.  It cannot (and never will) create archives, and therefore cannot fully replace archivers such as [7-Zip](https://chocolatey.org/packages/7zip) or [WinRAR](https://chocolatey.org/packages/winrar).  What it will do, however, is allow you to extract files from virtually any type of archive, regardless of source, file format, compression method, etc.
+
+The original motivation behind this project was to create an easy, convenient way to extract files from various types of installation packages without the need to remember arcane command line switches or track down separate utilities to handle the unpacking.  Over time, and with the encouragement of its many users and the fine folks over on the [MSFN forum](http://www.msfn.org/board/forum/159-universal-extractor/), it has evolved into a mature and very capable unarchiving utility that many, including myself, find indispensable.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <projectUrl>http://legroom.net/software/uniextract</projectUrl>
+    <projectSourceUrl>{{PackageGuid}}</projectSourceUrl>
+    <mailingListUrl>http://legroom.net/forum/software/universal-extractor</mailingListUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/21e04d93dda7b0851883f8a4e8f28f1a42793827/icons/{{PackageName}}.png</iconUrl>
+    <tags>unzip extract unarchive</tags>
+    <copyright>© 2005 Jared Breland</copyright>
+    <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [ToDo](http://legroom.net/files/software/uniextract_todo.txt)
+* [Changelog](http://legroom.net/files/software/uniextract_changelog.txt)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="{{PackageName}}.install" version="[{{PackageVersion}}]" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
