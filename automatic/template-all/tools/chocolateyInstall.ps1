@@ -287,3 +287,5 @@ $checksumType64 = 'sha1'
 ### JAR; izpack
 java -jar installer.jar auto-install.xml
 http://docs.codehaus.org/display/IZPACK/Unattended+Installations
+
+# MetaPackage

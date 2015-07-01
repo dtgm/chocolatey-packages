@@ -59,7 +59,7 @@ CloseIE()
   if procExists = 1 
   {
     WinActivate,%winTitleIE%,  
-    Send, ^t
+    Send, ^w
   }
   else
   {
