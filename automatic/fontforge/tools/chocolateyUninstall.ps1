@@ -1,26 +1,23 @@
-try {
-  $packageName = '{{PackageName}}'
-  $fileType = 'exe'
-  $silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART'
-  $validExitCodes = @(0)
-  $scriptPath = Split-Path -parent $MyInvocation.MyCommand.Definition
-  $ahkFile = "$scriptPath\$packageName.ahk"
-  $processor = Get-WmiObject Win32_Processor
-  $is64bit = $processor.AddressWidth -eq 64
-  if ($is64bit) {
-    $unPath = 'HKLM:SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall'
-    $installPath = ${env:ProgramFiles(x86)}
-  } else {
-    $unPath = 'HKLM:SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall'
-    $installPath = $Env:ProgramFiles
-  }
-  Start-Process 'AutoHotKey' $ahkFile
-  $unFile = (Get-ItemProperty $unPath\* | Where-Object {$_.DisplayName -like "$packageName*"}).UninstallString
-  Uninstall-ChocolateyPackage "$packageName" "$fileType" "$silentArgs" "$unFile" -validExitCodes "$validExitCodes"
-  $cleanup = gci -re $installPath\$packageName* | ?{ -not $_.PSIsContainer } | measure-object -sum -property Length
-  if ($cleanup -eq $null) {
-    Remove-Item -Recurse -Force $installPath\$packageName*
-  }		
-} catch {
-  throw $_.Exception 
-}
+$packageName = '{{PackageName}}'
+$packageSearch = "$packageName"
+$installerType = 'exe'
+$silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
+$validExitCodes = @(0)
+$scriptPath = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
+$ahkFile = Join-Path $scriptPath "chocolateyUninstall.ahk"
+$ahkExe = 'AutoHotKey'
+$ahkRun = "$Env:Temp\$(Get-Random).ahk"
+
+Copy-Item $ahkFile "$ahkRun" -Force
+Start-Process $ahkExe $ahkRun
+Get-ItemProperty -Path @( 'HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*',
+                          'HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*',
+                          'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*' ) `
+                 -ErrorAction:SilentlyContinue `
+| Where-Object   { $_.DisplayName -like "$packageSearch*" } `
+| ForEach-Object { Uninstall-ChocolateyPackage -PackageName "$packageName" `
+                                               -FileType "$installerType" `
+                                               -SilentArgs "$($silentArgs)" `
+                                               -File "$($_.UninstallString)" `
+                                               -ValidExitCodes $validExitCodes }
+Remove-Item "$ahkRun" -Force -ErrorAction SilentlyContinue

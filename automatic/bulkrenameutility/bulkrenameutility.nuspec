@@ -9,7 +9,7 @@
     <summary>Rename multiple files quickly with previews and undo</summary>
     <description>
 Bulk Rename Utility allows you to easily rename files and folders recursively based upon find-replace, character place, fields, sequences, regular expressions, EXIF data, and more.
-    
+
 ### Features
 * Rename multiple files quickly, according to many flexible criteria.
 * Rename files in many ways: add, replace, insert text into file names. Convert case, add numbers. Remove or change file extensions.
@@ -20,11 +20,13 @@ Bulk Rename Utility allows you to easily rename files and folders recursively ba
     </description>
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.bulkrenameutility.co.uk/</projectUrl>
-    <tags>batch rename regex file</tags>
-    <copyright>© TGRMN Software</copyright>
-    <licenseUrl>https://raw.github.com/dtgm/chocolatey-packages/master/bulkrenameutility/License.txt</licenseUrl>
+    <docsUrl>http://www.bulkrenameutility.co.uk/Downloads/BRU_Manual.pdf</docsUrl>
+    <mailingListUrl>http://www.bulkrenameutility.co.uk/forum/</mailingListUrl>
+    <tags>freeware batch rename regex file</tags>
+    <copyright>© 2002 TGRMN Software</copyright>
+    <licenseUrl>http://www.bulkrenameutility.co.uk/License.php</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/master/icons/bulkrenameutility.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/4039ff8f517da1f1d35f59ac7c7f28a3d5645a9a/icons/{{PackageName}}.png</iconUrl>bulkrenameutility.png</iconUrl>
     <releaseNotes>http://www.bulkrenameutility.co.uk/Files/BRUChangelog.pdf</releaseNotes>
     <dependencies>
       <dependency id="{{PackageName}}.install" version="[{{PackageVersion}}]" />
