@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>LiveKd</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Mark Russinovich</authors>
+    <owners>dtgm</owners>
+    <summary>Use Microsoft kernel debuggers to examine a live system</summary>
+    <description>
+LiveKD allows you to run the Kd and Windbg Microsoft kernel debuggers, which are part of the Debugging Tools for Windows package, locally on a live system. Execute all the debugger commands that work on crash dump files to look deep inside the system. See the Debugging Tools for Windows documentation and our book for information on how to explore a system with the kernel debuggers.
+
+While the latest versions of Windbg and Kd have a similar capability on Windows XP and Server 2003, LiveKD enables more functionality, such as viewing thread stacks with the !thread command, than Windbg and Kd's own live kernel debugging facility.
+
+#### Command line usage
+
+__  liveKd [[-w]|[-k `<debugger`>]|[-o filename]] [-vsym] [-m[flags] [[-mp process]|[pid]]][debugger options]    liveKd [[-w]|[-k `<debugger`>]|[-o filename]] -ml [debugger options]    liveKd [[-w]|[-k `<debugger`>]|[-o filename]] [[-hl]|[-hv `<VM name`> [[-p]|[-hvd]]]] [debugger options]__
+<table border="0" cellpadding="2" cellspacing="1"><colgroup><col width="65" /><col width="455" /></colgroup><tr align="left" valign="top"><td>   __-hv__  Specifies the name or GUID of the Hyper-V VM to debug.
+
+__-hvd__  Includes hypervisor pages (Windows 8.1 and above only).
+
+__-hvl__  Lists the names and GUIDs of running Hyper-V VMs.
+
+__-k__  Specifies complete path and filename of debugger image to execute
+
+__-m__  Creates a mirror dump, which is a consistent view of kernel memory.     Only kernel mode memory will be available, and this option may need significant amounts of available physical memory.  A flags mask that specifies which regions to include may optionally be provided (drawn from the following table, default 0x18F8):
+0001 - process private, 0002 - mapped file,  0004 - shared section,  0008 - page table pages,   0010 - paged pool,      0020 - non-paged pool,  0040 - system PTEs,     0080 - session pages,   0100 - metadata files,  0200 - AWE user pages,  0400 - driver pages,    0800 - kernel stacks,  1000 - WS metadata,     2000 - large pages</code></pre>
+The default captures most kernel memory contents and is recommended.  This option may be used with -o to save faster, consistent dumps.  Mirror dumps require Windows Vista or Windows Server 2008 or above.  Sysinternals RamMap provides a graphical summary of the distribution of the available memory regions that can be selected for inclusion.  
+
+
+__-ml__  Generate live dump using native support (Windows 8.1 and above only).
+
+__-mp__  Specifies a single process whose user mode memory contents should be included in a mirror dump.  Only effective with the -m option.
+
+__-o __  Saves a memory.dmp to disk instead of launching the debugger.
+
+__-p__  Pauses the target Hyper-V VM while LiveKd is active (recommended for use with -o).
+
+__-n__  Specifies the name or GUID of the Hyper-V VM to debug.
+
+__-hvl__  Lists the names and GUIDs of running Hyper-V VMs.
+
+__-vsym__  Displays verbose debugging information about symbol load operations.
+
+__-w__  Runs windbg instead of kd.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <projectUrl>http://technet.microsoft.com/sysinternals/bb897415</projectUrl>
+    <mailingListUrl>http://forum.sysinternals.com/</mailingListUrl>
+    <tags>kernel debug sysinternals</tags>
+    <copyright>© Mark Russinovich</copyright>
+    <licenseUrl>https://technet.microsoft.com/en-us/sysinternals/bb469936</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [News](http://blogs.technet.com/Sysinternals)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

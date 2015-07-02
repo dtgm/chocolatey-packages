@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>Junction</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Mark Russinovich</authors>
+    <owners>dtgm</owners>
+    <summary>Create Win2K NTFS symbolic links</summary>
+    <description>
+Windows 2000 and higher supports directory symbolic links, where a directory serves as a symbolic link to another directory on the computer. For example, if the directory D:SYMLINK specified C:WINNTSYSTEM32 as its target, then an application accessing D:SYMLINKDRIVERS would in reality be accessing C:WINNTSYSTEM32DRIVERS. Directory symbolic links are known as NTFS junctions in Windows. Unfortunately, Windows comes with no tools for creating junctions—you have to purchase the Win2K Resource Kit, which comes with the linkd program for creating junctions. I therefore decided to write my own junction-creating tool: Junction. Junction not only allows you to create NTFS junctions, it allows you to see if files or directories are actually reparse points. Reparse points are the mechanism on which NTFS junctions are based, and they are used by Windows' Remote Storage Service (RSS), as well as volume mount points.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <projectUrl>http://technet.microsoft.com/sysinternals/bb896768</projectUrl>
+    <mailingListUrl>http://forum.sysinternals.com/</mailingListUrl>
+    <tags>symlink sysinternals</tags>
+    <copyright>© Mark Russinovich</copyright>
+    <licenseUrl>https://technet.microsoft.com/en-us/sysinternals/bb469936</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [News](http://blogs.technet.com/Sysinternals)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

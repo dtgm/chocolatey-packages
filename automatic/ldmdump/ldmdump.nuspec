@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>LDMDump</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Mark Russinovich</authors>
+    <owners>dtgm</owners>
+    <summary>Dump the contents of the Logical Disk Manager's on-disk database, which describes the partitioning of Dynamic disks</summary>
+    <description>
+Windows 2000 introduces a new type of disk partitioning scheme that is managed by a component called the Logical Disk Manager (LDM). Basic disks implement standard DOS-style partition tables, whereas Dynamic disks use LDM partitioning. LDM partitioning offers several advantages over DOS partitioing including replication across disks, on-disk storage of advanced volume configuration (spanned volume, mirrored volumes, striped volumes and RAID-5 volumes). My March/April two-part series on Windows NT/2000 storage management in Windows 2000 Magazine describes the details of each partitioning scheme.
+
+#### Command line usage
+
+To use _LDMDump_ simply pass it the identifier of a disk.
+
+__ldmdump [- ] [-d#]__
+__-__     Displays the supported options and the units of measurement used for output values.`
+
+__-d#__    Specifies the number of the disk for _LDMDump_ to examine. For example, "ldmdump /d0" has _LDMDump_ show the LDM database information stored on disk 0.`
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <projectUrl>http://technet.microsoft.com/sysinternals/bb897413</projectUrl>
+    <mailingListUrl>http://forum.sysinternals.com/</mailingListUrl>
+    <tags>ldm partition disk sysinternals</tags>
+    <copyright>© Mark Russinovich</copyright>
+    <licenseUrl>https://technet.microsoft.com/en-us/sysinternals/bb469936</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [News](http://blogs.technet.com/Sysinternals)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

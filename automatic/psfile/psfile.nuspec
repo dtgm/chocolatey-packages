@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>PsFile</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Mark Russinovich</authors>
+    <owners>dtgm</owners>
+    <summary>See what files are opened remotely</summary>
+    <description>
+See what files are opened remotely.
+
+The "net file" command shows you a list of the files that other computers have opened on the system upon which you execute the command, however it truncates long path names and doesn't let you see that information for remote systems. PsFile is a command-line utility that shows a list of files on a system that are opened remotely, and it also allows you to close opened files either by name or by a file identifier.
+
+#### Command line usage
+
+The default behavior of _PsFile_ is to list the files on the local system that are open by remote systems. Typing a command followed by "- " displays information on the syntax for the command.
+
+__psfile [\\RemoteComputer [-u Username [-p Password]]] [[Id | path] [-c]]__
+
+__-u__    Specifies optional user name for login to remote computer.`
+
+__-p__    Specifies password for user name. If this is omitted, you will be prompted to enter the password without it being echoed to the screen.
+
+__Id__    Identifier (as assigned by PsFile) of the file for which to display information or to close.
+
+__Path__    Full or partial path of files to match for information display or close.`
+
+__-c__    Closes the files identifed by ID or path.`
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <projectUrl>http://technet.microsoft.com/sysinternals/bb897552</projectUrl>
+    <mailingListUrl>http://forum.sysinternals.com/</mailingListUrl>
+    <tags>file process lock tools sysinternals</tags>
+    <copyright>© Mark Russinovich</copyright>
+    <licenseUrl>https://technet.microsoft.com/en-us/sysinternals/bb469936</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [News](http://blogs.technet.com/Sysinternals)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
