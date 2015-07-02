@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>PsKill</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Mark Russinovich</authors>
+    <owners>dtgm</owners>
+    <summary>Terminate local or remote processes</summary>
+    <description>
+Terminate local or remote processes.
+
+Windows NT/2000 does not come with a command-line 'kill' utility. You can get one in the Windows NT or Win2K Resource Kit, but the kit's utility can only terminate processes on the local computer. PsKill is a kill utility that not only does what the Resource Kit's version does, but can also kill processes on remote systems. You don't even have to install a client on the target computer to use PsKill to terminate a remote process.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <projectUrl>http://technet.microsoft.com/sysinternals/bb896683</projectUrl>
+    <mailingListUrl>http://forum.sysinternals.com/</mailingListUrl>
+    <tags>process kill tools sysinternals</tags>
+    <copyright>© Mark Russinovich</copyright>
+    <licenseUrl>https://technet.microsoft.com/en-us/sysinternals/bb469936</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [News](http://blogs.technet.com/Sysinternals)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

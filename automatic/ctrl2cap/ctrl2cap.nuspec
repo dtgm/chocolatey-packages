@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>Ctrl2cap</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Mark Russinovich</authors>
+    <owners>dtgm</owners>
+    <summary>Kernel-mode driver that demonstrates keyboard input filtering to turn caps-locks into control keys</summary>
+    <description>
+Ctrl2cap is a kernel-mode device driver that filters the system's keyboard class driver in order to convert caps-lock characters into control characters. People like myself that migrated to NT from UNIX are used to having the control key located where the caps-lock key is on the standard PC keyboard, so a utility like this is essential for our editing well-being.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <projectUrl>http://technet.microsoft.com/sysinternals/bb897578</projectUrl>
+    <mailingListUrl>http://forum.sysinternals.com/</mailingListUrl>
+    <tags>kernel input filtering sysinternals</tags>
+    <copyright>© Mark Russinovich</copyright>
+    <licenseUrl>https://technet.microsoft.com/en-us/sysinternals/bb469936</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [News](http://blogs.technet.com/Sysinternals)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

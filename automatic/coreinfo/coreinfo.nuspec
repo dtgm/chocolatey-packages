@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>Coreinfo</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Mark Russinovich</authors>
+    <owners>dtgm</owners>
+    <summary>Query for processor information</summary>
+    <description>
+Coreinfo is a new command-line utility that shows you the mapping between logical processors and the physical processor, NUMA node, and socket on which they reside, as well as the cache’s assigned to each logical processor.
+
+For each resource it shows a map of the OS-visible processors  that correspond to the specified resources, with '*' representing the  applicable processors. For example, on a 4-core system, a line in the  cache output with a map of shared by cores 3 and 4.
+
+#### Command line usage
+
+__coreinfo__ [__-c__][__-f__][__-g__][__-l__][__-n__][__-s__][__-m__][__-v]__
+
+__-c __   Dump information on cores.
+
+__-f__    Dump core feature information.
+
+__-g__    Dump information on groups.
+
+__-l _    Dump information on caches.
+
+__-n__    Dump information on NUMA nodes.
+
+__-s__    Dump information on sockets.
+
+__-m__    Dump NUMA access cost.
+
+__-v__    Dump only virtualization-related features including support for second level address translation (requires administrative rights on Intel systems).
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <projectUrl>http://technet.microsoft.com/sysinternals/cc835722</projectUrl>
+    <mailingListUrl>http://forum.sysinternals.com/</mailingListUrl>
+    <tags>cpu info sysinternals</tags>
+    <copyright>© Mark Russinovich</copyright>
+    <licenseUrl>https://technet.microsoft.com/en-us/sysinternals/bb469936</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [News](http://blogs.technet.com/Sysinternals)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
