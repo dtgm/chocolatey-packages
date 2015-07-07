@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>shellrunas</id>
+    <title>ShellRunas</title>
+    <version>1.01</version>
+    <authors>Mark Russinovich,Jon Schwartz</authors>
+    <owners>dtgm</owners>
+    <summary>Launch programs as a different user via convenient shell context-menu entry</summary>
+    <description>
+Launch programs as a different user via convenient shell context-menu entry.
+
+The command-line Runas utility is handy for launching programs under different accounts, but it’s not convenient if you’re a heavy Explorer user. ShellRunas provides functionality similar to that of Runas to launch programs as a different user via a convenient shell context-menu entry.
+
+#### Command line options
+
+__shellrunas__ __/reg__ | __/regnetonly__ | __/unreg__ [__/quiet__]
+
+__shellrunas__ [__/netonly__] &lt;_program_&gt; [_arguments_]
+
+__/reg__  Registers ShellRunas shell context-menu entry
+
+__/regnetonly__  Registers Shell /netonly context-menu entry  Note: a command prompt will flash when the program starts
+
+__/unreg__  Unregisters ShellRunas shell context-menu  entry
+
+__/quiet__  Register or unregisters ShellRunas shell context-menu entry without result dialog
+
+__/netonly__  Use if specified credentials are for remote access only
+
+&lt;_program_&gt;  Runs program with specified credentials and parameters
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/shellrunas/1.01</packageSourceUrl>
+    <projectUrl>http://technet.microsoft.com/sysinternals/cc300361</projectUrl>
+    <mailingListUrl>http://forum.sysinternals.com/</mailingListUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/cf1efc0aac843672fbf1ca0e15082e4e11357df9/icons/shellrunas.png</iconUrl>
+    <tags>su tools sysinternals explorer contextmenu cli</tags>
+    <copyright>© 2008 Mark Russinovich, Jon Schwartz</copyright>
+    <licenseUrl>https://technet.microsoft.com/en-us/sysinternals/bb469936</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [News](http://blogs.technet.com/Sysinternals)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
