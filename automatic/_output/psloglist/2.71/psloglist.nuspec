@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>psloglist</id>
+    <title>PsLogList</title>
+    <version>2.71</version>
+    <authors>Mark Russinovich</authors>
+    <owners>dtgm</owners>
+    <summary>Dump event log records</summary>
+    <description>
+Dump event log records.
+
+The Resource Kit comes with a utility, elogdump, that lets you dump the contents of an Event Log on the local or a remote computer. PsLogList is a clone of elogdump except that PsLogList lets you login to remote systems in situations your current set of security credentials would not permit access to the Event Log, and PsLogList retrieves message strings from the computer on which the event log you view resides.
+
+#### Command line usage
+
+The default behavior of _PsLogList_ is to show the contents of the System Event Log on the local computer, with visually-friendly formatting of Event Log records. Command line options let you view logs on different computers, use a different account to view a log, or to have the output formatted in a string-search friendly way.
+
+__psloglist__ [- ] [\\computer[,computer[,...] | @file [-u username [-p password]]] [-s [-t delimiter]] [-m #|-n #|-h #|-d #|-w][-c][-x][-r][-a mm/dd/yy][-b mm/dd/yy][-f filter] [-i ID[,ID[,...] | -e ID[,ID[,...]]] [-o event source[,event source][,..]]] [-q event source[,event source][,..]]] [-l event log file] &lt;_eventlog_&gt;
+
+__@file__
+`     Execute the command on each of the computers listed in the file.`
+
+__-a__
+`     Dump records timestamped after specified date.`
+
+__-b__
+`     Dump records timestamped before specified date.`
+
+__-c__
+`     Clear the event log after displaying.`
+
+__-d__
+`     Only display records from previous n days.`
+
+__-c__
+`     Clear the event log after displaying.`
+
+__-e__
+`     Exclude events with the specified ID or IDs (up to 10).`
+
+__-f__
+`     Filter event types with filter string (e.g. "-f w" to filter warnings).`
+
+__-h__
+`     Only display records from previous n hours.`
+
+__-i__
+`     Show only events with the specified ID or IDs (up to 10).`
+
+__-l__
+`     Dump records from the specified event log file.`
+
+__-m__
+`     Only display records from previous n minutes.`
+
+__-n__
+`     Only display the number of most recent entries specified.`
+
+__-o__
+`     Show only records from the specified event source (e.g. \"-o cdrom\").`
+
+__-p__
+`     Specifies optional password for user name. If you omit this you will be prompted to enter a hidden password.`
+
+__-q__
+`     Omit records from the specified event source or sources (e.g. \"-q cdrom\").`
+
+__-r__
+`     SDump log from least recent to most recent.`
+
+__-s__
+`     This switch has _PsLogList_ print Event Log records one-per-line, with comma delimited fields. This format is convenient for text searches, e.g. psloglist | findstr /i text, and for importing the output into a spreadsheet.`
+
+__-t__
+`     The default delimeter is a comma, but can be overriden with the specified character.`
+
+__-u__
+`     Specifies optional user name for login to remote computer.`
+
+__-w__
+`     Wait for new events, dumping them as they generate (local system only).`
+
+__-x__
+`     Dump extended data`
+
+__eventlog__
+`     eventlog.`
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/psloglist/2.71</packageSourceUrl>
+    <projectUrl>http://technet.microsoft.com/sysinternals/bb897544</projectUrl>
+    <mailingListUrl>http://forum.sysinternals.com/</mailingListUrl>
+    <tags>eventlog dump tools sysinternals</tags>
+    <copyright>© Mark Russinovich</copyright>
+    <licenseUrl>https://technet.microsoft.com/en-us/sysinternals/bb469936</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [News](http://blogs.technet.com/Sysinternals)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

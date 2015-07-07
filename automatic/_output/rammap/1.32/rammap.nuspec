@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>rammap</id>
+    <title>RAMMap</title>
+    <version>1.32</version>
+    <authors>Mark Russinovich,Bryce Cogswell</authors>
+    <owners>dtgm</owners>
+    <summary>Advanced physical memory usage analysis utility</summary>
+    <description>
+An advanced physical memory usage analysis utility that presents usage information in different ways on its several different tabs.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/rammap/1.32</packageSourceUrl>
+    <projectUrl>http://technet.microsoft.com/sysinternals/ff700229</projectUrl>
+    <mailingListUrl>http://forum.sysinternals.com/</mailingListUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/cf1efc0aac843672fbf1ca0e15082e4e11357df9/icons/rammap.png</iconUrl>
+    <tags>memory debug sysinternals gui admin</tags>
+    <copyright>© 2010-2013 Mark Russinovich, Bryce Cogswell, Alex Ionescu</copyright>
+    <licenseUrl>https://technet.microsoft.com/en-us/sysinternals/bb469936</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [News](http://blogs.technet.com/Sysinternals)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
