@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>aliengame</id>
+    <title>AlienGame</title>
+    <version>0.2.31</version>
+    <authors>ScienceAtHome</authors>
+    <owners>dtgm</owners>
+    <summary>Learn about solving complex problems by playing a game</summary>
+    <description>
+Play the game to help us figure out what WE should be thinking about when trying to understand how people solve complex problems.
+
+“When you play a game — if you learn to be good at it — you find what it is you should have been thinking about” (John Conway).
+
+#### How to play
+* Video tutorial, [youtube.com](https://www.youtube.com/watch?v=zJxYbYzvgQQ)
+
+#### ScienceAtHome    
+* To contribute to our research, make sure you play our games with an active internet connection, as we are gathering data for our scientists based on your performance.
+* [Data policy](http://scienceathome.org/our-data-policy/)
+* [Science publications](http://scienceathome.org/science/) derived from game data
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/aliengame/0.2.31</packageSourceUrl>
+    <projectUrl>http://scienceathome.org/games/aliengame/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/35a7feca9cb8446eb9eec296f2e462e826a89f4a/icons/aliengame.png</iconUrl>
+    <tags>gaming citizen-science</tags>
+    <copyright>© ScienceAtHome</copyright>
+    <licenseUrl>https://wikipedia.org/wiki/Freeware</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [News](http://scienceathome.org/archive/)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
