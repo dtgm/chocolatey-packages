@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>digikam</id>
+    <title>digikam</title>
+    <version>4.11.0</version>
+    <authors>digiKam team</authors>
+    <owners>dtgm</owners>
+    <summary>Manage your photographs like a professional</summary>
+    <description>
+digiKam is an advanced digital photo management application for KDE, which makes importing and organizing digital photos a "snap". The photos are organized in albums which can be sorted chronologically, by folder layout or by custom collections.
+
+### System Requirements
+* Download file size is about **240 MiB**
+* Final install size is about **1.25 GiB**
+
+[Screenshots](https://www.digikam.org/node/323)
+[FAQ](https://www.digikam.org/faq/digikam)
+[Wiki](https://userbase.kde.org/Digikam/Tutorials)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/digikam/4.11.0</packageSourceUrl>
+    <projectUrl>http://www.digikam.org/</projectUrl>
+    <projectSourceUrl>https://www.digikam.org/download?q=download/GIT</projectSourceUrl>
+    <docsUrl>https://www.digikam.org/docs</docsUrl>
+    <tags>photo organizer</tags>
+    <copyright>GPL</copyright>
+    <licenseUrl>https://gnu.org/licenses/gpl.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/5e0b5f9f8a32b6ec0146e718fe62edc6908c2362/icons/digikam.svg</iconUrl>
+    <releaseNotes>
+[Changelog](https://www.digikam.org/changelog)
+[Roadmap](https://www.digikam.org/about/releaseplan)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
