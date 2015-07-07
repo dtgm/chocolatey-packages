@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>pssuspend</id>
+    <title>PsSuspend</title>
+    <version>1.06</version>
+    <authors>Mark Russinovich</authors>
+    <owners>dtgm</owners>
+    <summary>Suspend and resume processes</summary>
+    <description>
+Suspend and resume processes.
+
+PsSuspend lets you suspend processes on the local or a remote system, which is desirable in cases where a process is consuming a resource (e.g. network, CPU or disk) that you want to allow different processes to use. Rather than kill the process that's consuming the resource, suspending permits you to let it continue operation at some later point in time.
+
+#### Command line usage
+
+Running _PsSuspend_ with a process ID directs it to suspend or resume the process of that ID on the local computer. If you specify a process name _PsSuspend_ will suspend or resume all processes that have that name. Specify the -r switch to resume suspended processes.
+
+__pssuspend__ [__- __] [__-r__] [\\computer [__-u__ username] [__-p__ password]] &lt;_process name_ | _process id_&gt;
+
+__-__
+`     `Displays the supported options.
+
+__-r__
+`     `Resumes the specified processes specified if they are suspended.
+
+__\\computer__
+`     `Specifies the computer on which the process you want to suspend or resume is executing. The remote computer must be accessible via the NT network neighborhood.
+
+__-u username__
+`     `If you want to suspend a process on a remote system and the account you are executing in does not have administrative privileges on the remote system then you must login as an administrator using this command-line option. If you do not include the password with the -p option then _PsSuspend_ will prompt you for the password without echoing your input to the display.
+
+__-p password__
+`     `This option lets you specify the login password on the command line so that you can use _PsSuspend_ from batch files. If you specify an account name and omit the -p option _PsSuspend_ prompts you interactively for a password.
+
+__process id__
+`     `Specifies the process ID of the process you want to suspend or resume.
+
+__process name__
+`     `Specifies the process name of the process or processes you want to suspend or resume.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/pssuspend/1.06</packageSourceUrl>
+    <projectUrl>http://technet.microsoft.com/sysinternals/bb897540</projectUrl>
+    <mailingListUrl>http://forum.sysinternals.com/</mailingListUrl>
+    <tags>suspend sysinternals</tags>
+    <copyright>© Mark Russinovich</copyright>
+    <licenseUrl>https://technet.microsoft.com/en-us/sysinternals/bb469936</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [News](http://blogs.technet.com/Sysinternals)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
