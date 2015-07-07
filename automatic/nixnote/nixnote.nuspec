@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>NixNote</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Randy Baumgarte</authors>
+    <owners>dtgm</owners>
+    <summary>Open source client for Evernote</summary>
+    <description>
+This program has been run on Linux, Windows, and OS-X, but the primary goal is to proved a Linux client.  While this is designed to work with Evernote, it is in no way connectedwith or supported by Evernote.  Any problems you encounter will not be corrected by them and,since this is GPL software, you are using this software at your own risk.
+
+People have used this with both 64 & 32 bit versions of Linux as well as OpenJDK & Sun's Java and(so far) have not encountered any problems with these different environments.
+    
+#### Features
+* Synchronizes with Evernote servers
+* Local data caching
+* Cross platform
+* Local-only and synchronized notebooks supported
+* Database may be encrypted locally
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <projectUrl>http://nevernote.sourceforge.net/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/23d4465f9a551febe4fce044034caf40f9536e95/icons/{{PackageName}}.png</iconUrl>
+    <tags>evernote synchronization notes organization</tags>
+    <copyright>© Randy Baumgarte</copyright>
+    <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <dependencies>
+      <dependency id="javaruntime" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
