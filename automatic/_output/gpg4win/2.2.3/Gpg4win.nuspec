@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Gpg4win</id>
+    <version>2.2.3</version>
+    <title>Gpg4win</title>
+    <authors>g10 Code GmbH</authors>
+    <owners>Derek Murawsky</owners>
+    <licenseUrl>http://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
+    <projectUrl>http://www.gpg4win.org/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Gpg4win enables users to securely transport emails and files with the help of encryption and digital signatures. Encryption protects the contents against an unwanted party reading it. Digital signatures make sure that it was not modified and comes from a specific sender.
+
+Gpg4win supports both relevant cryptography standards, OpenPGP and S/MIME (X.509), and is the official GnuPG distribution for Windows. It is maintained by the developers of GnuPG. Gpg4win and the software included with Gpg4win are Free Software (Open Source; among other things free of charge for all commercial and non-commercial purposes).
+
+This version of the installer will uninstall the old version of GPG4Win, if it is detected on your system.</description>
+    <summary>Gpg4win – Full Version</summary>
+    <copyright>Copyright 2006, 2008 g10 Code GmbH</copyright>
+    <tags>Gpg4win admin</tags>
+  </metadata>
+</package>
