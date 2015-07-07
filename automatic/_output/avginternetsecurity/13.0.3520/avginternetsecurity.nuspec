@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
+  <metadata>
+    <id>avginternetsecurity</id>
+    <title>AVG Internet Security</title>
+    <version>13.0.3520</version>
+    <authors>AVG Technologies</authors>
+    <owners>dtgm</owners>
+    <summary>Comprehensive security and privacy protection for online users</summary>
+    <description>
+AVG Internet Security provides comprehensive real-time protection against viruses, spyware, identity theft, poisoned web pages, and all types of malware that can threaten your valuable personal information.
+
+#### Commercial trial version
+This package installs a 30 day trial version of the commercial program AVG Internet Security.
+
+#### Documentation
+* [FAQ](https://support.avg.com/support_Internet_Security)
+* [Policies](http://www.avg.com/policies)
+* [Manual](http://www.avg.com/downloads-documentation)
+
+#### Community
+* [RSS news feed](http://www.avg.com/rss)
+* [Facebook](https://www.facebook.com/AVG)
+* [Google+](https://plus.google.com/+AVG/posts)
+* [YouTube](http://www.youtube.com/officialavg)
+* [Twitter](https://twitter.com/avgfree)
+* [LinkedIn](http://www.linkedin.com/company/avg)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/avginternetsecurity/13.0.3520</packageSourceUrl>
+    <projectUrl>http://www.avg.com/internet-security</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/d1e037cc7c943fda29b9067b3b1c3229d99402ff/icons/avginternetsecurity.png</iconUrl>
+    <tags>trial security firewall antivirus antispyware</tags>
+    <copyright>© AVG Technologies</copyright>
+    <licenseUrl>http://www.avg.com/eula</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Changelog](http://www.avg.com/avg-release-notes)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

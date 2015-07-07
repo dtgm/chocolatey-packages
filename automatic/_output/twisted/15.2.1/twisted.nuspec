@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>twisted</id>
+    <title>Twisted</title>
+    <version>15.2.1</version>
+    <authors>Glyph Lefkowitz</authors>
+    <owners>dtgm</owners>
+    <summary>Event-driven framework for internet applications</summary>
+    <description>
+Twisted is a networking engine written in Python, supporting numerous protocols. It contains a web server, numerous chat clients, chat servers, mail servers, and more.  Twisted is made up of a number of modules for many different purposes, including the following:
+
+#### twisted.application
+A "Service" system that allows you to organize your application in hierarchies with well-defined startup and dependency semantics,
+
+#### twisted.cred
+A general credentials and authentication system that facilitates pluggable authentication backends,
+
+#### twisted.enterprise
+Asynchronous database access, compatible with any Python DBAPI2.0 modules
+
+#### twisted.internet
+Low-level asynchronous networking APIs that allow you to define your own protocols that run over certain transports
+
+#### twisted.manhole
+A tool for remote debugging of your services which gives you a Python interactive interpreter
+
+#### twisted.protocols
+Basic protocol implementations and helpers for your own protocol implementations,
+
+#### twisted.python
+A large set of utilities for Python tricks, reflection, text processing, and anything else,
+
+#### twisted.spread
+A secure, fast remote object system,
+
+#### twisted.trial
+A unit testing framework that integrates well with Twisted-based code.
+
+Twisted supports integration of the Win32, Tk, GTK+ and GTK+ 2 event loops with its main event loop.  There is experimental support for Mac OS X and wxPython event loop integration, which you use at your peril.
+
+There are many official [Twisted subprojects](http://twistedmatrix.com/trac/wiki/TwistedProjects), including clients and servers for web, mail, DNS, and more.
+
+#### Resources
+* [Community](https://twistedmatrix.com/trac/wiki/TwistedCommunity)
+* [API reference](http://twistedmatrix.com/documents/current/api/)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/twisted/15.2.1</packageSourceUrl>
+    <projectUrl>http://twistedmatrix.com/trac/wiki/TwistedProject</projectUrl>
+    <projectSourceUrl>http://twistedmatrix.com/trac/browser/trunk</projectSourceUrl>
+    <docsUrl>http://twistedmatrix.com/documents/current/core/</docsUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/eb824d7a427a4db7174b3d26161fc65642a670ed/icons/twisted.svg</iconUrl>
+    <tags>framework network protocol</tags>
+    <copyright>© 2001-2015 Twisted Matrix Laboratories</copyright>
+    <licenseUrl>http://twistedmatrix.com/trac/export/43938/trunk/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Changelog](http://twistedmatrix.com/trac/browser/tags/releases/twisted-15.2.1/NEWS?format=raw)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+  </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

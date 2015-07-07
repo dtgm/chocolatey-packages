@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>shexview.portable</id>
+    <title>ShellExView (Portable)</title>
+    <version>1.95</version>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm</owners>
+    <summary>Shell Extension Manager For Windows</summary>
+    <description>
+Shell Extensions are in-process COM objects which extend the abilities of Windows operating system. Most shell extensions are automatically installed by the operating system, but there are also many other applications that install additional shell extension components. 
+For example: If you install WinZip on your computer, you'll see a special WinZip menu when you right-click on a Zip file. This menu is created by adding a shell extension to the system.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/shexview.portable/1.95</packageSourceUrl>
+    <projectUrl>http://www.nirsoft.net/utils/shexview.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/shexview.png</iconUrl>
+    <tags>file-explorer extensions disable manager</tags>
+    <copyright>© 2003 NirSoft</copyright>
+    <licenseUrl>http://www.nirsoft.net/utils/shexview.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[What's New?](http://www.nirsoft.net/utils/shexview.html)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
