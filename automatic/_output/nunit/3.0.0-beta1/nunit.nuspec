@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>nunit</id>
+    <title>NUnit</title>
+    <version>3.0.0-beta1</version>
+    <authors>Charlie Poole,Rob Prouse</authors>
+    <owners>dtgm</owners>
+    <summary>Unit-testing framework for all .Net languages</summary>
+    <description>
+NUnit is a unit-testing framework for all .Net languages. Initially ported from JUnit, it is an xUnit based unit testing tool for Microsoft .NET. It is written entirely in C# and has been completely redesigned to take advantage of many .NET language features, for example custom attributes and other reflection related capabilities. NUnit brings xUnit to all .NET languages.
+
+#### NUnit 3.0 rewrite
+
+NUnit 3.0 [Extended Testing Platform](https://github.com/nunit/dev/wiki/NUnit-Vision) will be a world-class platform for individuals and teams using a test-centric approach to .NET software development.
+    </description>
+    <projectUrl>http://www.nunit.org/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/f741d8520fd414f8b453562e3091854efcf79305/icons/nunit.png</iconUrl>
+    <projectSourceUrl>https://github.com/nunit/nunit</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/nunit/nunit/issues</bugTrackerUrl>
+    <docsUrl>http://www.nunit.org/index.php?p=documentation</docsUrl>
+    <tags>development unit-test .net</tags>
+    <copyright>© 2002 NUnit.org</copyright>
+    <licenseUrl>https://github.com/nunit/nunit/wiki/License</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Changelog](https://github.com/nunit/nunit/blob/master/CHANGES.txt)
+* [Roadmap](https://github.com/nunit/dev/wiki/Roadmap)
+* [Release notes](https://github.com/nunit/nunit/wiki/Release-Notes#nunit-300-beta-1---march-25-2015)
+
+##### General
+* There is now a master windows installer for the framework, engine and console runner.
+
+##### Framework
+* We no longer create a separate framework build for .NET 3.5. The 2.0 and 3.5 builds were essentially the same, so the former should now be used under both runtimes.
+* A new Constraint, DictionaryContainsKeyConstraint, may be used to test that a specified key is present in a dictionary.
+LevelOfParallelizationAttribute has been renamed to LevelOfParallelismAttribute.
+* The Silverlight runner now displays output in color and includes any text output created by the tests.
+* The class and method names of each test are included in the output xml where applicable.
+* String arguments used in test case names are now truncated to 40 rather than 20 characters.
+
+##### Engine
+* The engine API has now been finalized. It permits specifying a minimum version of the engine that a runner is able to use. The best installed version of the engine will be loaded. Third-party runners may override the selection process by including a copy of the engine in their installation directory and specifying that it must be used.
+* The V2 framework driver now uses the event listener and test listener passed to it by the runner. This corrects several outstanding issues caused by events not being received and allows selecting V2 tests to be run from the command-line, in the same way that V3 tests are selected.
+
+##### Console
+* The console now defaults to not using shadowcopy. There is a new option --shadowcopy to turn it on if needed.
+
+#### Package
+
+This package installs the master windows installer, inclusive of the latest framework, [engine](https://github.com/nunit/dev/wiki/Core-Engine) and [console runner](https://github.com/nunit/nunit/wiki/Console-Runner).
+    </releaseNotes>
+    <dependencies>
+      <dependency id="nunit.install" version="[3.0.0-beta1]" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
