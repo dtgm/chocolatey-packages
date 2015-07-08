@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>WinSpy++</title>
+    <version>{{PackageVersion}}</version>
+    <authors>James Brown</authors>
+    <owners>dtgm</owners>
+    <summary>View the properties of any window</summary>
+    <description>
+WinSpy++ is a handy programmer's utility which can be used to select and view the properties of any window in the system. WinSpy is based around the Spy++ utility that ships with Microsoft Visual Studio.
+
+WinSpy++ can obtain the following window properties:
+
+* Window Class and Name.
+* Window procedure address.
+* All window styles and extended styles.
+* Window properties (set using the SetProp API call).
+* Complete Child and Sibling window relationships.
+* Scrollbar positional information.
+* Full window Class information.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <projectUrl>http://www.catch22.net/software/winspy-17</projectUrl>
+    <projectSourceUrl>{{PackageGuid}}</projectSourceUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/05a1f23611c97ebc53ca805cb87c841c0243b694/icons/winspy.png</iconUrl>
+    <tags>development debug window properties</tags>
+    <copyright>© 2001 James Brown</copyright>
+    <licenseUrl>https://wikipedia.org/wiki/Freeware</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Changelog](http://www.catch22.net/software/winspy-17)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
