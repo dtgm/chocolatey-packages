@@ -6,7 +6,7 @@ $validExitCodes = @(0..63)
 
 $arguments = @{};
 Write-Verbose "You may pass native install arguments directly to Chocolatey with -ia -installArgs or -installArguments"
-Write-Verbose "     For example: cinst winsshd -packageParameters '-installDir=''C:\foo bar\''"
+Write-Verbose "     For example: choco install winsshd -packageParameters '-installDir=''C:\foo bar\''"
 Write-Verbose "     Note: Use two single quotes when double quotes are desired."
 Write-Verbose "BvSshServer-Inst -installDir=directory OR -defaultSite OR -site=site-name"
 Write-Verbose "                  [-force OR -abortOnWarning[=warning-list-or-mask]"

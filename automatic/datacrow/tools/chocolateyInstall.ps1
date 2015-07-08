@@ -10,10 +10,10 @@ $install32File = "$toolsDir\setup32bit.exe"
 $install32Opts = "$toolsDir\setup32bit.xml"
 $install64File = "$toolsDir\setup64bit.exe"
 $install64Opts = "$toolsDir\setup64bit.xml"
-$chocTempDir = Join-Path $Env:Temp "chocolatey"
-$tempDir = Join-Path $chocTempDir "$packageName"
+$chocoTempDir = Join-Path $Env:Temp "chocolatey"
+$tempDir = Join-Path $chocoTempDir "$packageName"
 if (![System.IO.Directory]::Exists($tempDir)) {[System.IO.Directory]::CreateDirectory($tempDir)}
-$zipfile = Join-Path $tempDir "$($packageName)_4_0_15_installer.zip"
+$zipFile = Join-Path $tempDir "$($packageName)_4_0_15_installer.zip"
 try {
   Get-ChocolateyWebFile -PackageName "$packageName" `
                         -FileFullPath "$zipFile" `
@@ -24,8 +24,7 @@ try {
                       -Destination "$toolsDir" `
                       -SpecificFolder "" `
                       -PackageName "$packageName"
-  $osBitness = Get-ProcessorBits
-  if ($osBitness -eq 64) {
+  if (Get-ProcessorBits 64) {
     Start-ChocolateyProcessAsAdmin -Statements "/c `"$install64File`" $install64Opts" `
                                    -ExeToRun "cmd.exe"
   } else {
