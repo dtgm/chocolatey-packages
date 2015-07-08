@@ -9,7 +9,7 @@ if (Test-Path -PathType Container (Join-Path $chocoLib '{{PackageName}}.*')) {
   package it points to as designated with *.install or *.portable.`n
 "@
   Write-Warning "To finish removing the program installed by package {{PackageName}}, please also run the command:"
-  Write-Host " `n`tcuninst " -NoNewLine
+  Write-Host " `n`tchoco uninstall " -NoNewLine
   $list = (Get-ChildItem -Directory $chocoLib\{{PackageName}}.*).Name
   foreach ($i in $list) {
     Write-Host "$i " -NoNewLine
