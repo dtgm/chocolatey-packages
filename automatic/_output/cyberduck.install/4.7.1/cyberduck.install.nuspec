@@ -8,7 +8,7 @@
     <owners>dtgm</owners>
     <summary>Libre FTP, SFTP, WebDAV, S3 and OpenStack Swift browser for Mac and Windows</summary>
     <description>
-Connect to every server. With an easy to use interface, connect to:
+Connect to every server with an easy to use interface.
 
 * FTP (File Transfer Protocol)
 * SFTP (SSH Secure File Transfer)
@@ -17,7 +17,7 @@ Connect to every server. With an easy to use interface, connect to:
 * Google Cloud Storage
 * Rackspace Cloud Files
 
-### Features
+#### Features
 * Edit any file with your preferred editor
 * Distribute your content in the cloud
 * Organize your bookmarks with drag and drop and quickly search using the filter field
@@ -25,18 +25,26 @@ Connect to every server. With an easy to use interface, connect to:
 * Limit the number of concurrent transfers and filter files using a regular expression. Resume both interrupted download and uploads. Recursively transfer directories.
 * The best client to connect to many new OpenStack Swift deployments.
 * Advanced SSH features
-
-### Source code
-* https://trac.cyberduck.io/
     </description>
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/cyberduck.install/4.7.1</packageSourceUrl>
     <projectUrl>http://cyberduck.io/</projectUrl>
+    <projectSourceUrl>https://trac.cyberduck.io/</projectSourceUrl>
+    <bugTrackerUrl>https://trac.cyberduck.io/query</bugTrackerUrl>
+    <docsUrl>https://trac.cyberduck.io/wiki/help/</docsUrl>
+    <mailingListUrl>https://trac.cyberduck.io/wiki/WikiStart#MailingLists</mailingListUrl>
     <tags>cloud storage file-browser</tags>
-    <copyright>© 2002–2014 David V. Kocher, 2011–2014 Yves Langisch</copyright>
+    <copyright>© 2002 David V. Kocher, 2011 Yves Langisch</copyright>
     <licenseUrl>http://creativecommons.org/licenses/GPL/2.0/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.cyberduck.io/img/cyberduck-icon-384.png</iconUrl>
-    <releaseNotes>http://cyberduck.io/changelog/</releaseNotes>
+    <releaseNotes>
+#### Program
+* [Roadmap](https://trac.cyberduck.io/roadmap)
+* [Changelog](http://cyberduck.io/changelog/)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
     <dependencies>
       <dependency id="vcredist2010" />
     </dependencies>
