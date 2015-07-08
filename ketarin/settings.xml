@@ -15,7 +15,7 @@
           <string>LastUpdateCheck</string>
         </key>
         <value>
-          <string>AAEAAAD/////AQAAAAAAAAAEAQAAAA9TeXN0ZW0uRGF0ZVRpbWUCAAAABXRpY2tzCGRhdGVEYXRhAAAJEOXSb0YqgNII5dJvRiqA0ogL</string>
+          <string>AAEAAAD/////AQAAAAAAAAAEAQAAAA9TeXN0ZW0uRGF0ZVRpbWUCAAAABXRpY2tzCGRhdGVEYXRhAAAJEExIh47phtIITEiHjumG0ogL</string>
         </value>
       </item>
       <item>
@@ -79,6 +79,46 @@
     &lt;/key&gt;
     &lt;value&gt;
       &lt;string&gt;{f:yyyy}.{f:MM}.{f:dd} {f:HH}{f:mm}&lt;/string&gt;
+    &lt;/value&gt;
+  &lt;/item&gt;
+  &lt;item&gt;
+    &lt;key&gt;
+      &lt;string&gt;fixedUrl&lt;/string&gt;
+    &lt;/key&gt;
+    &lt;value&gt;
+      &lt;string&gt;{property:FixedDownloadUrl:regex:(?&amp;lt;=//).*?(?=/)}&lt;/string&gt;
+    &lt;/value&gt;
+  &lt;/item&gt;
+  &lt;item&gt;
+    &lt;key&gt;
+      &lt;string&gt;referer&lt;/string&gt;
+    &lt;/key&gt;
+    &lt;value&gt;
+      &lt;string&gt;{property:HttpReferer}&lt;/string&gt;
+    &lt;/value&gt;
+  &lt;/item&gt;
+  &lt;item&gt;
+    &lt;key&gt;
+      &lt;string&gt;User-Agent&lt;/string&gt;
+    &lt;/key&gt;
+    &lt;value&gt;
+      &lt;string&gt;{property:userAgent}&lt;/string&gt;
+    &lt;/value&gt;
+  &lt;/item&gt;
+  &lt;item&gt;
+    &lt;key&gt;
+      &lt;string&gt;DeletePreviousFile&lt;/string&gt;
+    &lt;/key&gt;
+    &lt;value&gt;
+      &lt;string&gt;{property:DeletePreviousFile:multireplace:,:True,False:X,}&lt;/string&gt;
+    &lt;/value&gt;
+  &lt;/item&gt;
+  &lt;item&gt;
+    &lt;key&gt;
+      &lt;string&gt;VariableChangeIndicator&lt;/string&gt;
+    &lt;/key&gt;
+    &lt;value&gt;
+      &lt;string&gt;{property:VariableChangeIndicator}&lt;/string&gt;
     &lt;/value&gt;
   &lt;/item&gt;
 &lt;/dictionary&gt;</string>
@@ -209,7 +249,7 @@
           <string>MainForm/Size</string>
         </key>
         <value>
-          <string>System.Drawing.Size:1281,890</string>
+          <string>System.Drawing.Size:1416,890</string>
         </value>
       </item>
       <item>
@@ -217,7 +257,7 @@
           <string>MainForm/Location</string>
         </key>
         <value>
-          <string>System.Drawing.Point:164,643</string>
+          <string>System.Drawing.Point:77,628</string>
         </value>
       </item>
       <item>
@@ -313,7 +353,7 @@
           <string>olvJobs/Target:Width</string>
         </key>
         <value>
-          <string>System.Int32:159</string>
+          <string>System.Int32:0</string>
         </value>
       </item>
       <item>
@@ -505,7 +545,7 @@
           <string>ApplicationJobDialog/Location</string>
         </key>
         <value>
-          <string>System.Drawing.Point:333,652</string>
+          <string>System.Drawing.Point:506,1026</string>
         </value>
       </item>
       <item>
@@ -529,7 +569,7 @@
           <string>LogDialog/Location</string>
         </key>
         <value>
-          <string>System.Drawing.Point:0,5</string>
+          <string>System.Drawing.Point:76,31</string>
         </value>
       </item>
       <item>
@@ -1277,7 +1317,7 @@ if (varCScript == "2") {
           <string>olvJobs/packageGuid:LastDisplayIndex</string>
         </key>
         <value>
-          <string>System.Int32:10</string>
+          <string>System.Int32:11</string>
         </value>
       </item>
       <item>
@@ -1302,6 +1342,126 @@ if (varCScript == "2") {
         </key>
         <value>
           <string>System.Int32:3</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/fixedUrl:Visibility</string>
+        </key>
+        <value>
+          <string>System.Boolean:True</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/fixedUrl:Width</string>
+        </key>
+        <value>
+          <string>System.Int32:145</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/fixedUrl:LastDisplayIndex</string>
+        </key>
+        <value>
+          <string>System.Int32:10</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/referer:Visibility</string>
+        </key>
+        <value>
+          <string>System.Boolean:True</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/referer:Width</string>
+        </key>
+        <value>
+          <string>System.Int32:60</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/referer:LastDisplayIndex</string>
+        </key>
+        <value>
+          <string>System.Int32:12</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/User-Agent:Visibility</string>
+        </key>
+        <value>
+          <string>System.Boolean:True</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/User-Agent:Width</string>
+        </key>
+        <value>
+          <string>System.Int32:60</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/User-Agent:LastDisplayIndex</string>
+        </key>
+        <value>
+          <string>System.Int32:13</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/DeletePreviousFile:Visibility</string>
+        </key>
+        <value>
+          <string>System.Boolean:True</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/DeletePreviousFile:Width</string>
+        </key>
+        <value>
+          <string>System.Int32:60</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/DeletePreviousFile:LastDisplayIndex</string>
+        </key>
+        <value>
+          <string>System.Int32:14</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/VariableChangeIndicator:Visibility</string>
+        </key>
+        <value>
+          <string>System.Boolean:True</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/VariableChangeIndicator:Width</string>
+        </key>
+        <value>
+          <string>System.Int32:60</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/VariableChangeIndicator:LastDisplayIndex</string>
+        </key>
+        <value>
+          <string>System.Int32:15</string>
         </value>
       </item>
     </dictionary>
