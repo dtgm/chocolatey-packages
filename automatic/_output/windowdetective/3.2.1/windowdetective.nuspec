@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>windowdetective</id>
+    <title>Window Detective</title>
+    <version>3.2.1</version>
+    <authors>xtal256</authors>
+    <owners>dtgm</owners>
+    <summary>View the properties of any window</summary>
+    <description>
+Window Detective is a programmer's tool used to "spy" on an application's windows and allows you to view and even modify some of it's properties.
+
+#### Features:
+* View properties of windows such as text/title, dimensions and styles.
+* Set properties such as text/title, dimensions and styles.
+* View all windows in a tree hierarchy of parent/child windows.
+* 'Pick' windows to inspect using the mouse.
+* Advanced search which allows you to find windows that match specified criteria.
+* Listen for window messages sent to a window.
+* "Smart Settings" that intelligently remember user settings such as window positions.
+
+#### Documentation
+* [Screenshots](http://windowdetective.sourceforge.net/screenshots.html)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/windowdetective/3.2.1</packageSourceUrl>
+    <projectUrl>http://windowdetective.sourceforge.net/</projectUrl>
+    <projectSourceUrl>http://sourceforge.net/projects/windowdetective/files/release-3.2.1/Window-Detective-3.2.1-src.zip/download</projectSourceUrl>
+    <bugTrackerUrl>http://sourceforge.net/p/windowdetective/bugs/</bugTrackerUrl>
+    <docsUrl>http://windowdetective.sourceforge.net/docs/latest/index.html</docsUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/00c1bd504ae74b80094bdd3a4dbef3bf4a41615a/icons/windowdetective.png</iconUrl>
+    <tags>development debug window properties</tags>
+    <copyright>© 2010 xtal256</copyright>
+    <licenseUrl>https://www.gnu.org/licenses/gpl-3.0.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Changelog](http://sourceforge.net/projects/windowdetective/files/release-3.2.1/readme.txt/download)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
