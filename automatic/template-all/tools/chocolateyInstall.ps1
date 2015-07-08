@@ -11,7 +11,7 @@ $checksumType = 'sha1'
 $url64 = '{{DownloadUrlx64}}'
 $checksum64 = '{{Checksumx64}}'
 $checksumType64 = 'sha1'
-$validExitCodes = @(0)
+$validExitCodes = @(0,3010)
 Install-ChocolateyPackage -PackageName "$packageName" `
                           -FileType "$installerType" `
                           -SilentArgs "$silentArgs" `
@@ -113,13 +113,68 @@ Install-ChocolateyPackage -PackageName "$packageName" `
                           -Checksum "$checksum" `
                           -ChecksumType "$checksumType"
 
+
+### EXE; install4j ###
+# http://www.ej-technologies.com/products/install4j/overview.html
+# http://resources.ej-technologies.com/install4j/help/doc/help.pdf 
+#   page 58: A.2.1 Installer Modes: 
+#     -g  GUI mode
+#     -c  Console mode
+#     -q  Unattended mode
+#   page 60: A.2.2 Command Line Options For Generated Installers
+# Unattended mode:
+# * In all cases, where the installer would have asked the user whether to overwrite an existing file, the installer will not overwrite it. You can change this behavior by passing -overwrite as a parameter to the installer.
+# * The installer will install the application to the default installation directory, unless you pass the '-dir' parameter to the installer. The parameter after '-dir' must be the desired installation directory. Example: installer.exe -q -dir "d:\myapps\My Application"
+# * p.64: response files are an important instrument to pre-define user input
+# * -console parameter after the -q parameter, a console will be allocated the displays the output to the user. This is useful for debugging purposes
+# * progress mode (no user input, progress status): -q -splash [title]
+
+$packageName = '{{PackageName}}'
+$installerType = 'exe'
+$silentArgs = '-q'
+$url = '{{DownloadUrl}}'
+$checksum = '{{Checksum}}'
+$checksumType = 'sha1'
+$url64 = '{{DownloadUrlx64}}'
+$checksum64 = '{{Checksumx64}}'
+$checksumType64 = 'sha1'
+$validExitCodes = @(0)
+Install-ChocolateyPackage -PackageName "$packageName" `
+                          -FileType "$installerType" `
+                          -SilentArgs "$silentArgs" `
+                          -Url "$url" `
+                          -Url64bit "$url64" `
+                          -ValidExitCodes $validExitCodes `
+                          -Checksum "$checksum" `
+                          -ChecksumType "$checksumType" `
+                          -Checksum64 "$checksum64" `
+                          -ChecksumType64 "$checksumType64"
+
+
+
+
+
+
+
+
+
+
 # autohotkey
 $scriptPath = Split-Path -parent $MyInvocation.MyCommand.Definition
 $ahkFile = Join-Path $scriptPath "chocolateyInstall.ahk"
 $ahkExe = 'AutoHotKey'
 Start-Process $ahkExe $ahkFile
-                          
-                          
+       
+
+
+
+
+
+
+
+
+
+
 # https://github.com/chocolatey/choco/blob/master/src/chocolatey.resources/helpers/functions/Get-ChocolateyWebFile.ps1
 
 ###  Uncompressed or unarchived binary  ###
@@ -226,7 +281,6 @@ Install-ChocolateyZipPackage -PackageName "$packageName" `
                              -ChecksumType64 "$checksumType64"
 Set-Content -Path ("$installFile.gui") `
             -Value $null
-
 
 
 
