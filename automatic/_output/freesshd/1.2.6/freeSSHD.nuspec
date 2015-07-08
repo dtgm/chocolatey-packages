@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>freeSSHD</id>
+    <version>1.2.6</version>
+    <title>freeSSHD</title>
+    <authors>WeOnlyDo Software</authors>
+    <owners>Derek Murawsky</owners>
+    <licenseUrl>http://www.freesshd.com/</licenseUrl>
+    <projectUrl>http://www.freesshd.com/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>freeSSHd, like it's name says, is a free implementation of an SSH server. It provides strong encryption and authentication over insecure networks like Internet. Users can open remote console or even access their remote files thanks to buit-in SFTP server.</description>
+    <summary>freeSSHD - A SSH/sFTP server for Windows</summary>
+    <releaseNotes />
+    <copyright>2008-2013</copyright>
+    <tags>FreeSSHD SSH SSHD admin</tags>
+  </metadata>
+</package>
