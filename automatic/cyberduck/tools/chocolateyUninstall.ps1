@@ -1,10 +1,11 @@
 # powershell v2 compatibility
 $psVer = $PSVersionTable.PSVersion.Major
-if ($psver -ge 3) {
+if ($psVer -ge 3) {
   function Get-ChildItemDir {Get-ChildItem -Directory $args}
 } else {
   function Get-ChildItemDir {Get-ChildItem $args}
 }
+# MetaPackage
 $warningPreference = "Continue"
 $chocoLib = Join-Path $env:ChocolateyInstall "lib"
 if (Test-Path -PathType Container (Join-Path $chocoLib '{{PackageName}}.*')) {
