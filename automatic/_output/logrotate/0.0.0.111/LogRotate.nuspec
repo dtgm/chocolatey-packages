@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>LogRotate</id>
+    <version>0.0.0.111</version>
+    <title>LogRotate</title>
+    <authors>Ken Salter</authors>
+    <owners>Derek Murawsky</owners>
+    <licenseUrl>https://www.gnu.org/copyleft/gpl.html</licenseUrl>
+    <projectUrl>https://github.com/derekmurawsky/ChocolateyLogRotate</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This is a Windows implementation of the logrotate utility found in Linux platforms. The goal is to use the same command line parameters and files as the Linux version.</description>
+    <summary>This is a Windows implementation of the logrotate utility found in Linux platforms.</summary>
+    <releaseNotes />
+    <copyright />
+    <tags>LogRotate admin log rotation</tags>
+  </metadata>
+</package>
