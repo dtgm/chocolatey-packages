@@ -12,7 +12,7 @@ Link Shell Extension (LSE) provides for the creation of Hardlinks , Junctions , 
     </description>
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://schinagl.priv.at/nt/hardlinkshellext/hardlinkshellext.html</projectUrl>
-    <tags>explorer extension junction hardlink symboliclink freeware</tags>
+    <tags>explorer extension junction hardlink symboliclink symlink freeware</tags>
     <copyright>© 1999 Hermann Schinagl</copyright>
     <licenseUrl>http://schinagl.priv.at/nt/hardlinkshellext/license.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
