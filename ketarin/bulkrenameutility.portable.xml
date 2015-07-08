@@ -1,11 +1,11 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
-  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="834676b3-eb56-4088-bbf6-c813a4e35aef">
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="51c2c96b-8b7f-43b5-8ebe-e6aea58f097b">
     <WebsiteUrl />
-    <UserAgent />
+    <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64)</UserAgent>
     <UserNotes />
-    <LastFileSize>2265088</LastFileSize>
-    <LastFileDate>2014-08-18T23:39:06.564304</LastFileDate>
+    <LastFileSize>996640</LastFileSize>
+    <LastFileDate>2014-08-18T23:39:04.6315625</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -25,29 +25,13 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>\.zip.*?([\d\.]+)\s{5,}</Regex>
-            <Url>http://www.bulkrenameutility.co.uk/Download.php</Url>
-            <StartText>
-            &lt;td width="90%" valign="top"&gt;&lt;p&gt;&lt;span style="font-weight: bold"&gt;Bulk Rename Utility&lt;/span&gt;, version
+            <Regex>(?&lt;=version\s+)[\d+\.]{3,}</Regex>
+            <Url>{host}/Download.php</Url>
+            <StartText>&lt;td valign="bottom"&gt;&lt;p&gt;&lt;span style="font-weight: bold"&gt;Bulk Rename Utility&lt;/span&gt;, version
                 </StartText>
-            <EndText>                &amp;quot;&lt;span style="font-style: italic; font-weight: bold"&gt;&lt;u&gt;No-Installer&lt;/u&gt;</EndText>
+            <EndText>                for Windows </EndText>
             <TextualContent />
             <Name>version</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>getUrl</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>RegularExpression</VariableType>
-            <Regex>[/]*([^ "'&lt;&gt;\*]+\.zip)</Regex>
-            <Url>http://www.bulkrenameutility.co.uk/Download.php</Url>
-            <TextualContent />
-            <Name>getUrl</Name>
           </UrlVariable>
         </value>
       </item>
@@ -61,8 +45,36 @@
             <VariableType>Textual</VariableType>
             <Regex />
             <Url />
-            <TextualContent>http://www.bulkrenameutility.co.uk/{getUrl}</TextualContent>
+            <TextualContent>{host}/{urlPath}</TextualContent>
             <Name>url</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>host</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>http://www.bulkrenameutility.co.uk/</TextualContent>
+            <Name>host</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>urlPath</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>[^ "'&lt;&gt;\*]+\.zip</Regex>
+            <Url>{host}/Download.php</Url>
+            <Name>urlPath</Name>
           </UrlVariable>
         </value>
       </item>
@@ -101,11 +113,10 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\dev\Chocolatey\_work\BRU_NoInstall.zip</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
-    <Enabled>false</Enabled>
+    <DeletePreviousFile>false</DeletePreviousFile>
+    <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2014-08-18T23:39:06.564304</LastUpdated>
+    <LastUpdated>2014-08-18T23:39:04.6315625</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>bulkrenameutility.portable</Name>

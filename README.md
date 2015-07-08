@@ -86,9 +86,11 @@ Each sub-directory is equivalent to the application ID, otherwise known as the A
 See [ketarin\README.md](https://github.com/dtgm/chocolatey-packages/blob/master/ketarin/README.md) for more information about automatically updating packages from this repo.
 
 ### icons
-Icons pointed to in the nuspec manifest file by XML tag <iconUrl />.  These icons are the images as presented on Chocolatey.org for the respective package.
+Icons pointed to in the nuspec manifest file by XML tag `<iconUrl>`.  These URLs are shown as the package graphic on Chocolatey.org for the respective package.
 
 e.g. the icon on `https://chocolatey.org/packages/gtk-runtime/2.24.10.20121010` is linked to `https://cdn.rawgit.com/dtgm/chocolatey-packages/19d35dff574b7496b92f235fa1503d47b861871a/icons/gtk-runtime.svg` and is configured in `gtk-runtime.nuspec` by XML tag `<iconUrl>`  when `nuget.exe push gtk-runtime.1.2.3.nupkg -Source https://chocolatey.org/` (performed without user intervention by `chocolateypackageupdater`).
+
+The URL that should be used should not point directly to the file.  Instead, use this service http://rawgit.com/
 
 ### licenses 
 Limited use cases where the legal user agreements to terms of usage of the software for packages being installed is not available or not in reliably published way for Internet access.
