@@ -1,10 +1,10 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
-  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="b35f4479-5cbd-49c4-b056-aa7a928d1c0d">
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="0a25c7dd-a953-4a00-a781-aa9677395542">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>30506192</LastFileSize>
+    <LastFileSize>13158504</LastFileSize>
     <LastFileDate>2015-03-18T04:22:25-05:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
@@ -153,13 +153,13 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\gpg4win-2.2.4.exe</PreviousLocation>
+    <PreviousLocation>F:\exe\gpg4win-light-2.2.4.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-07-07T19:10:04.2243431-05:00</LastUpdated>
+    <LastUpdated>2015-07-07T19:15:27.1883309-05:00</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
-    <Name>gpg4win</Name>
+    <Name>gpg4win-light</Name>
   </ApplicationJob>
 </Jobs>

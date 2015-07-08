@@ -16,15 +16,6 @@ Gpg4win supports both relevant cryptography standards, [OpenPGP](http://www.ietf
 
 It is maintained by the developers of GnuPG. Gpg4win and the software included with Gpg4win are Free Software (Open Source; among other things free of charge for all commercial and non-commercial purposes).
 
-#### Bundled software included:
-* [GnuPG](https://www.gnupg.org/) -- The backend; this is the actual encryption tool ([GnuPG FAQ](https://www.gnupg.org/faq/gnupg-faq.html#general))
-* [Kleopatra](https://www.kde.org/applications/utilities/kleopatra/) -- A certificate manager for OpenPGP and X.509 (S/MIME) and common crypto dialogs.
-* [GPA](https://www.gnupg.org/related_software/gpa/index.html) -- An alternative certificate manager for OpenPGP and X.509 (S/MIME).
-* [GpgOL](http://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpgol.git;a=summary) -- A plugin for the 32bit versions of Microsoft Outlook 2003/2007/2010/2013 (email encryption). For Outlook 2010/2013 GpgpOL supports the Exchange Server, but does not support MIME.
-* [GpgEX](http://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpgex.git;a=summary) -- A plugin for Microsoft Explorer (file encryption).
-* [Claws Mail](http://www.claws-mail.org/) -- A complete email application with crypto support.
-* [Compendium](http://www.gpg4win.org/doc/en/gpg4win-compendium.html) -- The documentation (for beginner and advanced users), available in English and German.
-
 #### Documentation
 * [Features](http://www.gpg4win.org/features.html)
 * [Screenshots](http://www.gpg4win.org/screenshots.html)
@@ -33,6 +24,24 @@ It is maintained by the developers of GnuPG. Gpg4win and the software included w
 #### Community
 * [Forum](http://wald.intevation.org/forum/forum.php?forum_id=21)
 * [IRC](irc://irc.freenode.net/#gpg4win)
+
+#### Bundled software included:
+
+__[gpg4win-vanilla](https://chocolatey.org/packages/gpg4win-vanilla)__ includes:
+
+* [GnuPG](https://www.gnupg.org/) -- The backend; this is the actual encryption tool ([GnuPG FAQ](https://www.gnupg.org/faq/gnupg-faq.html#general))
+
+__[gpg4win-light](https://chocolatey.org/packages/gpg4win-light)__ includes all the above, and:
+
+* [GPA](https://www.gnupg.org/related_software/gpa/index.html) -- An alternative certificate manager for OpenPGP and X.509 (S/MIME).
+* [GpgOL](http://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpgol.git;a=summary) -- A plugin for the 32bit versions of Microsoft Outlook 2003/2007/2010/2013 (email encryption). For Outlook 2010/2013 GpgpOL supports the Exchange Server, but does not support MIME.
+* [GpgEX](http://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpgex.git;a=summary) -- A plugin for Microsoft Explorer (file encryption).
+* [Claws Mail](http://www.claws-mail.org/) -- A complete email application with crypto support.
+
+__gpg4win__ (this package) includes all the above, and:
+
+* [Kleopatra](https://www.kde.org/applications/utilities/kleopatra/) -- A certificate manager for OpenPGP and X.509 (S/MIME) and common crypto dialogs.
+* [Compendium](http://www.gpg4win.org/doc/en/gpg4win-compendium.html) -- The documentation (for beginner and advanced users), available in English and German.
     </description>
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.gpg4win.org/</projectUrl>

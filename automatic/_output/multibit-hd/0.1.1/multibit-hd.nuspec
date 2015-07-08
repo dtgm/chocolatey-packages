@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>multibit-hd</id>
+    <title>MultiBit HD</title>
+    <version>0.1.1</version>
+    <authors>Jim Burton,Gary Rowe</authors>
+    <owners>dtgm</owners>
+    <summary>Hierarchical Deterministic Bitcoin desktop wallet</summary>
+    <description>
+MultiBit Hierarchical Deterministic (HD) wallet is a desktop Hierarchical Deterministic Wallet (HDW) for Bitcoin using the Simplified Payment Verification (SPV) mode to provide very fast blockchain synchronization.
+
+The target audience is "international mainstream" which compels the user interface to remain as simple and consistent as possible while still retaining advanced capabilities under the covers.
+
+#### Documentation
+* [FAQ](https://multibit.org/faq.html)
+
+#### Community
+* [Forum](https://bitcointalk.org/index.php?board=99.0)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/multibit-hd/0.1.1</packageSourceUrl>
+    <projectUrl>https://multibit.org/</projectUrl>
+    <projectSourceUrl>https://github.com/bitcoin-solutions/multibit-hd</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/bitcoin-solutions/multibit-hd/issues</bugTrackerUrl>
+    <docsUrl>https://multibit.org/help/</docsUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/bd918913d80f6400aee905575017f69ac0997631/icons/multibit-hd.png</iconUrl>
+    <tags>cryptocurrency bitcoin digital-wallet</tags>
+    <copyright>© 2013 Bitcoin Solutions Ltd</copyright>
+    <licenseUrl>https://github.com/bitcoin-solutions/multibit-hd/blob/develop/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Blog](https://multibit.org/blog.html)
+* [Release notes](https://multibit.org/download.html#0.1.1)
+* [Roadmap](https://github.com/bitcoin-solutions/multibit-hd/milestones)
+* [Changelog](https://github.com/bitcoin-solutions/multibit-hd/issues?q%3Dis%3Aclosed%2Bmilestone%3A%22Release%2B0.1.1%22)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
