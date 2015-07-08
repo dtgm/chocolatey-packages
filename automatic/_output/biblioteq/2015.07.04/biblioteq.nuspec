@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>biblioteq</id>
+    <title>BiblioteQ</title>
+    <version>2015.07.04</version>
+    <authors>BiblioteQ Developers</authors>
+    <owners>dtgm</owners>
+    <summary>Cataloging and library management suite</summary>
+    <description>
+BiblioteQ strives to be a professional cataloging and library management suite, utilizing a Qt interface and providing connectivity to PostgreSQL and SQLite. The SRU and Z39.50 protocols are used for retrieving data for books, journals, and magazines. The software is available for all major operating systems and should be compatible with any system that supports Qt. BiblioteQ is distributed under a BSD license.
+
+#### Documentation
+* [Screenshots](http://biblioteq.sourceforge.net/images.html)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/biblioteq/2015.07.04</packageSourceUrl>
+    <projectUrl>http://biblioteq.sourceforge.net/</projectUrl>
+    <projectSourceUrl>https://github.com/textbrowser/biblioteq</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/textbrowser/biblioteq/issues</bugTrackerUrl>
+    <docsUrl>https://github.com/textbrowser/biblioteq/tree/master/Documentation</docsUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/860816659a386dd4184fe630162193d8eaf8db5d/icons/biblioteq.png</iconUrl>
+    <tags>catalog organizer collection library</tags>
+    <copyright>© BiblioteQ Developers</copyright>
+    <licenseUrl>http://opensource.org/licenses/bsd-license.php</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [ToDo](https://github.com/textbrowser/biblioteq/blob/master/Documentation/TO-DO)
+* [Changelog](http://biblioteq.sourceforge.net/release_notes.html)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
