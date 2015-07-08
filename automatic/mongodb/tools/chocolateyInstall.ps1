@@ -1,3 +1,10 @@
+# powershell v2 compatibility
+$psVer = $PSVersionTable.PSVersion.Major
+if ($psver -ge 3) {
+  function Get-ChildItemDir {Get-ChildItem -Directory $args}
+} else {
+  function Get-ChildItemDir {Get-ChildItem $args}
+}
 $packageName = '{{PackageName}}'
 $version = '{{PackageVersion}}'
 $url = '{{DownloadUrl}}'
@@ -37,7 +44,7 @@ if ((Get-ChildItem $installDir).Count -eq 1 ) {
   Move-Item -Path (Join-Path (Get-ChildItem $installDir).FullName "\`*") -Destination "$installDir"
 }
 $unzipFile = 'mongodb-win32-*-{{PackageVersion}}'
-$unzipPath = (Get-ChildItem -Directory (Join-Path $binRoot $unzipFile)).FullName
+$unzipPath = (Get-ChildItemDir (Join-Path $binRoot $unzipFile)).FullName
 Rename-Item -Path  $unzipPath `
             -NewName $packageName `
             -Force
