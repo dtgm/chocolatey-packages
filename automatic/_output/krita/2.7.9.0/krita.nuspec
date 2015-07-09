@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>krita</id>
+    <version>2.7.9.0</version>
+    <title>Krita</title>
+    <authors>KDE</authors>
+    <owners>Redsandro</owners>
+    <licenseUrl>https://gnu.org/licenses/gpl.html</licenseUrl>
+    <projectUrl>http://krita.org/</projectUrl>
+    <iconUrl>https://raw.github.com/Redsandro/chocolatey/master/krita/img/krita.128x128.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Krita's design emphasizes creating artwork from beginning to end as opposed to manipulating existing images. Therefore it has been influenced to an extent by software such as Corel Painter, but Krita supports a very different feature set than the most comparable applications. For example Krita developers included the ability to work with both bitmap and vector illustration on one hand, but deliberately choose to avoid high end photography plugins in favor of features more specific to painting and drawing.</description>
+    <summary>Digital painting and illustration software.</summary>
+    <releaseNotes />
+    <copyright />
+    <tags>paint painting media illustration</tags>
+  </metadata>
+</package>
