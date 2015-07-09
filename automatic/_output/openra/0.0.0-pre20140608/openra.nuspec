@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+  <metadata>
+    <id>openra</id>
+    <version>0.0.0-pre20140608</version>
+    <title>OpenRA</title>
+    <authors>OpenRA</authors>
+    <owners>Anthony Mastrean</owners>
+    <licenseUrl>https://github.com/OpenRA/OpenRA/blob/bleed/COPYING</licenseUrl>
+    <projectUrl>https://github.com/OpenRA/OpenRA</projectUrl>
+    <iconUrl>http://anthonymastrean.github.io/chocolateypackages/icons/openra.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>We include recreations of C&amp;C (Tiberian Dawn), C&amp;C: Red Alert, and Dune 2000. These are not intended to be perfect copies, but instead combine the classic gameplay of the originals with modern improvements such as unit veterancy and the fog of war.
+
+OpenRA's primary focus is cross-platform multiplayer between Windows, OS X, and Linux; however, we include a number of single-player missions, and also support skirmish games against AI bots.</description>
+    <summary>A free real time strategy game engine supporting early Westwood classics.</summary>
+    <tags>open rts red-alert command-and-conquer</tags>
+  </metadata>
+</package>
