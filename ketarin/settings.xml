@@ -15,7 +15,7 @@
           <string>LastUpdateCheck</string>
         </key>
         <value>
-          <string>AAEAAAD/////AQAAAAAAAAAEAQAAAA9TeXN0ZW0uRGF0ZVRpbWUCAAAABXRpY2tzCGRhdGVEYXRhAAAJEExIh47phtIITEiHjumG0ogL</string>
+          <string>AAEAAAD/////AQAAAAAAAAAEAQAAAA9TeXN0ZW0uRGF0ZVRpbWUCAAAABXRpY2tzCGRhdGVEYXRhAAAJEFpRqmowh9IIWlGqajCH0ogL</string>
         </value>
       </item>
       <item>
@@ -102,7 +102,7 @@
       &lt;string&gt;User-Agent&lt;/string&gt;
     &lt;/key&gt;
     &lt;value&gt;
-      &lt;string&gt;{property:userAgent}&lt;/string&gt;
+      &lt;string&gt;{property:UserAgent}&lt;/string&gt;
     &lt;/value&gt;
   &lt;/item&gt;
   &lt;item&gt;
@@ -119,6 +119,22 @@
     &lt;/key&gt;
     &lt;value&gt;
       &lt;string&gt;{property:VariableChangeIndicator}&lt;/string&gt;
+    &lt;/value&gt;
+  &lt;/item&gt;
+  &lt;item&gt;
+    &lt;key&gt;
+      &lt;string&gt;github&lt;/string&gt;
+    &lt;/key&gt;
+    &lt;value&gt;
+      &lt;string&gt;{url:regex:github\.com(?=/)}&lt;/string&gt;
+    &lt;/value&gt;
+  &lt;/item&gt;
+  &lt;item&gt;
+    &lt;key&gt;
+      &lt;string&gt;kde&lt;/string&gt;
+    &lt;/key&gt;
+    &lt;value&gt;
+      &lt;string&gt;{url:regex:kde\.org(?=/)}&lt;/string&gt;
     &lt;/value&gt;
   &lt;/item&gt;
 &lt;/dictionary&gt;</string>
@@ -249,7 +265,7 @@
           <string>MainForm/Size</string>
         </key>
         <value>
-          <string>System.Drawing.Size:1416,890</string>
+          <string>System.Drawing.Size:1703,918</string>
         </value>
       </item>
       <item>
@@ -353,7 +369,7 @@
           <string>olvJobs/Target:Width</string>
         </key>
         <value>
-          <string>System.Int32:0</string>
+          <string>System.Int32:75</string>
         </value>
       </item>
       <item>
@@ -417,7 +433,7 @@
           <string>olvJobs/LastSortColumn</string>
         </key>
         <value>
-          <string>System.String:Application</string>
+          <string>System.String:Last updated</string>
         </value>
       </item>
       <item>
@@ -834,17 +850,24 @@
         </key>
         <value>
           <string>System.String:////////////////////////////////////////////////////////////////////////////////////////
-/// version 6.5
+/// version 6.6
 /// 
-/// FIX: do not re-push package if package already created
+/// INFO: expand/correct comments
+/// PRETTIFY: ...a bit
 /// 
 
 // REQUIRES:
 // global vars: workdir=corresponds to download location of installer file
 // app vars: nopush, checksum64file=corresponds to 64 bit install file
 // file vars: same as specified by chocopkgup
+
+// get package variable 'cscript'
 string varCScript = app.Variables.ReplaceAllInString("{cscript}");
+
+// determine whether we run this by checking cscript exists AND is 1 or 2
 if ((varCScript == "1") || (varCScript == "2")) {
+
+// ketarin infos we pass for this script to use
 string varAppname = app.Variables.ReplaceAllInString("{appname}");
 string varVersion = app.Variables.ReplaceAllInString("{version}");
 string varChocoPkgOutput = app.Variables.ReplaceAllInString("{chocoPkgOutput}");
@@ -871,19 +894,21 @@ if (today &gt; pkgCreateDate) {
 	return;
 }
 
+// if package variable 'checksum' does not exist or is null
 if (varChecksum == "{checksum}") {
-  // calculate SHA1
+  // calculate SHA1 from {url}  Note we are leveraging ketarin's downloaded copy
   System.IO.FileStream fileSha1 = new System.IO.FileStream(savePath, System.IO.FileMode.Open);
   System.Security.Cryptography.SHA1 sha1 = new System.Security.Cryptography.SHA1CryptoServiceProvider();
   byte[] retValSha1 = sha1.ComputeHash(fileSha1);
   fileSha1.Close();
 
-  // create a string
+  // build string from byte value
   System.Text.StringBuilder sbSha1 = new System.Text.StringBuilder();
   for (int i = 0; i &lt; retValSha1.Length; i++) {
     sbSha1.Append(retValSha1[i].ToString("x2"));
   }
-     
+  
+  // find $pkgPath -iname "*.nuspec" -o -iname "*.ps1" -exec sed -i 's/'$sbSha1'/{checksum}/g' '{}' \;
   string replaceChecksum = sbSha1.ToString();
   List&lt;string&gt; fileList = new List&lt;string&gt;(Directory.GetFiles(pkgPath, "*.ps1", SearchOption.AllDirectories));
   string[] filesNuspec = Directory.GetFiles(pkgPath, "*.nuspec", SearchOption.AllDirectories);
@@ -902,24 +927,28 @@ if (varChecksum == "{checksum}") {
   }
 }
 
-// only get checksum if {checksum64file} exists and points to a downloadable file
+// only get checksum if checksumx64 does NOT exist and 'checksum64file' DOES exists  
 if (varChecksumx64 == "{checksumx64}" &amp;&amp; varChecksum64File != "{checksum64file}") {
+  // TODO: ...and points to a downloadable file; validate URI
+  // we must download the file to calculate checksum, may as well save it too because now all your base are belong to us
   string savePath64 = Path.Combine(varWorkdir, saveFileName64);
   System.Net.WebClient webClient = new System.Net.WebClient();
   webClient.DownloadFile(varChecksum64File, savePath64);
 
-  // calculate SHA1
+  // calculate SHA1 from file of url pointed to by 'checksum64file'
   System.IO.FileStream file64Sha1 = new System.IO.FileStream(savePath64, System.IO.FileMode.Open);
   System.Security.Cryptography.SHA1 sha164 = new System.Security.Cryptography.SHA1CryptoServiceProvider();
   byte[] retVal64Sha1 = sha164.ComputeHash(file64Sha1);
   file64Sha1.Close();
 
-  // create a string
+  // build string from byte value
   System.Text.StringBuilder sb64Sha1 = new System.Text.StringBuilder();
   for (int i = 0; i &lt; retVal64Sha1.Length; i++) {
     sb64Sha1.Append(retVal64Sha1[i].ToString("x2"));
   }
-     
+  
+  // find $pkgPath -iname "*.nuspec" -o -iname "*.ps1" -exec sed -i 's/'$sbSha1'/{checksumx64}/g' '{}' \;
+  // Note chocopkgup will strip 1 set of curly braces so {{checksum}} becomes {checksum}
   string replace64Checksum = sb64Sha1.ToString();
   List&lt;string&gt; fileList = new List&lt;string&gt;(Directory.GetFiles(pkgPath, "*.ps1", SearchOption.AllDirectories));
   string[] filesNuspec = Directory.GetFiles(pkgPath, "*.nuspec", SearchOption.AllDirectories);
@@ -936,6 +965,9 @@ if (varChecksumx64 == "{checksumx64}" &amp;&amp; varChecksum64File != "{checksum
   }
 }
 
+// attempt to fix chocopkgup failure when faced with letters in version variable
+// ...what was I thinking? no, seriously.
+/*
 int checkBeta = varVersion.Split('-').Length;
 if ( checkBeta == 2) {
   string strPre = varVersion.Split('-')[1];
@@ -948,6 +980,7 @@ if ( checkBeta == 2) {
     File.WriteAllText(file, contents);
   }
 }
+*/
 
 // delete existing nupkg made by chocopkgup; we leverage chocopkgup to create the structure/files in destination  
 System.Diagnostics.Process process1 = new System.Diagnostics.Process();
@@ -1405,7 +1438,7 @@ if (varCScript == "2") {
           <string>olvJobs/User-Agent:Width</string>
         </key>
         <value>
-          <string>System.Int32:60</string>
+          <string>System.Int32:80</string>
         </value>
       </item>
       <item>
@@ -1462,6 +1495,30 @@ if (varCScript == "2") {
         </key>
         <value>
           <string>System.Int32:15</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/github:Visibility</string>
+        </key>
+        <value>
+          <string>System.Boolean:True</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/github:Width</string>
+        </key>
+        <value>
+          <string>System.Int32:101</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/github:LastDisplayIndex</string>
+        </key>
+        <value>
+          <string>System.Int32:-1</string>
         </value>
       </item>
     </dictionary>
