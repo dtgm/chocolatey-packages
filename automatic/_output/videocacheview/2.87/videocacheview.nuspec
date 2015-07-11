@@ -18,6 +18,7 @@ It allows you to easily copy the cached video files into another folder for play
 
 If you have a movie player that is configured to play flv files, it also allows you to play the video directly from your browser's cache.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/videocacheview/2.87</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/video_cache_view.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/videocacheview.png</iconUrl>
     <tags>offline save copy download video flv flash cache browser youtube</tags>

@@ -12,6 +12,7 @@ WirelessNetView is a small utility that runs in the background, and monitor the 
 
 For each detected network, it displays the following information: SSID, Last Signal Quality, Average Signal Quality, Detection Counter, Authentication Algorithm, Cipher Algorithm, MAC Address, RSSI, Channel Frequency, Channel Number, and more.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/wirelessnetview/1.67</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/wireless_network_view.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/wirelessnetview.png</iconUrl>
     <tags>wifi network monitor</tags>

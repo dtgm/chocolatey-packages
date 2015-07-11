@@ -1,3 +1,10 @@
+# powershell v2 compatibility
+$psVer = $PSVersionTable.PSVersion.Major
+if ($psver -ge 3) {
+  function Get-ChildItemDir {Get-ChildItem -Directory $args}
+} else {
+  function Get-ChildItemDir {Get-ChildItem $args}
+}
 # MetaPackage
 $warningPreference = "Continue"
 $chocoLib = Join-Path $env:ChocolateyInstall "lib"
@@ -10,8 +17,8 @@ if (Test-Path -PathType Container (Join-Path $chocoLib 'dogecoin.*')) {
   package it points to as designated with *.install or *.portable.`n
 "@
   Write-Warning "To finish removing the program installed by package dogecoin, please also run the command:"
-  Write-Host " `n`tcuninst " -NoNewLine
-  $list = (Get-ChildItem -Directory $chocoLib\dogecoin.*).Name
+  Write-Host " `n`tchoco uninstall " -NoNewLine
+  $list = (Get-ChildItemDir $chocoLib\dogecoin.*).Name
   foreach ($i in $list) {
     Write-Host "$i " -NoNewLine
   }

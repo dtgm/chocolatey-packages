@@ -12,7 +12,10 @@ KeePass 2.x plugin to allow the natural functionality in KeePass to open and syn
 
 Note: KeePass 2.x already has built-in support for synchronization of local files and files accessible via standard protocols (FTP, HTTP/WebDAV, ...), see the [Synchronization](http://keepass.info/help/v2/sync.html) help page for details. The KeeCloud plugin is only required when using online storage providers that aren't accessible using standard protocols.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/keepass-plugin-keecloud/1.0.43</packageSourceUrl>
     <projectUrl>https://bitbucket.org/devinmartin/keecloud/wiki/Home</projectUrl>
+    <projectSourceUrl>https://bitbucket.org/devinmartin/keecloud/src</projectSourceUrl>
+    <bugTrackerUrl>https://bitbucket.org/devinmartin/keecloud/issues</bugTrackerUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/559f85eeb0412db780adb4614ef82b6fd3f63b3a/icons/keepass-plugin-keecloud.png</iconUrl>
     <tags>keepass plugin backup sync cloud</tags>
     <copyright>© 2013 Devin Martin</copyright>
@@ -20,8 +23,6 @@ Note: KeePass 2.x already has built-in support for synchronization of local file
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
 #### Program
-* [Known issues](https://bitbucket.org/devinmartin/keecloud/issues)
-* [Source code](https://bitbucket.org/devinmartin/keecloud/src)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

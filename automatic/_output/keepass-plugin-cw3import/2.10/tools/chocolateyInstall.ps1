@@ -1,4 +1,11 @@
-$packageName = 'keepass-plugin-cw3import'
+# powershell v2 compatibility
+$psVer = $PSVersionTable.PSVersion.Major
+if ($psver -ge 3) {
+  function Get-ChildItemDir {Get-ChildItem -Directory $args}
+} else {
+  function Get-ChildItemDir {Get-ChildItem $args}
+}
+﻿$packageName = 'keepass-plugin-cw3import'
 $typName = 'CodeWallet3ImportPlugin.dll'
 $packageSearch = 'KeePass Password Safe'
 $url = 'http://keepass.info/extensions/v2/cw3import/CodeWallet3ImportPlugin-2.10.zip'
@@ -22,13 +29,13 @@ if (! $installPath) {
   Write-Verbose "$($packageSearch) not found installed."
   $binRoot = Get-BinRoot
   $portPath = Join-Path $binRoot "keepass"
-  $installPath = Get-ChildItem -Directory $portPath* -ErrorAction SilentlyContinue
+  $installPath = Get-ChildItemDir $portPath* -ErrorAction SilentlyContinue
 }
 if (! $installPath) {
   Write-Verbose "$($packageSearch) not found in $($env:ChocolateyBinRoot)"
   throw "$($packageSearch) location could not be found."
 }
-$pluginPath = (Get-ChildItem -Directory $installPath\Plugin*).FullName
+$pluginPath = (Get-ChildItemDir $installPath\Plugin*).FullName
 if ($pluginPath.Count -eq 0) {
   $pluginPath = Join-Path $installPath "Plugins"
   [System.IO.Directory]::CreateDirectory($pluginPath)

@@ -10,14 +10,15 @@
     <description>
 This plugin allows to conveniently connect to a server via RDP.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/keepass-plugin-rdp/1.0</packageSourceUrl>
     <projectUrl>http://keepass.info/plugins.html#rdpplugin</projectUrl>
+    <projectSourceUrl>http://keepass.info/extensions/v2/rdpplugin/RDPPlugin-1.0-Source.zip</projectSourceUrl>
     <tags>keepass plugin rdp</tags>
     <copyright>© Mikhail Ermakov</copyright>
     <licenseUrl>https://wikipedia.org/wiki/FOSS</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
 #### Program
-* [Source code](http://keepass.info/extensions/v2/rdpplugin/RDPPlugin-1.0-Source.zip)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

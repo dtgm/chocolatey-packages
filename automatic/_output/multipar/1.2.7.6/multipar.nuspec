@@ -16,7 +16,9 @@ Mutlipar can do file verification, error detection, correction and recovery to p
 * [Screenshots](http://multipar.eu/screenshots)
 * [Manual](http://multipar.eu/read-me/introduction)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/multipar/1.2.7.6</packageSourceUrl>
     <projectUrl>http://multipar.eu/</projectUrl>
+    <projectSourceUrl>http://multipar.eu/source</projectSourceUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/366eab15b8506be79a99a44622344068039ea868/icons/multipar.png</iconUrl>
     <tags>file par par2 par3 parchive</tags>
     <copyright>© 2008 Yutaka Sawada</copyright>
@@ -25,7 +27,6 @@ Mutlipar can do file verification, error detection, correction and recovery to p
     <releaseNotes>
 #### Program
 * [Changelog](http://multipar.eu/changelog)
-* [Source code](http://multipar.eu/source) (GUI closed source. Console applications and some UI resource are open source)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

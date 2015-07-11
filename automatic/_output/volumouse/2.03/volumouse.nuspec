@@ -16,6 +16,7 @@ For example: You can configure Volumouse to use your mouse wheel for volume cont
 
 When the conditions that you define are not satisfied, your mouse wheel will be used for the regular scrolling tasks, exactly as before.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/volumouse/2.03</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/volumouse.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/volumouse.png</iconUrl>
     <tags>sound speaker control</tags>

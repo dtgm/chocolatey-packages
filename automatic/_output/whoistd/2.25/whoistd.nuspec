@@ -14,6 +14,7 @@ It automatically connect to the right WHOIS server, according to the top-level d
 
 It support both generic domains and country code domains.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/whoistd/2.25</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/whois_this_domain.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/whoistd.png</iconUrl>
     <tags>domain dns whois record registration</tags>

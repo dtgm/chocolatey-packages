@@ -20,14 +20,15 @@ KeePass database access. KeePass and WinKee can be configured to automatically o
 database via command line argument options -keyfile: during a user's Windows session logon or at
 any time by e.g. using a batch file.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/keepass-plugin-winkee/2.28.0.1</packageSourceUrl>
     <projectUrl>http://keepass.info/plugins.html#winkee</projectUrl>
+    <projectSourceUrl>http://keepass.info/extensions/v2/winkee/WinKee-2.28.0.1-Source.zip</projectSourceUrl>
     <tags>keepass plugin security automate</tags>
     <copyright>© 2009 Theo Beisch</copyright>
     <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
 #### Program
-* [Source code](http://keepass.info/extensions/v2/winkee/WinKee-2.28.0.1-Source.zip)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

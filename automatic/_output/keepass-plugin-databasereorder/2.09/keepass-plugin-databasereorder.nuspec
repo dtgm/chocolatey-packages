@@ -12,7 +12,9 @@ DataBaseReorder plugin adds a command to reorder all groups alphabetically.
 
 Note: >=keepass-2.15 has group reordering commands built-in.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/keepass-plugin-databasereorder/2.09</packageSourceUrl>
     <projectUrl>http://keepass.info/plugins.html#</projectUrl>
+    <projectSourceUrl>http://keepass.info/extensions/v2/databasereorder/DataBaseReorder-2.08-Source.zip</projectSourceUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/c31b45635c8179832ee9bfbd2766da250a934d4d/icons/keepass-plugin-databasereorder.png</iconUrl>
     <tags>keepass plugin organize</tags>
     <copyright>© 2006 Francis Noël</copyright>
@@ -20,7 +22,6 @@ Note: >=keepass-2.15 has group reordering commands built-in.
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
 #### Program
-* [Source code](http://keepass.info/extensions/v2/databasereorder/DataBaseReorder-2.08-Source.zip)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

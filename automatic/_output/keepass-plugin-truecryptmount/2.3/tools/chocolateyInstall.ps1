@@ -1,4 +1,11 @@
-$packageName = 'keepass-plugin-truecryptmount'
+# powershell v2 compatibility
+$psVer = $PSVersionTable.PSVersion.Major
+if ($psver -ge 3) {
+  function Get-ChildItemDir {Get-ChildItem -Directory $args}
+} else {
+  function Get-ChildItemDir {Get-ChildItem $args}
+}
+﻿$packageName = 'keepass-plugin-truecryptmount'
 $typName = 'KeepassTrueCryptMount.plgx'
 $packageSearch = 'KeePass Password Safe'
 $url = 'https://bitbucket.org/schalpat/keepasstruecryptmount/downloads/KeepassTrueCryptMount_v2.3.plgx.7z'
@@ -22,19 +29,18 @@ if (! $installPath) {
   Write-Verbose "$($packageSearch) not found installed."
   $binRoot = Get-BinRoot
   $portPath = Join-Path $binRoot "keepass"
-  $installPath = Get-ChildItem -Directory $portPath* -ErrorAction SilentlyContinue
+  $installPath = Get-ChildItemDir $portPath* -ErrorAction SilentlyContinue
 }
 if (! $installPath) {
   Write-Verbose "$($packageSearch) not found in $($env:ChocolateyBinRoot)"
   throw "$($packageSearch) location could not be found."
 }
-$pluginPath = (Get-ChildItem -Directory $installPath\Plugin*).FullName
+$pluginPath = (Get-ChildItemDir $installPath\Plugin*).FullName
 if ($pluginPath.Count -eq 0) {
   $pluginPath = Join-Path $installPath "Plugins"
   [System.IO.Directory]::CreateDirectory($pluginPath)
 }
-# download and extract zip into tools dir
-$toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+# download and extract zip into plugin dir
 Install-ChocolateyZipPackage -PackageName "$packageName" `
                              -Url "$url" `
                              -UnzipLocation "$pluginPath" `
@@ -43,7 +49,7 @@ Install-ChocolateyZipPackage -PackageName "$packageName" `
 # rename PLGX file so it is clear which plugins are managed via choco
 $typPlugin = Join-Path $pluginPath $typName
 $chocoPlugin = "$($packageName).plgx"
-Rename-Item -Path $typPlugin -NewName $chocoPlugin -Force
+Rename-Item -Path $typPlugin -NewName $chocoPlugin -Force -ErrorAction SilentlyContinue
 # report state
 if ( Get-Process -Name "KeePass" `
                  -ErrorAction SilentlyContinue ) {

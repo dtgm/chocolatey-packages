@@ -12,9 +12,10 @@ Npackd (pronounced "unpacked") is an application store/package manager/marketpla
 
 [Forum](https://groups.google.com/forum/#!forum/npackd)
 [Wiki](https://github.com/tim-lebedkov/npackd/wiki)
-[Source code](https://github.com/tim-lebedkov?tab=repositories)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/npackd/1.19.13</packageSourceUrl>
     <projectUrl>https://npackd.appspot.com/</projectUrl>
+    <projectSourceUrl>https://github.com/tim-lebedkov?tab=repositories</projectSourceUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/a780374e9883b6d2c3e5ef5cfe5e6276268a0d2b/icons/npackd.png</iconUrl>
     <tags>package manager repository</tags>
     <copyright>© 2010 Tim Lebedkov</copyright>

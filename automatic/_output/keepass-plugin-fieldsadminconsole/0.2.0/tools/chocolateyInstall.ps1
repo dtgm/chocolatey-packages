@@ -1,4 +1,11 @@
-$packageName = 'keepass-plugin-fieldsadminconsole'
+# powershell v2 compatibility
+$psVer = $PSVersionTable.PSVersion.Major
+if ($psver -ge 3) {
+  function Get-ChildItemDir {Get-ChildItem -Directory $args}
+} else {
+  function Get-ChildItemDir {Get-ChildItem $args}
+}
+﻿$packageName = 'keepass-plugin-fieldsadminconsole'
 $packageSearch = 'KeePass Password Safe'
 $url = 'http://sourceforge.net/projects/kpfieldsadminconsole/files/v0.2.0/FieldsAdminConsole.plgx/download'
 $checksum = 'eb56aee801fc53efe26f9d460578a3cd0ddf7f45'
@@ -21,13 +28,13 @@ if (! $installPath) {
   Write-Verbose "$($packageSearch) not found installed."
   $binRoot = Get-BinRoot
   $portPath = Join-Path $binRoot "keepass"
-  $installPath = Get-ChildItem -Directory $portPath* -ErrorAction SilentlyContinue
+  $installPath = Get-ChildItemDir $portPath* -ErrorAction SilentlyContinue
 }
 if (! $installPath) {
   Write-Verbose "$($packageSearch) not found in $($env:ChocolateyBinRoot)"
   throw "$($packageSearch) location could not be found."
 }
-$pluginPath = (Get-ChildItem -Directory $installPath\Plugin*).FullName
+$pluginPath = (Get-ChildItemDir $installPath\Plugin*).FullName
 if ($pluginPath.Count -eq 0) {
   $pluginPath = Join-Path $installPath "Plugins"
   [System.IO.Directory]::CreateDirectory($pluginPath)

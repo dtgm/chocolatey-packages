@@ -12,6 +12,7 @@ BulletsPassView is a password recovery tool that reveals the passwords stored be
 
 After revealing the passwords, you can easily copy them to the clipboard or save them into text/html/csv/xml file.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/bulletspassview/1.32</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/bullets_password_view.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/bulletspassview.png</iconUrl>
     <tags>bullets asterisk unmask ie internet explorer</tags>

@@ -16,6 +16,7 @@ You can save the weather report into text, HTML or XML files.
 MetarWeather can decode METAR reports from a text file, or download the latest
 reports directly from the Internet.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/mweather/1.72</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/mweather.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/mweather.png</iconUrl>
     <tags>decoder decode weather report stations world html xml freeware</tags>

@@ -1,4 +1,11 @@
-$packageName = 'keepass-plugin-ioprotocolext'
+# powershell v2 compatibility
+$psVer = $PSVersionTable.PSVersion.Major
+if ($psver -ge 3) {
+  function Get-ChildItemDir {Get-ChildItem -Directory $args}
+} else {
+  function Get-ChildItemDir {Get-ChildItem $args}
+}
+﻿$packageName = 'keepass-plugin-ioprotocolext'
 $typName = 'IOProtocolExt'
 $packageSearch = 'KeePass Password Safe'
 $url = 'http://keepass.info/extensions/v2/ioprotocolext/IOProtocolExt-1.10.zip'
@@ -15,20 +22,20 @@ $regPath = Get-ItemProperty -Path @('HKLM:\Software\Wow6432Node\Microsoft\Window
                            $_.DisplayVersion -ge 2.27 `
                            -and `
                            $_.DisplayVersion -lt 3.0 } `
-           | ForEach-Object { $_.InstallLocation }
+           | ForEach-Object {$_.InstallLocation}
 $installPath = $regPath
 # search $env:ChocolateyBinRoot for portable install
 if (! $installPath) {
-  Write-Debug "$($packageSearch) not found installed."
+  Write-Verbose "$($packageSearch) not found installed."
   $binRoot = Get-BinRoot
   $portPath = Join-Path $binRoot "keepass"
-  $installPath = Get-ChildItem -Directory $portPath* -ErrorAction SilentlyContinue
+  $installPath = Get-ChildItemDir $portPath* -ErrorAction SilentlyContinue
 }
 if (! $installPath) {
-  Write-Debug "$($packageSearch) not found in $($env:ChocolateyBinRoot)"
+  Write-Verbose "$($packageSearch) not found in $($env:ChocolateyBinRoot)"
   throw "$($packageSearch) location could not be found."
 }
-$pluginPath = (Get-ChildItem -Directory $installPath\Plugin*).FullName
+$pluginPath = (Get-ChildItemDir $installPath\Plugin*).FullName
 if ($pluginPath.Count -eq 0) {
   $pluginPath = Join-Path $installPath "Plugins"
   [System.IO.Directory]::CreateDirectory($pluginPath)
@@ -43,7 +50,8 @@ Install-ChocolateyZipPackage -PackageName "$packageName" `
 foreach ($i in Get-ChildItem -Path $pluginPath) {
   Rename-Item -Path $i.Fullname `
               -NewName $i.Name.Replace($typName,$packageName) `
-              -Force
+              -Force `
+              -ErrorAction SilentlyContinue
 }
 # report state
 if ( Get-Process -Name "KeePass" `
