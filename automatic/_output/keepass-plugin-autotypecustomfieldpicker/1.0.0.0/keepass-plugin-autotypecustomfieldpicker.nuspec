@@ -20,15 +20,16 @@ With the current `{PICKCHARS}` placeholder you can pick single chars out of a fi
 #### Usage
 Just use the new placeholder `{PICKCUSTOMFIELD}` in an Auto-Type sequence. When you execute such a sequence, a window will popup and let you choose a custom field (just like `{PICKCHARS}` does). The value of the picked custom field will be replaced in the Auto-Type sequence.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/keepass-plugin-autotypecustomfieldpicker/1.0.0.0</packageSourceUrl>
     <projectUrl>https://github.com/berrnd/KeePassAutoTypeCustomFieldPicker</projectUrl>
+    <projectSourceUrl>https://github.com/berrnd/KeePassAutoTypeCustomFieldPicker</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/berrnd/KeePassAutoTypeCustomFieldPicker/issues</bugTrackerUrl>
     <tags>keepass plugin customization</tags>
     <copyright>© 2013 Bernd Bestel</copyright>
     <licenseUrl>https://github.com/berrnd/KeePassAutoTypeCustomFieldPicker/blob/master/licence.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
 #### Program
-* [Known issues](https://github.com/berrnd/KeePassAutoTypeCustomFieldPicker/issues)
-* [Source code](https://github.com/berrnd/KeePassAutoTypeCustomFieldPicker)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

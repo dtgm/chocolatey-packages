@@ -12,14 +12,15 @@ IOProtocolExt is a plugin for KeePass 2.x that adds support for loading/saving f
 
 KeePass can handle FTP by default (using classes of the .NET framework). However, this plugin replaces the FTP handler to use WinSCP instead. So, if you had problems with the .NET FTP classes, installing IOProtocolExt might solve them.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/keepass-plugin-ioprotocolext/1.10</packageSourceUrl>
     <projectUrl>http://keepass.info/plugins.html#ioprotocolext</projectUrl>
+    <projectSourceUrl>http://keepass.info/extensions/v2/ioprotocolext/IOProtocolExt-1.10-Source.zip</projectSourceUrl>
     <tags>keepass plugin scp sftp ftps</tags>
     <copyright>© 2011 Dominik Reichl</copyright>
     <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
 #### Program
-* [Source code](http://keepass.info/extensions/v2/ioprotocolext/IOProtocolExt-1.10-Source.zip)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

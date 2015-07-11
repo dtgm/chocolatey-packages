@@ -16,6 +16,7 @@ For each password that is stored by Internet Explorer, the following information
 
 You can select one or more items from the passwords list and export them into text/html/csv/xml file.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/iepv/1.32</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/internet_explorer_password.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/iepv.png</iconUrl>
     <tags>password manager ie</tags>

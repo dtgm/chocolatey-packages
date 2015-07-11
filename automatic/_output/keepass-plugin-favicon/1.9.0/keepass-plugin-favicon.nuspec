@@ -14,7 +14,10 @@ KeePass Favicon Downloader plugin downloads and stores favicons within the KeePa
 * Make KeePass entries look more unique and easier to tell apart
 * Download for an individual entry, an entire group/folder, or an arbitrary selection of entries
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/keepass-plugin-favicon/1.9.0</packageSourceUrl>
     <projectUrl>https://sourceforge.net/projects/keepass-favicon/</projectUrl>
+    <projectSourceUrl>https://github.com/luckyrat/KeePass-Favicon-Downloader</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/luckyrat/KeePass-Favicon-Downloader/issues</bugTrackerUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages//icons/keepass-plugin-favicon.png</iconUrl>
     <tags>keepass plugin favicon</tags>
     <copyright>© 2009 Chris Tomlinson</copyright>
@@ -25,8 +28,6 @@ KeePass Favicon Downloader plugin downloads and stores favicons within the KeePa
 * [News](https://sourceforge.net/p/keepass-favicon/news)
 * [Forum](https://sourceforge.net/p/keepass-favicon/discussion)
 * [Changelog](https://github.com/luckyrat/KeePass-Favicon-Downloader/blob/master/README.txt)
-* [Known issues](https://github.com/luckyrat/KeePass-Favicon-Downloader/issues)
-* [Source code](https://github.com/luckyrat/KeePass-Favicon-Downloader)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

@@ -49,14 +49,15 @@ As a note: for large amounts of tokens, using a scanner and OCR software had pro
 
 I recommended to generate and store the primary and secondary access keys first, using the iTanWizard ('Store Access Entries') and manually configuring the remaining details. This ensures those keys will be positioned on top of the list.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/keepass-plugin-itanmaster/2.28.0.2</packageSourceUrl>
     <projectUrl>http://keepass.info/plugins.html#itanmaster</projectUrl>
+    <projectSourceUrl>http://keepass.info/extensions/v2/itanmaster/iTanMaster-2.28.0.2-Source.zip</projectSourceUrl>
     <tags>keepass plugin security</tags>
     <copyright>© 2009 Theo Beisch</copyright>
     <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
 #### Program
-* [Source code](http://keepass.info/extensions/v2/itanmaster/iTanMaster-2.28.0.2-Source.zip)
 
 __12/06/2014__
 * Fixed IP autotype problem (javaw was getting Return too early) by ensuring CLR /Win to consume Return and delay key entry by 500mS 

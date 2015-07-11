@@ -10,14 +10,15 @@
     <description>
 This plugin allows to automatically open additional databases when opening a database.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/keepass-plugin-keeautoexec/1.8</packageSourceUrl>
     <projectUrl>http://keepass.info/plugins.html#keeautoexec</projectUrl>
+    <projectSourceUrl>http://keepass.info/extensions/v2/keeautoexec/KeeAutoExec-1.8-Source.zip</projectSourceUrl>
     <tags>keepass plugin automate</tags>
     <copyright>© 2009 Dominik Reichl</copyright>
     <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
 #### Program
-* [Source code](http://keepass.info/extensions/v2/keeautoexec/KeeAutoExec-1.8-Source.zip)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

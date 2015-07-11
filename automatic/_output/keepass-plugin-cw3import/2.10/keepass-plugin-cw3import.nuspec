@@ -14,7 +14,9 @@ Note that this importer is specifically for CodeWallet 3 files.
 
 KeePass 2.x already includes an importer for CodeWallet 6 files.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/keepass-plugin-cw3import/2.10</packageSourceUrl>
     <projectUrl>http://keepass.info/plugins.html#cw3import</projectUrl>
+    <projectSourceUrl>http://keepass.info/plugins.html#cw3import</projectSourceUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/22e78059104d078e10d25c835dc97140095f489d/icons/keepass-plugin-cw3import.png</iconUrl>
     <tags>keepass plugin import codewallet3</tags>
     <copyright>© 2009 Sebastian Baumhekel</copyright>
@@ -22,7 +24,6 @@ KeePass 2.x already includes an importer for CodeWallet 6 files.
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
 #### Program
-* [Source code](http://keepass.info/plugins.html#cw3import)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

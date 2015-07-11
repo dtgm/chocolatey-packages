@@ -12,6 +12,7 @@ WinUpdatesList displays the list of all Windows updates (Service Packs and Hotfi
 
 In addition, it allows you to instantly open the Web link in Microsoft Web site that provides more information about the selected update, uninstall an update, copy the update information to the clipboard, or save it to text/HTML/XML file. 
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/wul/1.32</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/wul.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/wul.png</iconUrl>
     <tags>updates servicepack hotfix html xml uninstall</tags>

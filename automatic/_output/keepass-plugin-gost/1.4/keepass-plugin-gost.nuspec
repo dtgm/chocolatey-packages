@@ -15,15 +15,16 @@ Gost is a KeePass 2.x plugin to allow encrypting databases using the [GOST 28147
 * Uses 256-bit key and operates on 64-bit blocks of data within 32 rounds
 * This implementation uses Cipher Feedback (CFB) mode
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/keepass-plugin-gost/1.4</packageSourceUrl>
     <projectUrl>https://github.com/yaruson/GostPlugin</projectUrl>
+    <projectSourceUrl>https://github.com/yaruson/GostPlugin</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/yaruson/GostPlugin/issues</bugTrackerUrl>
     <tags>keepass plugin encryption cipher gost</tags>
     <copyright>© 2015 Nikolay Kim</copyright>
     <licenseUrl>https://github.com/yaruson/GostPlugin/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
 #### Program
-* [Known issues](https://github.com/yaruson/GostPlugin/issues)
-* [Source code](https://github.com/yaruson/GostPlugin)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

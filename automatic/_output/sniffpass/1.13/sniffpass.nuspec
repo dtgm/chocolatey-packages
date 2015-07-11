@@ -14,6 +14,7 @@ SniffPass can capture the passwords of the following Protocols: POP3, IMAP4, SMT
 
 You can use this utility to recover lost Web/FTP/Email passwords.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/sniffpass/1.13</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/password_sniffer.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/sniffpass.png</iconUrl>
     <tags>monitoring sniffer capture pop3 imap smtp ftp http</tags>
