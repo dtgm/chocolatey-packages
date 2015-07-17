@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>iconsext.install</id>
+    <title>IconsExtract (Install)</title>
+    <version>1.47.0.20150708</version>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm</owners>
+    <summary>Extract icon/cursor stored in EXE, DLL, OCX, CPL files</summary>
+    <description>
+The IconsExtract utility scans the files and folders on your computer, and extract the icons and cursors stored in EXE, DLL, OCX, CPL, and in other file types.
+
+You can save the extracted icons to ICO files (or CUR files for cursors), or copy the image of a single icon into the clipboard.
+    </description>
+    <projectUrl>http://www.nirsoft.net/utils/iconsext.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/iconsext.png</iconUrl>
+    <tags>icons extractor cursor exe dll scan ico cur</tags>
+    <copyright>© 2003 NirSoft</copyright>
+    <licenseUrl>http://www.nirsoft.net/utils/iconsext.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[What's New?](http://www.nirsoft.net/utils/iconsext.html)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
