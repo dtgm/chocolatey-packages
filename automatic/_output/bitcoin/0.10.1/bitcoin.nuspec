@@ -14,10 +14,10 @@ All transactions executed upon the Bitcoin network are public record.  Bitcoin C
 
 New transactions are approved by computing a value determined dynamically by recent conditions of the Bitcoin network which satisfy conditions specified within the Bitcoin protocol.  The Bitcoin protocol can only be modified by adjusting over 50% of currently running nodes, or in other words, upgrading to a new version.  Most upgrades only modify the user interface and make no changes to the Bitcoin protocol.  In the rare event a Bitcoin protocol update has been mandated, called a "hard fork", all software nodes that utilizes the Bitcoin blockchain must be upgraded by a certain date.
 
-### Disk Requirements 
-* As of 27 April 2015, the total size of the BTC blockchain was __32.63 GB__ 
+### Disk Requirements
+* As of 27 April 2015, the total size of the BTC blockchain was __32.63 GB__
 * Size increases based on quantity of transactions ([growth chart](https://blockchain.info/charts/blocks-size))
-* Data is slowly downloaded only when Bitcoin Core is running and connected to network
+* Blockchain is slowly downloaded only when Bitcoin Core is running and connected to network
 * Blockchain default location is `%AppData%\Bitcoin\data`
 
 ### Security
@@ -29,7 +29,6 @@ New transactions are approved by computing a value determined dynamically by rec
 
 ### [Community](https://bitcoin.org/en/community)
 * [Forums](https://bitcoin.org/en/community#forums)
-* [Mailing list](https://sourceforge.net/p/bitcoin/mailman/)
 * [IRC](https://bitcoin.org/en/community#irc)
 * [Social media](https://bitcoin.org/en/community#social)
 
@@ -40,7 +39,11 @@ New transactions are approved by computing a value determined dynamically by rec
 * [How it works](https://bitcoin.org/en/how-it-works)
 * [Developer](https://bitcoin.org/en/developer-documentation)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/bitcoin/0.10.1</packageSourceUrl>
     <projectUrl>https://bitcoin.org/</projectUrl>
+    <projectSourceUrl>https://github.com/bitcoin/bitcoin</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/bitcoin/bitcoin/issues</bugTrackerUrl>
+    <mailingListUrl>https://sourceforge.net/p/bitcoin/mailman/</mailingListUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/19d35dff574b7496b92f235fa1503d47b861871a/icons/bitcoin.svg</iconUrl>
     <tags>bitcoin btc wallet crypto currency p2p</tags>
     <copyright>© 2009 Bitcoin Project</copyright>
@@ -49,8 +52,6 @@ New transactions are approved by computing a value determined dynamically by rec
     <releaseNotes>
 #### Program
 * [Release notes](https://bitcoin.org/en/release/v0.10.1)
-* [Known issues](https://github.com/bitcoin/bitcoin/issues)
-* [Source code](https://github.com/bitcoin/bitcoin)
 
 #### Network
 * [Network status](https://bitcoin.org/en/alerts) (Bitcoin hard-forks)
