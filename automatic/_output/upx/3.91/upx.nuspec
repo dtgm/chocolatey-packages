@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>upx</id>
+    <title>Ultimate Packer for eXecutables</title>
+    <version>3.91</version>
+    <authors>Markus Oberhumer,Laszlo Molnar,John Reiser</authors>
+    <owners>dtgm</owners>
+    <summary>Free, portable, extendable, high-performance executable packer for several executable formats</summary>
+    <description>
+UPX achieves an excellent compression ratio and offers very fast decompression. Your executables suffer no memory overhead or other drawbacks for most of the formats supported, because of in-place decompression.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/upx/3.91</packageSourceUrl>
+    <projectUrl>http://upx.sourceforge.net/</projectUrl>
+    <projectSourceUrl>http://sourceforge.net/p/upx/code/ci/default/tree/</projectSourceUrl>
+    <bugTrackerUrl>http://sourceforge.net/p/upx/bugs/</bugTrackerUrl>
+    <docsUrl>http://sourceforge.net/p/upx/code/ci/default/tree/doc/</docsUrl>
+    <mailingListUrl>http://sourceforge.net/p/upx/discussion/</mailingListUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/32d928752122e81aec9337a87fe2953b503d58e1/icons/upx.png</iconUrl>
+    <tags>compression archiving packer cli</tags>
+    <copyright>© 1996 Markus Franz Xaver Johannes Oberhumer, László Molnár, John F. Reiser</copyright>
+    <licenseUrl>http://upx.sourceforge.net/upx-license.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [TODO](http://sourceforge.net/p/upx/code/ci/default/tree/TODO)
+* [Changelog](http://upx.sourceforge.net/upx-news.txt)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
