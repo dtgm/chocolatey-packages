@@ -5,7 +5,7 @@ if ($psver -ge 3) {
 } else {
   function Get-ChildItemDir {Get-ChildItem $args}
 }
-﻿$packageName = 'keepass-plugin-rdp'
+$packageName = 'keepass-plugin-rdp'
 $packageSearch = 'KeePass Password Safe'
 $pluginFile = "$($packageName).dll"
 $files = @("RDPPlugin.dll","AxInterop.MSTSCLib.dll","Interop.MSTSCLib.dll",$pluginFile)

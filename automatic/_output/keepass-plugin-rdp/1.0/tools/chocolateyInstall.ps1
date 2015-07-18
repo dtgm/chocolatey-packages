@@ -5,9 +5,9 @@ if ($psver -ge 3) {
 } else {
   function Get-ChildItemDir {Get-ChildItem $args}
 }
-﻿$packageName = 'keepass-plugin-rdp'
+$packageName = 'keepass-plugin-rdp'
 $typName = 'RDPPlugin.dll'
-$packageSearch = 'KeePass Password Safe'
+$packageSearch = "KeePass Password Safe*"
 $url = 'http://keepass.info/extensions/v2/rdpplugin/RDPPlugin-1.0.zip'
 $checksum = 'bf2f28c59ee61a17fbfc152cce633395139e1800'
 $checksumType = 'sha1'
@@ -17,7 +17,7 @@ $regPath = Get-ItemProperty -Path @('HKLM:\Software\Wow6432Node\Microsoft\Window
                                     'HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*',
                                     'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*') `
                             -ErrorAction:SilentlyContinue `
-           | Where-Object {$_.DisplayName -like "$packageSearch*" `
+           | Where-Object {$_.DisplayName -like $packageSearch `
                            -and `
                            $_.DisplayVersion -ge 2.09 `
                            -and `
