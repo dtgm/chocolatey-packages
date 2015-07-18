@@ -5,7 +5,7 @@ if ($psver -ge 3) {
 } else {
   function Get-ChildItemDir {Get-ChildItem $args}
 }
-﻿$packageName = '{{PackageName}}'
+$packageName = '{{PackageName}}'
 $packageSearch = 'KeePass Password Safe'
 $url = '{{DownloadUrl}}'
 $checksum = '{{Checksum}}'
