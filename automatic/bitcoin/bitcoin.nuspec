@@ -51,7 +51,9 @@ New transactions are approved by computing a value determined dynamically by rec
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
 #### Program
-* [Release notes](https://bitcoin.org/en/release/v{{PackageVersion}})
+* [Release log](https://bitcoin.org/en/version-history)
+* [Release notes](https://bitcoin.org/en/release/v{{PackageVersion}}#content)
+* [Changelog](https://bitcoin.org/en/release/v{{PackageVersion}}#change-log)
 
 #### Network
 * [Network status](https://bitcoin.org/en/alerts) (Bitcoin hard-forks)
