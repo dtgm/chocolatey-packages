@@ -5,9 +5,9 @@ if ($psver -ge 3) {
 } else {
   function Get-ChildItemDir {Get-ChildItem $args}
 }
-﻿$packageName = '{{PackageName}}'
+$packageName = '{{PackageName}}'
 $typName = 'RDPPlugin.dll'
-$packageSearch = 'KeePass Password Safe'
+$packageSearch = "KeePass Password Safe*"
 $url = '{{DownloadUrl}}'
 $checksum = '{{Checksum}}'
 $checksumType = 'sha1'
@@ -17,7 +17,7 @@ $regPath = Get-ItemProperty -Path @('HKLM:\Software\Wow6432Node\Microsoft\Window
                                     'HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*',
                                     'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*') `
                             -ErrorAction:SilentlyContinue `
-           | Where-Object {$_.DisplayName -like "$packageSearch*" `
+           | Where-Object {$_.DisplayName -like $packageSearch `
                            -and `
                            $_.DisplayVersion -ge 2.09 `
                            -and `
