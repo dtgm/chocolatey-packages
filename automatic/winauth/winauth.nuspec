@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>Windows Authenticator</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Colin Mackie</authors>
+    <owners>dtgm</owners>
+    <summary>Portable open-source 2-factor Authenticator</summary>
+    <description>
+WinAuth is a portable, open-source Authenticator for Windows that provides a time-based [RFC 6238](http://www.ietf.org/rfc/rfc6238.txt) authenticator and common implementations, such as the Google Authenticator. WinAuth can be used with many Bitcoin trading websites as well as games, supporting Battle.net (World of Warcraft, Hearthstone, Heroes of the Storm, Diablo), Guild Wars 2, Glyph (Rift and ArcheAge), WildStar, RuneScape, SWTOR and Steam.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <projectUrl>https://winauth.com/</projectUrl>
+    <projectSourceUrl>https://github.com/winauth/winauth</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/winauth/winauth/issues</bugTrackerUrl>
+    <docsUrl>https://winauth.com/faq/</docsUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/991c900be54e3f1c9b1bae679baeec979782dbb8/icons/{{PackageName}}.png</iconUrl>
+    <tags>security authentication totp 2fa</tags>
+    <copyright>© 2010 Colin Mackie</copyright>
+    <licenseUrl>https://github.com/winauth/winauth/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Roadmap](https://github.com/winauth/winauth/milestones?state=open)
+* [Changelog](https://github.com/winauth/winauth/releases/tag/{{PackageVersion}})
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="dotnet4.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
