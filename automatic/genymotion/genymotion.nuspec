@@ -5,25 +5,30 @@
     <title>Genymotion</title>
     <version>{{PackageVersion}}</version>
     <authors>Genymobile</authors>
-    <owners>tonigellida dtgm</owners>
+    <owners>dtgm</owners>
     <summary>The fastest Android emulator for app testing and presentation</summary>
     <description>
-Genymotion is an Android emulator built on x86 architecture and Virtualbox.  It's designed for quickly building and testing Android apps. Because it is not an ARM emulator it achieves much better performance than the Android SDK Emulator.  It offers 20 pre-configured devices and you can create your own custom ones.  
+Genymotion is an Android emulator built on x86 architecture and Virtualbox. It's designed for quickly building and testing Android apps. Because it is not an ARM emulator it achieves much better performance than the Android SDK Emulator. It offers 20 pre-configured devices and you can create your own custom ones.
 
-Genymotion is the commercial, rebranded version of the discontinued AndroVM open source project.  This package installs the free for personal use version with limited functionality.
+Genymotion is the commercial, rebranded version of the discontinued AndroVM open source project. This package installs the free for personal use version with [limited functionality](https://www.genymotion.com/#!/pricing).
 
-[Pricing](https://www.genymotion.com/#!/pricing)
 [FAQ](https://www.genymotion.com/#!/support#faq)
-[Developer User Guide](https://www.genymotion.com/#!/developers/user-guide)
     </description>
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>https://www.genymotion.com</projectUrl>
-    <tags>testing software android emulator androvm virtualbox virtualization vm</tags>
-    <copyright>© 2014 Genymobile</copyright>
+    <docsUrl>https://www.genymotion.com/#!/developers/user-guide</docsUrl>
+    <tags>freeware testing android emulator androvm virtualbox virtualization vm</tags>
+    <copyright>© 2013 Genymobile</copyright>
     <licenseUrl>https://www.genymotion.com/#!/legal/terms-and-conditions</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/19d35dff574b7496b92f235fa1503d47b861871a/icons/{{PackageName}}.svg</iconUrl>
-    <releaseNotes>https://www.genymotion.com/#!/release-notes</releaseNotes>
+    <releaseNotes>
+#### Program
+* [Release notes](https://www.genymotion.com/#!/release-notes)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
     <dependencies>
       <dependency id="virtualbox" />
     </dependencies>

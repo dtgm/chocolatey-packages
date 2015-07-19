@@ -18,11 +18,11 @@ Previously known as __md5deep__
 #### [Unicode issues](https://github.com/jessek/hashdeep#unicode-issues)
 
 #### Supported algorithms
-* MD5 algorithm is defined in RFC 1321: http://www.ietf.org/rfc/rfc1321.txt
-* SHA1 algorithm is defined in FIPS 180-1: http://www.itl.nist.gov/fipspubs/fip180-1.htm
-* SHA256 algorithm is defined FIPS 180-2: http://csrc.nist.gov/publications/fips/fips180-2/fips180-2.pdf
-* Tiger algorithm is defined at: http://www.cs.technion.ac.il/~biham/Reports/Tiger/
-* Whirlpool algorithm is defined at: http://planeta.terra.com.br/informatica/paulobarreto/WhirlpoolPage.html
+* MD5 algorithm is defined in [RFC 1321](http://www.ietf.org/rfc/rfc1321.txt)
+* SHA1 algorithm is defined in [FIPS 180-1](http://www.itl.nist.gov/fipspubs/fip180-1.htm)
+* SHA256 algorithm is defined [FIPS 180-2](http://csrc.nist.gov/publications/fips/fips180-2/fips180-2.pdf)
+* Tiger algorithm is defined at http://www.cs.technion.ac.il/~biham/Reports/Tiger/
+* Whirlpool algorithm is defined at http://www.larc.usp.br/~pbarreto/WhirlpoolPage.html
 
 #### Command line usage
   `hashdeep -h`
