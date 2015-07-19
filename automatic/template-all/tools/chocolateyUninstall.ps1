@@ -1,6 +1,6 @@
 ###  MSI; match name  ###
 $packageName = '{{PackageName}}'
-$packageSearch = "$packageName"
+$packageSearch = "$packageName*"  # quotes needed if glob
 $installerType = 'msi'
 $silentArgs = '/quiet /qn /norestart'
 $validExitCodes = @(0,3010)
@@ -8,7 +8,7 @@ Get-ItemProperty -Path @( 'HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentV
                           'HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*',
                           'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*' ) `
                  -ErrorAction:SilentlyContinue `
-| Where-Object   { $_.DisplayName -like "$packageSearch*" } `
+| Where-Object   { $_.DisplayName -like $packageSearch } `
 | ForEach-Object { Uninstall-ChocolateyPackage -PackageName "$packageName" `
                                                -FileType "$installerType" `
                                                -SilentArgs "$($_.PSChildName) $silentArgs" `
@@ -17,7 +17,7 @@ Get-ItemProperty -Path @( 'HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentV
 
 ### MSI; match name AND version ###
 $packageName = '{{PackageName}}'
-$packageSearch = "$packageName"
+$packageSearch = "$packageName*"  # quotes needed if glob
 $packageVersion = '{{PackageVersion}}'
 $installerType = 'msi'
 $silentArgs = '/quiet /qn /norestart'
@@ -26,7 +26,7 @@ Get-ItemProperty -Path @( 'HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentV
                           'HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*',
                           'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*' ) `
                  -ErrorAction:SilentlyContinue `
-| Where-Object   { $_.DisplayName -like "$packageSearch*" -and $_.DisplayVersion -eq "$packageVersion" } `
+| Where-Object   { $_.DisplayName -like $packageSearch -and $_.DisplayVersion -eq "$packageVersion" } `
 | ForEach-Object { Uninstall-ChocolateyPackage -PackageName "$packageName" `
                                                -FileType "$installerType" `
                                                -SilentArgs "$($_.PSChildName) $silentArgs" `
@@ -34,7 +34,7 @@ Get-ItemProperty -Path @( 'HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentV
 
 ###  EXE; INNO  ###
 $packageName = '{{PackageName}}'
-$packageSearch = "$packageName"
+$packageSearch = "$packageName*"  # quotes needed if glob
 $installerType = 'exe'
 $silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
 $validExitCodes = @(0)
@@ -42,7 +42,7 @@ Get-ItemProperty -Path @( 'HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentV
                           'HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*',
                           'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*' ) `
                  -ErrorAction:SilentlyContinue `
-| Where-Object   { $_.DisplayName -like "$packageSearch*" } `
+| Where-Object   { $_.DisplayName -like $packageSearch } `
 | ForEach-Object { Uninstall-ChocolateyPackage -PackageName "$packageName" `
                                                -FileType "$installerType" `
                                                -SilentArgs "$($silentArgs)" `
@@ -52,7 +52,7 @@ Get-ItemProperty -Path @( 'HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentV
 
 ###  EXE; NSIS  ###   
 $packageName = '{{PackageName}}'
-$packageSearch = "$packageName"
+$packageSearch = "$packageName*"  # quotes needed if glob
 $installerType = 'exe'
 $silentArgs = '/S'
 $validExitCodes = @(0)
@@ -60,7 +60,7 @@ Get-ItemProperty -Path @( 'HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentV
                           'HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*',
                           'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*' ) `
                  -ErrorAction:SilentlyContinue `
-| Where-Object   { $_.DisplayName -like "$packageSearch*" } `
+| Where-Object   { $_.DisplayName -like $packageSearch } `
 | ForEach-Object { Uninstall-ChocolateyPackage -PackageName "$packageName" `
                                                -FileType "$installerType" `
                                                -SilentArgs "$($silentArgs)" `
@@ -70,7 +70,7 @@ Get-ItemProperty -Path @( 'HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentV
 
 ### EXE; install4j ###
 $packageName = '{{PackageName}}'
-$packageSearch = "$packageName"
+$packageSearch = "$packageName*"  # quotes needed if glob
 $installerType = 'exe'
 $silentArgs = '-q'
 $validExitCodes = @(0)
@@ -78,7 +78,7 @@ Get-ItemProperty -Path @( 'HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentV
                           'HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*',
                           'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*' ) `
                  -ErrorAction:SilentlyContinue `
-| Where-Object   { $_.DisplayName -like "$packageSearch*" } `
+| Where-Object   { $_.DisplayName -like $packageSearch } `
 | ForEach-Object { Uninstall-ChocolateyPackage -PackageName "$packageName" `
                                                -FileType "$installerType" `
                                                -SilentArgs "$($silentArgs)" `
@@ -93,7 +93,7 @@ if ( $true ) { "y" } else { "b" }
 ### w/ AHK 
 # Do you want to remove...
 $packageName = '{{PackageName}}'
-$packageSearch = "$packageName"
+$packageSearch = "$packageName*"  # quotes needed if glob
 $fileType = 'exe'
 $silentArgs = '/S'
 $validExitCodes = @(0)
@@ -108,7 +108,7 @@ try {
                             'HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*',
                             'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*' ) `
                    -ErrorAction:SilentlyContinue `
-  | Where-Object   { $_.DisplayName -like "$packageSearch*" } `
+  | Where-Object   { $_.DisplayName -like $packageSearch } `
   | ForEach-Object { Uninstall-ChocolateyPackage -PackageName "$packageName" `
                                                  -FileType "$fileType" `
                                                  -SilentArgs "$($silentArgs)" `
@@ -179,3 +179,19 @@ if (Test-Path -PathType Container (Join-Path $chocoLib '{{PackageName}}.*')) {
   }
   Write-Host "-y"
 }
+
+
+
+
+### CHANGES
+-like "$packageSearch*"
+-like $packageSearch
+# move glob into var init
+# quotes no longer necessary
+# query remains case-insensitive
+
+
+$packageSearch = "$packageName"
+$packageSearch = "$packageName*"  
+# add glob from general search definition
+# quotes required if glob
