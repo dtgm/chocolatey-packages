@@ -5,7 +5,7 @@ if ($psver -ge 3) {
 } else {
   function Get-ChildItemDir {Get-ChildItem $args}
 }
-﻿$packageName = 'keepass-plugin-qualitycolumn'
+$packageName = 'keepass-plugin-qualitycolumn'
 $typName = 'QualityColumn'
 $packageSearch = 'KeePass Password Safe'
 $url = 'http://keepass.info/extensions/v2/qualitycolumn/QualityColumn-1.2.zip'

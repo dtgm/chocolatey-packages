@@ -5,11 +5,20 @@ if ($psver -ge 3) {
 } else {
   function Get-ChildItemDir {Get-ChildItem $args}
 }
+
 $packageName = '{{PackageName}}'
 $typName = 'GostPlugin.dll'
 $packageSearch = 'KeePass Password Safe'
+
 try {
-# search registry for installed KeePass
+Write-Verbose "Checking KeePass is not running..."
+if (Get-Process -Name "KeePass" `
+                -ErrorAction SilentlyContinue) {
+  Write-Warning "$($packageSearch) is running. Please save any opened databases and close $($packageSearch) before attempting to uninstall KeePass plugins."
+  throw
+}
+
+Write-Verbose "Searching registry for installed KeePass..."
 $regPath = Get-ItemProperty -Path @('HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*',
                                     'HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*',
                                     'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*') `
@@ -17,7 +26,6 @@ $regPath = Get-ItemProperty -Path @('HKLM:\Software\Wow6432Node\Microsoft\Window
            | Where-Object {$_.DisplayName -like "$packageSearch*"} `
            | ForEach-Object {$_.InstallLocation}
 $installPath = $regPath
-# search $env:ChocolateyBinRoot for portable install
 if (! $installPath) {
   Write-Verbose "$($packageSearch) not found in registry."
   $binRoot = Get-BinRoot
@@ -30,20 +38,15 @@ if (! $installPath) {
 }
 $pluginPath = (Get-ChildItemDir $installPath\Plugin*).FullName
 if ($pluginPath.Count -eq 0) {
-  throw "Plugins directory not found."
+  throw "Plugin directory not found."
 }
+Write-Verbose "`t...found."
+
+Write-Verbose "Removing plugin files..."
 $pluginTypFile = Join-Path $pluginPath $typName
-$pluginChocoFile = Join-Path $pluginPath "$($packageName).dll"
 Remove-Item -Path $pluginTypFile `
             -Force `
-            -ErrorAction SilentlyContinue
-Remove-Item -Path $pluginChocoFile `
-            -Force `
             -ErrorAction Continue
-if ( Get-Process -Name "KeePass" `
-                 -ErrorAction SilentlyContinue ) {
-  Write-Warning "$($packageSearch) is running. $($packageName) will be removed at next restart of $($packageSearch)." 
-}
 } catch {
   throw $_.Exception
 }

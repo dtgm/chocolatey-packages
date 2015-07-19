@@ -5,7 +5,7 @@ if ($psver -ge 3) {
 } else {
   function Get-ChildItemDir {Get-ChildItem $args}
 }
-﻿$packageName = 'keepass-plugin-keeautoexec'
+$packageName = 'keepass-plugin-keeautoexec'
 $typName = 'KeeAutoExec'
 $packageSearch = 'KeePass Password Safe'
 try {

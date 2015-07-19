@@ -5,7 +5,7 @@ if ($psver -ge 3) {
 } else {
   function Get-ChildItemDir {Get-ChildItem $args}
 }
-﻿$packageName = 'keepass-plugin-osk'
+$packageName = 'keepass-plugin-osk'
 $typName = 'OnScreenKeyboard2'
 $packageSearch = 'KeePass Password Safe'
 $url = 'http://keepass.info/extensions/v2/osk/OnScreenKeyboard2-1.2.zip'

@@ -5,7 +5,7 @@ if ($psver -ge 3) {
 } else {
   function Get-ChildItemDir {Get-ChildItem $args}
 }
-﻿$packageName = 'keepass-plugin-otpkeyprov'
+$packageName = 'keepass-plugin-otpkeyprov'
 $typName = 'OtpKeyProv'
 $packageSearch = 'KeePass Password Safe'
 $url = 'http://keepass.info/extensions/v2/otpkeyprov/OtpKeyProv-2.4.zip'
