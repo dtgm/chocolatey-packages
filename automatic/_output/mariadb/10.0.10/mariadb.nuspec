@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>mariadb</id>
+    <version>10.0.10</version>
+    <title>MariaDB</title>
+    <authors>MariaDB Foundation</authors>
+    <owners>Thai Phan</owners>
+    <licenseUrl>http://www.gnu.org/licenses/old-licenses/gpl-2.0.html</licenseUrl>
+    <projectUrl>https://mariadb.org</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>MariaDB is a drop-in replacement for MySQL.</description>
+    <tags>mysql database admin mariadb sql</tags>
+  </metadata>
+</package>
