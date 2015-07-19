@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>quicksetdns</id>
+    <title>QuickSetDNS</title>
+    <version>1.10</version>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm</owners>
+    <summary>Quickly set DNS servers of your Internet connection</summary>
+    <description>
+QuickSetDNS is a simple tool that allows you to easily change the DNS servers that are used for your Internet connection.
+
+You can set the desired DNS servers from the user interface, by choosing from a list of DNS servers that you defined, or from command-line, without displaying any user interface.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/quicksetdns/1.10</packageSourceUrl>
+    <projectUrl>http://www.nirsoft.net/utils/quick_set_dns.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/quicksetdns.png</iconUrl>
+    <tags>dns server connection</tags>
+    <copyright>© 2013 NirSoft</copyright>
+    <licenseUrl>http://www.nirsoft.net/utils/quick_set_dns.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[What's New?](http://www.nirsoft.net/utils/quick_set_dns.html)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
