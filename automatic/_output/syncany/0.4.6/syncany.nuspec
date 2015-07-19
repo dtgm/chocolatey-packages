@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
+  <metadata>
+    <id>syncany</id>
+    <title>Syncany</title>
+    <version>0.4.6-alpha</version>
+    <authors>Philipp C. Heckel</authors>
+    <owners>dtgm</owners>
+    <summary>Securely synchronize your files to any kind of storage</summary>
+    <description>
+Syncany is a cloud storage and filesharing application with a focus on security and abstraction of storage.  It allows users to backup and share certain folders of their workstations using any kind of storage, e.g. FTP, SFTP, WebDAV, Amazon S3 and Samba.
+
+While the basic idea is similar to Dropbox, Syncany is open-source and additionally provides data encryption and more flexibility in terms of storage type and provider:
+
+Data encryption: Syncany encrypts the files locally, so that any online storage can be used even for sensitive data.
+Any storage: Syncany uses a plug-in based storage system. It can be used with any type of remote storage.
+
+[User guide](http://syncany.readthedocs.org/en/latest/)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/syncany/0.4.6</packageSourceUrl>
+    <projectUrl>https://www.syncany.org/</projectUrl>
+    <projectSourceUrl>https://github.com/syncany/syncany</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/syncany/syncany/issues</bugTrackerUrl>
+    <docsUrl>https://github.com/syncany/syncany/wiki</docsUrl>
+    <mailingListUrl>https://launchpad.net/~syncany-team</mailingListUrl>
+    <tags>filesharing cloud sync dropbox flickr ftp sftp s3 samba webdav</tags>
+    <copyright>© 2014 Philipp C. Heckel</copyright>
+    <licenseUrl>https://github.com/syncany/syncany/blob/develop/LICENSE.md</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/c2ee9d5b8c39ae626ac147ce864b7bb267513fcc/icons/syncany.png</iconUrl>
+    <releaseNotes>
+#### Program
+* [Roadmap](https://github.com/syncany/syncany/milestones)
+* [Changelog](https://github.com/syncany/syncany/releases)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
