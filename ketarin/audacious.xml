@@ -1,11 +1,11 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="1953a51b-4ae1-4a63-9b76-c19172be6c23">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>20290973</LastFileSize>
-    <LastFileDate>2015-04-04T04:33:52.6105339</LastFileDate>
+    <LastFileSize>19465362</LastFileSize>
+    <LastFileDate>2015-05-30T22:29:45-05:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -25,7 +25,7 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=href="http://distfiles.audacious-media-player.org/audacious-)[\d\.]+(?=-win32.zip"&gt;)</Regex>
+            <Regex>(?&lt;=href="http://distfiles.audacious-media-player.org/audacious-)([\d\.]+)[a-z]?(?=-win32.zip"&gt;)</Regex>
             <Url>http://audacious-media-player.org/download</Url>
             <StartText>&lt;TABLE cellspacing ="1" cellpadding ="6" border = "0"&gt;
   &lt;TR&gt;
@@ -43,9 +43,10 @@
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <TextualContent>http://distfiles.audacious-media-player.org/audacious-{version}-win32.zip</TextualContent>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>[^ "'&lt;&gt;\*]+\.zip</Regex>
+            <Url>http://audacious-media-player.org/download</Url>
+            <TextualContent />
             <Name>url</Name>
           </UrlVariable>
         </value>
@@ -85,11 +86,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\audacious-3.6.1-win32.zip</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <PreviousLocation>F:\exe\audacious-3.6.2a-win32.zip</PreviousLocation>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-04T04:33:52.6105339</LastUpdated>
+    <LastUpdated>2015-07-17T19:42:18.6298404-05:00</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>audacious</Name>

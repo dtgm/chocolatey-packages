@@ -1,11 +1,11 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="0bfcd6c5-ddf6-46f4-a439-e1aa48a49b2f">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>2744862</LastFileSize>
-    <LastFileDate>2015-03-20T15:50:10.6353892</LastFileDate>
+    <LastFileSize>2918101</LastFileSize>
+    <LastFileDate>2015-06-17T12:28:13-05:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -54,7 +54,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>{urlBase}/{getUrl}</TextualContent>
+            <TextualContent>{getUrl}</TextualContent>
             <Name>url</Name>
           </UrlVariable>
         </value>
@@ -75,21 +75,6 @@
       </item>
       <item>
         <key>
-          <string>urlBase</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <Url />
-            <TextualContent>http://www.babelstone.co.uk/Software</TextualContent>
-            <Name>urlBase</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
           <string>cscript</string>
         </key>
         <value>
@@ -102,6 +87,20 @@
           </UrlVariable>
         </value>
       </item>
+      <item>
+        <key>
+          <string>urlBase</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>http://www.babelstone.co.uk/Software</TextualContent>
+            <Name>urlBase</Name>
+          </UrlVariable>
+        </value>
+      </item>
     </Variables>
     <ExecuteCommand />
     <ExecutePreCommand />
@@ -109,11 +108,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\BabelMap.zip</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <PreviousLocation>F:\exe\BabelMap.zip</PreviousLocation>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-03-20T15:50:10.6353892</LastUpdated>
+    <LastUpdated>2015-07-17T18:35:15.0505229-05:00</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>babelmap</Name>
