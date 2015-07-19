@@ -1,11 +1,11 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="1ec88498-87e9-456c-91a7-5eba09c1f288">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>43476758</LastFileSize>
-    <LastFileDate>2015-02-05T00:44:38.8982256</LastFileDate>
+    <LastFileSize>43504182</LastFileSize>
+    <LastFileDate>2015-02-28T15:42:15-06:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -19,17 +19,18 @@
     <Variables>
       <item>
         <key>
-          <string>realVersion</string>
+          <string>versionFull</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=&lt;a href='downloads/[\d\.]+/gajim-)[\d\.-]+(?=\.exe'&gt;)</Regex>
-            <Url>http://gajim.org/downloads.php?lang=en#windows</Url>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <Url />
             <StartText>gajim-</StartText>
             <EndText>.exe'&gt;</EndText>
-            <Name>realVersion</Name>
+            <TextualContent>{urlFile:regex:(?&lt;=gajim-)[\d\.-]{3,\}(?=\.exe)}</TextualContent>
+            <Name>versionFull</Name>
           </UrlVariable>
         </value>
       </item>
@@ -42,7 +43,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>http://gajim.org/downloads/{realVersion:split:-:0}/gajim-{realVersion}.exe</TextualContent>
+            <TextualContent>{urlHost}/{urlFile}</TextualContent>
             <Name>url</Name>
           </UrlVariable>
         </value>
@@ -56,7 +57,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>{realVersion:replace:-:.}</TextualContent>
+            <TextualContent>{versionFull:replace:-:.}</TextualContent>
             <Name>version</Name>
           </UrlVariable>
         </value>
@@ -89,6 +90,34 @@
           </UrlVariable>
         </value>
       </item>
+      <item>
+        <key>
+          <string>urlFile</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>[^ "'&lt;&gt;\*]+.exe</Regex>
+            <Url>http://gajim.org/downloads.php?lang=en#windows</Url>
+            <Name>urlFile</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>urlHost</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>http://gajim.org</TextualContent>
+            <Name>urlHost</Name>
+          </UrlVariable>
+        </value>
+      </item>
     </Variables>
     <ExecuteCommand />
     <ExecutePreCommand />
@@ -96,11 +125,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\gajim-0.16-1.exe</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <PreviousLocation>F:\exe\gajim-0.16.1-1.exe</PreviousLocation>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-05T00:44:38.8982256</LastUpdated>
+    <LastUpdated>2015-07-18T00:56:00.0089761-05:00</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>gajim</Name>

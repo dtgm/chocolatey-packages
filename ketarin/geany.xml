@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="7fe8ce15-b86f-45d2-a78e-3f43a23161a2">
     <SourceTemplate><![CDATA[<Jobs>
@@ -71,8 +71,8 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>8721008</LastFileSize>
-    <LastFileDate>2015-03-29T04:35:04.135333</LastFileDate>
+    <LastFileSize>9770008</LastFileSize>
+    <LastFileDate>2015-07-12T11:47:02-05:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Avoid</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -91,8 +91,8 @@
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>StartEnd</VariableType>
-            <Regex />
+            <VariableType>RegularExpression</VariableType>
+            <Regex>geany-([\d\.]+).?setup</Regex>
             <Url>http://www.geany.org/Download/Releases#windowsBinaries</Url>
             <StartText>&lt;div class='vspace'&gt;&lt;/div&gt;&lt;h2&gt;Windows Binaries&lt;a name='windowsBinaries' id='windowsBinaries'&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;For Windows 2000 or newer.
@@ -153,11 +153,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\geany-1.24_setup.exe</PreviousLocation>
+    <PreviousLocation>F:\exe\geany-1.25_setup.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-03-29T04:35:04.135333</LastUpdated>
+    <LastUpdated>2015-07-16T18:05:31.5281908-05:00</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>geany</Name>
