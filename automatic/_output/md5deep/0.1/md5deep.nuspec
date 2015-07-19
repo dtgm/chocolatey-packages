@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>md5deep</id>
+    <title>[DEPRECATED] md5deep</title>
+    <version>0.1</version>
+    <authors>Jesse Kornblum</authors>
+    <owners>dtgm</owners>
+    <summary>Recursively compute and match cryptographic hashes</summary>
+    <description>
+Md5deep has changed names. The utility is now provided within __[hashdeep](https://chocolatey.org/packages/hashdeep)__.
+
+For more information, see https://github.com/jessek/hashdeep#md5deep-vs-hashdeep
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/md5deep/0.1</packageSourceUrl>
+    <projectUrl>https://github.com/jessek/hashdeep</projectUrl>
+    <projectSourceUrl>https://github.com/jessek/hashdeep</projectSourceUrl>
+    <tags>deprecated</tags>
+    <copyright>© Jesse Kornblum</copyright>
+    <licenseUrl>https://github.com/jessek/hashdeep/blob/master/COPYING</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes />
+    <dependencies>
+      <dependency id="hashdeep" />
+    </dependencies>
+  </metadata>
+</package>
