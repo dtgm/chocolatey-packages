@@ -12,20 +12,24 @@ Geany is a small and lightweight integrated development environment (IDE). It wa
 
 [Screenshots](http://www.geany.org/Documentation/Screenshots)
 [Plugins](http://www.geany.org/Support/Plugins)
-[Manual](http://www.geany.org/Documentation/Manual)
 [Wiki](http://wiki.geany.org/)
     </description>
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.geany.org/</projectUrl>
     <projectSourceUrl>https://github.com/geany/geany</projectSourceUrl>
+    <docsUrl>http://www.geany.org/Documentation/Manual</docsUrl>
     <tags>text editor ide scintilla</tags>
     <copyright>© 2006 Enrico Tröger, Matthew Brush, Colomban Wendling, Frank Lanitz, Nick Treleaven and Dominic Hopf</copyright>
     <licenseUrl>https://github.com/geany/geany/blob/master/COPYING</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/d1e037cc7c943fda29b9067b3b1c3229d99402ff/icons/{{PackageName}}.png</iconUrl>
     <releaseNotes>
-[Release Notes](http://www.geany.org/Documentation/ReleaseNotes)
-[Changelog](https://github.com/geany/geany/releases)
+#### Program
+* [Release Notes](http://www.geany.org/Documentation/ReleaseNotes)
+* [Changelog](https://github.com/geany/geany/releases)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   </metadata>
 </package>

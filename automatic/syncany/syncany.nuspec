@@ -3,7 +3,7 @@
   <metadata>
     <id>{{PackageName}}</id>
     <title>Syncany</title>
-    <version>{{PackageVersion}}</version>
+    <version>{{PackageVersion}}{{PackageGuid}}</version>
     <authors>Philipp C. Heckel</authors>
     <owners>dtgm</owners>
     <summary>Securely synchronize your files to any kind of storage</summary>
@@ -16,19 +16,25 @@ Data encryption: Syncany encrypts the files locally, so that any online storage 
 Any storage: Syncany uses a plug-in based storage system. It can be used with any type of remote storage.
 
 [User guide](http://syncany.readthedocs.org/en/latest/)
-[Wiki](https://github.com/syncany/syncany/wiki)
     </description>
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>https://www.syncany.org/</projectUrl>
     <projectSourceUrl>https://github.com/syncany/syncany</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/syncany/syncany/issues</bugTrackerUrl>
+    <docsUrl>https://github.com/syncany/syncany/wiki</docsUrl>
     <mailingListUrl>https://launchpad.net/~syncany-team</mailingListUrl>
     <tags>filesharing cloud sync dropbox flickr ftp sftp s3 samba webdav</tags>
-    <copyright>© Philipp C. Heckel</copyright>
+    <copyright>© 2014 Philipp C. Heckel</copyright>
     <licenseUrl>https://github.com/syncany/syncany/blob/develop/LICENSE.md</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/c2ee9d5b8c39ae626ac147ce864b7bb267513fcc/icons/{{PackageName}}.png</iconUrl>
     <releaseNotes>
-https://github.com/syncany/syncany/releases
+#### Program
+* [Roadmap](https://github.com/syncany/syncany/milestones)
+* [Changelog](https://github.com/syncany/syncany/releases)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   </metadata>
   <files>

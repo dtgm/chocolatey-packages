@@ -8,15 +8,17 @@
     <owners>dtgm</owners>
     <summary>Unicode character map utility</summary>
     <description>
-BabelMap is a free character map application for Windows that allows you to browse through the entire Unicode character repertoire of over 113,000 characters, or search for a particular character by name or by code point. Characters can then be copied to the clipboard for use in any Unicode-aware application. It also provides many useful features and special utilities, as described below. BabelMap supports the most recent version of the Unicode Standard, currently Unicode 7.0 (released June 2014).
+BabelMap is a free character map application for Windows that allows you to browse through the entire Unicode character repertoire of over 113,000 characters, or search for a particular character by name or by code point. Characters can then be copied to the clipboard for use in any Unicode-aware application.
 
-Freeware; fully functional for personal or commercial use.
+[Forum](https://groups.google.com/forum/#!forum/babelstone)  
+[BabelMap Online](http://www.babelstone.co.uk/Unicode/babelmap.html)
 
-[User forum](https://groups.google.com/forum/#!forum/babelstone)
+#### Freeware
+* Fully functional for personal or commercial use.
     </description>
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.babelstone.co.uk/Software/BabelMap.html</projectUrl>
-    <tags>unicode font-viewer font-analysis typeface</tags>
+    <tags>freeware unicode font-viewer font-analysis typeface</tags>
     <copyright>© Andrew West</copyright>
     <licenseUrl>http://wikipedia.org/wiki/Freeware</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

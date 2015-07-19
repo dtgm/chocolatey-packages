@@ -18,11 +18,11 @@ Previously known as __md5deep__
 #### [Unicode issues](https://github.com/jessek/hashdeep#unicode-issues)
 
 #### Supported algorithms
-* MD5 algorithm is defined in RFC 1321: http://www.ietf.org/rfc/rfc1321.txt
-* SHA1 algorithm is defined in FIPS 180-1: http://www.itl.nist.gov/fipspubs/fip180-1.htm
-* SHA256 algorithm is defined FIPS 180-2: http://csrc.nist.gov/publications/fips/fips180-2/fips180-2.pdf
-* Tiger algorithm is defined at: http://www.cs.technion.ac.il/~biham/Reports/Tiger/
-* Whirlpool algorithm is defined at: http://planeta.terra.com.br/informatica/paulobarreto/WhirlpoolPage.html
+* MD5 algorithm is defined in [RFC 1321](http://www.ietf.org/rfc/rfc1321.txt)
+* SHA1 algorithm is defined in [FIPS 180-1](http://www.itl.nist.gov/fipspubs/fip180-1.htm)
+* SHA256 algorithm is defined [FIPS 180-2](http://csrc.nist.gov/publications/fips/fips180-2/fips180-2.pdf)
+* Tiger algorithm is defined at http://www.cs.technion.ac.il/~biham/Reports/Tiger/
+* Whirlpool algorithm is defined at http://www.larc.usp.br/~pbarreto/WhirlpoolPage.html
 
 #### Command line usage
   `hashdeep -h`
@@ -34,7 +34,10 @@ Previously known as __md5deep__
   
 Note: append `64` to above commands to execute the 64-bit version
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/hashdeep/4.4</packageSourceUrl>
     <projectUrl>https://github.com/jessek/hashdeep</projectUrl>
+    <projectSourceUrl>https://github.com/jessek/hashdeep</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/jessek/hashdeep/issues</bugTrackerUrl>
     <tags>checksum file md5deep cli</tags>
     <copyright>© Jesse Kornblum</copyright>
     <licenseUrl>https://github.com/jessek/hashdeep/blob/master/COPYING</licenseUrl>
@@ -42,8 +45,6 @@ Note: append `64` to above commands to execute the 64-bit version
     <releaseNotes>
 #### Program
 * [Changelog](https://github.com/jessek/hashdeep/blob/master/NEWS)
-* [Known issues](https://github.com/jessek/hashdeep/issues)
-* [Source code](https://github.com/jessek/hashdeep)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

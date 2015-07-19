@@ -31,17 +31,32 @@ The rest is the same as Bitcoin:
 ### Litecoin node distribution
 * https://www.litecoinpool.org/pools
 
-### Source code
-* https://github.com/litecoin-project/litecoin
+#### Community
+* [Forum](https://litecointalk.org/)
+* [IRC](http://webchat.freenode.net/?channels=litecoin)
+* [Reddit](http://www.reddit.com/r/litecoin)
+* [Twitter](https://twitter.com/LitecoinProject)
+* [Google+](https://plus.google.com/+LitecoinOrg)
     </description>
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
-    <projectUrl>https://litecoin.org/</projectUrl>
+    <projectUrl>https://litecoin.com/</projectUrl>
+    <projectSourceUrl>https://github.com/litecoin-project/litecoin</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/litecoin-project/litecoin/issues</bugTrackerUrl>
+    <docsUrl>https://litecoin.com/#guide</docsUrl>
+    <mailingListUrl>https://litecoin.com/#news</mailingListUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/19d35dff574b7496b92f235fa1503d47b861871a/icons/{{PackageName}}.svg</iconUrl>
     <tags>litecoin ltc wallet cryptocurrency p2p</tags>
-    <copyright>© Litecoin Project</copyright>
+    <copyright>© 2012 Litecoin Project</copyright>
     <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <releaseNotes>http://blog.litecoin.org/</releaseNotes>
+    <releaseNotes>
+#### Program
+* [Roadmap](https://github.com/litecoin-project/litecoin/milestones)
+* [Changelog](http://blog.litecoin.org/)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

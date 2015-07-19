@@ -4,7 +4,7 @@ $installerType = 'exe'
 $silentArgs = '/S'
 $validExitCodes = @(0)
 $scriptPath = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$ahkFile = "$scriptPath\$packageName.ahk"
+$ahkFile = "$scriptPath\chocolateyUninstall.ahk"
 $ahkRun = "$Env:Temp\$(Get-Random).ahk"
 Copy-Item $ahkFile $ahkRun -Force
 Start-Process 'AutoHotKey' "$ahkRun"
