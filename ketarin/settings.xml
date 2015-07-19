@@ -15,7 +15,7 @@
           <string>LastUpdateCheck</string>
         </key>
         <value>
-          <string>AAEAAAD/////AQAAAAAAAAAEAQAAAA9TeXN0ZW0uRGF0ZVRpbWUCAAAABXRpY2tzCGRhdGVEYXRhAAAJEFpRqmowh9IIWlGqajCH0ogL</string>
+          <string>AAEAAAD/////AQAAAAAAAAAEAQAAAA9TeXN0ZW0uRGF0ZVRpbWUCAAAABXRpY2tzCGRhdGVEYXRhAAAJEGfM84mNj9IIZ8zziY2P0ogL</string>
         </value>
       </item>
       <item>
@@ -185,7 +185,7 @@
           <string>ThreadCount</string>
         </key>
         <value>
-          <string>System.Int32:2</string>
+          <string>System.Int32:4</string>
         </value>
       </item>
       <item>
@@ -193,7 +193,7 @@
           <string>RetryCount</string>
         </key>
         <value>
-          <string>System.Int32:1</string>
+          <string>System.Int32:2</string>
         </value>
       </item>
       <item>
@@ -265,7 +265,7 @@
           <string>MainForm/Size</string>
         </key>
         <value>
-          <string>System.Drawing.Size:1703,918</string>
+          <string>System.Drawing.Size:1701,918</string>
         </value>
       </item>
       <item>
@@ -273,7 +273,7 @@
           <string>MainForm/Location</string>
         </key>
         <value>
-          <string>System.Drawing.Point:77,628</string>
+          <string>System.Drawing.Point:11,725</string>
         </value>
       </item>
       <item>
@@ -369,7 +369,7 @@
           <string>olvJobs/Target:Width</string>
         </key>
         <value>
-          <string>System.Int32:75</string>
+          <string>System.Int32:0</string>
         </value>
       </item>
       <item>
@@ -417,7 +417,7 @@
           <string>olvJobs/Status:Width</string>
         </key>
         <value>
-          <string>System.Int32:52</string>
+          <string>System.Int32:126</string>
         </value>
       </item>
       <item>
@@ -433,7 +433,7 @@
           <string>olvJobs/LastSortColumn</string>
         </key>
         <value>
-          <string>System.String:Last updated</string>
+          <string>System.String:Application</string>
         </value>
       </item>
       <item>
@@ -561,7 +561,7 @@
           <string>ApplicationJobDialog/Location</string>
         </key>
         <value>
-          <string>System.Drawing.Point:506,1026</string>
+          <string>System.Drawing.Point:150,758</string>
         </value>
       </item>
       <item>
@@ -1516,6 +1516,30 @@ if (varCScript == "2") {
       <item>
         <key>
           <string>olvJobs/github:LastDisplayIndex</string>
+        </key>
+        <value>
+          <string>System.Int32:-1</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/kde:Visibility</string>
+        </key>
+        <value>
+          <string>System.Boolean:True</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/kde:Width</string>
+        </key>
+        <value>
+          <string>System.Int32:60</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/kde:LastDisplayIndex</string>
         </key>
         <value>
           <string>System.Int32:-1</string>
