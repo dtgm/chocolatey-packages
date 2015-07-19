@@ -5,7 +5,7 @@ if ($psver -ge 3) {
 } else {
   function Get-ChildItemDir {Get-ChildItem $args}
 }
-﻿$packageName = 'keepass-plugin-qrcodegen'
+$packageName = 'keepass-plugin-qrcodegen'
 $typName = 'QrCodeGenerator'
 $packageSearch = 'KeePass Password Safe'
 $url = 'http://keepass.info/extensions/v2/qrcodegen/QrCodeGenerator-2.0.12.zip'

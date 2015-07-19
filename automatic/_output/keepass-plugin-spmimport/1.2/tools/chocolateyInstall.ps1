@@ -5,7 +5,7 @@ if ($psver -ge 3) {
 } else {
   function Get-ChildItemDir {Get-ChildItem $args}
 }
-﻿$packageName = 'keepass-plugin-spmimport'
+$packageName = 'keepass-plugin-spmimport'
 $typName = 'SpmImport'
 $packageSearch = 'KeePass Password Safe'
 $url = 'http://keepass.info/extensions/v2/spmimport/SpmImport-1.2.zip'

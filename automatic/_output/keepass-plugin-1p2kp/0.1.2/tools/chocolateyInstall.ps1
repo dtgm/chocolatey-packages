@@ -5,14 +5,16 @@ if ($psver -ge 3) {
 } else {
   function Get-ChildItemDir {Get-ChildItem $args}
 }
-﻿$packageName = 'keepass-plugin-1p2kp'
+
+$packageName = 'keepass-plugin-1p2kp'
 $typName = '1P2KeePass.plgx'
 $packageSearch = 'KeePass Password Safe'
 $url = 'https://github.com/diimdeep/1P2KeePass/releases/download/0.1.2/0.1.2.zip'
 $checksum = 'c6dd3f3fef23eef8b42e943c0be4623c'
 $checksumType = 'md5'
+
 try {
-# search registry for location of installed KeePass
+Write-Verbose "Searching registry for installed KeePass..."
 $regPath = Get-ItemProperty -Path @('HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*',
                                     'HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*',
                                     'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*') `
@@ -24,17 +26,26 @@ $regPath = Get-ItemProperty -Path @('HKLM:\Software\Wow6432Node\Microsoft\Window
                            $_.DisplayVersion -lt 3.0 } `
            | ForEach-Object {$_.InstallLocation}
 $installPath = $regPath
-# search $env:ChocolateyBinRoot for portable install
 if (! $installPath) {
-  Write-Verbose "$($packageSearch) not found installed."
+  Write-Verbose "Searching $env:ChocolateyBinRoot for portable install..."
   $binRoot = Get-BinRoot
   $portPath = Join-Path $binRoot "keepass"
   $installPath = Get-ChildItemDir $portPath* -ErrorAction SilentlyContinue
 }
 if (! $installPath) {
-  Write-Verbose "$($packageSearch) not found in $($env:ChocolateyBinRoot)"
-  throw "$($packageSearch) location could not be found."
+  Write-Verbose "Searching $env:Path for unregistered install..."
+  $installFullName = (Get-Command keepass -ErrorAction SilentlyContinue).Path
+  if (! $installFullName) {
+    $installPath = [io.path]::GetDirectoryName($installFullName)
+  }
 }
+if (! $installPath) {
+  Write-Warning "$($packageSearch) not found."
+  throw
+}
+Write-Verbose "`t...found."
+
+Write-Verbose "Searching for plugin directory..."
 $pluginPath = (Get-ChildItemDir $installPath\Plugin*).FullName
 if ($pluginPath.Count -eq 0) {
   $pluginPath = Join-Path $installPath "Plugins"
@@ -49,7 +60,7 @@ Install-ChocolateyZipPackage -PackageName "$packageName" `
 # rename PLGX file so it is clear which plugins are managed via choco
 $typPlugin = Join-Path $pluginPath $typName
 $chocoPlugin = Join-Path $pluginPath "$($packageName).plgx"
-Move-Item -Path $typPlugin -Destination $chocoPlugin -Force
+Move-Item -Path $typPlugin -Destination $chocoPlugin -Force -ErrorAction Continue
 if ( Get-Process -Name "KeePass" `
                  -ErrorAction SilentlyContinue ) {
   Write-Warning "$($packageSearch) is currently running. Plugin will be available at next restart of $($packageSearch)." 

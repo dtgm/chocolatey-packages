@@ -5,7 +5,7 @@ if ($psver -ge 3) {
 } else {
   function Get-ChildItemDir {Get-ChildItem $args}
 }
-﻿$packageName = 'keepass-plugin-kpscript'
+$packageName = 'keepass-plugin-kpscript'
 $packageSearch = 'KeePass Password Safe'
 $url = 'http://keepass.info/extensions/v2/kpscript/KPScript-2.29.zip'
 $checksum = '3b45c86b8aaf92c5eb10dd4657a85a5b37d6d5c0'

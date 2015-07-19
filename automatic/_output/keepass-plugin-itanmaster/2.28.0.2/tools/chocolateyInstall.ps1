@@ -5,7 +5,7 @@ if ($psver -ge 3) {
 } else {
   function Get-ChildItemDir {Get-ChildItem $args}
 }
-﻿$packageName = 'keepass-plugin-itanmaster'
+$packageName = 'keepass-plugin-itanmaster'
 $typName = 'iTanMaster'
 $packageSearch = 'KeePass Password Safe'
 $url = 'http://keepass.info/extensions/v2/itanmaster/iTanMaster-2.28.0.2.zip'

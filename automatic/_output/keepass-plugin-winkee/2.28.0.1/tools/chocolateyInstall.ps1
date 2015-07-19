@@ -5,7 +5,7 @@ if ($psver -ge 3) {
 } else {
   function Get-ChildItemDir {Get-ChildItem $args}
 }
-﻿$packageName = 'keepass-plugin-winkee'
+$packageName = 'keepass-plugin-winkee'
 $typName = 'WinKee'
 $packageSearch = 'KeePass Password Safe'
 $url = 'http://keepass.info/extensions/v2/winkee/WinKee-2.28.0.1.zip'

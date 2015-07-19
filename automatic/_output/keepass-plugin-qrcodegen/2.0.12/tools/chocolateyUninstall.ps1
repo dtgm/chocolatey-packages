@@ -5,7 +5,7 @@ if ($psver -ge 3) {
 } else {
   function Get-ChildItemDir {Get-ChildItem $args}
 }
-﻿$packageName = 'keepass-plugin-qrcodegen'
+$packageName = 'keepass-plugin-qrcodegen'
 $packageSearch = 'KeePass Password Safe'
 try {
 # search registry for installed KeePass

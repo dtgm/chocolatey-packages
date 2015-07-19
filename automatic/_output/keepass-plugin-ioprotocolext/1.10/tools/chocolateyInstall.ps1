@@ -5,7 +5,7 @@ if ($psver -ge 3) {
 } else {
   function Get-ChildItemDir {Get-ChildItem $args}
 }
-﻿$packageName = 'keepass-plugin-ioprotocolext'
+$packageName = 'keepass-plugin-ioprotocolext'
 $typName = 'IOProtocolExt'
 $packageSearch = 'KeePass Password Safe'
 $url = 'http://keepass.info/extensions/v2/ioprotocolext/IOProtocolExt-1.10.zip'

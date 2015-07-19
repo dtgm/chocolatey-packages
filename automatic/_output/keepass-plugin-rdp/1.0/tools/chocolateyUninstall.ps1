@@ -5,12 +5,20 @@ if ($psver -ge 3) {
 } else {
   function Get-ChildItemDir {Get-ChildItem $args}
 }
+
 $packageName = 'keepass-plugin-rdp'
 $packageSearch = 'KeePass Password Safe'
-$pluginFile = "$($packageName).dll"
-$files = @("RDPPlugin.dll","AxInterop.MSTSCLib.dll","Interop.MSTSCLib.dll",$pluginFile)
+$files = @("RDPPlugin.dll","AxInterop.MSTSCLib.dll","Interop.MSTSCLib.dll")
+
 try {
-# search registry for installed KeePass
+Write-Verbose "Checking KeePass is not running..."
+if (Get-Process -Name "KeePass" `
+                -ErrorAction SilentlyContinue) {
+  Write-Warning "$($packageSearch) is running. Please save any opened databases and close $($packageSearch) before attempting to uninstall KeePass plugins."
+  throw
+}
+
+Write-Verbose "Searching registry for installed KeePass..."
 $regPath = Get-ItemProperty -Path @('HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*',
                                     'HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*',
                                     'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*') `
@@ -18,30 +26,38 @@ $regPath = Get-ItemProperty -Path @('HKLM:\Software\Wow6432Node\Microsoft\Window
            | Where-Object {$_.DisplayName -like "$packageSearch*"} `
            | ForEach-Object {$_.InstallLocation}
 $installPath = $regPath
-# search $env:ChocolateyBinRoot for portable install
 if (! $installPath) {
-  Write-Host "$($packageSearch) not found in registry."
+  Write-Verbose "Searching $env:ChocolateyBinRoot for portable install..."
   $binRoot = Get-BinRoot
   $portPath = Join-Path $binRoot "keepass"
   $installPath = Get-ChildItemDir $portPath* -ErrorAction SilentlyContinue
 }
 if (! $installPath) {
-  Write-Host "$($packageSearch) not found in $($env:ChocolateyBinRoot)"
-  throw "$($packageSearch) install location could not be found."
+  Write-Verbose "Searching $env:Path for unregistered install..."
+  $installFullName = (Get-Command keepass -ErrorAction SilentlyContinue).Path
+  if (! $installFullName) {
+    $installPath = [io.path]::GetDirectoryName($installFullName)
+  }
 }
+if (! $installPath) {
+  Write-Warning "$($packageSearch) not found."
+  throw
+}
+Write-Verbose "`t...found."
+
+Write-Verbose "Searching for plugin directory..."
 $pluginPath = (Get-ChildItemDir $installPath\Plugin*).FullName
 if ($pluginPath.Count -eq 0) {
-  throw "Plugins directory not found."
+  throw "Plugin directory not found."
 }
+Write-Verbose "`t...found."
+
+Write-Verbose "Removing plugin files..."
 foreach ($file in $files) {
   $installFile = Join-Path $pluginPath $file
   Remove-Item -Path $installFile `
               -Force `
               -ErrorAction SilentlyContinue
-}
-if ( Get-Process -Name "KeePass" `
-                 -ErrorAction SilentlyContinue ) {
-  Write-Warning "$($packageSearch) is running. $($packageName) will be removed at next restart of $($packageSearch)." 
 }} catch {
   throw $_.Exception
 }

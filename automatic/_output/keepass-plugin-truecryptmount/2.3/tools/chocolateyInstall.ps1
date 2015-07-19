@@ -5,14 +5,16 @@ if ($psver -ge 3) {
 } else {
   function Get-ChildItemDir {Get-ChildItem $args}
 }
-﻿$packageName = 'keepass-plugin-truecryptmount'
+
+$packageName = 'keepass-plugin-truecryptmount'
 $typName = 'KeepassTrueCryptMount.plgx'
 $packageSearch = 'KeePass Password Safe'
 $url = 'https://bitbucket.org/schalpat/keepasstruecryptmount/downloads/KeepassTrueCryptMount_v2.3.plgx.7z'
 $checksum = '5c67007c6fa16f106e49076a53e406f5c047b0dd'
 $checksumType = 'sha1'
+
 try {
-# search registry for location of installed KeePass
+Write-Verbose "Searching registry for installed KeePass..."
 $regPath = Get-ItemProperty -Path @('HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*',
                                     'HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*',
                                     'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*') `
@@ -24,17 +26,26 @@ $regPath = Get-ItemProperty -Path @('HKLM:\Software\Wow6432Node\Microsoft\Window
                            $_.DisplayVersion -lt 3.0 } `
            | ForEach-Object {$_.InstallLocation}
 $installPath = $regPath
-# search $env:ChocolateyBinRoot for portable install
 if (! $installPath) {
-  Write-Verbose "$($packageSearch) not found installed."
+  Write-Verbose "Searching $env:ChocolateyBinRoot for portable install..."
   $binRoot = Get-BinRoot
   $portPath = Join-Path $binRoot "keepass"
   $installPath = Get-ChildItemDir $portPath* -ErrorAction SilentlyContinue
 }
 if (! $installPath) {
-  Write-Verbose "$($packageSearch) not found in $($env:ChocolateyBinRoot)"
-  throw "$($packageSearch) location could not be found."
+  Write-Verbose "Searching $env:Path for unregistered install..."
+  $installFullName = (Get-Command keepass -ErrorAction SilentlyContinue).Path
+  if (! $installFullName) {
+    $installPath = [io.path]::GetDirectoryName($installFullName)
+  }
 }
+if (! $installPath) {
+  Write-Warning "$($packageSearch) not found."
+  throw
+}
+Write-Verbose "`t...found."
+
+Write-Verbose "Searching for plugin directory..."
 $pluginPath = (Get-ChildItemDir $installPath\Plugin*).FullName
 if ($pluginPath.Count -eq 0) {
   $pluginPath = Join-Path $installPath "Plugins"
