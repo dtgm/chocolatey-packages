@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>Duplicate Commander</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Rayburn Davis</authors>
+    <owners>dtgm</owners>
+    <summary>Easily find and remove duplicate files on your PC</summary>
+    <description>
+Duplicate Commander is a freeware application that allows you to find and manage duplicate files on your PC. Duplicate Commander comes with many features and tools that allow you to recover your disk space from those duplicates.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <projectUrl>http://www.rayburnsoft.net/dc.html</projectUrl>
+    <projectSourceUrl>http://rayburnsoft.net:8080/gitblit/summary/?r=dcbeta.git</projectSourceUrl>
+    <docsUrl>http://www.rayburnsoft.net/dcum.chm</docsUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/bf957366165976ad3679f034137d66d57d020328/icons/{{PackageName}}.png</iconUrl>
+    <tags>deduplicate hardlink cleaner</tags>
+    <copyright>© 2012 Rayburn Davis</copyright>
+    <licenseUrl>https://wikipedia.org/wiki/Freeware</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes />
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
