@@ -24,3 +24,10 @@ Set-ItemProperty -Path "$regPath" -Name EulaAccepted -Value 1
 if ((Get-ItemProperty -Path "$regPath").EulaAccepted -ne 1) {
   throw "Failed setting registry value."
 }
+
+
+#$key = "VirusTotal"
+#$prop = "VirusTotalTermsAccepted"
+#$value = "1"
+#$virTotal = Join-Path $regPath $key
+#Set-ItemProperty -Path $key -Name $prop -Value $value
