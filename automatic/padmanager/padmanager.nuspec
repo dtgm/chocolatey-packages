@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>PAD Manager</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Mykola Rudenko,Dmitry Silchenko</authors>
+    <owners>dtgm</owners>
+    <summary>Portable Application Description (PAD) validator and optimizer</summary>
+    <description>
+PADManager is an advanced [PAD 3.x](http://repository.appvisor.com/padspec/files/padspec311to40-diff.htm) editing and managing application.
+
+Portable Application Description or PAD is a standard developed by the Association of Shareware Professionals ([ASP](http://asp-shareware.com/)). It is designed to replace the old non-formal, plain text [file_id.diz](https://wikipedia.org/wiki/FILE_ID.DIZ) and other textual program descriptions with an XML-based and strictly specified format.
+
+#### Features
+* Built-in PAD validator and optimizer that helps you to maximize the results from your promotion campaign
+* Visual management of company and product profiles
+* Allows your co-workers to share the same profile database over the network
+* Installs by default and automatically updates some useful PAD extensions (RSS Feed Aggregators, Site Directories, Affiliate Sites and others)
+* Built-in FTP Uploader
+* Compatible on the data level with popular submission applications and services
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <projectUrl>http://padmanager.org/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2d4d036fc84125c01036ba3fbc7fa1b1de36a767/icons/{{PackageName}}.png</iconUrl>
+    <tags>pad validator</tags>
+    <copyright>© 2000 Rudenko Software</copyright>
+    <licenseUrl>https://wikipedia.org/wiki/Freeware</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [PAD 4.x spec](http://repository.appvisor.com/padspec/files/padspec40.xml) NOT supported
+* [PAD specification](http://pad.asp-software.org/spec/spec.php)
+* [PAD FAQ](http://pad.asp-software.org/padfaq.php)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
