@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>PADGen</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Lincoln Beach Software,AccuSolve,Oliver Grahl</authors>
+    <owners>dtgm</owners>
+    <summary>Easily create Portable Application Descriptions (PAD) files</summary>
+    <description>
+PADGen easily creates Portable Application Descriptions (PAD) 3.x files for all your applications. Use PAD to get all of the important information to your vendors and webmasters as quickly and as concisely as possible. With this information long detailed submission forms may soon be a thing of the past! Submitting the PAD file will easily allow webmasters access to all your information.
+
+Portable Application Description or PAD is a standard developed by the Association of Shareware Professionals ([ASP](http://asp-shareware.com/)). It is designed to replace the old non-formal, plain text [file_id.diz](https://wikipedia.org/wiki/FILE_ID.DIZ) and other textual program descriptions with an XML-based and strictly specified format.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <projectUrl>http://pad.asp-software.org/padgen.php</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2d4d036fc84125c01036ba3fbc7fa1b1de36a767/icons/{{PackageName}}.png</iconUrl>
+    <tags>pad builder portable</tags>
+    <copyright>© 1999 Association of Software Professionals</copyright>
+    <licenseUrl>https://wikipedia.org/wiki/Freeware</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [PAD 4.x spec](http://repository.appvisor.com/padspec/files/padspec40.xml) NOT supported
+* [PAD specification](http://pad.asp-software.org/spec/spec.php)
+* [PAD FAQ](http://pad.asp-software.org/padfaq.php)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

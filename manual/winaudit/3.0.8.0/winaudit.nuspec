@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>winaudit</id>
+    <title>WinAudit</title>
+    <version>3.0.8.0</version>
+    <authors>Parmavex Services</authors>
+    <owners>dtgm</owners>
+    <summary>Free inventory and pc audit software</summary>
+    <description>
+WinAudit is an inventory utility for Windows computers. It creates a comprehensive report on a machine's configuration, hardware and software. WinAudit is free, open source and can be used or distributed by anyone. IT experts in academia, government, industry as well as security conscious professionals in the armed services, defence contractors, electricity generators and police forces use WinAudit.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/manual/winaudit/3.0.8.0</packageSourceUrl>
+    <projectUrl>https://winaudit.codeplex.com/</projectUrl>
+    <projectSourceUrl>https://winaudit.codeplex.com/SourceControl/latest</projectSourceUrl>
+    <bugTrackerUrl>https://winaudit.codeplex.com/workitem/list/advanced</bugTrackerUrl>
+    <docsUrl>https://winaudit.codeplex.com/documentation</docsUrl>
+    <mailingListUrl>https://winaudit.codeplex.com/discussions</mailingListUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/77ae1d36271691b72b0a92b27fcd7e6cb5d5d425/icons/winaudit.png</iconUrl>
+    <tags>system-information inventory audit</tags>
+    <copyright>© 2014 Parmavex Services</copyright>
+    <licenseUrl>https://winaudit.codeplex.com/license</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[Release notes](https://winaudit.codeplex.com/releases/view/123516#ReleaseNotes)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
