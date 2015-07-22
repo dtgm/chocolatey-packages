@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
-    <id>{{PackageName}}</id>
+    <id>firefox-beta</id>
     <title>Firefox Beta</title>
-    <version>{{PackageGuid}}</version>
+    <version>40.0-beta6</version>
     <authors>Mozilla</authors>
     <owners>dtgm</owners>
     <summary>Web browser of the latest features in a more stable environment</summary>
@@ -23,12 +23,12 @@ Every 6 weeks, Firefox developers take the current stable features of each build
 
 [Privacy policy](https://www.mozilla.org/en-US/privacy/firefox/)
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/firefox-beta/40.0.6</packageSourceUrl>
     <projectUrl>https://www.mozilla.org/firefox/beta</projectUrl>
     <projectSourceUrl>http://hg.mozilla.org/releases/mozilla-beta/</projectSourceUrl>
     <bugTrackerUrl>https://bugzilla.mozilla.org/</bugTrackerUrl>
     <docsUrl>https://developer.mozilla.org/Firefox/</docsUrl>
-    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/bbd5c9c56b6d2e9edbd4e80ce9cad215d2912231/icons/{{PackageName}}.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/bbd5c9c56b6d2e9edbd4e80ce9cad215d2912231/icons/firefox-beta.png</iconUrl>
     <tags>browser mozilla firefox beta</tags>
     <copyright>© Mozilla Foundation</copyright>
     <licenseUrl>http://www.mozilla.org/MPL/2.0/</licenseUrl>
