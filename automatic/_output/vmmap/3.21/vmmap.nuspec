@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>vmmap</id>
+    <title>VMMap</title>
+    <version>3.21</version>
+    <authors>Mark Russinovich,Bryce Cogswell</authors>
+    <owners>dtgm</owners>
+    <summary>VMMap is a process virtual and physical memory analysis utility</summary>
+    <description>
+VMMap is a process virtual and physical memory analysis utility. It shows a breakdown of a process's committed virtual memory types as well as the amount of physical memory (working set) assigned by the operating system to those types. Besides graphical representations of memory usage, VMMap also shows summary information and a detailed process memory map. Powerful filtering and refresh capabilities allow you to identify the sources of process memory usage and the memory cost of application features.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/vmmap/3.21</packageSourceUrl>
+    <projectUrl>http://technet.microsoft.com/sysinternals/dd535533</projectUrl>
+    <mailingListUrl>http://forum.sysinternals.com/</mailingListUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/cf1efc0aac843672fbf1ca0e15082e4e11357df9/icons/vmmap.png</iconUrl>
+    <tags>memory process debug sysinternals gui</tags>
+    <copyright>© Mark Russinovich, Bryce Cogswell, Jeffrey Richter</copyright>
+    <licenseUrl>https://technet.microsoft.com/en-us/sysinternals/bb469936</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [News](http://blogs.technet.com/Sysinternals)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
