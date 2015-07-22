@@ -159,7 +159,7 @@ Install-ChocolateyPackage -PackageName "$packageName" `
 
 
 
-# autohotkey
+### autohotkey
 $scriptPath = Split-Path -parent $MyInvocation.MyCommand.Definition
 $ahkFile = Join-Path $scriptPath "chocolateyInstall.ahk"
 $ahkExe = 'AutoHotKey'
