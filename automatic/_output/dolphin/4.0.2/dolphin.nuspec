@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>dolphin</id>
+    <version>4.0.2</version>
+    <title>Dolphin</title>
+    <authors>Dolphin Emulator Project</authors>
+    <owners>John4782</owners>
+    <licenseUrl>https://www.gnu.org/licenses/gpl.html</licenseUrl>
+    <projectUrl>https://code.google.com/p/dolphin-emu/</projectUrl>
+    <iconUrl>http://code.google.com/p/dolphin-emu/logo</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Dolphin is an emulator for two recent Nintendo video game consoles: the GameCube and the Wii. It allows PC gamers to enjoy games for these two consoles in full HD (1080p) with several enhancements: compatibility with all PC controllers, turbo speed, networked multiplayer, and even more!</description>
+    <summary>Dolphin - GameCube and Wii emulator</summary>
+    <releaseNotes />
+    <copyright />
+    <tags>emulator, wii, gamecube, gaming</tags>
+  </metadata>
+</package>
