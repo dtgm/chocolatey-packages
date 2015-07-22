@@ -28,7 +28,7 @@ Install-ChocolateyPackage -PackageName "$packageName" `
                           -Checksum "$checksum" `
                           -ChecksumType "$checksumType"
 
-Write-Warning "Microsoft`'s ClickOnce framework is downloading and executing the install files. Please wait..."
+Write-Host "Microsoft`'s ClickOnce framework is downloading and executing the install files. Please wait..."
 
 $ahkChild = Get-WmiObject -Class Win32_Process -Filter "ParentProcessID=$ahkId"
 $ahkId = $ahkChild.ProcessId

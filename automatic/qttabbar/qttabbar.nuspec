@@ -18,10 +18,9 @@ QTTabBar is extension for Windows Explorer that brings tabbed browsing to Micros
 * [Twitter](https://twitter.com/QTTabBar)
     </description>
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://qttabbar.wikidot.com/</projectUrl>
     <projectSourceUrl>http://qttabbar.wdfiles.com/local--files/qttabbar/QTTabBar_1024_Sources.zip</projectSourceUrl>
-    <docsUrl>http://qttabbar.wdfiles.com/local--files/documents/qttabbarman_en.html</docsUrl>
+    <docsUrl>http://qttabbar.wdfiles.com/local--files/documents/summary.html</docsUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/c6dcad432aa1d9e6a0df1dde664cf978001dd0ef/icons/{{PackageName}}.png</iconUrl>
     <tags>productivity windows explorer extension</tags>
     <copyright>© 2007 QuizoApps</copyright>

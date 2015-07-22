@@ -13,7 +13,6 @@ Feathercoin is a powerful open source digital currency with monetary properties 
 Feathercoin is based on NeoScrypt and implements many features not seen in the majority of crypto coins. We have open source projects for ATM’s and Point of Sales equipment, t-shirt wallets, laser etched physical Feathercoins and Raspberry Pi based projects. There really are too many things to list but here are some of the technical aspects which differentiate Feathercoin from most:
 
 * NeoScrypt Algorithm
-* Current Gen ASIC resistance
 * 80 Coin reward per block
 * 336 million coins total
 * Block target is 1.0 minutes
@@ -26,14 +25,15 @@ Feathercoin is based on NeoScrypt and implements many features not seen in the m
 
 ### Disk Requirements - Feathercoin blockchain (public transactional database) size
 * {{PackageGuid}} 
-
-### Source code
-* https://github.com/FeatherCoin/Feathercoin
     </description>
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>https://www.feathercoin.com</projectUrl>
+    <projectSourceUrl>https://github.com/FeatherCoin/Feathercoin</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/FeatherCoin/Feathercoin/issues</bugTrackerUrl>
+    <docsUrl>https://github.com/FeatherCoin/Feathercoin/tree/v{{PackageVersion}}/doc</docsUrl>
+    <mailingListUrl>https://forum.feathercoin.com/</mailingListUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/30d0a2cb59cc182f37f36b5cac95f2c8af8d5337/icons/{{PackageName}}.png</iconUrl>
-    <tags>feathercoin ftc wallet cryptocurrency p2p</tags>
+    <tags>ftc wallet cryptocurrency p2p</tags>
     <copyright>© Feathercoin</copyright>
     <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
