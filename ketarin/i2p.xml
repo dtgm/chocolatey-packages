@@ -1,11 +1,11 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="cca56d89-037e-4b2a-be74-ac337fec9208">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>0</LastFileSize>
-    <LastFileDate xsi:nil="true" />
+    <LastFileSize>15032030</LastFileSize>
+    <LastFileDate>2015-07-21T19:37:21.8791986</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -24,26 +24,27 @@
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>StartEnd</VariableType>
+            <VariableType>Textual</VariableType>
             <Regex />
-            <Url>https://geti2p.net/en/download</Url>
+            <Url />
             <StartText>&lt;a class="default" href="/en/download/</StartText>
             <EndText>/</EndText>
+            <TextualContent>{urlPath:regex:(?&lt;=i2pinstall_)[\d\.]{3,\}(?=_win)}</TextualContent>
             <Name>version</Name>
           </UrlVariable>
         </value>
       </item>
       <item>
         <key>
-          <string>url</string>
+          <string>urlHost</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>https://geti2p.net/en/download/{version}/https/any/i2pinstall_{version}_windows.exe/download</TextualContent>
-            <Name>url</Name>
+            <TextualContent>https://geti2p.net</TextualContent>
+            <Name>urlHost</Name>
           </UrlVariable>
         </value>
       </item>
@@ -56,8 +57,66 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>--nupush</TextualContent>
+            <TextualContent>--nopush</TextualContent>
             <Name>nopush</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>cscript</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>2</TextualContent>
+            <Name>cscript</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>urlPath</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>[^ "'&lt;&gt;\*]+\.exe/download</Regex>
+            <Url>https://geti2p.net/en/download</Url>
+            <Name>urlPath</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>urlRedir</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=&lt;meta http-equiv="refresh" content=".;url=)[^"]+</Regex>
+            <Url>{urlHost}/{urlPath}</Url>
+            <TextualContent>{urlHost}/{urlPath}</TextualContent>
+            <Name>urlRedir</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <Url />
+            <TextualContent>{urlRedir}</TextualContent>
+            <Name>url</Name>
           </UrlVariable>
         </value>
       </item>
@@ -68,11 +127,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation />
-    <DeletePreviousFile>true</DeletePreviousFile>
-    <Enabled>false</Enabled>
+    <PreviousLocation>F:\exe\i2pinstall_0.9.20_windows.exe</PreviousLocation>
+    <DeletePreviousFile>false</DeletePreviousFile>
+    <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated xsi:nil="true" />
+    <LastUpdated>2015-07-21T19:37:21.8791986</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>i2p</Name>
