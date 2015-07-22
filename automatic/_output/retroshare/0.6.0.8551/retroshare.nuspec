@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
-    <id>{{PackageName}}</id>
+    <id>retroshare</id>
     <title>RetroShare</title>
-    <version>{{PackageVersion}}</version>
+    <version>0.6.0.8551</version>
     <authors>RetroShare Team</authors>
     <owners>dtgm</owners>
     <summary>Secured and decentralized communication system</summary>
@@ -22,12 +22,12 @@ RetroShare provides filesharing, chat, messages, forums and channels
 * [Twitter](https://twitter.com/retroshare)
 * [Blog](https://retroshareteam.wordpress.com/)
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/retroshare/0.6.0.8551</packageSourceUrl>
     <projectUrl>http://retroshare.sourceforge.net/</projectUrl>
     <projectSourceUrl>https://sourceforge.net/p/retroshare/code/HEAD/tree/</projectSourceUrl>
     <bugTrackerUrl>https://sourceforge.net/p/retroshare/bugs/</bugTrackerUrl>
     <docsUrl>http://retroshare.sourceforge.net/wiki/index.php/Main_Page</docsUrl>
-    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/ad1fa54f9834f37c0f92404b8e40974a5498e5d7/icons/{{PackageName}}.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/ad1fa54f9834f37c0f92404b8e40974a5498e5d7/icons/retroshare.png</iconUrl>
     <tags>p2p security anonymity chat file-sharing wot</tags>
     <copyright>© 2009 RetroShare Team</copyright>
     <licenseUrl>https://www.gnu.org/licenses/gpl.html</licenseUrl>

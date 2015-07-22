@@ -1,4 +1,4 @@
-﻿$packageName = '{{PackageName}}'
+$packageName = 'retroshare'
 $packageSearch = "RetroShare"
 $installerType = 'exe'
 $silentArgs = '/S'
