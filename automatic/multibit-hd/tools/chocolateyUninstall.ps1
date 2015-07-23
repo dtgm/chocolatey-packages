@@ -3,6 +3,7 @@ $packageSearch = "MultiBit HD {{PackageVersion}}"
 $installerType = 'exe'
 $silentArgs = '-q'
 $validExitCodes = @(0)
+
 Get-ItemProperty -Path @( 'HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*',
                           'HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*',
                           'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*' ) `

@@ -8,6 +8,7 @@ $url64 = '{{DownloadUrlx64}}'
 $checksum64 = '{{Checksumx64}}'
 $checksumType64 = 'sha1'
 $validExitCodes = @(0)
+
 Install-ChocolateyPackage -PackageName "$packageName" `
                           -FileType "$installerType" `
                           -SilentArgs "$silentArgs" `
