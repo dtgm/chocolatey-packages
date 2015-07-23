@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+  <metadata>
+    <id>piratebrowser</id>
+    <version>0.6.20131206-beta</version>
+    <title>PirateBrowser</title>
+    <authors>The Pirate Bay</authors>
+    <owners>tonigellida</owners>
+    <licenseUrl>http://www.gnu.org/licenses/gpl.html</licenseUrl>
+    <projectUrl>http://piratebrowser.com/</projectUrl>
+    <iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackagesbeta/master/piratebrowser/piratebrowser.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>PirateBrowser is a bundle package of the Tor client (Vidalia), FireFox Portable browser (with foxyproxy addon) and some custom configs that allows you to circumvent censorship that certain countries such as Iran, North Korea, United Kingdom, The Netherlands, Belgium, Finland, Denmark, Italy and Ireland impose onto their citizens.</description>
+    <summary />
+    <copyright />
+    <tags>web-browser tor anonymous proxy-download piratebay</tags>
+    <dependencies>
+      <dependency id="7zip.commandline" />
+    </dependencies>
+  </metadata>
+</package>
