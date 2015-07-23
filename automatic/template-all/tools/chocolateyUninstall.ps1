@@ -4,6 +4,7 @@ $packageSearch = "$packageName*"  # quotes needed if glob
 $installerType = 'msi'
 $silentArgs = '/quiet /qn /norestart'
 $validExitCodes = @(0,3010)
+
 Get-ItemProperty -Path @( 'HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*',
                           'HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*',
                           'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*' ) `
@@ -22,6 +23,7 @@ $packageVersion = '{{PackageVersion}}'
 $installerType = 'msi'
 $silentArgs = '/quiet /qn /norestart'
 $validExitCodes = @(0,3010)
+
 Get-ItemProperty -Path @( 'HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*',
                           'HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*',
                           'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*' ) `
@@ -38,6 +40,7 @@ $packageSearch = "$packageName*"  # quotes needed if glob
 $installerType = 'exe'
 $silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
 $validExitCodes = @(0)
+
 Get-ItemProperty -Path @( 'HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*',
                           'HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*',
                           'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*' ) `
@@ -56,6 +59,7 @@ $packageSearch = "$packageName*"  # quotes needed if glob
 $installerType = 'exe'
 $silentArgs = '/S'
 $validExitCodes = @(0)
+
 Get-ItemProperty -Path @( 'HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*',
                           'HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*',
                           'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*' ) `
@@ -74,6 +78,7 @@ $packageSearch = "$packageName*"  # quotes needed if glob
 $installerType = 'exe'
 $silentArgs = '-q'
 $validExitCodes = @(0)
+
 Get-ItemProperty -Path @( 'HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*',
                           'HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*',
                           'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*' ) `
@@ -97,11 +102,13 @@ $packageSearch = "$packageName*"  # quotes needed if glob
 $fileType = 'exe'
 $silentArgs = '/S'
 $validExitCodes = @(0)
+
 $scriptPath = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
 $ahkFile = Join-Path $scriptPath "chocolateyUninstall.ahk"
 $ahkExe = 'AutoHotKey'
 $ahkRun = "$Env:Temp\$(Get-Random).ahk"
 Copy-Item $ahkFile "$ahkRun" -Force
+
 try {
   Start-Process $ahkExe $ahkRun
   Get-ItemProperty -Path @( 'HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*',
@@ -160,6 +167,7 @@ if ($psver -ge 3) {
 } else {
   function Get-ChildItemDir {Get-ChildItem $args}
 }
+
 # MetaPackage
 $warningPreference = "Continue"
 $chocoLib = Join-Path $env:ChocolateyInstall "lib"

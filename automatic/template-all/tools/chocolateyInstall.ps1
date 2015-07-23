@@ -12,6 +12,7 @@ $url64 = '{{DownloadUrlx64}}'
 $checksum64 = '{{Checksumx64}}'
 $checksumType64 = 'sha1'
 $validExitCodes = @(0,3010)
+
 Install-ChocolateyPackage -PackageName "$packageName" `
                           -FileType "$installerType" `
                           -SilentArgs "$silentArgs" `
@@ -30,6 +31,7 @@ $url = '{{DownloadUrl}}'
 $checksum = '{{Checksum}}'
 $checksumType = 'sha1'
 $validExitCodes = @(0)
+
 Install-ChocolateyPackage -PackageName "$packageName" `
                           -FileType "$installerType" `
                           -SilentArgs "$silentArgs" `
@@ -50,6 +52,7 @@ $url64 = '{{DownloadUrlx64}}'
 $checksum64 = '{{Checksumx64}}'
 $checksumType64 = 'sha1'
 $validExitCodes = @(0)
+
 Install-ChocolateyPackage -PackageName "$packageName" `
                           -FileType "$installerType" `
                           -SilentArgs "$silentArgs" `
@@ -68,6 +71,7 @@ $url = '{{DownloadUrl}}'
 $checksum = '{{Checksum}}'
 $checksumType = 'sha1'
 $validExitCodes = @(0)
+
 Install-ChocolateyPackage -PackageName "$packageName" `
                           -FileType "$installerType" `
                           -SilentArgs "$silentArgs" `
@@ -87,6 +91,7 @@ $url64 = '{{DownloadUrlx64}}'
 $checksum64 = '{{Checksumx64}}'
 $checksumType64 = 'sha1'
 $validExitCodes = @(0)
+
 Install-ChocolateyPackage -PackageName "$packageName" `
                           -FileType "$installerType" `
                           -SilentArgs "$silentArgs" `
@@ -105,6 +110,7 @@ $url = '{{DownloadUrl}}'
 $checksum = '{{Checksum}}'
 $checksumType = 'sha1'
 $validExitCodes = @(0)
+
 Install-ChocolateyPackage -PackageName "$packageName" `
                           -FileType "$installerType" `
                           -SilentArgs "$silentArgs" `
@@ -139,6 +145,7 @@ $url64 = '{{DownloadUrlx64}}'
 $checksum64 = '{{Checksumx64}}'
 $checksumType64 = 'sha1'
 $validExitCodes = @(0)
+
 Install-ChocolateyPackage -PackageName "$packageName" `
                           -FileType "$installerType" `
                           -SilentArgs "$silentArgs" `
@@ -189,6 +196,7 @@ $checksum64 = '{{Checksumx64}}'
 $checksumType64 = 'sha1'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $installFile = Join-Path $toolsDir "$($packageName).exe"
+
 Get-ChocolateyWebFile -PackageName "$packageName" `
                       -FileFullPath "$installFile" `
                       -Url "$url" `
@@ -197,6 +205,7 @@ Get-ChocolateyWebFile -PackageName "$packageName" `
                       -ChecksumType "$checksumType" `
                       -Checksum64 "$checksum64" `
                       -ChecksumType64 "$checksumType64"
+
 # create an empty sidecar metadata file for closed-source shimgen.exe to designate gui
 Set-Content -Path ("$installFile.gui") `
             -Value $null
@@ -209,6 +218,7 @@ $checksum = '{{Checksum}}'
 $checksumType = 'sha1'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $installFile = Join-Path $toolsDir "$($packageName).exe"
+
 Get-ChocolateyWebFile -PackageName "$packageName" `
                       -FileFullPath "$installFile" `
                       -Url "$url" `
@@ -228,6 +238,7 @@ $checksum64 = '{{Checksumx64}}'
 $checksumType64 = 'sha1'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $installFile = Join-Path $toolsDir "$($packageName).exe"
+
 Install-ChocolateyZipPackage -PackageName "$packageName" `
                              -Url "$url" `
                              -UnzipLocation "$toolsDir" `
@@ -236,6 +247,7 @@ Install-ChocolateyZipPackage -PackageName "$packageName" `
                              -ChecksumType "$checksumType" `
                              -Checksum64 "$checksum64" `
                              -ChecksumType64 "$checksumType64"
+
 Set-Content -Path ("$installFile.gui") `
             -Value $null
 
@@ -249,6 +261,7 @@ $checksum64 = "$checksum"
 $checksumType64 = "$checksumType"
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $installFile = Join-Path $toolsDir "$($packageName).exe"
+
 Install-ChocolateyZipPackage -PackageName "$packageName" `
                              -Url "$url" `
                              -UnzipLocation "$toolsDir" `
@@ -257,6 +270,7 @@ Install-ChocolateyZipPackage -PackageName "$packageName" `
                              -ChecksumType "$checksumType" `
                              -Checksum64 "$checksum64" `
                              -ChecksumType64 "$checksumType64"
+
 Set-Content -Path ("$installFile.gui") `
             -Value $null
 
@@ -271,6 +285,7 @@ $checksum64 = '{{Checksumx64}}'
 $checksumType64 = 'sha1'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $installFile = Join-Path $toolsDir "$($packageName).exe"
+
 Install-ChocolateyZipPackage -PackageName "$packageName" `
                              -Url "$url" `
                              -UnzipLocation "$toolsDir" `
@@ -279,6 +294,7 @@ Install-ChocolateyZipPackage -PackageName "$packageName" `
                              -ChecksumType "$checksumType" `
                              -Checksum64 "$checksum64" `
                              -ChecksumType64 "$checksumType64"
+
 Set-Content -Path ("$installFile.gui") `
             -Value $null
 
@@ -295,6 +311,7 @@ $url64 = '{{DownloadUrlx64}}'
 $checksum64 = '{{Checksumx64}}'
 $checksumType64 = 'sha1'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+
 Install-ChocolateyZipPackage -PackageName "$packageName" `
                              -Url "$url" `
                              -UnzipLocation "$toolsDir" `
@@ -311,12 +328,14 @@ $checksum = '{{Checksum}}'
 $checksumType = 'sha1'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $installFile = Join-Path $toolsDir "$($packageName).exe"
+
 Install-ChocolateyZipPackage -PackageName "$packageName" `
                              -Url "$url" `
                              -UnzipLocation "$toolsDir" `
                              -Url64bit "" `
                              -Checksum "$checksum" `
                              -ChecksumType "$checksumType"
+
 Set-Content -Path ("$installFile.gui") `
             -Value $null
 
@@ -363,6 +382,7 @@ $tempDir = Join-Path $chocoTempDir "$packageName"
 if (![System.IO.Directory]::Exists($tempDir)) {[System.IO.Directory]::CreateDirectory($tempDir)}
 $zipFile = Join-Path $tempDir "$($packageName)Install.zip"
 $installFile = Join-Path $tempDir 'setup.exe'
+
 Get-ChocolateyWebFile -PackageName "$packageName" `
                       -FileFullPath "$zipFile" `
                       -Url "$url" `
