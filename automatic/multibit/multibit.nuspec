@@ -2,13 +2,13 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
     <id>{{PackageName}}</id>
-    <title>MultiBit</title>
+    <title>MultiBit Classic</title>
     <version>{{PackageVersion}}</version>
     <authors>Jim Burton</authors>
     <owners>dtgm</owners>
-    <summary>MultiBit is a Simplified Payment Verification (SPV) Bitcoin desktop client</summary>
+    <summary>Simplified Payment Verification (SPV) Bitcoin desktop client</summary>
     <description>
-MultiBit relies on the following technologies:
+MultiBit is a Simplified Payment Verification (SPV) Bitcoin desktop client.
 
 * Maven as the build system, so the usual Maven processes apply. If you're not familiar with Maven then download it first and follow their installation instructions.
 * ZXing ("Zebra Crossing") for QR codes
@@ -17,15 +17,30 @@ MultiBit relies on the following technologies:
 * Bitcoinj Enforcer Rules to prevent dependency chain attacks
 * XChange for access to several Bitcoin exchanges
 
-Getting started: https://multibit.org/en/help/v0.5/help_gettingStarted.html
+#### MultiBit editions
+* MultiBit Classic (this package) - free, open source
+* [MultiBit HD](https://chocolatey.org/packages/multibit-hd) - pay-to-send, open source - offers additional security for a very small fee
+
+Please note Bitcoin Solutions Ltd is not focusing further development on MultiBit Classic (installed by this package) and only essential security and network compatibility updates will be made to the codebase.
     </description>
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>https://multibit.org/</projectUrl>
-    <tags>cryptocurrency bitcoin digital-wallet</tags>
+    <projectSourceUrl>https://github.com/jim618/multibit</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/jim618/multibit/issues</bugTrackerUrl>
+    <docsUrl>https://multibit.org/en/help/v0.5/help_contents.html</docsUrl>
+    <tags>freeware cryptocurrency bitcoin digital-wallet</tags>
     <copyright>Bitcoin Solutions Ltd</copyright>
-    <licenseUrl>http://opensource.org/licenses/mit-license.php</licenseUrl>
+    <licenseUrl>https://github.com/jim618/multibit/blob/master/COPYING</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/00a3de079a41f2de124bd1600f9e8fb18ba4a0d7/icons/multibit.png</iconUrl>
+    <releaseNotes>
+#### Program
+* [Release log](https://multibit.org/releases.html)
+* [Changelog](https://github.com/jim618/multibit/milestones?state=open)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

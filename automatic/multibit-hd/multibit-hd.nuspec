@@ -8,15 +8,23 @@
     <owners>dtgm</owners>
     <summary>Hierarchical Deterministic Bitcoin desktop wallet</summary>
     <description>
-MultiBit Hierarchical Deterministic (HD) wallet is a desktop Hierarchical Deterministic Wallet (HDW) for Bitcoin using the Simplified Payment Verification (SPV) mode to provide very fast blockchain synchronization.
+MultiBit Hierarchical Deterministic (HD) wallet is an open source desktop Hierarchical Deterministic Wallet (HDW) for Bitcoin using the Simplified Payment Verification (SPV) mode to provide very fast blockchain synchronization for a modest pay-to-send fee.
 
 The target audience is "international mainstream" which compels the user interface to remain as simple and consistent as possible while still retaining advanced capabilities under the covers.
 
 #### Documentation
 * [FAQ](https://multibit.org/faq.html)
+* [Upgrading from MultiBit Classic](https://multibit.org/en/help/hd0.1/how-to-upgrade-from-classic.html)
 
 #### Community
 * [Forum](https://bitcointalk.org/index.php?board=99.0)
+
+#### Commercial software
+Please note that although this is open source software, a cost to use is integrated into the distributed binaries. Please see [Terms and Conditions](https://multibit.org/tandc.html) for details.
+
+* Free to install.
+* Free to receive incoming transactions.
+* __Fee on each outgoing transaction__.
     </description>
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>https://multibit.org/</projectUrl>
@@ -24,9 +32,9 @@ The target audience is "international mainstream" which compels the user interfa
     <bugTrackerUrl>https://github.com/bitcoin-solutions/multibit-hd/issues</bugTrackerUrl>
     <docsUrl>https://multibit.org/help/</docsUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/bd918913d80f6400aee905575017f69ac0997631/icons/{{PackageName}}.png</iconUrl>
-    <tags>cryptocurrency bitcoin digital-wallet</tags>
+    <tags>fee-to-send cryptocurrency bitcoin digital-wallet</tags>
     <copyright>© 2013 Bitcoin Solutions Ltd</copyright>
-    <licenseUrl>https://github.com/bitcoin-solutions/multibit-hd/blob/develop/LICENSE</licenseUrl>
+    <licenseUrl>https://multibit.org/tandc.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
 #### Program
