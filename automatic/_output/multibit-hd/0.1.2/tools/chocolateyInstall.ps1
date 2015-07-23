@@ -8,6 +8,7 @@ $url64 = 'https://multibit.org/releases/multibit-hd/multibit-hd-0.1.2//multibit-
 $checksum64 = '3d1ea34ea5ee4229834a44e2e2f8f6fa65e56fbb'
 $checksumType64 = 'sha1'
 $validExitCodes = @(0)
+
 Install-ChocolateyPackage -PackageName "$packageName" `
                           -FileType "$installerType" `
                           -SilentArgs "$silentArgs" `

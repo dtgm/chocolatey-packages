@@ -4,8 +4,8 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>29825080</LastFileSize>
-    <LastFileDate>2015-06-29T06:59:33-05:00</LastFileDate>
+    <LastFileSize>29950520</LastFileSize>
+    <LastFileDate>2015-07-14T06:42:17-05:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -24,12 +24,12 @@
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>RegularExpression</VariableType>
-            <Regex>multibit.org/releases/multibit-hd/multibit-([\d\.]+)</Regex>
-            <Url>https://multibit.org/</Url>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <Url>{url}</Url>
             <StartText>href="https://multibit.org/releases/multibit-</StartText>
             <EndText>/multibit-</EndText>
-            <TextualContent />
+            <TextualContent>{urlFile:regex:(?&lt;=-)[\d\.]{3,\}(?=\.exe)}</TextualContent>
             <Name>version</Name>
           </UrlVariable>
         </value>
@@ -196,11 +196,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\multibit-hd-windows-0.1.1.exe</PreviousLocation>
+    <PreviousLocation>F:\exe\multibit-hd-windows-0.1.2.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-07-07T14:28:22.0618676-05:00</LastUpdated>
+    <LastUpdated>2015-07-22T22:51:55.2319488-05:00</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>multibit-hd</Name>

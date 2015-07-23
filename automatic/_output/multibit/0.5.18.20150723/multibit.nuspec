@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>multibit</id>
+    <title>MultiBit Classic</title>
+    <version>0.5.18.20150723</version>
+    <authors>Jim Burton</authors>
+    <owners>dtgm</owners>
+    <summary>Simplified Payment Verification (SPV) Bitcoin desktop client</summary>
+    <description>
+MultiBit is a Simplified Payment Verification (SPV) Bitcoin desktop client.
+
+* Maven as the build system, so the usual Maven processes apply. If you're not familiar with Maven then download it first and follow their installation instructions.
+* ZXing ("Zebra Crossing") for QR codes
+* Bitcoinj for access to the Bitcoin network
+* IzPack for creating installers for Windows, Mac, Linux
+* Bitcoinj Enforcer Rules to prevent dependency chain attacks
+* XChange for access to several Bitcoin exchanges
+
+#### MultiBit editions
+* MultiBit Classic (this package) - free, open source
+* [MultiBit HD](https://chocolatey.org/packages/multibit-hd) - pay-to-send, open source - offers additional security for a very small fee
+
+Please note Bitcoin Solutions Ltd is not focusing further development on MultiBit Classic (installed by this package) and only essential security and network compatibility updates will be made to the codebase.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/multibit/0.5.18.20150723</packageSourceUrl>
+    <projectUrl>https://multibit.org/</projectUrl>
+    <projectSourceUrl>https://github.com/jim618/multibit</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/jim618/multibit/issues</bugTrackerUrl>
+    <docsUrl>https://multibit.org/en/help/v0.5/help_contents.html</docsUrl>
+    <tags>freeware cryptocurrency bitcoin digital-wallet</tags>
+    <copyright>Bitcoin Solutions Ltd</copyright>
+    <licenseUrl>https://github.com/jim618/multibit/blob/master/COPYING</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/00a3de079a41f2de124bd1600f9e8fb18ba4a0d7/icons/multibit.png</iconUrl>
+    <releaseNotes>
+#### Program
+* [Release log](https://multibit.org/releases.html)
+* [Changelog](https://github.com/jim618/multibit/milestones?state=open)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
