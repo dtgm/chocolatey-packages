@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>VBoxVmService</id>
+    <version>4.1.2.1</version>
+    <title>VBoxVmService</title>
+    <authors>Mathias Herrmann, Zhe Fang, Runar Buvik</authors>
+    <owners>Mathias Herrmann, Zhe Fang, Runar Buvik</owners>
+    <licenseUrl>http://vboxvmservice.sourceforge.net</licenseUrl>
+    <projectUrl>http://vboxvmservice.sourceforge.net</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>VBoxVmService is a Windows application that allows you to run Oracle's VirtualBox VMs from within a native Windows service entity.</description>
+    <summary>VBoxVmService is a Windows application that allows you to run Oracle's VirtualBox VMs from within a native Windows service entity.</summary>
+    <releaseNotes />
+    <copyright />
+    <tags>VBoxVmService virtualbox vmware virtualization vm service VMService</tags>
+  </metadata>
+</package>
