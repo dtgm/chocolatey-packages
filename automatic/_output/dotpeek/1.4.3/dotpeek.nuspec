@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>dotpeek</id>
+    <title>dotPeek</title>
+    <version>1.4.3</version>
+    <authors>JetBrains</authors>
+    <owners>dtgm</owners>
+    <summary>Free .NET decompiler and assembly browser</summary>
+    <description>
+dotPeek is a free .NET decompiler and assembly browser. The main idea behind dotPeek is to make high-quality decompiling available to everyone in the .NET community, free of charge.
+
+To assist you in working with compiled assemblies, dotPeek provides lots of features for:
+
+* Exploring .NET assemblies
+* Working with decompiled and original source code
+* Navigation and search
+* Debug compiled code and generate PDB files
+
+dotPeek borrows most of its features from JetBrains [ReSharper](https://chocolatey.org/packages/resharper), a commercial developer productivity tool for Microsoft Visual Studio.
+
+#### Documentation
+* [Features](https://www.jetbrains.com/decompiler/features/)
+* [FAQ](http://dotnettools-support.jetbrains.com/categories/20042861-dotPeek-FAQ)
+* [User guide](https://confluence.jetbrains.com/display/NETCOM/Introducing+JetBrains+dotPeek)
+* [Manual](https://www.jetbrains.com/decompiler/help/)
+* [Keyboard shortcuts](https://www.jetbrains.com/decompiler/help/Reference__Keyboard_Shortcuts.html)
+
+#### Community
+* [Forum](https://devnet.jetbrains.com/community/dotpeek?view=discussions)
+* [Developer dashboard](https://www.jetbrains.com/devnet/dotpeek/)
+* [Facebook](http://www.facebook.com/JetBrains)
+* [Google+](http://www.facebook.com/JetBrains)
+* [Twitter](http://www.twitter.com/dotpeek)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/dotpeek/1.4.3</packageSourceUrl>
+    <projectUrl>http://www.jetbrains.com/decompiler/</projectUrl>
+    <bugTrackerUrl>https://youtrack.jetbrains.com/issues/DOTP</bugTrackerUrl>
+    <docsUrl>https://www.jetbrains.com/decompiler/documentation/</docsUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/7ffacb249cac30ce78b86a56b42b810d2f1146ca/icons/dotpeek.png</iconUrl>
+    <tags>freeware .net decompiler</tags>
+    <copyright>© 2000 JetBrains s.r.o.</copyright>
+    <licenseUrl>https://www.jetbrains.com/decompiler/download/license.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [News](http://blog.jetbrains.com/dotnet/tag/dotpeek/)
+* [RSS feed](https://www.jetbrains.com/rss.xml)
+* [What's new?](https://www.jetbrains.com/decompiler/whatsnew/)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
