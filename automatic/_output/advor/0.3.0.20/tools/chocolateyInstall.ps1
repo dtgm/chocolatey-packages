@@ -3,10 +3,8 @@ $url = 'http://sourceforge.net/projects/advtor/files/AdvOR-0.3.0.20/AdvOR-0.3.0.
 $checksum = 'b0f935a0b81c2dd10c8b090ba9152e9614e74a39'
 $checksumType = 'sha1'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$installDir = Join-Path $toolsDir
-$installFile = Join-Path -Path $toolsDir `
-                         -ChildPath "AdvOR" `
-               | Join-Path -ChildPath "AdvOR.exe"
+$installDir = Join-Path $toolsDir "AdvOR"
+$installFile = Join-Path $installDir "AdvOR.exe"
 
 Install-ChocolateyZipPackage -PackageName "$packageName" `
                              -Url "$url" `
