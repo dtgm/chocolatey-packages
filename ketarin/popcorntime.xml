@@ -1,11 +1,11 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="2bc42145-df18-4514-9ff1-7978e9950f89">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>23315064</LastFileSize>
-    <LastFileDate>2015-03-13T04:12:36.3629878</LastFileDate>
+    <LastFileSize>29103264</LastFileSize>
+    <LastFileDate>2015-07-10T04:45:41.0467439</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Avoid</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -24,12 +24,12 @@
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>RegularExpression</VariableType>
-            <Regex>[^ "'&lt;&gt;\*]+-([\d\.]+)-Setup\.exe</Regex>
-            <Url>https://popcorntime.io/</Url>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <Url />
             <StartText>&lt;span itemprop="version"&gt;</StartText>
             <EndText />
-            <TextualContent>2.2.6</TextualContent>
+            <TextualContent>{versionFull:replace:-:.}</TextualContent>
             <Name>version</Name>
           </UrlVariable>
         </value>
@@ -106,6 +106,20 @@
           </UrlVariable>
         </value>
       </item>
+      <item>
+        <key>
+          <string>versionFull</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>{getUrl:regex:(?&lt;=-)[\d\.-]{3,\}(?=-Setup\.exe)}</TextualContent>
+            <Name>versionFull</Name>
+          </UrlVariable>
+        </value>
+      </item>
     </Variables>
     <ExecuteCommand />
     <ExecutePreCommand />
@@ -113,11 +127,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\Popcorn-Time-0.3.7.2-Setup.exe</PreviousLocation>
+    <PreviousLocation>F:\exe\Popcorn-Time-0.3.8-0-Setup.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
-    <Enabled>true</Enabled>
+    <Enabled>false</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-03-13T04:12:36.3629878</LastUpdated>
+    <LastUpdated>2015-07-10T04:45:41.0467439</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>popcorntime</Name>
