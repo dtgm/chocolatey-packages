@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>colormania</id>
+    <title>ColorMania</title>
+    <version>5.1</version>
+    <authors>Peter Bowie</authors>
+    <owners>dtgm</owners>
+    <summary>Advanced color picker utility</summary>
+    <description>
+ColorMania is a extended colorpicker with an eyedropper component and a screen magnifier. ColorMania lets you easily select and modify colors. It's the ideal tool for website and application developers. You can pick colors from anywhere on your screen and interactively change the RGB and HSV values. The latest version has undo/redo functionality.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/colormania/5.1</packageSourceUrl>
+    <projectUrl>http://www.blacksunsoftware.com/colormania.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/3be9252c1d790463992898b7a913f0d4016f8a73/icons/colormania.png</iconUrl>
+    <tags>graphics color picker eyedropper magnifier</tags>
+    <copyright>© 1999 Blacksun Software</copyright>
+    <licenseUrl>https://wikipedia.org/wiki/Freeware</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [New in this version](http://www.blacksunsoftware.com/colormania.html#content)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
