@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title></title>
+    <version>{{PackageVersion}}</version>
+    <authors></authors>
+    <owners>dtgm</owners>
+    <summary></summary>
+    <description>
+
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <projectUrl></projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages//icons/{{PackageName}}.png</iconUrl>
+    <tags></tags>
+    <copyright>© </copyright>
+    <licenseUrl></licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+
+    </releaseNotes>
+    <dependencies>
+      <dependency id="{{PackageName}}.install" version"[{{PackageVersion}}]" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
+
+
+
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>TotalCommander</id>
+    <title>Total Commander</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Christian Ghisler</authors>
+    
+    <summary>Total Commander - File Manager and Explorer Replacement</summary>
+    
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <projectUrl>http://www.ghisler.com</projectUrl>
+    <tags>Total Commander File Disk Manager</tags>
+    
+    
+  
+</package>
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title></title>
+    <version>{{PackageVersion}}</version>
+    <authors></authors>
+    <owners>dtgm</owners>
+    <summary></summary>
+    <description>
+
+
+[Features]()
+[Screenshots]()
+[FAQ]()
+[Forum]()
+[Manual]()
+[Command line options]()
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <projectUrl></projectUrl>
+    <tags></tags>
+    <copyright>© </copyright>
+    <licenseUrl></licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages//icons/{{PackageName}}.png</iconUrl>
+    <releaseNotes>
+### Program
+
+[News]()
+[Known issues]()
+[Source code]()
+
+### Package
+
+Automatically generated and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
+
+
+CUSTOM TAGS
+============
+
+manual/manpage
+
+audience
+  developer
+  user
+
+
+type
+  audio; sound; analysis, capture/record, cd, conversion, editor, mixer, player, speech midi, synthesis, composition
+  video; compression, image, graphic, audio
+  graphic/image
+  business/enterprise
+  people communications
+  data communications
+  development
+  home
+  education
+  game
+  
+
+
+
+  
+licensetype
+  commercial
+    trial = full/limited/none, 
+    post = req license
+  shareware
+    trial = full/limited, 
+    post = limited &&|| nagscreen || none
+  freeware
+    trial full/none, 
+  osi
+    gplv2/gplv3
+    lgplv2/lgplv3
+    bsd
+    mit
+    apache
+    mozilla
+    common public license 1.0
+    open software license 3.0
+    eclipse
+    affero gpl
+    academic free
+    artistic
+    
+    
+    
+  cc
+  ms-pl
+  public domain
+    no restriction
+    
+https://blogs.oracle.com/davidleetodd/entry/free_and_open_source_license
+
+interface
+  graphic
+  text
+
+framework
+  dotnet
+  
+
+codeLanguage
+  asp.net
+  assembly
+  c
+  c++
+  c#
+  delphi/kylix
+  java
+  javascript
+  jsp
+  perl
+  php
+  python
+  ruby
+  sql/pl
+  vb
+  vb.net
+  
+codeStatus
+  0-init
+  1-planning
+  2-pre-alpha
+  3-alpha
+  4-beta
+  5-stable
+
+  5a-mature; no major program issues, >1 year since last release, compatible with latest OS
+  5b-inactive; no major program issues, >2 year since last release, compatible with latest OS
+  5c-legacy; not compatible with latest OS
+
+experimental
+testing
+unstable
+stable
+
+
+nightly
+
+
+localization
+  en-US
+  
+  
+OS
+  Windows
+  Linux
+  Mac
+  BSD
+  iOS
+  Android
+
+
+
+activity (density of updates)
+  updates/time
+
+os-type
+  https://en.wikipedia.org/wiki/List_of_operating_systems
+
+os-flags
+  independent; no tools dependent on OS
+  posix; compatible
+  bitdepth; 8/16/32/64
+  freebsd/netbsd/openbsd
+  debian/ubuntu/mint/fedora/centos/opensuse/archlinux/gentoo/slackware/pclinuxos/openmandriva/mageia
+  openvms
+  sunos/opensolaris/solaris
+  unix; https://en.wikipedia.org/wiki/Single_UNIX_Specification#Registered_UNIX_systems
+  unix-like; https://en.wikipedia.org/wiki/List_of_Unix_systems
+  isOS
+  kernel; linux,hurd,
+  instruction set architecture; x86, itanium, arm, power, powerpc, dec, avr32, hp3000, s/360, sparc, 
+    https://en.wikipedia.org/wiki/Category:Instruction_set_architectures
+
+  
+os-modern; large current user-base or officially supported
+  linux
+  solaris
+  freebsd/openbsd/netbsd
+  winxp/vista/win7/win8/win81/win10
+  win2k/win2012
+  mac
+  
+
+
+
+distribution model
+
+channels; progressive; multiple teams working on multiple states of program, requires good communication between teams
+firefox = 6 week cycle
+  beta=final bugfix
+  aurora=alpha=developer edition; web testers for interoperability
+  nightly=pre-alpha; project development
+
+  https://wiki.mozilla.org/Features/Release_Tracking
+
+chromium (chrome) = ~6 week cycle
+  stable
+  beta
+  dev
+  canary
+  
+  Stable channel: This channel has gotten the full testing and blessing of the Chrome test team, and is the best bet to avoid crashes and other issues.  It's updated roughly every two-three weeks for minor releases, and every 6 weeks for major releases.
+  Beta channel: If you are interested in seeing what's next, with minimal risk, Beta channel is the place to be.  It's updated every week roughly, with major updates coming every six weeks, more than a month before the Stable channel will get them.
+  Dev channel: Want to see what's happening quickly, then you want the Dev channel.  The Dev channel gets updated once or twice weekly, and it shows what we're working on right now.  There's no lag between major versions, whatever code we've got, you will get.  While this build does get tested, it is still subject to bugs, as we want people to see what's new as soon as possible.
+  Canary build: Canary builds are the bleeding edge. Released daily, this build has not been tested or used, it's released as soon as it's built. Because there's no guarantee that it will even run in some cases, it uses it's own profile and settings, and can be run side by side another Chrome channel.  By default, it also reports crashes and usage statistics to Google (you can disable this on the download page).
+  Other builds: If you're absolutely crazy, you can download the latest working (and that's a very loose definition of working) build by going to the Chromium continuous build waterfall, looking at the number near the top under "LKGR", and then going to this Google Storage bucket and downloading the corresponding build.
+  http://dev.chromium.org/getting-involved/dev-channel
+
+
+codebase; if forked from open source code
