@@ -9,6 +9,17 @@
     <summary>Anonymizing network</summary>
     <description>
 Invisible Internet Project (I2P) is an anonymous network, exposing a simple layer that applications can use to anonymously and securely send messages to each other. The network itself is strictly message based (a la IP), but there is a library available to allow reliable streaming communication on top of it (a la TCP). All communication is end to end encrypted (in total there are four layers of encryption used when sending a message), and even the end points ("destinations") are cryptographic identifiers (essentially a pair of public keys).
+
+#### Install options
+* Service is _not_ installed; scripts to do so are in `$Env:ProgramFiles\i2p`
+
+#### Post-install notes
+* Executing "Start I2P.exe" will start background service and launch default browser to connect to local console
+* Interface is via web browser with default address http://localhost:7657/index.jsp
+* [Ports used](https://geti2p.net/en/faq#ports) 
+* Configuration page: http://localhost:7657/confignet.jsp
+  * If inbound TCP is forwarded, also enable inbound TCP
+  * Adjust bandwidth settings as appropriate
     </description>
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>https://geti2p.net</projectUrl>

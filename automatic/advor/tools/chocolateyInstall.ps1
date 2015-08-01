@@ -3,10 +3,8 @@ $url = '{{DownloadUrlx64}}'
 $checksum = '{{Checksum}}'
 $checksumType = 'sha1'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$installDir = Join-Path $toolsDir
-$installFile = Join-Path -Path $toolsDir `
-                         -ChildPath "AdvOR" `
-               | Join-Path -ChildPath "AdvOR.exe"
+$installDir = Join-Path $toolsDir "AdvOR"
+$installFile = Join-Path $installDir "AdvOR.exe"
 
 Install-ChocolateyZipPackage -PackageName "$packageName" `
                              -Url "$url" `

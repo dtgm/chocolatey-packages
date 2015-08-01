@@ -1,38 +1,68 @@
-﻿#NOTE: Please remove any commented lines to tidy up prior to releasing the package, including this one
-
-$packageName = 'TotalCommander' # arbitrary name for the package, used in messages
-$installerType = 'EXE' #only one of these two: exe or msi
-$url = 'https://github.com/calwell/nugetpackages/raw/master/TotalCommander/tcm801x32_64.exe' # download url
-$url64 = $url # 64bit URL here or just use the same as $url
-$silentArgs = '' # "/s /S /q /Q /quiet /silent /SILENT /VERYSILENT" # try any of these to get the silent installer #msi is always /quiet
-$validExitCodes = @(0) #please insert other valid exit codes here, exit codes for ms http://msdn.microsoft.com/en-us/library/aa368542(VS.85).aspx
-
-Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url" "$url64"  -validExitCodes $validExitCodes
-
-
-
-
-
-# generated vars
+﻿# generated vars
 $packageName = '{{PackageName}}'
 $url = '{{DownloadUrl}}'
 $checksum = '{{Checksum}}'
+$url64 = '{{DownloadUrlx64}}'
+$checksum64 = '{{Checksumx64}}'
 
 # static vars
 $checksumType = 'sha1'
+$checksumType64 = 'sha1'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+$chocoTempDir = Join-Path $Env:Temp "chocolatey"
+$tempDir = Join-Path $chocoTempDir "$packageName"
+if (![System.IO.Directory]::Exists($tempDir)) {[System.IO.Directory]::CreateDirectory($tempDir)}
+$zipFile = Join-Path $tempDir "totalcommanderInstall.exe"
+$cabFile = Join-Path $tempDir "INSTALL.CAB"
 
-# $Env:ChocolateyInstall\helpers\functions
-Install-ChocolateyZipPackage -PackageName "$packageName" `
-                             -Url "$url" `
-                             -Url64bit "" `
-                             -UnzipLocation "$toolsDir" `
-                             -Checksum "$checksum" `
-                             -ChecksumType "$checksumType"
+Get-ChocolateyWebFile -PackageName "$packageName" `
+                      -FileFullPath "$zipFile" `
+                      -Url "$url" `
+                      -Url64bit "$url64" `
+                      -Checksum "$checksum" `
+                      -Checksum64 "$checksum64" `
+                      -ChecksumType "$checksumType" `
+                      -ChecksumType64 "$checksumType64"
 
-# create empty sidecar so shimgen creates shim for GUI rather than console
-$installFile = Join-Path -Path $toolsDir `
-                         -ChildPath "tc-{{PackageVersion}}" `
-               | Join-Path -ChildPath "tc.exe.gui"
-Set-Content -Path $installFile `
-            -Value $null
+try {
+  $proc = Start-Process -FilePath "7za" `
+                        -ArgumentList "e -o`"$tempDir`" -y `"$zipFile`"" `
+                        -Wait `
+                        -NoNewWindow `
+                        -PassThru
+  $proc.WaitForExit()
+  $exitCode = $proc.ExitCode
+  if($exitCode -ne 0) {
+    throw "Exit Code: $exitCode.  Error executing 7za to unzip $zipFile into $tempDir "
+  }
+  
+  $proc = Start-Process -FilePath "7za" `
+                        -ArgumentList "e -o`"$toolsDir`" -y `"$cabFile`"" `
+                        -Wait `
+                        -NoNewWindow `
+                        -PassThru
+  $proc.WaitForExit()
+  $exitCode = $proc.ExitCode
+  if($exitCode -ne 0) {
+    throw "Exit Code: $exitCode.  Error executing 7za to unzip $cabFile into $toolsDir "
+  }
+
+  # create empty sidecar so shimgen creates shim for GUI rather than console
+  $installFile = Join-Path -Path $toolsDir `
+                           -ChildPath "TotalCmd.exe"
+  Set-Content -Path $installFile `
+              -Value $null
+  
+  # create empty "ignore" sidecars so shimgen does not create shims
+  foreach ($i in $(gci (Join-Path $toolsDir "*.exe"))) {
+    $ignoreExec = $i | where-object {$i.name -notlike "TotalCmd*"}
+    if ($ignoreExec) {
+      $ignoreFile = Join-Path -Path $toolsDir `
+                              -ChildPath $ignoreExec.name
+      Set-Content -Path $ignoreFile".ignore" `
+                  -Value $null
+    }
+  }
+} catch {
+  throw $_.Exception
+}

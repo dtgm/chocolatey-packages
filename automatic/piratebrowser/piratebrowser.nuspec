@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
-    <id>piratebrowser</id>
+    <id>{{PackageName}}</id>
     <title>PirateBrowser</title>
-    <version>0.6.20131206-beta</version>
+    <version>{{PackageVersion}}</version>
     <authors>The Pirate Bay</authors>
-    <owners>tonigellida</owners>
-    <summary>
-	A bundle package of the Tor client (Vidalia), FireFox Portable browser (with foxyproxy addon) and some custom configs that allows you to circumvent censorship certain countries.
-	</summary>
+    <owners>dtgm</owners>
+    <summary>Web browser by ThePirateBay to circumvent Internet censorship</summary>
     <description>
-	A bundle package of the Tor client (Vidalia), FireFox Portable browser (with foxyproxy addon) and some custom configs that allows you to circumvent censorship certain countries.
-	
-	###Notes
-	
-	Probably beta release (automatic push). Package version less than v1, treat as stable.	
-	</description>
-    <projectUrl>http://piratebrowser.com/</projectUrl>
-    <tags>web-browser tor anonymous proxy-download piratebay</tags>
-    <copyright></copyright>
+PirateBrowser is a bundle package of the Tor client (Vidalia), [FireFox Portable](http://www.firefox-usb.com/) browser (with [foxyproxy addon](http://getfoxyproxy.org/downloads.html)) and some custom configs that allows you to circumvent censorship that certain countries such as Iran, North Korea, United Kingdom, Belgium, Finland, Denmark, Italy and Ireland impose onto their citizens.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <projectUrl>https://piratebrowser.com/</projectUrl>
+    <docsUrl>https://piratebrowser.com/#faq</docsUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/c9f5d2fb09282df62f9720e24b82530de4533216/icons/{{PackageName}}.png</iconUrl>
+    <tags>anti-censorship web-browser tor piratebay</tags>
+    <copyright>© The Pirate Bay</copyright>
     <licenseUrl>http://www.gnu.org/licenses/gpl.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://raw.github.com/adgellida/chocolateyautomaticpackagesbeta/master/icons/piratebrowser.png</iconUrl>
-  	<dependencies>
-		<dependency id="7zip.commandline" />
-    </dependencies>
+    <releaseNotes>
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
   </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
 </package>

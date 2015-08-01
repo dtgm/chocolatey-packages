@@ -167,6 +167,8 @@ Install-ChocolateyPackage -PackageName "$packageName" `
 
 
 ### autohotkey
+Write-Verbose "Starting AutoHotKey for assistance in silent and/or automated install"
+Write-Verbose "Actively using the computer while AutoHotKey is running may interfere with automation"
 $scriptPath = Split-Path -parent $MyInvocation.MyCommand.Definition
 $ahkFile = Join-Path $scriptPath "chocolateyInstall.ahk"
 $ahkExe = 'AutoHotKey'
@@ -320,6 +322,25 @@ Install-ChocolateyZipPackage -PackageName "$packageName" `
                              -ChecksumType "$checksumType" `
                              -Checksum64 "$checksum64" `
                              -ChecksumType64 "$checksumType64"
+                             
+###  Archived; ZIP  ###
+$packageName = '{{PackageName}}'
+$url = '{{DownloadUrl}}'
+$checksum = '{{Checksum}}'
+$checksumType = 'sha1'
+$url64 = $url
+$checksum64 = $checksum
+$checksumType64 = $checksumType
+$toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+
+Install-ChocolateyZipPackage -PackageName "$packageName" `
+                             -Url "$url" `
+                             -UnzipLocation "$toolsDir" `
+                             -Url64bit "$url64" `
+                             -Checksum "$checksum" `
+                             -ChecksumType "$checksumType" `
+                             -Checksum64 "$checksum64" `
+                             -ChecksumType64 "$checksumType64"
 
 
 $packageName = '{{PackageName}}'
@@ -377,6 +398,7 @@ $url = '{{DownloadUrlx64}}'
 $checksum = '{{Checksum}}'
 $checksumType = 'sha1'
 $validExitCodes = @(0)
+
 $chocoTempDir = Join-Path $Env:Temp "chocolatey"
 $tempDir = Join-Path $chocoTempDir "$packageName"
 if (![System.IO.Directory]::Exists($tempDir)) {[System.IO.Directory]::CreateDirectory($tempDir)}
@@ -413,6 +435,7 @@ $checksum = '{{Checksum}}'
 $checksumType = 'sha1'
 $validExitCodes = @(0)
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+
 $install32File = "$toolsDir\setup32bit.exe"
 $install32Opts = "$toolsDir\setup32bit.xml"
 $install64File = "$toolsDir\setup64bit.exe"
@@ -421,6 +444,7 @@ $chocoTempDir = Join-Path $Env:Temp "chocolatey"
 $tempDir = Join-Path $chocoTempDir "$packageName"
 if (![System.IO.Directory]::Exists($tempDir)) {[System.IO.Directory]::CreateDirectory($tempDir)}
 $zipFile = Join-Path $tempDir "$($packageName)_4_0_15_installer.zip"
+
 try {
   Get-ChocolateyWebFile -PackageName "$packageName" `
                         -FileFullPath "$zipFile" `
@@ -440,4 +464,23 @@ try {
   }
 } catch {
   throw $_.Exception
+}
+
+
+
+
+
+# Install-ChocolateyPath
+Write-Verbose "Querying registry for install location..."
+$packageSearch = "monotone *"
+$regKey = Get-ItemProperty -Path @('HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*',
+                                   'HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*',
+                                   'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*') `
+                           -ErrorAction:SilentlyContinue `
+          | Where-Object {$_.DisplayName -like $packageSearch}
+
+$binPath = Join-Path $regKey.InstallLocation "bin"
+if ($binPath) {
+  Write-Verbose "Adding `"$binPath`" to path environment variable..."
+  Install-ChocolateyPath $binPath 'Machine'
 }
