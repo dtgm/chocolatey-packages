@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>aida64-extreme</id>
+    <title>AIDA64 Extreme Edition</title>
+    <version>5.30.3500</version>
+    <authors>FinalWire Ltd</authors>
+    <owners>dtgm</owners>
+    <summary>Advanced system diagnostics utility for home users</summary>
+    <description>
+AIDA64 Extreme is an industry-leading system information tool, loved by PC enthusiasts around the world, which not only provides extremely detailed information about both hardware and installed software, but also helps users diagnose issues and offers benchmarks to measure the performance of the computer.
+
+Usage of this software for commercial purposes is not permitted.
+
+#### Documentation
+* [FAQ](http://www.aida64.com/support/faq)
+
+#### Community
+* [Forum](http://forums.aida64.com/)
+* [Facebook](https://www.facebook.com/AIDA64)
+* [Google+](https://plus.google.com/+aida64)
+* [Twitter](https://twitter.com/FinalWire)
+
+#### Commercial software
+This package installs a 30-day trial version.
+
+#### AIDA64 [editions](http://www.aida64.com/compare-aida64-features)
+* AIDA64 Extreme (you are here)
+* [AIDA64 Network Audit](https://chocolatey.org/packages/aida64-networkaudit)
+* [AIDA64 Engineer](https://chocolatey.org/packages/aida64-engineer)
+* [AIDA64 Business](https://chocolatey.org/packages/aida64-business)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/aida64-extreme/5.30.3500</packageSourceUrl>
+    <projectUrl>http://www.aida64.com/products/aida64-extreme</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/d1e037cc7c943fda29b9067b3b1c3229d99402ff/icons/aida64-extreme.png</iconUrl>
+    <tags>trial diagnostic benchmark monitor</tags>
+    <copyright>© 2010 FinalWire Ltd</copyright>
+    <licenseUrl>http://www.aida64.com/licensing</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Release log](http://www.aida64.com/downloads/archive)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
