@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>OLD</id>
+    <title>[DEPRECATED] GitHub for Windows</title>
+    <version>2.13.0.2</version>
+    <authors>GitHub Inc</authors>
+    <owners>dtgm</owners>
+    <summary>Git client for windows and GitHub.com</summary>
+    <description>
+#### New package name: __[NEW](https://chocolatey.org/packages/NEW)__
+
+- - -
+
+`OLD` has been deprecated because of Chocolatey [naming conventions](https://github.com/chocolatey/chocolatey/wiki/CreatePackages#naming-your-package).
+
+It exists only for backward compatibility to provide a transitional dummy package for existing users and scripts which may still use this package ID.
+    </description>
+    <projectUrl>https://chocolatey.org/packages/NEW</projectUrl>
+    <tags>deprecated</tags>
+    <releaseNotes>
+#### New users
+* Do not install OLD. Use __NEW__ instead.
+
+#### Existing users - Updating
+* Updating this package will automatically install the most recent version of the __NEW__ chocolatey package. The installed program will also be upgraded.
+* Please update any links, dependencies, or scripts that reference this package to the new package name __NEW__.
+
+#### Existing users - Cleanup
+* choco uninstall OLD --all-versions --whatif
+
+To manually remove OLD package completely from your system, you may safely do so by issuing one of the following commands:
+
+* cmd: `for /d %i in (%ChocolateyInstall%\lib\OLD*) do ECHO rd /s /q %i`
+* powershell: `Remove-Item $Env:ChocolateyInstall\lib\OLD* -Recurse -Force -WHATIF`
+
+Note:
+
+* Remove `ECHO` or `WHATIF` from the respective commands after verifying the output targets the correct files.
+* Your console may need elevated privileges to remove the files. From a PowerShell console: `Start-Process cmd -Verb runAs` or `Start-Process powershell -Verb runAs`
+    </releaseNotes>
+    <dependencies>
+      <dependency id="NEW" />
+    </dependencies>
+  </metadata>
+</package>
+
+
+
+
+
+
+$ grep -lir '\[DEPRECATED\]' */*/*/*.nuspec
+_output/arduinoide/1.6.1/arduinoide.nuspec
+_output/arduinoidegalileo/1.0.4/arduinoidegalileo.nuspec
+_output/bitcoincore/0.9.3.20150401/bitcoincore.nuspec
+_output/doxbox/6.1.0.20150531/doxbox.nuspec
+_output/githubforwindows/2.13.0.2/githubforwindows.nuspec
+_output/hiphop/0.4.6.20150612/hiphop.nuspec
+_output/mono3/3.2.3.20150323/mono3.nuspec
+_output/rufus.portable/rufus.portable.1.4.12.535/rufus.portable.nuspec
+_output/sandboxie.beta/4.13.4.20150525/sandboxie.beta.nuspec
+_output/tdesktop/0.7.20.20150319/tdesktop.nuspec
+
+
+$ for i in $(grep -lir '\[DEPRECATED\]' */*/*/*.nuspec);do cat $i; echo -e "\n\n\n\n\n"; done
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>arduinoide</id>
+    <title>[DEPRECATED] Arduino IDE</title>
+    <version>1.6.1</version>
+    <authors>Arduino team</authors>
+    <owners>tonigellida dtgm</owners>
+    <summary>Open-source electronics prototyping platform based on flexible, easy-to-use hardware and software</summary>
+    <description>
+- - -
+This package has been deprecated in favor of __[arduino-intel](https://chocolatey.org/packages/arduino-intel)__ package because this package supports both Galileo and Edison development boards.
+- - -
+    </description>
+    <projectUrl>https://chocolatey.org/packages/arduino-intel</projectUrl>
+    <tags>deprecated</tags>
+    <copyright>© Intel</copyright>
+  </metadata>
+</package>
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>bitcoincore</id>
+    <title>[DEPRECATED] BitCoin Core</title>
+    <version>0.9.3.20150401</version>
+    <authors>BitCoin</authors>
+    <owners>dtgm</owners>
+    <summary>BitCoin Core desktop BitCoin wallet</summary>
+    <description>
+- - -
+This package has been deprecated in favor of __[bitcoin](https://chocolatey.org/packages/bitcoin)__ package because of Chocolatey naming conventions.
+
+If you have both packages installed, you may safely remove the `bitcoincore` chocolatey package by deleting the following directories: `%ChocolateyInstall%\lib\bitcoincore*`
+- - -
+    </description>
+    <projectUrl>https://chocolatey.org/packages/bitcoin</projectUrl>
+    <tags>deprecated</tags>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <dependencies>
+      <dependency id="bitcoin" />
+    </dependencies>
+  </metadata>
+</package>
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>doxbox</id>
+    <title>[DEPRECATED] DoxBox</title>
+    <version>6.1.0.20150531-beta</version>
+    <authors>tdk</authors>
+    <owners>dtgm</owners>
+    <summary>Transparent on-the-fly disk encryption</summary>
+    <description>
+#### New package name: __[librecrypt](https://chocolatey.org/packages/librecrypt)__
+
+- - -
+
+`doxbox` has been deprecated because the project decided to [change names](https://github.com/t-d-k/LibreCrypt/issues/11).
+
+It exists only for backward compatibility to provide a transitional dummy package for existing users and scripts which may still use this package ID.
+
+- - -
+    </description>
+    <projectUrl>https://chocolatey.org/packages/librecrypt</projectUrl>
+    <tags>deprecated</tags>
+    <copyright />
+    <licenseUrl>https://github.com/t-d-k/doxbox/blob/master/docs/licence.md</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### New users
+* Do not install doxbox. Use __librecrypt__ instead.
+
+#### Existing users - Updating
+* Updating this package will automatically uninstall doxbox and install the most recent version of the __librecrypt__ chocolatey package.
+* Please update any links, dependencies, or scripts that reference this package to the new package name __librecrypt__.
+    </releaseNotes>
+    <dependencies>
+      <dependency id="librecrypt" version="6.2-beta" />
+    </dependencies>
+  </metadata>
+</package>
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>hiphop</id>
+    <version>0.4.6.20150612</version>
+    <title>[DEPRECATED] HipHop</title>
+    <authors>HipHop Team</authors>
+    <owners>dtgm</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>Listen instantly to more than 45 million songs</summary>
+    <description>
+- - -
+#### New package name: __[atraci](https://chocolatey.org/packages/atraci)__
+
+`hiphop` has been deprecated because the project changed names.
+
+`hiphop` exists only for backward compatibility to provide a transitional dummy package for existing users and scripts which may still use this package ID.
+    </description>
+    <projectUrl>https://chocolatey.org/packages/atraci</projectUrl>
+    <tags>deprecated</tags>
+    <copyright />
+    <dependencies>
+      <dependency id="atraci" />
+    </dependencies>
+  </metadata>
+</package>
+
+
+
+
+                                                                                                                        ?
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>mono3</id>
+    <title>[DEPRECATED] Mono</title>
+    <version>3.2.3.20150323</version>
+    <authors>Miguel de Icaza</authors>
+    <owners>dtgm</owners>
+    <summary>Mono, the open source development platform based on the .NET framework</summary>
+    <description>
+- - -
+This package has been deprecated in favor of __[mono](https://chocolatey.org/packages/mono)__ package because of Chocolatey naming conventions.
+
+It is recommended that you uninstall this package before installing the new package: `cuninst mono3 &amp;&amp; cinst mono`
+
+If you have both packages installed, you may safely remove the mono3 chocolatey package by deleting the following directories: `%ChocolateyInstall%\lib\mono3.*`
+- - -
+    </description>
+    <projectUrl>https://chocolatey.org/packages/mono/</projectUrl>
+    <tags>deprecated</tags>
+    <dependencies>
+      <dependency id="mono" version="[3.0,4.0)" />
+    </dependencies>
+  </metadata>
+</package>
+
+
+
+
+
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>rufus.portable</id>
+    <version>1.4.12.535</version>
+    <title>Rufus (Portable) [Deprecated]</title>
+    <authors>Akeo Consulting</authors>
+    <owners>sbussinger</owners>
+    <licenseUrl>http://rufus.akeo.ie/</licenseUrl>
+    <projectUrl>http://rufus.akeo.ie/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>The "rufus.portable" package has been deprecated in favor of the "rufus" package because of Chocolatey naming conventions. Install that package instead. Create bootable USB drives the easy way. Rufus is a small utility that helps format and create bootable USB flash drives, such as USB keys/pendrives, memory sticks, etc.</description>
+    <tags>rufus boot bootable usb flash iso dos</tags>
+    <dependencies>
+      <dependency id="rufus" version="1.4.12" />
+    </dependencies>
+  </metadata>
+</package>
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>sandboxie.beta</id>
+    <title>[DEPRECATED] Sandboxie (Beta)</title>
+    <version>4.13.4.20150525-beta</version>
+    <authors>Ronen "tzuk" Tzur</authors>
+    <owners>dtgm</owners>
+    <summary>Executes processes in a protected, isolated space, otherwise known as a "sandbox"</summary>
+    <description>
+#### New package name: __[sandboxie.install](https://chocolatey.org/packages/sandboxie.install)__
+
+- - -
+
+`sandboxie.beta` has been deprecated because of Chocolatey [naming conventions](https://github.com/chocolatey/chocolatey/wiki/CreatePackages#naming-your-package).
+
+It exists only for backward compatibility to provide a transitional dummy package for existing users and scripts which may still use this package ID.
+    </description>
+    <projectUrl>https://chocolatey.org/packages/sandboxie.install</projectUrl>
+    <tags>deprecated</tags>
+    <releaseNotes>
+#### New users
+* Do not install sandboxie.beta. Use __sandboxie.install__ instead.
+
+#### Existing users - Updating
+* Updating this package will automatically install the most recent version of the __sandboxie.beta__ chocolatey package. The installed program will also be upgraded.
+* Please update any links, dependencies, or scripts that reference this package to the new package name __sandboxie.beta__.
+
+#### Existing users - Cleanup
+* choco uninstall sandboxie.beta --all-versions --whatif
+
+To manually remove sandboxie.beta package completely from your system, you may safely do so by issuing one of the following commands:
+
+* cmd: `for /d %i in (%ChocolateyInstall%\lib\sandboxie.beta*) do ECHO rd /s /q %i`
+* powershell: `Remove-Item $Env:ChocolateyInstall\lib\sandboxie.beta* -Recurse -Force -WHATIF`
+
+Note:
+
+* Remove `ECHO` or `WHATIF` from the respective commands after verifying the output targets the correct files.
+* Your console may need elevated privileges to remove the files. From a PowerShell console: `Start-Process cmd -Verb runAs` or `Start-Process powershell -Verb runAs`
+    </releaseNotes>
+    <dependencies>
+      <dependency id="sandboxie.install" />
+    </dependencies>
+  </metadata>
+</package>
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>tdesktop</id>
+    <title>[DEPRECATED] Telegram Desktop</title>
+    <version>0.7.20.20150319</version>
+    <authors>telegramdesktop</authors>
+    <owners>dtgm</owners>
+    <summary>Official Windows desktop client for the secure Telegram Messenger</summary>
+    <description>
+- - -
+This package has been deprecated in favor of __[telegram](https://chocolatey.org/packages/telegram)__ package because of Chocolatey naming conventions.
+
+It is recommended that you uninstall this package before installing the new package: `cuninst tdesktop &amp;&amp; cinst telegram`
+
+If you have both packages installed, you may safely remove the tdesktop chocolatey package by deleting the following directories: `%ChocolateyInstall%\lib\tdesktop*`
+- - -
+    </description>
+    <projectUrl>https://chocolatey.org/packages/telegram</projectUrl>
+    <tags>deprecated</tags>
+    <copyright>Pavel Durov and Nikolai Durov</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <dependencies>
+      <dependency id="telegram" version="0.7.20" />
+    </dependencies>
+  </metadata>
+</package>
