@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>mtn</id>
+    <title>Monotone</title>
+    <version>1.1</version>
+    <authors>Monotone Team</authors>
+    <owners>dtgm</owners>
+    <summary>Open source revision control system</summary>
+    <description>
+Monotone (mtn) is a distributed version control tool. Monotone tracks revisions to files, groups sets of revisions into changesets, and tracks history across renames. The focus of the project is on integrity over performance. It provides a simple, single-file transactional version store, with fully disconnected operation and an efficient peer-to-peer synchronization protocol. It understands history-sensitive merging, lightweight branches, integrated code review and 3rd party testing. It uses cryptographic version naming and client-side RSA certificates. It has good internationalization support, runs on Linux, Solaris, Mac OS X, Windows, and other unixes, and is licensed under the GNU GPL.
+
+#### Features
+* Store multiple versions of files you are working on efficiently.
+* Transmit changes to files between you and your colleagues.
+* Merge changes you make with those your colleagues make.
+* Make notes about your opinion of the quality of versions of files.
+* Make decisions about using or ignoring versions, depending on the notes you receive from others. 
+
+Please be aware that monotone is a slightly unorthodox version control tool, and many of its concepts are similar — but subtly or significantly different — from concepts with similar names in other version control tools. 
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/mtn/1.1</packageSourceUrl>
+    <projectUrl>http://www.monotone.ca/</projectUrl>
+    <projectSourceUrl>http://wiki.monotone.ca/MonotoneProjectServer/</projectSourceUrl>
+    <bugTrackerUrl>http://code.monotone.ca/p/monotone/issues/</bugTrackerUrl>
+    <docsUrl>http://www.monotone.ca/docs/</docsUrl>
+    <mailingListUrl>http://lists.nongnu.org/mailman/listinfo/monotone-users</mailingListUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/156e91ad93feca1b589b139bac601cf851547e15/icons/mtn.png</iconUrl>
+    <tags>vcs scm cli</tags>
+    <copyright>© 2003 Monotone Team</copyright>
+    <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Changelog](http://www.monotone.ca/NEWS)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="autohotkey.portable" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

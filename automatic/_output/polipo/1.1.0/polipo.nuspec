@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>polipo</id>
+    <title>Polipo</title>
+    <version>1.1.0</version>
+    <authors>Juliusz Chroboczek</authors>
+    <owners>dtgm</owners>
+    <summary>Lightweight but featureful caching HTTP proxy (web cache)</summary>
+    <description>
+Polipo is a small and fast caching web proxy (a web cache, an HTTP proxy, a proxy server). While Polipo was designed to be used by one person or a small group of people, there is nothing that prevents it from being used by a larger group.
+
+Polipo has some features that are, as far as I know, unique among currently available proxies:
+
+* Polipo will use HTTP/1.1 pipelining if it believes that the remote server supports it, whether the incoming requests are pipelined or come in simultaneously on multiple connections (this is more than the simple usage of persistent connections, which is done by e.g. Squid);
+* Polipo will cache the initial segment of an instance if the download has been interrupted, and, if necessary, complete it later using Range requests;
+* Polipo will upgrade client requests to HTTP/1.1 even if they come in as HTTP/1.0, and up- or downgrade server replies to the client's capabilities (this may involve conversion to or from the HTTP/1.1 chunked encoding);
+* Polipo has complete support for IPv6 (except for scoped (link-local) addresses).
+* Polipo can optionally use a technique known as Poor Man's Multiplexing to reduce latency even further.
+In short, Polipo uses a plethora of techniques to make web browsing (seem) faster.
+
+#### Documentation
+* [FAQ](http://www.pps.univ-paris-diderot.fr/~jch/software/polipo/faq.html)
+* [manpage](http://www.pps.univ-paris-diderot.fr/~jch/software/polipo/polipo.man.html)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/polipo/1.1.0</packageSourceUrl>
+    <projectUrl>http://www.pps.univ-paris-diderot.fr/~jch/software/polipo/</projectUrl>
+    <projectSourceUrl>https://github.com/jech/polipo</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/jech/polipo/issues</bugTrackerUrl>
+    <docsUrl>http://www.pps.univ-paris-diderot.fr/~jch/software/polipo/manual/</docsUrl>
+    <mailingListUrl>http://lists.sourceforge.net/mailman/listinfo/polipo-users</mailingListUrl>
+    <tags>proxy web cache cli</tags>
+    <copyright>© 2003 Juliusz Chroboczek</copyright>
+    <licenseUrl>https://github.com/jech/polipo/blob/master/COPYING</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Roadmap](https://github.com/jech/polipo/milestones)
+* [Changelog](https://github.com/jech/polipo/blob/master/CHANGES)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
