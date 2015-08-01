@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>KeePass Plugin WebAutoType</title>
+    <version>{{PackageVersion}}</version>
+    <authors>CEPOCTb,Alex Vallat</authors>
+    <owners>dtgm</owners>
+    <summary>Adds support to KeePass AutoType for URL matching</summary>
+    <description>
+WebAutoType is a plugin for [KeePass](https://chocolatey.org/packages/keepass) to allow the AutoType functionality to work with browser URLs as well as window titles.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <projectUrl>https://sourceforge.net/projects/webautotype/</projectUrl>
+    <projectSourceUrl>https://sourceforge.net/p/webautotype/code/HEAD/tree/</projectSourceUrl>
+    <bugTrackerUrl>https://sourceforge.net/p/webautotype/tickets/</bugTrackerUrl>
+    <docsUrl>https://sourceforge.net/p/webautotype/code/HEAD/tree/trunk/Readme.txt</docsUrl>
+    <mailingListUrl>https://sourceforge.net/p/webautotype/discussion/</mailingListUrl>
+    <tags>keepass plugin url autotype</tags>
+    <copyright>© 2011 CEPOCTb, 2013 Alex Vallat</copyright>
+    <licenseUrl>https://github.com/dlech/KeeAgent/blob/master/LICENSE.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Changelog](https://sourceforge.net/p/webautotype/code/HEAD/tree/trunk/Readme.txt#l163)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="keepass" version="[2.19, 3.0)" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

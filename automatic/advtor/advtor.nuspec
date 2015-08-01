@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>Advanced Onion Router</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Vektor</authors>
+    <owners>dtgm</owners>
+    <summary>Portable client and server for the Tor network</summary>
+    <description>
+Advanced Onion Router (AdvTOR/AdvOR) is a portable client for the OR network and is intended to be an improved alternative for Tor+Vidalia+Privoxy bundle for Windows users. Some of the improvements include UNICODE paths, support for HTTP and HTTPS proxy protocols on the same Socks4/Socks5 port with HTTP header filtering that generates fake identity-dependent headers every time the identity is changed (proxy chains are also supported), support for NTLM proxies, a User Interface that makes Tor's options and actions more accessible, local banlist for forbidden addresses, private identity isolation, a point-and-click process interceptor that can redirect connections from programs that don't support proxies, also giving them fake information about the local system and support for .onion addresses. Also, it can estimate AS paths for all circuits and prevent AS path intersections, it can restrict circuits to be built using only nodes from different countries, can change circuit lengths and more.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <projectUrl>http://advtor.sourceforge.net/</projectUrl>
+    <projectSourceUrl>http://sourceforge.net/projects/advtor/files/AdvOR-{{PackageVersion}}/AdvOR-{{PackageVersion}}src.zip/download</projectSourceUrl>
+    <bugTrackerUrl>http://sourceforge.net/p/advtor/discussion/2254385/</bugTrackerUrl>
+    <docsUrl>http://sourceforge.net/p/advtor/discussion/942232/</docsUrl>
+    <mailingListUrl>http://sourceforge.net/p/advtor/discussion/</mailingListUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/514cef6dad3feb56867500770c5c1559bfe3883f/icons/advor.png</iconUrl>
+    <tags>tor onion cryptography portable</tags>
+    <copyright>© 2009 Vektor</copyright>
+    <licenseUrl>http://creativecommons.org/licenses/by-nc-sa/3.0/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Changelog](http://sourceforge.net/projects/advtor/files/AdvOR-{{PackageVersion}}/AdvOR-{{PackageVersion}}src.zip/download)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

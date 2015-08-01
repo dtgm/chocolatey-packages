@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>todolist</id>
+    <title>ToDoList</title>
+    <version>6.8.10.0</version>
+    <authors>AbstractSpoon Software</authors>
+    <owners>dtgm</owners>
+    <summary>A hierarchical task manager with native XML support for custom reporting</summary>
+    <description>
+ToDoList is a rare form of task management tool, one that allows you to repeatedly sub-divide your tasks into more manageable pieces whilst still presenting a clean and intuitive user experience.
+
+ToDoList has been in continuous development for the last 10 years and is an ongoing project.
+
+Your tasklists are stored in XML which provides many opportunities for advanced formatting and printing using stylesheets.
+
+ToDoList's flexible design makes it ideal for both IT related projects as well as more general GTD uses.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/manual/todolist/6.8.10.0</packageSourceUrl>
+    <projectUrl>http://www.abstractspoon.com/tdl_resources.html</projectUrl>
+    <projectSourceUrl>http://abstractspoon.pbwiki.com/f/todolist_src.zip</projectSourceUrl>
+    <docsUrl>http://abstractspoon.pbwiki.com/</docsUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/270ebd51afa2e2db26ba1975545e5e556d605aeb/icons/todolist.png</iconUrl>
+    <tags>todo task manager xml</tags>
+    <copyright>© 2003 AbstractSpoon Software</copyright>
+    <licenseUrl>http://opensource.org/licenses/eclipse-1.0.php</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes />
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
