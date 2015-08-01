@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>IconsExtract</id>
+    <version>1.47</version>
+    <title>IconsExtract</title>
+    <authors>NirSoft</authors>
+    <owners>__CHOCO_PKG_OWNER_NAME__</owners>
+    <licenseUrl>http://www.nirsoft.net/utils/iconsext.html</licenseUrl>
+    <projectUrl>http://www.nirsoft.net/utils/iconsext.html</projectUrl>
+    <iconUrl>https://raw.github.com/calwell/nugetpackages/master/IconsExtract/IconsExtract.gif</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>The IconsExtract utility scans the files and folders on your computer, and extract the icons and cursors stored in EXE, DLL, OCX, CPL, and in other file types. You can save the extracted icons to ICO files (or CUR files for cursors), or copy the image of a single icon into the clipboard.</description>
+    <summary>EXE, DLL, OCX, CPL icon grabber-extractor</summary>
+    <releaseNotes />
+    <copyright>2003�2013 Nir Sofer</copyright>
+    <tags>IconsExt IconsExtract extract icons cursor exe dll</tags>
+  </metadata>
+</package>
