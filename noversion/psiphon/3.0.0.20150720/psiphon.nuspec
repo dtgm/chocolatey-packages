@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>psiphon</id>
+    <title>Psiphon</title>
+    <version>3.0.0.20150720</version>
+    <authors>Psiphon Inc</authors>
+    <owners>dtgm</owners>
+    <summary>Relay-based Internet censorship circumventer</summary>
+    <description>
+Psiphon Circumvention System is an [open source](https://psiphon.ca/en/open-source.html#content) relay-based Internet censorship circumventer.
+
+The system consists of a client application, which configures a users computer to direct Internet traffic; and a set of servers, which proxy client traffic to the Internet. As long as a client can connect to a Psiphon server, it can access Internet services that may be blocked to the user via direct connection.
+
+#### Design goals
+* The Internet is not World Wide if someone somewhere is denied access.
+* The right to freedom of opinion and expression affects us all, even if censorship does not.
+
+#### Security note
+To accomplish its design goals, Psiphon uses computer security technology including encryption and digital signatures. Using these algorithms does not mean Psiphon 3 offers additional security properties such as privacy or authentication of destination sites for users' Internet traffic. [[ref](https://bitbucket.org/psiphon/psiphon-circumvention-system/src#markdown-header-security-properties)]
+
+For additional information about how Psiphon works, please see the [FAQ](https://psiphon.ca/en/faq.html#content).
+
+#### Cloud service client
+Psiphon is a program that uses various tunnelling technologies to securely connect to a cloud service. Please be aware that this program is anti-censorship and does not guarantee privacy. To determine what information is collected by your usage of the service and how it may be used, please see the [privacy policy](https://psiphon.ca/en/privacy.html#content).
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/noversion/psiphon/3.0.0.20150720</packageSourceUrl>
+    <projectUrl>https://psiphon.ca/</projectUrl>
+    <projectSourceUrl>https://bitbucket.org/psiphon/psiphon-circumvention-system/src</projectSourceUrl>
+    <bugTrackerUrl>https://bitbucket.org/psiphon/psiphon-circumvention-system/issues</bugTrackerUrl>
+    <docsUrl>https://psiphon.ca/en/user-guide.html#windows</docsUrl>
+    <mailingListUrl>https://groups.google.com/forum/#!forum/psiphon3</mailingListUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/b73d2c5821ffb73f332d3227721eccd3bec0a012/icons/psiphon.png</iconUrl>
+    <tags>anti-censorship tunnel proxy vpn ssh cloud p2p</tags>
+    <copyright>© 2004 Psiphon Inc</copyright>
+    <licenseUrl>https://psiphon.ca/en/license.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* Blog: [www](https://psiphon.ca/en/blog/index.html), [feed](https://psiphon.ca/en/blog/feed.xml)
+* [Changelog](https://bitbucket.org/psiphon/psiphon-circumvention-system/src/tip/CHANGES)
+
+#### Package
+* This package does not get upgraded corresponding to the Psiphon program. Instead,
+* Upon starting Psiphon, the program will automatically look for digitally signed upgrades through the encrypted tunnel it creates. However,
+* If this program is used infrequently, you may also want to periodically upgrade Psiphon manually by forcing a reinstall of this package. This can be done with `-f` or `--force` parameter. E.g. `choco upgrade psiphon --force`
+* Checksums are currently not verified for this program upon install.
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
