@@ -1,28 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
     <id>{{PackageName}}</id>
     <title>Ace Stream</title>
     <version>{{PackageVersion}}</version>
     <authors>Ace Stream</authors>
-    <owners>tonigellida</owners>
-    <summary>
-	Ace Stream is an innovative multimedia platform of a new generation, which includes different products and solutions for ordinary Internet users as well as for professional members of the multimedia market.
-	</summary>
+    <owners>dtgm</owners>
+    <summary>Innovative multimedia p2p platform</summary>
     <description>
-	Ace Stream is an innovative multimedia platform of a new generation, which includes different products and solutions for ordinary Internet users as well as for professional members of the multimedia market.
-	
-	###Notes
-	
-	By now the instructions are:
-	First uninstall manually your current version and then runs package installation.
-	Later the package will be improved for silent update.	
-	</description>
+Ace Stream is an innovative multimedia platform of a new generation, which includes different products and solutions for ordinary Internet users as well as for professional members of the multimedia market.
+
+#### Community
+* [Forum](http://forum.torrentstream.org/)
+* [Facebook](http://www.facebook.com/TorrentStream)
+* [Google+](https://plus.google.com/111508016565897075520?prsrc=3)
+* [Twitter](https://twitter.com/#!/torrentstream)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.acestream.org/</projectUrl>
-    <tags>notUninstallable multimedia media player p2p live-broadcasting live-streaming vlc</tags>
-    <copyright></copyright>
+    <docsUrl>http://info.acestream.org/#/about/acestream</docsUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/c9f5d2fb09282df62f9720e24b82530de4533216/icons/{{PackageName}}.png</iconUrl>
+    <tags>multimedia media player p2p live-broadcasting live-streaming vlc</tags>
+    <copyright>© Ace Stream</copyright>
     <licenseUrl>http://www.acestream.org/license</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://cdn.rawgit.com/adgellida/chocolateyautomaticpackages/master/icons/{{PackageName}}.png</iconUrl>
+    <releaseNotes>
+#### Program
+* [Changelog](http://wiki.acestream.org/wiki/index.php/AceStream_3.0#Changelog)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
   </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
 </package>

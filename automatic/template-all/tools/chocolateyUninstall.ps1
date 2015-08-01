@@ -1,3 +1,169 @@
+# default template
+https://github.com/chocolatey/choco/blob/master/src/chocolatey/infrastructure.app/templates/ChocolateyUninstallTemplate.cs
+
+#NOTE: Please remove any commented lines to tidy up prior to releasing the package, including this one
+# REMOVE ANYTHING BELOW THAT IS NOT NEEDED
+# If this is an MSI, cleaning up comments is all you need.
+# If this is an exe, change installerType and silentArgs
+# Auto Uninstaller should be able to detect and handle registry uninstalls (if it is turned on, it is in preview for 0.9.9).
+$ErrorActionPreference = 'Stop'; # stop on all errors
+$packageName = '[[PackageName]]'
+$softwareName = '[[PackageName]]*' #part or all of the Display Name as you see it in Programs and Features. It should be enough to be unique
+$installerType = 'MSI' 
+#$installerType = 'EXE' 
+$silentArgs = '/qn /norestart'
+# https://msdn.microsoft.com/en-us/library/aa376931(v=vs.85).aspx
+$validExitCodes = @(0, 3010, 1605, 1614, 1641)
+if ($installerType -ne 'MSI') {
+  # The below is somewhat naive and built for EXE installers
+  $silentArgs = '/S' # /s /S /q /Q /quiet /silent /SILENT /VERYSILENT -s - try any of these to get the silent installer
+  $validExitCodes = @(0)
+}
+$uninstalled = $false
+Get-ItemProperty  -Path @($machine_key6432,$machine_key, $local_key) `
+                  -ErrorAction SilentlyContinue `
+  | ? { $_.DisplayName -like ""$softwareName"" } `
+  | Select -First 1 `
+  | % { 
+        $file = ""$($_.UninstallString)""
+     
+        if ($installerType -eq 'MSI') {
+        # The Product Code GUID is all that should be passed for MSI, and very 
+        # FIRST, because it comes directly after /x, which is already set in the 
+        # Uninstall-ChocolateyPackage msiargs (facepalm).
+        $silentArgs = ""$($_.PSChildName) $silentArgs""
+        
+        # Don't pass anything for file, it is ignored for msi (facepalm number 2) 
+        # Alternatively if you need to pass a path to an msi, determine that and 
+        # use it instead of the above in silentArgs, still very first
+        $file = ''
+        }      
+        Uninstall-ChocolateyPackage -PackageName $packageName `
+                                    -FileType $installerType `
+                                    -SilentArgs ""$silentArgs"" `
+                                    -ValidExitCodes $validExitCodes `
+                                    -File ""$file""
+        $uninstalled = $true
+      }
+if (!($uninstalled)) {
+    Write-Warning ""$packageName has already been uninstalled by other means.""
+}
+## OTHER HELPERS
+## https://github.com/chocolatey/choco/wiki/HelpersReference
+#Uninstall-ChocolateyZipPackage
+#Uninstall-BinFile # Only needed if you added one in the installer script, choco will remove the ones it added automatically.
+#remove any shortcuts you added"
+
+
+$match_pattern = "\/(?<option>([a-zA-Z]+)):(?<value>([`"'])?([a-zA-Z0-9- _\\:\.]+)([`"'])?)|\/(?<option>([a-zA-Z]+))"
+
+gc .\chocolateyUninstall.ps1 | ? {$_ -notmatch "^\s*#"} | ? {$_ -match ".*[^``]#.*"}
+gc .\chocolateyUninstall.ps1 | ? {$_ -notmatch "^\s*#"} | ? {$_ -replace '(^.*)\s?[^``]#','$1'}
+
+
+List various EXE installers?
+
+
+@"
+# IMPORTANT: Before releasing this package, copy/paste the next 2 lines into PowerShell to remove all comments from this file:
+#   $f='c:\path\to\thisFile.ps1'
+#   gc $f | ? {$_ -notmatch "^\s*#"} | % {$_ -replace '(^.*?)\s*?[^``]#.*','$1'} | Out-File $f+".~" -en utf8; mv -fo $f+".~" $f
+"@
+# If this is an MSI, cleaning up comments is all you need.
+# If this is an exe, change installerType and uncomment matching silentArgs in codeblock below.
+$installerType = 'MSI' 
+#$installerType = 'EXE' 
+
+# Auto Uninstaller should be able to detect and handle registry uninstalls (if it is turned on, it is in preview for 0.9.9).
+$ErrorActionPreference = 'Stop'; # stop on all errors
+$packageName = '[[PackageName]]'
+$softwareName = '[[PackageName]]*' #part or all of the Display Name as you see it in Programs and Features. It should be enough to be unique
+
+$silentArgs = '/qn /norestart' # MSI silent arguments
+# https://msdn.microsoft.com/en-us/library/aa376931(v=vs.85).aspx
+$validExitCodes = @(0, 3010, 1605, 1614, 1641)
+if ($installerType -ne 'MSI') {
+  # Uncomment matching EXE type (sorted by most to least common)
+  #$silentArgs = '/S'               # NSIS
+  #$silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-' # Inno Setup
+  #$silentArgs = '/s'               # InstallShield
+  #$silentArgs = '/s /v"/qn"'       # InstallShield with MSI
+  #$silentArgs = '/s /f1"$issPath"' # InstallShield, requires uninstall.iss file
+  #$silentArgs = '/s /a /s /sms /f1"$issPath"' # InstallShield's PackagefortheWeb (PFTW), requires uninstall.iss file
+  #$issPath = $true # if using $issPath in silentArgs
+  #$silentArgs = '/s'               # Wise InstallMaster
+  #$silentArgs = '-q'               # Install4j
+  #$silentArgs = '-s -u'            # Ghost
+  # Note that some installers, in addition to the silentArgs above, may also need assistance of AHK to achieve silence.
+  #$silentArgs = ''                 # none; make silent with input macro script like AutoHotKey (AHK)
+                                    #       https://chocolatey.org/packages/autohotkey.portable
+  $validExitCodes = @(0)
+}
+
+if ($issPath) {
+  $toolsDir   = ""$(Split-Path -parent $MyInvocation.MyCommand.Definition)""
+  $issFileName = "uninstall.iss"
+  $issPath = Join-Path $toolsDir $issFileName
+}
+
+$key = Get-ItemProperty -Path @($machine_key6432,$machine_key, $local_key) `
+                        -ErrorAction SilentlyContinue `
+         | ? { $_.DisplayName -like ""$softwareName"" }
+
+if ($key.Count -eq 1) {
+  $key | % { 
+    $file = ""$($_.UninstallString)""
+
+    if ($installerType -eq 'MSI') {
+      # The Product Code GUID is all that should be passed for MSI, and very 
+      # FIRST, because it comes directly after /x, which is already set in the 
+      # Uninstall-ChocolateyPackage msiargs (facepalm).
+      $silentArgs = ""$($_.PSChildName) $silentArgs""
+      
+      # Don't pass anything for file, it is ignored for msi (facepalm number 2) 
+      # Alternatively if you need to pass a path to an msi, determine that and 
+      # use it instead of the above in silentArgs, still very first
+      $file = ''
+    }
+    Uninstall-ChocolateyPackage -PackageName $packageName `
+                                -FileType $installerType `
+                                -SilentArgs ""$silentArgs"" `
+                                -ValidExitCodes $validExitCodes `
+                                -File ""$file""
+  }
+} elseif ($key.Count -eq 0) {
+  Write-Warning ""$packageName has already been uninstalled by other means.""
+} elseif ($key.Count -gt 1) {
+  Write-Warning ""$key.Count matches found!""
+  Write-Warning ""To prevent accidental data loss, no programs will be uninstalled.""
+  Write-Warning ""Please alert package maintainer the following keys were matched:""
+  $key | % {Write-Warning ""$_.DisplayName""}
+}
+
+## OTHER HELPERS
+## https://github.com/chocolatey/choco/wiki/HelpersReference
+#Uninstall-ChocolateyZipPackage
+#Uninstall-BinFile # Only needed if you added one in the installer script, choco will remove the ones it added automatically.
+#remove any shortcuts you added"
+
+
+#http://unattended.sourceforge.net/InnoSetup_Switches_ExitCodes.html
+
+# EXE; InstallShield
+# http://www.itninja.com/blog/view/installshield-setup-silent-installation-switches
+# generate an InstallShield Response file (e.g. uninstall.iss) to launch your setup.exe with parameters
+setup.exe -x -r -f1"%temp%\uninstall.iss"
+  or
+setup.exe /r /f1"%temp%\uninstall1.iss"
+# uninstall using ISS file
+setup.exe -x -s -l0x9 -ARP -f1"%temp%\uninstall.iss"
+
+
+
+
+
+
+
 ###  MSI; match name  ###
 $packageName = '{{PackageName}}'
 $packageSearch = "$packageName*"  # quotes needed if glob
@@ -228,6 +394,41 @@ if (Test-Path -PathType Container (Join-Path $chocoLib '{{PackageName}}.*')) {
 
 
 
+
+# Uninstall-ChocolateyPath
+$packageName = '{{PackageName}}'
+$packageSearch = "monotone *"
+$installerType = 'exe'
+$silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
+$validExitCodes = @(0,3010)
+$toolsPath = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+$unPath = Join-Path $toolsPath 'Uninstall-ChocolateyPath.psm1'
+
+Write-Verbose "Querying registry for install key..."
+$regKey = Get-ItemProperty -Path @('HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*',
+                                   'HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*',
+                                   'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*') `
+                           -ErrorAction:SilentlyContinue `
+          | Where-Object {$_.DisplayName -like $packageSearch}
+
+Write-Verbose "Uninstalling $packageName and removing package..."
+$regKey | ForEach-Object {
+  Uninstall-ChocolateyPackage -PackageName "$packageName" `
+                              -FileType "$installerType" `
+                              -SilentArgs "$($silentArgs)" `
+                              -File "$($_.UninstallString)" `
+                              -ValidExitCodes $validExitCodes }
+
+Write-Verbose "Removing from path..."
+$binPath = Join-Path $regKey.InstallLocation "bin"
+Import-Module $unPath
+Uninstall-ChocolateyPath $binPath 'Machine' 
+
+
+
+
+
+
 ### CHANGES
 -like "$packageSearch*"
 -like $packageSearch
@@ -240,3 +441,7 @@ $packageSearch = "$packageName"
 $packageSearch = "$packageName*"  
 # add glob from general search definition
 # quotes required if glob
+
+`#
+abc  # sntho
+tnho # t
