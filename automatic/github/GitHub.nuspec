@@ -2,13 +2,13 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
     <id>{{PackageName}}</id>
-    <title>GitHub</title>
+    <title>GitHub Desktop</title>
     <version>{{PackageVersion}}</version>
     <authors>GitHub Inc</authors>
     <owners>dtgm</owners>
     <summary>Git client for GitHub.com project hosting site</summary>
     <description>
-GitHub includes a fully functional version of [msysgit](https://chocolatey.org/packages/git) — no need to install anything extra. You can pull up a PowerShell console within the context of any repository. GitHub for Windows even includes the amazing [posh-git](https://chocolatey.org/packages/poshgit) utility for your command line pleasure.
+GitHub Desktop includes a fully functional version of [msysgit](https://chocolatey.org/packages/git) — no need to install anything extra. You can pull up a PowerShell console within the context of any repository. GitHub for Windows even includes the amazing [posh-git](https://chocolatey.org/packages/poshgit) utility for your command line pleasure.
 
 ### GitHub.com Account
 * Requires a [free account](https://github.com/join) for creating or contributing to GitHub repositories.
