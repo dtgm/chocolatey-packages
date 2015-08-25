@@ -23,7 +23,7 @@ TortoiseSVN is implemented as a Windows shell extension. It's intuitive and easy
     <copyright>© 2004 TortoiseSVN Team</copyright>
     <licenseUrl>https://code.google.com/p/tortoisesvn/source/browse/trunk/src/gpl.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/a1754dce4a694ba8d9cfe59b41dc11c0190b3ac3/icons/{{PackageName}}.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/master/icons/{{PackageName}}.png</iconUrl>
     <releaseNotes>
 #### Program
 * [Overview changelog](http://tortoisesvn.net/newsarchive.html)
