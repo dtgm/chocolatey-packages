@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+$packageName = 'cdex'
 $packageSearch = "$packageName"
 $installerType = 'exe'
 $silentArgs = '/S'

@@ -1,6 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
-  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="d4192e4e-0030-45b8-b67a-c4b9c630d110">
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="0b919915-783b-4745-a939-0c9bb5b5f4ee">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
@@ -24,12 +24,12 @@
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=CDex\s*)([\d\.]+)(?=&lt;)</Regex>
-            <Url>http://cdexos.sourceforge.net/?q=download</Url>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <Url />
             <StartText>&lt;title&gt;Download CDex - Open Source Digital Audio CD Extractor </StartText>
             <EndText>&lt;/</EndText>
-            <TextualContent>1.70.20141130</TextualContent>
+            <TextualContent>{urlPathFull:regex:(?&lt;=CDex-)[\d\.]+(?=-)}</TextualContent>
             <Name>version</Name>
           </UrlVariable>
         </value>
@@ -43,7 +43,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>http://sourceforge.net/projects/cdexos/files/cdexos/CDex%20{version}/CDex-{version}-win32.exe/download</TextualContent>
+            <TextualContent>{urlPathFull}</TextualContent>
             <Name>url64</Name>
           </UrlVariable>
         </value>
@@ -57,7 +57,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
             <Regex>(?&lt;=ResponseUri: )[^\r\n]+</Regex>
-            <Url>http://sourceforge.net/projects/cdexos/files/cdexos/CDex%20{version}/CDex-{version}-win32.exe/download</Url>
+            <Url>{urlPathFull}</Url>
             <TextualContent />
             <Name>url</Name>
           </UrlVariable>
@@ -65,7 +65,7 @@
       </item>
       <item>
         <key>
-          <string>yespush</string>
+          <string>yopush</string>
         </key>
         <value>
           <UrlVariable>
@@ -73,7 +73,7 @@
             <VariableType>Textual</VariableType>
             <Regex />
             <TextualContent>--nopush</TextualContent>
-            <Name>yespush</Name>
+            <Name>yopush</Name>
           </UrlVariable>
         </value>
       </item>
@@ -86,7 +86,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
             <Regex>([A-Fa-f0-9]{40})</Regex>
-            <Url>http://cdexos.sourceforge.net/?q=download</Url>
+            <Url>http://cdex.mu/download</Url>
             <Name>checksum</Name>
           </UrlVariable>
         </value>
@@ -105,6 +105,20 @@
           </UrlVariable>
         </value>
       </item>
+      <item>
+        <key>
+          <string>urlPathFull</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>[^ "'&lt;&gt;\*]+\.exe</Regex>
+            <Url>http://cdex.mu/download</Url>
+            <Name>urlPathFull</Name>
+          </UrlVariable>
+        </value>
+      </item>
     </Variables>
     <ExecuteCommand />
     <ExecutePreCommand />
@@ -112,8 +126,7 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\CDex-1.77-win32.exe</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-02-16T16:44:44.1769797</LastUpdated>
