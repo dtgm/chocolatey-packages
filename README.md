@@ -116,3 +116,32 @@ Note that while Nupkg files may contain any binary file, typically, they only co
 * https://github.com/yoshimov/chocolatey-packages
 * https://github.com/Redsandro/chocolatey
 * [DEPRECATED] https://github.com/adgellida/chocolateyautomaticpackages
+
+
+## Package name -- Package id
+
+* Chocolatey is cross-platform.  
+* Package managers are quite mature in Linux relative to Windows.
+
+For ease of transition between OS', it is recommended to use the same ID as used in other package managers when possible.
+
+### [Package formats](https://wikipedia.org/wiki/Package_format)
+* .apk — Android
+* .appx, .appxbundle — used by Microsoft for packaging Windows 8, Windows 8.1, and Windows Phone 8.1 applications.[2]
+* .deb — Used by Debian and its derivatives, such as Ubuntu, Xubuntu, and CrunchBang Linux.[3]
+* ebuild — Used by Gentoo Linux.[4]
+* PISI — Used by Pardus and derivatives such as Pardus-Anka and Pisi Linux.[citation needed]
+* .pkg - Used by iPhone, PlayStation 3, Solaris (operating system).[citation needed]
+* PUP and PET — used by Puppy Linux - click and install package type. OS can be installed to a flash drive for portability and will bring apps with it.[5]
+* QPKG — Used by QNAP NAS devices.[6]
+* .rpm — Used by Red Hat Enterprise Linux, Fedora, derivatives such as CentOS and SUSE Linux Enterprise Server.[7]
+* SLP — Used by Stampede Linux.[citation needed]
+* .pkg.tar.xz — Used by Arch Linux's Pacman package manager.[8]
+* .tgz, .txz, .tbz, .tlz — Used by Slackware.[9]
+
+### Package lists
+
+* Debian: [stable text list](https://packages.debian.org/stable/allpackages?format=txt.gz) -- Ubuntu: http://packages.ubuntu.com/ ([trusty text list](http://packages.ubuntu.com/trusty/allpackages?format=txt.gz))
+* Redhat Fedora: https://admin.fedoraproject.org/pkgdb/ -- Others: http://rpm.pbone.net/, http://rpmfind.net/, 
+* Gentoo: [categories](https://packages.gentoo.org/categories/), [text list](http://distfiles.gentoo.org/distfiles/) (also at [MIRROR](https://www.gentoo.org/downloads/mirrors/)/pub/gentoo/distfiles/)
+* Arch: [repos](https://wiki.archlinux.org/index.php/Official_repositories), [mirror text list](https://www.archlinux.org/mirrorlist/all/)
