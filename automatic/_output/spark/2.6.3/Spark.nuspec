@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Spark</id>
+    <version>2.6.3</version>
+    <title>Spark (Instant Messenger)</title>
+    <authors>Jive Software</authors>
+    <owners>Jive Software</owners>
+    <licenseUrl>http://www.myapp.tld/license.txt</licenseUrl>
+    <projectUrl>http://www.igniterealtime.org/projects/spark</projectUrl>
+    <iconUrl>http://www.kolabora.com/news/images/spark_logo.gif</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Spark is a free open source Instant Messaging Client written in Java</description>
+    <summary>Spark is a free open source Instant Messaging Client written in Java</summary>
+    <tags>Spark Client Messenger Business</tags>
+  </metadata>
+</package>
