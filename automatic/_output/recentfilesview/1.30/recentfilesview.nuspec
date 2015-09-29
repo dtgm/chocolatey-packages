@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>recentfilesview</id>
+    <title>RecentFilesView</title>
+    <version>1.30</version>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm</owners>
+    <summary>View the list of recently opened files</summary>
+    <description>
+Each time that you open a file from Windows Explorer or from a standard open/save dialog-box, the name of the file that you opened is recorded by the operating system.
+
+Some of the names are saved into the 'Recent' folder. Other are saved into the Registry.
+
+This utility display the list of all recently opened files, and allows you to delete unwanted filename entries.
+
+You can also save the files list into text/html/xml file.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/recentfilesview/1.30</packageSourceUrl>
+    <projectUrl>http://www.nirsoft.net/utils/recent_files_view.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/recentfilesview.png</iconUrl>
+    <tags>recent files</tags>
+    <copyright>© 2007 NirSoft</copyright>
+    <licenseUrl>http://www.nirsoft.net/utils/recent_files_view.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[What's New?](http://www.nirsoft.net/utils/recent_files_view.html)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
