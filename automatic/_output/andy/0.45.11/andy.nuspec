@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>andy</id>
+    <title>Andy</title>
+    <version>0.45.11</version>
+    <authors>Andy OS Inc</authors>
+    <owners>dtgm</owners>
+    <summary>Run Android apps on desktop</summary>
+    <description>
+Andy is an Android emulator that breaks down the barrier between desktop and mobile computing.  By using virtualization features present in modern CPUs and leveraging the Virtualbox command-line interface, Andy creates virtual environments to run Android apps.
+
+* Provides seamless sync between desktop and mobile devices
+* Connects Win/Mac with Android apps for launching, push notifications and storage
+* Enables app download from any desktop browser direct to Andy OS
+* Ensures most up to date Android OS at all times
+* Brings your favorite communication and entertainment mobile apps to the desktop
+* Remote control: use your android device as control interface and view output on desktop. With phone as a joystick, you will never have to sacrifice the multi-touch or gyro elements of gaming, and thanks to seamless connection between desktop and mobile, you can receive a SnapChat phone picture on the street and see it on your desktop at home.
+
+#### Minimum requirements
+
+* System hardware virtualization support:
+  * CPU virtualization support (AMD AMD-V, Intel VT-x, or VIA VT)
+  * Motherboard enabled (configured within BIOS/UEFI)
+* 3GB RAM
+* Up to 20GB free disk space
+* OpenGL ES 2.0 capable video card
+
+[FAQ](http://www.andyroid.net/faqs)
+[User support](https://www.facebook.com/groups/AndySupport/)
+
+#### Included dependency
+
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/andy/0.45.11</packageSourceUrl>
+    <projectUrl>http://www.andyroid.net/</projectUrl>
+    <tags>notSilent software-testing android-emulator virtualbox virtualization vm freeware</tags>
+    <copyright>© 2014 Andy OS Inc</copyright>
+    <licenseUrl>http://www.andyroid.net/terms-conditions</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/269e4311cd8b524c71dbfb2a49237c3ed68929f9/icons/andy.png</iconUrl>
+    <releaseNotes>
+### Program
+
+https://www.facebook.com/groups/AndySupport/
+
+### Package
+
+[Bonjour](https://developer.apple.com/bonjour/index.html) (mDNSResponder) dependency is installed silently but is not uninstalled with Andy.
+    </releaseNotes>
+    <dependencies>
+      <dependency id="virtualbox" />
+      <dependency id="autohotkey.portable" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
