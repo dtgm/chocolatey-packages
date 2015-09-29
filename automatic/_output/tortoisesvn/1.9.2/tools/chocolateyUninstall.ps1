@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+$packageName = 'tortoisesvn'
 $packageSearch = "$packageName*"
 $installerType = 'msi'
 $silentArgs = '/quiet /qn /norestart'
