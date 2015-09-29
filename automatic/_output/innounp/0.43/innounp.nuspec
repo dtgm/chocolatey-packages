@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>innounp</id>
+    <version>0.43</version>
+    <title>Inno Setup Unpacker</title>
+    <authors>QuickeneR,Ariman</authors>
+    <owners>dtgm</owners>
+    <summary>Unpacker for installations made by Inno Setup</summary>   
+    <description>
+Inno Setup is a popular program for making software installations. Unfortunately, there is no official unpacker - the only method of getting the files out of the self-extracting executable is to run it. One piece of software that addresses this issue is Sergei Wanin's InstallExplorer, a plug-in for the FAR Manager that unpacks several types of installations, including Inno Setup (IS). But since it is not updated in a timely fashion, and so does not support the latest IS most of the time, this program was born. 
+
+The advantages over InstallExplorer are:
+
+* Innounp is open source and based on IS source. Therefore, it is more likely to support future IS versions.
+* It recovers portions of the installation script (.iss file), including the registry changes and the compiled Innerfuse/RemObjects Pascal Script, if available.
+    </description>
+    <releaseNotes>http://innounp.sourceforge.net/#History</releaseNotes>
+    <language>en-us</language>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/innounp/0.43</packageSourceUrl>
+    <projectUrl>http://innounp.sourceforge.net/</projectUrl>
+    <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
+    <copyright>QuickeneR,Ariman</copyright>		
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>commandline InnoSetup extract</tags>
+    <dependencies>
+      <dependency id="7zip" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

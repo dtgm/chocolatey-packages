@@ -1,0 +1,1 @@
+#Install-VirtualPackage 'hugin.portable' 'hugin.install'
