@@ -1,16 +1,18 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="98828b53-f953-4ffe-9171-04ec74691950">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>15638528</LastFileSize>
-    <LastFileDate>2015-04-08T21:44:08.2177651</LastFileDate>
+    <LastFileSize>15462400</LastFileSize>
+    <LastFileDate>2015-09-22T13:05:43-06:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -139,8 +141,8 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>http[^ "'&lt;&gt;\*]+\.zip/download</Regex>
-            <Url>https://sourceforge.net/projects/tortoisesvn/files/1.8.10/Language%20Packs/</Url>
+            <Regex>http[^ "'&lt;&gt;\*]+\.pdf/download</Regex>
+            <Url>https://sourceforge.net/projects/tortoisesvn/files/{version}/Documentation/</Url>
             <Name>getMirrorUrl</Name>
           </UrlVariable>
         </value>
@@ -195,11 +197,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\TortoiseSVN-1.8.11.26392-win32-svn-1.8.13.msi</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <PreviousLocation>F:\exe\TortoiseSVN-1.9.2.26806-win32-svn-1.9.2.msi</PreviousLocation>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-08T21:44:08.2177651</LastUpdated>
+    <LastUpdated>2015-09-29T14:23:27.299688-06:00</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>tortoisesvn</Name>
