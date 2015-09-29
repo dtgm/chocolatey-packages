@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="f7a861a6-3893-4940-8e79-e22fd23e528b">
     <SourceTemplate><![CDATA[<Jobs>
@@ -72,12 +72,13 @@
     <UserAgent />
     <UserNotes />
     <LastFileSize>601503717</LastFileSize>
-    <LastFileDate>2015-03-27T21:31:19.7435151</LastFileDate>
+    <LastFileDate>2015-08-31T20:53:31.1618752</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Avoid</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -165,11 +166,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\0ad-0.0.18-alpha-win32.exe</PreviousLocation>
+    <PreviousLocation>F:\exe\0ad-0.0.18-alpha-win32.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-03-27T21:31:19.7435151</LastUpdated>
+    <LastUpdated>2015-08-31T20:53:31.1618752</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>0ad</Name>

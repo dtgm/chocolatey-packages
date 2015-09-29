@@ -4,13 +4,14 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>5079191</LastFileSize>
-    <LastFileDate>2015-07-22T01:27:59-05:00</LastFileDate>
+    <LastFileSize>5100881</LastFileSize>
+    <LastFileDate>2015-09-28T23:35:54-06:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -124,11 +125,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\dolphin-master-4.0-7068-x64.7z</PreviousLocation>
+    <PreviousLocation>F:\exe\dolphin-master-4.0-7853-x64.7z</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-07-22T01:31:36.9351914-05:00</LastUpdated>
+    <LastUpdated>2015-09-29T00:47:42.1486778-06:00</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>dolphin</Name>
