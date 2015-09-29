@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>usbdeview</id>
+    <title>USBDeview</title>
+    <version>2.46</version>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm</owners>
+    <summary>View any installed/connected USB device on your system</summary>
+    <description>
+USBDeview is a small utility that lists all USB devices that currently connected to your computer, as well as all USB devices that you previously used.
+
+For each USB device, extended information is displayed: Device name/description, device type, serial number (for mass storage devices), the date/time that device was added, VendorID, ProductID, and more...
+
+USBDeview also allows you to uninstall USB devices that you previously used, disconnect USB devices that are currently connected to your computer, as well as to disable and enable USB devices.
+
+You can also use USBDeview on a remote computer, as long as you login to that computer with admin user.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/usbdeview/2.46</packageSourceUrl>
+    <projectUrl>http://www.nirsoft.net/utils/usb_devices_view.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/usbdeview.png</iconUrl>
+    <tags>usb metadata info</tags>
+    <copyright>© 2006 NirSoft</copyright>
+    <licenseUrl>http://www.nirsoft.net/utils/usb_devices_view.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[What's New?](http://www.nirsoft.net/utils/usb_devices_view.html)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
