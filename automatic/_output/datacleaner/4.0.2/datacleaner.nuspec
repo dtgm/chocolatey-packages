@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>datacleaner</id>
+    <title>DataCleaner</title>
+    <version>4.0.2</version>
+    <authors>Kasper Sorensen,Asbjørn Leeth</authors>
+    <owners>dtgm</owners>
+    <summary>The premier open source data quality analysis and profiling</summary>
+    <description>
+The heart of DataCleaner is a strong data profiling engine for discovering and analyzing the quality of your data. Find the patterns, missing values, character sets and other characteristics of your data values.
+
+Profiling is an essential activity of any Data Quality, Master Data Management or Data Governance program. If you don't know what you're up against, you have poor chances of fixing it.
+
+[Screenshots](http://datacleaner.org/screenshots)
+[FAQ](http://datacleaner.org/faq)
+[Forum](http://datacleaner.org/forum)
+[Development](http://datacleaner.org/develop)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/datacleaner/4.0.2</packageSourceUrl>
+    <projectUrl>https://sourceforge.net/projects/datacleaner/</projectUrl>
+    <projectSourceUrl>https://github.com/datacleaner/DataCleaner</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/datacleaner/DataCleaner/issues</bugTrackerUrl>
+    <docsUrl>http://datacleaner.org/docs</docsUrl>
+    <tags>data profiling management datastore</tags>
+    <copyright>© Neopost</copyright>
+    <licenseUrl>https://github.com/datacleaner/DataCleaner/blob/master/COPYING.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/6e6b4050584cc649e10862e180180475d260d927/icons/datacleaner.png</iconUrl>
+    <releaseNotes>
+### Program
+
+[News](http://datacleaner.org/news)
+
+### Package
+
+Automatically generated and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>encryptr</id>
+    <title>Encryptr</title>
+    <version>1.2.0</version>
+    <authors>Devgeeks</authors>
+    <owners>dtgm</owners>
+    <summary>Zero-knowledge, cloud-based e-wallet / password manager powered by Crypton</summary>
+    <description>
+Encryptr is simple and easy to use. It stores your sensitive data like passwords, credit card data, PINs, or access codes, in the cloud. However, because it was built on the zero-knowledge Crypton framework, Encryptr ensures that only the user has the ability to access or read the confidential information. Not the app's developers, cloud storage provider, or any third party.
+
+Encryptr only ever encrypts or decrypts your data locally on your device. No plain text is ever sent to the server, not even your passphrase. This is what zero-knowledge means.
+
+[Wiki](https://github.com/devgeeks/Encryptr/wiki)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/encryptr/1.2.0</packageSourceUrl>
+    <projectUrl>https://encryptr.org/</projectUrl>
+    <projectSourceUrl>https://github.com/devgeeks/Encryptr/</projectSourceUrl>
+    <tags>security encryption password manager cloud zero-knowledge</tags>
+    <copyright>© 2014 Devgeeks</copyright>
+    <licenseUrl>https://github.com/devgeeks/Encryptr/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/57cd6e1f3d2367f2f348bdf73473713cc8a4a4e2/icons/encryptr.svg</iconUrl>
+    <releaseNotes>
+[Changelog](https://encryptr.org/changelog.txt)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
