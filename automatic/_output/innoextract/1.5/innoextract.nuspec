@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>innoextract</id>
+    <title>innoextract</title>
+    <version>1.5</version>
+    <authors>Daniel Scharrer</authors>
+    <owners>dtgm</owners>
+    <summary>Tool to unpack installers created by Inno Setup</summary>   
+    <description>
+Inno Setup is a tool to create installers for Microsoft Windows applications. innoextract allows to extract such installers under non-windows systems without running the actual installer using Wine. innoextract currently supports installers created by Inno Setup 1.2.10 to 5.5.5. (details)
+
+    </description>
+    <releaseNotes>
+[Changelog](http://constexpr.org/innoextract/changelog)
+    </releaseNotes>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/innoextract/1.5</packageSourceUrl>
+    <projectUrl>http://constexpr.org/innoextract/</projectUrl>
+    <projectSourceUrl>https://github.com/dscharrer/innoextract</projectSourceUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/d4bc8c0cf5812db2a120b502951c49060a0bd22c/icons/innoextract.png</iconUrl>
+    <licenseUrl>https://raw.githubusercontent.com/dscharrer/innoextract/master/LICENSE</licenseUrl>
+    <copyright>© Daniel Scharrer</copyright>		
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>commandline innosetup extract unpacker</tags>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
