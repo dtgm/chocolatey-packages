@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>advancedsystemcarefree</id>
+    <title>Advanced System Care Free</title>
+    <version>7.0.5</version>
+    <authors>IObit</authors>
+    <owners>tonigellida</owners>
+    <summary></summary>
+    <description>
+Advanced SystemCare 6 Free takes a one-click approach to protect, repair, clean, and optimize your PC.
+With over 150 MILLION downloads worldwide, this fantastic, award-winning, free PC repair software is a "must-have" tool for your computer.
+It's easy to use and 100% safe with no adware, spyware, or viruses.
+Why waste money on expensive "registry cleaners" to fix your PC when Advanced SystemCare Free can repair, tune up, and maintain it for you – for FREE!
+	</description>
+    <projectUrl>http://www.iobit.com/advancedsystemcareper.php#none</projectUrl>
+    <tags>privacy optimization registry-cleaner cleaner</tags>
+    <copyright></copyright>
+    <licenseUrl>http://www.iobit.com/legal.php</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/advancedsystemcarefree/advancedsystemcarefree.png</iconUrl>
+  </metadata>
+</package>
