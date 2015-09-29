@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>fontforge</id>
+    <title>FontForge</title>
+    <version>2015.08.24</version>
+    <authors>George Williams</authors>
+    <owners>dtgm</owners>
+    <summary>Create and edit fonts in many formats</summary>
+    <description>
+FontForge allows scripting via python, or with it’s legacy scripter, has built-in error recovery, and allows opening, editing, and converting  any of the following formats:
+
+* UFO (Unified Font Object)
+* WOFF (Web Open Format)
+* TrueType
+* OpenType
+* PostScript
+* Multiple-Master
+* CFF
+* SVG
+* Macintosh formats, including dfont and bin
+* Bitmap formats (bdf, FON, NFNT)
+* And its own SFD format. 
+
+FontForge can also extract fonts fom PDFs and validate fonts for potential issues.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/fontforge/2015.08.24</packageSourceUrl>
+    <projectUrl>https://fontforge.github.io/</projectUrl>
+    <projectSourceUrl>https://github.com/fontforge/fontforge</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/fontforge/fontforge/issues</bugTrackerUrl>
+    <docsUrl>http://fontforge.github.io/en-US/documentation/</docsUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/19d35dff574b7496b92f235fa1503d47b861871a/icons/fontforge.svg</iconUrl>
+    <tags>font-editor typography unicode python</tags>
+    <copyright>© 2001 George Williams</copyright>
+    <licenseUrl>https://github.com/fontforge/fontforge/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>https://github.com/fontforge/fontforge/releases</releaseNotes>
+    <dependencies>
+      <dependency id="autohotkey.portable" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>		
+</package>
