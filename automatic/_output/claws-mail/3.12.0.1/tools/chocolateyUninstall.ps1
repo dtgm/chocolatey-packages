@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+$packageName = 'claws-mail'
 $packageSearch = "Claws Mail *"
 $installerType = 'exe'
 $silentArgs = '/S'
