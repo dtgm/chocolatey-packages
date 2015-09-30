@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="66a4dec8-e03b-441e-9247-82ed69ac0d9c">
     <WebsiteUrl />
@@ -11,6 +11,8 @@
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -40,7 +42,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
             <Regex>projects/cryptsync-sk/files/([\d\.]+)</Regex>
-            <Url>https://sourceforge.net/projects/{appname}-sk/files</Url>
+            <Url>http://sourceforge.net/projects/cryptsync-sk/files/</Url>
             <Name>version</Name>
           </UrlVariable>
         </value>
@@ -104,6 +106,21 @@
       </item>
       <item>
         <key>
+          <string>mirrorUrlVer</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=title="/)[\d\.]{3,}</Regex>
+            <Url>http://sourceforge.net/projects/bowpad-sk/files/</Url>
+            <TextualContent>{checksum}</TextualContent>
+            <Name>mirrorUrlVer</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
           <string>mirrorUrl</string>
         </key>
         <value>
@@ -111,23 +128,9 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
             <Regex>(http[^ "'&lt;&gt;\*]+)/project</Regex>
-            <Url>https://sourceforge.net/projects/bowpad-sk/files/2.0.17/BowPad-2.0.17-portable.zip/download</Url>
-            <TextualContent>{checksum}</TextualContent>
+            <Url>http://sourceforge.net/projects/bowpad-sk/files/{mirrorUrlVer}/BowPad64-{mirrorUrlVer}-portable.zip/download</Url>
+            <TextualContent />
             <Name>mirrorUrl</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>checksum64file</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <TextualContent>{mirrorUrl}/project/cryptsync-sk/{version}/{fileName64}</TextualContent>
-            <Name>checksum64file</Name>
           </UrlVariable>
         </value>
       </item>
@@ -187,6 +190,20 @@
           </UrlVariable>
         </value>
       </item>
+      <item>
+        <key>
+          <string>checksum64fil</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>{mirrorUrl}/project/cryptsync-sk/{version}/{fileName64}</TextualContent>
+            <Name>checksum64fil</Name>
+          </UrlVariable>
+        </value>
+      </item>
     </Variables>
     <ExecuteCommand />
     <ExecutePreCommand />
@@ -194,8 +211,8 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\CryptSync-1.2.1.msi</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <PreviousLocation>F:\exe\CryptSync-1.2.1.msi</PreviousLocation>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-03-29T06:19:30.4607627</LastUpdated>
