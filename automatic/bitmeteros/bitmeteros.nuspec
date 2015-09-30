@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>BitMeter OS</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Rob Dawson</authors>
+    <owners>dtgm</owners>
+    <summary>A cross-platform bandwidth monitor</summary>
+    <description>
+BitMeter OS is a free, open-source, bandwidth monitor that works on Windows, Linux and Mac OSX. BitMeter OS keeps track of how much you use your internet/network connection, and allows you to view this information either via a web browser, or by using the command line tools.
+
+The Web Interface displays various graphs and charts that show how your internet/network connection has been used over time.
+
+Default local web interface address: http://localhost:2605
+
+#### Documentation
+* [FAQ](http://codebox.org.uk/pages/bitmeteros/faq)
+* [bmclient manual](http://codebox.org.uk/pages/bitmeteros/bmclient/man)
+* [bmdb manual](http://codebox.org.uk/pages/bitmeteros/bmdb/man) 
+* [bmsync manual](http://codebox.org.uk/pages/bitmeteros/bmsync/man)
+
+#### Community
+* [Forum](http://codebox.org.uk/jforum/forums/list.page)
+* [Twitter](https://twitter.com/codeboxsoftware)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <projectUrl>http://codebox.org.uk/pages/bitmeterOs</projectUrl>
+    <projectSourceUrl>https://github.com/codebox/bitmeteros</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/codebox/bitmeteros/issues</bugTrackerUrl>
+    <docsUrl>http://codebox.org.uk/bitmeteros/installed</docsUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/b8a70c0deb20611bc97f58a56a7e6a93c6155d31/icons/{{PackageName}}.png</iconUrl>
+    <tags>bandwidth meter monitor service</tags>
+    <copyright>© 2004 Rob Dawson</copyright>
+    <licenseUrl>https://github.com/codebox/bitmeteros/blob/master/LICENSE.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [News](http://codebox.org.uk/pages/news/html)
+* [Changelog](http://codebox.org.uk/pages/bitmeteros/change-log)
+
+#### Package
+* Automatically generated and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="autohotkey.portable" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
