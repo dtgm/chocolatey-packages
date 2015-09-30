@@ -1,20 +1,22 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="2c82ea0c-7562-4360-8739-51d3ceb71ff0">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>22776813</LastFileSize>
-    <LastFileDate>2015-03-23T07:48:03.4124387</LastFileDate>
+    <LastFileSize>22778005</LastFileSize>
+    <LastFileDate>2015-06-07T19:34:46-06:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
-    <HttpReferer />
+    <HttpReferer>https://bitcoinarmory.com/download/</HttpReferer>
     <SetupInstructions />
     <Variables>
       <item>
@@ -24,9 +26,10 @@
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <TextualContent>https://s3.amazonaws.com/bitcoinarmory-releases/armory_{version}_winAll.exe</TextualContent>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>http[^ "'&lt;&gt;\*]+\.exe</Regex>
+            <Url>https://bitcoinarmory.com/download/</Url>
+            <TextualContent />
             <Name>url</Name>
           </UrlVariable>
         </value>
@@ -38,9 +41,10 @@
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=alt="Windows"&gt;Download )([\d\.]+)(?=&lt;)</Regex>
-            <Url>https://bitcoinarmory.com/download/</Url>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <Url />
+            <TextualContent>{url:regex:(?&lt;=armory_)[\d\.]{3,\}(?=_win)}</TextualContent>
             <Name>version</Name>
           </UrlVariable>
         </value>
@@ -80,11 +84,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\armory_0.93.1_winAll.exe</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <PreviousLocation>F:\exe\armory_0.93.2_winAll.exe</PreviousLocation>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-03-23T07:48:03.4124387</LastUpdated>
+    <LastUpdated>2015-09-30T00:53:58.5548197-06:00</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>armory</Name>
