@@ -1,9 +1,10 @@
 #NoEnv
+#NoTrayIcon
 SendMode Input
 SetWorkingDir %A_ScriptDir%
-SetTitleMatchMode, 1   ;matches if title begins with string
-DetectHiddenText, off  ;will not search hidden window text
-DetectHiddenWindows, off  ;will not detect hidden windows
+SetTitleMatchMode, 1   ;match if begins
+DetectHiddenText, off
+DetectHiddenWindows, off
 
 WinWait, Uninstall ahk_class #32770, Do you want to remove, 120
 WinActivate

@@ -34,7 +34,13 @@ FontForge can also extract fonts fom PDFs and validate fonts for potential issue
     <copyright>© 2001 George Williams</copyright>
     <licenseUrl>https://github.com/fontforge/fontforge/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <releaseNotes>https://github.com/fontforge/fontforge/releases</releaseNotes>
+    <releaseNotes>
+#### Program
+* [Changelog](https://github.com/fontforge/fontforge/releases)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
     <dependencies>
       <dependency id="autohotkey.portable" />
     </dependencies>
