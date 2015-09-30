@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
-    <id>{{PackageName}}</id>
+    <id>celestia</id>
     <title>Celestia</title>
-    <version>{{PackageVersion}}</version>
+    <version>1.6.1.20150930</version>
     <authors>Celestia Development Team</authors>
     <owners>dtgm</owners>
     <summary>Real-time 3D visualization of space</summary>
@@ -16,13 +16,13 @@ Celestia is expandable. Celestia comes with a large catalog of stars, galaxies, 
 
 [Forum](http://sourceforge.net/p/celestia/discussion/)
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/celestia/1.6.1</packageSourceUrl>
     <projectUrl>http://celestia.sourceforge.net/</projectUrl>
     <projectSourceUrl>http://sourceforge.net/p/celestia/code/HEAD/tree/trunk/celestia/</projectSourceUrl>
     <bugTrackerUrl>http://sourceforge.net/p/celestia/_list/tickets</bugTrackerUrl>
     <docsUrl>http://sourceforge.net/p/celestia/code/HEAD/tree/trunk/celestia/README</docsUrl>
     <mailingListUrl>http://sourceforge.net/p/celestia/mailman/</mailingListUrl>
-    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/8c21da508c021b90c18322b5df444630306d26f5/icons/{{PackageName}}.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/8c21da508c021b90c18322b5df444630306d26f5/icons/celestia.png</iconUrl>
     <tags>3d astronomy education simulation</tags>
     <copyright>© Chris Laurel</copyright>
     <licenseUrl>http://sourceforge.net/p/celestia/code/HEAD/tree/trunk/celestia/COPYING</licenseUrl>
@@ -32,7 +32,9 @@ Celestia is expandable. Celestia comes with a large catalog of stars, galaxies, 
 * [Changelog](http://sourceforge.net/p/celestia/code/HEAD/tree/trunk/celestia/ChangeLog)
 
 #### Package
-* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+* Fixed error in install script
+* Updated uninstall script
+* Added metadata to nuspec
     </releaseNotes>
   </metadata>
   <files>
