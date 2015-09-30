@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+$packageName = 'deluge'
 $installerType = 'exe'
 $silentArgs = '/S'
 $validExitCodes = @(0)
