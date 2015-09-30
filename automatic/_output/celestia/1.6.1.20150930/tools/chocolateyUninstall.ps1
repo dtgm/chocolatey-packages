@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+$packageName = 'celestia'
 $packageSearch = "$packageName *"
 $installerType = 'exe'
 $silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
