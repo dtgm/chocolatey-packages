@@ -4,13 +4,15 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>18564257</LastFileSize>
-    <LastFileDate>2014-06-09T08:00:23-05:00</LastFileDate>
+    <LastFileSize>17040565</LastFileSize>
+    <LastFileDate>2015-07-20T02:55:07-06:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -26,7 +28,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>{urlFile:regex:(?&lt;=claws-mail-).*?(?=\.exe)}</TextualContent>
+            <TextualContent>{urlFile:regex:(?&lt;=claws-mail-)[\d\.-]{3,\}(?=\.exe)}</TextualContent>
             <Name>versionFull</Name>
           </UrlVariable>
         </value>
@@ -41,7 +43,7 @@
             <VariableType>Textual</VariableType>
             <Regex />
             <Url />
-            <TextualContent>{versionFull:replace:-pkg:.}</TextualContent>
+            <TextualContent>{versionFull:replace:-:.}</TextualContent>
             <Name>version</Name>
           </UrlVariable>
         </value>
@@ -97,7 +99,7 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>[^ "'&lt;&gt;\*]+\.exe</Regex>
+            <Regex>(?&lt;=win32/)[^ "'&lt;&gt;\*]+\.exe</Regex>
             <Url>http://www.claws-mail.org/win32/</Url>
             <Name>urlFile</Name>
           </UrlVariable>
@@ -138,11 +140,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\claws-mail-3.10.1-pkg56.exe</PreviousLocation>
+    <PreviousLocation>F:\exe\claws-mail-3.12.0-1.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-07-08T08:50:27.3482005-05:00</LastUpdated>
+    <LastUpdated>2015-09-30T09:33:47.9086012-06:00</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>claws-mail</Name>
