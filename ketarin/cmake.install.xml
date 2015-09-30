@@ -1,16 +1,18 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="d4fa882f-e3e6-409b-bfea-b676b2be208c">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>12045341</LastFileSize>
-    <LastFileDate>2015-04-15T04:33:59.5312848</LastFileDate>
+    <LastFileSize>12755149</LastFileSize>
+    <LastFileDate>2015-08-14T04:38:25.4295877</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -38,10 +40,39 @@
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>RegularExpression</VariableType>
-            <Regex>cmake-([\d\.]+)-win32</Regex>
-            <Url>http://www.cmake.org/download/</Url>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <Url />
+            <TextualContent>{urlPath:regex:(?&lt;=cmake-)[\d\.]{3,\}(?=-win)}</TextualContent>
             <Name>version</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>urlHost</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>http://cmake.org</TextualContent>
+            <Name>urlHost</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>urlPath</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>/?([^ "'&lt;&gt;\*]+\.exe)</Regex>
+            <Url>http://www.cmake.org/download/</Url>
+            <Name>urlPath</Name>
           </UrlVariable>
         </value>
       </item>
@@ -54,22 +85,8 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>{getUrl}</TextualContent>
+            <TextualContent>{urlHost}/{urlPath}</TextualContent>
             <Name>url</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>getUrl</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>RegularExpression</VariableType>
-            <Regex>/?([^ "'&lt;&gt;\*]+\.exe)</Regex>
-            <Url>http://www.cmake.org/download/</Url>
-            <Name>getUrl</Name>
           </UrlVariable>
         </value>
       </item>
@@ -94,11 +111,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\cmake-3.2.2-win32-x86.exe</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <PreviousLocation>F:\exe\cmake-3.3.1-win32-x86.exe</PreviousLocation>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-15T04:33:59.5312848</LastUpdated>
+    <LastUpdated>2015-08-14T04:38:25.4295877</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>cmake.install</Name>
