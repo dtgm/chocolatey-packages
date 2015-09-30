@@ -59,7 +59,7 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2012-05-23T02:09:37.7748325</LastUpdated>
@@ -69,19 +69,21 @@
   </ApplicationJob>
 </Jobs>]]></SourceTemplate>
     <WebsiteUrl />
-    <UserAgent>Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:40.0) Gecko/20100101 Firefox/40.0</UserAgent>
+    <UserAgent>Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:40.0)</UserAgent>
     <UserNotes>beta</UserNotes>
-    <LastFileSize>1202458</LastFileSize>
-    <LastFileDate>2015-06-17T15:12:56-05:00</LastFileDate>
+    <LastFileSize>1220794</LastFileSize>
+    <LastFileDate>2015-09-21T06:21:26-06:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Avoid</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
-    <HttpReferer>http://www.wagnardmobile.com/DDU/ddudownload.htm</HttpReferer>
+    <HttpReferer>http://www.wagnardmobile.com/forums/viewtopic.php?f=5</HttpReferer>
     <SetupInstructions />
     <Variables>
       <item>
@@ -92,8 +94,8 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=Current Version )[\d\.]+</Regex>
-            <Url>http://www.wagnardmobile.com/DDU/index.html</Url>
+            <Regex>(?&lt;=V)[\d\.]{3,}(?= Released)</Regex>
+            <Url>http://www.wagnardmobile.com/forums/viewforum.php?f=5</Url>
             <StartText>&lt;span itemprop="version"&gt;</StartText>
             <EndText>&lt;</EndText>
             <TextualContent />
@@ -151,11 +153,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\DDU v15.3.0.2.exe</PreviousLocation>
+    <PreviousLocation>F:\exe\DDU v15.5.0.0.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-06-24T21:36:54.4464111-05:00</LastUpdated>
+    <LastUpdated>2015-09-30T13:11:05.6474567-06:00</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>ddu</Name>

@@ -1,6 +1,6 @@
-﻿$packageName = '{{PackageName}}'
-$url = '{{DownloadUrl}}'
-$checksum = '{{Checksum}}'
+$packageName = 'ddu'
+$url = 'http://www.wagnardmobile.com/DDU/download/DDU v15.5.0.0.exe'
+$checksum = '43e715aef6392361f4c9a0d3a7f4b7b289517f53'
 $checksumType = 'sha1'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $installFile = Join-Path $toolsDir "Display Driver Uninstaller.exe"
