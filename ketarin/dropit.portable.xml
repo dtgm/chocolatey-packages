@@ -1,16 +1,18 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="549751ca-e2cc-4b61-ad6d-e44e9ae6d5c2">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>4135234</LastFileSize>
-    <LastFileDate>2015-03-28T08:15:22.5068677</LastFileDate>
+    <LastFileSize>4047741</LastFileSize>
+    <LastFileDate>2015-08-30T02:37:34-06:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -125,7 +127,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>1</TextualContent>
+            <TextualContent>2</TextualContent>
             <Name>cscript</Name>
           </UrlVariable>
         </value>
@@ -137,11 +139,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\DropIt_v8.0_Portable.zip</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <PreviousLocation>F:\exe\DropIt_v8.1.2_Portable.zip</PreviousLocation>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-03-28T08:15:22.5068677</LastUpdated>
+    <LastUpdated>2015-09-30T13:16:05.0032332-06:00</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>dropit.portable</Name>
