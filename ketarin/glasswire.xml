@@ -1,16 +1,18 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="9bf156e8-c22b-486a-9e4d-3030b38bd129">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>20212496</LastFileSize>
-    <LastFileDate>2015-05-07T20:59:07.2433061</LastFileDate>
+    <LastFileSize>21854008</LastFileSize>
+    <LastFileDate>2015-09-30T00:26:40-06:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -54,7 +56,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>https://www.glasswire.com/download/{getUrl}</TextualContent>
+            <TextualContent>{getUrl}</TextualContent>
             <Name>url</Name>
           </UrlVariable>
         </value>
@@ -109,11 +111,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\GlassWireSetup.exe</PreviousLocation>
+    <PreviousLocation>F:\exe\GlassWireSetup.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-05-07T20:59:07.2433061</LastUpdated>
+    <LastUpdated>2015-09-30T13:21:28.3640123-06:00</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>glasswire</Name>
