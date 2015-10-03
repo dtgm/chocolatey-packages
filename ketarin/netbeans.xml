@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="ab6306b9-81a9-4e75-80d3-d2f7d96add95">
     <WebsiteUrl />
@@ -13,6 +13,8 @@ https://netbeans.org/community/releases/roadmap.html
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -27,8 +29,8 @@ https://netbeans.org/community/releases/roadmap.html
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>.*[^ '&lt;&gt;\*] NAME="([\d\.]+)</Regex>
-            <Url>http://download.netbeans.org/netbeans</Url>
+            <Regex>(?&lt;=&lt;td class="tbltd1" align="center"&gt;)[\d\.]+(?=&lt;/td&gt;\s+&lt;td class="tbltd1"&gt;&lt;i&gt;&lt;b&gt;Released)</Regex>
+            <Url>https://netbeans.org/community/releases/roadmap.html</Url>
             <TextualContent />
             <Name>version</Name>
           </UrlVariable>
@@ -111,8 +113,8 @@ https://netbeans.org/community/releases/roadmap.html
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\netbeans-8.0.2-javase-windows.exe</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <PreviousLocation>F:\exe\netbeans-8.0.2-javase-windows.exe</PreviousLocation>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-02-05T00:46:57.6584081</LastUpdated>
