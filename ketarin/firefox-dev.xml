@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="084d91c9-1068-42e5-a1da-f354275e4782">
     <WebsiteUrl />
@@ -14,13 +14,15 @@ language
 https://ftp.mozilla.org/pub/mozilla.org/firefox/nightly/latest-mozilla-aurora/firefox-40.0a2.en-US.langpack.xpi
 
 https://ftp.mozilla.org/pub/mozilla.org/firefox/nightly/2015/05/2015-05-19-00-40-02-mozilla-aurora/</UserNotes>
-    <LastFileSize>41562064</LastFileSize>
-    <LastFileDate>2015-05-20T00:00:43.1848675</LastFileDate>
+    <LastFileSize>43871840</LastFileSize>
+    <LastFileDate>2015-10-03T06:29:04-06:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator>version</VariableChangeIndicator>
+    <HashVariable />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -137,7 +139,7 @@ https://ftp.mozilla.org/pub/mozilla.org/firefox/nightly/2015/05/2015-05-19-00-40
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=href=")\d{4}-\d{2}[^/"]+aurora(?=/")</Regex>
+            <Regex>.*(?&lt;=href=")(\d{4}-\d{2}[^/"]+aurora)(?=/")</Regex>
             <Url>{urlPath0}/?C=N;O=D</Url>
             <TextualContent />
             <Name>urlPath3</Name>
@@ -306,11 +308,11 @@ https://ftp.mozilla.org/pub/mozilla.org/firefox/nightly/2015/05/2015-05-19-00-40
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\firefox-40.0a2.en-US.win32.installer.exe</PreviousLocation>
+    <PreviousLocation>F:\exe\firefox-43.0a2.en-US.win32.installer.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-05-20T00:00:43.1848675</LastUpdated>
+    <LastUpdated>2015-10-03T16:51:14.2800709-06:00</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>firefox-dev</Name>
