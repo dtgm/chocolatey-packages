@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="13113f2d-6ba0-41ff-b2ba-27ae2ca6dae1">
     <WebsiteUrl />
@@ -17,13 +17,15 @@ FTP releases
 https://ftp.mozilla.org/pub/mozilla.org/firefox/releases/
 regex subdir
 .*(?&lt;=&gt;)([\d\.]{3,}b\d+)</UserNotes>
-    <LastFileSize>42387504</LastFileSize>
-    <LastFileDate>2015-05-19T22:17:56.4493301</LastFileDate>
+    <LastFileSize>44814968</LastFileSize>
+    <LastFileDate>2015-10-03T08:24:33-06:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator>version</VariableChangeIndicator>
+    <HashVariable />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -243,17 +245,17 @@ regex subdir
         </value>
       </item>
     </Variables>
-    <ExecuteCommand>cpush C:\dev\chocolatey\chocolatey-packages\automatic\_output\{appname}\{version}\{appname}.{versionLong}.nupkg</ExecuteCommand>
+    <ExecuteCommand>cpush {chocoPkgOutput}\{appname}\{version}\{appname}.{versionLong}.nupkg</ExecuteCommand>
     <ExecutePreCommand />
     <ExecuteCommandType>Batch</ExecuteCommandType>
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\firefox-41.0a1.en-US.win32.installer.exe</PreviousLocation>
+    <PreviousLocation>F:\exe\firefox-44.0a1.en-US.win32.installer.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-05-19T22:17:56.4493301</LastUpdated>
+    <LastUpdated>2015-10-03T17:01:38.8932301-06:00</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>firefox-nightly</Name>
