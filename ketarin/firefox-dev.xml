@@ -219,7 +219,7 @@ https://ftp.mozilla.org/pub/mozilla.org/firefox/nightly/2015/05/2015-05-19-00-40
       </item>
       <item>
         <key>
-          <string>yopush</string>
+          <string>nopush</string>
         </key>
         <value>
           <UrlVariable>
@@ -227,7 +227,7 @@ https://ftp.mozilla.org/pub/mozilla.org/firefox/nightly/2015/05/2015-05-19-00-40
             <VariableType>Textual</VariableType>
             <Regex />
             <TextualContent>--nopush</TextualContent>
-            <Name>yopush</Name>
+            <Name>nopush</Name>
           </UrlVariable>
         </value>
       </item>
@@ -302,7 +302,7 @@ https://ftp.mozilla.org/pub/mozilla.org/firefox/nightly/2015/05/2015-05-19-00-40
         </value>
       </item>
     </Variables>
-    <ExecuteCommand>cpush C:\dev\chocolatey\chocolatey-packages\automatic\_output\{appname}\{version}\{appname}.{versionLong}.nupkg</ExecuteCommand>
+    <ExecuteCommand>cpush {chocoPkgOutput}\{appname}\{version}\{appname}.{versionLong}.nupkg</ExecuteCommand>
     <ExecutePreCommand />
     <ExecuteCommandType>Batch</ExecuteCommandType>
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
@@ -312,7 +312,7 @@ https://ftp.mozilla.org/pub/mozilla.org/firefox/nightly/2015/05/2015-05-19-00-40
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-10-03T16:51:14.2800709-06:00</LastUpdated>
+    <LastUpdated>2015-10-03T16:58:21.149918-06:00</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>firefox-dev</Name>
