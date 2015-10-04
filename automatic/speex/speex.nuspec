@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>Speex</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Xiph.Org</authors>
+    <owners>dtgm</owners>
+    <summary>Patent-free audio compression format designed for speech</summary>
+    <description>
+Speex is an Open Source/Free Software patent-free audio compression format designed for speech. The Speex Project aims to lower the barrier of entry for voice applications by providing a free alternative to expensive proprietary speech codecs. Moreover, Speex is well-adapted to Internet applications and provides useful features that are not present in most other codecs. Finally, Speex is part of the GNU Project and is available under the revised BSD license.
+
+Speex is based on CELP and is designed to compress voice at bitrates ranging from 2 to 44 kbps. Some of Speex's features include:
+
+* Narrowband (8 kHz), wideband (16 kHz), and ultra-wideband (32 kHz) compression in the same bitstream
+* Intensity stereo encoding
+* Packet loss concealment
+* Variable bitrate operation (VBR)
+* Voice Activity Detection (VAD)
+* Discontinuous Transmission (DTX)
+* Fixed-point port
+* Acoustic echo canceller
+* Noise suppression
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <projectUrl>http://www.speex.org/</projectUrl>
+    <projectSourceUrl>http://git.xiph.org/speex.git/</projectSourceUrl>
+    <docsUrl>http://www.speex.org/docs/</docsUrl>
+    <mailingListUrl>http://www.speex.org/contact/</mailingListUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/17c8da78374360971fd5ccf8b2bf5fe7b9956696/icons/{{PackageName}}.png</iconUrl>
+    <tags>audio codec voip</tags>
+    <copyright>© 1994 Xiph.Org</copyright>
+    <licenseUrl>http://www.speex.org/docs/manual/speex-manual/node15.html#sec:Speex-License</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [News](http://www.speex.org/news/)
+* [Roadmap](http://www.speex.org/roadmap/)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="autohotkey.portable" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
