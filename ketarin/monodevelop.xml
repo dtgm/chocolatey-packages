@@ -1,16 +1,18 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="2ee27915-693a-451f-b01e-6eb6de87df55">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>46034944</LastFileSize>
-    <LastFileDate>2015-05-07T20:11:01.0278486</LastFileDate>
+    <LastFileSize>46047232</LastFileSize>
+    <LastFileDate>2015-09-02T15:22:16-06:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -48,16 +50,16 @@
       </item>
       <item>
         <key>
-          <string>url</string>
+          <string>urlPath</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>[^ "'&lt;&gt;\*]+-0\.msi</Regex>
+            <Regex>(?&lt;=//)[^ "'&lt;&gt;\*]+-0\.msi</Regex>
             <Url>http://www.monodevelop.com/download/</Url>
             <TextualContent />
-            <Name>url</Name>
+            <Name>urlPath</Name>
           </UrlVariable>
         </value>
       </item>
@@ -75,6 +77,34 @@
           </UrlVariable>
         </value>
       </item>
+      <item>
+        <key>
+          <string>urlProt</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>https://</TextualContent>
+            <Name>urlProt</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>{urlProt}{urlPath}</TextualContent>
+            <Name>url</Name>
+          </UrlVariable>
+        </value>
+      </item>
     </Variables>
     <ExecuteCommand />
     <ExecutePreCommand />
@@ -82,11 +112,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\XamarinStudio-5.9.0.431-0.msi</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <PreviousLocation>F:\exe\XamarinStudio-5.9.6.23-0.msi</PreviousLocation>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-05-07T20:11:01.0278486</LastUpdated>
+    <LastUpdated>2015-10-04T08:57:45.5014278-06:00</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>monodevelop</Name>
