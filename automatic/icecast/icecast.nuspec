@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>Icecast</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Xiph.Org</authors>
+    <owners>dtgm</owners>
+    <summary>Free server software for streaming multimedia</summary>
+    <description>
+Icecast is a streaming media server which currently supports Ogg (Vorbis and Theora), Opus, WebM and MP3 audio streams.
+
+It can be used to create an Internet radio station or a privately running jukebox and many things in between. It is very versatile in that new formats can be added relatively easily and supports open standards for communication and interaction.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <projectUrl>http://www.icecast.org/</projectUrl>
+    <projectSourceUrl>https://github.com/xiph/Icecast-Server</projectSourceUrl>
+    <bugTrackerUrl>https://trac.xiph.org/newticket</bugTrackerUrl>
+    <docsUrl>http://www.icecast.org/docs/</docsUrl>
+    <mailingListUrl>http://www.icecast.org/contact#mailing-list</mailingListUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/84184c3483741cd6561294e5bff4fb8bb9e1ec91/icons/{{PackageName}}.png</iconUrl>
+    <tags>multimedia streaming</tags>
+    <copyright>© 2004 Xiph.Org</copyright>
+    <licenseUrl>https://github.com/xiph/Icecast-Server/blob/master/COPYING</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [News](https://github.com/xiph/Icecast-Server/blob/master/NEWS)
+* [Changelog](https://github.com/xiph/Icecast-Server/blob/master/ChangeLog)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
