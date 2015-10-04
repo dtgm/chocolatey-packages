@@ -16,22 +16,31 @@ NSIS is script-based and allows you to create the logic to handle even the most 
 
 [Screenshots](http://nsis.sourceforge.net/Screenshots)
 [FAQ](http://nsis.sourceforge.net/FAQ)
-[Documentation: User](http://nsis.sourceforge.net/Support)
-[Documentation: Developer](http://nsis.sourceforge.net/Developer_Center)
+[Developer documentation](http://nsis.sourceforge.net/Developer_Center)
     </description>
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://nsis.sourceforge.net/</projectUrl>
     <projectSourceUrl>https://sourceforge.net/p/nsis/code/HEAD/tree/</projectSourceUrl>
+    <bugTrackerUrl>http://nsis.sourceforge.net/Bug_Reports</bugTrackerUrl>
+    <docsUrl>http://nsis.sourceforge.net/Support</docsUrl>
+    <mailingListUrl>http://nsis.sourceforge.net/Community</mailingListUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/7d5e648830fdca7a958270dae82fba8c7fe44f5d/icons/nsis.png</iconUrl>
     <tags>installer build developer programming</tags>
     <copyright>© 1999 NSIS Contributors</copyright>
     <licenseUrl>http://nsis.sourceforge.net/License</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-[Changelog](http://nsis.sourceforge.net/News)
+#### Program
+* [Changelog](http://nsis.sourceforge.net/Change_Log)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
     <dependencies>
       <dependency id="{{PackageName}}.install" version="[{{PackageVersion}}]" />
     </dependencies>
   </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
 </package>

@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+$packageName = 'nsis.install'
 $packageSearch = 'Nullsoft Install System'
 $installerType = 'exe'
 $silentArgs = '/S'
