@@ -5,13 +5,15 @@
     <UserAgent />
     <UserNotes>http://ournem.com/install.html
 http://nemcoin.com/install.html</UserNotes>
-    <LastFileSize>32796855</LastFileSize>
-    <LastFileDate>2015-06-20T18:38:51.2338474</LastFileDate>
+    <LastFileSize>32812426</LastFileSize>
+    <LastFileDate>2015-07-29T12:14:53-06:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -39,10 +41,10 @@ http://nemcoin.com/install.html</UserNotes>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <Url />
-            <TextualContent>{getUrl:regex:(?&lt;=-)[\d\.]{3,\}(?=-)}</TextualContent>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>[\d\.]{3,}</Regex>
+            <Url>http://bob.nem.ninja/version.txt</Url>
+            <TextualContent />
             <Name>version</Name>
           </UrlVariable>
         </value>
@@ -56,7 +58,7 @@ http://nemcoin.com/install.html</UserNotes>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>http://bob.nem.ninja/{getUrl}</TextualContent>
+            <TextualContent>{urlHost}/{urlPath}/{appname}wallet-{version}{getUrl}</TextualContent>
             <Name>url</Name>
           </UrlVariable>
         </value>
@@ -70,7 +72,7 @@ http://nemcoin.com/install.html</UserNotes>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
             <Regex>/?([^ "'&lt;&gt;\*]+\.exe)</Regex>
-            <Url>http://bob.nem.ninja/installer</Url>
+            <Url>{urlHost}/{urlPath}</Url>
             <Name>getUrl</Name>
           </UrlVariable>
         </value>
@@ -89,6 +91,34 @@ http://nemcoin.com/install.html</UserNotes>
           </UrlVariable>
         </value>
       </item>
+      <item>
+        <key>
+          <string>urlHost</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>http://bob.nem.ninja</TextualContent>
+            <Name>urlHost</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>urlPath</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>installer</TextualContent>
+            <Name>urlPath</Name>
+          </UrlVariable>
+        </value>
+      </item>
     </Variables>
     <ExecuteCommand />
     <ExecutePreCommand />
@@ -96,11 +126,11 @@ http://nemcoin.com/install.html</UserNotes>
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\nemwallet-0.6.31-windows-installer.exe</PreviousLocation>
+    <PreviousLocation>F:\exe\nemwallet-0.6.43-windows-installer.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-06-20T18:38:51.2338474</LastUpdated>
+    <LastUpdated>2015-10-03T17:30:04.6981447-06:00</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>nem</Name>
