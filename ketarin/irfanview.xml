@@ -1,0 +1,166 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<Jobs>
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="f2bfaea8-7629-4062-ae7b-fb77ef13fc29">
+    <WebsiteUrl />
+    <UserAgent />
+    <UserNotes />
+    <LastFileSize>2126264</LastFileSize>
+    <LastFileDate>2015-09-23T06:47:20-06:00</LastFileDate>
+    <IgnoreFileInformation>false</IgnoreFileInformation>
+    <DownloadBeta>Default</DownloadBeta>
+    <DownloadDate xsi:nil="true" />
+    <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
+    <VariableChangeIndicator />
+    <HashVariable />
+    <HashType>None</HashType>
+    <CanBeShared>true</CanBeShared>
+    <ShareApplication>false</ShareApplication>
+    <ExclusiveDownload>false</ExclusiveDownload>
+    <HttpReferer>http://www.irfanview.info/files/</HttpReferer>
+    <SetupInstructions />
+    <Variables>
+      <item>
+        <key>
+          <string>nopush</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>--nopush</TextualContent>
+            <Name>nopush</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>version</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=Version )[\d\.]+</Regex>
+            <Url>http://www.irfanview.com/main_history.htm</Url>
+            <Name>version</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(http[^"]*\.exe)</Regex>
+            <Url>http://www.fosshub.com/IrfanView.html/{urlFile}</Url>
+            <TextualContent />
+            <Name>url</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url64</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>@('{urlHost}/{urlFile}','{urlHost}/{url64File}')</TextualContent>
+            <Name>url64</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>checksum64file</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(http[^"]*64_setup\.exe)</Regex>
+            <Url>http://www.fosshub.com/IrfanView.html/{url64File}</Url>
+            <TextualContent />
+            <Name>checksum64file</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>urlHost</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>http://www.fosshub.com/genLink/IrfanView</TextualContent>
+            <Name>urlHost</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>urlFile</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>[^ "'&lt;&gt;\*]+\.exe</Regex>
+            <Url>http://www.fosshub.com/IrfanView.html</Url>
+            <Name>urlFile</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url64File</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>[^ "'&lt;&gt;\*]+64_setup\.exe</Regex>
+            <Url>http://www.fosshub.com/IrfanView.html</Url>
+            <Name>url64File</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>cscript</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>2</TextualContent>
+            <Name>cscript</Name>
+          </UrlVariable>
+        </value>
+      </item>
+    </Variables>
+    <ExecuteCommand />
+    <ExecutePreCommand />
+    <ExecuteCommandType>Batch</ExecuteCommandType>
+    <ExecutePreCommandType>Batch</ExecutePreCommandType>
+    <Category />
+    <SourceType>FixedUrl</SourceType>
+    <PreviousLocation>F:\exe\iview440_setup32bit.exe</PreviousLocation>
+    <DeletePreviousFile>false</DeletePreviousFile>
+    <Enabled>true</Enabled>
+    <FileHippoId />
+    <LastUpdated>2015-10-04T12:53:46.5072557-06:00</LastUpdated>
+    <TargetPath>{workdir}\</TargetPath>
+    <FixedDownloadUrl>{url}</FixedDownloadUrl>
+    <Name>irfanview</Name>
+  </ApplicationJob>
+</Jobs>

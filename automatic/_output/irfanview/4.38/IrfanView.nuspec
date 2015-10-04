@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>IrfanView</id>
+    <version>4.38</version>
+    <title>IrfanView</title>
+    <authors>Irfan Skiljan</authors>
+    <owners>H. Alan Stevens</owners>
+    <licenseUrl>http://www.irfanview.com/eula.htm</licenseUrl>
+    <projectUrl>http://www.irfanview.com/</projectUrl>
+    <iconUrl>https://github.com/alanstevens/ChocoPackages/raw/master/IrfanView/IrfanView.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>IrfanView is a very fast, small, compact and innovative FREEWARE (for non-commercial use) graphic viewer for Windows.</description>
+    <summary>IrfanView is a very fast, small, compact and innovative FREEWARE (for non-commercial use) graphic viewer.</summary>
+    <tags>IrfanView</tags>
+  </metadata>
+</package>
