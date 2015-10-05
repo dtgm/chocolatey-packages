@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>popcorntime</id>
+    <title>Popcorn Time</title>
+    <version>0.3.8.5</version>
+    <authors>Pochoclín</authors>
+    <owners>tonigellida dtgm</owners>
+    <summary>Stream movies and TV shows from torrents</summary>
+    <description>
+Watch movies free on your desktop, with a big movie catalog.
+
+[FAQ](https://popcorntime.io/faq)
+[User support forums](https://discuss.popcorntime.io/)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/popcorntime/0.3.8.5</packageSourceUrl>
+    <projectUrl>https://popcorntime.io/</projectUrl>
+    <projectSourceUrl>https://git.popcorntime.io/popcorntime/desktop/tree/master</projectSourceUrl>
+    <tags>peer-to-peer movie-catalog torrent</tags>
+    <copyright>© Pochoclin</copyright>
+    <licenseUrl>https://git.popcorntime.io/popcorntime/desktop/raw/master/LICENSE.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/5df5d849c2feb6a30225bad1f7a8e27d4cd2fa65/icons/popcorntime.png</iconUrl>
+    <releaseNotes>[Changelog](https://git.popcorntime.io/popcorntime/desktop/blob/master/CHANGELOG.md)</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
