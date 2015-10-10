@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>partitionwizard</id>
+    <title>MiniTool Partition Wizard Home Edition</title>
+    <version>9.1.0</version>
+    <authors>MT Solution Ltd.</authors>
+    <owners>dtgm</owners>
+    <summary>Free partition manager</summary>
+    <description>
+Partition Wizard Free Edition is a free partition manager software designed by MiniTool Solution Ltd. Our partition manager supports 32/64 bit Windows Operating System including Windows XP, Vista and Windows 7/8. Home users can perform complicated partition operations by using this powerful yet free partition manager to manage their hard disk. Functions include: Resizing partitions, Copying partitions, Create partition, Delete partition, Format partition, Convert partition, Explore partition, Hide partition, Change drive letter, Set active partition, Partition Recovery. Partition Wizard Home Edition is designated for home user only, to use Partition Wizard in a business environment, Partition Wizard Professional Edition is required.
+
+#### Documentation
+* [Features](http://www.partitionwizard.com/free-partition-manager.html#partition-free)
+* [Screenshots](http://www.partitionwizard.com/free-partition-manager.html#screenshot)
+* [System requirements](http://www.partitionwizard.com/free-partition-manager.html#support-s)
+* [FAQ](http://www.partitionwizard.com/faq.html)
+
+#### Community
+* [Facebook](https://www.facebook.com/pages/MiniTool/230388176998483)
+* [Google+](https://plus.google.com/+Minitoolsoftware/)
+* [Twitter](https://twitter.com/Mini_Tools)
+
+#### Freeware
+This package installs the free edition of Partition Wizard. [Additional features](http://www.partitionwizard.com/comparison.html#main-features) may be unlocked with [purchase](http://www.partitionwizard.com/buy.html) of a license.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/partitionwizard/9.1.0</packageSourceUrl>
+    <projectUrl>http://www.partitionwizard.com/free-partition-manager.html</projectUrl>
+    <docsUrl>http://www.partitionwizard.com/help/</docsUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/408ded4dd91e2df4543abc86857677fb7e10c0d3/icons/partitionwizard.png</iconUrl>
+    <tags>freeware filesystem partition disk tools</tags>
+    <copyright>© 2009 MiniTool Solution Ltd</copyright>
+    <licenseUrl>http://www.partitionwizard.com/terms_conditions.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Changelog](http://www.partitionwizard.com/upgrade-history.html)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

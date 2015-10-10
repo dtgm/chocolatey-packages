@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>livecontactsview</id>
+    <title>LiveContactsView</title>
+    <version>1.26</version>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm</owners>
+    <summary>View/export contacts of Windows Live Messenger (contacts.edb)</summary>
+    <description>
+LiveContactsView is a small utility that allows you to view the details of all contacts in your Windows Live Messenger.
+
+For each contact, LiveContactsView display the following fields: Email address, nickname, quick name, first name, last name, and more.
+
+You can easily select one or more contacts and then export them into text/xml/html/csv file, or copy them into the clipboard and then paste them into Excel or to other spreadsheet application. 
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/livecontactsview/1.26</packageSourceUrl>
+    <projectUrl>http://www.nirsoft.net/utils/live_messenger_contacts.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/livecontactsview.png</iconUrl>
+    <tags>export contacts live messenger edb</tags>
+    <copyright>© 2009 NirSoft</copyright>
+    <licenseUrl>http://www.nirsoft.net/utils/live_messenger_contacts.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[What's New?](http://www.nirsoft.net/utils/live_messenger_contacts.html)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

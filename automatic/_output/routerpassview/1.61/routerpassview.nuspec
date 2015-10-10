@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>routerpassview</id>
+    <title>RouterPassView</title>
+    <version>1.61</version>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm</owners>
+    <summary>Recover lost password from router backup file</summary>
+    <description>
+Most modern routers allow you to backup the configuration of the router into a file, and then restore the configuration from the file when it's needed.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/routerpassview/1.61</packageSourceUrl>
+    <projectUrl>http://www.nirsoft.net/utils/router_password_recovery.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/routerpassview.png</iconUrl>
+    <tags>recovery router key lost backup config file</tags>
+    <copyright>© 2010 NirSoft</copyright>
+    <licenseUrl>http://www.nirsoft.net/utils/router_password_recovery.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[What's New?](http://www.nirsoft.net/utils/router_password_recovery.html)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
