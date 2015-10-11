@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>shareaza</id>
+    <title>Shareaza</title>
+    <version>2.7.9.0</version>
+    <authors>Nikolay Raspopov</authors>
+    <owners>dtgm</owners>
+    <summary>A universal P2P file sharing client</summary>
+    <description>
+Shareaza is a very powerful multi-network peer-to-peer file-sharing client supporting Gnutella² G2, Gnutella, eDonkey2000 / eMule, DC++, HTTP, FTP and BitTorrent / DHT protocols for Windows or Wine.
+
+[Features](http://shareaza.sourceforge.net/?id=tour)
+[Forum](http://shareaza.sourceforge.net/phpbb/)
+[Wiki](http://shareaza.sourceforge.net/mediawiki/)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/shareaza/2.7.9.0</packageSourceUrl>
+    <projectUrl>http://shareaza.sourceforge.net/</projectUrl>
+    <projectSourceUrl>https://sourceforge.net/p/shareaza/code/HEAD/tree/</projectSourceUrl>
+    <tags>p2p filesharing</tags>
+    <copyright>© Nikolay Raspopov</copyright>
+    <licenseUrl>https://sourceforge.net/p/shareaza/code/HEAD/tree/trunk/shareaza/LICENSE.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/92dc5ae4520369921a88a26ea2ffc7e7602ff7dd/icons/shareaza.png</iconUrl>
+    <releaseNotes>
+[Changelog](http://shareaza.sourceforge.net/mediawiki/index.php/ChangeLog)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="vcredist2013" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
