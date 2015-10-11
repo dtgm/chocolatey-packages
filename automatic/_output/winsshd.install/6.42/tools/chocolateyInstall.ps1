@@ -1,6 +1,8 @@
 $packageName = 'Bitvise SSH Server'
 $installerType = 'exe'
-$url  = 'http://dl.bitvise.com/BvSshServer-Inst.exe'
+$url = 'http://dl.bitvise.com/BvSshServer-Inst.exe'
+$checksum = '5aea0d877032a36692f58e0c61c30343'
+$checkType = 'md5'
 $silentArgs = ''
 $validExitCodes = @(0..63)
 
@@ -64,6 +66,13 @@ if ($packageParameters) {
       $siteName = $arguments["site"]
       $silentArgs += " -site=" + $siteName
       $defaultSite = $false
+    }
+    
+    # rename install location
+    if ( $arguments.ContainsKey("renameExistingDir") ) {
+      Write-Host "renameExistingDir Argument Found"
+      $renameExistingDir = $arguments["renameExistingDir"]
+      $silentArgs += " -renameExistingDir=" + $renameExistingDir
     }
 
     if ( $arguments.ContainsKey("force") ) {
