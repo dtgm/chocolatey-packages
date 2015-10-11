@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>eviacam</id>
+    <title>Enable Viacam</title>
+    <version>2.0.1</version>
+    <authors>Cesar Mauri-Loba</authors>
+    <owners>dtgm</owners>
+    <summary>Webcam based mouse emulator</summary>
+    <description>
+Enable Viacam (eViacam) is a mouse replacement software that moves the pointer as you move your head.
+
+It works on standard PC equipped with a webcam. No additional hardware is required.
+
+[Forum](http://sourceforge.net/p/eviacam/discussion/)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/eviacam/2.0.1</packageSourceUrl>
+    <projectUrl>http://eviacam.sourceforge.net/</projectUrl>
+    <projectSourceUrl>http://sourceforge.net/p/eviacam/eviacam/</projectSourceUrl>
+    <bugTrackerUrl>https://sourceforge.net/p/eviacam/bugs/</bugTrackerUrl>
+    <docsUrl>http://eviacam.sourceforge.net/help/en/contents.htm</docsUrl>
+    <mailingListUrl>https://sourceforge.net/p/eviacam/mailman/</mailingListUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/33f970426f6bb2bbf2b4b15e1f40b3697cea4c8f/icons/eviacam.png</iconUrl>
+    <tags>hid face mouse</tags>
+    <copyright>© 2008 Cesar Mauri-Loba</copyright>
+    <licenseUrl>http://sourceforge.net/p/eviacam/eviacam/ci/master/tree/COPYING</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [News](http://sourceforge.net/p/eviacam/news/)
+* [ToDo](http://sourceforge.net/p/eviacam/eviacam/ci/master/tree/TODO)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
