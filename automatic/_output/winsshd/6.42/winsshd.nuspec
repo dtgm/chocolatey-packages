@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
-    <id>winsshd.install</id>
-    <title>WinSSHD (Install)</title>
+    <id>winsshd</id>
+    <title>WinSSHD</title>
     <version>6.42</version>
     <authors>Bitvise Limited</authors>
     <owners>dtgm</owners>
@@ -46,9 +46,9 @@ Note: Use two single quotes when double quotes are desired."
 * `'"/startBssCtrl"`'
 
 #### Example
-* `choco install winsshd.install -packageparameters '"/InstallLocation=C:\temp"'`
+* `choco install winsshd -packageparameters '"/InstallLocation=C:\temp"'`
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/winsshd.install/6.42</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/winsshd/6.42</packageSourceUrl>
     <projectUrl>http://www.bitvise.com/ssh-server</projectUrl>
     <docsUrl>https://www.bitvise.com/ssh-server-users-guide</docsUrl>
     <tags>ssh server</tags>
@@ -63,6 +63,9 @@ Note: Use two single quotes when double quotes are desired."
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
+  <dependencies>
+      <dependency id="winsshd.install" version="[6.42]" />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

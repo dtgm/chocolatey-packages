@@ -6,7 +6,7 @@
     <version>{{PackageVersion}}</version>
     <authors>Bitvise Limited</authors>
     <owners>dtgm</owners>
-    <summary>SSH Server provides secure remote login capabilities to Windows workstations and servers.</summary>
+    <summary>SSH Server provides secure remote login capabilities to Windows workstations and servers</summary>
     <description>
 Security is our SSH server's key feature: in contrast with Telnet and FTP servers, Bitvise SSH Server encrypts data during transmission. Thus, no one can sniff your password or see what files you are transferring when you access your computer over SSH.
 
@@ -22,16 +22,46 @@ Personal Edition (installed by default) is free for non-commercial, personal use
   * GSSAPI authentication is disabled (Kerberos and NTLM).
 
 For any organizational use (non-commercial or commercial) or to remove the limitations of the Personal Edition, it is required to purchase a Standard Edition license and will require re-installing this package with the parameter -standardedition.  See http://www.bitvise.com/ssh-server-license for more information.
+
+#### Package Parameters
+
+You may pass native install arguments directly to `BvSshServer-Inst.exe` with -ia -installArgs or -installArguments
+
+For example: `choco install winsshd -packageParameters '/installDir=''C:\foo bar\''"`
+
+Note: Use two single quotes when double quotes are desired."
+
+* `'"/installDir=C:\Path\to\installationdirectory"`' - overwrite the default installation directory
+* `'"/site=site-name"`'
+* `'"/renameExistingDir=existingDir"`'
+* `'"/force"`'
+* `'"/acceptEULA"`'
+* `'"/interactive"`'
+* `'"/noRollback"`'
+* `'"/activationCode=activation-code-hex"`'
+* `'"/keypairs=keypairs-file"`'
+* `'"/settings=settings-file"`'
+* `'"/siteTypeSettings=fileName"`'
+* `'"/startService"`'
+* `'"/startBssCtrl"`'
+
+#### Example
+* `choco install {{PackageName}} -packageparameters '"/InstallLocation=C:\temp"'`
     </description>
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.bitvise.com/ssh-server</projectUrl>
+    <docsUrl>https://www.bitvise.com/ssh-server-users-guide</docsUrl>
     <tags>ssh server</tags>
     <copyright>Bitvise Limited</copyright>
     <licenseUrl>http://www.bitvise.com/ssh-server-license</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/master/icons/winsshd.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/4039ff8f517da1f1d35f59ac7c7f28a3d5645a9a/icons/winsshd.png</iconUrl>
     <releaseNotes>
-http://www.bitvise.com/ssh-server-version-history
+#### Program
+* [Changelog](http://www.bitvise.com/ssh-server-version-history)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   <dependencies>
       <dependency id="{{PackageName}}.install" version="[{{PackageVersion}}]" />
