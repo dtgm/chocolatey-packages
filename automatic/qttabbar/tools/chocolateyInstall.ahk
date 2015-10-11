@@ -24,17 +24,8 @@ if !ErrorLevel = 0 {
 ;  WinActivate, ahk_pid %pid%, , 10
   WinWait, %winTitleIE%, , 60
   WinActivate, %winTitleIE%, , 60
-  Sleep 1000
-}
-
-Loop {
   Send {ALT Down}x{ALT Up}m
-  IfWinExist, %winTitleAddons% 
-  {
-    WinActivate
-    break
-  }
-  Sleep 150
+  Sleep 250
 }
 
 Send {TAB 2}QTTabBar{ALT Down}e{ALT Up}
