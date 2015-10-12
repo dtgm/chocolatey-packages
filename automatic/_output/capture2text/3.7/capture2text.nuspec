@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>capture2text</id>
+    <title>Capture2Text</title>
+    <version>3.7</version>
+    <authors>Christopher Brochtrup</authors>
+    <owners>dtgm</owners>
+    <summary>Quickly OCR part of the screen and save resulting text to clipboard</summary>
+    <description>
+Capture2Text enables users to quickly OCR a small portion of the screen and, by default, save the result to the clipboard. Capture2Text can OCR 50+ languages. By default only the following languages are installed:
+
+* English
+* French
+* German
+* Italian
+* Japanese 
+* Spanish
+
+To acquire other languages:
+
+1. Download the appropriate OCR language dictionaries from: https://sourceforge.net/projects/capture2text/files/Dictionaries/
+2. Extract the ".zip" file you just downloaded with 7-Zip or similar decompression software.
+3. Drag all files contained within the zip file to this path in the Capture2Text directory: `$Env:ChocolateyInstall\lib\capture2text\Capture2Text\Utils\tesseract\tessdata`
+4. Restart Capture2Text
+
+Note: Arabic and Hindi are more CPU intensive and will thus be slower to OCR.
+
+To install the Chinese (NHocr) language pack:
+
+1. Download nhocr from: https://sourceforge.jp/projects/nhocr/
+2. Open it with 7-Zip and copy `PLM-zh_CN.dic` and `cctable-zh_CN` to `$Env:ChocolateyInstall\lib\capture2text\Capture2Text\Utils\nhocr\Dic`
+3. Restart Capture2Text
+
+[FAQ](http://capture2text.sourceforge.net/#troubleshooting)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/capture2text/3.7</packageSourceUrl>
+    <projectUrl>http://capture2text.sourceforge.net/</projectUrl>
+    <projectSourceUrl>http://sourceforge.net/projects/capture2text/files/Capture2Text/</projectSourceUrl>
+    <docsUrl>http://sourceforge.net/projects/capture2text/files/Capture2Text/Capture2Text_v3.7/#readme</docsUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/9bb7a03ef89b88cdde3ab746d3a4c97c9cd0581b/icons/capture2text.png</iconUrl>
+    <tags>img2ocr tesseract nhocr leptonica screencapture</tags>
+    <copyright>© 2012 Christopher Brochtrup</copyright>
+    <licenseUrl>http://www.gnu.org/licenses/gpl-3.0.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Changelog](http://sourceforge.net/projects/capture2text/files/Capture2Text/#readme)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
