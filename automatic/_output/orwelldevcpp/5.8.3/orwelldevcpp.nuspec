@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>orwelldevcpp</id>
+    <version>5.8.3</version>
+    <title>Orwell Dev-C++</title>
+    <authors>Orwell</authors>
+    <owners>tonigellida</owners>
+    <licenseUrl>http://www.gnu.org/licenses/gpl.html</licenseUrl>
+    <projectUrl>http://orwelldevcpp.blogspot.com.es/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/adgellida/chocolateyautomaticpackages/master/icons/orwelldevcpp.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A Portable (IDE) Integrated Development Environment and Compiler for the C++ programming language.
+	It's a maintained version of Dev-C++ which features an updated MinGW compiler and updated code.
+	Sporting GCC, Mingw or Cygwin as compiler and libraries set, this C++ Development Environment has been ported for use within a Windows environment.</description>
+    <summary>A Portable (IDE) Integrated Development Environment and Compiler for the C++ programming language.</summary>
+    <copyright />
+    <tags>development ide compiler c++</tags>
+  </metadata>
+</package>
