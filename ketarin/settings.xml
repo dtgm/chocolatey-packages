@@ -62,7 +62,7 @@
       &lt;string&gt;host&lt;/string&gt;
     &lt;/key&gt;
     &lt;value&gt;
-      &lt;string&gt;{url:regex:(?&amp;lt;=//).*?(?=/)}&lt;/string&gt;
+      &lt;string&gt;{url:regex:(?&amp;lt;=//)([\w-]+\.)*(?=[\w-]+\.[\w-]+(?=/))}&lt;/string&gt;
     &lt;/value&gt;
   &lt;/item&gt;
   &lt;item&gt;
@@ -123,22 +123,6 @@
   &lt;/item&gt;
   &lt;item&gt;
     &lt;key&gt;
-      &lt;string&gt;github&lt;/string&gt;
-    &lt;/key&gt;
-    &lt;value&gt;
-      &lt;string&gt;{url:regex:github\.com(?=/)}&lt;/string&gt;
-    &lt;/value&gt;
-  &lt;/item&gt;
-  &lt;item&gt;
-    &lt;key&gt;
-      &lt;string&gt;kde&lt;/string&gt;
-    &lt;/key&gt;
-    &lt;value&gt;
-      &lt;string&gt;{url:regex:kde\.org(?=/)}&lt;/string&gt;
-    &lt;/value&gt;
-  &lt;/item&gt;
-  &lt;item&gt;
-    &lt;key&gt;
       &lt;string&gt;cscript&lt;/string&gt;
     &lt;/key&gt;
     &lt;value&gt;
@@ -159,6 +143,14 @@
     &lt;/key&gt;
     &lt;value&gt;
       &lt;string&gt;{nopush}&lt;/string&gt;
+    &lt;/value&gt;
+  &lt;/item&gt;
+  &lt;item&gt;
+    &lt;key&gt;
+      &lt;string&gt;domain&lt;/string&gt;
+    &lt;/key&gt;
+    &lt;value&gt;
+      &lt;string&gt;{url:regex:(?&amp;lt;=//[\w-]+\.)*[\w-]+\.[\w-]+(?=/)}&lt;/string&gt;
     &lt;/value&gt;
   &lt;/item&gt;
 &lt;/dictionary&gt;</string>
@@ -289,7 +281,7 @@
           <string>MainForm/Size</string>
         </key>
         <value>
-          <string>System.Drawing.Size:2074,635</string>
+          <string>System.Drawing.Size:1875,626</string>
         </value>
       </item>
       <item>
@@ -297,7 +289,7 @@
           <string>MainForm/Location</string>
         </key>
         <value>
-          <string>System.Drawing.Point:30,618</string>
+          <string>System.Drawing.Point:81,457</string>
         </value>
       </item>
       <item>
@@ -321,7 +313,7 @@
           <string>olvJobs/Application:Width</string>
         </key>
         <value>
-          <string>System.Int32:183</string>
+          <string>System.Int32:194</string>
         </value>
       </item>
       <item>
@@ -345,7 +337,7 @@
           <string>olvJobs/Last updated:Width</string>
         </key>
         <value>
-          <string>System.Int32:110</string>
+          <string>System.Int32:96</string>
         </value>
       </item>
       <item>
@@ -353,7 +345,7 @@
           <string>olvJobs/Last updated:LastDisplayIndex</string>
         </key>
         <value>
-          <string>System.Int32:4</string>
+          <string>System.Int32:3</string>
         </value>
       </item>
       <item>
@@ -377,7 +369,7 @@
           <string>olvJobs/Progress:LastDisplayIndex</string>
         </key>
         <value>
-          <string>System.Int32:3</string>
+          <string>System.Int32:4</string>
         </value>
       </item>
       <item>
@@ -393,7 +385,7 @@
           <string>olvJobs/Target:Width</string>
         </key>
         <value>
-          <string>System.Int32:117</string>
+          <string>System.Int32:128</string>
         </value>
       </item>
       <item>
@@ -401,7 +393,7 @@
           <string>olvJobs/Target:LastDisplayIndex</string>
         </key>
         <value>
-          <string>System.Int32:9</string>
+          <string>System.Int32:5</string>
         </value>
       </item>
       <item>
@@ -425,7 +417,7 @@
           <string>olvJobs/Category:LastDisplayIndex</string>
         </key>
         <value>
-          <string>System.Int32:13</string>
+          <string>System.Int32:11</string>
         </value>
       </item>
       <item>
@@ -441,7 +433,7 @@
           <string>olvJobs/Status:Width</string>
         </key>
         <value>
-          <string>System.Int32:80</string>
+          <string>System.Int32:53</string>
         </value>
       </item>
       <item>
@@ -457,7 +449,7 @@
           <string>olvJobs/LastSortColumn</string>
         </key>
         <value>
-          <string>System.String:enabled</string>
+          <string>System.String:kde</string>
         </value>
       </item>
       <item>
@@ -481,7 +473,7 @@
           <string>olvJobs/Version:Width</string>
         </key>
         <value>
-          <string>System.Int32:115</string>
+          <string>System.Int32:99</string>
         </value>
       </item>
       <item>
@@ -553,7 +545,7 @@
           <string>EditVariablesDialog/Size</string>
         </key>
         <value>
-          <string>System.Drawing.Size:1630,814</string>
+          <string>System.Drawing.Size:1091,661</string>
         </value>
       </item>
       <item>
@@ -561,7 +553,7 @@
           <string>EditVariablesDialog/Location</string>
         </key>
         <value>
-          <string>System.Drawing.Point:122,684</string>
+          <string>System.Drawing.Point:253,700</string>
         </value>
       </item>
       <item>
@@ -585,7 +577,7 @@
           <string>ApplicationJobDialog/Location</string>
         </key>
         <value>
-          <string>System.Drawing.Point:110,840</string>
+          <string>System.Drawing.Point:70,949</string>
         </value>
       </item>
       <item>
@@ -601,7 +593,7 @@
           <string>LogDialog/Size</string>
         </key>
         <value>
-          <string>System.Drawing.Size:1504,604</string>
+          <string>System.Drawing.Size:1504,436</string>
         </value>
       </item>
       <item>
@@ -609,7 +601,7 @@
           <string>LogDialog/Location</string>
         </key>
         <value>
-          <string>System.Drawing.Point:235,26</string>
+          <string>System.Drawing.Point:82,32</string>
         </value>
       </item>
       <item>
@@ -1294,7 +1286,7 @@ if (varCScript == "2") {
           <string>olvJobs/Filesize:Width</string>
         </key>
         <value>
-          <string>System.Int32:60</string>
+          <string>System.Int32:68</string>
         </value>
       </item>
       <item>
@@ -1302,7 +1294,7 @@ if (varCScript == "2") {
           <string>olvJobs/Filesize:LastDisplayIndex</string>
         </key>
         <value>
-          <string>System.Int32:5</string>
+          <string>System.Int32:7</string>
         </value>
       </item>
       <item>
@@ -1342,7 +1334,7 @@ if (varCScript == "2") {
           <string>olvJobs/host:Width</string>
         </key>
         <value>
-          <string>System.Int32:183</string>
+          <string>System.Int32:120</string>
         </value>
       </item>
       <item>
@@ -1350,7 +1342,7 @@ if (varCScript == "2") {
           <string>olvJobs/host:LastDisplayIndex</string>
         </key>
         <value>
-          <string>System.Int32:7</string>
+          <string>System.Int32:9</string>
         </value>
       </item>
       <item>
@@ -1366,7 +1358,7 @@ if (varCScript == "2") {
           <string>olvJobs/packageGuid:Width</string>
         </key>
         <value>
-          <string>System.Int32:115</string>
+          <string>System.Int32:77</string>
         </value>
       </item>
       <item>
@@ -1374,7 +1366,7 @@ if (varCScript == "2") {
           <string>olvJobs/packageGuid:LastDisplayIndex</string>
         </key>
         <value>
-          <string>System.Int32:11</string>
+          <string>System.Int32:13</string>
         </value>
       </item>
       <item>
@@ -1390,7 +1382,7 @@ if (varCScript == "2") {
           <string>olvJobs/fileDate:Width</string>
         </key>
         <value>
-          <string>System.Int32:114</string>
+          <string>System.Int32:93</string>
         </value>
       </item>
       <item>
@@ -1414,7 +1406,7 @@ if (varCScript == "2") {
           <string>olvJobs/fixedUrl:Width</string>
         </key>
         <value>
-          <string>System.Int32:145</string>
+          <string>System.Int32:77</string>
         </value>
       </item>
       <item>
@@ -1438,7 +1430,7 @@ if (varCScript == "2") {
           <string>olvJobs/referer:Width</string>
         </key>
         <value>
-          <string>System.Int32:66</string>
+          <string>System.Int32:161</string>
         </value>
       </item>
       <item>
@@ -1470,7 +1462,7 @@ if (varCScript == "2") {
           <string>olvJobs/User-Agent:LastDisplayIndex</string>
         </key>
         <value>
-          <string>System.Int32:10</string>
+          <string>System.Int32:12</string>
         </value>
       </item>
       <item>
@@ -1486,7 +1478,7 @@ if (varCScript == "2") {
           <string>olvJobs/DeletePreviousFile:Width</string>
         </key>
         <value>
-          <string>System.Int32:62</string>
+          <string>System.Int32:38</string>
         </value>
       </item>
       <item>
@@ -1510,7 +1502,7 @@ if (varCScript == "2") {
           <string>olvJobs/VariableChangeIndicator:Width</string>
         </key>
         <value>
-          <string>System.Int32:60</string>
+          <string>System.Int32:55</string>
         </value>
       </item>
       <item>
@@ -1518,7 +1510,7 @@ if (varCScript == "2") {
           <string>olvJobs/VariableChangeIndicator:LastDisplayIndex</string>
         </key>
         <value>
-          <string>System.Int32:12</string>
+          <string>System.Int32:15</string>
         </value>
       </item>
       <item>
@@ -1534,7 +1526,7 @@ if (varCScript == "2") {
           <string>olvJobs/github:Width</string>
         </key>
         <value>
-          <string>System.Int32:101</string>
+          <string>System.Int32:64</string>
         </value>
       </item>
       <item>
@@ -1542,7 +1534,7 @@ if (varCScript == "2") {
           <string>olvJobs/github:LastDisplayIndex</string>
         </key>
         <value>
-          <string>System.Int32:15</string>
+          <string>System.Int32:16</string>
         </value>
       </item>
       <item>
@@ -1558,7 +1550,7 @@ if (varCScript == "2") {
           <string>olvJobs/kde:Width</string>
         </key>
         <value>
-          <string>System.Int32:60</string>
+          <string>System.Int32:49</string>
         </value>
       </item>
       <item>
@@ -1566,7 +1558,7 @@ if (varCScript == "2") {
           <string>olvJobs/kde:LastDisplayIndex</string>
         </key>
         <value>
-          <string>System.Int32:16</string>
+          <string>System.Int32:17</string>
         </value>
       </item>
       <item>
@@ -1582,7 +1574,7 @@ if (varCScript == "2") {
           <string>olvJobs/cscript:Width</string>
         </key>
         <value>
-          <string>System.Int32:60</string>
+          <string>System.Int32:32</string>
         </value>
       </item>
       <item>
@@ -1590,7 +1582,7 @@ if (varCScript == "2") {
           <string>olvJobs/cscript:LastDisplayIndex</string>
         </key>
         <value>
-          <string>System.Int32:18</string>
+          <string>System.Int32:16</string>
         </value>
       </item>
       <item>
@@ -1614,7 +1606,7 @@ if (varCScript == "2") {
           <string>olvJobs/enabled:LastDisplayIndex</string>
         </key>
         <value>
-          <string>System.Int32:20</string>
+          <string>System.Int32:17</string>
         </value>
       </item>
       <item>
@@ -1638,7 +1630,55 @@ if (varCScript == "2") {
           <string>olvJobs/nopush:LastDisplayIndex</string>
         </key>
         <value>
-          <string>System.Int32:17</string>
+          <string>System.Int32:18</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/domainname:Visibility</string>
+        </key>
+        <value>
+          <string>System.Boolean:True</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/domainname:Width</string>
+        </key>
+        <value>
+          <string>System.Int32:166</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/domainname:LastDisplayIndex</string>
+        </key>
+        <value>
+          <string>System.Int32:10</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/domain:Visibility</string>
+        </key>
+        <value>
+          <string>System.Boolean:True</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/domain:Width</string>
+        </key>
+        <value>
+          <string>System.Int32:141</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/domain:LastDisplayIndex</string>
+        </key>
+        <value>
+          <string>System.Int32:10</string>
         </value>
       </item>
     </dictionary>
