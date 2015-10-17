@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>userprofilesview</id>
+    <title>UserProfilesView</title>
+    <version>1.10</version>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm</owners>
+    <summary>View user profiles information on your Windows</summary>
+    <description>
+UserProfilesView displays the list of all user profiles that you currently have in your system.
+
+For each user profile, the following information is displayed: Domain\User Name, Profile Path, Last Load Time, Registry File Size, User SID, and more.
+
+You can save the profiles list into text/xml/html/csv file.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/userprofilesview/1.10</packageSourceUrl>
+    <projectUrl>http://www.nirsoft.net/utils/user_profiles_view.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/userprofilesview.png</iconUrl>
+    <tags>user profile viewer</tags>
+    <copyright>© 2008 NirSoft</copyright>
+    <licenseUrl>http://www.nirsoft.net/utils/user_profiles_view.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[What's New?](http://www.nirsoft.net/utils/user_profiles_view.html)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>firefox-beta</id>
+    <title>Firefox Beta</title>
+    <version>42.0-beta7</version>
+    <authors>Mozilla</authors>
+    <owners>dtgm</owners>
+    <summary>Web browser of the latest features in a more stable environment</summary>
+    <description>
+Firefox Beta builds are for Firefox enthusiasts to test what's destined to become the next stable release of [Firefox](https://chocolatey.org/packages/firefox).
+
+After spending six weeks in [Firefox Developer Edition](https://chocolatey.org/packages/firefox-dev), we take the features that are stable enough, and create a new version of Firefox Beta.
+
+### Firefox channels (development cycle)
+
+Every 6 weeks, Firefox developers take the current stable features of each build and introduce them into the next stable channel for further development. The Developer Edition is a special build containing features never moved forward since they would be rarely used by the average user and needlessly consume resources.
+
+* [Firefox](https://chocolatey.org/packages/firefox)
+* Firefox Beta (you are here)
+* [Firefox Developer Edition](https://chocolatey.org/packages/firefox-dev)
+* [Firefox Nightly](https://chocolatey.org/packages/firefox-nightly)
+
+[Privacy policy](https://www.mozilla.org/en-US/privacy/firefox/)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/firefox-beta/42.0.7</packageSourceUrl>
+    <projectUrl>https://www.mozilla.org/firefox/beta</projectUrl>
+    <projectSourceUrl>http://hg.mozilla.org/releases/mozilla-beta/</projectSourceUrl>
+    <bugTrackerUrl>https://bugzilla.mozilla.org/</bugTrackerUrl>
+    <docsUrl>https://developer.mozilla.org/Firefox/</docsUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/bbd5c9c56b6d2e9edbd4e80ce9cad215d2912231/icons/firefox-beta.png</iconUrl>
+    <tags>browser mozilla firefox beta</tags>
+    <copyright>© Mozilla Foundation</copyright>
+    <licenseUrl>http://www.mozilla.org/MPL/2.0/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Release notes](https://www.mozilla.org/firefox/beta/notes/)
+* [MDN release notes](https://developer.mozilla.org/Firefox/Releases/)
+* [Changelog](http://hg.mozilla.org/releases/mozilla-beta/log/)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
