@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>mailpv.install</id>
+    <title>Mail PassView (Install)</title>
+    <version>1.85</version>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm</owners>
+    <summary>Password recovery for Outlook, Outlook Express, Thunderbird, Windows Mail, and more...</summary>
+    <description>
+Mail PassView is a small password-recovery tool that reveals the passwords and other account details for the following email clients:
+
+*  Outlook Express
+*  Microsoft Outlook 2000 (POP3 and SMTP Accounts only)
+*  Microsoft Outlook 2002/2003/2007/2010/2013 (POP3, IMAP, HTTP and SMTP Accounts)
+*  Windows Mail
+*  Windows Live Mail
+*  IncrediMail
+*  Eudora
+*  Netscape 6.x/7.x (If the password is not encrypted with master password)
+*  Mozilla Thunderbird (If the password is not encrypted with master password)
+*  Group Mail Free
+*  Yahoo! Mail - If the password is saved in Yahoo! Messenger application.
+*  Hotmail/MSN mail - If the password is saved in MSN/Windows/Live Messenger application.
+*  Gmail - If the password is saved by Gmail Notifier application, Google Desktop, or by Google Talk.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/mailpv.install/1.85</packageSourceUrl>
+    <projectUrl>http://www.nirsoft.net/utils/mailpv.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/mailpv.png</iconUrl>
+    <tags>recover mail email gmail password lost crack outlook express microsoft incredimail eudora</tags>
+    <copyright>© 2003 NirSoft</copyright>
+    <licenseUrl>http://www.nirsoft.net/utils/mailpv.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[What's New?](http://www.nirsoft.net/utils/mailpv.html)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
