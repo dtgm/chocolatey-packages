@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>eventghost</id>
+    <title>EventGhost</title>
+    <version>0.4.1.1710</version>
+    <authors>EventGhost Project</authors>
+    <owners>dtgm</owners>
+    <summary>Advanced, easy to use and extensible automation tool</summary>
+    <description>
+EventGhost is an advanced, easy to use and extensible automation tool. It can use different input devices like infrared or wireless remote controls to trigger macros, that on their part control a computer and its attached hardware. So it can be used to control a Media-PC with a normal consumer remote. But its possible uses go much beyond this.
+
+#### Documentation
+* [Screenshots]()
+* [FAQ](http://www.eventghost.org/docs/faq.html)
+* [Wiki](http://www.eventghost.org/mediawiki/index.php)
+* [Command line options](http://www.eventghost.org/docs/commandline.html)
+* [User manual](http://www.eventghost.org/docs/user_docs.html)
+* [Dev manual](http://www.eventghost.org/docs/developer_docs.html)
+
+#### Community
+* [Forum](http://www.eventghost.org/forum/)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/eventghost/0.4.1.1710</packageSourceUrl>
+    <projectUrl>http://www.eventghost.org/</projectUrl>
+    <projectSourceUrl>http://www.eventghost.org/downloads/</projectSourceUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/c7317174d0ca6b8f220fc6e72971f002f88844bb/icons/eventghost.png</iconUrl>
+    <tags>automation x10 remote-control macro</tags>
+    <copyright>© 2009 EventGhost Project</copyright>
+    <licenseUrl>http://www.gnu.org/licenses/old-licenses/gpl-2.0.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Changelog](http://www.eventghost.org/docs/changelog.html)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
