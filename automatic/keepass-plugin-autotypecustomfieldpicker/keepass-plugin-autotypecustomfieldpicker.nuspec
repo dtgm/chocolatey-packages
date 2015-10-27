@@ -8,7 +8,7 @@
     <owners>dtgm</owners>
     <summary>KeePass 2 plugin to provide support for a custom placeholder</summary>
     <description>
-MicrosoftKeyImporter is a KeePass 2.x plugin to provide support for a placeholder `{PICKCUSTOMFIELD}`.
+AutoTypeCustomFieldPicker is a KeePass 2.x plugin to provide support for a placeholder `{PICKCUSTOMFIELD}`.
 
 When auto-typing a sequence containing this placeholder, a window is displayed that allows to pick a custom string field (whose value is then inserted at the placeholder's position).
 
@@ -24,7 +24,7 @@ Just use the new placeholder `{PICKCUSTOMFIELD}` in an Auto-Type sequence. When 
     <projectUrl>https://github.com/berrnd/KeePassAutoTypeCustomFieldPicker</projectUrl>
     <projectSourceUrl>https://github.com/berrnd/KeePassAutoTypeCustomFieldPicker</projectSourceUrl>
     <bugTrackerUrl>https://github.com/berrnd/KeePassAutoTypeCustomFieldPicker/issues</bugTrackerUrl>
-    <tags>keepass plugin customization</tags>
+    <tags>keepass plugin customization autotype placeholder</tags>
     <copyright>© 2013 Bernd Bestel</copyright>
     <licenseUrl>https://github.com/berrnd/KeePassAutoTypeCustomFieldPicker/blob/master/licence.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
