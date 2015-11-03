@@ -32,7 +32,7 @@ Oh, and Rufus is fast. For instance it's about twice as fast as UNetbootin, Univ
     <licenseUrl>http://www.gnu.org/licenses/gpl-3.0.html</licenseUrl>
     <copyright>Akeo Consulting</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <tags>liveusb linux windows</tags>
+    <tags>liveusb bootdisk linux windows</tags>
     <dependencies>
       <dependency id="{{PackageName}}.install" version="[{{PackageVersion}}]" />
     </dependencies>
