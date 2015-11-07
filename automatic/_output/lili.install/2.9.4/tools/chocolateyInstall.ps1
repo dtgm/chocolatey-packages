@@ -2,7 +2,7 @@ $packageName = 'lili.install'
 $installerType = 'exe'
 $silentArgs = '/S'
 $url = 'http://download.tuxfamily.org/lilicreator/stable/LinuxLive USB Creator 2.9.4.exe'
-$checksum = '0ad5e7c1aeca53361ddb8798ff500e9af4fcabc8'
+$checksum = '850c748520dafed21d955c0adf551cc77d3bb99b'
 $checksumType = 'sha1'
 $validExitCodes = @(0)
 
