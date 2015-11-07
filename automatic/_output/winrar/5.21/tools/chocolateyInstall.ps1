@@ -150,7 +150,7 @@ try {
 
   ##Japanese		1041
   elseif($LCID -eq "1041"){
-    $url64 = $url64+$url_version+'j.exe'
+    $url64 = $url64+$url_version+'jp.exe'
   }
 
   ##Korean		1042
