@@ -39,25 +39,25 @@ To be able to automatically push to Chocolatey.org:
 ### MSI; [Windows Installer](https://msdn.microsoft.com/en-us/library/cc185688(VS.85).aspx)
 
 $installerType = 'msi'
-$silentArgs = '/quiet /qn /norestart'
+$silentArgs = '/quiet /qn /norestart'  
 
-https://duckduckgo.com/?q=get+msi+property
-http://www.snowland.se/2010/02/21/read-msi-information-with-powershell/
-http://robertdickau.com/msi_tips.html
+https://duckduckgo.com/?q=get+msi+property  
+http://www.snowland.se/2010/02/21/read-msi-information-with-powershell/  
+http://robertdickau.com/msi_tips.html  
 
 ### EXE; [InstallShield](http://www.installshield.com/)
 
-$installerType = 'exe'
+$installerType = 'exe'  
 $silentArgs = '/s'
 
 ### EXE ? MSI; [InstallShield](http://www.installshield.com/)
 
-$installerType = 'exe'
+$installerType = 'exe'  
 $silentArgs = '/s /v`"/qb`"'
 
 ### EXE; [InstallMaster](http://www.wise.com/)
 
-$installerType = 'exe'
+$installerType = 'exe'  
 $silentArgs = '/s'
 
 #### id
@@ -65,12 +65,12 @@ $silentArgs = '/s'
 
 ### EXE; Inno-Setup
 
-$installerType = 'exe'
+$installerType = 'exe'  
 $silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
 
 ### EXE; Nullsoft Scriptable Install System (NSIS)
 
-$installerType = 'exe'
+$installerType = 'exe'  
 $silentArgs = '/S'
 
 ### [ClickOnce Deployment](https://msdn.microsoft.com/en-us/library/t71a733d(VS.80).aspx)
@@ -79,7 +79,7 @@ $silentArgs = '/S'
 
 IzPack is a widely used tool for packaging applications on the Java platform.
 
-[zPack architecture](http://izpack.org/documentation/getting-started.html#the-izpack-architecture)
+[zPack architecture](http://izpack.org/documentation/getting-started.html#the-izpack-architecture)  
 [Writing Installation XML Files](http://izpack.org/documentation/installation-files.html)
 
 javaw -jar IzPack-install-4.3.5.jar -options-template all-possible.properties
