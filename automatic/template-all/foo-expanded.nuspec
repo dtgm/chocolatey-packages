@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>{{PackageName}}</id>
     <title></title>
@@ -46,6 +46,9 @@
 * __Automatically built__; if this package's version is out of date by more than a day of the program's version, please [contact the maintainers](https://chocolatey.org/packages/{{PackageName}}/ContactOwners) and let them know the package is no longer updating correctly.
 * Uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
+    <!--<provides>{{PackageName}}</provides>-->
+    <!--<replaces></replaces>-->
+    <!--<conflicts></conflicts>-->
 <!--    <dependencies>
       <dependency id="{{PackageName}}.install" version="[{{PackageVersion}}]" />
     </dependencies> -->
