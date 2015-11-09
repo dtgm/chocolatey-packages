@@ -43,7 +43,8 @@
 * [Changelog]()
 
 #### Package
-* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+* __Automatically built__; if this package's version is out of date by more than a day of the program's version, please [contact the maintainers](https://chocolatey.org/packages/{{PackageName}}/ContactOwners) and let them know the package is no longer updating correctly.
+* Uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
 <!--    <dependencies>
       <dependency id="{{PackageName}}.install" version="[{{PackageVersion}}]" />
