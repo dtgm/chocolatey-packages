@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>bulkfilechanger</id>
+    <title>BulkFileChanger</title>
+    <version>1.35</version>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm</owners>
+    <summary>Change date/time/attributes of multiple files</summary>
+    <description>
+BulkFileChanger is a small utility that allows you to create files list from multiple folders, and then make some action on them - Modify their created/modified/accessed time, change their file attribute (Read Only, Hidden, System), run an executable with these files as parameter, and copy/cut paste into Explorer.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/bulkfilechanger/1.35</packageSourceUrl>
+    <projectUrl>http://www.nirsoft.net/utils/bulk_file_changer.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/bulkfilechanger.png</iconUrl>
+    <tags>modify file metadata</tags>
+    <copyright>© 2010 NirSoft</copyright>
+    <licenseUrl>http://www.nirsoft.net/utils/bulk_file_changer.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[What's New?](http://www.nirsoft.net/utils/bulk_file_changer.html)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
