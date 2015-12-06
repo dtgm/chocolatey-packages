@@ -59,7 +59,7 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2012-05-23T02:09:37.7748325</LastUpdated>
@@ -71,13 +71,15 @@
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
     <UserNotes />
-    <LastFileSize>106536608</LastFileSize>
-    <LastFileDate>2015-05-30T14:11:42-05:00</LastFileDate>
+    <LastFileSize>95987368</LastFileSize>
+    <LastFileDate>2015-12-06T08:28:31-07:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Avoid</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
-    <VariableChangeIndicator />
+    <VariableChangeIndicator>urlFileLength</VariableChangeIndicator>
+    <HashVariable />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -178,7 +180,7 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=timestamp = ")[\d\.]{8}</Regex>
+            <Regex>(?&lt;=timestamp = ")[\d\.]{12}</Regex>
             <Url>http://devbuilds.kaspersky-labs.com/devbuilds/KVRT/latest/full/KVRT.xml</Url>
             <Name>versionDate</Name>
           </UrlVariable>
@@ -193,8 +195,36 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>{versionDate:regexreplace:(\d{4\})(\d{2\})(\d{2\}):$1.$2.$3}</TextualContent>
+            <TextualContent>{versionDate:regexreplace:(\d{4\})(\d{2\})(\d{2\})(\d{4\}):$1.$2.$3.$4}</TextualContent>
             <Name>version</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>versionFull</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=version = ")[\d\.]{3,}</Regex>
+            <Url>http://devbuilds.kaspersky-labs.com/devbuilds/KVRT/latest/full/KVRT.xml</Url>
+            <Name>versionFull</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>urlFileLength</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=Content-Length:\s)\d+</Regex>
+            <Url>http://devbuilds.kaspersky-labs.com/devbuilds/KVRT/latest/full/KVRT.exe</Url>
+            <Name>urlFileLength</Name>
           </UrlVariable>
         </value>
       </item>
@@ -209,7 +239,7 @@
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-05-30T23:18:21.9263411-05:00</LastUpdated>
+    <LastUpdated>2015-12-06T12:12:08.6555509-07:00</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>kvrt</Name>
