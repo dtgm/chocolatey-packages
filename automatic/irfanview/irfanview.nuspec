@@ -12,6 +12,21 @@ IrfanView is a very fast, small, compact and innovative FREEWARE (for non-commer
 
 [Features](http://www.irfanview.com/main_what_is_engl.htm)
 [Screenshots](http://www.irfanview.com/screenshot.htm)
+
+#### Package Parameters
+The following package parameters may be passed directly to the program's installer with the chocolatey option `-params`:
+
+* `/desktop` - create desktop shortcut for IrfanView
+* `/thumbs` - create desktop shortcut for IrfanView Thumbnails
+* `/group` - create IrfanView group in Start Menu
+* `/currentuser` - desktop/group links will only install for current user
+* `/assocallusers - set associations for all users (Windows XP only)
+* `/assoc=VALUE` - set file associations; 0 = none (default), 1 = images only, 2 = select all
+* `/ini=PATH` - set custom INI file folder (system environment variables are allowed)
+* `/folder=PATH` - destination folder; if not indicated: old IrfanView folder is used, if not found, the "Program Files" folder is used
+
+#### Package Specifics
+If no parameters are passed, the following is assumed: `--params '/assoc=0 /ini=%APPDATA%\IrfanView'`.
     </description>
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.irfanview.com/</projectUrl>
