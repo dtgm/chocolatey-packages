@@ -1,14 +1,5 @@
 $packageName = '{{PackageName}}'
 $installerType = 'exe'
-# desktop:  create desktop shortcut; 0 = no, 1 = yes (default: 0)
-# thumbs:   create desktop shortcut for thumbnails; 0 = no, 1 = yes (default: 0)
-# group:    create group in Start Menu; 0 = no, 1 = yes (default: 0)
-# allusers: desktop/group links are for all users; 0 = current user, 1 = all users
-# assoc:    if used, set file associations; 0 = none, 1 = images only, 2 = select all (default: 0)
-# assocallusers:  if used, set associations for all users (Windows XP only)
-# ini:      if used, set custom INI file folder (system environment variables are allowed)
-$silentArgs = "/silent /desktop=0 /thumbs=0 /group=1 /allusers=0 /assoc=0"
-Write-Host $silentArgs
 $urlArray = {{DownloadUrlx64}}
 $url = $urlArray[0]
 $checksum = '{{Checksum}}'
@@ -19,7 +10,84 @@ $checksumType64 = 'sha1'
 $validExitCodes = @(0)
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
-# Combatibility - This function has not been merged
+$arguments = @{}
+$packageParameters = $env:chocolateyPackageParameters
+
+Write-Debug "Default values for package parameters"
+$desktop = 0
+$thumbs = 0
+$group = 0
+$allusers = 1
+$assoc = 0
+$ini = "%APPDATA%\IrfanView"
+$folder = $null
+
+if ($packageParameters) {
+    $match_pattern = "\/(?<option>([a-zA-Z]+))=(?<value>([`"'])?([a-zA-Z0-9- _\\:%\.]+)([`"'])?)|\/(?<option>([a-zA-Z]+))"
+    $option_name = 'option'
+    $value_name = 'value'
+
+    if ($packageParameters -match $match_pattern ){
+        $results = $packageParameters | Select-String $match_pattern -AllMatches
+        $results.matches | ForEach-Object {
+          $arguments.Add(
+              $_.Groups[$option_name].Value.Trim(),
+              $_.Groups[$value_name].Value.Trim())
+      }
+    } else {
+        Throw "Package Parameters were found but were invalid (REGEX failure)"
+    }
+
+    if ($arguments.ContainsKey("desktop")) {
+        Write-Verbose "Adding desktop shortcut to IrfanView"
+        $desktop = 1
+    }
+
+    if ($arguments.ContainsKey("thumbs")) {
+        Write-Verbose "Adding desktop shortcut to IrfanView Thumbnails"
+        $thumbs = 1
+    }
+
+    if ($arguments.ContainsKey("group")) {
+        Write-Verbose "Adding IrfanView group to start menu"
+        $group = 1
+    }
+    
+    if ($arguments.ContainsKey("allusers")) {
+        Write-Verbose "Installing IrfanView for only current user"
+        $allusers = 0
+    }
+    
+    if ($arguments.ContainsKey("assoc")) {
+        Write-Verbose "Associating IrfanView to file types"
+        $assoc = $arguments["assoc"]
+    }
+
+    if ($arguments.ContainsKey("ini")) {
+        Write-Verbose "You want to use a custom configuration Path"
+        $ini = $arguments["ini"]
+    }
+    
+    if ($arguments.ContainsKey("folder")) {
+        Write-Verbose "You want to use a custom configuration Path"
+        $folder = $arguments["folder"]
+    }
+
+} else {
+    Write-Debug "No package parameters passed in"
+}
+
+$silentArgs = "/silent" + 
+              " /desktop=" + $desktop + 
+              " /thumbs=" + $thumbs + 
+              " /group=" + $group + 
+              " /allusers=" + $allusers +
+              " /assoc=" + $assoc
+if ($ini) { $silentArgs += " /ini=" + $ini }
+if ($folder) { $silentArgs += " /folder=" + $folder }
+Write-Debug "Silent arguments Chocolatey will use are: $silentArgs"
+
+Write-Debug "Compatibility - Get-UrlFromFosshub function is provided by this package"
 if (!(Get-Command Get-UrlFromFosshub -ErrorAction SilentlyContinue)) {
   Import-Module "$($toolsDir)\Get-UrlFromFosshub.ps1"
 }
