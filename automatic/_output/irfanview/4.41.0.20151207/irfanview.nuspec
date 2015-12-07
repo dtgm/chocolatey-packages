@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>irfanview</id>
+    <title>IrfanView</title>
+    <version>4.41.0.20151207</version>
+    <authors>Irfan Skiljan</authors>
+    <owners>dtgm</owners>
+    <summary>Fast and compact image viewer and converter</summary>
+    <description>
+IrfanView is a very fast, small, compact and innovative FREEWARE (for non-commercial use) graphic viewer.
+
+[Features](http://www.irfanview.com/main_what_is_engl.htm)
+[Screenshots](http://www.irfanview.com/screenshot.htm)
+
+#### Package Parameters
+The following package parameters may be passed directly to the program's installer with the chocolatey option `-params`:
+
+* `/desktop` - create desktop shortcut for IrfanView
+* `/thumbs` - create desktop shortcut for IrfanView Thumbnails
+* `/group` - create IrfanView group in Start Menu
+* `/currentuser` - desktop/group links will only install for current user
+* `/assocallusers - set associations for all users (Windows XP only)
+* `/assoc=VALUE` - set file associations; 0 = none (default), 1 = images only, 2 = select all
+* `/ini=PATH` - set custom INI file folder (system environment variables are allowed)
+* `/folder=PATH` - destination folder; if not indicated: old IrfanView folder is used, if not found, the "Program Files" folder is used
+
+#### Package Specifics
+If no parameters are passed, the following is assumed: `--params '/assoc=0 /ini=%APPDATA%\IrfanView'`.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/irfanview/4.41.0.20151207</packageSourceUrl>
+    <projectUrl>http://www.irfanview.com/</projectUrl>
+    <docsUrl>http://www.irfanview.com/faq.htm</docsUrl>
+    <mailingListUrl>https://irfanview-forum.de/</mailingListUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/04f6a6eaed68793bfdbf951606879239ec9aaa0a/icons/irfanview.png</iconUrl>
+    <tags>image viewer editor converter thumbnail</tags>
+    <copyright>© Irfan Skiljan</copyright>
+    <licenseUrl>http://www.irfanview.com/eula.htm</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Changelog](http://www.irfanview.com/main_history.htm)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="autohotkey.portable" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
