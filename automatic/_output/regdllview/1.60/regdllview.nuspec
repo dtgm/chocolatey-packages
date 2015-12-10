@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>regdllview</id>
+    <title>RegDllView</title>
+    <version>1.60</version>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm</owners>
+    <summary>Register dll/ocx/exe utility</summary>
+    <description>
+RegDllView is a small utility that displays the list of all registered dll/ocx/exe files (COM registration).
+
+For each registered file, you can view the last date/time that it was registered, and the list of all 
+registration entries (CLSID/ProgID).
+
+RegDllView also allows you to unregister dll/ocx files that you don't need on your system anymore.
+
+If you have dll/ocx files that don't exist on your system anymore, but their registration entries are still
+exist in your Registry, you can manually remove these entries by using 'Delete All Entries For Selected Files' option.
+
+Starting from version 1.35, RegDllView also allows you to register dll/ocx files (like regsvr32), simply by 
+dragging one or more files from Explorer folder into the window of RegDllView. 
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/regdllview/1.60</packageSourceUrl>
+    <projectUrl>http://www.nirsoft.net/utils/registered_dll_view.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/regdllview.png</iconUrl>
+    <tags>registered dll view unregister delete remove progid clsid</tags>
+    <copyright>© 2007 NirSoft</copyright>
+    <licenseUrl>http://www.nirsoft.net/utils/registered_dll_view.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[What's New?](http://www.nirsoft.net/utils/registered_dll_view.html)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
