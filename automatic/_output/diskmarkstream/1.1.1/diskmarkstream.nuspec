@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
+  <metadata>
+    <id>diskmarkstream</id>
+    <title>DiskMarkStream</title>
+    <version>1.1.1</version>
+    <authors>EMO</authors>
+    <owners>dtgm</owners>
+    <summary>Macro tool for CrystalDiskMark</summary>
+    <description>
+DiskMarkStream is an automatic macro tool specially designed for CrystalDiskMark (CDM). It will start CDM with predefined settings and at completion of each test, will save screenshot and log then move on to next test. This consecutive unattended operation will help user to test various conditions and multiple drives at ease.
+
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/diskmarkstream/1.1.1</packageSourceUrl>
+    <projectUrl>https://sourceforge.net/p/diskmarkstream/home/Home/</projectUrl>
+    <projectSourceUrl>https://sourceforge.net/p/diskmarkstream/git/ci/master/tree/</projectSourceUrl>
+    <tags>automation crystaldiskmark benchmark storage drive</tags>
+    <copyright>© 2011 EMO</copyright>
+    <licenseUrl>https://raw.githubusercontent.com/dtgm/chocolatey-packages/1e23a7c816b9e81956eec07d5d75bb070f9e268b/licenses/diskmarkstream.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/9856ff4757b8ace9a7b612e953b068bbe21b211c/icons/diskmarkstream.png</iconUrl>
+    <releaseNotes>
+[What's new](https://sourceforge.net/projects/diskmarkstream/files/0.5.9/readme.md/download)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="crystaldiskmark" version="3.0.3" />
+      <dependency id="dotnet4.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
