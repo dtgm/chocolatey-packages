@@ -5,7 +5,7 @@
     <title>TortoiseHg</title>
     <version>{{PackageVersion}}</version>
     <authors>Steve Borho</authors>
-    <owners>maartenba dtgm</owners>
+    <owners>dtgm</owners>
     <summary>Mercurial source control management client implemented as File Explorer shell extension</summary>
     <description>
 TortoiseHg is a set of graphical tools and a shell extension for the Mercurial distributed revision control system.
@@ -27,7 +27,13 @@ TortoiseHg is primarily written in Python and PyQt (the Windows shell extension 
     <licenseUrl>https://bitbucket.org/tortoisehg/thg/src/2874791e505e3a6c7b18b6e2e88074c52f833448/COPYING.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/36f12da334cc567ab7a147f0698cb0dcaca042ad/icons/{{PackageName}}.svg</iconUrl>
-    <releaseNotes>https://bitbucket.org/tortoisehg/thg/wiki/ReleaseNotes</releaseNotes>
+    <releaseNotes>
+#### Program
+* https://bitbucket.org/tortoisehg/thg/wiki/ReleaseNotes
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
