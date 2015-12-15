@@ -281,7 +281,7 @@
           <string>MainForm/Size</string>
         </key>
         <value>
-          <string>System.Drawing.Size:1875,626</string>
+          <string>System.Drawing.Size:1608,626</string>
         </value>
       </item>
       <item>
@@ -289,7 +289,7 @@
           <string>MainForm/Location</string>
         </key>
         <value>
-          <string>System.Drawing.Point:81,457</string>
+          <string>System.Drawing.Point:-7,468</string>
         </value>
       </item>
       <item>
@@ -385,7 +385,7 @@
           <string>olvJobs/Target:Width</string>
         </key>
         <value>
-          <string>System.Int32:128</string>
+          <string>System.Int32:0</string>
         </value>
       </item>
       <item>
@@ -457,7 +457,7 @@
           <string>olvJobs/LastSortOrder</string>
         </key>
         <value>
-          <string>System.Int32:1</string>
+          <string>System.Int32:2</string>
         </value>
       </item>
       <item>
@@ -553,7 +553,7 @@
           <string>EditVariablesDialog/Location</string>
         </key>
         <value>
-          <string>System.Drawing.Point:253,700</string>
+          <string>System.Drawing.Point:-4,1046</string>
         </value>
       </item>
       <item>
@@ -866,10 +866,9 @@
         </key>
         <value>
           <string>System.String:////////////////////////////////////////////////////////////////////////////////////////
-/// version 6.6
+/// version 6.7
 /// 
-/// INFO: expand/correct comments
-/// PRETTIFY: ...a bit
+/// Changelog: disable beta check
 /// 
 
 // REQUIRES:

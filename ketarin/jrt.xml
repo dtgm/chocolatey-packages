@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="c87906b4-4d18-4cb1-951b-1b89852d9d4d">
     <SourceTemplate><![CDATA[<Jobs>
@@ -59,7 +59,7 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2012-05-23T02:09:37.7748325</LastUpdated>
@@ -71,13 +71,15 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>2945770</LastFileSize>
-    <LastFileDate>2015-05-25T04:39:31.9676129</LastFileDate>
+    <LastFileSize>1801288</LastFileSize>
+    <LastFileDate>2015-10-05T15:23:40-06:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Avoid</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -92,7 +94,7 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=strong&gt;)[\d\.]{3,}</Regex>
+            <Regex>(?&lt;=version.*)\d\.[\d\.]{1,}</Regex>
             <Url>http://thisisudax.org/?p=1</Url>
             <StartText>"softwareVersion"&gt;</StartText>
             <EndText>&lt;/span&gt;</EndText>
@@ -122,9 +124,10 @@
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>RegularExpression</VariableType>
-            <Regex>[^ "'&lt;&gt;\*]+\.exe</Regex>
-            <Url>http://thisisudax.org/?p=1</Url>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <Url />
+            <TextualContent>http://thisisudax.org/downloads/JRT.exe</TextualContent>
             <Name>getUrl</Name>
           </UrlVariable>
         </value>
@@ -164,11 +167,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\JRT.exe</PreviousLocation>
+    <PreviousLocation>F:\exe\JRT.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-05-25T04:39:31.9676129</LastUpdated>
+    <LastUpdated>2015-11-03T03:36:45.7928107-07:00</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>jrt</Name>
