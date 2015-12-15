@@ -13,7 +13,7 @@ $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $arguments = @{}
 $packageParameters = $env:chocolateyPackageParameters
 
-Write-Debug "Default values for package parameters"
+Write-Debug "Default values for package parameters: 0=off, 1=on"
 $desktop = 0
 $thumbs = 0
 $group = 0
