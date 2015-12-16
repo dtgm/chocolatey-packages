@@ -1,14 +1,14 @@
-$packageName = 'tortoisesvn'
-$installerType = 'msi'
-$silentArgs = '/quiet /qn /norestart ADDLOCAL=ALL'
-$urlArray = @('https://sourceforge.net/projects/tortoisesvn/files/1.9.3/Application/TortoiseSVN-1.9.3.27038-win32-svn-1.9.3.msi', 'https://sourceforge.net/projects/tortoisesvn/files/1.9.3/Application/TortoiseSVN-1.9.3.27038-x64-svn-1.9.3.msi')
+$packageName = 'gramps'
+$installerType = 'exe'
+$silentArgs = '/S'
+$urlArray = @('http://sourceforge.net/projects/gramps/files/Stable/4.2.1/GrampsAIO-4.2.1-1_win32.exe/download', 'http://sourceforge.net/projects/gramps/files/Stable/4.2.1/GrampsAIO-4.2.1-2_win64.exe/download')
 $url = $urlArray[0]
-$checksum = '63a0ae6427bdd674f5b353a998b393026820756b'
+$checksum = ''
 $checksumType = 'sha1'
 $url64 = $urlArray[1]
-$checksum64 = '8005189f252f806f593a497a7cf85864751f1162'
+$checksum64 = ''
 $checksumType64 = 'sha1'
-$validExitCodes = @(0,3010)
+$validExitCodes = @(0)
 
 Install-ChocolateyPackage -PackageName "$packageName" `
                           -FileType "$installerType" `
