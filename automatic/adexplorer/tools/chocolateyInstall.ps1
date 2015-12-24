@@ -6,6 +6,7 @@ $url64 = "$url"
 $checksum64 = "$checksum"
 $checksumType64 = "checksumType"
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+
 Install-ChocolateyZipPackage -PackageName "$packageName" `
                              -Url "$url" `
                              -UnzipLocation "$toolsDir" `
@@ -14,12 +15,13 @@ Install-ChocolateyZipPackage -PackageName "$packageName" `
                              -ChecksumType "$checksumType" `
                              -Checksum64 "$checksum64" `
                              -ChecksumType64 "$checksumType64"
+
 Write-Verbose "Accepting license..."
 $regRoot = 'HKCU:\Software\Sysinternals'
 $regPkg = 'Active Directory Explorer'
 $regPath = Join-Path $regRoot $regPkg
-if (! Test-Path $regRoot) {New-Item -Path "$regRoot"}
-if (! Test-Path $regPath) {New-Item -Path "$regRoot" -Name "$regPkg"}
+if (-not(Test-Path $regRoot)) {New-Item -Path "$regRoot"}
+if (-not(Test-Path $regPath)) {New-Item -Path "$regRoot" -Name "$regPkg"}
 Set-ItemProperty -Path "$regPath" -Name EulaAccepted -Value 1
 if ((Get-ItemProperty -Path "$regPath").EulaAccepted -ne 1) {
   throw "Failed setting registry value."
