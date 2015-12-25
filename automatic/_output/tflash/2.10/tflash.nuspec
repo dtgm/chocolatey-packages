@@ -3,7 +3,7 @@
   <metadata>
     <id>tflash</id>
     <title>TurnFlash (User Interface)</title>
-    <version>1.00</version>
+    <version>2.10</version>
     <authors>Nir Sofer</authors>
     <owners>dtgm</owners>
     <summary>Enable/Disable Flash in Internet Explorer</summary>
@@ -18,14 +18,17 @@ While the Flash Component is disabled, Internet Explorer will not ask you to dow
 
 Be aware that in Windows NT, 2000 and XP, this utility will not work if you don't have permission to write to the Registry keys of Internet Explorer.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/tflash/2.10</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/tflash2.html</projectUrl>
-    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/tflash210.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/tflash.png</iconUrl>
     <tags>flash block</tags>
     <copyright>© 2003 NirSoft</copyright>
     <licenseUrl>http://www.nirsoft.net/utils/tflash2.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-[What's New?](http://www.nirsoft.net/utils/tflash2.html)
+#### Package
+* __Automatically built__; if this package's version is out of date by more than a day of the program's version, please [contact the maintainers](https://chocolatey.org/packages/tflash/ContactOwners) and let them know the package is no longer updating correctly.
+* Uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   </metadata>
   <files>

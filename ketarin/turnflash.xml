@@ -1,11 +1,11 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
-  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="38082019-2035-417d-b2a9-3b8b415b3a8d">
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="0866fd3e-ae7a-48c3-9e59-72da87d18dfd">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>6679</LastFileSize>
-    <LastFileDate>2004-08-26T20:40:22-06:00</LastFileDate>
+    <LastFileSize>14176</LastFileSize>
+    <LastFileDate>2003-03-08T21:51:36-07:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -28,7 +28,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
             <Regex>(?&lt;= v)([\d\.]+)</Regex>
-            <Url>http://www.nirsoft.net/utils/tflash2.html</Url>
+            <Url>http://www.nirsoft.net/utils/tflash.html</Url>
             <Name>version</Name>
           </UrlVariable>
         </value>
@@ -56,7 +56,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
             <Regex>href="/?([^ "'&lt;&gt;\*]+\.zip)</Regex>
-            <Url>http://www.nirsoft.net/utils/tflash2.html</Url>
+            <Url>http://www.nirsoft.net/utils/tflash.html</Url>
             <Name>urlFile</Name>
           </UrlVariable>
         </value>
@@ -96,13 +96,13 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\tflash210.zip</PreviousLocation>
+    <PreviousLocation>F:\exe\tflash.zip</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-12-24T22:51:44.1908265-07:00</LastUpdated>
+    <LastUpdated>2015-12-24T22:51:44.4073399-07:00</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
-    <Name>tflash</Name>
+    <Name>turnflash</Name>
   </ApplicationJob>
 </Jobs>
