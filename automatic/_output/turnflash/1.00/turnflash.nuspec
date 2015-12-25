@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
-    <id>{{PackageName}}</id>
+    <id>turnflash</id>
     <title>TurnFlash (Command-line)</title>
-    <version>{{PackageVersion}}</version>
+    <version>1.00</version>
     <authors>Nir Sofer</authors>
     <owners>dtgm</owners>
     <summary>Enable/Disable Flash in Internet Explorer</summary>
@@ -14,7 +14,7 @@ These ads consumes additional bandwidth and sometimes even slow down your comput
 
 Unfortunately, Internet Explorer doesn't provide a simple way to disable the Flash component. Furthermore, if you refuse to install the Flash component, Internet Explorer will constantly ask you to install Flash in each time that you enter into a Web page that contains a Flash object. 
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/turnflash/1.00</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/tflash.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/tflash.png</iconUrl>
     <tags>cli flash block</tags>
@@ -23,7 +23,7 @@ Unfortunately, Internet Explorer doesn't provide a simple way to disable the Fla
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
 #### Package
-* __Automatically built__; if this package's version is out of date by more than a day of the program's version, please [contact the maintainers](https://chocolatey.org/packages/{{PackageName}}/ContactOwners) and let them know the package is no longer updating correctly.
+* __Automatically built__; if this package's version is out of date by more than a day of the program's version, please [contact the maintainers](https://chocolatey.org/packages/turnflash/ContactOwners) and let them know the package is no longer updating correctly.
 * Uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   </metadata>
