@@ -7,6 +7,4 @@ Install-ChocolateyPackage -PackageName "$packageName" `
                           -FileType "$installerType" `
                           -SilentArgs "$silentArgs" `
                           -Url "$url" `
-                          -ValidExitCodes $validExitCodes `
-                          -Checksum "$checksum" `
-                          -ChecksumType "$checksumType"
+                          -ValidExitCodes $validExitCodes
