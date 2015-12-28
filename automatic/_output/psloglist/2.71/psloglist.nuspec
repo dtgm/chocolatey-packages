@@ -16,7 +16,7 @@ The Resource Kit comes with a utility, elogdump, that lets you dump the contents
 
 The default behavior of _PsLogList_ is to show the contents of the System Event Log on the local computer, with visually-friendly formatting of Event Log records. Command line options let you view logs on different computers, use a different account to view a log, or to have the output formatted in a string-search friendly way.
 
-__psloglist__ [- ] [\\computer[,computer[,...] | @file [-u username [-p password]]] [-s [-t delimiter]] [-m #|-n #|-h #|-d #|-w][-c][-x][-r][-a mm/dd/yy][-b mm/dd/yy][-f filter] [-i ID[,ID[,...] | -e ID[,ID[,...]]] [-o event source[,event source][,..]]] [-q event source[,event source][,..]]] [-l event log file] &lt;_eventlog_&gt;
+__psloglist__ [- ] [\\\\computer[,computer[,...] | @file [-u username [-p password]]] [-s [-t delimiter]] [-m #|-n #|-h #|-d #|-w][-c][-x][-r][-a mm/dd/yy][-b mm/dd/yy][-f filter] [-i ID[,ID[,...] | -e ID[,ID[,...]]] [-o event source[,event source][,..]]] [-q event source[,event source][,..]]] [-l event log file] &lt;_eventlog_&gt;
 
 __@file__
 `     Execute the command on each of the computers listed in the file.`

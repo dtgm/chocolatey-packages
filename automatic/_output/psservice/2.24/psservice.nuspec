@@ -14,42 +14,42 @@ PsService is a service viewer and controller for Windows. Like the SC utility th
 
 The default behavior of _PsService_ is to display the configured services (both running and stopped) on the local system. Entering a command on the command-line invokes a particular feature, and some commands accept options. Typing a command followed by "- " displays information on the syntax for the command.
 
-__psservice__ [\\computer [__-u__ username] [__-p__ password]] &lt;_command_&gt; &lt;_options_&gt;
+__psservice__ [\\\\computer [__-u__ username] [__-p__ password]] &lt;_command_&gt; &lt;_options_&gt;
 
 __query__
-`     Displays the status of a service.
+`     Displays the status of a service.`
 
 __config__
-`     Displays the configuration of a service.
+`     Displays the configuration of a service.`
 
 __setconfig__
-`     Sets the start type (disabled, auto, demand) of a service.
+`     Sets the start type (disabled, auto, demand) of a service.`
 
 __start__
-`     Starts a service.
+`     Starts a service.`
 
 __stop__
-`     Stops a service.
+`     Stops a service.`
 
 __restart__
-`     Stops and then restarts a service.
+`     Stops and then restarts a service.`
 
 __pause__
-`     Pauses a service
+`     Pauses a service.`
 
 __cont__
-`     Resumes a paused service.
+`     Resumes a paused service.`
 
 __depend__
-`     Lists the services dependent on the one specified.
+`     Lists the services dependent on the one specified.`
 
 __security__
-`     Dumps the service's security descriptor.
+`     Dumps the service's security descriptor.`
 
 __find__
-`     Searches the network for the specified service.
+`     Searches the network for the specified service.`
 
-__\\computer__
+__\\\\computer__
 `     Targets the NT/Win2K system specified. Include the -u switch with a username and password to login to the remote system if your security credentials do not permit you to obtain performance counter information from the remote system. If you specify the -u option, but not a password with the -p option, _PsService_ will prompt you to enter the password and will not echo it to the screen.`
     </description>
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/psservice/2.24</packageSourceUrl>
