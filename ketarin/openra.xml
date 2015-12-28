@@ -4,13 +4,15 @@
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)</UserAgent>
     <UserNotes />
-    <LastFileSize>11668063</LastFileSize>
-    <LastFileDate>2015-06-14T08:29:19-05:00</LastFileDate>
+    <LastFileSize>11900816</LastFileSize>
+    <LastFileDate>2015-12-24T07:57:44-07:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -82,7 +84,7 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>[A-Fa-f0-9]{32}</Regex>
+            <Regex>(?&lt;=ETag: ")[A-Fa-f0-9]{32}</Regex>
             <Url>{urlHost}/{urlPath}</Url>
             <TextualContent>{checksum}</TextualContent>
             <Name>checksum</Name>
@@ -131,20 +133,6 @@
           </UrlVariable>
         </value>
       </item>
-      <item>
-        <key>
-          <string>x</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>StartEnd</VariableType>
-            <Regex />
-            <Url>{version}</Url>
-            <Name>x</Name>
-          </UrlVariable>
-        </value>
-      </item>
     </Variables>
     <ExecuteCommand />
     <ExecutePreCommand />
@@ -152,11 +140,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\OpenRA-release-20150614.exe</PreviousLocation>
+    <PreviousLocation>F:\exe\OpenRA-release-20151224.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-07-09T07:15:08.5732503-05:00</LastUpdated>
+    <LastUpdated>2015-12-27T23:08:05.5594535-07:00</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>openra</Name>
