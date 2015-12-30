@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>nexusfont.install</id>
+    <title>Nexus Font (Install)</title>
+    <version>2.6.2.1870</version>
+    <authors>JungHoon Noh</authors>
+    <owners>dtgm</owners>
+    <summary>Font manager</summary>
+    <description>
+If you are a designer using many fonts, nexus font is a must have application. 
+You can manage/compare/choose fonts with well organized features. 
+You don't need to install all fonts to the system. You can load fonts you are working with only.
+
+Freeware; fully functional for personal or commercial use.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/nexusfont.install/2.6.2.1870</packageSourceUrl>
+    <projectUrl>http://www.xiles.net/</projectUrl>
+    <tags>font manager</tags>
+    <copyright>© 2015 xiles</copyright>
+    <licenseUrl>http://wikipedia.org/wiki/Freeware</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/09cd515153eed9aaa929eaf022889bcb8419d601/icons/nexusfont.png</iconUrl>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
