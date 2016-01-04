@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>countrytraceroute</id>
+    <title>CountryTraceroute</title>
+    <version>1.26</version>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm</owners>
+    <summary>Fast Traceroute with IP country information</summary>
+    <description>
+CountryTraceRoute is a Traceroute utility, similar to the tracert tool of Windows, but with graphical user interface, and it's also much faster than tracert of Windows.
+
+CountryTraceRoute also displays the country of the owner of every IP address found in the Traceroute.
+
+After the Traceroute is completed, you can select all items (Ctrl+A) and then save them into csv/tab-delimited/html/xml file with 'Save Selected Items' option (Ctrl+S) or copy them to the clipboard (Ctrl+C) and then paste the result into Excel or other spreadsheet application.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/countrytraceroute/1.26</packageSourceUrl>
+    <projectUrl>http://www.nirsoft.net/utils/country_traceroute.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/countrytraceroute.png</iconUrl>
+    <tags>traceroute ip gui</tags>
+    <copyright>© 2012 NirSoft</copyright>
+    <licenseUrl>http://www.nirsoft.net/utils/country_traceroute.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[What's New?](http://www.nirsoft.net/utils/country_traceroute.html)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
