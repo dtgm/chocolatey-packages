@@ -1,6 +1,6 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
-  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="c70c9f2f-f2e0-440e-ada2-e822a68a920b">
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="6cf8ad54-a691-4f3b-98c0-d1d52e1ee671">
     <SourceTemplate><![CDATA[<Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="0fb30714-8ed0-4611-8f1b-cb8fec9dae91">
     <WebsiteUrl />
@@ -59,7 +59,7 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2012-05-23T02:09:37.7748325</LastUpdated>
@@ -71,13 +71,15 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>213916941</LastFileSize>
-    <LastFileDate>2015-05-25T13:03:47-05:00</LastFileDate>
+    <LastFileSize>244125112</LastFileSize>
+    <LastFileDate>2016-01-03T21:33:41.7154965</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Avoid</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -96,7 +98,7 @@
             <Url />
             <StartText>&lt;A HREF="/cao/KiCad_stable-</StartText>
             <EndText>-BZR4022_Win_full_version.exe"&gt;</EndText>
-            <TextualContent>{verDateOrder}.{verBuild}</TextualContent>
+            <TextualContent>{getUrl:regex:(?&lt;=kicad-product-)[^-]+}</TextualContent>
             <Name>version</Name>
           </UrlVariable>
         </value>
@@ -113,7 +115,7 @@
             <Url />
             <StartText>_Win_full_version.exe"&gt;</StartText>
             <EndText>.exe&lt;/A&gt;&lt;br&gt;</EndText>
-            <TextualContent>http://www2.futureware.at/~nickoe/{getUrl}</TextualContent>
+            <TextualContent>{getUrl}</TextualContent>
             <Name>url</Name>
           </UrlVariable>
         </value>
@@ -127,7 +129,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
             <Regex>/?([^ "'&lt;&gt;\*]+86\.exe)</Regex>
-            <Url>http://www2.futureware.at/~nickoe/?C=N;O=D</Url>
+            <Url>http://kicad-pcb.org/download/windows/</Url>
             <TextualContent />
             <Name>getUrl</Name>
           </UrlVariable>
@@ -171,7 +173,7 @@
             <VariableType>Textual</VariableType>
             <Regex />
             <Url />
-            <TextualContent>http://www2.futureware.at/~nickoe/{getUrl64}</TextualContent>
+            <TextualContent>{getUrl64}</TextualContent>
             <Name>url64</Name>
           </UrlVariable>
         </value>
@@ -185,7 +187,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
             <Regex>/?([^ "'&lt;&gt;\*]+64\.exe)</Regex>
-            <Url>http://www2.futureware.at/~nickoe/?C=N;O=D</Url>
+            <Url>http://kicad-pcb.org/download/windows/</Url>
             <Name>getUrl64</Name>
           </UrlVariable>
         </value>
@@ -205,91 +207,6 @@
           </UrlVariable>
         </value>
       </item>
-      <item>
-        <key>
-          <string>verDate</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=x86_64\.exe).*?(\d{2}-\w{3}-\d{4})</Regex>
-            <Url>http://www2.futureware.at/~nickoe/?C=N;O=D</Url>
-            <Name>verDate</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>verDateMonth</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <TextualContent>{verDate:multireplace:,:Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec:01,02,03,04,05,06,07,08,09,10,11,12}</TextualContent>
-            <Name>verDateMonth</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>verDateDot</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <TextualContent>{verDateMonth:replace:-:.}</TextualContent>
-            <Name>verDateDot</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>verDateOrder</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <TextualContent>{verDateDot:regexreplace:(\d+).(\d+).(\d+):$3.$2.$1}</TextualContent>
-            <Name>verDateOrder</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>verBuild</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <Url />
-            <TextualContent>{getUrl:regex:(?&lt;=-r)\d+(?=\.)}</TextualContent>
-            <Name>verBuild</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>x</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>StartEnd</VariableType>
-            <Regex />
-            <Url>{version}</Url>
-            <Name>x</Name>
-          </UrlVariable>
-        </value>
-      </item>
     </Variables>
     <ExecuteCommand />
     <ExecutePreCommand />
@@ -297,11 +214,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\kicad-product-r5679.9ebcf41-i686.exe</PreviousLocation>
+    <PreviousLocation>F:\exe\kicad-product-4.0.1-i686.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-05-25T19:07:08.8834493-05:00</LastUpdated>
+    <LastUpdated>2016-01-03T21:33:41.7154965</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>kicad</Name>
