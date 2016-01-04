@@ -1,4 +1,4 @@
-﻿$packageName = 'zona'
+$packageName = 'zona'
 $packageSearch = "$packageName"
 $installerType = 'exe'
 $silentArgs = '/S'

@@ -1,8 +1,8 @@
-﻿$packageName = 'zona'
+$packageName = 'zona'
 $installerType = 'exe'
 $silentArgs = '/S'
-$url = 'https://dl.appzona.org/ZonaSetup[KgI7].exe'
-$checksum = '{checksum}'
+$url = 'https://dl.appzona.org/ZonaSetup[NY93].exe'
+$checksum = '8dcf10b05b5537c4134814ad18fade7304700f23'
 $checksumType = 'sha1'
 $validExitCodes = @(0) #exit codes http://msdn.microsoft.com/en-us/library/aa368542(VS.85).aspx
 

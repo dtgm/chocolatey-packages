@@ -1,6 +1,6 @@
 $packageName = 'webbrowserpassview.portable'
 $url = 'http://www.nirsoft.net/toolsdownload/webbrowserpassview.zip'
-$checksum = '{checksum}'
+$checksum = '2484cf0fe5b84017fef5475d45709bb7bd322da6'
 $checksumType = 'sha1'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $installFile = Join-Path $toolsDir "webbrowserpassview.exe"
