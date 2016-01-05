@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>trimcheck</id>
+    <version>0.7</version>
+    <title>TrimCheck</title>
+    <authors>Vladimir Panteleev</authors>
+    <owners>dtgm</owners>
+    <summary>Command line test whether TRIM works on your SSD</summary>   
+    <description>
+This program provides an easy way to test whether TRIM works on your SSD. It uses a similar method to the one described here, but uses sector calculations to avoid searching the entire drive for the sought pattern. It also pads the sought data with 32MB blocks of dummy data, to give some room to processes which may otherwise overwrite the tested deleted disk area.
+
+The program will set up a test by creating and deleting a file with unique contents, then (on the second run) checks if the data is still accessible at the file's previous location.
+    </description>
+    <language>en-us</language>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/trimcheck/0.7</packageSourceUrl>
+    <projectUrl>http://blog.thecybershadow.net/2012/12/09/ssd-trim-check-tool/</projectUrl>
+    <projectSourceUrl>https://github.com/CyberShadow/trimcheck</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/CyberShadow/trimcheck/issues</bugTrackerUrl>
+    <licenseUrl>http://mozilla.org/MPL/2.0/</licenseUrl>
+    <copyright>© 2012 Vladimir Panteleev</copyright>	
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>ssd trim cli</tags>
+    <releaseNotes>
+#### Program
+* [Changelog](https://github.com/CyberShadow/trimcheck#changelog)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
