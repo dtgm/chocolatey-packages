@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>specialfoldersview</id>
+    <title>SpecialFoldersView</title>
+    <version>1.26</version>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm</owners>
+    <summary>Special Folders Viewer</summary>
+    <description>
+Windows operating system have dozens of special folders that are used for storing application settings and files, storing Internet files, saving temporary files, storing shortcuts to other files, and so on.
+
+This utility displays the list of all special folders in your system, and allows you to easily jump to the right folder simply by double-clicking the folder item.
+
+You can also save the list of all folder paths into text/html/xml file.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/specialfoldersview/1.26</packageSourceUrl>
+    <projectUrl>http://www.nirsoft.net/utils/special_folders_view.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/specialfoldersview.png</iconUrl>
+    <tags>folders jump view csidl vista</tags>
+    <copyright>© 2008 NirSoft</copyright>
+    <licenseUrl>http://www.nirsoft.net/utils/special_folders_view.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[What's New?](http://www.nirsoft.net/utils/special_folders_view.html)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
