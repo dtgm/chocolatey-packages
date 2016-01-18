@@ -1,9 +1,9 @@
-﻿$packageName = '{{PackageName}}'
-$url = '{{DownloadUrl}}'
-$checksum = '{{Checksum}}'
+$packageName = 'kvrt'
+$url = 'http://devbuilds.kaspersky-labs.com/devbuilds/KVRT/latest/full/KVRT.exe'
+$checksum = '064b30b85e07894393ce463b6f96e4f994190b04'
 $checksumType = 'sha1'
 $toolsPath = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$installFile = Join-Path $toolsPath "{{PackageName}}.exe"
+$installFile = Join-Path $toolsPath "kvrt.exe"
 try {
   Get-ChocolateyWebFile -PackageName "$packageName" `
                         -FileFullPath "$installFile" `
@@ -16,7 +16,7 @@ try {
               -Value $null
 
   # create batch to start executable
-  $batchStart = Join-Path $toolsPath "{{PackageName}}.bat"
+  $batchStart = Join-Path $toolsPath "kvrt.bat"
   'start %~dp0\kvrt.exe -accepteula' | Out-File -FilePath $batchStart -Encoding ASCII
   Install-BinFile "kvrt" "$batchStart"
 } catch {
