@@ -1,6 +1,6 @@
-﻿$packageName = 'pslist'
-$url = 'https://download.sysinternals.com/files/PSTools.zip'
-$checksum = '{checksum}'
+$packageName = 'pslist'
+$url = 'https://download.sysinternals.com/files/pstools.zip'
+$checksum = 'd82ef74b45f7b25e5efa7311a87ecab89c259a39'
 $checksumType = 'sha1'
 $url64 = "$url"
 $checksum64 = "$checksum"

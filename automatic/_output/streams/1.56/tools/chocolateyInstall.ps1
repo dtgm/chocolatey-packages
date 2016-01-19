@@ -1,6 +1,6 @@
-﻿$packageName = 'streams'
-$url = 'https://download.sysinternals.com/files/Streams.zip'
-$checksum = '{checksum}'
+$packageName = 'streams'
+$url = 'https://download.sysinternals.com/files/streams.zip'
+$checksum = '2d98dddeab45d9d9ff6a4f41e456b583f4b35694'
 $checksumType = 'sha1'
 $url64 = "$url"
 $checksum64 = "$checksum"

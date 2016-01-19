@@ -1,5 +1,5 @@
 $packageName = 'du'
-$url = 'https://download.sysinternals.com/files/DU.zip'
+$url = 'https://download.sysinternals.com/files/du.zip'
 $checksum = '4b3405dfe53058992fdfaa2bb4c2175adbcaf4a3'
 $checksumType = 'sha1'
 $url64 = "$url"

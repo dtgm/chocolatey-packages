@@ -1,6 +1,6 @@
-﻿$packageName = 'regjump'
-$url = 'https://download.sysinternals.com/files/RegJump.zip'
-$checksum = '{checksum}'
+$packageName = 'regjump'
+$url = 'https://download.sysinternals.com/files/regjump.zip'
+$checksum = 'c254e83991a524a8bef68179a83f55215a1c856d'
 $checksumType = 'sha1'
 $url64 = "$url"
 $checksum64 = "$checksum"

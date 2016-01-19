@@ -1,6 +1,6 @@
-﻿$packageName = 'shellrunas'
-$url = 'https://download.sysinternals.com/files/ShellRunas.zip'
-$checksum = '{checksum}'
+$packageName = 'shellrunas'
+$url = 'https://download.sysinternals.com/files/shellrunas.zip'
+$checksum = '107971c50ed9b1fe51adc2b33caf55e61096a0d0'
 $checksumType = 'sha1'
 $url64 = "$url"
 $checksum64 = "$checksum"
