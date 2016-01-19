@@ -1,22 +1,23 @@
-$packageName = 'aliengame'
-$url = 'http://scienceathome.org/wp-content/uploads/2015/07/AlienGame_win_v0.2.31.zip'
-$checksum = 'd53d88ece3ae72f210674f3cdf9c85dde5639950'
-$checksumType = 'sha1'
-$url64 = "$url"
-$checksum64 = "$checksum"
-$checksumType64 = 'sha1'
+﻿$packageName = 'aliengame'
+$url = 'https://s3.amazonaws.com/www-scienceathome-org-wp/wp-content/uploads/2015/04/AlienGame11.rar'
+$checksum = '33275d743a9181f8af6f0f051c8bed53'
+$checksumType = 'md5'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$zipDir = Join-Path $toolsDir "AlienGame_win_v0.2.31"
-$installFile = Join-Path $zipDir "AlienGame.exe"
+$fileType = 'rar'
+$chocTempDir = Join-Path $env:Temp "chocolatey"
+$tempDir = Join-Path $chocTempDir "$packageName"
+if (![System.IO.Directory]::Exists($tempDir)) {[System.IO.Directory]::CreateDirectory($tempDir) | Out-Null}
+if ($env:packageVersion -ne $null) {$tempDir = Join-Path $tempDir "$env:packageVersion";}
+$file = Join-Path $tempDir "$($packageName)Install.$fileType"
 
-Install-ChocolateyZipPackage -PackageName "$packageName" `
-                             -Url "$url" `
-                             -UnzipLocation "$toolsDir" `
-                             -Url64bit "$url64" `
-                             -Checksum "$checksum" `
-                             -ChecksumType "$checksumType" `
-                             -Checksum64 "$checksum64" `
-                             -ChecksumType64 "$checksumType64"
+Get-ChocolateyWebFile -PackageName "$packageName" `
+                      -FileFullPath "$file" `
+                      -Url "$url" `
+                      -Checksum "$checksum" `
+                      -ChecksumType "$checksumType"
+                      
+Start-Process "7z" -ArgumentList "x -o`"$toolsDir`" -y `"$file`"" -Wait
 
+$installFile = Join-Path $toolsDir "AlienGame.exe"
 Set-Content -Path ("$installFile.gui") `
             -Value $null

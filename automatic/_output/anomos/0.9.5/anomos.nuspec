@@ -14,7 +14,10 @@ Anomos is designed to be easy to use – you won’t even be aware of the securi
 
 Please Note: Anomos is an experimental anonymity protocol. It has not yet undergone the serious peer-review necessary to consider it safe for general use. Do not rely on it for strong anonymity.
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/anomos/0.9.5</packageSourceUrl>
     <projectUrl>https://anomos.info/</projectUrl>
+    <projectSourceUrl>http://git.anomos.info/?p=anomos.git</projectSourceUrl>
+    <docsUrl>http://anomos.info/doc/</docsUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/b4b21d25c9dbf5781471895d602280c0081e0859/icons/anomos.png</iconUrl>
     <tags>privacy p2p bittorrent</tags>
     <copyright>© John M. Schanck, Richard Jones</copyright>
@@ -23,9 +26,7 @@ Please Note: Anomos is an experimental anonymity protocol. It has not yet underg
     <releaseNotes>
 #### Program
 * [News](https://anomos.info/wp/blog/)
-* [Documentation](http://anomos.info/doc/)
 * [Community](https://anomos.info/wp/community/)
-* [Source code](http://git.anomos.info/?p=anomos.git)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

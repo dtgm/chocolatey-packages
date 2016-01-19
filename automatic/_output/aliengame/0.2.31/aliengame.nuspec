@@ -13,7 +13,7 @@ Play the game to help us figure out what WE should be thinking about when trying
 “When you play a game — if you learn to be good at it — you find what it is you should have been thinking about” (John Conway).
 
 #### How to play
-* Video tutorial, [youtube.com](https://www.youtube.com/watch?v=zJxYbYzvgQQ)
+* [Video tutorial](https://www.youtube.com/watch?v=zJxYbYzvgQQ)
 
 #### ScienceAtHome    
 * To contribute to our research, make sure you play our games with an active internet connection, as we are gathering data for our scientists based on your performance.
@@ -34,6 +34,9 @@ Play the game to help us figure out what WE should be thinking about when trying
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
+    <dependencies>
+      <dependency id="7zip.commandline" />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
