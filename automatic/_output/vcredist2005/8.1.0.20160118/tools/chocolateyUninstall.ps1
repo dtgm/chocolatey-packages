@@ -1,4 +1,4 @@
-﻿$packageName = '{{PackageName}}'
+﻿$packageName = 'vcredist2005'
 $packageSearch = "Microsoft Visual C++ 2005 Redistributable*"
 $installerType = 'msi'
 $silentArgs = '/quiet /qn /norestart'
