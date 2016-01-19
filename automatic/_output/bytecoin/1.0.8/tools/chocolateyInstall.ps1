@@ -1,6 +1,6 @@
 $packageName = 'bytecoin'
-$url = 'http://sourceforge.net/projects/bytecoin-bcn/files/BytecoinWallet/BytecoinWallet-1.0.8.win32.zip/download'
-$checksum = '3e58a3ffd165df350155ca1d81835e2772821cbe'
+$url = 'http://sourceforge.net/projects/bytecoin-bcn/files/BytecoinWallet/BytecoinWallet-1.0.8.win64.zip/download'
+$checksum = '70a643c761a07660534d4b618b45c263990d8695'
 $checksumType = 'sha1'
 $url64 = "$url"
 $checksum64 = "$checksum"
