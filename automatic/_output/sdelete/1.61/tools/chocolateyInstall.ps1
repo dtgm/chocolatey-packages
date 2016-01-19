@@ -1,6 +1,6 @@
-﻿$packageName = 'sdelete'
-$url = 'https://download.sysinternals.com/files/SDelete.zip'
-$checksum = '{checksum}'
+$packageName = 'sdelete'
+$url = 'https://download.sysinternals.com/files/sdelete.zip'
+$checksum = 'a7c5b5b25cfcc6d9609d7aec66e061a0938d4f9a'
 $checksumType = 'sha1'
 $url64 = "$url"
 $checksum64 = "$checksum"

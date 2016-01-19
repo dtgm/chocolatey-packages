@@ -1,6 +1,6 @@
-﻿$packageName = 'contig'
-$url = 'https://download.sysinternals.com/files/Contig.zip'
-$checksum = '{checksum}'
+$packageName = 'contig'
+$url = 'https://download.sysinternals.com/files/contig.zip'
+$checksum = '054bf629db774bab6cf7c6fe0fca96508f431e5f'
 $checksumType = 'sha1'
 $url64 = "$url"
 $checksum64 = "$checksum"
