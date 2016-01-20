@@ -3,7 +3,7 @@ $installerType = 'exe'
 $silentArgs = '/S'
 $validExitCodes = @(0)
 $url = 'http://www.nirsoft.net/toolsdownload/webbrowserpassview_setup.exe'
-$checksum = '{checksum}'
+$checksum = '9dd18dbc50ba15cf6fc0a10730c7cd1493c3063b'
 $checksumType = 'sha1'
 
 $chocTempDir = Join-Path $Env:Temp "chocolatey"
