@@ -41,10 +41,10 @@ Krita's design emphasizes creating artwork from beginning to end as opposed to m
 
 #### Package
 * Manually built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
-* Installs updated version of 2.9.10.0
+* This chocolatey package installs the re-released version of Krita 2.9.10.0. The version as reported by your OS will remain unchanged.
 
 #### Security notice
-Please note that version 2.9.10.0, originally released [09 Dec 2015](https://krita.org/item/krita-2-9-10/), was re-released under the same version number on 29 Dec 2015 without notice of what changes were made.
+Krita version 2.9.10.0 was originally released [09 Dec 2015](https://krita.org/item/krita-2-9-10/), and re-released under the same version number on 29 Dec 2015 without notice of what changes were made.
 
 ##### VirusTotal report
 * 32-bit [0/55](https://www.virustotal.com/file/955205885da081e2d1500083d87ac0be05094debed1609771ae2773522f15f10/analysis/)
