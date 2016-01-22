@@ -16,23 +16,25 @@ Duplicati is licensed under LGPL and available for Windows and Linux (.NET 2.0+ 
 
 [Screenshots](https://plus.google.com/photos/112489598968242495432/albums/5656237519929944449)
 [FAQ](https://github.com/duplicati/duplicati/wiki/FAQ)
-Wiki: [GitHub](https://github.com/duplicati/duplicati/wiki), [GoogleCode](https://code.google.com/p/duplicati/wiki/TableOfContents) (deprecated)
-[HowTos](http://www.duplicati.com/howtos)
-
-[Source code](https://github.com/duplicati/duplicati)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/duplicati.install/1.3.4.20150408</packageSourceUrl>
     <projectUrl>http://www.duplicati.com/</projectUrl>
+    <projectSourceUrl>https://github.com/duplicati/duplicati</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/duplicati/duplicati/issues</bugTrackerUrl>
+    <docsUrl>http://www.duplicati.com/howtos</docsUrl>
+    <mailingListUrl>https://groups.google.com/forum/#!forum/duplicati</mailingListUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/128248bea393239a8c1eb2cc45f1ae101fdea0ef/icons/duplicati.svg</iconUrl>
     <tags>backup cloud incremental vss</tags>
     <copyright>© 2009 Kenneth Skovhede</copyright>
     <licenseUrl>http://www.gnu.org/licenses/lgpl.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/128248bea393239a8c1eb2cc45f1ae101fdea0ef/icons/duplicati.svg</iconUrl>
     <releaseNotes>
-[News](http://www.duplicati.com/news)
-[Known issues](https://github.com/duplicati/duplicati/issues)
+#### Program
+* [News](http://www.duplicati.com/news)
+* [Known issues](https://github.com/duplicati/duplicati/issues)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   </metadata>
-  <files>
-    <file src="tools\**" target="tools" />
-  </files>
 </package>
