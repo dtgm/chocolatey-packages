@@ -37,9 +37,7 @@ Copy-Item $ahkFile "$ahkRun" -Force
 
 try {
   Start-Process $ahkExe $ahkRun
-  Start-ChocolateyProcessAsAdmin -Statements "$installArgs" `
-                                 -ExeToRun "cmd" `
-                                 -ValidExitCodes $validExitCodes
+  & java -jar "C:\Program Files\i2p\Uninstaller\uninstaller.jar"
   Remove-Item "$ahkRun" -Force
   if (Test-Path $inPath) {
     Remove-Item -Path $inPath -Recurse
