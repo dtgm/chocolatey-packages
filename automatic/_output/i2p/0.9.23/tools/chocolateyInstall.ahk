@@ -1,6 +1,6 @@
 ; default environment
 DetectHiddenWindows, off
-SetKeyDelay, 150
+SetKeyDelay, 50
 
 ; modified environment
 #NoEnv
