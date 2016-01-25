@@ -20,8 +20,11 @@ $packageArgs = @{
 
 Install-ChocolateyZipPackage $packageName $url $toolsDir
 
+$files = get-childitem $installDir -include *.exe -recurse
 
-
+foreach ($file in $files) {
+   New-Item "$file.gui" -type file -force | Out-Null
+}
 
 
 
