@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>xbmc</id>
+    <title>[DEPRECATED] XBMC</title>
+    <version>13.2.0.20160121</version>
+    <authors>XBMC Foundation</authors>
+    <owners>dtgm</owners>
+    <summary>Software media player and entertainment hub for digital media</summary>
+    <description>
+#### New package name: __[kodi](https://chocolatey.org/packages/kodi)__
+
+- - -
+
+`xbmc` has been deprecated because the XBMC Foundation decided to [change names](http://kodi.tv/introducing-kodi-14/).
+ 
+This package exists only for backward compatibility to provide a transitional dummy package for existing users and scripts which may still be using this package ID.
+    </description>
+    <projectUrl>https://chocolatey.org/packages/kodi</projectUrl>
+    <tags>deprecated mediaserver video dlna</tags>
+    <releaseNotes>
+#### New users
+* Do not install `xbmc` (this package). Install __[kodi](https://chocolatey.org/packages/kodi)__.
+
+#### Existing users
+* Updating this package will automatically install the most recent version of the __kodi__ chocolatey package.
+* Please update any links, dependencies, or scripts that reference this package to the new package name __kodi__.
+
+#### Existing users - Cleanup (optional)
+* `choco uninstall xbmc --all-versions --whatif`
+
+To manually remove xbmc temporary files created by chocolatey, you may safely do so by issuing one of the following commands:
+
+* cmd: `for /d %i in (%ChocolateyInstall%\lib\xbmc*) do ECHO rd /s /q %i`
+* powershell: `Remove-Item $Env:ChocolateyInstall\lib\xbmc* -Recurse -Force -WHATIF`
+
+Note:
+
+* After verifying the output targets the correct files, remove `ECHO` or `WHATIF` from the respective commands.
+* Your console may need elevated privileges to remove the files. From a PowerShell console run one of the following commands:
+  * `Start-Process cmd -Verb runAs`
+  * `Start-Process powershell -Verb runAs`
+    </releaseNotes>
+    <dependencies>
+      <dependency id="kodi" />
+    </dependencies>
+  </metadata>
+</package>
