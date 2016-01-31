@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>netbeans</id>
+    <title>NetBeans Java SE</title>
+    <version>8.1</version>
+    <authors>Oracle Corporation</authors>
+    <owners>dtgm</owners>
+    <summary>Open source IDE for Java (SE) development</summary>
+    <description>
+NetBeans provides an extensible IDE with rich functionality for Java development, such as code analyzers, refactoring tools and converters, which upgrade old language constructs to newer Java 8 concepts in your code (e.g. lambdas, functional operations and method references).
+
+#### Community
+* [Facebook](http://www.facebook.com/NetBeans)
+* [Google+](https://plus.google.com/105597468329838196909/)
+* [Twitter](https://twitter.com/netbeans)
+* [YouTube](http://www.youtube.com/user/netbeansvideos)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/netbeans/8.1</packageSourceUrl>
+    <projectUrl>https://netbeans.org/</projectUrl>
+    <projectSourceUrl>https://netbeans.org/community/sources/</projectSourceUrl>
+    <bugTrackerUrl>https://netbeans.org/community/issues.html</bugTrackerUrl>
+    <docsUrl>https://netbeans.org/kb/index.html</docsUrl>
+    <mailingListUrl>https://netbeans.org/community/lists/</mailingListUrl>
+    <iconUrl>https://cdn.rawgit.com/ComFreek/chocolatey-packages/779f5c96f817ed1fa0d76fd90841873dc6c0ba74/icons/netbeans.png</iconUrl>
+    <tags>netbeans java ide development</tags>
+    <copyright>© 1997-2014, Oracle and/or its affiliates</copyright>
+    <licenseUrl>https://netbeans.org/about/legal/product-licences.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [News](https://netbeans.org/community/releases/81)
+* [Roadmap](https://netbeans.org/community/releases/roadmap.html)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="jdk8" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
