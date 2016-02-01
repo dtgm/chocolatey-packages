@@ -1,7 +1,5 @@
 $packageName = 'kis'
 $installerType = 'exe'
-$instLog = Join-Path $env:Temp kis-$(Get-Date -Format yyyyMMddHHmm)
-$instLog = $instLog + '.log'
 $silentArgs = "/s /noreboot"
 $url = 'http://products.kaspersky-labs.com/english/homeuser/kis2016/kis16.0.0.614en_8811.exe'
 $checksum = 'e03cc858d0db908306f79b62eb0b507d5221dd8e'
@@ -185,7 +183,7 @@ if ($recommended -eq "1") { $silentArgs += " /recommended" }
 $silentArgs += " /t" + $installLog
 $silentArgs += " /g" + $installLogLevel
 $silentArgs += " /pAGREETOEULA=" + $agreeToEula
-$silentArgs += " /pJOINKSN =" + $joinKsn
+$silentArgs += " /pJOINKSN=" + $joinKsn
 $silentArgs += " /pSELFPROTECTION=" + $selfProtection
 $silentArgs += " /pSKIPPRODUCTCHECK=" + $skipProductCheck
 $silentArgs += " /pALLOWREBOOT=" + $allowReboot
