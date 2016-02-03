@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>winspector</id>
+    <title>Winspector</title>
+    <version>1.0.37</version>
+    <authors>Russ Freeman</authors>
+    <owners>dtgm</owners>
+    <summary>Programmer's window spy utility</summary>
+    <description>
+Winspector is a Windows application that allows you to look at the messages being sent in the system. When developing your own applications you can see the messages and you can inspect them, but you can't do the same with other running applications. With Winspector you can.
+
+Winspector takes the fabulous Spy++ to the next level.
+
+#### Abandonware
+* This program may contain bugs as no updates have been released since 2006. 
+* The [developer's](http://gipsysoft.com/articles/#utility) website links to defunct www.window-spy.com. 
+* Install file is retrieved from archive.org.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/manual/winspector/1.0.37</packageSourceUrl>
+    <projectUrl>https://web.archive.org/web/20090916053057/http://www.windows-spy.com/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/1e5b48435d413fd0d57b32d5bd9ed4aeb6b030ed/icons/winspector.png</iconUrl>
+    <tags>debug window spy abandonware unattended</tags>
+    <copyright>© 2002-2006 Russ Freeman</copyright>
+    <licenseUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/1e5b48435d413fd0d57b32d5bd9ed4aeb6b030ed/licenses/winspector.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program released 19 Nov 2006
+* 12-11-2006	Fixed bug where the window titles in the tree did not update to reflect changes in the window captions.
+* 12-11-2006	Added pretty much every tooltip control message.
+* 12-11-2006	Added a bunch of decoders for (rich)edit controls.
+* 12-11-2006	Fixed bug where the config file could get corrupted when using the unicode version.
+* 30-04-2005	Added "info" button to the message display to look up a message on the web.
+
+[Full changelog](https://web.archive.org/web/20090916042429/http://www.windows-spy.com/files/history.txt)
+
+#### Package created 03 Feb 2016
+* Manually built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+* Uninstall is not completely silent; a progress window cannot be suppressed.
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
