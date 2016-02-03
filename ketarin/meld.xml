@@ -1,16 +1,18 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="898939f4-7b2e-421a-ad2e-14e5fdd1698a">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>11649024</LastFileSize>
-    <LastFileDate>2015-02-05T00:46:09.1814523</LastFileDate>
+    <LastFileSize>13860864</LastFileSize>
+    <LastFileDate>2015-12-11T17:35:14-07:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -38,9 +40,10 @@
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <TextualContent>https://download.gnome.org/binaries/win32/meld/{version:split:.:0}.{version:split:.:1}/Meld-{version}-win32.msi</TextualContent>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=ResponseUri: )[^\r\n]+</Regex>
+            <Url>{url64}</Url>
+            <TextualContent />
             <Name>url</Name>
           </UrlVariable>
         </value>
@@ -61,15 +64,44 @@
       </item>
       <item>
         <key>
-          <string>nopush</string>
+          <string>yopush</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent />
-            <Name>nopush</Name>
+            <TextualContent>--nopush</TextualContent>
+            <Name>yopush</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>cscript</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>0</TextualContent>
+            <Name>cscript</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url64</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <Url />
+            <TextualContent>https://download.gnome.org/binaries/win32/meld/{version:split:.:0}.{version:split:.:1}/Meld-{version}-win32.msi</TextualContent>
+            <Name>url64</Name>
           </UrlVariable>
         </value>
       </item>
@@ -80,11 +112,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\Meld-3.12.3-win32.msi</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
-    <Enabled>false</Enabled>
+    <PreviousLocation>F:\exe\Meld-3.14.2-win32.msi</PreviousLocation>
+    <DeletePreviousFile>false</DeletePreviousFile>
+    <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-05T00:46:09.1814523</LastUpdated>
+    <LastUpdated>2016-01-05T18:12:46.9833484-07:00</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>meld</Name>

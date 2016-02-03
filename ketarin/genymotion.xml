@@ -4,13 +4,15 @@
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.0</UserAgent>
     <UserNotes />
-    <LastFileSize>25245568</LastFileSize>
-    <LastFileDate>2015-07-17T10:27:56-06:00</LastFileDate>
+    <LastFileSize>36554752</LastFileSize>
+    <LastFileDate>2015-11-27T06:36:41-07:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Avoid</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -25,8 +27,8 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>.*(?&lt;=Genymotion-)([\d\.]+)(?=-User-Guide)</Regex>
-            <Url>https://www.genymotion.com/assets/doc</Url>
+            <Regex>(?&lt;=Genymotion-)[\d\.]{3,}(?=-User-Guide)</Regex>
+            <Url>https://www.genymotion.com/assets/doc/?C=N;O=D</Url>
             <StartText>    &lt;!--  VERSION </StartText>
             <EndText>  --&gt;</EndText>
             <TextualContent>2.3.1.20141201</TextualContent>
@@ -83,11 +85,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\genymotion-2.5.2.exe</PreviousLocation>
+    <PreviousLocation>F:\exe\genymotion-2.6.0.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-09-20T02:07:44.5585742-06:00</LastUpdated>
+    <LastUpdated>2016-01-22T21:52:18.3893006-07:00</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>genymotion</Name>
