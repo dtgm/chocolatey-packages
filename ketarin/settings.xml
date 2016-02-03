@@ -153,6 +153,14 @@
       &lt;string&gt;{url:regex:(?&amp;lt;=//[\w-]+\.)*[\w-]+\.[\w-]+(?=/)}&lt;/string&gt;
     &lt;/value&gt;
   &lt;/item&gt;
+  &lt;item&gt;
+    &lt;key&gt;
+      &lt;string&gt;checksum64file&lt;/string&gt;
+    &lt;/key&gt;
+    &lt;value&gt;
+      &lt;string&gt;{checksum64file}&lt;/string&gt;
+    &lt;/value&gt;
+  &lt;/item&gt;
 &lt;/dictionary&gt;</string>
         </value>
       </item>
@@ -281,7 +289,7 @@
           <string>MainForm/Size</string>
         </key>
         <value>
-          <string>System.Drawing.Size:1608,626</string>
+          <string>System.Drawing.Size:1809,760</string>
         </value>
       </item>
       <item>
@@ -289,7 +297,7 @@
           <string>MainForm/Location</string>
         </key>
         <value>
-          <string>System.Drawing.Point:-7,468</string>
+          <string>System.Drawing.Point:-12,939</string>
         </value>
       </item>
       <item>
@@ -385,7 +393,7 @@
           <string>olvJobs/Target:Width</string>
         </key>
         <value>
-          <string>System.Int32:0</string>
+          <string>System.Int32:17</string>
         </value>
       </item>
       <item>
@@ -433,7 +441,7 @@
           <string>olvJobs/Status:Width</string>
         </key>
         <value>
-          <string>System.Int32:53</string>
+          <string>System.Int32:70</string>
         </value>
       </item>
       <item>
@@ -449,7 +457,7 @@
           <string>olvJobs/LastSortColumn</string>
         </key>
         <value>
-          <string>System.String:Last updated</string>
+          <string>System.String:Application</string>
         </value>
       </item>
       <item>
@@ -457,7 +465,7 @@
           <string>olvJobs/LastSortOrder</string>
         </key>
         <value>
-          <string>System.Int32:2</string>
+          <string>System.Int32:1</string>
         </value>
       </item>
       <item>
@@ -545,7 +553,7 @@
           <string>EditVariablesDialog/Size</string>
         </key>
         <value>
-          <string>System.Drawing.Size:1091,661</string>
+          <string>System.Drawing.Size:1225,661</string>
         </value>
       </item>
       <item>
@@ -553,7 +561,7 @@
           <string>EditVariablesDialog/Location</string>
         </key>
         <value>
-          <string>System.Drawing.Point:-4,1046</string>
+          <string>System.Drawing.Point:28,1105</string>
         </value>
       </item>
       <item>
@@ -593,7 +601,7 @@
           <string>LogDialog/Size</string>
         </key>
         <value>
-          <string>System.Drawing.Size:1504,436</string>
+          <string>System.Drawing.Size:1504,419</string>
         </value>
       </item>
       <item>
@@ -601,7 +609,7 @@
           <string>LogDialog/Location</string>
         </key>
         <value>
-          <string>System.Drawing.Point:82,32</string>
+          <string>System.Drawing.Point:-6,374</string>
         </value>
       </item>
       <item>
@@ -657,7 +665,7 @@
           <string>olvErrors/Error:Width</string>
         </key>
         <value>
-          <string>System.Int32:952</string>
+          <string>System.Int32:935</string>
         </value>
       </item>
       <item>
@@ -1477,7 +1485,7 @@ if (varCScript == "2") {
           <string>olvJobs/DeletePreviousFile:Width</string>
         </key>
         <value>
-          <string>System.Int32:38</string>
+          <string>System.Int32:24</string>
         </value>
       </item>
       <item>
@@ -1485,7 +1493,7 @@ if (varCScript == "2") {
           <string>olvJobs/DeletePreviousFile:LastDisplayIndex</string>
         </key>
         <value>
-          <string>System.Int32:19</string>
+          <string>System.Int32:20</string>
         </value>
       </item>
       <item>
@@ -1678,6 +1686,30 @@ if (varCScript == "2") {
         </key>
         <value>
           <string>System.Int32:10</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/checksum64file:Visibility</string>
+        </key>
+        <value>
+          <string>System.Boolean:True</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/checksum64file:Width</string>
+        </key>
+        <value>
+          <string>System.Int32:42</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/checksum64file:LastDisplayIndex</string>
+        </key>
+        <value>
+          <string>System.Int32:19</string>
         </value>
       </item>
     </dictionary>

@@ -1,16 +1,18 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="5c32f7e7-f845-4ba3-a65f-accbb9fcc830">
     <WebsiteUrl />
-    <UserAgent />
+    <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64)</UserAgent>
     <UserNotes />
     <LastFileSize>155648</LastFileSize>
-    <LastFileDate>2015-05-07T20:05:28.6021735</LastFileDate>
+    <LastFileDate>2016-01-22T01:28:23.548503</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -39,8 +41,8 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=bin/Release").*?title="([\d\.]+)"</Regex>
-            <Url>https://github.com/cryptogeek/DataHealthCheck/tree/master/DataHealthCheck/bin/</Url>
+            <Regex>(?&lt;=v)[\d\.]{3,}</Regex>
+            <Url>https://raw.githubusercontent.com/cryptogeek/DataHealthCheck/master/changelog.txt</Url>
             <Name>version</Name>
           </UrlVariable>
         </value>
@@ -54,7 +56,8 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>https://github.com/cryptogeek/DataHealthCheck/blob/master/DataHealthCheck/bin/Release/DataHealthCheck.exe?raw=true</TextualContent>
+            <Url />
+            <TextualContent>{getUrl}</TextualContent>
             <Name>url</Name>
           </UrlVariable>
         </value>
@@ -68,7 +71,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
             <Regex>[^ "'&lt;&gt;\*]+\.exe</Regex>
-            <Url>https://cryptogeek.ninja/DataHealthCheck</Url>
+            <Url>https://github.com/cryptogeek/DataHealthCheck/</Url>
             <Name>getUrl</Name>
           </UrlVariable>
         </value>
@@ -94,11 +97,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\DataHealthCheck.exe</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <PreviousLocation>F:\exe\DataHealthCheck.exe</PreviousLocation>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-05-07T20:05:28.6021735</LastUpdated>
+    <LastUpdated>2016-01-22T01:28:23.548503</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>datahealthcheck</Name>

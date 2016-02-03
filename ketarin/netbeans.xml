@@ -6,8 +6,8 @@
     <UserNotes>Previously getting location from:
 https://netbeans.org/community/releases/roadmap.html
 (?&lt;=href="/downloads/"&gt;Download v)([\d\.]+)(?=&lt;)</UserNotes>
-    <LastFileSize>94134224</LastFileSize>
-    <LastFileDate>2015-02-05T00:46:57.6584081</LastFileDate>
+    <LastFileSize>98918056</LastFileSize>
+    <LastFileDate>2015-10-22T20:13:26-06:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -29,7 +29,7 @@ https://netbeans.org/community/releases/roadmap.html
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=&lt;td class="tbltd1" align="center"&gt;)[\d\.]+(?=&lt;/td&gt;\s+&lt;td class="tbltd1"&gt;&lt;i&gt;&lt;b&gt;Released)</Regex>
+            <Regex>(?&lt;=Download v)[\d\.]+</Regex>
             <Url>https://netbeans.org/community/releases/roadmap.html</Url>
             <TextualContent />
             <Name>version</Name>
@@ -58,7 +58,7 @@ https://netbeans.org/community/releases/roadmap.html
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=&lt;h2&gt;Release\s)[\d\.]+(?=&lt;)</Regex>
+            <Regex>(?&lt;=/?)community/releases/\d{2}(?=/)</Regex>
             <Url>https://netbeans.org/community/releases/</Url>
             <Name>versionMajor</Name>
           </UrlVariable>
@@ -87,7 +87,7 @@ https://netbeans.org/community/releases/roadmap.html
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>{versionMajor:replace:.:}</TextualContent>
+            <TextualContent>https://netbeans.org/{versionMajor}</TextualContent>
             <Name>url64</Name>
           </UrlVariable>
         </value>
@@ -101,7 +101,7 @@ https://netbeans.org/community/releases/roadmap.html
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>2</TextualContent>
+            <TextualContent>1</TextualContent>
             <Name>cscript</Name>
           </UrlVariable>
         </value>
@@ -113,11 +113,11 @@ https://netbeans.org/community/releases/roadmap.html
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\netbeans-8.0.2-javase-windows.exe</PreviousLocation>
+    <PreviousLocation>F:\exe\netbeans-8.1-javase-windows.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-05T00:46:57.6584081</LastUpdated>
+    <LastUpdated>2016-01-22T15:12:22.0354919-07:00</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>netbeans</Name>
