@@ -1,53 +1,47 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
-    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>todolist</id>
-    <title>ToDoList(.dan.g.)</title>
+    <title>ToDoList</title>
     <version>7.0.12.1</version>
-    <authors>.dan.g.</authors>
-    <owners>maharishi,dtgm</owners>
-    <summary>ToDoList(.dan.g.) - A hierarchical task manager with native XML support for custom reporting.</summary>
+    <authors>AbstractSpoon Software</authors>
+    <owners>dtgm</owners>
+    <summary>Hierarchical task manager with native XML support for custom reporting</summary>
     <description>
-	ToDoList is a rare form of task management tool, one that allows you to repeatedly sub-divide your tasks into more manageable pieces whilst still presenting a clean and intuitive user experience.
+ToDoList is a rare form of task management tool, one that allows you to repeatedly sub-divide your tasks into more manageable pieces whilst still presenting a clean and intuitive user experience.
 
-	ToDoList has been in continuous development for the last 10 years and is an ongoing project.
+ToDoList has been in continuous development for the last 10 years and is an ongoing project.
 
-	Your tasklists are stored in XML which provides many opportunities for advanced formatting and printing using stylesheets.
+Your tasklists are stored in XML which provides many opportunities for advanced formatting and printing using stylesheets.
 
-	ToDoList's flexible design makes it ideal for both IT related projects as well as more general GTD uses.
+ToDoList's flexible design makes it ideal for both IT related projects as well as more general GTD uses.
     </description>
-    <projectUrl>http://www.codeproject.com/Articles/5371/ToDoList-An-effective-and-flexible-way-to-keep-on</projectUrl>
-    <packageSourceUrl>http://abstractspoon.pbworks.com/f/todolist_exe.zip</packageSourceUrl>
-    <projectSourceUrl>http://www.codeproject.com/script/Articles/ViewDownloads.aspx?aid=5371</projectSourceUrl>
-    <docsUrl>https://github.com/abstractspoon/ToDoList_Wiki</docsUrl>
-	<mailingListUrl>https://groups.google.com/forum/#!forum/abstractspoon-todolist-support</mailingListUrl>
-    <bugTrackerUrl>https://github.com/abstractspoon/ToDoList_Wiki/issues</bugTrackerUrl>
-    <tags>todolist xml opensource projectplanning</tags>
-    <copyright>The Eclipse Public License 1.0</copyright>
-    <licenseUrl>http://www.opensource.org/licenses/eclipse-1.0.php</licenseUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/manual/todolist/6.8.10.0</packageSourceUrl>
+    <projectUrl>http://www.abstractspoon.com/tdl_resources.html</projectUrl>
+    <projectSourceUrl>http://abstractspoon.pbwiki.com/f/todolist_src.zip</projectSourceUrl>
+    <docsUrl>http://abstractspoon.pbwiki.com/</docsUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/270ebd51afa2e2db26ba1975545e5e556d605aeb/icons/todolist.png</iconUrl>
+    <tags>todo task manager xml</tags>
+    <copyright>© 2003 AbstractSpoon Software</copyright>
+    <licenseUrl>http://opensource.org/licenses/eclipse-1.0.php</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://chocolatey.org/content/packageimages/todolist.6.8.10.0.png</iconUrl>
-    <!--<dependencies>
-      <dependency id="" version="__VERSION__" />
-      <dependency id="" />
-    </dependencies>-->
     <releaseNotes>
-		7.0.12.1 (20 Jan 2016)
-			Fixed loading of Ansi tasklists
-		7.0.12 (14 Jan 2016)
-			Fixed bug where pasting a text fragment from Firefox would display the wrong source URL
-			Fixed List View selection render artifacts in full screen when resizing the title pane
-			Fixed inability to tab to Status field after making the field 'read-only'
-			Fixed '--unnamed--' attributes appearing in the CSV Import dialog
-			Fixed 'Preference > User defined tools' to support relative tool and icon paths
-			Fixed 'Task Comments Preferred Format' not being used for new tasks
-			Fixed Tree and List views to hide the attribute pane when no columns are visible
-			Possibly fixed 'Server is Busy' message from MS Word during Print, Print Preview, HTML Export, Transforming
-			All tasklists are now saved as Unicode for forwards-compatibility with 7.1
-	</releaseNotes>
-    <!--<provides></provides>-->
+7.0.12.1 (20 Jan 2016)
+
+* Fixed loading of Ansi tasklists
+
+7.0.12 (14 Jan 2016)
+
+* Fixed bug where pasting a text fragment from Firefox would display the wrong source URL
+* Fixed List View selection render artifacts in full screen when resizing the title pane
+* Fixed inability to tab to Status field after making the field 'read-only'
+* Fixed '--unnamed--' attributes appearing in the CSV Import dialog
+* Fixed 'Preference > User defined tools' to support relative tool and icon paths
+* Fixed 'Task Comments Preferred Format' not being used for new tasks
+* Fixed Tree and List views to hide the attribute pane when no columns are visible
+* Possibly fixed 'Server is Busy' message from MS Word during Print, Print Preview, HTML Export, Transforming
+* All tasklists are now saved as Unicode for forwards-compatibility with 7.1
+    </releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
