@@ -82,7 +82,6 @@ $silentArgs = '/s'
 
 [Commandline options](http://helpnet.flexerasoftware.com/installshield19helplib/helplibrary/IHelpSetup_EXECmdLine.htm#Ref-Command-LineTools_3873826509_1039936)
 
-  * `Setup.exe /s /p"password"`
 * `/r`  run the installation in record mode
 * `/s`  run the installation in silent mode based on the responses contained in a response file called `Setup.iss` in the same directory
   * To run a Basic MSI installation silently: `Setup.exe /s /v/qn`
@@ -95,13 +94,13 @@ $silentArgs = '/s'
   * `Setup.exe /s /p"password"`
 * `/sms`  EXE
 
-[Commandline options for InstallShield Prerequisites](http://helpnet.flexerasoftware.com/installshield19helplib/helplibrary/SetupPrereqEditorCmdLine.htm#DefiningPrerequisites_1015287652_1033736)
+Commandline options for [InstallShield Prerequisites](http://helpnet.flexerasoftware.com/installshield19helplib/helplibrary/SetupPrereqEditorCmdLine.htm#DefiningPrerequisites_1015287652_1033736)
 
-[Editions](http://www.flexerasoftware.com/producer/products/software-installation/installshield-software-installer/tab/editions)
+InstallShield 2015 [Editions](http://www.flexerasoftware.com/producer/products/software-installation/installshield-software-installer/tab/editions)
 
-* InstallShield 2015 Premier ($4,999.00)
-* InstallShield 2015 Professional ($2,799.00)
-* InstallShield 2015 Express ($699.00)
+* Premier $4,999.00
+* Professional $2,799.00
+* Express $699.00
 
 [Commercial license](http://resources.flexerasoftware.com/instructions/productlicensing/en/installshield.htm)
 
@@ -136,13 +135,12 @@ Developer: [Wise Soloutions Inc](https://wikipedia.org/wiki/Wise_Solutions,_Inc.
 
 End-of-Lifed by owner, Symantec, on 7 November 2011
 
+May detect if `FOO.exe` was built by InstallMaster by parsing binary `grep "Wise" FOO.exe`
+
 ```
 $installerType = 'exe'  
 $silentArgs = '/s'
 ```
-
-#### parse binary
-* `grep "Wise" FOO.exe`
 
 ### [Inno-Setup](http://jrsoftware.org/isinfo.php)
 
