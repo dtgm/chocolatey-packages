@@ -18,12 +18,49 @@ $fileName = "mongodb-win32-i386-$version"
 if (Get-ProcessorBits 64) {$fileName = "mongodb-win32-x86`_64-$version"}
 $url = "http://downloads.mongodb.org/win32/$fileName.zip"
 
+#
+# Parse command line arguments: choco install mongodb -packageParameters "/installDir:'D:\MongoDB'"
+#
+function Parse-Parameters($arguments)
+{
+    $packageParameters = $env:chocolateyPackageParameters
+    Write-Host "Package parameters: $packageParameters"
+
+    if ($packageParameters)
+    {
+          $match_pattern = "(?:\s*)(?<=[-|/])(?<name>\w*)[:|=]('((?<value>.*?)(?<!\\)')|(?<value>[\w]*))"
+
+          if ($packageParameters -match $match_pattern )
+          {
+              $results = $packageParameters | Select-String $match_pattern -AllMatches
+              $results.matches | % {
+
+                $key = $_.Groups["name"].Value.Trim();
+                $value = $_.Groups["value"].Value.Trim();
+
+                write-host "$key : $value";
+
+                if ($arguments.ContainsKey($key))
+                {
+                    $arguments[$key] = $value;
+                }
+            }
+          }
+    }
+}
+
 $binRoot = Get-BinRoot
+$arguments = @{}
+$arguments["installDir"] = ""
+Parse-Parameters $arguments
+
+if ($arguments["installDir"])
+{
+    $binRoot = $arguments["installDir"]
+}
+
 $mongoPath = Join-Path $binRoot $packageName
 $mongoBin = Join-Path $mongoPath 'bin'
-
-
-
 
 $mongoDaemon = Join-Path $mongoBin 'mongod.exe'
 if (Test-Path $mongoDaemon){
