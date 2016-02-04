@@ -12,7 +12,7 @@ Content Advisor is a feature in Internet Explorer that allows supervisors to res
 
 If the supervisor forgets the password, he cannot change the Content Advisor properties in the regular way. The simplest way to solve this problem is to delete the password in the Registry.
 
-The password is stored in HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\Ratings. The "Key" value represents the encrypted password. 
+The password is stored in `HKLM:\Software\Microsoft\Windows\CurrentVersion\Policies\Ratings`. The "Key" value represents the encrypted password. 
 
 Advanced users can easily delete the password from the registry and thus they don't need this utility. User who doesn't want to deal with the registry, can use my utility for deleting the Content Advisor Password.
     </description>
