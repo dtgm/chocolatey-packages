@@ -10,7 +10,7 @@
     <description>
 ActiveXHelper is a small utility that allows you to view essential information about ActiveX components installed on your computer.
 
-You can view the entire (and very large !) list of ActiveX components by loading it from HKEY_CLASSES_ROOT\CLSID Registry key, or alternatively, display only the ActiveX components that you specify.
+You can view the entire (and very large !) list of ActiveX components by loading it from `HKLR:\CLSID` Registry key, or alternatively, display only the ActiveX components that you specify.
 
 In addition, you can temporarily disable specific ActiveX components. When ActiveX components are disabled, they cannot be used by any software, until you enable them again.
     </description>
