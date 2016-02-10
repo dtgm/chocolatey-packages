@@ -18,7 +18,7 @@ Developers access documents through rich, idiomatic drivers available in all pop
     </description>
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/mongodb/3.2.1</packageSourceUrl>
     <projectUrl>http://www.mongodb.org/</projectUrl>
-    <packageSourceUrl>http://www.mongodb.org/about/source-code/</packageSourceUrl>
+    <projectSourceUrl>http://www.mongodb.org/about/source-code/</projectSourceUrl>
     <docsUrl>http://docs.mongodb.org/</docsUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/8f7101024b11677be45a74b45114000b428a9c9b/icons/mongodb.png</iconUrl>
     <tags>database nosql</tags>
