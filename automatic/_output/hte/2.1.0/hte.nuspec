@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
+  <metadata>
+    <id>hte</id>
+    <title>HT Editor</title>
+    <version>2.1.0</version>
+    <authors>Stefan Weyergraf,Sebastian Biallas</authors>
+    <owners>dtgm</owners>
+    <summary>File editor/viewer/analyzer for executables</summary>
+    <description>
+This program is a file viewer, editor and analyzer for text, binary, and (especially) executable files.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/hte/2.1.0</packageSourceUrl>
+    <projectUrl>http://hte.sourceforge.net/</projectUrl>
+    <projectSourceUrl>https://github.com/sebastianbiallas/ht</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/sebastianbiallas/ht/issues</bugTrackerUrl>
+    <docsUrl>http://hte.sourceforge.net/doc.html</docsUrl>
+    <tags>hex editor file binary text</tags>
+    <copyright>© 1999 Stefan Weyergraf and Sebastian Biallas</copyright>
+    <licenseUrl>https://github.com/sebastianbiallas/ht/blob/master/COPYING</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [News](http://hte.sourceforge.net/index.html)
+* [Changelog](https://github.com/sebastianbiallas/ht/blob/master/ChangeLog)
+* [Roadmap](https://github.com/sebastianbiallas/ht/milestones)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
