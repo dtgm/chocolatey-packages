@@ -1,11 +1,11 @@
 $packageName = 'sqlitebrowser'
 $installerType = 'exe'
 $silentArgs = '/S'
-$url = 'https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.8.0/sqlitebrowser-3.8.0-win32.exe'
-$checksum = '450501653319da721a7978f6241ba80a'
+$url = 'https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.8.0/sqlitebrowser-3.8.0-win32v3.exe'
+$checksum = '25afc8556985cb2aad11eb64c1ec2c24'
 $checksumType = 'md5'
-$url64 = 'https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.8.0/sqlitebrowser-3.8.0-win64.exe'
-$checksum64 = '12b5d90158b1483f65e55e6441042a2b'
+$url64 = 'https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.8.0/sqlitebrowser-3.8.0-win64v2.exe'
+$checksum64 = 'c94a66e769b3681d3bc3237b8c82739a'
 $checksumType64 = 'md5'
 $validExitCodes = @(0)
 
