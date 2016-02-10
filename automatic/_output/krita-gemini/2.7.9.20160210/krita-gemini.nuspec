@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>krita-gemini</id>
+    <title>[DEPRECATED] Krita Gemini (Touch)</title>
+    <version>2.7.9.20160210</version>
+    <authors>Krita Foundation</authors>
+    <owners>dtgm</owners>
+    <summary>Digital painting and illustration software</summary>
+    <description>
+#### New package name: __[krita](https://chocolatey.org/packages/krita)__
+
+- - -
+
+`krita-gemini` has been deprecated because it is no longer possible to install with chocolatey. Krita Gemini is exclusively available through Valve’s Steam [app store](http://store.steampowered.com/app/280680/).
+
+Krita Gemini is a version of Krita that has both a traditional desktop user interface, as well as an interface optimized for tablets and touch interaction.
+
+It exists only for backward compatibility to provide a transitional dummy package for existing users and scripts which may still use this package ID.
+    </description>
+    <projectUrl>https://chocolatey.org/packages/krita</projectUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/krita-gemini/2.7.9.20160210</packageSourceUrl>
+    <projectSourceUrl>https://projects.kde.org/projects/calligra/repository</projectSourceUrl>
+    <bugTrackerUrl>https://krita.org/get-involved/report-a-bug/</bugTrackerUrl>
+    <docsUrl>https://krita.org/learn/documentation/</docsUrl>
+    <mailingListUrl>https://krita.org/mailing-lists/</mailingListUrl>
+    <tags>deprecated</tags>
+    <releaseNotes>
+#### New users
+* Do not install krita-gemini (this package). Install __krita__.
+
+#### Existing users
+* Updating this package will automatically install the most recent version of the __krita__ chocolatey package.
+* Please update any links, dependencies, or scripts that reference this package to the new package name __krita__.
+
+#### Existing users - Cleanup (optional)
+* choco uninstall krita-gemini --all-versions --whatif
+
+To manually remove krita-gemini package completely from your system, you may safely do so by issuing one of the following commands:
+
+* cmd: `for /d %i in (%ChocolateyInstall%\lib\krita-gemini*) do ECHO rd /s /q %i`
+* powershell: `Remove-Item $Env:ChocolateyInstall\lib\krita-gemini* -Recurse -Force -WHATIF`
+
+Note:
+
+* After verifying the output targets the correct files, remove `ECHO` or `WHATIF` from the respective commands.
+* Your console may need elevated privileges to remove the files. From a PowerShell console run one of the following commands:
+  * `Start-Process cmd -Verb runAs`
+  * `Start-Process powershell -Verb runAs`
+    </releaseNotes>
+    <dependencies>
+      <dependency id="krita" />
+    </dependencies>
+  </metadata>
+</package>
+
+
+https://krita.org/download/krita-gemini/
+
+    <id>krita-gemini</id>
+    <version>2.7.9.0</version>
+    <title>Krita Gemini (Touch)</title>
+    <authors>KDE</authors>
+    <owners>Redsandro</owners>
+    <licenseUrl>https://gnu.org/licenses/gpl.html</licenseUrl>
+    <projectUrl>http://krita.org/</projectUrl>
+    
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Krita's design emphasizes creating artwork from beginning to end as opposed to manipulating existing images. Therefore it has been influenced to an extent by software such as Corel Painter, but Krita supports a very different feature set than the most comparable applications. For example Krita developers included the ability to work with both bitmap and vector illustration on one hand, but deliberately choose to avoid high end photography plugins in favor of features more specific to painting and drawing.</description>
+    <summary>.</summary>
+    <releaseNotes />
+    <copyright />
+    <tags>paint painting media illustration</tags>
+  </metadata>
+</package>
+
+
+    <id>krita</id>
+    <title>Krita</title>
+    <version>2.9.11.0</version>
+    
+    <owners>dtgm</owners>
+    <summary>Digital painting and illustration software</summary>
+    <description>
+Krita's design emphasizes creating artwork from beginning to end as opposed to manipulating existing images. Therefore it has been influenced to an extent by software such as Corel Painter, but Krita supports a very different feature set than the most comparable applications. For example Krita developers included the ability to work with both bitmap and vector illustration on one hand, but deliberately choose to avoid high end photography plugins in favor of features more specific to painting and drawing.
+
+#### Documentation
+* [Features](https://krita.org/features/highlights/)
+* [Screenshots](https://krita.org/features/gallery/)
+* [FAQ](https://krita.org/about/faq/)
+
+#### Community
+* [Forum](https://forum.kde.org/viewforum.php?f=136)
+* [IRC](https://krita.org/irc/)
+* [Facebook](https://www.facebook.com/pages/Krita-Foundation/511943358879536)
+* [Google+](https://plus.google.com/u/0/106052286697115751434/posts)
+* [Twitter](https://twitter.com/Krita_Painting)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/krita/2.9.11.0</packageSourceUrl>
+    <projectUrl>https://krita.org/</projectUrl>
+    <projectSourceUrl>https://projects.kde.org/projects/calligra/repository</projectSourceUrl>
+    <bugTrackerUrl>https://krita.org/get-involved/report-a-bug/</bugTrackerUrl>
+    <docsUrl>https://krita.org/learn/documentation/</docsUrl>
+    <mailingListUrl>https://krita.org/mailing-lists/</mailingListUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/797194300203b236de98629f5ddd4cf63c6ae58d/icons/krita.png</iconUrl>
+    <tags>paint painting media illustration</tags>
+    <copyright>© 1999 Krita Foundation</copyright>
+    <licenseUrl>https://gnu.org/licenses/gpl.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [RSS feed](https://krita.org/feed/)
+* [Changelog](https://projects.kde.org/projects/calligra/repository/revisions/master/changes/krita/ChangeLog)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
