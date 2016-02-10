@@ -1,6 +1,6 @@
-$packageName = 'mzcv'
-$url = 'http://www.nirsoft.net/utils/mzcv.zip'
-$checksum = 'a0cd6b7cf8fa0c9dae133d37b411c7a14f77a341'
+$packageName = 'tflash'
+$url = 'http://www.nirsoft.net/utils/tflash.zip'
+$checksum = '0f322ad8750128ab96f329915baac31ae047129a'
 $checksumType = 'sha1'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $installFile = Join-Path $toolsDir "$($packageName).exe"
