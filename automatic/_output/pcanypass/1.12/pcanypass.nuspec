@@ -2,16 +2,16 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
     <id>pcanypass</id>
-    <title>PCAnywhere PassView</title>
+    <title>pcAnywhere PassView</title>
     <version>1.12</version>
     <authors>Nir Sofer</authors>
     <owners>dtgm</owners>
-    <summary>Recover pcANYWHERE passwords</summary>
+    <summary>Recover pcAnywhere passwords</summary>
     <description>
-Symantec pcANYWHERE has 2 different types of passwords:
+Symantec pcAnywhere has 2 different types of passwords:
 
-* For all types of items: pcANYWHERE allows you to protect an item with a password (in "Protect item" tab). If an item is protected with a password, pcANYWHERE doesn't allow you modify or view the item's properties (depending on what you choose in the protection options). 
-* In remote control items and caller items: pcANYWHERE saves the login name and password details, for using them during the remote control sessions.
+* For all types of items: pcAnywhere allows you to protect an item with a password (in "Protect item" tab). If an item is protected with a password, pcAnywhere doesn't allow you modify or view the item's properties (depending on what you choose in the protection options). 
+* In remote control items and caller items: pcAnywhere saves the login name and password details, for using them during the remote control sessions.
 
 This utility can recover instantly both types of passwords.
     </description>
