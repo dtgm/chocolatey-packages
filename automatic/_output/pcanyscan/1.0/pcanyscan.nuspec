@@ -2,17 +2,17 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
     <id>pcanyscan</id>
-    <title>pcANYWHERE Hosts Scanner</title>
+    <title>pcAnywhere Hosts Scanner</title>
     <version>1.0</version>
     <authors>Nir Sofer</authors>
     <owners>dtgm</owners>
     <summary>Scan network for pcAnywhere clients</summary>
     <description>
-This small utility can scan any range of 2 IP addresses and show the list of pcANYWHERE hosts within that range. It finds the pcANYWHERE hosts by sending a specific UDP packet to all hosts in the specified range.
+This small utility can scan any range of 2 IP addresses and show the list of pcAnywhere hosts within that range. It finds the pcAnywhere hosts by sending a specific UDP packet to all hosts in the specified range.
 
-You can use this scanner for checking if there are pcANYWHERE hosts running on your TCP/IP network. Be aware that this utility can only detect pcANYWHERE hosts that listens on TCP/IP network.
+You can use this scanner for checking if there are pcAnywhere hosts running on your TCP/IP network. Be aware that this utility can only detect pcAnywhere hosts that listens on TCP/IP network.
 
-It cannot detect pcANYWHERE hosts on other networks.
+It cannot detect pcAnywhere hosts on other networks.
     </description>
     <projectUrl>http://www.nirsoft.net/utils/pcanyscan.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/pcanyscan.png</iconUrl>
