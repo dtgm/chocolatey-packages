@@ -1,6 +1,6 @@
-$packageName = 'autoruns'
-$url = 'https://download.sysinternals.com/files/Autoruns.zip'
-$checksum = '10dbb0de9e9485b50844b0ceffcd372533babadd'
+$packageName = 'diskext'
+$url = 'https://download.sysinternals.com/files/DiskExt.zip'
+$checksum = '90ae5e61b756fb970ac3cc93982a4396651fd8b6'
 $checksumType = 'sha1'
 $url64 = "$url"
 $checksum64 = "$checksum"
@@ -16,7 +16,7 @@ Install-ChocolateyZipPackage -PackageName "$packageName" `
                              -ChecksumType64 "$checksumType64"
 Write-Verbose "Accepting license..."
 $regRoot = 'HKCU:\Software\Sysinternals'
-$regPkg = 'AutoRuns'
+$regPkg = 'DiskExt'
 $regPath = Join-Path $regRoot $regPkg
 if (!(Test-Path $regRoot)) {New-Item -Path "$regRoot"}
 if (!(Test-Path $regPath)) {New-Item -Path "$regRoot" -Name "$regPkg"}

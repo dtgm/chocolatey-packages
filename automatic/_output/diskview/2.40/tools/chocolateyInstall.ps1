@@ -1,6 +1,6 @@
-$packageName = 'autoruns'
-$url = 'https://download.sysinternals.com/files/Autoruns.zip'
-$checksum = '10dbb0de9e9485b50844b0ceffcd372533babadd'
+$packageName = 'diskview'
+$url = 'https://download.sysinternals.com/files/DiskView.zip'
+$checksum = '2399ccdad1a79438a2b55495267c098f75c27c49'
 $checksumType = 'sha1'
 $url64 = "$url"
 $checksum64 = "$checksum"
@@ -16,7 +16,7 @@ Install-ChocolateyZipPackage -PackageName "$packageName" `
                              -ChecksumType64 "$checksumType64"
 Write-Verbose "Accepting license..."
 $regRoot = 'HKCU:\Software\Sysinternals'
-$regPkg = 'AutoRuns'
+$regPkg = 'DiskView'
 $regPath = Join-Path $regRoot $regPkg
 if (!(Test-Path $regRoot)) {New-Item -Path "$regRoot"}
 if (!(Test-Path $regPath)) {New-Item -Path "$regRoot" -Name "$regPkg"}

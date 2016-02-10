@@ -1,6 +1,6 @@
-$packageName = 'autoruns'
-$url = 'https://download.sysinternals.com/files/Autoruns.zip'
-$checksum = '10dbb0de9e9485b50844b0ceffcd372533babadd'
+$packageName = 'shellrunas'
+$url = 'https://download.sysinternals.com/files/ShellRunas.zip'
+$checksum = '107971c50ed9b1fe51adc2b33caf55e61096a0d0'
 $checksumType = 'sha1'
 $url64 = "$url"
 $checksum64 = "$checksum"
@@ -16,7 +16,7 @@ Install-ChocolateyZipPackage -PackageName "$packageName" `
                              -ChecksumType64 "$checksumType64"
 Write-Verbose "Accepting license..."
 $regRoot = 'HKCU:\Software\Sysinternals'
-$regPkg = 'AutoRuns'
+$regPkg = 'ShellRunas - Sysinternals: www.sysinternals.com'
 $regPath = Join-Path $regRoot $regPkg
 if (!(Test-Path $regRoot)) {New-Item -Path "$regRoot"}
 if (!(Test-Path $regPath)) {New-Item -Path "$regRoot" -Name "$regPkg"}

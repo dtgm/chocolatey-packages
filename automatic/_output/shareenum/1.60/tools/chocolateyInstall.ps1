@@ -1,6 +1,6 @@
-$packageName = 'autoruns'
-$url = 'https://download.sysinternals.com/files/Autoruns.zip'
-$checksum = '10dbb0de9e9485b50844b0ceffcd372533babadd'
+$packageName = 'shareenum'
+$url = 'https://download.sysinternals.com/files/ShareEnum.zip'
+$checksum = '1da9e32a877b9d02464dfd6d3c63d8f8269a58d3'
 $checksumType = 'sha1'
 $url64 = "$url"
 $checksum64 = "$checksum"
@@ -16,7 +16,7 @@ Install-ChocolateyZipPackage -PackageName "$packageName" `
                              -ChecksumType64 "$checksumType64"
 Write-Verbose "Accepting license..."
 $regRoot = 'HKCU:\Software\Sysinternals'
-$regPkg = 'AutoRuns'
+$regPkg = 'Share Enum'
 $regPath = Join-Path $regRoot $regPkg
 if (!(Test-Path $regRoot)) {New-Item -Path "$regRoot"}
 if (!(Test-Path $regPath)) {New-Item -Path "$regRoot" -Name "$regPkg"}

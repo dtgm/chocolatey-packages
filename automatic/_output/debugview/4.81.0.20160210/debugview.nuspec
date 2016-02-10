@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>debugview</id>
+    <title>[DEPRECATED] DebugView</title>
+    <version>4.81.0.20160210</version>
+    <authors>Mark Russinovich</authors>
+    <owners>dtgm</owners>
+    <summary>View and record debug session output without an active debugger</summary>
+    <description>
+#### New package name: __[dbgview](https://chocolatey.org/packages/dbgview)__
+
+- - -
+
+`debugview` has been deprecated because of Chocolatey [naming conventions](https://github.com/chocolatey/chocolatey/wiki/CreatePackages#naming-your-package).
+
+It exists only for backward compatibility to provide a transitional dummy package for existing users and scripts which may still use this package ID.
+    </description>
+    <projectUrl>https://chocolatey.org/packages/dbgview</projectUrl>
+    <tags>deprecated</tags>
+    <releaseNotes>
+#### New users
+* Do not install debugview (this package). Install __dbgview__.
+
+#### Existing users
+* Updating this package will automatically install the most recent version of the __dbgview__ chocolatey package.
+* Please update any links, dependencies, or scripts that reference this package to the new package name __dbgview__.
+
+#### Existing users - Cleanup (optional)
+* choco uninstall debugview --all-versions --whatif
+
+To manually remove debugview package completely from your system, you may safely do so by issuing one of the following commands:
+
+* cmd: `for /d %i in (%ChocolateyInstall%\lib\debugview*) do ECHO rd /s /q %i`
+* powershell: `Remove-Item $Env:ChocolateyInstall\lib\debugview* -Recurse -Force -WHATIF`
+
+Note:
+
+* After verifying the output targets the correct files, remove `ECHO` or `WHATIF` from the respective commands.
+* Your console may need elevated privileges to remove the files. From a PowerShell console run one of the following commands:
+  * `Start-Process cmd -Verb runAs`
+  * `Start-Process powershell -Verb runAs`
+    </releaseNotes>
+    <dependencies>
+      <dependency id="dbgview" />
+    </dependencies>
+  </metadata>
+</package>

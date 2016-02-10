@@ -1,10 +1,10 @@
-$packageName = 'mediainfo-cli'
-$url = 'http://mediaarea.net/download/binary/mediainfo/0.7.82/MediaInfo_CLI_0.7.82_Windows_i386.zip'
-$checksum = '29e26611969de7ee649e6a023aab10cb4722cc8a'
+$packageName = 'adinsight'
+$url = 'https://download.sysinternals.com/files/AdInsight.zip'
+$checksum = '11e664c627c83808f7355d2e0d146b65faf9b6b3'
 $checksumType = 'sha1'
-$url64 = 'http://mediaarea.net/download/binary/mediainfo/0.7.82/MediaInfo_CLI_0.7.82_Windows_x64.zip'
-$checksum64 = '58177c48991be3028544b999192cb1bde528d1d3'
-$checksumType64 = 'sha1'
+$url64 = "$url"
+$checksum64 = "$checksum"
+$checksumType64 = "checksumType"
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 Install-ChocolateyZipPackage -PackageName "$packageName" `
                              -Url "$url" `

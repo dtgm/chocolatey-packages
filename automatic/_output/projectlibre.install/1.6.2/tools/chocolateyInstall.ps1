@@ -1,7 +1,6 @@
 $packageName = 'projectlibre.install'
-# due to limitations of Ketarin/chocopkgup when using repos like sf.net:
 $url = 'http://sourceforge.net/projects/projectlibre/files/ProjectLibre/1.6.2/projectlibre-1.6.2.msi/download'
-$checksum = '{checksum}'
+$checksum = '37be5a8c0ee104f52a235b521c4d731658a1f002'
 $checksumType = 'sha1'
 $installerType = 'msi'
 $partialInstallArgs = '/quiet /qn /norestart TARGETDIR='
