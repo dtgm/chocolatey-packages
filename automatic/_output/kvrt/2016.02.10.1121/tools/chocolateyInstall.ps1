@@ -1,6 +1,6 @@
-﻿$packageName = 'kvrt'
+$packageName = 'kvrt'
 $url = 'http://devbuilds.kaspersky-labs.com/devbuilds/KVRT/latest/full/KVRT.exe'
-$checksum = '{checksum}'
+$checksum = 'd7e8c667763de8502719e8cf316c8a860e6cbf13'
 $checksumType = 'sha1'
 $toolsPath = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $installFile = Join-Path $toolsPath "kvrt.exe"
