@@ -15,23 +15,21 @@ Calibrate and characterize your display devices using one of the many supported 
 #### Features
 * Support of colorimeter correction for different screens via correction matrices or calibration specral sample files (the latter only for specific colorimeters i.e. i1 Display Pro, ColorMunki Display and Spyder 4).
 * Profile verification and measurement report: Check the quality of profiles and 3D LUTs via measurements. Also supports custom CGATS files (e.g. FOGRA, GRACoL/IDEAlliance, SWOP) and using of reference profiles to obtain test values.
-* Test chart editor: Create charts with any amount of color patches, easy copy & paste from CGATS, CSV files (only tab-delimited) and spreadsheet applications.
+* Test chart editor: Create charts with any amount of color patches, easy copy &amp; paste from CGATS, CSV files (only tab-delimited) and spreadsheet applications.
 * Create synthetic ICC (matrix) profiles with custom primaries, white- and blackpoint as well as tone response.
 
-#### Documentation
-* [Screenshots](http://dispcalgui.hoech.net/#screenshots)
-* [Supported instruments](http://dispcalgui.hoech.net/#instruments)
-* [Manual](http://dispcalgui.hoech.net/#usage)
-
-#### Community
-* [Forum](http://sourceforge.net/p/dispcalgui/discussion/932493/)
-* [Mail list](https://lists.sourceforge.net/lists/listinfo/dispcalgui-users)
-
-#### [System requirements](http://dispcalgui.hoech.net/#requirements)
+[Screenshots](http://dispcalgui.hoech.net/#screenshots)  
+[Supported instruments](http://dispcalgui.hoech.net/#instruments)  
+[Forum](http://sourceforge.net/p/dispcalgui/discussion/932493/)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://dispcalgui.hoech.net/</projectUrl>
+    <projectSourceUrl>https://sourceforge.net/p/dispcalgui/code/</projectSourceUrl>
+    <bugTrackerUrl>http://dispcalgui.hoech.net/#issues</bugTrackerUrl>
+    <docsUrl>http://dispcalgui.hoech.net/#usage</docsUrl>
+    <mailingListUrl>https://lists.sourceforge.net/lists/listinfo/dispcalgui-users</mailingListUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/4f3a35e135d040f084d6e748e299201a3737b142/icons/dispcalgui.png</iconUrl>
-    <tags>graphics calibration</tags>
+    <tags>graphics calibration frontend gui</tags>
     <copyright>© 2008 Florian Hoech</copyright>
     <licenseUrl>https://www.gnu.org/licenses/gpl-3.0.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -40,8 +38,7 @@ Calibrate and characterize your display devices using one of the many supported 
 * [News](https://sourceforge.net/p/dispcalgui/news/)
 * [Roadmap](http://dispcalgui.hoech.net/#todo)
 * [Changelog](http://dispcalgui.hoech.net/#changelog)
-* [Known issues](http://dispcalgui.hoech.net/#issues)
-* [Source code](https://sourceforge.net/p/dispcalgui/code/)
+
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
@@ -49,6 +46,71 @@ Calibrate and characterize your display devices using one of the many supported 
     <dependencies>
       <dependency id="argyll" />
     </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title></title>
+    <version>{{PackageVersion}}</version>
+    <authors></authors>
+    <owners>dtgm</owners>
+    <summary></summary>
+    <description>
+
+#### Documentation
+* [Features]()
+* [Screenshots]()
+* [FAQ]()
+* [Wiki]()
+* [Manual]()
+* [Privacy policy]()
+
+#### Community
+* [Forum]()
+* [IRC]()
+* [Facebook]()
+* [Google+]()
+* [Twitter]()
+    </description>
+    
+    <projectUrl></projectUrl>
+    <projectSourceUrl></projectSourceUrl>
+    <bugTrackerUrl></bugTrackerUrl>
+    <docsUrl></docsUrl>
+    <mailingListUrl></mailingListUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/c9f5d2fb09282df62f9720e24b82530de4533216/icons/{{PackageName}}.png</iconUrl>
+    <tags></tags>
+    <copyright>© </copyright>
+    <licenseUrl>https://wikipedia.org/wiki/Freeware</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [News]()
+* [Release log]()
+* [Roadmap]()
+* [Changelog]()
+
+#### Package
+* __Automatically built__; if this package's version is out of date by more than a day of the program's version, please [notify the maintainer](https://chocolatey.org/packages/{{PackageName}}/ContactOwners)
+* Uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <!--<provides>{{PackageName}}</provides>-->
+    <!--<replaces></replaces>-->
+    <!--<conflicts></conflicts>-->
+<!--    <dependencies>
+      <dependency id="{{PackageName}}.install" version="[{{PackageVersion}}]" />
+    </dependencies> -->
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
