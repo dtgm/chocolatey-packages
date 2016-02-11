@@ -1,17 +1,16 @@
-try {
-  $packageName = 'peerblock'
-  $fileType = 'exe'
-  $silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART'
-  $validExitCodes = @(0)
+$packageName = 'peerblock'
+$packageSearch = "$packageName*"
+$installerType = 'exe'
+$silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
+$validExitCodes = @(0)
 
-  $processor = Get-WmiObject Win32_Processor
-  $is64bit = $processor.AddressWidth -eq 64
-  if ($is64bit) {
-    $unFile = (Get-ItemProperty HKLM:\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\* | select DisplayName, UninstallString | Where-Object {$_.DisplayName -like "$packageName*"}).UninstallString
-  } else {
-    $unFile = (Get-ItemProperty HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\* | select DisplayName, UninstallString | Where-Object {$_.DisplayName -like "$packageName*"}).UninstallString
-  }
-  Uninstall-ChocolateyPackage $packageName $fileType $silentArgs $file -validExitCodes $validExitCodes
-} catch {
-    throw $_.Exception
-}
+Get-ItemProperty -Path @('HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*',
+                         'HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*',
+                         'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*') `
+                 -ErrorAction:SilentlyContinue `
+| Where-Object   {$_.DisplayName -like $packageSearch} `
+| ForEach-Object {Uninstall-ChocolateyPackage -PackageName "$packageName" `
+                                              -FileType "$installerType" `
+                                              -SilentArgs "$($silentArgs)" `
+                                              -File "$($_.UninstallString)" `
+                                              -ValidExitCodes $validExitCodes}
