@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>git-annex</id>
     <title>git-annex</title>
@@ -28,7 +28,7 @@ git-annex allows managing files with git, without checking the file contents int
     <docsUrl>http://git-annex.branchable.com/</docsUrl>
     <mailingListUrl>http://git-annex.branchable.com/forum/</mailingListUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/dfbf119c75a5950aade0e36590adf44f34da22e2/icons/git-annex.svg</iconUrl>
-    <tags>git sync backup filesharing</tags>
+    <tags>git sync backup filesharing unattended</tags>
     <copyright>© 2012 Joey Hess</copyright>
     <licenseUrl>http://git-annex.branchable.com/license/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -44,6 +44,7 @@ git-annex allows managing files with git, without checking the file contents int
     </releaseNotes>
     <dependencies>
       <dependency id="git" />
+      <dependency id="autohotkey.portable" />
     </dependencies>
   </metadata>
   <files>
