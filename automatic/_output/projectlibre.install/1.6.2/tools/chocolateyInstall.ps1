@@ -1,6 +1,6 @@
 $packageName = 'projectlibre.install'
-$url = 'http://sourceforge.net/projects/projectlibre/files/ProjectLibre/1.6.2/projectlibre-1.6.2.msi/download'
-$checksum = '37be5a8c0ee104f52a235b521c4d731658a1f002'
+$url = 'https://sourceforge.net/projects/projectlibre/files/ProjectLibre/1.6.2/projectlibre-1.6.2.msi/download'
+$checksum = '455bc2801e0dac6a404d024d88f5b251894eda3f'
 $checksumType = 'sha1'
 $installerType = 'msi'
 $partialInstallArgs = '/quiet /qn /norestart TARGETDIR='
