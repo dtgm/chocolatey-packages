@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>gdevelop</id>
     <title>GDevelop</title>
@@ -12,20 +12,26 @@ GDevelop is a full featured, open source game development software, allowing to 
 
 Alternatively, build games online with the GDevelop based web app [GDevApp](https://gdevapp.com/).
 
-[Forum](http://forum.compilgames.net/)
 [Wiki](http://wiki.compilgames.net/doku.php)
     </description>
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/gdevelop/4.0.89</packageSourceUrl>
     <projectUrl>http://www.compilgames.net/</projectUrl>
     <projectSourceUrl>https://github.com/4ian/GD</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/4ian/GD/issues</bugTrackerUrl>
+    <docsUrl>http://4ian.github.io/GD-Documentation</docsUrl>
+    <mailingListUrl>http://forum.compilgames.net/</mailingListUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/1e10706b59b5ad94d558b41eb85aa082eb098191/icons/gdevelop.png</iconUrl>
-    <tags>game development ide html5 visual programming</tags>
+    <tags>game development ide html5 javascript visual programming</tags>
     <copyright>© 2008 Florian Rival</copyright>
     <licenseUrl>https://github.com/4ian/GD/blob/master/license.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-[Changelog](https://github.com/4ian/GD/releases/)
-[Issues](https://github.com/4ian/GD/issues)
+#### Program
+* [Roadmap](https://trello.com/b/qf0lM7k8/gdevelop-roadmap)
+* [Changelog](https://github.com/4ian/GD/releases/)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   </metadata>
   <files>

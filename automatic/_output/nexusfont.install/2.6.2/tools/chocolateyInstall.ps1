@@ -1,9 +1,9 @@
-$packageName = 'gdevelop'
+$packageName = 'nexusfont.install'
 $installerType = 'exe'
 $silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
-$url = 'https://github.com/4ian/GD/releases/download/4.0.89/gd4089.exe'
-$checksum = '4314413a67ec86d703a8381ed519e6fe'
-$checksumType = 'md5'
+$url = 'http://www.xiles.net/download.php?file=nexusfont_setup_2.6.2.exe'
+$checksum = 'dd9355ff8532d6815f9465ea7feeedfd83374988'
+$checksumType = 'sha1'
 $validExitCodes = @(0)
 
 Install-ChocolateyPackage -PackageName "$packageName" `

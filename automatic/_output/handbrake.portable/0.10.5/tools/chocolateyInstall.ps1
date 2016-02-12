@@ -1,10 +1,10 @@
-﻿$packageName = 'nunit.portable'
-$url = 'https://github.com/nunit/nunit/releases/download/3.0.1/NUnit-3.0.1.zip'
-$checksum = '7cd9751f8dce1d8bfeba308b6802d169'
-$checksumType = 'md5'
-$url64 = "$url"
-$checksum64 = "$checksum"
-$checksumType64 = "$checksumType"
+﻿$packageName = 'handbrake.portable'
+$url = 'https://handbrake.fr/rotation.php?file=HandBrake-0.10.5-i686-Win_CLI.zip'
+$checksum = ''
+$checksumType = 'sha1'
+$url64 = 'https://handbrake.fr/rotation.php?file=HandBrake-0.10.5-x86_64-Win_CLI.zip'
+$checksum64 = ''
+$checksumType64 = 'sha1'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 Install-ChocolateyZipPackage -PackageName "$packageName" `
