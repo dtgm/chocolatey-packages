@@ -1,11 +1,10 @@
-$packageName = 'gdevelop'
-$installerType = 'exe'
-$silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
-$url = 'https://github.com/4ian/GD/releases/download/4.0.89/gd4089.exe'
-$checksum = '4314413a67ec86d703a8381ed519e6fe'
+﻿$packageName = 'nunit.install'
+$installerType = 'msi'
+$silentArgs = '/quiet /qn /norestart'
+$url = 'https://github.com/nunit/nunit/releases/download/3.0.1/NUnit.3.0.1.msi'
+$checksum = 'db0f037c0659ef467713ffb95da1d181'
 $checksumType = 'md5'
 $validExitCodes = @(0)
-
 Install-ChocolateyPackage -PackageName "$packageName" `
                           -FileType "$installerType" `
                           -SilentArgs "$silentArgs" `
