@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>handbrake</id>
+    <title>HandBrake</title>
+    <version>0.10.5.20160213</version>
+    <authors>The Handbrake Team</authors>
+    <owners>dtgm</owners>
+    <summary>Open source video transcoder</summary>
+    <description>
+HandBrake is a tool for converting video from nearly any format to a selection of modern, widely supported codecs.
+
+[Features](https://handbrake.fr/features.php)  
+[Development](https://trac.handbrake.fr/wiki/Development)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/handbrake/0.10.5.20160213</packageSourceUrl>
+    <projectUrl>http://handbrake.fr/</projectUrl>
+    <projectSourceUrl>https://github.com/HandBrake/HandBrake</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/HandBrake/HandBrake/issues</bugTrackerUrl>
+    <docsUrl>https://trac.handbrake.fr/wiki</docsUrl>
+    <mailingListUrl>https://handbrake.fr/community.php</mailingListUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/a9745b5bde6672b15e1495fdda70fc14e3260226/icons/handbrake.png</iconUrl>
+    <tags>video transcoder encoder conversion</tags>
+    <copyright>© The HandBrake Team</copyright>
+    <licenseUrl>https://github.com/HandBrake/HandBrake/blob/master/COPYING</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [News](https://handbrake.fr/news.php)
+* [Changelog](https://github.com/HandBrake/HandBrake/blob/master/NEWS)
+* [Roadmap](https://github.com/HandBrake/HandBrake/milestones)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="handbrake.install" version="[0.10.5]" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

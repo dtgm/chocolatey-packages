@@ -6,7 +6,7 @@
     <version>1038.0</version>
     <authors>QuizoApps</authors>
     <owners>dtgm</owners>
-    <summary>Dragging Explorer into the modern era</summary>
+    <summary>File Explorer extension to add tab navigation and more</summary>
     <description>
 QTTabBar is extension for Windows Explorer that brings tabbed browsing to Microsoft's file browser, along with a host of other great features.
 
@@ -32,7 +32,7 @@ To start using the new version, process 'explorer.exe' must be restarted. To eas
     <projectSourceUrl>http://qttabbar.wdfiles.com/local--files/qttabbar/QTTabBar_1024_Sources.zip</projectSourceUrl>
     <docsUrl>http://qttabbar.wdfiles.com/local--files/documents/summary.html</docsUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/c6dcad432aa1d9e6a0df1dde664cf978001dd0ef/icons/qttabbar.png</iconUrl>
-    <tags>productivity windows explorer extension</tags>
+    <tags>productivity tabs windows explorer extension unattended</tags>
     <copyright>© 2007 QuizoApps</copyright>
     <licenseUrl>http://creativecommons.org/licenses/by-sa/3.0/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
