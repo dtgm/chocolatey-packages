@@ -31,6 +31,9 @@ The original motivation behind this project was to create an easy, convenient wa
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
+    <dependencies>
+      <dependency id="7zip.commandline" />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
