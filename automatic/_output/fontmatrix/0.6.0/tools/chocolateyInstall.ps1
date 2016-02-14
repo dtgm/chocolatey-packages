@@ -7,8 +7,8 @@ $checksumType = 'sha1'
 $validExitCodes = @(0)
 
 Set-ItemProperty -Path 'HKCU:\Software\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Layers' `
-                 -Name "$Env:Temp\chocolatey\fontmatrix\fontmatrixInstall.exe" `
-                 -Value "^ WINXPSP3"
+                 -Name "$env:Temp\fontmatrix\$env:PackageVersion\fontmatrixInstall.exe" `
+                 -Value "WINXPSP3"
 
 Install-ChocolateyPackage -PackageName "$packageName" `
                           -FileType "$installerType" `
@@ -19,7 +19,7 @@ Install-ChocolateyPackage -PackageName "$packageName" `
                           -ChecksumType "$checksumType"
 
 Remove-ItemProperty -Path 'HKCU:\Software\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Layers' `
-                    -Name "$Env:Temp\chocolatey\fontmatrix\fontmatrixInstall.exe"
+                    -Name "$env:Temp\fontmatrix\$env:PackageVersion\fontmatrixInstall.exe"
 
 $toolsDir = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
 $dllName = 'msvcr71.dll'
