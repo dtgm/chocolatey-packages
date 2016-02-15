@@ -1,6 +1,6 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
-  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="e8f36836-f952-4300-82d4-bd3b59620798">
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="67e1c2f0-f782-4aa5-a813-275762040d29">
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64)</UserAgent>
     <UserNotes />
@@ -50,6 +50,20 @@
           </UrlVariable>
         </value>
       </item>
+      <item>
+        <key>
+          <string>checksum</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>([A-Z0-9]+)</Regex>
+            <Url>https://github.com/bliker/cmder/releases/download/v{version}/hashes.txt</Url>
+            <Name>checksum</Name>
+          </UrlVariable>
+        </value>
+      </item>
     </Variables>
     <ExecuteCommand />
     <ExecutePreCommand />
@@ -62,7 +76,7 @@
     <FileHippoId />
     <LastUpdated>2015-02-05T00:40:20.6024757</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
-    <FixedDownloadUrl>https://github.com/bliker/cmder/releases/download/v{version}/cmder_mini.zip</FixedDownloadUrl>
-    <Name>cmdermini</Name>
+    <FixedDownloadUrl>https://github.com/bliker/cmder/releases/download/v{version}/cmder.7z</FixedDownloadUrl>
+    <Name>cmder.portable</Name>
   </ApplicationJob>
 </Jobs>

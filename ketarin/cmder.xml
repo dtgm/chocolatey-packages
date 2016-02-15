@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="4a51a13e-79ad-40e1-899e-71a68b8c184a">
     <WebsiteUrl />
@@ -11,6 +11,8 @@
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -24,9 +26,9 @@
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>StartEnd</VariableType>
-            <Regex />
-            <Url>https://bliker.github.io/cmder/</Url>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>cmder/releases/download/v([0-9.]+)/cmder.7z</Regex>
+            <Url>http://cmder.net</Url>
             <StartText>'7z'])" href="https://github.com/bliker/cmder/releases/download/v</StartText>
             <EndText>/cmder.7z"</EndText>
             <TextualContent />
