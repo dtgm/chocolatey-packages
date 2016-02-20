@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
-    <id>{{PackageName}}</id>
+    <id>datacrow</id>
     <title>Data Crow</title>
-    <version>{{PackageVersion}}</version>
+    <version>4.1.0.20160220</version>
     <authors>Robert Jan van der Waals</authors>
     <owners>dtgm</owners>
     <summary>Ultimate media cataloger and media organiser</summary>
@@ -20,7 +20,7 @@ Reporting (based on XLST stylesheets and graphs), loan administration, item impo
 [Screenshots](http://www.datacrow.net/#screenshots)
 [FAQ](http://www.datacrow.net/#faq)
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/datacrow/4.1.0.20160220</packageSourceUrl>
     <projectUrl>http://www.datacrow.net/</projectUrl>
     <projectSourceUrl>http://sourceforge.net/p/datacrow/code/</projectSourceUrl>
     <bugTrackerUrl>http://sourceforge.net/p/datacrow/_list/tickets</bugTrackerUrl>
@@ -30,7 +30,7 @@ Reporting (based on XLST stylesheets and graphs), loan administration, item impo
     <copyright>© Robert Jan van der Waals</copyright>
     <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/65af4d837052cace9bd15c16658d254fc35d3c1b/icons/{{PackageName}}.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/65af4d837052cace9bd15c16658d254fc35d3c1b/icons/datacrow.png</iconUrl>
     <releaseNotes>
 #### Program
 * [News](http://www.datacrow.net/#news)
