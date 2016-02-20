@@ -1,12 +1,20 @@
-# generated vars
+﻿# generated vars
 $packageName = 'izpack'
-$url = 'http://dist.codehaus.org/izpack/releases/4.3.5/IzPack-install-4.3.5.jar'
-$checksum = '191845e9071d8ef82343fd5f964f877949db60a1'
+$url = 'https://oss.sonatype.org/content/repositories/releases/org/codehaus/izpack/izpack-standalone-compiler/4.3.5/izpack-standalone-compiler-4.3.5.jar'
+$checksum = '348d73f9e1527aeaa01c49fd4976a5977da28554'
 
 # static vars
 $checksumType = 'sha1'
 $installerType = 'izpack'
 $validExitCodes = @(0)
+
+Write-Warning "!!!!!!!!!!!!!!!!!!!!!!!!!!"
+$env:packageVersion
+$env:packageVersion
+$env:packageVersion
+$env:packageVersion
+$env:packageVersion
+Write-Warning "!!!!!!!!!!!!!!!!!!!!!!!!!!"
 
 $chocTempDir = Join-Path $Env:Temp "chocolatey"
 $pkgTempDir = Join-Path $chocTempDir "$packageName"
@@ -15,7 +23,7 @@ $installFile = Join-Path $pkgTempDir "izpack-4.3.5-installer.jar"
 
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $propsFile = Join-Path $toolsDir "chocolateyInstall.props"
-$installArgs = "/c javaw -jar $($installFile) -console -options-auto $($propsFile)"
+$installArgs = "java -jar $($installFile) $($propsFile)"
 
 try {
   Get-ChocolateyWebFile -PackageName "$packageName" `
@@ -25,7 +33,7 @@ try {
                         -ChecksumType "$checksumType"
 
   Start-ChocolateyProcessAsAdmin -Statements "$installArgs" `
-                                 -ExeToRun "cmd.exe" `
+                                 -ExeToRun "powershell" `
                                  -ValidExitCodes $validExitCodes
 } catch {
   throw
