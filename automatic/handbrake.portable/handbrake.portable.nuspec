@@ -1,42 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>{{PackageName}}</id>
     <title>HandBrake (Portable)</title>
     <version>{{PackageVersion}}</version>
     <authors>The Handbrake Team</authors>
     <owners>dtgm</owners>
-    <summary>CLI open source video transcoder</summary>
+    <summary>Command line interface open source video transcoder</summary>
     <description>
 HandBrake portable is a command line interface tool for converting video from nearly any format to a selection of modern, widely supported codecs.
 
-#### [Features](https://handbrake.fr/features.php)
+[Features](https://handbrake.fr/features.php)  
+[Development](https://trac.handbrake.fr/wiki/Development)
 
-#### Documentation
-* [FAQ](https://trac.handbrake.fr/wiki/SupportFAQ)
-* [Wiki](https://trac.handbrake.fr/wiki#DocumentationHelp)
-* [Development](https://trac.handbrake.fr/wiki/Development)
-
-#### Community
-* [Forum](https://forum.handbrake.fr/)
-* [IRC](https://trac.handbrake.fr/wiki/IRC)
-
-### Executables
-CLI
-* HandBrakeCLI.exe
+#### Executables
+* CLI: `HandBrakeCLI.exe`
     </description>
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://handbrake.fr/</projectUrl>
-    <bugTrackerUrl>https://forum.handbrake.fr/viewforum.php?f=12</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/HandBrake/HandBrake</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/HandBrake/HandBrake/issues</bugTrackerUrl>
+    <docsUrl>https://trac.handbrake.fr/wiki</docsUrl>
+    <mailingListUrl>https://handbrake.fr/community.php</mailingListUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/a9745b5bde6672b15e1495fdda70fc14e3260226/icons/handbrake.png</iconUrl>
-    <tags>video transcoder encoder cli</tags>
+    <tags>video transcoder encoder conversion cli</tags>
     <copyright>© The HandBrake Team</copyright>
     <licenseUrl>https://github.com/HandBrake/HandBrake/blob/master/COPYING</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
 #### Program
 * [News](https://handbrake.fr/news.php)
-* Source code [SVN](svn://svn.handbrake.fr/HandBrake/trunk), [GitHub mirror](https://github.com/HandBrake/HandBrake)
+* [Changelog](https://github.com/HandBrake/HandBrake/blob/master/NEWS)
+* [Roadmap](https://github.com/HandBrake/HandBrake/milestones)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

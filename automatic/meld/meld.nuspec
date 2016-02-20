@@ -5,7 +5,7 @@
     <title>Meld</title>
     <version>{{PackageVersion}}</version>
     <authors>Kai Willadsen</authors>
-    <owners>tonigellida,dtgm</owners>
+    <owners>dtgm</owners>
     <summary>Meld is a visual diff and merge tool. You can compare two or three files and edit them in place (diffs update dynamically).</summary>
     <description>
 Meld is a visual diff and merge tool. You can compare two or three files and edit them in place (diffs update dynamically).

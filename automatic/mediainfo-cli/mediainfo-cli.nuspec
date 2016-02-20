@@ -46,7 +46,7 @@ MediaInfo CLI (Command Line Interface) supplies technical and tag information ab
     <projectSourceUrl>http://sourceforge.net/p/mediainfo/code/HEAD/tree/</projectSourceUrl>
     <bugTrackerUrl>http://sourceforge.net/p/mediainfo/bugs/</bugTrackerUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/63827a08643582e89d636e350bfa8aa6c62eab55/icons/mediainfo.svg</iconUrl>
-    <licenseUrl>http://mediaarea.net/en/MediaInfo/License</licenseUrl>
+    <licenseUrl>https://github.com/MediaArea/MediaInfo/blob/master/License.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <copyright>© 2002 MediaArea.net SARL</copyright>
     <tags>media info tag metadata file-formats file-analysis cli</tags>

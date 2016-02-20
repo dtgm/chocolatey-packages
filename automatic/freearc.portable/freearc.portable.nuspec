@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>{{PackageName}}</id>
     <title>FreeArc (Portable)</title>
@@ -16,12 +16,24 @@ FreeArc combines best 7-zip and RAR features: auto-selected LZMA/PPMD/Multimedia
     </description>
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://freearc.org/</projectUrl>
+    <projectSourceUrl>https://code.google.com/archive/p/freearc/source/default/source</projectSourceUrl>
+    <bugTrackerUrl>https://code.google.com/archive/p/freearc/issues</bugTrackerUrl>
+    <docsUrl>http://freearc.org/Documentation.aspx</docsUrl>
+    <mailingListUrl>https://sourceforge.net/p/freearc/mailman/</mailingListUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/f9c2de73ecefd7c57475a77d2072460982ff2aa7/icons/freearc.png</iconUrl>
     <tags>file-archiver compression zip rar 7zip</tags>
     <copyright>© 2004 Bulat Ziganshin</copyright>
     <licenseUrl>https://freearc.svn.sourceforge.net/svnroot/freearc/Installer/License/License.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/f9c2de73ecefd7c57475a77d2072460982ff2aa7/icons/freearc.png</iconUrl>
-    <releaseNotes>http://freearc.org/News.aspx</releaseNotes>
+    <releaseNotes>
+#### Program
+* [News](http://freearc.org/News.aspx#{{PackageVersion}})
+* [Roadmap](http://freearc.org/FuturePlans.aspx)
+* [Changelog](http://freearc.org/history/changelog_full.htm#{{PackageVersion}})
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

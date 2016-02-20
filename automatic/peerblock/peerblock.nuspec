@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>{{PackageName}}</id>
     <title>PeerBlock</title>
@@ -18,15 +18,23 @@ PeerBlock lets you control who your computer "talks to" on the Internet.  By sel
   </description>
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.peerblock.com/</projectUrl>
-    <tags>hosts.deny privacy p2p network</tags>
+    <projectSourceUrl>http://www.peerblock.com/development/compiling</projectSourceUrl>
+    <bugTrackerUrl>https://code.google.com/archive/p/peerblock/issues</bugTrackerUrl>
+    <docsUrl>http://www.peerblock.com/userguide</docsUrl>
+    <mailingListUrl>http://forums.peerblock.com/</mailingListUrl>
+    <tags>hosts deny privacy p2p network</tags>
     <copyright>© 2014 Peerblock, LLC</copyright>
     <licenseUrl>http://opensource.org/licenses/Zlib</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/cf11d8cec29a25fe1869c48b4c547bcefe2d1d52/icons/peerblock.png</iconUrl>
-    <releaseNotes>http://www.peerblock.com/releases/public-releases/peerblock-{{PackageVersion}}-r{{DownloadUrlx64}}</releaseNotes>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/cf11d8cec29a25fe1869c48b4c547bcefe2d1d52/icons/{{PackageName}}.png</iconUrl>
+    <releaseNotes>
+#### Program
+* [Changelog](http://www.peerblock.com/releases/public-releases/)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
   </files>
 </package>
-

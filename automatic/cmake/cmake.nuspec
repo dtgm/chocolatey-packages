@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>{{PackageName}}</id>
     <title>CMake</title>
@@ -15,15 +15,21 @@ CMake is a family of tools designed to build, test and package software. CMake i
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.cmake.org/</projectUrl>
     <projectSourceUrl>http://www.cmake.org/gitweb?p=cmake.git;a=summary</projectSourceUrl>
+    <bugTrackerUrl>https://public.kitware.com/Bug/</bugTrackerUrl>
     <docsUrl>http://www.cmake.org/documentation/</docsUrl>
+    <mailingListUrl>https://cmake.org/mailing-lists/</mailingListUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/4a10ab83c85abbcd25c72624739f130bd7ccba2c/icons/cmake.png</iconUrl>
     <tags>compiler make build</tags>
     <copyright>©  2000 Kitware Inc</copyright>
     <licenseUrl>http://www.cmake.org/licensing/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-[News](http://www.kitware.com/news/home/browse/CMake)
-[Changelog](http://www.cmake.org/download/#latest)
+#### Program
+* [News](http://www.kitware.com/news/home/browse/CMake)
+* [Changelog](http://www.cmake.org/download/#latest)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
     <dependencies>
       <dependency id="{{PackageName}}.install" version="[{{PackageVersion}}]" />

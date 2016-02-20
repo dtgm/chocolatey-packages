@@ -6,6 +6,7 @@ $url64 = "$url"
 $checksum64 = "$checksum"
 $checksumType64 = "$checksumType"
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+
 Install-ChocolateyZipPackage -PackageName "$packageName" `
                              -Url "$url" `
                              -UnzipLocation "$toolsDir" `

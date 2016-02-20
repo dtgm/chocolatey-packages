@@ -6,7 +6,7 @@
     <version>{{PackageVersion}}</version>
     <authors>Jan Gerritsen,K. Graul,Jose M. Arnesto</authors>
     <owners>dtgm</owners>
-    <summary>Freenet front-end written in Java. Supports multiple up/downloads, messages, searching and more</summary>
+    <summary>Freenet front-end written in Java to support multiple up/downloads, messages, searching and more</summary>
     <description>
 Frost is a Freenet client that provides newsgroup-like messaging, private encrypted messages, file upload and download functionality and a file sharing system.
 
@@ -15,18 +15,24 @@ If this is your first time trying Frost, you'll see its quite different from oth
 If you know how to use newsgroups, you'll find Frost very easy to use and will feel right at home. If you're used to other filesharing apps, you should know that the best way to find what you're looking for is to ask for it. If you can't find it in the search results, post a message to the relevant board and someone will respond to you. Common questions are answered in the Support area.
 
 [Screenshots](http://jtcfrost.sourceforge.net/screenshots.html)
-[Wiki](https://sourceforge.net/p/jtcfrost/wiki/Home/)
     </description>
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://jtcfrost.sourceforge.net/</projectUrl>
     <projectSourceUrl>https://sourceforge.net/p/jtcfrost/code/HEAD/tree/</projectSourceUrl>
+    <bugTrackerUrl>http://sourceforge.net/p/jtcfrost/bugs/</bugTrackerUrl>
+    <docsUrl>http://sourceforge.net/p/jtcfrost/discussion/</docsUrl>
+    <mailingListUrl>http://sourceforge.net/p/jtcfrost/mailman/</mailingListUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/07028d1765480c85ca1578820fd82629f261f471/icons/frost.png</iconUrl>
     <tags>p2p filesharing freenet</tags>
     <copyright>© 2005 Frost</copyright>
     <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-[What's New?](https://sourceforge.net/p/jtcfrost/news/)
+#### Program
+* [News](https://sourceforge.net/p/jtcfrost/news/)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
     <dependencies>
       <dependency id="freenet" />

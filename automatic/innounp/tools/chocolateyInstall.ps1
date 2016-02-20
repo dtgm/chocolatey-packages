@@ -11,7 +11,7 @@ try {
   }	elseif (Test-Path "$Env:ProgramFiles\7-zip") {
     $cmd7z = "$Env:ProgramFiles\7-zip\7z.exe"
   } else {
-    Write-Warning "7-zip is not installed.  Please install 7-zip."
+    Write-Warning "7-zip was not found. Please install 7-zip."
     throw
   }
   Start-Process -FilePath "$cmd7z" -Wait -WorkingDirectory "$toolsDir" -ArgumentList "e $rarFile"

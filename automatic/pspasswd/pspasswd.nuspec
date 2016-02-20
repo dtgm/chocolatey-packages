@@ -14,7 +14,7 @@ Systems administrators that manage local administrative accounts on multiple com
 
 You can use _PsPasswd_ to change the password of a local or domain account on the local or a remote computer.
 
-__pspasswd__ [[\\computer[,computer[,..] | @file [__-u__ user [__-p__ psswd]]] Username [NewPassword]
+__pspasswd__ [[\\\\computer[,computer[,..] | @file [__-u__ user [__-p__ psswd]]] Username [NewPassword]
 
 __computer__
 `     Perform the command on the remote computer or computers specified. If you omit the computer name the command runs on the local system, and if you specify a wildcard (\\*), the command runs on all computers in the current domain.`

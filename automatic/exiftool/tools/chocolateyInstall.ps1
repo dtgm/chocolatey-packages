@@ -16,4 +16,4 @@ Install-ChocolateyZipPackage -PackageName "$packageName" `
                              -Checksum64 "$checksum64" `
                              -ChecksumType64 "$checksumType64"
 
-Move-Item "$(Join-Path $toolsDir 'exiftool(-k).exe')" "$(Join-Path $toolsDir 'exiftool.exe')"
+Move-Item "$(Join-Path $toolsDir 'exiftool(-k).exe')" "$(Join-Path $toolsDir 'exiftool.exe')" -Force

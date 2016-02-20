@@ -13,11 +13,12 @@ This program intercepts calls made to DbgPrint by device drivers and OutputDebug
 DebugView is an application that lets you monitor debug output on your local system, or any computer on the network that you can reach via TCP/IP. It is capable of displaying both kernel-mode and Win32 debug output, so you don't need a debugger to catch the debug output your applications or device drivers generate, nor do you need to modify your applications or drivers to use non-standard debug output APIs.
     </description>
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
-    <projectUrl>http://technet.microsoft.com/sysinternals/bb896647</projectUrl>
+    <projectUrl>https://technet.microsoft.com/sysinternals/bb896647</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/3f6e4d43f7acaa0b47bbcbed1bfe3a279d948a29/icons/{{PackageName}}.png</iconUrl>
     <mailingListUrl>http://forum.sysinternals.com/</mailingListUrl>
-    <tags>debug sysinternals</tags>
+    <tags>debug kernel sysinternals</tags>
     <copyright>© 1998-2012 Mark Russinovich</copyright>
-    <licenseUrl>https://technet.microsoft.com/en-us/sysinternals/bb469936</licenseUrl>
+    <licenseUrl>https://technet.microsoft.com/sysinternals/bb469936</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
 #### Program
@@ -26,6 +27,9 @@ DebugView is an application that lets you monitor debug output on your local sys
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
+    <replaces>
+      <dependency id="debugview" />
+    </replaces>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

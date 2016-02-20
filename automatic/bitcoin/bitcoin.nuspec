@@ -63,6 +63,7 @@ New transactions are approved by computing a value determined dynamically by rec
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
+    <conflicts>bitcoinxt</conflicts>
     <dependencies>
       <dependency id="{{PackageName}}.install" version="[{{PackageVersion}}]" />
     </dependencies>

@@ -31,7 +31,7 @@ SWFTools has been reported to work on Solaris, Linux (both 32 as well as 64 bit)
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://swftools.org/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/9e4975339ec9b232d6d594848b13cf9dde30da78/icons/{{packageName}}.png</iconUrl>
-    <tags>notsilent swf adobe flash</tags>
+    <tags>unattended swf adobe flash</tags>
     <copyright>© Matthias Kramm</copyright>
     <licenseUrl>https://raw.githubusercontent.com/matthiaskramm/swftools/master/COPYING</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

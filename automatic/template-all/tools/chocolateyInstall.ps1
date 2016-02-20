@@ -400,10 +400,10 @@ $checksumType = 'sha1'
 $validExitCodes = @(0)
 
 $chocoTempDir = Join-Path $Env:Temp "chocolatey"
-$tempDir = Join-Path $chocoTempDir "$packageName"
-if (![System.IO.Directory]::Exists($tempDir)) {[System.IO.Directory]::CreateDirectory($tempDir)}
-$zipFile = Join-Path $tempDir "$($packageName)Install.zip"
-$installFile = Join-Path $tempDir 'setup.exe'
+$pkgTempDir = Join-Path $chocoTempDir "$packageName"
+if (![System.IO.Directory]::Exists($pkgTempDir)) {[System.IO.Directory]::CreateDirectory($pkgTempDir)}
+$zipFile = Join-Path $pkgTempDir "$($packageName)Install.zip"
+$installFile = Join-Path $pkgTempDir 'setup.exe'
 
 Get-ChocolateyWebFile -PackageName "$packageName" `
                       -FileFullPath "$zipFile" `
@@ -411,7 +411,7 @@ Get-ChocolateyWebFile -PackageName "$packageName" `
                       -Checksum "$checksum" `
                       -ChecksumType "$checksumType"
 Get-ChocolateyUnzip -FileFullPath "$zipFile" `
-                    -Destination "$tempDir" `
+                    -Destination "$pkgTempDir" `
                     -SpecificFolder "" `
                     -PackageName "$packageName"
 Install-ChocolateyInstallPackage -PackageName "$packageName" `
@@ -422,8 +422,34 @@ Install-ChocolateyInstallPackage -PackageName "$packageName" `
 
 
 
-                                 
-                                 
+
+### Archived installer; ZIP ###
+$packageName = '{{PackageName}}'
+$url = '{{DownloadUrl}}'
+$checksum = '{{Checksum}}'
+$checksumType = 'sha1'
+$chocoTempDir = Join-Path $env:Temp 'chocolatey'
+$pkgTempDir = Join-Path $chocoTempDir $packageName
+
+# download and extract to $pkgTempDir
+Install-ChocolateyZipPackage -PackageName "$packageName" `
+                             -Url "$url" `
+                             -UnzipLocation "$pkgTempDir" `
+                             -Url64bit "" `
+                             -Checksum "$checksum" `
+                             -ChecksumType "$checksumType"
+
+$silentArgs = '/S'
+$installerType = 'exe'
+$installFile = Join-Path $pkgTempDir "BitMeterOSInstaller.exe"
+
+# run extracted installer
+Install-ChocolateyInstallPackage -PackageName "$packageName" `
+                                 -FileType "$installerType" `
+                                 -SilentArgs "$silentArgs" `
+                                 -File "$installFile" `
+                                 -ValidExitCodes $validExitCodes
+
 
 
 $ cat datacrow/tools/chocolateyInstall.ps1

@@ -1,10 +1,15 @@
 ﻿$packageName = '{{PackageName}}'
 $installerType = 'exe'
-$silentArgs = '/S'
+$silentArgs = '/S /D=C:\Program Files\Git'
 $url = '{{DownloadUrl}}'
 $checksum = '{{Checksum}}'
 $checksumType = 'sha1'
 $validExitCodes = @(0)
+
+$scriptPath = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
+$ahkExe = 'AutoHotKey'
+$ahkFile = Join-Path $scriptPath "chocolateyInstall.ahk"
+Start-Process $ahkExe $ahkFile
 
 Install-ChocolateyPackage -PackageName "$packageName" `
                           -FileType "$installerType" `

@@ -18,11 +18,11 @@ NUnit is a unit-testing framework for all .Net languages. Initially ported from 
     <docsUrl>http://www.nunit.org/index.php?p=documentation</docsUrl>
     <tags>development unit-test .net</tags>
     <copyright>© 2002 NUnit.org</copyright>
-    <licenseUrl>https://github.com/nunit/nunit/wiki/License</licenseUrl>
+    <licenseUrl>http://www.nunit.org/nuget/nunit3-license.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
 #### Program
-* [Release notes](https://github.com/nunit/nunit/wiki/Release-Notes)
+* [Release notes](https://github.com/nunit/docs/wiki/Release-Notes)
 * [Changelog](https://github.com/nunit/nunit/blob/master/CHANGES.txt)
 * [Roadmap](https://github.com/nunit/nunit/milestones)
 

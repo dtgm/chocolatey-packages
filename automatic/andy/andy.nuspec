@@ -34,7 +34,7 @@ Andy is an Android emulator that breaks down the barrier between desktop and mob
     </description>
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.andyroid.net/</projectUrl>
-    <tags>notSilent software-testing android-emulator virtualbox virtualization vm freeware</tags>
+    <tags>unattended software-testing android-emulator virtualbox virtualization vm freeware</tags>
     <copyright>© 2014 Andy OS Inc</copyright>
     <licenseUrl>http://www.andyroid.net/terms-conditions</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
