@@ -12,11 +12,6 @@ SetTitleMatchMode, 2
 winTitleIE = - Internet Explorer ahk_class IEFrame ahk_exe iexplore.exe
 winTitleAddons = Manage Add-ons ahk_class #32770 ahk_exe iexplore.exe
 winTitleEnable = Enable add-on ahk_class #32770 ahk_exe iexplore.exe
-winTitleException = ahk_class #32770 ahk_exe QTTabBar.exe
-winTextException = System.NullReferenceException: Object reference not set to an instance of an object
-
-WinWait, %winTitleException%, , 5
-ControlClick, OK, %winTitleException%, %winTextException%
 
 Process, Exist, iexplore.exe
 if !ErrorLevel = 0 {

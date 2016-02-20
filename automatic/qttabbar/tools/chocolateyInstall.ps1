@@ -6,13 +6,16 @@ $installerType = 'exe'
 $silentArgs = "/QI"
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $installFile = Join-Path $toolsDir "$($packageName).exe"
-$ahkFile = Join-Path $toolsDir 'chocolateyInstall.ahk'
+$ahkPre = Join-Path $toolsDir 'chocolateyInstallPre.ahk'
+$ahkPost = Join-Path $toolsDir 'chocolateyInstallPost.ahk'
 
 $regKey = 'HKCU:\SOFTWARE\Quizo\QTTabBar'
 if (Test-Path $regKey) {
   $installed = 1
   Write-Debug "Existing install detected."
 }
+
+Start-Process 'AutoHotKey' $ahkPre
 
 Install-ChocolateyZipPackage -PackageName "$packageName" `
                              -Url "$url" `
@@ -46,7 +49,7 @@ if (! $installed -eq 1) {
     $regIeCuBak = ,(Get-ItemProperty $regIeCu).$i
     Set-ItemProperty $regIeCu -Name $i -Value 1 -Type DWord
   }  
-  Start-Process 'AutoHotKey' $ahkFile -Wait
+  Start-Process 'AutoHotKey' $ahkPost
   # restore registry for IE
   foreach ($i in $disableIePopups) {
     Set-ItemProperty $regIeLm -Name $i -Value $regIeLmBak[$x++] -Type DWord
