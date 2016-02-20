@@ -1,16 +1,18 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="9f7b50a1-bb48-4dea-bd29-551067002410">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>1986032</LastFileSize>
-    <LastFileDate>2015-05-18T08:17:51-05:00</LastFileDate>
+    <LastFileSize>2145696</LastFileSize>
+    <LastFileDate>2016-02-09T18:59:39.6952945</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -151,11 +153,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\processhacker-2.35-setup.exe</PreviousLocation>
+    <PreviousLocation>F:\exe\processhacker-2.37-setup.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-05-25T11:48:03.861356-05:00</LastUpdated>
+    <LastUpdated>2016-02-09T18:59:39.6952945</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>processhacker</Name>

@@ -1,12 +1,12 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="6b1e3259-b749-4f3c-8ebe-dfa352cd6eba">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes>http://ournem.com/install.html
 http://nemcoin.com/install.html</UserNotes>
-    <LastFileSize>32812426</LastFileSize>
-    <LastFileDate>2015-07-29T12:14:53-06:00</LastFileDate>
+    <LastFileSize>34479520</LastFileSize>
+    <LastFileDate>2016-02-04T18:38:30.5160349</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -126,11 +126,11 @@ http://nemcoin.com/install.html</UserNotes>
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\nemwallet-0.6.43-windows-installer.exe</PreviousLocation>
+    <PreviousLocation>F:\exe\nemwallet-0.6.73-windows-installer.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-10-03T17:30:04.6981447-06:00</LastUpdated>
+    <LastUpdated>2016-02-04T18:38:30.5160349</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>nem</Name>

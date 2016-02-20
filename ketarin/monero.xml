@@ -1,16 +1,18 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="b541abd5-c08c-4cd7-89df-fc7c7eda5763">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>5249070</LastFileSize>
-    <LastFileDate>2015-06-22T05:58:01.4080749</LastFileDate>
+    <LastFileSize>47371827</LastFileSize>
+    <LastFileDate>2016-01-03T21:06:13.2884489</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -97,7 +99,7 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>/?/?([^ "'&lt;&gt;\*]+/win64)</Regex>
+            <Regex>/?/?([^ "'&lt;&gt;\*]+/win32)</Regex>
             <Url>{urlHost}/{urlPath}</Url>
             <Name>getUrl</Name>
           </UrlVariable>
@@ -139,7 +141,7 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=Current Version:.*?)[\d\.]{3,}(?=&lt;)</Regex>
+            <Regex>(?&lt;=&lt;h4 id="windows-64-bit"&gt;.*?Current Version:&lt;/strong&gt; )[\d\.]{3,}(?= &lt;)</Regex>
             <Url>{urlHost}/{urlPath}</Url>
             <TextualContent />
             <Name>version</Name>
@@ -154,9 +156,37 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>[A-Fa-f0-9]{40}(?=&lt;)</Regex>
+            <Regex>(?&lt;=&lt;h4 id="windows-32-bit"&gt;.*?&lt;/h4&gt;.*?)[A-Fa-f0-9]{40}(?=&lt;.*?&lt;h4 id="mac-os-x-64-bit"&gt;)</Regex>
             <Url>{urlHost}/{urlPath}</Url>
             <Name>checksum</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>getUrl64</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>/?/?([^ "'&lt;&gt;\*]+/win64)</Regex>
+            <Url>{urlHost}/{urlPath}</Url>
+            <Name>getUrl64</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>checksumx64</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=&lt;h4 id="windows-64-bit"&gt;.*?)[A-Fa-f0-9]{40}(?=&lt;)</Regex>
+            <Url>{urlHost}/{urlPath}</Url>
+            <Name>checksumx64</Name>
           </UrlVariable>
         </value>
       </item>
@@ -167,11 +197,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\monero.win.x64.v0-8-8-6.zip</PreviousLocation>
+    <PreviousLocation>F:\exe\monero.win.x64.v0-9-0-0.zip</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
-    <Enabled>true</Enabled>
+    <Enabled>false</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-06-22T05:58:01.4080749</LastUpdated>
+    <LastUpdated>2016-01-03T21:06:13.2884489</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>monero</Name>

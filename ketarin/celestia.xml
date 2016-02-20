@@ -1,11 +1,11 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="4f8e1c47-d75b-4101-a985-36d4879415d0">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
     <LastFileSize>34363645</LastFileSize>
-    <LastFileDate>2011-06-06T22:47:09-06:00</LastFileDate>
+    <LastFileDate>2016-02-04T20:03:11.3433933</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -104,7 +104,7 @@
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-09-30T09:14:45.2957347-06:00</LastUpdated>
+    <LastUpdated>2016-02-04T20:03:11.3433933</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>celestia</Name>

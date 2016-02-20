@@ -5,12 +5,13 @@
     <UserAgent />
     <UserNotes />
     <LastFileSize>32139488</LastFileSize>
-    <LastFileDate>2015-05-25T04:37:37.6212368</LastFileDate>
+    <LastFileDate>2015-10-10T05:00:26.430128</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
-    <VariableChangeIndicator />
+    <VariableChangeIndicator>version</VariableChangeIndicator>
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -169,11 +170,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\fah-installer_7.4.4_x86.exe</PreviousLocation>
+    <PreviousLocation>F:\exe\fah-installer_7.4.4_x86.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-05-25T04:37:37.6212368</LastUpdated>
+    <LastUpdated>2015-10-10T05:00:26.430128</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>fah</Name>

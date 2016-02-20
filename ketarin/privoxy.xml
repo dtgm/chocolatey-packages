@@ -4,13 +4,14 @@
     <WebsiteUrl />
     <UserAgent>MSWin32</UserAgent>
     <UserNotes />
-    <LastFileSize>509008</LastFileSize>
-    <LastFileDate>2015-02-21T04:34:51.6614589</LastFileDate>
+    <LastFileSize>512196</LastFileSize>
+    <LastFileDate>2016-02-04T18:07:39.5861699</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -112,11 +113,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\privoxy_setup_3_0_23.exe</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <PreviousLocation>F:\exe\privoxy_setup_3_0_24.exe</PreviousLocation>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-21T04:34:51.6614589</LastUpdated>
+    <LastUpdated>2016-02-04T18:07:39.5861699</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>privoxy</Name>

@@ -5,12 +5,13 @@
     <UserAgent />
     <UserNotes />
     <LastFileSize>15386078</LastFileSize>
-    <LastFileDate>2015-02-05T00:46:49.9410908</LastFileDate>
+    <LastFileDate>2016-02-04T18:32:42.0634926</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -24,9 +25,10 @@
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <TextualContent>http://namecoin.info/files/Namecoin_v{version}_setup.exe</TextualContent>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>[^ "'&lt;&gt;\*]+\.exe</Regex>
+            <Url>http://namecoin.info/?p=download</Url>
+            <TextualContent />
             <Name>url</Name>
           </UrlVariable>
         </value>
@@ -52,9 +54,10 @@
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=&lt;a href="http://namecoin.info/files/Namecoin_v)([\d\.]+)(?=.setup\.exe)</Regex>
-            <Url>http://namecoin.info/?p=download</Url>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <Url />
+            <TextualContent>{url:regex:(?&lt;=_v)[\d\.]{3,\}(?=_)}</TextualContent>
             <Name>version</Name>
           </UrlVariable>
         </value>
@@ -122,11 +125,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\Namecoin_v0.3.80_setup.exe</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <PreviousLocation>F:\exe\Namecoin_v0.3.80_setup.exe</PreviousLocation>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-05T00:46:49.9410908</LastUpdated>
+    <LastUpdated>2016-02-04T18:32:42.0634926</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>namecoin</Name>

@@ -1,16 +1,17 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="b35f4479-5cbd-49c4-b056-aa7a928d1c0d">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>30506192</LastFileSize>
-    <LastFileDate>2015-03-18T04:22:25-05:00</LastFileDate>
+    <LastFileSize>26557472</LastFileSize>
+    <LastFileDate>2016-02-04T19:29:33.3645451</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -153,11 +154,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\gpg4win-2.2.4.exe</PreviousLocation>
+    <PreviousLocation>F:\exe\gpg4win-2.3.0.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-07-07T19:10:04.2243431-05:00</LastUpdated>
+    <LastUpdated>2016-02-04T19:29:33.3645451</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>gpg4win</Name>

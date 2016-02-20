@@ -1,16 +1,18 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="1dbdf57c-ad51-41b0-a8aa-8c00da7578a2">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>18288648</LastFileSize>
-    <LastFileDate>2015-06-03T12:47:13-05:00</LastFileDate>
+    <LastFileSize>19169113</LastFileSize>
+    <LastFileDate>2016-02-19T21:52:51.0269669</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -39,7 +41,7 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>[^ "'&lt;&gt;\*]+\.exe</Regex>
+            <Regex>/?([^ "'&lt;&gt;\*]+\.exe)</Regex>
             <Url>https://github.com/yccheok/{appname}/releases/latest</Url>
             <TextualContent />
             <Name>urlPath</Name>
@@ -69,7 +71,7 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>[A-Fa-f0-9]{32}</Regex>
+            <Regex>(?&lt;=ETag[: "]+)[A-Fa-f0-9]{32}</Regex>
             <Url>{urlHost}/{urlPath}</Url>
             <TextualContent />
             <Name>checksum</Name>
@@ -125,11 +127,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\jstock-1.0.7.8-setup.exe</PreviousLocation>
+    <PreviousLocation>F:\exe\jstock-1.0.7.13-setup.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-07-18T23:37:04.9721403-05:00</LastUpdated>
+    <LastUpdated>2016-02-19T21:52:51.0269669</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>jstock</Name>

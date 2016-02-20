@@ -4,13 +4,15 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>22519096</LastFileSize>
-    <LastFileDate>2015-04-25T04:34:42.2273929</LastFileDate>
+    <LastFileSize>28092248</LastFileSize>
+    <LastFileDate>2015-11-09T15:06:31.8743116</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -24,12 +26,12 @@
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>RegularExpression</VariableType>
-            <Regex>([\d+\.]+)\.exe</Regex>
-            <Url>http://cyberduck.io/changelog/</Url>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <Url />
             <StartText>href="https://update.cyberduck.io/windows/Cyberduck-Installer-</StartText>
             <EndText>.exe"</EndText>
-            <TextualContent />
+            <TextualContent>{getUrl:regex:(?&lt;=-)[\d+\.]{3,\}(?=\.exe)}</TextualContent>
             <Name>version</Name>
           </UrlVariable>
         </value>
@@ -85,7 +87,7 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>[^ "'&lt;&gt;\*]+\.exe</Regex>
+            <Regex>https?://[^ "'&lt;&gt;\*]+\.exe</Regex>
             <Url>http://cyberduck.io/changelog/</Url>
             <Name>getUrl</Name>
           </UrlVariable>
@@ -98,11 +100,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\Cyberduck-Installer-4.7.exe</PreviousLocation>
+    <PreviousLocation>F:\exe\Cyberduck-Installer-4.7.3.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-25T04:34:42.2273929</LastUpdated>
+    <LastUpdated>2015-11-09T15:06:31.8743116</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>cyberduck</Name>

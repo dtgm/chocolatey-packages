@@ -11,6 +11,8 @@
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -99,8 +101,8 @@
     <Category />
     <SourceType>FixedUrl</SourceType>
     <PreviousLocation>C:\ProgramData\chocolatey\_work\pulse-windows-386-0.1.4.zip</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
-    <Enabled>true</Enabled>
+    <DeletePreviousFile>false</DeletePreviousFile>
+    <Enabled>false</Enabled>
     <FileHippoId />
     <LastUpdated>2014-12-20T04:33:45.826906</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>

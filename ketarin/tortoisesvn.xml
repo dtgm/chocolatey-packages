@@ -1,11 +1,11 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="98828b53-f953-4ffe-9171-04ec74691950">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>15462400</LastFileSize>
-    <LastFileDate>2015-09-22T13:05:43-06:00</LastFileDate>
+    <LastFileSize>15511552</LastFileSize>
+    <LastFileDate>2016-02-04T17:11:46.7076369</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -197,11 +197,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\TortoiseSVN-1.9.2.26806-win32-svn-1.9.2.msi</PreviousLocation>
+    <PreviousLocation>F:\exe\TortoiseSVN-1.9.3.27038-win32-svn-1.9.3.msi</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-09-29T14:23:27.299688-06:00</LastUpdated>
+    <LastUpdated>2016-02-04T17:11:46.7076369</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>tortoisesvn</Name>

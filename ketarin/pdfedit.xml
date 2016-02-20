@@ -5,12 +5,13 @@
     <UserAgent />
     <UserNotes>http://hivelocity.dl.sourceforge.net/project/pdfedit/pdfedit-win32/pdfedit-{realVersion}.msi</UserNotes>
     <LastFileSize>7458816</LastFileSize>
-    <LastFileDate>2015-02-23T04:34:55.9593606</LastFileDate>
+    <LastFileDate>2016-02-04T18:13:41.016342</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -169,11 +170,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\pdfedit-20140526_1531.msi</PreviousLocation>
+    <PreviousLocation>F:\exe\pdfedit-20140526_1531.msi</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-23T04:34:55.9593606</LastUpdated>
+    <LastUpdated>2016-02-04T18:13:41.016342</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>pdfedit</Name>

@@ -1,16 +1,17 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="f586effa-6d13-42f4-89fc-74d43d634bd5">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>8219161</LastFileSize>
-    <LastFileDate>2015-03-29T07:44:58-05:00</LastFileDate>
+    <LastFileSize>11381667</LastFileSize>
+    <LastFileDate>2016-02-04T20:29:34.1864611</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -94,11 +95,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\bluej-315.msi</PreviousLocation>
+    <PreviousLocation>F:\exe\bluej-316.msi</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-06-12T16:53:23.3668187-05:00</LastUpdated>
+    <LastUpdated>2016-02-04T20:29:34.1864611</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>bluej</Name>

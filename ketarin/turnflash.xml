@@ -1,11 +1,11 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="0866fd3e-ae7a-48c3-9e59-72da87d18dfd">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
     <LastFileSize>14176</LastFileSize>
-    <LastFileDate>2003-03-08T21:51:36-07:00</LastFileDate>
+    <LastFileDate>2016-02-09T17:30:01.5087534</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -100,7 +100,7 @@
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-12-24T22:51:44.4073399-07:00</LastUpdated>
+    <LastUpdated>2016-02-09T17:30:01.5087534</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>turnflash</Name>

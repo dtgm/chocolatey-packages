@@ -8,12 +8,13 @@ https://software.intel.com/en-us/articles/install-arduino-ide-on-intel-iot-platf
 
 http://www.intel.com/content/www/us/en/do-it-yourself/downloads-and-documentation.html#galileosoftware</UserNotes>
     <LastFileSize>319210660</LastFileSize>
-    <LastFileDate>2015-05-24T23:51:02.5008985</LastFileDate>
+    <LastFileDate>2015-10-10T04:39:22.2117005</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Avoid</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -113,11 +114,11 @@ http://www.intel.com/content/www/us/en/do-it-yourself/downloads-and-documentatio
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\IntelArduino-1.6.0-Windows.7z</PreviousLocation>
+    <PreviousLocation>F:\exe\IntelArduino-1.6.0-Windows.7z</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-05-24T23:51:02.5008985</LastUpdated>
+    <LastUpdated>2015-10-10T04:39:22.2117005</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>arduino-intel</Name>

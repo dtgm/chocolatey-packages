@@ -1,23 +1,25 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
-  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="03bb59aa-c981-4652-84b3-400e5154a58d">
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="dcb6f151-9f59-4963-aa2e-73720353bae9">
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
     <UserNotes />
-    <LastFileSize />
-    <LastFileDate />
+    <LastFileSize>900003</LastFileSize>
+    <LastFileDate>2016-02-13T05:43:18.1903004</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Avoid</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
     <HttpReferer />
     <SetupInstructions />
     <Variables>
-    <item>
+      <item>
         <key>
           <string>technet</string>
         </key>
@@ -34,7 +36,7 @@
       </item>
       <item>
         <key>
-          <string>version</string>
+          <string>versionFull</string>
         </key>
         <value>
           <UrlVariable>
@@ -44,8 +46,8 @@
             <Url>https://technet.microsoft.com/en-us/sysinternals/{technet}.aspx</Url>
             <StartText>&lt;span itemprop="softwareVersion"&gt;</StartText>
             <EndText>&lt;</EndText>
-            <TextualContent />
-            <Name>version</Name>
+            <TextualContent>2.2.6</TextualContent>
+            <Name>versionFull</Name>
           </UrlVariable>
         </value>
       </item>
@@ -92,6 +94,20 @@
           </UrlVariable>
         </value>
       </item>
+      <item>
+        <key>
+          <string>version</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>{versionFull:regexreplace:^\d+(\.\d+){0,2\}\.\d$:$00}</TextualContent>
+            <Name>version</Name>
+          </UrlVariable>
+        </value>
+      </item>
     </Variables>
     <ExecuteCommand />
     <ExecutePreCommand />
@@ -99,11 +115,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation />
+    <PreviousLocation>F:\exe\Disk2vhd.zip</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated />
+    <LastUpdated>2016-02-13T05:43:18.1903004</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>disk2vhd</Name>

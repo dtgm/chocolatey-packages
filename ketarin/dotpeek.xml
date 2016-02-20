@@ -1,20 +1,22 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="411a6ad4-6a07-413e-89c7-661b641fd3d8">
     <WebsiteUrl />
-    <UserAgent>Mozilla/5.0 (Windows NT 6.3; WOW64) </UserAgent>
+    <UserAgent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:46.0) Gecko/20100101 Firefox/46.0</UserAgent>
     <UserNotes />
-    <LastFileSize>48936552</LastFileSize>
-    <LastFileDate>2015-05-21T10:43:43-05:00</LastFileDate>
+    <LastFileSize>53288632</LastFileSize>
+    <LastFileDate>2015-11-16T18:37:44.3182529</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
-    <HttpReferer>http://www.jetbrains.com/decompiler/download/</HttpReferer>
+    <HttpReferer>https://www.jetbrains.com/decompiler/download/</HttpReferer>
     <SetupInstructions />
     <Variables>
       <item>
@@ -84,7 +86,7 @@
             <VariableType>RegularExpression</VariableType>
             <Regex>[^ "'&lt;&gt;\*]+\.exe</Regex>
             <PostData>versionDP=long</PostData>
-            <Url>https://www.jetbrains.com/decompiler/download/download_thanks.jsp?os=32bit</Url>
+            <Url>https://www.jetbrains.com/decompiler/download/download-thanks.html?platform=windows32</Url>
             <Name>getUrl</Name>
           </UrlVariable>
         </value>
@@ -98,7 +100,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
             <Regex>[^ "'&lt;&gt;\*]+\.exe</Regex>
-            <Url>https://www.jetbrains.com/decompiler/download/download_thanks.jsp?os=64bit</Url>
+            <Url>https://www.jetbrains.com/decompiler/download/download-thanks.html?platform=windows64</Url>
             <Name>getUrl64</Name>
           </UrlVariable>
         </value>
@@ -138,11 +140,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\dotPeek32_1.4.1.exe</PreviousLocation>
+    <PreviousLocation>F:\exe\dotPeek32_10.0.1.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
-    <Enabled>true</Enabled>
+    <Enabled>false</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-06-27T02:56:40.0641031-05:00</LastUpdated>
+    <LastUpdated>2015-11-16T18:37:44.3182529</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>dotpeek</Name>

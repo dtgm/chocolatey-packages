@@ -11,6 +11,7 @@
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -40,7 +41,8 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>https://jenkins.impy.me/job/Toxy%20x86/lastSuccessfulBuild/artifact/toxy_x86.zip</TextualContent>
+            <Url />
+            <TextualContent>https://jenkins.impy.me/job/Toxy%20x86/{versionBuild}/artifact/toxy_x86.zip</TextualContent>
             <Name>url</Name>
           </UrlVariable>
         </value>
@@ -54,8 +56,36 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>https://jenkins.impy.me/job/Toxy%20x64/lastSuccessfulBuild/artifact/toxy_x64.zip</TextualContent>
+            <TextualContent>https://jenkins.impy.me/job/Toxy%20x86/{versionBuild64}/artifact/toxy_x86.zip</TextualContent>
             <Name>url64</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>versionBuild</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=Build #)\d+</Regex>
+            <Url>https://jenkins.impy.me/job/Toxy%20x86/lastSuccessfulBuild/</Url>
+            <Name>versionBuild</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>versionBuild64</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=Build #)\d+</Regex>
+            <Url>https://jenkins.impy.me/job/Toxy%20x64/lastSuccessfulBuild/</Url>
+            <Name>versionBuild64</Name>
           </UrlVariable>
         </value>
       </item>
@@ -84,6 +114,20 @@
             <Regex />
             <TextualContent>1</TextualContent>
             <Name>cscript</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>x</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>StartEnd</VariableType>
+            <Regex />
+            <Url>{version}</Url>
+            <Name>x</Name>
           </UrlVariable>
         </value>
       </item>

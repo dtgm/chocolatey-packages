@@ -1,11 +1,11 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="67da154b-7902-462a-a4cc-9c8f94d003d6">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>6683092</LastFileSize>
-    <LastFileDate>2015-08-30T12:22:37-06:00</LastFileDate>
+    <LastFileSize>6760100</LastFileSize>
+    <LastFileDate>2016-02-04T18:11:47.5323469</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -154,11 +154,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\peazip-5.7.2.WINDOWS.exe</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <PreviousLocation>F:\exe\peazip-5.9.1.WINDOWS.exe</PreviousLocation>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-10-03T18:27:31.4256336-06:00</LastUpdated>
+    <LastUpdated>2016-02-04T18:11:47.5323469</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>peazip.install</Name>

@@ -18,13 +18,14 @@ http://downloads.auslogics.com/en/duplicate-file-finder/duplicate-file-finder-se
 http://downloads.auslogics.com/en/duplicate-file-finder/duplicate-file-finder-setup.exe
 &lt;/Additional_Download_URL_2&gt;
 &lt;/Download_URLs&gt;</UserNotes>
-    <LastFileSize>7445664</LastFileSize>
-    <LastFileDate>2015-05-11T13:27:56.7674229</LastFileDate>
+    <LastFileSize>7537824</LastFileSize>
+    <LastFileDate>2016-02-04T19:41:59.7887028</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -108,11 +109,11 @@ http://downloads.auslogics.com/en/duplicate-file-finder/duplicate-file-finder-se
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\duplicate-file-finder-setup.exe</PreviousLocation>
+    <PreviousLocation>F:\exe\duplicate-file-finder-setup.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-05-11T13:27:56.7674229</LastUpdated>
+    <LastUpdated>2016-02-04T19:41:59.7887028</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>duplicatefilefinder</Name>

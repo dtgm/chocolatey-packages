@@ -5,12 +5,14 @@
     <UserAgent />
     <UserNotes />
     <LastFileSize>13067295</LastFileSize>
-    <LastFileDate>2015-04-21T01:14:07.021328</LastFileDate>
+    <LastFileDate>2016-02-19T21:22:06.1713883</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -96,11 +98,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\pyExifToolGUI-0.5.zip</PreviousLocation>
+    <PreviousLocation>F:\exe\pyExifToolGUI-0.5.zip</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-21T01:14:07.021328</LastUpdated>
+    <LastUpdated>2016-02-19T21:22:06.1713883</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>pyexiftoolgui</Name>

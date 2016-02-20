@@ -1,16 +1,17 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="1ec88498-87e9-456c-91a7-5eba09c1f288">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>43504182</LastFileSize>
-    <LastFileDate>2015-02-28T15:42:15-06:00</LastFileDate>
+    <LastFileSize>45163087</LastFileSize>
+    <LastFileDate>2016-02-04T19:32:51.9934062</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -125,11 +126,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\gajim-0.16.1-1.exe</PreviousLocation>
+    <PreviousLocation>F:\exe\gajim-0.16.5-1.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-07-18T00:56:00.0089761-05:00</LastUpdated>
+    <LastUpdated>2016-02-04T19:32:51.9934062</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>gajim</Name>

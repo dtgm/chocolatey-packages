@@ -1,16 +1,18 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="fa9b4fbf-8dc3-49bd-9f63-df9f28d16374">
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)</UserAgent>
     <UserNotes />
-    <LastFileSize>65294</LastFileSize>
-    <LastFileDate>2015-06-24T14:14:53-05:00</LastFileDate>
+    <LastFileSize>63347</LastFileSize>
+    <LastFileDate>2016-02-19T21:15:01.2189605</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -68,7 +70,7 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>[^ "'&lt;&gt;\*]+32\.zip</Regex>
+            <Regex>/?([^ "'&lt;&gt;\*]+32\.zip)</Regex>
             <Url>https://github.com/dbohdan/{appname}/releases/latest</Url>
             <Name>urlPath</Name>
           </UrlVariable>
@@ -109,11 +111,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\initool-v0.5.0-win32.zip</PreviousLocation>
+    <PreviousLocation>F:\exe\initool-v0.6.1-win32.zip</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-07-08T19:52:36.2504771-05:00</LastUpdated>
+    <LastUpdated>2016-02-19T21:15:01.2189605</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>initool</Name>

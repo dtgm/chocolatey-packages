@@ -5,12 +5,13 @@
     <UserAgent />
     <UserNotes />
     <LastFileSize>12942245</LastFileSize>
-    <LastFileDate>2015-04-17T05:05:03.9495436</LastFileDate>
+    <LastFileDate>2016-02-04T18:40:50.9765723</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -123,11 +124,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\luckyBackup-0.4.7-win32-build20140107.exe</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <PreviousLocation>F:\exe\luckyBackup-0.4.7-win32-build20140107.exe</PreviousLocation>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-17T05:05:03.9495436</LastUpdated>
+    <LastUpdated>2016-02-04T18:40:50.9765723</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>luckybackup</Name>

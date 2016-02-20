@@ -4,13 +4,14 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>15873994</LastFileSize>
-    <LastFileDate>2015-05-25T05:16:37.4083636</LastFileDate>
+    <LastFileSize>18930705</LastFileSize>
+    <LastFileDate>2016-02-04T18:04:24.0779867</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -48,7 +49,7 @@
       </item>
       <item>
         <key>
-          <string>versionFull</string>
+          <string>urlDir</string>
         </key>
         <value>
           <UrlVariable>
@@ -56,21 +57,21 @@
             <VariableType>RegularExpression</VariableType>
             <Regex>href="/?{urlPath}/([^/]+)</Regex>
             <Url>{urlHost}/{urlPath}</Url>
-            <Name>versionFull</Name>
+            <Name>urlDir</Name>
           </UrlVariable>
         </value>
       </item>
       <item>
         <key>
-          <string>url</string>
+          <string>urlFull</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=ResponseUri: )[^\r\n]+</Regex>
-            <Url>{getUrl}</Url>
-            <Name>url</Name>
+            <Regex>[^ "'&lt;&gt;\*]+\.exe/download</Regex>
+            <Url>{urlHost}/{urlPath}/{urlDir}/</Url>
+            <Name>urlFull</Name>
           </UrlVariable>
         </value>
       </item>
@@ -90,15 +91,16 @@
       </item>
       <item>
         <key>
-          <string>getUrl</string>
+          <string>versionFull</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>RegularExpression</VariableType>
-            <Regex>[^ "'&lt;&gt;\*]+\.exe/download</Regex>
-            <Url>{urlHost}/{urlPath}/{versionFull}/</Url>
-            <Name>getUrl</Name>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <Url />
+            <TextualContent>{urlFull:regex:(?&lt;=RetroShare_)[\d\._]{3,\}(?=_[a-z])}</TextualContent>
+            <Name>versionFull</Name>
           </UrlVariable>
         </value>
       </item>
@@ -139,8 +141,37 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>{versionFull:multireplace:,:a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z:.01,.02,.03,.04,.05,.06,.07,.08,.09,.10,.11,.12,.13,.14,.15,.16,.17,.18,.19,.20,.21,.22,.23,.24,.25,.26}</TextualContent>
+            <TextualContent>{versionFull:replace:_:.}</TextualContent>
             <Name>version</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=ResponseUri: )[^\r\n]+</Regex>
+            <Url>{urlFull}</Url>
+            <Name>url</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>versionRepl</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <Url />
+            <TextualContent>{versionFull:multireplace:,:a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z:.01,.02,.03,.04,.05,.06,.07,.08,.09,.10,.11,.12,.13,.14,.15,.16,.17,.18,.19,.20,.21,.22,.23,.24,.25,.26}</TextualContent>
+            <Name>versionRepl</Name>
           </UrlVariable>
         </value>
       </item>
@@ -151,11 +182,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\RetroShare_0.5.5c_7261_setup.exe</PreviousLocation>
+    <PreviousLocation>F:\exe\RetroShare_0.6.0_8551_rc2_setup.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-05-25T05:16:37.4083636</LastUpdated>
+    <LastUpdated>2016-02-04T18:04:24.0779867</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>retroshare</Name>

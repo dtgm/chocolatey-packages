@@ -5,12 +5,13 @@
     <UserAgent />
     <UserNotes />
     <LastFileSize>169169</LastFileSize>
-    <LastFileDate>2015-05-25T07:42:13.1305687</LastFileDate>
+    <LastFileDate>2016-02-04T18:14:21.9367717</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -151,11 +152,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\openstego-0.6.1.zip</PreviousLocation>
+    <PreviousLocation>F:\exe\openstego-0.6.1.zip</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-05-25T07:42:13.1305687</LastUpdated>
+    <LastUpdated>2016-02-04T18:14:21.9367717</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>openstego.portable</Name>

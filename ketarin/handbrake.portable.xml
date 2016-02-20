@@ -4,13 +4,14 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>9406528</LastFileSize>
-    <LastFileDate>2015-05-25T06:06:21.7701761</LastFileDate>
+    <LastFileSize>9189137</LastFileSize>
+    <LastFileDate>2016-02-11T18:40:26.5622837</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -167,11 +168,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\HandBrake-0.10.1-i686-Win_CLI.zip</PreviousLocation>
+    <PreviousLocation>F:\exe\HandBrake-0.10.5-i686-Win_CLI.zip</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-05-25T06:06:21.7701761</LastUpdated>
+    <LastUpdated>2016-02-11T18:40:26.5622837</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>handbrake.portable</Name>

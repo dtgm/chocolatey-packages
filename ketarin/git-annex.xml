@@ -1,11 +1,11 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="030a85a9-0d42-47b5-b2f4-614d4e6bb0a5">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>19171899</LastFileSize>
-    <LastFileDate>2015-09-30T11:44:28-06:00</LastFileDate>
+    <LastFileSize>20858505</LastFileSize>
+    <LastFileDate>2016-02-17T13:53:55.2815141</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -100,7 +100,7 @@
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-10-03T19:48:32.5390476-06:00</LastUpdated>
+    <LastUpdated>2016-02-17T13:53:55.2815141</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>git-annex</Name>

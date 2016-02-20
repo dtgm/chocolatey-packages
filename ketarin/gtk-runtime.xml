@@ -5,12 +5,13 @@
     <UserAgent />
     <UserNotes />
     <LastFileSize>7944501</LastFileSize>
-    <LastFileDate>2015-02-05T00:44:46.7620453</LastFileDate>
+    <LastFileDate>2016-02-04T19:29:06.0225303</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -137,11 +138,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\gtk2-runtime-2.24.10-2012-10-10-ash.exe</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <PreviousLocation>F:\exe\gtk2-runtime-2.24.10-2012-10-10-ash.exe</PreviousLocation>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-05T00:44:46.7620453</LastUpdated>
+    <LastUpdated>2016-02-04T19:29:06.0225303</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>gtk-runtime</Name>

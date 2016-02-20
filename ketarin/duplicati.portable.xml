@@ -5,12 +5,13 @@
     <UserAgent />
     <UserNotes>http://duplicati.googlecode.com/files/Duplicati%20{version}.zip</UserNotes>
     <LastFileSize>8359912</LastFileSize>
-    <LastFileDate>2015-04-08T13:53:57.0303361</LastFileDate>
+    <LastFileDate>2015-10-10T04:58:40.9758518</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -112,11 +113,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\Duplicati 1.3.4.zip</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <PreviousLocation>F:\exe\Duplicati 1.3.4.zip</PreviousLocation>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-08T13:53:57.0303361</LastUpdated>
+    <LastUpdated>2015-10-10T04:58:40.9758518</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>duplicati.portable</Name>

@@ -1,11 +1,11 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="3b5fb619-de06-4781-8266-0bb17fba4902">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
     <LastFileSize>50433966</LastFileSize>
-    <LastFileDate>2015-04-27T09:51:41-06:00</LastFileDate>
+    <LastFileDate>2016-02-04T18:27:11.4390601</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -143,7 +143,7 @@
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-10-11T09:33:09.7099806-06:00</LastUpdated>
+    <LastUpdated>2016-02-04T18:27:11.4390601</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>orwelldevcpp</Name>

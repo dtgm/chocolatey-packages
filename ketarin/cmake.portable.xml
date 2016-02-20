@@ -1,11 +1,11 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="b166ac6c-8138-47ff-855b-556263b8180d">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>16423630</LastFileSize>
-    <LastFileDate>2015-08-14T04:38:30.9241831</LastFileDate>
+    <LastFileSize>21326505</LastFileSize>
+    <LastFileDate>2016-02-19T21:07:21.2704147</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -111,11 +111,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\cmake-3.3.1-win32-x86.zip</PreviousLocation>
+    <PreviousLocation>F:\exe\cmake-3.5.0-rc3-win32-x86.zip</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-08-14T04:38:30.9241831</LastUpdated>
+    <LastUpdated>2016-02-19T21:07:21.2704147</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>cmake.portable</Name>

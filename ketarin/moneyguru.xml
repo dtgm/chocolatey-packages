@@ -1,16 +1,17 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="f577def6-5463-435a-b99b-43d75a31720a">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>17822720</LastFileSize>
-    <LastFileDate>2015-01-02T11:15:08-06:00</LastFileDate>
+    <LastFileSize>18050048</LastFileSize>
+    <LastFileDate>2016-02-04T18:38:58.9787561</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -94,11 +95,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\moneyguru_win64_2.8.2.msi</PreviousLocation>
+    <PreviousLocation>F:\exe\moneyguru_win64_2.9.4.msi</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-06-04T20:06:21.6741822-05:00</LastUpdated>
+    <LastUpdated>2016-02-04T18:38:58.9787561</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>moneyguru</Name>

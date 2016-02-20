@@ -1,11 +1,11 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="2b665b71-c93f-4556-92d5-5832844495cf">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
     <LastFileSize>798350</LastFileSize>
-    <LastFileDate>2005-06-08T08:15:05-06:00</LastFileDate>
+    <LastFileDate>2016-02-04T17:23:32.8351557</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -87,7 +87,7 @@
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-10-04T14:03:33.8838145-06:00</LastUpdated>
+    <LastUpdated>2016-02-04T17:23:32.8351557</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>speex</Name>

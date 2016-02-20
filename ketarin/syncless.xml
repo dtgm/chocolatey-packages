@@ -6,12 +6,13 @@
     <UserNotes>http://peerblock.googlecode.com/files/PeerBlock-Setup_v1.1_r518.exe
 https://code.google.com/p/peerblock/downloads/list</UserNotes>
     <LastFileSize>1204540</LastFileSize>
-    <LastFileDate>2015-04-06T09:38:05.8754897</LastFileDate>
+    <LastFileDate>2015-10-10T05:50:48.8558846</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -100,11 +101,11 @@ https://code.google.com/p/peerblock/downloads/list</UserNotes>
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\Syncless 2.1.zip</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <PreviousLocation>F:\exe\Syncless 2.1.zip</PreviousLocation>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-06T09:38:05.8754897</LastUpdated>
+    <LastUpdated>2015-10-10T05:50:48.8558846</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>syncless</Name>

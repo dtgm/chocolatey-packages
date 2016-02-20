@@ -1,16 +1,18 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="3d43965b-ddc1-4ef2-87f3-aa145d9a6b73">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>96379392</LastFileSize>
-    <LastFileDate>2015-02-05T00:56:35.3260039</LastFileDate>
+    <LastFileSize>71799296</LastFileSize>
+    <LastFileDate>2016-02-16T11:50:33.1827604</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -25,7 +27,7 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>[^ "'&lt;&gt;\*]+\.msi</Regex>
+            <Regex>[^ "'&lt;&gt;\*]+32\.msi</Regex>
             <Url>http://www.zimbra.com/downloads/zimbra-desktop</Url>
             <Name>url</Name>
           </UrlVariable>
@@ -61,7 +63,7 @@
       </item>
       <item>
         <key>
-          <string>yopush</string>
+          <string>nopush</string>
         </key>
         <value>
           <UrlVariable>
@@ -69,7 +71,7 @@
             <VariableType>Textual</VariableType>
             <Regex />
             <TextualContent>--nopush</TextualContent>
-            <Name>yopush</Name>
+            <Name>nopush</Name>
           </UrlVariable>
         </value>
       </item>
@@ -82,14 +84,15 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>{releaseNotes}</TextualContent>
+            <Url />
+            <TextualContent>{url:replace:win32:win64}</TextualContent>
             <Name>url64</Name>
           </UrlVariable>
         </value>
       </item>
       <item>
         <key>
-          <string>releaseNotes</string>
+          <string>packageGuid</string>
         </key>
         <value>
           <UrlVariable>
@@ -97,7 +100,7 @@
             <VariableType>RegularExpression</VariableType>
             <Regex>[^ "'&lt;&gt;\*]+Release_Notes.*?\.pdf</Regex>
             <Url>http://www.zimbra.com/downloads/zimbra-desktop</Url>
-            <Name>releaseNotes</Name>
+            <Name>packageGuid</Name>
           </UrlVariable>
         </value>
       </item>
@@ -110,8 +113,23 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>0</TextualContent>
+            <TextualContent>2</TextualContent>
             <Name>cscript</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>checksum64file</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <Url />
+            <TextualContent>{url64}</TextualContent>
+            <Name>checksum64file</Name>
           </UrlVariable>
         </value>
       </item>
@@ -122,11 +140,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\zdesktop_7_2_5_ga_b12038_20140417012326_win32.msi</PreviousLocation>
+    <PreviousLocation>F:\exe\zdesktop_7_2_7_ga_b12059_20150629060421_win32.msi</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-05T00:56:35.3260039</LastUpdated>
+    <LastUpdated>2016-02-16T11:50:33.1827604</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>zimbra-desktop</Name>

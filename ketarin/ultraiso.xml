@@ -1,16 +1,17 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="cd5dba38-b14d-43f6-96f5-090e6136c57d">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>4384520</LastFileSize>
-    <LastFileDate>2014-12-18T21:27:52-06:00</LastFileDate>
+    <LastFileSize>4401160</LastFileSize>
+    <LastFileDate>2016-02-13T18:48:46.8349717</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -114,7 +115,7 @@
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-06-13T11:35:46.3426332-05:00</LastUpdated>
+    <LastUpdated>2016-02-13T18:48:46.8349717</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>ultraiso</Name>

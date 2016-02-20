@@ -4,13 +4,15 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>5896131</LastFileSize>
-    <LastFileDate>2015-05-25T08:57:49.7227277</LastFileDate>
+    <LastFileSize>2895717</LastFileSize>
+    <LastFileDate>2016-01-04T02:46:23.3714974</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -182,11 +184,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\robocode-1.9.2.4-setup.jar</PreviousLocation>
+    <PreviousLocation>F:\exe\robocode.dotnet-1.9.2.5-setup.jar</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
-    <Enabled>true</Enabled>
+    <Enabled>false</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-05-25T08:57:49.7227277</LastUpdated>
+    <LastUpdated>2016-01-04T02:46:23.3714974</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>robocode</Name>

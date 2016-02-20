@@ -1,16 +1,17 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="034bbe22-262d-4f83-b1b8-86a39e84d078">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>29950520</LastFileSize>
-    <LastFileDate>2015-07-14T06:42:17-05:00</LastFileDate>
+    <LastFileSize>30224768</LastFileSize>
+    <LastFileDate>2016-02-12T11:44:49.315255</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -196,11 +197,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\multibit-hd-windows-0.1.2.exe</PreviousLocation>
+    <PreviousLocation>F:\exe\multibit-hd-windows-0.2.0.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-07-22T22:51:55.2319488-05:00</LastUpdated>
+    <LastUpdated>2016-02-12T11:44:49.315255</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>multibit-hd</Name>

@@ -4,17 +4,19 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>129712</LastFileSize>
-    <LastFileDate>2015-04-17T21:36:48.6480557</LastFileDate>
+    <LastFileSize>130208</LastFileSize>
+    <LastFileDate>2016-02-13T19:32:21.9186149</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
-    <ExclusiveDownload>false</ExclusiveDownload>
-    <HttpReferer />
+    <ExclusiveDownload>true</ExclusiveDownload>
+    <HttpReferer>http://www.nirsoft.net/utils/network_password_recovery.html</HttpReferer>
     <SetupInstructions />
     <Variables>
       <item>
@@ -94,11 +96,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\netpass_setup.exe</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <PreviousLocation>F:\exe\netpass_setup.exe</PreviousLocation>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-17T21:36:48.6480557</LastUpdated>
+    <LastUpdated>2016-02-13T19:32:21.9186149</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>netpass</Name>

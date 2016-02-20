@@ -1,11 +1,11 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="898939f4-7b2e-421a-ad2e-14e5fdd1698a">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
     <LastFileSize>13860864</LastFileSize>
-    <LastFileDate>2015-12-11T17:35:14-07:00</LastFileDate>
+    <LastFileDate>2016-02-04T18:39:01.8438745</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -116,7 +116,7 @@
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2016-01-05T18:12:46.9833484-07:00</LastUpdated>
+    <LastUpdated>2016-02-04T18:39:01.8438745</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>meld</Name>

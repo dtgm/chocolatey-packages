@@ -5,12 +5,13 @@
     <UserAgent />
     <UserNotes />
     <LastFileSize>208258</LastFileSize>
-    <LastFileDate>2015-05-25T07:41:57.2790295</LastFileDate>
+    <LastFileDate>2016-02-04T18:14:14.6441186</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -151,11 +152,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\Setup-OpenStego-0.6.1.exe</PreviousLocation>
+    <PreviousLocation>F:\exe\Setup-OpenStego-0.6.1.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-05-25T07:41:57.2790295</LastUpdated>
+    <LastUpdated>2016-02-04T18:14:14.6441186</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>openstego.install</Name>

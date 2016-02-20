@@ -6,12 +6,14 @@
     <UserNotes>http://peerblock.googlecode.com/files/PeerBlock-Setup_v1.1_r518.exe
 https://code.google.com/p/peerblock/downloads/list</UserNotes>
     <LastFileSize>2374320</LastFileSize>
-    <LastFileDate>2015-04-07T04:37:12.0812746</LastFileDate>
+    <LastFileDate>2016-02-04T18:09:41.499678</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -133,22 +135,8 @@ https://code.google.com/p/peerblock/downloads/list</UserNotes>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>0</TextualContent>
+            <TextualContent>2</TextualContent>
             <Name>cscript</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>x</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>RegularExpression</VariableType>
-            <Regex />
-            <Url>https://code.google.com/p/peerblock/downloads/list</Url>
-            <Name>x</Name>
           </UrlVariable>
         </value>
       </item>
@@ -187,11 +175,11 @@ https://code.google.com/p/peerblock/downloads/list</UserNotes>
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\PeerBlock-Setup_v1.2_r693.exe</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <PreviousLocation>F:\exe\PeerBlock-Setup_v1.2_r693.exe</PreviousLocation>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-07T04:37:12.0812746</LastUpdated>
+    <LastUpdated>2016-02-04T18:09:41.499678</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>peerblock</Name>

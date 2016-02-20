@@ -4,13 +4,14 @@
     <WebsiteUrl />
     <UserAgent>mswin32</UserAgent>
     <UserNotes>http://sourceforge.net/projects/stellarium/files/Stellarium-win32/{version}/stellarium-{version}-win32.exe/download</UserNotes>
-    <LastFileSize>141841353</LastFileSize>
-    <LastFileDate>2015-04-26T04:45:55.7705475</LastFileDate>
+    <LastFileSize>145060535</LastFileSize>
+    <LastFileDate>2016-02-04T17:54:12.0639609</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -151,11 +152,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\stellarium-0.13.3-win32.exe</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <PreviousLocation>F:\exe\stellarium-0.14.2-win32.exe</PreviousLocation>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-26T04:45:55.7705475</LastUpdated>
+    <LastUpdated>2016-02-04T17:54:12.0639609</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>stellarium</Name>

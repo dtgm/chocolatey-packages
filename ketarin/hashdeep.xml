@@ -5,12 +5,14 @@
     <UserAgent />
     <UserNotes />
     <LastFileSize>3792436</LastFileSize>
-    <LastFileDate>2015-05-25T07:10:48.8512574</LastFileDate>
+    <LastFileDate>2016-02-04T19:28:30.6466917</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -41,7 +43,7 @@
             <VariableType>Textual</VariableType>
             <Regex />
             <Url />
-            <TextualContent>{getUrl:regex:(?&lt;=-)[\d\.]{3,\}(?=\.zip)}</TextualContent>
+            <TextualContent>{urlPath:regex:(?&lt;=-)[\d\.]{3,\}(?=\.zip)}</TextualContent>
             <Name>version</Name>
           </UrlVariable>
         </value>
@@ -55,22 +57,22 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>https://github.com/{getUrl}</TextualContent>
+            <TextualContent>https://github.com/{urlPath}</TextualContent>
             <Name>url</Name>
           </UrlVariable>
         </value>
       </item>
       <item>
         <key>
-          <string>getUrl</string>
+          <string>urlPath</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>jessek/hashdeep/releases/download/release[^ "'&lt;&gt;\*]+\.zip</Regex>
-            <Url>https://github.com/jessek/hashdeep/releases</Url>
-            <Name>getUrl</Name>
+            <Regex>[^ "'&lt;&gt;\*]+md5deep[^ "'&lt;&gt;\*]+\.zip</Regex>
+            <Url>https://github.com/jessek/hashdeep/releases/latest</Url>
+            <Name>urlPath</Name>
           </UrlVariable>
         </value>
       </item>
@@ -82,7 +84,7 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>[A-Fa-f0-9]{32}</Regex>
+            <Regex>(?&lt;=ETag[: "]+)[A-Fa-f0-9]{32}</Regex>
             <Url>{url}</Url>
             <TextualContent>{checksum}</TextualContent>
             <Name>checksum</Name>
@@ -110,11 +112,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\md5deep-4.4.zip</PreviousLocation>
+    <PreviousLocation>F:\exe\md5deep-4.4.zip</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-05-25T07:10:48.8512574</LastUpdated>
+    <LastUpdated>2016-02-04T19:28:30.6466917</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>hashdeep</Name>

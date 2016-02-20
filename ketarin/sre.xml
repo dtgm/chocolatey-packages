@@ -5,12 +5,13 @@
     <UserAgent />
     <UserNotes>http://sourceforge.net/projects/sre/files/SRE%20%201.3.1.12/Small%20Registry%20Editor1.3.1.12.exe/download</UserNotes>
     <LastFileSize>167424</LastFileSize>
-    <LastFileDate>2015-02-05T00:53:28.7708975</LastFileDate>
+    <LastFileDate>2016-02-04T17:23:27.2731069</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -112,11 +113,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\Small Registry Editor1.3.1.12.exe</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <PreviousLocation>F:\exe\Small Registry Editor1.3.1.12.exe</PreviousLocation>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-05T00:53:28.7708975</LastUpdated>
+    <LastUpdated>2016-02-04T17:23:27.2731069</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url:encode}</FixedDownloadUrl>
     <Name>sre</Name>

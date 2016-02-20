@@ -5,12 +5,13 @@
     <UserAgent />
     <UserNotes />
     <LastFileSize>10910</LastFileSize>
-    <LastFileDate>2015-05-25T07:05:16.0459267</LastFileDate>
+    <LastFileDate>2016-02-04T19:36:48.3343012</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -182,11 +183,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\findaes-1.2.zip</PreviousLocation>
+    <PreviousLocation>F:\exe\findaes-1.2.zip</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-05-25T07:05:16.0459267</LastUpdated>
+    <LastUpdated>2016-02-04T19:36:48.3343012</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>findaes</Name>

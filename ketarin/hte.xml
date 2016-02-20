@@ -1,16 +1,17 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="3367593a-86ae-4331-9af4-f1e762f3eb93">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
     <LastFileSize>1847822</LastFileSize>
-    <LastFileDate>2015-06-23T22:14:14.4877367</LastFileDate>
+    <LastFileDate>2016-02-04T19:28:43.5628946</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -155,10 +156,10 @@
     <Category />
     <SourceType>FixedUrl</SourceType>
     <PreviousLocation>F:\exe\ht-2.1.0-win32.exe</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-06-23T22:14:14.4877367</LastUpdated>
+    <LastUpdated>2016-02-04T19:28:43.5628946</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>hte</Name>

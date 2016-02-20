@@ -4,13 +4,15 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>12654688</LastFileSize>
-    <LastFileDate>2015-05-06T04:41:09.895732</LastFileDate>
+    <LastFileSize>12798072</LastFileSize>
+    <LastFileDate>2016-02-11T05:38:20.7339745</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -52,9 +54,10 @@
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <TextualContent>http://www.newsbin.com/download.php?filename=nb{version:replace:.:}-full.exe&amp;version={version}</TextualContent>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=href=")[^ "'&lt;&gt;\*]+\.exe(?=")</Regex>
+            <Url>http://www.newsbin.com/download.php</Url>
+            <TextualContent />
             <Name>url</Name>
           </UrlVariable>
         </value>
@@ -94,11 +97,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\nb656-full.exe</PreviousLocation>
+    <PreviousLocation>F:\exe\nb662-full.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-05-06T04:41:09.895732</LastUpdated>
+    <LastUpdated>2016-02-11T05:38:20.7339745</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>newsbin</Name>

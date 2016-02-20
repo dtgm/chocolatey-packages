@@ -5,12 +5,13 @@
     <UserAgent />
     <UserNotes />
     <LastFileSize>3257279</LastFileSize>
-    <LastFileDate>2015-05-14T14:14:57.9605832</LastFileDate>
+    <LastFileDate>2016-02-09T17:01:48.2107533</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -156,11 +157,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\zbar-0.10-setup.exe</PreviousLocation>
+    <PreviousLocation>F:\exe\zbar-0.10-setup.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-05-14T14:14:57.9605832</LastUpdated>
+    <LastUpdated>2016-02-09T17:01:48.2107533</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>zbar</Name>

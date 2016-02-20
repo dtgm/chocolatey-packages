@@ -5,12 +5,14 @@
     <UserAgent />
     <UserNotes />
     <LastFileSize>4026436</LastFileSize>
-    <LastFileDate>2015-02-05T00:53:08.265874</LastFileDate>
+    <LastFileDate>2016-02-19T21:22:02.617664</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -19,24 +21,7 @@
     <Variables>
       <item>
         <key>
-          <string>realVersion</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=&lt;a href="/rssowl/RSSOwl/releases/download/[\d\.]+/RSSOwl\.)[\d\.]+(?=\.Windows)</Regex>
-            <Url>https://github.com/rssowl/RSSOwl/releases</Url>
-            <StartText>&lt;a href="/projects/celestia/files/Celestia-win32-bin/</StartText>
-            <EndText>/"</EndText>
-            <TextualContent />
-            <Name>realVersion</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>url</string>
+          <string>urlHost</string>
         </key>
         <value>
           <UrlVariable>
@@ -44,8 +29,25 @@
             <VariableType>Textual</VariableType>
             <Regex />
             <Url />
-            <TextualContent>https://github.com/rssowl/RSSOwl/releases/download/{realVersion}/RSSOwl.{realVersion}.Windows.Installer.exe</TextualContent>
-            <Name>url</Name>
+            <StartText>&lt;a href="/projects/celestia/files/Celestia-win32-bin/</StartText>
+            <EndText>/"</EndText>
+            <TextualContent>https://github.com</TextualContent>
+            <Name>urlHost</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>urlPath</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>[^ "'&lt;&gt;\*]+Setup\.exe</Regex>
+            <Url>https://github.com/rssowl/RSSOwl/releases/latest</Url>
+            <TextualContent />
+            <Name>urlPath</Name>
           </UrlVariable>
         </value>
       </item>
@@ -58,7 +60,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>{realVersion}</TextualContent>
+            <TextualContent>{urlPath:regex:(?&lt;=RSSOwl\.)[\d\.]{3,\}(?=\.Setup)}</TextualContent>
             <Name>version</Name>
           </UrlVariable>
         </value>
@@ -91,6 +93,20 @@
           </UrlVariable>
         </value>
       </item>
+      <item>
+        <key>
+          <string>url</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>{urlHost}{urlPath}</TextualContent>
+            <Name>url</Name>
+          </UrlVariable>
+        </value>
+      </item>
     </Variables>
     <ExecuteCommand />
     <ExecutePreCommand />
@@ -98,11 +114,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\RSSOwl.2.2.1.Windows.Installer.exe</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <PreviousLocation>F:\exe\RSSOwl.2.2.1.Setup.exe</PreviousLocation>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-05T00:53:08.265874</LastUpdated>
+    <LastUpdated>2016-02-19T21:22:02.617664</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>rssowl</Name>

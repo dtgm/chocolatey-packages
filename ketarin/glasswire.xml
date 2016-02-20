@@ -1,11 +1,11 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="9bf156e8-c22b-486a-9e4d-3030b38bd129">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>21854008</LastFileSize>
-    <LastFileDate>2015-09-30T00:26:40-06:00</LastFileDate>
+    <LastFileSize>21909152</LastFileSize>
+    <LastFileDate>2016-02-04T19:29:39.0626623</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -115,7 +115,7 @@
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-09-30T13:21:28.3640123-06:00</LastUpdated>
+    <LastUpdated>2016-02-04T19:29:39.0626623</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>glasswire</Name>

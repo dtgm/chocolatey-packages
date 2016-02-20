@@ -1,11 +1,11 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="66a4dec8-e03b-441e-9247-82ed69ac0d9c">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>1982464</LastFileSize>
-    <LastFileDate>2015-03-29T06:19:30.4607627</LastFileDate>
+    <LastFileSize>2138112</LastFileSize>
+    <LastFileDate>2016-02-04T19:52:14.2276648</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -211,11 +211,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\CryptSync-1.2.1.msi</PreviousLocation>
+    <PreviousLocation>F:\exe\CryptSync-1.2.2.msi</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-03-29T06:19:30.4607627</LastUpdated>
+    <LastUpdated>2016-02-04T19:52:14.2276648</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>cryptsync</Name>

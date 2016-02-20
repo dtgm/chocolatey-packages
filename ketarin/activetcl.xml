@@ -4,13 +4,14 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>29197975</LastFileSize>
-    <LastFileDate>2015-05-13T20:41:27.5531041</LastFileDate>
+    <LastFileSize>29165318</LastFileSize>
+    <LastFileDate>2016-02-04T20:38:56.3225569</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -164,11 +165,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\ActiveTcl8.6.4.0.298892-win32-ix86-threaded.exe</PreviousLocation>
+    <PreviousLocation>F:\exe\ActiveTcl8.6.4.1.299124-win32-ix86-threaded.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-05-13T20:41:27.5531041</LastUpdated>
+    <LastUpdated>2016-02-04T20:38:56.3225569</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>activetcl</Name>
