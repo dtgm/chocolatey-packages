@@ -4,13 +4,14 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>51388</LastFileSize>
-    <LastFileDate>2015-04-02T15:46:07.8010526</LastFileDate>
+    <LastFileSize>51489</LastFileSize>
+    <LastFileDate>2016-02-04T19:36:22.1166051</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -94,11 +95,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\firmwaretablesview.zip</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <PreviousLocation>F:\exe\firmwaretablesview.zip</PreviousLocation>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-02T15:46:07.8010526</LastUpdated>
+    <LastUpdated>2016-02-04T19:36:22.1166051</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>firmwaretablesview</Name>

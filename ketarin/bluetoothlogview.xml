@@ -4,13 +4,14 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>235105</LastFileSize>
-    <LastFileDate>2015-04-02T15:43:56.606376</LastFileDate>
+    <LastFileSize>250958</LastFileSize>
+    <LastFileDate>2016-02-04T20:26:18.1182621</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -94,11 +95,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\bluetoothlogview.zip</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <PreviousLocation>F:\exe\bluetoothlogview.zip</PreviousLocation>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-02T15:43:56.606376</LastUpdated>
+    <LastUpdated>2016-02-04T20:26:18.1182621</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>bluetoothlogview</Name>

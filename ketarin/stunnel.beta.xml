@@ -4,13 +4,14 @@
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44</UserAgent>
     <UserNotes>ftp://ftp.stunnel.org/pub/stunnel/beta/</UserNotes>
-    <LastFileSize>1532093</LastFileSize>
-    <LastFileDate>2015-05-24T04:40:11.2653934</LastFileDate>
+    <LastFileSize>3222273</LastFileSize>
+    <LastFileDate>2016-02-19T13:50:10.9496519</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -86,11 +87,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\stunnel-5.18b2-installer.exe</PreviousLocation>
+    <PreviousLocation>F:\exe\stunnel-5.31b2-installer.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-05-24T04:40:11.2653934</LastUpdated>
+    <LastUpdated>2016-02-19T13:50:10.9496519</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>stunnel.beta</Name>

@@ -1,11 +1,11 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="7afe4098-62dd-43d6-a081-951c23be81a8">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>17040565</LastFileSize>
-    <LastFileDate>2015-07-20T02:55:07-06:00</LastFileDate>
+    <LastFileSize>15334669</LastFileSize>
+    <LastFileDate>2016-02-04T19:57:53.6749825</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -140,11 +140,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\claws-mail-3.12.0-1.exe</PreviousLocation>
+    <PreviousLocation>F:\exe\claws-mail-3.13.2-1.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-09-30T09:33:47.9086012-06:00</LastUpdated>
+    <LastUpdated>2016-02-04T19:57:53.6749825</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>claws-mail</Name>

@@ -1,16 +1,18 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="00dd7440-3421-45c7-a5e0-9436b9623bbf">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>12875316</LastFileSize>
-    <LastFileDate>2015-05-07T04:40:41.4774409</LastFileDate>
+    <LastFileSize>20699537</LastFileSize>
+    <LastFileDate>2016-02-19T21:22:20.093571</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -33,7 +35,7 @@
       </item>
       <item>
         <key>
-          <string>versionFull</string>
+          <string>versionMajor</string>
         </key>
         <value>
           <UrlVariable>
@@ -41,8 +43,8 @@
             <VariableType>Textual</VariableType>
             <Regex />
             <Url />
-            <TextualContent>{getUrl:regex:(?&lt;=sqlitebrowser-)[\d\.v]{3,\}(?=-)}</TextualContent>
-            <Name>versionFull</Name>
+            <TextualContent>{filename:regex:(?&lt;=sqlitebrowser-)[\d\.]{3,\}(?=-)}</TextualContent>
+            <Name>versionMajor</Name>
           </UrlVariable>
         </value>
       </item>
@@ -68,7 +70,7 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>[^ "'&lt;&gt;\*]+32\.exe</Regex>
+            <Regex>[^ "'&lt;&gt;\*]+win32.*?\.exe</Regex>
             <Url>http://sqlitebrowser.org/</Url>
             <Name>getUrl</Name>
           </UrlVariable>
@@ -82,7 +84,7 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>[A-Fa-f0-9]{32}</Regex>
+            <Regex>(?&lt;=ETag[: "]+)[A-Fa-f0-9]{32}</Regex>
             <Url>{getUrl}</Url>
             <TextualContent>{checksum}</TextualContent>
             <Name>checksum</Name>
@@ -112,7 +114,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>{versionFull:replace:v:.}</TextualContent>
+            <TextualContent>{versionMajor}{versionRev:replace:v:.}</TextualContent>
             <Name>version</Name>
           </UrlVariable>
         </value>
@@ -125,7 +127,7 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>[^ "'&lt;&gt;\*]+64\.exe</Regex>
+            <Regex>[^ "'&lt;&gt;\*]+win64.*?\.exe</Regex>
             <Url>http://sqlitebrowser.org/</Url>
             <Name>getUrl64</Name>
           </UrlVariable>
@@ -153,9 +155,38 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>[A-Fa-f0-9]{32}</Regex>
+            <Regex>(?&lt;=ETag[: "]+)[A-Fa-f0-9]{32}</Regex>
             <Url>{url64}</Url>
             <Name>checksumx64</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>versionRev</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>{filename:regex:v\d}</TextualContent>
+            <Name>versionRev</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>filename</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <Url />
+            <TextualContent>{getUrl64:split:/:8}</TextualContent>
+            <Name>filename</Name>
           </UrlVariable>
         </value>
       </item>
@@ -166,11 +197,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\sqlitebrowser-3.6.0v3-win32.exe</PreviousLocation>
+    <PreviousLocation>F:\exe\sqlitebrowser-3.8.0-win32v3.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-05-07T04:40:41.4774409</LastUpdated>
+    <LastUpdated>2016-02-19T21:22:20.093571</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>sqlitebrowser</Name>

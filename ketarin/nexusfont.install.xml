@@ -4,13 +4,15 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>2321613</LastFileSize>
-    <LastFileDate>2015-03-21T06:18:28.0371529</LastFileDate>
+    <LastFileSize>2392038</LastFileSize>
+    <LastFileDate>2016-02-11T19:48:06.5686533</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -38,9 +40,10 @@
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>RegularExpression</VariableType>
-            <Regex>\.exe&amp;product=NexusFont.?&amp;ver=([\d\.]+)</Regex>
-            <Url>http://www.xiles.net/</Url>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <Url />
+            <TextualContent>{urlPath:regex:[\d\.]{3,\}(?=\.exe)}</TextualContent>
             <Name>version</Name>
           </UrlVariable>
         </value>
@@ -54,14 +57,14 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>{getUrl}</TextualContent>
+            <TextualContent>{urlHost}/{urlPath}</TextualContent>
             <Name>url</Name>
           </UrlVariable>
         </value>
       </item>
       <item>
         <key>
-          <string>urlBase</string>
+          <string>urlHost</string>
         </key>
         <value>
           <UrlVariable>
@@ -69,35 +72,21 @@
             <VariableType>Textual</VariableType>
             <Regex />
             <TextualContent>http://www.xiles.net</TextualContent>
-            <Name>urlBase</Name>
+            <Name>urlHost</Name>
           </UrlVariable>
         </value>
       </item>
       <item>
         <key>
-          <string>getPath</string>
+          <string>urlPath</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>\.?/?([^ "'&lt;&gt;\*]+NexusFontSetup[^ "'&lt;&gt;\*]+)</Regex>
-            <Url>http://www.xiles.net/</Url>
-            <Name>getPath</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>getUrl</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=ResponseUri: )[^\r\n]+</Regex>
-            <Url>{urlBase}/{getPath}</Url>
-            <Name>getUrl</Name>
+            <Regex>[^ "'&lt;&gt;\*]+nexusfont[^ "'&lt;&gt;\*]+\.exe</Regex>
+            <Url>{urlHost}</Url>
+            <Name>urlPath</Name>
           </UrlVariable>
         </value>
       </item>
@@ -122,11 +111,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\NexusFontSetup2.5.8.exe</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <PreviousLocation>F:\exe\nexusfont_setup_2.6.2.exe</PreviousLocation>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-03-21T06:18:28.0371529</LastUpdated>
+    <LastUpdated>2016-02-11T19:48:06.5686533</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>nexusfont.install</Name>

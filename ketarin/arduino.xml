@@ -4,13 +4,14 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>81034240</LastFileSize>
-    <LastFileDate>2015-05-07T04:34:16.3531897</LastFileDate>
+    <LastFileSize>84671416</LastFileSize>
+    <LastFileDate>2016-02-04T20:29:46.4025386</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Avoid</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -81,11 +82,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\arduino-1.6.4-windows.exe</PreviousLocation>
+    <PreviousLocation>F:\exe\arduino-1.6.7-windows.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-05-07T04:34:16.3531897</LastUpdated>
+    <LastUpdated>2016-02-04T20:29:46.4025386</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>arduino</Name>

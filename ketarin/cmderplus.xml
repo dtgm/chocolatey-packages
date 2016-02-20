@@ -5,12 +5,14 @@
     <UserAgent />
     <UserNotes />
     <LastFileSize>42608603</LastFileSize>
-    <LastFileDate>2015-04-21T05:17:30.361182</LastFileDate>
+    <LastFileDate>2016-02-19T21:09:29.1320659</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -89,6 +91,20 @@
           </UrlVariable>
         </value>
       </item>
+      <item>
+        <key>
+          <string>checksum</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=ETag[: "]+)[A-Fa-f0-9]{32}</Regex>
+            <Url>{url}</Url>
+            <Name>checksum</Name>
+          </UrlVariable>
+        </value>
+      </item>
     </Variables>
     <ExecuteCommand />
     <ExecutePreCommand />
@@ -96,11 +112,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\cmderplus.7z</PreviousLocation>
+    <PreviousLocation>F:\exe\cmderplus.7z</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-21T05:17:30.361182</LastUpdated>
+    <LastUpdated>2016-02-19T21:09:29.1320659</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>cmderplus</Name>

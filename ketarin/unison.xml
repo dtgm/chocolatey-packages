@@ -13,12 +13,13 @@ more recent builds
 http://www.pps.univ-paris-diderot.fr/~vouillon/unison/
 </UserNotes>
     <LastFileSize>2271899</LastFileSize>
-    <LastFileDate>2015-04-06T18:09:21.1451134</LastFileDate>
+    <LastFileDate>2016-02-09T17:29:56.7317497</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -102,11 +103,11 @@ http://www.pps.univ-paris-diderot.fr/~vouillon/unison/
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\unison 2.48.3.zip</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <PreviousLocation>F:\exe\unison 2.48.3.zip</PreviousLocation>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-06T18:09:21.1451134</LastUpdated>
+    <LastUpdated>2016-02-09T17:29:56.7317497</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>unison</Name>

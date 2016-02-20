@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Jobs>
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="d59f1c93-39e3-4417-a024-b4637643303c">
+    <WebsiteUrl />
+    <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
+    <UserNotes />
+    <LastFileSize>16982272</LastFileSize>
+    <LastFileDate>2015-06-29T20:56:09.6952436</LastFileDate>
+    <IgnoreFileInformation>false</IgnoreFileInformation>
+    <DownloadBeta>Avoid</DownloadBeta>
+    <DownloadDate xsi:nil="true" />
+    <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
+    <VariableChangeIndicator />
+    <HashType>None</HashType>
+    <CanBeShared>true</CanBeShared>
+    <ShareApplication>false</ShareApplication>
+    <ExclusiveDownload>false</ExclusiveDownload>
+    <HttpReferer />
+    <SetupInstructions />
+    <Variables>
+      <item>
+        <key>
+          <string>version</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <Url>http://download.qt-project.org/official_releases/online_installers/</Url>
+            <StartText>&lt;tr&gt;&lt;td valign="top"&gt;&lt;img src="/icons/binary.gif" alt="[   ]" width="16" height="16" /&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="qt-opensource-windows-x86-</StartText>
+            <EndText>-</EndText>
+            <TextualContent>1.6.0.5</TextualContent>
+            <Name>version</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>StartEnd</VariableType>
+            <Regex />
+            <Url>http://download.qt-project.org/official_releases/online_installers/</Url>
+            <StartText>&lt;tr&gt;&lt;td valign="top"&gt;&lt;img src="/icons/binary.gif" alt="[   ]" width="16" height="16" /&gt;&lt;/td&gt;&lt;td&gt;&lt;a href="</StartText>
+            <EndText>"</EndText>
+            <Name>url</Name>
+          </UrlVariable>
+        </value>
+      </item>
+    </Variables>
+    <ExecuteCommand />
+    <ExecutePreCommand />
+    <ExecuteCommandType>Batch</ExecuteCommandType>
+    <ExecutePreCommandType>Batch</ExecutePreCommandType>
+    <Category />
+    <SourceType>FixedUrl</SourceType>
+    <PreviousLocation>D:\chocolatey\_work\qt-unified-windows-x86-2.0.1-online.exe</PreviousLocation>
+    <DeletePreviousFile>false</DeletePreviousFile>
+    <Enabled>false</Enabled>
+    <FileHippoId />
+    <LastUpdated>2015-06-29T20:56:09.6952436</LastUpdated>
+    <TargetPath>{workdir}\</TargetPath>
+    <FixedDownloadUrl>http://download.qt-project.org/official_releases/online_installers/{url}</FixedDownloadUrl>
+    <Name>qt-sdk</Name>
+  </ApplicationJob>
+</Jobs>

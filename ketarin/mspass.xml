@@ -5,15 +5,16 @@
     <UserAgent />
     <UserNotes />
     <LastFileSize>140600</LastFileSize>
-    <LastFileDate>2015-04-27T07:52:44.9872284</LastFileDate>
+    <LastFileDate>2016-02-04T18:38:43.5837443</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
-    <ExclusiveDownload>false</ExclusiveDownload>
+    <ExclusiveDownload>true</ExclusiveDownload>
     <HttpReferer />
     <SetupInstructions />
     <Variables>
@@ -94,11 +95,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\mspass_setup.exe</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <PreviousLocation>F:\exe\mspass_setup.exe</PreviousLocation>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-27T07:52:44.9872284</LastUpdated>
+    <LastUpdated>2016-02-04T18:38:43.5837443</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>mspass</Name>

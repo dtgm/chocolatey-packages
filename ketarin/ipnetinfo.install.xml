@@ -4,16 +4,17 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>133008</LastFileSize>
-    <LastFileDate>2015-04-02T15:47:17.3203069</LastFileDate>
+    <LastFileSize>133312</LastFileSize>
+    <LastFileDate>2016-02-04T19:25:59.7535588</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
-    <ExclusiveDownload>false</ExclusiveDownload>
+    <ExclusiveDownload>true</ExclusiveDownload>
     <HttpReferer />
     <SetupInstructions />
     <Variables>
@@ -94,11 +95,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\ipnetinfo_setup.exe</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <PreviousLocation>F:\exe\ipnetinfo_setup.exe</PreviousLocation>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-02T15:47:17.3203069</LastUpdated>
+    <LastUpdated>2016-02-04T19:25:59.7535588</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>ipnetinfo.install</Name>

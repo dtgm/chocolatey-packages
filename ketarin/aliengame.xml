@@ -1,11 +1,11 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="12d52ab5-cf9b-4c3e-8976-fa078851efaa">
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44</UserAgent>
     <UserNotes />
-    <LastFileSize>40790079</LastFileSize>
-    <LastFileDate>2015-07-16T04:37:37-06:00</LastFileDate>
+    <LastFileSize>28024790</LastFileSize>
+    <LastFileDate>2016-01-19T05:31:02.6056283</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -21,7 +21,7 @@
     <Variables>
       <item>
         <key>
-          <string>nopush</string>
+          <string>yopush</string>
         </key>
         <value>
           <UrlVariable>
@@ -30,7 +30,7 @@
             <Regex />
             <Url>{appname}</Url>
             <TextualContent>--nopush</TextualContent>
-            <Name>nopush</Name>
+            <Name>yopush</Name>
           </UrlVariable>
         </value>
       </item>
@@ -43,7 +43,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>2</TextualContent>
+            <TextualContent>0</TextualContent>
             <Name>cscript</Name>
           </UrlVariable>
         </value>
@@ -55,38 +55,39 @@
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <TextualContent>{getUrl2}</TextualContent>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=ResponseUri: )[^\r\n]+</Regex>
+            <Url>{getUrl}</Url>
+            <TextualContent />
             <Name>url</Name>
           </UrlVariable>
         </value>
       </item>
       <item>
         <key>
-          <string>getUrl1</string>
+          <string>getUrl</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>[^ "'&lt;&gt;\*]+aliengame</Regex>
-            <Url>http://scienceathome.org/games/</Url>
-            <Name>getUrl1</Name>
+            <Regex>[^ "'&lt;&gt;\*]+\.rar</Regex>
+            <Url>http://scienceathome.org/games/aliengame</Url>
+            <Name>getUrl</Name>
           </UrlVariable>
         </value>
       </item>
       <item>
         <key>
-          <string>getUrl2</string>
+          <string>checksum</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>[^ "'&lt;&gt;\*]+\.zip</Regex>
-            <Url>http://scienceathome.org/games/aliengame</Url>
-            <Name>getUrl2</Name>
+            <Regex>(?&lt;=ETag: ")[^"]+</Regex>
+            <Url>{getUrl}</Url>
+            <Name>checksum</Name>
           </UrlVariable>
         </value>
       </item>
@@ -97,10 +98,9 @@
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <Url />
-            <TextualContent>{getUrl2:regex:(?&lt;=_v)[\d\.]{3,\}(?=\.zip)}</TextualContent>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=_v)[0-9.]{3,}(?=\.unity)</Regex>
+            <Url>https://www.scienceathome.org/games/aliengame/</Url>
             <Name>version</Name>
           </UrlVariable>
         </value>
@@ -112,11 +112,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\AlienGame_win_v0.2.31.zip</PreviousLocation>
+    <PreviousLocation>F:\exe\AlienGame11.rar</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-09-30T00:45:04.7727985-06:00</LastUpdated>
+    <LastUpdated>2016-01-19T05:31:02.6056283</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>aliengame</Name>

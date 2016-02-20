@@ -5,12 +5,13 @@
     <UserAgent />
     <UserNotes />
     <LastFileSize>10845039</LastFileSize>
-    <LastFileDate>2015-05-07T07:36:19.2298551</LastFileDate>
+    <LastFileDate>2016-02-04T20:32:19.2845889</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -111,11 +112,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\Anomos_0.9.5_Setup.exe</PreviousLocation>
+    <PreviousLocation>F:\exe\Anomos_0.9.5_Setup.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-05-07T07:36:19.2298551</LastUpdated>
+    <LastUpdated>2016-02-04T20:32:19.2845889</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>anomos</Name>

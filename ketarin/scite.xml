@@ -2,19 +2,21 @@
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="4396e879-7933-4956-b854-876665dda7be">
     <WebsiteUrl />
-    <UserAgent />
+    <UserAgent>Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0)</UserAgent>
     <UserNotes />
-    <LastFileSize>2789376</LastFileSize>
-    <LastFileDate>2015-03-22T22:58:50.2282876</LastFileDate>
+    <LastFileSize>3252224</LastFileSize>
+    <LastFileDate>2016-02-11T18:28:26.3970405</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
-    <HttpReferer>{spoofUrl}</HttpReferer>
+    <HttpReferer>http://www.ebswift.com/scite-text-editor-installer.html</HttpReferer>
     <SetupInstructions />
     <Variables>
       <item>
@@ -38,9 +40,10 @@
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>RegularExpression</VariableType>
-            <Regex>scite-([\d\.]+)\.msi</Regex>
-            <Url>http://opensource.ebswift.com/SciTEInstaller/</Url>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <Url />
+            <TextualContent>{urlPath:regex:(?&lt;=scite-)[\d\.]{3,\}(?=[\.x-])}</TextualContent>
             <Name>version</Name>
           </UrlVariable>
         </value>
@@ -55,7 +58,7 @@
             <VariableType>Textual</VariableType>
             <Regex />
             <Url />
-            <TextualContent>http://www.ebswift.com/Common/AspCommon/Download/FileDownloadToClient.aspx?File={file}&amp;ViewerAccept=Accepted</TextualContent>
+            <TextualContent>{urlHost}{urlPath}</TextualContent>
             <Name>url</Name>
           </UrlVariable>
         </value>
@@ -69,51 +72,8 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>http://www.ebswift.com/Common/AspCommon/Download/FileDownloadToClient.aspx?File={file64}&amp;ViewerAccept=Accepted</TextualContent>
+            <TextualContent>{urlHost}{url64Path}</TextualContent>
             <Name>url64</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>spoofUrl</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <TextualContent>http://www.ebswift.com/Common/AspCommon/Download/FileDownloadToClient.aspx?File={file}</TextualContent>
-            <Name>spoofUrl</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>file</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>RegularExpression</VariableType>
-            <Regex>[^"'=]+\.msi</Regex>
-            <Url>http://opensource.ebswift.com/SciTEInstaller/</Url>
-            <TextualContent />
-            <Name>file</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>file64</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>RegularExpression</VariableType>
-            <Regex>[^"'=]+x64\.msi</Regex>
-            <Url>http://opensource.ebswift.com/SciTEInstaller/</Url>
-            <Name>file64</Name>
           </UrlVariable>
         </value>
       </item>
@@ -145,6 +105,49 @@
           </UrlVariable>
         </value>
       </item>
+      <item>
+        <key>
+          <string>urlHost</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <Url />
+            <TextualContent>http://www.ebswift.com</TextualContent>
+            <Name>urlHost</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>urlPath</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>[^ "'&lt;&gt;\*]+\.msi</Regex>
+            <Url>http://www.ebswift.com/scite-text-editor-installer.html</Url>
+            <Name>urlPath</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url64Path</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>[^ "'&lt;&gt;\*]+64\.msi</Regex>
+            <Url>http://www.ebswift.com/scite-text-editor-installer.html</Url>
+            <Name>url64Path</Name>
+          </UrlVariable>
+        </value>
+      </item>
     </Variables>
     <ExecuteCommand />
     <ExecutePreCommand />
@@ -152,11 +155,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\scite-3.5.4.msi</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <PreviousLocation>F:\exe\scite-3.6.3.msi</PreviousLocation>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-03-22T22:58:50.2282876</LastUpdated>
+    <LastUpdated>2016-02-11T18:28:26.3970405</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>scite</Name>

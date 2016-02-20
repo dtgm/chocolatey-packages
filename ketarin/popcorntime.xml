@@ -1,16 +1,18 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="2bc42145-df18-4514-9ff1-7978e9950f89">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>29103264</LastFileSize>
-    <LastFileDate>2015-07-10T04:45:41.0467439</LastFileDate>
+    <LastFileSize>28396704</LastFileSize>
+    <LastFileDate>2015-10-18T01:47:00.6694521</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Avoid</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -127,11 +129,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\Popcorn-Time-0.3.8-0-Setup.exe</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
-    <Enabled>false</Enabled>
+    <PreviousLocation>F:\exe\Popcorn-Time-0.3.8-5-Setup.exe</PreviousLocation>
+    <DeletePreviousFile>false</DeletePreviousFile>
+    <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-07-10T04:45:41.0467439</LastUpdated>
+    <LastUpdated>2015-10-18T01:47:00.6694521</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>popcorntime</Name>

@@ -1,16 +1,17 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="dcc0b457-9a13-468b-ad12-1a9a348a2428">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>14968850</LastFileSize>
-    <LastFileDate>2015-03-04T11:10:37-06:00</LastFileDate>
+    <LastFileSize>15275278</LastFileSize>
+    <LastFileDate>2016-02-04T19:41:13.2478348</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -108,11 +109,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\EventGhost_0.4.1.r1700_Setup.exe</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <PreviousLocation>F:\exe\EventGhost_0.4.1.r1722_Setup.exe</PreviousLocation>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-05-25T13:20:45.8923012-05:00</LastUpdated>
+    <LastUpdated>2016-02-04T19:41:13.2478348</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>eventghost</Name>

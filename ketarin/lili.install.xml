@@ -4,13 +4,15 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>6146198</LastFileSize>
-    <LastFileDate>2015-04-27T19:35:49.4903833</LastFileDate>
+    <LastFileSize>6160320</LastFileSize>
+    <LastFileDate>2016-02-04T18:42:10.0603226</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -84,7 +86,7 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>[a-fA-F0-9]{40}</Regex>
+            <Regex>(?&lt;=SHA1.*&gt;)[a-fA-F0-9]{40}(?=&lt;/a&gt;)</Regex>
             <Url>http://www.linuxliveusb.com/en/hash-signature</Url>
             <Name>checksum</Name>
           </UrlVariable>
@@ -97,11 +99,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\LinuxLive USB Creator 2.9.3.exe</PreviousLocation>
+    <PreviousLocation>F:\exe\LinuxLive USB Creator 2.9.4.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-27T19:35:49.4903833</LastUpdated>
+    <LastUpdated>2016-02-04T18:42:10.0603226</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>lili.install</Name>

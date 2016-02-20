@@ -5,12 +5,13 @@
     <UserAgent />
     <UserNotes />
     <LastFileSize>40486257</LastFileSize>
-    <LastFileDate>2015-05-20T20:39:44.7574602</LastFileDate>
+    <LastFileDate>2016-02-09T17:01:06.698646</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -95,11 +96,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\yacy_v1.82_20150121_9000.exe</PreviousLocation>
+    <PreviousLocation>F:\exe\yacy_v1.82_20150121_9000.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-05-20T20:39:44.7574602</LastUpdated>
+    <LastUpdated>2016-02-09T17:01:06.698646</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>yacy</Name>

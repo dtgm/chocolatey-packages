@@ -1,16 +1,17 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="e5e78190-dc02-44c1-a3a3-d5fccc75d417">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>64529845</LastFileSize>
-    <LastFileDate>2015-06-14T04:51:48-05:00</LastFileDate>
+    <LastFileSize>81310911</LastFileSize>
+    <LastFileDate>2016-02-04T17:22:13.6724003</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -222,11 +223,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\UMS-5.1.4-Java7.exe</PreviousLocation>
+    <PreviousLocation>F:\exe\UMS-6.0.0-Java7.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-06-16T03:11:40.2008088-05:00</LastUpdated>
+    <LastUpdated>2016-02-04T17:22:13.6724003</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>ums</Name>

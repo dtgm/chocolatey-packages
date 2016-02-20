@@ -5,12 +5,14 @@
     <UserAgent />
     <UserNotes />
     <LastFileSize>134667168</LastFileSize>
-    <LastFileDate>2015-04-22T21:21:29.8295179</LastFileDate>
+    <LastFileDate>2016-02-04T17:57:15.8550756</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -106,20 +108,6 @@
       </item>
       <item>
         <key>
-          <string>packageGuid</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>RegularExpression</VariableType>
-            <Regex>/community/news/(\d+)</Regex>
-            <Url>http://www.scilab.org/download/{version}</Url>
-            <Name>packageGuid</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
           <string>checksum64file</string>
         </key>
         <value>
@@ -153,11 +141,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\scilab-5.5.2.exe</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <PreviousLocation>F:\exe\scilab-5.5.2.exe</PreviousLocation>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-22T21:21:29.8295179</LastUpdated>
+    <LastUpdated>2016-02-04T17:57:15.8550756</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>scilab</Name>

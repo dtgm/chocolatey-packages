@@ -1,16 +1,17 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="439df5f6-f0d1-4ed4-b3d8-1c55f25c44a2">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
     <LastFileSize>248365</LastFileSize>
-    <LastFileDate>2015-04-10T22:42:54-05:00</LastFileDate>
+    <LastFileDate>2015-10-10T04:58:31.9601689</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -113,7 +114,7 @@
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-07-11T17:28:05.7757306-05:00</LastUpdated>
+    <LastUpdated>2015-10-10T04:58:31.9601689</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>duplicatecommander</Name>

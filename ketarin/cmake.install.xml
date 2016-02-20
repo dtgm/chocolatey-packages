@@ -1,11 +1,11 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="d4fa882f-e3e6-409b-bfea-b676b2be208c">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>12755149</LastFileSize>
-    <LastFileDate>2015-08-14T04:38:25.4295877</LastFileDate>
+    <LastFileSize>13119441</LastFileSize>
+    <LastFileDate>2016-02-04T19:53:58.1807629</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -111,11 +111,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\cmake-3.3.1-win32-x86.exe</PreviousLocation>
+    <PreviousLocation>F:\exe\cmake-3.4.3-win32-x86.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-08-14T04:38:25.4295877</LastUpdated>
+    <LastUpdated>2016-02-04T19:53:58.1807629</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>cmake.install</Name>

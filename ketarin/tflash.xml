@@ -1,11 +1,11 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="38082019-2035-417d-b2a9-3b8b415b3a8d">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
     <LastFileSize>6679</LastFileSize>
-    <LastFileDate>2004-08-26T20:40:22-06:00</LastFileDate>
+    <LastFileDate>2016-02-04T17:10:11.3966081</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -100,7 +100,7 @@
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-12-24T22:51:44.1908265-07:00</LastUpdated>
+    <LastUpdated>2016-02-04T17:10:11.3966081</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>tflash</Name>

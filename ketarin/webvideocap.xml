@@ -5,15 +5,16 @@
     <UserAgent />
     <UserNotes />
     <LastFileSize>101438</LastFileSize>
-    <LastFileDate>2015-04-27T07:52:58.2006474</LastFileDate>
+    <LastFileDate>2016-02-09T17:28:48.1481526</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
-    <ExclusiveDownload>false</ExclusiveDownload>
+    <ExclusiveDownload>true</ExclusiveDownload>
     <HttpReferer />
     <SetupInstructions />
     <Variables>
@@ -94,11 +95,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\webvideocap_setup.exe</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <PreviousLocation>F:\exe\webvideocap_setup.exe</PreviousLocation>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-27T07:52:58.2006474</LastUpdated>
+    <LastUpdated>2016-02-09T17:28:48.1481526</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>webvideocap</Name>

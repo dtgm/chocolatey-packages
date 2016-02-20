@@ -1,16 +1,18 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="8ca99e3b-1866-41b8-9e0d-042e1a3bfeb1">
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)</UserAgent>
     <UserNotes />
-    <LastFileSize>38870829</LastFileSize>
-    <LastFileDate>2015-07-16T12:13:26-05:00</LastFileDate>
+    <LastFileSize>41028812</LastFileSize>
+    <LastFileDate>2016-02-19T03:43:13.0057014</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -110,7 +112,7 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>[A-Fa-f0-9]{32}</Regex>
+            <Regex>(?&lt;=ETag[: "]+)[A-Fa-f0-9]{32}</Regex>
             <Url>{urlHost}/{urlPath}</Url>
             <TextualContent>{checksum}</TextualContent>
             <Name>checksum</Name>
@@ -125,7 +127,7 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>[A-Fa-f0-9]{32}</Regex>
+            <Regex>(?&lt;=ETag[: "]+)[A-Fa-f0-9]{32}</Regex>
             <Url>{urlHost}/{url64Path}</Url>
             <TextualContent>{checksum}</TextualContent>
             <Name>checksumx64</Name>
@@ -181,11 +183,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\electron-v0.30.0-win32-ia32.zip</PreviousLocation>
+    <PreviousLocation>F:\exe\electron-v0.36.8-win32-ia32.zip</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-07-22T01:51:34.9726526-05:00</LastUpdated>
+    <LastUpdated>2016-02-19T03:43:13.0057014</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>electron</Name>

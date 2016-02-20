@@ -1,16 +1,17 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="860da9be-81ce-48ef-b034-e56efd8e30db">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
     <LastFileSize>3562062</LastFileSize>
-    <LastFileDate>2013-03-18T04:35:26-05:00</LastFileDate>
+    <LastFileDate>2016-02-04T18:14:03.7999791</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -99,7 +100,7 @@
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-07-19T20:51:50.1927344-05:00</LastUpdated>
+    <LastUpdated>2016-02-04T18:14:03.7999791</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>padgen</Name>

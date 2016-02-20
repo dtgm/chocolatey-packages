@@ -1,16 +1,18 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="3467f0b6-96f7-47b3-8c72-2d44129d1ce5">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>3422675</LastFileSize>
-    <LastFileDate>2015-06-23T14:00:31.422132</LastFileDate>
+    <LastFileSize>3066952</LastFileSize>
+    <LastFileDate>2016-02-11T18:51:09.5405662</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -68,7 +70,7 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=Current Stable.*?)[^ "'&lt;&gt;\*]+\.zip</Regex>
+            <Regex>(?&lt;=Current.*?)[^ "'&lt;&gt;\*]+\.zip</Regex>
             <Url>http://www.nunit.org/index.php?p=download</Url>
             <Name>getUrl</Name>
           </UrlVariable>
@@ -82,7 +84,7 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>[A-Fa-f0-9]{32}</Regex>
+            <Regex>(?&lt;=ETag[: "]+)[A-Fa-f0-9]{32}</Regex>
             <Url>{getUrl}</Url>
             <TextualContent>{checksum}</TextualContent>
             <Name>checksum</Name>
@@ -103,19 +105,6 @@
           </UrlVariable>
         </value>
       </item>
-      <item>
-        <key>
-          <string>packageGuid</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <Name>packageGuid</Name>
-          </UrlVariable>
-        </value>
-      </item>
     </Variables>
     <ExecuteCommand />
     <ExecutePreCommand />
@@ -123,11 +112,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\NUnit-2.6.4.zip</PreviousLocation>
+    <PreviousLocation>F:\exe\NUnit-3.0.1.zip</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-06-23T14:00:31.422132</LastUpdated>
+    <LastUpdated>2016-02-11T18:51:09.5405662</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>nunit.portable</Name>

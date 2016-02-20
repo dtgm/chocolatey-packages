@@ -5,12 +5,13 @@
     <UserAgent />
     <UserNotes />
     <LastFileSize>1390256</LastFileSize>
-    <LastFileDate>2015-04-21T01:15:39.3746869</LastFileDate>
+    <LastFileDate>2016-02-04T19:40:09.881265</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -82,11 +83,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\exiftoolgui516.zip</PreviousLocation>
+    <PreviousLocation>F:\exe\exiftoolgui516.zip</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-21T01:15:39.3746869</LastUpdated>
+    <LastUpdated>2016-02-04T19:40:09.881265</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>exiftoolgui</Name>

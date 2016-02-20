@@ -5,12 +5,13 @@
     <UserAgent />
     <UserNotes />
     <LastFileSize>47960</LastFileSize>
-    <LastFileDate>2015-04-27T06:37:50.5903307</LastFileDate>
+    <LastFileDate>2016-02-04T17:23:53.2748111</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -316,11 +317,11 @@ if (varCScript == "2") {
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\sniffpass.zip</PreviousLocation>
+    <PreviousLocation>F:\exe\sniffpass.zip</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-27T06:37:50.5903307</LastUpdated>
+    <LastUpdated>2016-02-04T17:23:53.2748111</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>sniffpass.portable</Name>

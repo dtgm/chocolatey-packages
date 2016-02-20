@@ -11,6 +11,7 @@
     <DownloadDate>2010-12-20T13:41:45</DownloadDate>
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -86,7 +87,7 @@
     <Category>Development</Category>
     <SourceType>FixedUrl</SourceType>
     <PreviousLocation />
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>false</Enabled>
     <FileHippoId />
     <LastUpdated>2014-08-19T16:47:47.5313268</LastUpdated>

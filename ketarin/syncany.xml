@@ -1,16 +1,17 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
-  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="01687987-ce7e-4fc9-94b6-b6590dd55d95">
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="34d7422a-b067-4e24-b477-f12e77ae490c">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>15819210</LastFileSize>
-    <LastFileDate>2015-07-11T07:29:58-05:00</LastFileDate>
+    <LastFileSize>15228289</LastFileSize>
+    <LastFileDate>2015-03-20T13:07:43.0524316</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
-    <VariableChangeIndicator>versionFull</VariableChangeIndicator>
+    <VariableChangeIndicator />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -38,10 +39,9 @@
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <Url />
-            <TextualContent>{getUrl:regex:(?&lt;=syncany-)[\d\.]{3,\}(?=-)}</TextualContent>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>syncany-(0.4.2-alpha)\~x86_64.exe</Regex>
+            <Url>{urlBase}/?C=M;O=D</Url>
             <Name>version</Name>
           </UrlVariable>
         </value>
@@ -82,8 +82,8 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=href=")syncany-[\d.]{3,}[^ "'&lt;&gt;\*]+86.exe</Regex>
-            <Url>{urlBase}/?C=N;O=D</Url>
+            <Regex>syncany-{version}~x86.exe</Regex>
+            <Url>{urlBase}/?C=M;O=D</Url>
             <Name>getUrl</Name>
           </UrlVariable>
         </value>
@@ -96,8 +96,8 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=href=")syncany-[\d.]{3,}[^ "'&lt;&gt;\*]+64.exe</Regex>
-            <Url>{urlBase}/?C=N;O=D</Url>
+            <Regex>syncany-{version}\~x86_64.exe</Regex>
+            <Url>{urlBase}/?C=M;O=D</Url>
             <Name>getUrl64</Name>
           </UrlVariable>
         </value>
@@ -145,50 +145,6 @@
           </UrlVariable>
         </value>
       </item>
-      <item>
-        <key>
-          <string>versionFull</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <Url />
-            <TextualContent>{getUrl:regex:(?&lt;=syncany-).*?(?=.x86\.exe)}</TextualContent>
-            <Name>versionFull</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>versionPre</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <TextualContent>{versionFull:regex:(?&lt;={version})-.*}</TextualContent>
-            <Name>versionPre</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>packageGuid</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <Url />
-            <TextualContent>{versionPre}</TextualContent>
-            <Name>packageGuid</Name>
-          </UrlVariable>
-        </value>
-      </item>
     </Variables>
     <ExecuteCommand />
     <ExecutePreCommand />
@@ -196,11 +152,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\syncany-0.4.6-alpha~x86.exe</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\chocolatey\_work\syncany-0.4.2-alpha~x86.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
-    <Enabled>true</Enabled>
+    <Enabled>false</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-07-18T00:23:35.2858923-05:00</LastUpdated>
+    <LastUpdated>2015-03-20T13:07:43.0524316</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>syncany</Name>

@@ -4,13 +4,14 @@
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)</UserAgent>
     <UserNotes />
-    <LastFileSize>66760</LastFileSize>
-    <LastFileDate>2015-04-27T06:18:26.0575843</LastFileDate>
+    <LastFileSize>67408</LastFileSize>
+    <LastFileDate>2016-02-09T17:23:32.5017905</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -316,11 +317,11 @@ if (varCScript == "2") {
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\wirelesskeyview.zip</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <PreviousLocation>F:\exe\wirelesskeyview.zip</PreviousLocation>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-27T06:18:26.0575843</LastUpdated>
+    <LastUpdated>2016-02-09T17:23:32.5017905</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>wirelesskeyview</Name>

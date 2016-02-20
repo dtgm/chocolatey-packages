@@ -1,16 +1,17 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="8261049e-41ce-4a9b-9459-13ee3e70f665">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>32953122</LastFileSize>
-    <LastFileDate>2015-07-08T06:00:02.4115478</LastFileDate>
+    <LastFileSize>22780599</LastFileSize>
+    <LastFileDate>2016-02-17T11:39:28.8324259</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -155,7 +156,7 @@
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-07-08T06:00:02.4115478</LastUpdated>
+    <LastUpdated>2016-02-17T11:39:28.8324259</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>biblioteq</Name>

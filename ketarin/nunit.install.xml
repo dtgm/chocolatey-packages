@@ -1,16 +1,17 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
-  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="ced5c2bb-be2b-42e2-885e-3600f67e167f">
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="36d8c17f-9429-42b8-8113-d7230f00d454">
     <WebsiteUrl />
     <UserAgent />
-    <UserNotes />
-    <LastFileSize>3023406</LastFileSize>
-    <LastFileDate>2015-06-23T13:59:54.2195151</LastFileDate>
+    <UserNotes>Version: {versionFull:split:-:0}.{versionFull:split:-:2}-{versionFull:split:-:1}</UserNotes>
+    <LastFileSize>1736704</LastFileSize>
+    <LastFileDate>2015-06-23T20:47:09.0907228</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -19,7 +20,7 @@
     <Variables>
       <item>
         <key>
-          <string>yopush</string>
+          <string>nopush</string>
         </key>
         <value>
           <UrlVariable>
@@ -27,7 +28,7 @@
             <VariableType>Textual</VariableType>
             <Regex />
             <TextualContent>--nopush</TextualContent>
-            <Name>yopush</Name>
+            <Name>nopush</Name>
           </UrlVariable>
         </value>
       </item>
@@ -41,7 +42,7 @@
             <VariableType>Textual</VariableType>
             <Regex />
             <Url />
-            <TextualContent>{getUrl:regex:(?&lt;=-)[\d\.]{3,\}(?=\.msi)}</TextualContent>
+            <TextualContent>{versionFull:split:-:0}.{versionFull:split:-:2}</TextualContent>
             <Name>version</Name>
           </UrlVariable>
         </value>
@@ -68,7 +69,7 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=Current Stable.*?)[^ "'&lt;&gt;\*]+\.msi</Regex>
+            <Regex>(?&lt;=Development.*?)[^ "'&lt;&gt;\*]+\.msi</Regex>
             <Url>http://www.nunit.org/index.php?p=download</Url>
             <Name>getUrl</Name>
           </UrlVariable>
@@ -112,7 +113,22 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
+            <TextualContent>-{versionFull:split:-:1}</TextualContent>
             <Name>packageGuid</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>versionFull</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>{getUrl:regex:(?&lt;=/download/)[^/]+}</TextualContent>
+            <Name>versionFull</Name>
           </UrlVariable>
         </value>
       </item>
@@ -123,11 +139,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\NUnit-2.6.4.msi</PreviousLocation>
+    <PreviousLocation>F:\exe\NUnit.3.0.0-beta-2.msi</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
-    <Enabled>true</Enabled>
+    <Enabled>false</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-06-23T13:59:54.2195151</LastUpdated>
+    <LastUpdated>2015-06-23T20:47:09.0907228</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>nunit.install</Name>

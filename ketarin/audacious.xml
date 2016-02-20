@@ -1,16 +1,17 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="1953a51b-4ae1-4a63-9b76-c19172be6c23">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>19465362</LastFileSize>
-    <LastFileDate>2015-05-30T22:29:45-05:00</LastFileDate>
+    <LastFileSize>19455307</LastFileSize>
+    <LastFileDate>2016-02-04T20:29:01.5514829</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -86,11 +87,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\audacious-3.6.2a-win32.zip</PreviousLocation>
+    <PreviousLocation>F:\exe\audacious-3.7.1-win32.zip</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-07-17T19:42:18.6298404-05:00</LastUpdated>
+    <LastUpdated>2016-02-04T20:29:01.5514829</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>audacious</Name>

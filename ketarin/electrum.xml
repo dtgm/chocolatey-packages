@@ -1,20 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
-  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="aea5fc80-86b9-40a1-911f-eb13768c7ac2">
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="1bc26c44-6539-465c-9cb7-0671871750c7">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>34266613</LastFileSize>
-    <LastFileDate>2015-05-22T04:37:03.782338</LastFileDate>
+    <LastFileSize>49360749</LastFileSize>
+    <LastFileDate>2016-02-04T19:42:36.4012146</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
-    <HttpReferer />
+    <HttpReferer>https://download.electrum.org</HttpReferer>
     <SetupInstructions />
     <Variables>
       <item>
@@ -27,36 +29,37 @@
             <VariableType>Textual</VariableType>
             <Regex />
             <Url>{url}</Url>
-            <TextualContent>{getUrl:regex:(?&lt;=electrum.)[\d\.]{3,\}}</TextualContent>
+            <TextualContent>{urlFile:regex:(?&lt;=electrum-)[\d\.]{3,\}}</TextualContent>
             <Name>version</Name>
           </UrlVariable>
         </value>
       </item>
       <item>
         <key>
-          <string>getUrl</string>
+          <string>urlPath</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>/?([^"]+setup\.exe)</Regex>
+            <Regex>(?&lt;=href=")\d\.[\d.]{1,}</Regex>
             <Url>https://download.electrum.org/?C=M;O=D</Url>
-            <Name>getUrl</Name>
+            <Name>urlPath</Name>
           </UrlVariable>
         </value>
       </item>
       <item>
         <key>
-          <string>url</string>
+          <string>urlFile</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <TextualContent>https://download.electrum.org/{getUrl}</TextualContent>
-            <Name>url</Name>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>[^ "'&lt;&gt;\*]+setup\.exe</Regex>
+            <Url>{urlHost}/{urlPath}</Url>
+            <TextualContent />
+            <Name>urlFile</Name>
           </UrlVariable>
         </value>
       </item>
@@ -88,6 +91,34 @@
           </UrlVariable>
         </value>
       </item>
+      <item>
+        <key>
+          <string>urlHost</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>https://download.electrum.org</TextualContent>
+            <Name>urlHost</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>{urlHost}/{urlPath}/{urlFile}</TextualContent>
+            <Name>url</Name>
+          </UrlVariable>
+        </value>
+      </item>
     </Variables>
     <ExecuteCommand />
     <ExecutePreCommand />
@@ -95,11 +126,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\electrum-2.2-setup.exe</PreviousLocation>
+    <PreviousLocation>F:\exe\electrum-2.5.4-setup.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-05-22T04:37:03.782338</LastUpdated>
+    <LastUpdated>2016-02-04T19:42:36.4012146</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>electrum</Name>

@@ -5,12 +5,13 @@
     <UserAgent />
     <UserNotes />
     <LastFileSize>1328707</LastFileSize>
-    <LastFileDate>2015-03-29T09:22:23.6176778</LastFileDate>
+    <LastFileDate>2016-02-04T18:41:19.7300437</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -152,11 +153,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\locate32-3.1.11.7100.zip</PreviousLocation>
+    <PreviousLocation>F:\exe\locate32-3.1.11.7100.zip</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-03-29T09:22:23.6176778</LastUpdated>
+    <LastUpdated>2016-02-04T18:41:19.7300437</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>locate32</Name>

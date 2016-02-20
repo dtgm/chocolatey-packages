@@ -4,13 +4,14 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes>http://crystalmark.info/download/xyz/CrystalDiskMark{versionurl:replace:.:_}-en.exe </UserNotes>
-    <LastFileSize>3004280</LastFileSize>
-    <LastFileDate>2015-05-25T04:36:06.8950804</LastFileDate>
+    <LastFileSize>3056504</LastFileSize>
+    <LastFileDate>2015-11-06T21:05:07.4488609</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Avoid</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -227,11 +228,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\CrystalDiskMark4_0_3a-en.exe</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <PreviousLocation>F:\exe\CrystalDiskMark5_0_3-en.exe</PreviousLocation>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-05-25T04:36:06.8950804</LastUpdated>
+    <LastUpdated>2015-11-06T21:05:07.4488609</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>crystaldiskmark</Name>

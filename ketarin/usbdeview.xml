@@ -1,11 +1,11 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="d8aeaeb0-ac27-49fc-8cfc-f80df7258934">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>82145</LastFileSize>
-    <LastFileDate>2015-09-16T12:53:31-06:00</LastFileDate>
+    <LastFileSize>82861</LastFileSize>
+    <LastFileDate>2016-02-09T17:29:50.2419598</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -142,7 +142,7 @@
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-09-29T03:42:57.7069891-06:00</LastUpdated>
+    <LastUpdated>2016-02-09T17:29:50.2419598</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>usbdeview</Name>

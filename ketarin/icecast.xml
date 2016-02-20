@@ -1,11 +1,11 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="10dbb23d-9f59-4aec-b85a-8781b57f87a4">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>5088071</LastFileSize>
-    <LastFileDate>2015-06-29T06:42:01-06:00</LastFileDate>
+    <LastFileSize>5089178</LastFileSize>
+    <LastFileDate>2016-02-04T19:28:01.9401108</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -97,11 +97,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\icecast_win32_2.4.2.exe</PreviousLocation>
+    <PreviousLocation>F:\exe\icecast_win32_2.4.3.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-10-04T14:24:42.6483431-06:00</LastUpdated>
+    <LastUpdated>2016-02-04T19:28:01.9401108</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>icecast</Name>

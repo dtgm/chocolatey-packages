@@ -1,16 +1,18 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="d8602fa0-30da-44d1-ab9d-55bde9abbbd9">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>3023406</LastFileSize>
-    <LastFileDate>2015-06-23T21:59:08.52659</LastFileDate>
+    <LastFileSize>1851392</LastFileSize>
+    <LastFileDate>2016-02-19T21:18:59.2008672</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -41,7 +43,7 @@
             <VariableType>Textual</VariableType>
             <Regex />
             <Url />
-            <TextualContent>{getUrl:regex:(?&lt;=-)[\d\.]{3,\}(?=\.msi)}</TextualContent>
+            <TextualContent>{getUrl:regex:(?&lt;=NUnit[\.-_])[\d\.]{3,\}(?=\.msi)}</TextualContent>
             <Name>version</Name>
           </UrlVariable>
         </value>
@@ -68,7 +70,7 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=Current Stable.*?)[^ "'&lt;&gt;\*]+\.msi</Regex>
+            <Regex>(?&lt;=Current.*?)[^ "'&lt;&gt;\*]+\.msi</Regex>
             <Url>http://www.nunit.org/index.php?p=download</Url>
             <Name>getUrl</Name>
           </UrlVariable>
@@ -88,19 +90,6 @@
           </UrlVariable>
         </value>
       </item>
-      <item>
-        <key>
-          <string>packageGuid</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <Name>packageGuid</Name>
-          </UrlVariable>
-        </value>
-      </item>
     </Variables>
     <ExecuteCommand />
     <ExecutePreCommand />
@@ -108,11 +97,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\NUnit-2.6.4.msi</PreviousLocation>
+    <PreviousLocation>F:\exe\NUnit.3.0.1.msi</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-06-23T21:59:08.52659</LastUpdated>
+    <LastUpdated>2016-02-19T21:18:59.2008672</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>nunit</Name>

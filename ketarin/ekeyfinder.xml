@@ -5,12 +5,13 @@
     <UserAgent />
     <UserNotes />
     <LastFileSize>429613</LastFileSize>
-    <LastFileDate>2015-02-05T00:42:07.194028</LastFileDate>
+    <LastFileDate>2015-10-10T04:58:49.6165602</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -112,11 +113,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\EKeyfinder_v0.1beta7_win32.zip</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <PreviousLocation>F:\exe\EKeyfinder_v0.1beta7_win32.zip</PreviousLocation>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-05T00:42:07.194028</LastUpdated>
+    <LastUpdated>2015-10-10T04:58:49.6165602</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url:encode}</FixedDownloadUrl>
     <Name>ekeyfinder</Name>

@@ -1,16 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
-  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="b12ddea4-8801-4628-abaa-dff30d5aeb3f">
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="17115489-c170-4880-9aaf-9993fff07e74">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>841909</LastFileSize>
-    <LastFileDate>2015-02-05T00:53:22.5541703</LastFileDate>
+    <LastFileSize>1095628</LastFileSize>
+    <LastFileDate>2016-02-04T17:55:52.0557363</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -19,46 +20,45 @@
     <Variables>
       <item>
         <key>
-          <string>realVersion</string>
+          <string>urlHost</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>https://sourceforge.net</TextualContent>
+            <Name>urlHost</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>urlPath</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=href="http://sourceforge.net/projects/smartmontools/files/smartmontools/6.3/"&gt;&lt;span class="icon"&gt;.*?&lt;/span&gt;).*?(?=&lt;/a&gt;,)</Regex>
-            <Url>http://www.smartmontools.org/wiki/Packages</Url>
-            <StartText>&lt;tr title="</StartText>
-            <EndText>" class="folder "&gt;</EndText>
+            <Regex>(?&lt;=&lt;a href="/{urlRoot}/)[^/]+</Regex>
+            <Url>{urlHost}/{urlRoot}</Url>
             <TextualContent />
-            <Name>realVersion</Name>
+            <Name>urlPath</Name>
           </UrlVariable>
         </value>
       </item>
       <item>
         <key>
-          <string>version</string>
+          <string>versionFull</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>{realVersion:replace:-:.}</TextualContent>
-            <Name>version</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>url64</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <TextualContent>{urlArray}</TextualContent>
-            <Name>url64</Name>
+            <Url />
+            <TextualContent>{getUrl:regex:(?&lt;=smartmontools-)[\d\.-]{3,\}(?=\.win)}</TextualContent>
+            <Name>versionFull</Name>
           </UrlVariable>
         </value>
       </item>
@@ -71,26 +71,36 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
             <Regex>(?&lt;=ResponseUri: )[^\r\n]+</Regex>
-            <Url>http://sourceforge.net/projects/smartmontools/files/smartmontools/{realVersion:split:-:0}/smartmontools-{realVersion}.win32-setup.exe/download</Url>
-            <TextualContent />
+            <Url>{getUrl}</Url>
             <Name>url</Name>
           </UrlVariable>
         </value>
       </item>
       <item>
         <key>
-          <string>urlArray</string>
+          <string>url64</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <Url />
-            <StartText>url=http://downloads.sourceforge.net/project/</StartText>
-            <EndText>?r=</EndText>
-            <TextualContent>@('http://sourceforge.net/projects/smartmontools/files/smartmontools/{realVersion:split:-:0}/smartmontools-{realVersion}.win32-setup.exe/download', 'http://sourceforge.net/projects/smartmontools/files/smartmontools/{realVersion:split:-:0}/smartmontools-{realVersion}.win64-setup.exe/download')</TextualContent>
-            <Name>urlArray</Name>
+            <TextualContent>{getUrl}</TextualContent>
+            <Name>url64</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>getUrl</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>[^ "'&lt;&gt;\*]+\.exe/download</Regex>
+            <Url>{urlHost}/{urlRoot}/{urlPath}</Url>
+            <Name>getUrl</Name>
           </UrlVariable>
         </value>
       </item>
@@ -124,15 +134,29 @@
       </item>
       <item>
         <key>
-          <string>checksum64file</string>
+          <string>version</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>http://sourceforge.net/projects/smartmontools/files/smartmontools/{realVersion:split:-:0}/smartmontools-{realVersion}.win64-setup.exe/download</TextualContent>
-            <Name>checksum64file</Name>
+            <TextualContent>{versionFull:replace:-:.}</TextualContent>
+            <Name>version</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>urlRoot</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>projects/{appname}/files/{appname}</TextualContent>
+            <Name>urlRoot</Name>
           </UrlVariable>
         </value>
       </item>
@@ -143,11 +167,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\smartmontools-6.3-1.win32-setup.exe</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <PreviousLocation>F:\exe\smartmontools-6.4-1.win32-setup.exe</PreviousLocation>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-05T00:53:22.5541703</LastUpdated>
+    <LastUpdated>2016-02-04T17:55:52.0557363</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>smartmontools</Name>

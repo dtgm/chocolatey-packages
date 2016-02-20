@@ -1,11 +1,11 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="445a94c2-88a8-4384-bb02-bb253ac7abab">
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.0</UserAgent>
     <UserNotes />
     <LastFileSize>36554752</LastFileSize>
-    <LastFileDate>2015-11-27T06:36:41-07:00</LastFileDate>
+    <LastFileDate>2016-01-22T21:52:18.3893006</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Avoid</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -89,7 +89,7 @@
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2016-01-22T21:52:18.3893006-07:00</LastUpdated>
+    <LastUpdated>2016-01-22T21:52:18.3893006</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>genymotion</Name>

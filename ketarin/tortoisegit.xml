@@ -1,11 +1,11 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="f8232077-bb09-49a3-882e-c804a03064cf">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
     <LastFileSize>16433152</LastFileSize>
-    <LastFileDate>2015-11-02T12:46:28.8511521</LastFileDate>
+    <LastFileDate>2016-02-09T17:30:31.5144163</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -144,7 +144,7 @@
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-11-02T12:46:28.8511521</LastUpdated>
+    <LastUpdated>2016-02-09T17:30:31.5144163</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>tortoisegit</Name>

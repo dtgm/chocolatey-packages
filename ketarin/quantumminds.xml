@@ -5,12 +5,14 @@
     <UserAgent>Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44</UserAgent>
     <UserNotes />
     <LastFileSize>16092053</LastFileSize>
-    <LastFileDate>2015-05-25T01:29:13.6223224</LastFileDate>
+    <LastFileDate>2015-10-23T12:24:14.5055306</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -68,7 +70,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
             <Regex>[^ "'&lt;&gt;\*]+quantum-minds</Regex>
-            <Url>http://scienceathome.org/games/</Url>
+            <Url>http://scienceathome.org/games/quantum-minds</Url>
             <Name>getUrl1</Name>
           </UrlVariable>
         </value>
@@ -123,11 +125,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\QuantumMindsWin.zip</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <PreviousLocation>F:\exe\QuantumMindsWin1.zip</PreviousLocation>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-05-25T01:29:13.6223224</LastUpdated>
+    <LastUpdated>2015-10-23T12:24:14.5055306</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>quantumminds</Name>

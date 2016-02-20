@@ -1,11 +1,11 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="0e4a6956-5931-452c-a87b-45f7bcdbe275">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
     <LastFileSize>11736337</LastFileSize>
-    <LastFileDate>2015-01-15T06:07:44-07:00</LastFileDate>
+    <LastFileDate>2016-02-04T19:42:46.7958759</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -159,7 +159,7 @@
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-10-11T14:38:40.2921762-06:00</LastUpdated>
+    <LastUpdated>2016-02-04T19:42:46.7958759</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>eviacam</Name>

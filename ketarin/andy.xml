@@ -4,13 +4,15 @@
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64)</UserAgent>
     <UserNotes>http://andysupport.s3.amazonaws.com/</UserNotes>
-    <LastFileSize>530104</LastFileSize>
-    <LastFileDate>2015-04-04T19:54:09.6653268</LastFileDate>
+    <LastFileSize>451888764</LastFileSize>
+    <LastFileDate>2016-02-11T20:41:25.0284902</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Avoid</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -29,7 +31,7 @@
             <Url>https://cloud.genymotion.com/page/changelog/</Url>
             <StartText>    &lt;!--  VERSION </StartText>
             <EndText>  --&gt;</EndText>
-            <TextualContent>0.{realVersion:replace:_:.}</TextualContent>
+            <TextualContent>0.{versionFull:replace:_:.}</TextualContent>
             <Name>version</Name>
           </UrlVariable>
         </value>
@@ -41,25 +43,26 @@
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=ResponseUri: )[^\r\n]+</Regex>
-            <Url>http://www.andyroid.net/getandy.php</Url>
-            <TextualContent />
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <Url />
+            <TextualContent>{urlPath}_x86.exe</TextualContent>
             <Name>url</Name>
           </UrlVariable>
         </value>
       </item>
       <item>
         <key>
-          <string>realVersion</string>
+          <string>versionFull</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=_v)(.*)(?=\.exe)</Regex>
-            <Url>http://www.andyroid.net/getandy.php</Url>
-            <Name>realVersion</Name>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <Url />
+            <TextualContent>{getUrl:regex:(?&lt;=_v).*(?=_x..\.exe)}</TextualContent>
+            <Name>versionFull</Name>
           </UrlVariable>
         </value>
       </item>
@@ -72,7 +75,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
             <Regex>(?&lt;=ETag:\s*")([A-Fa-f0-9]{32})</Regex>
-            <Url>http://www.andyroid.net/getandy.php</Url>
+            <Url>{urlPath}_x86.exe</Url>
             <Name>checksum</Name>
           </UrlVariable>
         </value>
@@ -105,6 +108,62 @@
           </UrlVariable>
         </value>
       </item>
+      <item>
+        <key>
+          <string>getUrl</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=ResponseUri: )[^\r\n]+</Regex>
+            <Url>http://www.andyroid.net/getandy.php</Url>
+            <Name>getUrl</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>urlPath</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>{getUrl:regex:.*(?=_x..\.exe)}</TextualContent>
+            <Name>urlPath</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url64</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>{urlPath}_x64.exe</TextualContent>
+            <Name>url64</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>checksumx64</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=ETag:\s*")([A-Fa-f0-9]{32})</Regex>
+            <Url>{urlPath}_x64.exe</Url>
+            <Name>checksumx64</Name>
+          </UrlVariable>
+        </value>
+      </item>
     </Variables>
     <ExecuteCommand />
     <ExecutePreCommand />
@@ -112,11 +171,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\Andy_Android_Emulator_v43_1.exe</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <PreviousLocation>F:\exe\Andy_v46.2_61_x86.exe</PreviousLocation>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-04T19:54:09.6653268</LastUpdated>
+    <LastUpdated>2016-02-11T20:41:25.0284902</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>andy</Name>

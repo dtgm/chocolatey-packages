@@ -1,16 +1,17 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="1809852e-04c3-458d-be0e-17e8a2dad7ff">
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)</UserAgent>
     <UserNotes />
     <LastFileSize>462677</LastFileSize>
-    <LastFileDate>2014-05-02T13:17:27-05:00</LastFileDate>
+    <LastFileDate>2016-02-04T18:38:51.678438</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -110,7 +111,7 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>[A-Fa-f0-9]{32}</Regex>
+            <Regex>(?&lt;=ETag[: "]+)[A-Fa-f0-9]{32}</Regex>
             <Url>{urlHost}/{urlPath}</Url>
             <TextualContent>{checksum}</TextualContent>
             <Name>checksum</Name>
@@ -125,7 +126,7 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>[A-Fa-f0-9]{32}</Regex>
+            <Regex>(?&lt;=ETag[: "]+)[A-Fa-f0-9]{32}</Regex>
             <Url>{urlHost}/{url64Path}</Url>
             <TextualContent>{checksum}</TextualContent>
             <Name>checksumx64</Name>
@@ -213,7 +214,7 @@
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-07-08T09:57:23.2535081-05:00</LastUpdated>
+    <LastUpdated>2016-02-04T18:38:51.678438</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>movieexplorer</Name>

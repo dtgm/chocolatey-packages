@@ -1,22 +1,38 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
-  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="3b6d6e5b-f2b9-4dc8-b0e7-8f44d341792a">
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="70b6a4eb-890d-4434-9290-2e4d395e33f7">
     <WebsiteUrl />
-    <UserAgent />
-    <UserNotes>added '/v "{version}00"' for incremental package fixes, based on https://github.com/chocolatey/chocolatey/wiki/CreatePackages#versioning-recommendations</UserNotes>
-    <LastFileSize>29698048</LastFileSize>
-    <LastFileDate>2015-03-19T04:35:20.5752682</LastFileDate>
+    <UserAgent>Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)</UserAgent>
+    <UserNotes />
+    <LastFileSize>29510656</LastFileSize>
+    <LastFileDate>2016-02-11T18:50:35.2854934</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
-    <HttpReferer />
+    <HttpReferer>http://www.thebrain.com/products/thebrain/download/</HttpReferer>
     <SetupInstructions />
     <Variables>
+      <item>
+        <key>
+          <string>versionFull</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=Version )[\d\.]*(?=\.)</Regex>
+            <Url>http://www.thebrain.com/products/thebrain/download/</Url>
+            <TextualContent />
+            <Name>versionFull</Name>
+          </UrlVariable>
+        </value>
+      </item>
       <item>
         <key>
           <string>version</string>
@@ -25,27 +41,10 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
-            <Regex>Version ([\d\.]*)\.</Regex>
-            <Url>http://www.thebrain.com/products/thebrain/download/</Url>
-            <StartText>&lt;span style="font-size: small;"&gt;&lt;strong&gt;Version </StartText>
-            <EndText>.&lt;/strong</EndText>
-            <TextualContent>{realVersion}00</TextualContent>
-            <Name>version</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>url64</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
             <Regex />
-            <Url>https://code.google.com/p/duplicati/wiki/Downloads?tm=2</Url>
-            <TextualContent>http://api.thebrain.com/?a=doDirectDownload&amp;id=76</TextualContent>
-            <Name>url64</Name>
+            <Url />
+            <TextualContent>{versionFull}00</TextualContent>
+            <Name>version</Name>
           </UrlVariable>
         </value>
       </item>
@@ -58,36 +57,52 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>http://api.thebrain.com/?a=doDirectDownload&amp;id=70</TextualContent>
+            <TextualContent>{getUrl}</TextualContent>
             <Name>url</Name>
           </UrlVariable>
         </value>
       </item>
       <item>
         <key>
-          <string>nopush</string>
+          <string>url64</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>--nopush</TextualContent>
-            <Name>nopush</Name>
+            <TextualContent>{getUrl64}</TextualContent>
+            <Name>url64</Name>
           </UrlVariable>
         </value>
       </item>
       <item>
         <key>
-          <string>cscript</string>
+          <string>getUrl</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>2</TextualContent>
-            <Name>cscript</Name>
+            <Url />
+            <TextualContent>http://api.thebrain.com/?a=doDirectDownload&amp;id=70</TextualContent>
+            <Name>getUrl</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>getUrl64</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <Url />
+            <TextualContent>http://api.thebrain.com/?a=doDirectDownload&amp;id=76</TextualContent>
+            <Name>getUrl64</Name>
           </UrlVariable>
         </value>
       </item>
@@ -107,15 +122,44 @@
       </item>
       <item>
         <key>
-          <string>realVersion</string>
+          <string>cscript</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>0</TextualContent>
+            <Name>cscript</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>x</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>Version ([\d\.]*)\.</Regex>
-            <Url>http://www.thebrain.com/products/thebrain/download/</Url>
-            <Name>realVersion</Name>
+            <Regex />
+            <PostData>a=doDirectDownload&amp;id=76</PostData>
+            <Url>http://api.thebrain.com/</Url>
+            <Name>x</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>yopush</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>--nopush</TextualContent>
+            <Name>yopush</Name>
           </UrlVariable>
         </value>
       </item>
@@ -126,11 +170,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\TheBrain_windows_8_0_1_6.exe</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <PreviousLocation>F:\exe\TheBrain_windows_8_0_2_2.exe</PreviousLocation>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-03-19T04:35:20.5752682</LastUpdated>
+    <LastUpdated>2016-02-11T18:50:35.2854934</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>thebrain.install</Name>

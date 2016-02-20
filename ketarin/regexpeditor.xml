@@ -5,12 +5,13 @@
     <UserAgent />
     <UserNotes />
     <LastFileSize>16762560</LastFileSize>
-    <LastFileDate>2015-04-19T11:46:59.4566127</LastFileDate>
+    <LastFileDate>2016-02-04T18:05:14.2022512</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -184,11 +185,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\regexpEditor-2.0-jar-with-dependencies.jar</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <PreviousLocation>F:\exe\regexpEditor-2.0-jar-with-dependencies.jar</PreviousLocation>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-19T11:46:59.4566127</LastUpdated>
+    <LastUpdated>2016-02-04T18:05:14.2022512</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>regexpeditor</Name>

@@ -4,13 +4,15 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>11067419</LastFileSize>
-    <LastFileDate>2015-02-23T04:35:08.9738149</LastFileDate>
+    <LastFileSize>16126976</LastFileSize>
+    <LastFileDate>2016-02-11T22:34:10.0104938</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -24,10 +26,10 @@
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=ResponseUri: )[^\r\n]+</Regex>
-            <Url>{getUrl}</Url>
-            <TextualContent />
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <Url />
+            <TextualContent>{mirror}/project/projectlibre/{getUrlSplit}</TextualContent>
             <Name>url</Name>
           </UrlVariable>
         </value>
@@ -41,7 +43,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>http://sourceforge.net/projects/projectlibre/files/ProjectLibre/{version}/projectlibre-{version}.msi/download</TextualContent>
+            <TextualContent>{getUrl}</TextualContent>
             <Name>url64</Name>
           </UrlVariable>
         </value>
@@ -83,7 +85,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>0</TextualContent>
+            <TextualContent>2</TextualContent>
             <Name>cscript</Name>
           </UrlVariable>
         </value>
@@ -96,7 +98,7 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>[^ "'&lt;&gt;\*]+\.zip/download</Regex>
+            <Regex>[^ "'&lt;&gt;\*]+\.msi/download</Regex>
             <Url>https://sourceforge.net/projects/projectlibre/files/ProjectLibre/{version}/</Url>
             <Name>getUrl</Name>
           </UrlVariable>
@@ -104,29 +106,43 @@
       </item>
       <item>
         <key>
-          <string>getUrl64</string>
+          <string>mirrorUrl</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>[^ "'&lt;&gt;\*]+\.msi/download</Regex>
+            <Regex>[^ "'&lt;&gt;\*]+\.zip/download</Regex>
             <Url>https://sourceforge.net/projects/projectlibre/files/ProjectLibre/{version}/</Url>
-            <Name>getUrl64</Name>
+            <Name>mirrorUrl</Name>
           </UrlVariable>
         </value>
       </item>
       <item>
         <key>
-          <string>checksum64file</string>
+          <string>mirror</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(https?://[^ "'&lt;&gt;\*]+?)/project</Regex>
+            <Url>{mirrorUrl}</Url>
+            <Name>mirror</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>getUrlSplit</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>{getUrl64}</TextualContent>
-            <Name>checksum64file</Name>
+            <TextualContent>{getUrl:regex:(?&lt;=projectlibre/files/).+(?=/download)}</TextualContent>
+            <Name>getUrlSplit</Name>
           </UrlVariable>
         </value>
       </item>
@@ -137,11 +153,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\projectlibre-1.5.9.zip</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <PreviousLocation>F:\exe\projectlibre-1.6.2.msi</PreviousLocation>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-23T04:35:08.9738149</LastUpdated>
+    <LastUpdated>2016-02-11T22:34:10.0104938</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>projectlibre.install</Name>

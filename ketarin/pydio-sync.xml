@@ -5,12 +5,13 @@
     <UserAgent />
     <UserNotes />
     <LastFileSize>21834752</LastFileSize>
-    <LastFileDate>2015-04-09T01:05:13.0518449</LastFileDate>
+    <LastFileDate>2016-02-04T18:06:05.7488824</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -179,11 +180,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\Pydio-0.8.4-Windows-x86-Setup.msi</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <PreviousLocation>F:\exe\Pydio-0.8.4-Windows-x86-Setup.msi</PreviousLocation>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-09T01:05:13.0518449</LastUpdated>
+    <LastUpdated>2016-02-04T18:06:05.7488824</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>pydio-sync</Name>

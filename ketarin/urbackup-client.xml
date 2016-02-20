@@ -11,6 +11,8 @@
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -183,8 +185,9 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <DeletePreviousFile>true</DeletePreviousFile>
-    <Enabled>true</Enabled>
+    <PreviousLocation />
+    <DeletePreviousFile>false</DeletePreviousFile>
+    <Enabled>false</Enabled>
     <FileHippoId />
     <LastUpdated>2015-04-17T04:13:53.9788088</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>

@@ -11,6 +11,7 @@
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -167,8 +168,8 @@
     <Category />
     <SourceType>FixedUrl</SourceType>
     <PreviousLocation />
-    <DeletePreviousFile>true</DeletePreviousFile>
-    <Enabled>true</Enabled>
+    <DeletePreviousFile>false</DeletePreviousFile>
+    <Enabled>false</Enabled>
     <FileHippoId />
     <LastUpdated xsi:nil="true" />
     <TargetPath>{workdir}\</TargetPath>

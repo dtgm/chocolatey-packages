@@ -11,6 +11,7 @@
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator>version</VariableChangeIndicator>
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -26,22 +27,22 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>{genLinkArray}</TextualContent>
+            <TextualContent>{urlArray}</TextualContent>
             <Name>url64</Name>
           </UrlVariable>
         </value>
       </item>
       <item>
         <key>
-          <string>genLinkArray</string>
+          <string>urlArray</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>@('http://www.fosshub.com/genLink/MKVToolNix/mkvtoolnix-{version}-setup.exe', 'http://www.fosshub.com/genLink/MKVToolNix/mkvtoolnix-amd64-{version}-setup.exe')</TextualContent>
-            <Name>genLinkArray</Name>
+            <TextualContent>@('http://www.fosshub.com/genLink/{urlPath}', 'http://www.fosshub.com/genLink/{url64Path}')</TextualContent>
+            <Name>urlArray</Name>
           </UrlVariable>
         </value>
       </item>
@@ -52,12 +53,83 @@
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>StartEnd</VariableType>
+            <VariableType>Textual</VariableType>
             <Regex />
-            <Url>http://www.fosshub.com/MKVToolNix.html</Url>
+            <Url />
             <StartText>data="MKVToolNix/mkvtoolnix-amd64-</StartText>
             <EndText>-setup.exe"&gt;</EndText>
+            <TextualContent>{urlPath:regex:(?&lt;=-)[\d\.]{3,\}(?=-)}</TextualContent>
             <Name>version</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>urlPath</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=data=")mkvtoolnix/mkvtoolnix-32[^ "'&lt;&gt;\*]+\.exe</Regex>
+            <Url>http://www.fosshub.com/MKVToolNix.html</Url>
+            <Name>urlPath</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url64Path</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=data=")mkvtoolnix/mkvtoolnix-64[^ "'&lt;&gt;\*]+\.exe</Regex>
+            <Url>http://www.fosshub.com/MKVToolNix.html</Url>
+            <Name>url64Path</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>https://www.bunkus.org/videotools/mkvtoolnix/windows/sha1sums.txt</TextualContent>
+            <Name>url</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>checksum</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>[a-f0-9]{40}(?=\s+{urlPath:regex:[^ "'&lt;&gt;\*/]+exe})</Regex>
+            <Url>https://www.bunkus.org/videotools/mkvtoolnix/windows/sha1sums.txt</Url>
+            <Name>checksum</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>checksumx64</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>[a-f0-9]{40}(?=\s+{url64Path:regex:[^ "'&lt;&gt;\*/]+exe})</Regex>
+            <Url>https://www.bunkus.org/videotools/mkvtoolnix/windows/sha1sums.txt</Url>
+            <Name>checksumx64</Name>
           </UrlVariable>
         </value>
       </item>
@@ -69,12 +141,12 @@
     <Category />
     <SourceType>FixedUrl</SourceType>
     <PreviousLocation>C:\Chocolatey\_work\sha512sums.txt</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>false</Enabled>
     <FileHippoId />
     <LastUpdated>2014-12-26T18:59:03.8845817</LastUpdated>
-    <TargetPath>{workdir}\</TargetPath>
-    <FixedDownloadUrl>https://www.bunkus.org/videotools/mkvtoolnix/win32/sha512sums.txt</FixedDownloadUrl>
+    <TargetPath>C:\Chocolatey\_work\</TargetPath>
+    <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>mkvtoolnix</Name>
   </ApplicationJob>
 </Jobs>

@@ -5,12 +5,13 @@
     <UserAgent />
     <UserNotes />
     <LastFileSize>8335044</LastFileSize>
-    <LastFileDate>2015-03-29T15:57:06.601372</LastFileDate>
+    <LastFileDate>2016-02-04T20:34:54.2374286</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -123,11 +124,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\aMule-2.3.1-installer.exe</PreviousLocation>
+    <PreviousLocation>F:\exe\aMule-2.3.1-installer.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-03-29T15:57:06.601372</LastUpdated>
+    <LastUpdated>2016-02-04T20:34:54.2374286</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>amule.install</Name>

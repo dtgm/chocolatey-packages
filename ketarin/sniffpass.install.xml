@@ -5,16 +5,18 @@
     <UserAgent />
     <UserNotes />
     <LastFileSize>112814</LastFileSize>
-    <LastFileDate>2015-04-17T21:37:27.3672499</LastFileDate>
+    <LastFileDate>2016-02-04T17:23:58.056284</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
-    <HttpReferer />
+    <HttpReferer>http://www.nirsoft.net/utils/password_sniffer.html</HttpReferer>
     <SetupInstructions />
     <Variables>
       <item>
@@ -94,11 +96,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\sniffpass_setup.exe</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <PreviousLocation>F:\exe\sniffpass_setup.exe</PreviousLocation>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-17T21:37:27.3672499</LastUpdated>
+    <LastUpdated>2016-02-04T17:23:58.056284</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>sniffpass.install</Name>

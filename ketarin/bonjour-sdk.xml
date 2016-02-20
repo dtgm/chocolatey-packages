@@ -20,6 +20,7 @@ http://www.opensource.apple.com/source/mDNSResponder/mDNSResponder-333.10/mDNSWi
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -90,7 +91,7 @@ http://www.opensource.apple.com/source/mDNSResponder/mDNSResponder-333.10/mDNSWi
     <Category />
     <SourceType>FixedUrl</SourceType>
     <PreviousLocation />
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>false</Enabled>
     <FileHippoId />
     <LastUpdated xsi:nil="true" />

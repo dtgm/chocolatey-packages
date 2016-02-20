@@ -9,13 +9,14 @@
 
 Actual download=http://www.sandboxie.com/SandboxieInstall32-412.exe
 </UserNotes>
-    <LastFileSize>3242120</LastFileSize>
-    <LastFileDate>2015-05-25T03:49:39.3791761</LastFileDate>
+    <LastFileSize>3267952</LastFileSize>
+    <LastFileDate>2016-02-16T11:47:27.8510564</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -141,6 +142,76 @@ Actual download=http://www.sandboxie.com/SandboxieInstall32-412.exe
           </UrlVariable>
         </value>
       </item>
+      <item>
+        <key>
+          <string>versionBetaMajor</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>[^ "'&lt;&gt;\*]+(?=" class="forumtitle"&gt;Beta Version )</Regex>
+            <Url>http://forums.sandboxie.com/phpBB3/</Url>
+            <Name>versionBetaMajor</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>versionBetaMinor</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>[^ "'&lt;&gt;\*]+(?=" class="topictitle)</Regex>
+            <Url>http://forums.sandboxie.com/phpBB3/{versionBetaMajor}</Url>
+            <Name>versionBetaMinor</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>versionBeta</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=latest version )[\d\.]{3,}</Regex>
+            <Url>http://forums.sandboxie.com/phpBB3/{versionBetaMajor}</Url>
+            <Name>versionBeta</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>versionBetaUrl</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>[^ "'&lt;&gt;\*]+SandboxieInstall32[^ "'&lt;&gt;\*]+\.exe</Regex>
+            <Url>http://forums.sandboxie.com/phpBB3/{versionBetaMinor:replace:&amp;amp;:&amp;}</Url>
+            <Name>versionBetaUrl</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>versionBetaUrl64</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>[^ "'&lt;&gt;\*]+SandboxieInstall64[^ "'&lt;&gt;\*]+\.exe</Regex>
+            <Url>http://forums.sandboxie.com/phpBB3/{versionBetaMinor:replace:&amp;amp;:&amp;}</Url>
+            <Name>versionBetaUrl64</Name>
+          </UrlVariable>
+        </value>
+      </item>
     </Variables>
     <ExecuteCommand />
     <ExecutePreCommand />
@@ -148,11 +219,11 @@ Actual download=http://www.sandboxie.com/SandboxieInstall32-412.exe
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\SandboxieInstall32-416.exe</PreviousLocation>
+    <PreviousLocation>F:\exe\SandboxieInstall32-508.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-05-25T03:49:39.3791761</LastUpdated>
+    <LastUpdated>2016-02-16T11:47:27.8510564</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>sandboxie.install</Name>

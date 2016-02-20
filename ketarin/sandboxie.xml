@@ -9,13 +9,14 @@
 
 Actual download=http://www.sandboxie.com/SandboxieInstall32-412.exe
 </UserNotes>
-    <LastFileSize>3242120</LastFileSize>
-    <LastFileDate>2015-03-02T01:30:42.0085403</LastFileDate>
+    <LastFileSize>3267952</LastFileSize>
+    <LastFileDate>2016-02-16T11:47:34.2620291</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -127,6 +128,19 @@ Actual download=http://www.sandboxie.com/SandboxieInstall32-412.exe
           </UrlVariable>
         </value>
       </item>
+      <item>
+        <key>
+          <string>packageGuid</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <Name>packageGuid</Name>
+          </UrlVariable>
+        </value>
+      </item>
     </Variables>
     <ExecuteCommand />
     <ExecutePreCommand />
@@ -134,11 +148,11 @@ Actual download=http://www.sandboxie.com/SandboxieInstall32-412.exe
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\SandboxieInstall32-416.exe</PreviousLocation>
+    <PreviousLocation>F:\exe\SandboxieInstall32-508.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-03-02T01:30:42.0085403</LastUpdated>
+    <LastUpdated>2016-02-16T11:47:34.2620291</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>sandboxie</Name>

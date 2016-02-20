@@ -5,12 +5,13 @@
     <UserAgent />
     <UserNotes />
     <LastFileSize>18284772</LastFileSize>
-    <LastFileDate>2015-04-11T05:33:49.4133269</LastFileDate>
+    <LastFileDate>2016-02-09T17:28:06.851603</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -139,11 +140,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\Win32DiskImager-0.9.5-binary.zip</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <PreviousLocation>F:\exe\Win32DiskImager-0.9.5-binary.zip</PreviousLocation>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-11T05:33:49.4133269</LastUpdated>
+    <LastUpdated>2016-02-09T17:28:06.851603</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>win32diskimager.portable</Name>

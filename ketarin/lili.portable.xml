@@ -4,13 +4,14 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>6505838</LastFileSize>
-    <LastFileDate>2015-04-27T19:35:45.2837105</LastFileDate>
+    <LastFileSize>6522275</LastFileSize>
+    <LastFileDate>2016-02-04T18:42:06.1435696</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -83,11 +84,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\LinuxLive USB Creator 2.9.3.zip</PreviousLocation>
+    <PreviousLocation>F:\exe\LinuxLive USB Creator 2.9.4.zip</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-04-27T19:35:45.2837105</LastUpdated>
+    <LastUpdated>2016-02-04T18:42:06.1435696</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>lili.portable</Name>

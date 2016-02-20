@@ -1,4 +1,4 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="8de51b25-926f-4bb3-81a6-0d9ef961ddfe">
     <WebsiteUrl />
@@ -6,12 +6,13 @@
     <UserNotes>Deprecated: Execute the following after download
 chocopkgup /p {appname}.install /v {version} /u "{preupdate-url}" /u64 "{url64}" /pp "{file}"</UserNotes>
     <LastFileSize>996640</LastFileSize>
-    <LastFileDate>2014-08-18T23:39:04.6315625</LastFileDate>
+    <LastFileDate>2015-10-10T04:49:54.3449843</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -142,10 +143,11 @@ chocopkgup /p {appname}.install /v {version} /u "{preupdate-url}" /u64 "{url64}"
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
+    <PreviousLocation>F:\exe\BRU_Setup_WinNTx86.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2014-08-18T23:39:04.6315625</LastUpdated>
+    <LastUpdated>2015-10-10T04:49:54.3449843</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>bulkrenameutility.install</Name>

@@ -5,12 +5,13 @@
     <UserAgent />
     <UserNotes />
     <LastFileSize>147857392</LastFileSize>
-    <LastFileDate>2015-05-25T02:24:45.6799957</LastFileDate>
+    <LastFileDate>2016-02-04T19:36:09.5392004</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -153,11 +154,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\Foldit-win_x86.exe</PreviousLocation>
+    <PreviousLocation>F:\exe\Foldit-win_x86.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-05-25T02:24:45.6799957</LastUpdated>
+    <LastUpdated>2016-02-04T19:36:09.5392004</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>foldit</Name>

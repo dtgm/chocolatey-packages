@@ -1,16 +1,17 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="a4d30a98-7520-4320-97f8-cdb9c2aae455">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>186967768</LastFileSize>
-    <LastFileDate>2015-04-01T10:29:22-05:00</LastFileDate>
+    <LastFileSize>190619856</LastFileSize>
+    <LastFileDate>2016-02-04T21:08:37.6554759</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -94,11 +95,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\bluej-bundled-315a.msi</PreviousLocation>
+    <PreviousLocation>F:\exe\bluej-bundled-316.msi</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-06-12T17:24:09.2539032-05:00</LastUpdated>
+    <LastUpdated>2016-02-04T21:08:37.6554759</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>bluej-bundled</Name>

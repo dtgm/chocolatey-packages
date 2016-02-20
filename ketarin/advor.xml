@@ -5,12 +5,13 @@
     <UserAgent />
     <UserNotes />
     <LastFileSize>4327878</LastFileSize>
-    <LastFileDate>2015-05-25T07:09:29.9817054</LastFileDate>
+    <LastFileDate>2016-02-04T20:38:41.5379661</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -48,15 +49,15 @@
       </item>
       <item>
         <key>
-          <string>version</string>
+          <string>urlDir</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>href="/?{urlPath}/AdvOR-([\d\.]{3,})</Regex>
+            <Regex>(?&lt;={urlPath}/)AdvOR[^/'"?]+</Regex>
             <Url>{urlHost}/{urlPath}/</Url>
-            <Name>version</Name>
+            <Name>urlDir</Name>
           </UrlVariable>
         </value>
       </item>
@@ -69,7 +70,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
             <Regex>(?&lt;=ResponseUri: )[^\r\n]+</Regex>
-            <Url>{getUrl}</Url>
+            <Url>{urlFull}</Url>
             <Name>url</Name>
           </UrlVariable>
         </value>
@@ -83,22 +84,22 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>{getUrl}</TextualContent>
+            <TextualContent>{urlFull}</TextualContent>
             <Name>url64</Name>
           </UrlVariable>
         </value>
       </item>
       <item>
         <key>
-          <string>getUrl</string>
+          <string>urlFull</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
             <Regex>[^ "'&lt;&gt;\*]+AdvOR-{version}\.zip/download</Regex>
-            <Url>{urlHost}/{urlPath}/AdvOR-{version}/</Url>
-            <Name>getUrl</Name>
+            <Url>{urlHost}/{urlPath}/{urlDir}/</Url>
+            <Name>urlFull</Name>
           </UrlVariable>
         </value>
       </item>
@@ -131,6 +132,21 @@
           </UrlVariable>
         </value>
       </item>
+      <item>
+        <key>
+          <string>version</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <Url />
+            <TextualContent>{urlDir:regex:(?&lt;=-)[\d\.]{3,\}}</TextualContent>
+            <Name>version</Name>
+          </UrlVariable>
+        </value>
+      </item>
     </Variables>
     <ExecuteCommand />
     <ExecutePreCommand />
@@ -138,11 +154,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\AdvOR-0.3.0.20.zip</PreviousLocation>
+    <PreviousLocation>F:\exe\AdvOR-0.3.0.20.zip</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-05-25T07:09:29.9817054</LastUpdated>
+    <LastUpdated>2016-02-04T20:38:41.5379661</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>advor</Name>

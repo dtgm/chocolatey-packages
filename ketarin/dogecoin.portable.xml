@@ -1,11 +1,11 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="cd8d7891-a8b9-44dc-a14a-e704bb3f0835">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
     <LastFileSize>32143080</LastFileSize>
-    <LastFileDate>2016-01-22T01:34:46.6452928</LastFileDate>
+    <LastFileDate>2016-02-04T19:45:45.9044651</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -112,7 +112,7 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=ETag: ")[A-Fa-f0-9]{32}</Regex>
+            <Regex>(?&lt;=ETag[: "]+)[A-Fa-f0-9]{32}</Regex>
             <Url>{urlHost}/{urlPath}</Url>
             <TextualContent>{checksum}</TextualContent>
             <Name>checksum</Name>
@@ -127,7 +127,7 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=ETag: ")[A-Fa-f0-9]{32}</Regex>
+            <Regex>(?&lt;=ETag[: "]+)[A-Fa-f0-9]{32}</Regex>
             <Url>{urlHost}/{url64Path}</Url>
             <TextualContent>{checksum}</TextualContent>
             <Name>checksumx64</Name>
@@ -187,7 +187,7 @@
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2016-01-22T01:34:46.6452928</LastUpdated>
+    <LastUpdated>2016-02-04T19:45:45.9044651</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>dogecoin.portable</Name>

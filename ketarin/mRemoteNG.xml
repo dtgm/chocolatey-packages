@@ -5,12 +5,13 @@
     <UserAgent />
     <UserNotes>http://downloads.mremoteng.org/mRemoteNG-Installer-{version}.exe</UserNotes>
     <LastFileSize>3044672</LastFileSize>
-    <LastFileDate>2014-12-05T03:07:00.0857353</LastFileDate>
+    <LastFileDate>2016-02-04T18:38:49.0634009</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -97,11 +98,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\ProgramData\chocolatey\_work\mRemoteNG-Installer-1.72.exe</PreviousLocation>
-    <DeletePreviousFile>true</DeletePreviousFile>
+    <PreviousLocation>F:\exe\mRemoteNG-Installer-1.72.exe</PreviousLocation>
+    <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2014-12-05T03:07:00.0857353</LastUpdated>
+    <LastUpdated>2016-02-04T18:38:49.0634009</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>mRemoteNG</Name>

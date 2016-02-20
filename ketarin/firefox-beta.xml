@@ -1,4 +1,4 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="1eeec60f-a82c-40c6-a705-c0b7cd86410a">
     <WebsiteUrl />
@@ -19,14 +19,20 @@ regex subdir
 .*(?&lt;=&gt;)([\d\.]{3,}b\d+)
 
 Languages
-https://ftp.mozilla.org/pub/mozilla.org/firefox/releases/{versionShort}/win32/</UserNotes>
-    <LastFileSize>41838408</LastFileSize>
-    <LastFileDate>2015-07-14T04:41:15.9011004</LastFileDate>
+https://ftp.mozilla.org/pub/mozilla.org/firefox/releases/{versionShort}/win32/
+
+releaseNotes
+https://www.mozilla.org/en-US/firefox/beta/notes/
+[^ "'&lt;&gt;\*]+(?="&gt;complete)</UserNotes>
+    <LastFileSize>43185824</LastFileSize>
+    <LastFileDate>2015-10-20T04:40:57.592498</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
-    <VariableChangeIndicator>realVersionLong</VariableChangeIndicator>
+    <VariableChangeIndicator />
+    <HashVariable />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -183,11 +189,11 @@ https://ftp.mozilla.org/pub/mozilla.org/firefox/releases/{versionShort}/win32/</
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\Firefox Setup 40.0b4.exe</PreviousLocation>
+    <PreviousLocation>F:\exe\Firefox Setup 42.0b8.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-07-14T04:41:15.9011004</LastUpdated>
+    <LastUpdated>2015-10-20T04:40:57.592498</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>firefox-beta</Name>

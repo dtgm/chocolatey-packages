@@ -1,16 +1,17 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="0bda9e90-b41d-412c-974c-dcb818e6afdc">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>63100168</LastFileSize>
-    <LastFileDate>2015-05-21T10:31:53-05:00</LastFileDate>
+    <LastFileSize>73848864</LastFileSize>
+    <LastFileDate>2016-02-19T11:40:41.4078257</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -151,11 +152,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\install4j_windows_6_0_3.exe</PreviousLocation>
+    <PreviousLocation>F:\exe\install4j_windows_6_1.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-07-07T20:32:55.3247993-05:00</LastUpdated>
+    <LastUpdated>2016-02-19T11:40:41.4078257</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>install4j.install</Name>
