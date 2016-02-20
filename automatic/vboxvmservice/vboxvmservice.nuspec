@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>VBoxVmService</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Mathias Herrmann,Zhe Fang,Runar Buvik</authors>
+    <owners>dtgm</owners>
+    <summary>Run VirtualBox VMs from within a native Windows service entity</summary>
+    <description>
+VBoxVmService is a Windows application that allows you to run Oracle's VirtualBox VMs from within a native Windows service entity.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <projectUrl>http://vboxvmservice.sourceforge.net/</projectUrl>
+    <projectSourceUrl>http://sourceforge.net/p/vboxvmservice/code/ci/master/tree/</projectSourceUrl>
+    <bugTrackerUrl>http://sourceforge.net/p/vboxvmservice/bugs/</bugTrackerUrl>
+    <docsUrl>http://sourceforge.net/p/vboxvmservice/discussion/</docsUrl>
+    <mailingListUrl>http://sourceforge.net/p/vboxvmservice/mailman/</mailingListUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/3954f05c59b17caa8748e5a2fd52cb894d516584/icons/{{PackageName}}.png</iconUrl>
+    <tags>virtualbox vmware virtualization vm service</tags>
+    <copyright>© Mathias Herrmann, Zhe Fang, Runar Buvik</copyright>
+    <licenseUrl>https://wikipedia.org/wiki/Freeware</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Known issues](http://sourceforge.net/p/vboxvmservice/wiki/Home/)
+* [Changelog](http://sourceforge.net/p/vboxvmservice/news/)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

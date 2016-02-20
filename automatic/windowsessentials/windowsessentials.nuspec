@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+	<version>{{PackageVersion}}</version>
+    <title>Windows Essentials</title>
+    <authors>Microsoft</authors>
+    <owners>dtgm</owners>
+    <summary>A suite of free software by Microsoft, that helps you do more with photos, movies, instant messaging, email, blogging, and family safety</summary>
+    <description>
+A suite of free software by Microsoft, that helps you do more with photos, movies, instant messaging, email, blogging, and family safety.
+
+#### Software included
+* [Movie Maker](http://windows.microsoft.com/en-us/windows-live/movie-maker)
+* [Photo Gallery](http://windows.microsoft.com/en-us/windows-live/photo-gallery)
+* [OneDrive](http://go.microsoft.com/fwlink/p/?LinkId=390049)
+* [Writer](http://windows.microsoft.com/en-us/windows-live/writer-basics)
+* Family Safety
+
+
+#### [Microsoft Services Agreement](http://go.microsoft.com/fwlink/?LinkId=390975)
+
+#### [Microsoft Privacy Statement](http://go.microsoft.com/fwlink/?LinkID=208748)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <projectUrl>http://windows.microsoft.com/en-us/windows-live/essentials</projectUrl>
+    <docsUrl>http://windows.microsoft.com/en-us/windows-live/windows-essentials-help</docsUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/dd7121af88611d4f92e29187d065ba9a0fcaedeb/icons/{{PackageName}}.png</iconUrl>
+    <tags>notSilent messenger software-collection suite photo-gallery movie-maker windows-live live-mesh</tags>
+    <copyright>© Microsoft</copyright>
+    <licenseUrl>http://www.microsoftstore.com/store/msusa/en_US/DisplayHelpEULAPage/ThemeID.33363200/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+[Release notes](http://windows.microsoft.com/en-us/windows/essentials-2012-release-notes)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

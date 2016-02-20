@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>ADB enhanced Putty</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Zsolt Sz. Sztupák</authors>
+    <owners>dtgm</owners>
+    <summary>Putty enhanced with the ability to connect to Android Debug Bridge</summary>
+    <description>
+ADB enhanced Putty is a replacement console for connecting to Android devices via local USB. It is 
+
+#### adbputty usage
+* Select Adb from the connection type list
+* Enter "transport-usb" in the host (or any other connection string, check the adb socket interface documentation if you need something else than connecting via usb)
+* Enter 5037 as port, if it's not already set there.
+* Connect and enjoy (you might also save this connection, so next time you only have to double-click on the settings)
+
+#### Automated
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <projectUrl>https://github.com/sztupy/adbputty</projectUrl>
+    <projectSourceUrl>https://github.com/sztupy/adbputty</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/sztupy/adbputty/issues</bugTrackerUrl>
+    <docsUrl>http://the.earth.li/~sgtatham/putty/0.60/htmldoc/</docsUrl>
+    <mailingListUrl>http://forum.xda-developers.com/showthread.php?t=803225#sidepanel</mailingListUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/c9f5d2fb09282df62f9720e24b82530de4533216/icons/{{PackageName}}.png</iconUrl>
+    <tags>adb putty terminal</tags>
+    <copyright>© 2010 solt Sz. Sztupák</copyright>
+    <licenseUrl>https://github.com/sztupy/adbputty/blob/master/LICENCE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Release log](https://github.com/sztupy/adbputty/downloads)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="adb" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

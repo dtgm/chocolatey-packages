@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>Advanced SystemCare Ultimate</title>
+    <version>{{PackageVersion}}</version>
+    <authors>IObit</authors>
+    <owners>dtgm</owners>
+    <summary>Takes a one-click approach to protect, repair, clean, and optimize your PC</summary>
+    <description>
+Advanced System Care Ultimate is the same program as Advanced System Care Pro with included anti-virus detection and removal. In addition to the features of Advanced System Care Pro, your computer has real-time protection against viruses, spyware, hackers, phishing, and botnets.
+
+#### Commercial software
+This program installs a 30-day trial version to test the software. After 30 days, the software must be registered and a license purchased to run the program.
+
+#### Documentation
+* [Features](http://www.iobit.com/en/advanced-systemcare-antivirus.php#container)
+* [FAQ](http://www.iobit.com/en/faq.php)
+* [System requirements](http://www.iobit.com/en/allfaq.php#3295c76acbf4caaed33c36b1b5fc2cb1)
+* [Privacy Policy](http://www.iobit.com/privacy.php)
+
+#### Community
+* [Forum](http://forums.iobit.com/forum/advanced-systemcare?f=4)
+* [Facebook](http://www.facebook.com/iobitsoft)
+* [Google+](https://plus.google.com/+iobit)
+* [YouTube](http://www.youtube.com/iobit)
+* [Twitter](http://twitter.com/iobitsoft)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <projectUrl>http://www.iobit.com/advancedsystemcareper.php</projectUrl>
+    <projectSourceUrl />
+    <bugTrackerUrl />
+    <docsUrl>http://www.iobit.com/product-manuals/asc-ultimate-help/</docsUrl>
+    <mailingListUrl>http://forums.iobit.com/forum/advanced-systemcare?f=4</mailingListUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages//icons/{{PackageName}}.png</iconUrl>
+    <tags>trial antivirus privacy optimization registry cleaner</tags>
+    <copyright>© 2005 IObit</copyright>
+    <licenseUrl>http://www.iobit.com/legal.php</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [News](http://forums.iobit.com/forum/general-forums/news-offers)
+* [RSS feed](http://www.iobit.com/rss.xml)
+* [Changelog](http://download.iobit.com/mediaresource/materials/ascu.pdf)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

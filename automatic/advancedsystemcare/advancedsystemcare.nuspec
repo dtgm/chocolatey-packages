@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>Advanced SystemCare Free/Pro</title>
+    <version>{{PackageVersion}}</version>
+    <authors>IObit</authors>
+    <owners>dtgm</owners>
+    <summary>One-click approach to protect, repair, clean, and optimize your PC</summary>
+    <description>
+Advanced SystemCare is a system optimization program which provides automatic and all-in-one PC care service with Spyware Removal, Registry Fix, Privacy Protection, Performance Tune-up, and System Cleaning capabilities. The software takes a one-click approach to protect, repair, clean, and optimize your PC.
+
+#### Commercial software
+This package installs the Free version which is [feature-limited](http://www.iobit.com/en/advancedsystemcarepro.php#container). Users who purchase a Pro license may register this software to unlock additional features.
+
+#### Documentation
+* [Features](http://www.iobit.com/en/allfaq.php#a1d0c6e83f027327d8461063f4ac58a6)
+* [FAQ](http://www.iobit.com/en/faq.php)
+* [System requirements](http://www.iobit.com/en/allfaq.php#17e62166fc8586dfa4d1bc0e1742c08b)
+* [Privacy Policy](http://www.iobit.com/privacy.php)
+
+#### Community
+* [Forum](http://forums.iobit.com/forum/advanced-systemcare?f=4)
+* [Facebook](http://www.facebook.com/iobitsoft)
+* [Google+](https://plus.google.com/+iobit)
+* [YouTube](http://www.youtube.com/iobit)
+* [Twitter](http://twitter.com/iobitsoft)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <projectUrl>http://www.iobit.com/advancedsystemcareper.php</projectUrl>
+    <projectSourceUrl />
+    <bugTrackerUrl />
+    <docsUrl>http://www.iobit.com/product-manuals/asc-help/</docsUrl>
+    <mailingListUrl>http://forums.iobit.com/forum/advanced-systemcare?f=4</mailingListUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages//icons/{{PackageName}}.png</iconUrl>
+    <tags>freeware optimization registry cleaner</tags>
+    <copyright>© 2005 IObit</copyright>
+    <licenseUrl>http://www.iobit.com/legal.php</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [News](http://forums.iobit.com/forum/general-forums/news-offers)
+* [RSS feed](http://www.iobit.com/rss.xml)
+* [Changelog](http://download.iobit.com/mediaresource/materials/asc.pdf)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
