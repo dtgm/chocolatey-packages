@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>{{PackageName}}</id>
     <title>Fontmatrix</title>
@@ -21,18 +21,25 @@ According to Haralambous, here is what we can expect a font manager to provide:
 5. Rapidly assembling all of the fonts used in a ﬁle and copying them into a folder near the ﬁle, if the ﬁle is to be sent to a colleague.
 
 [FAQ](http://fontmatrix.be/node/28)
-[Manual](http://fontmatrix.be/node/10)
     </description>
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://fontmatrix.be/</projectUrl>
     <projectSourceUrl>http://svn.gna.org/svn/undertype/trunk/tools/typotek</projectSourceUrl>
+    <bugTrackerUrl>https://gna.org/bugs/</bugTrackerUrl>
+    <docsUrl>http://fontmatrix.be/node/10</docsUrl>
+    <mailingListUrl>https://mail.gna.org/listinfo/undertype-users/</mailingListUrl>
     <tags>font manager</tags>
     <copyright>© 2008 Pierre Marchand</copyright>
     <licenseUrl>http://svn.gna.org/svn/undertype/trunk/tools/typotek/COPYING</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/4436af6a3f20ad035d7e14772a25bfc8736604cb/icons/{{PackageName}}.svg</iconUrl>
     <releaseNotes>
-[Development changelog](http://svn.gna.org/svn/undertype/trunk/tools/typotek/ChangeLog)
+#### Program
+* [Roadmap](http://fontmatrix.be/node/27)
+* [Changelog](http://svn.gna.org/svn/undertype/trunk/tools/typotek/ChangeLog)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
     <dependencies>
       <dependency id="autohotkey.portable" />
