@@ -40,6 +40,9 @@ GitHub Desktop includes a fully functional version of [msysgit](https://chocolat
 #### GitHub.com
 * [Site Status](https://status.github.com/)
 * [Site Policy](https://help.github.com/categories/site-policy/)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
     <dependencies>
       <dependency id="autohotkey.portable" />
