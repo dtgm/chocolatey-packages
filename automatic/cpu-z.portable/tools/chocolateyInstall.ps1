@@ -9,7 +9,6 @@ $installFile64 = Join-Path $toolsDir "cpuz_x64.exe"
 Install-ChocolateyZipPackage -PackageName "$packageName" `
                              -Url "$url" `
                              -UnzipLocation "$toolsDir" `
-                             -Url64bit "" `
                              -Checksum "$checksum" `
                              -ChecksumType "$checksumType"
 

@@ -12,7 +12,7 @@ Disk2vhd is a utility that creates VHD (Virtual Hard Disk - Microsoft's Virtual 
     </description>
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://technet.microsoft.com/sysinternals/ee656415</projectUrl>
-    <mailingListUrl>http://forum.sysinternals.com/</mailingListUrl>
+    <mailingListUrl>http://forum.sysinternals.com/disk2vhd_forum20.html</mailingListUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/cf1efc0aac843672fbf1ca0e15082e4e11357df9/icons/{{PackageName}}.png</iconUrl>
     <tags>vhd vhdx converter virtualbox vmware sysinternals gui admin</tags>
     <copyright>© 2009-2014 Mark Russinovich</copyright>

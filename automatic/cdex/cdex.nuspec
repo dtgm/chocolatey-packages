@@ -12,7 +12,7 @@ CDex can extract the data directly (digital) from an Audio CD, which is generall
     </description>
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://cdexos.sourceforge.net/</projectUrl>
-    <tags>notsilent audio cd ripper extract cdda encoder</tags>
+    <tags>unattended audio cd ripper extract cdda encoder</tags>
     <copyright>Ariane Paola Gomes, Georgy Berdyshev</copyright>
     <licenseUrl>http://cdexos.sourceforge.net/?q=license</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

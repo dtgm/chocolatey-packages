@@ -10,7 +10,7 @@
     <description>
 Jump to the registry path you specify in Regedit.
 
-This little command-line applet takes a registry path and makes Regedit open to that path. It accepts root keys in standard (e.g. HKEY_LOCAL_MACHINE) and abbreviated form (e.g. HKLM).
+This little command-line applet takes a registry path and makes Regedit open to that path. It accepts root keys in standard (e.g. `HKEY_LOCAL_MACHINE`) and abbreviated form (e.g. `HKLM`).
     </description>
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://technet.microsoft.com/sysinternals/bb963880</projectUrl>

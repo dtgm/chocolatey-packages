@@ -21,7 +21,7 @@ Be aware that in Windows NT, 2000 and XP, this utility will not work if you don'
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/tflash2.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/tflash.png</iconUrl>
-    <tags>flash block</tags>
+    <tags>flash block gui</tags>
     <copyright>© 2003 NirSoft</copyright>
     <licenseUrl>http://www.nirsoft.net/utils/tflash2.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

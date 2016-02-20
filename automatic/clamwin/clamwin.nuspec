@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>{{PackageName}}</id>
-    <title>ClamWin Free Antivirus</title>
+    <title>ClamWin</title>
     <version>{{PackageVersion}}</version>
     <authors>ClamWin</authors>
     <owners>dtgm</owners>
     <summary>Free, open source antivirus scanner</summary>
     <description>
-ClamWin Free Antivirus is based on ClamAV engine and uses GNU General Public License by the Free Software Foundation, and is free (as in freedom) software.
+ClamWin is a Free Antivirus program based on ClamAV engine and uses GNU General Public License by the Free Software Foundation, and is free (as in freedom) software.
 
 #### Features
 * High detection rates for viruses and spyware;
@@ -17,12 +17,10 @@ ClamWin Free Antivirus is based on ClamAV engine and uses GNU General Public Lic
 * Standalone virus scanner and right-click menu integration to Microsoft Windows Explorer;
 * Addin to Microsoft Outlook to remove virus-infected attachments automatically.
 
-Please note that ClamWin Free Antivirus does not include an on-access, real-time scanner. You need to manually scan a file or schedule a scan via Task Scheduler in order to detect a virus or spyware.
+Please note that ClamWin does not include an on-access, real-time scanner. You need to manually scan a file or schedule a scan via `Task Scheduler` in order to detect a virus or spyware.
 
-#### Documentation
 * [Screenshots](http://www.clamwin.com/content/view/23/55/)
 * [FAQ](http://www.clamwin.com/content/category/3/7/27/)
-* [Manual](http://www.clamwin.com/content/category/4/22/89/)
 * [Privacy Policy](www.clamwin.com/content/view/171/107/)
 
 #### Community
@@ -33,8 +31,9 @@ Please note that ClamWin Free Antivirus does not include an on-access, real-time
     <projectSourceUrl>https://sourceforge.net/p/clamwin/code/ci/master/tree/</projectSourceUrl>
     <bugTrackerUrl>https://sourceforge.net/p/clamwin/bugs/</bugTrackerUrl>
     <mailingListUrl>https://sourceforge.net/p/clamwin/mailman/</mailingListUrl>
+    <docsUrl>http://www.clamwin.com/content/category/4/22/89/</docsUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/82dd10296475d3db371d5e8a86bfd768f2d093bb/icons/{{PackageName}}.png</iconUrl>
-    <tags>notsilent antivirus virus-scanner security</tags>
+    <tags>antivirus virus-scanner security unattended</tags>
     <copyright>ClamWin Pty Ltd</copyright>
     <licenseUrl>http://www.clamwin.com/content/view/226/52/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

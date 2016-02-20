@@ -10,7 +10,7 @@
     <description>
 This utility allows you to easily disable/enable ActiveX components on Internet Explorer browser.
 
-It disables the desired ActiveX component by setting the &quot;kill bit&quot; of the desired CLSID under the following Registry key: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility 
+It disables the desired ActiveX component by setting the &quot;kill bit&quot; of the desired CLSID under the following Registry key: `HKLM:\SOFTWARE\Microsoft\Internet Explorer\ActiveX Compatibility`
 
 For more information about this Registry key, read this [Microsoft article](http://support.microsoft.com/default.aspx?kbid=240797).
     </description>

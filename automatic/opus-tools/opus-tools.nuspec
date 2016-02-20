@@ -15,7 +15,7 @@ Opus is a totally open, royalty-free, highly versatile audio codec. Opus is unma
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.opus-codec.org/</projectUrl>
     <projectSourceUrl>http://git.xiph.org/?p=opus.git</projectSourceUrl>
-    <tags>cli codec opus</tags>
+    <tags>audio codec speech cli</tags>
     <copyright>© 2011 Opus</copyright>
     <licenseUrl>http://www.opus-codec.org/license/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

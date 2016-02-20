@@ -6,7 +6,7 @@
     <version>{{PackageVersion}}</version>
     <authors>Mark Russinovich</authors>
     <owners>dtgm</owners>
-    <summary>Securely overwrite your sensitive files and cleanse your free space of previously deleted files using this DoD-compliant secure delete program</summary>
+    <summary>Securely overwrite sensitive files and cleanse free space</summary>
     <description>
 Securely overwrite your sensitive files and cleanse your free space of previously deleted files using this DoD-compliant secure delete program.
 
@@ -35,7 +35,7 @@ __-z__  Zero free space (good for virtual disk optimization).
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://technet.microsoft.com/sysinternals/bb897443</projectUrl>
     <mailingListUrl>http://forum.sysinternals.com/</mailingListUrl>
-    <tags>privacy secure delete erase sysinternals cli</tags>
+    <tags>privacy security delete erase sysinternals cli</tags>
     <copyright>© Mark Russinovich</copyright>
     <licenseUrl>https://technet.microsoft.com/en-us/sysinternals/bb469936</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

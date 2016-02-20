@@ -6,7 +6,7 @@
     <version>{{PackageVersion}}</version>
     <authors>Genymobile</authors>
     <owners>dtgm</owners>
-    <summary>The fastest Android emulator for app testing and presentation</summary>
+    <summary>Fastest Android emulator for app testing and presentation</summary>
     <description>
 Genymotion is an Android emulator built on x86 architecture and Virtualbox. It's designed for quickly building and testing Android apps. Because it is not an ARM emulator it achieves much better performance than the Android SDK Emulator. It offers 20 pre-configured devices and you can create your own custom ones.
 
@@ -30,6 +30,7 @@ Genymotion is the commercial, rebranded version of the discontinued AndroVM open
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
     <dependencies>
+      <dependency id="vcredist2008" />
       <dependency id="virtualbox" />
     </dependencies>
   </metadata>

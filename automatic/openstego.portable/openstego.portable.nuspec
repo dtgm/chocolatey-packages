@@ -6,7 +6,7 @@
     <version>{{PackageVersion}}</version>
     <authors>Samir Vaidya</authors>
     <owners>dtgm</owners>
-    <summary>Free steganography solution</summary>
+    <summary>Open source steganography solution</summary>
     <description>
 OpenStego is a steganography application that provides two functionalities: a) Data Hiding: It can hide any data within a cover file (e.g. images). b) Watermarking: Watermarking files (e.g. images) with an invisible signature. It can be used to detect unauthorized file copying.
 

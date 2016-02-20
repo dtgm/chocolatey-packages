@@ -14,7 +14,7 @@ You can determine who is using resources on your local computer with the "net" c
 
 #### Command line usage
 
-__psloggedon__ [__- __] [__-l__] [__-x__] [\\computername | username]
+__psloggedon__ [__-__] [__-l__] [__-x__] [\\\\computername | username]
 
 __-__    Displays the supported options and the units of measurement used for output values.
 
@@ -22,7 +22,7 @@ __-l__    Shows only local logons instead of both local and network resource log
 
 __-x__    Don't show logon times.
 
-__\\computername__    Specifies the name of the computer for which to list logon information.
+__\\\\computername__    Specifies the name of the computer for which to list logon information.
 
 __username__    If you specify a user name _PsLoggedOn_ searches the network for computers to which that user is logged on. This is useful if you want to ensure that a particular user is not logged on when you are about to change their user profile configuration.
     </description>

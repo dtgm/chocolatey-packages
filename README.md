@@ -67,7 +67,7 @@ chocolatey-packages
 
 ##### Source files typically containing variable values
 
-Package manifest: [Nuspec](http://docs.nuget.org/Create/Nuspec-Reference) (nuspec)
+Package manifest: [Nuspec](http://docs.nuget.org/Create/Nuspec-Reference) (nuspec)  
 Install and uninstall scripts: [PowerShell](https://technet.microsoft.com/en-us/library/bb978526.aspx) (ps1)
 
 ##### Source files typically __not__ containing variable values

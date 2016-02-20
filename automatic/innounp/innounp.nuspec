@@ -24,7 +24,7 @@ The advantages over InstallExplorer are:
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <tags>commandline InnoSetup extract</tags>
     <dependencies>
-      <dependency id="7zip" />
+      <dependency id="7zip.commandline" />
     </dependencies>
   </metadata>
   <files>

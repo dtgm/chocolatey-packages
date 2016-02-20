@@ -8,7 +8,6 @@ $installFile = Join-Path $toolsDir "$($packageName).exe"
 Get-ChocolateyWebFile -PackageName "$packageName" `
                       -FileFullPath "$installFile" `
                       -Url "$url" `
-                      -Url64bit "" `
                       -Checksum "$checksum" `
                       -ChecksumType "$checksumType"
 

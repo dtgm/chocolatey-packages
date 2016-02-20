@@ -13,7 +13,7 @@ Detects and remove spyware, adware, malware, trojans, rogue software, worms, roo
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.superantispyware.com/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/d1e037cc7c943fda29b9067b3b1c3229d99402ff/icons/{{PackageName}}.png</iconUrl>
-    <tags>notSilent anti-spyware anti-malware adware trojan</tags>
+    <tags>unattended anti-spyware anti-malware adware trojan</tags>
     <copyright>© Support.com Inc</copyright>
     <licenseUrl>http://www.superantispyware.com/eula.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
