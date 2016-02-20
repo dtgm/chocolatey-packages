@@ -1,8 +1,8 @@
-$packageName = '{{PackageName}}'
+$packageName = 'datacrow'
 $installerType = 'exe'
 $silentArgs = ''
-$url = '{{PackageGuid}}'
-$checksum = '{{Checksum}}'
+$url = 'http://www.fosshub.com/genLink/Data-Crow/datacrow_4_1_0_windows_installer.zip'
+$checksum = 'e1e6cf5f867de776786ba71d304a5af3809e90f9'
 $checksumType = 'sha1'
 $validExitCodes = @(0)
 
@@ -14,7 +14,7 @@ $tempDir = Join-Path $env:Temp "$packageName"
 if (![System.IO.Directory]::Exists($tempDir)) {[System.IO.Directory]::CreateDirectory($tempDir) | Out-Null}
 $tempDir = Join-Path $tempDir $env:packageVersion
 if (![System.IO.Directory]::Exists($tempDir)) {[System.IO.Directory]::CreateDirectory($tempDir) | Out-Null}
-$zipFile = Join-Path $tempDir '{{DownloadUrlx64}}'
+$zipFile = Join-Path $tempDir 'datacrow_4_1_0_windows_installer.zip'
 $installFile32 = "$tempDir\setup32bit.exe"
 $installFile64 = "$tempDir\setup64bit.exe"
 

@@ -1,4 +1,4 @@
-$packageName = "{{PackageName}}"
+$packageName = "datacrow"
 $silentArgs = '-c -f'
 
 Write-Debug "Searching for uninstall file..."

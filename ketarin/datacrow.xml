@@ -1,11 +1,11 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="fae14ca8-a649-46b8-aadc-f32c8f113e89">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
     <LastFileSize>87579137</LastFileSize>
-    <LastFileDate>2015-10-10T04:54:52.0201974</LastFileDate>
+    <LastFileDate>2015-07-04T02:35:24-06:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -162,7 +162,7 @@
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-10-10T04:54:52.0201974</LastUpdated>
+    <LastUpdated>2016-02-20T12:53:41.4731122-07:00</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>datacrow</Name>
