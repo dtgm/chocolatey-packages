@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <AutomatedInstallation langpack="eng">
-  <com.izforge.izpack.panels.checkedhello.CheckedHelloPanel id="hellopanel"/>
-  <com.izforge.izpack.panels.htmlinfo.HTMLInfoPanel id="infopanel"/>
-  <com.izforge.izpack.panels.htmllicence.HTMLLicencePanel id="licensepanel"/>
   <com.izforge.izpack.panels.target.TargetPanel id="targetpanel">
     <installpath>C:\Program Files\IzPack</installpath>
   </com.izforge.izpack.panels.target.TargetPanel>
@@ -10,7 +7,6 @@
     <pack index="0" name="Core" selected="true"/>
     <pack index="1" name="Utilities" selected="true"/>
   </com.izforge.izpack.panels.packs.PacksPanel>
-  <com.izforge.izpack.panels.summary.SummaryPanel id="summarypanel"/>
   <com.izforge.izpack.panels.install.InstallPanel id="installpanel"/>
   <com.izforge.izpack.panels.shortcut.ShortcutPanel id="shortcutpanel">
     <createMenuShortcuts>true</createMenuShortcuts>
