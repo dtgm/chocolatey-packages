@@ -24,7 +24,7 @@ The NTFS filesystem supports a lot of features like Hardlinks, Junctions Symboli
 * [Changelog](http://schinagl.priv.at/nt/{{PackageName}}/{{PackageName}}.html#history)
 
 #### Package
-* Automatically generated and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
     <dependencies>
       <dependency id="vcredist2005" version="8.0.6.0" />

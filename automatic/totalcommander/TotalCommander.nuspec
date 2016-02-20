@@ -10,35 +10,35 @@
     <description>
 Total Commander is a file manager replacement for Windows. Features: Drag/Drop from and to explorer/desktop. Packer shell for ZIP/ARJ/LHA/RAR/UC2/TAR/GZ/CAB/ACE. Command line, full text search also in packed files, button bar. Supports over 40 languages. FTP client, access to Network Neighborhood, Uuencode/Decode, compare, synchronize dirs. Changes: Unicode support, CHM help, names up to 1022 chars, breadcrumb bar, password safe, quick filter.
 
-[Features](http://keepass.info/features.html)
-[Screenshots](http://keepass.info/screenshots.html#scr2x)
 [FAQ](http://www.ghisler.com/faq.htm)
-[Forum](http://www.ghisler.ch/board/index.php)
-[Wiki](http://www.ghisler.ch/wiki/index.php)
-
 [Plugins](http://www.ghisler.ch/wiki/index.php/Developer%27s_corner)
 [Plugin downloads](http://totalcmd.net/)
 [Plugin development](http://totalcmd.net/directory/developer.html)
 
-http://www.ghisler.com/order.htm
+### Commercial software
+
+Total Commander is a Shareware program. This means that you can test it for a period of 30 days. After testing the program, you must either [order the full version](http://www.ghisler.com/order.htm), or delete the program from your harddisk.
     </description>
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.ghisler.com</projectUrl>
-    <tags>shareware file manager</tags>
+    <bugTrackerUrl>http://www.ghisler.ch/wiki/index.php/Known_bugs_and_workarounds</bugTrackerUrl>
+    <docsUrl>http://www.ghisler.ch/wiki/index.php</docsUrl>
+    <mailingListUrl>http://www.ghisler.ch/board/index.php</mailingListUrl>
+    <tags>file manager shareware nagscreen</tags>
     <copyright>© 1995 Christian Ghisler</copyright>
-    <licenseUrl>http://www.ghisler.com/faq.htm</licenseUrl>
+    <licenseUrl>http://www.ghisler.com/order.htm</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/92907451d61ad48c9e7ed7ab1df00f1b72214f7e/icons/{{PackageName}}.png</iconUrl>
     <releaseNotes>
 ### Program
 * [News](http://www.ghisler.com/mailing.htm)
-* [Known issues] ([forum](http://www.ghisler.ch/board/index.php?c%3D4%26sid%3D213fe3b3217b2f1e5d9df18bbc03dd8d), ([wiki](http://www.ghisler.ch/wiki/index.php/Known_bugs_and_workarounds))
 
 ### Package
-* Automatically generated and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
     <dependencies>
       <dependency id="7zip.commandline" />
+      <dependency id="autohotkey.portable" />
     </dependencies>
   </metadata>
   <files>

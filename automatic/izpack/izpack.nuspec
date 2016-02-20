@@ -33,7 +33,7 @@ Easily make installers that work seamlessly on Microsoft Windows™, Linux™, S
 * [Roadmap](http://jira.codehaus.org/browse/IZPACK#selectedTab=com.atlassian.jira.plugin.system.project%3Aroadmap-panel)
 
 #### Package
-* Automatically generated and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
     <dependencies>
       <dependency id="javaruntime" />
