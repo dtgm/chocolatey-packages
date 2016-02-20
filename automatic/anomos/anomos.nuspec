@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>Anomos</title>
+    <version>{{PackageVersion}}</version>
+    <authors>John M. Schanck,Richard Jones</authors>
+    <owners>dtgm</owners>
+    <summary>Pseudonymous, encrypted multi-peer-to-peer file distribution protocol</summary>
+    <description>
+Anomos is a pseudonymous, encrypted multi-peer-to-peer file distribution protocol. It is based on the peer/tracker concept of BitTorrent in combination with an onion routing anonymization layer, with the added benefit of end-to-end encryption. By combining these technologies, we have created a platform where by no party outside of the trusted tracker will have any information about who a peer is or what they are downloading.
+
+Anomos is designed to be easy to use – you won’t even be aware of the security that it provides. Anybody who is already familiar with BitTorrent won’t have to do anything differently, other than use ‘atorrent’ files rather than ‘torrent’ files.
+
+Please Note: Anomos is an experimental anonymity protocol. It has not yet undergone the serious peer-review necessary to consider it safe for general use. Do not rely on it for strong anonymity.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <projectUrl>https://anomos.info/</projectUrl>
+    <projectSourceUrl>http://git.anomos.info/?p=anomos.git</projectSourceUrl>
+    <docsUrl>http://anomos.info/doc/</docsUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/b4b21d25c9dbf5781471895d602280c0081e0859/icons/{{PackageName}}.png</iconUrl>
+    <tags>privacy p2p bittorrent</tags>
+    <copyright>© John M. Schanck, Richard Jones</copyright>
+    <licenseUrl>https://anomos.info/wp/legal/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [News](https://anomos.info/wp/blog/)
+* [Community](https://anomos.info/wp/community/)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="autohotkey.portable" />
+      <dependency id="vcredist2008" />
+      <dependency id="openssl.light" version="0.9.8" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

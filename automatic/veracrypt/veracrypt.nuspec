@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{packageName}}</id>
+    <version>{{packageVersion}}</version>
+    <title>VeraCrypt</title>
+    <authors>Mounir IDRASSI</authors>
+    <owners>dtgm</owners>
+    <summary>Open source disk encryption with strong security for the Paranoid </summary>
+    <description>
+VeraCrypt is based on the abandoned software program "TrueCrypt."  VeraCrypt adds enhanced security to the algorithms used for system and partitions encryption making it less vulnerable to brute-force attacks at the cost of slightly longer time to mount the encrypted data.
+
+VeraCrypt storage format is INCOMPATIBLE with TrueCrypt storage format.
+    </description>
+    <releaseNotes>https://veracrypt.codeplex.com/wikipage?title=Release%20Notes</releaseNotes>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <projectUrl>https://veracrypt.codeplex.com/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/master/icons/veracrypt.png</iconUrl>
+    <licenseUrl>https://veracrypt.codeplex.com/wikipage?title=VeraCrypt%20License</licenseUrl>
+    <copyright>© IDRIX Cryptography and IT Security Experts</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>disk-encryption security privacy</tags>
+    <dependencies>
+      <dependency id="autohotkey.portable" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

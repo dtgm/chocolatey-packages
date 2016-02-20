@@ -1,0 +1,135 @@
+Abstract: 
+I am looking for any opinions on how chocolatey should present the title for packages with plugins.
+
+Existing definitions:
+packageId = nuspec <id> = what is typed to ID package from command line
+example: choco install keepass
+in this example, packageId = keepass
+
+packageTitle = nuspec <title> = what is presented to user when browsing public gallery feed at https://chocolatey.org/
+example: https://chocolatey.org/packages/keepass
+in this example, packageTitle = KeePass Password Safe 
+
+Current guidelines:
+
+Existing package(s) that contain "plug-in" within their packageId:
+0
+NONE
+
+Existing package(s) that contain "plugin" within their packageId:
+8
+flashplayerplugin 17.0.0.188
+ie_plugin_box2d 0.1
+ie_plugin_framework 0.1
+irfanviewplugins 4.38
+packer-windows-plugins 1.0.0
+PidginOtrPlugin 4.0.0.1
+Sogeti.WindowsAzure.Plugins.Endpoint.ACL 1.0.0
+vagrant_plugins 1.0.0.1
+
+Existing package(s) that contain "plug*in" within their packageTitle:
+
+flashplayerplugin.17.0.0.188/flashplayerplugin.nuspec:
+  <title>Flash Player Plugin</title>
+hggit.0.0.0.0-HEAD/hggit.nuspec:
+  <title>Hg-Git Mercurial Plugin</title>
+ie_box2d_api_sample1.0.2/ie_box2d_api_sample1.nuspec:
+  <title>Sample API for the Box2d IE plugin</title>
+ie_plugin_box2d.0.1/ie_plugin_box2d.nuspec:
+  <title>Box2d plugin for IE11</title>
+ie_plugin_framework.0.1/ie_plugin_framework.nuspec:
+  <title>Plugin framework for Internet Expolorer</title>
+irfanviewplugins.4.38/irfanviewplugins.nuspec:
+  <title>IrfanView PlugIns</title>
+p4scc.2012.1/p4scc.nuspec:
+  <title>P4SCC: SCC Plug-in</title>
+packer-windows-plugins.1.0.0/packer-windows-plugins.nuspec:
+  <title>Packer Windows Plugins</title>
+PidginOtrPlugin.4.0.0.1/PidginOtrPlugin.nuspec:
+  <title>Pidgin Otr Plugin</title>
+Sogeti.WindowsAzure.Plugins.Endpoint.ACL.1.0.0/Sogeti.WindowsAzure.Plugins.Endpoint.ACL.nuspec:
+  <title>Web/Worker Role Endpoint ACL Plugin</title>
+vagrant_plugins.1.0.0.1/vagrant_plugins.nuspec:
+  <title>vagrant_plugins</title>
+WinCyApk.0.0.2/WinCyApk.nuspec:
+  <title>WinCy APK Plugin</title>
+
+Of noticeable interest is all but 2 have one of PlugIns, Plug-in, Plugins, Plugin, plugins and they all occur at the end of the title.
+
+The 2 that do not are:
+ie_plugin_box2d.0.1/ie_plugin_box2d.nuspec:    
+  <title>Box2d plugin for IE11</title>
+ie_plugin_framework.0.1/ie_plugin_framework.nuspec:    
+  <title>Plugin framework for Internet Expolorer</title>
+
+Existing package(s) that contain "add*on" within their packageTitle:
+
+NuGet.ContextMenu.1.0.0.20141024/NuGet.ContextMenu.nuspec:
+  <title>NuGet ContextMenu Add-On</title>
+
+
+Naming plugins:
+
+
+For the package ID, (choco install packageId) I decided to use the method: 
+
+PROGRAM-plugin-PLUGIN
+
+uppercase = variable
+
+For this example, I will use the KeePass package.
+
+packageId = keepass
+packageTitle = KeePass
+
+packageId = keepass-plugin-truecryptmount
+packageTitle = ???
+
+Assuming the packageId is correct and 'Plugin' with no hyphenation shall be used.
+So how shall the nuspec title element be set?
+Here are some variations:
+
+1. TrueCryptMount
+2a. TrueCryptMount (Plugin)
+2b. TrueCryptMount (KeePass Plugin)
+2c. KeePass TrueCryptMount (Plugin)
+3. KeePass TrueCryptMount Plugin
+4. KeePass Plugin TrueCryptMount
+
+1. TrueCryptMount - This is the cleanest option.
+  Intuitive package nuspec ID = truecryptmount'
+  Pro = least typing
+  Con = more difficult to locate plugins; eg. choco list plugin
+2a. TrueCryptMount (Plugin) - 2a/b/c borrow the format of (Install) and (Portable) nomenclature from triumvirate packages which is used to differentiate packages that have either of two install methods; install to registry 'FOO.install' or install to self-contained directory 'FOO.portable'.
+  Intuitive package nuspec ID = truecryptmount.plugin
+  Pro = 
+  Con = unclear; plugin for what software? 2b or 2c would resolve this
+2b. TrueCryptMount (KeePass Plugin) - Ibid
+  Intuitive package nuspec ID = truecryptmount.keepass-plugin
+  Pro = adds which software plugin is for in suffix
+  Con = 
+2c. KeePass TrueCryptMount (Plugin) - Ibid
+  Intuitive package nuspec ID = keepass-truecryptmount.plugin
+  Pro = adds which software plugin is for in prefix
+  Con = 
+3. KeePass TrueCryptMount Plugin - Only hyphens
+  Intuitive package nuspec ID = 'keepass-truecryptmount-plugin
+  Pro = 
+  Con = 
+4. KeePass Plugin TrueCryptMount - Only hyphens
+  Intuitive package nuspec ID = 'keepass-plugin-truecryptmount
+  Pro = creates 2nd order organization
+    * simplified organization; 'choco list keepass-plugin' would return all plugins for keepass; so searching for FOO-plugin will find plugins if any exist for some program FOO
+    * satisfies closest with recommended hyphen approach (disregarding period)
+  Con = 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
