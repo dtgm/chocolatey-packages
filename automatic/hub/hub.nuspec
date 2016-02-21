@@ -33,7 +33,7 @@ See [github](https://chocolatey.org/packages/github)
     <projectSourceUrl>https://github.com/github/hub</projectSourceUrl>
     <bugTrackerUrl>https://github.com/github/hub/issues</bugTrackerUrl>
     <docsUrl>https://hub.github.com/hub.1.html</docsUrl>
-    <tags>cli github git scm distributed posh-git tabexpansion</tags>
+    <tags>cli github git scm distributed tabexpansion</tags>
     <copyright>© 2009 Chris Wanstrath</copyright>
     <licenseUrl>https://github.com/github/hub/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
