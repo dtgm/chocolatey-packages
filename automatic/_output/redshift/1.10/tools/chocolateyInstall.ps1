@@ -1,6 +1,6 @@
 $packageName = 'redshift'
-$url = 'https://github.com/jonls/redshift/archive/v1.10.zip'
-$checksum = '984bdeadff3e5c31c5b0fb9c55e1232f86382cf1'
+$url = 'https://github.com/jonls/redshift/releases/download/v1.10/redshift-1.10-windows-x86_64.zip'
+$checksum = '9320be6785c1953034f3beb2e7638da9c6412490'
 $checksumType = 'sha1'
 $url64 = "$url"
 $checksum64 = "$checksum"

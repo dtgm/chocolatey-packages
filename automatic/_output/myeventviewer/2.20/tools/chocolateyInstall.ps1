@@ -1,9 +1,9 @@
 $packageName = 'myeventviewer'
 $url = 'http://www.nirsoft.net/utils/myeventviewer.zip'
-$checksum = 'f571597f286fd33604d14b8c13e66a49915d1214'
+$checksum = 'bfb34978c6693fa882ac7d6029c7573007d40f07'
 $checksumType = 'sha1'
 $url64 = 'http://www.nirsoft.net/utils/myeventviewer-x64.zip'
-$checksum64 = '0ba64665b4ad1ea807cb5d5275e1e261b047f3ea'
+$checksum64 = '47459457be9cbcda0dd14483c2e5682cff78e964'
 $checksumType64 = 'sha1'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $installFile = Join-Path $toolsDir "$($packageName).exe"
