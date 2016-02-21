@@ -23,12 +23,8 @@ $regPath = Get-ItemProperty -Path @('HKLM:\Software\Wow6432Node\Microsoft\Window
                                     'HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*',
                                     'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*') `
                             -ErrorAction:SilentlyContinue `
-           | Where-Object {$_.DisplayName -like "$packageSearch*" `
-                           -and `
-                           $_.DisplayVersion -ge 2.0 `
-                           -and `
-                           $_.DisplayVersion -lt 3.0 } `
-           | ForEach-Object { $_.InstallLocation }
+           | Where-Object {$_.DisplayName -like "$packageSearch*"} `
+           | ForEach-Object {$_.InstallLocation}
 $installPath = $regPath
 if (! $installPath) {
   Write-Verbose "Searching $env:ChocolateyBinRoot for portable install..."
@@ -58,7 +54,7 @@ if ($pluginPath.Count -eq 0) {
 $installFile = Join-Path $pluginPath "$($packageName).plgx"
 Remove-Item -Path $installFile `
             -Force `
-            -ErrorAction Continue
+            -ErrorAction SilentlyContinue
 } catch {
   throw $_.Exception
 }

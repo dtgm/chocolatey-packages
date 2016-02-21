@@ -7,7 +7,6 @@ if ($psver -ge 3) {
 }
 
 $packageName = 'keepass-plugin-keecloud'
-$typName = 'KeeCloud.plgx'
 $packageSearch = 'KeePass Password Safe'
 $url = 'https://bitbucket.org/devinmartin/keecloud/downloads/KeeCloud-1.2.0.1.plgx'
 $checksum = '0f3a95e674a04d2032f726289df848a9bbdc88fc'
@@ -51,19 +50,12 @@ if ($pluginPath.Count -eq 0) {
   $pluginPath = Join-Path $installPath "Plugins"
   [System.IO.Directory]::CreateDirectory($pluginPath)
 }
-Write-Verbose "Downloading and extracting zip into tools dir."
-$toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-Install-ChocolateyZipPackage -PackageName "$packageName" `
-                             -Url "$url" `
-                             -UnzipLocation "$toolsDir" `
-                             -Checksum "$checksum" `
-                             -ChecksumType "$checksumType"
-# rename PLGX file so it is clear which plugins are managed via choco
-$typPlugin = Join-Path $toolsDir $typName
-$chocoPlugin = Join-Path $pluginPath "$($packageName).plgx"
-Move-Item -Path $typPlugin -Destination $chocoPlugin -Force
-# cleanup unnecessary dlls
-Remove-Item -Path (Join-Path $toolsDir "dlls") -Recurse -Force
+$installFile = Join-Path $pluginPath "$($packageName).plgx"
+Get-ChocolateyWebFile -PackageName "$packageName" `
+                      -FileFullPath "$installFile" `
+                      -Url "$url" `
+                      -Checksum "$checksum" `
+                      -ChecksumType "$checksumType"
 if ( Get-Process -Name "KeePass" `
                  -ErrorAction SilentlyContinue ) {
   Write-Warning "$($packageSearch) is currently running. Plugin will be available at next restart of $($packageSearch)." 
