@@ -1,9 +1,9 @@
-$packageName = 'retroshare'
+$packageName = 'popcorntime'
 $installerType = 'exe'
-$silentArgs = '/S'
-$url = 'https://sourceforge.net/projects/retroshare/files/RetroShare/0.6.0-rc2/RetroShare_0.6.0_8551_rc2_setup.exe/download'
-$checksum = '77a52f449461352066d627a3042b7f7fc5e9fa94'
+$url = 'https://get.popcorntime.sh/build/Popcorn-Time-0.3.9-Setup.exe'
+$checksum = 'a99d252cb6480bb11445a36a1c2389077c48fd98'
 $checksumType = 'sha1'
+$silentArgs = '/S'
 $validExitCodes = @(0)
 
 Install-ChocolateyPackage -PackageName "$packageName" `

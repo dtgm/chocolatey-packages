@@ -14,20 +14,22 @@ Redshift adjusts the color temperature according to the position of the sun. A d
 
 This program is inspired by [f.lux](https://chocolatey.org/packages/f.lux) (please see [this post](http://jonls.dk/2009/12/flux-for-linux/) for the reason why I started this project).
 
-#### Documentation
+#### Command usage
 * `redshift -h`
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/redshift/1.10</packageSourceUrl>
     <projectUrl>http://jonls.dk/redshift/</projectUrl>
+    <projectSourceUrl>https://github.com/jonls/redshift/</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/jonls/redshift/issues</bugTrackerUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/fb866eb3910eb882e0571f91e883c8e65a121136/icons/redshift.svg</iconUrl>
-    <tags>sleep display cli</tags>
+    <tags>ergonomics sleep eye-strain lighting display cli</tags>
     <copyright>© Jon Lund Steffensen</copyright>
-    <licenseUrl>https://www.gnu.org/licenses/gpl-3.0.html</licenseUrl>
+    <licenseUrl>https://github.com/jonls/redshift/blob/master/COPYING</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
 #### Program
 * [Changelog](https://github.com/jonls/redshift/blob/master/NEWS.md)
-* [Known issues](http://jonls.dk/2010/09/windows-gamma-adjustments/)
-* [Source code](https://github.com/jonls/redshift/)
+* [Limitations](http://jonls.dk/2010/09/windows-gamma-adjustments/)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

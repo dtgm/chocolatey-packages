@@ -1,10 +1,15 @@
-$packageName = 'retroshare'
+$packageName = 'sonarr'
 $installerType = 'exe'
-$silentArgs = '/S'
-$url = 'https://sourceforge.net/projects/retroshare/files/RetroShare/0.6.0-rc2/RetroShare_0.6.0_8551_rc2_setup.exe/download'
-$checksum = '77a52f449461352066d627a3042b7f7fc5e9fa94'
+$silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
+$url = 'https://download.sonarr.tv/v2/master/latest/NzbDrone.master.exe'
+$checksum = '6ee82edfadb852dc7af4bde183ea6c05bd0da4b3'
 $checksumType = 'sha1'
 $validExitCodes = @(0)
+
+$scriptPath = Split-Path -parent $MyInvocation.MyCommand.Definition
+$ahkFile = Join-Path $scriptPath "chocolateyInstall.ahk"
+$ahkExe = 'AutoHotKey'
+Start-Process $ahkExe $ahkFile
 
 Install-ChocolateyPackage -PackageName "$packageName" `
                           -FileType "$installerType" `

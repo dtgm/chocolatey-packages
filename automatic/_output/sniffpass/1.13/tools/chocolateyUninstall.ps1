@@ -16,10 +16,11 @@ if (Test-Path -PathType Container (Join-Path $chocoLib 'sniffpass.*')) {
   package it points to as designated with *.install or *.portable.`n
 "@
   Write-Warning "To finish removing the program installed by package sniffpass, please also run the command:"
-  Write-Host " `n`tchoco uninstall " -NoNewLine
+  $text += " `n`tchoco uninstall "
   $list = (Get-ChildItemDir $chocoLib\sniffpass.*).Name
   foreach ($i in $list) {
-    Write-Host "$i " -NoNewLine
+    $text += "$i "
   }
-  Write-Host "-y"
+  $text += "-y`n"
+  Write-Host $text
 }
