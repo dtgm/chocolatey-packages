@@ -6,11 +6,11 @@ if ($psver -ge 3) {
   function Get-ChildItemDir {Get-ChildItem $args}
 }
 
-$packageName = 'keepass-plugin-keecloud'
-$typName = 'KeeCloud.plgx'
+$packageName = 'keepass-plugin-gost'
+$typName = 'GostPlugin.dll'
 $packageSearch = 'KeePass Password Safe'
-$url = 'https://bitbucket.org/devinmartin/keecloud/downloads/KeeCloud-1.2.0.1.plgx'
-$checksum = '0f3a95e674a04d2032f726289df848a9bbdc88fc'
+$url = 'https://github.com/yaruson/GostPlugin/releases/download/2.1/GostPlugin-v2.1.zip'
+$checksum = '887cc6065df319e0f78914c8953ebf2bfec13b98'
 $checksumType = 'sha1'
 
 try {
@@ -26,6 +26,7 @@ $regPath = Get-ItemProperty -Path @('HKLM:\Software\Wow6432Node\Microsoft\Window
                            $_.DisplayVersion -lt 3.0 } `
            | ForEach-Object {$_.InstallLocation}
 $installPath = $regPath
+# search $env:ChocolateyBinRoot for portable install
 if (! $installPath) {
   Write-Verbose "Searching $env:ChocolateyBinRoot for portable install..."
   $binRoot = Get-BinRoot
@@ -39,7 +40,8 @@ if (! $installPath) {
     $installPath = [io.path]::GetDirectoryName($installFullName)
   }
 }
-if (! $installPath) {
+if (!
+$installPath) {
   Write-Warning "$($packageSearch) not found."
   throw
 }
@@ -51,19 +53,16 @@ if ($pluginPath.Count -eq 0) {
   $pluginPath = Join-Path $installPath "Plugins"
   [System.IO.Directory]::CreateDirectory($pluginPath)
 }
-Write-Verbose "Downloading and extracting zip into tools dir."
-$toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+Write-Verbose "Downloading and extracting DLLs into Plugin dir..."
 Install-ChocolateyZipPackage -PackageName "$packageName" `
                              -Url "$url" `
-                             -UnzipLocation "$toolsDir" `
+                             -UnzipLocation "$pluginPath" `
                              -Checksum "$checksum" `
                              -ChecksumType "$checksumType"
-# rename PLGX file so it is clear which plugins are managed via choco
-$typPlugin = Join-Path $toolsDir $typName
-$chocoPlugin = Join-Path $pluginPath "$($packageName).plgx"
-Move-Item -Path $typPlugin -Destination $chocoPlugin -Force
-# cleanup unnecessary dlls
-Remove-Item -Path (Join-Path $toolsDir "dlls") -Recurse -Force
+## rename plugin file so it is clear which plugins are managed via choco
+#$typPlugin = Join-Path $pluginPath $typName
+#$chocoPlugin = "$($packageName).dll"
+#Rename-Item -Path $typPlugin -NewName $chocoPlugin -Force
 if ( Get-Process -Name "KeePass" `
                  -ErrorAction SilentlyContinue ) {
   Write-Warning "$($packageSearch) is currently running. Plugin will be available at next restart of $($packageSearch)." 

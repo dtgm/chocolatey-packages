@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>keepass-plugin-gost</id>
+    <title>KeePass Plugin Gost</title>
+    <version>2.1</version>
+    <authors>Nikolay Kim</authors>
+    <owners>dtgm</owners>
+    <summary>KeePass 2 plugin to encrypt databases using the GOST cipher</summary>
+    <description>
+Gost is a KeePass 2.x plugin to allow encrypting databases using the [GOST block cipher](https://wikipedia.org/wiki/GOST_(block_cipher).
+
+#### Features
+* Implementation of two ciphers defined within GOST R 34.12-2015: Kuznyechik and Magma (formely GOST 28147-89)
+* Both ciphers use 256-bit key; Kuznyechik handles 128-bit blocks and Magma – 64-bit blocks
+* This implementation uses Cipher Feedback (CFB) mode
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/keepass-plugin-gost/2.1</packageSourceUrl>
+    <projectUrl>https://github.com/yaruson/GostPlugin</projectUrl>
+    <projectSourceUrl>https://github.com/yaruson/GostPlugin</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/yaruson/GostPlugin/issues</bugTrackerUrl>
+    <tags>keepass plugin encryption cipher gost</tags>
+    <copyright>© 2015 Nikolay Kim</copyright>
+    <licenseUrl>https://github.com/yaruson/GostPlugin/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Changelog](https://github.com/yaruson/GostPlugin/releases/)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="keepass" version="[2.0, 3.0)" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
