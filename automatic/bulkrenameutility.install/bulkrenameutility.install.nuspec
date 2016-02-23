@@ -22,15 +22,18 @@ Bulk Rename Utility allows you to easily rename files and folders recursively ba
     <projectUrl>http://www.bulkrenameutility.co.uk/</projectUrl>
     <docsUrl>http://www.bulkrenameutility.co.uk/Downloads/BRU_Manual.pdf</docsUrl>
     <mailingListUrl>http://www.bulkrenameutility.co.uk/forum/</mailingListUrl>
-    <tags>freeware batch rename regex file</tags>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/4039ff8f517da1f1d35f59ac7c7f28a3d5645a9a/icons/bulkrenameutility.png</iconUrl>
+    <tags>freeware file batch rename regex</tags>
     <copyright>© 2002 TGRMN Software</copyright>
     <licenseUrl>http://www.bulkrenameutility.co.uk/License.php</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/4039ff8f517da1f1d35f59ac7c7f28a3d5645a9a/icons/bulkrenameutility.png</iconUrl>
-    <releaseNotes>http://www.bulkrenameutility.co.uk/Files/BRUChangelog.pdf</releaseNotes>
-    <!--<dependencies>
-      <dependency id="" />
-    </dependencies>-->
+    <releaseNotes>
+#### Program
+* Changelog: [PDF](http://www.bulkrenameutility.co.uk/Files/BRUChangelog.pdf)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

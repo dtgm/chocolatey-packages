@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
-    <id>{{PackageName}}</id>
-    <title>Bulk Rename Utility</title>
-    <version>{{PackageVersion}}</version>
+    <id>bulkrenameutility.install</id>
+    <title>Bulk Rename Utility (Install)</title>
+    <version>3.0.0.1</version>
     <authors>Jim Willsher, TGRMN Software</authors>
     <owners>dtgm</owners>
     <summary>Rename multiple files quickly with previews and undo</summary>
@@ -18,11 +18,11 @@ Bulk Rename Utility allows you to easily rename files and folders recursively ba
 * Rename MP3 files using ID3 tags (a.k.a. MP3 ID3 tag renaming).
 * Change files' creation and modification time stamps.
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/bulkrenameutility.install/3.0.0.1</packageSourceUrl>
     <projectUrl>http://www.bulkrenameutility.co.uk/</projectUrl>
     <docsUrl>http://www.bulkrenameutility.co.uk/Downloads/BRU_Manual.pdf</docsUrl>
     <mailingListUrl>http://www.bulkrenameutility.co.uk/forum/</mailingListUrl>
-    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/4039ff8f517da1f1d35f59ac7c7f28a3d5645a9a/icons/{{PackageName}}.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/4039ff8f517da1f1d35f59ac7c7f28a3d5645a9a/icons/bulkrenameutility.png</iconUrl>
     <tags>freeware file batch rename regex</tags>
     <copyright>© 2002 TGRMN Software</copyright>
     <licenseUrl>http://www.bulkrenameutility.co.uk/License.php</licenseUrl>
@@ -34,9 +34,6 @@ Bulk Rename Utility allows you to easily rename files and folders recursively ba
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
-    <dependencies>
-      <dependency id="{{PackageName}}.install" version="[{{PackageVersion}}]" />
-    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
