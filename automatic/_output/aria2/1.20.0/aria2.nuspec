@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
-    <id>{{PackageName}}</id>
+    <id>aria2</id>
     <title>aria2</title>
-    <version>{{PackageVersion}}</version>
+    <version>1.20.0</version>
     <authors>Tatsuhiro Tsujikawa</authors>
     <owners>tonigellida dtgm</owners>
     <summary>CLI Metalink/BitTorrent client</summary>
@@ -17,7 +17,7 @@ aria2 is a multi-protocol &amp; multi-source, cross platform download utility.  
 * Metalink Enabled. aria2 supports The Metalink Download Description Format (aka Metalink v4), Metalink version 3 and Metalink/HTTP. Metalink offers the file verification, HTTP/FTP/BitTorrent integration and the various configurations for language, location, OS, etc.
 * Remote Control. aria2 supports RPC interface to control the aria2 process. The supported interfaces are JSON-RPC (over HTTP and WebSocket) and XML-RPC.
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/aria2/1.20.0</packageSourceUrl>
     <projectUrl>https://aria2.github.io/</projectUrl>
     <projectSourceUrl>https://github.com/tatsuhiro-t/aria2</projectSourceUrl>
     <bugTrackerUrl>https://github.com/tatsuhiro-t/aria2/issues</bugTrackerUrl>
@@ -26,7 +26,7 @@ aria2 is a multi-protocol &amp; multi-source, cross platform download utility.  
     <copyright>© Tatsuhiro Tsujikawa</copyright>
     <licenseUrl>https://github.com/tatsuhiro-t/aria2/blob/master/COPYING</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/732a79a2b9e31faef3b3206fddc25e192d6b516b/icons/{{PackageName}}.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/732a79a2b9e31faef3b3206fddc25e192d6b516b/icons/aria2.png</iconUrl>
     <releaseNotes>
 #### Program
 * [Changelog](https://github.com/tatsuhiro-t/aria2/releases/)
