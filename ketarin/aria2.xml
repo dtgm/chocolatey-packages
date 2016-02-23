@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="0451b01e-ae79-4979-a2f8-78f746b7ade4">
     <WebsiteUrl />
@@ -11,6 +11,7 @@
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
     <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
@@ -25,19 +26,19 @@
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>StartEnd</VariableType>
+            <VariableType>Textual</VariableType>
             <Regex />
-            <Url>http://sourceforge.net/projects/aria2</Url>
+            <Url />
             <StartText>stable/aria2-</StartText>
             <EndText>/aria2</EndText>
-            <TextualContent />
+            <TextualContent>{urlPath:regex:(?&lt;=release-)\d+(\.\d+){1,3\}(?=/)}</TextualContent>
             <Name>version</Name>
           </UrlVariable>
         </value>
       </item>
       <item>
         <key>
-          <string>nopush</string>
+          <string>yopush</string>
         </key>
         <value>
           <UrlVariable>
@@ -45,7 +46,7 @@
             <VariableType>Textual</VariableType>
             <Regex />
             <TextualContent>--nopush</TextualContent>
-            <Name>nopush</Name>
+            <Name>yopush</Name>
           </UrlVariable>
         </value>
       </item>
@@ -56,10 +57,10 @@
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=ResponseUri: )[^\r\n]+</Regex>
-            <Url>http://sourceforge.net/projects/aria2/files/stable/aria2-{version}/aria2-{version}-win-32bit-build1.zip/download</Url>
-            <TextualContent />
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <Url />
+            <TextualContent>{urlHost}/{urlPath}</TextualContent>
             <Name>url</Name>
           </UrlVariable>
         </value>
@@ -73,36 +74,52 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>{urlArray}</TextualContent>
+            <TextualContent>{urlHost}/{urlPath64}</TextualContent>
             <Name>url64</Name>
           </UrlVariable>
         </value>
       </item>
       <item>
         <key>
-          <string>urlArray</string>
+          <string>urlPath</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <TextualContent>@('http://sourceforge.net/projects/aria2/files/stable/aria2-{version}/aria2-{version}-win-32bit-build1.zip/download', 'http://sourceforge.net/projects/aria2/files/stable/aria2-{version}/aria2-{version}-win-64bit-build1.zip/download')</TextualContent>
-            <Name>urlArray</Name>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>/?([^ "'&lt;&gt;\*]+-win-32[^ "'&lt;&gt;\*]+\.zip)</Regex>
+            <Url>https://github.com/tatsuhiro-t/{appname}/releases/latest</Url>
+            <TextualContent />
+            <Name>urlPath</Name>
           </UrlVariable>
         </value>
       </item>
       <item>
         <key>
-          <string>checksum64file</string>
+          <string>urlPath64</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>/?([^ "'&lt;&gt;\*]+-win-64[^ "'&lt;&gt;\*]+\.zip)</Regex>
+            <Url>https://github.com/tatsuhiro-t/{appname}/releases/latest</Url>
+            <TextualContent />
+            <Name>urlPath64</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>urlHost</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>http://sourceforge.net/projects/aria2/files/stable/aria2-{version}/aria2-{version}-win-64bit-build1.zip/download</TextualContent>
-            <Name>checksum64file</Name>
+            <TextualContent>https://github.com</TextualContent>
+            <Name>urlHost</Name>
           </UrlVariable>
         </value>
       </item>
@@ -115,8 +132,36 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>2</TextualContent>
+            <TextualContent>0</TextualContent>
             <Name>cscript</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>checksum</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=ETag[: "]+)[A-Fa-f0-9]{32}</Regex>
+            <Url>{url}</Url>
+            <Name>checksum</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>checksumx64</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=ETag[: "]+)[A-Fa-f0-9]{32}</Regex>
+            <Url>{url64}</Url>
+            <Name>checksumx64</Name>
           </UrlVariable>
         </value>
       </item>
