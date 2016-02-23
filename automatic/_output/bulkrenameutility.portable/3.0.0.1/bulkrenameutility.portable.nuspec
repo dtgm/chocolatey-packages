@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
-    <id>{{PackageName}}</id>
+    <id>bulkrenameutility.portable</id>
     <title>Bulk Rename Utility (Portable)</title>
-    <version>{{PackageVersion}}</version>
+    <version>3.0.0.1</version>
     <authors>Jim Willsher, TGRMN Software</authors>
     <owners>dtgm</owners>
     <summary>Rename multiple files quickly with previews and undo</summary>
@@ -18,7 +18,7 @@ Bulk Rename Utility allows you to easily rename files and folders recursively ba
 * Rename MP3 files using ID3 tags (a.k.a. MP3 ID3 tag renaming).
 * Change files' creation and modification time stamps.
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/bulkrenameutility.portable/3.0.0.1</packageSourceUrl>
     <projectUrl>http://www.bulkrenameutility.co.uk/</projectUrl>
     <docsUrl>http://www.bulkrenameutility.co.uk/Downloads/BRU_Manual.pdf</docsUrl>
     <mailingListUrl>http://www.bulkrenameutility.co.uk/forum/</mailingListUrl>
