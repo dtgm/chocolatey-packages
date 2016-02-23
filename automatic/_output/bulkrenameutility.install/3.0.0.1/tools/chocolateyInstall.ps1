@@ -1,8 +1,8 @@
-$packageName = '{{PackageName}}'
+$packageName = 'bulkrenameutility.install'
 $installerType = 'exe'
 $silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
-$url = '{{DownloadUrl}}'
-$checksum = '{{Checksum}}'
+$url = 'http://www.bulkrenameutility.co.uk/Downloads/BRU_setup.exe'
+$checksum = '8b9ee87e4bcef2f3f45a1944a850a07a62a7d995'
 $checksumType = 'sha1'
 $url64 = $url
 $checksum64 = $checksum
