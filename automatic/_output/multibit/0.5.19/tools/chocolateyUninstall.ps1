@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+$packageName = 'multibit'
 $packageSearch = "MultiBit Classic*"
 $installerType = 'exe'
 $silentArgs = '-q'

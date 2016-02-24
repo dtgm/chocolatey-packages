@@ -1,16 +1,17 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="0d06dbaf-bf6c-4656-800f-b8ab7454e0c0">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
     <LastFileSize>27950976</LastFileSize>
-    <LastFileDate>2016-02-19T21:19:12.9683069</LastFileDate>
+    <LastFileDate>2015-09-09T06:25:04-06:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
     <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
@@ -30,7 +31,7 @@
             <Url />
             <StartText>href="https://multibit.org/releases/multibit-</StartText>
             <EndText>/multibit-</EndText>
-            <TextualContent>{urlFile:regex:(?&lt;=multibit-)[\d\.]{3,\}(?=-)}</TextualContent>
+            <TextualContent>{urlFile:regex:(?&lt;=-)\d+(\.\d+){1,3\}(?=\.exe)}</TextualContent>
             <Name>version</Name>
           </UrlVariable>
         </value>
@@ -43,7 +44,7 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>https://multibit.org/releases/multibit-classic/multibit-[^ "'&lt;&gt;\*]+</Regex>
+            <Regex>https://multibit.org/releases/multibit-classic/[^ "'&lt;&gt;\*/]+</Regex>
             <Url>https://multibit.org/releases.html</Url>
             <TextualContent />
             <Name>urlPath</Name>
@@ -119,7 +120,7 @@
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2016-02-19T21:19:12.9683069</LastUpdated>
+    <LastUpdated>2016-02-23T18:23:12.6968157-07:00</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>multibit</Name>
