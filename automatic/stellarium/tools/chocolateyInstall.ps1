@@ -1,7 +1,6 @@
 $packageName = '{{PackageName}}'
 $installerType = 'exe'	
 $silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
-# hack to overcome limitations of Ketarin/chocopkgup when using repos like sf.net
 $urlArray = {{DownloadUrlx64}}
 $url = $urlArray[0]
 $checksum = '{{Checksum}}'

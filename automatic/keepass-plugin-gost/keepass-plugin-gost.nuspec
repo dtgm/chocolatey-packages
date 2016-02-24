@@ -6,13 +6,13 @@
     <version>{{PackageVersion}}</version>
     <authors>Nikolay Kim</authors>
     <owners>dtgm</owners>
-    <summary>KeePass 2 plugin to encrypt databases using the Gost cipher</summary>
+    <summary>KeePass 2 plugin to encrypt databases using the GOST cipher</summary>
     <description>
-Gost is a KeePass 2.x plugin to allow encrypting databases using the [GOST 28147-89 cipher](https://wikipedia.org/wiki/GOST_28147-89).
+Gost is a KeePass 2.x plugin to allow encrypting databases using the [GOST block cipher](https://wikipedia.org/wiki/GOST_(block_cipher).
 
 #### Features
-* The GOST block cipher, a Soviet and Russian government standard symmetric key block cipher, developed in 1970s and still relevant nowadays
-* Uses 256-bit key and operates on 64-bit blocks of data within 32 rounds
+* Implementation of two ciphers defined within GOST R 34.12-2015: Kuznyechik and Magma (formely GOST 28147-89)
+* Both ciphers use 256-bit key; Kuznyechik handles 128-bit blocks and Magma – 64-bit blocks
 * This implementation uses Cipher Feedback (CFB) mode
     </description>
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
@@ -25,6 +25,7 @@ Gost is a KeePass 2.x plugin to allow encrypting databases using the [GOST 28147
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
 #### Program
+* [Changelog](https://github.com/yaruson/GostPlugin/releases/)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

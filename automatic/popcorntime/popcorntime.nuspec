@@ -4,24 +4,30 @@
     <id>{{PackageName}}</id>
     <title>Popcorn Time</title>
     <version>{{PackageVersion}}</version>
-    <authors>Pochoclín</authors>
-    <owners>tonigellida dtgm</owners>
+    <authors>Popcorn Time developers</authors>
+    <owners>dtgm</owners>
     <summary>Stream movies and TV shows from torrents</summary>
     <description>
-Watch movies free on your desktop, with a big movie catalog.
-
-[FAQ](https://popcorntime.io/faq)
-[User support forums](https://discuss.popcorntime.io/)
+Popcorn Time streams movies and TV shows from torrents.
     </description>
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
-    <projectUrl>https://popcorntime.io/</projectUrl>
-    <projectSourceUrl>https://git.popcorntime.io/popcorntime/desktop/tree/master</projectSourceUrl>
-    <tags>peer-to-peer movie-catalog torrent</tags>
-    <copyright>© Pochoclin</copyright>
-    <licenseUrl>https://git.popcorntime.io/popcorntime/desktop/raw/master/LICENSE.txt</licenseUrl>
+    <projectUrl>https://popcorntime.sh/</projectUrl>
+    <projectSourceUrl>https://github.com/popcorn-official/popcorn-desktop</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/popcorn-official/popcorn-desktop/issues</bugTrackerUrl>
+    <docsUrl>https://popcorntime.sh/faq</docsUrl>
+    <mailingListUrl>https://www.reddit.com/r/PopCornTime</mailingListUrl>    
+    <tags>p2p movie-catalog torrent</tags>
+    <copyright>© Popcorn Time developers</copyright>
+    <licenseUrl>https://github.com/popcorn-official/popcorn-desktop/blob/master/LICENSE.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/5df5d849c2feb6a30225bad1f7a8e27d4cd2fa65/icons/{{PackageName}}.png</iconUrl>
-    <releaseNotes>[Changelog](https://git.popcorntime.io/popcorntime/desktop/blob/master/CHANGELOG.md)</releaseNotes>
+    <releaseNotes>
+#### Program
+* [Changelog](https://ci.popcorntime.sh/job/Popcorn-Time-Desktop/changes)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

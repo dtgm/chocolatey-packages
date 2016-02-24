@@ -8,11 +8,7 @@
     <owners>dtgm</owners>
     <summary>Torrent streaming media player</summary>
     <description>
-Torrent streaming media player
-
-#### Documentation
-* [FAQ](http://zona.ru/faq.html)
-* [Install help](http://zona.ru/install-help.html)
+Torrent streaming media player. Closed source fork of [popcorntime](https://chocolatey.org/packages/popcorntime).
 
 #### Community
 * [Facebook](http://www.facebook.com/appzona)
@@ -20,10 +16,11 @@ Torrent streaming media player
     </description>
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://zona.ru/</projectUrl>
+    <docsUrl>http://zona.ru/faq.html</docsUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/d1e037cc7c943fda29b9067b3b1c3229d99402ff/icons/{{PackageName}}.png</iconUrl>
     <tags>p2p torrent streaming video-on-demand media-catalog popcorntime</tags>
     <copyright>© 2011 Zona Team</copyright>
-    <licenseUrl>http://en.wikipedia.org/wiki/Freeware</licenseUrl>
+    <licenseUrl>http://wikipedia.org/wiki/Freeware</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
 #### Program

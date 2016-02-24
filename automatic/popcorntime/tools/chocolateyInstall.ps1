@@ -1,6 +1,6 @@
 $packageName = '{{PackageName}}'
 $installerType = 'exe'
-$url = '{{DownloadUrlx64}}'
+$url = '{{DownloadUrl}}'
 $checksum = '{{Checksum}}'
 $checksumType = 'sha1'
 $silentArgs = '/S'

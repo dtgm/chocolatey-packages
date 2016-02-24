@@ -1,16 +1,17 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="e00cb362-558d-42ca-be3f-c581b46cfb85">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
     <LastFileSize>2599787</LastFileSize>
-    <LastFileDate>2015-08-13T12:30:45.1086919</LastFileDate>
+    <LastFileDate>2015-11-14T14:40:29-07:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
     <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
@@ -20,7 +21,7 @@
     <Variables>
       <item>
         <key>
-          <string>nopush</string>
+          <string>yopush</string>
         </key>
         <value>
           <UrlVariable>
@@ -28,7 +29,7 @@
             <VariableType>Textual</VariableType>
             <Regex />
             <TextualContent>--nopush</TextualContent>
-            <Name>nopush</Name>
+            <Name>yopush</Name>
           </UrlVariable>
         </value>
       </item>
@@ -83,7 +84,7 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>[^ "'&lt;&gt;\*]+NpackdCL-{version}\.zip/download</Regex>
+            <Regex>[^ "'&lt;&gt;\*]+NpackdCL-{version}\.zip</Regex>
             <Url>https://github.com/tim-lebedkov/npackd/wiki/Downloads</Url>
             <Name>getUrl</Name>
           </UrlVariable>
@@ -98,8 +99,22 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>2</TextualContent>
+            <TextualContent>0</TextualContent>
             <Name>cscript</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>checksum</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=ETag[: "]+)[A-Fa-f0-9]{32}</Regex>
+            <Url>{url}</Url>
+            <Name>checksum</Name>
           </UrlVariable>
         </value>
       </item>
@@ -114,7 +129,7 @@
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-08-13T12:30:45.1086919</LastUpdated>
+    <LastUpdated>2016-02-20T20:28:31.2296903-07:00</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>npackd-cli.portable</Name>

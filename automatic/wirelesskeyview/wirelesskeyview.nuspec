@@ -22,7 +22,8 @@ You can also export your wireless keys into a file and import these keys into an
     <licenseUrl>http://www.nirsoft.net/utils/wireless_key.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-[What's New?](http://www.nirsoft.net/utils/wireless_key.html)
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   </metadata>
   <files>
