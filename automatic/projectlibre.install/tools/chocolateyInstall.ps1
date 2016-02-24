@@ -11,6 +11,7 @@ if (Get-ProcessorBits 64) {
 }
 $installArgs = $($partialInstallArgs + '"' + $installPath + '"')
 $validExitCodes = @(0)
+
 Install-ChocolateyPackage -PackageName "$packageName" `
                           -FileType "$installerType" `
                           -SilentArgs "$silentArgs" `
