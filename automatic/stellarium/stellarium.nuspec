@@ -8,18 +8,27 @@
     <owners>dtgm</owners>
     <summary>Open source planetarium software that shows a 3D simulation of the night sky</summary>
     <description>
-Stellarium is a free open source planetarium for your computer. It shows a realistic sky in 3D, just like what you see with the naked eye, binoculars or a telescope.
-
-It is used in planetarium projectors.  Just set your coordinates and go.
+Stellarium is a free open source planetarium for your computer. It shows a realistic sky in 3D, just like what you see with the naked eye, binoculars or a telescope. It is used in planetarium projectors. Just set your coordinates and go.
     </description>
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://stellarium.org/</projectUrl>
+    <projectSourceUrl>http://bazaar.launchpad.net/~stellarium/stellarium/trunk/files</projectSourceUrl>
+    <bugTrackerUrl>https://bugs.launchpad.net/stellarium</bugTrackerUrl>
+    <docsUrl>http://stellarium.org/wiki/index.php/Main_Page</docsUrl>
+    <mailingListUrl>https://sourceforge.net/p/stellarium/mailman/</mailingListUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/19d35dff574b7496b92f235fa1503d47b861871a/icons/{{PackageName}}.svg</iconUrl>
     <tags>planetarium sky stars constellations</tags>
     <copyright>© Stellarium Developers</copyright>
-    <licenseUrl>http://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
+    <licenseUrl>https://sourceforge.net/p/stellarium/code/HEAD/tree/trunk/stellarium/COPYING</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <releaseNotes>https://sourceforge.net/p/stellarium/news/</releaseNotes>
+    <releaseNotes>
+#### Program
+* [News](https://sourceforge.net/p/stellarium/news/)
+* [Changelog](http://bazaar.launchpad.net/~stellarium/stellarium/trunk/view/head:/ChangeLog)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

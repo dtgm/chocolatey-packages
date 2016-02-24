@@ -14,16 +14,14 @@ TinyCAD is a program for drawing electrical circuit diagrams commonly known as s
 * Flat or Hierarchical Schematic Entry
 * Many popular PCB Layout compatible netlist formats
 * Convenient support for embedding graphical images in drawings
-
-#### Community
-* [Forum](https://sourceforge.net/p/tinycad/discussion/)
     </description>
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>https://sourceforge.net/projects/tinycad/</projectUrl>
     <projectSourceUrl>https://sourceforge.net/p/tinycad/code/HEAD/tree/</projectSourceUrl>
     <bugTrackerUrl>https://sourceforge.net/p/tinycad/bugs/</bugTrackerUrl>
+    <mailingListUrl>https://sourceforge.net/p/tinycad/discussion/</mailingListUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/d1e037cc7c943fda29b9067b3b1c3229d99402ff/icons/{{PackageName}}.png</iconUrl>
-    <tags>eda pcb circuit-diagram electronic schematic</tags>
+    <tags>eda pcb circuit-diagram electronic schematic admin</tags>
     <copyright>© beischer don_lucas mattpyne</copyright>
     <licenseUrl>http://www.gnu.org/licenses/gpl.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

@@ -26,7 +26,8 @@ If you have a movie player that is configured to play flv files, it also allows 
     <licenseUrl>http://www.nirsoft.net/utils/video_cache_view.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-[What's New?](http://www.nirsoft.net/utils/video_cache_view.html)
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
     <dependencies>
       <dependency id="{{PackageName}}.install" version="[{{PackageVersion}}]" />

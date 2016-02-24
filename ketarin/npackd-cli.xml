@@ -1,16 +1,17 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
-  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="b5991ef0-77b0-48f9-aa49-5bfb14fd05d0">
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="eca5f46e-b1a6-4693-9606-31205c976feb">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
     <LastFileSize>3043840</LastFileSize>
-    <LastFileDate>2015-10-10T05:38:00.8160455</LastFileDate>
+    <LastFileDate>2015-10-10T05:38:03.7535781</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
     <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
@@ -53,10 +54,10 @@
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <Url />
-            <TextualContent>{getMirror}/project/npackd/com.googlecode.windows-package-manager.NpackdCL/NpackdCL-{version}.msi</TextualContent>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=ResponseUri: )[^\r\n]+</Regex>
+            <Url>{getUrl}</Url>
+            <TextualContent />
             <Name>url</Name>
           </UrlVariable>
         </value>
@@ -83,37 +84,9 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>[^ "'&lt;&gt;\*]+NpackdCL-{version}\.msi/download</Regex>
+            <Regex>[^ "'&lt;&gt;\*]+NpackdCL-{version}\.msi</Regex>
             <Url>https://github.com/tim-lebedkov/npackd/wiki/Downloads</Url>
             <Name>getUrl</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>getUrlZip</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>RegularExpression</VariableType>
-            <Regex>[^ "'&lt;&gt;\*]+Npackd32-{version}\.zip/download</Regex>
-            <Url>https://github.com/tim-lebedkov/npackd/wiki/Downloads</Url>
-            <Name>getUrlZip</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>getMirror</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=ResponseUri: )(.*)/project/</Regex>
-            <Url>{getUrlZip}</Url>
-            <Name>getMirror</Name>
           </UrlVariable>
         </value>
       </item>
@@ -138,11 +111,10 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\NpackdCL-1.20.5.msi</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-10-10T05:38:00.8160455</LastUpdated>
+    <LastUpdated>2015-10-10T05:38:03.7535781</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>npackd-cli</Name>

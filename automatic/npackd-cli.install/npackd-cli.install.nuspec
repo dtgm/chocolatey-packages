@@ -11,24 +11,26 @@
 Npackd (pronounced "unpacked") is a __C__ommand __L__ine __I__nterface store/package manager/marketplace for applications for Windows. It helps you to find and install software, keep your system up-to-date and uninstall it if no longer necessary. The process of installing and uninstalling applications is completely automated (silent or unattended installation and un-installation). There is also a command line based version of Npackd.
 
 For the corresponding __G__raphical __U__ser __I__nterface, please see chocolatey package [npackd.install](https://chocolatey.org/packages/npackd.install).
-
-[Manual (manpage)](https://github.com/tim-lebedkov/npackd/wiki/CommandLine)
-[Forum](https://groups.google.com/forum/#!forum/npackd)
-[Wiki](https://github.com/tim-lebedkov/npackd/wiki)
     </description>
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>https://npackd.appspot.com/</projectUrl>
     <projectSourceUrl>https://github.com/tim-lebedkov?tab=repositories</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/tim-lebedkov/npackd/issues</bugTrackerUrl>
+    <docsUrl>https://github.com/tim-lebedkov/npackd/wiki/CommandLine</docsUrl>
+    <mailingListUrl>https://groups.google.com/forum/#!forum/npackd</mailingListUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/a780374e9883b6d2c3e5ef5cfe5e6276268a0d2b/icons/npackd.png</iconUrl>
     <tags>cli package manager repository</tags>
     <copyright>© 2010 Tim Lebedkov</copyright>
     <licenseUrl>http://www.gnu.org/licenses/gpl-3.0.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-[Changelog](https://github.com/tim-lebedkov/npackd/wiki/ChangeLog)
-[Issues](https://github.com/tim-lebedkov/npackd/issues)
-[Packages](https://npackd.appspot.com/p)
-[Repositories](https://npackd.appspot.com/rep)
+#### Program
+* [Changelog](https://github.com/tim-lebedkov/npackd/wiki/ChangeLog)
+* [Packages](https://npackd.appspot.com/p)
+* [Repositories](https://npackd.appspot.com/rep)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   </metadata>
   <files>
