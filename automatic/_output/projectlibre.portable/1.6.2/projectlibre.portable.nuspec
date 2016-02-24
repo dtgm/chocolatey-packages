@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
-    <id>{{PackageName}}</id>
-    <title>ProjectLibre (Install)</title>
-    <version>{{PackageVersion}}</version>
+    <id>projectlibre.portable</id>
+    <title>ProjectLibre (Portable)</title>
+    <version>1.6.2</version>
     <authors>ProjectLibre</authors>
     <owners>dtgm</owners>
     <summary>Open source desktop project management</summary>
@@ -19,7 +19,7 @@ ProjectLibre is an open source Java-based alternative to Microsoft Project. It h
 * Network Diagram
 * Earned Value Costing
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/projectlibre.portable/1.6.2</packageSourceUrl>
     <projectUrl>http://www.projectlibre.org/</projectUrl>
     <projectSourceUrl>https://sourceforge.net/p/projectlibre/code/</projectSourceUrl>
     <bugTrackerUrl>https://sourceforge.net/p/projectlibre/tickets/</bugTrackerUrl>
@@ -30,9 +30,6 @@ ProjectLibre is an open source Java-based alternative to Microsoft Project. It h
     <licenseUrl>https://sourceforge.net/p/projectlibre/code/ci/master/tree/openproj_build/license/index.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/8a9629065a42a9032001915d06ed4f0136ebb7a2/icons/projectlibre.png</iconUrl>
-    <dependencies>
-      <dependency id="javaruntime" />
-    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

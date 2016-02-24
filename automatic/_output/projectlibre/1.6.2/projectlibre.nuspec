@@ -8,11 +8,11 @@
     <owners>dtgm</owners>
     <summary>Open source desktop project management</summary>
     <description>
-ProjectLibre is an open source alternative to Microsoft Project. It has been downloaded over 1,000,000 times in over 210 countries and was won InfoWorld "Best of Open Source" award. ProjectLibre is compatible with Microsoft Project 2003, 2007 and 2010 files. You can simply open them on Linux, Mac OS or Windows. 
+ProjectLibre is an open source Java-based alternative to Microsoft Project. It has been downloaded over 1,000,000 times in over 210 countries and was won InfoWorld "Best of Open Source" award. ProjectLibre is compatible with Microsoft Project 2003, 2007 and 2010 files. You can simply open them on Linux, Mac OS or Windows.
 
 ### Features
  
-* Compatibility with Microsoft Project 2010
+* Compatibility with Microsoft Office Project 2010
 * User Interface improvement
 * Gantt Chart
 * PERT Chart
@@ -21,9 +21,13 @@ ProjectLibre is an open source alternative to Microsoft Project. It has been dow
     </description>
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/projectlibre/1.6.2</packageSourceUrl>
     <projectUrl>http://www.projectlibre.org/</projectUrl>
+    <projectSourceUrl>https://sourceforge.net/p/projectlibre/code/</projectSourceUrl>
+    <bugTrackerUrl>https://sourceforge.net/p/projectlibre/tickets/</bugTrackerUrl>
+    <docsUrl>http://www.projectlibre.org/wiki/projectlibre-documentation</docsUrl>
+    <mailingListUrl>https://sourceforge.net/p/projectlibre/discussion/</mailingListUrl>
     <tags>project-management task schedule</tags>
-    <copyright>© ProjectLibre</copyright>
-    <licenseUrl>http://www.projectlibre.org/comment/615#comment-615</licenseUrl>
+    <copyright>© 2006 ProjectLibre</copyright>
+    <licenseUrl>https://sourceforge.net/p/projectlibre/code/ci/master/tree/openproj_build/license/index.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/8a9629065a42a9032001915d06ed4f0136ebb7a2/icons/projectlibre.png</iconUrl>
     <dependencies>

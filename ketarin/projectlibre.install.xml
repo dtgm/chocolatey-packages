@@ -1,11 +1,11 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="d8076d89-09fc-4a5d-8f9e-f54332eb4980">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
     <LastFileSize>16126976</LastFileSize>
-    <LastFileDate>2016-02-11T22:34:10.0104938</LastFileDate>
+    <LastFileDate>2015-09-07T04:45:15-06:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -157,7 +157,7 @@
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2016-02-11T22:34:10.0104938</LastUpdated>
+    <LastUpdated>2016-02-23T18:59:57.1002253-07:00</LastUpdated>
     <TargetPath>{workdir}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>projectlibre.install</Name>
