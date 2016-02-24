@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
-    <id>{{PackageName}}</id>
+    <id>multibit</id>
     <title>MultiBit Classic</title>
-    <version>{{PackageVersion}}</version>
+    <version>0.5.19</version>
     <authors>Jim Burton</authors>
     <owners>dtgm</owners>
     <summary>Simplified Payment Verification (SPV) Bitcoin desktop client</summary>
@@ -23,13 +23,13 @@ MultiBit is a Simplified Payment Verification (SPV) Bitcoin desktop client.
 
 Please note Bitcoin Solutions Ltd is not focusing further development on MultiBit Classic (installed by this package) and only essential security and network compatibility updates will be made to the codebase.
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/multibit/0.5.19</packageSourceUrl>
     <projectUrl>https://multibit.org/</projectUrl>
     <projectSourceUrl>https://github.com/jim618/multibit</projectSourceUrl>
     <bugTrackerUrl>https://github.com/jim618/multibit/issues</bugTrackerUrl>
     <docsUrl>https://multibit.org/en/help/v0.5/help_contents.html</docsUrl>
     <tags>freeware cryptocurrency bitcoin digital-wallet</tags>
-    <copyright>© 2011 MultiBit HD developers</copyright>
+    <copyright>ï¿½ 2011 MultiBit HD developers</copyright>
     <licenseUrl>https://github.com/jim618/multibit/blob/master/COPYING</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/00a3de079a41f2de124bd1600f9e8fb18ba4a0d7/icons/multibit.png</iconUrl>
