@@ -1,4 +1,6 @@
-We use Saxon Home Edition because most other tools only support `xslt 1.0` and we need `xslt 2.0` for the kind of magic we use.
+Summary of Readme.md and script files at https://github.com/chocolatey/chocolatey-coreteampackages/tree/master/bin
+
+We use [Saxon Home Edition](https://chocolatey.org/packages/SaxonHE) because most other tools only support `xslt 1.0` and we need `xslt 2.0` for the kind of magic we use.
 
 ### Fix package XML based on template
 
