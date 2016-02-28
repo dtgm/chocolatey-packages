@@ -1,11 +1,11 @@
 ////////////////////////////////////////////////////////////////////////////////////////
-/// version 6.7
+/// version 6.7.0.1
 /// 
-/// Changelog: disable beta check
+/// Changelog: rename 'workdir' to 'saveDir'; more obvious name
 /// 
 
 // REQUIRES:
-// global vars: workdir=corresponds to download location of installer file
+// global vars: saveDir=corresponds to download location of installer file
 // app vars: nopush, checksum64file=corresponds to 64 bit install file
 // file vars: same as specified by chocopkgup
 
@@ -15,19 +15,20 @@ string varCScript = app.Variables.ReplaceAllInString("{cscript}");
 // determine whether we run this by checking cscript exists AND is 1 or 2
 if ((varCScript == "1") || (varCScript == "2")) {
 
-// ketarin infos we pass for this script to use
+// ketarin variables we pass for this script to use
 string varAppname = app.Variables.ReplaceAllInString("{appname}");
 string varVersion = app.Variables.ReplaceAllInString("{version}");
-string varChocoPkgOutput = app.Variables.ReplaceAllInString("{chocoPkgOutput}");
+string varChocoPkgOutput = app.Variables.ReplaceAllInString("{chocoPkgOut}");
 string varChecksum = app.Variables.ReplaceAllInString("{checksum}");
 string varChecksumx64 = app.Variables.ReplaceAllInString("{checksumx64}");
 string varChecksum64File = app.Variables.ReplaceAllInString("{checksum64file}");
 string varChecksum64basefile = app.Variables.ReplaceAllInString("{checksum64file:basefile}");
 string varChecksum64ext = app.Variables.ReplaceAllInString("{checksum64file:ext}");
-string varWorkdir = app.Variables.ReplaceAllInString("{workdir}");
+string varSaveDir = app.Variables.ReplaceAllInString("{saveDir}");
+
+// custom variables used in this script
 string saveFileName64 = String.Concat(varChecksum64basefile, ".", varChecksum64ext);
 // equivalent to ketarin variable "{file}"
-//string savePath = app.PreviousLocation;
 string savePath = app.PreviousLocation;
 string pkgPath = Path.Combine(varChocoPkgOutput, varAppname, varVersion);
 string fileNameNuspec = String.Concat(varAppname, ".nuspec");
@@ -79,7 +80,7 @@ if (varChecksum == "{checksum}") {
 if (varChecksumx64 == "{checksumx64}" && varChecksum64File != "{checksum64file}") {
   // TODO: ...and points to a downloadable file; validate URI
   // we must download the file to calculate checksum, may as well save it too because now all your base are belong to us
-  string savePath64 = Path.Combine(varWorkdir, saveFileName64);
+  string savePath64 = Path.Combine(varSaveDir, saveFileName64);
   System.Net.WebClient webClient = new System.Net.WebClient();
   webClient.DownloadFile(varChecksum64File, savePath64);
 
