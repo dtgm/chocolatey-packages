@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////////////////////////////////////////////
-/// version 6.7.0.1
+/// version 6.7.1.0
 /// 
-/// Changelog: rename 'workdir' to 'saveDir'; more obvious name
+/// Changelog: save checksum64file to standard filename
 /// 
 
 // REQUIRES:
@@ -22,12 +22,13 @@ string varChocoPkgOutput = app.Variables.ReplaceAllInString("{chocoPkgOut}");
 string varChecksum = app.Variables.ReplaceAllInString("{checksum}");
 string varChecksumx64 = app.Variables.ReplaceAllInString("{checksumx64}");
 string varChecksum64File = app.Variables.ReplaceAllInString("{checksum64file}");
-string varChecksum64basefile = app.Variables.ReplaceAllInString("{checksum64file:basefile}");
+// string varChecksum64basefile = app.Variables.ReplaceAllInString("{checksum64file:basefile}");
 string varChecksum64ext = app.Variables.ReplaceAllInString("{checksum64file:ext}");
 string varSaveDir = app.Variables.ReplaceAllInString("{saveDir}");
 
 // custom variables used in this script
-string saveFileName64 = String.Concat(varChecksum64basefile, ".", varChecksum64ext);
+string saveFileName64 = String.Concat(varAppname, "_64_", varVersion, ".", varChecksum64ext);
+string savePath64 = Path.Combine(varSaveDir, saveFileName64);
 // equivalent to ketarin variable "{file}"
 string savePath = app.PreviousLocation;
 string pkgPath = Path.Combine(varChocoPkgOutput, varAppname, varVersion);
@@ -35,6 +36,11 @@ string fileNameNuspec = String.Concat(varAppname, ".nuspec");
 string fileUriNuspec = Path.Combine(pkgPath, fileNameNuspec);
 string fileNameNupkg = String.Concat(varAppname, ".", varVersion, ".nupkg");
 string fileUriNupkg = Path.Combine(pkgPath, fileNameNupkg);
+
+/* DEBUG
+  MessageBox.Show(varSaveDir + System.Environment.NewLine
+                  + saveFileName64 + System.Environment.NewLine
+                  + savePath64);*/
 
 // do not re-push package if package already created
 DateTime today = DateTime.Today;
@@ -80,7 +86,6 @@ if (varChecksum == "{checksum}") {
 if (varChecksumx64 == "{checksumx64}" && varChecksum64File != "{checksum64file}") {
   // TODO: ...and points to a downloadable file; validate URI
   // we must download the file to calculate checksum, may as well save it too because now all your base are belong to us
-  string savePath64 = Path.Combine(varSaveDir, saveFileName64);
   System.Net.WebClient webClient = new System.Net.WebClient();
   webClient.DownloadFile(varChecksum64File, savePath64);
 
