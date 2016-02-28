@@ -1,14 +1,16 @@
-# Exported automatic update job files from [Ketarin](https://chocolatey.org/packages/ketarin) for use with [Chocolatey Automatic Package Updater](https://chocolatey.org/packages/ChocolateyPackageUpdater)
+# Automatic updating chocolatey packages 
+
+This directory contains files from [Ketarin](https://chocolatey.org/packages/ketarin) for use with [Chocolatey Automatic Package Updater](https://chocolatey.org/packages/ChocolateyPackageUpdater)
 
 ## About Ketarin
 
-[Homepage](https://ketarin.org/)
-[FAQ](https://ketarin.org/forum/topic/310-ketarin-faq)
-[Wiki](http://wiki.ketarin.org/)
-[Forum](https://ketarin.org/forum/)
+[Homepage](https://ketarin.org/)  
+[FAQ](https://ketarin.org/forum/topic/310-ketarin-faq)  
+[Wiki](http://wiki.ketarin.org/)  
+[Forum](https://ketarin.org/forum/)  
 [GPLv2 License](http://scm.flyspray.org/repos/ketarin/LICENSE.txt)
 
-[Source code tar.gz](http://cdburnerxp.se/downloads/sourcecode/Ketarin.tar.gz)
+[Source code tar.gz](http://cdburnerxp.se/downloads/sourcecode/Ketarin.tar.gz)  
 [Source code SVN](http://scm.flyspray.org/repos/ketarin/)
 
 
@@ -43,14 +45,14 @@ I created this application, because I couldn't find anything like it when I need
 3. Run ketarin.exe
 
 4. Modify settings
-<pre>
+```
 Ctrl+T | (File > Settings)
 [General]
 Custom Column Name = Version
 Custom Column Value = {version}
 [Commands]
 chocopkgup {nopush} --packagename={appname} --version={version} --pg="{packageGuid}" --url="{preupdate-url}" --urlx64="{url64}" --packagepath="{file}" --checksum="{checksum}" --c64="{checksumx64}" --debug
-</pre>
+```
 
 5. Add Applications to ketarin with either File > New Application, or importing any of the XML files in this repository.
 
@@ -159,29 +161,30 @@ chocopkgup.exe /p[ackage] VALUE /v[ersion] VALUE [ /u[rl] VALUE /p[ackages]f[old
 
 ### c# scripts
 
-Working script environment may be seen in [Forms\CommandControl.cs](http://scm.flyspray.org/repos/ketarin/Forms/CommandControl.cs)
-Most work is done in the [ApplicationJob class](http://scm.flyspray.org/repos/ketarin/ApplicationJob.cs)
+Working script environment may be seen in [Forms\CommandControl.cs](http://scm.flyspray.org/repos/ketarin/Forms/CommandControl.cs) ([gh mirror](https://github.com/svn2github/ketarin/blob/master/Forms/CommandControl.cs))  
+
+Most work is done in the [ApplicationJob class](http://scm.flyspray.org/repos/ketarin/ApplicationJob.cs) ([gh mirror](https://github.com/svn2github/ketarin/blob/master/ApplicationJob.cs))
 
 
                                
 ### For more information see:
 
-https://github.com/chocolatey/chocolatey/wiki/CreatePackages
+https://github.com/chocolatey/chocolatey/wiki/CreatePackages  
 https://github.com/chocolatey/chocolatey/wiki/AutomaticPackages
 
 
-> Added from main README
+> Added from main README  
 > TODO: Integrate into this README
 
 #### Example of variable exchange between programs:
 
-<pre>
+```
 Location    User-config         Variable
 --------    -----------         --------
 Ketarin:    Application Name    {appname}
 chocopkgup  N/A                 --packagename={appname}
 file.nuspec N/A                 {{PackageName}} 
-</pre>
+```
 
 #### Full example workflow
 
