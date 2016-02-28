@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>bginfo</id>
+    <title>BgInfo</title>
+    <version>4.21</version>
+    <authors>Bryce Cogswell</authors>
+    <owners>dtgm</owners>
+    <summary>Automatic desktop backgrounds that include system information</summary>
+    <description>
+BgInfo is a fully-configurable program to automatically generate desktop backgrounds that include important information about the system including IP addresses, computer name, network adapters, and more.
+
+How many times have you walked up to a system in your office and needed to click through several diagnostic windows to remind yourself of important aspects of its configuration, such as its name, IP address, or operating system version? If you manage multiple computers you probably need BGInfo. It automatically displays relevant information about a Windows computer on the desktop's background, such as the computer name, IP address, service pack version, and more. You can edit any field as well as the font and background colors, and can place it in your startup folder so that it runs every boot, or even configure it to display as the background for the logon screen.
+
+#### Command line usage
+
+When you run BGInfo it shows you the appearance and content of its default desktop background. If left untouched it will automatically apply these settings and exit after its 10 second count-down timer expires.
+
+Selecting any button or menu item will disable the timer, allowing you to customize the layout and content of the background information.
+
+If you want BGInfo to edit or use a configuration stored in a file (instead of the default configuration which is stored in the registry) specify the name of the file on the command line: BGInfo MyConfig.bgi  
+
+__&lt;path&gt;__  Specifies the name of a configuration file to use for the current session. Changes to the configuration are automatically saved back to the file when OK or Apply is pressed. If this parameter is not present BGInfo uses the default configuration information which is stored in the registry under the current user (`HKEY_CURRENT_USER\Software\Winternals\BGInfo`).
+
+__/timer__  Specifies the timeout value for the countdown timer, in seconds. Specifying zero will update the display without displaying the configuration dialog. Specifying 300 seconds or longer disables the timer altogether.
+
+__/popup__  Causes BGInfo to create a popup window containing the configured information without updating the desktop. The information is formatted exactly as it would if displayed on the desktop, but resides in a fitted window instead. When using this option the history database is not updated.
+
+__/silent__  Suppresses error messages.
+
+__/taskbar__  Causes BGInfo to place an icon in the taskbar's status area without updating the desktop. Clicking the icon causes the configured information to appear in a popup window. When using this option the history database is not updated.
+
+__/all__  Specifies that BGInfo should change the wallpaper for any and all users currently logged in to the system. This option is useful within a Terminal Services environment, or when BGInfo is scheduled to run periodically on a system used by more than one person (see Using a Schedule below).
+
+__/log__  Causes BGInfo to write errors to the specified log file instead of generating a warning dialog box. This is useful for tracking down errors that occur when BGInfo is run under the scheduler.
+
+__/rtf__  Causes BGInfo to write its output text to an RTF file. All formatting information and colors are included.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/bginfo/4.21</packageSourceUrl>
+    <projectUrl>https://technet.microsoft.com/sysinternals/bb897557</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/39f15aca092eb7040b8478d0c604fa61c76d38cc/icons/bginfo.png</iconUrl>
+    <mailingListUrl>http://forum.sysinternals.com/bginfo_forum5.html</mailingListUrl>
+    <tags>desktop background info sysinternals</tags>
+    <copyright>© 2000-2007 Bryce Cogswell</copyright>
+    <licenseUrl>https://technet.microsoft.com/sysinternals/bb469936</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [News](http://blogs.technet.com/Sysinternals)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
