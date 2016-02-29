@@ -1,17 +1,18 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="6d30f130-f203-4869-b415-9be066ec3d13">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>281489</LastFileSize>
-    <LastFileDate>2016-02-04T20:28:21.661068</LastFileDate>
+    <LastFileSize>285421</LastFileSize>
+    <LastFileDate>2016-01-11T21:31:21-07:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
-    <HashType>None</HashType>
+    <HashVariable>checksum</HashVariable>
+    <HashType>Md5</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
@@ -20,30 +21,15 @@
     <Variables>
       <item>
         <key>
-          <string>subDir</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>RegularExpression</VariableType>
-            <Regex>.*href="/?([^ "'&lt;&gt;\*]+)</Regex>
-            <Url>http://services.audioswit.ch/versions/</Url>
-            <TextualContent />
-            <Name>subDir</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
           <string>version</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>RegularExpression</VariableType>
-            <Regex>.*versions/([\d\.]+)</Regex>
-            <Url>http://services.audioswit.ch/versions/</Url>
-            <TextualContent />
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <Url />
+            <TextualContent>{urlPath:regex:(?&lt;=download/)\d+(\.\d+){1,3\}(?=/)}</TextualContent>
             <Name>version</Name>
           </UrlVariable>
         </value>
@@ -58,22 +44,22 @@
             <VariableType>Textual</VariableType>
             <Regex />
             <Url />
-            <TextualContent>http://services.audioswit.ch/{getUrl}</TextualContent>
+            <TextualContent>https://github.com/{urlPath}</TextualContent>
             <Name>url</Name>
           </UrlVariable>
         </value>
       </item>
       <item>
         <key>
-          <string>getUrl</string>
+          <string>urlPath</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
             <Regex>/?([^ "'&lt;&gt;\*]+\.zip)</Regex>
-            <Url>http://services.audioswit.ch/{subDir}</Url>
-            <Name>getUrl</Name>
+            <Url>https://github.com/xenolightning/AudioSwitcher_v1/releases/latest</Url>
+            <Name>urlPath</Name>
           </UrlVariable>
         </value>
       </item>
@@ -86,14 +72,14 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>2</TextualContent>
+            <TextualContent>0</TextualContent>
             <Name>cscript</Name>
           </UrlVariable>
         </value>
       </item>
       <item>
         <key>
-          <string>nopush</string>
+          <string>yopush</string>
         </key>
         <value>
           <UrlVariable>
@@ -101,7 +87,21 @@
             <VariableType>Textual</VariableType>
             <Regex />
             <TextualContent>--nopush</TextualContent>
-            <Name>nopush</Name>
+            <Name>yopush</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>checksum</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=ETag: ")[A-Fa-f0-9]{32}</Regex>
+            <Url>{url}</Url>
+            <Name>checksum</Name>
           </UrlVariable>
         </value>
       </item>
@@ -112,12 +112,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\AudioSwitcher.zip</PreviousLocation>
+    <PreviousLocation>F:\exe\audioswitcher_1.6.10.113.zip</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2016-02-04T20:28:21.661068</LastUpdated>
-    <TargetPath>{workdir}\</TargetPath>
+    <LastUpdated>2016-02-28T18:38:00.8195063-07:00</LastUpdated>
+    <TargetPath>{saveDir}\{appname}_{version}.{url:ext}</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>audioswitcher</Name>
   </ApplicationJob>

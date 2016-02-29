@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>{{PackageName}}</id>
     <title>Audio Switcher</title>
@@ -13,18 +13,24 @@ Easily switch the default audio device, input or output, on any Windows PC (Vist
 Using this application you can switch output OR input sound devices at the click of a button, or the press of a key.
 
 I designed this application to be incredibly small and lightweight. There is no bloat, it does exactly what it should, nothing more, nothing less.
-
     </description>
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://audioswit.ch/</projectUrl>
-    <projectSourceUrl>https://github.com/xenolightning?tab=repositories</projectSourceUrl>
+    <projectSourceUrl>https://github.com/xenolightning/AudioSwitcher/</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/xenolightning/AudioSwitcher_v1/issues</bugTrackerUrl>
+    <docsUrl>https://github.com/xenolightning/AudioSwitcher_v1/wiki</docsUrl>
+    <mailingListUrl>https://twitter.com/xenolightning</mailingListUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/ddf3e8934b6374c8806b58de6ab5995158cd1d81/icons/{{PackageName}}.png</iconUrl>
     <tags>audio device manager</tags>
     <copyright>© 2015 Forty One Limited</copyright>
     <licenseUrl>https://github.com/xenolightning/AudioSwitcher/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-[Changelog](http://services.audioswit.ch/versions/{{PackageVersion}}/changelog.txt)
+#### Program
+* [Changelog](http://services.audioswit.ch/versions/{{PackageVersion}}/changelog.txt)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
     <dependencies>
       <dependency id="dotnet4.0" />
