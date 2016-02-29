@@ -1,11 +1,11 @@
-$packageName = 'awscli'
-$installerType = 'msi'
-$silentArgs = '/quiet /qn /norestart'
-$url = 'https://s3.amazonaws.com/aws-cli/AWSCLI32.msi'
-$checksum = 'dadf24ab5a767442670bf502bc6e09cdb57967ea'
+$packageName = 'kicad'
+$installerType = 'exe'
+$silentArgs = '/S'
+$url = 'http://downloads.kicad-pcb.org/windows/stable/kicad-product-4.0.2-i686.exe'
+$checksum = '59ea1e4ff049565e94ba3e024486008b7dfad51b'
 $checksumType = 'sha1'
-$url64 = 'https://s3.amazonaws.com/aws-cli/AWSCLI64.msi'
-$checksum64 = '9dbbfcf0eefd37805111df9e7b3ad1238a53120b'
+$url64 = 'http://downloads.kicad-pcb.org/windows/stable/kicad-product-4.0.2-x86_64.exe'
+$checksum64 = 'd250e5806f46c86b87ac697ebdc1713ecce278b2'
 $checksumType64 = 'sha1'
 $validExitCodes = @(0)
 
