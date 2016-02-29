@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>ln</id>
+    <title>Ln - Command line Hardlinks</title>
+    <version>2.8.6.8</version>
+    <authors>Hermann Schinagl</authors>
+    <owners>dtgm</owners>
+    <summary>Advanced command line hardlink tool</summary>
+    <description>
+The NTFS filesystem supports a lot of features like Hardlinks, Junctions Symbolic Links and Mount Points, which are sparsley supported by standard tools. This tool is kind of a NTFS Swiss Army Knife and can do lots of things, like create SmartCopies, which preserve the inner and outer Hardlink/Junction/SymbolicLink structure, does hardlink based incremental Backups and a lot of other things which can not be found anywhere.
+
+[FAQ](http://schinagl.priv.at/nt/ln/ln.html#faq)
+[Manual](http://schinagl.priv.at/nt/ln/ln.html#introduction)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/ln/2.8.6.8</packageSourceUrl>
+    <projectUrl>http://schinagl.priv.at/nt/ln/ln.html</projectUrl>
+    <tags>hardlink cli freeware</tags>
+    <copyright>© 2004 Hermann Schinagl</copyright>
+    <licenseUrl>http://schinagl.priv.at/nt/ln/license.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Changelog](http://schinagl.priv.at/nt/ln/ln.html#history)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="vcredist2005" version="8.0.6.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
