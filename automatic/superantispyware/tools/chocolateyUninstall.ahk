@@ -9,16 +9,17 @@ DetectHiddenText, off
 SetTitleMatchMode, 1 ;begins
 
 ; variables
-winTitle = SUPERAntiSpyware Uninstaller ahk_class #32770
+winTitle1 = SUPERAntiSpyware Uninstaller ahk_class #32770
 winTitle2 = SUPERAntiSpyware Uninstall ahk_class #32770
+winTitle3 = SUPERAntiSpyware.com - Uninstallation Survey
 
-WinWait, %winTitle%, This will remove SUPERAntiSpyware from your system, 120
-ControlClick, Button1, %winTitle%, OK
+WinWait, %winTitle1%, This will remove SUPERAntiSpyware from your system, 120
+ControlClick, Button1, %winTitle1%, OK
 
 WinWait, %winTitle2%, , 120
 ControlClick, Button1, %winTitle2%, &Yes
 
-WinWait, SUPERAntiSpyware.com - Uninstallation Survey, , 120
+WinWait, %winTitle3%, , 120
 WinActivate
 Send, ^w
 

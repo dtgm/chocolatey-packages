@@ -12,11 +12,8 @@ SetTitleMatchMode, 2
 winTitle = Speex Uninstall ahk_class #32770
 
 WinWait, %winTitle%, Are you sure, 180
-WinActivate
-ControlClick, Button1, , &Yes
-
+ControlClick, Button1, %winTitle%, &Yes
 WinWait, %winTitle%, , 180
-WinActivate
-ControlClick, Button1, , OK
+ControlClick, Button1, %winTitle%, OK
 
 ExitApp

@@ -8,8 +8,9 @@ SetControlDelay, 20
 DetectHiddenText, off
 SetTitleMatchMode, 1  ;begins
 
-WinWait, TinyCAD ahk_class #32770, Libraries will be, 120
-WinActivate
-SendInput {Enter}
+winTitle = TinyCAD ahk_class #32770
+
+WinWait, %winTitle%, Libraries will be, 120
+ControlSend, , {Enter}, %winTitle%
 
 ExitApp

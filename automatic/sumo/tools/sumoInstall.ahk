@@ -1,8 +1,12 @@
 #NoEnv
-SetTitleMatchMode, 1  ;matches if title begins with string
+SetTitleMatchMode, 1  ;begins
 DetectHiddenText, off
 DetectHiddenWindows, off
-WinWait, KC Softwares, Navigation Bar, 30
+
+winTitle = KC Softwares
+
+WinWait, %winTitle%, Navigation Bar, 30
 WinActivate
 Send, ^w
+
 ExitApp

@@ -1,13 +1,15 @@
 #NoEnv
 SendMode Input
 SetWorkingDir %A_ScriptDir%
-SetTitleMatchMode, 1   ;matches if title begins with string
+SetTitleMatchMode, 1   ;begins
 DetectHiddenText, off  ;will not search hidden window text
 DetectHiddenWindows, off  ;will not detect hidden windows
-WinWait, Setup ahk_class #32770, This program will uninstall the software from your computer, 60
-WinActivate
-Send,{Enter}
-WinWait, Setup ahk_class #32770, Uninstallation is finished, 60
-WinActivate
-Send,{Enter}
+
+winTitle = Setup ahk_class #32770
+
+WinWait, %winTitle%, This program will uninstall the software from your computer, 60
+ControlSend, , {Enter}, %winTitle%
+WinWait, %winTitle%, Uninstallation is finished, 60
+ControlSend, , {Enter}, %winTitle%
+
 ExitApp

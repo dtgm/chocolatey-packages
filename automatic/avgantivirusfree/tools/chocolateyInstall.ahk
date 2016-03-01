@@ -9,13 +9,13 @@ DetectHiddenText, off
 SetTitleMatchMode, 1  ;begins
 
 ; variables
-winTitle = AVG | Thank you for installing
-app = AVG AntiVirus Free Edition
+winTitle1 = AVG AntiVirus Free Edition
+winTitle2 = AVG | Thank you for installing
 
-WinWait, %app%, , 3600
-WinMinimize, %app%
+WinWait, %winTitle1%, , 3600
+WinMinimize, %winTitle1%
 
-WinWait, %winTitle%, , 300
+WinWait, %winTitle2%, , 300
 WinActivate
 Send, ^w
 

@@ -3,32 +3,31 @@ SetTitleMatchMode, RegEx
 DetectHiddenText, off
 DetectHiddenWindows, off
 
-WinWait, Anomos [\d\.]+ Setup, Anomos needs some additional software to run properly, 15
-WinActivate
-ControlClick, Button1, Anomos [\d\.]+ Setup, Anomos needs some additional software
+winTitleSetup = Anomos [\d\.]+ Setup
+winTitleRedist = Microsoft Visual C\+\+ 2008 Redistributable Setup
+winTitleOpenssl = Setup
+winTitleOpensslLt = Setup \- OpenSSL Light
+winTitleExit = Exit Setup
 
-WinWait, Microsoft Visual C\+\+ 2008 Redistributable Setup, &Cancel, 15
-WinActivate
-ControlClick, Button13, Microsoft Visual C\+\+ 2008 Redistributable Setup, &Cancel
+WinWait, %winTitleSetup%, Anomos needs some additional software to run properly, 15
+ControlClick, Button1, %winTitleSetup%, Anomos needs some additional software
 
-WinWait, Microsoft Visual C\+\+ 2008 Redistributable Setup, Are you sure you want to cancel setup, 5
-WinActivate
-ControlClick, Button1, Microsoft Visual C\+\+ 2008 Redistributable Setup, &Yes
+WinWait, %winTitleRedist%, &Cancel, 15
+ControlClick, Button13, %winTitleRedist%, &Cancel
 
-WinWait, Microsoft Visual C\+\+ 2008 Redistributable Setup, You have chosen to cancel setup, 5
-WinActivate
-ControlClick, Button2, Microsoft Visual C\+\+ 2008 Redistributable Setup, &Finish
+WinWait, %winTitleRedist%, Are you sure you want to cancel setup, 5
+ControlClick, Button1, %winTitleRedist%, &Yes
 
-WinWait, Setup, The Win32 OpenSSL, 5
-WinActivate
-ControlClick, Button1, Setup, OK
+WinWait, %winTitleRedist%, You have chosen to cancel setup, 5
+ControlClick, Button2, %winTitleRedist%, &Finish
 
-WinWait, Setup \- OpenSSL Light, This will install, 10
-WinActivate
-ControlClick, TNewButton2, Setup \- OpenSSL Light, Cancel
+WinWait, %winTitleOpenssl%, The Win32 OpenSSL, 5
+ControlClick, Button1, %winTitleOpenssl%, OK
 
-WinWait, Exit Setup, Setup is not complete, 5
-WinActivate
-ControlClick, Button1, Exit Setup, &Yes
+WinWait, %winTitleOpensslLt%, This will install, 10
+ControlClick, TNewButton2, %winTitleOpensslLt%, Cancel
+
+WinWait, %winTitleExit%, Setup is not complete, 5
+ControlClick, Button1, %winTitleExit%, &Yes
 
 ExitApp

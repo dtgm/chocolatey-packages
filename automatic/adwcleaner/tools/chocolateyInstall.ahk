@@ -3,18 +3,19 @@ SetTitleMatchMode, RegEx
 DetectHiddenText, off
 DetectHiddenWindows, off
 
+%winTitleOutdated% = Outdated version
+%winTitleTerms% = AdwCleaner - Terms of use
+
 loop,
 {
   Sleep, 250
-  IfWinExist, Outdated version, Cancel
+  IfWinExist, %winTitleOutdated%, Cancel
   {
-    WinActivate
-    ControlClick, Button2, Outdated version, Cancel
+    ControlClick, Button2, %winTitleOutdated%, Cancel
   }
-  IfWinExist, AdwCleaner - Terms of use, I agree
+  IfWinExist, %winTitleTerms%, I agree
   {
-    WinActivate
-    ControlClick, Button1, AdwCleaner - Terms of use, I agree,  
+    ControlClick, Button1, %winTitleTerms%, I agree,  
   }
   IfWinExist, AdwCleaner - v, Scan
   {

@@ -3,20 +3,18 @@ SetTitleMatchMode, 1  ;begins
 DetectHiddenText, off
 DetectHiddenWindows, off
 
-WinWait, Newsbin Pro Uninstall ahk_class #32770, , 15
-WinActivate
-ControlClick, Button1, Newsbin Pro Uninstall ahk_class #32770, Remove Newsbin Data Files
+winTitle = Newsbin Pro Uninstall ahk_class #32770
 
-WinWait, Newsbin Pro Uninstall ahk_class #32770, , 15
-WinActivate
-ControlClick, Button1, Newsbin Pro Uninstall ahk_class #32770, Are you really
+WinWait, %winTitle%, , 15
+ControlClick, Button1, %winTitle%, Remove Newsbin Data Files
 
-WinWait, Newsbin Pro Uninstall ahk_class #32770, , 15
-WinActivate
-ControlClick, Button1, Newsbin Pro Uninstall ahk_class #32770, Remove Newsbin Pro Application Folder
+WinWait, %winTitle%, , 15
+ControlClick, Button1, %winTitle%, Are you really
 
-WinWait, Newsbin Pro Uninstall ahk_class #32770, , 15
-WinActivate
-ControlClick, Button1, Newsbin Pro Uninstall ahk_class #32770, Remove Newsbin's Windows Registry entries
+WinWait, %winTitle%, , 15
+ControlClick, Button1, %winTitle%, Remove Newsbin Pro Application Folder
+
+WinWait, %winTitle%, , 15
+ControlClick, Button1, %winTitle%, Remove Newsbin's Windows Registry entries
 
 ExitApp

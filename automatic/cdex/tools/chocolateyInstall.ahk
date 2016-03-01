@@ -5,11 +5,13 @@ SetTitleMatchMode, 1   ;begins
 DetectHiddenText, off
 DetectHiddenWindows, off
 
-WinWait, CDex Setup ahk_class #32770, Thank You for using CDex, 120
-WinActivate
-ControlClick, Button1, ahk_class #32770
+winTitle = CDex Setup ahk_class #32770
+winTitleDonate = Donations | CDex
 
-WinWait, Donations | CDex, , 10
+WinWait, %winTitle%, Thank You for using CDex, 120
+ControlClick, Button1, %winTitle%
+
+WinWait, %winTitleDonate%, , 10
 WinActivate
 Send ^w
 

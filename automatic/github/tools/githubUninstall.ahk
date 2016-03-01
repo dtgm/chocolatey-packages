@@ -8,8 +8,9 @@ SetControlDelay, 20
 DetectHiddenText, off
 SetTitleMatchMode, RegEx
 
-WinWait, GitHub Maintenance, Choose the type of maintenance you need, 120
-WinActivate
-ControlClick, &OK, GitHub Maintenance
+winTitle = GitHub Maintenance
+
+WinWait, %winTitle%, Choose the type of maintenance you need, 120
+ControlClick, &OK, %winTitle%
 
 ExitApp
