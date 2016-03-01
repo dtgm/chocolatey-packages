@@ -1,10 +1,10 @@
-﻿$packageName = 'superantispyware'
+$packageName = 'superantispyware'
 $installerType = 'exe'
 # ver 6.0.1194 fails on 8.1-64
 #$silentArgs = '/SILENT'
 $silentArgs = ''
 $url = 'http://cdn.superantispyware.com/SUPERAntiSpyware.exe'
-$checksum = '{checksum}'
+$checksum = 'f14237e75f3db70c2ccf2b10c769437a2acab8a1'
 $checksumType = 'sha1'
 $validExitCodes = @(0)
 
