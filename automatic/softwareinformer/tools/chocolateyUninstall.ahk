@@ -1,11 +1,13 @@
 #NoEnv
 SendMode Input
 SetWorkingDir %A_ScriptDir%
-SetTitleMatchMode, 1   ;matches if begins
+SetTitleMatchMode, 1   ;begins
 DetectHiddenText, off
 DetectHiddenWindows, off
 
-WinWait, Software Informer - , , 180
+winTitle = Software Informer - 
+
+WinWait, %winTitle%, , 180
 WinActivate
 CheckAddressBar()
 

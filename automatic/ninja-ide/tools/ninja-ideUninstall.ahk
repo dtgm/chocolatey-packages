@@ -1,11 +1,13 @@
 #NoEnv
-SetTitleMatchMode, 1  ;matches if title begins with string
+SetTitleMatchMode, 1  ;begins
 DetectHiddenText, off
 DetectHiddenWindows, off
-WinWait, Ninja ahk_class #32770, Are you sure you want to remove Ninja, 30
-WinActivate
-ControlClick, Button1, ahk_class #32770, &Yes,
-WinWait, Ninja ahk_class #32770, OK, 30
-WinActivate
-ControlClick, Button1, ahk_class #32770, OK,
+
+winTitle = Ninja ahk_class #32770
+
+WinWait, %winTitle%, Are you sure you want to remove Ninja, 30
+ControlClick, Button1, %winTitle%, &Yes,
+WinWait, %winTitle%, OK, 30
+ControlClick, Button1, %winTitle%, OK,
+
 ExitApp

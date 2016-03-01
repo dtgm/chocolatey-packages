@@ -1,16 +1,17 @@
 #NoEnv
 SendMode Input
 SetWorkingDir %A_ScriptDir%
-SetTitleMatchMode, 1   ;matches if title begins with string
+SetTitleMatchMode, 1   ;begins
 DetectHiddenText, off  ;will not search hidden window text
 DetectHiddenWindows, off  ;will not detect hidden windows
-WinWait, GCstar ahk_class #32770, Are you sure, 120
-WinActivate
+
+winTitle = GCstar ahk_class #32770
+
+WinWait, %winTitle%, Are you sure, 120
 ControlClick, Button1, ahk_class #32770
-WinWait, GCstar ahk_class #32770, Do you want, 60
-WinActivate
+WinWait, %winTitle%, Do you want, 60
 ControlClick, Button1, ahk_class #32770
-WinWait, GCstar ahk_class #32770, OK, 60
-WinActivate
+WinWait, %winTitle%, OK, 60
 ControlClick, Button1, ahk_class #32770
+
 ExitApp

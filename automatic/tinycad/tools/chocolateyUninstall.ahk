@@ -8,12 +8,11 @@ SetControlDelay, 20
 DetectHiddenText, off
 SetTitleMatchMode, 1  ;begins
 
-WinWait, TinyCAD ahk_class #32770, Are you sure you want to completely remove, 120
-WinActivate
-ControlClick, Button1, TinyCAD ahk_class #32770
+winTitle = TinyCAD ahk_class #32770
 
-WinWait, TinyCAD ahk_class #32770, OK, 120
-WinActivate
-SendInput {Enter}
+WinWait, %winTitle%, Are you sure you want to completely remove, 120
+ControlClick, Button1, %winTitle%
+WinWait, %winTitle%, OK, 120
+ControlSend, , {Enter}, %winTitle%
 
 ExitApp

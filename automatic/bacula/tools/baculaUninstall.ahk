@@ -1,6 +1,9 @@
 #NoEnv
 SetTitleMatchMode, 1  ;begin
-WinWait, Bacula Uninstall ahk_class #32770, Would you like to delete the current, 30
-WinActivate
-ControlClick, Button1, ahk_class #32770, &Yes,
+
+winTitle = Bacula Uninstall ahk_class #32770
+
+WinWait, %winTitle%, Would you like to delete the current, 30
+ControlClick, Button1, %winTitle%, &Yes,
+
 ExitApp

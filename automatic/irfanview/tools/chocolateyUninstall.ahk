@@ -12,11 +12,9 @@ SetTitleMatchMode, 2
 winTitle = IrfanView Uninstall ahk_class #32770
 
 WinWait, %winTitle%, Thank you for using, 180
-WinActivate
-ControlClick, Button1, , &Yes
+ControlClick, Button1, %winTitle%, &Yes
 
 WinWait, %winTitle%, IrfanView uninstalled, 180
-WinActivate
-ControlClick, Button1, , OK
+ControlClick, Button1, %winTitle%, OK
 
 ExitApp

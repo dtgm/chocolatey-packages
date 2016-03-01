@@ -3,9 +3,10 @@ SetTitleMatchMode, 1  ;begins
 DetectHiddenText, off
 DetectHiddenWindows, off
 
-WinWait, Installing Adobe Shockwave Player ahk_class #32770, , 120
-WinActivate
-ControlClick, Button1, ahk_class #32770, ,
-ControlClick, Button3, ahk_class #32770, Next >,
+winTitle = Installing Adobe Shockwave Player ahk_class #32770
+
+WinWait, %winTitle%, , 120
+ControlClick, Button1, %winTitle%, ,
+ControlClick, Button3, %winTitle%, Next >,
 
 ExitApp

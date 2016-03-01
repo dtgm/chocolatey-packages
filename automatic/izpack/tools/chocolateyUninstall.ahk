@@ -9,16 +9,18 @@ SetKeyDelay, 10
 DetectHiddenText, off
 SetTitleMatchMode, 1  ;begins
 
-WinWait, IzPack - Uninstaller ahk_class SunAwtFrame, , 30
+winTitle = IzPack - Uninstaller ahk_class SunAwtFrame
+
+WinWait, %winTitle%, , 30
 WinActivate
 Send {Space}{Tab}{Enter}
-WinMinimize, IzPack - Uninstaller ahk_class SunAwtFrame
+WinMinimize, %winTitle%
 Loop {
   Sleep 500
   IfExist, C:\Program Files\IzPack\
     continue
   Else {
-    WinClose, IzPack - Uninstaller ahk_class SunAwtFrame
+    WinClose, %winTitle%
     break
   }
 }

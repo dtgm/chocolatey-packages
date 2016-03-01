@@ -3,12 +3,12 @@ SetTitleMatchMode, RegEx
 DetectHiddenText, off
 DetectHiddenWindows, off
 
-WinWait, Anomos [\d\.]+ Uninstall, Are you sure you want to completely remove, 15
-WinActivate
-ControlClick, Button1, Anomos [\d\.]+ Uninstall, &Yes
+winTitle = Anomos [\d\.]+ Uninstall
 
-WinWait, Anomos [\d\.]+ Uninstall, OK, 15
-WinActivate
-ControlClick, Button1, Anomos [\d\.]+ Uninstall, OK
+WinWait, %winTitle%, Are you sure you want to completely remove, 15
+ControlClick, Button1, %winTitle%, &Yes
+
+WinWait, %winTitle%, OK, 15
+ControlClick, Button1, %winTitle%, OK
 
 ExitApp
