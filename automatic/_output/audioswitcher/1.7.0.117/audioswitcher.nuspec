@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>audioswitcher</id>
+    <title>Audio Switcher</title>
+    <version>1.7.0.117</version>
+    <authors>Sean Chapman</authors>
+    <owners>dtgm</owners>
+    <summary>Easily Switch Default Audio Devices on Windows</summary>
+    <description>
+Easily switch the default audio device, input or output, on any Windows PC (Vista and above).
+
+Using this application you can switch output OR input sound devices at the click of a button, or the press of a key.
+
+I designed this application to be incredibly small and lightweight. There is no bloat, it does exactly what it should, nothing more, nothing less.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/audioswitcher/1.7.0.117</packageSourceUrl>
+    <projectUrl>http://audioswit.ch/</projectUrl>
+    <projectSourceUrl>https://github.com/xenolightning/AudioSwitcher/</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/xenolightning/AudioSwitcher_v1/issues</bugTrackerUrl>
+    <docsUrl>https://github.com/xenolightning/AudioSwitcher_v1/wiki</docsUrl>
+    <mailingListUrl>https://twitter.com/xenolightning</mailingListUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/ddf3e8934b6374c8806b58de6ab5995158cd1d81/icons/audioswitcher.png</iconUrl>
+    <tags>audio device manager</tags>
+    <copyright>© 2015 Forty One Limited</copyright>
+    <licenseUrl>https://github.com/xenolightning/AudioSwitcher/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Changelog](http://services.audioswit.ch/versions/1.7.0.117/changelog.txt)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="dotnet4.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
