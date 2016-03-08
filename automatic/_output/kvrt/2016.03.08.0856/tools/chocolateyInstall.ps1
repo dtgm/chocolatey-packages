@@ -1,4 +1,4 @@
-﻿$packageName = 'kvrt'
+$packageName = 'kvrt'
 $url = 'http://devbuilds.kaspersky-labs.com/devbuilds/KVRT/latest/full/KVRT.exe'
 $checksum = ''
 $checksumType = 'sha1'
