@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////////////////////////////////////////////
-/// version 6.7.1.0
+/// version 6.7.1.1
 /// 
-/// Changelog: save checksum64file to standard filename
+/// Changelog: debug lines
 /// 
 
 // REQUIRES:
@@ -65,6 +65,7 @@ if (varChecksum == "{checksum}") {
   
   // find $pkgPath -iname "*.nuspec" -o -iname "*.ps1" -exec sed -i 's/'$sbSha1'/{checksum}/g' '{}' \;
   string replaceChecksum = sbSha1.ToString();
+  //MessageBox.Show(replaceChecksum);
   List<string> fileList = new List<string>(Directory.GetFiles(pkgPath, "*.ps1", SearchOption.AllDirectories));
   string[] filesNuspec = Directory.GetFiles(pkgPath, "*.nuspec", SearchOption.AllDirectories);
   fileList.AddRange(filesNuspec);
@@ -72,7 +73,9 @@ if (varChecksum == "{checksum}") {
   foreach (string file in files) {
     try {
       string contents = File.ReadAllText(file);
+      //MessageBox.Show(contents);
       contents = contents.Replace("{checksum}", replaceChecksum);
+      //MessageBox.Show(contents);
       // Make files writable
       // File.SetAttributes(file, FileAttributes.Normal);
       File.WriteAllText(file, contents);
@@ -104,6 +107,7 @@ if (varChecksumx64 == "{checksumx64}" && varChecksum64File != "{checksum64file}"
   // find $pkgPath -iname "*.nuspec" -o -iname "*.ps1" -exec sed -i 's/'$sbSha1'/{checksumx64}/g' '{}' \;
   // Note chocopkgup will strip 1 set of curly braces so {{checksum}} becomes {checksum}
   string replace64Checksum = sb64Sha1.ToString();
+  //MessageBox.Show(replace64Checksum);
   List<string> fileList = new List<string>(Directory.GetFiles(pkgPath, "*.ps1", SearchOption.AllDirectories));
   string[] filesNuspec = Directory.GetFiles(pkgPath, "*.nuspec", SearchOption.AllDirectories);
   fileList.AddRange(filesNuspec);
@@ -111,7 +115,9 @@ if (varChecksumx64 == "{checksumx64}" && varChecksum64File != "{checksum64file}"
   foreach (string file in files) {
     try {
       string contents = File.ReadAllText(file);
+      //MessageBox.Show(contents);
       contents = contents.Replace("{checksumx64}", replace64Checksum);
+      //MessageBox.Show(contents);
       File.WriteAllText(file, contents);
     } catch (Exception ex) {
       Console.WriteLine(ex.Message);
