@@ -6,7 +6,7 @@ $url = $urlArray[0]
 $checksum = '529e1c3246e61edc940cf67423a962617a561a6d'
 $checksumType = 'sha1'
 $url64 = $urlArray[1]
-$checksum64 = '{checksumx64}'
+$checksum64 = '10234b6f63d3b01a4b8b74c115d767e9449cd336'
 $checksumType64 = 'sha1'
 $validExitCodes = @(0)
 
