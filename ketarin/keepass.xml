@@ -1,26 +1,27 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
-  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="890997d6-cdca-4abc-a3b5-160a11e8ad98">
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="1762b308-cba4-4cab-9b50-91083ac3fd2b">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>3062600</LastFileSize>
-    <LastFileDate>2016-02-04T19:24:31.1531046</LastFileDate>
+    <LastFileSize>3064848</LastFileSize>
+    <LastFileDate>2016-03-13T13:44:34.1204124</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
-    <VariableChangeIndicator />
+    <VariableChangeIndicator>version</VariableChangeIndicator>
+    <HashVariable />
     <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
-    <HttpReferer />
+    <HttpReferer>https://sourceforge.net/projects/keepass/files/KeePass%202.x/</HttpReferer>
     <SetupInstructions />
     <Variables>
       <item>
         <key>
-          <string>yopush</string>
+          <string>nopush</string>
         </key>
         <value>
           <UrlVariable>
@@ -28,7 +29,7 @@
             <VariableType>Textual</VariableType>
             <Regex />
             <TextualContent>--nopush</TextualContent>
-            <Name>yopush</Name>
+            <Name>nopush</Name>
           </UrlVariable>
         </value>
       </item>
@@ -40,8 +41,8 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>{urlPath}/{urlPathDir}/([\d\.]+)</Regex>
-            <Url>{urlHost}/{urlPath}/{urlPathDir}/</Url>
+            <Regex>(?&lt;=KeePass 2.x/)[\d.]+(?=/KeePass-)</Regex>
+            <Url>https://sourceforge.net/projects/keepass/files/KeePass%202.x/</Url>
             <TextualContent />
             <Name>version</Name>
           </UrlVariable>
@@ -85,7 +86,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
             <Regex>[^ "'&lt;&gt;\*]+\.exe/download</Regex>
-            <Url>{urlHost}/{urlPath}/{urlPathDir}/{version}/</Url>
+            <Url>{urlHost}/{urlPath}/{version}/</Url>
             <Name>getUrl</Name>
           </UrlVariable>
         </value>
@@ -107,20 +108,6 @@
       </item>
       <item>
         <key>
-          <string>urlPathDir</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>RegularExpression</VariableType>
-            <Regex>{urlPath}/(KeePass[^/]+)</Regex>
-            <Url>{urlHost}/{urlPath}/</Url>
-            <Name>urlPathDir</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
           <string>urlPath</string>
         </key>
         <value>
@@ -129,37 +116,8 @@
             <VariableType>Textual</VariableType>
             <Regex />
             <Url />
-            <TextualContent>projects/{appname:split:.:0}/files</TextualContent>
+            <TextualContent>projects/{appname:split:.:0}/files/KeePass 2.x</TextualContent>
             <Name>urlPath</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>getChecksum</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>RegularExpression</VariableType>
-            <Regex>\.exe.*?SHA1[\s:]+([a-z0-9 ]{40,44})</Regex>
-            <Url>http://keepass.info/integrity.html</Url>
-            <TextualContent />
-            <Name>getChecksum</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>checksum</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <TextualContent>{getChecksum:replace: :}</TextualContent>
-            <Name>checksum</Name>
           </UrlVariable>
         </value>
       </item>
@@ -179,17 +137,17 @@
       </item>
     </Variables>
     <ExecuteCommand />
-    <ExecutePreCommand />
+    <ExecutePreCommand>write-host $app.Name</ExecutePreCommand>
     <ExecuteCommandType>Batch</ExecuteCommandType>
-    <ExecutePreCommandType>Batch</ExecutePreCommandType>
+    <ExecutePreCommandType>PowerShell</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\KeePass-2.31-Setup.exe</PreviousLocation>
+    <PreviousLocation>F:\exe\keepass_2.32.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2016-02-04T19:24:31.1531046</LastUpdated>
-    <TargetPath>{workdir}\</TargetPath>
+    <LastUpdated>2016-03-13T13:44:34.1204124</LastUpdated>
+    <TargetPath>{saveDir}\{appname}_{version}.{url:ext}</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>keepass</Name>
   </ApplicationJob>
