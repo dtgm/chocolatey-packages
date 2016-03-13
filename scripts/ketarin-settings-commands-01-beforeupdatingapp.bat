@@ -1,3 +1,4 @@
+REM DEPRECATED
 REM Requires
 REM   chocolateypackageupdater
 REM   ketarin
