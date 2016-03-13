@@ -1,8 +1,8 @@
-$packageName = 'geany-nogtk'
-$installerType = 'exe'
-$silentArgs = '/S'
-$url = 'http://download.geany.org/geany-1.27_nogtk_setup.exe'
-$checksum = '83547fadbb796bab0a9ef6e60cb579335fb3a1d2'
+$packageName = 'moneyguru'
+$installerType = 'msi'
+$silentArgs = '/qn /norestart'
+$url = 'http://download.hardcoded.net/dupeguru_pe_win64_2.10.0.msi'
+$checksum = '320ea8992854fc8cdcb81854533b659e322f5aa4'
 $checksumType = 'sha1'
 $validExitCodes = @(0)
 
