@@ -160,6 +160,30 @@ setup.exe -x -s -l0x9 -ARP -f1"%temp%\uninstall.iss"
 
 
 
+$packageName = '{{PackageName}}'
+$packageSearch = "$packageName*"
+$installerType = 'exe'
+$silentArgs = '/S'
+$validExitCodes = @(0)
+
+Write-Debug "Searching the registry for installed program"
+$key = Get-ItemProperty -Path @( 'HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*',
+                                 'HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*',
+                                 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*' ) `
+                        -ErrorAction:SilentlyContinue `
+     | Where-Object   { $_.DisplayName -like $packageSearch }
+
+Write-Debug "Remove quotations from string"
+$key.UninstallString -replace "^`"?([^`"]+).*","`$1"
+   | ForEach-Object { Uninstall-ChocolateyPackage -PackageName "$packageName" `
+                                                  -FileType "$installerType" `
+                                                  -SilentArgs "$silentArgs" `
+                                                  -File "$($_.UninstallString)" `
+                                                  -ValidExitCodes $validExitCodes }
+UninstallString : "C:\Program Files (x86)\stunnel\uninstall.exe" /AllUsers
+
+
+'"C:\Program Files (x86)\stunnel\uninstall.exe"' -replace  "^`"?([^`"]+).*","`$1"
 
 
 
