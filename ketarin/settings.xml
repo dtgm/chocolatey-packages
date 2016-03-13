@@ -23,7 +23,16 @@
           <string>PreUpdateCommand</string>
         </key>
         <value>
-          <string>System.String:chocopkgup {nopush} --packagename={appname} --version={version} --pg="{packageGuid}" --url="{preupdate-url}" --urlx64="{url64}" --packagepath="{file}" --checksum="{checksum}" --c64="{checksumx64}" --debug</string>
+          <string>System.String:$vars = "version","url","url64","checksum","checksumx64","nopush"
+$hash = @{}
+
+foreach ($var in $vars) {
+  if ($app.variables.ContainsKey($var)) {
+    $hash[$var] = $app.variables.item($var).cachedcontent
+  }
+}
+
+chocopkgup $nopush --packagename=$app --version="$($hash["version"])" --url="$($hash["url"])" --urlx64="$($hash["url64"])" --checksum="$($hash["checksum"])" --c64="$($hash["checksumx64"])" --debug</string>
         </value>
       </item>
       <item>
@@ -31,7 +40,7 @@
           <string>PreUpdateCommandType</string>
         </key>
         <value>
-          <string>System.String:Batch</string>
+          <string>System.String:PowerShell</string>
         </value>
       </item>
       <item>
@@ -43,7 +52,7 @@
 &lt;dictionary&gt;
   &lt;item&gt;
     &lt;key&gt;
-      &lt;string&gt;Version&lt;/string&gt;
+      &lt;string&gt;version&lt;/string&gt;
     &lt;/key&gt;
     &lt;value&gt;
       &lt;string&gt;{version}&lt;/string&gt;
@@ -51,7 +60,7 @@
   &lt;/item&gt;
   &lt;item&gt;
     &lt;key&gt;
-      &lt;string&gt;Filesize&lt;/string&gt;
+      &lt;string&gt;filesize&lt;/string&gt;
     &lt;/key&gt;
     &lt;value&gt;
       &lt;string&gt;{filesize:formatfilesize}&lt;/string&gt;
@@ -78,7 +87,7 @@
       &lt;string&gt;fileDate&lt;/string&gt;
     &lt;/key&gt;
     &lt;value&gt;
-      &lt;string&gt;{f:yyyy}.{f:MM}.{f:dd} {f:HH}{f:mm}&lt;/string&gt;
+      &lt;string&gt;{f:yyyy}-{f:MM}-{f:dd} {f:HH}:{f:mm}&lt;/string&gt;
     &lt;/value&gt;
   &lt;/item&gt;
   &lt;item&gt;
@@ -86,7 +95,7 @@
       &lt;string&gt;fixedUrl&lt;/string&gt;
     &lt;/key&gt;
     &lt;value&gt;
-      &lt;string&gt;{property:FixedDownloadUrl:regex:(?&amp;lt;=//).*?(?=/)}&lt;/string&gt;
+      &lt;string&gt;{property:FixedDownloadUrl:regex:(?&amp;lt;=//).*}&lt;/string&gt;
     &lt;/value&gt;
   &lt;/item&gt;
   &lt;item&gt;
@@ -99,7 +108,7 @@
   &lt;/item&gt;
   &lt;item&gt;
     &lt;key&gt;
-      &lt;string&gt;User-Agent&lt;/string&gt;
+      &lt;string&gt;user-agent&lt;/string&gt;
     &lt;/key&gt;
     &lt;value&gt;
       &lt;string&gt;{property:UserAgent}&lt;/string&gt;
@@ -107,7 +116,7 @@
   &lt;/item&gt;
   &lt;item&gt;
     &lt;key&gt;
-      &lt;string&gt;DeletePreviousFile&lt;/string&gt;
+      &lt;string&gt;delPrevFile&lt;/string&gt;
     &lt;/key&gt;
     &lt;value&gt;
       &lt;string&gt;{property:DeletePreviousFile:multireplace:,:True,False:X,}&lt;/string&gt;
@@ -115,7 +124,7 @@
   &lt;/item&gt;
   &lt;item&gt;
     &lt;key&gt;
-      &lt;string&gt;VariableChangeIndicator&lt;/string&gt;
+      &lt;string&gt;varChgInd&lt;/string&gt;
     &lt;/key&gt;
     &lt;value&gt;
       &lt;string&gt;{property:VariableChangeIndicator}&lt;/string&gt;
@@ -159,6 +168,46 @@
     &lt;/key&gt;
     &lt;value&gt;
       &lt;string&gt;{checksum64file}&lt;/string&gt;
+    &lt;/value&gt;
+  &lt;/item&gt;
+  &lt;item&gt;
+    &lt;key&gt;
+      &lt;string&gt;url64&lt;/string&gt;
+    &lt;/key&gt;
+    &lt;value&gt;
+      &lt;string&gt;{url64}&lt;/string&gt;
+    &lt;/value&gt;
+  &lt;/item&gt;
+  &lt;item&gt;
+    &lt;key&gt;
+      &lt;string&gt;hash&lt;/string&gt;
+    &lt;/key&gt;
+    &lt;value&gt;
+      &lt;string&gt;{hash}&lt;/string&gt;
+    &lt;/value&gt;
+  &lt;/item&gt;
+  &lt;item&gt;
+    &lt;key&gt;
+      &lt;string&gt;hashType&lt;/string&gt;
+    &lt;/key&gt;
+    &lt;value&gt;
+      &lt;string&gt;{property:HashType:replace:None:}&lt;/string&gt;
+    &lt;/value&gt;
+  &lt;/item&gt;
+  &lt;item&gt;
+    &lt;key&gt;
+      &lt;string&gt;proto&lt;/string&gt;
+    &lt;/key&gt;
+    &lt;value&gt;
+      &lt;string&gt;{url:regex:.*?(?=.//)}&lt;/string&gt;
+    &lt;/value&gt;
+  &lt;/item&gt;
+  &lt;item&gt;
+    &lt;key&gt;
+      &lt;string&gt;bytes&lt;/string&gt;
+    &lt;/key&gt;
+    &lt;value&gt;
+      &lt;string&gt;{filesize}&lt;/string&gt;
     &lt;/value&gt;
   &lt;/item&gt;
 &lt;/dictionary&gt;</string>
@@ -289,7 +338,7 @@
           <string>MainForm/Size</string>
         </key>
         <value>
-          <string>System.Drawing.Size:1809,760</string>
+          <string>System.Drawing.Size:2205,553</string>
         </value>
       </item>
       <item>
@@ -297,7 +346,7 @@
           <string>MainForm/Location</string>
         </key>
         <value>
-          <string>System.Drawing.Point:-12,939</string>
+          <string>System.Drawing.Point:-13,1146</string>
         </value>
       </item>
       <item>
@@ -353,7 +402,7 @@
           <string>olvJobs/Last updated:LastDisplayIndex</string>
         </key>
         <value>
-          <string>System.Int32:3</string>
+          <string>System.Int32:2</string>
         </value>
       </item>
       <item>
@@ -393,7 +442,7 @@
           <string>olvJobs/Target:Width</string>
         </key>
         <value>
-          <string>System.Int32:17</string>
+          <string>System.Int32:78</string>
         </value>
       </item>
       <item>
@@ -425,7 +474,7 @@
           <string>olvJobs/Category:LastDisplayIndex</string>
         </key>
         <value>
-          <string>System.Int32:11</string>
+          <string>System.Int32:15</string>
         </value>
       </item>
       <item>
@@ -441,7 +490,7 @@
           <string>olvJobs/Status:Width</string>
         </key>
         <value>
-          <string>System.Int32:70</string>
+          <string>System.Int32:53</string>
         </value>
       </item>
       <item>
@@ -449,7 +498,7 @@
           <string>olvJobs/Status:LastDisplayIndex</string>
         </key>
         <value>
-          <string>System.Int32:14</string>
+          <string>System.Int32:6</string>
         </value>
       </item>
       <item>
@@ -529,7 +578,7 @@
           <string>SetPlaceholderDialog/Size</string>
         </key>
         <value>
-          <string>System.Drawing.Size:418,166</string>
+          <string>System.Drawing.Size:397,147</string>
         </value>
       </item>
       <item>
@@ -537,7 +586,7 @@
           <string>SetPlaceholderDialog/Location</string>
         </key>
         <value>
-          <string>System.Drawing.Point:1131,1028</string>
+          <string>System.Drawing.Point:1118,929</string>
         </value>
       </item>
       <item>
@@ -561,7 +610,7 @@
           <string>EditVariablesDialog/Location</string>
         </key>
         <value>
-          <string>System.Drawing.Point:28,1105</string>
+          <string>System.Drawing.Point:382,1081</string>
         </value>
       </item>
       <item>
@@ -585,7 +634,7 @@
           <string>ApplicationJobDialog/Location</string>
         </key>
         <value>
-          <string>System.Drawing.Point:70,949</string>
+          <string>System.Drawing.Point:838,1134</string>
         </value>
       </item>
       <item>
@@ -601,7 +650,7 @@
           <string>LogDialog/Size</string>
         </key>
         <value>
-          <string>System.Drawing.Size:1504,419</string>
+          <string>System.Drawing.Size:1504,588</string>
         </value>
       </item>
       <item>
@@ -609,7 +658,7 @@
           <string>LogDialog/Location</string>
         </key>
         <value>
-          <string>System.Drawing.Point:-6,374</string>
+          <string>System.Drawing.Point:1,231</string>
         </value>
       </item>
       <item>
@@ -625,7 +674,7 @@
           <string>ErrorsDialog/Size</string>
         </key>
         <value>
-          <string>System.Drawing.Size:1096,1047</string>
+          <string>System.Drawing.Size:1096,965</string>
         </value>
       </item>
       <item>
@@ -665,7 +714,7 @@
           <string>olvErrors/Error:Width</string>
         </key>
         <value>
-          <string>System.Int32:935</string>
+          <string>System.Int32:952</string>
         </value>
       </item>
       <item>
@@ -697,7 +746,7 @@
           <string>ProgressDialog/Size</string>
         </key>
         <value>
-          <string>System.Drawing.Size:292,102</string>
+          <string>System.Drawing.Size:302,112</string>
         </value>
       </item>
       <item>
@@ -874,13 +923,13 @@
         </key>
         <value>
           <string>System.String:////////////////////////////////////////////////////////////////////////////////////////
-/// version 6.7
+/// version 6.7.1.0
 /// 
-/// Changelog: disable beta check
+/// Changelog: save checksum64file to standard filename
 /// 
 
 // REQUIRES:
-// global vars: workdir=corresponds to download location of installer file
+// global vars: saveDir=corresponds to download location of installer file
 // app vars: nopush, checksum64file=corresponds to 64 bit install file
 // file vars: same as specified by chocopkgup
 
@@ -890,19 +939,20 @@ string varCScript = app.Variables.ReplaceAllInString("{cscript}");
 // determine whether we run this by checking cscript exists AND is 1 or 2
 if ((varCScript == "1") || (varCScript == "2")) {
 
-// ketarin infos we pass for this script to use
+// ketarin variables we pass for this script to use
 string varAppname = app.Variables.ReplaceAllInString("{appname}");
 string varVersion = app.Variables.ReplaceAllInString("{version}");
-string varChocoPkgOutput = app.Variables.ReplaceAllInString("{chocoPkgOutput}");
+string varChocoPkgOutput = app.Variables.ReplaceAllInString("{chocoPkgOut}");
 string varChecksum = app.Variables.ReplaceAllInString("{checksum}");
 string varChecksumx64 = app.Variables.ReplaceAllInString("{checksumx64}");
 string varChecksum64File = app.Variables.ReplaceAllInString("{checksum64file}");
-string varChecksum64basefile = app.Variables.ReplaceAllInString("{checksum64file:basefile}");
+// string varChecksum64basefile = app.Variables.ReplaceAllInString("{checksum64file:basefile}");
 string varChecksum64ext = app.Variables.ReplaceAllInString("{checksum64file:ext}");
-string varWorkdir = app.Variables.ReplaceAllInString("{workdir}");
-string saveFileName64 = String.Concat(varChecksum64basefile, ".", varChecksum64ext);
+string varSaveDir = app.Variables.ReplaceAllInString("{saveDir}");
+
+// custom variables used in this script
+string saveFileName64 = String.Concat(varAppname, "_64_", varVersion, ".", varChecksum64ext);
 // equivalent to ketarin variable "{file}"
-//string savePath = app.PreviousLocation;
 string savePath = app.PreviousLocation;
 string pkgPath = Path.Combine(varChocoPkgOutput, varAppname, varVersion);
 string fileNameNuspec = String.Concat(varAppname, ".nuspec");
@@ -954,7 +1004,10 @@ if (varChecksum == "{checksum}") {
 if (varChecksumx64 == "{checksumx64}" &amp;&amp; varChecksum64File != "{checksum64file}") {
   // TODO: ...and points to a downloadable file; validate URI
   // we must download the file to calculate checksum, may as well save it too because now all your base are belong to us
-  string savePath64 = Path.Combine(varWorkdir, saveFileName64);
+  string savePath64 = Path.Combine(varSaveDir, saveFileName64);
+/*  MessageBox.Show(varSaveDir + System.Environment.NewLine
+                  + saveFileName64 + System.Environment.NewLine
+                  + savePath64); */
   System.Net.WebClient webClient = new System.Net.WebClient();
   webClient.DownloadFile(varChecksum64File, savePath64);
 
@@ -1301,7 +1354,7 @@ if (varCScript == "2") {
           <string>olvJobs/Filesize:LastDisplayIndex</string>
         </key>
         <value>
-          <string>System.Int32:7</string>
+          <string>System.Int32:5</string>
         </value>
       </item>
       <item>
@@ -1349,7 +1402,7 @@ if (varCScript == "2") {
           <string>olvJobs/host:LastDisplayIndex</string>
         </key>
         <value>
-          <string>System.Int32:9</string>
+          <string>System.Int32:10</string>
         </value>
       </item>
       <item>
@@ -1373,7 +1426,7 @@ if (varCScript == "2") {
           <string>olvJobs/packageGuid:LastDisplayIndex</string>
         </key>
         <value>
-          <string>System.Int32:13</string>
+          <string>System.Int32:14</string>
         </value>
       </item>
       <item>
@@ -1389,7 +1442,7 @@ if (varCScript == "2") {
           <string>olvJobs/fileDate:Width</string>
         </key>
         <value>
-          <string>System.Int32:93</string>
+          <string>System.Int32:97</string>
         </value>
       </item>
       <item>
@@ -1397,7 +1450,7 @@ if (varCScript == "2") {
           <string>olvJobs/fileDate:LastDisplayIndex</string>
         </key>
         <value>
-          <string>System.Int32:2</string>
+          <string>System.Int32:3</string>
         </value>
       </item>
       <item>
@@ -1413,7 +1466,7 @@ if (varCScript == "2") {
           <string>olvJobs/fixedUrl:Width</string>
         </key>
         <value>
-          <string>System.Int32:77</string>
+          <string>System.Int32:96</string>
         </value>
       </item>
       <item>
@@ -1421,7 +1474,7 @@ if (varCScript == "2") {
           <string>olvJobs/fixedUrl:LastDisplayIndex</string>
         </key>
         <value>
-          <string>System.Int32:6</string>
+          <string>System.Int32:8</string>
         </value>
       </item>
       <item>
@@ -1437,7 +1490,7 @@ if (varCScript == "2") {
           <string>olvJobs/referer:Width</string>
         </key>
         <value>
-          <string>System.Int32:161</string>
+          <string>System.Int32:65</string>
         </value>
       </item>
       <item>
@@ -1445,7 +1498,7 @@ if (varCScript == "2") {
           <string>olvJobs/referer:LastDisplayIndex</string>
         </key>
         <value>
-          <string>System.Int32:8</string>
+          <string>System.Int32:13</string>
         </value>
       </item>
       <item>
@@ -1469,7 +1522,7 @@ if (varCScript == "2") {
           <string>olvJobs/User-Agent:LastDisplayIndex</string>
         </key>
         <value>
-          <string>System.Int32:12</string>
+          <string>System.Int32:8</string>
         </value>
       </item>
       <item>
@@ -1485,7 +1538,7 @@ if (varCScript == "2") {
           <string>olvJobs/DeletePreviousFile:Width</string>
         </key>
         <value>
-          <string>System.Int32:24</string>
+          <string>System.Int32:41</string>
         </value>
       </item>
       <item>
@@ -1589,7 +1642,7 @@ if (varCScript == "2") {
           <string>olvJobs/cscript:LastDisplayIndex</string>
         </key>
         <value>
-          <string>System.Int32:16</string>
+          <string>System.Int32:17</string>
         </value>
       </item>
       <item>
@@ -1613,7 +1666,7 @@ if (varCScript == "2") {
           <string>olvJobs/enabled:LastDisplayIndex</string>
         </key>
         <value>
-          <string>System.Int32:17</string>
+          <string>System.Int32:21</string>
         </value>
       </item>
       <item>
@@ -1637,7 +1690,7 @@ if (varCScript == "2") {
           <string>olvJobs/nopush:LastDisplayIndex</string>
         </key>
         <value>
-          <string>System.Int32:18</string>
+          <string>System.Int32:19</string>
         </value>
       </item>
       <item>
@@ -1685,7 +1738,7 @@ if (varCScript == "2") {
           <string>olvJobs/domain:LastDisplayIndex</string>
         </key>
         <value>
-          <string>System.Int32:10</string>
+          <string>System.Int32:11</string>
         </value>
       </item>
       <item>
@@ -1701,7 +1754,7 @@ if (varCScript == "2") {
           <string>olvJobs/checksum64file:Width</string>
         </key>
         <value>
-          <string>System.Int32:42</string>
+          <string>System.Int32:91</string>
         </value>
       </item>
       <item>
@@ -1709,22 +1762,575 @@ if (varCScript == "2") {
           <string>olvJobs/checksum64file:LastDisplayIndex</string>
         </key>
         <value>
-          <string>System.Int32:19</string>
+          <string>System.Int32:20</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/Target2:Visibility</string>
+        </key>
+        <value>
+          <string>System.Boolean:True</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/Target2:Width</string>
+        </key>
+        <value>
+          <string>System.Int32:60</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/Target2:LastDisplayIndex</string>
+        </key>
+        <value>
+          <string>System.Int32:-1</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/AppName:Visibility</string>
+        </key>
+        <value>
+          <string>System.Boolean:True</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/AppName:Width</string>
+        </key>
+        <value>
+          <string>System.Int32:164</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/AppName:LastDisplayIndex</string>
+        </key>
+        <value>
+          <string>System.Int32:-1</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/version:Visibility</string>
+        </key>
+        <value>
+          <string>System.Boolean:True</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/version:Width</string>
+        </key>
+        <value>
+          <string>System.Int32:99</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/version:LastDisplayIndex</string>
+        </key>
+        <value>
+          <string>System.Int32:1</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/filesize:Visibility</string>
+        </key>
+        <value>
+          <string>System.Boolean:True</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/filesize:Width</string>
+        </key>
+        <value>
+          <string>System.Int32:68</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/filesize:LastDisplayIndex</string>
+        </key>
+        <value>
+          <string>System.Int32:7</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/user-agent:Visibility</string>
+        </key>
+        <value>
+          <string>System.Boolean:True</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/user-agent:Width</string>
+        </key>
+        <value>
+          <string>System.Int32:60</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/user-agent:LastDisplayIndex</string>
+        </key>
+        <value>
+          <string>System.Int32:12</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/delPrevFile:Visibility</string>
+        </key>
+        <value>
+          <string>System.Boolean:True</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/delPrevFile:Width</string>
+        </key>
+        <value>
+          <string>System.Int32:60</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/delPrevFile:LastDisplayIndex</string>
+        </key>
+        <value>
+          <string>System.Int32:22</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/varChangeIndicator:Visibility</string>
+        </key>
+        <value>
+          <string>System.Boolean:True</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/varChangeIndicator:Width</string>
+        </key>
+        <value>
+          <string>System.Int32:60</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/varChangeIndicator:LastDisplayIndex</string>
+        </key>
+        <value>
+          <string>System.Int32:20</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/varChgInd:Visibility</string>
+        </key>
+        <value>
+          <string>System.Boolean:True</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/varChgInd:Width</string>
+        </key>
+        <value>
+          <string>System.Int32:82</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/varChgInd:LastDisplayIndex</string>
+        </key>
+        <value>
+          <string>System.Int32:18</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/url64:Visibility</string>
+        </key>
+        <value>
+          <string>System.Boolean:True</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/url64:Width</string>
+        </key>
+        <value>
+          <string>System.Int32:60</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/url64:LastDisplayIndex</string>
+        </key>
+        <value>
+          <string>System.Int32:16</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/hash:Visibility</string>
+        </key>
+        <value>
+          <string>System.Boolean:True</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/hash:Width</string>
+        </key>
+        <value>
+          <string>System.Int32:60</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/hash:LastDisplayIndex</string>
+        </key>
+        <value>
+          <string>System.Int32:23</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/hashType:Visibility</string>
+        </key>
+        <value>
+          <string>System.Boolean:True</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/hashType:Width</string>
+        </key>
+        <value>
+          <string>System.Int32:60</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/hashType:LastDisplayIndex</string>
+        </key>
+        <value>
+          <string>System.Int32:24</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>ImportFromDatabaseDialog/Size</string>
+        </key>
+        <value>
+          <string>System.Drawing.Size:524,1596</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvApplications/Application name:Visibility</string>
+        </key>
+        <value>
+          <string>System.Boolean:True</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvApplications/Application name:Width</string>
+        </key>
+        <value>
+          <string>System.Int32:291</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvApplications/Application name:LastDisplayIndex</string>
+        </key>
+        <value>
+          <string>System.Int32:-1</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvApplications/Last updated:Visibility</string>
+        </key>
+        <value>
+          <string>System.Boolean:True</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvApplications/Last updated:Width</string>
+        </key>
+        <value>
+          <string>System.Int32:130</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvApplications/Last updated:LastDisplayIndex</string>
+        </key>
+        <value>
+          <string>System.Int32:-1</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvApplications/Uses:Visibility</string>
+        </key>
+        <value>
+          <string>System.Boolean:True</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvApplications/Uses:Width</string>
+        </key>
+        <value>
+          <string>System.Int32:40</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvApplications/Uses:LastDisplayIndex</string>
+        </key>
+        <value>
+          <string>System.Int32:-1</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvApplications/LastSortColumn</string>
+        </key>
+        <value>
+          <string>System.String:Application name</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvApplications/LastSortOrder</string>
+        </key>
+        <value>
+          <string>System.Int32:1</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>ChooseAppsToInstallDialog/Size</string>
+        </key>
+        <value>
+          <string>System.Drawing.Size:618,433</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>ChooseAppsToInstallDialog/Location</string>
+        </key>
+        <value>
+          <string>System.Drawing.Point:675,637</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>ChooseAppsToInstallDialog/WindowState</string>
+        </key>
+        <value>
+          <string>System.Int32:0</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvApps/Name:Visibility</string>
+        </key>
+        <value>
+          <string>System.Boolean:True</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvApps/Name:Width</string>
+        </key>
+        <value>
+          <string>System.Int32:263</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvApps/Name:LastDisplayIndex</string>
+        </key>
+        <value>
+          <string>System.Int32:-1</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvApps/LastSortColumn</string>
+        </key>
+        <value>
+          <string>System.String:Name</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvApps/LastSortOrder</string>
+        </key>
+        <value>
+          <string>System.Int32:1</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvLists/Name:Visibility</string>
+        </key>
+        <value>
+          <string>System.Boolean:True</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvLists/Name:Width</string>
+        </key>
+        <value>
+          <string>System.Int32:80</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvLists/Name:LastDisplayIndex</string>
+        </key>
+        <value>
+          <string>System.Int32:-1</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvLists/Applications:Visibility</string>
+        </key>
+        <value>
+          <string>System.Boolean:True</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvLists/Applications:Width</string>
+        </key>
+        <value>
+          <string>System.Int32:80</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvLists/Applications:LastDisplayIndex</string>
+        </key>
+        <value>
+          <string>System.Int32:-1</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvLists/LastSortColumn</string>
+        </key>
+        <value>
+          <string>System.String:Name</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvLists/LastSortOrder</string>
+        </key>
+        <value>
+          <string>System.Int32:0</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>ChooseAppsToInstallDialog/ListsView</string>
+        </key>
+        <value>
+          <string>System.Int32:4</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/proto:Visibility</string>
+        </key>
+        <value>
+          <string>System.Boolean:True</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/proto:Width</string>
+        </key>
+        <value>
+          <string>System.Int32:60</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/proto:LastDisplayIndex</string>
+        </key>
+        <value>
+          <string>System.Int32:9</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>CopyFileInstructionDialog/Size</string>
+        </key>
+        <value>
+          <string>System.Drawing.Size:402,163</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/bytes:Visibility</string>
+        </key>
+        <value>
+          <string>System.Boolean:True</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/bytes:Width</string>
+        </key>
+        <value>
+          <string>System.Int32:93</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/bytes:LastDisplayIndex</string>
+        </key>
+        <value>
+          <string>System.Int32:-1</string>
         </value>
       </item>
     </dictionary>
   </Settings>
   <GlobalVariables>
     <Variable Name="7z" Content="7z.exe" />
-    <Variable Name="curl" Content="pycurl/7.18.2" />
-    <Variable Name="workdir" Content="F:\exe" />
-    <Variable Name="chocoPkgOutput" Content="C:\dev\choco\chocolatey-packages\automatic\_output" />
+    <Variable Name="saveDir" Content="F:\exe" />
+    <Variable Name="null" Content="null" />
+    <Variable Name="chocoPkgOut" Content="C:\dev\choco\chocolatey-packages\automatic\_output" />
     <Variable Name="ie32" Content="Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C)" />
     <Variable Name="ie64" Content="Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Win64; x64; Trident/4.0; .NET CLR 2.0.50727; SLCC2; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; Media Center PC 5.0; SLCC1; Tablet PC 2.0; .NET4.0C)" />
     <Variable Name="firefox" Content="Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.10) Gecko/20100914 Firefox/3.6.10" />
     <Variable Name="opera" Content="Opera/9.80 (Windows NT 6.1; U; en) Presto/2.6.30 Version/10.62" />
     <Variable Name="chrome" Content="Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3 (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3" />
     <Variable Name="wget" Content="wget/1.9+cvs-stable+(red+hat+modified)" />
+    <Variable Name="curl" Content="pycurl/7.18.2" />
   </GlobalVariables>
   <CodeSnippets>
     <Snippet Guid="7158800B-A188-4CAB-927C-31AA36FDD049" Name="chocopkgup" Type="1">chocopkgup {nopush} --packagename={appname} --version={version} --pg="{packageGuid}" --url="{preupdate-url}" --urlx64="{url64}" --packagepath="{file}" --checksum="{checksum}" --c64="{checksumx64}" --debug</Snippet>
