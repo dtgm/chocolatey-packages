@@ -29,12 +29,15 @@ $hash = @{}
 foreach ($var in $vars) {
   if ($app.variables.ContainsKey($var)) {
     $hash[$var] = $app.variables.item($var).cachedcontent
-    Write-Host "`$hash[$var] is: $($hash[$var])"
+  } else {
+    $hash[$var] = "{$var}"
   }
+  Write-Host "`$hash[$var] is: $($hash[$var])"
 }
 
-Write-Host "Running: 'chocopkgup $nopush --packagename=$app --version=`"$($hash["version"])`" --url=`"$($hash["url"])`" --urlx64=`"$($hash["url64"])`" --checksum=`"$($hash["checksum"])`" --c64=`"$($hash["checksumx64"])`" --debug'"
-chocopkgup $hash["nopush"] --packagename=$app --version="$($hash["version"])" --url="$($hash["url"])" --urlx64="$($hash["url64"])" --checksum="$($hash["checksum"])" --c64="$($hash["checksumx64"])" --debug</string>
+Write-Host "Running: 'chocopkgup $($hash["nopush"]) --packagename=$app --version=`"$($hash["version"])`" --url=`"$($hash["url"])`" --urlx64=`"$($hash["url64"])`" --checksum=`"$($hash["checksum"])`" --c64=`"$($hash["checksumx64"])`" --debug'"
+chocopkgup $hash["nopush"] --packagename=$app --version="$($hash["version"])" --url="$($hash["url"])" --urlx64="$($hash["url64"])" --checksum="$($hash["checksum"])" --c64="$($hash["checksumx64"])" --debug
+</string>
         </value>
       </item>
       <item>
@@ -636,7 +639,7 @@ chocopkgup $hash["nopush"] --packagename=$app --version="$($hash["version"])" --
           <string>ApplicationJobDialog/Location</string>
         </key>
         <value>
-          <string>System.Drawing.Point:153,1108</string>
+          <string>System.Drawing.Point:382,965</string>
         </value>
       </item>
       <item>
@@ -925,9 +928,9 @@ chocopkgup $hash["nopush"] --packagename=$app --version="$($hash["version"])" --
         </key>
         <value>
           <string>System.String:////////////////////////////////////////////////////////////////////////////////////////
-/// version 6.7.1.0
+/// version 6.7.1.1
 /// 
-/// Changelog: save checksum64file to standard filename
+/// Changelog: debug lines
 /// 
 
 // REQUIRES:
@@ -954,6 +957,7 @@ string varSaveDir = app.Variables.ReplaceAllInString("{saveDir}");
 
 // custom variables used in this script
 string saveFileName64 = String.Concat(varAppname, "_64_", varVersion, ".", varChecksum64ext);
+string savePath64 = Path.Combine(varSaveDir, saveFileName64);
 // equivalent to ketarin variable "{file}"
 string savePath = app.PreviousLocation;
 string pkgPath = Path.Combine(varChocoPkgOutput, varAppname, varVersion);
@@ -961,6 +965,11 @@ string fileNameNuspec = String.Concat(varAppname, ".nuspec");
 string fileUriNuspec = Path.Combine(pkgPath, fileNameNuspec);
 string fileNameNupkg = String.Concat(varAppname, ".", varVersion, ".nupkg");
 string fileUriNupkg = Path.Combine(pkgPath, fileNameNupkg);
+
+/* DEBUG
+  MessageBox.Show(varSaveDir + System.Environment.NewLine
+                  + saveFileName64 + System.Environment.NewLine
+                  + savePath64);*/
 
 // do not re-push package if package already created
 DateTime today = DateTime.Today;
@@ -985,6 +994,7 @@ if (varChecksum == "{checksum}") {
   
   // find $pkgPath -iname "*.nuspec" -o -iname "*.ps1" -exec sed -i 's/'$sbSha1'/{checksum}/g' '{}' \;
   string replaceChecksum = sbSha1.ToString();
+  //MessageBox.Show(replaceChecksum);
   List&lt;string&gt; fileList = new List&lt;string&gt;(Directory.GetFiles(pkgPath, "*.ps1", SearchOption.AllDirectories));
   string[] filesNuspec = Directory.GetFiles(pkgPath, "*.nuspec", SearchOption.AllDirectories);
   fileList.AddRange(filesNuspec);
@@ -992,7 +1002,9 @@ if (varChecksum == "{checksum}") {
   foreach (string file in files) {
     try {
       string contents = File.ReadAllText(file);
+      //MessageBox.Show(contents);
       contents = contents.Replace("{checksum}", replaceChecksum);
+      //MessageBox.Show(contents);
       // Make files writable
       // File.SetAttributes(file, FileAttributes.Normal);
       File.WriteAllText(file, contents);
@@ -1006,10 +1018,6 @@ if (varChecksum == "{checksum}") {
 if (varChecksumx64 == "{checksumx64}" &amp;&amp; varChecksum64File != "{checksum64file}") {
   // TODO: ...and points to a downloadable file; validate URI
   // we must download the file to calculate checksum, may as well save it too because now all your base are belong to us
-  string savePath64 = Path.Combine(varSaveDir, saveFileName64);
-/*  MessageBox.Show(varSaveDir + System.Environment.NewLine
-                  + saveFileName64 + System.Environment.NewLine
-                  + savePath64); */
   System.Net.WebClient webClient = new System.Net.WebClient();
   webClient.DownloadFile(varChecksum64File, savePath64);
 
@@ -1028,6 +1036,7 @@ if (varChecksumx64 == "{checksumx64}" &amp;&amp; varChecksum64File != "{checksum
   // find $pkgPath -iname "*.nuspec" -o -iname "*.ps1" -exec sed -i 's/'$sbSha1'/{checksumx64}/g' '{}' \;
   // Note chocopkgup will strip 1 set of curly braces so {{checksum}} becomes {checksum}
   string replace64Checksum = sb64Sha1.ToString();
+  //MessageBox.Show(replace64Checksum);
   List&lt;string&gt; fileList = new List&lt;string&gt;(Directory.GetFiles(pkgPath, "*.ps1", SearchOption.AllDirectories));
   string[] filesNuspec = Directory.GetFiles(pkgPath, "*.nuspec", SearchOption.AllDirectories);
   fileList.AddRange(filesNuspec);
@@ -1035,7 +1044,9 @@ if (varChecksumx64 == "{checksumx64}" &amp;&amp; varChecksum64File != "{checksum
   foreach (string file in files) {
     try {
       string contents = File.ReadAllText(file);
+      //MessageBox.Show(contents);
       contents = contents.Replace("{checksumx64}", replace64Checksum);
+      //MessageBox.Show(contents);
       File.WriteAllText(file, contents);
     } catch (Exception ex) {
       Console.WriteLine(ex.Message);
