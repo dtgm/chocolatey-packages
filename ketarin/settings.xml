@@ -29,10 +29,12 @@ $hash = @{}
 foreach ($var in $vars) {
   if ($app.variables.ContainsKey($var)) {
     $hash[$var] = $app.variables.item($var).cachedcontent
+    Write-Host "`$hash[$var] is: $($hash[$var])"
   }
 }
 
-chocopkgup $nopush --packagename=$app --version="$($hash["version"])" --url="$($hash["url"])" --urlx64="$($hash["url64"])" --checksum="$($hash["checksum"])" --c64="$($hash["checksumx64"])" --debug</string>
+Write-Host "Running: 'chocopkgup $nopush --packagename=$app --version=`"$($hash["version"])`" --url=`"$($hash["url"])`" --urlx64=`"$($hash["url64"])`" --checksum=`"$($hash["checksum"])`" --c64=`"$($hash["checksumx64"])`" --debug'"
+chocopkgup $hash["nopush"] --packagename=$app --version="$($hash["version"])" --url="$($hash["url"])" --urlx64="$($hash["url64"])" --checksum="$($hash["checksum"])" --c64="$($hash["checksumx64"])" --debug</string>
         </value>
       </item>
       <item>
@@ -442,7 +444,7 @@ chocopkgup $nopush --packagename=$app --version="$($hash["version"])" --url="$($
           <string>olvJobs/Target:Width</string>
         </key>
         <value>
-          <string>System.Int32:78</string>
+          <string>System.Int32:61</string>
         </value>
       </item>
       <item>
@@ -490,7 +492,7 @@ chocopkgup $nopush --packagename=$app --version="$($hash["version"])" --url="$($
           <string>olvJobs/Status:Width</string>
         </key>
         <value>
-          <string>System.Int32:53</string>
+          <string>System.Int32:70</string>
         </value>
       </item>
       <item>
@@ -634,7 +636,7 @@ chocopkgup $nopush --packagename=$app --version="$($hash["version"])" --url="$($
           <string>ApplicationJobDialog/Location</string>
         </key>
         <value>
-          <string>System.Drawing.Point:838,1134</string>
+          <string>System.Drawing.Point:153,1108</string>
         </value>
       </item>
       <item>
@@ -650,7 +652,7 @@ chocopkgup $nopush --packagename=$app --version="$($hash["version"])" --url="$($
           <string>LogDialog/Size</string>
         </key>
         <value>
-          <string>System.Drawing.Size:1504,588</string>
+          <string>System.Drawing.Size:1825,588</string>
         </value>
       </item>
       <item>
@@ -658,7 +660,7 @@ chocopkgup $nopush --packagename=$app --version="$($hash["version"])" --url="$($
           <string>LogDialog/Location</string>
         </key>
         <value>
-          <string>System.Drawing.Point:1,231</string>
+          <string>System.Drawing.Point:2,579</string>
         </value>
       </item>
       <item>
