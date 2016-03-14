@@ -8,6 +8,7 @@ $url64 = "$url"
 $checksum64 = "$checksum"
 $checksumType64 = "$checksumType"
 $validExitCodes = @(0)
+
 Install-ChocolateyPackage -PackageName "$packageName" `
                           -FileType "$installerType" `
                           -SilentArgs "$silentArgs" `
