@@ -12,3 +12,4 @@ Install-ChocolateyZipPackage -PackageName "$packageName" `
                              -ChecksumType "$checksumType"
 Set-Content -Path ("$installFile.gui") `
             -Value $null
+            
