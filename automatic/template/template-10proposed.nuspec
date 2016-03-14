@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <version>{{PackageVersion}}</version>
+    <owners>{{MaintainerName}}</owners>
+    <title>STATIC</title>
+    <authors>STATIC</authors>
+    <summary>STATIC</summary>
+    <description>
+<!-- 4000 chars -->
+STATIC
+
+#### Additional documentation
+* [Features]()
+* [Screenshots]()
+* [FAQ]()
+* [Wiki]()
+* [Manual]()
+* [Privacy policy]()
+
+#### Community
+* [Forum]()
+* [IRC]()
+* [Facebook]()
+* [Google+]()
+* [Twitter]()
+
+
+#### Install behavior
+* Start menu shortcuts: 
+* Desktop icons: 
+* Paths added: 
+* Install path: 
+
+* registry entries:
+
+
+#### Package parameters
+Available: 
+
+Create
+  start menu shortcut
+  desktop icon
+  environment path
+
+
+#### Installer parameters
+Installer framework: **install.metadata**
+Typical arguments available: **install.metadata**
+Default arguments passed to installer: **{{SilentArgs}}**
+
+add to `choco install` command:
+
+* to append to "default": `--ia`, `--install-arguments` `'INSTALL ARGS'`
+* to replace "default": `-o`, `--override-arguments`
+
+    </description>
+    <!-- short packageSourceUrl -->
+    <packageSourceUrl>{{MaintainerRepo}}</packageSourceUrl>
+    <!-- long packageSourceUrl -->
+    <packageSourceUrl>{{MaintainerRepo}}/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+
+<!-- these could be specified in ketarin, but it is unlikely for them to change so would be faster to hardcode these values -->
+    <projectUrl>MANUAL</projectUrl>
+    <projectSourceUrl>MANUAL</projectSourceUrl>
+    <bugTrackerUrl>MANUAL</bugTrackerUrl>
+    <docsUrl>MANUAL</docsUrl>
+    <mailingListUrl>MANUAL</mailingListUrl>
+<!-- if freeware and no other URL available should be https://wikipedia.org/wiki/Freeware -->
+    <licenseUrl>MANUAL</licenseUrl>
+    <tags>MANUAL</tags>
+<!-- when should this be true? -->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+
+<!-- some way to automate this value? 
+       URL must include commit or icon cannot change 
+       could consolidate all current package icons -->
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/COMMIT-SHA1/icons/{{PackageName}}.png</iconUrl>
+
+<!-- typically just append <authors> element after © symbol -->
+    <copyright>© </copyright>
+    <releaseNotes>
+#### Program
+* [News]()
+* [Release log]()
+* [Roadmap]()
+* [Changelog]()
+
+#### System requirements
+* Download file name: **{url:basefile}.{url:ext}**
+* Download file size: **{filesize:formatfilesize}**
+* Default install name: **{???}**
+* Default Install size: **{???}**
+
+#### Package
+* __Automatically built__: if this package's version is out of date by more than a day of the program's version, please [notify the maintainer](https://chocolatey.org/packages/{{PackageName}}/ContactOwners)
+* Uploaded by [{{MaintainerName}}](https://chocolatey.org/profiles/{{MaintainerName}})
+* Program release date: {f:yyyy}{f:MM}{f:dd}-{f:HH}{f:mm}
+* Package release date: {f:yyyy}{f:MM}{f:dd}-{f:HH}{f:mm}
+* Package lag time: 
+    </releaseNotes>
+
+<!-- no defined syntax yet -->
+    <!--<provides>{{PackageName}}</provides>-->
+    <!--<replaces></replaces>-->
+    <!--<conflicts></conflicts>-->
+
+
+    
+<!-- POSSIBLE SYNTAX (typical) -->
+<!--
+    <provides>
+      <provided id="FOO" version="1.0.0" />
+    </provides>
+    
+    <provides>FOO,BAR,FOOBAR</provides>
+    
+    <provides>{{PackageName}}.install</provides>
+-->
+
+    
+<!-- POSSIBILE USAGE -->
+
+<!-- PROVIDES: support for Virtual Pkgs -->
+<!--
+    <provides>
+      <provided id="FOO" version="1.0.0" />
+    </provides>
+    
+    <provides>FOO,BAR,FOOBAR</provides>
+    
+    <provides>{{PackageName}}.install</provides>
+-->
+
+<!-- REPLACES: for deprecated pkgs -->
+<!--    
+    <replaces>
+      <replaced id="FOO" version="1.0.0" />
+    </replaces>
+-->
+
+<!-- CONFLICTS: cannot be installed alongside -->
+<!--
+    <conflicts>
+      <conflicted id="" version="" />
+    </conflicts>
+-->
+    
+    
+<!-- metapackage -->
+    <dependencies>
+      <dependency id="{{PackageName}}.install" version="[{{PackageVersion}}]" />
+    </dependencies>
+
+<!-- other program dependency: 3.0 < keepass ≥ 2.09 -->
+    <dependencies>
+      <dependency id="keepass" version="[2.09, 3.0)" />
+      <dependency id="jre" version="8" />
+    </dependencies>
+
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

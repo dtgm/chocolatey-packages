@@ -1,3 +1,4 @@
+<!--
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
   <metadata>
@@ -30,38 +31,8 @@
 </package>
 
 
+EXPANSION
 
-<?xml version="1.0"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
-  <metadata>
-    <id>TotalCommander</id>
-    <title>Total Commander</title>
-    <version>{{PackageVersion}}</version>
-    <authors>Christian Ghisler</authors>
-    
-    <summary>Total Commander - File Manager and Explorer Replacement</summary>
-    
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
-    <projectUrl>http://www.ghisler.com</projectUrl>
-    <tags>Total Commander File Disk Manager</tags>
-    
-    
-  
-</package>
-
-
-
-
-
-<?xml version="1.0" encoding="utf-8"?>
-<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <metadata>
-    <id>{{PackageName}}</id>
-    <title></title>
-    <version>{{PackageVersion}}</version>
-    <authors></authors>
-    <owners>dtgm</owners>
-    <summary></summary>
     <description>
 
 
@@ -72,13 +43,8 @@
 [Manual]()
 [Command line options]()
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
-    <projectUrl></projectUrl>
-    <tags></tags>
-    <copyright>© </copyright>
-    <licenseUrl></licenseUrl>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages//icons/{{PackageName}}.png</iconUrl>
+
+    
     <releaseNotes>
 ### Program
 
@@ -90,27 +56,105 @@
 
 Automatically generated and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
-  </metadata>
-  <files>
-    <file src="tools\**" target="tools" />
-  </files>
-</package>
+
+-->
+
+http://docs.nuget.org/Create/Nuspec-Reference
+
+http://docs.nuget.org/Release-Notes/NuGet-2.0
+
+https://github.com/nuget
 
 
+
+Purpose of NUSPEC
+=================
+A .nuspec file is a manifest that uses XML to describe a package. 
+
+The manifest is used to build a package and is also stored in the package after the package is built.   
+
+nuget.exe program
+
+
+What, Where, When, Why, How
+===========================
+
+WHAT
+  organize
+
+
+WHERE
+  nupkg source files
+  installer URL
+  
+
+WHEN
+  when pkg created
+  when program released
+
+
+WHY
+  ???
+
+HOW
+  PS1 files
+  AHK files
+
+
+
+
+
+Using nuspec to 
+  organize programs
+===========================
+
+  
+
+NUPKG
+===========================
+  source repo: where to look for pkgs
+  
+  installer metadata: where to find installer file
+    bandwidth required
+    approx time to download
+    
+  
+  install metadata
+    compressed state
+    how much space used
+    resources provided
+      gui
+      cli
+      libs
+
+
+STORED INFO PROVIDED BY
+===========================   
+  static: config files
+  web scraped: using ketarin
+  metadata install file: using vagrant and sys analysis
+  
+
+      
+
+====
+TAGS
+====
 CUSTOM TAGS
 ============
 
 manual/manpage
 
-audience
+AUDIENCE
+  administrator
   developer
   user
 
 
-type
+TYPE
   audio; sound; analysis, capture/record, cd, conversion, editor, mixer, player, speech midi, synthesis, composition
   video; compression, image, graphic, audio
-  graphic/image
+  image; compression, graphic
   business/enterprise
   people communications
   data communications
@@ -123,13 +167,14 @@ type
 
 
   
-licensetype
+LICENSE
   commercial
     trial = full/limited/none, 
     post = req license
   shareware
     trial = full/limited, 
-    post = limited &&|| nagscreen || none
+    post-trial
+      limited &&|| nagscreen || none
   freeware
     trial full/none, 
   osi
@@ -145,9 +190,7 @@ licensetype
     affero gpl
     academic free
     artistic
-    
-    
-    
+
   cc
   ms-pl
   public domain
@@ -155,15 +198,21 @@ licensetype
     
 https://blogs.oracle.com/davidleetodd/entry/free_and_open_source_license
 
-interface
+
+INTERFACE
   graphic
   text
 
-framework
+
+localization
+  en-US
+
+
+LIBRARY/FRAMEWORK
   dotnet
   
 
-codeLanguage
+CODE-LANGUAGE (primarily developed in)
   asp.net
   assembly
   c
@@ -181,48 +230,54 @@ codeLanguage
   vb
   vb.net
   
-codeStatus
-  0-init
-  1-planning
-  2-pre-alpha
-  3-alpha
-  4-beta
-  5-stable
 
-  5a-mature; no major program issues, >1 year since last release, compatible with latest OS
-  5b-inactive; no major program issues, >2 year since last release, compatible with latest OS
-  5c-legacy; not compatible with latest OS
-
+CODE-STATUS
+  0-init  (pre-planning)
+  1-planning - 
+  2-pre-alpha - major features are missing
+  3-alpha - internal testing
+  4-beta - external testing
+  5-gamma/release/rc/stable - no new major features, only bug fixes
+  
+  DEVELOPMENT ACTIVITY (density of updates)
+    5a-mature; no major program issues, >1 year since last release, compatible with latest OS
+    5b-inactive; no major program issues, >2 year since last release, compatible with latest OS
+    5c-legacy; not compatible with latest OS
+    5d-abandonware; https://en.wikipedia.org/wiki/Abandonware
+      
+  
+  6-nightly
+  
+  
 experimental
 testing
 unstable
 stable
 
-
 nightly
 
 
-localization
-  en-US
+DEPRECATED/DISCONTINUED
+  program name change
+  
+
+
   
   
-OS
+OS-TYPE  https://en.wikipedia.org/wiki/List_of_operating_systems
   Windows
   Linux
   Mac
   BSD
   iOS
   Android
+  Chrome
+  Firefox
+  Online/Web/Cloud
+  Self-hosted
 
 
-
-activity (density of updates)
-  updates/time
-
-os-type
-  https://en.wikipedia.org/wiki/List_of_operating_systems
-
-os-flags
+OS-FLAGS
   independent; no tools dependent on OS
   posix; compatible
   bitdepth; 8/16/32/64
@@ -238,7 +293,7 @@ os-flags
     https://en.wikipedia.org/wiki/Category:Instruction_set_architectures
 
   
-os-modern; large current user-base or officially supported
+OS-MODERN; large current user-base or officially supported
   linux
   solaris
   freebsd/openbsd/netbsd
@@ -246,10 +301,13 @@ os-modern; large current user-base or officially supported
   win2k/win2012
   mac
   
+INSTALLER FRAMEWORK
+  MSI
+  NSIS
+  
 
 
-
-distribution model
+DISTRIBUTION MODEL
 
 channels; progressive; multiple teams working on multiple states of program, requires good communication between teams
 firefox = 6 week cycle
@@ -274,3 +332,44 @@ chromium (chrome) = ~6 week cycle
 
 
 codebase; if forked from open source code
+
+
+
+CROWD-SOURCE
+  rating
+  users who installed this also installed...
+  
+  
+  
+  
+OTHER DATABASES
+  http://alternativeto.net/software/vlc-media-player/
+  
+
+
+
+AESTHETICS
+Remove space at end of tag
+/(?<=>)\s+$/$/
+
+
+1,/^<?xml version="1.0" encoding="utf-8"?>$/
+2,/^<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">$/
+3,/^\s\s<metadata>$/
+4,/(?<=<id>)[a-z0-9]{2,15}(?=</id>)
+
+analysis of debian
+===================
+aptitude search * -F "%p" > debpkgs.txt
+wc --bytes --chars --lines --max-line-length --words debpkgs.txt
+  27585   27585 2234385 2234385      80 debpkgs.txt
+grep --count "\." debpkgs.txt
+3101
+grep --count "-" debpkgs.txt
+23062
+grep --count --perl-regexp ".+\-.+\-.+" debpkgs.txt
+13568
+grep --count --perl-regexp "[^-]+\-[^-]+\-[^-]+" debpkgs.txt
+13567
+
+
