@@ -2,7 +2,7 @@
 $installerType = 'exe'
 $silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
 $url = 'https://sourceforge.net/projects/keepass/files/KeePass%202.x/2.32/KeePass-2.32-Setup.exe/download'
-$checksum = '793DE7B9F3DA26A2F8C8DD80097E09928A57029E'
+$checksum = 'E01935A9EA079EF09EA76B204F1FCF1A2E42504A'
 $checksumType = 'sha1'
 $validExitCodes = @(0)
 
