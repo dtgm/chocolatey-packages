@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>mvc</id>
+    <version>1.28</version>
+    <title>Miro Video Converter</title>
+    <authors>Participatory Culture Foundation</authors>
+    <owners>dtgm</owners>
+    <summary>Simple conversion of almost any video to MP4, WebM (vp8), Ogg Theora, or presets for mobile devices</summary>
+    <description>
+A super simple way to convert almost any video to MP4, WebM (vp8), Ogg Theora, or for Android, iPhone, and more. Miro Video Converter has presets that will convert video to the correct sizes and formats for popular phones, iPods, and other media players. Just convert your video and copy it to your device.
+
+[Command line conversion matrix](http://develop.participatoryculture.org/index.php/ConversionMatrix)
+    </description>
+    <language>en-us</language>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/mvc/1.28</packageSourceUrl>
+    <projectUrl>http://www.mirovideoconverter.com/</projectUrl>
+    <projectSourceUrl>https://github.com/pculture/mirovideoconverter3</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/pculture/mirovideoconverter3/issues</bugTrackerUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/7a6fe096f123964e823e6376af3dec8169ecd331/icons/mvc.png</iconUrl>
+    <licenseUrl>http://www.gnu.org/licenses/gpl-3.0.html</licenseUrl>
+    <copyright>© Participatory Culture Foundation</copyright>	
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>svg optimization gui cli</tags>
+    <releaseNotes>
+#### Program
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
