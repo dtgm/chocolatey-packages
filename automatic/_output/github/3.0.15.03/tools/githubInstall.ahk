@@ -42,9 +42,7 @@ SetTitleMatchMode, 1
 Loop {
   Sleep, 500
   IfWinExist, %winTitleOpen%, Do you want to run this file
-  {
     ControlClick, &Run, %winTitleOpen%
-  }
   IfWinExist, %winTitleExec%
   {
     WinClose, %winTitleExec%
