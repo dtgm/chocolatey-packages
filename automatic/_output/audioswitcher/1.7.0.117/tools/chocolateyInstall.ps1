@@ -1,6 +1,6 @@
 $packageName = 'audioswitcher'
 $url = 'https://github.com/xenolightning/AudioSwitcher_v1/releases/download/1.7.0.117/AudioSwitcher.zip'
-$checksum = '9b7261296ee0fafdbd3e38d23f1edf30'
+$checksum = 'cf9ea9151d27a4134a03bafe4fe6149a'
 $checksumType = 'md5'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $installFile = Join-Path $toolsDir "$($packageName).exe"
