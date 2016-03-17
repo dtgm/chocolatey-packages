@@ -43,6 +43,7 @@ GitHub Desktop includes a fully functional version of [msysgit](https://chocolat
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+* Fixed AHK script.
     </releaseNotes>
     <dependencies>
       <dependency id="autohotkey.portable" />

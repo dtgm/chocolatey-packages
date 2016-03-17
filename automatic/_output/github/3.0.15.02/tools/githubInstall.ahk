@@ -5,37 +5,49 @@ SetKeyDelay, 10
 
 ; modified environment
 #NoEnv
-;#NoTrayIcon
+#NoTrayIcon
 DetectHiddenText, off
 SetTitleMatchMode, 1
 
 winTitleOpen = Open File - Security Warning
 winTitleInstall = Application Install - Security Warning
 winTitleProgress = Installing GitHub
-winTitleExec = GitHub ahk_class HwndWrapper[DefaultDomain
+winTitleExec = GitHub ahk_exe GitHub.exe
 
-WinWait, %winTitleOpen%, Do you want to run this file, 5
-ControlClick, &Run, %winTitleOpen%
-
-WinWait, %winTitleSec%, Do you want to install, 5
-ControlClick, &Install, %winTitleSec%
+Loop {
+  Sleep, 500
+  IfWinExist, %winTitleOpen%, Do you want to run this file
+    ControlClick, &Run, %winTitleOpen%
+  IfWinExist, %winTitleSec%, Do you want to install
+  {
+    ControlClick, &Install, %winTitleSec%
+    Break
+  }
+}
 
 ; Download progress window is spawned by Microsoft ClickOnce
 ; If you know how to silence this window, please send a message to maintainer:
 ;   https://chocolatey.org/packages/GitHub/ContactOwners
+SetTitleMatchMode, 2
 WinWait, %winTitleProgress%, This may take several minutes, 5
 WinMinimize, %winTitleProgress%, This may take several minutes
 
-; 45MB file, wait max of 20 minutes (1 Mbps bandwidth ~= 6 minutes to download)
+; 1. ~45MB file (1 Mbps bandwidth ~= 6 minutes to download)
 ; Upon completion of download, files are extracted to:
 ;   $Env:LocalAppData\Apps\2.0\varSysUniq01\varSysUniq02\
 ; Installer blocked due to being marked a downloaded file:
 ;   gith..tion_317444273a93ac29_0002.000d_7c798cfff9a06ed4\GitHub.exe
-WinWait, %winTitleOpen%, Do you want to run this file, 1200
-ControlClick, &Run, %winTitleOpen%
-
-; GitHub is launched automatically post-install, close it
-WinWait, %winTitleExec%, , 60
-WinClose, %winTitleExec%
+; 2. GitHub is launched automatically post-install, close it
+SetTitleMatchMode, 1
+Loop {
+  Sleep, 500
+  IfWinExist, %winTitleOpen%, Do you want to run this file
+    ControlClick, &Run, %winTitleOpen%
+  IfWinExist, %winTitleExec%
+  {
+    WinClose, %winTitleExec%
+    Break
+  }
+}
 
 ExitApp

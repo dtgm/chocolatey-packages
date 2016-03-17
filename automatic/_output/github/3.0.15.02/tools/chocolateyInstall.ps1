@@ -14,12 +14,12 @@ $ahkExe = 'AutoHotKey'
 $ahkFile = Join-Path $scriptPath "$($packageName)Install.ahk"
 $ahkProc = Start-Process -FilePath $ahkExe `
                          -ArgumentList $ahkFile `
+                         -Verb RunAs `
                          -PassThru
-                         -Verb RunAs
 $ahkId = $ahkProc.Id
 Write-Debug "$ahkExe start time:`t$($ahkProc.StartTime.ToShortTimeString())"
 Write-Debug "Process ID:`t$ahkId"
-                         
+
 Write-Debug "$Env:ChocolateyInstall\helpers\functions"
 Install-ChocolateyPackage -PackageName "$packageName" `
                           -FileType "$installerType" `
@@ -29,7 +29,10 @@ Install-ChocolateyPackage -PackageName "$packageName" `
                           -Checksum "$checksum" `
                           -ChecksumType "$checksumType"
 
-Write-Host "Microsoft`'s ClickOnce framework is downloading and executing the install files. Please wait..."
+Write-Host @"
+  Microsoft`'s ClickOnce framework is downloading and executing the ~45 MB install file.
+  This may take several minutes or longer. Please wait...
+"@
 
 $ahkChild = Get-WmiObject -Class Win32_Process -Filter "ParentProcessID=$ahkId"
 $ahkId = $ahkChild.ProcessId
