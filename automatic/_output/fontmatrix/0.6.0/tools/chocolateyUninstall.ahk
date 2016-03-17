@@ -12,7 +12,6 @@ SetTitleMatchMode, Regex
 winTitleOk = FontMatrix .* Uninstall
 
 WinWait, %winTitleOk%, OK, 30
-WinActivate
 ControlClick, OK, %winTitleOk%
 
 ExitApp

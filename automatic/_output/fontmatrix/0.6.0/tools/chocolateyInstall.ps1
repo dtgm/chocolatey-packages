@@ -17,7 +17,7 @@ foreach ($i in $parts) {
 }
 
 Set-ItemProperty -Path $path `
-                 -Name "$env:Temp\fontmatrix\$env:PackageVersion\fontmatrixInstall.exe" `
+                 -Name "$env:Temp\fontmatrix\0.6.0\fontmatrix-0.6.0-win32.exe" `
                  -Value "WINXPSP3"
 
 Install-ChocolateyPackage -PackageName "$packageName" `
@@ -29,7 +29,7 @@ Install-ChocolateyPackage -PackageName "$packageName" `
                           -ChecksumType "$checksumType"
 
 Remove-ItemProperty -Path $path `
-                    -Name "$env:Temp\fontmatrix\$env:PackageVersion\fontmatrixInstall.exe"
+                    -Name "$env:Temp\fontmatrix\0.6.0\fontmatrix-0.6.0-win32.exe"
 
 $toolsDir = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
 $dllName = 'msvcr71.dll'
