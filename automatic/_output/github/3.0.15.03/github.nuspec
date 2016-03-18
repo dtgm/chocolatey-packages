@@ -22,7 +22,7 @@ GitHub Desktop includes a fully functional version of [msysgit](https://chocolat
 * [GitHub.com](https://help.github.com/) (web interface)
 * [GitHub Flow](https://guides.github.com/introduction/flow/index.html) (branch-based workflow)
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/github/3.0.15.02</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/github/3.0.15.03</packageSourceUrl>
     <projectUrl>https://windows.github.com</projectUrl>
     <tags>git client github scm distributed gui posh-git cli</tags>
     <copyright>© GitHub Inc</copyright>
@@ -43,7 +43,6 @@ GitHub Desktop includes a fully functional version of [msysgit](https://chocolat
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
-* Fixed AHK script.
     </releaseNotes>
     <dependencies>
       <dependency id="autohotkey.portable" />
