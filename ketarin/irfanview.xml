@@ -114,7 +114,7 @@ http://www.irfanview.com/faq.htm#Q72</UserNotes>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>[^ "'&lt;&gt;\*]+\.exe</Regex>
+            <Regex>[^\ "'&lt;&gt;\*]+\.exe</Regex>
             <Url>http://www.fosshub.com/IrfanView.html</Url>
             <Name>urlFile</Name>
           </UrlVariable>
@@ -128,7 +128,7 @@ http://www.irfanview.com/faq.htm#Q72</UserNotes>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>[^ "'&lt;&gt;\*]+64_setup\.exe</Regex>
+            <Regex>[^\ "'&lt;&gt;\*]+64_setup\.exe</Regex>
             <Url>http://www.fosshub.com/IrfanView.html</Url>
             <Name>url64File</Name>
           </UrlVariable>
