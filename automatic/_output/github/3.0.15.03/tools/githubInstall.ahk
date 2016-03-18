@@ -5,7 +5,7 @@ SetKeyDelay, 10
 
 ; modified environment
 #NoEnv
-;#NoTrayIcon
+#NoTrayIcon
 DetectHiddenText, off
 SetTitleMatchMode, 1
 
