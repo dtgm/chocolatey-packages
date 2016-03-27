@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- NOTE
+These proposed changes are with auto-updating as focus. That is, a program using automated means to populate fields. As of March 2016, only about half of all packages are auto-updated and some maintainers do not have dedicated build machines so packages released may not concur with program releases. Many suggestions proposed here are expecting dedicated build machines to constantly be running. Information is populated from either author's published data or extracted metadata of published executable.
+-->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>{{PackageName}}</id>
@@ -44,8 +47,8 @@ Create
   desktop icon
   environment path
 
-
 #### Installer parameters
+<!-- either this would be done manually, or optimally, auto-detected, but that would require heuristic analysis -->
 Installer framework: **install.metadata**
 Typical arguments available: **install.metadata**
 Default arguments passed to installer: **{{SilentArgs}}**
@@ -80,6 +83,21 @@ add to `choco install` command:
 
 <!-- typically just append <authors> element after © symbol -->
     <copyright>© </copyright>
+<!--
+  Notes about copyright according to USA copyright law: 
+    Copyright and Authors elements may differ.
+    Code in USA is considered free speech as ruled by Federal Supreme Court.
+    All software code written in USA is copyright by default unless specifically stated otherwise by the author.
+    This includes free and open source licenses which rely on copyright law to enforce the terms of those licenses.
+    If no copyright is expressly stated, the copyright still exists, it is simply unknown to you.
+    There is no specific format to copyright nomenclature. Typical nomenclature for actively developed software may be:
+    © 1999-2016 Jane
+    © initial_release_year-current_year Author
+    © (a circled capital letter "C") https://en.wikipedia.org/wiki/Copyright_symbol
+    Unicode: U+00A9 || U+24B8 || U+24D2
+    HTML: &#169; || &copy; || &#9426;
+-->
+    
     <releaseNotes>
 #### Program
 * [News]()
@@ -87,11 +105,54 @@ add to `choco install` command:
 * [Roadmap]()
 * [Changelog]()
 
+<!-- would require always-on build machine for accurate reporting -->
+<!--
+* Development activity:
+  Weekly    Constant  >=1 releases per 7 days
+  Monthly   Frequent  >=1 release per 30 days
+  Quarterly Moderate  >=1 release per 90 days
+  Yearly    Periodic  >=1 release per 180 days
+  
+  
+* Date of first release: 2005 (Use copyright date for initial program release)
+* Date of last release: 2016
+* Age of software: 11 years
+  
+If last release date > 2 years
+* Development state:
+  Active    <1 year since last release
+  Inactive  >1 year since last release
+  Dormant   >2 years since last release
+  Static    >3 years since last release
+  
+  
+* Frequency of releases in past 6 months
+* Avg release interval (days): (qty releases in last year) / 365
+-->
+
 #### System requirements
 * Download file name: **{url:basefile}.{url:ext}**
 * Download file size: **{filesize:formatfilesize}**
 * Default install name: **{???}**
-* Default Install size: **{???}**
+* Default install size: **{???}**
+
+Sys reqs can easily get more granular. Some of this data could be culled from existing sources. For example VirusTotal publishes file data and extracted data for tested files. To determine whether a file has already been tested, one only has to compute the file's SHA256.
+
+File's PE data
+https://www.virustotal.com/file/SHA256/analysis/#item-detail
+
+File's identifying signatures
+https://www.virustotal.com/file/SHA256/analysis/#additional-info
+
+File's actions when initialized
+https://www.virustotal.com/file/SHA256/analysis/#behavioural-info
+
+these are in addition to consolidated virus testing
+https://www.virustotal.com/file/SHA256/analysis/#analysis
+
+
+
+
 
 #### Package
 * __Automatically built__: if this package's version is out of date by more than a day of the program's version, please [notify the maintainer](https://chocolatey.org/packages/{{PackageName}}/ContactOwners)
