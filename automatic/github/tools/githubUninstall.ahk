@@ -6,11 +6,13 @@ SetControlDelay, 20
 #NoEnv
 #NoTrayIcon
 DetectHiddenText, off
-SetTitleMatchMode, RegEx
+SetTitleMatchMode, 1
 
 winTitle = GitHub Maintenance
 
 WinWait, %winTitle%, Choose the type of maintenance you need, 120
+ControlGet, controlHwnd, Hwnd, , Remove the application, %winTitle%
+ControlClick, , ahk_id %controlHwnd%
 ControlClick, &OK, %winTitle%
 
 ExitApp

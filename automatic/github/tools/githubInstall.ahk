@@ -7,35 +7,46 @@ SetKeyDelay, 10
 #NoEnv
 #NoTrayIcon
 DetectHiddenText, off
-SetTitleMatchMode, RegEx
+SetTitleMatchMode, 1
 
-winTitle = Application Install - Security Warning
+winTitleInstall = Application Install - Security Warning
+winTitleInstallText = Do you want to install
+winTitleOpen = Open File - Security Warning ahk_exe dfsvc.exe
+winTitleOpenText = Do you want to run this file
 winTitleProgress = Installing GitHub
-winTitleSec = Open File - Security Warning ahk_class #32770
-winTitleExec = GitHub ahk_class HwndWrapper\[DefaultDomain
+winTitleExec = GitHub ahk_exe GitHub.exe
 
-WinWait, %winTitle%, Do you want to install this application, 10 
-ControlClick, &Install, %winTitle%
+; Confirm start install
+WinWait, %winTitleInstall%, %winTitleInstallText%
+ControlClick, &Install, %winTitleInstall%
 
-; Download progress window is spawned by Microsoft ClickOnce
-; If you know how to silence this window, please send a message to maintainer:
-;   https://chocolatey.org/packages/GitHub/ContactOwners
-WinWait, %winTitleProgress%, This may take several minutes, 2
+; Download progress window
+; About 110 MB file with 1.0 Mbps bandwidth will download in about 15 seconds
+SetTitleMatchMode, 2
+WinWait, %winTitleProgress%, This may take several minutes, 5
 WinMinimize, %winTitleProgress%, This may take several minutes
 
-; 45MB file, wait max of 20 minutes (1 Mbps bandwidth ~= 6 minutes to download)
-; Upon completion of download, files are extracted to:
+; Upon completion of download, files are extracted and exe is started:
 ;   $Env:LocalAppData\Apps\2.0\varSysUniq01\varSysUniq02\
-; Installer blocked due to being marked a downloaded file:
 ;   gith..tion_317444273a93ac29_0002.000d_7c798cfff9a06ed4\GitHub.exe
-WinWait, %winTitleSec%, , 1200
-WinActivate
-Send {Tab 4}
-Sleep 250
-ControlSend, , {Enter}, %winTitleSec%
+SetTitleMatchMode, 1
+WinWait, %winTitleOpen%, %winTitleOpenText%
 
-; GitHub is launched automatically post-install, close it
-WinWait, %winTitleExec%, , 60
+; Multiple ControlClick's are not reliable so loop until window gone
+Loop {
+  IfWinExist, %winTitleOpen%, %winTitleOpenText%
+  {
+    ; unblock executable
+    ControlGet, chk, Checked, , Button4, %winTitleOpen%
+    if chk
+      ControlClick, Button4, %winTitleOpen%
+    ControlClick, &Run, %winTitleOpen%
+  }
+  IfWinNotExist, %winTitleOpen%, %winTitleOpenText%
+    Break
+}
+
+WinWait, %winTitleExec%
 WinClose, %winTitleExec%
 
 ExitApp
