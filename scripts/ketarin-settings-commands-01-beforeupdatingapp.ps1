@@ -1,4 +1,4 @@
-# Script version: 1.1.0.0
+# Script version: 1.2.0.0
 #
 # Changelog
 #   add comments
@@ -7,6 +7,13 @@
 # Requires:
 #  chocolateypackageupdater
 #  >=ketarin-1.8.5
+#
+# To configure Ketarin: 
+#   1. Copy this file
+#   2. Navigate to: Ketarin >> File >> Settings >> Commands tab
+#   3a. >> Before updating an application
+#   3b. >> Command >> Powershell script
+#   3c. Remove any existing text and paste this file into text area
 
 # Package variables to be checked for content
 $vars = "version","url","url64","checksum","checksumx64","nopush"
