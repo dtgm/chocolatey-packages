@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+$packageName = 'spybot'
 $packageSearch = "Spybot - Search and Destroy*"
 $installerType = 'exe'
 $silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
