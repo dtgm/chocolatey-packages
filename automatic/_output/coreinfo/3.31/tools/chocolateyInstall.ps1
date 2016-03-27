@@ -1,5 +1,5 @@
 $packageName = 'coreinfo'
-$url = 'https://download.sysinternals.com/files/Coreinfo.zip'
+$url = 'https://download.sysinternals.com/files/coreinfo.zip'
 $checksum = '807f3a077a4daf73a2d6e8e979303e4fe1174c78'
 $checksumType = 'sha1'
 $url64 = "$url"
