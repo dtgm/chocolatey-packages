@@ -36,7 +36,11 @@ NirLauncher is a package of more than 180 portable freeware utilities for Window
     <licenseUrl>http://launcher.nirsoft.net/donate.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-[What's New?](http://blog.nirsoft.net/?s=nirlauncher)
+#### Program
+* [News](http://blog.nirsoft.net/?s=nirlauncher)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   </metadata>
   <files>
