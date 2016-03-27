@@ -1,6 +1,6 @@
 $packageName = 'Bitvise SSH Server'
 $installerType = 'exe'
-$url = 'http://dl.bitvise.com/BvSshServer-Inst.exe'
+$url = 'https://bvdl.s3-eu-west-1.amazonaws.com/BvSshServer-Inst.exe'
 $checksum = '9f577295afbf3da5e181cfe7efb6d7be'
 $checkType = 'md5'
 $silentArgs = ''
