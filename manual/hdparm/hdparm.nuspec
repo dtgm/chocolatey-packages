@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>hdparm</id>
+    <title>hdparm</title>
+    <version>6.9.2</version>
+    <authors>Mark Lord, Cygwin</authors>
+    <owners>dtgm</owners>
+    <summary>Get/Set ATA/SATA drive parameters</summary>
+    <description>
+Hdparm is a Cygwin port of the Linux native command line tool for changing hard disk drive Advanced Power Management settings (HDD APM).
+
+Note this is the same version as available in Cygwin.
+
+Warning: While this is the latest port of hdparm for Windows, it was last released in 2007. Please exercise caution when using as using some options may cause data loss on certain storage devices.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/manual/hdparm</packageSourceUrl>
+    <projectUrl>https://sites.google.com/site/disablehddapm/</projectUrl>
+    <projectSourceUrl>http://sourceforge.net/projects/hdparm</projectSourceUrl>
+    <bugTrackerUrl>http://disablehddapm.blogspot.com/p/blog-page.html</bugTrackerUrl>
+    <docsUrl>http://disablehddapm.blogspot.com/p/how-it-works.html</docsUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/a9d11ea0d2e7788ce074b10091237dcfb289dfe2/icons/hdparm.png</iconUrl>
+    <tags>cli hdd apm smart admin</tags>
+    <copyright>© 2007 Mark Lord, 2011 Cygwin</copyright>
+    <licenseUrl>https://cygwin.com/COPYING</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [News](https://cygwin.com/ml/cygwin-announce/2007-03/msg00000.html)
+* hdparm released 28 Feb 2007
+* Cygwin POSIX Emulation library v.1007.9.0.0 released 29 Mar 2011
+
+#### Package
+* Manually built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
+
