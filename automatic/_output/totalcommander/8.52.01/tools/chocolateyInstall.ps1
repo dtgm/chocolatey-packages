@@ -23,7 +23,7 @@ $installPath = '%ProgramFiles%\totalcmd'
 
 # Parse packageParameters with regular expressions
 if ($packageParameters) {
-    $match_pattern = "\/(?<option>([a-zA-Z]+))=(?<value>([`"'])?([a-zA-Z0-9- _\\=\.]+)([`"'])?)|\/(?<option>([a-zA-Z]+))"
+    $match_pattern = "\/(?<option>([a-zA-Z]+))=(?<value>([`"'])?([a-zA-Z0-9- _\\=\.\:]+)([`"'])?)|\/(?<option>([a-zA-Z]+))"
     $option_name = 'option'
     $value_name = 'value'
 
@@ -50,7 +50,7 @@ if ($packageParameters) {
 
     if ($arguments.ContainsKey("InstallPath")) {
         Write-Host "You want to use a custom Installation Path"
-        $installPath = $arguments["InstallPath"]
+        $installPath = 'Dir=' + $arguments["InstallPath"]
     }
 } else {
   Write-Debug "No Package Parameters passed in"
