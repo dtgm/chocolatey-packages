@@ -115,6 +115,7 @@ Note that while Nupkg files may contain any binary file, typically, they only co
 * https://github.com/ComFreek/chocolatey-packages
 * https://github.com/yoshimov/chocolatey-packages
 * https://github.com/Redsandro/chocolatey
+* https://github.com/aronovgj/choco-auto
 * [DEPRECATED] https://github.com/adgellida/chocolateyautomaticpackages
 
 
