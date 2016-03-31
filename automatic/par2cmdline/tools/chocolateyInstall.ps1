@@ -8,6 +8,5 @@ $installFile = Join-Path $toolsDir "par2.exe"
 Install-ChocolateyZipPackage -PackageName "$packageName" `
                              -Url "$url" `
                              -UnzipLocation "$toolsDir" `
-                             -Url64bit "" `
                              -Checksum "$checksum" `
                              -ChecksumType "$checksumType"

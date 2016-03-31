@@ -8,7 +8,6 @@ $installPath = Join-Path $binRoot "cmder"
 Install-ChocolateyZipPackage -PackageName "$packageName" `
                              -Url "$url" `
                              -UnzipLocation "$installPath" `
-                             -Url64bit "" `
                              -Checksum "$checksum" `
                              -ChecksumType "$checksumType"
 
