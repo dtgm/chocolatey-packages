@@ -1,8 +1,7 @@
-# Script version: 1.2.0.0
+# Script version: 1.2.1.0
 #
 # Changelog
-#   add comments
-#   use line continuations
+#   add packageguid
 #
 # Requires:
 #  chocolateypackageupdater
@@ -16,7 +15,7 @@
 #   3c. Remove any existing text and paste this file into text area
 
 # Package variables to be checked for content
-$vars = "version","url","url64","checksum","checksumx64","nopush"
+$vars = "version","url","url64","checksum","checksumx64","packageGuid","nopush"
 $hash = @{}
 
 # Build hash using $vars for $hash.keys and corresponding content, if any, to $hash.values
@@ -38,6 +37,7 @@ chocopkgup $($hash["nopush"]) ``
            --urlx64=`"$($hash["url64"])`" ``
            --checksum=`"$($hash["checksum"])`" ``
            --c64=`"$($hash["checksumx64"])`" ``
+           --pg=`"$($hash["packageguid"])`" ``
            --debug
 "@
 
@@ -50,4 +50,5 @@ chocopkgup $hash["nopush"] `
            --urlx64="$($hash["url64"])" `
            --checksum="$($hash["checksum"])" `
            --c64="$($hash["checksumx64"])" `
+           --pg="$($hash["packageguid"])" `
            --debug
