@@ -1,8 +1,8 @@
-$packageName = '0ad'
+$packageName = 'cyberduck.install'
 $installerType = 'exe'
 $silentArgs = '/S'
-$url = '{url64}'
-$checksum = '579942a0391947a86e63d649cd69d9c2615bcd3b'
+$url = 'https://update.cyberduck.io/windows/Cyberduck-Installer-4.9.19632.exe'
+$checksum = '134c9694dc87576d9e876a91d092bb3cca43e4bd'
 $checksumType = 'sha1'
 $validExitCodes = @(0)
 
