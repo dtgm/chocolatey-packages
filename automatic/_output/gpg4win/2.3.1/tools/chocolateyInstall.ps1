@@ -1,8 +1,8 @@
-$packageName = '0ad'
+﻿$packageName = 'gpg4win'
 $installerType = 'exe'
 $silentArgs = '/S'
-$url = '{url64}'
-$checksum = '579942a0391947a86e63d649cd69d9c2615bcd3b'
+$url = 'http://files.gpg4win.org/gpg4win-2.3.1.exe'
+$checksum = 'c69f6fe804ac32f75da0639e26137c780a258e5d'
 $checksumType = 'sha1'
 $validExitCodes = @(0)
 

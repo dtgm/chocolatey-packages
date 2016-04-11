@@ -1,8 +1,8 @@
-$packageName = '0ad'
+$packageName = 'dumo'
 $installerType = 'exe'
-$silentArgs = '/S'
-$url = '{url64}'
-$checksum = '579942a0391947a86e63d649cd69d9c2615bcd3b'
+$silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
+$url = 'http://www.kcsoftwares.com/files/dumo_lite.exe'
+$checksum = '10242b0805d109eacbfcead860eb7242b76ffa07'
 $checksumType = 'sha1'
 $validExitCodes = @(0)
 
