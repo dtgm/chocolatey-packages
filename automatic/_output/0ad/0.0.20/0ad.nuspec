@@ -17,12 +17,22 @@ Install file is about 570 MB and extracts to about 1.51 GB.
     </description>
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/0ad/0.0.20</packageSourceUrl>
     <projectUrl>http://play0ad.com/</projectUrl>
-    <tags>real-time-strategy historical-game zero-ad</tags>
+    <projectSourceUrl>http://trac.wildfiregames.com/browser</projectSourceUrl>
+    <bugTrackerUrl>http://trac.wildfiregames.com/report</bugTrackerUrl>
+    <docsUrl>http://trac.wildfiregames.com/wiki</docsUrl>
+    <mailingListUrl>https://wildfiregames.com/forum/</mailingListUrl>
+    <tags>rts historical game zero-ad</tags>
     <copyright>© Wildfire Games</copyright>
-    <licenseUrl>http://www.gnu.org/licenses/gpl.html</licenseUrl>
+    <licenseUrl>http://trac.wildfiregames.com/browser/ps/trunk/LICENSE.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/c5f2bd99b11d91687fee996fe614eb129933f4fd/icons/0ad.png</iconUrl>
     <releaseNotes>
+#### Program
+* [Roadmap](http://trac.wildfiregames.com/roadmap)
+* [Changelog](http://trac.wildfiregames.com/log/ps)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   </metadata>
   <files>

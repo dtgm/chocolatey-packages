@@ -1,8 +1,8 @@
-$packageName = '0ad'
+$packageName = 'dispcalgui.install'
 $installerType = 'exe'
-$silentArgs = '/S'
-$url = 'http://releases.wildfiregames.com/0ad-0.0.20-alpha-win32.exe'
-$checksum = '579942a0391947a86e63d649cd69d9c2615bcd3b'
+$silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
+$url = 'https://sourceforge.net/projects/dispcalgui/files/release/3.1.3.1/DisplayCAL-3.1.3.1-Setup.exe/download'
+$checksum = '925f1b0956925bb90d331c605e79318ba7a6026a'
 $checksumType = 'sha1'
 $validExitCodes = @(0)
 
