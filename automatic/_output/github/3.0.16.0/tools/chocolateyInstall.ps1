@@ -3,7 +3,7 @@ $packageName = 'github'
 $packageVersion = [System.Version]'3.0.16.0'
 $installerType = 'exe'
 $url = 'https://github-windows.s3.amazonaws.com/GitHubSetup.exe'
-$checksum = 'A8FE237B447134DAA9CC1DB3323DA980'
+$checksum = 'BC8A872089D0937E26F0DC303743F993'
 
 Write-Verbose "Setting static package variables."
 $checksumType = 'md5'
