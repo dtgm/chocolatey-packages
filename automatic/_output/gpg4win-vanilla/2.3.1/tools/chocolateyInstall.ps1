@@ -2,7 +2,7 @@
 $installerType = 'exe'
 $silentArgs = '/S'
 $url = 'http://files.gpg4win.org/gpg4win-vanilla-2.3.1.exe'
-$checksum = '5b73d46aba8a33eac9bcea46e003f55e2cda64fc'
+$checksum = 'c4616947df382fa4d4dac53bd1a3bc53ed40227d'
 $checksumType = 'sha1'
 $validExitCodes = @(0)
 

@@ -1,11 +1,11 @@
-$packageName = 'mediainfo-cli'
-$url = 'http://mediaarea.net/download/binary/mediainfo/0.7.84/MediaInfo_CLI_0.7.84_Windows_i386.zip'
-$checksum = 'cb068804780089c1fe9dabdd85dfd841c4f147d3'
-$checksumType = 'sha1'
-$url64 = 'http://mediaarea.net/download/binary/mediainfo/0.7.84/MediaInfo_CLI_0.7.84_Windows_x64.zip'
-$checksum64 = 'b992a8f66a45f8b9c1928852db6a2c67afad7b08'
-$checksumType64 = 'sha1'
+$packageName = 'dispcalgui.portable'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+$url = 'https://sourceforge.net/projects/dispcalgui/files/release/3.1.3.1/DisplayCAL-3.1.3.1-win32.zip/download'
+$checksum = 'd99669005863ea8e1ca6368766f514168ce9610d'
+$checksumType = 'sha1'
+$url64 = "$url"
+$checksum64 = "$checksum"
+$checksumType64 = "$checksumType"
 
 Install-ChocolateyZipPackage -PackageName "$packageName" `
                              -Url "$url" `

@@ -1,8 +1,8 @@
-$packageName = '0ad'
+﻿$packageName = 'gpg4win-light'
 $installerType = 'exe'
 $silentArgs = '/S'
-$url = 'http://releases.wildfiregames.com/0ad-0.0.20-alpha-win32.exe'
-$checksum = '579942a0391947a86e63d649cd69d9c2615bcd3b'
+$url = 'http://files.gpg4win.org/gpg4win-light-2.3.1.exe'
+$checksum = '3fb82bf910bc8a8c92af7cea354e6756b2520ee8'
 $checksumType = 'sha1'
 $validExitCodes = @(0)
 

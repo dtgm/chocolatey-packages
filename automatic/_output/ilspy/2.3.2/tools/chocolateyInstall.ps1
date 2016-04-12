@@ -1,7 +1,7 @@
 # generated vars
 $packageName = 'ilspy'
 $url = 'https://github.com/icsharpcode/ILSpy/releases/download/v2.3.2/ILSpy_Master_2.3.2_Binaries.zip'
-$checksum = '769fed722cb4d0039f80861537523db0'
+$checksum = '8e08b8cad1abe87866d6b32d2cc345a5'
 
 # static vars
 $checksumType = 'md5'

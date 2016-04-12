@@ -1,10 +1,10 @@
-$packageName = 'mediainfo-cli'
-$url = 'http://mediaarea.net/download/binary/mediainfo/0.7.84/MediaInfo_CLI_0.7.84_Windows_i386.zip'
-$checksum = 'cb068804780089c1fe9dabdd85dfd841c4f147d3'
+$packageName = 'dolphin'
+$url = 'http://dl.dolphin-emu.org/builds/dolphin-master-4.0-9211-x64.7z'
+$checksum = '81fbc10431f24f35b19438c7b6bcf0a5d61220d8'
 $checksumType = 'sha1'
-$url64 = 'http://mediaarea.net/download/binary/mediainfo/0.7.84/MediaInfo_CLI_0.7.84_Windows_x64.zip'
-$checksum64 = 'b992a8f66a45f8b9c1928852db6a2c67afad7b08'
-$checksumType64 = 'sha1'
+$url64 = $url
+$checksum64 = $checksum
+$checksumType64 = $checksumType
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 Install-ChocolateyZipPackage -PackageName "$packageName" `

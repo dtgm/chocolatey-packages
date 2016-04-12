@@ -1,10 +1,10 @@
-$packageName = 'mediainfo-cli'
-$url = 'http://mediaarea.net/download/binary/mediainfo/0.7.84/MediaInfo_CLI_0.7.84_Windows_i386.zip'
-$checksum = 'cb068804780089c1fe9dabdd85dfd841c4f147d3'
+$packageName = 'exiftool'
+$url = 'http://owl.phy.queensu.ca/~phil/exiftool/exiftool-10.14.zip'
+$checksum = '5ce65189d03fc5955418e14e3c1d2b30c3bbd282'
 $checksumType = 'sha1'
-$url64 = 'http://mediaarea.net/download/binary/mediainfo/0.7.84/MediaInfo_CLI_0.7.84_Windows_x64.zip'
-$checksum64 = 'b992a8f66a45f8b9c1928852db6a2c67afad7b08'
-$checksumType64 = 'sha1'
+$url64 = "$url"
+$checksum64 = "$checksum"
+$checksumType64 = "$checksumType"
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 Install-ChocolateyZipPackage -PackageName "$packageName" `
@@ -15,3 +15,5 @@ Install-ChocolateyZipPackage -PackageName "$packageName" `
                              -ChecksumType "$checksumType" `
                              -Checksum64 "$checksum64" `
                              -ChecksumType64 "$checksumType64"
+
+Move-Item "$(Join-Path $toolsDir 'exiftool(-k).exe')" "$(Join-Path $toolsDir 'exiftool.exe')" -Force
