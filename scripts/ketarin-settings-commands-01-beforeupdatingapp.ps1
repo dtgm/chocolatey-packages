@@ -1,7 +1,7 @@
-# Script version: 1.2.1.0
+# Script version: 1.3.0.0
 #
 # Changelog
-#   add packageguid
+#   evaluate custom variables rather than using variables' CachedContent
 #
 # Requires:
 #  chocolateypackageupdater
@@ -21,7 +21,8 @@ $hash = @{}
 # Build hash using $vars for $hash.keys and corresponding content, if any, to $hash.values
 foreach ($var in $vars) {
   if ($app.variables.ContainsKey($var)) {
-    $hash[$var] = $app.variables.item($var).cachedcontent
+    #$hash[$var] = $app.variables.item($var).cachedcontent
+    $hash[$var] = $app.variables.ReplaceAllInString("{$var}")
   } else {
     $hash[$var] = "{$var}"
   }
