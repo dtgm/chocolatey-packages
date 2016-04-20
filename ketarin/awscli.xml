@@ -5,8 +5,8 @@
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64)</UserAgent>
     <UserNotes>Deprecated: Execute the following after download
 chocopkgup /p {appname}.install /v {version} /u "{preupdate-url}" /u64 "{url64}" /pp "{file}"</UserNotes>
-    <LastFileSize>7553024</LastFileSize>
-    <LastFileDate>2016-02-23T15:25:59-07:00</LastFileDate>
+    <LastFileSize>7667712</LastFileSize>
+    <LastFileDate>2016-04-19T17:01:11.2911127</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -48,7 +48,7 @@ chocopkgup /p {appname}.install /v {version} /u "{preupdate-url}" /u64 "{url64}"
             <VariableType>Textual</VariableType>
             <Regex />
             <Url />
-            <TextualContent>https://s3.amazonaws.com/aws-cli/AWSCLI32-{version}.msi<TextualContent>
+            <TextualContent>https://s3.amazonaws.com/aws-cli/AWSCLI32-{version}.msi</TextualContent>
             <Name>url</Name>
           </UrlVariable>
         </value>
@@ -63,23 +63,8 @@ chocopkgup /p {appname}.install /v {version} /u "{preupdate-url}" /u64 "{url64}"
             <VariableType>Textual</VariableType>
             <Regex />
             <Url />
-            <TextualContent>https://s3.amazonaws.com/aws-cli/AWSCLI64-{version}.msi<TextualContent>
+            <TextualContent>https://s3.amazonaws.com/aws-cli/AWSCLI64-{version}.msi</TextualContent>
             <Name>url64</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>urlPath</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <Url />
-            <TextualContent>http://aws.amazon.com/cli/</TextualContent>
-            <Name>urlPath</Name>
           </UrlVariable>
         </value>
       </item>
@@ -132,12 +117,12 @@ chocopkgup /p {appname}.install /v {version} /u "{preupdate-url}" /u64 "{url64}"
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\AWSCLI32.msi</PreviousLocation>
+    <PreviousLocation>F:\exe\awscli_1.10.21.msi</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2016-02-23T17:26:54.9839548-07:00</LastUpdated>
-    <TargetPath>{workdir}\</TargetPath>
+    <LastUpdated>2016-04-19T17:01:11.2911127</LastUpdated>
+    <TargetPath>{saveDir}\{appname}_{version}.{url:ext}</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>awscli</Name>
   </ApplicationJob>
