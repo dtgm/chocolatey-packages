@@ -21,7 +21,7 @@ ControlClick, Button4, %winTitle2%, Remove configuration files
 ControlClick, Button5, %winTitle2%, Uninstall
 
 WinWait, %winTitle3%, Warning: This will, 20
-ControlClick, Button1, %winTitle3%, &Yes
+ControlClick, Button1, %winTitle3%, Warning: This will ; Yes
 
 WinWait, %winTitle3%, The following, 20
 ControlClick, Button1, %winTitle3%, OK
