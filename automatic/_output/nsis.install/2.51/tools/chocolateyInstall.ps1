@@ -1,8 +1,8 @@
 $packageName = 'nsis.install'
 $installerType = 'exe'
 $silentArgs = '/S'
-$url = 'https://sourceforge.net/projects/nsis/files/NSIS%203%20Pre-release/3.0rc1/nsis-3.0rc1-setup.exe/download'
-$checksum = '88c5586549b37c5653a9d937c64184d2b83bba51'
+$url = 'https://sourceforge.net/projects/nsis/files/NSIS%202/2.51/nsis-2.51-setup.exe/download'
+$checksum = '2d321cf3ba700eee4e2ca234219708a6fb3693c8'
 $checksumType = 'sha1'
 $validExitCodes = @(0)
 

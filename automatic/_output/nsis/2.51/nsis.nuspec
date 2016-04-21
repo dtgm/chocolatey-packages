@@ -3,7 +3,7 @@
   <metadata>
     <id>nsis</id>
     <title>Nullsoft Scriptable Install System</title>
-    <version>3.01.0.20160420</version>
+    <version>2.51</version>
     <authors>NSIS Team</authors>
     <owners>dtgm</owners>
     <summary>Windows installer development tool</summary>
@@ -18,7 +18,7 @@ NSIS is script-based and allows you to create the logic to handle even the most 
 [FAQ](http://nsis.sourceforge.net/FAQ)  
 [Developer Center](http://nsis.sourceforge.net/Developer_Center)
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/nsis/3.01.0.20160420</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/nsis/2.51</packageSourceUrl>
     <projectUrl>http://nsis.sourceforge.net/</projectUrl>
     <projectSourceUrl>https://sourceforge.net/p/nsis/code/HEAD/tree/</projectSourceUrl>
     <bugTrackerUrl>http://nsis.sourceforge.net/Bug_Reports</bugTrackerUrl>
@@ -38,7 +38,7 @@ NSIS is script-based and allows you to create the logic to handle even the most 
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
     <dependencies>
-      <dependency id="nsis.install" version="[3.01.0.20160420]" />
+      <dependency id="nsis.install" version="[2.51]" />
     </dependencies>
   </metadata>
   <files>
