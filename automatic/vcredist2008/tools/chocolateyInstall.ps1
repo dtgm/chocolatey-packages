@@ -21,7 +21,7 @@ Install-ChocolateyPackage -PackageName "$packageName" `
                           -ChecksumType64 "$checksumType64"
 
 if (Get-ProcessorBits 64) {
-  Install-ChocolateyPackage -PackageName "$packageName" `
+  Install-ChocolateyPackage -PackageName "${packageName}_x86" `
                             -FileType "$installerType" `
                             -Url "$url" `
                             -SilentArgs "$silentArgs" `
