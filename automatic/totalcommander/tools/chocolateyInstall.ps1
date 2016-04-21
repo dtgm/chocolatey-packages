@@ -88,7 +88,7 @@ $url64 = $url
 $checksum64 = $checksum
 $checksumType64 = $checksumType
 $installExeZip = Join-Path $tempDir "installer.zip"
-$installExeDir = Join-Path $tempDir "installer"
+$installExeSourceBasePath = Join-Path $tempDir "installer"
 Get-ChocolateyWebFile -PackageName "$packageName" `
                       -FileFullPath "$installExeZip" `
                       -Url "$url" `
@@ -98,7 +98,7 @@ Get-ChocolateyWebFile -PackageName "$packageName" `
                       -ChecksumType "$checksumType" `
                       -ChecksumType64 "$checksumType64"
 $proc = Start-Process -FilePath "7za" `
-                      -ArgumentList "x -y -o`"$installExeDir`" `"$installExeZip`"" `
+                      -ArgumentList "x -y -o`"$installExeSourceBasePath`" `"$installExeZip`"" `
                       -Wait `
                       -NoNewWindow `
                       -PassThru
@@ -110,14 +110,17 @@ if($exitCode -ne 0) {
 
 Write-Verbose "Add launcher to extracted EXE"
 if (Get-ProcessorBits 64) {
-  $bitWidth = 64
+  $installExeSourceLeafDir = '64'
+  $installExeTargetName = 'INSTALL64.EXE'
 } else {
-  $bitWidth = 32
+  $installExeSourceLeafDir = '32'
+  $installExeTargetName = 'INSTALL.EXE'
 }
-$installExePath = Join-Path -Path $installExeDir `
-                     -ChildPath $bitWidth | 
+$installExeSourcePath = Join-Path -Path $installExeSourceBasePath `
+                     -ChildPath $installExeSourceLeafDir |
                   Join-Path -ChildPath "INSTALL.EXE"
-Copy-Item $installExePath $tcmdWork -Force
+$installExeTargetPath = Join-Path $tcmdWork $installExeTargetName
+Copy-Item -Path $installExeSourcePath -Destination $installExeTargetPath -Force
 
 Write-Verbose "Modify install options to make silent"
 $installInf = Join-Path $tcmdWork "INSTALL.INF"
@@ -133,8 +136,7 @@ $installInf64 = Join-Path $tcmdWork "INSTALL64.INF"
                           -Replace 'mkdesktop=1',"$desktopIcon" `
                           -Replace 'Dir=c:\\totalcmd',"$installPath" | Set-Content $installInf64
 
-$tcmdExe = Join-Path $tcmdWork "INSTALL.EXE"
 Install-ChocolateyInstallPackage -PackageName "$packageName" `
                                  -FileType "$installerType" `
                                  -SilentArgs "$silentArgs" `
-                                 -File "$tcmdExe"
+                                 -File $installExeTargetPath
