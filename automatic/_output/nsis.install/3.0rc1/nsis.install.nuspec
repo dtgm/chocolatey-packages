@@ -3,7 +3,7 @@
   <metadata>
     <id>nsis.install</id>
     <title>Nullsoft Scriptable Install System (Install)</title>
-    <version>3.01.0.20160410</version>
+    <version>3.01.0.20160420</version>
     <authors>NSIS Team</authors>
     <owners>dtgm</owners>
     <summary>Windows installer development tool</summary>
@@ -14,11 +14,11 @@ Being a user's first experience with your product, a stable and reliable install
 
 NSIS is script-based and allows you to create the logic to handle even the most complex installation tasks. Many plug-ins and scripts are already available: you can create web installers, communicate with Windows and other software components, install or update shared components and more.
 
-[Screenshots](http://nsis.sourceforge.net/Screenshots)
-[FAQ](http://nsis.sourceforge.net/FAQ)
-[Developer documentation](http://nsis.sourceforge.net/Developer_Center)
+[Screenshots](http://nsis.sourceforge.net/Screenshots)  
+[FAQ](http://nsis.sourceforge.net/FAQ)  
+[Developer Center](http://nsis.sourceforge.net/Developer_Center)
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/nsis.install/3.01.0.20160410</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/nsis.install/3.01.0.20160420</packageSourceUrl>
     <projectUrl>http://nsis.sourceforge.net/</projectUrl>
     <projectSourceUrl>https://sourceforge.net/p/nsis/code/HEAD/tree/</projectSourceUrl>
     <bugTrackerUrl>http://nsis.sourceforge.net/Bug_Reports</bugTrackerUrl>

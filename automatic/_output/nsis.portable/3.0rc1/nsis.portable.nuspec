@@ -3,7 +3,7 @@
   <metadata>
     <id>nsis.portable</id>
     <title>Nullsoft Scriptable Install System (Portable)</title>
-    <version>3.01.0.20160410</version>
+    <version>3.01.0.20160420</version>
     <authors>NSIS Team</authors>
     <owners>dtgm</owners>
     <summary>Windows installer development tool</summary>
@@ -14,21 +14,28 @@ Being a user's first experience with your product, a stable and reliable install
 
 NSIS is script-based and allows you to create the logic to handle even the most complex installation tasks. Many plug-ins and scripts are already available: you can create web installers, communicate with Windows and other software components, install or update shared components and more.
 
-[Screenshots](http://nsis.sourceforge.net/Screenshots)
-[FAQ](http://nsis.sourceforge.net/FAQ)
-[Documentation: User](http://nsis.sourceforge.net/Support)
-[Documentation: Developer](http://nsis.sourceforge.net/Developer_Center)
+[Screenshots](http://nsis.sourceforge.net/Screenshots)  
+[FAQ](http://nsis.sourceforge.net/FAQ)  
+[Developer Center](http://nsis.sourceforge.net/Developer_Center)
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/nsis.portable/3.01.0.20160410</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/nsis.portable/3.01.0.20160420</packageSourceUrl>
     <projectUrl>http://nsis.sourceforge.net/</projectUrl>
     <projectSourceUrl>https://sourceforge.net/p/nsis/code/HEAD/tree/</projectSourceUrl>
+    <bugTrackerUrl>http://nsis.sourceforge.net/Bug_Reports</bugTrackerUrl>
+    <docsUrl>http://nsis.sourceforge.net/Support</docsUrl>
+    <mailingListUrl>http://nsis.sourceforge.net/Community</mailingListUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/7d5e648830fdca7a958270dae82fba8c7fe44f5d/icons/nsis.png</iconUrl>
     <tags>installer build developer programming</tags>
     <copyright>© 1999 NSIS Contributors</copyright>
     <licenseUrl>http://nsis.sourceforge.net/License</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-[Changelog](http://nsis.sourceforge.net/News)
+#### Program
+* [News](http://nsis.sourceforge.net/News)
+* [Changelog](http://nsis.sourceforge.net/Change_Log)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   </metadata>
   <files>
