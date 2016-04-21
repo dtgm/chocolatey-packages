@@ -8,33 +8,30 @@
     <owners>dtgm</owners>
     <summary>Distributed computing project to understand protein folding</summary>
     <description>
-Help Stanford University scientists studying Alzheimer's, Huntington's, Parkinson's, and many cancers by simply running a piece of software on your computer. The program does this by building simulations of how proteins, RNA, and nanoscale synthetic polymers fold. 
+Folding@home (FAH or F@h) is a distributed computing project for disease research that simulates protein folding, computational drug design, and other types of molecular dynamics. As of today, the project is using the idle resources of personal computers owned by volunteers from all over the world. FAH helps Stanford University scientists studying Alzheimer's, Huntington's, Parkinson's, and many cancers by building simulations of how proteins, RNA, and nanoscale synthetic polymers fold.
 
-This program does not slow your computer down and only uses unused computer power.
+This program does not slow your computer as it only uses unused computing power.
 
 ### Post-install notes
 1. Execute `FAHClient.exe`
 2. Enter a [name](http://folding.stanford.edu/home/fah-user-name/) and/or team #, and [Passkey](http://folding.stanford.edu/home/faq/faq-passkey/)
-
-### Documentation
-* [FAQs](http://folding.stanford.edu/home/community-support/#faqs)
-* [Configuration guide](http://folding.stanford.edu/home/guide/configuration-guide/)
-
-### Community
-* [Forum](https://foldingforum.org/)
-* [Teams and Stats](https://folding.stanford.edu/home/teams-stats/)
     </description>
     <language>en-us</language>
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://folding.stanford.edu/</projectUrl>
+    <docsUrl>https://folding.stanford.edu/home/guide/windows-install-guide/</docsUrl>
+    <mailingListUrl>https://foldingforum.org/</mailingListUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/e145d13e7f7bc677a6a22da74d0ff1441a554289/icons/{{PackageName}}.png</iconUrl>
-    <licenseUrl>http://folding.stanford.edu/home/faq/faq-opensource#ntoc4</licenseUrl>
+    <licenseUrl>http://folding.stanford.edu/home/License/</licenseUrl>
     <copyright>© Pande Lab, Stanford University</copyright>	
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <tags>distributed-computing protein-folding biology science</tags>
     <releaseNotes>
 #### Program
 * [News](http://folding.stanford.edu/home/blog)
+* [Open Source Licenses](http://folding.stanford.edu/home/faq/faq-opensource#ntoc4)
+* [FAQs](http://folding.stanford.edu/home/community-support/#faqs)
+* [Configuration guide](http://folding.stanford.edu/home/guide/configuration-guide/)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
