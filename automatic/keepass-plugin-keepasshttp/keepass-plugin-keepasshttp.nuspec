@@ -8,20 +8,14 @@
     <owners>dtgm</owners>
     <summary>KeePass 2 plugin to to expose password entries securely (256bit AES/CBC) over HTTP</summary>
     <description>
-KeePassHttp is a plugin for KeePass 2.x and provides a means of exposing password entries securely (256bit AES/CBC) over HTTP.
-
-This plugin is primarily intended for use with PassIFox for Mozilla Firefox and chromeIPass for Google Chrome.
-
-#### Documentation
-* [Configuration](https://github.com/pfn/keepasshttp#configuration-and-options)
-* [Security](https://github.com/pfn/keepasshttp#security)
-* [Protocol](https://github.com/pfn/keepasshttp#protocol)
+KeePassHttp is a plugin for KeePass 2.x and provides a means of exposing password entries securely (256bit AES/CBC) over HTTP. This plugin is primarily intended for use with PassIFox for Mozilla Firefox and chromeIPass for Google Chrome.
     </description>
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>https://github.com/pfn/keepasshttp</projectUrl>
     <projectSourceUrl>https://github.com/pfn/keepasshttp</projectSourceUrl>
+    <docsUrl>https://github.com/pfn/keepasshttp/blob/master/README.md</docsUrl>
     <bugTrackerUrl>https://github.com/pfn/keepasshttp/issues</bugTrackerUrl>
-    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/abea15e652b3237c2ba87b2fb4df1e01ce99443e/icons/{{PackageName}}.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/afc7bc57cd851c1bdcbcb2a03329a0fbe703e60f/icons/{{PackageName}}.png</iconUrl>
     <tags>keepass plugin http</tags>
     <copyright>© 2013 Perry Nguyen, Lukas Schulze</copyright>
     <licenseUrl>https://github.com/pfn/keepasshttp/issues/122</licenseUrl>
