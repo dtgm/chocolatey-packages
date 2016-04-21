@@ -49,8 +49,9 @@ if ($packageParameters) {
     }
 
     if ($arguments.ContainsKey("InstallPath")) {
-        Write-Host "You want to use a custom Installation Path"
-        $installPath = 'Dir=' + $arguments["InstallPath"]
+        $customInstallPath = $arguments["InstallPath"]
+        Write-Host "You want to use a custom Installation Path: ""$customInstallPath"""
+        $installPath = 'Dir=' + $customInstallPath
     }
 } else {
   Write-Debug "No Package Parameters passed in"
