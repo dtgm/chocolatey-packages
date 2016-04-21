@@ -19,7 +19,7 @@ $packageParameters = $env:chocolateyPackageParameters
 # To override the default options set below: /localUser /desktopIcon /installPath="c:\totalcmd"
 $localUser = 'UserName=*' #default: install for all users
 $desktopIcon = 'mkdesktop=0' #default: no desktop icon
-$installPath = '%ProgramFiles%\totalcmd'
+$installPath = 'Dir=%ProgramFiles%\totalcmd'
 
 # Parse packageParameters with regular expressions
 if ($packageParameters) {
