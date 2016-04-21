@@ -26,7 +26,7 @@ ControlClick, Button1 ; Yes
 WinWait, %winTitle3%, The following, 20
 ControlClick, Button1 ; OK
 
-WinWait, %winTitle3%, , 20
+WinWait, %winTitle3%, Program removed, 20
 ControlClick, Button1 ; OK
 
 ExitApp
