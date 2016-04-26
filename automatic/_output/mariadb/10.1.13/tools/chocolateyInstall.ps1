@@ -1,5 +1,5 @@
 $packageName = 'mariadb'
-$urlArray = @('https://downloads.mariadb.org//f/mariadb-10.1.12/win32-packages/mariadb-10.1.12-win32.msi','https://downloads.mariadb.org//f/mariadb-10.1.12/winx64-packages/mariadb-10.1.12-winx64.msi')
+$urlArray = @('https://downloads.mariadb.org//f/mariadb-10.1.13/win32-packages/mariadb-10.1.13-win32.msi','https://downloads.mariadb.org//f/mariadb-10.1.13/winx64-packages/mariadb-10.1.13-winx64.msi')
 $url = $urlArray[0]
 $checksum = '8ca99f83aff0aeee6cdd7880a7a92e29306b2caf'
 $checksumType = 'sha1'

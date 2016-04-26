@@ -1,6 +1,6 @@
 $packageName = 'esedatabaseview'
 $url = 'http://www.nirsoft.net/utils/esedatabaseview.zip'
-$checksum = '6ce383446e0e622ae767e4be0204fc4d57b4903f'
+$checksum = 'c8d8b52eb65fa8018a7c98e24e5d7b2f8c881cf2'
 $checksumType = 'sha1'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $installFile = Join-Path $toolsDir "$($packageName).exe"
