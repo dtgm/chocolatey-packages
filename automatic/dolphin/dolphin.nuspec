@@ -38,6 +38,9 @@ It allows PC gamers to enjoy games for these two consoles in full HD (1080p) wit
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
+    <dependencies>
+      <dependency id="vcredist2015" />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
