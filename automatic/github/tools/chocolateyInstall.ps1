@@ -35,7 +35,6 @@ else {
   $ahkFile = Join-Path $scriptPath "$($packageName)Install.ahk"
   $ahkProc = Start-Process -FilePath $ahkExe `
                            -ArgumentList $ahkFile `
-                           -Verb RunAs `
                            -PassThru
   $ahkId = $ahkProc.Id
   Write-Debug "$ahkExe start time:`t$($ahkProc.StartTime.ToShortTimeString())"
