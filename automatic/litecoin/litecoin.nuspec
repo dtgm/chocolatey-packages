@@ -39,11 +39,11 @@ The rest is the same as Bitcoin:
 * [Google+](https://plus.google.com/+LitecoinOrg)
     </description>
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
-    <projectUrl>https://litecoin.com/</projectUrl>
+    <projectUrl>https://litecoin.org/</projectUrl>
     <projectSourceUrl>https://github.com/litecoin-project/litecoin</projectSourceUrl>
     <bugTrackerUrl>https://github.com/litecoin-project/litecoin/issues</bugTrackerUrl>
-    <docsUrl>https://litecoin.com/#guide</docsUrl>
-    <mailingListUrl>https://litecoin.com/#news</mailingListUrl>
+    <docsUrl>https://litecoin.info/</docsUrl>
+    <mailingListUrl>https://litecointalk.org/</mailingListUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/19d35dff574b7496b92f235fa1503d47b861871a/icons/{{PackageName}}.svg</iconUrl>
     <tags>litecoin ltc wallet cryptocurrency p2p</tags>
     <copyright>© 2012 Litecoin Project</copyright>
