@@ -25,3 +25,7 @@ Get-ChocolateyUnzip -FileFullPath "$zipFile" `
 
 Set-Content -Path ("$installFile.gui") `
             -Value $null
+
+Get-ChildItem -Filter "*.exe" -Recurse -Path "$toolsdir\*" -Exclude @("nircmd.exe", "nircmdc.exe") | %{ 
+    New-Item ($_.FullName + ".gui") -ErrorAction SilentlyContinue
+}
