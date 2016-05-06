@@ -1,15 +1,15 @@
-$packageName = 'nk2edit.install'
-$installerType = 'exe'
-$url = ''
-$checksum = '076acd366a4fb28fd55ac1034def81295c1a06aa'
+$packageName = 'goodsync'
+$fileType = 'msi'
+$silentArgs = '/quiet /qn /norestart'
+$url = 'https://www.goodsync.com/download/GoodSync-Setup.msi'
+$checksum = '6b94170153f0ad77fdf6b9d52e64d1420d15ad9f'
 $checksumType = 'sha1'
-$silentArgs = '/S'
 $validExitCodes = @(0)
 
 Install-ChocolateyPackage -PackageName "$packageName" `
-                          -FileType "$installerType" `
-                          -Url "$url" `
+                          -FileType "$fileType" `
                           -SilentArgs "$silentArgs" `
+                          -Url "$url" `
                           -ValidExitCodes $validExitCodes `
                           -Checksum "$checksum" `
                           -ChecksumType "$checksumType"
