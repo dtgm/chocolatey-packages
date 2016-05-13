@@ -27,6 +27,12 @@ Install file is about 570 MB and extracts to about 1.51 GB.
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/c5f2bd99b11d91687fee996fe614eb129933f4fd/icons/{{PackageName}}.png</iconUrl>
     <releaseNotes>
++#### Program
+* [Roadmap](http://trac.wildfiregames.com/roadmap)
+* [Changelog](http://trac.wildfiregames.com/log/ps)
+
++#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   </metadata>
   <files>
