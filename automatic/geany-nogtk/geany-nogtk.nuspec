@@ -4,7 +4,7 @@
     <id>{{PackageName}}</id>
     <title>Geany without GTK</title>
     <version>{{PackageVersion}}</version>
-    <authors>Enrico Tröger, Frank Lanitz, Nick Treleaven and Dominic Hopf</authors>
+    <authors>Enrico Tröger, Frank Lanitz, Nick Treleaven, Dominic Hopf</authors>
     <owners>dtgm</owners>
     <summary>Fast and lightweight IDE</summary>
     <description>
@@ -12,22 +12,34 @@ Geany is a small and lightweight integrated development environment (IDE). It wa
 
 This package installs geany with the GTK runtime environment as a required dependency.  The chocolatey package [geany](https://chocolatey.org/packages/geany) includes the GTK environment.
 
+[Features](http://www.geany.org/Main/About)
 [Screenshots](http://www.geany.org/Documentation/Screenshots)
-[Plugins](http://www.geany.org/Support/Plugins)
-[Manual](http://www.geany.org/Documentation/Manual)
 [Wiki](http://wiki.geany.org/)
+
+#### Geany chocolatey packages
+__geany-nogtk__ (this package) installs [gtk-runtime](https://chocolatey.org/packages/gtk-runtime) as a dependency.  
+__[geany](https://chocolatey.org/packages/geany)__ bundles gtk-runtime.  
+__[geany-plugins](https://chocolatey.org/packages/geany-plugins)__ -- plugin [documentation](http://www.geany.org/Support/Plugins)
     </description>
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://www.geany.org/</projectUrl>
     <projectSourceUrl>https://github.com/geany/geany</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/geany/geany/issues</bugTrackerUrl>
+    <docsUrl>http://www.geany.org/Documentation/Manual</docsUrl>
+    <mailingListUrl>http://www.geany.org/Support/MailingList</mailingListUrl>
     <tags>text editor ide scintilla</tags>
-    <copyright>© 2006 Enrico Tröger, Matthew Brush, Colomban Wendling, Frank Lanitz, Nick Treleaven and Dominic Hopf</copyright>
+    <copyright>© 2006 Enrico Tröger, Matthew Brush, Colomban Wendling, Frank Lanitz, Nick Treleaven, Dominic Hopf</copyright>
     <licenseUrl>https://github.com/geany/geany/blob/master/COPYING</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/d1e037cc7c943fda29b9067b3b1c3229d99402ff/icons/geany.png</iconUrl>
     <releaseNotes>
-[Release Notes](http://www.geany.org/Documentation/ReleaseNotes)
-[Changelog](https://github.com/geany/geany/releases)
+#### Program
+* [Release notes](http://www.geany.org/Documentation/ReleaseNotes)
+* [Changelog](https://github.com/geany/geany/releases)
+* [Roadmap](https://github.com/geany/geany/milestones)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
     <dependencies>
       <dependency id="gtk-runtime" />
