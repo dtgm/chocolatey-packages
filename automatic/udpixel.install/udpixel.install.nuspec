@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>Undead Pixel (Install)</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Samuel Larché</authors>
+    <owners>dtgm</owners>
+    <summary>Locate and fix LCD screens dead pixels</summary>
+    <description>
+This program helps to locate and fix LCD screens dead pixels.
+
+You can fix the stuck pixels by calling them to do rapid changes. You need to run this program for a couple of hours. There is no warranty on the result, but you don't really have anything to lose trying it out.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <projectUrl>http://udpix.free.fr/</projectUrl>
+    <docsUrl>http://udpix.free.fr/index.php?p=faq</docsUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/4016f32e017d187f651a8b4317fc71386fd5c963/icons/udpixel.png</iconUrl>
+    <tags>lcd pixel</tags>
+    <copyright>© 2005 Samuel Larché</copyright>
+    <licenseUrl>https://wikipedia.org/wiki/Freeware</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>x64dbg</title>
+    <version>{{PackageVersion}}</version>
+    <authors>http://x64dbg.com/index.html#credits</authors>
+    <owners>dtgm</owners>
+    <summary>Open-source x64/x32 debugger</summary>
+    <description>
+An open-source x64/x32 debugger for Windows.
+
+* [Features](http://x64dbg.com/index.html#features)
+* [Wiki](http://wiki.x64dbg.com/)
+* [Plugins](http://x64dbg.com/index.html#plugins)
+
+#### Executables
+* `x32dbg.exe` -- 32 bit executable
+* `x64dbg.exe` -- 64 bit executable
+* `x96dbg.exe` -- register shell extension and create desktop shortcuts
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <projectUrl>http://x64dbg.com/</projectUrl>
+    <projectSourceUrl>http://source.x64dbg.com/</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/x64dbg/x64dbg/issues</bugTrackerUrl>
+    <docsUrl>http://help.x64dbg.com/</docsUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/1aeadd8a079205ac462987b2bb7ac3a5e6769471/icons/{{PackageName}}.png</iconUrl>
+    <tags>debugger</tags>
+    <copyright>© 2013 x64dbg</copyright>
+    <licenseUrl>https://github.com/x64dbg/x64dbg/blob/development/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Changelog](http://x64dbg.com/changelog.html)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="7zip.commandline" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
