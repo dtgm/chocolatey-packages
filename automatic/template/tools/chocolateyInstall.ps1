@@ -359,6 +359,25 @@ Install-ChocolateyZipPackage -PackageName "$packageName" `
 Set-Content -Path ("$installFile.gui") `
             -Value $null
 
+            
+            
+            
+$ErrorActionPreference = 'Stop'; # stop on all errors
+$packageName = '{{PackageName}}'
+$toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+$url = '{{DownloadUrl}}'
+ 
+$packageArgs = @{
+  packageName   = $packageName
+  unzipLocation = $toolsDir
+  url           = $url
+}
+ 
+Install-ChocolateyZipPackage @packageArgs            
+            
+            
+            
+            
 ###  Archived; RAR  ###
 # command-line version of 7zip is 7za, provided by 7zip.commmandline, 7za does not support rar
 # rar archives require 7z which is provided by 7zip.install
@@ -458,7 +477,7 @@ $url = '{{DownloadUrlx64}}'
 $checksum = '{{Checksum}}'
 $checksumType = 'sha1'
 $validExitCodes = @(0)
-$toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+$toolsDir = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
 
 $install32File = "$toolsDir\setup32bit.exe"
 $install32Opts = "$toolsDir\setup32bit.xml"
