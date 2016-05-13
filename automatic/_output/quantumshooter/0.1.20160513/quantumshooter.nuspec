@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>quantumshooter</id>
+    <title>Quantum Shooter</title>
+    <version>0.1.20160513</version>
+    <authors>ScienceAtHome</authors>
+    <owners>dtgm</owners>
+    <summary>Learn about quantum physics and help build quantum computers by playing games</summary>
+    <description>
+Quantum Shooter is a variant of our flagship game, Quantum Moves. However, in Quantum Shooter, you are invited into a new but hostile environment! You are Agent87, a shooter inspired by games like Crimsonland.
+
+Armed with a simple gun, you are assaulted by relentless hordes of enemies. Be ready to seize the opportunity offered by the extremely powerful quantum weapon when you have the chance to reload. This should help you survive but keep in mind that the power you unlock depends on your ability to manipulate the atom!
+
+Will you be able to survive long enough? Can you prevent the spiders from taking your life under the siege?
+
+#### How to play: 
+
+Navigate on the platform using the arrows. Direct your weapon with the cursor of your mouse. Try to reach the reload zones when they appear; it is your chance to improve your weapon! Be ready to manipulate the wave using your mouse to direct it towards the cylinder of the weapon.
+
+Keep an eye on the power bar at the bottom of the screen. The higher it is when you release the wave in the cylinder, the more powerful your weapon will be!
+
+While playing, keep an eye on your health bar at the left of the screen – and on the time of course! Too hard? Find a mate and let him/her take over either the keyboard or the mouse.
+
+#### ScienceAtHome    
+* To contribute to our research, make sure you play our games with an active internet connection, as we are gathering data for our scientists based on your performance.
+* [Privacy policy](https://www.scienceathome.org/privacy)
+    </description>
+    <projectUrl>https://www.scienceathome.org/games/quantum-shooter/</projectUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/quantumshooter/</packageSourceUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/67b967422d1fd2607e227b592dd069a6cd34ff02/icons/quantumshooter.png</iconUrl>
+    <tags>gaming citizen-science quantum-physics</tags>
+    <copyright>© ScienceAtHome</copyright>
+    <licenseUrl>http://creativecommons.org/licenses/by/3.0/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [News](https://www.scienceathome.org/citizen-science/publications)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

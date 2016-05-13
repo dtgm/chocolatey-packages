@@ -26,9 +26,10 @@ PydioSync is the desktop client for Pydio v6. It is offers real-time synchroniza
 [Screenshots](https://sourceforge.net/p/ajaxplorer/wiki/)
 [FAQ](https://pyd.io/knowledge-base-2/f-a-q/)
 [Forum](https://pyd.io/f/)
-[Source code](https://github.com/pydio/pydio-sync)
     </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/pydio-sync/0.8.4</packageSourceUrl>
     <projectUrl>https://pyd.io/apps/pydio-sync/</projectUrl>
+    <projectSourceUrl>https://github.com/pydio/pydio-sync</projectSourceUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/e816ec6985588cc33e17a2f2af4cb24349f7f281/icons/pydio-sync.png</iconUrl>
     <tags>cloud sync filesharing</tags>
     <copyright>© 2014 Abstrium SAS</copyright>
@@ -37,7 +38,6 @@ PydioSync is the desktop client for Pydio v6. It is offers real-time synchroniza
     <releaseNotes>
 [Changelog](https://pyd.io/category/news/)
 [Roadmap](https://pyd.io/roadmap/)
-[Known issues](https://github.com/pydio/pydio-sync/issues)
 
 #### Pydio Server requirements:
 * v6 or later
@@ -45,11 +45,11 @@ PydioSync is the desktop client for Pydio v6. It is offers real-time synchroniza
 * API properly configured
 * If using SSL, make sure to use a properly validated certificate
 
-#### Workpsaces requirements:
+#### Workspace requirements:
 * Meta.syncable plugin active (via Workspace Features)
 * FileHasher plugin active
 * Metastore plugin active (to cache file hashes)
-* If pydio <= 6.0.3, Index.lucene must be active as well
+* If pydio &lt;=6.0.3, Index.lucene must be active as well
 
 #### Indexation notice:
 * On the server-side, the changes are continuously indexed so that the sync client only receives the modification of the tree when required. For this reason, if you are planning to modify the data of a workspace from outside pydio, you have to set up a specific strategy to make sure to keep pydio in sync.
