@@ -1,10 +1,10 @@
 $packageName = '{{PackageName}}'
-$installerType = 'exe'
-$silentArgs = '/S'
+$installerType = 'msi'
+$silentArgs = '/quiet /qn /norestart'
 $url = '{{DownloadUrl}}'
 $checksum = '{{Checksum}}'
 $checksumType = 'sha1'
-$validExitCodes = @(0)
+$validExitCodes = @(0,3010)
 
 Install-ChocolateyPackage -PackageName "$packageName" `
                           -FileType "$installerType" `

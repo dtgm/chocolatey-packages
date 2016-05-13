@@ -1,6 +1,6 @@
 $packageName = '{{PackageName}}'
-$packageSearch = 'CMake'
-$fileType = 'exe'
+$packageSearch = "CMake*"
+$fileType = 'msi'
 $silentArgs = '/S'
 $validExitCodes = @(0)
 try {
@@ -8,7 +8,7 @@ try {
                             'HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*',
                             'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*' ) `
                    -ErrorAction:SilentlyContinue `
-  | Where-Object   { $_.DisplayName -like "$packageSearch*" } `
+  | Where-Object   { $_.DisplayName -like $packageSearch } `
   | ForEach-Object { Uninstall-ChocolateyPackage -PackageName "$packageName" `
                                                  -FileType "$fileType" `
                                                  -SilentArgs "$($silentArgs)" `
