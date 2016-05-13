@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>SARDU Multiboot Creator</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Davide Costa</authors>
+    <owners>dtgm</owners>
+    <summary>Multiboot USB and DVD creator</summary>
+    <description>
+SARDU multiboot creator automates the download and build of a multiboot USB/DVD/CD. Many bootable images are divided into categories; tools, antivirus, utility, Linux, Windows, and user-defined ISO images.
+
+With the Bios Legacy and EFI multiboot support you can boot a PC or a Mac from the pendrive USB and make maintenance, do a virus scan, recover and save data, install Windows from USB, try or install Linux Live.
+
+#### Documentation
+* [Screenshots](http://www.sarducd.it/screenshoots)
+* [FAQ](http://www.sarducd.it/tutorial)
+* [Manual](http://www.sarducd.it/sardu-for-dummies.html)
+
+#### Community
+* [Forum](http://www.sarducd.it/forum/)
+* [Facebook](https://www.facebook.com/sarducd)
+* [Google+](https://plus.google.com/+sardu)
+* [Twitter](https://twitter.com/sarducd)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <projectUrl>http://www.sarducd.it/</projectUrl>
+    <mailingListUrl>http://www.sarducd.it/lists/</mailingListUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages//icons/{{PackageName}}.png</iconUrl>
+    <tags>bootdisk iso</tags>
+    <copyright>© 2008 Davide Costa</copyright>
+    <licenseUrl>http://www.sarducd.it/tos.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [News](http://www.sarducd.it/blog/)
+* [Changelog](http://www.sarducd.it/changelog.txt)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
