@@ -105,7 +105,8 @@ $batchFile = Join-Path $chocoBinPath 'mongoRotateLogs.bat'
 $exeFile --eval `'db.runCommand(`"logRotate`")`' mongohost:27017/admin" | Out-File $batchFile -encoding ASCII
 
 # install and start mongodb as a Windows service
-$installArgs = '& $mongoDaemon --quiet --bind_ip 127.0.0.1 --logpath $(Join-Path $logsDir 'MongoDB.log') --logappend --dbpath $dataDir --directoryperdb --install; net start `"MongoDB`"'
+$logFile = Join-Path $logsDir "MongoDB.log"
+$installArgs = '& $mongoDaemon --quiet --bind_ip 127.0.0.1 --logpath $logFile --logappend --dbpath $dataDir --directoryperdb --install; net start `"MongoDB`"'
 Start-ChocolateyProcessAsAdmin -Statements "$installArgs"
 
 $installFile = Join-Path -Path $toolsDir `
