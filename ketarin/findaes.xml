@@ -1,16 +1,17 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="7c68e789-5aa5-4a84-b84b-7f2eb9180e3f">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
     <LastFileSize>10910</LastFileSize>
-    <LastFileDate>2016-02-04T19:36:48.3343012</LastFileDate>
+    <LastFileDate>2016-02-28T11:22:38.4297801</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
     <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
@@ -72,7 +73,7 @@
             <VariableType>Textual</VariableType>
             <Regex />
             <Url />
-            <TextualContent>{mirrorUrl}/project/{appname}/{urlFile}</TextualContent>
+            <TextualContent>{mirrorUrl}/project/{appname}/{getUrl:regex:(?&lt;=files/).+}</TextualContent>
             <Name>url</Name>
           </UrlVariable>
         </value>
@@ -99,7 +100,7 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>[^ "'&lt;&gt;\*]+\.zip/download</Regex>
+            <Regex>[^ "'&lt;&gt;\*]+\.zip(?=/download")</Regex>
             <Url>{urlHost}/{urlPath}</Url>
             <Name>getUrl</Name>
           </UrlVariable>
@@ -183,12 +184,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\findaes-1.2.zip</PreviousLocation>
+    <PreviousLocation>F:\exe\findaes_1.2.zip</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2016-02-04T19:36:48.3343012</LastUpdated>
-    <TargetPath>{workdir}\</TargetPath>
+    <LastUpdated>2016-02-28T11:22:38.4297801</LastUpdated>
+    <TargetPath>{saveDir}\{appname}_{version}.{url:ext}</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>findaes</Name>
   </ApplicationJob>

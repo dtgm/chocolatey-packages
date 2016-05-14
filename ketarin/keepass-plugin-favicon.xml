@@ -1,16 +1,17 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="f22e3f18-c053-47ca-a901-fad5558222b6">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
     <LastFileSize>58823</LastFileSize>
-    <LastFileDate>2015-10-10T05:14:51.7677921</LastFileDate>
+    <LastFileDate>2016-02-28T11:34:59.3741206</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
     <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
@@ -71,7 +72,7 @@
             <VariableType>Textual</VariableType>
             <Regex />
             <Url />
-            <TextualContent>{getMirror}/keepass-favicon/{urlDir}/{getUrl:regex:(?&lt;={urlDir}/).*?(?=/download)}</TextualContent>
+            <TextualContent>{getMirror}/keepass-favicon/{urlDir}/{getUrl:regex:(?&lt;={urlDir}/).*?}</TextualContent>
             <Name>url</Name>
           </UrlVariable>
         </value>
@@ -98,7 +99,7 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>[^ "'&lt;&gt;\*]+\.plgx/download</Regex>
+            <Regex>[^ "'&lt;&gt;\*]+\.plgx(?=/download")</Regex>
             <Url>{urlHost}/{urlPath}/{urlDir}/</Url>
             <Name>getUrl</Name>
           </UrlVariable>
@@ -167,12 +168,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\KeePassFaviconDownloader.plgx</PreviousLocation>
+    <PreviousLocation>F:\exe\keepass-plugin-favicon_1.9.0.plgx</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-10-10T05:14:51.7677921</LastUpdated>
-    <TargetPath>{workdir}\</TargetPath>
+    <LastUpdated>2016-02-28T11:34:59.3741206</LastUpdated>
+    <TargetPath>{saveDir}\{appname}_{version}.{url:ext}</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>keepass-plugin-favicon</Name>
   </ApplicationJob>

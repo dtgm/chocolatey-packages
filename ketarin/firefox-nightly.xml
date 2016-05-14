@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="13113f2d-6ba0-41ff-b2ba-27ae2ca6dae1">
     <WebsiteUrl />
@@ -17,8 +17,8 @@ FTP releases
 https://ftp.mozilla.org/pub/mozilla.org/firefox/releases/
 regex subdir
 .*(?&lt;=&gt;)([\d\.]{3,}b\d+)</UserNotes>
-    <LastFileSize>44989536</LastFileSize>
-    <LastFileDate>2015-10-10T05:01:25.227648</LastFileDate>
+    <LastFileSize>38073400</LastFileSize>
+    <LastFileDate>2016-04-21T18:44:37.7064037</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -39,24 +39,11 @@ regex subdir
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>RegularExpression</VariableType>
-            <Regex>\.exe"&gt;firefox-([\d\.]{3,}a\d+)</Regex>
-            <Url>{urlHost}/{urlPath}</Url>
-            <Name>versionShort</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>urlHost</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>https://ftp.mozilla.org</TextualContent>
-            <Name>urlHost</Name>
+            <Url />
+            <TextualContent>{urlFile:regex:(?&lt;=firefox-)[\d\.]{3,\}a\d+(?=.en-US)}</TextualContent>
+            <Name>versionShort</Name>
           </UrlVariable>
         </value>
       </item>
@@ -84,7 +71,7 @@ regex subdir
             <VariableType>Textual</VariableType>
             <Regex />
             <Url />
-            <TextualContent>pub/mozilla.org/firefox/nightly/latest-trunk</TextualContent>
+            <TextualContent>https://archive.mozilla.org/pub/firefox/nightly/latest-mozilla-central/</TextualContent>
             <Name>urlPath</Name>
           </UrlVariable>
         </value>
@@ -98,7 +85,7 @@ regex subdir
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>{urlHost}/{urlPath}/{urlFile}</TextualContent>
+            <TextualContent>{urlPath}{urlFile}</TextualContent>
             <Name>url</Name>
           </UrlVariable>
         </value>
@@ -113,22 +100,8 @@ regex subdir
             <VariableType>Textual</VariableType>
             <Regex />
             <Url>{category}</Url>
-            <TextualContent>{urlHost}/{urlPath}/{url64File}</TextualContent>
+            <TextualContent>{urlPath}{url64File}</TextualContent>
             <Name>url64</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>url-alt</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <TextualContent>{urlStub:replace:-stub:}</TextualContent>
-            <Name>url-alt</Name>
           </UrlVariable>
         </value>
       </item>
@@ -182,8 +155,8 @@ regex subdir
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>[^ "'&lt;&gt;\*]+32\.installer\.exe</Regex>
-            <Url>{urlHost}/{urlPath}</Url>
+            <Regex>(?&lt;=latest-mozilla-central/)[^ "'&lt;&gt;\*]+32\.installer\.exe</Regex>
+            <Url>{urlPath}</Url>
             <Name>urlFile</Name>
           </UrlVariable>
         </value>
@@ -196,8 +169,8 @@ regex subdir
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>[^ "'&lt;&gt;\*]+64\.installer\.exe</Regex>
-            <Url>{urlHost}/{urlPath}</Url>
+            <Regex>(?&lt;=latest-mozilla-central/)[^ "'&lt;&gt;\*]+64\.installer\.exe</Regex>
+            <Url>{urlPath}</Url>
             <Name>url64File</Name>
           </UrlVariable>
         </value>
@@ -245,18 +218,18 @@ regex subdir
         </value>
       </item>
     </Variables>
-    <ExecuteCommand>cpush {chocoPkgOutput}\{appname}\{version}\{appname}.{versionLong}.nupkg</ExecuteCommand>
+    <ExecuteCommand>cpush {chocoPkgOut}\{appname}\{version}\{appname}.{versionLong}.nupkg</ExecuteCommand>
     <ExecutePreCommand />
     <ExecuteCommandType>Batch</ExecuteCommandType>
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\firefox-44.0a1.en-US.win32.installer.exe</PreviousLocation>
+    <PreviousLocation>F:\exe\firefox-nightly_48.0.1.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-10-10T05:01:25.227648</LastUpdated>
-    <TargetPath>{workdir}\</TargetPath>
+    <LastUpdated>2016-04-21T18:44:37.7064037</LastUpdated>
+    <TargetPath>{saveDir}\{appname}_{version}.{url:ext}</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>firefox-nightly</Name>
   </ApplicationJob>

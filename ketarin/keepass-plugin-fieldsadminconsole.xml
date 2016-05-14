@@ -1,16 +1,17 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="a25ba6fd-7f97-4560-a355-c4d2aee1c80d">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
     <LastFileSize>84668</LastFileSize>
-    <LastFileDate>2015-10-10T05:14:50.2522041</LastFileDate>
+    <LastFileDate>2016-02-28T11:35:05.3253464</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
     <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
@@ -71,7 +72,7 @@
             <VariableType>Textual</VariableType>
             <Regex />
             <Url />
-            <TextualContent>{getMirror}/kpfieldsadminconsole/{urlDir}/{getUrl:regex:(?&lt;={urlDir}/).*?(?=/download)}</TextualContent>
+            <TextualContent>{getMirror}/kpfieldsadminconsole/{urlDir}/{getUrl:regex:(?&lt;={urlDir}/).*?}</TextualContent>
             <Name>url</Name>
           </UrlVariable>
         </value>
@@ -98,7 +99,7 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>[^ "'&lt;&gt;\*]+\.plgx/download</Regex>
+            <Regex>[^ "'&lt;&gt;\*]+\.plgx(?=/download")</Regex>
             <Url>{urlHost}/{urlPath}/{urlDir}/</Url>
             <Name>getUrl</Name>
           </UrlVariable>
@@ -167,12 +168,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\FieldsAdminConsole.plgx</PreviousLocation>
+    <PreviousLocation>F:\exe\keepass-plugin-fieldsadminconsole_0.2.0.plgx</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-10-10T05:14:50.2522041</LastUpdated>
-    <TargetPath>{workdir}\</TargetPath>
+    <LastUpdated>2016-02-28T11:35:05.3253464</LastUpdated>
+    <TargetPath>{saveDir}\{appname}_{version}.{url:ext}</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>keepass-plugin-fieldsadminconsole</Name>
   </ApplicationJob>

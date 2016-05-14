@@ -1,11 +1,11 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="0e4a6956-5931-452c-a87b-45f7bcdbe275">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>11736337</LastFileSize>
-    <LastFileDate>2016-02-04T19:42:46.7958759</LastFileDate>
+    <LastFileSize>12213357</LastFileSize>
+    <LastFileDate>2016-04-21T05:28:45.860012</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -99,7 +99,7 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>[^ "'&lt;&gt;\*]+\.exe/download</Regex>
+            <Regex>[^ "'&lt;&gt;\*]+\.exe(?=/download")</Regex>
             <Url>{urlHost}/{urlPath}/{urlDir}/</Url>
             <Name>getUrl</Name>
           </UrlVariable>
@@ -141,7 +141,7 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=eViacam-)[\d.]{3,}(?=\.exe)</Regex>
+            <Regex>(?&lt;=eViacam-)[\d.]{3,}</Regex>
             <Url>http://{appname}.sourceforge.net/</Url>
             <TextualContent />
             <Name>version</Name>
@@ -155,12 +155,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\eViacam-2.0.1.exe</PreviousLocation>
+    <PreviousLocation>F:\exe\eviacam_2.1.0.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2016-02-04T19:42:46.7958759</LastUpdated>
-    <TargetPath>{workdir}\</TargetPath>
+    <LastUpdated>2016-04-21T05:28:45.860012</LastUpdated>
+    <TargetPath>{saveDir}\{appname}_{version}.{url:ext}</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>eviacam</Name>
   </ApplicationJob>

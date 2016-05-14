@@ -1,16 +1,17 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="4e34d528-8d1f-4499-bbf5-b8f1fa888c5d">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
     <LastFileSize>1261505</LastFileSize>
-    <LastFileDate>2016-02-04T19:36:39.4021311</LastFileDate>
+    <LastFileDate>2016-04-21T16:51:08.2500091</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
     <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
@@ -54,8 +55,8 @@
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>StartEnd</VariableType>
-            <Regex />
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=flac-)[\d.]{1,}(?=-win\.zip)</Regex>
             <Url>http://sourceforge.net/projects/flac/files/flac-win/</Url>
             <StartText>&lt;a href="http://sourceforge.net/projects/flac/files/flac-win/flac-</StartText>
             <EndText>-win.zip</EndText>
@@ -99,12 +100,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\flac-1.3.1-win.zip</PreviousLocation>
+    <PreviousLocation>F:\exe\flac_1.3.1.zip</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2016-02-04T19:36:39.4021311</LastUpdated>
-    <TargetPath>{workdir}\</TargetPath>
+    <LastUpdated>2016-04-21T16:51:08.2500091</LastUpdated>
+    <TargetPath>{saveDir}\{appname}_{version}.{url:ext}</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>flac</Name>
   </ApplicationJob>

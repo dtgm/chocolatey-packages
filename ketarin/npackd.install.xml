@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="7366e713-baef-4aae-acf9-7ccc297faee5">
     <WebsiteUrl />
@@ -11,6 +11,7 @@
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
     <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
@@ -20,7 +21,7 @@
     <Variables>
       <item>
         <key>
-          <string>nopush</string>
+          <string>yopush</string>
         </key>
         <value>
           <UrlVariable>
@@ -28,7 +29,7 @@
             <VariableType>Textual</VariableType>
             <Regex />
             <TextualContent>--nopush</TextualContent>
-            <Name>nopush</Name>
+            <Name>yopush</Name>
           </UrlVariable>
         </value>
       </item>
@@ -53,10 +54,10 @@
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <Url />
-            <TextualContent>{getMirror}/project/npackd/com.googlecode.windows-package-manager.Npackd/Npackd32-{version}.msi</TextualContent>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>[^ "'&lt;&gt;\*]+Npackd32-{version}\.msi</Regex>
+            <Url>https://github.com/tim-lebedkov/npackd/wiki/Downloads</Url>
+            <TextualContent />
             <Name>url</Name>
           </UrlVariable>
         </value>
@@ -68,94 +69,40 @@
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <TextualContent>{urlArray}</TextualContent>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>[^ "'&lt;&gt;\*]+Npackd64-{version}\.msi</Regex>
+            <Url>https://github.com/tim-lebedkov/npackd/wiki/Downloads</Url>
+            <TextualContent />
             <Name>url64</Name>
           </UrlVariable>
         </value>
       </item>
       <item>
         <key>
-          <string>getUrl</string>
+          <string>checksum</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>[^ "'&lt;&gt;\*]+Npackd32-{version}\.msi/download</Regex>
-            <Url>https://github.com/tim-lebedkov/npackd/wiki/Downloads</Url>
-            <Name>getUrl</Name>
+            <Regex>(?&lt;=ETag: ")[A-F0-9]{32}</Regex>
+            <Url>{url}</Url>
+            <TextualContent />
+            <Name>checksum</Name>
           </UrlVariable>
         </value>
       </item>
       <item>
         <key>
-          <string>getUrl64</string>
+          <string>checksumx64</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>[^ "'&lt;&gt;\*]+Npackd64-{version}\.msi/download</Regex>
-            <Url>https://github.com/tim-lebedkov/npackd/wiki/Downloads</Url>
-            <Name>getUrl64</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>checksum64file</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <TextualContent>{getMirror}/project/npackd/com.googlecode.windows-package-manager.Npackd64/Npackd64-{version}.msi</TextualContent>
-            <Name>checksum64file</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>getUrlZip</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>RegularExpression</VariableType>
-            <Regex>[^ "'&lt;&gt;\*]+Npackd32-{version}\.zip/download</Regex>
-            <Url>https://github.com/tim-lebedkov/npackd/wiki/Downloads</Url>
-            <Name>getUrlZip</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>getMirror</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=ResponseUri: )(.*)/project/</Regex>
-            <Url>{getUrlZip}</Url>
-            <Name>getMirror</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>urlArray</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <TextualContent>@('{getUrl}', '{getUrl64}')</TextualContent>
-            <Name>urlArray</Name>
+            <Regex>(?&lt;=ETag: ")[A-F0-9]{32}</Regex>
+            <Url>{url64}</Url>
+            <Name>checksumx64</Name>
           </UrlVariable>
         </value>
       </item>
@@ -168,7 +115,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>2</TextualContent>
+            <TextualContent>0</TextualContent>
             <Name>cscript</Name>
           </UrlVariable>
         </value>
@@ -185,7 +132,7 @@
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2015-08-13T12:31:03.0100151</LastUpdated>
-    <TargetPath>{workdir}\</TargetPath>
+    <TargetPath>{saveDir}\{appname}_{version}.{url:ext}</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>npackd.install</Name>
   </ApplicationJob>

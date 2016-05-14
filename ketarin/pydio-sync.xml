@@ -1,16 +1,17 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="29397a2b-ebf4-4993-854a-f24449db3880">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
     <LastFileSize>21834752</LastFileSize>
-    <LastFileDate>2016-02-04T18:06:05.7488824</LastFileDate>
+    <LastFileDate>2014-01-27T14:01:26-07:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
     <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
@@ -56,7 +57,7 @@
             <VariableType>Textual</VariableType>
             <Regex />
             <Url />
-            <TextualContent>{getMirror}/{getUrl:regex:pydio\-sync.*(?=/download)}</TextualContent>
+            <TextualContent>{getMirror}/{getUrl:regex:pydio\-sync.*}</TextualContent>
             <Name>url</Name>
           </UrlVariable>
         </value>
@@ -83,7 +84,7 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>[^ "'&lt;&gt;\*]+86-Setup\.msi/download</Regex>
+            <Regex>[^ "'&lt;&gt;\*]+86-Setup\.msi(?=/download")</Regex>
             <Url>https://sourceforge.net/projects/ajaxplorer/files/pydio-sync/java/{version}/</Url>
             <Name>getUrl</Name>
           </UrlVariable>
@@ -97,7 +98,7 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>[^ "'&lt;&gt;\*]+64-Setup\.msi/download</Regex>
+            <Regex>[^ "'&lt;&gt;\*]+64-Setup\.msi(?=/download")</Regex>
             <Url>https://sourceforge.net/projects/ajaxplorer/files/pydio-sync/java/{version}/</Url>
             <Name>getUrl64</Name>
           </UrlVariable>
@@ -112,7 +113,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>{getMirror}/{getUrl64:regex:pydio\-sync.*(?=/download)}</TextualContent>
+            <TextualContent>{getMirror}/{getUrl64:regex:pydio\-sync.*}</TextualContent>
             <Name>checksum64file</Name>
           </UrlVariable>
         </value>
@@ -180,12 +181,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\Pydio-0.8.4-Windows-x86-Setup.msi</PreviousLocation>
+    <PreviousLocation>F:\exe\pydio-sync_0.8.4.msi</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2016-02-04T18:06:05.7488824</LastUpdated>
-    <TargetPath>{workdir}\</TargetPath>
+    <LastUpdated>2016-05-13T00:23:33.3536055-06:00</LastUpdated>
+    <TargetPath>{saveDir}\{appname}_{version}.{url:ext}</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>pydio-sync</Name>
   </ApplicationJob>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="30dc24c8-357f-47e1-b85e-22d2937a13de">
     <WebsiteUrl />
@@ -6,12 +6,13 @@
     <UserNotes>http://sourceforge.net/projects/repo/files/latest/download
 https://sourceforge.net/projects/repo/files/</UserNotes>
     <LastFileSize>96522</LastFileSize>
-    <LastFileDate>2016-02-04T19:36:53.9394589</LastFileDate>
+    <LastFileDate>2016-02-28T11:22:38.1335698</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
     <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
@@ -72,7 +73,7 @@ https://sourceforge.net/projects/repo/files/</UserNotes>
             <VariableType>Textual</VariableType>
             <Regex />
             <Url />
-            <TextualContent>{getMirror}/{getUrl:regex:(?&lt;={urlPath}/).*?(?=/download)}</TextualContent>
+            <TextualContent>{getMirror}/{getUrl:regex:(?&lt;=files/FileTool/)FileTool.+}</TextualContent>
             <Name>url</Name>
           </UrlVariable>
         </value>
@@ -99,7 +100,7 @@ https://sourceforge.net/projects/repo/files/</UserNotes>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>[^ "'&lt;&gt;\*]+filetool-.*?\.zip/download</Regex>
+            <Regex>[^ "'&lt;&gt;\*]+filetool-.*?\.zip(?=/download")</Regex>
             <Url>{urlHost}/{urlPath}/{urlDir}/</Url>
             <Name>getUrl</Name>
           </UrlVariable>
@@ -113,7 +114,7 @@ https://sourceforge.net/projects/repo/files/</UserNotes>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>[^ "'&lt;&gt;\*]+filetool64-.*?\.zip/download</Regex>
+            <Regex>[^ "'&lt;&gt;\*]+filetool64-.*?\.zip(?=/download")</Regex>
             <Url>{urlHost}/{urlPath}/{urlDir}/</Url>
             <TextualContent />
             <Name>getUrl64</Name>
@@ -212,12 +213,12 @@ https://sourceforge.net/projects/repo/files/</UserNotes>
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\FileTool-1.0.0.814.zip</PreviousLocation>
+    <PreviousLocation>F:\exe\filetool_1.0.0.814.zip</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2016-02-04T19:36:53.9394589</LastUpdated>
-    <TargetPath>{workdir}\</TargetPath>
+    <LastUpdated>2016-02-28T11:22:38.1335698</LastUpdated>
+    <TargetPath>{saveDir}\{appname}_{version}.{url:ext}</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>filetool</Name>
   </ApplicationJob>
