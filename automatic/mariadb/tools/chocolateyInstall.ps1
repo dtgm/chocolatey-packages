@@ -31,19 +31,19 @@ $regKey = Get-ItemProperty -Path @('HKLM:\Software\Wow6432Node\Microsoft\Windows
           | Where-Object {$_.DisplayName -like $packageSearch}
 
 Write-Verbose "Adding MariaDB bin directory to path environment variable..."
-$binPath = Join-Path $regKey.InstallLocation "bin"
+$binPath = Join-Path $regKey.InstallLocation[0] "bin"
 if ($binPath) {
   Install-ChocolateyPath $binPath 'Machine'
+
+  Write-Verbose "Installing service..."
+  Start-Process -FilePath $(Join-Path $binPath "mysqld") `
+                -ArgumentList '--install' `
+                -Wait `
+                -NoNewWindow
+
+  Write-Verbose "Starting service..."
+  Start-Process -FilePath "NET" `
+                -ArgumentList 'START MySQL' `
+                -Wait `
+                -NoNewWindow
 }
-
-Write-Verbose "Installing service..."
-Start-Process -FilePath "$binPath\mysqld" `
-              -ArgumentList '--install' `
-              -Wait `
-              -NoNewWindow
-
-Write-Verbose "Starting service..."
-Start-Process -FilePath "NET" `
-              -ArgumentList 'START MySQL' `
-              -Wait `
-              -NoNewWindow

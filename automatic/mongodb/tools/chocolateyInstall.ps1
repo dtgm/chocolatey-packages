@@ -18,9 +18,6 @@ $fileName = "mongodb-win32-i386-$version"
 if (Get-ProcessorBits 64) {$fileName = "mongodb-win32-x86`_64-$version"}
 $url = "http://downloads.mongodb.org/win32/$fileName.zip"
 
-#
-# Parse command line arguments: choco install mongodb -packageParameters "/installDir:'D:\MongoDB'"
-#
 function Parse-Parameters($arguments)
 {
     $packageParameters = $env:chocolateyPackageParameters

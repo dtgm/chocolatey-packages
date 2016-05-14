@@ -16,7 +16,7 @@ NSIS is script-based and allows you to create the logic to handle even the most 
 
 [Screenshots](http://nsis.sourceforge.net/Screenshots)
 [FAQ](http://nsis.sourceforge.net/FAQ)
-[Developer documentation](http://nsis.sourceforge.net/Developer_Center)
+[Developer Center](http://nsis.sourceforge.net/Developer_Center)
     </description>
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
     <projectUrl>http://nsis.sourceforge.net/</projectUrl>

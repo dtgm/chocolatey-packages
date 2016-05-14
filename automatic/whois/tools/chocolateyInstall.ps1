@@ -6,6 +6,7 @@ $url64 = "$url"
 $checksum64 = "$checksum"
 $checksumType64 = "checksumType"
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+
 Install-ChocolateyZipPackage -PackageName "$packageName" `
                              -Url "$url" `
                              -UnzipLocation "$toolsDir" `
@@ -14,6 +15,7 @@ Install-ChocolateyZipPackage -PackageName "$packageName" `
                              -ChecksumType "$checksumType" `
                              -Checksum64 "$checksum64" `
                              -ChecksumType64 "$checksumType64"
+
 Write-Verbose "Accepting license..."
 $regRoot = 'HKCU:\Software\Sysinternals'
 $regPkg = 'Whois'

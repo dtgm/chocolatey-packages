@@ -14,14 +14,15 @@ MongoDB stores data using a flexible document data model that is similar to JSON
 
 Developers access documents through rich, idiomatic drivers available in all popular programming languages. Documents map naturally to the objects in modern languages, which allows developers to be extremely productive. Typically, there’s no need for an ORM layer.]()
 
-[Get involved](http://www.mongodb.org/get-involved)
+#### Package parameters
+`choco install mongodb --package-parameters "/installDir:'D:\MongoDB'"`
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}</packageSourceUrl>
     <projectUrl>http://www.mongodb.org/</projectUrl>
     <projectSourceUrl>http://www.mongodb.org/about/source-code/</projectSourceUrl>
     <docsUrl>http://docs.mongodb.org/</docsUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/8f7101024b11677be45a74b45114000b428a9c9b/icons/{{PackageName}}.png</iconUrl>
-    <tags>database nosql</tags>
+    <tags>database nosql admin</tags>
     <copyright>© 2011 MongoDB Inc</copyright>
     <licenseUrl>http://www.mongodb.org/display/DOCS/Licensing</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

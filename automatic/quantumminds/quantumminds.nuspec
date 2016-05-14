@@ -15,19 +15,18 @@ Quantum Minds challenges your mind. Help us discover why and how human learning 
 
 #### ScienceAtHome    
 * To contribute to our research, make sure you play our games with an active internet connection, as we are gathering data for our scientists based on your performance.
-* [Data policy](http://scienceathome.org/our-data-policy/)
-* [Science publications](http://scienceathome.org/science/) derived from game data
+* [Privacy policy](https://www.scienceathome.org/privacy)
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
-    <projectUrl>http://scienceathome.org/games/quantum-minds/</projectUrl>
-    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/67b967422d1fd2607e227b592dd069a6cd34ff02/icons/{{PackageName}}.png</iconUrl>
+    <projectUrl>https://www.scienceathome.org/games/quantum-minds/</projectUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/67b967422d1fd2607e227b592dd069a6cd34ff02/icons/quantumminds.png</iconUrl>
     <tags>gaming citizen-science ai algorithm</tags>
     <copyright>© ScienceAtHome</copyright>
-    <licenseUrl>https://wikipedia.org/wiki/Freeware</licenseUrl>
+    <licenseUrl>http://creativecommons.org/licenses/by/3.0/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
 #### Program
-* [News](http://scienceathome.org/archive/)
+* [News](https://www.scienceathome.org/citizen-science/publications)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
