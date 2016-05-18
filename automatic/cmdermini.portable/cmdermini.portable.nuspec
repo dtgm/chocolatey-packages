@@ -20,10 +20,10 @@ Combines utility of 2 distinct tools:
 This package uncompresses to 7 MB and does not include Unix integration via msysgit.
 See [cmder](https://chocolatey.org/packages/cmder) (250 MB) for enhanced console with bundled Unix utilities via msysgit.
 
-By default, this package installs into `$BinRoot\cmdermini`
+By default, this package installs into `$env:ChocolateyToolsLocation\cmder`
     </description>
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
-    <projectUrl>http://bliker.github.io/cmder/</projectUrl>
+    <projectUrl>http://cmder.net/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/5844fbed740e87c941f6bd77c4cc23f084941dbc/icons/cmder.png</iconUrl>
     <projectSourceUrl>https://github.com/bliker/cmder</projectSourceUrl>
     <bugTrackerUrl>https://github.com/bliker/cmder/issues</bugTrackerUrl>
@@ -34,8 +34,8 @@ By default, this package installs into `$BinRoot\cmdermini`
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
 #### Program
-[Changelog](https://github.com/bliker/cmder/releases)
-[Keyboard shortcuts](https://github.com/bliker/cmder#keyboard-shortcuts)
+* [Changelog](https://github.com/bliker/cmder/releases)
+* [Keyboard shortcuts](https://github.com/bliker/cmder#keyboard-shortcuts)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)

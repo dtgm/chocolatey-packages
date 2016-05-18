@@ -2,8 +2,8 @@ $packageName = '{{PackageName}}'
 $url = '{{DownloadUrl}}'
 $checksum = '{{Checksum}}'
 $checksumType = 'md5'
-$binRoot = Get-BinRoot
-$installPath = Join-Path $binRoot "cmder"
+$bin = Get-ToolsLocation
+$installPath = Join-Path $bin "cmder"
 
 Install-ChocolateyZipPackage -PackageName "$packageName" `
                              -Url "$url" `

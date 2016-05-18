@@ -1,9 +1,9 @@
 $packageName = '{{PackageName}}'
 $toolsPath = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $unPath = Join-Path $toolsPath 'Uninstall-ChocolateyPath.psm1'
-$binRoot = Get-BinRoot
-$installPath = Join-Path $binRoot "cmder"
-# remove from path
+$bin = Get-ToolsLocation
+$installPath = Join-Path $bin "cmder"
+
 Import-Module $unPath
 Uninstall-ChocolateyPath $installPath 'User'
 
