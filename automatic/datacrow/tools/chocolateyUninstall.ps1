@@ -18,9 +18,6 @@ if ($procId) {
 
 Write-Debug "Silently uninstalling..."
 $uninstallCmd = "/c `"$unPath`" $silentArgs"
-try {
-  Start-ChocolateyProcessAsAdmin -Statements "$uninstallCmd" `
-                                 -ExeToRun "cmd.exe"
-} catch {
-  throw $_.Exception
-}
+
+Start-ChocolateyProcessAsAdmin -Statements "$uninstallCmd" `
+                               -ExeToRun "cmd.exe"

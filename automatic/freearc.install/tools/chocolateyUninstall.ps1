@@ -14,10 +14,10 @@ if ($osBitness -eq 64) {
   $unString = (get-item -path HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\freearc).getvalue('UninstallString')
 }
 
-try {
-  Start-Process $ahkExe $ahkRun
-  Uninstall-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$unString" -validExitCodes $validExitCodes
-  Remove-Item "$ahkRun" -Force
+
+Start-Process $ahkExe $ahkRun
+Uninstall-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$unString" -validExitCodes $validExitCodes
+Remove-Item "$ahkRun" -Force
 } catch {
   throw $_.Exception 
 }
