@@ -24,6 +24,3 @@ Uninstall-ChocolateyPackage -PackageName "$packageName" `
                             -File "$unString" `
                             -ValidExitCodes $validExitCodes
 Remove-Item "$ahkRun" -Force
-} catch {
-  throw $_.Exception 
-}

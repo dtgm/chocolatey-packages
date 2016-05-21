@@ -7,6 +7,7 @@ $ahkFile = Join-Path $scriptPath "freearcUninstall.ahk"
 $ahkExe = 'AutoHotKey'
 $ahkRun = "$Env:Temp\$(Get-Random).ahk"
 Copy-Item $ahkFile "$ahkRun" -Force
+
 $osBitness = Get-ProcessorBits
 if ($osBitness -eq 64) {
   $unString = (get-item -path HKLM:\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\freearc).getvalue('UninstallString')
@@ -14,10 +15,6 @@ if ($osBitness -eq 64) {
   $unString = (get-item -path HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\freearc).getvalue('UninstallString')
 }
 
-
 Start-Process $ahkExe $ahkRun
 Uninstall-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$unString" -validExitCodes $validExitCodes
 Remove-Item "$ahkRun" -Force
-} catch {
-  throw $_.Exception 
-}

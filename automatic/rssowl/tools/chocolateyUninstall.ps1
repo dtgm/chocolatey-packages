@@ -1,4 +1,3 @@
-
 $packageName = '{{PackageName}}'
 $fileType = 'exe'
 $silentArgs = '/S'
@@ -15,13 +14,12 @@ if (Test-Path $unPathWow\$packageName) {
     Write-Warning "Please alert package maintainer."
     throw
 }
+
 # if uninstall string contains a parameter, remove it
 if ($unString | select-string -pattern /) {
     $unProg = $unString | %{ $_.Split(' /')[0]; }
 } else {
     $unProg = $unString
 }
+
 Uninstall-ChocolateyPackage "$packageName" "$fileType" "$silentArgs" "$unProg" -validExitCodes "$validExitCodes"
-} catch {
-    throw $_.Exception
-}
