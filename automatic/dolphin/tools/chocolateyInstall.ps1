@@ -1,7 +1,7 @@
 ﻿$packageName = '{{PackageName}}'
 $url = '{{DownloadUrl}}'
 $checksum = '{{Checksum}}'
-$checksumType = 'sha1'
+$checksumType = 'sha256'
 $url64 = $url
 $checksum64 = $checksum
 $checksumType64 = $checksumType

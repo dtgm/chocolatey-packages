@@ -2,7 +2,7 @@ try {
   $packageName = '{{PackageName}}'
   $url = '{{DownloadUrlx64}}'
   $checksum = '{{Checksum}}'
-  $checksumType = 'sha1'
+  $checksumType = 'sha256'
   $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
   $installFile = Join-Path $toolsDir "$($packageName).exe"
 

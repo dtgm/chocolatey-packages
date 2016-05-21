@@ -3,7 +3,7 @@ $installerType = 'exe'
 $silentArgs = '/S'
 $url = '{{DownloadUrlx64}}'
 $checksum = '{{Checksum}}'
-$checksumType = 'sha1'
+$checksumType = 'sha256'
 $validExitCodes = @(0)
 
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"

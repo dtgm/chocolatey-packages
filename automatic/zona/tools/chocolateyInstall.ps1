@@ -3,7 +3,7 @@ $installerType = 'exe'
 $silentArgs = '/S'
 $url = '{{DownloadUrl}}'
 $checksum = '{{Checksum}}'
-$checksumType = 'sha1'
+$checksumType = 'sha256'
 $validExitCodes = @(0) #exit codes http://msdn.microsoft.com/en-us/library/aa368542(VS.85).aspx
 
 $scriptPath = Split-Path -parent $MyInvocation.MyCommand.Definition

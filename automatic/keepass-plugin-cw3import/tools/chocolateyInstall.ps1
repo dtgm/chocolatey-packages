@@ -11,7 +11,7 @@ $typName = 'CodeWallet3ImportPlugin.dll'
 $packageSearch = 'KeePass Password Safe'
 $url = '{{DownloadUrl}}'
 $checksum = '{{Checksum}}'
-$checksumType = 'sha1'
+$checksumType = 'sha256'
 
 try {
 Write-Verbose "Searching registry for installed KeePass..."

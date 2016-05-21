@@ -2,7 +2,7 @@
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $url = '{{DownloadUrlx64}}'
 $checksum = '{{Checksum}}'
-$checksumType = 'sha1'
+$checksumType = 'sha256'
 
 Install-ChocolateyZipPackage -PackageName "$packageName" `
                              -Url "$url" `

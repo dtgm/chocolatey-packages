@@ -1,7 +1,7 @@
 ﻿$packageName = '{{PackageName}}'
 $url = '{{DownloadUrlx64}}'
 $checksum = '{{Checksum}}'
-$checksumType = 'sha1'
+$checksumType = 'sha256'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $installDir = Join-Path $toolsDir "AdvOR"
 $installFile = Join-Path $installDir "AdvOR.exe"

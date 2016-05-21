@@ -1,7 +1,7 @@
 $packageName = '{{PackageName}}'
 $installerType = 'exe'
 $checksum = '{{Checksum}}'
-$checksumType = 'sha1'
+$checksumType = 'sha256'
 $silentArgs = '/S /NCRC'
 $validExitCodes = @(0)
 $pwdPath = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"

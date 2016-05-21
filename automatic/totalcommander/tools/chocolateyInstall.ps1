@@ -5,8 +5,8 @@ $url64 = $url
 $checksum64 = $checksum
 $installerType = 'exe'
 $silentArgs = ''
-$checksumType = 'sha1'
-$checksumType64 = 'sha1'
+$checksumType = 'sha256'
+$checksumType64 = 'sha256'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $chocoTempDir = Join-Path $Env:Temp "chocolatey"
 $tempDir = Join-Path $chocoTempDir "$packageName"
@@ -84,7 +84,7 @@ if($exitCode -ne 0) {
 Write-Verbose "Retrieve install launcher"
 $url = 'http://ghisler.fileburst.com/addons/installer.zip'
 $checksum = '5c93fee377e2a55029f22bfb1b43760862bad671'
-$checksumType = 'sha1'
+$checksumType = 'sha256'
 $url64 = $url
 $checksum64 = $checksum
 $checksumType64 = $checksumType

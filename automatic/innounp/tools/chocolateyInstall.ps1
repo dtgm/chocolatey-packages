@@ -2,7 +2,7 @@ try {
   $packageName = "{{PackageName}}"
   $url = "{{DownloadUrlx64}}"
   $checksum = '{{Checksum}}'
-  $checksumType = 'sha1'
+  $checksumType = 'sha256'
   $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
   $rarFile = "$toolsDir\innounp.rar"
   Get-ChocolateyWebFile "$packageName" "$rarFile" "$url" -Checksum "$checksum" -ChecksumType "$checksumType" 

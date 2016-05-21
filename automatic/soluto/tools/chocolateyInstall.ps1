@@ -4,7 +4,7 @@ $installerType = 'exe'
 $silentArgs = '/q'
 $url = '{{DownloadUrl}}'
 $checksum = '{{Checksum}}'
-$checksumType = 'sha1'
+$checksumType = 'sha256'
 $validExitCodes = @(0)
 
 $scriptPath = $(Split-Path -parent $MyInvocation.MyCommand.Definition)

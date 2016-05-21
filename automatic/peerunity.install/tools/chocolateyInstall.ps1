@@ -4,7 +4,7 @@ $installerType = 'exe'
 $silentArgs = '/S'
 $url = '{{DownloadUrl}}'
 $checksum = '{{Checksum}}'
-$checksumType = 'sha1'
+$checksumType = 'sha256'
 $chocTempDir = Join-Path $env:TEMP 'chocolatey'
 $pkgTempDir = Join-Path $chocTempDir $packageName
  

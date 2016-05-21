@@ -5,7 +5,7 @@ $instLog = $instLog + '.log'
 $silentArgs = "/s /t$instLog /g1"
 $url = '{{DownloadUrl}}'
 $checksum = '{{Checksum}}'
-$checksumType = 'sha1'
+$checksumType = 'sha256'
 $validExitCodes = @(0,3010)
 
 Install-ChocolateyPackage -PackageName "$packageName" `

@@ -4,7 +4,7 @@ $url = '{{DownloadUrlx64}}'
 $checksum = '{{Checksum}}'
 
 # static vars
-$checksumType = 'sha1'
+$checksumType = 'sha256'
 $installerType = 'exe'
 $silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
 $validExitCodes = @(0)

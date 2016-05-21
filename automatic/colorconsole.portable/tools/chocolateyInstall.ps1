@@ -1,7 +1,7 @@
 ﻿$packageName = '{{PackageName}}'
 $url = '{{DownloadUrl}}'
 $checksum = '{{Checksum}}'
-$checksumType = 'sha1'
+$checksumType = 'sha256'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $installFile = Join-Path $toolsDir "ColorConsole.exe"
 Install-ChocolateyZipPackage -PackageName "$packageName" `

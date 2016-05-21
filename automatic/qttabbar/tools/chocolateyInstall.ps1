@@ -1,7 +1,7 @@
 $packageName = '{{PackageName}}'
 $url = '{{DownloadUrl}}'
 $checksum = '{{Checksum}}'
-$checksumType = 'sha1'
+$checksumType = 'sha256'
 $installerType = 'exe'
 $silentArgs = "/QI"
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"

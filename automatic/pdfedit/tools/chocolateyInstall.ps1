@@ -2,7 +2,7 @@ $packageName = '{{PackageName}}'
 # due to limitations of Ketarin/chocopkgup when using repos like sf.net:
 $url = '{{DownloadUrlx64}}'
 $checksum = '{{Checksum}}'
-$checksumType = 'sha1'
+$checksumType = 'sha256'
 $installerType = 'msi'
 $partialInstallArgs = '/quiet /qn /norestart TARGETDIR='
 if (Get-ProcessorBits 64) {

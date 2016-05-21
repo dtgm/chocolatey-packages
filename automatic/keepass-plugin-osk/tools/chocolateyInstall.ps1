@@ -10,7 +10,7 @@ $typName = 'OnScreenKeyboard2'
 $packageSearch = 'KeePass Password Safe'
 $url = '{{DownloadUrl}}'
 $checksum = '{{Checksum}}'
-$checksumType = 'sha1'
+$checksumType = 'sha256'
 try {
 # search registry for location of installed KeePass
 $regPath = Get-ItemProperty -Path @('HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*',

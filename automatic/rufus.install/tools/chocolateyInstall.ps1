@@ -2,7 +2,7 @@ $packageName = '{{PackageName}}'
 $packageVersion = '{{PackageVersion}}'
 $url = '{{DownloadUrl}}'
 $checksum = '{{Checksum}}'
-$checksumType = 'sha1'
+$checksumType = 'sha256'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $installFile = Join-Path $toolsDir "rufus.exe"
 try {

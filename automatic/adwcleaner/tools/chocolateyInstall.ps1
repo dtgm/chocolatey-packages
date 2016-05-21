@@ -1,6 +1,6 @@
 ﻿$packageName = '{{PackageName}}'
 $checksum = '{{Checksum}}'
-$checksumType = 'sha1'
+$checksumType = 'sha256'
 $toolsDir = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
 $ahkFile = Join-Path "$toolsDir" 'chocolateyInstall.ahk'
 $installFile = Join-Path $toolsDir "$($packageName).exe"

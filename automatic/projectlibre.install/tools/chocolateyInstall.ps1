@@ -1,7 +1,7 @@
 $packageName = '{{PackageName}}'
 $url = '{{DownloadUrlx64}}'
 $checksum = '{{Checksum}}'
-$checksumType = 'sha1'
+$checksumType = 'sha256'
 $installerType = 'msi'
 $partialInstallArgs = '/quiet /qn /norestart TARGETDIR='
 if (Get-ProcessorBits 64) {
