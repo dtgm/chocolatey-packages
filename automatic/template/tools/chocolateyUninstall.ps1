@@ -200,8 +200,8 @@ Get-ItemProperty -Path @('HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVe
                          'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*') `
                  -ErrorAction:SilentlyContinue `
 | Where-Object   {$_.DisplayName -like $packageSearch} `
-| ForEach-Object {Uninstall-ChocolateyPackage -PackageName "$packageName" `
-                                              -FileType "$installerType" `
+| ForEach-Object {Uninstall-ChocolateyPackage -PackageName $packageName `
+                                              -FileType $installerType `
                                               -SilentArgs "$($_.PSChildName) $silentArgs" `
                                               -ValidExitCodes $validExitCodes}
 
@@ -219,8 +219,8 @@ Get-ItemProperty -Path @('HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVe
                          'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*') `
                  -ErrorAction:SilentlyContinue `
 | Where-Object   { $_.DisplayName -like $packageSearch -and $_.DisplayVersion -eq "$packageVersion" } `
-| ForEach-Object {Uninstall-ChocolateyPackage -PackageName "$packageName" `
-                                              -FileType "$installerType" `
+| ForEach-Object {Uninstall-ChocolateyPackage -PackageName $packageName `
+                                              -FileType $installerType `
                                               -SilentArgs "$($_.PSChildName) $silentArgs" `
                                               -ValidExitCodes $validExitCodes}
 
@@ -236,10 +236,10 @@ Get-ItemProperty -Path @('HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVe
                          'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*') `
                  -ErrorAction:SilentlyContinue `
 | Where-Object   {$_.DisplayName -like $packageSearch} `
-| ForEach-Object {Uninstall-ChocolateyPackage -PackageName "$packageName" `
-                                              -FileType "$installerType" `
-                                              -SilentArgs "$($silentArgs)" `
-                                              -File "$($_.UninstallString)" `
+| ForEach-Object {Uninstall-ChocolateyPackage -PackageName $packageName `
+                                              -FileType $installerType `
+                                              -SilentArgs $($silentArgs) `
+                                              -File $($_.UninstallString.Replace('"','')) `
                                               -ValidExitCodes $validExitCodes}
 
 
@@ -255,10 +255,10 @@ Get-ItemProperty -Path @('HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVe
                          'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*') `
                  -ErrorAction:SilentlyContinue `
 | Where-Object   {$_.DisplayName -like $packageSearch} `
-| ForEach-Object {Uninstall-ChocolateyPackage -PackageName "$packageName" `
-                                              -FileType "$installerType" `
-                                              -SilentArgs "$($silentArgs)" `
-                                              -File "$($_.UninstallString)" `
+| ForEach-Object {Uninstall-ChocolateyPackage -PackageName $packageName `
+                                              -FileType $installerType `
+                                              -SilentArgs $($silentArgs) `
+                                              -File $($_.UninstallString.Replace('"','')) `
                                               -ValidExitCodes $validExitCodes}
 
 
@@ -274,10 +274,10 @@ Get-ItemProperty -Path @('HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVe
                          'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*') `
                  -ErrorAction:SilentlyContinue `
 | Where-Object   {$_.DisplayName -like $packageSearch} `
-| ForEach-Object {Uninstall-ChocolateyPackage -PackageName "$packageName" `
-                                              -FileType "$installerType" `
-                                              -SilentArgs "$($silentArgs)" `
-                                              -File "$($_.UninstallString)" `
+| ForEach-Object {Uninstall-ChocolateyPackage -PackageName $packageName `
+                                              -FileType $installerType `
+                                              -SilentArgs $($silentArgs) `
+                                              -File $($_.UninstallString.Replace('"','')) `
                                               -ValidExitCodes $validExitCodes}
 
 
@@ -307,7 +307,7 @@ try {
                    -ErrorAction:SilentlyContinue `
   | Where-Object   {$_.DisplayName -like $packageSearch} `
   | ForEach-Object {Uninstall-ChocolateyPackage -PackageName "$packageName" `
-                                                 -FileType "$fileType" `
+                                                -FileType "$fileType" `
                                                 -SilentArgs "$($silentArgs)" `
                                                 -File "$($_.UninstallString)" `
                                                 -ValidExitCodes $validExitCodes}
