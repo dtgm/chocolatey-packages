@@ -1,7 +1,8 @@
 ////////////////////////////////////////////////////////////////////////////////////////
-/// version 6.7.1.1
+/// version 6.8.0.0
 /// 
-/// Changelog: debug lines
+/// Changelog: Calc SHA256 sums
+/// Ticket: https://github.com/dtgm/chocolatey-packages/issues/196
 /// 
 
 // REQUIRES:
@@ -51,20 +52,20 @@ if (today > pkgCreateDate) {
 
 // if package variable 'checksum' does not exist or is null
 if (varChecksum == "{checksum}") {
-  // calculate SHA1 from {url}  Note we are leveraging ketarin's downloaded copy
-  System.IO.FileStream fileSha1 = new System.IO.FileStream(savePath, System.IO.FileMode.Open);
-  System.Security.Cryptography.SHA1 sha1 = new System.Security.Cryptography.SHA1CryptoServiceProvider();
-  byte[] retValSha1 = sha1.ComputeHash(fileSha1);
-  fileSha1.Close();
+  // calculate SHA256 from {url}  Note we are leveraging ketarin's downloaded copy
+  System.IO.FileStream fileSha = new System.IO.FileStream(savePath, System.IO.FileMode.Open);
+  System.Security.Cryptography.SHA256 sha256 = new System.Security.Cryptography.SHA256Managed();
+  byte[] retValSha = sha256.ComputeHash(fileSha);
+  fileSha.Close();
 
   // build string from byte value
-  System.Text.StringBuilder sbSha1 = new System.Text.StringBuilder();
-  for (int i = 0; i < retValSha1.Length; i++) {
-    sbSha1.Append(retValSha1[i].ToString("x2"));
+  System.Text.StringBuilder sbSha = new System.Text.StringBuilder();
+  for (int i = 0; i < retValSha.Length; i++) {
+    sbSha.Append(retValSha[i].ToString("x2"));
   }
   
-  // find $pkgPath -iname "*.nuspec" -o -iname "*.ps1" -exec sed -i 's/'$sbSha1'/{checksum}/g' '{}' \;
-  string replaceChecksum = sbSha1.ToString();
+  // find $pkgPath -iname "*.nuspec" -o -iname "*.ps1" -exec sed -i 's/'$sbSha'/{checksum}/g' '{}' \;
+  string replaceChecksum = sbSha.ToString();
   //MessageBox.Show(replaceChecksum);
   List<string> fileList = new List<string>(Directory.GetFiles(pkgPath, "*.ps1", SearchOption.AllDirectories));
   string[] filesNuspec = Directory.GetFiles(pkgPath, "*.nuspec", SearchOption.AllDirectories);
@@ -87,26 +88,27 @@ if (varChecksum == "{checksum}") {
 
 // only get checksum if checksumx64 does NOT exist and 'checksum64file' DOES exists  
 if (varChecksumx64 == "{checksumx64}" && varChecksum64File != "{checksum64file}") {
-  // TODO: ...and points to a downloadable file; validate URI
-  // we must download the file to calculate checksum, may as well save it too because now all your base are belong to us
+  // TODO: verify and validate URI checksum64file points to a downloadable file
+  
+  // we must download the file to calculate checksum ... may as well save it
   System.Net.WebClient webClient = new System.Net.WebClient();
   webClient.DownloadFile(varChecksum64File, savePath64);
 
-  // calculate SHA1 from file of url pointed to by 'checksum64file'
-  System.IO.FileStream file64Sha1 = new System.IO.FileStream(savePath64, System.IO.FileMode.Open);
-  System.Security.Cryptography.SHA1 sha164 = new System.Security.Cryptography.SHA1CryptoServiceProvider();
-  byte[] retVal64Sha1 = sha164.ComputeHash(file64Sha1);
-  file64Sha1.Close();
+  // calculate SHA256 from file of url pointed to by 'checksum64file'
+  System.IO.FileStream file64Sha = new System.IO.FileStream(savePath64, System.IO.FileMode.Open);
+  System.Security.Cryptography.SHA256 sha256_64 = new System.Security.Cryptography.SHA256Managed();
+  byte[] retVal64Sha = sha256_64.ComputeHash(file64Sha);
+  file64Sha.Close();
 
   // build string from byte value
-  System.Text.StringBuilder sb64Sha1 = new System.Text.StringBuilder();
-  for (int i = 0; i < retVal64Sha1.Length; i++) {
-    sb64Sha1.Append(retVal64Sha1[i].ToString("x2"));
+  System.Text.StringBuilder sb64Sha = new System.Text.StringBuilder();
+  for (int i = 0; i < retVal64Sha.Length; i++) {
+    sb64Sha.Append(retVal64Sha[i].ToString("x2"));
   }
   
-  // find $pkgPath -iname "*.nuspec" -o -iname "*.ps1" -exec sed -i 's/'$sbSha1'/{checksumx64}/g' '{}' \;
+  // find $pkgPath -iname "*.nuspec" -o -iname "*.ps1" -exec sed -i 's/'$sb64Sha'/{checksumx64}/g' '{}' \;
   // Note chocopkgup will strip 1 set of curly braces so {{checksum}} becomes {checksum}
-  string replace64Checksum = sb64Sha1.ToString();
+  string replace64Checksum = sb64Sha.ToString();
   //MessageBox.Show(replace64Checksum);
   List<string> fileList = new List<string>(Directory.GetFiles(pkgPath, "*.ps1", SearchOption.AllDirectories));
   string[] filesNuspec = Directory.GetFiles(pkgPath, "*.nuspec", SearchOption.AllDirectories);
