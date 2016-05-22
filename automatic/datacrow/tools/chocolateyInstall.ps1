@@ -18,38 +18,31 @@ $zipFile = Join-Path $tempDir '{{DownloadUrlx64}}'
 $installFile32 = "$tempDir\setup32bit.exe"
 $installFile64 = "$tempDir\setup64bit.exe"
 
-try {
-  # Combatibility - This function has not been merged
-  if (!(Get-Command Get-UrlFromFosshub -ErrorAction SilentlyContinue)) {
-    Import-Module "$($toolsDir)\Get-UrlFromFosshub.ps1"
-  }
-  $url = Get-UrlFromFosshub $url
+Write-Debug 'Helper "Get-UrlFromFosshub" provided by "chocolatey-fosshub.extension"'
+$url = Get-UrlFromFosshub $url
 
-  Get-ChocolateyWebFile -PackageName "$packageName" `
-                        -FileFullPath "$zipFile" `
-                        -Url "$url" `
-                        -Checksum "$checksum" `
-                        -ChecksumType "$checksumType"
+Get-ChocolateyWebFile -PackageName "$packageName" `
+                      -FileFullPath "$zipFile" `
+                      -Url "$url" `
+                      -Checksum "$checksum" `
+                      -ChecksumType "$checksumType"
 
-  Get-ChocolateyUnzip -FileFullPath "$zipFile" `
-                      -Destination "$tempDir" `
-                      -PackageName "$packageName"
+Get-ChocolateyUnzip -FileFullPath "$zipFile" `
+                    -Destination "$tempDir" `
+                    -PackageName "$packageName"
 
-  if ((Get-ProcessorBits 64) -and ($env:chocolateyForceX86)) {
-    $installFile = $installFile32
-    $silentArgs = $silentArgs32
-  }
-  if ((Get-ProcessorBits 64) -and (-not($env:chocolateyForceX86))) {
-    $installFile = $installFile64
-    $silentArgs = $silentArgs64
-  }
-  if (-not(Get-ProcessorBits 64)) {
-    $installFile = $installFile32
-    $silentArgs = $silentArgs64
-  }
-  
-  Start-ChocolateyProcessAsAdmin -Statements "/c `"$installFile`" $silentArgs" `
-                                 -ExeToRun "cmd.exe"
-} catch {
-  throw $_.Exception
+if ((Get-ProcessorBits 64) -and ($env:chocolateyForceX86)) {
+  $installFile = $installFile32
+  $silentArgs = $silentArgs32
 }
+if ((Get-ProcessorBits 64) -and (-not($env:chocolateyForceX86))) {
+  $installFile = $installFile64
+  $silentArgs = $silentArgs64
+}
+if (-not(Get-ProcessorBits 64)) {
+  $installFile = $installFile32
+  $silentArgs = $silentArgs64
+}
+
+Start-ChocolateyProcessAsAdmin -Statements "/c `"$installFile`" $silentArgs" `
+                               -ExeToRun "cmd.exe"

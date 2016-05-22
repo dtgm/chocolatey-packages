@@ -87,10 +87,7 @@ if ($ini) { $silentArgs += " /ini=" + $ini }
 if ($folder) { $silentArgs += " /folder=" + $folder }
 Write-Debug "Silent arguments Chocolatey will use are: $silentArgs"
 
-Write-Debug "Compatibility - Get-UrlFromFosshub function is provided by this package"
-if (!(Get-Command Get-UrlFromFosshub -ErrorAction SilentlyContinue)) {
-  Import-Module "$($toolsDir)\Get-UrlFromFosshub.ps1"
-}
+Write-Debug 'Helper "Get-UrlFromFosshub" provided by "chocolatey-fosshub.extension"'
 $url = Get-UrlFromFosshub $url
 $url64 = Get-UrlFromFosshub $url64
 
