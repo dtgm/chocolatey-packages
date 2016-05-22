@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>{{PackageName}}</id>
     <title>CmderMini</title>
     <version>{{PackageVersion}}</version>
     <authors>Samuel Vasko</authors>
     <owners>dtgm</owners>
-    <summary>Portable console emulator for Windows</summary>
+    <summary>Portable console emulator (without bundled msysgit)</summary>
     <description>
 Cmder is a software package created out of pure frustration over absence of usable console emulator on Windows. It is based on ConEmu with major config overhaul. Monokai color scheme, amazing clink and custom prompt layout.
 
@@ -17,31 +17,30 @@ Combines utility of 2 distinct tools:
 * Console emulator = Conemu
 * Cmd.exe enhancements = clink
 
-This package uncompresses to 7 MB and does not include Unix integration via msysgit
-See [cmder](https://chocolatey.org/packages/cmder) (250 MB) for enhanced console with Unix utilities via msysgit
+This package uncompresses to 7 MB and does not include Unix integration via msysgit.
+See [cmder](https://chocolatey.org/packages/cmder) (250 MB) for enhanced console with bundled Unix utilities via msysgit.
 
 By default, this package installs into `$env:ChocolateyToolsLocation\cmder`
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://cmder.net/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/5844fbed740e87c941f6bd77c4cc23f084941dbc/icons/cmder.png</iconUrl>
-    <projectSourceUrl>https://github.com/bliker/cmder</projectSourceUrl>
-    <bugTrackerUrl>https://github.com/bliker/cmder/issues</bugTrackerUrl>
-    <docsUrl>https://github.com/bliker/cmder/wiki</docsUrl>
+    <projectSourceUrl>https://github.com/cmderdev/cmder/</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/cmderdev/cmder/issues</bugTrackerUrl>
+    <docsUrl>https://github.com/cmderdev/cmder/wiki</docsUrl>
     <tags>console terminal cli</tags>
     <copyright>© 2013 Samuel Vasko</copyright>
     <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
 #### Program
-* [Changelog](https://github.com/bliker/cmder/releases)
-* [Keyboard shortcuts](https://github.com/bliker/cmder#keyboard-shortcuts)
+* [Changelog](https://github.com/cmderdev/cmder/blob/master/CHANGELOG.md)
 
 #### Package
-* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+* Manually built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
     <dependencies>
-      <dependency id="{{PackageName}}.portable" version="[{{PackageVersion}}]" />
+      <dependency id="vcredist2010" />
     </dependencies>
   </metadata>
   <files>

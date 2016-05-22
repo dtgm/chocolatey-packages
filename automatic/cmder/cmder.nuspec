@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>{{PackageName}}</id>
     <title>Cmder</title>
@@ -23,26 +23,25 @@ See [cmdermini](https://chocolatey.org/packages/cmdermini) (7 MB) for basic cons
 
 By default, this package installs into `$env:ChocolateyToolsLocation\cmder`
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://cmder.net/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/5844fbed740e87c941f6bd77c4cc23f084941dbc/icons/cmder.png</iconUrl>
-    <projectSourceUrl>https://github.com/bliker/cmder</projectSourceUrl>
-    <bugTrackerUrl>https://github.com/bliker/cmder/issues</bugTrackerUrl>
-    <docsUrl>https://github.com/bliker/cmder/wiki</docsUrl>
+    <projectSourceUrl>https://github.com/cmderdev/cmder/</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/cmderdev/cmder/issues</bugTrackerUrl>
+    <docsUrl>https://github.com/cmderdev/cmder/wiki</docsUrl>
     <tags>console terminal cli</tags>
     <copyright>© 2013 Samuel Vasko</copyright>
     <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
 #### Program
-* [Changelog](https://github.com/bliker/cmder/releases)
-* [Keyboard shortcuts](https://github.com/bliker/cmder#keyboard-shortcuts)
+* [Changelog](https://github.com/cmderdev/cmder/blob/master/CHANGELOG.md)
 
 #### Package
-* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+* Manually built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
     <dependencies>
-      <dependency id="{{PackageName}}.portable" version="[{{PackageVersion}}]" />
+      <dependency id="vcredist2010" />
     </dependencies>
   </metadata>
   <files>
