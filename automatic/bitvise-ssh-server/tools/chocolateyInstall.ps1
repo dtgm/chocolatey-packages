@@ -1,4 +1,4 @@
-$packageName = 'Bitvise SSH Server'
+$packageName = '{{PackageName}}'
 $installerType = 'exe'
 $url = '{{DownloadUrl}}'
 $checksum = '{{Checksum}}'
