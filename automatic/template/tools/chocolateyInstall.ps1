@@ -7,10 +7,10 @@ $installerType = 'msi'
 $silentArgs = '/quiet /qn /norestart'
 $url = '{{DownloadUrl}}'
 $checksum = '{{Checksum}}'
-$checksumType = 'sha1'
+$checksumType = 'sha256'
 $url64 = '{{DownloadUrlx64}}'
 $checksum64 = '{{Checksumx64}}'
-$checksumType64 = 'sha1'
+$checksumType64 = 'sha256'
 $validExitCodes = @(0,3010)
 
 Install-ChocolateyPackage -PackageName "$packageName" `
@@ -29,7 +29,7 @@ $installerType = 'msi'
 $silentArgs = '/quiet /qn /norestart'
 $url = '{{DownloadUrl}}'
 $checksum = '{{Checksum}}'
-$checksumType = 'sha1'
+$checksumType = 'sha256'
 $validExitCodes = @(0)
 
 Install-ChocolateyPackage -PackageName "$packageName" `
@@ -47,10 +47,10 @@ $installerType = 'exe'
 $silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
 $url = '{{DownloadUrl}}'
 $checksum = '{{Checksum}}'
-$checksumType = 'sha1'
+$checksumType = 'sha256'
 $url64 = '{{DownloadUrlx64}}'
 $checksum64 = '{{Checksumx64}}'
-$checksumType64 = 'sha1'
+$checksumType64 = 'sha256'
 $validExitCodes = @(0)
 
 Install-ChocolateyPackage -PackageName "$packageName" `
@@ -69,7 +69,7 @@ $installerType = 'exe'
 $silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
 $url = '{{DownloadUrl}}'
 $checksum = '{{Checksum}}'
-$checksumType = 'sha1'
+$checksumType = 'sha256'
 $validExitCodes = @(0)
 
 Install-ChocolateyPackage -PackageName "$packageName" `
@@ -86,10 +86,10 @@ $installerType = 'exe'
 $silentArgs = '/S'
 $url = '{{DownloadUrl}}'
 $checksum = '{{Checksum}}'
-$checksumType = 'sha1'
+$checksumType = 'sha256'
 $url64 = '{{DownloadUrlx64}}'
 $checksum64 = '{{Checksumx64}}'
-$checksumType64 = 'sha1'
+$checksumType64 = 'sha256'
 $validExitCodes = @(0)
 
 Install-ChocolateyPackage -PackageName "$packageName" `
@@ -108,7 +108,7 @@ $installerType = 'exe'
 $silentArgs = '/S'
 $url = '{{DownloadUrl}}'
 $checksum = '{{Checksum}}'
-$checksumType = 'sha1'
+$checksumType = 'sha256'
 $validExitCodes = @(0)
 
 Install-ChocolateyPackage -PackageName "$packageName" `
@@ -140,10 +140,10 @@ $installerType = 'exe'
 $silentArgs = '-q'
 $url = '{{DownloadUrl}}'
 $checksum = '{{Checksum}}'
-$checksumType = 'sha1'
+$checksumType = 'sha256'
 $url64 = '{{DownloadUrlx64}}'
 $checksum64 = '{{Checksumx64}}'
-$checksumType64 = 'sha1'
+$checksumType64 = 'sha256'
 $validExitCodes = @(0)
 
 Install-ChocolateyPackage -PackageName "$packageName" `
@@ -192,10 +192,10 @@ Start-Process $ahkExe $ahkFile
 $packageName = '{{PackageName}}'
 $url = '{{DownloadUrl}}'
 $checksum = '{{Checksum}}'
-$checksumType = 'sha1'
+$checksumType = 'sha256'
 $url64 = '{{DownloadUrlx64}}'
 $checksum64 = '{{Checksumx64}}'
-$checksumType64 = 'sha1'
+$checksumType64 = 'sha256'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $installFile = Join-Path $toolsDir "$($packageName).exe"
 
@@ -217,7 +217,7 @@ Set-Content -Path ("$installFile.gui") `
 $packageName = '{{PackageName}}'
 $url = '{{DownloadUrl}}'
 $checksum = '{{Checksum}}'
-$checksumType = 'sha1'
+$checksumType = 'sha256'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $installFile = Join-Path $toolsDir "$($packageName).exe"
 
@@ -234,10 +234,10 @@ Get-ChocolateyWebFile -PackageName "$packageName" `
 $packageName = '{{PackageName}}'
 $url = '{{DownloadUrl}}'
 $checksum = '{{Checksum}}'
-$checksumType = 'sha1'
+$checksumType = 'sha256'
 $url64 = '{{DownloadUrlx64}}'
 $checksum64 = '{{Checksumx64}}'
-$checksumType64 = 'sha1'
+$checksumType64 = 'sha256'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $installFile = Join-Path $toolsDir "$($packageName).exe"
 
@@ -257,7 +257,7 @@ Set-Content -Path ("$installFile.gui") `
 $packageName = '{{PackageName}}'
 $url = '{{DownloadUrl}}'
 $checksum = '{{Checksum}}'
-$checksumType = 'sha1'
+$checksumType = 'sha256'
 $url64 = "$url"
 $checksum64 = "$checksum"
 $checksumType64 = "$checksumType"
@@ -281,10 +281,10 @@ $packageName = '{{PackageName}}'
 $urlArray = {{DownloadUrlx64}}
 $url = $urlArray[0]
 $checksum = '{{Checksum}}'
-$checksumType = 'sha1'
+$checksumType = 'sha256'
 $url64 = $urlArray[1]
 $checksum64 = '{{Checksumx64}}'
-$checksumType64 = 'sha1'
+$checksumType64 = 'sha256'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $installFile = Join-Path $toolsDir "$($packageName).exe"
 
@@ -308,10 +308,10 @@ Set-Content -Path ("$installFile.gui") `
 $packageName = '{{PackageName}}'
 $url = '{{DownloadUrl}}'
 $checksum = '{{Checksum}}'
-$checksumType = 'sha1'
+$checksumType = 'sha256'
 $url64 = '{{DownloadUrlx64}}'
 $checksum64 = '{{Checksumx64}}'
-$checksumType64 = 'sha1'
+$checksumType64 = 'sha256'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 Install-ChocolateyZipPackage -PackageName "$packageName" `
@@ -327,7 +327,7 @@ Install-ChocolateyZipPackage -PackageName "$packageName" `
 $packageName = '{{PackageName}}'
 $url = '{{DownloadUrl}}'
 $checksum = '{{Checksum}}'
-$checksumType = 'sha1'
+$checksumType = 'sha256'
 $url64 = $url
 $checksum64 = $checksum
 $checksumType64 = $checksumType
@@ -346,7 +346,7 @@ Install-ChocolateyZipPackage -PackageName "$packageName" `
 $packageName = '{{PackageName}}'
 $url = '{{DownloadUrl}}'
 $checksum = '{{Checksum}}'
-$checksumType = 'sha1'
+$checksumType = 'sha256'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $installFile = Join-Path $toolsDir "$($packageName).exe"
 
@@ -392,10 +392,10 @@ Install-ChocolateyZipPackage @packageArgs
 $urlArray = {{DownloadUrlx64}}
 $url = $urlArray[0]
 $checksum = '{{Checksum}}'
-$checksumType = 'sha1'
+$checksumType = 'sha256'
 $url64 = $urlArray[1]
 $checksum64 = '{{Checksumx64}}'
-$checksumType64 = 'sha1'
+$checksumType64 = 'sha256'
 ### JAR; izpack
 java -jar installer.jar auto-install.xml
 http://docs.codehaus.org/display/IZPACK/Unattended+Installations
@@ -414,7 +414,7 @@ $installerType = 'exe'
 $silentArgs = '/S /v/qn'
 $url = '{{DownloadUrlx64}}'
 $checksum = '{{Checksum}}'
-$checksumType = 'sha1'
+$checksumType = 'sha256'
 $validExitCodes = @(0)
 
 $chocoTempDir = Join-Path $Env:Temp "chocolatey"
@@ -445,7 +445,7 @@ Install-ChocolateyInstallPackage -PackageName "$packageName" `
 $packageName = '{{PackageName}}'
 $url = '{{DownloadUrl}}'
 $checksum = '{{Checksum}}'
-$checksumType = 'sha1'
+$checksumType = 'sha256'
 $chocoTempDir = Join-Path $env:Temp 'chocolatey'
 $pkgTempDir = Join-Path $chocoTempDir $packageName
 
@@ -475,7 +475,7 @@ $installerType = 'exe'
 $silentArgs = '/S'
 $url = '{{DownloadUrlx64}}'
 $checksum = '{{Checksum}}'
-$checksumType = 'sha1'
+$checksumType = 'sha256'
 $validExitCodes = @(0)
 $toolsDir = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
 
