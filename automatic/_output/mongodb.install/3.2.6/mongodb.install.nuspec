@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
-    <id>mongodb</id>
-    <title>MongoDB</title>
+    <id>mongodb.install</id>
+    <title>MongoDB (Install)</title>
     <version>3.2.6</version>
     <authors>MongoDB Inc</authors>
     <owners>dtgm</owners>
@@ -14,7 +14,7 @@ MongoDB stores data using a flexible document data model that is similar to JSON
 
 Developers access documents through rich, idiomatic drivers available in all popular programming languages. Documents map naturally to the objects in modern languages, which allows developers to be extremely productive. Typically, there’s no need for an ORM layer.
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/mongodb</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/mongodb.install</packageSourceUrl>
     <projectUrl>http://www.mongodb.org/</projectUrl>
     <projectSourceUrl>http://www.mongodb.org/about/source-code/</projectSourceUrl>
     <bugTrackerUrl>https://github.com/mongodb/mongo/wiki/Submit-Bug-Reports</bugTrackerUrl>
@@ -33,9 +33,6 @@ Developers access documents through rich, idiomatic drivers available in all pop
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
-    <dependencies>
-      <dependency id="mongodb.install" version="[3.2.6]" />
-    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
