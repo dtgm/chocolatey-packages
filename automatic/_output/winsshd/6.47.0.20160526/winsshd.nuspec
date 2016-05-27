@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>winsshd</id>
+    <title>[DEPRECATED] WinSSHD</title>
+    <version>6.47.0.20160526</version>
+    <authors>Bitvise Limited</authors>
+    <owners>dtgm</owners>
+    <summary>SSH Server provides secure remote login capabilities to Windows workstations and servers</summary>
+    <description>
+#### New package name: __[bitvise-ssh-server](https://chocolatey.org/packages/bitvise-ssh-server)__
+
+- - -
+
+`winsshd` has been deprecated because of a software name change. In 2012, Bitvise released version 5.50 and renamed WinSSHD to "Bitvise SSH Server".
+
+This package exists only for backward compatibility to provide a transitional dummy package for existing users and scripts which may still use this package ID.
+    </description>
+    <projectUrl>https://chocolatey.org/packages/bitvise-ssh-server</projectUrl>
+    <tags>deprecated</tags>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### New users
+* Do not install `winsshd` (this package). Install __bitvise-ssh-server__.
+
+#### Existing users
+* Updating this package will install the most recent version of the __bitvise-ssh-server__ chocolatey package.
+* Please update any links, dependencies, or scripts that reference this package to the new package name __bitvise-ssh-server__.
+
+#### Cleanup
+* Remove package: `choco uninstall winsshd.install --all-versions --whatif`
+    </releaseNotes>
+    <dependencies>
+      <dependency id="bitvise-ssh-server" />
+    </dependencies>
+  </metadata>
+</package>
