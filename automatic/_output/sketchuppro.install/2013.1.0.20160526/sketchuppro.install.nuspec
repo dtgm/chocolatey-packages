@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>sketchuppro.install</id>
+    <title>[DEPRECATED] SketchUpPro (Install)</title>
+    <version>2013.1.0.20160526</version>
+    <authors>Trimble Navigation Limited</authors>
+    <owners>dtgm</owners>
+    <summary>SketchUpPro</summary>
+    <description>
+#### New package name: __[sketchup](https://chocolatey.org/packages/sketchup)__
+
+- - -
+
+`sketchuppro.install` has been deprecated because of Chocolatey [naming conventions](https://github.com/chocolatey/chocolatey/wiki/CreatePackages#naming-your-package).
+
+This package exists only for backward compatibility to provide a transitional dummy package for existing users and scripts which may still use this package ID.
+    </description>
+    <projectUrl>https://chocolatey.org/packages/sketchup</projectUrl>
+    <tags>deprecated</tags>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### New users
+* Do not install `sketchuppro.install` (this package). Install __sketchup__.
+
+#### Existing users
+* Updating this package will install the most recent version of the __sketchup__ chocolatey package.
+* Please update any links, dependencies, or scripts that reference this package to the new package name __sketchup__.
+
+#### Cleanup
+* Remove package: `choco uninstall sketchuppro.install --all-versions --whatif`
+    </releaseNotes>
+    <dependencies>
+      <dependency id="sketchup" />
+    </dependencies>
+  </metadata>
+</package>

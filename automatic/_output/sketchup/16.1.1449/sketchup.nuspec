@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>sketchup</id>
+    <title>SketchUp Make/Pro</title>
+    <version>16.1.1449</version>
+    <authors>Trimble Navigation Limited</authors>
+    <owners>dtgm</owners>
+    <summary>Design, document and communicate your ideas in 3D</summary>
+    <description>
+SketchUp is a 3D modeling computer program for a wide range of drawing applications.
+
+* Create 3D models of buildings, furniture, interiors, landscapes, and more.
+* Customize the SketchUp interface to reflect the way you work.
+* Share 3D models as walkthrough animations, scenes, or printouts, with realistic light and shadows. You can even print a model on a 3D printer.
+* Import files from other 3D modeling programs or tools, or export your SketchUp file for use with other popular modeling and image-editing software.
+
+#### Trial/Freeware (limited functionality)
+* &lt;=30 days: SketchUp Pro trial 
+* &gt;30 days: [Buy Pro](http://www.sketchup.com/buy/sketchup-pro) license, otherwise software reverts to "Make", a limited, non-commercial [freeware](http://help.sketchup.com/en/content/sketchup-make-and-sketchup-pro) version
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/sketchup/</packageSourceUrl>
+    <projectUrl>https://www.sketchup.com/products/sketchup-make</projectUrl>
+    <docsUrl>https://www.sketchup.com/learn</docsUrl>
+    <mailingListUrl>https://forums.sketchup.com/</mailingListUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/8c231df744890120cb0c1b898885f68b4c0f361b/icons/sketchup.png</iconUrl>
+    <tags>3d modeling trial admin</tags>
+    <copyright>© 2012 Trimble Navigation Limited</copyright>
+    <licenseUrl>https://www.sketchup.com/license/c/sketchup</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Changelog](https://help.sketchup.com/en/article/141303)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="dotnet4.0" />
+      <dependency id="chocolatey-uninstall.extension" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
