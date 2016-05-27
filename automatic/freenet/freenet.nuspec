@@ -46,6 +46,7 @@ By running this program you contribute to the security of the overall Freenet ne
     <dependencies>
       <dependency id="javaruntime" />
       <dependency id="dotnet3.5" />
+      <dependency id="chocolatey-uninstall.extension" /> 
     </dependencies>
   </metadata>
   <files>
