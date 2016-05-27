@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="5469e451-2352-4054-a382-23ef4309b28d">
     <WebsiteUrl />
@@ -6,8 +6,8 @@
     <UserNotes>http://www.mongodb.org/downloads
 http://www.mongodb.org/dl/win32/x86_64
 http://docs.mongodb.org/manual/tutorial/install-mongodb-on-windows/#id2</UserNotes>
-    <LastFileSize>137956275</LastFileSize>
-    <LastFileDate>2016-02-17T18:40:49.8377623</LastFileDate>
+    <LastFileSize>138475355</LastFileSize>
+    <LastFileDate>2016-04-27T16:35:44-06:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -23,7 +23,7 @@ http://docs.mongodb.org/manual/tutorial/install-mongodb-on-windows/#id2</UserNot
     <Variables>
       <item>
         <key>
-          <string>nopush</string>
+          <string>yopush</string>
         </key>
         <value>
           <UrlVariable>
@@ -31,7 +31,7 @@ http://docs.mongodb.org/manual/tutorial/install-mongodb-on-windows/#id2</UserNot
             <VariableType>Textual</VariableType>
             <Regex />
             <TextualContent>--nopush</TextualContent>
-            <Name>nopush</Name>
+            <Name>yopush</Name>
           </UrlVariable>
         </value>
       </item>
@@ -85,8 +85,8 @@ http://docs.mongodb.org/manual/tutorial/install-mongodb-on-windows/#id2</UserNot
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>[A-Fa-f0-9]{40}</Regex>
-            <Url>{url}.sha1</Url>
+            <Regex>[A-Fa-f0-9]{64}</Regex>
+            <Url>{url}.sha256</Url>
             <TextualContent>{checksum}</TextualContent>
             <Name>checksum</Name>
           </UrlVariable>
@@ -100,8 +100,8 @@ http://docs.mongodb.org/manual/tutorial/install-mongodb-on-windows/#id2</UserNot
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>[A-Fa-f0-9]{40}</Regex>
-            <Url>{url64}.sha1</Url>
+            <Regex>[A-Fa-f0-9]{64}</Regex>
+            <Url>{url64}.sha256</Url>
             <TextualContent>{checksum}</TextualContent>
             <Name>checksumx64</Name>
           </UrlVariable>
@@ -128,13 +128,13 @@ http://docs.mongodb.org/manual/tutorial/install-mongodb-on-windows/#id2</UserNot
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\mongodb-win32-i386-3.2.3.zip</PreviousLocation>
+    <PreviousLocation>F:\exe\mongodb.portable_3.2.6.zip</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2016-02-17T18:40:49.8377623</LastUpdated>
-    <TargetPath>{workdir}\</TargetPath>
+    <LastUpdated>2016-05-26T19:21:42.3417464-06:00</LastUpdated>
+    <TargetPath>{saveDir}\{appname}_{version}.{url:ext}</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
-    <Name>mongodb</Name>
+    <Name>mongodb.portable</Name>
   </ApplicationJob>
 </Jobs>

@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>{{PackageName}}</id>
-    <title>MongoDB</title>
+    <title>MongoDB (Install)</title>
     <version>{{PackageVersion}}</version>
     <authors>MongoDB Inc</authors>
     <owners>dtgm</owners>
@@ -20,7 +20,7 @@ Developers access documents through rich, idiomatic drivers available in all pop
     <bugTrackerUrl>https://github.com/mongodb/mongo/wiki/Submit-Bug-Reports</bugTrackerUrl>
     <docsUrl>http://docs.mongodb.org/</docsUrl>
     <mailingListUrl>https://groups.google.com/forum/#!forum/mongodb-user</mailingListUrl>
-    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/8f7101024b11677be45a74b45114000b428a9c9b/icons/{{PackageName}}.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/8f7101024b11677be45a74b45114000b428a9c9b/icons/mongodb.png</iconUrl>
     <tags>cli database nosql admin</tags>
     <copyright>© 2011 MongoDB Inc</copyright>
     <licenseUrl>http://www.mongodb.org/display/DOCS/Licensing</licenseUrl>
@@ -33,9 +33,6 @@ Developers access documents through rich, idiomatic drivers available in all pop
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
-    <dependencies>
-      <dependency id="{{PackageName}}.install" version="[{{PackageVersion}}]" />
-    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
