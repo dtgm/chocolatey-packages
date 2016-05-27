@@ -13,7 +13,7 @@ $pkgTempDir = Join-Path $env:temp $packageName
 Install-ChocolateyZipPackage -PackageName "$packageName" `
                              -Url "$url" `
                              -Url64bit "$url64" `
-                             -UnzipLocation "$pkgTempDir"
+                             -UnzipLocation "$pkgTempDir" `
                              -Checksum "$checksum" `
                              -Checksum64 "$checksum64" `
                              -ChecksumType "$checksumType" `
