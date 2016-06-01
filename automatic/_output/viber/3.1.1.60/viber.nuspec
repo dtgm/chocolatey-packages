@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>viber</id>
+    <version>3.1.1.60</version>
+    <title>Viber</title>
+    <authors>Viber Media Inc.</authors>
+    <owners>tonigellida</owners>
+    <licenseUrl>http://www.viber.com/eula</licenseUrl>
+    <projectUrl>http://www.viber.com/</projectUrl>
+    <iconUrl>https://raw.github.com/tonigellida/chocolateyautomaticpackages/master/viber/viber.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Viber is a mobile application that lets you make free phone calls and send text messages to anyone who also has the application installed.
+You can call or text any Viber user, anywhere in the world, for free.
+Viber integrates seamlessly with your existing address book, has great sound quality and once activated, does not require a PIN, username or any additional "in application" purchase.
+All Viber features are 100% FREE!</description>
+    <summary />
+    <copyright />
+    <tags>notSilent voip video-chat text-messaging group-chat phone-calls</tags>
+  </metadata>
+</package>
