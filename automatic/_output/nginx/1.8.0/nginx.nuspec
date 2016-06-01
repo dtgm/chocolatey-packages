@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>nginx</id>
+    <version>1.8.0</version>
+    <title>nginx</title>
+    <authors>Igor Sysoev</authors>
+    <owners>D. Stuart Freeman</owners>
+    <licenseUrl>http://nginx.org/LICENSE</licenseUrl>
+    <projectUrl>http://nginx.org</projectUrl>
+    <iconUrl>http://nginx.org/nginx.gif</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>nginx [engine x] is an HTTP and reverse proxy server, as well as a mail proxy server.</description>
+    <summary>nginx [engine x] is an HTTP and reverse proxy server</summary>
+    <tags>webserver</tags>
+  </metadata>
+</package>
