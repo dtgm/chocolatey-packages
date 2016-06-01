@@ -57,7 +57,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>https://www.nginx.net/{getUrl}</TextualContent>
+            <TextualContent>https://www.nginx.org/{getUrl}</TextualContent>
             <Name>url</Name>
           </UrlVariable>
         </value>
@@ -71,7 +71,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
             <Regex>(?&lt;=Stable version.*)/?([^ "'&lt;&gt;\*]+\.zip)</Regex>
-            <Url>https://www.nginx.net/en/download.html</Url>
+            <Url>https://www.nginx.org/en/download.html</Url>
             <Name>getUrl</Name>
           </UrlVariable>
         </value>
@@ -101,7 +101,7 @@
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2016-06-01T16:03:15.1152739-06:00</LastUpdated>
+    <LastUpdated>2016-06-01T17:01:38.8192287-06:00</LastUpdated>
     <TargetPath>{saveDir}\{appname}_{version}.{url:ext}</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>nginx</Name>
