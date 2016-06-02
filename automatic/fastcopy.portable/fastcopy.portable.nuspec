@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>{{PackageName}}</id>
-    <title>FastCopy</title>
+    <title>FastCopy (Portable)</title>
     <version>{{PackageVersion}}</version>
     <authors>Hiroaki Shirouzu</authors>
     <owners>dtgm</owners>
@@ -32,7 +32,7 @@ Command line [manual](http://ipmsg.org/tools/fastcopy.html.en#cmdline)
     <projectSourceUrl>{{PackageGuid}}</projectSourceUrl>
     <docsUrl>http://ipmsg.org/tools/fastcopy.html.en#usage</docsUrl>
     <mailingListUrl>https://groups.google.com/forum/#!forum/fastcopy-bb-eng</mailingListUrl>
-    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/94763114e3fe73533621fa5a5a1c5a3d96b97e54/icons/{{PackageName}}.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/94763114e3fe73533621fa5a5a1c5a3d96b97e54/icons/fastcopy.png</iconUrl>
     <tags>fast copy explorer gui cli</tags>
     <copyright>© 2004 Hiroaki Shirouzu</copyright>
     <licenseUrl>http://ipmsg.org/tools/fastcopy.html.en#license</licenseUrl>
@@ -46,9 +46,6 @@ Command line [manual](http://ipmsg.org/tools/fastcopy.html.en#cmdline)
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
-    <dependencies>
-      <dependency id="{{PackageName}}.install" version="[{{PackageVersion}}]" />
-    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
