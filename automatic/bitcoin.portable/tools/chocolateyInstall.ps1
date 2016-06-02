@@ -17,17 +17,5 @@ Install-ChocolateyZipPackage -PackageName "$packageName" `
                              -ChecksumType64 "$checksumType64"
 
 # create empty sidecar so shimgen.exe creates shim for GUI rather than console
-$zipDirName = "bitcoin-{{PackageVersion}}-win"
-$zipDir = Join-Path -Path $toolsDir `
-                    -ChildPath "$zipDirName"
-if ( Test-Path $zipDir\64 ) {
-  $bitDirName = 64
-} elseif ( Test-Path $zipDir\32 ) {
-  $bitDirName = 32
-} else {
-  Write-Warning "Could not locate bin folder"
-}
-$installFile = Join-Path -Path $bitDirName `
-                         -ChildPath "bitcoin-qt.exe.gui"
-Set-Content -Path "$installFile" `
-            -Value $null
+$guiExe = Get-ChildItem -Recurse -Path $toolsDir -Include "bitcoin-qt.exe"
+if ($guiExe) {Set-Content -Path $($guiExe.FullName+".gui") -Value $null}
