@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>viber</id>
+    <title>Viber</title>
+    <version>6.0.5.1518</version>
+    <authors>Viber Media Inc.</authors>
+    <owners>dtgm</owners>
+    <summary></summary>
+    <description>
+Viber is a mobile application that lets you make free phone calls and send text messages to anyone who also has the application installed. You can call or text any Viber user, anywhere in the world, for free.
+
+Viber integrates seamlessly with your existing address book, has great sound quality and once activated, does not require a PIN, username or any additional "in application" purchase.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/viber/</packageSourceUrl>
+    <projectUrl>https://www.viber.com/en/products/windows</projectUrl>
+    <bugTrackerUrl>https://support.viber.com/customer/portal/emails/new</bugTrackerUrl>
+    <docsUrl>https://support.viber.com/</docsUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/92e81cc447a0b504697b7b4bd0b4d5512f0efad0/icons/viber.png</iconUrl>
+    <tags>voip video-chat text-messaging group-chat phone admin</tags>
+    <copyright>© Viber Media</copyright>
+    <licenseUrl>https://www.viber.com/eula</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [News](https://www.viber.com/blog-tags/windows)
+* [Changelog](https://support.viber.com/customer/portal/topics/646086-latest-updates/articles)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="autohotkey.portable" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
