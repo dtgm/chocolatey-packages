@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>fastcopy.install</id>
+    <version>3.13</version>
+    <title>FastCopy</title>
+    <authors>SHIROUZU Hiroaki</authors>
+    <owners>Teknowledgist</owners>
+    <licenseUrl>http://ipmsg.org/tools/fastcopy.html.en#license</licenseUrl>
+    <projectUrl>http://ipmsg.org/tools/fastcopy.html.en</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/teknowledgist/Chocolatey-packages/master/Icons/FastCopy_icon.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>FastCopy is **the Fastest Copy/Delete Software on Windows**.
+
+It supports UNICODE and over MAX_PATH (260 characters) file pathnames.
+
+It automatically selects different methods depending on whether the source and destination directories are on the same or different drive.
+* **Different drive:** Reading and writing are processed respectively in parallel by separate threads.
+* **Same drive:**	Reading is processed until the buffer fills. When the buffer is filled, writing is started and processed in bulk.
+
+Reading/Writing is processed with no OS cache so other applications do not become slow.
+
+It can achieve reading/writing performance that is close to the device limit.
+
+Include/Exclude filter (UNIX Wildcard style) can be specified. In ver3.0 or later, relative paths can be specified.
+
+It runs fast and does not hog resources, because MFC is not used. (Designed using Win32 API and C Runtime only)
+
+#### Notes
+
+* This package will install the FastCopy shell extension.
+* Install and uninstall of this package does have a few windows flash open and close.  I.E. This package is not silent, but it is no-touch.
+* Upon uninstall, a .dll file remains locked by explorer and will not be deleted until a reboot.
+
+### Option
+
+* NoSubs - The FastCopy Explorer shell extension choices will not appear in a submenu (as is the default) but rather on the main context menu.
+
+This parameter can be requested on installation of the package like so:
+  `choco install fastcopy.install -params '"/NoSubs"'`</description>
+    <summary>The Fastest Copy/Delete Software on Windows.</summary>
+    <releaseNotes>http://ipmsg.org/tools/fastcopy.html.en#history</releaseNotes>
+    <copyright>Copyright © 2004-2016 by SHIROUZU Hiroaki</copyright>
+    <language>en-US</language>
+    <tags>fastcopy copy delete explorer shell notsilent admin</tags>
+    <projectSourceUrl>http://ipmsg.org/archive/FastCopy313src.zip</projectSourceUrl>
+    <packageSourceUrl>https://github.com/teknowledgist/Chocolatey-packages/tree/master/FastCopy.install</packageSourceUrl>
+    <dependencies>
+      <dependency id="autohotkey.portable" version="1.1" />
+    </dependencies>
+  </metadata>
+</package>
