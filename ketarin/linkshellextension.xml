@@ -1,16 +1,17 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="fc5bd6b2-4de2-4f74-951a-69f062a4f33a">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>3760728</LastFileSize>
-    <LastFileDate>2016-02-04T18:42:00.0590066</LastFileDate>
+    <LastFileSize>3762161</LastFileSize>
+    <LastFileDate>2016-04-19T14:53:18-06:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
     <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
@@ -20,7 +21,7 @@
     <Variables>
       <item>
         <key>
-          <string>version</string>
+          <string>versionFull</string>
         </key>
         <value>
           <UrlVariable>
@@ -28,7 +29,7 @@
             <VariableType>RegularExpression</VariableType>
             <Regex>(?&lt;=,\s*Version\s*)([\d\.]+)</Regex>
             <Url>http://schinagl.priv.at/nt/hardlinkshellext/hardlinkshellext.html</Url>
-            <Name>version</Name>
+            <Name>versionFull</Name>
           </UrlVariable>
         </value>
       </item>
@@ -104,6 +105,20 @@
           </UrlVariable>
         </value>
       </item>
+      <item>
+        <key>
+          <string>version</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>{versionFull:regexreplace:^\d+(\.\d+){0,2\}\.\d$:$00}</TextualContent>
+            <Name>version</Name>
+          </UrlVariable>
+        </value>
+      </item>
     </Variables>
     <ExecuteCommand />
     <ExecutePreCommand />
@@ -111,12 +126,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\HardLinkShellExt_win32.exe</PreviousLocation>
+    <PreviousLocation>F:\exe\linkshellextension_3.8.6.80.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2016-02-04T18:42:00.0590066</LastUpdated>
-    <TargetPath>{workdir}\</TargetPath>
+    <LastUpdated>2016-06-02T19:31:17.6217534-06:00</LastUpdated>
+    <TargetPath>{saveDir}\{appname}_{version}.{url:ext}</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>linkshellextension</Name>
   </ApplicationJob>
