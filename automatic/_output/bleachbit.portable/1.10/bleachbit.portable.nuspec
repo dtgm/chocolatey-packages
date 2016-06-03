@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>bleachbit.portable</id>
+    <title>BleachBit (Portable)</title>
+    <version>1.10</version>
+    <authors>Andrew Ziem</authors>
+    <owners>dtgm</owners>
+    <summary>Deletes unnecessary files to free valuable disk space, maintain privacy, and remove junk</summary>
+    <description>
+BleachBit quickly frees disk space and tirelessly guards your privacy. Free cache, delete cookies, clear Internet history, shred temporary files, delete logs, and discard junk you didn't know was there. Designed for Linux and Windows systems, it wipes clean a thousand applications including Firefox, Internet Explorer, Adobe Flash, Google Chrome, Opera, Safari,and more. Beyond simply deleting files, BleachBit includes advanced features such as shredding files to prevent recovery, wiping free disk space to hide traces of files deleted by other applications, and vacuuming Firefox to make it faster. Better than free, BleachBit is open source.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/bleachbit.portable/</packageSourceUrl>
+    <projectUrl>https://www.bleachbit.org/</projectUrl>
+    <projectSourceUrl>https://github.com/az0/bleachbit</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/az0/bleachbit/issues</bugTrackerUrl>
+    <docsUrl>https://docs.bleachbit.org/</docsUrl>
+    <mailingListUrl>https://www.bleachbit.org/forum</mailingListUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/1074d4e05e2fa41b930ac8f5cd8f2ea54141be23/icons/bleachbit.png</iconUrl>
+    <tags>privacy disk cleaner</tags>
+    <copyright>© 2008 Andrew Ziem</copyright>
+    <licenseUrl>https://gnu.org/licenses/gpl.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Changelog](https://www.bleachbit.org/category/blog-tags/release)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
