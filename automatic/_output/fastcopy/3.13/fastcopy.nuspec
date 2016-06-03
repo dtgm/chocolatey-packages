@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
-    <id>fastcopy.portable</id>
-    <title>FastCopy (Portable)</title>
+    <id>fastcopy</id>
+    <title>FastCopy</title>
     <version>3.13</version>
     <authors>Hiroaki Shirouzu</authors>
     <owners>dtgm</owners>
@@ -27,7 +27,7 @@ You can modify this software, because all source code has been opened to the pub
 
 Command line [manual](http://ipmsg.org/tools/fastcopy.html.en#cmdline)
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/fastcopy.portable/</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/fastcopy/</packageSourceUrl>
     <projectUrl>http://ipmsg.org/tools/fastcopy.html.en</projectUrl>
     <projectSourceUrl>http://ipmsg.org/archive/FastCopy313src.zip</projectSourceUrl>
     <docsUrl>http://ipmsg.org/tools/fastcopy.html.en#usage</docsUrl>
@@ -46,8 +46,8 @@ Command line [manual](http://ipmsg.org/tools/fastcopy.html.en#cmdline)
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
+    <dependencies>
+      <dependency id="fastcopy.portable" version="[3.13]" />
+    </dependencies>
   </metadata>
-  <files>
-    <file src="tools\**" target="tools" />
-  </files>
 </package>
