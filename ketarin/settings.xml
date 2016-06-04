@@ -567,7 +567,7 @@ chocopkgup $hash["nopush"] `
           <string>olvJobs/LastSortColumn</string>
         </key>
         <value>
-          <string>System.String:domain</string>
+          <string>System.String:Application</string>
         </value>
       </item>
       <item>
@@ -615,7 +615,7 @@ chocopkgup $hash["nopush"] `
           <string>Ketarin/ShowStatusBar</string>
         </key>
         <value>
-          <string>System.Boolean:True</string>
+          <string>System.Boolean:False</string>
         </value>
       </item>
       <item>
@@ -663,7 +663,7 @@ chocopkgup $hash["nopush"] `
           <string>EditVariablesDialog/Size</string>
         </key>
         <value>
-          <string>System.Drawing.Size:1509,661</string>
+          <string>System.Drawing.Size:1509,492</string>
         </value>
       </item>
       <item>
@@ -671,7 +671,7 @@ chocopkgup $hash["nopush"] `
           <string>EditVariablesDialog/Location</string>
         </key>
         <value>
-          <string>System.Drawing.Point:386,1117</string>
+          <string>System.Drawing.Point:49,1214</string>
         </value>
       </item>
       <item>
@@ -687,7 +687,7 @@ chocopkgup $hash["nopush"] `
           <string>ApplicationJobDialog/Size</string>
         </key>
         <value>
-          <string>System.Drawing.Size:507,539</string>
+          <string>System.Drawing.Size:507,507</string>
         </value>
       </item>
       <item>
@@ -695,7 +695,7 @@ chocopkgup $hash["nopush"] `
           <string>ApplicationJobDialog/Location</string>
         </key>
         <value>
-          <string>System.Drawing.Point:593,1172</string>
+          <string>System.Drawing.Point:558,1246</string>
         </value>
       </item>
       <item>
@@ -719,7 +719,7 @@ chocopkgup $hash["nopush"] `
           <string>LogDialog/Location</string>
         </key>
         <value>
-          <string>System.Drawing.Point:-11,769</string>
+          <string>System.Drawing.Point:-7,747</string>
         </value>
       </item>
       <item>
@@ -984,9 +984,10 @@ chocopkgup $hash["nopush"] `
         </key>
         <value>
           <string>System.String:////////////////////////////////////////////////////////////////////////////////////////
-/// version 6.7.1.1
+/// version 6.8.0.0
 /// 
-/// Changelog: debug lines
+/// Changelog: Calc SHA256 sums
+/// Ticket: https://github.com/dtgm/chocolatey-packages/issues/196
 /// 
 
 // REQUIRES:
@@ -1036,20 +1037,20 @@ if (today &gt; pkgCreateDate) {
 
 // if package variable 'checksum' does not exist or is null
 if (varChecksum == "{checksum}") {
-  // calculate SHA1 from {url}  Note we are leveraging ketarin's downloaded copy
-  System.IO.FileStream fileSha1 = new System.IO.FileStream(savePath, System.IO.FileMode.Open);
-  System.Security.Cryptography.SHA1 sha1 = new System.Security.Cryptography.SHA1CryptoServiceProvider();
-  byte[] retValSha1 = sha1.ComputeHash(fileSha1);
-  fileSha1.Close();
+  // calculate SHA256 from {url}  Note we are leveraging ketarin's downloaded copy
+  System.IO.FileStream fileSha = new System.IO.FileStream(savePath, System.IO.FileMode.Open);
+  System.Security.Cryptography.SHA256 sha256 = new System.Security.Cryptography.SHA256Managed();
+  byte[] retValSha = sha256.ComputeHash(fileSha);
+  fileSha.Close();
 
   // build string from byte value
-  System.Text.StringBuilder sbSha1 = new System.Text.StringBuilder();
-  for (int i = 0; i &lt; retValSha1.Length; i++) {
-    sbSha1.Append(retValSha1[i].ToString("x2"));
+  System.Text.StringBuilder sbSha = new System.Text.StringBuilder();
+  for (int i = 0; i &lt; retValSha.Length; i++) {
+    sbSha.Append(retValSha[i].ToString("x2"));
   }
   
-  // find $pkgPath -iname "*.nuspec" -o -iname "*.ps1" -exec sed -i 's/'$sbSha1'/{checksum}/g' '{}' \;
-  string replaceChecksum = sbSha1.ToString();
+  // find $pkgPath -iname "*.nuspec" -o -iname "*.ps1" -exec sed -i 's/'$sbSha'/{checksum}/g' '{}' \;
+  string replaceChecksum = sbSha.ToString();
   //MessageBox.Show(replaceChecksum);
   List&lt;string&gt; fileList = new List&lt;string&gt;(Directory.GetFiles(pkgPath, "*.ps1", SearchOption.AllDirectories));
   string[] filesNuspec = Directory.GetFiles(pkgPath, "*.nuspec", SearchOption.AllDirectories);
@@ -1072,26 +1073,27 @@ if (varChecksum == "{checksum}") {
 
 // only get checksum if checksumx64 does NOT exist and 'checksum64file' DOES exists  
 if (varChecksumx64 == "{checksumx64}" &amp;&amp; varChecksum64File != "{checksum64file}") {
-  // TODO: ...and points to a downloadable file; validate URI
-  // we must download the file to calculate checksum, may as well save it too because now all your base are belong to us
+  // TODO: verify and validate URI checksum64file points to a downloadable file
+  
+  // we must download the file to calculate checksum ... may as well save it
   System.Net.WebClient webClient = new System.Net.WebClient();
   webClient.DownloadFile(varChecksum64File, savePath64);
 
-  // calculate SHA1 from file of url pointed to by 'checksum64file'
-  System.IO.FileStream file64Sha1 = new System.IO.FileStream(savePath64, System.IO.FileMode.Open);
-  System.Security.Cryptography.SHA1 sha164 = new System.Security.Cryptography.SHA1CryptoServiceProvider();
-  byte[] retVal64Sha1 = sha164.ComputeHash(file64Sha1);
-  file64Sha1.Close();
+  // calculate SHA256 from file of url pointed to by 'checksum64file'
+  System.IO.FileStream file64Sha = new System.IO.FileStream(savePath64, System.IO.FileMode.Open);
+  System.Security.Cryptography.SHA256 sha256_64 = new System.Security.Cryptography.SHA256Managed();
+  byte[] retVal64Sha = sha256_64.ComputeHash(file64Sha);
+  file64Sha.Close();
 
   // build string from byte value
-  System.Text.StringBuilder sb64Sha1 = new System.Text.StringBuilder();
-  for (int i = 0; i &lt; retVal64Sha1.Length; i++) {
-    sb64Sha1.Append(retVal64Sha1[i].ToString("x2"));
+  System.Text.StringBuilder sb64Sha = new System.Text.StringBuilder();
+  for (int i = 0; i &lt; retVal64Sha.Length; i++) {
+    sb64Sha.Append(retVal64Sha[i].ToString("x2"));
   }
   
-  // find $pkgPath -iname "*.nuspec" -o -iname "*.ps1" -exec sed -i 's/'$sbSha1'/{checksumx64}/g' '{}' \;
+  // find $pkgPath -iname "*.nuspec" -o -iname "*.ps1" -exec sed -i 's/'$sb64Sha'/{checksumx64}/g' '{}' \;
   // Note chocopkgup will strip 1 set of curly braces so {{checksum}} becomes {checksum}
-  string replace64Checksum = sb64Sha1.ToString();
+  string replace64Checksum = sb64Sha.ToString();
   //MessageBox.Show(replace64Checksum);
   List&lt;string&gt; fileList = new List&lt;string&gt;(Directory.GetFiles(pkgPath, "*.ps1", SearchOption.AllDirectories));
   string[] filesNuspec = Directory.GetFiles(pkgPath, "*.nuspec", SearchOption.AllDirectories);
@@ -1211,6 +1213,8 @@ if (varCScript == "2") {
     
     &lt;CheckForUpdatesOnly&gt;false&lt;/CheckForUpdatesOnly&gt;
     &lt;VariableChangeIndicator /&gt;
+    &lt;HashVariable /&gt;
+    &lt;HashType&gt;None&lt;/HashType&gt;
     &lt;CanBeShared&gt;true&lt;/CanBeShared&gt;
     &lt;ShareApplication&gt;false&lt;/ShareApplication&gt;
     &lt;ExclusiveDownload&gt;false&lt;/ExclusiveDownload&gt;
@@ -1371,7 +1375,7 @@ if (varCScript == "2") {
     &lt;Enabled&gt;true&lt;/Enabled&gt;
     &lt;FileHippoId /&gt;
     
-    &lt;TargetPath&gt;{workdir}\&lt;/TargetPath&gt;
+    &lt;TargetPath&gt;{saveDir}\{appname}_{version}.{url:ext}&lt;/TargetPath&gt;
     &lt;FixedDownloadUrl&gt;{url}&lt;/FixedDownloadUrl&gt;
     &lt;Name&gt;x&lt;/Name&gt;
   &lt;/ApplicationJob&gt;
