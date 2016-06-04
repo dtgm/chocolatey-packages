@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>{{PackageName}}</id>
     <title>Krita</title>
@@ -22,7 +22,7 @@ Krita's design emphasizes creating artwork from beginning to end as opposed to m
 * [Google+](https://plus.google.com/u/0/106052286697115751434/posts)
 * [Twitter](https://twitter.com/Krita_Painting)
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>https://krita.org/</projectUrl>
     <projectSourceUrl>https://projects.kde.org/projects/calligra/repository</projectSourceUrl>
     <bugTrackerUrl>https://krita.org/get-involved/report-a-bug/</bugTrackerUrl>
@@ -41,6 +41,9 @@ Krita's design emphasizes creating artwork from beginning to end as opposed to m
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
+    <dependencies>
+      <dependency id="chocolatey-uninstall.extension" />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

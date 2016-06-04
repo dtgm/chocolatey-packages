@@ -1,16 +1,17 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="5e87b335-1cad-4ab7-b740-282747f2735b">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>117583872</LastFileSize>
-    <LastFileDate>2016-02-04T18:43:05.7840503</LastFileDate>
+    <LastFileSize>64507039</LastFileSize>
+    <LastFileDate>2016-05-30T08:30:29-06:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
     <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
@@ -26,7 +27,7 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>[^ "'&lt;&gt;\* ]+86[\d_.]{3,}\.msi</Regex>
+            <Regex>[^ "'&lt;&gt;\* ]+86-setup\.exe</Regex>
             <Url>https://krita.org/download/krita-desktop/</Url>
             <TextualContent />
             <Name>url</Name>
@@ -41,7 +42,7 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=SHA-1\sHash.*&lt;tt&gt;)[\da-f]{40}(?=&lt;/tt&gt;)</Regex>
+            <Regex>(?&lt;=SHA-256\sHash.*&lt;tt&gt;)[\da-f]{64}(?=&lt;/tt&gt;)</Regex>
             <Url>{url}.mirrorlist</Url>
             <Name>checksum</Name>
           </UrlVariable>
@@ -60,7 +61,7 @@
             <StartText> &lt;/td&gt;&lt;td&gt;&lt;a href="digiKam-installer-</StartText>
             <EndText>-win32.exe.mirrorlist"&gt;Details&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td valign="top"&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&lt;a href="digikam-</EndText>
-            <TextualContent>{url:regex:(?&lt;=_)[\d\.]{3,\}(?=\.msi)}</TextualContent>
+            <TextualContent>{url:regex:(?&lt;=krita-)[\d\.]{3,\}(?=-)}</TextualContent>
             <Name>version</Name>
           </UrlVariable>
         </value>
@@ -101,7 +102,7 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>[^ "'&lt;&gt;\* ]+64[\d_.]{3,}\.msi</Regex>
+            <Regex>[^ "'&lt;&gt;\* ]+64-setup\.exe</Regex>
             <Url>https://krita.org/download/krita-desktop/</Url>
             <Name>url64</Name>
           </UrlVariable>
@@ -115,7 +116,7 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=SHA-1\sHash.*&lt;tt&gt;)[\da-f]{40}(?=&lt;/tt&gt;)</Regex>
+            <Regex>(?&lt;=SHA-256\sHash.*&lt;tt&gt;)[\da-f]{64}(?=&lt;/tt&gt;)</Regex>
             <Url>{url64}.mirrorlist</Url>
             <Name>checksumx64</Name>
           </UrlVariable>
@@ -128,12 +129,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\krita_x86_2.9.11.0.msi</PreviousLocation>
+    <PreviousLocation>F:\exe\krita_3.0.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2016-02-04T18:43:05.7840503</LastUpdated>
-    <TargetPath>{workdir}\</TargetPath>
+    <LastUpdated>2016-06-04T02:23:16.1377256-06:00</LastUpdated>
+    <TargetPath>{saveDir}\{appname}_{version}.{url:ext}</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>krita</Name>
   </ApplicationJob>
