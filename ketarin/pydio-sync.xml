@@ -4,8 +4,8 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>21834752</LastFileSize>
-    <LastFileDate>2014-01-27T14:01:26-07:00</LastFileDate>
+    <LastFileSize>54386688</LastFileSize>
+    <LastFileDate>2016-06-02T09:57:40-06:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -40,9 +40,10 @@
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>RegularExpression</VariableType>
-            <Regex>files/pydio-sync/java/([\d\.]+)</Regex>
-            <Url>https://sourceforge.net/projects/ajaxplorer/files/pydio-sync/java/0.8.4/</Url>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <Url />
+            <TextualContent>{url:regex:(?&lt;=v)[\d\.]+(?=\.msi)}</TextualContent>
             <Name>version</Name>
           </UrlVariable>
         </value>
@@ -54,10 +55,9 @@
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <Url />
-            <TextualContent>{getMirror}/{getUrl:regex:pydio\-sync.*}</TextualContent>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>[^ "'&lt;&gt;\*]+32-[^ "'&lt;&gt;\*]+\.msi</Regex>
+            <Url>https://pydio.com/en/products/downloads/pydiosync-desktop-app/</Url>
             <Name>url</Name>
           </UrlVariable>
         </value>
@@ -69,38 +69,10 @@
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <TextualContent>{urlArray}</TextualContent>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>[^ "'&lt;&gt;\*]+\.msi</Regex>
+            <Url>https://pydio.com/en/products/downloads/pydiosync-desktop-app/</Url>
             <Name>url64</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>getUrl</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>RegularExpression</VariableType>
-            <Regex>[^ "'&lt;&gt;\*]+86-Setup\.msi(?=/download")</Regex>
-            <Url>https://sourceforge.net/projects/ajaxplorer/files/pydio-sync/java/{version}/</Url>
-            <Name>getUrl</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>getUrl64</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>RegularExpression</VariableType>
-            <Regex>[^ "'&lt;&gt;\*]+64-Setup\.msi(?=/download")</Regex>
-            <Url>https://sourceforge.net/projects/ajaxplorer/files/pydio-sync/java/{version}/</Url>
-            <Name>getUrl64</Name>
           </UrlVariable>
         </value>
       </item>
@@ -113,50 +85,8 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>{getMirror}/{getUrl64:regex:pydio\-sync.*}</TextualContent>
+            <TextualContent>{url64}</TextualContent>
             <Name>checksum64file</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>getUrlZip</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>RegularExpression</VariableType>
-            <Regex>[^ "'&lt;&gt;\*]+\.zip/download</Regex>
-            <Url>https://sourceforge.net/projects/ajaxplorer/files/pydio-sync/java/{version}/</Url>
-            <Name>getUrlZip</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>getMirror</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=ResponseUri: )[^\r\n]+(?=/pydio-sync/)</Regex>
-            <Url>{getUrlZip}</Url>
-            <Name>getMirror</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>urlArray</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <TextualContent>@('{getUrl}', '{getUrl64}')</TextualContent>
-            <Name>urlArray</Name>
           </UrlVariable>
         </value>
       </item>
@@ -181,11 +111,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\pydio-sync_0.8.4.msi</PreviousLocation>
+    <PreviousLocation>F:\exe\pydio-sync_1.2.5.msi</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2016-05-13T00:23:33.3536055-06:00</LastUpdated>
+    <LastUpdated>2016-06-04T17:28:54.240885-06:00</LastUpdated>
     <TargetPath>{saveDir}\{appname}_{version}.{url:ext}</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>pydio-sync</Name>

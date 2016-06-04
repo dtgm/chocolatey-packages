@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>{{PackageName}}</id>
     <title>Pydio Synchronizer</title>
@@ -8,7 +8,7 @@
     <owners>dtgm</owners>
     <summary>Real-time synchronization of a Pydio workspace against a local folder on your computer</summary>
     <description>
-PydioSync is the desktop client for Pydio v6. It is offers real-time synchronization of a Pydio workspace against a local folder on your computer. Currently, we provide installers for Windows and MacOS, and binaries for Linux as well.
+Pydio Sync is the desktop client for Pydio v6. It is offers real-time synchronization of a Pydio workspace against a local folder on your computer. Currently, we provide installers for Windows and MacOS, and binaries for Linux as well.
 
 #### Features
 
@@ -22,38 +22,28 @@ PydioSync is the desktop client for Pydio v6. It is offers real-time synchroniza
 * Run sync agent “headless” (without UI) on a remote server – configure via the browser
 * Configure many sync tasks against different Pydio servers or workspaces
 * Pause/Resume all sync – Temporary disable a task
-
-[Screenshots](https://sourceforge.net/p/ajaxplorer/wiki/)
-[FAQ](https://pyd.io/knowledge-base-2/f-a-q/)
-[Forum](https://pyd.io/f/)
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>https://pyd.io/apps/pydio-sync/</projectUrl>
     <projectSourceUrl>https://github.com/pydio/pydio-sync</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/pydio/pydio-sync/issues</bugTrackerUrl>
+    <docsUrl>https://pydio.com/docs</docsUrl>
+    <mailingListUrl>https://pydio.com/community</mailingListUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/e816ec6985588cc33e17a2f2af4cb24349f7f281/icons/{{PackageName}}.png</iconUrl>
-    <tags>cloud sync filesharing</tags>
+    <tags>cloud sync filesharing admin</tags>
     <copyright>© 2014 Abstrium SAS</copyright>
-    <licenseUrl>https://pyd.io/contribute/cla/</licenseUrl>
+    <licenseUrl>https://github.com/pydio/pydio-sync/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-[Changelog](https://pyd.io/category/news/)
-[Roadmap](https://pyd.io/roadmap/)
+#### Program
+* [Changelog](https://pydio.com/blog/type/release-note)
 
-#### Pydio Server requirements:
-* v6 or later
-* SQL Database available
-* API properly configured
-* If using SSL, make sure to use a properly validated certificate
-
-#### Workspace requirements:
-* Meta.syncable plugin active (via Workspace Features)
-* FileHasher plugin active
-* Metastore plugin active (to cache file hashes)
-* If pydio &lt;=6.0.3, Index.lucene must be active as well
-
-#### Indexation notice:
-* On the server-side, the changes are continuously indexed so that the sync client only receives the modification of the tree when required. For this reason, if you are planning to modify the data of a workspace from outside pydio, you have to set up a specific strategy to make sure to keep pydio in sync.
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
+    <dependencies>
+      <dependency id="chocolatey-uninstall.extension" />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
