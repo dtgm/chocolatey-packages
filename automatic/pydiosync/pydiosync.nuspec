@@ -8,7 +8,7 @@
     <owners>dtgm</owners>
     <summary>Real-time synchronization of a Pydio workspace against a local folder on your computer</summary>
     <description>
-Pydio Sync is the desktop client for Pydio v6. It is offers real-time synchronization of a Pydio workspace against a local folder on your computer. Currently, we provide installers for Windows and MacOS, and binaries for Linux as well.
+PydioSync is the desktop client for Pydio v6. It is offers real-time synchronization of a Pydio workspace against a local folder on your computer. Currently, we provide installers for Windows and MacOS, and binaries for Linux as well.
 
 #### Features
 
@@ -29,7 +29,7 @@ Pydio Sync is the desktop client for Pydio v6. It is offers real-time synchroniz
     <bugTrackerUrl>https://github.com/pydio/pydio-sync/issues</bugTrackerUrl>
     <docsUrl>https://pydio.com/docs</docsUrl>
     <mailingListUrl>https://pydio.com/community</mailingListUrl>
-    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/e816ec6985588cc33e17a2f2af4cb24349f7f281/icons/{{PackageName}}.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/e816ec6985588cc33e17a2f2af4cb24349f7f281/icons/pydio-sync.png</iconUrl>
     <tags>cloud sync filesharing admin</tags>
     <copyright>© 2014 Abstrium SAS</copyright>
     <licenseUrl>https://github.com/pydio/pydio-sync/blob/master/LICENSE</licenseUrl>

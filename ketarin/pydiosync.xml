@@ -118,6 +118,6 @@
     <LastUpdated>2016-06-04T17:28:54.240885-06:00</LastUpdated>
     <TargetPath>{saveDir}\{appname}_{version}.{url:ext}</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
-    <Name>pydio-sync</Name>
+    <Name>pydiosync</Name>
   </ApplicationJob>
 </Jobs>

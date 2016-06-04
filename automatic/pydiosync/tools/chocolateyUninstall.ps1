@@ -1,5 +1,5 @@
 $packageName = '{{PackageName}}'
-$softwareName = "Pydio"
+$softwareName = "PydioSync"
 $installerType = 'msi'
 $silentArgs = '/quiet /qn /norestart'
 $validExitCodes = @(0,3010)
