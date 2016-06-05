@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>pydiosync</id>
+    <title>Pydio Synchronizer</title>
+    <version>1.2.5</version>
+    <authors>Abstrium SAS</authors>
+    <owners>dtgm</owners>
+    <summary>Real-time synchronization of a Pydio workspace against a local folder on your computer</summary>
+    <description>
+PydioSync is the desktop client for Pydio v6. It is offers real-time synchronization of a Pydio workspace against a local folder on your computer. Currently, we provide installers for Windows and MacOS, and binaries for Linux as well.
+
+#### Features
+
+* Multi platform support: Mac, Windows, Linux
+* Native installers for Mac and Windows
+* Great User Experience: configuration wizards
+* Real-time synchronisation, manual, or time-based
+* Admin allow users to sync a workspace or not
+* Ability to sync only a subfolder
+* Sync direction: bi-directionnal (standard), upload only (backup), download only (mirror)
+* Run sync agent “headless” (without UI) on a remote server – configure via the browser
+* Configure many sync tasks against different Pydio servers or workspaces
+* Pause/Resume all sync – Temporary disable a task
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/pydiosync/</packageSourceUrl>
+    <projectUrl>https://pyd.io/apps/pydio-sync/</projectUrl>
+    <projectSourceUrl>https://github.com/pydio/pydio-sync</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/pydio/pydio-sync/issues</bugTrackerUrl>
+    <docsUrl>https://pydio.com/docs</docsUrl>
+    <mailingListUrl>https://pydio.com/community</mailingListUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/e816ec6985588cc33e17a2f2af4cb24349f7f281/icons/pydio-sync.png</iconUrl>
+    <tags>cloud sync filesharing admin</tags>
+    <copyright>© 2014 Abstrium SAS</copyright>
+    <licenseUrl>https://github.com/pydio/pydio-sync/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Changelog](https://pydio.com/blog/type/release-note)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="chocolatey-uninstall.extension" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
