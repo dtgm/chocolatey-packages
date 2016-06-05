@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>arduino</id>
     <title>Arduino IDE</title>
@@ -28,8 +28,11 @@ Arduino programs are written in C or C++. The Arduino IDE comes with a software 
     </description>
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/arduino/1.6.9</packageSourceUrl>
     <projectUrl>http://arduino.cc/en/Main/Software/</projectUrl>
+    <projectSourceUrl>https://github.com/arduino/Arduino</projectSourceUrl>
     <bugTrackerUrl>https://github.com/arduino/Arduino/issues</bugTrackerUrl>
-    <tags>ide programming electronics microcontroller arduino</tags>
+    <docsUrl>https://www.arduino.cc/Guide/</docsUrl>
+    <mailingListUrl>https://groups.google.com/a/arduino.cc/forum/#!forum/developers</mailingListUrl>
+    <tags>ide programming electronics microcontroller arduino admin</tags>
     <copyright>© 2005 Arduino</copyright>
     <licenseUrl>https://raw.githubusercontent.com/arduino/Arduino/master/license.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -38,14 +41,13 @@ Arduino programs are written in C or C++. The Arduino IDE comes with a software 
 #### Program
 * [News](http://blog.arduino.cc/)
 * [Changelog](https://github.com/arduino/Arduino/releases/tag/1.6.9)
-* [Developer mailing list](https://groups.google.com/a/arduino.cc/forum/#!forum/developers)
-* [Source code repository](https://github.com/arduino/Arduino)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
     <dependencies>
       <dependency id="autohotkey.portable" />
+      <dependency id="chocolatey-uninstall.extension" />
     </dependencies>
   </metadata>
   <files>
