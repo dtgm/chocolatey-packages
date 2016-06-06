@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>{{PackageName}}</id>
@@ -24,7 +24,7 @@
 * [Google+]()
 * [Twitter]()
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl></projectUrl>
     <projectSourceUrl></projectSourceUrl>
     <bugTrackerUrl></bugTrackerUrl>
@@ -50,6 +50,7 @@
     <!--<conflicts></conflicts>-->
 <!--    <dependencies>
       <dependency id="{{PackageName}}.install" version="[{{PackageVersion}}]" />
+      <dependency id="chocolatey-uninstall.extension" />
     </dependencies> -->
   </metadata>
   <files>
