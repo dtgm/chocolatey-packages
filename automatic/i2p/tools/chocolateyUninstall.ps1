@@ -36,15 +36,11 @@ $ahkExe = 'AutoHotKey'
 $ahkRun = "$Env:Temp\$(Get-Random).ahk"
 Copy-Item $ahkFile "$ahkRun" -Force
 
-try {
-  Start-Process $ahkExe $ahkRun
-  Start-ChocolateyProcessAsAdmin -Statements "$installArgs" `
-                                 -ExeToRun "java" `
-                                 -ValidExitCodes $validExitCodes
-  Remove-Item "$ahkRun" -Force
-  if (Test-Path $inPath) {
-    Remove-Item -Path $inPath -Recurse
-  }
-} catch {
-  throw
+Start-Process $ahkExe $ahkRun
+Start-ChocolateyProcessAsAdmin -Statements "$installArgs" `
+                               -ExeToRun "java" `
+                               -ValidExitCodes $validExitCodes
+Remove-Item "$ahkRun" -Force
+if (Test-Path $inPath) {
+  Remove-Item -Path $inPath -Recurse
 }

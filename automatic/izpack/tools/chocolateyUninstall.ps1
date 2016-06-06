@@ -14,12 +14,9 @@ if (Test-Path "${Env:ProgramFiles(x86)}\IzPack\Uninstaller\") {
   throw
 }
 $installArgs = "javaw -jar `'$($unString)`'"
-try {
-  Start-Process $ahkExe $ahkRun
-  Start-ChocolateyProcessAsAdmin -Statements "$installArgs" `
-                                 -ExeToRun "powershell" `
-                                 -ValidExitCodes $validExitCodes
-  Remove-Item "$ahkRun" -Force
-} catch {
-  throw
-}
+
+Start-Process $ahkExe $ahkRun
+Start-ChocolateyProcessAsAdmin -Statements "$installArgs" `
+					   -ExeToRun "powershell" `
+					   -ValidExitCodes $validExitCodes
+Remove-Item "$ahkRun" -Force

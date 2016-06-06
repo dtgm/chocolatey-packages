@@ -11,12 +11,7 @@ function Get-UninstallString {
   }
 }
 
-try {
-  $packageName = '{{PackageName}}'
-  $uninstallArgs = '--silent'
-  $validExitCodes = @(0)
-  Start-ChocolateyProcessAsAdmin $uninstallArgs $(Get-UninstallString) -validExitCodes $validExitCodes
-}
-catch {
-  throw $_.Exception
-}
+$packageName = '{{PackageName}}'
+$uninstallArgs = '--silent'
+$validExitCodes = @(0)
+Start-ChocolateyProcessAsAdmin $uninstallArgs $(Get-UninstallString) -validExitCodes $validExitCodes
