@@ -13,7 +13,7 @@ Gramps is a genealogy program for Linux, Windows, Mac, and FreeBSD that allows y
 * [Features](https://gramps-project.org/features/)
 * [IRC](irc://irc.freenode.net/#gramps)
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://gramps-project.org/</projectUrl>
     <projectSourceUrl>https://github.com/gramps-project/gramps</projectSourceUrl>
     <bugTrackerUrl>http://bugs.gramps-project.org/</bugTrackerUrl>

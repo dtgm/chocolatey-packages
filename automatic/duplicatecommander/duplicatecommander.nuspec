@@ -10,7 +10,7 @@
     <description>
 Duplicate Commander is a freeware application that allows you to find and manage duplicate files on your PC. Duplicate Commander comes with many features and tools that allow you to recover your disk space from those duplicates.
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://www.rayburnsoft.net/dc.html</projectUrl>
     <projectSourceUrl>http://rayburnsoft.net:8080/gitblit/summary/?r=dcbeta.git</projectSourceUrl>
     <docsUrl>http://www.rayburnsoft.net/dcum.chm</docsUrl>

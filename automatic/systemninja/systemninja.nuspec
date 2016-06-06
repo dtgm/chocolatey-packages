@@ -22,7 +22,7 @@ System Ninja has a small number of [plugins](https://singularlabs.com/software/s
 * [Google+](https://plus.google.com/102794460387664519795)
 * [Twitter](http://twitter.com/SingularLabs)
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>https://singularlabs.com/software/system-ninja/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/c9f5d2fb09282df62f9720e24b82530de4533216/icons/{{PackageName}}.png</iconUrl>
     <tags>system cleaner</tags>

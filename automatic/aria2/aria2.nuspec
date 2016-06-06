@@ -17,7 +17,7 @@ aria2 is a multi-protocol &amp; multi-source, cross platform download utility.  
 * Metalink Enabled. aria2 supports The Metalink Download Description Format (aka Metalink v4), Metalink version 3 and Metalink/HTTP. Metalink offers the file verification, HTTP/FTP/BitTorrent integration and the various configurations for language, location, OS, etc.
 * Remote Control. aria2 supports RPC interface to control the aria2 process. The supported interfaces are JSON-RPC (over HTTP and WebSocket) and XML-RPC.
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>https://aria2.github.io/</projectUrl>
     <projectSourceUrl>https://github.com/tatsuhiro-t/aria2</projectSourceUrl>
     <bugTrackerUrl>https://github.com/tatsuhiro-t/aria2/issues</bugTrackerUrl>

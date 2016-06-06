@@ -22,7 +22,7 @@ __-c__  Print output as CSV
 
 __-n__  Don't resolve addresses
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://technet.microsoft.com/sysinternals/bb897437</projectUrl>
     <mailingListUrl>http://forum.sysinternals.com/</mailingListUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/cf1efc0aac843672fbf1ca0e15082e4e11357df9/icons/{{PackageName}}.png</iconUrl>

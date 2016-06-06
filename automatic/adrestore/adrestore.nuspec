@@ -10,7 +10,7 @@
     <description>
 Undelete Server 2003 Active Directory objects. Windows Server 2003 introduces the ability to restore deleted ("tombstoned") objects. This simple command-line utility enumerates the deleted objects in a domain and gives you the option of restoring each one. Source code is based on sample code in the Microsoft Platform SDK. This MS KB article describes the use of AdRestore:.
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://technet.microsoft.com/sysinternals/bb963906</projectUrl>
     <mailingListUrl>http://forum.sysinternals.com/</mailingListUrl>
     <tags>active directory recover sysinternals</tags>

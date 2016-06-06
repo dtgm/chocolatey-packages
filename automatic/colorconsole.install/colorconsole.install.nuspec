@@ -21,7 +21,7 @@ ColorConsole brings a little color to your black and white world of Windows cons
 
 [Screenshots](http://www.softwareok.com/?seite=Freeware/ColorConsole/Screenshots)
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://www.softwareok.com/?seite=Freeware/ColorConsole</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/408ded4dd91e2df4543abc86857677fb7e10c0d3/icons/colorconsole.png</iconUrl>
     <tags>freeware console cli</tags>

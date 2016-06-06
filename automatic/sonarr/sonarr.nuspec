@@ -16,7 +16,7 @@ Sonarr (formerly NzbDrone) is a PVR for Usenet and BitTorrent users. It can moni
 * [IRC](http://webchat.freenode.net/?channels=#sonarr)
 * [Twitter](https://twitter.com/sonarrtv)
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>https://sonarr.tv/</projectUrl>
     <projectSourceUrl>https://github.com/Sonarr/Sonarr</projectSourceUrl>
     <bugTrackerUrl>https://github.com/Sonarr/Sonarr/issues</bugTrackerUrl>

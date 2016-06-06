@@ -19,7 +19,7 @@ Total Commander is a file manager replacement for Windows. Features: Drag/Drop f
 
 Total Commander is a Shareware program. This means that you can test it for a period of 30 days. After testing the program, you must either [order the full version](http://www.ghisler.com/order.htm), or delete the program from your harddisk.
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://www.ghisler.com</projectUrl>
     <bugTrackerUrl>http://www.ghisler.ch/wiki/index.php/Known_bugs_and_workarounds</bugTrackerUrl>
     <docsUrl>http://www.ghisler.ch/wiki/index.php</docsUrl>

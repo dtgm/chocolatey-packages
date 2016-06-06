@@ -22,7 +22,7 @@ According to Haralambous, here is what we can expect a font manager to provide:
 
 [FAQ](http://fontmatrix.be/node/28)
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://fontmatrix.be/</projectUrl>
     <projectSourceUrl>http://svn.gna.org/svn/undertype/trunk/tools/typotek</projectSourceUrl>
     <bugTrackerUrl>https://gna.org/bugs/</bugTrackerUrl>

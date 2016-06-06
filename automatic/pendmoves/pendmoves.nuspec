@@ -12,7 +12,7 @@ Enumerate the list of file rename and delete commands that will be executed the 
 
 There are several applications, such as service packs and hotfixes, that must replace a file that's in use and is unable to. Windows therefore provides the MoveFileEx API to rename or delete a file and allows the caller to specify that they want the operation to take place the next time the system boots, before the files are referenced. Session Manager performs this task by reading the registered rename and delete commands from the HKLMSystemCurrentControlSetControlSession ManagerPendingFileRenameOperations value.
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://technet.microsoft.com/sysinternals/bb897556</projectUrl>
     <mailingListUrl>http://forum.sysinternals.com/</mailingListUrl>
     <tags>bootup tools sysinternals</tags>

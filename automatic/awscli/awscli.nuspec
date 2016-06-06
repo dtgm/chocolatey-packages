@@ -12,7 +12,7 @@ The AWS Command Line Interface (CLI) is a unified tool to manage your AWS servic
 
 The AWS CLI introduces a new set of simple file commands for efficient file transfers to and from Amazon S3. 
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://aws.amazon.com/cli/</projectUrl>
     <projectSourceUrl>http://github.com/aws/aws-cli</projectSourceUrl>
     <bugTrackerUrl>http://github.com/aws/aws-cli/issues</bugTrackerUrl>

@@ -16,7 +16,7 @@ Celestia is expandable. Celestia comes with a large catalog of stars, galaxies, 
 
 [Forum](http://sourceforge.net/p/celestia/discussion/)
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://celestia.sourceforge.net/</projectUrl>
     <projectSourceUrl>http://sourceforge.net/p/celestia/code/HEAD/tree/trunk/celestia/</projectSourceUrl>
     <bugTrackerUrl>http://sourceforge.net/p/celestia/_list/tickets</bugTrackerUrl>

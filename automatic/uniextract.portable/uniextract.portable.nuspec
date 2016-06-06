@@ -14,7 +14,7 @@ Please note that Universal Extractor is not intended to be a general purpose arc
 
 The original motivation behind this project was to create an easy, convenient way to extract files from various types of installation packages without the need to remember arcane command line switches or track down separate utilities to handle the unpacking.  Over time, and with the encouragement of its many users and the fine folks over on the [MSFN forum](http://www.msfn.org/board/forum/159-universal-extractor/), it has evolved into a mature and very capable unarchiving utility that many, including myself, find indispensable.
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://legroom.net/software/uniextract</projectUrl>
     <projectSourceUrl>{{PackageGuid}}</projectSourceUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/21e04d93dda7b0851883f8a4e8f28f1a42793827/icons/uniextract.png</iconUrl>

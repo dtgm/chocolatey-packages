@@ -19,7 +19,7 @@ People have used this with both 64 &amp; 32 bit versions of Linux as well as Ope
 * Local-only and synchronized notebooks supported
 * Database may be encrypted locally
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://nevernote.sourceforge.net/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/23d4465f9a551febe4fce044034caf40f9536e95/icons/{{PackageName}}.png</iconUrl>
     <tags>evernote synchronization notes organization</tags>

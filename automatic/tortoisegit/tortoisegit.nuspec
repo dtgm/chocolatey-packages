@@ -13,7 +13,7 @@ TortoiseGit is a Windows Shell Interface to Git and based on TortoiseSVN. Tortoi
 [Screenshots](https://tortoisegit.org/about/screenshots/)
 [FAQ](https://tortoisegit.org/support/faq/)
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>https://tortoisegit.org/</projectUrl>
     <projectSourceUrl>https://gitlab.com/tortoisegit/tortoisegit/</projectSourceUrl>
     <bugTrackerUrl>https://tortoisegit.org/issues</bugTrackerUrl>

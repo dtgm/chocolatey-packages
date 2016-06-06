@@ -23,7 +23,7 @@ Every 6 weeks, Firefox developers take the current stable features of each build
 
 [Privacy policy](https://www.mozilla.org/en-US/privacy/firefox/)
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>https://www.mozilla.org/firefox/beta</projectUrl>
     <projectSourceUrl>http://hg.mozilla.org/releases/mozilla-beta/</projectSourceUrl>
     <bugTrackerUrl>https://bugzilla.mozilla.org/</bugTrackerUrl>

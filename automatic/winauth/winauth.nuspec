@@ -10,7 +10,7 @@
     <description>
 WinAuth is a portable, open-source Authenticator for Windows that provides a time-based [RFC 6238](http://www.ietf.org/rfc/rfc6238.txt) authenticator and common implementations, such as the Google Authenticator. WinAuth can be used with many Bitcoin trading websites as well as games, supporting Battle.net (World of Warcraft, Hearthstone, Heroes of the Storm, Diablo), Guild Wars 2, Glyph (Rift and ArcheAge), WildStar, RuneScape, SWTOR and Steam.
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>https://winauth.com/</projectUrl>
     <projectSourceUrl>https://github.com/winauth/winauth</projectSourceUrl>
     <bugTrackerUrl>https://github.com/winauth/winauth/issues</bugTrackerUrl>

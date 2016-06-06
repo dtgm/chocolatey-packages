@@ -28,7 +28,7 @@ See [github](https://chocolatey.org/packages/github)
 * [GitHub.com](https://help.github.com/) (web interface)
 * [GitHub Flow](https://guides.github.com/introduction/flow/index.html) (branch-based workflow)
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>https://hub.github.com/</projectUrl>
     <projectSourceUrl>https://github.com/github/hub</projectSourceUrl>
     <bugTrackerUrl>https://github.com/github/hub/issues</bugTrackerUrl>

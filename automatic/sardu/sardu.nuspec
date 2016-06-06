@@ -23,7 +23,7 @@ With the Bios Legacy and EFI multiboot support you can boot a PC or a Mac from t
 * [Google+](https://plus.google.com/+sardu)
 * [Twitter](https://twitter.com/sarducd)
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://www.sarducd.it/</projectUrl>
     <mailingListUrl>http://www.sarducd.it/lists/</mailingListUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages//icons/{{PackageName}}.png</iconUrl>

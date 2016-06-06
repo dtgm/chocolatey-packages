@@ -12,7 +12,7 @@ GNU Datamash is a command-line program which performs basic numeric,textual and 
 
 It is designed to be portable and reliable, with strict input validation, and robust operation to aid researchers to easily automate analysis pipelines, without writing code or even short scripts in data processing languages such as `awk`, `Perl`, or `R`.
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>https://www.gnu.org/software/datamash/</projectUrl>
     <projectSourceUrl>http://git.savannah.gnu.org/gitweb/?p=datamash.git</projectSourceUrl>
     <bugTrackerUrl>http://savannah.gnu.org/bugs/?group=datamash</bugTrackerUrl>

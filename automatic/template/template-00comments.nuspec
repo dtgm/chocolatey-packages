@@ -18,7 +18,7 @@
 
     </description>
 <!-- Must be URI format -->
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>https://example.com/</projectUrl>
 <!-- SVG or PNG, >=128px res; https://github.com/chocolatey/choco/wiki/CreatePackages#package-icon-guidelines -->
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/GitCommitHash/icons/{{packageName}}.png</iconUrl>

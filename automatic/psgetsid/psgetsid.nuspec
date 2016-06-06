@@ -10,7 +10,7 @@
     <description>
 PsGetsid allows you to translate SIDs to their display name and vice versa. It works on builtin accounts, domain accounts, and local accounts.
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://technet.microsoft.com/sysinternals/bb897417</projectUrl>
     <mailingListUrl>http://forum.sysinternals.com/</mailingListUrl>
     <tags>sid tools sysinternals</tags>

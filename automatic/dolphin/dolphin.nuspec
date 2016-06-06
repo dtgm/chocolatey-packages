@@ -18,7 +18,7 @@ It allows PC gamers to enjoy games for these two consoles in full HD (1080p) wit
 * [Wiki](https://wiki.dolphin-emu.org/)
 * [Game compatibility](https://dolphin-emu.org/compat/)
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>https://dolphin-emu.org/</projectUrl>
     <projectSourceUrl>https://github.com/dolphin-emu/dolphin</projectSourceUrl>
     <bugTrackerUrl>https://bugs.dolphin-emu.org/projects/emulator/issues</bugTrackerUrl>

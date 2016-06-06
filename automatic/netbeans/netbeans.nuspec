@@ -16,7 +16,7 @@ NetBeans provides an extensible IDE with rich functionality for Java development
 * [Twitter](https://twitter.com/netbeans)
 * [YouTube](http://www.youtube.com/user/netbeansvideos)
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>https://netbeans.org/</projectUrl>
     <projectSourceUrl>https://netbeans.org/community/sources/</projectSourceUrl>
     <bugTrackerUrl>https://netbeans.org/community/issues.html</bugTrackerUrl>

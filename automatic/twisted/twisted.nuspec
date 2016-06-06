@@ -45,7 +45,7 @@ There are many official [Twisted subprojects](http://twistedmatrix.com/trac/wiki
 * [Community](https://twistedmatrix.com/trac/wiki/TwistedCommunity)
 * [API reference](http://twistedmatrix.com/documents/current/api/)
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://twistedmatrix.com/trac/wiki/TwistedProject</projectUrl>
     <projectSourceUrl>http://twistedmatrix.com/trac/browser/trunk</projectSourceUrl>
     <docsUrl>http://twistedmatrix.com/documents/current/core/</docsUrl>

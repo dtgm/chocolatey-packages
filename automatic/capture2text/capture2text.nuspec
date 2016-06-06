@@ -34,7 +34,7 @@ To install the Chinese (NHocr) language pack:
 
 [FAQ](http://capture2text.sourceforge.net/#troubleshooting)
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://capture2text.sourceforge.net/</projectUrl>
     <projectSourceUrl>http://sourceforge.net/projects/capture2text/files/Capture2Text/</projectSourceUrl>
     <docsUrl>http://sourceforge.net/projects/capture2text/files/Capture2Text/Capture2Text_v{{PackageVersion}}/#readme</docsUrl>

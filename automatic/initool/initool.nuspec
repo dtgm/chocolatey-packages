@@ -12,7 +12,7 @@ initool lets you manipulate the contents of INI files from the command line.
 
 It is a rewrite of an earlier program by the author called "iniparse", which was written in Object Pascal for MS-DOS and later ported to Windows. initool has a backwards compatible command syntax but its operation differs; rather than modify INI files in place it outputs the modified file text to standard output. 
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>https://github.com/dbohdan/initool</projectUrl>
     <projectSourceUrl>https://github.com/dbohdan/initool</projectSourceUrl>
     <bugTrackerUrl>https://github.com/dbohdan/initool/issues</bugTrackerUrl>

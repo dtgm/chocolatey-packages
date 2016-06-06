@@ -10,7 +10,7 @@
     <description>
 View the resolution of the system clock, which is also the maximum timer resolution.
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://technet.microsoft.com/sysinternals/bb897568</projectUrl>
     <mailingListUrl>http://forum.sysinternals.com/</mailingListUrl>
     <tags>system clock tools sysinternals</tags>

@@ -28,7 +28,7 @@ The following package parameters may be passed directly to the program's install
 #### Package Specifics
 If no parameters are passed, the following is assumed: `--params '/assoc=0 /ini=%APPDATA%\IrfanView'`.
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://www.irfanview.com/</projectUrl>
     <docsUrl>http://www.irfanview.com/faq.htm</docsUrl>
     <mailingListUrl>https://irfanview-forum.de/</mailingListUrl>

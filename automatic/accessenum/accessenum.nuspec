@@ -12,7 +12,7 @@ This simple yet powerful security tool displays who has what access to directori
 
 While the flexible security model employed by Windows NT-based systems allows full control over security and file permissions, managing permissions so that users have appropriate access to files, directories and Registry keys can be difficult. There's no built-in way to quickly view user accesses to a tree of directories or keys. AccessEnum gives you a full view of your file system and Registry security settings in seconds, making it the ideal tool for helping you for security holes and lock down permissions where necessary.
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://technet.microsoft.com/sysinternals/bb897332</projectUrl>
     <mailingListUrl>http://forum.sysinternals.com/</mailingListUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/cf1efc0aac843672fbf1ca0e15082e4e11357df9/icons/{{PackageName}}.png</iconUrl>

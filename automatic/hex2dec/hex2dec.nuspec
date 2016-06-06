@@ -10,7 +10,7 @@
     <description>
 Tired of running Calc everytime you want to convert a hexadecimal number to decimal Now you can convert hex to decimal and vice versa with this simple command-line utility.
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://technet.microsoft.com/sysinternals/bb896736</projectUrl>
     <mailingListUrl>http://forum.sysinternals.com/</mailingListUrl>
     <tags>hex converter sysinternals</tags>

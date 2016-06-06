@@ -12,7 +12,7 @@ Scan file shares on your network and view their security settings to close secur
 
 An aspect of Windows NT/2000/XP network security that's often overlooked is file shares. A common security flaw occurs when users define file shares with lax security, allowing unauthorized users to see sensitive files. There are no built-in tools to list shares viewable on a network and their security settings, but ShareEnum fills the void and allows you to lock down file shares in your network.
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://technet.microsoft.com/sysinternals/bb897442</projectUrl>
     <mailingListUrl>http://forum.sysinternals.com/</mailingListUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/cf1efc0aac843672fbf1ca0e15082e4e11357df9/icons/{{PackageName}}.png</iconUrl>

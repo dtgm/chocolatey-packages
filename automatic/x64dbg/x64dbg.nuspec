@@ -19,7 +19,7 @@ An open-source x64/x32 debugger for Windows.
 * `x64dbg.exe` -- 64 bit executable
 * `x96dbg.exe` -- register shell extension and create desktop shortcuts
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://x64dbg.com/</projectUrl>
     <projectSourceUrl>http://source.x64dbg.com/</projectSourceUrl>
     <bugTrackerUrl>https://github.com/x64dbg/x64dbg/issues</bugTrackerUrl>

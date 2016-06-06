@@ -14,7 +14,7 @@ Alternatively, build games online with the GDevelop based web app [GDevApp](http
 
 [Wiki](http://wiki.compilgames.net/doku.php)
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://www.compilgames.net/</projectUrl>
     <projectSourceUrl>https://github.com/4ian/GD</projectSourceUrl>
     <bugTrackerUrl>https://github.com/4ian/GD/issues</bugTrackerUrl>

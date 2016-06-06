@@ -40,7 +40,7 @@ __-t__    The default delimiter for the -c option is a comma, but can be overrid
 
 __filter__    Psinfo will only show data for the field matching the filter. e.g. "psinfo service" lists only the service pack field.
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://technet.microsoft.com/sysinternals/bb897550</projectUrl>
     <mailingListUrl>http://forum.sysinternals.com/</mailingListUrl>
     <tags>process info tools sysinternals cli</tags>

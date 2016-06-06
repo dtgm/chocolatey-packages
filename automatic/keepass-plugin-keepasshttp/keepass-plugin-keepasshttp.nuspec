@@ -10,7 +10,7 @@
     <description>
 KeePassHttp is a plugin for KeePass 2.x and provides a means of exposing password entries securely (256bit AES/CBC) over HTTP. This plugin is primarily intended for use with PassIFox for Mozilla Firefox and chromeIPass for Google Chrome.
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>https://github.com/pfn/keepasshttp</projectUrl>
     <projectSourceUrl>https://github.com/pfn/keepasshttp</projectSourceUrl>
     <docsUrl>https://github.com/pfn/keepasshttp/blob/master/README.md</docsUrl>

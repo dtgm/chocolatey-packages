@@ -12,7 +12,7 @@ Find out what files, registry keys and other objects processes have open, which 
 
 Ever wondered which program has a particular file or directory open? Now you can find out. Process Explorer shows you information about which handles and DLLs processes have opened or loaded.
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://technet.microsoft.com/sysinternals/bb896653</projectUrl>
     <mailingListUrl>http://forum.sysinternals.com/process-explorer_forum2.html</mailingListUrl>
     <tags>process manager sysinternals gui</tags>

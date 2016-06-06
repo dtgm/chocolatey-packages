@@ -13,7 +13,7 @@ VeraCrypt is based on the abandoned software program "TrueCrypt."  VeraCrypt add
 VeraCrypt storage format is INCOMPATIBLE with TrueCrypt storage format.
     </description>
     <releaseNotes>https://veracrypt.codeplex.com/wikipage?title=Release%20Notes</releaseNotes>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>https://veracrypt.codeplex.com/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/master/icons/veracrypt.png</iconUrl>
     <licenseUrl>https://veracrypt.codeplex.com/wikipage?title=VeraCrypt%20License</licenseUrl>

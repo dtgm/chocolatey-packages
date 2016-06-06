@@ -10,7 +10,7 @@
     <description>
 Ctrl2cap is a kernel-mode device driver that filters the system's keyboard class driver in order to convert caps-lock characters into control characters. People like myself that migrated to NT from UNIX are used to having the control key located where the caps-lock key is on the standard PC keyboard, so a utility like this is essential for our editing well-being.
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://technet.microsoft.com/sysinternals/bb897578</projectUrl>
     <mailingListUrl>http://forum.sysinternals.com/</mailingListUrl>
     <tags>kernel input filtering sysinternals</tags>

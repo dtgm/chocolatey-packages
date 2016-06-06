@@ -27,7 +27,7 @@ install4j is a powerful multi-platform Java installer builder that generates nat
 * Trial begins once activated after initial execution.
 * Internet connection required for trial activation (alternatively, request an [activation key via email](http://www.ej-technologies.com/download/install4j/trial))
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://www.ej-technologies.com/products/install4j/overview.html</projectUrl>
     <bugTrackerUrl>http://ej-technologies.com/support/bugReport</bugTrackerUrl>
     <docsUrl>http://resources.ej-technologies.com/install4j/help/doc/</docsUrl>

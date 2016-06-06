@@ -12,7 +12,7 @@ Icecast is a streaming media server which currently supports Ogg (Vorbis and The
 
 It can be used to create an Internet radio station or a privately running jukebox and many things in between. It is very versatile in that new formats can be added relatively easily and supports open standards for communication and interaction.
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://www.icecast.org/</projectUrl>
     <projectSourceUrl>https://github.com/xiph/Icecast-Server</projectSourceUrl>
     <bugTrackerUrl>https://trac.xiph.org/newticket</bugTrackerUrl>

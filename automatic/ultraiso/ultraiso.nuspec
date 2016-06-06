@@ -19,7 +19,7 @@ UltraISO  is an ISO CD/DVD image file creating/editing/converting tool and a boo
 #### Commercial software
 This package installs a limited version of the software with a nagscreen and 300MB document limit. [Purchase](http://www.ezbsystems.com/ultraiso/order.htm) removes these restrictions.
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://www.ezbsystems.com/ultraiso/</projectUrl>
     <bugTrackerUrl>http://www.ezbsystems.com/ultraiso/support.htm</bugTrackerUrl>
     <docsUrl>http://www.ezbsystems.com/ultraiso/faq.htm</docsUrl>

@@ -14,7 +14,7 @@ Anomos is designed to be easy to use – you won’t even be aware of the securi
 
 Please Note: Anomos is an experimental anonymity protocol. It has not yet undergone the serious peer-review necessary to consider it safe for general use. Do not rely on it for strong anonymity.
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>https://anomos.info/</projectUrl>
     <projectSourceUrl>http://git.anomos.info/?p=anomos.git</projectSourceUrl>
     <docsUrl>http://anomos.info/doc/</docsUrl>

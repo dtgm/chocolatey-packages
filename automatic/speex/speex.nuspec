@@ -22,7 +22,7 @@ Speex is based on CELP and is designed to compress voice at bitrates ranging fro
 * Acoustic echo canceller
 * Noise suppression
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://www.speex.org/</projectUrl>
     <projectSourceUrl>http://git.xiph.org/speex.git/</projectSourceUrl>
     <docsUrl>http://www.speex.org/docs/</docsUrl>

@@ -12,7 +12,7 @@ PADGen easily creates Portable Application Descriptions (PAD) 3.x files for all 
 
 Portable Application Description or PAD is a standard developed by the Association of Shareware Professionals ([ASP](http://asp-shareware.com/)). It is designed to replace the old non-formal, plain text [file_id.diz](https://wikipedia.org/wiki/FILE_ID.DIZ) and other textual program descriptions with an XML-based and strictly specified format.
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://pad.asp-software.org/padgen.php</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2d4d036fc84125c01036ba3fbc7fa1b1de36a767/icons/{{PackageName}}.png</iconUrl>
     <tags>pad builder portable</tags>

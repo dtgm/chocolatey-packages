@@ -18,7 +18,7 @@ Dogecoin is an open source peer-to-peer digital currency, favored by Shiba Inus 
 * [IRC](http://webchat.freenode.net/?nick=Shibe..%26channels=%23dogecoin%26prompt=1)
 * [Reddit](http://www.reddit.com/r/dogecoin)
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://dogecoin.com</projectUrl>
     <projectSourceUrl>https://github.com/dogecoin/dogecoin</projectSourceUrl>
     <bugTrackerUrl>https://github.com/dogecoin/dogecoin/issues</bugTrackerUrl>

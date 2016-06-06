@@ -13,7 +13,7 @@ freeSSHd, like it's name says, is a free implementation of an SSH server. It pro
 #### Community
 * [Forum](http://www.freesshd.com/?ctt=forum)
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://www.freesshd.com/</projectUrl>
     <bugTrackerUrl>http://www.freesshd.com/index.php?ctt=forum</bugTrackerUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/891e98dfe9c81162cd69ea7e0080cc34ed9ba84f/icons/{{PackageName}}.png</iconUrl>

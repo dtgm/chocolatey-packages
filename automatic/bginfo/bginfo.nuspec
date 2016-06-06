@@ -36,7 +36,7 @@ __/log__  Causes BGInfo to write errors to the specified log file instead of gen
 
 __/rtf__  Causes BGInfo to write its output text to an RTF file. All formatting information and colors are included.
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>https://technet.microsoft.com/sysinternals/bb897557</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/39f15aca092eb7040b8478d0c604fa61c76d38cc/icons/{{PackageName}}.png</iconUrl>
     <mailingListUrl>http://forum.sysinternals.com/bginfo_forum5.html</mailingListUrl>

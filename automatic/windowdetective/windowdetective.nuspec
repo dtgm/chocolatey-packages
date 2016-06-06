@@ -22,7 +22,7 @@ Window Detective is a programmer's tool used to "spy" on an application's window
 #### Documentation
 * [Screenshots](http://windowdetective.sourceforge.net/screenshots.html)
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://windowdetective.sourceforge.net/</projectUrl>
     <projectSourceUrl>http://sourceforge.net/projects/windowdetective/files/release-{{PackageVersion}}/Window-Detective-{{PackageVersion}}-src.zip/download</projectSourceUrl>
     <bugTrackerUrl>http://sourceforge.net/p/windowdetective/bugs/</bugTrackerUrl>

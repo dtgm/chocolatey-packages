@@ -13,7 +13,7 @@ This program provides an easy way to test whether TRIM works on your SSD. It use
 The program will set up a test by creating and deleting a file with unique contents, then (on the second run) checks if the data is still accessible at the file's previous location.
     </description>
     <language>en-us</language>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://blog.thecybershadow.net/2012/12/09/ssd-trim-check-tool/</projectUrl>
     <projectSourceUrl>https://github.com/CyberShadow/trimcheck</projectSourceUrl>
     <bugTrackerUrl>https://github.com/CyberShadow/trimcheck/issues</bugTrackerUrl>

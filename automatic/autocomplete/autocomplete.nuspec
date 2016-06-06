@@ -16,7 +16,7 @@ Suggests and completes words as you type! Write faster and more efficiently.
 3. Press Enter or Tab to trigger the completion with the currently selected word.
 4. Alternatively, press one of Alt + 1, Alt + 2, ..., Alt + 9, Alt + 0 to trigger completion with the 1st, 2nd, ..., 9th, and 10th word, respectively.
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>https://github.com/Uberi/Autocomplete</projectUrl>
     <projectSourceUrl>https://github.com/Uberi/Autocomplete</projectSourceUrl>
     <bugTrackerUrl>https://github.com/Uberi/Autocomplete/issues</bugTrackerUrl>

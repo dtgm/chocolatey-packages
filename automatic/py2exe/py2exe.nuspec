@@ -25,7 +25,7 @@ py2exe is a distutils extension to build standalone Windows executable programs 
 * [Google+]()
 * [Twitter]()
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://www.py2exe.org/</projectUrl>
     <projectSourceUrl>http://sourceforge.net/p/py2exe/svn/</projectSourceUrl>
     <bugTrackerUrl>http://sourceforge.net/p/py2exe/bugs/</bugTrackerUrl>

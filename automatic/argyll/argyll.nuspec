@@ -14,7 +14,7 @@ Argyll is a collection of source code that compiles into a set of command line t
 
 Argyll also includes a general purpose ICC V2 profile format access library, icclib, and a general purpose CGATS file format I/O library.
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://argyllcms.com/</projectUrl>
     <projectSourceUrl>http://argyllcms.com/downloadsrc.html</projectSourceUrl>
     <docsUrl>http://argyllcms.com/doc/ArgyllDoc.html</docsUrl>

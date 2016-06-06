@@ -10,7 +10,7 @@
     <description>
 PirateBrowser is a bundle package of the Tor client (Vidalia), [FireFox Portable](http://www.firefox-usb.com/) browser (with [foxyproxy addon](http://getfoxyproxy.org/downloads.html)) and some custom configs that allows you to circumvent censorship that certain countries such as Iran, North Korea, United Kingdom, Belgium, Finland, Denmark, Italy and Ireland impose onto their citizens.
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>https://piratebrowser.com/</projectUrl>
     <docsUrl>https://piratebrowser.com/#faq</docsUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/c9f5d2fb09282df62f9720e24b82530de4533216/icons/{{PackageName}}.png</iconUrl>

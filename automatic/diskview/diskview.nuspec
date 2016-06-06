@@ -10,7 +10,7 @@
     <description>
 DiskView shows you a graphical map of your disk, allowing you to determine where a file is located or, by clicking on a cluster, seeing which file occupies it. Double-click to get more information about a file to which a cluster is allocated.
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://technet.microsoft.com/sysinternals/bb896650</projectUrl>
     <mailingListUrl>http://forum.sysinternals.com/</mailingListUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/cf1efc0aac843672fbf1ca0e15082e4e11357df9/icons/{{PackageName}}.png</iconUrl>

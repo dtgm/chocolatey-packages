@@ -10,7 +10,7 @@
     <description>
 DiskExt displays volume disk-mappings by demonstrating the use of the IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS command that returns information about what disks the partitions of a volume are located on (multipartition disks can reside on multiple disks) and where on the disk the partitions are located.
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://technet.microsoft.com/sysinternals/bb896648</projectUrl>
     <mailingListUrl>http://forum.sysinternals.com/</mailingListUrl>
     <tags>disk mapping tools sysinternals</tags>

@@ -20,7 +20,7 @@ Portable Application Description or PAD is a standard developed by the Associati
 * Built-in FTP Uploader
 * Compatible on the data level with popular submission applications and services
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://padmanager.org/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2d4d036fc84125c01036ba3fbc7fa1b1de36a767/icons/{{PackageName}}.png</iconUrl>
     <tags>pad validator</tags>

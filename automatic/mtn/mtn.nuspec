@@ -19,7 +19,7 @@ Monotone (mtn) is a distributed version control tool. Monotone tracks revisions 
 
 Please be aware that monotone is a slightly unorthodox version control tool, and many of its concepts are similar — but subtly or significantly different — from concepts with similar names in other version control tools. 
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://www.monotone.ca/</projectUrl>
     <projectSourceUrl>http://wiki.monotone.ca/MonotoneProjectServer/</projectSourceUrl>
     <bugTrackerUrl>http://code.monotone.ca/p/monotone/issues/</bugTrackerUrl>

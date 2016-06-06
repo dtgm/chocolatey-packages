@@ -32,7 +32,7 @@ __-m__    Dump NUMA access cost.
 
 __-v__    Dump only virtualization-related features including support for second level address translation (requires administrative rights on Intel systems).
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://technet.microsoft.com/sysinternals/cc835722</projectUrl>
     <mailingListUrl>http://forum.sysinternals.com/</mailingListUrl>
     <tags>cpu info sysinternals</tags>

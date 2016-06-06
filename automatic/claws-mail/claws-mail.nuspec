@@ -23,7 +23,7 @@ Claws Mail is a GTK+ based, lightweight, and fast e-mail client and newsreader. 
 * [Plugins](http://www.claws-mail.org/plugins.php)
 * [Tools](http://www.claws-mail.org/tools.php)
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://www.claws-mail.org/win32/</projectUrl>
     <projectSourceUrl>http://git.claws-mail.org/?p=claws.git;a=tree</projectSourceUrl>
     <bugTrackerUrl>http://www.thewildbeast.co.uk/claws-mail/bugzilla/index.cgi</bugTrackerUrl>

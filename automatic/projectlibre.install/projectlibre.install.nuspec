@@ -19,7 +19,7 @@ ProjectLibre is an open source Java-based alternative to Microsoft Project. It h
 * Network Diagram
 * Earned Value Costing
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://www.projectlibre.org/</projectUrl>
     <projectSourceUrl>https://sourceforge.net/p/projectlibre/code/</projectSourceUrl>
     <bugTrackerUrl>https://sourceforge.net/p/projectlibre/tickets/</bugTrackerUrl>

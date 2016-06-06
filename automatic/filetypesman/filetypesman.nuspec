@@ -16,7 +16,7 @@ For each file type, the following information is displayed: Type Name, Descripti
 
 FileTypesMan also allows you to easily edit the properties and flags of each file type, as well as it allows you to add, edit, and remove actions in a file type.
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/file_types_manager.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/filetypesman.png</iconUrl>
     <tags>filetype extension nirsoft</tags>

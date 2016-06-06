@@ -19,7 +19,7 @@ The program consists of three main modules: Layout Editor, Schematic Editor, and
 
 This software is free for non-profit usage or evaluation. If you earn (or save) money by using the Freeware version of EAGLE Light, you have to [register it](http://www.cadsoftusa.com/shop/pricing/).  For limitations, see http://www.cadsoftusa.com/download-eagle/freeware/
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://www.cadsoftusa.com/download-eagle/freeware/</projectUrl>
     <docsUrl>http://www.cadsoftusa.com/downloads/documentation</docsUrl>
     <mailingListUrl>http://www.cadsoftusa.com/community/</mailingListUrl>

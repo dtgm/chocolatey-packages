@@ -35,7 +35,7 @@ QuiteRSS is an open-source, cross-platform, multi-tabbed RSS/Atom news feeds rea
 * Cross-platform: written in C++ and Qt
 * Multilingual: English, Arabic, Chinese (China), Chinese (Taiwan), Czech, Dutch, Farsi, Finnish, French, Galician, German, Greek, Hungarian, Italian, Japanese, Korean, Lithuanian, Polish, Portuguese (Brazil), Portuguese (Portugal), Romanian, Russian, Serbian, Slovak, Spanish, Swedish, Tajik, Turkish, Ukrainian, Vietnamese
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://quiterss.org/</projectUrl>
     <projectSourceUrl>https://github.com/QuiteRSS/quiterss</projectSourceUrl>
     <bugTrackerUrl>https://github.com/QuiteRSS/quiterss/issues</bugTrackerUrl>

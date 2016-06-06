@@ -15,7 +15,7 @@ The project is highly ambitious, involving state-of-the-art 3D graphics, detaile
 #### Disk requirements
 Install file is about 570 MB and extracts to about 1.51 GB.
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://play0ad.com/</projectUrl>
     <projectSourceUrl>http://trac.wildfiregames.com/browser</projectSourceUrl>
     <bugTrackerUrl>http://trac.wildfiregames.com/report</bugTrackerUrl>

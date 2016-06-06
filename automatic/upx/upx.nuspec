@@ -10,7 +10,7 @@
     <description>
 UPX achieves an excellent compression ratio and offers very fast decompression. Your executables suffer no memory overhead or other drawbacks for most of the formats supported, because of in-place decompression.
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://upx.sourceforge.net/</projectUrl>
     <projectSourceUrl>http://sourceforge.net/p/upx/code/ci/default/tree/</projectSourceUrl>
     <bugTrackerUrl>http://sourceforge.net/p/upx/bugs/</bugTrackerUrl>

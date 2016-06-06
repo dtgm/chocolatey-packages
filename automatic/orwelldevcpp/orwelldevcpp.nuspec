@@ -12,7 +12,7 @@ Dev-C++ is a free full-featured integrated development environment (IDE) distrib
 
 It is bundled with, and uses, the MinGW or TDM-GCC 64bit port of the GCC as its compiler. Dev-C++ can also be used in combination with Cygwin or any other GCC-based compiler.
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://orwelldevcpp.blogspot.com/</projectUrl>
     <projectSourceUrl>http://sourceforge.net/p/orwelldevcpp/code/ci/master/tree/</projectSourceUrl>
     <bugTrackerUrl>http://sourceforge.net/p/orwelldevcpp/tickets/</bugTrackerUrl>

@@ -12,7 +12,7 @@ CacheSet is a program that allows you to control the Cache Manager's working set
 
 CacheSet is an applet that allows you to manipulate the working-set parameters of the system file cache. Unlike CacheMan, CacheSet runs on all versions of NT and will work without modifications on new Service Pack releases. In addition to providing you the ability to control the minimum and maximum working set sizes, it also allows you to reset the Cache's working set, forcing it to grow as necessary from a minimal starting point. Also unlike CacheMan, changes made with CacheSet have an immediate effect on the size of the Cache.
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://technet.microsoft.com/sysinternals/bb897561</projectUrl>
     <mailingListUrl>http://forum.sysinternals.com/</mailingListUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/cf1efc0aac843672fbf1ca0e15082e4e11357df9/icons/{{PackageName}}.png</iconUrl>

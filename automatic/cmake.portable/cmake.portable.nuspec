@@ -12,7 +12,7 @@ CMake is a family of tools designed to build, test and package software. CMake i
 
 [Development](http://www.cmake.org/developer-resources/)
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://www.cmake.org/</projectUrl>
     <projectSourceUrl>http://www.cmake.org/gitweb?p=cmake.git;a=summary</projectSourceUrl>
     <bugTrackerUrl>https://public.kitware.com/Bug/</bugTrackerUrl>

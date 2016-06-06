@@ -17,7 +17,7 @@ This program does not slow your computer as it only uses unused computing power.
 2. Enter a [name](http://folding.stanford.edu/home/fah-user-name/) and/or team #, and [Passkey](http://folding.stanford.edu/home/faq/faq-passkey/)
     </description>
     <language>en-us</language>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://folding.stanford.edu/</projectUrl>
     <docsUrl>https://folding.stanford.edu/home/guide/windows-install-guide/</docsUrl>
     <mailingListUrl>https://foldingforum.org/</mailingListUrl>

@@ -24,7 +24,7 @@ FontForge allows scripting via python, or with it’s legacy scripter, has built
 
 FontForge can also extract fonts fom PDFs and validate fonts for potential issues.
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>https://fontforge.github.io/</projectUrl>
     <projectSourceUrl>https://github.com/fontforge/fontforge</projectSourceUrl>
     <bugTrackerUrl>https://github.com/fontforge/fontforge/issues</bugTrackerUrl>

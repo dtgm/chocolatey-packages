@@ -10,7 +10,7 @@
     <description>
 Advanced Onion Router (AdvTOR/AdvOR) is a portable client for the OR network and is intended to be an improved alternative for Tor+Vidalia+Privoxy bundle for Windows users. Some of the improvements include UNICODE paths, support for HTTP and HTTPS proxy protocols on the same Socks4/Socks5 port with HTTP header filtering that generates fake identity-dependent headers every time the identity is changed (proxy chains are also supported), support for NTLM proxies, a User Interface that makes Tor's options and actions more accessible, local banlist for forbidden addresses, private identity isolation, a point-and-click process interceptor that can redirect connections from programs that don't support proxies, also giving them fake information about the local system and support for .onion addresses. Also, it can estimate AS paths for all circuits and prevent AS path intersections, it can restrict circuits to be built using only nodes from different countries, can change circuit lengths and more.
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://advtor.sourceforge.net/</projectUrl>
     <projectSourceUrl>http://sourceforge.net/projects/advtor/files/AdvOR-{{PackageVersion}}/AdvOR-{{PackageVersion}}src.zip/download</projectSourceUrl>
     <bugTrackerUrl>http://sourceforge.net/p/advtor/discussion/2254385/</bugTrackerUrl>

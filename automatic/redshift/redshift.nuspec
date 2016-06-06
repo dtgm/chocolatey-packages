@@ -17,7 +17,7 @@ This program is inspired by [f.lux](https://chocolatey.org/packages/f.lux) (plea
 #### Command usage
 * `redshift -h`
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://jonls.dk/redshift/</projectUrl>
     <projectSourceUrl>https://github.com/jonls/redshift/</projectSourceUrl>
     <bugTrackerUrl>https://github.com/jonls/redshift/issues</bugTrackerUrl>

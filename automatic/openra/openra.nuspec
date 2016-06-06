@@ -22,7 +22,7 @@ OpenRA's primary focus is cross-platform multiplayer between Windows, OS X, and 
 * [Twitter](http://twitter.com/openRA)
 * [Reddit](http://www.reddit.com/r/openra)
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://www.openra.net/</projectUrl>
     <projectSourceUrl>https://github.com/OpenRA/OpenRA</projectSourceUrl>
     <bugTrackerUrl>https://github.com/OpenRA/OpenRA/issues</bugTrackerUrl>

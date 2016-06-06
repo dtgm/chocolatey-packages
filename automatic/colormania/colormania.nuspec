@@ -10,7 +10,7 @@
     <description>
 ColorMania is a extended colorpicker with an eyedropper component and a screen magnifier. ColorMania lets you easily select and modify colors. It's the ideal tool for website and application developers. You can pick colors from anywhere on your screen and interactively change the RGB and HSV values. The latest version has undo/redo functionality.
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://www.blacksunsoftware.com/colormania.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/3be9252c1d790463992898b7a913f0d4016f8a73/icons/{{PackageName}}.png</iconUrl>
     <tags>graphics color picker eyedropper magnifier</tags>

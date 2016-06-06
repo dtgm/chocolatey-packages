@@ -10,7 +10,7 @@
     <description>
 VBoxVmService is a Windows application that allows you to run Oracle's VirtualBox VMs from within a native Windows service entity.
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://vboxvmservice.sourceforge.net/</projectUrl>
     <projectSourceUrl>http://sourceforge.net/p/vboxvmservice/code/ci/master/tree/</projectSourceUrl>
     <bugTrackerUrl>http://sourceforge.net/p/vboxvmservice/bugs/</bugTrackerUrl>

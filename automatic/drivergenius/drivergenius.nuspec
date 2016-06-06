@@ -26,7 +26,7 @@ Driver Genius is a professional driver management tool that features both driver
 #### Commercial software
 This package installs the Free version. [Additional features](http://www.driver-soft.com/order.html) may be acquired by purchasing a license.
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://www.driver-soft.com/product.html</projectUrl>
     <docsUrl>http://www.driver-soft.com/userguide.html</docsUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/408ded4dd91e2df4543abc86857677fb7e10c0d3/icons/{{PackageName}}.png</iconUrl>

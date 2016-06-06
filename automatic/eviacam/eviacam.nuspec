@@ -14,7 +14,7 @@ It works on standard PC equipped with a webcam. No additional hardware is requir
 
 [Forum](http://sourceforge.net/p/eviacam/discussion/)
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://{{PackageName}}.sourceforge.net/</projectUrl>
     <projectSourceUrl>http://sourceforge.net/p/{{PackageName}}/{{PackageName}}/</projectSourceUrl>
     <bugTrackerUrl>https://sourceforge.net/p/{{PackageName}}/bugs/</bugTrackerUrl>

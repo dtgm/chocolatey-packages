@@ -20,7 +20,7 @@ With Electron, creating a desktop application for your company or idea is easy. 
 * [IRC](http://webchat.freenode.net/?nick=username..%26channels=%23atom-shell%26prompt=1)
 * [Twitter](https://twitter.com/electronjs)
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://electron.atom.io/</projectUrl>
     <projectSourceUrl>https://github.com/atom/electron</projectSourceUrl>
     <bugTrackerUrl>https://github.com/atom/electron/issues</bugTrackerUrl>

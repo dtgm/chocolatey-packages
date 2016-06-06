@@ -26,7 +26,7 @@ It is built by taking the latest stable Core release, applying a series of [patc
 * After encrypting wallet.dat, back up wallet.dat to at least one other secure storage medium.
 * More information about [securing your wallet](https://bitcoin.org/en/secure-your-wallet)
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>https://bitcoinxt.software</projectUrl>
     <projectSourceUrl>https://github.com/bitcoinxt/bitcoinxt</projectSourceUrl>
     <bugTrackerUrl>https://github.com/bitcoinxt/bitcoinxt/issues</bugTrackerUrl>

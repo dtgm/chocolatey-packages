@@ -23,7 +23,7 @@ WinEdt's Menu contains plenty of useful commands, and many are associated with S
 
 WinEdt may be used for a __31 day__ trial period to evaluate the software. All features are available during the trial period. Once the trial period has elapsed, WinEdt will begin issuing warning messages reminding you that the registration is overdue. Such warnings will not cause any damage to your documents; however, they will likely prove rather annoying and distracting. If you are using WinEdt for serious work you are advised to [obtain a license](http://winedt.com/registration.html#tables) prior to the end of your trial period to avoid unwanted distractions.
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://www.winedt.com/</projectUrl>
     <bugTrackerUrl>http://www.winedt.org/Doc/FAQ/bugs.php</bugTrackerUrl>
     <docsUrl>http://www.winedt.org/Doc/</docsUrl>    

@@ -14,7 +14,7 @@ Newsbin is a NNTP client. A connection to a NNTP service is required.
 * [15 day trial](https://www.newsbin.com/trialkey.php)
 * [Buy](http://www.newsbin.com/buy.php)
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://www.newsbin.com/</projectUrl>
     <bugTrackerUrl>http://forums.newsbin.com/viewforum.php?f=37</bugTrackerUrl>
     <mailingListUrl>http://forums.newsbin.com/</mailingListUrl>

@@ -22,7 +22,7 @@ View information about the movies stored on your computer.
 
 [Screenshots](https://github.com/anlarke/MovieExplorer#screenshots)
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>https://github.com/anlarke/MovieExplorer</projectUrl>
     <projectSourceUrl>https://github.com/anlarke/MovieExplorer</projectSourceUrl>
     <bugTrackerUrl>https://github.com/anlarke/MovieExplorer/issues</bugTrackerUrl>

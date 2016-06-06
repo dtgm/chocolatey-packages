@@ -26,7 +26,7 @@ Connect to every server with an easy to use interface.
 * The best client to connect to many new OpenStack Swift deployments.
 * Advanced SSH features
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://cyberduck.io/</projectUrl>
     <projectSourceUrl>https://trac.cyberduck.io/</projectSourceUrl>
     <bugTrackerUrl>https://trac.cyberduck.io/query</bugTrackerUrl>

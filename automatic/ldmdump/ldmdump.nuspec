@@ -19,7 +19,7 @@ __-__     Displays the supported options and the units of measurement used for o
 
 __-d#__    Specifies the number of the disk for _LDMDump_ to examine. For example, "ldmdump /d0" has _LDMDump_ show the LDM database information stored on disk 0.`
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://technet.microsoft.com/sysinternals/bb897413</projectUrl>
     <mailingListUrl>http://forum.sysinternals.com/</mailingListUrl>
     <tags>ldm partition disk sysinternals</tags>

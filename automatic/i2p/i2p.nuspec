@@ -21,7 +21,7 @@ Invisible Internet Project (I2P) is an anonymous network, exposing a simple laye
   * If inbound TCP is forwarded, also enable inbound TCP
   * Adjust bandwidth settings as appropriate
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>https://geti2p.net</projectUrl>
     <projectSourceUrl>https://geti2p.net/en/get-involved/guides/new-developers</projectSourceUrl>
     <bugTrackerUrl>https://trac.i2p2.de/report/1</bugTrackerUrl>

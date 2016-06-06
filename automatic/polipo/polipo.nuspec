@@ -23,7 +23,7 @@ In short, Polipo uses a plethora of techniques to make web browsing (seem) faste
 * [FAQ](http://www.pps.univ-paris-diderot.fr/~jch/software/polipo/faq.html)
 * [manpage](http://www.pps.univ-paris-diderot.fr/~jch/software/polipo/polipo.man.html)
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://www.pps.univ-paris-diderot.fr/~jch/software/polipo/</projectUrl>
     <projectSourceUrl>https://github.com/jech/polipo</projectSourceUrl>
     <bugTrackerUrl>https://github.com/jech/polipo/issues</bugTrackerUrl>

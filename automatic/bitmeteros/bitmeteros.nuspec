@@ -24,7 +24,7 @@ Default local web interface address: http://localhost:2605
 * [Forum](http://codebox.org.uk/jforum/forums/list.page)
 * [Twitter](https://twitter.com/codeboxsoftware)
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://codebox.org.uk/pages/bitmeterOs</projectUrl>
     <projectSourceUrl>https://github.com/codebox/bitmeteros</projectSourceUrl>
     <bugTrackerUrl>https://github.com/codebox/bitmeteros/issues</bugTrackerUrl>

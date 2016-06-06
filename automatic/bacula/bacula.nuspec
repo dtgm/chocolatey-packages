@@ -15,7 +15,7 @@ In technical terms, it is a network Client/Server based backup program. Bacula i
 [Screenshots](http://blog.bacula.org/documentation/screenshots/)
 [Wiki](http://wiki.bacula.org/doku.php)
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://www.bacula.org/</projectUrl>
     <projectSourceUrl>http://www.bacula.org/git/cgit.cgi/bacula/tree/bacula/src/win32</projectSourceUrl>
     <docsUrl>http://blog.bacula.org/documentation/documentation/</docsUrl>

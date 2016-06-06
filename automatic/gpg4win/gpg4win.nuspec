@@ -43,7 +43,7 @@ __gpg4win__ (this package) includes all the above, and:
 * [Kleopatra](https://www.kde.org/applications/utilities/kleopatra/) -- The central certiﬁcate administration of Gpg4win, which ensures uniform user navigation for all cryptographic operations.
 * [Compendium](http://www.gpg4win.org/doc/en/gpg4win-compendium.html) -- The documentation for beginner and advanced users, available in English and German.
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://www.gpg4win.org/</projectUrl>
     <projectSourceUrl>http://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpg4win.git;a=tree</projectSourceUrl>
     <bugTrackerUrl>https://bugs.gnupg.org/</bugTrackerUrl>

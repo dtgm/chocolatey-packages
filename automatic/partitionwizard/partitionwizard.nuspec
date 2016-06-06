@@ -24,7 +24,7 @@ Partition Wizard Free Edition is a free partition manager software designed by M
 #### Freeware
 This package installs the free edition of Partition Wizard. [Additional features](http://www.partitionwizard.com/comparison.html#main-features) may be unlocked with [purchase](http://www.partitionwizard.com/buy.html) of a license.
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://www.partitionwizard.com/free-partition-manager.html</projectUrl>
     <docsUrl>http://www.partitionwizard.com/help/</docsUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/408ded4dd91e2df4543abc86857677fb7e10c0d3/icons/{{PackageName}}.png</iconUrl>

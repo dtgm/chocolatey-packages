@@ -38,7 +38,7 @@ The rest is the same as Bitcoin:
 * [Twitter](https://twitter.com/LitecoinProject)
 * [Google+](https://plus.google.com/+LitecoinOrg)
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>https://litecoin.org/</projectUrl>
     <projectSourceUrl>https://github.com/litecoin-project/litecoin</projectSourceUrl>
     <bugTrackerUrl>https://github.com/litecoin-project/litecoin/issues</bugTrackerUrl>

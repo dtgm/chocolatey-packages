@@ -26,7 +26,7 @@ __\\\\computername__    Specifies the name of the computer for which to list log
 
 __username__    If you specify a user name _PsLoggedOn_ searches the network for computers to which that user is logged on. This is useful if you want to ensure that a particular user is not logged on when you are about to change their user profile configuration.
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://technet.microsoft.com/sysinternals/bb897545</projectUrl>
     <mailingListUrl>http://forum.sysinternals.com/</mailingListUrl>
     <tags>login tools sysinternals</tags>

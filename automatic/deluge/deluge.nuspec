@@ -18,7 +18,7 @@ Deluge is not designed for any one desktop environment and will work just fine i
 
 Deluge is ​Free Software and is licensed under the ​GNU General Public License.
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/{{PackageName}}/{{PackageVersion}}</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://deluge-torrent.org/</projectUrl>
     <projectSourceUrl>http://git.deluge-torrent.org/deluge</projectSourceUrl>
     <bugTrackerUrl>http://dev.deluge-torrent.org/roadmap</bugTrackerUrl>
