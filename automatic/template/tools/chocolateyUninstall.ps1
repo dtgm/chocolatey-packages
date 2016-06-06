@@ -205,6 +205,20 @@ Get-ItemProperty -Path @('HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVe
                                               -SilentArgs "$($_.PSChildName) $silentArgs" `
                                               -ValidExitCodes $validExitCodes}
 
+$packageName = '{{PackageName}}'
+$softwareName = "$packageName*"
+$installerType = 'msi'
+$silentArgs = '/quiet /qn /norestart'
+$validExitCodes = @(0,3010)
+ 
+[array]$key = Get-UninstallRegistryKey -SoftwareName $softwareName
+ 
+$key | ForEach-Object {
+  Uninstall-ChocolateyPackage -PackageName $packageName `
+                              -FileType $installerType `
+                              -SilentArgs "$($_.PSChildName) $silentArgs" `
+                              -ValidExitCodes $validExitCodes
+}
 
 ### MSI; match name AND version ###
 $packageName = '{{PackageName}}'
@@ -224,6 +238,7 @@ Get-ItemProperty -Path @('HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVe
                                               -SilentArgs "$($_.PSChildName) $silentArgs" `
                                               -ValidExitCodes $validExitCodes}
 
+                                              
 ###  EXE; INNO  ###
 $packageName = '{{PackageName}}'
 $packageSearch = "$packageName*"  # quotes needed if glob
@@ -241,6 +256,22 @@ Get-ItemProperty -Path @('HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVe
                                               -SilentArgs $($silentArgs) `
                                               -File $($_.UninstallString.Replace('"','')) `
                                               -ValidExitCodes $validExitCodes}
+
+$packageName = '{{PackageName}}'
+$softwareName = "$packageName*"
+$installerType = 'exe'
+$silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
+$validExitCodes = @(0)
+ 
+[array]$key = Get-UninstallRegistryKey -SoftwareName $softwareName
+ 
+$key | ForEach-Object {
+  Uninstall-ChocolateyPackage -PackageName $packageName `
+                              -FileType $installerType `
+                              -SilentArgs $($silentArgs) `
+                              -File $($_.UninstallString.Replace('"','')) `
+                              -ValidExitCodes $validExitCodes
+}
 
 
 ###  EXE; NSIS  ###   
@@ -260,6 +291,23 @@ Get-ItemProperty -Path @('HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVe
                                               -SilentArgs $($silentArgs) `
                                               -File $($_.UninstallString.Replace('"','')) `
                                               -ValidExitCodes $validExitCodes}
+
+
+$packageName = '{{PackageName}}'
+$softwareName = "$packageName*"
+$installerType = 'exe'
+$silentArgs = '/S'
+$validExitCodes = @(0)
+ 
+[array]$key = Get-UninstallRegistryKey -SoftwareName $softwareName
+ 
+$key | ForEach-Object {
+  Uninstall-ChocolateyPackage -PackageName $packageName `
+                              -FileType $installerType `
+                              -SilentArgs $($silentArgs) `
+                              -File $($_.UninstallString.Replace('"','')) `
+                              -ValidExitCodes $validExitCodes
+}
 
 
 ### EXE; install4j ###
