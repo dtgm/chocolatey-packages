@@ -14,10 +14,10 @@ You can view the TCP/IP conversations in Ascii mode (for text-based protocols, l
 
 SmartSniff provides 3 methods for capturing TCP/IP packets:
 
-* Raw Sockets (Only for Windows 2000/XP or greater): Allows you to capture TCP/IP packets on your network without installing
-a capture driver. This method has some <a href="#problems">limitations and problems</a>.
+* Raw Sockets (Only for Windows 2000/XP or greater): Allows you to capture TCP/IP packets on your network without installing a capture driver. This method has some limitations and problems.
 * WinPcap Capture Driver: Allows you to capture TCP/IP packets on all Windows operating systems.  This method is generally the preferred way to capture TCP/IP packets with SmartSniff, and it works better than the Raw Sockets method.
 * Microsoft Network Monitor Driver (Only for Windows 2000/XP/2003): Microsoft provides a free capture driver under Windows 2000/XP/2003 that can be used by SmartSniff, but this driver is not installed by default, and you have to manually install it.
+
 One of the tools in this package is netcap.exe. When you run this tool in the first time, the Network Monitor Driver
 will automatically be installed on your system.
 
@@ -30,7 +30,8 @@ Microsoft Network Monitor Driver 3: Microsoft provides a new version of Microsof
     <licenseUrl>http://www.nirsoft.net/utils/smsniff.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-[What's New?](http://www.nirsoft.net/utils/smsniff.html)
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   </metadata>
   <files>

@@ -10,7 +10,7 @@
     <description>
 TagsReport reads HTML file and displays statistical information about the tags the appears in it. You can use this utility to locate problems in your HTML page.
 
-For Example: If the end counter value for `<table>` tag is different from the start counter value, something is possibly wrong in your HTML file, because every `<table>` tag must have a closing tag (`</table>`).
+For Example: If the end counter value for &lt;table&gt; tag is different from the start counter value, something is possibly wrong in your HTML file, because every &lt;table&gt; tag must have a closing tag (&lt;/table&gt;).
     </description>
     <projectUrl>http://www.nirsoft.net/utils/tagsrep.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/tagsrep.png</iconUrl>

@@ -2,7 +2,7 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
     <id>{{PackageName}}</id>
-    <title>SmartSniff (Portable)</title>
+    <title>SmartSniff</title>
     <version>{{PackageVersion}}</version>
     <authors>Nir Sofer</authors>
     <owners>dtgm</owners>
@@ -34,8 +34,8 @@ Microsoft Network Monitor Driver 3: Microsoft provides a new version of Microsof
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
+    <dependencies>
+      <dependency id="{{PackageName}}.install" version="[{{PackageVersion}}]" />
+    </dependencies>
   </metadata>
-  <files>
-    <file src="tools\**" target="tools" />
-  </files>
 </package>
