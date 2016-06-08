@@ -5,10 +5,9 @@ $checksumType = 'sha1'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $installFile = Join-Path $toolsDir "$($packageName).exe"
 
-$chocTempDir = Join-Path $Env:Temp "chocolatey"
-$tempDir = Join-Path $chocTempDir "$packageName"
-if (![System.IO.Directory]::Exists($tempDir)) {[System.IO.Directory]::CreateDirectory($tempDir)}
-$zipFile = Join-Path $tempDir "$($packageName).zip"
+$chocoTempDir = Join-Path $Env:Temp "$packageName"
+if (![System.IO.Directory]::Exists($chocoTempDir)) {[System.IO.Directory]::CreateDirectory($chocoTempDir)}
+$zipFile = Join-Path $chocoTempDir "$($packageName).zip"
 
 $referer = "http://launcher.nirsoft.net/download.html"
 $wc = New-Object System.Net.WebClient
