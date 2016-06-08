@@ -1,8 +1,8 @@
 $packageName = 'smsniff.install'
 $installerType = 'exe'
 $url = 'http://www.nirsoft.net/utils/smsniff_setup.exe'
-$checksum = '02d7b51079c937150099942d42de58231f217afc'
-$checksumType = 'sha1'
+$checksum = 'a670e7c0225ed62836e00790651f8de80094aabc69f9bc4201e04cc89ccccc05'
+$checksumType = 'sha256'
 $silentArgs = '/S'
 $validExitCodes = @(0)
 

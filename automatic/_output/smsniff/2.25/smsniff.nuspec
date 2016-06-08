@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
-    <id>smsniff.install</id>
-    <title>SmartSniff (Install)</title>
+    <id>smsniff</id>
+    <title>SmartSniff</title>
     <version>2.25</version>
     <authors>Nir Sofer</authors>
     <owners>dtgm</owners>
@@ -23,7 +23,7 @@ will automatically be installed on your system.
 
 Microsoft Network Monitor Driver 3: Microsoft provides a new version of Microsoft Network Monitor driver (3.x) that is also supported under Windows 7/Vista/2008.  Starting from version 1.60, SmartSniff can use this driver to capture the network traffic.
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/smsniff.install/</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/smsniff/</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/smsniff.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/smsniff.png</iconUrl>
     <tags>ip monitoring network packet sniffer capture sequence conversations hex dump ascii raw sockets winpcap</tags>
@@ -34,8 +34,8 @@ Microsoft Network Monitor Driver 3: Microsoft provides a new version of Microsof
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
+    <dependencies>
+      <dependency id="smsniff.install" version="[2.25]" />
+    </dependencies>
   </metadata>
-  <files>
-    <file src="tools\**" target="tools" />
-  </files>
 </package>

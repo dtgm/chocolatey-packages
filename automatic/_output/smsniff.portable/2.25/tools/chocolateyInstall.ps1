@@ -1,10 +1,10 @@
 $packageName = 'smsniff.portable'
 $url = 'http://www.nirsoft.net/utils/smsniff.zip'
-$checksum = 'ebf09a23b1b2fada9678d82cc0ebf4e0ea330c90'
-$checksumType = 'sha1'
+$checksum = '84f77c70fc0cb9a0106a7a08323d58994f3c5fbebbc1e3ea8b3cf64a43a2302f'
+$checksumType = 'sha256'
 $url64 = 'http://www.nirsoft.net/utils/smsniff-x64.zip'
-$checksum64 = 'f1a38dfd379bd674a1cf7677d18d8974664c4b74'
-$checksumType64 = 'sha1'
+$checksum64 = '9edba348467065f0fc7706841fe30a7200df15b78959f5d787b6c0c1244af5e8'
+$checksumType64 = 'sha256'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $installFile = Join-Path $toolsDir "smsniff.exe"
 
