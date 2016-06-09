@@ -1,16 +1,17 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="2ae7615a-0719-48f9-95dd-f73a4ba90891">
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
     <UserNotes />
-    <LastFileSize>4732416</LastFileSize>
-    <LastFileDate>2016-02-09T17:30:19.2075666</LastFileDate>
+    <LastFileSize>5238784</LastFileSize>
+    <LastFileDate>2016-05-16T14:23:56.3840773</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
     <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
@@ -115,7 +116,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>http://www.uvnc.eu/download/{versionShort}/UltraVnc_{versionShort}_x86.msi</TextualContent>
+            <TextualContent>http://support1.uvnc.com/download/{versionShort}/UltraVnc_{versionShort}_X86.msi</TextualContent>
             <Name>url</Name>
           </UrlVariable>
         </value>
@@ -171,7 +172,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex>/component/jdownloads/finish[^ "'&lt;&gt;\*]+\.html</Regex>
-            <TextualContent>http://www.uvnc.eu/download/{versionShort}/UltraVnc_{versionShort}_X64.msi</TextualContent>
+            <TextualContent>http://support1.uvnc.com/download/{versionShort}/UltraVnc_{versionShort}_X64.msi</TextualContent>
             <Name>url64</Name>
           </UrlVariable>
         </value>
@@ -228,12 +229,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\UltraVnc_1210_x86.msi</PreviousLocation>
+    <PreviousLocation>F:\exe\ultravnc_1.2110.msi</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2016-02-09T17:30:19.2075666</LastUpdated>
-    <TargetPath>{workdir}\</TargetPath>
+    <LastUpdated>2016-05-16T14:23:56.3840773</LastUpdated>
+    <TargetPath>{saveDir}\{appname}_{version}.{url:ext}</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>ultravnc</Name>
   </ApplicationJob>
