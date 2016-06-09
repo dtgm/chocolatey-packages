@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+﻿$packageName = '{{PackageName}}'
 $packageSearch = 'Nirsoft serviwin'
 $installerType = 'exe'
 $silentArgs = '/S'

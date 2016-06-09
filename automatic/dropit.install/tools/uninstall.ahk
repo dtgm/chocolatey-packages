@@ -1,4 +1,4 @@
-#NoEnv
+﻿#NoEnv
 SetTitleMatchMode, 1  ;begins
 
 winTitle = Remove settings ahk_class #32770

@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+﻿$packageName = '{{PackageName}}'
 $packageSearch = 'Nirsoft volumouse'
 $installerType = 'exe'
 $silentArgs = '/S'

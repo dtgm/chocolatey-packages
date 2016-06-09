@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+﻿$packageName = '{{PackageName}}'
 $packageSearch = 'KC Softwares SUMo'
 $installerType = 'exe'
 $silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'

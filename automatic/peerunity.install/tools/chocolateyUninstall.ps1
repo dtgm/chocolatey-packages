@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+﻿$packageName = '{{PackageName}}'
 $packageSearch = 'Peerunity'
 $fileType = 'exe'
 $silentArgs = '/S'

@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+﻿$packageName = '{{PackageName}}'
 $packageSearch = 'Nirsoft iconsext'
 $installerType = 'exe'
 $silentArgs = '/S'

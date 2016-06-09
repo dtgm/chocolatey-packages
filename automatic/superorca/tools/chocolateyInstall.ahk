@@ -1,4 +1,4 @@
-SuperOrca
+﻿SuperOrca
 ahk_class TSMainForm
 ahk_exe Engine.exe
 

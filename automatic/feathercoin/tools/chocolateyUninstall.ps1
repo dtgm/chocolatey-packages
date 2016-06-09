@@ -1,4 +1,4 @@
-
+﻿
 $packageName = '{{PackageName}}'
 $fileType = 'exe'
 $silentArgs = '/S'

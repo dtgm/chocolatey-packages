@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+﻿$packageName = '{{PackageName}}'
 $packageSearch = 'dupeguru m'
 $fileType = 'msi'
 $silentArgs = '/quiet /qn /norestart'

@@ -1,4 +1,4 @@
-# generated vars
+﻿# generated vars
 $packageName = '{{PackageName}}'
 $packageVersion = '{{PackageVersion}}'
 $url = '{{DownloadUrl}}'

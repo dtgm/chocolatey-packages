@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+﻿$packageName = '{{PackageName}}'
 $packageSearch = 'Nirsoft whoistd'
 $installerType = 'exe'
 $silentArgs = '/S'

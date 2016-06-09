@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+﻿$packageName = '{{PackageName}}'
 $packageSearch = 'NirSoft IE PassView'
 $installerType = 'exe'
 $silentArgs = '/S'

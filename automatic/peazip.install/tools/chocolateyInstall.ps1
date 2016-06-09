@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+﻿$packageName = '{{PackageName}}'
 $urlArray = {{DownloadUrlx64}}
 $url = $urlArray[0]
 $checksum = '{{Checksum}}'

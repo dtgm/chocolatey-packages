@@ -1,4 +1,4 @@
-$package = 'SABnzbd+'
+﻿$package = 'SABnzbd+'
 
 function Get-CurrentDirectory
 {

@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+﻿$packageName = '{{PackageName}}'
 $packageSearch = 'Nirsoft downtester'
 $installerType = 'exe'
 $silentArgs = '/S'

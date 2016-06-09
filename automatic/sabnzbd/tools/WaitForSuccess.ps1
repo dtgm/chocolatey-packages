@@ -1,4 +1,4 @@
-function WaitForSuccess([ScriptBlock] $script, [int]$seconds = 10,
+﻿function WaitForSuccess([ScriptBlock] $script, [int]$seconds = 10,
   [string]$description = 'operation to complete')
 {
   $skip = $false

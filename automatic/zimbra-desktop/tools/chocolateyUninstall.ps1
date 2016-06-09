@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+﻿$packageName = '{{PackageName}}'
 $packageSearch = "Zimbra Desktop"
 $fileType = 'msi'
 $silentArgs = '/quiet /qn /norestart'

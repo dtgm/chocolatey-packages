@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+﻿$packageName = '{{PackageName}}'
 $packageSearch = 'Nirsoft ipnetinfo'
 $installerType = 'exe'
 $silentArgs = '/S'

@@ -1,4 +1,4 @@
-# This template is intended to be used with Chocolatey and Ketarin to automatically package and publish nuget-based packages for distribution with chocolatey.
+﻿# This template is intended to be used with Chocolatey and Ketarin to automatically package and publish nuget-based packages for distribution with chocolatey.
 # Please remove comments before pushing.
 ### sed -ie '/^\s*#.*$/d' -ie 's_\s*#.*$__g' [:alpha:]*/tools/chocolateyInstall.ps1 && unix2dos [:alpha:]*/tools/chocolateyInstall.ps1
 # Please maintain compatibility with Posh v2.

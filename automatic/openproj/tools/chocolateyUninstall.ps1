@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+﻿$packageName = '{{PackageName}}'
 $fileType = 'msi'
 $silentArgs = '/quiet /qn /norestart'
 $validExitCodes = @(0)

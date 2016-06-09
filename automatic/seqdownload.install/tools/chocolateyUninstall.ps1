@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+﻿$packageName = '{{PackageName}}'
 $packageSearch = 'Nirsoft seqdownload'
 $installerType = 'exe'
 $silentArgs = '/S'

@@ -1,4 +1,4 @@
-#NoEnv
+﻿#NoEnv
 SetTitleMatchMode, 1  ;begin
 
 winTitle = Bacula Uninstall ahk_class #32770

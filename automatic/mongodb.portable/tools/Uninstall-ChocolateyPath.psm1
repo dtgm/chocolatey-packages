@@ -1,4 +1,4 @@
-function Uninstall-ChocolateyPath {
+﻿function Uninstall-ChocolateyPath {
 param(
   [string] $pathToUninstall,
   [System.EnvironmentVariableTarget] $pathType = [System.EnvironmentVariableTarget]::User

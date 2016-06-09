@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+﻿$packageName = '{{PackageName}}'
 $packageSearch = 'hardlinkshell'
 $installerType = 'exe'
 $silentArgs = '/S'

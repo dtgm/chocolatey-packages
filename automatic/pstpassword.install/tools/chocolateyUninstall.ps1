@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+﻿$packageName = '{{PackageName}}'
 $packageSearch = 'NirSoft PstPassword'
 $installerType = 'exe'
 $silentArgs = '/S'

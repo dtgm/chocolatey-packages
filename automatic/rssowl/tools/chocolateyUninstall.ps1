@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+﻿$packageName = '{{PackageName}}'
 $fileType = 'exe'
 $silentArgs = '/S'
 $validExitCodes = @(0)

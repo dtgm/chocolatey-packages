@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+﻿$packageName = '{{PackageName}}'
 $packageSearch = 'Nirsoft passwordscan'
 $installerType = 'exe'
 $silentArgs = '/S'

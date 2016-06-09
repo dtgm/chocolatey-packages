@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+﻿$packageName = '{{PackageName}}'
 $packageSearch = 'andy os'
 $installerType = 'exe'
 $silentArgs = '/S'

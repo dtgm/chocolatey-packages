@@ -1,4 +1,4 @@
-function Get-UninstallString {
+﻿function Get-UninstallString {
   $regPath = 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\nbi-nb-base*'
   $key = Get-Item -Path $regPath -ErrorAction Stop
   $uninstallString = $key.GetValue('UninstallString')

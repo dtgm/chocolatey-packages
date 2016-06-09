@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+﻿$packageName = '{{PackageName}}'
 $packageSearch = "HandBrake {{PackageVersion}}"
 $fileType = 'exe'
 $silentArgs = '/S'

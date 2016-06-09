@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+﻿$packageName = '{{PackageName}}'
 $packageSearch = 'NirSoft Network Password Recovery'
 $installerType = 'exe'
 $silentArgs = '/S'

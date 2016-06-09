@@ -1,4 +1,4 @@
-# Usage: Get-FilenameFromRegex download_page find replace
+﻿# Usage: Get-FilenameFromRegex download_page find replace
 # Examples:
 # Get-FilenameFromRegex "http://www.joejoesoft.com/vcms/hot/userupload/8/files/rmv303.zip" '/cms/file.php\?f=userupload/8/files/rmv303.zip&amp;c=([\w\d]+)' 'http://www.joejoesoft.com/sim/$1/userupload/8/files/rmv303.zip'
 # Remember to escape regex characters, like the question mark in the querystring

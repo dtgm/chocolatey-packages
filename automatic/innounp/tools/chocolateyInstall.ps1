@@ -1,4 +1,4 @@
-try {
+﻿try {
   $packageName = "{{PackageName}}"
   $url = "{{DownloadUrlx64}}"
   $checksum = '{{Checksum}}'

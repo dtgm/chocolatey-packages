@@ -1,4 +1,4 @@
-; First, install
+﻿; First, install
 Run, %1%, , Min
 winWait, FastCopy Setup
 ControlClick, Start, FastCopy Setup

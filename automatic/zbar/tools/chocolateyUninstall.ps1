@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+﻿$packageName = '{{PackageName}}'
 $packageSearch = "ZBar Bar Code Reader"
 $installerType = 'exe'
 $silentArgs = '/S'

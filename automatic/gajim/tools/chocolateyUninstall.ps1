@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+﻿$packageName = '{{PackageName}}'
 $packageSearch = "Gajim"
 $installerType = 'exe'
 $silentArgs = '/S'

@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+﻿$packageName = '{{PackageName}}'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $urlArray = {{DownloadUrlx64}}
 $url = $urlArray[0]

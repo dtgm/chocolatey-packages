@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+﻿$packageName = '{{PackageName}}'
 $packageSearch = "Universal Media Server"
 $installerType = 'exe'
 $silentArgs = '/S'

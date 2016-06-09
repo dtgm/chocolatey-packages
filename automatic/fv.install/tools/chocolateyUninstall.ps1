@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+﻿$packageName = '{{PackageName}}'
 $packageSearch = 'FileVerifier'
 $fileType = 'msi'
 $silentArgs = '/quiet /qn /norestart'

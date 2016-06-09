@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+﻿$packageName = '{{PackageName}}'
 $packageSearch = "$packageName"
 $packageVersion = '{{PackageVersion}}'
 $installerType = 'msi'

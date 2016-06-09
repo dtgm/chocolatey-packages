@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+﻿$packageName = '{{PackageName}}'
 $packageSearch = "MariaDB *"
 $installerType = 'msi'
 $silentArgs = '/quiet /qn /norestart'

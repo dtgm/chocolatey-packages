@@ -1,4 +1,4 @@
-#NoEnv
+﻿#NoEnv
 SetTitleMatchMode, 1  ;matches if title begins with string
 
 winTitle = Belvedere ahk_class #32770

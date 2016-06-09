@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+﻿$packageName = '{{PackageName}}'
 $packageSearch = "iTALC"
 $installerType = 'exe'
 $silentArgs = '/S'

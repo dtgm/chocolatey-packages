@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+﻿$packageName = '{{PackageName}}'
 $packageSearch = 'NpackdCL'
 $installerType = 'msi'
 $silentArgs = '/quiet /qn /norestart'

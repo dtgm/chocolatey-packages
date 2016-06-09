@@ -1,4 +1,4 @@
-# default template
+﻿# default template
 https://github.com/chocolatey/choco/blob/master/src/chocolatey/infrastructure.app/templates/ChocolateyUninstallTemplate.cs
 
 #NOTE: Please remove any commented lines to tidy up prior to releasing the package, including this one

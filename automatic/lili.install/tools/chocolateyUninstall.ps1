@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+﻿$packageName = '{{PackageName}}'
 $packageSearch = 'LinuxLive USB Creator'
 $installerType = 'exe'
 $silentArgs = '/S'

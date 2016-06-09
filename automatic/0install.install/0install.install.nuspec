@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
     <id>{{PackageName}}</id>
@@ -21,7 +21,7 @@ Zero Install also has some interesting features not often found in traditional p
     <projectUrl>https://0install.de/</projectUrl>
     <projectSourceUrl>https://github.com/0install/0install-win</projectSourceUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/23daa374e2e649e33d1f4b3ffe2ce07cb1614cd3/icons/0install.png</iconUrl>
-    <tags>package manager repository</tags>
+    <tags>package manager repository admin</tags>
     <copyright>© 2010 Bastian Eicher, Simon E. Silva Lauinger</copyright>
     <licenseUrl>https://0install.de/downloads/license/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

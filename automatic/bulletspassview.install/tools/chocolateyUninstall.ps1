@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+﻿$packageName = '{{PackageName}}'
 $packageSearch = 'Nirsoft bulletspassview'
 $installerType = 'exe'
 $silentArgs = '/S'

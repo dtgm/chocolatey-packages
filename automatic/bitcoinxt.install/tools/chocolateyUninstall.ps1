@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+﻿$packageName = '{{PackageName}}'
 $packageSearch = 'Bitcoin XT *'
 $installerType = 'exe'
 $silentArgs = '/S'

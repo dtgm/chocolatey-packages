@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+﻿$packageName = '{{PackageName}}'
 $packageSearch = 'Bacula'
 $installerType = 'exe'
 $silentArgs = '/S'

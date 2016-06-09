@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+﻿$packageName = '{{PackageName}}'
 # due to limitations of Ketarin/chocopkgup when using repos like sf.net:
 $url = '{{DownloadUrlx64}}'
 $checksum = '{{Checksum}}'

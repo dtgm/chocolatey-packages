@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+﻿$packageName = '{{PackageName}}'
 $packageSearch = "FAHClient"
 $installerType = 'exe'
 $silentArgs = '/S'

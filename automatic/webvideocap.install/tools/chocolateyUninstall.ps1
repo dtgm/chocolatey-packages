@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+﻿$packageName = '{{PackageName}}'
 $packageSearch = 'Nirsoft webvideocap'
 $installerType = 'exe'
 $silentArgs = '/S'

@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+﻿$packageName = '{{PackageName}}'
 $softwareName = "PydioSync"
 $installerType = 'msi'
 $silentArgs = '/quiet /qn /norestart'

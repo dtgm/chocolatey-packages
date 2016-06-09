@@ -1,4 +1,4 @@
-try {
+﻿try {
   $packageName = '{{PackageName}}'
   $packageVersion = '{{PackageVersion}}'
   $url = '{{DownloadUrlx64}}'

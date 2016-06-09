@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+﻿$packageName = '{{PackageName}}'
 $packageSearch = 'SVG Cleaner'
 $installerType = 'exe'
 $silentArgs = '/S'

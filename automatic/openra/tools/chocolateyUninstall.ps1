@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+﻿$packageName = '{{PackageName}}'
 $packageSearch = "OpenRA"
 $installerType = 'exe'
 $silentArgs = '/S'

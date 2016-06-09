@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+﻿$packageName = '{{PackageName}}'
 $packageSearch = "Adobe Shockwave Player"
 $installerType = 'exe'
 $silentArgs = '/S'

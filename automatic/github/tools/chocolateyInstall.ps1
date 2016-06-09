@@ -1,4 +1,4 @@
-Write-Verbose "Setting generated package variables."
+﻿Write-Verbose "Setting generated package variables."
 $packageName = '{{PackageName}}'
 $packageVersion = [System.Version]'{{PackageVersion}}'
 $installerType = 'exe'

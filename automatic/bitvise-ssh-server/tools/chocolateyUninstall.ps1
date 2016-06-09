@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+﻿$packageName = '{{PackageName}}'
 $softwareName = "Bitvise SSH Server*"
 $installerType = 'exe'
 $silentArgs = '/S'

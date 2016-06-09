@@ -1,4 +1,4 @@
-# fastcopy.install really can't be uninstalled without AutoHotKey as a prereq.
+﻿# fastcopy.install really can't be uninstalled without AutoHotKey as a prereq.
 
 $ScriptDir = Split-Path -parent $MyInvocation.MyCommand.Definition
 $ProgDir = Join-Path $env:ProgramFiles 'FastCopy'

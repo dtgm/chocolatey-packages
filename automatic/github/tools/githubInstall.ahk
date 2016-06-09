@@ -1,4 +1,4 @@
-; default environment
+﻿; default environment
 DetectHiddenWindows, off
 SetControlDelay, 20
 SetKeyDelay, 10

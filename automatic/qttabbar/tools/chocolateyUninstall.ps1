@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+﻿$packageName = '{{PackageName}}'
 $installerType = 'exe'
 $silentArgs = "/QU"
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"

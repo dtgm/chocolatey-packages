@@ -1,4 +1,4 @@
-# generated vars
+﻿# generated vars
 $packageName = '{{PackageName}}'
 $url = '{{DownloadUrlx64}}'
 $checksum = '{{Checksum}}'

@@ -1,4 +1,4 @@
-
+﻿
 $packageName = '{{PackageName}}'
 $packageSearch = 'PPCoin'
 $fileType = 'exe'

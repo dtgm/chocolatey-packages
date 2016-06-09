@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+ï»¿$packageName = '{{PackageName}}'
 $softwareName = "$packageName"
 $installerType = 'exe'
 $silentArgs = '/S'
@@ -17,11 +17,11 @@ Write-Warning "Ctrl+C to cancel.  Continuing in 5 seconds..."
 Start-Sleep -Seconds 5
 
 $key | ForEach-Object {
-  Uninstall-ChocolateyPackage -PackageName $packageName `
-                              -FileType $installerType `
-                              -SilentArgs $($silentArgs) `
-                              -File $($_.UninstallString.Replace('"','')) `
-                              -ValidExitCodes $validExitCodes
+ï¿½ï¿½Uninstall-ChocolateyPackage -PackageName $packageName `
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½-FileType $installerType `
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½-SilentArgs $($silentArgs) `
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½-File $($_.UninstallString.Replace('"','')) `
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½-ValidExitCodes $validExitCodes
 }
 
 Remove-Item "$ahkRun" -Force

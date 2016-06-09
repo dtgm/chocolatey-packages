@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+﻿$packageName = '{{PackageName}}'
 $softwareName = "SketchUp Viewer"
 $installerType = 'msi'
 $silentArgs = '/quiet /qn /norestart'

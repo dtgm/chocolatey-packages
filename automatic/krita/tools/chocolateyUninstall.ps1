@@ -1,15 +1,15 @@
-$packageName = '{{PackageName}}'
+ï»¿$packageName = '{{PackageName}}'
 $softwareName = "Krita *"
 $installerType = 'exe'
 $silentArgs = '/S'
 $validExitCodes = @(0)
- 
+ï¿½
 [array]$key = Get-UninstallRegistryKey -SoftwareName $softwareName
- 
+ï¿½
 $key | ForEach-Object {
-  Uninstall-ChocolateyPackage -PackageName $packageName `
-                              -FileType $installerType `
-                              -SilentArgs $($silentArgs) `
-                              -File $($_.UninstallString.Replace('"','')) `
-                              -ValidExitCodes $validExitCodes
+ï¿½ï¿½Uninstall-ChocolateyPackage -PackageName $packageName `
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½-FileType $installerType `
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½-SilentArgs $($silentArgs) `
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½-File $($_.UninstallString.Replace('"','')) `
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½-ValidExitCodes $validExitCodes
 }

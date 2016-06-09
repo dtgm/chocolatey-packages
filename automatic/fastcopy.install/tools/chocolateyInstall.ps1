@@ -1,4 +1,4 @@
-$packageName = 'fastcopy.install'
+﻿$packageName = 'fastcopy.install'
 
 $url='http://ftp.vector.co.jp/66/88/2323/FastCopy313.zip'
 

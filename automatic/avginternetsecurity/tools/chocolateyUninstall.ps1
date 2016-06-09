@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+﻿$packageName = '{{PackageName}}'
 $packageSearch = "AVG"
 $installerType = 'exe'
 $validExitCodes = @(0)

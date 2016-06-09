@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+﻿$packageName = '{{PackageName}}'
 $packageSearch = 'Nirsoft wnetwatcher'
 $installerType = 'exe'
 $silentArgs = '/S'

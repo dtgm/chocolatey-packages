@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+﻿$packageName = '{{PackageName}}'
 $packageSearch = 'windows tweaker'
 $installerType = 'msi'
 $silentArgs = '/quiet /qn /norestart'

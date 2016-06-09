@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+﻿$packageName = '{{PackageName}}'
 $packageSearch = 'ActiveState ActiveTcl'
 $installerType = 'exe'
 $silentArgs = '/S'

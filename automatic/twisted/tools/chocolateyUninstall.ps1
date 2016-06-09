@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+﻿$packageName = '{{PackageName}}'
 $packageSearch = '{{PackageName}}-{{PackageVersion}}'
 $installerType = 'msi'
 $silentArgs = '/quiet /qn /norestart'

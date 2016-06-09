@@ -1,4 +1,4 @@
-Chocolatey Automatic Packages
+﻿Chocolatey Automatic Packages
 =============================================  
 ### Template packages used in an automated update routine
 

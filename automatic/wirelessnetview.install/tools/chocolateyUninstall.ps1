@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+﻿$packageName = '{{PackageName}}'
 $packageSearch = 'Nirsoft wirelessnetview'
 $installerType = 'exe'
 $silentArgs = '/S'

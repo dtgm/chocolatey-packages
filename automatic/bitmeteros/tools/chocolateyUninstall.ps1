@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+﻿$packageName = '{{PackageName}}'
 $packageSearch = "BitMeter OS"
 $installerType = 'exe'
 $silentArgs = '/S'

@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+﻿$packageName = '{{PackageName}}'
 $validExitCodes = @(0)
 
 Write-Debug "Verify java environment is configured"

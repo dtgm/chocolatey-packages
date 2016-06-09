@@ -1,4 +1,4 @@
-# This template is intended to be used with Chocolatey and Ketarin to automatically package and publish nuget-based packages for distribution with chocolatey.
+﻿# This template is intended to be used with Chocolatey and Ketarin to automatically package and publish nuget-based packages for distribution with chocolatey.
 #
 # Please test this package installs, executes, and uninstalls properly before pushing
 #

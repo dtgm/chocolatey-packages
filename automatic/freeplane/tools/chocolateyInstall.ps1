@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+﻿$packageName = '{{PackageName}}'
 $installerType = 'exe'
 # hack to overcome limitations of Ketarin/chocopkgup when using repos like sf.net
 $url = '{{DownloadUrlx64}}'

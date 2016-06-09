@@ -1,4 +1,4 @@
-
+﻿
 $packageName = '{{PackageName}}'
 $packageUn = 'Duplicate Cleaner Free'
 $fileType = 'exe'

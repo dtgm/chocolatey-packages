@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+﻿$packageName = '{{PackageName}}'
 $packageSearch = 'Dev-C++'
 $installerType = 'exe'
 $silentArgs = '/S'

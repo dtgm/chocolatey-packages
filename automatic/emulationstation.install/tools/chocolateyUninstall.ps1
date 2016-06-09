@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+﻿$packageName = '{{PackageName}}'
 $packageSearch = 'EmulationStation'
 $fileType = 'exe'
 $silentArgs = '/S'

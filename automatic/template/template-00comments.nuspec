@@ -1,4 +1,4 @@
-<!-- https://github.com/chocolatey/choco/wiki/CreatePackages#character-encoding -->
+﻿<!-- https://github.com/chocolatey/choco/wiki/CreatePackages#character-encoding -->
 <?xml version="1.0" encoding="utf-8"?>
 <!-- https://github.com/chocolatey/choco/wiki/CreatePackages#nuspec -->
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  

@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+﻿$packageName = '{{PackageName}}'
 $packageSearch = 'Miro Video Converter'
 $installerType = 'exe'
 $silentArgs = '/S'

@@ -1,4 +1,4 @@
-#NoEnv
+﻿#NoEnv
 SendMode Input
 SetTitleMatchMode, 2   ;text must contain
 DetectHiddenText, off  ;toggle search hidden window text

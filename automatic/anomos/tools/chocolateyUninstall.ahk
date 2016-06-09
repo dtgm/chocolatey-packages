@@ -1,4 +1,4 @@
-#NoEnv
+﻿#NoEnv
 SetTitleMatchMode, RegEx
 DetectHiddenText, off
 DetectHiddenWindows, off

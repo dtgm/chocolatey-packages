@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+﻿$packageName = '{{PackageName}}'
 $packageSearch = "Tweaking.com - Advanced System Tweaker"
 $installerType = 'exe'
 $silentArgs = '/S'

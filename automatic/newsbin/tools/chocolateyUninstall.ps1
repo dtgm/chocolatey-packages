@@ -1,4 +1,4 @@
-$packageName = '{{PackageName}}'
+﻿$packageName = '{{PackageName}}'
 $packageSearch = 'Newsbin Pro'
 $installerType = 'exe'
 $silentArgs = '/S'
