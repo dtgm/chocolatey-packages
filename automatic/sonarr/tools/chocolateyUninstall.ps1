@@ -19,7 +19,7 @@ Get-ItemProperty -Path @( 'HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentV
 | ForEach-Object { Uninstall-ChocolateyPackage -PackageName "$packageName" `
                                                -FileType "$installerType" `
                                                -SilentArgs "$($silentArgs)" `
-                                               -File "$($_.UninstallString)" `
+                                               -File "$($_.UninstallString.Replace('"',''))" `
                                                -ValidExitCodes $validExitCodes }
 
 Remove-Item "$ahkRun" -Force -ErrorAction SilentlyContinue

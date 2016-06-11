@@ -44,7 +44,7 @@ $machine_key6432 = 'HKLM:\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\
 
 if ($key.Count -eq 1) {
   $key | % { 
-    $file = "$($_.UninstallString)"
+    $file = "$($_.UninstallString.Replace('"',''))"
 
     if ($installerType -eq 'MSI') {
       # The Product Code GUID is all that should be passed for MSI, and very 

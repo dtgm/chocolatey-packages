@@ -18,7 +18,7 @@ $regKey | ForEach-Object {
   Uninstall-ChocolateyPackage -PackageName "$packageName" `
                               -FileType "$installerType" `
                               -SilentArgs "$($silentArgs)" `
-                              -File "$($_.UninstallString)" `
+                              -File "$($_.UninstallString.Replace('"',''))" `
                               -ValidExitCodes $validExitCodes }
 
 Write-Verbose "Removing from path..."

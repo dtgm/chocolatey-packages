@@ -16,7 +16,7 @@ try {
   | ForEach-Object { Uninstall-ChocolateyPackage -PackageName "$packageName" `
                                                  -FileType "$fileType" `
                                                  -SilentArgs "$($silentArgs)" `
-                                                 -File "$($_.UninstallString)" `
+                                                 -File "$($_.UninstallString.Replace('"',''))" `
                                                  -ValidExitCodes $validExitCodes }
 } catch {
   throw $_.Exception

@@ -25,7 +25,7 @@ Get-ItemProperty  -Path @($machine_key6432,$machine_key, $local_key) `
   | ? { $_.DisplayName -like ""$softwareName"" } `
   | Select -First 1 `
   | % { 
-        $file = ""$($_.UninstallString)""
+        $file = ""$($_.UninstallString.Replace('"',''))""
      
         if ($installerType -eq 'MSI') {
         # The Product Code GUID is all that should be passed for MSI, and very 
@@ -112,7 +112,7 @@ $key = Get-ItemProperty -Path @($machine_key6432,$machine_key, $local_key) `
 
 if ($key.Count -eq 1) {
   $key | % { 
-    $file = ""$($_.UninstallString)""
+    $file = ""$($_.UninstallString.Replace('"',''))""
 
     if ($installerType -eq 'MSI') {
       # The Product Code GUID is all that should be passed for MSI, and very 
@@ -178,7 +178,7 @@ $key.UninstallString -replace "^`"?([^`"]+).*","`$1"
    | ForEach-Object { Uninstall-ChocolateyPackage -PackageName "$packageName" `
                                                   -FileType "$installerType" `
                                                   -SilentArgs "$silentArgs" `
-                                                  -File "$($_.UninstallString)" `
+                                                  -File "$($_.UninstallString.Replace('"',''))" `
                                                   -ValidExitCodes $validExitCodes }
 UninstallString : "C:\Program Files (x86)\stunnel\uninstall.exe" /AllUsers
 
@@ -357,7 +357,7 @@ try {
   | ForEach-Object {Uninstall-ChocolateyPackage -PackageName "$packageName" `
                                                 -FileType "$fileType" `
                                                 -SilentArgs "$($silentArgs)" `
-                                                -File "$($_.UninstallString)" `
+                                                -File "$($_.UninstallString.Replace('"',''))" `
                                                 -ValidExitCodes $validExitCodes}
   Remove-Item "$ahkRun" -Force -ErrorAction SilentlyContinue
 } catch {
@@ -396,7 +396,7 @@ $regKey | ForEach-Object {
   Uninstall-ChocolateyPackage -PackageName "$packageName" `
                               -FileType "$installerType" `
                               -SilentArgs "$($silentArgs)" `
-                              -File "$($_.UninstallString)" `
+                              -File "$($_.UninstallString.Replace('"',''))" `
                               -ValidExitCodes $validExitCodes }
 #▲▲▲▲▲▲▲▲▲▲▲▲▲
 
@@ -488,7 +488,7 @@ $regKey | ForEach-Object {
   Uninstall-ChocolateyPackage -PackageName "$packageName" `
                               -FileType "$installerType" `
                               -SilentArgs "$($silentArgs)" `
-                              -File "$($_.UninstallString)" `
+                              -File "$($_.UninstallString.Replace('"',''))" `
                               -ValidExitCodes $validExitCodes }
 
 Write-Verbose "Removing from path..."

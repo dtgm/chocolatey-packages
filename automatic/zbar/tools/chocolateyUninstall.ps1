@@ -15,7 +15,7 @@ $regObj = Get-ItemProperty -Path @( 'HKLM:\Software\Wow6432Node\Microsoft\Window
 $regObj | ForEach-Object { Uninstall-ChocolateyPackage -PackageName "$packageName" `
                                                -FileType "$installerType" `
                                                -SilentArgs "$($silentArgs)" `
-                                               -File "$($_.UninstallString)" `
+                                               -File "$($_.UninstallString.Replace('"',''))" `
                                                -ValidExitCodes $validExitCodes }
 Import-Module $unPath
 $regObj | ForEach-Object { Uninstall-ChocolateyPath (Join-Path $_.InstallLocation.Replace('"','') 'bin') }
