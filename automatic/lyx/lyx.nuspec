@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
-    <id>{{packageName}}</id>
+    <id>{{PackageName}}</id>
     <title>LyX</title>
-    <version>{{packageVersion}}</version>
+    <version>{{PackageVersion}}</version>
     <authors>LyX Team</authors>
     <owners>dtgm</owners>
     <summary>Document processor that encourages an approach to writing based on the structure of your documents (WYSIWYM) and not simply their appearance (WYSIWYG)</summary>
@@ -21,14 +21,21 @@ LyX is released under a Free Software/Open Source license, runs on Linux/Unix, W
     <projectUrl>http://www.lyx.org/</projectUrl>
     <projectSourceUrl>http://www.lyx.org/trac/browser/lyxgit</projectSourceUrl>
     <docsUrl>http://wiki.lyx.org/</docsUrl>
-    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/60335c8d0a70d0924e4685c79a5bb888002c11cc/icons/{{packageName}}.svg</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/60335c8d0a70d0924e4685c79a5bb888002c11cc/icons/{{PackageName}}.svg</iconUrl>
     <tags>tex latex document publishing</tags>
     <copyright>http://www.lyx.org/Credits#toc1</copyright>
     <licenseUrl>http://www.lyx.org/License</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <releaseNotes>http://www.lyx.org/News</releaseNotes>
+    <releaseNotes>
+#### Program
+* [News](http://www.lyx.org/News)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
     <dependencies>
       <dependency id="miktex" />
+      <dependency id="chocolatey-uninstall.extension" />
     </dependencies>
   </metadata>
   <files>
