@@ -25,12 +25,6 @@ For any organizational use (non-commercial or commercial) or to remove the limit
 
 #### Package Parameters
 
-You may pass native install arguments directly to `BvSshServer-Inst.exe` with -ia -installArgs or -installArguments
-
-For example: `choco install bitvise-ssh-server -packageParameters '/installDir=''C:\foo bar\''"`
-
-Note: Use two single quotes when double quotes are desired."
-
 * `'"/installDir=C:\Path\to\installationdirectory"`' - overwrite the default installation directory
 * `'"/site=site-name"`'
 * `'"/renameExistingDir=existingDir"`'
@@ -44,6 +38,8 @@ Note: Use two single quotes when double quotes are desired."
 * `'"/siteTypeSettings=fileName"`'
 * `'"/startService"`'
 * `'"/startBssCtrl"`'
+
+Note: Use two single quotes when double quotes are desired."
 
 #### Example
 * `choco install {{PackageName}} -packageparameters '"/InstallLocation=C:\temp"'`
