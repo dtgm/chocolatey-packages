@@ -17,11 +17,11 @@ Write-Warning "Ctrl+C to cancel.  Continuing in 5 seconds..."
 Start-Sleep -Seconds 5
 
 $key | ForEach-Object {
-��Uninstall-ChocolateyPackage -PackageName $packageName `
-������������������������������-FileType $installerType `
-������������������������������-SilentArgs $($silentArgs) `
-������������������������������-File $($_.UninstallString.Replace('"','')) `
-������������������������������-ValidExitCodes $validExitCodes
+  Uninstall-ChocolateyPackage -PackageName $packageName `
+                              -FileType $installerType `
+                              -SilentArgs $($silentArgs) `
+                              -File $($_.UninstallString.Replace('"','')) `
+                              -ValidExitCodes $validExitCodes
 }
 
 Remove-Item "$ahkRun" -Force

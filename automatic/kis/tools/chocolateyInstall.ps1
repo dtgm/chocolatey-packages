@@ -3,11 +3,10 @@ $installerType = 'exe'
 $silentArgs = "/s /noreboot"
 $url = '{{DownloadUrl}}'
 $checksum = '{{Checksum}}'
-$checksumType = 'sha1'
+$checksumType = 'sha256'
 $validExitCodes = @(0,3010)
 
-$chocTempDir = Join-Path $Env:Temp "chocolatey"
-$tempDir = Join-Path $chocTempDir "$packageName"
+$tempDir = Join-Path $env:Temp "$packageName"
 if (![System.IO.Directory]::Exists($tempDir)) {[System.IO.Directory]::CreateDirectory($tempDir)}
 $instLog = Join-Path $tempDir kis-$(Get-Date -Format yyyyMMddHHmm)
 $instLog = $instLog + '.log'
@@ -172,7 +171,6 @@ if ($packageParameters) {
     Write-Host "allowReboot Found"
     $allowReboot = $arguments["allowReboot"]
   }
-
 } else {
     Write-Debug "No package parameters passed in"
 }
@@ -193,6 +191,6 @@ Install-ChocolateyPackage -PackageName "$packageName" `
                           -FileType "$installerType" `
                           -SilentArgs "$silentArgs" `
                           -Url "$url" `
-                          -ValidExitCodes $validExitCodes `
                           -Checksum "$checksum" `
-                          -ChecksumType "$checksumType"
+                          -ChecksumType "$checksumType" `
+                          -ValidExitCodes $validExitCodes
