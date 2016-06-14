@@ -1,0 +1,11 @@
+﻿# .gitattributes overrides config option core.autocrlf
+
+# disable all text files from being normalized; end of line conversion will be retained
+#* -text
+# enable all text files to LF \n U+00A0
+* text eol=lf
+
+# Enable end of line conversion for specific files
+#*.nuspec text eol=lf
+#*.ps1 text eol=lf
+#*.ketarin.xml text eol=crlf
