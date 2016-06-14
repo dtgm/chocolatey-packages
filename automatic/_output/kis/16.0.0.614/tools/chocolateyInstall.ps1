@@ -2,12 +2,11 @@ $packageName = 'kis'
 $installerType = 'exe'
 $silentArgs = "/s /noreboot"
 $url = 'http://products.kaspersky-labs.com/english/homeuser/kis2016/kis16.0.0.614en_8811.exe'
-$checksum = 'e03cc858d0db908306f79b62eb0b507d5221dd8e'
-$checksumType = 'sha1'
+$checksum = 'ad9f627eda3c5ab5ca83c968387c3f2f6dcef1d74d0950b4f04b946909c56714'
+$checksumType = 'sha256'
 $validExitCodes = @(0,3010)
 
-$chocTempDir = Join-Path $Env:Temp "chocolatey"
-$tempDir = Join-Path $chocTempDir "$packageName"
+$tempDir = Join-Path $env:Temp "$packageName"
 if (![System.IO.Directory]::Exists($tempDir)) {[System.IO.Directory]::CreateDirectory($tempDir)}
 $instLog = Join-Path $tempDir kis-$(Get-Date -Format yyyyMMddHHmm)
 $instLog = $instLog + '.log'
@@ -172,7 +171,6 @@ if ($packageParameters) {
     Write-Host "allowReboot Found"
     $allowReboot = $arguments["allowReboot"]
   }
-
 } else {
     Write-Debug "No package parameters passed in"
 }
@@ -193,6 +191,6 @@ Install-ChocolateyPackage -PackageName "$packageName" `
                           -FileType "$installerType" `
                           -SilentArgs "$silentArgs" `
                           -Url "$url" `
-                          -ValidExitCodes $validExitCodes `
                           -Checksum "$checksum" `
-                          -ChecksumType "$checksumType"
+                          -ChecksumType "$checksumType" `
+                          -ValidExitCodes $validExitCodes

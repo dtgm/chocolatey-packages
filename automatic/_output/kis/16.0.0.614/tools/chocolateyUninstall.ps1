@@ -1,16 +1,20 @@
 $packageName = 'kis'
-$packageSearch = "Kaspersky Internet Security*"
+$softwareName = "Kaspersky Internet Security"
 $installerType = 'msi'
-$silentArgs = '/quiet /qn /norestart'
+$silentArgs = '/quiet /qn /norestart REMOVE=ALL'
 $validExitCodes = @(0,3010)
 
-$reg = Get-ItemProperty -Path @( 'HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*',
-                                 'HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*',
-                                 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*' ) `
-                        -ErrorAction:SilentlyContinue `
-| Where-Object   { $_.DisplayName -like $packageSearch }
-$reg.PSChildName | ForEach-Object { $_ -match '{[\dA-F-]+}' }
-Uninstall-ChocolateyPackage -PackageName "$packageName" `
-                            -FileType "$installerType" `
-                            -SilentArgs "$($Matches.Values) $silentArgs" `
-                            -ValidExitCodes $validExitCodes
+if (Get-Process -Name avp, avpui) {
+  Write-Warning "Kaspersky Internet Security is currently running..."
+  Write-Warning "Please exit the program from the tray icon and run this command again."
+  throw
+} else {
+  [array]$key = Get-UninstallRegistryKey -SoftwareName $softwareName
+  $key.PSChildName | ForEach-Object {
+    $_ -match '{[\dA-F-]+}'
+    Uninstall-ChocolateyPackage -PackageName "$packageName" `
+					       -FileType "$installerType" `
+					       -SilentArgs "$($Matches.Values) $silentArgs" `
+					       -ValidExitCodes $validExitCodes
+  }
+}
