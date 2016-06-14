@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>ida</id>
+    <title>Interactive Disassembler Free</title>
+    <version>5.0</version>
+    <authors>Hex-Rays SA</authors>
+    <owners>dtgm</owners>
+    <summary>Disassembler and debugger</summary>
+    <description>
+IDA is a Windows, Linux or Mac OS X hosted multi-processor disassembler and debugger.
+
+This package installs the free version which is feature limited to version 5.0 and only for non-commercial use.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/manual/ida</packageSourceUrl>
+    <projectUrl>https://www.hex-rays.com/products/ida/support/download_freeware.shtml</projectUrl>
+    <docsUrl>https://www.hex-rays.com/products/ida/support/</docsUrl>
+    <mailingListUrl>https://www.hex-rays.com/forum</mailingListUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/a729292d9b513629f691a0a6c341c4cea77b3d1d/icons/ida.png</iconUrl>
+    <tags>development debug pe32 disassembler decompiler admin</tags>
+    <copyright>© 2010 Hex-Rays SA</copyright>
+    <licenseUrl>https://www.hex-rays.com/products/ida/support/download_freeware.shtml</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Release notes](https://www.hex-rays.com/products/ida/news.shtml#ida5)
+
+#### Package
+* Manually built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
