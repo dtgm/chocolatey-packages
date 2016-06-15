@@ -1,4 +1,4 @@
-# command line scripts
+﻿# command line scripts
 
 Files within this subdirectory include code used to quickly manage files in this repository.
 

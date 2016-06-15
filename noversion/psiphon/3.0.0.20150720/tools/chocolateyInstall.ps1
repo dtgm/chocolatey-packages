@@ -1,4 +1,4 @@
-$packageName = 'psiphon'
+﻿$packageName = 'psiphon'
 $url = 'https://psiphon.ca/psiphon3.exe'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $installFile = Join-Path $toolsDir "$($packageName).exe"

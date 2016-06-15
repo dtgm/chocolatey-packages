@@ -1,4 +1,4 @@
-$packageName = 'rawwrite'
+﻿$packageName = 'rawwrite'
 $url = 'http://www.chrysocome.net//downloads/rawwritewin-0.7.zip'
 $checksum = 'fdafe19d88add869afde8eb35b5e863243b37b5d'
 $checksumType = 'sha1'

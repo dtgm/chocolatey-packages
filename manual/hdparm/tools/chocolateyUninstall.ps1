@@ -1,4 +1,4 @@
-$packageName = 'hdparm'
+﻿$packageName = 'hdparm'
 $fileType = 'msi'
 $silentArgs = '/quiet /qn /norestart'
 $validExitCodes = @(0,3010)

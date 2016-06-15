@@ -1,4 +1,4 @@
-# Script version: 1.3.0.0
+﻿# Script version: 1.3.0.0
 #
 # Changelog
 #   evaluate custom variables rather than using variables' CachedContent

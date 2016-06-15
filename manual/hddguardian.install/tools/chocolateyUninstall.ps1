@@ -1,4 +1,4 @@
-$packageName = 'hddguardian'
+﻿$packageName = 'hddguardian'
 $packageSearch = 'HDD Guardian'
 $installerType = 'exe'
 $silentArgs = '/S'

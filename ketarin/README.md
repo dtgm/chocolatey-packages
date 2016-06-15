@@ -1,4 +1,4 @@
-# Automatic updating chocolatey packages 
+﻿# Automatic updating chocolatey packages 
 
 This directory contains files from [Ketarin](https://chocolatey.org/packages/ketarin) for use with [Chocolatey Automatic Package Updater](https://chocolatey.org/packages/ChocolateyPackageUpdater)
 

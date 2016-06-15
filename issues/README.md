@@ -1,4 +1,4 @@
-# files and reference files used to solve issues
+﻿# files and reference files used to solve issues
 
 This subdirectory includes non-important files and may be safely omitted when cloning this repo.
 
