@@ -1,40 +1,57 @@
 ﻿$packageName = '{{PackageName}}'
 $checksum = '{{Checksum}}'
 $checksumType = 'sha256'
-$toolsDir = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
-$ahkFile = Join-Path "$toolsDir" 'chocolateyInstall.ahk'
+$installerType = 'exe'
+$silentArgs = ''
+$validExitCodes = @(0)
+
+$toolsDir = Split-Path -Parent $MyInvocation.MyCommand.Definition
+$ahkFile = Join-Path $toolsDir 'chocolateyInstall.ahk'
 $installFile = Join-Path $toolsDir "$($packageName).exe"
 
-Import-Module (Join-Path "$toolsDir" 'Get-FilenameFromRegex.psm1')
-$url1 = Get-FilenameFromRegex 'http://www.filehippo.com/download_adwcleaner/' '(?smi)download_adwcleaner/(\d+)?/?"[^>]+>.?AdwCleaner {{PackageVersion}}' 'http://www.filehippo.com/download_adwcleaner/$1/'
-if (! $url1) {
-  $lastPage = Get-FilenameFromRegex 'http://www.filehippo.com/download_adwcleaner/history/' '(?smi)class="pager-page-link">.*class="pager-page-link">(\d+)' '$1'
-  Write-Host "Found archived pages: $lastPage"
-  $page = 1
-  Write-Host "Please wait. Looking for previous version URL in archived pages..."
-  while (! $url1 -and $page -le $lastPage) {
-    $url1 = Get-FilenameFromRegex "http://www.filehippo.com/download_adwcleaner/history/$page/" '(?smi)download_adwcleaner/(\d+)?/?"[^>]+>.?AdwCleaner {{PackageVersion}}' 'http://www.filehippo.com/download_adwcleaner/$1/'
-    $page++
+Import-Module (Join-Path "$toolsDir" 'Get-HtmlFromRegex.psm1')
+
+$urlApp = "http://www.filehippo.com/download_$packageName"
+$search = '(?smi)download_adwcleaner/(\d+)[^\r\n]+(\r\n)?[^\r\n]+(?=AdwCleaner {{PackageVersion}})'
+$replace = "$filehippoUrl`$1/"
+$urlAppId = Get-HtmlFromRegex $urlApp $search $replace
+if (! $urlAppId) {
+  $search = '(?smi)class="pager-page-link">.*class="pager-page-link">(\d+)'
+  $replace = '$1'
+  $maxPages = Get-HtmlFromRegex "$urlApp/history/" $search $replace
+  Write-Debug "Found `"$maxPages`" pages of history"
+  $currentPage = 1
+  while (! $urlAppId -and $currentPage -le $maxPages) {
+    $urlAppId = Get-HtmlFromRegex "http://www.filehippo.com/download_adwcleaner/history/$currentPage/" '(?smi)download_adwcleaner/(\d+)?/?"[^>]+>.?AdwCleaner {{PackageVersion}}' 'http://www.filehippo.com/download_adwcleaner/$1/'
+    $currentPage++
   }
-  if (! $url1) {
-    Write-Error "Could not get download URL 1.`n* Please notify maintainer at https://chocolatey.org/packages/adobeshockwaveplayer/ContactOwners`n "
+  if (! $urlAppId) {
+    Write-Error "Could not get FileHippo download url from history.`n* Please notify maintainer at https://chocolatey.org/packages/{{PackageName}}/ContactOwners`n "
     throw
   }
 }
-Write-Host "Found URL which contains the download URL 1: $url1"
-$url2 = Get-FilenameFromRegex "$url1" 'download_adwcleaner/download/([\w\d]+)/' 'http://www.filehippo.com/en/download_adwcleaner/download/$1/'
-Write-Host "Found URL which contains the download URL 2: $url2"
-$url3 = Get-FilenameFromRegex "$url2" '/download/file/([\w\d]+)/' 'http://www.filehippo.com/download/file/$1/'
-Write-Host "Found download URL: $url3"
 
-Get-ChocolateyWebFile -PackageName "$packageName" `
-                      -FileFullPath "$installFile" `
-                      -Url "$url3" `
-                      -Checksum "$checksum" `
-                      -ChecksumType "$checksumType"
+$search = 'download_adwcleaner/download/([\w\d]+)/'
+$replace = 'http://www.filehippo.com/en/download_adwcleaner/download/$1/'
+$urlAppIdDownloadTemp = Get-HtmlFromRegex $urlAppId $search $replace 
+
+$search = '/download/file/([\w\d]+)/'
+$replace = 'http://www.filehippo.com/download/file/$1/'
+$url = Get-HtmlFromRegex $urlAppIdDownloadTemp $search $replace
+
+Get-ChocolateyWebFile -PackageName $packageName `
+                      -FileFullPath $installFile `
+                      -Url $url `
+                      -Checksum $checksum `
+                      -ChecksumType $checksumType
 
 Set-Content -Path ("$installFile.gui") `
             -Value $null
 
 Start-Process 'AutoHotKey' $ahkFile
-Start-Process $installFile
+Install-ChocolateyInstallPackage `
+  -PackageName $packageName `
+  -FileType $installerType `
+  -SilentArgs $silentArgs `
+  -File $installFile `
+  -ValidExitCodes $validExitCodes

@@ -6,7 +6,7 @@ DetectHiddenWindows, off
 %winTitleOutdated% = Outdated version
 %winTitleTerms% = AdwCleaner - Terms of use
 
-loop,
+Loop, 300
 {
   Sleep, 250
   IfWinExist, %winTitleOutdated%, Cancel
