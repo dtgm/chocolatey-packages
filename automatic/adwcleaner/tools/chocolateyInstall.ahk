@@ -1,10 +1,11 @@
 ﻿#NoEnv
-SetTitleMatchMode, RegEx
+#NoTrayIcon
 DetectHiddenText, off
 DetectHiddenWindows, off
+SetTitleMatchMode, RegEx
 
-%winTitleOutdated% = Outdated version
-%winTitleTerms% = AdwCleaner - Terms of use
+winTitleOutdated = Outdated version
+winTitleTerms = AdwCleaner - Terms of use
 
 Loop, 300
 {
