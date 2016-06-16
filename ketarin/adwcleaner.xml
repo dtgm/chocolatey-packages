@@ -1,11 +1,11 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="53f03920-5baf-4413-9229-221f50601f68">
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64)</UserAgent>
     <UserNotes />
-    <LastFileSize>1511424</LastFileSize>
-    <LastFileDate>2016-02-19T11:33:22.7744266</LastFileDate>
+    <LastFileSize>3703360</LastFileSize>
+    <LastFileDate>2016-06-14T23:10:49-06:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Avoid</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -39,7 +39,7 @@
       </item>
       <item>
         <key>
-          <string>url</string>
+          <string>urlDirect</string>
         </key>
         <value>
           <UrlVariable>
@@ -48,7 +48,7 @@
             <Regex>(?&lt;=ResponseUri: )[^\r\n]+</Regex>
             <Url>http://www.filehippo.com{filePath}</Url>
             <TextualContent />
-            <Name>url</Name>
+            <Name>urlDirect</Name>
           </UrlVariable>
         </value>
       </item>
@@ -117,8 +117,22 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>2</TextualContent>
+            <TextualContent>1</TextualContent>
             <Name>cscript</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>{fileHippoId}</TextualContent>
+            <Name>url</Name>
           </UrlVariable>
         </value>
       </item>
@@ -129,13 +143,13 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\adwcleaner_5.035.exe</PreviousLocation>
+    <PreviousLocation>F:\exe\adwcleaner_5.200.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2016-02-19T11:33:22.7744266</LastUpdated>
-    <TargetPath>{workdir}\</TargetPath>
-    <FixedDownloadUrl>{url}</FixedDownloadUrl>
+    <LastUpdated>2016-06-15T17:50:40.233652-06:00</LastUpdated>
+    <TargetPath>{saveDir}\{appname}_{version}.{url:ext}</TargetPath>
+    <FixedDownloadUrl>{urlDirect}</FixedDownloadUrl>
     <Name>adwcleaner</Name>
   </ApplicationJob>
 </Jobs>
