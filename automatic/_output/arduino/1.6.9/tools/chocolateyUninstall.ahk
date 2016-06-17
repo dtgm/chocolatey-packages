@@ -1,4 +1,4 @@
-#NoEnv
+﻿#NoEnv
 #NoTrayIcon
 SendMode Input
 SetTitleMatchMode, 2   ;text must contain

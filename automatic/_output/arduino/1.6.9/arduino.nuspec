@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>arduino</id>
@@ -26,7 +26,7 @@ Arduino programs are written in C or C++. The Arduino IDE comes with a software 
 * [Twitter](https://twitter.com/arduino)
 * [Facebook](https://www.facebook.com/official.arduino)
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/arduino/1.6.9</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/arduino/</packageSourceUrl>
     <projectUrl>http://arduino.cc/en/Main/Software/</projectUrl>
     <projectSourceUrl>https://github.com/arduino/Arduino</projectSourceUrl>
     <bugTrackerUrl>https://github.com/arduino/Arduino/issues</bugTrackerUrl>

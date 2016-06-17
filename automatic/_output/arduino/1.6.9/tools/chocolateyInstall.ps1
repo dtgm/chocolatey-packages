@@ -1,4 +1,4 @@
-$packageName = 'arduino'
+﻿$packageName = 'arduino'
 $installerType = 'exe'
 $url = 'http://arduino.cc/download.php?f=/arduino-1.6.9-windows.exe'
 $checksum = '4a2febfa942a82bb0082edc17994e77424ad238f983db9ebe282271aa4c73aca'
