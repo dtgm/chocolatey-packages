@@ -48,6 +48,7 @@ If no parameters are passed, the following is assumed: `--params '/assoc=0 /ini=
     <dependencies>
       <dependency id="autohotkey.portable" />
       <dependency id="chocolatey-fosshub.extension" />
+      <dependency id="chocolatey-uninstall.extension" />
     </dependencies>
   </metadata>
   <files>
