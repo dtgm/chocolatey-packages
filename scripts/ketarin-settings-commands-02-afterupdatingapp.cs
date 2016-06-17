@@ -1,8 +1,7 @@
 ﻿////////////////////////////////////////////////////////////////////////////////////////
-/// version 6.8.0.0
+/// version 6.9.0.0
 /// 
-/// Changelog: Calc SHA256 sums
-/// Ticket: https://github.com/dtgm/chocolatey-packages/issues/196
+/// Changelog: Write files as UTF8
 /// 
 
 // REQUIRES:
@@ -79,7 +78,7 @@ if (varChecksum == "{checksum}") {
       //MessageBox.Show(contents);
       // Make files writable
       // File.SetAttributes(file, FileAttributes.Normal);
-      File.WriteAllText(file, contents);
+      File.WriteAllText(file, contents, Encoding.UTF8);
     } catch (Exception ex) {
       Console.WriteLine(ex.Message);
     }
@@ -120,7 +119,7 @@ if (varChecksumx64 == "{checksumx64}" && varChecksum64File != "{checksum64file}"
       //MessageBox.Show(contents);
       contents = contents.Replace("{checksumx64}", replace64Checksum);
       //MessageBox.Show(contents);
-      File.WriteAllText(file, contents);
+      File.WriteAllText(file, contents, Encoding.UTF8);
     } catch (Exception ex) {
       Console.WriteLine(ex.Message);
     }
@@ -139,7 +138,7 @@ if ( checkBeta == 2) {
   foreach (string file in fileNuspec) {
     string contents = File.ReadAllText(file);
     contents = contents.Replace(strCheck, strReplace);
-    File.WriteAllText(file, contents);
+    File.WriteAllText(file, contents, Encoding.UTF8);
   }
 }
 */
