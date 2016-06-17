@@ -1,7 +1,7 @@
 ﻿$packageName = '{{PackageName}}'
 $installerType = 'exe'
 $silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
-$url = '{{DownloadUrlx64}}'
+$url = '{{DownloadUrl}}'
 $checksum = '{{Checksum}}'
 $checksumType = 'sha1'
 $validExitCodes = @(0)

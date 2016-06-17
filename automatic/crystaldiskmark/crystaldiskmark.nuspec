@@ -35,6 +35,9 @@ CrystalDiskMark is a small benchmark utility for your Hard Disk Drives (HDDs) an
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
+    <dependencies>
+      <dependency id="chocolatey-uninstall.extension" />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
