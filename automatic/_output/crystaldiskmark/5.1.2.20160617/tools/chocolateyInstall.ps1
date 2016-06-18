@@ -1,7 +1,7 @@
 ﻿$packageName = 'crystaldiskmark'
 $installerType = 'exe'
 $silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
-$url = 'http://en.sourceforge.jp/projects/crystaldiskmark/downloads/65730/CrystalDiskMark5_1_2-en.exe'
+$url = 'https://en.osdn.jp/frs/redir.php?f=%2Fcrystaldiskmark%2F65730%2FCrystalDiskMark5_1_2-en.exe'
 $checksum = '2852a80f907fd55c8d1a1650c50c8f1e3729c958'
 $checksumType = 'sha1'
 $validExitCodes = @(0)
