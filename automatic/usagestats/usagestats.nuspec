@@ -40,7 +40,7 @@ This application generates statistics on the usage of keyboard and mouse.
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>https://github.com/objorke/usagestats</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/347e9c828bcbe16a820ef36b07343b058e27a670/icons/{{packageName}}.png</iconUrl>
-    <tags>self-monitoring ui-development usage</tags>
+    <tags>self-monitoring ui-development usage admin</tags>
     <copyright>© Oystein Bjorke</copyright>
     <licenseUrl>https://raw.githubusercontent.com/objorke/UsageStats/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

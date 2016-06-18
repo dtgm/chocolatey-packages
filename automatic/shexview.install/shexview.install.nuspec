@@ -14,7 +14,7 @@ For example: If you install WinZip on your computer, you'll see a special WinZip
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/shexview.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/shexview.png</iconUrl>
-    <tags>file-explorer extensions disable manager</tags>
+    <tags>file-explorer extensions disable manager admin</tags>
     <copyright>© 2003 NirSoft</copyright>
     <licenseUrl>http://www.nirsoft.net/utils/shexview.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

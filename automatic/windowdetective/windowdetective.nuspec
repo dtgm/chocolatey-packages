@@ -28,7 +28,7 @@ Window Detective is a programmer's tool used to "spy" on an application's window
     <bugTrackerUrl>http://sourceforge.net/p/windowdetective/bugs/</bugTrackerUrl>
     <docsUrl>http://windowdetective.sourceforge.net/docs/latest/index.html</docsUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/00c1bd504ae74b80094bdd3a4dbef3bf4a41615a/icons/{{PackageName}}.png</iconUrl>
-    <tags>development debug window properties</tags>
+    <tags>development debug window properties admin</tags>
     <copyright>© 2010 xtal256</copyright>
     <licenseUrl>https://www.gnu.org/licenses/gpl-3.0.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

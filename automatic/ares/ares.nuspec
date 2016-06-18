@@ -12,7 +12,7 @@ Ares Galaxy is a free, open source BitTorrent and chat program that uses its own
     </description>
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://aresgalaxy.sourceforge.net/</projectUrl>
-    <tags>file-sharing p2p peer-to-peer</tags>
+    <tags>file-sharing p2p peer-to-peer admin</tags>
     <copyright></copyright>
     <licenseUrl>http://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

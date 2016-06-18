@@ -44,7 +44,7 @@ Every 6 weeks, Firefox developers take the current stable features of each build
     <projectUrl>https://www.mozilla.org/en-US/firefox/developer/</projectUrl>
     <projectSourceUrl>http://hg.mozilla.org/releases/mozilla-aurora/</projectSourceUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/09264db6fe62d7ffab92f088722deab819a4bb47/icons/{{PackageName}}.png</iconUrl>
-    <tags>browser mozilla firefox developer</tags>
+    <tags>browser mozilla firefox developer admin</tags>
     <copyright>© Mozilla Foundation</copyright>
     <licenseUrl>http://www.mozilla.org/MPL/2.0/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

@@ -31,7 +31,7 @@ Detailed information on each item can be automatically retrieved from the intern
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://www.gcstar.org/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/19d35dff574b7496b92f235fa1503d47b861871a/icons/{{PackageName}}.svg</iconUrl>
-    <tags>collection organizer library lending</tags>
+    <tags>collection organizer library lending admin</tags>
     <copyright>© Christian Jodar</copyright>
     <licenseUrl>http://www.gnu.org/licenses/gpl.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

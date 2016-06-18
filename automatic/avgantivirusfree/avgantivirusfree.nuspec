@@ -28,7 +28,7 @@ AVG Anti-Virus Free Edition is trusted antivirus and antispyware protection for 
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://www.avg.com/free-antivirus-download</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/dd7121af88611d4f92e29187d065ba9a0fcaedeb/icons/{{PackageName}}.png</iconUrl>
-    <tags>security antivirus freeware</tags>
+    <tags>security antivirus freeware admin</tags>
     <copyright>© AVG Technologies</copyright>
     <licenseUrl>http://www.avg.com/eula</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

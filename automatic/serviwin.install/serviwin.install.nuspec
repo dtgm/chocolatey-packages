@@ -21,7 +21,7 @@ installed services/drivers in your default browser.
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/serviwin.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/serviwin.png</iconUrl>
-    <tags>windows alternative start stop restart</tags>
+    <tags>windows alternative start stop restart admin</tags>
     <copyright>© 2003 NirSoft</copyright>
     <licenseUrl>http://www.nirsoft.net/utils/serviwin.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

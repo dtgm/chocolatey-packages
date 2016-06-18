@@ -17,7 +17,7 @@ It support both generic domains and country code domains.
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/whois_this_domain.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/whoistd.png</iconUrl>
-    <tags>domain dns whois record registration</tags>
+    <tags>domain dns whois record registration admin</tags>
     <copyright>© 2005 NirSoft</copyright>
     <licenseUrl>http://www.nirsoft.net/utils/whois_this_domain.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

@@ -35,7 +35,7 @@ Supported languages: English, French, German, Chinese (Simplified), Czech, Itali
     <projectSourceUrl>https://github.com/hsoft/dupeguru</projectSourceUrl>
     <bugTrackerUrl>https://github.com/hsoft/dupeguru/issues</bugTrackerUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/640f71b3c3e4c89b85daa06c2f3b74433afcf17e/icons/{{PackageName}}.png</iconUrl>
-    <tags>graphic deduplication</tags>
+    <tags>graphic deduplication admin</tags>
     <copyright>© 2006 Hardcoded Software</copyright>
     <licenseUrl>https://raw.githubusercontent.com/hsoft/dupeguru/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

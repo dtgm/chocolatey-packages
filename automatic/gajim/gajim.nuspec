@@ -36,7 +36,7 @@ The goal of Gajim is to provide a full featured and easy to use Jabber/XMPP clie
     <docsUrl>http://gajim.org/docs.php</docsUrl>
     <mailingListUrl>https://lists.gajim.org/</mailingListUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/6d62152d981c1afc00a360815217e81aaf19c74b/icons/{{PackageName}}.png</iconUrl>
-    <tags>instant-messaging jabber xmpp encrypted</tags>
+    <tags>instant-messaging jabber xmpp encrypted admin</tags>
     <copyright>© The Gajim Team</copyright>
     <licenseUrl>https://trac.gajim.org/browser/COPYING</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

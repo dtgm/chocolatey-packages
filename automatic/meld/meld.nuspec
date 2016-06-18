@@ -16,7 +16,7 @@ Written with Python and GTK. While in theory meld could be compiled for Windows 
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://meldmerge.org/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/ffbb085179c0a6ff04499da4902d485d7945fde9/icons/{{PackageName}}.png</iconUrl>
-    <tags>file-compare diff folder-compare merging merge-folders</tags>
+    <tags>file-compare diff folder-compare merging merge-folders admin</tags>
     <copyright>Kai Willadsen</copyright>
     <licenseUrl>http://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

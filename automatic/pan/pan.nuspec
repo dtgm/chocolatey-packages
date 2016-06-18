@@ -15,7 +15,7 @@ The 2006 redesign and rewrite of Pan has made Pan significantly faster, cut its 
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://pan.rebelbase.com/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/3717a8f7533acd783ca2ab96d6e9a57a0ceb264a/icons/{{packageName}}.png</iconUrl>
-    <tags>gtk usenet newsreader nzb</tags>
+    <tags>gtk usenet newsreader nzb admin</tags>
     <copyright>© http://pan.rebelbase.com/contact/</copyright>
     <licenseUrl>https://gnu.org/licenses/gpl.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

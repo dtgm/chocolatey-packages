@@ -25,7 +25,7 @@ Here's some examples for data that you can export with SysExporter:
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/sysexp.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/sysexp.png</iconUrl>
-    <tags>data visualizer lists</tags>
+    <tags>data visualizer lists admin</tags>
     <copyright>© 2003 NirSoft</copyright>
     <licenseUrl>http://www.nirsoft.net/utils/sysexp.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

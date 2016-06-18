@@ -21,7 +21,7 @@ If you have a movie player that is configured to play flv files, it also allows 
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/video_cache_view.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/videocacheview.png</iconUrl>
-    <tags>offline save copy download video flv flash cache browser youtube</tags>
+    <tags>offline save copy download video flv flash cache browser youtube admin</tags>
     <copyright>© 2007 NirSoft</copyright>
     <licenseUrl>http://www.nirsoft.net/utils/video_cache_view.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

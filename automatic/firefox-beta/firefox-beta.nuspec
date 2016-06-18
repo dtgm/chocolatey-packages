@@ -29,7 +29,7 @@ Every 6 weeks, Firefox developers take the current stable features of each build
     <bugTrackerUrl>https://bugzilla.mozilla.org/</bugTrackerUrl>
     <docsUrl>https://developer.mozilla.org/Firefox/</docsUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/bbd5c9c56b6d2e9edbd4e80ce9cad215d2912231/icons/{{PackageName}}.png</iconUrl>
-    <tags>browser mozilla firefox beta</tags>
+    <tags>browser mozilla firefox beta admin</tags>
     <copyright>© Mozilla Foundation</copyright>
     <licenseUrl>http://www.mozilla.org/MPL/2.0/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

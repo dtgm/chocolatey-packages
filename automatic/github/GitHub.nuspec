@@ -24,7 +24,7 @@ GitHub Desktop includes a fully functional version of [msysgit](https://chocolat
     </description>
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>https://windows.github.com</projectUrl>
-    <tags>unattended git client github scm distributed gui posh-git cli</tags>
+    <tags>unattended git client github scm distributed gui posh-git cli admin</tags>
     <copyright>© 2012 GitHub Inc</copyright>
     <licenseUrl>https://windows.github.com/eula.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

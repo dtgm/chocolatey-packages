@@ -25,7 +25,7 @@ EventGhost is an advanced, easy to use and extensible automation tool. It can us
     <projectUrl>http://www.eventghost.org/</projectUrl>
     <projectSourceUrl>http://www.eventghost.org/downloads/</projectSourceUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/c7317174d0ca6b8f220fc6e72971f002f88844bb/icons/{{PackageName}}.png</iconUrl>
-    <tags>automation x10 remote-control macro</tags>
+    <tags>automation x10 remote-control macro admin</tags>
     <copyright>© 2009 EventGhost Project</copyright>
     <licenseUrl>http://www.gnu.org/licenses/old-licenses/gpl-2.0.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

@@ -20,7 +20,7 @@ TortoiseGit is a Windows Shell Interface to Git and based on TortoiseSVN. Tortoi
     <docsUrl>https://tortoisegit.org/docs/</docsUrl>
     <mailingListUrl>https://groups.google.com/forum/#!forum/tortoisegit-dev</mailingListUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/c4d81f12a4bce0a89447e29ad7df48b7c66ae964/icons/{{PackageName}}.png</iconUrl>
-    <tags>git revision-control dvcs</tags>
+    <tags>git revision-control dvcs admin</tags>
     <copyright>© TortoiseGit</copyright>
     <licenseUrl>http://www.gnu.org/licenses/old-licenses/gpl-2.0.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

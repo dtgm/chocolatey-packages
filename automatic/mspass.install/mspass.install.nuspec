@@ -32,7 +32,7 @@ You cannot use this utility for grabbing the passwords of other users.
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/mspass.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/mspass.png</iconUrl>
-    <tags>recovery recover crack instant messenger im msn icq yahoo trillian freeware</tags>
+    <tags>recovery recover crack instant messenger im msn icq yahoo trillian freeware admin</tags>
     <copyright>© 2004 NirSoft</copyright>
     <licenseUrl>http://www.nirsoft.net/utils/mspass.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

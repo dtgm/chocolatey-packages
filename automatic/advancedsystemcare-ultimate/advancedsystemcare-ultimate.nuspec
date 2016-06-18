@@ -33,7 +33,7 @@ This program installs a 30-day trial version to test the software. After 30 days
     <docsUrl>http://www.iobit.com/product-manuals/asc-ultimate-help/</docsUrl>
     <mailingListUrl>http://forums.iobit.com/forum/advanced-systemcare?f=4</mailingListUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages//icons/{{PackageName}}.png</iconUrl>
-    <tags>trial antivirus privacy optimization registry cleaner</tags>
+    <tags>trial antivirus privacy optimization registry cleaner admin</tags>
     <copyright>© 2005 IObit</copyright>
     <licenseUrl>http://www.iobit.com/legal.php</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

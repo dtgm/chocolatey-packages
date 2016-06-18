@@ -12,7 +12,7 @@ PDFedit includes PDF manipulating library based on xpdf, GUI, set of command lin
     </description>
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://pdfedit.cz/</projectUrl>
-    <tags>pdf editor library pdf-utilities</tags>
+    <tags>pdf editor library pdf-utilities admin</tags>
     <copyright>© Alexander Shaduri</copyright>
     <licenseUrl>http://creativecommons.org/licenses/GPL/2.0/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

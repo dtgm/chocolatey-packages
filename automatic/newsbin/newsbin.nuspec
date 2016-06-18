@@ -20,7 +20,7 @@ Newsbin is a NNTP client. A connection to a NNTP service is required.
     <mailingListUrl>http://forums.newsbin.com/</mailingListUrl>
     <docsUrl>http://help.newsbin.com/index.php</docsUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/18cb8dc097f5ce53195cbdb0c11c788f3cced423/icons/{{PackageName}}.png</iconUrl>
-    <tags>nntp client shareware trial</tags>
+    <tags>nntp client shareware trial admin</tags>
     <copyright>© DJI Interprises, LLC</copyright>
     <licenseUrl>http://www.newsbin.com/license.php</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

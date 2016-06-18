@@ -15,7 +15,7 @@ Unlike built-in auto update features, SUMo tells you if updates are available be
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://www.kcsoftwares.com/?sumo</projectUrl>
     <bugTrackerUrl>http://www.kcsoftwares.com/bugs/view_all_bug_page.php</bugTrackerUrl>
-    <tags>update-notifier</tags>
+    <tags>update-notifier admin</tags>
     <copyright>© KC Softwares</copyright>
     <licenseUrl>http://www.kcsoftwares.com/legal/ToU.pdf</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

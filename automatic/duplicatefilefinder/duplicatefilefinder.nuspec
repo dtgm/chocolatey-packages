@@ -21,7 +21,7 @@ Duplicate File Finder will help you locate and remove useless file duplicates to
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://www.auslogics.com/en/software/duplicate-file-finder/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/74b4deb4238ff4592c0f410cf0edd540832558c7/icons/{{packageName}}.png</iconUrl>
-    <tags>file-duplicates deduplication</tags>
+    <tags>file-duplicates deduplication admin</tags>
     <copyright>© 2009 Auslogics</copyright>
     <licenseUrl>http://www.auslogics.com/en/support/product/duplicate-file-finder/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

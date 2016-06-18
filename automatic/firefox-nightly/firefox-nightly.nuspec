@@ -28,7 +28,7 @@ Every 6 weeks, Firefox developers take the current stable features of each build
     <projectSourceUrl>https://hg.mozilla.org/mozilla-central/</projectSourceUrl>
     <mailingListUrl>https://mail.mozilla.org/listinfo/nightly-testers</mailingListUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/34eed6fa346faeb2d0b97cf77868cf26c2af247b/icons/{{PackageName}}.png</iconUrl>
-    <tags>browser mozilla firefox alpha</tags>
+    <tags>browser mozilla firefox alpha admin</tags>
     <copyright>© Mozilla Foundation</copyright>
     <licenseUrl>http://www.mozilla.org/MPL/2.0/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

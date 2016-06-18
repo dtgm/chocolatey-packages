@@ -17,7 +17,7 @@ Stellarium is a free open source planetarium for your computer. It shows a reali
     <docsUrl>http://stellarium.org/wiki/index.php/Main_Page</docsUrl>
     <mailingListUrl>https://sourceforge.net/p/stellarium/mailman/</mailingListUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/19d35dff574b7496b92f235fa1503d47b861871a/icons/{{PackageName}}.svg</iconUrl>
-    <tags>planetarium sky stars constellations</tags>
+    <tags>planetarium sky stars constellations admin</tags>
     <copyright>© Stellarium Developers</copyright>
     <licenseUrl>https://sourceforge.net/p/stellarium/code/HEAD/tree/trunk/stellarium/COPYING</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

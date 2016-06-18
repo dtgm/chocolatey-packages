@@ -17,7 +17,7 @@ Belvedere is a Windows knock-off of the Mac-only Hazel, and Gina has already gui
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://lifehacker.com/341950/belvedere-automates-your-self+cleaning-pc</projectUrl>
     <projectSourceUrl>https://github.com/mshorts/belvedere</projectSourceUrl>
-    <tags>automation file-management organizer clean move sort</tags>
+    <tags>automation file-management organizer clean move sort admin</tags>
     <copyright>© Adam Pash, Matt Shorts</copyright>
     <licenseUrl>https://github.com/mshorts/belvedere/blob/master/LICENSE.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

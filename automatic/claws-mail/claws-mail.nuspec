@@ -30,7 +30,7 @@ Claws Mail is a GTK+ based, lightweight, and fast e-mail client and newsreader. 
     <docsUrl>http://www.claws-mail.org/documentation.php</docsUrl>
     <mailingListUrl>http://www.claws-mail.org/MLs.php</mailingListUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/cf7540fa1e42a55b4a09b0fd2c5f390b88dea4fd/icons/{{PackageName}}.png</iconUrl>
-    <tags>email client mua mh smtp imap nntp ldap gpg i18n gtk</tags>
+    <tags>email client mua mh smtp imap nntp ldap gpg i18n gtk admin</tags>
     <copyright>© 2001,2005 Claws Mail Team</copyright>
     <licenseUrl>http://www.claws-mail.org/COPYING</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

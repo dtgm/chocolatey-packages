@@ -23,7 +23,7 @@ LibreCrypt supports the LUKs and losetup encryption schemes that are in most Lin
     <bugTrackerUrl>https://github.com/t-d-k/LibreCrypt/issues</bugTrackerUrl>
     <docsUrl>https://github.com/t-d-k/LibreCrypt/tree/master/docs</docsUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/7379db8c459bb2a77d8483ea374e09e7a1088571/icons/{{PackageName}}.png</iconUrl>
-    <tags>luks encryption security privacy</tags>
+    <tags>luks encryption security privacy admin</tags>
     <copyright>© tdk</copyright>
     <licenseUrl>https://github.com/t-d-k/LibreCrypt/blob/master/docs/licence.md</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

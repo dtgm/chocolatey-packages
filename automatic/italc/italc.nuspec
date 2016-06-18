@@ -25,7 +25,7 @@ Furthermore iTALC is optimized for usage on multi-core systems (by making heavy 
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://italc.sourceforge.net/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/master/icons/italc.png</iconUrl>
-    <tags>classroom-management remote-control</tags>
+    <tags>classroom-management remote-control admin</tags>
     <copyright>© Tobias Doerffel</copyright>
     <licenseUrl>http://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

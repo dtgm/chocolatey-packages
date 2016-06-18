@@ -34,7 +34,7 @@ Diffuse is a graphical tool for merging and comparing text files. Diffuse is abl
     <bugTrackerUrl>https://sourceforge.net/p/diffuse/bugs/</bugTrackerUrl>
     <mailingListUrl>https://sourceforge.net/p/diffuse/mailman/</mailingListUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/cbc58c8aa4e0792101579a9842fa7a6c839795cb/icons/{{PackageName}}.png</iconUrl>
-    <tags>visual diff merge text</tags>
+    <tags>visual diff merge text admin</tags>
     <copyright>© 2006 Derrick Moser, Henri Menke</copyright>
     <licenseUrl>http://diffuse.sourceforge.net/licence.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

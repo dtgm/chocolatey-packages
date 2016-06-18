@@ -15,7 +15,7 @@ TortoiseSVN is implemented as a Windows shell extension. It's intuitive and easy
 [Screenshots](http://tortoisesvn.net/screenshots.html)
 [FAQ](http://tortoisesvn.net/faq.html)
     </description>
-    <tags>svn subversion scm revision-control</tags>
+    <tags>svn subversion scm revision-control admin</tags>
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://tortoisesvn.net/</projectUrl>
     <projectSourceUrl>https://sourceforge.net/p/tortoisesvn/code/HEAD/tree/</projectSourceUrl>

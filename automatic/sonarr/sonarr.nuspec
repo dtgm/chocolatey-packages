@@ -23,7 +23,7 @@ Sonarr (formerly NzbDrone) is a PVR for Usenet and BitTorrent users. It can moni
     <docsUrl>https://wiki.sonarr.tv/</docsUrl>
     <mailingListUrl>https://forums.sonarr.tv/</mailingListUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/de2650317146de310280831f624da36d0c3374e3/icons/{{PackageName}}.svg</iconUrl>
-    <tags>pvr p2p filesharing torrent nntp</tags>
+    <tags>pvr p2p filesharing torrent nntp admin</tags>
     <copyright>© 2010 Mark McDowall, Keivan Beigi</copyright>
     <licenseUrl>http://www.gnu.org/licenses/gpl-3.0.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

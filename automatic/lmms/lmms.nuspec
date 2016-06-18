@@ -23,7 +23,7 @@ LMMS is a free cross-platform alternative to commercial programs like FL StudioÂ
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>https://lmms.io/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/19d35dff574b7496b92f235fa1503d47b861871a/icons/{{PackageName}}.svg</iconUrl>
-    <tags>music-production music-mixing beatbox</tags>
+    <tags>music-production music-mixing beatbox admin</tags>
     <copyright>LMMS Team</copyright>
     <licenseUrl>https://github.com/LMMS/lmms/blob/master/COPYING</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

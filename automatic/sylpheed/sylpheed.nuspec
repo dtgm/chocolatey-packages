@@ -30,7 +30,7 @@ ylpheed is a simple, lightweight but featureful, and easy-to-use e-mail client. 
     <docsUrl>http://sylpheed.sraoss.jp/en/documents.html</docsUrl>
     <mailingListUrl>http://sylpheed.sraoss.jp/en/ml.html</mailingListUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/23191eefb8ff22d5f75a1fab4f5de88a1ba77814/icons/{{PackageName}}.png</iconUrl>
-    <tags>email client mua mh smtp imap nntp ldap gpg i18n gtk</tags>
+    <tags>email client mua mh smtp imap nntp ldap gpg i18n gtk admin</tags>
     <copyright>© 1999 Hiroyuki Yamamoto</copyright>
     <licenseUrl>http://sylpheed.sraoss.jp/doc/LICENSE.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

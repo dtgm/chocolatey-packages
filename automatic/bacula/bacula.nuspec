@@ -20,7 +20,7 @@ In technical terms, it is a network Client/Server based backup program. Bacula i
     <projectSourceUrl>http://www.bacula.org/git/cgit.cgi/bacula/tree/bacula/src/win32</projectSourceUrl>
     <docsUrl>http://blog.bacula.org/documentation/documentation/</docsUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/ef4ae344ca7cb53332508bd2a07046f1457137f0/icons/bacula-fd.png</iconUrl>
-    <tags>network backup sync</tags>
+    <tags>network backup sync admin</tags>
     <copyright>© 1999 Bacula Systems</copyright>
     <licenseUrl>http://blog.bacula.org/general/bacula-copyright-trademark-and-licenses/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

@@ -33,7 +33,7 @@ If no parameters are passed, the following is assumed: `--params '/assoc=0 /ini=
     <docsUrl>http://www.irfanview.com/faq.htm</docsUrl>
     <mailingListUrl>https://irfanview-forum.de/</mailingListUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/04f6a6eaed68793bfdbf951606879239ec9aaa0a/icons/{{PackageName}}.png</iconUrl>
-    <tags>image viewer editor converter thumbnail</tags>
+    <tags>image viewer editor converter thumbnail admin</tags>
     <copyright>© Irfan Skiljan</copyright>
     <licenseUrl>http://www.irfanview.com/eula.htm</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

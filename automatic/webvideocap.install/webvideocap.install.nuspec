@@ -15,7 +15,7 @@ This utility allows you to capture .flv (Flash Video) files and RTSP/MMS video s
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/web_video_capture.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/webvideocap.png</iconUrl>
-    <tags>video flv flash rtsp mms stream</tags>
+    <tags>video flv flash rtsp mms stream admin</tags>
     <copyright>© 2007 NirSoft</copyright>
     <licenseUrl>http://www.nirsoft.net/utils/web_video_capture.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

@@ -13,7 +13,7 @@ ColorMania is a extended colorpicker with an eyedropper component and a screen m
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://www.blacksunsoftware.com/colormania.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/3be9252c1d790463992898b7a913f0d4016f8a73/icons/{{PackageName}}.png</iconUrl>
-    <tags>graphics color picker eyedropper magnifier</tags>
+    <tags>graphics color picker eyedropper magnifier admin</tags>
     <copyright>© 1999 Blacksun Software</copyright>
     <licenseUrl>https://wikipedia.org/wiki/Freeware</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

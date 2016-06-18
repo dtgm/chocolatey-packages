@@ -50,7 +50,7 @@ __[gpg4win](https://chocolatey.org/packages/gpg4win)__ includes all the above, a
     <docsUrl>http://www.gpg4win.org/documentation.html</docsUrl>
     <mailingListUrl>http://www.gpg4win.org/community.html#main</mailingListUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/1a97e0e5849191aea5a30a0eb7fa4a18b54d633e/icons/{{PackageName}}.png</iconUrl>
-    <tags>gui cli security signature encryption certificate gpg gnupg gpa gpgol gpgex clawsmail</tags>
+    <tags>gui cli security signature encryption certificate gpg gnupg gpa gpgol gpgex clawsmail admin</tags>
     <copyright>© 2006 g10 Code GmbH</copyright>
     <licenseUrl>http://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

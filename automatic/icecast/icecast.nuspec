@@ -19,7 +19,7 @@ It can be used to create an Internet radio station or a privately running jukebo
     <docsUrl>http://www.icecast.org/docs/</docsUrl>
     <mailingListUrl>http://www.icecast.org/contact#mailing-list</mailingListUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/84184c3483741cd6561294e5bff4fb8bb9e1ec91/icons/{{PackageName}}.png</iconUrl>
-    <tags>multimedia streaming</tags>
+    <tags>multimedia streaming admin</tags>
     <copyright>© 2004 Xiph.Org</copyright>
     <licenseUrl>https://github.com/xiph/Icecast-Server/blob/master/COPYING</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

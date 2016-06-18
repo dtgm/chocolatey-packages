@@ -21,7 +21,7 @@ It works on standard PC equipped with a webcam. No additional hardware is requir
     <docsUrl>http://eviacam.sourceforge.net/help/en/contents.htm</docsUrl>
     <mailingListUrl>https://sourceforge.net/p/{{PackageName}}/mailman/</mailingListUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/33f970426f6bb2bbf2b4b15e1f40b3697cea4c8f/icons/{{PackageName}}.png</iconUrl>
-    <tags>hid face mouse</tags>
+    <tags>hid face mouse admin</tags>
     <copyright>© 2008 Cesar Mauri-Loba</copyright>
     <licenseUrl>http://sourceforge.net/p/eviacam/eviacam/ci/master/tree/COPYING</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

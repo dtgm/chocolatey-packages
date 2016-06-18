@@ -15,7 +15,7 @@ Using FileAlyzer is as simple as viewing the regular properties of a file – ju
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>https://www.safer-networking.org/products/filealyzer/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/88048d301a4dcb3c6fca1c71166e7a84951ad36f/icons/{{PackageName}}.png</iconUrl>
-    <tags>file properties hex-dump</tags>
+    <tags>file properties hex-dump admin</tags>
     <copyright>© 2000 Safer-Networking Ltd</copyright>
     <licenseUrl>http://www.safer-networking.org/products/regalyzer</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

@@ -32,7 +32,7 @@ Please note that although this is open source software, a cost to use is integra
     <bugTrackerUrl>https://github.com/bitcoin-solutions/multibit-hd/issues</bugTrackerUrl>
     <docsUrl>https://multibit.org/help/</docsUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/bd918913d80f6400aee905575017f69ac0997631/icons/{{PackageName}}.png</iconUrl>
-    <tags>fee-to-send cryptocurrency bitcoin digital-wallet</tags>
+    <tags>fee-to-send cryptocurrency bitcoin digital-wallet admin</tags>
     <copyright>© 2013 Bitcoin Solutions Ltd</copyright>
     <licenseUrl>https://multibit.org/tandc.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

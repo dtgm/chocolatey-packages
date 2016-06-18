@@ -28,7 +28,7 @@ There are numerous goals that MonoDevelop hopes to achieve. Some of these are:
     <projectUrl>http://monodevelop.com/</projectUrl>
     <projectSourceUrl>https://github.com/mono/mono</projectSourceUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/bae8c08374744857d3b9827c9a1463c94a683ea8/icons/{{PackageName}}.png</iconUrl>
-    <tags>mono ide dotnet</tags>
+    <tags>mono ide dotnet admin</tags>
     <copyright>© MonoDevelop Project</copyright>
     <licenseUrl>http://www.gnu.org/licenses/lgpl-2.1.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

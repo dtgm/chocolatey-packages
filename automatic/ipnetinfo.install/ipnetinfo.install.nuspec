@@ -13,7 +13,7 @@ IPNetInfo is a small utility that allows you to easily find all available inform
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/ipnetinfo.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/ipnetinfo.png</iconUrl>
-    <tags>ip address whois</tags>
+    <tags>ip address whois admin</tags>
     <copyright>© 2004 NirSoft</copyright>
     <licenseUrl>http://www.nirsoft.net/utils/ipnetinfo.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

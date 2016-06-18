@@ -17,7 +17,7 @@ If you are a programmer, you have built a Macintosh Core Audio or QuickTime-base
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://www.xiph.org/quicktime/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/ae10945a00d196e50135c49ccfabc23f770f456f/icons/xiphqt.png</iconUrl>
-    <tags>quicktime codec ogg vorbis speex theora flac</tags>
+    <tags>quicktime codec ogg vorbis speex theora flac admin</tags>
     <copyright>© Xiph.Org</copyright>
     <licenseUrl>http://www.fsf.org/licensing/licenses/lgpl.html#TOC1</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

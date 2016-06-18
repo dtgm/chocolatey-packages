@@ -19,7 +19,7 @@ VeraCrypt storage format is INCOMPATIBLE with TrueCrypt storage format.
     <licenseUrl>https://veracrypt.codeplex.com/wikipage?title=VeraCrypt%20License</licenseUrl>
     <copyright>© IDRIX Cryptography and IT Security Experts</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <tags>disk-encryption security privacy</tags>
+    <tags>disk-encryption security privacy admin</tags>
     <dependencies>
       <dependency id="autohotkey.portable" />
     </dependencies>

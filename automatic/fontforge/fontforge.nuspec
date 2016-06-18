@@ -30,7 +30,7 @@ FontForge can also extract fonts fom PDFs and validate fonts for potential issue
     <bugTrackerUrl>https://github.com/fontforge/fontforge/issues</bugTrackerUrl>
     <docsUrl>http://fontforge.github.io/en-US/documentation/</docsUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/19d35dff574b7496b92f235fa1503d47b861871a/icons/{{PackageName}}.svg</iconUrl>
-    <tags>font-editor typography unicode python</tags>
+    <tags>font-editor typography unicode python admin</tags>
     <copyright>© 2001 George Williams</copyright>
     <licenseUrl>https://github.com/fontforge/fontforge/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

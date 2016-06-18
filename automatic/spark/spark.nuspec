@@ -21,7 +21,7 @@ Combined with the Openfire server, Spark is the easiest and best alternative to 
     <docsUrl>http://www.igniterealtime.org/projects/spark/documentation.jsp</docsUrl>
     <mailingListUrl>https://community.igniterealtime.org/community/support/spark_support</mailingListUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/b382d2f1761977ec66caccd434a0c964f56ef2fd/icons/{{PackageName}}.png</iconUrl>
-    <tags>chat group video xmpp jabber</tags>
+    <tags>chat group video xmpp jabber admin</tags>
     <copyright>© 2006 Jive Software</copyright>
     <licenseUrl>http://www.igniterealtime.org/builds/spark/docs/latest/LICENSE.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

@@ -41,7 +41,7 @@ If XnView is not installed, the plugins should be unpacked and placed in the def
     <projectSourceUrl>https://sourceforge.net/p/sagethumbs/code/HEAD/tree/</projectSourceUrl>
     <bugTrackerUrl>https://sourceforge.net/p/sagethumbs/tickets/</bugTrackerUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/6c36a30ca931a11774f57864e9a90fa1717e7a44/icons/{{PackageName}}.png</iconUrl>
-    <tags>windows explorer extension images thumbnail gallery</tags>
+    <tags>windows explorer extension images thumbnail gallery admin</tags>
     <copyright>© 2004 Nikolay Raspopov</copyright>
     <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

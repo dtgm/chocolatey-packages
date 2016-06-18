@@ -16,7 +16,7 @@ GSmartControl supports ATA drives (both PATA and SATA), various USB to ATA bridg
     </description>
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://gsmartcontrol.sourceforge.net/</projectUrl>
-    <tags>s.m.a.r.t. gui hardware disk reporting monitoring</tags>
+    <tags>s.m.a.r.t. gui hardware disk reporting monitoring admin</tags>
     <copyright>© Alexander Shaduri</copyright>
     <licenseUrl>http://gsmartcontrol.sourceforge.net/home/index.php/License</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

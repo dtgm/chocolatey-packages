@@ -15,7 +15,7 @@ In some circumstances, you may need to repair or modify the values appeared in t
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/outlook_nk2_edit.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/nk2edit.png</iconUrl>
-    <tags>repair autocomplete outlook</tags>
+    <tags>repair autocomplete outlook admin</tags>
     <copyright>© 2010 NirSoft</copyright>
     <licenseUrl>http://www.nirsoft.net/utils/outlook_nk2_edit.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

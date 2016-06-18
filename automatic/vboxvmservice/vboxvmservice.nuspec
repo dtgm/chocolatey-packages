@@ -17,7 +17,7 @@ VBoxVmService is a Windows application that allows you to run Oracle's VirtualBo
     <docsUrl>http://sourceforge.net/p/vboxvmservice/discussion/</docsUrl>
     <mailingListUrl>http://sourceforge.net/p/vboxvmservice/mailman/</mailingListUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/3954f05c59b17caa8748e5a2fd52cb894d516584/icons/{{PackageName}}.png</iconUrl>
-    <tags>virtualbox vmware virtualization vm service</tags>
+    <tags>virtualbox vmware virtualization vm service admin</tags>
     <copyright>© Mathias Herrmann, Zhe Fang, Runar Buvik</copyright>
     <licenseUrl>https://wikipedia.org/wiki/Freeware</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

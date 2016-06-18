@@ -17,7 +17,7 @@ It is interoperable with many other standard compliant softwares, hardwares and 
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://ekiga.org/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/269e4311cd8b524c71dbfb2a49237c3ed68929f9/icons/{{PackageName}}.svg</iconUrl>
-    <tags>voip sip video-conference instant-messaging chat</tags>
+    <tags>voip sip video-conference instant-messaging chat admin</tags>
     <copyright>© Damien Sandras</copyright>
     <licenseUrl>http://wiki.ekiga.org/index.php/Manual#License</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

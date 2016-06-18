@@ -19,7 +19,7 @@ The original motivation behind this project was to create an easy, convenient wa
     <projectSourceUrl>{{PackageGuid}}</projectSourceUrl>
     <mailingListUrl>http://legroom.net/forum/software/universal-extractor</mailingListUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/21e04d93dda7b0851883f8a4e8f28f1a42793827/icons/uniextract.png</iconUrl>
-    <tags>unzip extract unarchive</tags>
+    <tags>unzip extract unarchive admin</tags>
     <copyright>© 2005 Jared Breland</copyright>
     <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

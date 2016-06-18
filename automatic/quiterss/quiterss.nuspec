@@ -41,7 +41,7 @@ QuiteRSS is an open-source, cross-platform, multi-tabbed RSS/Atom news feeds rea
     <bugTrackerUrl>https://github.com/QuiteRSS/quiterss/issues</bugTrackerUrl>
     <mailingListUrl>http://quiterss.org/forum</mailingListUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/25ce0b72c9c6892b4b86695228d8cb773b8f4283/icons/{{PackageName}}.png</iconUrl>
-    <tags>news newsreader news-aggregator atom feed-reader rss really-simple-syndication</tags>
+    <tags>news newsreader news-aggregator atom feed-reader rss really-simple-syndication admin</tags>
     <copyright>© 2011 QuiteRSS Team</copyright>
     <licenseUrl>https://github.com/QuiteRSS/quiterss/blob/master/COPYING</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

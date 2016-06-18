@@ -16,7 +16,7 @@ Trillian connects to multiple instant messaging services without the need of run
     </description>
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>https://www.trillian.im/download/</projectUrl>
-    <tags>chat twitter messenger gmail yahoo facebook skype irc</tags>
+    <tags>chat twitter messenger gmail yahoo facebook skype irc admin</tags>
     <copyright>© Cerulean Studios</copyright>
     <licenseUrl>https://www.trillian.im/eula/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

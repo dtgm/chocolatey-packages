@@ -27,7 +27,7 @@ RetroShare provides filesharing, chat, messages, forums and channels
     <bugTrackerUrl>https://sourceforge.net/p/retroshare/bugs/</bugTrackerUrl>
     <docsUrl>http://retroshare.sourceforge.net/wiki/index.php/Main_Page</docsUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/ad1fa54f9834f37c0f92404b8e40974a5498e5d7/icons/{{PackageName}}.png</iconUrl>
-    <tags>p2p security anonymity chat file-sharing wot</tags>
+    <tags>p2p security anonymity chat file-sharing wot admin</tags>
     <copyright>© 2009 RetroShare Team</copyright>
     <licenseUrl>https://www.gnu.org/licenses/gpl.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

@@ -28,7 +28,7 @@ Speex is based on CELP and is designed to compress voice at bitrates ranging fro
     <docsUrl>http://www.speex.org/docs/</docsUrl>
     <mailingListUrl>http://www.speex.org/contact/</mailingListUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/17c8da78374360971fd5ccf8b2bf5fe7b9956696/icons/{{PackageName}}.png</iconUrl>
-    <tags>audio codec voip</tags>
+    <tags>audio codec voip admin</tags>
     <copyright>© 1994 Xiph.Org</copyright>
     <licenseUrl>http://www.speex.org/docs/manual/speex-manual/node15.html#sec:Speex-License</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

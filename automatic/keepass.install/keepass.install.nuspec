@@ -30,7 +30,7 @@ FAQs: [General](http://keepass.info/help/kb/faq.html), [Technical](http://keepas
     <projectUrl>http://keepass.info/</projectUrl>
     <projectSourceUrl>http://sourceforge.net/projects/keepass/files/KeePass%202.x/{{PackageVersion}}/KeePass-{{PackageVersion}}-Source.zip/download</projectSourceUrl>
     <bugTrackerUrl>https://sourceforge.net/p/keepass/bugs/</bugTrackerUrl>
-    <tags>password safe</tags>
+    <tags>password safe admin</tags>
     <copyright>© 2003 Dominik Reichl, http://keepass.info/help/base/credits.html</copyright>
     <licenseUrl>http://keepass.info/help/v2/license.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

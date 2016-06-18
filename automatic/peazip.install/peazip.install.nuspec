@@ -18,7 +18,7 @@ Features of PeaZip includes extract, create and convert multiple archives at onc
     <projectUrl>http://peazip.sourceforge.net/</projectUrl>
     <projectSourceUrl>http://sourceforge.net/projects/peazip/files/{{PackageVersion}}/peazip-{{PackageVersion}}.src.zip/download</projectSourceUrl>
     <bugTrackerUrl>https://sourceforge.net/p/peazip/tickets/</bugTrackerUrl>
-    <tags>file-manager file-encryption file-compression zip rar 7zip tar</tags>
+    <tags>file-manager file-encryption file-compression zip rar 7zip tar admin</tags>
     <copyright>© Peazip Srl</copyright>
     <licenseUrl>http://peazip.sourceforge.net/peazip-tos-privacy.html#peazip_copyright</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

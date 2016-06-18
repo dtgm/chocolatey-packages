@@ -17,7 +17,7 @@ aMule stands for all-platform eMule file-sharing program. It is affiliated with 
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://www.amule.org/</projectUrl>
     <projectSourceUrl>http://amule.sourceforge.net/tarballs/tarballs.xml</projectSourceUrl>
-    <tags>p2p torrent dht filesharing</tags>
+    <tags>p2p torrent dht filesharing admin</tags>
     <copyright>© 2003 aMule</copyright>
     <licenseUrl>http://wiki.amule.org/wiki/GNU_FDL</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

@@ -26,7 +26,7 @@ Attempting to install previous versions will fail.  Only the latest release of {
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://icanblink.com</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2d36d582524442618d1c3b8bc4f3830f9e75281d/icons/{{PackageName}}.png</iconUrl>
-    <tags>blink sip phone calls telephony softphone</tags>
+    <tags>blink sip phone calls telephony softphone admin</tags>
     <copyright>© 2009-2015 AG Projects B.V.</copyright>
     <licenseUrl>https://www.gnu.org/licenses/gpl-3.0.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

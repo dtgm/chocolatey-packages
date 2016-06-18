@@ -25,7 +25,7 @@ This package installs a limited version of the software with a nagscreen and 300
     <docsUrl>http://www.ezbsystems.com/ultraiso/faq.htm</docsUrl>
     <mailingListUrl>http://www.ezbsystems.com/cgi-bin/ikonboard.cgi?</mailingListUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/ca6e43fffee44e91d8216c474ea2cae6af3d2861/icons/{{PackageName}}.png</iconUrl>
-    <tags>trial iso bootable-usb</tags>
+    <tags>trial iso bootable-usb admin</tags>
     <copyright>© 2002 EZB Systems, Inc</copyright>
     <licenseUrl>http://www.software112.com/products/ultraiso-premium+eula.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

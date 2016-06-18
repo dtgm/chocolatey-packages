@@ -32,7 +32,7 @@ It is built by taking the latest stable Core release, applying a series of [patc
     <bugTrackerUrl>https://github.com/bitcoinxt/bitcoinxt/issues</bugTrackerUrl>
     <mailingListUrl>https://groups.google.com/forum/#!forum/bitcoin-xt</mailingListUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/74df04297239b7c70b597f40fe59e4fddb970a46/icons/bitcoinxt.png</iconUrl>
-    <tags>bitcoin btc wallet crypto currency p2p</tags>
+    <tags>bitcoin btc wallet crypto currency p2p admin</tags>
     <copyright>© 2009 Bitcoin XT Developers</copyright>
     <licenseUrl>https://github.com/bitcoinxt/bitcoinxt/blob/master/COPYING</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

@@ -33,7 +33,7 @@ Please note that ClamWin does not include an on-access, real-time scanner. You n
     <mailingListUrl>https://sourceforge.net/p/clamwin/mailman/</mailingListUrl>
     <docsUrl>http://www.clamwin.com/content/category/4/22/89/</docsUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/82dd10296475d3db371d5e8a86bfd768f2d093bb/icons/{{PackageName}}.png</iconUrl>
-    <tags>antivirus virus-scanner security unattended</tags>
+    <tags>antivirus virus-scanner security unattended admin</tags>
     <copyright>ClamWin Pty Ltd</copyright>
     <licenseUrl>http://www.clamwin.com/content/view/226/52/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

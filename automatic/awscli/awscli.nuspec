@@ -19,7 +19,7 @@ The AWS CLI introduces a new set of simple file commands for efficient file tran
     <docsUrl>http://aws.amazon.com/documentation/cli/</docsUrl>
     <mailingListUrl>http://developer.amazonwebservices.com/connect/forum.jspa?forumID=150</mailingListUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/da04b3370b2e7c2e48ad24e66379b031fadab647/icons/{{PackageName}}.png</iconUrl>
-    <tags>aws cli cloud amazon</tags>
+    <tags>aws cli cloud amazon admin</tags>
     <copyright>© 2012 Amazon.com, Inc.</copyright>
     <licenseUrl>https://github.com/aws/aws-cli/blob/develop/LICENSE.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

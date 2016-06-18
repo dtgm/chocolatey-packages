@@ -15,7 +15,7 @@ You can save the extracted icons to ICO files (or CUR files for cursors), or cop
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/iconsext.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/iconsext.png</iconUrl>
-    <tags>icons extractor cursor exe dll scan ico cur</tags>
+    <tags>icons extractor cursor exe dll scan ico cur admin</tags>
     <copyright>© 2003 NirSoft</copyright>
     <licenseUrl>http://www.nirsoft.net/utils/iconsext.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

@@ -50,7 +50,7 @@ __gpg4win__ (this package) includes all the above, and:
     <docsUrl>http://www.gpg4win.org/documentation.html</docsUrl>
     <mailingListUrl>http://www.gpg4win.org/community.html#main</mailingListUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2910ee0aaecd93e132c5b7310cb45fac551a1600/icons/{{PackageName}}.png</iconUrl>
-    <tags>gui cli security signature encryption certificate gpg gnupg gpa gpgol gpgex clawsmail kleopatra</tags>
+    <tags>gui cli security signature encryption certificate gpg gnupg gpa gpgol gpgex clawsmail kleopatra admin</tags>
     <copyright>© 2006 g10 Code GmbH</copyright>
     <licenseUrl>http://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

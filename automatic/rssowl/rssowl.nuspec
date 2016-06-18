@@ -17,7 +17,7 @@ Applications that collect data from RSS-compliant sites are called RSS readers o
     </description>
     <releaseNotes>https://github.com/rssowl/RSSOwl/releases/tag/</releaseNotes>
     <copyright>RSSOwl contributors and others</copyright>
-    <tags>news newsreader rss really-simple-syndication</tags>
+    <tags>news newsreader rss really-simple-syndication admin</tags>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

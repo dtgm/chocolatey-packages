@@ -23,7 +23,7 @@ Any storage: Syncany uses a plug-in based storage system. It can be used with an
     <bugTrackerUrl>https://github.com/syncany/syncany/issues</bugTrackerUrl>
     <docsUrl>https://github.com/syncany/syncany/wiki</docsUrl>
     <mailingListUrl>https://launchpad.net/~syncany-team</mailingListUrl>
-    <tags>filesharing cloud sync dropbox flickr ftp sftp s3 samba webdav</tags>
+    <tags>filesharing cloud sync dropbox flickr ftp sftp s3 samba webdav admin</tags>
     <copyright>© 2014 Philipp C. Heckel</copyright>
     <licenseUrl>https://github.com/syncany/syncany/blob/develop/LICENSE.md</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

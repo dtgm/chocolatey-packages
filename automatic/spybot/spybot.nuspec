@@ -23,7 +23,7 @@ This package installs the free version of Spybot which allows full, manual scann
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://www.safer-networking.org/private/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/d1e037cc7c943fda29b9067b3b1c3229d99402ff/icons/{{PackageName}}.png</iconUrl>
-    <tags>freeware anti-malware anti-spyware anti-rootkit scanner</tags>
+    <tags>freeware anti-malware anti-spyware anti-rootkit scanner admin</tags>
     <copyright>© 2000 Safer-Networking Ltd</copyright>
     <licenseUrl>http://www.safer-networking.org/eula-for-private-users/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

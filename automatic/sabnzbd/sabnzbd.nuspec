@@ -30,7 +30,7 @@ This installer properly sets up a system service to keep SABnzbd always running 
     <projectSourceUrl>https://github.com/sabnzbd/sabnzbd</projectSourceUrl>
     <bugTrackerUrl>http://wiki.sabnzbd.org/known-issues</bugTrackerUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/6c75bf28ba60396d606edc5d12833159e996b3a9/icons/sabnzbd.png</iconUrl>
-    <tags>usenet binary newsreader downloader</tags>
+    <tags>usenet binary newsreader downloader admin</tags>
     <copyright>© 2007 The SABnzbd-team</copyright>
     <licenseUrl>https://github.com/sabnzbd/sabnzbd/blob/master/LICENSE.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

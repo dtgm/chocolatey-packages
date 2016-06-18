@@ -18,7 +18,7 @@ It is bundled with, and uses, the MinGW or TDM-GCC 64bit port of the GCC as its 
     <bugTrackerUrl>http://sourceforge.net/p/orwelldevcpp/tickets/</bugTrackerUrl>
     <mailingListUrl>http://sourceforge.net/p/orwelldevcpp/forums/</mailingListUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/c9f5d2fb09282df62f9720e24b82530de4533216/icons/{{PackageName}}.png</iconUrl>
-    <tags>development ide compiler c++</tags>
+    <tags>development ide compiler c++ admin</tags>
     <copyright>© 2011 Orwell</copyright>
     <licenseUrl>http://sourceforge.net/p/orwelldevcpp/code/ci/master/tree/COPYING.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

@@ -22,7 +22,7 @@ This package installs the Free version.  A supported version with enhanced perfo
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://www.kcsoftwares.com/?dumo</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/d1e037cc7c943fda29b9067b3b1c3229d99402ff/icons/{{PackageName}}.png</iconUrl>
-    <tags>driver updater</tags>
+    <tags>driver updater admin</tags>
     <copyright>© 2004 KC Softwares</copyright>
     <licenseUrl>http://www.kcsoftwares.com/legal/ToU.pdf</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

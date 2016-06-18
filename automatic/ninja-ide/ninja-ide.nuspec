@@ -16,7 +16,7 @@ It's also a secret ninja agency but this doesn't matter right now.
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://ninja-ide.org/</projectUrl>
     <projectSourceUrl>https://github.com/ninja-ide/ninja-ide</projectSourceUrl>
-    <tags>ide programming</tags>
+    <tags>ide programming admin</tags>
     <copyright>© 2010 ninjas</copyright>
     <licenseUrl>https://github.com/ninja-ide/ninja-ide/blob/master/COPYING</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

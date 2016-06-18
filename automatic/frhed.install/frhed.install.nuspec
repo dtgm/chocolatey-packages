@@ -14,7 +14,7 @@ Frhed is an binary file editor for Windows. It is small but has many advanced fe
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://frhed.sourceforge.net/</projectUrl>
     <projectSourceUrl>https://bitbucket.org/kimmov/frhed/src</projectSourceUrl>
-    <tags>hex editor</tags>
+    <tags>hex editor admin</tags>
     <copyright>© Kimmo Varis</copyright>
     <licenseUrl>https://bitbucket.org/kimmov/frhed/src/27cad23e45b5022dd92cb1aabd4eda9584080823/GPL.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

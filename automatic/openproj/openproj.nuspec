@@ -12,7 +12,7 @@ OpenProj is an open-source desktop project management application similar to Mic
     </description>
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://sourceforge.net/projects/openproj</projectUrl>
-    <tags>project-management task schedule</tags>
+    <tags>project-management task schedule admin</tags>
     <copyright>© Ali Kheirolomoom</copyright>
     <licenseUrl>http://creativecommons.org/licenses/GPL/2.0/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

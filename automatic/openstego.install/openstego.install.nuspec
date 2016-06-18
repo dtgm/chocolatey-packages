@@ -22,7 +22,7 @@ OpenStego is a steganography application that provides two functionalities: a) D
     <projectSourceUrl>https://sourceforge.net/p/{{PackageName}}/code/HEAD/tree/java/trunk/</projectSourceUrl>
     <bugTrackerUrl>https://sourceforge.net/p/{{PackageName}}/bugs/</bugTrackerUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/e4c0e97f296e50ecf0a4da8a730764b609a832a9/icons/openstego.svg</iconUrl>
-    <tags>steganography security encryption</tags>
+    <tags>steganography security encryption admin</tags>
     <copyright>© Samir Vaidya</copyright>
     <licenseUrl>https://sourceforge.net/p/{{PackageName}}/code/HEAD/tree/java/trunk/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

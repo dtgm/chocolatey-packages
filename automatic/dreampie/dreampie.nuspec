@@ -32,7 +32,7 @@ Some of the code is based on IDLE - the IDE shipped with Python. I contributed t
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://www.dreampie.org/</projectUrl>
     <projectSourceUrl>https://github.com/noamraph/dreampie</projectSourceUrl>
-    <tags>python shell</tags>
+    <tags>python shell admin</tags>
     <copyright>© 2012 Noam Yorav-Raphael</copyright>
     <licenseUrl>https://github.com/noamraph/dreampie/blob/master/COPYING</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

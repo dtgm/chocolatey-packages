@@ -16,7 +16,7 @@ SpeedFan is a program that monitors voltages, fan speeds and temperatures in com
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://www.almico.com/speedfan.php</projectUrl>
     <docsUrl>http://www.almico.com/sfarticles.php</docsUrl>
-    <tags>system-monitor smart temperature overclock sensor voltage fan-speed control-fan</tags>
+    <tags>system-monitor smart temperature overclock sensor voltage fan-speed control-fan admin</tags>
     <copyright>© 2000 Alfredo Milani Comparetti</copyright>
     <licenseUrl>http://support.moonpoint.com/downloads/windows/utilities/Hardware/speedfan_4-37-license.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

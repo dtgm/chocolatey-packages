@@ -50,7 +50,7 @@ There are many official [Twisted subprojects](http://twistedmatrix.com/trac/wiki
     <projectSourceUrl>http://twistedmatrix.com/trac/browser/trunk</projectSourceUrl>
     <docsUrl>http://twistedmatrix.com/documents/current/core/</docsUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/eb824d7a427a4db7174b3d26161fc65642a670ed/icons/{{PackageName}}.svg</iconUrl>
-    <tags>framework network protocol</tags>
+    <tags>framework network protocol admin</tags>
     <copyright>© 2001-2015 Twisted Matrix Laboratories</copyright>
     <licenseUrl>http://twistedmatrix.com/trac/export/43938/trunk/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

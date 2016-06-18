@@ -17,7 +17,7 @@ With release 1.5, TortoiseSVN (and TortoiseGit later) introduced the possibility
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>https://code.google.com/p/gurtle/</projectUrl>
     <projectSourceUrl>https://code.google.com/p/gurtle/source/checkout</projectSourceUrl>
-    <tags>plugin tortoisesvn tortoisegit google</tags>
+    <tags>plugin tortoisesvn tortoisegit google admin</tags>
     <copyright>© Atif Aziz</copyright>
     <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

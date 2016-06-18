@@ -28,7 +28,7 @@ OpenRA's primary focus is cross-platform multiplayer between Windows, OS X, and 
     <bugTrackerUrl>https://github.com/OpenRA/OpenRA/issues</bugTrackerUrl>
     <docsUrl>https://github.com/OpenRA/OpenRA/wiki</docsUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/af7524cb4c99e84e52ed0803e43f018f546ec2d2/icons/{{PackageName}}.png</iconUrl>
-    <tags>game rts red-alert command-and-conquer</tags>
+    <tags>game rts red-alert command-and-conquer admin</tags>
     <copyright>© 2007 OpenRA Developers</copyright>
     <licenseUrl>https://github.com/OpenRA/OpenRA/blob/bleed/COPYING</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
