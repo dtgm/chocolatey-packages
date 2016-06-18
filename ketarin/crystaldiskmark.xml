@@ -31,37 +31,37 @@
             <Url>{cscript}</Url>
             <StartText>&lt;h1&gt;CrystalDiskMark </StartText>
             <EndText>b  &lt;/h1&gt;</EndText>
-            <TextualContent>{realVersion:regex:[\d\.]+}</TextualContent>
+            <TextualContent>{versionFull:regex:[\d\.]+}</TextualContent>
             <Name>version</Name>
           </UrlVariable>
         </value>
       </item>
       <item>
         <key>
-          <string>realVersion</string>
+          <string>versionFull</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
             <Regex>/projects/crystaldiskmark/releases/\d+"&gt;\s*([^\s]{3,})</Regex>
-            <Url>http://en.sourceforge.jp/projects/crystaldiskmark/releases/</Url>
+            <Url>{urlBase}/projects/{appname}/releases/</Url>
             <TextualContent />
-            <Name>realVersion</Name>
+            <Name>versionFull</Name>
           </UrlVariable>
         </value>
       </item>
       <item>
         <key>
-          <string>getUrl</string>
+          <string>urlPath</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>&lt;a href="/([^ "'&lt;&gt;\*]+CrystalDiskMark{realVersion}-en\.exe)</Regex>
+            <Regex>&lt;a href="/([^ "'&lt;&gt;\*]+CrystalDiskMark{versionFull}-en\.exe)</Regex>
             <Url>{urlBase}/projects/crystaldiskmark/releases/</Url>
-            <Name>getUrl</Name>
+            <Name>urlPath</Name>
           </UrlVariable>
         </value>
       </item>
@@ -75,7 +75,7 @@
             <VariableType>Textual</VariableType>
             <Regex />
             <Url />
-            <TextualContent>http://en.sourceforge.jp</TextualContent>
+            <TextualContent>http://en.osdn.jp</TextualContent>
             <Name>urlBase</Name>
           </UrlVariable>
         </value>
@@ -90,28 +90,28 @@
             <VariableType>Textual</VariableType>
             <Regex />
             <Url />
-            <TextualContent>http://{getMirror}.dl.osdn.jp/{appname}/{getUrlId}/{getUrlFile}</TextualContent>
+            <TextualContent>https://en.osdn.jp/frs/redir.php?f=%2F{appname}%2F{urlId}%2F{urlFile}</TextualContent>
             <Name>url</Name>
           </UrlVariable>
         </value>
       </item>
       <item>
         <key>
-          <string>getUrlId</string>
+          <string>urlId</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>{getUrl:regex:/(\d+)/:1}</TextualContent>
-            <Name>getUrlId</Name>
+            <TextualContent>{urlPath:regex:/(\d+)/:1}</TextualContent>
+            <Name>urlId</Name>
           </UrlVariable>
         </value>
       </item>
       <item>
         <key>
-          <string>getUrlFile</string>
+          <string>urlFile</string>
         </key>
         <value>
           <UrlVariable>
@@ -119,64 +119,8 @@
             <VariableType>Textual</VariableType>
             <Regex />
             <Url />
-            <TextualContent>{getUrl:regex:[^/]+\.exe}</TextualContent>
-            <Name>getUrlFile</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>url64</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <TextualContent>{urlBase}/{getUrl}</TextualContent>
-            <Name>url64</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>getMirror</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <TextualContent>{getUrlMirror:regex:\?m=([^&amp;]+):1}</TextualContent>
-            <Name>getMirror</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>getUrlLang</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <TextualContent>{getUrl:replace:.zip:-en.zip}</TextualContent>
-            <Name>getUrlLang</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>getUrlMirror</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>RegularExpression</VariableType>
-            <Regex>href="(/frs/redir[^ "'&lt;&gt;\*]+\.exe)</Regex>
-            <Url>{url64}</Url>
-            <Name>getUrlMirror</Name>
+            <TextualContent>{urlPath:split:/:-1}</TextualContent>
+            <Name>urlFile</Name>
           </UrlVariable>
         </value>
       </item>
@@ -189,7 +133,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
             <Regex>(?&lt;=SHA1.*?&lt;dd&gt;)[A-Fa-f0-9]{40}</Regex>
-            <Url>{url64}</Url>
+            <Url>{urlBase}/{urlPath}</Url>
             <Name>checksum</Name>
           </UrlVariable>
         </value>
@@ -233,7 +177,7 @@
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2016-06-17T14:32:08.2241413-06:00</LastUpdated>
+    <LastUpdated>2016-06-17T17:13:45.9129626-06:00</LastUpdated>
     <TargetPath>{saveDir}\{appname}_{version}.{url:ext}</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>crystaldiskmark</Name>
