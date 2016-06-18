@@ -8,6 +8,35 @@ $url_version_dot= '{{PackageVersion}}'
 $url_version = (Split-Path $url_version_dot -leaf).ToString().Replace(".", "")
 $validExitCodes = @(0)
 
+$arguments = @{}
+$packageParameters = $env:chocolateyPackageParameters
+if ($packageParameters) {
+  $match_pattern = "\/(?<option>([a-zA-Z]+))=(?<value>([`"'])?([0-9]+)([`"'])?)|\/(?<option>([a-zA-Z]+))"
+  $option_name = 'option'
+  $value_name = 'value'
+  if ($packageParameters -match $match_pattern ){
+    $results = $packageParameters | Select-String $match_pattern -AllMatches
+    $results.matches | % {
+      $arguments.Add(
+        $_.Groups[$option_name].Value.Trim(),
+        $_.Groups[$value_name].Value.Trim())
+    }
+  } else {
+    throw "REGEX Failure: Package Parameters were found but were invalid"
+  }
+  if ($arguments.ContainsKey("LCID")) {
+    Write-Debug "Override local language settings."
+    $LCID = $arguments["LCID"]
+  }
+  if ($arguments.ContainsKey("English")) {
+    Write-Debug "Force install English version"
+    $LCID = $null
+  }
+} else {
+  Write-Debug "No Package Parameters passed in"
+}
+
+#LCID table: https://msdn.microsoft.com/goglobal/bb964664.aspx
 try {
   # 64 bit downloads
   
@@ -622,10 +651,3 @@ try {
 } catch {
 	throw 
 }
-
-#LCID table
-#http://msdn.microsoft.com/es-es/goglobal/bb964664.aspx
-#http://www.google.es/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0CDEQFjAA&url=http%3A%2F%2Fdownload.microsoft.com%2Fdownload%2F9%2F5%2FE%2F95EF66AF-9026-4BB0-A41D-A4F81802D92C%2F%5BMS-LCID%5D.pdf&ei=vSPuUtDVEofH7AbQ3oGQBA&usg=AFQjCNEREnu7-8_K7zNDzWIGGf72VKYmGw&sig2=q2n0zBluoe0zWsvQXg5N-g
-
-#downloads location
-#http://www.rarlab.com/download.htm

@@ -12,7 +12,6 @@ $url = '{{DownloadUrl}}'
 $checksum = '{{Checksum}}'
 $checksumType = 'md5'
 
-try {
 Write-Verbose "Searching registry for installed KeePass..."
 $regPath = Get-ItemProperty -Path @('HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*',
                                     'HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*',
@@ -62,6 +61,4 @@ if ( Get-Process -Name "KeePass" `
 } else {
   Write-Host "$($packageName) will be loaded the next time KeePass is started."
   Write-Host "Please note this plugin may require additional configuration. Look for a new entry in KeePass' Menu>Tools"
-}} catch {
-  throw $_.Exception
 }

@@ -1,11 +1,11 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="51301fcb-09a5-4ea0-950f-f6f85f931e32">
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64)</UserAgent>
     <UserNotes />
-    <LastFileSize>13900632</LastFileSize>
-    <LastFileDate>2016-02-13T03:38:48.2456019</LastFileDate>
+    <LastFileSize>14648000</LastFileSize>
+    <LastFileDate>2016-04-30T01:05:16.8900385</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Avoid</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -39,7 +39,7 @@
       </item>
       <item>
         <key>
-          <string>url</string>
+          <string>urlDirect</string>
         </key>
         <value>
           <UrlVariable>
@@ -48,7 +48,7 @@
             <Regex>(?&lt;=ResponseUri: )[^\r\n]+</Regex>
             <Url>http://www.filehippo.com{filePath}</Url>
             <TextualContent />
-            <Name>url</Name>
+            <Name>urlDirect</Name>
           </UrlVariable>
         </value>
       </item>
@@ -165,6 +165,20 @@
           </UrlVariable>
         </value>
       </item>
+      <item>
+        <key>
+          <string>url</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>{fileHippoId}</TextualContent>
+            <Name>url</Name>
+          </UrlVariable>
+        </value>
+      </item>
     </Variables>
     <ExecuteCommand />
     <ExecutePreCommand />
@@ -172,13 +186,13 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\Shockwave_Installer_Full.exe</PreviousLocation>
+    <PreviousLocation>F:\exe\adobeshockwaveplayer_12.2.4.194.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2016-02-13T03:38:48.2456019</LastUpdated>
-    <TargetPath>{workdir}\</TargetPath>
-    <FixedDownloadUrl>{url}</FixedDownloadUrl>
+    <LastUpdated>2016-04-30T01:05:16.8900385</LastUpdated>
+    <TargetPath>{saveDir}\{appname}_{version}.{url:ext}</TargetPath>
+    <FixedDownloadUrl>{urlDirect}</FixedDownloadUrl>
     <Name>adobeshockwaveplayer</Name>
   </ApplicationJob>
 </Jobs>

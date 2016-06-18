@@ -5,7 +5,7 @@
     <title>Adobe Shockwave Player</title>
     <version>{{PackageVersion}}</version>
     <authors>Adobe</authors>
-    <owners>tonigellida dtgm</owners>
+    <owners>dtgm</owners>
     <summary>Displays Web content that has been created by Adobe Director</summary>
     <description>
 Adobe Shockwave (formerly Macromedia Shockwave) is a multimedia platform used to add animation and interactivity to web pages. It allows Adobe Director applications to be published on the Internet and viewed in a web browser on any computer which has the Shockwave plug-in installed. It was first developed by Macromedia, and released in 1995 and was later acquired by Adobe Systems in 2005.
@@ -26,8 +26,7 @@ Shockwave movies are authored in the Adobe Director environment. While there is 
 * {{PackageGuid}}
 
 #### Package
-* Dynamically retrieve download URL from FileHippo.com - [issue #9](https://github.com/dtgm/chocolatey-packages/issues/9)
-* Please help - If you are aware of a method of retrieving previous versions of this package from adobe.com, please [Contact Maintainers](http://www.chocolatey.org/packages/adobeshockwaveplayer/ContactOwners), preferably (requires a free [GitHub.com account](https://github.com/)), open a [new github issue](https://github.com/dtgm/chocolatey-packages/issues/new) and reference URL "https://github.com/dtgm/chocolatey-packages/issues/10"
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
     <dependencies>
       <dependency id="autohotkey.portable" />
