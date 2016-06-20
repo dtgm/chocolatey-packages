@@ -1,11 +1,11 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="c87906b4-4d18-4cb1-951b-1b89852d9d4d">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>1609216</LastFileSize>
-    <LastFileDate>2016-02-18T18:38:23.8563623</LastFileDate>
+    <LastFileSize>1610816</LastFileSize>
+    <LastFileDate>2016-04-27T12:43:10-06:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Avoid</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -21,23 +21,6 @@
     <Variables>
       <item>
         <key>
-          <string>version</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=version.*)\d\.[\d\.]{1,}</Regex>
-            <Url>http://thisisudax.org/?p=1</Url>
-            <StartText>"softwareVersion"&gt;</StartText>
-            <EndText>&lt;/span&gt;</EndText>
-            <TextualContent />
-            <Name>version</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
           <string>url</string>
         </key>
         <value>
@@ -45,23 +28,24 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>{getUrl}</TextualContent>
+            <Url />
+            <TextualContent>https://downloads.malwarebytes.com/file/jrt/</TextualContent>
             <Name>url</Name>
           </UrlVariable>
         </value>
       </item>
       <item>
         <key>
-          <string>getUrl</string>
+          <string>mirror</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <Url />
-            <TextualContent>http://thisisudax.org/downloads/JRT.exe</TextualContent>
-            <Name>getUrl</Name>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=ResponseUri: )[^\r\n]+</Regex>
+            <Url>https://downloads.malwarebytes.com/file/jrt/</Url>
+            <TextualContent />
+            <Name>mirror</Name>
           </UrlVariable>
         </value>
       </item>
@@ -93,6 +77,20 @@
           </UrlVariable>
         </value>
       </item>
+      <item>
+        <key>
+          <string>version</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=Version&lt;/dt&gt;.*?)[\d.]{3,}</Regex>
+            <Url>https://www.malwarebytes.com/junkwareremovaltool/</Url>
+            <Name>version</Name>
+          </UrlVariable>
+        </value>
+      </item>
     </Variables>
     <ExecuteCommand />
     <ExecutePreCommand />
@@ -100,12 +98,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\JRT.exe</PreviousLocation>
+    <PreviousLocation>F:\exe\jrt_8.0.6.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2016-02-18T18:38:23.8563623</LastUpdated>
-    <TargetPath>{workdir}\</TargetPath>
+    <LastUpdated>2016-06-20T17:16:16.1825163-06:00</LastUpdated>
+    <TargetPath>{saveDir}\{appname}_{version}.{url:ext}</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>jrt</Name>
   </ApplicationJob>

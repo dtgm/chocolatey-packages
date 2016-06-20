@@ -11,6 +11,6 @@ Get-ChocolateyWebFile -PackageName "$packageName" `
                       -Checksum "$checksum" `
                       -ChecksumType "$checksumType"
 
-# create an empty sidecar metadata file for closed-source shimgen.exe to indicate gui
+Write-Verbose "Create an empty sidecar metadata file for closed-source shimgen.exe to indicate gui"
 Set-Content -Path ("$installFile.gui") `
             -Value $null

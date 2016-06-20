@@ -4,20 +4,20 @@
     <id>{{PackageName}}</id>
     <title>Junkware Removal Tool</title>
     <version>{{PackageVersion}}</version>
-    <authors>Thisisu</authors>
+    <authors>Malwarebytes</authors>
     <owners>dtgm</owners>
     <summary>Security utility that searches for and removes common adware, toolbars, and PUPs</summary>
     <description>
-Junkware Removal Tool is a security utility that searches for and removes common adware, toolbars, and potentially unwanted programs (PUPs) from your computer.  A common tactics among freeware publishers is to offer their products for free, but bundle them with PUPs in order to earn revenue.  This tool will help you remove these types of programs from your computer.
+Junkware Removal Tool is a security utility that searches for and removes common adware, toolbars, and potentially unwanted programs (PUPs) from your computer. A common tactic among freeware publishers is to offer their products for free, but bundle them with PUPs in order to earn revenue. This tool will help you remove these types of programs from your computer.
 
 When run, Junkware Removal Tool will remove all traces of these programs including their services, processes, files, folders, registry keys, registry values, and browser plugins.
     </description>
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
-    <projectUrl>http://thisisudax.org/</projectUrl>
+    <projectUrl>https://www.malwarebytes.com/junkwareremovaltool/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/dd7121af88611d4f92e29187d065ba9a0fcaedeb/icons/{{PackageName}}.png</iconUrl>
     <tags>malware-scanner malware-remover toolbar-remover</tags>
-    <copyright>© Thisisu</copyright>
-    <licenseUrl>http://wikipedia.org/wiki/Freeware</licenseUrl>
+    <copyright>© Malwarebytes</copyright>
+    <licenseUrl>https://www.malwarebytes.com/eula/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
 #### Package
