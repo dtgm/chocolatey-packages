@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
-    <id>{{PackageName}}</id>
+    <id>rssowl</id>
     <title>RSSOwl</title>
-    <version>{{PackageVersion}}</version>
+    <version>2.2.1.20160620</version>
     <authors>Benjamin Pasero</authors>
     <owners>dtgm</owners>
     <licenseUrl>http://www.rssowl.org/legal/epl-v10.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/rssowl/</packageSourceUrl>
     <projectUrl>http://www.rssowl.org/</projectUrl>
     <projectSourceUrl>https://github.com/rssowl/RSSOwl</projectSourceUrl>
     <bugTrackerUrl>https://github.com/rssowl/RSSOwl/issues</bugTrackerUrl>
@@ -27,6 +27,7 @@ RSS Owl is a powerful application to organize, search and read your RSS, RDF &am
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+* Download URL changed
     </releaseNotes>
     <dependencies>
       <dependency id="chocolatey-uninstall.extension" />

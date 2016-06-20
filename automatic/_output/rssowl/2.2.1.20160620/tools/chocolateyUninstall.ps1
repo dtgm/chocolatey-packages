@@ -1,4 +1,4 @@
-﻿$packageName = '{{PackageName}}'
+﻿$packageName = 'rssowl'
 $softwareName = "$packageName"
 $installerType = 'exe'
 $silentArgs = '/S'
