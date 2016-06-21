@@ -1,11 +1,11 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="67da154b-7902-462a-a4cc-9c8f94d003d6">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>6760100</LastFileSize>
-    <LastFileDate>2016-02-04T18:11:47.5323469</LastFileDate>
+    <LastFileSize>6794404</LastFileSize>
+    <LastFileDate>2016-06-19T10:53:02-06:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -127,8 +127,8 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>[^ "'&lt;&gt;\*]+\.exe</Regex>
-            <Url>http://www.peazip.org/index.html</Url>
+            <Regex>[^ "'&lt;&gt;\*]+\.exe/download</Regex>
+            <Url>http://www.peazip.org/download-installer-p-windows.html</Url>
             <Name>getUrl</Name>
           </UrlVariable>
         </value>
@@ -141,25 +141,25 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>[^ "'&lt;&gt;\*]+WIN64\.exe</Regex>
+            <Regex>[^ "'&lt;&gt;\*]+WIN64\.exe/download</Regex>
             <Url>http://www.peazip.org/peazip-64bit.html</Url>
             <Name>getUrl64</Name>
           </UrlVariable>
         </value>
       </item>
     </Variables>
-    <ExecuteCommand />
+    <ExecuteCommand>chocopkgup --packagename=peazip --version={version} --pg="{packageGuid}" --url="{preupdate-url}" --urlx64="{url64}" --packagepath="{file}" --checksum="{checksum}" --c64="{checksumx64}" --debug</ExecuteCommand>
     <ExecutePreCommand />
     <ExecuteCommandType>Batch</ExecuteCommandType>
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\peazip-5.9.1.WINDOWS.exe</PreviousLocation>
+    <PreviousLocation>F:\exe\peazip.install_6.0.3.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2016-02-04T18:11:47.5323469</LastUpdated>
-    <TargetPath>{workdir}\</TargetPath>
+    <LastUpdated>2016-06-20T21:18:19.1108015-06:00</LastUpdated>
+    <TargetPath>{saveDir}\{appname}_{version}.{url:ext}</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>peazip.install</Name>
   </ApplicationJob>
