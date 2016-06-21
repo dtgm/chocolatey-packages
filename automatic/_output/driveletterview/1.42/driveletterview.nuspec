@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
     <id>driveletterview</id>
@@ -14,7 +14,7 @@ It also allows you to easily change a drive letter of USB devices and remote net
 
 You can also use DriveLetterView to export the list of all drives into text/csv/html/xml file.
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/driveletterview/1.42</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/driveletterview/</packageSourceUrl>
     <projectUrl>http://www.nirsoft.net/utils/drive_letter_view.html</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/driveletterview.png</iconUrl>
     <tags>letter view remove change delete usb</tags>
@@ -22,7 +22,8 @@ You can also use DriveLetterView to export the list of all drives into text/csv/
     <licenseUrl>http://www.nirsoft.net/utils/drive_letter_view.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-[What's New?](http://www.nirsoft.net/utils/drive_letter_view.html)
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   </metadata>
   <files>
