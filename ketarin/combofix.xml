@@ -1,16 +1,17 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="afc2b074-1587-42ff-9460-52de317daf38">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>5657688</LastFileSize>
-    <LastFileDate>2016-02-19T01:34:42.3122515</LastFileDate>
+    <LastFileSize>5660069</LastFileSize>
+    <LastFileDate>2016-04-13T07:18:50.1049919</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Avoid</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
     <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
@@ -26,7 +27,7 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>ComboFix\s*([\d\.]+)</Regex>
+            <Regex>(?&lt;=Version:.*?)[\d\.]+</Regex>
             <Url>http://www.bleepingcomputer.com/download/combofix/</Url>
             <StartText>&lt;p&gt;&lt;span class="il"&gt;&lt;strong&gt;Version:&lt;/strong&gt;&lt;/span&gt;&lt;span class="icell"&gt;&lt;span itemprop="softwareVersion"&gt;</StartText>
             <EndText>&lt;</EndText>
@@ -44,7 +45,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>http://download.bleepingcomputer.com/sUBs/ComboFix.exe</TextualContent>
+            <TextualContent>https://download.bleepingcomputer.com/sUBs/ComboFix.exe</TextualContent>
             <Name>url</Name>
           </UrlVariable>
         </value>
@@ -84,12 +85,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\ComboFix.exe</PreviousLocation>
+    <PreviousLocation>F:\exe\combofix_..exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
-    <Enabled>true</Enabled>
+    <Enabled>false</Enabled>
     <FileHippoId />
-    <LastUpdated>2016-02-19T01:34:42.3122515</LastUpdated>
-    <TargetPath>{workdir}\</TargetPath>
+    <LastUpdated>2016-04-13T07:18:50.1049919</LastUpdated>
+    <TargetPath>{saveDir}\{appname}_{version}.{url:ext}</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>combofix</Name>
   </ApplicationJob>
