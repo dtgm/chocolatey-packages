@@ -24,7 +24,8 @@ After retrieving the DNS records for the desired domains, you can save them into
     <licenseUrl>http://www.nirsoft.net/utils/dns_records_viewer.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-[What's New?](http://www.nirsoft.net/utils/dns_records_viewer.html)
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   </metadata>
   <files>

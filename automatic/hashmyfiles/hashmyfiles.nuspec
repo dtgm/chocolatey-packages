@@ -22,7 +22,8 @@ HashMyFiles can also be launched from the context menu of Windows Explorer, and 
     <licenseUrl>http://www.nirsoft.net/utils/hash_my_files.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-[What's New?](http://www.nirsoft.net/utils/hash_my_files.html)
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   </metadata>
   <files>

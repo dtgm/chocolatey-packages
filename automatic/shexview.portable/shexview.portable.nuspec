@@ -19,7 +19,8 @@ For example: If you install WinZip on your computer, you'll see a special WinZip
     <licenseUrl>http://www.nirsoft.net/utils/shexview.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-[What's New?](http://www.nirsoft.net/utils/shexview.html)
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   </metadata>
   <files>

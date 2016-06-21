@@ -22,7 +22,8 @@ When selecting a cache item in the upper pane of ImageCacheViewer, the image is 
     <licenseUrl>http://www.nirsoft.net/utils/image_cache_viewer.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-[What's New?](http://www.nirsoft.net/utils/image_cache_viewer.html)
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   </metadata>
   <files>

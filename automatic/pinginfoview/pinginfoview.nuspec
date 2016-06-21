@@ -22,7 +22,8 @@ You can also save the ping result into text/html/xml file, or copy it to the cli
     <licenseUrl>http://www.nirsoft.net/utils/multiple_ping_tool.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-[What's New?](http://www.nirsoft.net/utils/multiple_ping_tool.html)
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   </metadata>
   <files>

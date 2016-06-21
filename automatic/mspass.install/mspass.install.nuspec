@@ -37,7 +37,8 @@ You cannot use this utility for grabbing the passwords of other users.
     <licenseUrl>http://www.nirsoft.net/utils/mspass.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-[What's New?](http://www.nirsoft.net/utils/mspass.html)
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   </metadata>
   <files>

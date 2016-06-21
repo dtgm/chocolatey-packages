@@ -22,7 +22,8 @@ BluetoothView can also notify you when a new Bluetooth device is detected, by di
     <licenseUrl>http://www.nirsoft.net/utils/bluetooth_viewer.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-[What's New?](http://www.nirsoft.net/utils/bluetooth_viewer.html)
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   </metadata>
   <files>

@@ -18,7 +18,8 @@ DotNetResourcesExtract is a small utility that scan dll/exe files of .NET applic
     <licenseUrl>http://www.nirsoft.net/utils/dot_net_resources_extract.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-[What's New?](http://www.nirsoft.net/utils/dot_net_resources_extract.html)
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   </metadata>
   <files>

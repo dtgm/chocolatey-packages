@@ -22,7 +22,8 @@ AppCrashView also allows you to easily save the crashes list to text/csv/html/xm
     <licenseUrl>http://www.nirsoft.net/utils/app_crash_view.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-[What's New?](http://www.nirsoft.net/utils/app_crash_view.html)
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   </metadata>
   <files>

@@ -20,7 +20,8 @@ You can set the desired DNS servers from the user interface, by choosing from a 
     <licenseUrl>http://www.nirsoft.net/utils/quick_set_dns.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-[What's New?](http://www.nirsoft.net/utils/quick_set_dns.html)
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   </metadata>
   <files>

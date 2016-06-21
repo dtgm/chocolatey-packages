@@ -22,7 +22,8 @@ You can use the S.M.A.R.T information retrieved by DiskSmartView to find out whe
     <licenseUrl>http://www.nirsoft.net/utils/disk_smart_view.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-[What's New?](http://www.nirsoft.net/utils/disk_smart_view.html)
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   </metadata>
   <files>

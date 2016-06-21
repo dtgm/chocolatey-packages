@@ -19,7 +19,8 @@ internet account or connect to a VPN network, restart windows or shut down the c
     <licenseUrl>http://www.nirsoft.net/utils/nircmd.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-[What's New?](http://www.nirsoft.net/utils/nircmd.html)
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   </metadata>
   <files>

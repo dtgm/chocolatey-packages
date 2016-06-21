@@ -22,7 +22,8 @@ You can easily select one or more items from the cache list, and then extract th
     <licenseUrl>http://www.nirsoft.net/utils/mozilla_cache_viewer.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-[What's New?](http://www.nirsoft.net/utils/mozilla_cache_viewer.html)
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   </metadata>
   <files>

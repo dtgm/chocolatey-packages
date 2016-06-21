@@ -22,7 +22,8 @@ If the driver is currently running on Windows kernel, the following information 
     <licenseUrl>http://www.nirsoft.net/utils/installed_drivers_list.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-[What's New?](http://www.nirsoft.net/utils/installed_drivers_list.html)
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   </metadata>
   <files>

@@ -20,7 +20,8 @@ For each MIME type, information about the associated file extension and installe
     <licenseUrl>http://www.nirsoft.net/utils/mimeview.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-[What's New?](http://www.nirsoft.net/utils/mimeview.html)
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   </metadata>
   <files>

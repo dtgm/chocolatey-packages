@@ -20,7 +20,8 @@ It also displays general drive information, like disk name, partition number, pa
     <licenseUrl>http://www.nirsoft.net/utils/disk_counters_view.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-[What's New?](http://www.nirsoft.net/utils/disk_counters_view.html)
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   </metadata>
   <files>

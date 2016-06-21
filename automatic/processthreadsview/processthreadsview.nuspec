@@ -24,7 +24,8 @@ ProcessThreadsView also allows you to suspend and resume one or more threads.
     <licenseUrl>http://www.nirsoft.net/utils/process_threads_view.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-[What's New?](http://www.nirsoft.net/utils/process_threads_view.html)
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   </metadata>
   <files>

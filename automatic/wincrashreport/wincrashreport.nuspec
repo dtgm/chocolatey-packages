@@ -22,7 +22,8 @@ The crash report of WinCrashReport is displayed as simple text or in HTML, and i
     <licenseUrl>http://www.nirsoft.net/utils/application_crash_report.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-[What's New?](http://www.nirsoft.net/utils/application_crash_report.html)
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   </metadata>
   <files>

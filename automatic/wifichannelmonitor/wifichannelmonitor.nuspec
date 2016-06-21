@@ -24,7 +24,8 @@ For every client, the following information is displayed: MAC Address, Device Ma
     <licenseUrl>http://www.nirsoft.net/utils/wifi_channel_monitor.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-[What's New?](http://www.nirsoft.net/utils/wifi_channel_monitor.html)
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   </metadata>
   <files>

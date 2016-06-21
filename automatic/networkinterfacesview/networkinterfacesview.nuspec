@@ -24,7 +24,8 @@ You can select one or more network interface items and then export them to xml/h
     <licenseUrl>http://www.nirsoft.net/utils/network_interfaces.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-[What's New?](http://www.nirsoft.net/utils/network_interfaces.html)
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   </metadata>
   <files>

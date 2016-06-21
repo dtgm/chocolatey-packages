@@ -20,7 +20,8 @@ This tool can be useful for developers that need to trace memory leaks in their 
     <licenseUrl>http://www.nirsoft.net/utils/heap_memory_view.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-[What's New?](http://www.nirsoft.net/utils/heap_memory_view.html)
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   </metadata>
   <files>

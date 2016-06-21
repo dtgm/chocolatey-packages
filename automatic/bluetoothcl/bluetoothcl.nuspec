@@ -20,7 +20,8 @@ For each Bluetooth device, the following information is displayed: MAC Address, 
     <licenseUrl>http://www.nirsoft.net/utils/bluetoothcl.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-[What's New?](http://www.nirsoft.net/utils/bluetoothcl.html)
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   </metadata>
   <files>

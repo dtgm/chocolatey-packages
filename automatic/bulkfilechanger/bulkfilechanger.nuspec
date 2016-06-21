@@ -18,7 +18,8 @@ BulkFileChanger is a small utility that allows you to create files list from mul
     <licenseUrl>http://www.nirsoft.net/utils/bulk_file_changer.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-[What's New?](http://www.nirsoft.net/utils/bulk_file_changer.html)
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   </metadata>
   <files>

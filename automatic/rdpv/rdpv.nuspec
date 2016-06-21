@@ -18,7 +18,8 @@ Remote Desktop PassView is a small utility that reveals the password stored by M
     <licenseUrl>http://www.nirsoft.net/utils/remote_desktop_password.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-[What's New?](http://www.nirsoft.net/utils/remote_desktop_password.html)
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   </metadata>
   <files>

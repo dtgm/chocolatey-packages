@@ -21,7 +21,8 @@ You can use this utility in all Win32-based operating systems: Windows 95,98,ME,
     <licenseUrl>http://www.nirsoft.net/utils/winexp.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-[What's New?](http://www.nirsoft.net/utils/winexp.html)
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   </metadata>
   <files>

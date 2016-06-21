@@ -20,7 +20,8 @@ For each file that the process access, the following information is displayed: N
     <licenseUrl>http://www.nirsoft.net/utils/process_activity_view.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-[What's New?](http://www.nirsoft.net/utils/process_activity_view.html)
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   </metadata>
   <files>

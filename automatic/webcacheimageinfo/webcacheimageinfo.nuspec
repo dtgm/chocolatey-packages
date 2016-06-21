@@ -18,7 +18,8 @@ WebCacheImageInfo is a simple tool that searches for JPEG images with EXIF infor
     <licenseUrl>http://www.nirsoft.net/utils/web_cache_image_info.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-[What's New?](http://www.nirsoft.net/utils/web_cache_image_info.html)
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   </metadata>
   <files>

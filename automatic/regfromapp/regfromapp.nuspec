@@ -20,7 +20,8 @@ You can use the generated .reg file to import these changes with RegEdit when it
     <licenseUrl>http://www.nirsoft.net/utils/reg_file_from_application.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-[What's New?](http://www.nirsoft.net/utils/reg_file_from_application.html)
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   </metadata>
   <files>

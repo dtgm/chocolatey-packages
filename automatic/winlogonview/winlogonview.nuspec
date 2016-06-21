@@ -22,7 +22,8 @@ WinLogOnView also allows you to easily export the logon sessions information to 
     <licenseUrl>http://www.nirsoft.net/utils/windows_log_on_times_view.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-[What's New?](http://www.nirsoft.net/utils/windows_log_on_times_view.html)
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   </metadata>
   <files>

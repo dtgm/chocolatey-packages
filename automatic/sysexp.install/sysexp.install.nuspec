@@ -30,7 +30,8 @@ Here's some examples for data that you can export with SysExporter:
     <licenseUrl>http://www.nirsoft.net/utils/sysexp.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-[What's New?](http://www.nirsoft.net/utils/sysexp.html)
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   </metadata>
   <files>

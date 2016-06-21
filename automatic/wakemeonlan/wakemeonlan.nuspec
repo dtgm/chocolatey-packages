@@ -24,7 +24,8 @@ WakeMeOnLan also allows you to turn on a computer from command-line, by specifyi
     <licenseUrl>http://www.nirsoft.net/utils/wake_on_lan.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-[What's New?](http://www.nirsoft.net/utils/wake_on_lan.html)
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   </metadata>
   <files>

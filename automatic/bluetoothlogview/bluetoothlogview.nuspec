@@ -24,7 +24,8 @@ BluetoothLogView also allows you to specify a description for every device (acco
     <licenseUrl>http://www.nirsoft.net/utils/bluetooth_log_view.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-[What's New?](http://www.nirsoft.net/utils/bluetooth_log_view.html)
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   </metadata>
   <files>

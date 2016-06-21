@@ -20,7 +20,8 @@ RegFileExport read the Registry file, ananlyze it, and then export the Registry 
     <licenseUrl>http://www.nirsoft.net/utils/registry_file_offline_export.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-[What's New?](http://www.nirsoft.net/utils/registry_file_offline_export.html)
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   </metadata>
   <files>

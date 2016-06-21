@@ -20,7 +20,8 @@ Every cache information line includes the following information: Filename, Conte
     <licenseUrl>http://www.nirsoft.net/utils/safari_cache_view.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-[What's New?](http://www.nirsoft.net/utils/safari_cache_view.html)
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   </metadata>
   <files>

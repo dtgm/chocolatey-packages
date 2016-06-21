@@ -22,7 +22,8 @@ MyUninstaller also provides additional information for most installed applicatio
     <licenseUrl>http://www.nirsoft.net/utils/myuninst.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-[What's New?](http://www.nirsoft.net/utils/myuninst.html)
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   </metadata>
   <files>

@@ -22,7 +22,8 @@ After finding the desired MAC address records, you can save them into text/XML/H
     <licenseUrl>http://www.nirsoft.net/utils/mac_address_lookup_find.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-[What's New?](http://www.nirsoft.net/utils/mac_address_lookup_find.html)
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   </metadata>
   <files>

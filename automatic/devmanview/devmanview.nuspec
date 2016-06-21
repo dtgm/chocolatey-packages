@@ -24,7 +24,8 @@ This feature can be useful if you have Windows operating system with booting pro
     <licenseUrl>http://www.nirsoft.net/utils/device_manager_view.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-[What's New?](http://www.nirsoft.net/utils/device_manager_view.html)
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   </metadata>
   <files>

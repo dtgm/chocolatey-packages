@@ -21,7 +21,8 @@ After the connect/disconnect log lines are accumulated, you can easily export th
     <licenseUrl>http://www.nirsoft.net/utils/network_connect_log.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-[What's New?](http://www.nirsoft.net/utils/network_connect_log.html)
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   </metadata>
   <files>

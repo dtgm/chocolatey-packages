@@ -24,7 +24,8 @@ After you made a search, you can select one or more files, and save the list int
     <licenseUrl>http://www.nirsoft.net/utils/search_my_files.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-[What's New?](http://www.nirsoft.net/utils/search_my_files.html)
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   </metadata>
   <files>

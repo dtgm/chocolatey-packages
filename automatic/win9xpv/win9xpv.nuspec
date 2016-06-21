@@ -25,7 +25,8 @@ It can reveal 4 types of passwords:
     <licenseUrl>http://www.nirsoft.net/utils/win9xpv.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-[What's New?](http://www.nirsoft.net/utils/win9xpv.html)
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   </metadata>
   <files>

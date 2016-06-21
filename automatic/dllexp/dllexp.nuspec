@@ -27,7 +27,8 @@ look at call stack and go backward into the code that initiated this API call.
     <licenseUrl>http://www.nirsoft.net/utils/dll_export_viewer.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-[What's New?](http://www.nirsoft.net/utils/dll_export_viewer.html)
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   </metadata>
   <files>

@@ -22,7 +22,8 @@ Handle, Control Code, number of input bytes, number of output bytes, the name of
     <licenseUrl>http://www.nirsoft.net/utils/device_io_view.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-[What's New?](http://www.nirsoft.net/utils/device_io_view.html)
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   </metadata>
   <files>

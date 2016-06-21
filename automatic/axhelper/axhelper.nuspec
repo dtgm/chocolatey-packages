@@ -22,7 +22,8 @@ In addition, you can temporarily disable specific ActiveX components. When Activ
     <licenseUrl>http://www.nirsoft.net/utils/axhelper.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-[What's New?](http://www.nirsoft.net/utils/axhelper.html)
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   </metadata>
   <files>

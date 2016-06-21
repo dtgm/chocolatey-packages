@@ -27,7 +27,8 @@ You can also capture a single camera image from command-line, without displaying
     <licenseUrl>http://www.nirsoft.net/utils/web_cam_image_capture.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-[What's New?](http://www.nirsoft.net/utils/web_cam_image_capture.html)
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   </metadata>
   <files>

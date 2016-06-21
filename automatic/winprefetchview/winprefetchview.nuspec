@@ -22,7 +22,8 @@ By looking in these files, you can learn which files every application is using,
     <licenseUrl>http://www.nirsoft.net/utils/win_prefetch_view.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-[What's New?](http://www.nirsoft.net/utils/win_prefetch_view.html)
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   </metadata>
   <files>

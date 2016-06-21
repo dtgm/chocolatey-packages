@@ -18,7 +18,8 @@ This utility, just as it sounds, allows your to crash the Windows operating syst
     <licenseUrl>http://www.nirsoft.net/utils/start_blue_screen.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-[What's New?](http://www.nirsoft.net/utils/start_blue_screen.html)
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   </metadata>
   <files>

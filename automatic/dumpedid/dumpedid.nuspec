@@ -22,7 +22,8 @@ You can also get the EDID records of a remote computer, if you login to this com
     <licenseUrl>http://www.nirsoft.net/utils/dump_edid.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-[What's New?](http://www.nirsoft.net/utils/dump_edid.html)
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   </metadata>
   <files>

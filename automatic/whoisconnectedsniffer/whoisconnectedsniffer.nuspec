@@ -22,7 +22,8 @@ For every detected computer or device, the following information is displayed: (
     <licenseUrl>http://www.nirsoft.net/utils/who_is_connected_sniffer.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-[What's New?](http://www.nirsoft.net/utils/who_is_connected_sniffer.html)
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   </metadata>
   <files>

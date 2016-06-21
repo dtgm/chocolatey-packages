@@ -21,7 +21,8 @@ You can use ResourcesExtract in user interface mode, or alternatively, you can r
     <licenseUrl>http://www.nirsoft.net/utils/resources_extract.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-[What's New?](http://www.nirsoft.net/utils/resources_extract.html)
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   </metadata>
   <files>

@@ -22,7 +22,8 @@ Host Name, Path, Name, Value, Secure (Yes/No), HTTP Only Cookie (Yes/No), Last A
     <licenseUrl>http://www.nirsoft.net/utils/chrome_cookies_view.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-[What's New?](http://www.nirsoft.net/utils/chrome_cookies_view.html)
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   </metadata>
   <files>

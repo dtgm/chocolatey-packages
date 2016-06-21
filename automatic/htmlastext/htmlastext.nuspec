@@ -18,7 +18,8 @@ HTMLAsText utility converts HTML documents to simple text files, by removing all
     <licenseUrl>http://www.nirsoft.net/utils/htmlastext.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-[What's New?](http://www.nirsoft.net/utils/htmlastext.html)
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   </metadata>
   <files>

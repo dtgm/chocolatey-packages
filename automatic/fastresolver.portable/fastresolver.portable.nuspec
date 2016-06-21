@@ -24,7 +24,8 @@ FastResolver is a multithreaded application, so it can resolve dozens of address
     <licenseUrl>http://www.nirsoft.net/utils/fastresolver.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-[What's New?](http://www.nirsoft.net/utils/fastresolver.html)
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   </metadata>
   <files>

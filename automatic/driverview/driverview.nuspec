@@ -18,7 +18,8 @@ DriverView utility displays the list of all device drivers currently loaded on y
     <licenseUrl>http://www.nirsoft.net/utils/driverview.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-[What's New?](http://www.nirsoft.net/utils/driverview.html)
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   </metadata>
   <files>

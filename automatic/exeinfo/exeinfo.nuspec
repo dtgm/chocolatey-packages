@@ -18,7 +18,8 @@ The ExeInfo utility shows general information about executable files (*.exe), dy
     <licenseUrl>http://www.nirsoft.net/utils/exeinfo.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-[What's New?](http://www.nirsoft.net/utils/exeinfo.html)
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   </metadata>
   <files>

@@ -22,7 +22,8 @@ For more information about this Registry key, read this [Microsoft article](http
     <licenseUrl>http://www.nirsoft.net/utils/acm.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
-[What's New?](http://www.nirsoft.net/utils/acm.html)
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
   </metadata>
   <files>
