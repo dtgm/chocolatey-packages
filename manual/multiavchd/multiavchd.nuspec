@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>multiavchd</id>
+    <title>multiAVCHD</title>
+    <version>4.1.771</version>
+    <authors>Dean Kasabow</authors>
+    <owners>dtgm</owners>
+    <summary>Freeware blu-ray video disk authoring tool</summary>
+    <description>
+multiAVCHD allows you to turn a bunch of MKV, M2TS, TS, VOB, AVI files and a bunch of DVD, Blu-ray/AVCHD/BDMV folders into disc with a simple menu structure that should play on Blu-ray players. Put up to 252 different files, MPEG2, Quicktime MOV, MKV/AVC, M2TS/MTS, TS and AVCHD/BluRay folders in one place and navigate all these via nice 1080p top menu. One click DVD to Blu-ray/AVCHD (no re-encoding). Convert Blu-ray/AVCHD to SD DVD (Standard DVD-video).
+
+Put up to 252 different files (MPEG2, Quicktime MOV, MKV/AVC, AVI/AVC, M2TS/MTS, TS, TRP, M2V, VC1, 264, MP4, MPLS, IFO, etc.) or AVCHD / Blu-ray / DVD / VIDEO_TS folders in one place and navigate all these via nice 1080p top menu:
+
+- XMB style MENU: up-to 252 scrollable titles (similar to Playstation3 cross-media-bar XMB)
+- SLIDE MENU: up-to 252 scrollable titles (similar to Apple iTunes)
+- CAROUSEL MENU: up-to 252 scrollable titles
+
+- TITLE-LIST MENU: 21 pages x 12 titles
+- NO MENU: 252 directly selectable titles during playback
+- POP-UP MENU for each title
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/manual/multiavchd/</packageSourceUrl>
+    <projectUrl>http://multiavchd.deanbg.com/</projectUrl>
+    <bugTrackerUrl>http://multiforum.deanbg.com/viewforum.php?f=11%26sid=ff069047d8e9094b158fff712af396e1</bugTrackerUrl>
+    <docsUrl>http://multiavchd.deanbg.com/tutorial.php</docsUrl>
+    <mailingListUrl>http://multiforum.deanbg.com/</mailingListUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/e1a4eccef9c72d2b875aea4bc0de12cc1fe6236d/icons/multiavchd.png</iconUrl>
+    <tags>multiavchd avchd bluray dvd authoring admin</tags>
+    <copyright>© 2008-2012 Dean Kasabow</copyright>
+    <licenseUrl>http://multiavchd.deanbg.com/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Changelog](http://multiavchd.deanbg.com/version_history.txt)
+
+#### Package
+* Manually built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+* Inactive development; last release 2012.07.04
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
