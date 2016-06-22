@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>cmdermini.portable</id>
+    <title>[DEPRECATED] CmderMini (Portable)</title>
+    <version>1.2.0.20160620-beta</version>
+    <authors>Samuel Vasko</authors>
+    <owners>dtgm</owners>
+    <summary>Portable console emulator</summary>
+    <description>
+#### New package name: __[cmdermini](https://chocolatey.org/packages/cmdermini)__
+
+- - -
+
+`cmdermini.portable` has been deprecated because of Chocolatey Community [Naming Conventions](https://github.com/chocolatey/choco/wiki/CreatePackages#naming-your-package). Community packages with an ID ending in `.install`/`.portable` are intended to indicate there are two possible methods for installing a program. If a user comes across one of these ID endings, it is expected an associated package with the corresponding ID ending also exists. The program `cmdermini` only provides a portable method so the simplest ID should be used.
+
+This package exists only for backward compatibility to provide a transitional, empty dummy package for existing users and scripts which may still use this package ID.
+    </description>
+    <projectUrl>https://chocolatey.org/packages/cmdermini</projectUrl>
+    <tags>deprecated</tags>
+    <releaseNotes>
+#### New users
+* Do not install this package. Install __cmdermini__ instead.
+
+#### Existing users - Updating
+* Updating this package will automatically install the most recent version of the __cmdermini__ chocolatey package.
+* Please update any links, dependencies, or scripts that reference this package to the new package name __cmdermini__
+
+#### Existing users - Post-update Cleanup (optional)
+`choco uninstall cmdermini.portable --whatif`
+    </releaseNotes>
+    <dependencies>
+      <dependency id="cmdermini" />
+    </dependencies>
+  </metadata>
+</package>
