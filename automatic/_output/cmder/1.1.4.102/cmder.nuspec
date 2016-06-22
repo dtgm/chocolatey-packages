@@ -28,7 +28,7 @@ This package installs into the `cmder` subdirectory of the path defined in the e
 * &lt;chocolatey-0.9.10: `$env:ChocolateyBinRoot`
 * &gt;=chocolatey-0.9.10: `$env:ChocolateyToolsLocation`
 
-To determine choco version: `choco -v`
+To determine installed chocolatey version: `choco -v`
 
 Note that when upgrading to &gt;=0.9.10, if `$env:ChocolateyBinRoot` exists, the value will be preserved and variable updated to new name. If neither variable exists, the default location is used: `$env:SystemDrive\tools`
     </description>
@@ -50,6 +50,7 @@ Note that when upgrading to &gt;=0.9.10, if `$env:ChocolateyBinRoot` exists, the
 * Automatically (stable releases only) built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
 * Installs cmder 1.1.4.1 -- Additional digits appended to package version ("00") were added to allow issuing a package upgrade without intefering with cmder version. For example, if cmder devs release version `1.1.4.2`, the associated package would be `1.1.4.200`
 * No longer depends on [cmder.portable](https://chocolatey.org/packages/cmder.portable) -- Please note `cmder.portable` has been deprecated and migrated to this package as the `.portable` was unnecessary and led to much confusion.
+* Replace `Get-ToolsLocation` with `Get-BinRoot` for backward compatibility. Note that in chocolatey &gt;=0.9.10, `Get-BinRoot` is an alias for `Get-ToolsLocation`.
     </releaseNotes>
     <dependencies>
       <dependency id="vcredist2010" />
