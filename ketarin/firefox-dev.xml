@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="084d91c9-1068-42e5-a1da-f354275e4782">
     <WebsiteUrl />
@@ -14,8 +14,8 @@ language
 https://ftp.mozilla.org/pub/mozilla.org/firefox/nightly/latest-mozilla-aurora/firefox-40.0a2.en-US.langpack.xpi
 
 https://ftp.mozilla.org/pub/mozilla.org/firefox/nightly/2015/05/2015-05-19-00-40-02-mozilla-aurora/</UserNotes>
-    <LastFileSize>43861800</LastFileSize>
-    <LastFileDate>2015-10-11T06:40:32.464909</LastFileDate>
+    <LastFileSize>45607096</LastFileSize>
+    <LastFileDate>2016-06-22T04:31:54-06:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -53,7 +53,7 @@ https://ftp.mozilla.org/pub/mozilla.org/firefox/nightly/2015/05/2015-05-19-00-40
             <VariableType>Textual</VariableType>
             <Regex />
             <Url />
-            <TextualContent>{urlFile:regex:(?&lt;=firefox-).+(?=\.\w{2\}-\w{2\}\.)}</TextualContent>
+            <TextualContent>{urlPath:regex:(?&lt;=firefox-).+(?=\.\w{2\}-\w{2\}\.)}</TextualContent>
             <Name>versionShort</Name>
           </UrlVariable>
         </value>
@@ -74,103 +74,31 @@ https://ftp.mozilla.org/pub/mozilla.org/firefox/nightly/2015/05/2015-05-19-00-40
       </item>
       <item>
         <key>
+          <string>urlHost</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <Url />
+            <TextualContent>https://archive.mozilla.org</TextualContent>
+            <Name>urlHost</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
           <string>urlPath</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <Url />
-            <TextualContent>{urlPath0}/{urlPath1}/{urlPath2}/{urlPath3}</TextualContent>
-            <Name>urlPath</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>urlPath0</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <TextualContent>https://ftp.mozilla.org/pub/mozilla.org/firefox/nightly</TextualContent>
-            <Name>urlPath0</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>urlPath1</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <Url />
-            <TextualContent>{urlPath3:split:-:0}</TextualContent>
-            <Name>urlPath1</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>urlPath2</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <Url />
-            <TextualContent>{urlPath3:split:-:1}</TextualContent>
-            <Name>urlPath2</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>urlPath3</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>.*(?&lt;=href=")(\d{4}-\d{2}[^/"]+aurora)(?=/")</Regex>
-            <Url>{urlPath0}/?C=N;O=D</Url>
+            <Regex>.*(?&lt;=href=['"])/?([^ "'&lt;&gt;\*]+32.installer\.exe)</Regex>
+            <Url>{urlHost}/pub/firefox/nightly/latest-mozilla-aurora/?C=N;O=A</Url>
             <TextualContent />
-            <Name>urlPath3</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>urlFile</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>RegularExpression</VariableType>
-            <Regex>.*(firefox.{1,20}win32.installer.exe).*(\1)</Regex>
-            <Url>{urlPath}/?C=N;O=D</Url>
-            <Name>urlFile</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>url64File</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>RegularExpression</VariableType>
-            <Regex>.*(firefox.{1,20}win64.installer.exe).*(\1)</Regex>
-            <Url>{urlPath}/?C=N;O=D</Url>
-            <Name>url64File</Name>
+            <Name>urlPath</Name>
           </UrlVariable>
         </value>
       </item>
@@ -183,7 +111,7 @@ https://ftp.mozilla.org/pub/mozilla.org/firefox/nightly/2015/05/2015-05-19-00-40
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>{urlPath}/{urlFile}</TextualContent>
+            <TextualContent>{urlHost}/{urlPath}</TextualContent>
             <Name>url</Name>
           </UrlVariable>
         </value>
@@ -198,7 +126,7 @@ https://ftp.mozilla.org/pub/mozilla.org/firefox/nightly/2015/05/2015-05-19-00-40
             <VariableType>Textual</VariableType>
             <Regex />
             <Url>{category}</Url>
-            <TextualContent>{urlPath}/{url64File}</TextualContent>
+            <TextualContent>{urlHost}/{url64Path}</TextualContent>
             <Name>url64</Name>
           </UrlVariable>
         </value>
@@ -240,80 +168,52 @@ https://ftp.mozilla.org/pub/mozilla.org/firefox/nightly/2015/05/2015-05-19-00-40
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>0</TextualContent>
+            <TextualContent>2</TextualContent>
             <Name>cscript</Name>
           </UrlVariable>
         </value>
       </item>
       <item>
         <key>
-          <string>checksumFile</string>
+          <string>url64Path</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>.*(firefox.{1,20}win32.checksums)".*(\1)</Regex>
-            <Url>{urlPath}/?C=N;O=D</Url>
-            <Name>checksumFile</Name>
+            <Regex>.*(?&lt;=href=['"])/?([^ "'&lt;&gt;\*]+64.installer\.exe)</Regex>
+            <Url>{urlHost}/pub/firefox/nightly/latest-mozilla-aurora/?C=N;O=A</Url>
+            <Name>url64Path</Name>
           </UrlVariable>
         </value>
       </item>
       <item>
         <key>
-          <string>checksum</string>
+          <string>checksum64file</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=[\r\n]+)[0-9A-Fa-f]{40}(?= sha1 [^\r\n]+installer\.exe[\r\n]+)</Regex>
-            <Url>{urlPath}/{checksumFile}</Url>
-            <Name>checksum</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>checksumx64File</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>RegularExpression</VariableType>
-            <Regex>.*(firefox.{1,20}win64.checksums)".*(\1)</Regex>
-            <Url>{urlPath}/?C=N;O=D</Url>
-            <Name>checksumx64File</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>checksumx64</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=[\r\n]+)[0-9A-Fa-f]{40}(?= sha1 [^\r\n]+installer\.exe[\r\n]+)</Regex>
-            <Url>{urlPath}/{checksumx64File}</Url>
-            <Name>checksumx64</Name>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>{url64}</TextualContent>
+            <Name>checksum64file</Name>
           </UrlVariable>
         </value>
       </item>
     </Variables>
-    <ExecuteCommand>cpush {chocoPkgOutput}\{appname}\{version}\{appname}.{versionLong}.nupkg</ExecuteCommand>
+    <ExecuteCommand>cpush {chocoPkgOut}\{appname}\{version}\{appname}.{versionLong}.nupkg</ExecuteCommand>
     <ExecutePreCommand />
     <ExecuteCommandType>Batch</ExecuteCommandType>
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\firefox-43.0a2.en-US.win32.installer.exe</PreviousLocation>
+    <PreviousLocation>F:\exe\firefox-dev_49.0.2.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-10-11T06:40:32.464909</LastUpdated>
-    <TargetPath>{workdir}\</TargetPath>
+    <LastUpdated>2016-06-22T20:05:34.8064963-06:00</LastUpdated>
+    <TargetPath>{saveDir}\{appname}_{version}.{url:ext}</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>firefox-dev</Name>
   </ApplicationJob>
