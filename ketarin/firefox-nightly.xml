@@ -17,8 +17,8 @@ FTP releases
 https://ftp.mozilla.org/pub/mozilla.org/firefox/releases/
 regex subdir
 .*(?&lt;=&gt;)([\d\.]{3,}b\d+)</UserNotes>
-    <LastFileSize>38073400</LastFileSize>
-    <LastFileDate>2016-04-21T18:44:37.7064037</LastFileDate>
+    <LastFileSize>38985368</LastFileSize>
+    <LastFileDate>2016-06-22T06:34:46-06:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -56,7 +56,7 @@ regex subdir
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>{versionShort:replace:a:-alpha}</TextualContent>
+            <TextualContent>{versionShort:regexreplace:a\d?:.{versionMinor\}.{versionDate\}-alpha}</TextualContent>
             <Name>versionLong</Name>
           </UrlVariable>
         </value>
@@ -128,7 +128,7 @@ regex subdir
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>0</TextualContent>
+            <TextualContent>1</TextualContent>
             <Name>cscript</Name>
           </UrlVariable>
         </value>
@@ -155,7 +155,7 @@ regex subdir
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=latest-mozilla-central/)[^ "'&lt;&gt;\*]+32\.installer\.exe</Regex>
+            <Regex>.*(?&lt;=latest-mozilla-central/)([^ "'&lt;&gt;\*]+32.installer\.exe)</Regex>
             <Url>{urlPath}</Url>
             <Name>urlFile</Name>
           </UrlVariable>
@@ -169,7 +169,7 @@ regex subdir
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=latest-mozilla-central/)[^ "'&lt;&gt;\*]+64\.installer\.exe</Regex>
+            <Regex>.*(?&lt;=latest-mozilla-central/)([^ "'&lt;&gt;\*]+64.installer\.exe)</Regex>
             <Url>{urlPath}</Url>
             <Name>url64File</Name>
           </UrlVariable>
@@ -184,7 +184,7 @@ regex subdir
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>{versionMajor}.{versionMinor}</TextualContent>
+            <TextualContent>{versionMajor}.{versionMinor}.{versionDate}</TextualContent>
             <Name>version</Name>
           </UrlVariable>
         </value>
@@ -217,6 +217,65 @@ regex subdir
           </UrlVariable>
         </value>
       </item>
+      <item>
+        <key>
+          <string>versionDateFull</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;={urlFile}.*?&lt;td&gt;)\d{2}.[a-z]{3}.\d{4} \d{2}:\d{2}</Regex>
+            <Url>{urlPath}</Url>
+            <Name>versionDateFull</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>versionDateDigits</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <Url />
+            <TextualContent>{versionDateFull:multireplace:|:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec|\\:|-| :01|02|03|04|05|06|07|08|09|10|11|12|}</TextualContent>
+            <Name>versionDateDigits</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>versionDate</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <Url />
+            <TextualContent>{versionDateDigits:regexreplace:(\d{2\})\s?(\d{2\})\s?(\d{4\})\s?(\d{2\})\s?(\d{2\}):$3$2$1$4$5}</TextualContent>
+            <Name>versionDate</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>checksum64file</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <Url />
+            <TextualContent>{url64}</TextualContent>
+            <Name>checksum64file</Name>
+          </UrlVariable>
+        </value>
+      </item>
     </Variables>
     <ExecuteCommand>cpush {chocoPkgOut}\{appname}\{version}\{appname}.{versionLong}.nupkg</ExecuteCommand>
     <ExecutePreCommand />
@@ -224,11 +283,11 @@ regex subdir
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\firefox-nightly_48.0.1.exe</PreviousLocation>
-    <DeletePreviousFile>false</DeletePreviousFile>
+    <PreviousLocation>F:\exe\firefox-nightly_50.0.1.201606221234.exe</PreviousLocation>
+    <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2016-04-21T18:44:37.7064037</LastUpdated>
+    <LastUpdated>2016-06-22T22:35:02.3805691-06:00</LastUpdated>
     <TargetPath>{saveDir}\{appname}_{version}.{url:ext}</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>firefox-nightly</Name>

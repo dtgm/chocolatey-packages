@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
-    <id>{{PackageName}}</id>
+    <id>firefox-nightly</id>
     <title>Firefox Nightly</title>
-    <version>{{PackageGuid}}</version>
+    <version>50.0.20160622123.4-alpha</version>
     <authors>Mozilla</authors>
     <owners>dtgm</owners>
     <summary>Web browser of the latest experimental features for testing</summary>
@@ -23,11 +23,11 @@ Every 6 weeks, Firefox developers take the current stable features of each build
 [Mozilla Developer Network documentation](https://developer.mozilla.org/en-US/docs/mozilla-central)
 [Privacy policy](https://www.mozilla.org/en-US/privacy/firefox/)
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/firefox-nightly/</packageSourceUrl>
     <projectUrl>https://www.mozilla.org/firefox/nightly/</projectUrl>
     <projectSourceUrl>https://hg.mozilla.org/mozilla-central/</projectSourceUrl>
     <mailingListUrl>https://mail.mozilla.org/listinfo/nightly-testers</mailingListUrl>
-    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/34eed6fa346faeb2d0b97cf77868cf26c2af247b/icons/{{PackageName}}.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/34eed6fa346faeb2d0b97cf77868cf26c2af247b/icons/firefox-nightly.png</iconUrl>
     <tags>browser mozilla firefox alpha admin</tags>
     <copyright>© Mozilla Foundation</copyright>
     <licenseUrl>http://www.mozilla.org/MPL/2.0/</licenseUrl>

@@ -1,5 +1,5 @@
-﻿$packageName = '{{PackageName}}'
-$softwareVersion = '{{PackageGuid}}' -Replace "^(\d+)\.(\d+)\.(\d+)[^-]+-([a-z]).*",'$1.$2$4$3'
+﻿$packageName = 'firefox-nightly'
+$softwareVersion = '50.0.1.201606221234-alpha' -Replace "^(\d+)\.(\d+)\.(\d+)[^-]+-([a-z]).*",'$1.$2$4$3'
 $softwareName = "Nightly $softwareVersion*"
 $installerType = 'exe'
 $silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
