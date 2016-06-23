@@ -16,9 +16,14 @@ SketchUp is a 3D modeling computer program for a wide range of drawing applicati
 * Import files from other 3D modeling programs or tools, or export your SketchUp file for use with other popular modeling and image-editing software.
 
 #### Trial/Freeware (limited functionality)
-* &lt;=30 days: SketchUp Pro trial 
-* &gt;30 days: [Buy Pro](http://www.sketchup.com/buy/sketchup-pro) license, otherwise software reverts to "Make", a limited, non-commercial [freeware](http://help.sketchup.com/en/content/sketchup-make-and-sketchup-pro) version
-    </description>
+This package loads the Sketchup Make installer which functions as follows:
+* &lt;=30 days: Sketchup Make with all SketchUp Pro features on a trial basis
+* &gt;30 days: On first run, user (admin) must make a choice:
+    * Sketchup Pro features expire and software is locked-in as Sketchup Make -- a limited, non-commercial [freeware](http://help.sketchup.com/en/content/sketchup-make-and-sketchup-pro) version.
+    * [Buy a Pro license](http://www.sketchup.com/buy/sketchup-pro), and the additional features are locked in and it officially becomes Sketchup Pro.  Any messaging that would identify the program as Sketchup Make is converted to Sketchup Pro. 
+    
+#### [Freeware Licensing Note](<https://www.sketchup.com/license/c/sketchup>)
+SketchUp Make Software is licensed only for non-commercial use for your internal business purposes. Non-commercial use means that **you may not sell, rent, lease or lend the output of the Software**. Any other use requires the purchase of a SketchUp Pro license.     </description>
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>https://www.sketchup.com/products/sketchup-make</projectUrl>
     <docsUrl>https://www.sketchup.com/learn</docsUrl>
