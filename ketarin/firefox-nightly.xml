@@ -256,7 +256,7 @@ regex subdir
             <VariableType>Textual</VariableType>
             <Regex />
             <Url />
-            <TextualContent>{versionDateDigits:regexreplace:(\d{2\})\s?(\d{2\})\s?(\d{4\})\s?(\d{2\})\s?(\d{2\}):$3$2$1$4$5}</TextualContent>
+            <TextualContent>{versionDateDigits:regexreplace:(\d{2\})\s?(\d{2\})\s?(\d{4\})\s?(\d{2\})\s?(\d{2\}):$3$2$1$4}</TextualContent>
             <Name>versionDate</Name>
           </UrlVariable>
         </value>
@@ -283,11 +283,11 @@ regex subdir
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\firefox-nightly_50.0.1.201606221234.exe</PreviousLocation>
+    <PreviousLocation>F:\exe\firefox-nightly_50.0.1.2016062212.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2016-06-22T22:35:02.3805691-06:00</LastUpdated>
+    <LastUpdated>2016-06-22T22:56:00.5197177-06:00</LastUpdated>
     <TargetPath>{saveDir}\{appname}_{version}.{url:ext}</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>firefox-nightly</Name>
