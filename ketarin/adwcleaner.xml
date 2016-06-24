@@ -5,7 +5,7 @@
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64)</UserAgent>
     <UserNotes />
     <LastFileSize>3703360</LastFileSize>
-    <LastFileDate>2016-06-14T23:10:49-06:00</LastFileDate>
+    <LastFileDate>2016-06-16T13:05:16.2431952</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Avoid</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -117,7 +117,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>1</TextualContent>
+            <TextualContent>2</TextualContent>
             <Name>cscript</Name>
           </UrlVariable>
         </value>
@@ -147,7 +147,7 @@
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2016-06-15T17:50:40.233652-06:00</LastUpdated>
+    <LastUpdated>2016-06-16T13:05:16.2431952</LastUpdated>
     <TargetPath>{saveDir}\{appname}_{version}.{url:ext}</TargetPath>
     <FixedDownloadUrl>{urlDirect}</FixedDownloadUrl>
     <Name>adwcleaner</Name>

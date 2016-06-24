@@ -1,16 +1,17 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="8b84c664-fcf5-410d-9ce1-67179ae897ab">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
     <LastFileSize>1270695</LastFileSize>
-    <LastFileDate>2016-02-04T19:31:23.6043431</LastFileDate>
+    <LastFileDate>2016-02-28T11:26:07.1987868</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
     <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
@@ -83,7 +84,7 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>[^ "'&lt;&gt;\*]+\.zip/download</Regex>
+            <Regex>[^ "'&lt;&gt;\*]+\.zip(?=/download")</Regex>
             <Url>https://sourceforge.net/projects/dev-fire-gd/files/Game%20Downloader%20{version}/</Url>
             <Name>getUrl</Name>
           </UrlVariable>
@@ -98,7 +99,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>1</TextualContent>
+            <TextualContent>2</TextualContent>
             <Name>cscript</Name>
           </UrlVariable>
         </value>
@@ -110,12 +111,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\Game Downloader 4.0.zip</PreviousLocation>
+    <PreviousLocation>F:\exe\gamedownloader.portable_4.0.zip</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2016-02-04T19:31:23.6043431</LastUpdated>
-    <TargetPath>{workdir}\</TargetPath>
+    <LastUpdated>2016-02-28T11:26:07.1987868</LastUpdated>
+    <TargetPath>{saveDir}\{appname}_{version}.{url:ext}</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>gamedownloader.portable</Name>
   </ApplicationJob>

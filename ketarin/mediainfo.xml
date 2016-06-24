@@ -5,7 +5,7 @@
     <UserAgent />
     <UserNotes />
     <LastFileSize>4976944</LastFileSize>
-    <LastFileDate>2016-05-31T14:42:11-06:00</LastFileDate>
+    <LastFileDate>2016-06-04T15:35:01.8247739</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -74,7 +74,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>1</TextualContent>
+            <TextualContent>2</TextualContent>
             <Name>cscript</Name>
           </UrlVariable>
         </value>
@@ -104,7 +104,7 @@
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2016-06-04T15:35:01.8247739-06:00</LastUpdated>
+    <LastUpdated>2016-06-04T15:35:01.8247739</LastUpdated>
     <TargetPath>{saveDir}\{appname}_{version}.{url:ext}</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>mediainfo</Name>
