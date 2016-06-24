@@ -1,4 +1,4 @@
-; default environment
+﻿; default environment
 DetectHiddenWindows, off
 SetKeyDelay, 100
 
@@ -23,7 +23,7 @@ WinWait, %winTitleInstaller%, , 10
 WinActivate, %winTitleInstaller%
 Send {ENTER 4}
 
-Loop {
+Loop, 1000 {
   IfWinExist, %winTitleDirExist% 
   {
     WinActivate

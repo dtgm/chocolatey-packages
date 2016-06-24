@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
     <id>i2p</id>
@@ -17,9 +17,9 @@ Invisible Internet Project (I2P) is an anonymous network, exposing a simple laye
 * Executing "Start I2P.exe" will start background service and launch default browser to connect to local console
 * Interface is via web browser with default address http://localhost:7657/index.jsp
 * [Ports used](https://geti2p.net/en/faq#ports) 
-* Configuration page: http://localhost:7657/confignet.jsp
-  * If inbound TCP is forwarded, also enable inbound TCP
-  * Adjust bandwidth settings as appropriate
+* Configuration page: http://localhost:7657/confignet.jsp  
+If inbound TCP is forwarded, also enable inbound TCP  
+Adjust bandwidth settings as appropriate
     </description>
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/i2p/</packageSourceUrl>
     <projectUrl>https://geti2p.net</projectUrl>
@@ -28,7 +28,7 @@ Invisible Internet Project (I2P) is an anonymous network, exposing a simple laye
     <docsUrl>https://geti2p.net/docs</docsUrl>
     <mailingListUrl>http://forum.i2p/</mailingListUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/a31933f66d00b685b6ac67f676c88d5c8b0442de/icons/i2p.png</iconUrl>
-    <tags>security privacy anonymity darknet</tags>
+    <tags>security privacy anonymity darknet admin</tags>
     <copyright>© I2P Team</copyright>
     <licenseUrl>https://geti2p.net/en/get-involved/develop/licenses</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
