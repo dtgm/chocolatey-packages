@@ -33,7 +33,7 @@ SetTitleMatchMode, 1
 WinWait, %winTitleOpen%, %winTitleOpenText%
 
 ; Multiple ControlClick's are not reliable so loop until window gone
-Loop {
+Loop, 100 {
   IfWinExist, %winTitleOpen%, %winTitleOpenText%
   {
     ; unblock executable

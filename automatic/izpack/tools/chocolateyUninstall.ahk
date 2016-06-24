@@ -15,7 +15,7 @@ WinWait, %winTitle%, , 30
 WinActivate
 Send {Space}{Tab}{Enter}
 WinMinimize, %winTitle%
-Loop {
+Loop, 360 {
   Sleep 500
   IfExist, C:\Program Files\IzPack\
     continue

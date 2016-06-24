@@ -24,7 +24,8 @@ WinMinimize, %tkTopLevelTitle%
 
 ; start menu link is last item to be removed by uninstaller
 ; wait for this file to be removed, then restore window to continue
-Loop {
+; 240 * 500 = 120 sec
+Loop, 240 {
   IfNotExist, %startMenuEntry%
     break
   Sleep, 500

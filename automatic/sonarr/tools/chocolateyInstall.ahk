@@ -17,7 +17,7 @@ nPID = %ErrorLevel%
 if (nPID = 0) {
   return
 }
-Loop {
+Loop, 1000 {
   WinWait, %winConsole%, , 1
   WinMinimize, %winConsole%
   Process, Exist, %procName%
