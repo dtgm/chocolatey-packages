@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>aida64-networkaudit</id>
+    <title>AIDA64 Network Audit</title>
+    <version>5.75.3900</version>
+    <authors>FinalWire Ltd</authors>
+    <owners>dtgm</owners>
+    <summary>Advanced system diagnostics utility for home users</summary>
+    <description>
+Dedicated network audit solution for businesses that supports IT decision-making with essential statistics, and helps companies to reduce their IT costs. With AIDA64 Network Audit, system administrators can make a detailed inventory of the company PC fleet in an automated manner, and track changes in both hardware and software.
+
+#### Community
+* [Facebook](https://www.facebook.com/AIDA64)
+* [Google+](https://plus.google.com/+aida64)
+* [Twitter](https://twitter.com/FinalWire)
+
+#### Commercial software
+This package installs a 30-day trial version.
+
+#### AIDA64 [editions](http://www.aida64.com/compare-aida64-features)
+* [AIDA64 Extreme](https://chocolatey.org/packages/aida64-extreme)
+* AIDA64 Network Audit (you are here)
+* [AIDA64 Engineer](https://chocolatey.org/packages/aida64-engineer)
+* [AIDA64 Business](https://chocolatey.org/packages/aida64-business)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/aida64-networkaudit/</packageSourceUrl>
+    <projectUrl>http://www.aida64.com/products/aida64-network-audit</projectUrl>
+    <bugTrackerUrl>http://www.aida64.com/support/contactform</bugTrackerUrl>
+    <docsUrl>http://www.aida64.com/support/faq</docsUrl>
+    <mailingListUrl>https://forums.aida64.com/</mailingListUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/d1e037cc7c943fda29b9067b3b1c3229d99402ff/icons/aida64-networkaudit.png</iconUrl>
+    <tags>trial diagnostic benchmark audit inventory</tags>
+    <copyright>© 2010 FinalWire Ltd</copyright>
+    <licenseUrl>http://www.aida64.com/licensing</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Release log](http://www.aida64.com/downloads/archive)
+* [Release notes](http://www.aida64.com/news)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
