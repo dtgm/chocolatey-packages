@@ -10,20 +10,20 @@
     <description>
 QTTabBar is extension for Windows Explorer that brings tabbed browsing to Microsoft's file browser, along with a host of other great features.
 
-#### Documentation
+##### Documentation
 * [Screenshots](http://qttabbar.wikidot.com/screenshots)
 * [FAQ](http://qttabbar.wikidot.com/faq)
 
-#### Community
+##### Community
 * [Twitter](https://twitter.com/QTTabBar)
 
-### Post-install instructions
+#### Post-install instructions
 
-#### New install
+##### New install
 
-This package will attempt to register and enable the extension automatically. Once enabled, you must enable the 'Tab Bar' toolbar within 'File Explorer'. 
+This package will attempt to register and enable the extension automatically. Once enabled in *Internet* Explorer, you must enable the 'Tab Bar' toolbar within *File* Explorer.
 
-#### Upgrading
+##### Upgrading
 
 To start using the new version, process 'explorer.exe' must be restarted. To easily do this, simply logoff/sign-out of Windows and sign back in or restart the computer.
     </description>
