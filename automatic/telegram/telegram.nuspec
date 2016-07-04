@@ -8,7 +8,7 @@
     <owners>dtgm</owners>
     <summary>Cloud-based synchronized messaging app with a focus on speed and security</summary>
     <description>
-Telegram is a cloud-based synchronized messaging app with a focus on speed and security. It's superfast, simple and free. You can use Telegram on all your devices at the same time - [Android](https://telegram.org/dl/android), [iOS](https://telegram.org/dl/ios), [WP](https://telegram.org/dl/wp), [Firefox](https://marketplace.firefox.com/app/telegram), [Chrome](https://telegram.org/dl/webogram/chromeapp), [Web Browser](https://telegram.org/dl/webogram), Windows, [Mac](https://telegram.org/dl/osx), [Linux](https://desktop.telegram.org/linux) - your messages sync seamlessly across any of your phones, tablets or computers.
+Telegram is a cloud-based synchronized messaging app with a focus on speed and security. It's superfast, simple and free. You can use Telegram on all your devices at the same time - [Android](https://telegram.org/dl/android), [iOS](https://telegram.org/dl/ios), [WP](https://telegram.org/dl/wp), [Firefox](https://marketplace.firefox.com/app/telegram), [Chrome](https://telegram.org/dl/webogram/chromeapp), [Web Browser](https://telegram.org/dl/webogram), [Mac](https://telegram.org/dl/osx), [Linux](https://desktop.telegram.org/linux), and Windows desktop (this package) - your messages sync seamlessly across any of your phones, tablets or computers.
 
 With Telegram, you can send messages, photos, videos and files of any type (doc, zip, mp3, etc) to people who are in your phone contacts and have Telegram. You can also create groups for up to 200 people or send broadcasts to up to 100 contacts. As a result, Telegram is like SMS and email combined - and can take care of all your personal or business messaging needs.
 
@@ -29,6 +29,7 @@ With Telegram, you can send messages, photos, videos and files of any type (doc,
     <projectUrl>https://desktop.telegram.org/</projectUrl>
     <projectSourceUrl>https://telegram.org/apps#source-code</projectSourceUrl>
     <bugTrackerUrl>https://github.com/telegramdesktop/tdesktop/issues</bugTrackerUrl>
+    <docsUrl>https://telegram.org/faq</docsUrl>
     <tags>im messenger chat synchronized cloud</tags>
     <copyright>© 2013 Pavel Durov and Nikolai Durov</copyright>
     <licenseUrl>https://github.com/telegramdesktop/tdesktop/blob/master/LICENSE</licenseUrl>
