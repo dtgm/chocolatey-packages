@@ -2,14 +2,13 @@
 $url = '{{DownloadUrl}}'
 $checksum = '{{Checksum}}'
 $checksumType = 'md5'
-$bin = Get-ToolsLocation
-$installPath = Join-Path $bin "cmder"
+$binRoot = Get-BinRoot
+$installPath = Join-Path $binRoot $packageName
 
-Install-ChocolateyZipPackage -PackageName "$packageName" `
-                             -Url "$url" `
-                             -UnzipLocation "$installPath" `
-                             -Checksum "$checksum" `
-                             -ChecksumType "$checksumType"
+Install-ChocolateyZipPackage -PackageName $packageName `
+                             -Url $url `
+                             -UnzipLocation $installPath `
+                             -Checksum $checksum `
+                             -ChecksumType $checksumType
 
-Write-Verbose "Adding `'$installPath`' to path"
-Install-ChocolateyPath "$installPath" 'user'
+Install-ChocolateyPath $installPath 'User'
