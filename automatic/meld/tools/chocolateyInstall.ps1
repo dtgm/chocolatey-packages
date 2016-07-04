@@ -1,15 +1,15 @@
 ﻿$packageName = '{{PackageName}}'
 $installerType = 'msi'
 $silentArgs = '/quiet /qn /norestart'
-$url = '{{DownloadUrlx64}}'
+$url = '{{DownloadUrl}}'
 $checksum = '{{Checksum}}'
-$checksumType = 'sha1'
+$checksumType = 'sha256'
 $validExitCodes = @(0)
 
-Install-ChocolateyPackage -PackageName "$packageName" `
-                          -FileType "$installerType" `
-                          -SilentArgs "$silentArgs" `
-                          -Url "$url" `
+Install-ChocolateyPackage -PackageName $packageName `
+                          -FileType $installerType `
+                          -SilentArgs $silentArgs `
+                          -Url $url `
                           -ValidExitCodes $validExitCodes `
-                          -Checksum "$checksum" `
-                          -ChecksumType "$checksumType"
+                          -Checksum $checksum `
+                          -ChecksumType $checksumType
