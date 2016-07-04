@@ -2,19 +2,15 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
     <id>{{PackageName}}</id>
-    <title>AIDA64 Extreme Edition</title>
+    <title>AIDA64 Network Audit</title>
     <version>{{PackageVersion}}</version>
     <authors>FinalWire Ltd</authors>
     <owners>dtgm</owners>
     <summary>Advanced system diagnostics utility for home users</summary>
     <description>
-Our dedicated network audit solution for businesses that supports IT decision-making with essential statistics, and helps companies to reduce their IT costs. With AIDA64 Network Audit, system administrators can make a detailed inventory of the company PC fleet in an automated manner, and track changes in both hardware and software.
-
-#### Documentation
-* [FAQ](http://www.aida64.com/support/faq)
+Dedicated network audit solution for businesses that supports IT decision-making with essential statistics, and helps companies to reduce their IT costs. With AIDA64 Network Audit, system administrators can make a detailed inventory of the company PC fleet in an automated manner, and track changes in both hardware and software.
 
 #### Community
-* [Forum](http://forums.aida64.com/)
 * [Facebook](https://www.facebook.com/AIDA64)
 * [Google+](https://plus.google.com/+aida64)
 * [Twitter](https://twitter.com/FinalWire)
@@ -30,6 +26,9 @@ This package installs a 30-day trial version.
     </description>
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://www.aida64.com/products/aida64-network-audit</projectUrl>
+    <bugTrackerUrl>http://www.aida64.com/support/contactform</bugTrackerUrl>
+    <docsUrl>http://www.aida64.com/support/faq</docsUrl>
+    <mailingListUrl>https://forums.aida64.com/</mailingListUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/d1e037cc7c943fda29b9067b3b1c3229d99402ff/icons/{{PackageName}}.png</iconUrl>
     <tags>trial diagnostic benchmark audit inventory</tags>
     <copyright>© 2010 FinalWire Ltd</copyright>
@@ -38,6 +37,7 @@ This package installs a 30-day trial version.
     <releaseNotes>
 #### Program
 * [Release log](http://www.aida64.com/downloads/archive)
+* [Release notes](http://www.aida64.com/news)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
