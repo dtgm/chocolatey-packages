@@ -5,7 +5,7 @@
     <version>{{PackageVersion}}</version>
     <title>ILSpy</title>
     <authors>Daniel Grunwald,David Srbecky,Ed Harvey,Siegfried Pammer,Artur Zgodzinski</authors>
-    <owners>Jon Galloway,Alan Stevens,dtgm</owners>
+    <owners>dtgm</owners>
     <summary>Open-source .NET assembly browser and decompiler</summary>
     <description>
 Development started after Red Gate announced that the free version of .NET Reflector would cease to exist by end of February 2011.
@@ -29,15 +29,27 @@ Development started after Red Gate announced that the free version of .NET Refle
 * Find usage of field/method
 * Extensible via plugins (MEF)
 * Assembly Lists
+
+[Plugins list](https://github.com/icsharpcode/ILSpy/wiki/Plugins)
     </description>
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://ilspy.net/</projectUrl>
+    <projectSourceUrl>https://github.com/icsharpcode/ILSpy/</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/icsharpcode/ILSpy/issues</bugTrackerUrl>
+    <docsUrl>https://github.com/icsharpcode/ILSpy/wiki</docsUrl>
+    <mailingListUrl>http://community.sharpdevelop.net/forums/69.aspx</mailingListUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/086a1789d89703105f9e383da6d2eafb2e90f4af/icons/{{packageName}}.png</iconUrl>
     <tags>dotnet decompiler</tags>
-    <copyright>© 2011-2014 AlphaSierraPapa for the SharpDevelop team</copyright>
+    <copyright>© 2011 AlphaSierraPapa for the SharpDevelop team</copyright>
     <licenseUrl>https://github.com/icsharpcode/ILSpy/blob/master/README.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <releaseNotes>https://github.com/icsharpcode/ILSpy/releases</releaseNotes>
+    <releaseNotes>
+#### Program
+* [Changelog](https://github.com/icsharpcode/ILSpy/releases)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
     <dependencies>
       <dependency id="dotnet4.0" />
     </dependencies>
