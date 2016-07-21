@@ -1,9 +1,9 @@
-﻿$packageName = 'networktrafficview'
-$url = ''
-$checksum = 'f3e840ba30b41fe3210be11f02ccd061bb7ca0064468a7d04fbf9aa1121add0b'
+﻿$packageName = 'searchmyfiles'
+$url = 'http://www.nirsoft.net/utils/searchmyfiles.zip'
+$checksum = 'bc4689e6869558019173c2bed24053b9f9e370b70185e9690a7fe98ab187907c'
 $checksumType = 'sha256'
-$url64 = 'http://www.nirsoft.net/utils/networktrafficview-x64.zip'
-$checksum64 = 'f42d0c1eac5707fbf78aefe49b2998d64fe8dbe3ac62b8f1b6262477b78d636a'
+$url64 = 'http://www.nirsoft.net/utils/searchmyfiles-x64.zip'
+$checksum64 = '63b5bcb37798e214f5d03c46b110eab8d2182bf633c758817f79f74e03f13580'
 $checksumType64 = 'sha256'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $installFile = Join-Path $toolsDir "$($packageName).exe"

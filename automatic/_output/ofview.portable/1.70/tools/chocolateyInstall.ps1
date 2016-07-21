@@ -1,12 +1,12 @@
-﻿$packageName = 'networktrafficview'
-$url = ''
-$checksum = 'f3e840ba30b41fe3210be11f02ccd061bb7ca0064468a7d04fbf9aa1121add0b'
+﻿$packageName = 'ofview.portable'
+$url = 'http://www.nirsoft.net/utils/ofview.zip'
+$checksum = '8f3ce04cbfd074ff0c8d6d361472dd27d5d4c53d675fb385a957ca8160a1d303'
 $checksumType = 'sha256'
-$url64 = 'http://www.nirsoft.net/utils/networktrafficview-x64.zip'
-$checksum64 = 'f42d0c1eac5707fbf78aefe49b2998d64fe8dbe3ac62b8f1b6262477b78d636a'
+$url64 = 'http://www.nirsoft.net/utils/ofview-x64.zip'
+$checksum64 = 'fea1383fe0c14579a6777694c1052f874959ab484236f7be5b15bfc61f9df982'
 $checksumType64 = 'sha256'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$installFile = Join-Path $toolsDir "$($packageName).exe"
+$installFile = Join-Path $toolsDir "ofview.exe"
 
 Install-ChocolateyZipPackage -PackageName "$packageName" `
                              -Url "$url" `
