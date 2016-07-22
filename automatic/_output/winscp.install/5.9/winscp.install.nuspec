@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>winscp.install</id>
+    <title>WinSCP (Install)</title>
+    <version>5.9</version>
+    <authors>Martin Přikryl</authors>
+    <owners>dtgm</owners>
+    <summary>Open source free SFTP client, SCP client, FTPS client and FTP client</summary>
+    <description>
+WinSCP is an open source free SFTP client, SCP client, FTPS client and FTP client for Windows. Its main function is file transfer between a local and a remote computer. Beyond this, WinSCP offers scripting and basic file manager functionality.
+
+#### Documentation
+* [Features](http://winscp.net/docs/introduction#features)
+* [Screenshots](http://winscp.net/docs/screenshots)
+* [FAQ](http://winscp.net/docs/faq)
+* [Install guide](http://winscp.net/docs/guide_install)
+* [Manual](http://winscp.net/docs/start)
+
+#### Community
+* [Forum](http://winscp.net/forum/index.php)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/winscp.install/</packageSourceUrl>
+    <projectUrl>http://winscp.net/</projectUrl>
+    <projectSourceUrl>http://sourceforge.net/p/winscp/code/</projectSourceUrl>
+    <bugTrackerUrl>http://winscp.net/tracker/</bugTrackerUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/5b5d9335e9008d5f0cb0960fcef183926c1bc6ad/icons/winscp.png</iconUrl>
+    <tags>scp sftp ftp client admin</tags>
+    <copyright>© 2000 Martin Přikryl</copyright>
+    <licenseUrl>http://winscp.net/docs/license</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [News](http://sourceforge.net/p/winscp/news/)
+* [Roadmap](http://winscp.net/docs/history)
+* [Changelog](http://winscp.net/eng/docs/history#5.9)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
