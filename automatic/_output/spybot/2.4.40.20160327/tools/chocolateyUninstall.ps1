@@ -28,7 +28,7 @@ $validExitCodes = @(0)
 	if ( (Test-Path ( $hk_level + ":" +$spybot_string )) -eq $true ) {
 	  $spybot_key = ( $hk_level + ":" + $spybot_string )
 	} else  {
-	  $spybot_key = ( "hkcu:" + "\SOFTWARE" + $bitty +"\Microsoft\Windows\CurrentVersion\Uninstall\{B4092C6D-E886-4CB2-BA68-FE5A99D31DE7}_is1" )
+	  $spybot_key = ( "hkcu:" + "\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{B4092C6D-E886-4CB2-BA68-FE5A99D31DE7}_is1" )
     	}
 
 	$file = (Get-ItemProperty -Path ( $spybot_key ) ).$spybot_uninstall_string
