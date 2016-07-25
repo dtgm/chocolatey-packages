@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>windowsrepair</id>
+    <title>Windows Repair</title>
+    <version>3.9.6</version>
+    <authors>Tweaking.com</authors>
+    <owners>dtgm</owners>
+    <summary>All-in-one repair tool to help fix known Windows issues</summary>
+    <description>
+An all-in-one repair tool to help fix a large majority of known Windows problems including registry errors and file permissions as well as issues with Internet Explorer, Windows Update, Windows Firewall and more.
+
+This package installs the freeware version.
+
+#### Community
+* [Forum](http://www.tweaking.com/forums/)
+* [Facebook](https://www.facebook.com/tweakingdotcom)
+* [Twitter](https://twitter.com/tweaking_com)
+	</description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/windowsrepair/</packageSourceUrl>
+    <projectUrl>http://www.tweaking.com/content/page/windows_repair_all_in_one.html</projectUrl>
+    <tags>fix-error system-repair fix-registry admin</tags>
+    <copyright>© Tweaking.com</copyright>
+    <licenseUrl>http://www.tweaking.com/core/termsofuse/index.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/83d6835ab7d0079898f8fd5d928a8a7b1aa7909f/icons/windowsrepair.png</iconUrl>
+	<releaseNotes>
+#### Program
+* [Changelog](http://www.tweaking.com/articles/pages/tweaking_com_windows_repair_change_log,1.html)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
