@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>keepass-plugin-keeagent</id>
+    <title>KeePass Plugin KeeAgent</title>
+    <version>0.8.0</version>
+    <authors>David Lechner</authors>
+    <owners>dtgm</owners>
+    <summary>Allow SSH keys stored in a KeePass database to be used for SSH authentication by other programs</summary>
+    <description>
+KeeAgent is a plugin for KeePass 2.x. It allows other programs to access SSH keys stored in your KeePass database for authentication. It can either act as a stand-alone agent or it can interface with an external agent.
+
+* Store your SSH private keys in your KeePass 2.x database and use KeePass as your SSH agent (replaces Pageant on Windows).
+* Keys can be configured to automatically load when a KeePass database is opened and unload when the database is closed/locked.
+* Cross-platform: work on Windows/Linux/Mac.
+* Supports both PuTTY and OpenSSH private key formats, (new in Beta v0.7.0, includes the “new” OpenSSH key format introduced in OpenSSH 6.5).
+* Supports SSH1 and SSH2 keys.
+* SSH2 key formats include RSA, DSA and ECDSA (new in Beta v0.7.0, includes Ed25519 support).
+* Works with both PuTTY (and PuTTY compatible programs) and Cygwin/Msys on Windows.
+* Works with native SSH agent on Linux/Mac.
+
+#### Documentation
+* [Usage](http://lechnology.com/software/keeagent/usage/quick-start#content)
+* [Options and settings](http://lechnology.com/software/keeagent/usage/options-and-settings#content)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/keepass-plugin-keeagent/</packageSourceUrl>
+    <projectUrl>http://lechnology.com/software/keeagent</projectUrl>
+    <projectSourceUrl>https://github.com/dlech/KeeAgent</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/dlech/KeeAgent/issues</bugTrackerUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/c46cf154c7b7e7b67e640ae9c65923a4e7e28a07/icons/keepass-plugin-keeagent.png</iconUrl>
+    <tags>keepass plugin ssh authentication</tags>
+    <copyright>© 2012 David Lechner</copyright>
+    <licenseUrl>https://github.com/dlech/KeeAgent/blob/master/LICENSE.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [News](http://lechnology.com/category/keeagent-news/)
+* [Changelog](https://github.com/dlech/KeeAgent/blob/master/CHANGELOG.txt)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="keepass" version="[2.19, 3.0)" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
