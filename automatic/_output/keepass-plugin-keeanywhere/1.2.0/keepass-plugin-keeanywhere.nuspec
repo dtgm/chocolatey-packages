@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>keepass-plugin-keeanywhere</id>
+    <title>KeePass Plugin KeeAnywhere</title>
+    <version>1.2.0</version>
+    <authors>Daniel Bölts</authors>
+    <owners>dtgm</owners>
+    <summary>Plugin for KeePass 2.x to to add support for cloud storage providers</summary>
+    <description>
+KeeAnywhere is a KeePass plugin that provides access to cloud storage providers (cloud drives). The main goal is to offer a simple UI while integrating deeply into KeePass. This covers all kind of users: novices, experienced and power users.
+
+Supported providers:
+
+* Dropbox
+* Google Drive
+* hubiC
+* OneDrive
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/keepass-plugin-keeanywhere/</packageSourceUrl>
+    <projectUrl>https://github.com/Kyrodan/KeeAnywhere</projectUrl>
+    <projectSourceUrl>https://github.com/Kyrodan/KeeAnywhere</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/Kyrodan/KeeAnywhere/issues</bugTrackerUrl>
+    <docsUrl>https://github.com/Kyrodan/KeeAnywhere/wiki/</docsUrl>
+    <iconUrl>https://cdn.rawgit.com/Kyrodan/KeeAnywhere/95b05e59b80690037bfb1952715d5104fbf99b71/KeeAnywhere/Resources/KeeAnywhere_48x48.png</iconUrl>
+    <tags>keepass plugin backup sync cloud</tags>
+    <copyright>© 2015 Daniel Bölts</copyright>
+    <licenseUrl>https://github.com/Kyrodan/KeeAnywhere/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Changelog](https://github.com/Kyrodan/KeeAnywhere/releases/tag/v1.2.0)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="keepass" version="[2.31, 3.0)" />
+      <dependency id="dotnet4.5" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
