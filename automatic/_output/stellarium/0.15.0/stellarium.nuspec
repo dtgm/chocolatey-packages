@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>stellarium</id>
+    <title>Stellarium</title>
+    <version>0.15.0</version>
+    <authors>Stellarium Developers</authors>
+    <owners>dtgm</owners>
+    <summary>Open source planetarium software that shows a 3D simulation of the night sky</summary>
+    <description>
+Stellarium is a free open source planetarium for your computer. It shows a realistic sky in 3D, just like what you see with the naked eye, binoculars or a telescope. It is used in planetarium projectors. Just set your coordinates and go.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/stellarium/</packageSourceUrl>
+    <projectUrl>http://stellarium.org/</projectUrl>
+    <projectSourceUrl>http://bazaar.launchpad.net/~stellarium/stellarium/trunk/files</projectSourceUrl>
+    <bugTrackerUrl>https://bugs.launchpad.net/stellarium</bugTrackerUrl>
+    <docsUrl>http://stellarium.org/wiki/index.php/Main_Page</docsUrl>
+    <mailingListUrl>https://sourceforge.net/p/stellarium/mailman/</mailingListUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/19d35dff574b7496b92f235fa1503d47b861871a/icons/stellarium.svg</iconUrl>
+    <tags>planetarium sky stars constellations admin</tags>
+    <copyright>© Stellarium Developers</copyright>
+    <licenseUrl>https://sourceforge.net/p/stellarium/code/HEAD/tree/trunk/stellarium/COPYING</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [News](https://sourceforge.net/p/stellarium/news/)
+* [Changelog](http://bazaar.launchpad.net/~stellarium/stellarium/trunk/view/head:/ChangeLog)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
