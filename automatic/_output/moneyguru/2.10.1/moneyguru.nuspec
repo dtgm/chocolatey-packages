@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>moneyguru</id>
+    <title>moneyGuru</title>
+    <version>2.10.1</version>
+    <authors>Virgil Dupras</authors>
+    <owners>dtgm</owners>
+    <summary>Personal finance management with double-entry accounting</summary>
+    <description>
+moneyGuru is a personal finance management application. With it, you can evaluate your financial situation so you can make informed (and thus better) decisions. Most finance applications have the same goal, but moneyGuru's difference is in the way it achieves it. Rather than having reports which you have to configure (or find out which pre-configured report is the right one), your important financial data (net worth, profit) is constantly up-to-date and "in your face". This allows you to constantly make informed decision rather than doing so periodically.
+
+#### Documentation
+* [Screenshots](http://www.hardcoded.net/moneyguru/screenshots)
+* [Screencasts](http://www.hardcoded.net/moneyguru/screencasts)
+* [Manual](http://hardcoded.net/moneyguru/help/en/)
+* [Forum](http://forum.hardcoded.net/2/)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/moneyguru/</packageSourceUrl>
+    <projectUrl>http://www.hardcoded.net/moneyguru/</projectUrl>
+    <projectSourceUrl>https://github.com/hsoft/moneyguru</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/hsoft/moneyguru/issues</bugTrackerUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/600645a95dc0787d9169448419f4a851f37bc4fe/icons/moneyguru.png</iconUrl>
+    <tags>personal-finance accounting qt admin</tags>
+    <copyright>© 2008 Hardcoded Software</copyright>
+    <licenseUrl>https://raw.githubusercontent.com/hsoft/moneyguru/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Changelog](http://www.hardcoded.net/moneyguru/help/en/changelog.html)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
