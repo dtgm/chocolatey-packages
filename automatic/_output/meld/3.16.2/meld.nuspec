@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>meld</id>
+    <title>Meld</title>
+    <version>3.16.2</version>
+    <authors>Kai Willadsen</authors>
+    <owners>dtgm</owners>
+    <summary>Visual diff and merge file/folder tool</summary>
+    <description>
+Meld is a visual diff and merge tool. You can compare two or three files and edit them in place (diffs update dynamically).
+You can compare two or three folders and launch file comparisons. You can browse and view a working copy from popular version control systems such such as CVS, Subversion, Bazaar-ng and Mercurial.
+
+Written with Python and GTK. While in theory meld could be compiled for Windows and OS X currently there is no download for these platforms so we do not list it as cross platform.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/meld/</packageSourceUrl>
+    <projectUrl>http://meldmerge.org/</projectUrl>
+    <projectSourceUrl>https://git.gnome.org/browse/meld</projectSourceUrl>
+    <bugTrackerUrl>http://bugzilla.gnome.org/enter_bug.cgi?product=meld</bugTrackerUrl>
+    <docsUrl>http://meldmerge.org/help/</docsUrl>
+    <mailingListUrl>http://mail.gnome.org/mailman/listinfo/meld-list</mailingListUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/ffbb085179c0a6ff04499da4902d485d7945fde9/icons/meld.png</iconUrl>
+    <tags>compare diff merge admin</tags>
+    <copyright>© 2011 Kai Willadsen</copyright>
+    <licenseUrl>https://git.gnome.org/browse/meld/tree/COPYING</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Changelog](http://meldmerge.org/news.html)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="chocolatey-uninstall.extension" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
