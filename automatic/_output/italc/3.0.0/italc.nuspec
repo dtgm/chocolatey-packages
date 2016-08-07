@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>italc</id>
+    <title>iTALC</title>
+    <version>3.0.0</version>
+    <authors>Tobias Doerffel</authors>
+    <owners>dtgm</owners>
+    <summary>intelligently Teaching And Learning with Computer</summary>
+    <description>
+iTALC has been designed for usage in school, therefore it offers a lot of possibilities to teachers.
+
+### Features
+* see what's going on in computer-labs by using overview mode and make snapshots
+* remote control computers to support and help other people
+* show a demo (either in fullscreen or in a window) - the teacher's screen is shown on all student's computers in realtime
+* lock workstations for moving undivided attention to teacher
+* send text messages to students
+* powering on/off and rebooting computers per remote
+* remote logon and logoff and remote execution of arbitrary commands/scripts
+* home schooling - iTALC's network-technology is not restricted to a subnet and therefore students at home can join lessons via VPN-connections just by installing iTALC client
+
+Furthermore iTALC is optimized for usage on multi-core systems (by making heavy use of threads). No matter how many cores you have, iTALC can make use of all of them. 
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/italc/</packageSourceUrl>
+    <projectUrl>http://italc.sourceforge.net/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/master/icons/italc.png</iconUrl>
+    <tags>classroom-management remote-control admin</tags>
+    <copyright>© Tobias Doerffel</copyright>
+    <licenseUrl>http://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>		
+</package>
