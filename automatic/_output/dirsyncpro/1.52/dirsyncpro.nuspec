@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>dirsyncpro</id>
+    <title>Directory Synchronize Pro</title>
+    <version>1.52</version>
+    <authors>O. Givi</authors>
+    <owners>dtgm</owners>
+    <summary>File and folder bi-directional synchronization and incremental backup</summary>
+    <description>
+DirSync Pro is a small, but powerful utility for file and folder synchronization. DirSync Pro can be used to synchronize the content of one or many folders recursively. Use DirSync Pro to easily synchronize files from your desktop PC to your USB-stick (/External HD/PDA/Notebook, ...). Use this USB-stick (/External HD/PDA/Notebook, ...) to synchronize files to another desktop PC.
+
+Using DirSync Pro you can make incremental backups. In this way you'll spare lots of time because you don't have to copy all the files each time you want to update your backup; only new/modified/larger files would be copied. DirSync Pro provides some preconfigured modes (e.g. Mirror, Backup, Contribute, …) for common synchronization and backup tasks and some custom modes in which the user could set up the synchronization behaviour to meet specific wishes. Prior to synchronization, DirSync Pro perfoms an analysis on files and folders and detect any kind of changes to any file/directory in the source. If a file is for example modified, removed, deleted, renamed in the source DirSync Pro synchronizes the destination accordingly. DirSync Pro detects also changes to file meta data (e.g. DOS attributes, POSIX file ownerships/group/permissions) and could preserve them to the destination file/directories.
+
+DirSync Pro has a user-friendly User Interface which helps you configure many options to your needs. You can use DirSync Pro also through the command line which makes it very flexible for running in batches.
+
+DirSync Pro lets you define advanced filters based of filename patterns (textual and regular expression based), file sizes, modification dates, file paths and file meta data to include or exclude file/directories as desired.
+
+DirSync Pro has a powerful schedule engine which lets you schedule synchronization tasks on many different ways, minutely, hourly, daily, weekly and monthly. Advanced users may use tons of options available in DirSync Pro to suit the synchronization behaviour in details. DirSync Pro has many logging facilities which let you create detailed logs even per job.
+
+DirSync Pro provides a real-time synchronization option which watches the source directory continuously and synchronizes the changes into the destination directory if a file/directory is changed.
+
+[Detailed features](http://www.dirsyncpro.org/features.html)
+[Screenshots](http://www.dirsyncpro.org/screen-shots.html)
+[FAQ](http://www.dirsyncpro.org/faq.html)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/dirsyncpro/</packageSourceUrl>
+    <projectUrl>http://www.dirsyncpro.org/</projectUrl>
+    <projectSourceUrl>http://sourceforge.net/projects/directorysync/files/DirSync%20Pro%20%28stable%29/1.52/DirSyncPro-1.52-src.zip/download</projectSourceUrl>
+    <bugTrackerUrl>https://sourceforge.net/p/directorysync/bugs/</bugTrackerUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2ce2d40089b0a2bc24fcecd137584328feeb9fd2/icons/dirsyncpro.png</iconUrl>
+    <tags>backup sync directory java</tags>
+    <copyright>© O. Givi</copyright>
+    <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[News](http://www.dirsyncpro.org/news.html)
+[@DirSyncPro](http://twitter.com/DirSyncPro)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
