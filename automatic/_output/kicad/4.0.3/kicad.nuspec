@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>kicad</id>
+    <title>KiCad</title>
+    <version>4.0.3</version>
+    <authors>Jean-Pierre Charras</authors>
+    <owners>dtgm</owners>
+    <summary>Open source software suite for electronic design automation (EDA)</summary>
+    <description>
+KiCad is an EDA software suite for the creation of professional schematics and printed circuit boards up to 32 copper layers with additional technical layers. KiCad runs on Windows, Linux and Apple OS X and is released under the open-source GNU GPL v2 free of charge.
+
+With KiCad you can create schematic diagrams and printed circuit board up to 32 copper layers. KiCad comes with a rich set of libraries with 3D models as well.
+
+KiCad is a mature EDA software tool under active development by a team of developers and a vibrant user group. KiCad team counts three main developers and a dozen of regular contributors.
+
+KiCad includes a project manager and four main independent software tools:
+
+* Eeschema, schematic editor.
+* Pcbnew, printed circuit board editor. 
+* Gerbview, Gerber file viewer.
+* Cvpcb, footprint selector for components association.
+
+#### Documentation
+* [Screenshots]()
+* [FAQ](http://www.kicad-pcb.org/display/KICAD/Frequently+Asked+Questions)
+* [User manual](http://www.kicad-pcb.org/display/KICAD/KiCad+Documentation)
+* [Developer docsumentation](http://www.kicad-pcb.org/display/DEV/KiCad+Development)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/kicad/</packageSourceUrl>
+    <projectUrl>http://www.kicad-pcb.org/</projectUrl>
+    <projectSourceUrl>https://code.launchpad.net/kicad</projectSourceUrl>
+    <bugTrackerUrl>https://bugs.launchpad.net/kicad</bugTrackerUrl>
+    <mailingListUrl>http://groups.yahoo.com/group/kicad-users/</mailingListUrl>
+    <tags>modeling cad engineering electronics electronic-design-automation schematic-capture pcb-layout admin</tags>
+    <copyright>© 1992 Jean-Pierre Charras</copyright>
+    <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/1497996e10331276489417a4bb73e821fd7b5e13/icons/kicad.png</iconUrl>
+    <releaseNotes>
+#### Program
+* [Roadmap](http://bazaar.launchpad.net/~kicad-product-committers/kicad/product/view/head:/TODO.txt)
+* [Changelog](http://bazaar.launchpad.net/~kicad-product-committers/kicad/product/view/head:/CHANGELOG.txt)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+</package>
