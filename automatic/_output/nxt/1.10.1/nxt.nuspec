@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>nxt</id>
+    <title>Nxt Client</title>
+    <version>1.10.1</version>
+    <authors>Nxt Organization</authors>
+    <owners>dtgm</owners>
+    <summary>Open source economic system based on cryptography and blockchain technology</summary>
+    <description>
+Nxt Client is an open source peer-to-peer cryptocurrency and payment network launched in November 2013 by anonymous software developer BCNext. It uses proof-of-stake to reach consensus for transactions - as such there is a static money supply and no mining as with Bitcoin.
+
+#### Getting started
+1. [Install notes](http://nxt.org/get-started/step-1/) - Once the client starts, it will begin downloading and syncing the NXT blockchain via port 7874. It may be necessary to [setup port forwarding](http://portforward.com/english/routers/port_forwarding/) on your router.
+2. [Create an account](http://nxt.org/get-started/step-2/) - The interface is a locally run service that is accessed via web browser at http://127.0.0.1:7876
+3. [Acquire NXT](http://nxt.org/get-started/step-3/)
+4. [NXT webapp user interface](http://nxt.org/get-started/step-4/)
+5. [Send NXT](http://nxt.org/get-started/step-5/)
+6. [Advanced features](http://nxt.org/get-started/step-6/) - NXT has an integrated [Asset Exchange](http://www.nxtinfo.org/guides-reviews/guides/asset-exchange/) and [Marketplace](http://www.nxtinfo.org/guides-reviews/guides/marketplace/) users can use to exchange digital or physical goods.
+
+#### Security
+Unlike Bitcoin or other altcoins, there is no local wallet with Nxt.  More specifically, the coin uses a “brain wallet”, which is to say that wallets are decentralized and kept on the network.  When you create an account in Nxt, your secret passphrase is used to create your account number.  Once your account number is generated, you can unlock it and access it by using your passphrase on any running Nxt node.
+
+For this reason, a __very secure password__ is __extremely important__. To estimate how secure your password is, consider testing some fake passwords similar in character selection and formatting to passwords you generally use at https://howsecureismypassword.net/.
+
+If you have difficulty remembering secure passwords, consider using secure password managers such as webapp [LastPass](https://lastpass.com/) or localhost software like [KeePass](https://chocolatey.org/packages/keepass).
+
+#### Documentation
+* [Demo](http://nxt.org/demo/)
+* [FAQ](http://nxt.org/about/faq/)
+* [About](http://nxt.org/about/)
+* [Wiki](http://wiki.nxtcrypto.org/)
+* [Developer docs](http://nxt.org/developers/)
+
+#### Community
+* [Forum](http://nxtforum.org/)
+* [IRC](http://nxt.org/irc-channel/)
+* [BitcoinTalk](https://bitcointalk.org/index.php?topic=587007.0)
+* [Subreddit](http://www.reddit.com/r/Nxt)
+* [Facebook](https://www.facebook.com/nxtcrypto)
+* [Google+](https://plus.google.com/+NxtcommunityOrg)
+* [Twitter](https://twitter.com/NxtCommunity)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/nxt/</packageSourceUrl>
+    <projectUrl>http://nxt.org/</projectUrl>
+    <projectSourceUrl>https://bitbucket.org/JeanLucPicard/nxt/src</projectSourceUrl>
+    <bugTrackerUrl>https://bitbucket.org/JeanLucPicard/nxt/issues</bugTrackerUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/ec964ef16307dd212f9a58c5ca64795488fba3f0/icons/nxt.png</iconUrl>
+    <tags>p2p cryptocurrency proof-of-stake</tags>
+    <copyright>© 2013 The Nxt Core Developers</copyright>
+    <licenseUrl>https://bitbucket.org/JeanLucPicard/nxt/raw/master/LICENSE.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Roadmap](http://wiki.nxtcrypto.org/wiki/Planned_Features)
+* [Changelog](https://bitbucket.org/JeanLucPicard/nxt/raw/master/changelogs/nxt-client-1.10.1.changelog.txt)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="javaruntime" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
