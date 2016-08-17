@@ -1,5 +1,5 @@
 ﻿$packageName = 'adwcleaner'
-$checksum = '{checksum}'
+$checksum = '9135e1ffa62acc4e726adf3502084161a899496413b48cc1e331ee4f58c017a4'
 $checksumType = 'sha256'
 
 $toolsDir = Split-Path -Parent $MyInvocation.MyCommand.Definition

@@ -2,7 +2,7 @@
 $fileType = 'msi'
 $silentArgs = '/quiet /qn /norestart'
 $url = 'https://www.goodsync.com/download/GoodSync-Setup.msi'
-$checksum = '{checksum}'
+$checksum = 'e6986153e4e47c6024f3c058334932c0509046fd8bc7422e668dce829fe0e629'
 $checksumType = 'sha256'
 $validExitCodes = @(0)
 
