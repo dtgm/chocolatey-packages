@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>mariadb</id>
+    <title>MariaDB</title>
+    <version>10.1.18</version>
+    <authors>MariaDB Foundation</authors>
+    <owners>dtgm</owners>
+    <summary>Enhanced drop-in replacement for MySQL</summary>
+    <description>
+MariaDB is designed as a drop-in replacement of [MySQL](https://chocolatey.org/packages/mysql) with more features, new storage engines, fewer bugs, and better performance. MariaDB server is a community developed fork of MySQL server started by core members of the original MySQL team.
+
+MariaDB strives to be the logical choice for database professionals looking for a robust, scalable, and reliable SQL server. To accomplish this, the MariaDB Foundation work closely and cooperatively with the larger community of users and developers in the true spirit of Free and open source software, and release software in a manner that balances predictability with reliability.
+
+#### MariaDB comparison to MySQL
+* [Features](https://mariadb.com/kb/en/mariadb/mariadb-vs-mysql-features/)
+* [Compatibility](https://mariadb.com/kb/en/mariadb/mariadb-vs-mysql-compatibility/)
+
+#### Community
+* [Facebook](https://www.facebook.com/MariaDB.dbms)
+* [Google+](https://plus.google.com/+mariadb)
+* [Twitter](https://twitter.com/mariadb)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/mariadb/</packageSourceUrl>
+    <projectUrl>https://mariadb.org</projectUrl>
+    <projectSourceUrl>https://github.com/MariaDB/server</projectSourceUrl>
+    <bugTrackerUrl>https://mariadb.atlassian.net/issues/</bugTrackerUrl>
+    <docsUrl>https://mariadb.com/kb/</docsUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/f907e941ece1929ef62226b4a484a6269ecb275e/icons/mariadb.svg</iconUrl>
+    <tags>rdbms sql database mysql admin</tags>
+    <copyright>© 2009 MariaDB Foundation</copyright>
+    <licenseUrl>http://www.gnu.org/licenses/old-licenses/gpl-2.0.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Release notes](https://mariadb.com/kb/en/mariadb/release-notes/)
+* [Changelog](https://mariadb.com/kb/en/mariadb/changelogs/)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
