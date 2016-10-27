@@ -3,7 +3,7 @@
 # disable all text files from being normalized; end of line conversion will be retained
 #* -text
 # enable all text files to LF \n U+00A0
-#* text eol=lf  # thought png files were text, so corrupted them
+#* text eol=lf  # assumed png files were text, so corrupted them
 
 # Enable end of line conversion for specific files
 *.nuspec text eol=lf
