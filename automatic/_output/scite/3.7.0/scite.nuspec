@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>scite</id>
+    <title>SciTE</title>
+    <version>3.7.0</version>
+    <authors>Neil Hodgson</authors>
+    <owners>dtgm</owners>
+    <summary>Lightweight, fast text editor using SCIntilla library</summary>
+    <description>
+SciTE is a cross-platform, advanced text editor using the free, open source library SCIntilla (developed by the same author).
+
+Lightweight and built for speed, it is designed mainly for source editing, and performs syntax highlighting and inline function reference for many different languages.
+
+Other text editors based on [SCIntilla](https://chocolatey.org/packages?q=tag:SCIntilla) are [Geany](https://chocolatey.org/packages/geany) (cross-platform), [Notepad++](https://chocolatey.org/packages/notepadplusplus) (Windows), and [Notepad2](https://chocolatey.org/packages/notepad2) (Windows).
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/scite/</packageSourceUrl>
+    <projectUrl>http://www.scintilla.org/SciTEDownload.html</projectUrl>
+    <projectSourceUrl>https://sourceforge.net/p/scintilla/code</projectSourceUrl>
+    <bugTrackerUrl>https://sourceforge.net/p/scintilla/_list/tickets</bugTrackerUrl>
+    <docsUrl>http://www.scintilla.org/SciTEDoc.html</docsUrl>
+    <mailingListUrl>http://groups.google.com/group/scite-interest</mailingListUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/652c92d8e7acbe702d1b0df02bab636e0e17b634/icons/scite.png</iconUrl>
+    <tags>text editor scintilla admin</tags>
+    <copyright>© 1998 Neil Hodgson</copyright>
+    <licenseUrl>http://www.scintilla.org/License.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Changelog](http://www.scintilla.org/ScintillaHistory.html)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="dotnet3.5" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
