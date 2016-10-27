@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>adobeshockwaveplayer</id>
+    <title>Adobe Shockwave Player</title>
+    <version>12.2.5.195</version>
+    <authors>Adobe</authors>
+    <owners>dtgm</owners>
+    <summary>Displays Web content that has been created by Adobe Director</summary>
+    <description>
+Adobe Shockwave (formerly Macromedia Shockwave) is a multimedia platform used to add animation and interactivity to web pages. It allows Adobe Director applications to be published on the Internet and viewed in a web browser on any computer which has the Shockwave plug-in installed. It was first developed by Macromedia, and released in 1995 and was later acquired by Adobe Systems in 2005.
+
+Unlike the Adobe Flash Player, the Adobe Shockwave Player is not commonly bundled with web browsers; if needed it must be downloaded.
+
+Shockwave movies are authored in the Adobe Director environment. While there is support for including Flash movies inside Shockwave files, authors often choose the Shockwave Director combination over Flash because it offers more features and more powerful tools. Features not replicated by Flash include a much faster rendering engine, and support for various network protocols, including Internet Relay Chat. Also, Shockwave's functionality can be extended with "Xtras".
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/adobeshockwaveplayer/</packageSourceUrl>
+    <projectUrl>http://get.adobe.com/shockwave/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/732a79a2b9e31faef3b3206fddc25e192d6b516b/icons/adobeshockwaveplayer.png</iconUrl>
+    <tags>shockwave adobe-director admin</tags>
+    <copyright>Adobe</copyright>
+    <licenseUrl>http://www.adobe.com/products/players/shockwave-player-licensing-distribution.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* http://helpx.adobe.com/content/help/en/shockwave/release-note/release-notes-shockwave-12.html
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="autohotkey.portable" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

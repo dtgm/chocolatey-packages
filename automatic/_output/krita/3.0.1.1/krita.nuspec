@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>krita</id>
+    <title>Krita</title>
+    <version>3.0.1.1</version>
+    <authors>Krita Foundation</authors>
+    <owners>dtgm</owners>
+    <summary>Digital painting and illustration software</summary>
+    <description>
+Krita's design emphasizes creating artwork from beginning to end as opposed to manipulating existing images. Therefore it has been influenced to an extent by software such as Corel Painter, but Krita supports a very different feature set than the most comparable applications. For example Krita developers included the ability to work with both bitmap and vector illustration on one hand, but deliberately choose to avoid high end photography plugins in favor of features more specific to painting and drawing.
+
+#### Documentation
+* [Features](https://krita.org/features/highlights/)
+* [Screenshots](https://krita.org/features/gallery/)
+* [FAQ](https://krita.org/about/faq/)
+
+#### Community
+* [Forum](https://forum.kde.org/viewforum.php?f=136)
+* [IRC](https://krita.org/irc/)
+* [Facebook](https://www.facebook.com/pages/Krita-Foundation/511943358879536)
+* [Google+](https://plus.google.com/u/0/106052286697115751434/posts)
+* [Twitter](https://twitter.com/Krita_Painting)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/krita/</packageSourceUrl>
+    <projectUrl>https://krita.org/</projectUrl>
+    <projectSourceUrl>https://projects.kde.org/projects/calligra/repository</projectSourceUrl>
+    <bugTrackerUrl>https://krita.org/get-involved/report-a-bug/</bugTrackerUrl>
+    <docsUrl>https://krita.org/learn/documentation/</docsUrl>
+    <mailingListUrl>https://krita.org/mailing-lists/</mailingListUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/797194300203b236de98629f5ddd4cf63c6ae58d/icons/krita.png</iconUrl>
+    <tags>paint painting media illustration kde admin</tags>
+    <copyright>© 1999 Krita Foundation</copyright>
+    <licenseUrl>https://gnu.org/licenses/gpl.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [RSS feed](https://krita.org/feed/)
+* [Changelog](https://projects.kde.org/projects/calligra/repository/revisions/master/changes/krita/ChangeLog)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="chocolatey-uninstall.extension" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

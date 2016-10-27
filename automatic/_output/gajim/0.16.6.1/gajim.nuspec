@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>gajim</id>
+    <title>Gajim</title>
+    <version>0.16.6.1</version>
+    <authors>Denis Fomin,Yann Leboulanger</authors>
+    <owners>dtgm</owners>
+    <summary>Full featured and easy to use Jabber/XMPP client</summary>
+    <description>
+The goal of Gajim is to provide a full featured and easy to use Jabber/XMPP client. Gajim works nicely with GNOME, but does not require it to run. It is released under the GNU General Public License.  Gajim uses a fork of the xmpppy library to do the interface with Jabber network.
+
+#### Features
+* Tabbed chat window and single window modes
+* Group chat support (with Multi-User Chat protocol), invitation, chat to group chat transformation, minimize group chat to roster
+* Emoticons, avatars, PEP (user activity, mood and tune)
+* Audio / video conferences
+* File transfer, room bookmarks
+* Metacontacts support
+* Trayicon, speller, extended chat history functionalities
+* TLS, GPG and End-To-End encryption support (with SSL legacy support)
+* Transport registration support
+* Service discovery including nodes, user search
+* Wikipedia, dictionary and search engine lookup
+* Multiple accounts support
+* DBus capabilities. Read more information
+* XML console
+* Link local (bonjour / zeroconf), BOSH
+* Other features via plugins
+* Gajim is available in 29 languages: Basque, Belarusian, Brasilian, British, Bulgarian, Chinese (simplified), Croatian, Czech, Danish, English, Esperanto, French, Galician, German, Hebrew, Hungarian, Italian, Japanese, Kazakh, Lithuanian, Norwegian (Bokmål), Polish, Russian, Serbian, Spanish, Slovak, Swedish, Turkish and Ukrainian
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/gajim/</packageSourceUrl>
+    <projectUrl>http://gajim.org/</projectUrl>
+    <projectSourceUrl>https://trac.gajim.org/browser/</projectSourceUrl>
+    <bugTrackerUrl>https://trac.gajim.org/report</bugTrackerUrl>
+    <docsUrl>http://gajim.org/docs.php</docsUrl>
+    <mailingListUrl>https://lists.gajim.org/</mailingListUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/6d62152d981c1afc00a360815217e81aaf19c74b/icons/gajim.png</iconUrl>
+    <tags>instant-messaging jabber xmpp encrypted admin</tags>
+    <copyright>© The Gajim Team</copyright>
+    <licenseUrl>https://trac.gajim.org/browser/COPYING</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Roadmap](https://trac.gajim.org/roadmap)
+* [Changelog](http://hg.gajim.org/gajim/file/tip/ChangeLog)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>ares</id>
+    <title>Ares Galaxy</title>
+    <version>2.4.3</version>
+    <authors>lap3k</authors>
+    <owners>dtgm</owners>
+    <summary>Open source file sharing program that enables users to share any digital file</summary>
+    <description>
+Ares Galaxy is a free, open source BitTorrent and chat program that uses its own decentralized supernode/leaf network. Ares Galaxy has a simple, quick access interface with a built in audio/video viewer. Ares allows you to share any digital file including images, audio, video, software, documents, etc. You may now easily publish your files through the Ares’ peer-to-peer (P2P) network. As a member of the virtual community, you can search and download just about any file shared by other users. The latest versions also support the BitTorrent protocol and Shoutcast radio stations.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/ares/</packageSourceUrl>
+    <projectUrl>http://aresgalaxy.sourceforge.net/</projectUrl>
+    <tags>file-sharing p2p peer-to-peer admin</tags>
+    <copyright></copyright>
+    <licenseUrl>http://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/d1e037cc7c943fda29b9067b3b1c3229d99402ff/icons/ares.png</iconUrl>
+  </metadata>
+</package>

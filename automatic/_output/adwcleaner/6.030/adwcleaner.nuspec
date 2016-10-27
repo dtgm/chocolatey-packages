@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>adwcleaner</id>
+    <title>AdwCleaner</title>
+    <version>6.030</version>
+    <authors>Xplode</authors>
+    <owners>dtgm</owners>
+    <summary>Anti-Adware/Toolbar/PUP/Hijacker search and delete tool</summary>
+    <description>
+AdwCleaner is a free removal tool for:
+
+* Adware (ads softwares)
+* PUP/LPI (Potentially Undesirable Program)
+* Toolbars
+* Hijacker (Hijack of the browser's homepage)
+	</description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/adwcleaner/</packageSourceUrl>
+    <projectUrl>https://toolslib.net/downloads/viewdownload/1-adwcleaner/</projectUrl>
+    <docsUrl>http://general-changelog-team.fr/en/tutorials</docsUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/dd7121af88611d4f92e29187d065ba9a0fcaedeb/icons/adwcleaner.png</iconUrl>
+    <tags>unattended malware-scanner malware-remover toolbar-remover</tags>
+    <copyright>© 2011 Xplode</copyright>
+    <licenseUrl>https://en.wikipedia.org/wiki/Freeware</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Changelog](https://toolslib.net/downloads/viewdownload/1-adwcleaner/#changelog) ([alt](http://general-changelog-team.fr/~xplode/Changelogs/CG_AdwCleaner.txt))
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="autohotkey.portable" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

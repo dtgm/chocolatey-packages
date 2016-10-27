@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>izpack</id>
+    <title>IzPack</title>
+    <version>5.0.10</version>
+    <authors>Julien Ponge</authors>
+    <owners>dtgm</owners>
+    <summary>Cross-platform tool for packaging applications on the Java platform</summary>
+    <description>
+IzPack is a widely used tool for packaging applications on the Java platform as cross-platform installers. 
+
+Easily make installers that work seamlessly on Microsoft Windows™, Linux™, Solaris™ and Mac OS X™. 
+
+* [FAQ](http://docs.codehaus.org/display/IZPACK/FAQ+-+Frequently+asked+questions)
+* [User](http://docs.codehaus.org/display/IZPACK/User+documentation)
+* [Developer](http://izpack.org/developers/)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/izpack/</packageSourceUrl>
+    <projectUrl>http://izpack.org/</projectUrl>
+    <projectSourceUrl>https://github.com/izpack/izpack</projectSourceUrl>
+    <bugTrackerUrl>http://jira.codehaus.org/browse/IZPACK#selectedTab=com.atlassian.jira.plugin.system.project%3Aissues-panel</bugTrackerUrl>
+    <docsUrl>http://docs.codehaus.org/display/IZPACK/</docsUrl>
+    <tags>java installer build developer programming admin</tags>
+    <copyright>© 2001 Julien Ponge, 2004 Codehaus</copyright>
+    <licenseUrl>https://github.com/izpack/izpack/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/c94fc718f6caad25aa10a071cd1640545e3af0b1/icons/izpack.png</iconUrl>
+    <releaseNotes>
+#### Program
+* [News](http://news.izpack.org/)
+* [Changelog](http://jira.codehaus.org/browse/IZPACK#selectedTab=com.atlassian.jira.plugin.system.project%3Achangelog-panel)
+* [Roadmap](http://jira.codehaus.org/browse/IZPACK#selectedTab=com.atlassian.jira.plugin.system.project%3Aroadmap-panel)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="javaruntime" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
