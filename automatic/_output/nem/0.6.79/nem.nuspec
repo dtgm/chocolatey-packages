@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>nem</id>
+    <title>Nem Wallet</title>
+    <version>0.6.79</version>
+    <authors>NEM Project</authors>
+    <owners>dtgm</owners>
+    <summary>Open source desktop client for NEM, an economic system based on cryptography and blockchain technology</summary>
+    <description>
+New Economy Movement (NEM) Wallet, is an open source peer-to-peer cryptocurrency and payment network launched in 2015. It uses proof-of-importance to reach consensus for transactions - as such there is a static money supply and no mining as with Bitcoin. NEM is a fork of [NXT](https://chocolatey.org/packages/nxt) due to the discontent of the limited initial distribution of 1 billion NXT to 75 users and the desire to develop a more fair consensus algorithm.
+
+NEM Wallet is composed of two parts, the NEM Community Client (NCC) and NEM Infrastructure Server (NIS). NCC provides a web interface for managing wallets and interacting with NIS, the lightweight  background server, managing the p2p synchronizing of the NEM blockchain.
+
+#### Initial distribution
+NEM published its intent and design goals publicly and allowed anyone to sign-up to receive a free stake in Jan 2014. A total of [1,500 users](http://nem.io/faq.html#nem-distribution) reserved stakes. Nem stakes were paid out to users as __XEM__, NEM's currency code similar to BTC/LTC/USD/EUR/CNY/JPY.
+
+#### Proof-of-Importance (POI)
+POI is the consensus algorithm at the core of the NEM software. The higher your importance, the higher your chance to be allowed to calculate a block (and _harvest_ the fees inside that block). POI adjusts your importance depending on how many transactions you make, with whom you make them and a number of other factors. If you don't do any transactions POI will set your importance based on your balance only (it is then similar to proof-of-stake). This discourages stake-holders from not being active on the network and sitting on their stake.
+
+#### Harvesting
+Harvesting is a process whereby a node will calculate blocks and add them to the blockchain. A block is calculated about every minute and contains all transactions sent within that minute. Every transaction requires a minimum 1 XEM to process, increasing based on the amount of data within the transaction. For example, including a message like a receipt within a transaction will increase the fee to process the transaction as it costs more to store the data on the public blockchain. The proof-of-importance algorithm helps to decide which node is allowed to calculate a block and is rewarded with the fees of all transactions in that block.
+
+You may harvest by installing this package, logging into your wallet, and click "Start local harvesting". Note you must have a minimum vested balance (currently 10,000 XEM).
+
+#### Security
+Unlike Bitcoin or other altcoins, there is no local wallet with NEM. More specifically, the NEM uses a “brain wallet”, which is to say that wallets are decentralized and kept on the network. When you create an account in NEM, your secret passphrase is used to create your account number. Once your account number is generated, you can unlock it and access it by using your passphrase on any running NEM node.
+
+For this reason, a __very secure password__ is __extremely important__. To estimate how secure your password is, consider testing some fake passwords similar in character selection and formatting to passwords you generally use at https://howsecureismypassword.net/.
+
+If you have difficulty remembering secure passwords, consider using secure password managers such as webapp [LastPass](https://lastpass.com/) or localhost software like [KeePass](https://chocolatey.org/packages/keepass).
+
+#### Getting started
+1. Start `$env:ProgramFiles\nemwallet\wallet.exe` - Once the client starts, it will begin downloading and syncing the NEM blockchain via port 7890. It may be necessary to setup [port forwarding](http://portforward.com/english/routers/port_forwarding/) on your router.
+2. Connect to http://127.0.0.1:8989 - The interface is a locally run service that is accessed via web browser
+3. [Acquire XEM](http://nem.io/buy.html)
+4. [Tutorials](http://blog.nem.io/nem-tutorial-list/)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/nem/</packageSourceUrl>
+    <projectUrl>http://nem.io/</projectUrl>
+    <bugTrackerUrl>https://github.com/NewEconomyMovement/NemCommunityClient/issues</bugTrackerUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/d088e836e4aadf4b609e65dce9aa0c37c3f18674/icons/nem.png</iconUrl>
+    <tags>xem p2p cryptocurrency blockchain proof-of-importance poi admin</tags>
+    <copyright>© 2014 NEM Project</copyright>
+    <licenseUrl>https://github.com/NewEconomyMovement/NemCommunityClient/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [News](http://blog.nem.io/)
+* [Release log](https://github.com/NewEconomyMovement/NemCommunityClient/releases)
+* [Roadmap](https://github.com/NewEconomyMovement/NemCommunityClient/milestones)
+* [NCC source code](https://github.com/NewEconomyMovement/NemCommunityClient)
+* [NIS source code](https://github.com/NewEconomyMovement/NemInfrastructureServer)
+
+#### Documentation
+* [Install guide](http://blog.nem.io/windows-mac-installation-guide/)
+* [FAQ](http://nem.io/faq.html)
+* [Minimum requirements](http://nem.io/faq.html#nis-or-ncc)
+* [Tutorials](http://blog.nem.io/nem-tutorial-list/)
+* [NCC Specification](https://github.com/NewEconomyMovement/NemCommunityClient/wiki/NCC-Specification)
+* [NIS API](http://bob.nem.ninja/docs/)
+
+#### Community
+* [Forum](https://forum.ournem.com/)
+* [IRC](http://webchat.freenode.net/?channels=ournem)
+* [BitcoinTalk](https://bitcointalk.org/index.php?topic=426303.0)
+* [Subreddit](http://www.reddit.com/r/Nem)
+* [Facebook](https://www.facebook.com/ourNEM)
+* [Twitter](https://twitter.com/NEMofficial)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="javaruntime" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
