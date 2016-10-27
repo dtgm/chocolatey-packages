@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>movieexplorer</id>
+    <title>Movie Explorer</title>
+    <version>0.84.03</version>
+    <authors>Ryan Jay</authors>
+    <owners>dtgm</owners>
+    <summary>View information about the movies stored on your computer</summary>
+    <description>
+View information about the movies stored on your computer.
+
+#### Features
+* Creation of categories possible to group similar movies.
+* Automatically detects movie files added to the specified directories and adds them to the correct category.
+* Automatically collects movie details and posters from the Internet (currently IMDb.com and MovieMeter.nl supported)
+* Movie information is collected in the background using multiple threads
+* DPI-aware and zooming available in both main window and dialogs.
+* Search for title, year, director, genre, etc.
+* Highly portable, saves your settings and database to XML
+* Multi-language user interface.
+
+[Screenshots](https://github.com/anlarke/MovieExplorer#screenshots)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/movieexplorer/</packageSourceUrl>
+    <projectUrl>https://github.com/anlarke/MovieExplorer</projectUrl>
+    <projectSourceUrl>https://github.com/anlarke/MovieExplorer</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/anlarke/MovieExplorer/issues</bugTrackerUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/edf547600ce5c862d6db3494a571790fc5671c4f/icons/movieexplorer.png</iconUrl>
+    <tags>movie organizer imdb scraper</tags>
+    <copyright>© 2012 Ryan Jay</copyright>
+    <licenseUrl>https://github.com/atom/electron/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Changelog](https://github.com/anlarke/MovieExplorer/releases/tag/v0.84c)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
