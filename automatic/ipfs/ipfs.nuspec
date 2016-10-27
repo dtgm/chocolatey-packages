@@ -16,7 +16,7 @@ IPFS is a global, versioned, peer-to-peer filesystem. It combines good ideas fro
     <bugTrackerUrl>https://github.com/ipfs/go-ipfs/issues</bugTrackerUrl>
     <docsUrl>https://ipfs.io/docs/</docsUrl>
     <mailingListUrl>https://ipfs.io/docs/#community</mailingListUrl>
-    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/cbec50baa145127e157a0d5c58ad8cdab1d95298/icons/{{PackageName}}.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/ipfs/logo/c69e0017e73d8cd75c4c704a2fb748792b401fcf/platform-icons/ipfs.ico</iconUrl>
     <tags>p2p distributed protocol gateway cli webui</tags>
     <copyright>© Protocol Labs</copyright>
     <licenseUrl>https://github.com/ipfs/go-ipfs/blob/master/LICENSE</licenseUrl>
