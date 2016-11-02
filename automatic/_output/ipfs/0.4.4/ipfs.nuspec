@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>ipfs</id>
+    <title>InterPlanetary File System</title>
+    <version>0.4.4</version>
+    <authors>Protocol Labs</authors>
+    <owners>dtgm</owners>
+    <summary>A peer-to-peer hypermedia protocol to make the web faster, safer, and more open</summary>
+    <description>
+IPFS is a global, versioned, peer-to-peer filesystem. It combines good ideas from Git, BitTorrent, Kademlia, SFS, and the Web. It is like a single bittorrent swarm, exchanging git objects. IPFS provides an interface as simple as the HTTP web, but with permanence built in. IPFS aims to replace HTTP and build a better web for all of us.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/ipfs/</packageSourceUrl>
+    <projectUrl>https://ipfs.io/</projectUrl>
+    <projectSourceUrl>https://github.com/ipfs/go-ipfs</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/ipfs/go-ipfs/issues</bugTrackerUrl>
+    <docsUrl>https://ipfs.io/docs/</docsUrl>
+    <mailingListUrl>https://ipfs.io/docs/#community</mailingListUrl>
+    <iconUrl>https://cdn.rawgit.com/ipfs/logo/c69e0017e73d8cd75c4c704a2fb748792b401fcf/platform-icons/ipfs.ico</iconUrl>
+    <tags>p2p distributed protocol gateway cli webui</tags>
+    <copyright>© Protocol Labs</copyright>
+    <licenseUrl>https://github.com/ipfs/go-ipfs/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Changelog](https://github.com/ipfs/go-ipfs/blob/master/CHANGELOG.md)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

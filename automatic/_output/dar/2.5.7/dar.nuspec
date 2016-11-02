@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>dar</id>
+    <title>Disk ARchive</title>
+    <version>2.5.7</version>
+    <authors>Denis Corbin</authors>
+    <owners>dtgm</owners>
+    <summary>Incremental, compressed and encrypted backups or archives</summary>
+    <description>
+dar is a shell command, that makes backup of a directory tree and files. It has been tested under Linux, Windows (95, 2000, NT, XP, 7), OpenSolaris, FreeBSD and NetBSD, and has been reported as working under Mac OS X 10.3 (where it takes care of file forks but not of the ACL).
+
+External GUI are possible and exist thanks to the libdar library and its API, which is contained in within this source package.
+
+dar is a set of six commands over libdar library:
+
+* `dar`
+* `dar_xform`
+* `dar_slave`
+* `dar_manager`
+* `dar_static` (statically linked version of dar, not all system support static linking)
+* `dar_cp`
+
+This library is part of dar and licensed under the GNU General Public License (GPL in the following), like all the source code of the Dar suite programs. This imply that you can link libdar to your programs at the condition that your programs are also covered by the GPL, which says in particular that you must provide source code of your programs.
+
+[Features](http://dar.linux.free.fr/doc/Features.html)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/dar/</packageSourceUrl>
+    <projectUrl>http://dar.linux.free.fr/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/c3873a9a9f8e030876c7f8f4c725e2d7c249d74d/icons/dar.jpg</iconUrl>
+    <projectSourceUrl>https://sourceforge.net/p/dar/code/ci/master/tree/</projectSourceUrl>
+    <bugTrackerUrl>https://sourceforge.net/p/dar/bugs/</bugTrackerUrl>
+    <docsUrl>http://dar.linux.free.fr/doc/index.html</docsUrl>
+    <mailingListUrl>https://sourceforge.net/p/dar/mailman/</mailingListUrl>
+    <tags>backup archive cli</tags>
+    <copyright>© 2002 Denis Corbin</copyright>
+    <licenseUrl>https://sourceforge.net/p/dar/code/ci/master/tree/COPYING</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [News](https://sourceforge.net/p/dar/code/ci/master/tree/NEWS)
+* [Changelog](https://sourceforge.net/p/dar/code/ci/master/tree/src/build/ChangeLog)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
+  <metadata>
+    <id>love</id>
+    <title>LÖVE</title>
+    <version>0.10.2</version>
+    <authors>Alex Szpakowski</authors>
+    <owners>dtgm</owners>
+    <summary>An *awesome* framework you can use to make 2D games in Lua</summary>
+    <description>
+LÖVE is an *awesome* framework you can use to make 2D games in Lua. It's free, open-source, and works on Windows, Mac OS X and Linux.
+
+#### Documentation
+* [Wiki](http://love2d.org/wiki)
+
+#### Community
+* [Forum](http://love2d.org/forums)
+* [Google+](https://plus.google.com/+love2d)
+* [Twitter](https://twitter.com/obey_love)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/love/</packageSourceUrl>
+    <projectUrl>http://love2d.org/</projectUrl>
+    <projectSourceUrl>https://bitbucket.org/rude/love</projectSourceUrl>
+    <bugTrackerUrl>https://bitbucket.org/rude/love/issues</bugTrackerUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/ff6e23caa772ae5a6a2ec4ff4286fd73c8175863/icons/love.png</iconUrl>
+    <tags>framework lua 2d game-development</tags>
+    <copyright>© 2008 Alex Szpakowski</copyright>
+    <licenseUrl>https://bitbucket.org/rude/love/src/6c821ca87ce7c06f4e0021ee0022456db82824e8/license.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Release log](http://www.love2d.org/wiki/Version_History)
+* [Changelog](https://bitbucket.org/rude/love/src/6c821ca87ce7c06f4e0021ee0022456db82824e8/changes.txt)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="love.install" version="[0.10.2]" />
+    </dependencies>
+  </metadata>
+</package>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
+  <metadata>
+    <id>kcleaner</id>
+    <title>KCleaner</title>
+    <version>3.2.0.82</version>
+    <authors>KC Softwares</authors>
+    <owners>dtgm</owners>
+    <summary>Designed to be the most efficient Hard Disk cleaner</summary>
+    <description>
+KCleaner is designed to be the most efficient Hard Disk cleaner, tracking every useless byte in order to give you all the resources you may need for your documents, music, pictures, movies,...
+
+It is the first product of this kind featuring a full automatic mode, which works in background so that you don't have to care about when to launch it.
+
+As a proof of its efficiency, it often finds up to many Gb not even seen by its competitors so... give KCleaner a try! And if data security is something you are interested in, you'll love the secured file deletion methods proposed by KCleaner, making deleted files unrecoverable by any known mean.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/kcleaner/</packageSourceUrl>
+    <projectUrl>http://www.kcsoftwares.com/?kcleaner</projectUrl>
+    <bugTrackerUrl>http://www.kcsoftwares.com/bugs/view_all_bug_page.php</bugTrackerUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/dd7121af88611d4f92e29187d065ba9a0fcaedeb/icons/kcleaner.png</iconUrl>
+    <tags>ccleaner system cleanup registry admin</tags>
+    <copyright>© KC Softwares</copyright>
+    <licenseUrl>http://www.kcsoftwares.com/legal/ToU.pdf</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Changelog](http://www.kcsoftwares.com/bugs/changelog_page.php?project_id=12)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
