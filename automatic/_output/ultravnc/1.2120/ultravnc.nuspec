@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>ultravnc</id>
+    <title>UltraVNC</title>
+    <version>1.2120</version>
+    <authors>Rudi De Vos,Sam Liarfo</authors>
+    <owners>dtgm</owners>
+    <summary>VNC client and server graphical desktop sharing via RFB protocol</summary>
+    <description>
+UltraVNC is an open source application that uses the VNC protocol to control another computer remotely over a network connection.  UltraVNC allows the use of a remote computer as if the user were in front of it. This is achieved by sending mouse movements and key-presses to the remote computer, and replicating the remote computer's display (subject to differences in resolution) locally in real time. UltraVNC bears a strong resemblance to RealVNC Free Edition. However, in addition to remote control it adds various features, such as an encryption plugin to secure the client/server connection. It also supports file transfers, chat functionality and various authentication methods. The two computers must be able to communicate across a network, such as a local subnet, internal network, or the Internet.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/ultravnc/</packageSourceUrl>
+    <projectUrl>http://www.uvnc.com/</projectUrl>
+    <projectSourceUrl>https://sourceforge.net/p/ultravnc/code/</projectSourceUrl>
+    <docsUrl>http://www.uvnc.com/docs.html</docsUrl>
+    <mailingListUrl>http://forum.ultravnc.info/</mailingListUrl>
+    <tags>vnc client server remote admin</tags>
+    <copyright>© 2008 UltraVNC</copyright>
+    <licenseUrl>http://www.uvnc.com/general/license.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/02701c6b1761e3c0bd29f9c9ae268c65b6bf3bc1/icons/ultravnc.png</iconUrl>
+    <releaseNotes>
+#### Program
+* [Features](http://www.uvnc.com/products/uvnc-server/18-uvnc-features.html)
+* [Changelog](http://www.uvnc.com/general/whatsnew.html)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
