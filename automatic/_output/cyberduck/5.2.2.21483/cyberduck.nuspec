@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>cyberduck</id>
+    <title>Cyberduck</title>
+    <version>5.2.2.21483</version>
+    <authors>David V. Kocher, Yves Langisch</authors>
+    <owners>dtgm</owners>
+    <summary>Libre FTP, SFTP, WebDAV, S3 and OpenStack Swift browser for Mac and Windows</summary>
+    <description>
+Connect to every server with an easy to use interface.
+
+* FTP (File Transfer Protocol)
+* SFTP (SSH Secure File Transfer)
+* WebDAV (Web-based Distributed Authoring and Versioning)
+* Amazon S3
+* Google Cloud Storage
+* Rackspace Cloud Files
+
+#### Features
+* Edit any file with your preferred editor
+* Distribute your content in the cloud
+* Organize your bookmarks with drag and drop and quickly search using the filter field
+* Browse and move your files quickly in the browser with caching enabled for the best performance. Works with any character encoding for the correct display of Umlaute, Japanese and Chinese.
+* Limit the number of concurrent transfers and filter files using a regular expression. Resume both interrupted download and uploads. Recursively transfer directories.
+* The best client to connect to many new OpenStack Swift deployments.
+* Advanced SSH features
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/cyberduck/</packageSourceUrl>
+    <projectUrl>http://cyberduck.io/</projectUrl>
+    <projectSourceUrl>https://trac.cyberduck.io/</projectSourceUrl>
+    <bugTrackerUrl>https://trac.cyberduck.io/query</bugTrackerUrl>
+    <docsUrl>https://trac.cyberduck.io/wiki/help/</docsUrl>
+    <mailingListUrl>https://trac.cyberduck.io/wiki/WikiStart#MailingLists</mailingListUrl>
+    <tags>cloud storage file-browser</tags>
+    <copyright>© 2002 David V. Kocher, 2011 Yves Langisch</copyright>
+    <licenseUrl>http://creativecommons.org/licenses/GPL/2.0/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.cyberduck.io/img/cyberduck-icon-384.png</iconUrl>
+    <releaseNotes>
+#### Program
+* [Roadmap](https://trac.cyberduck.io/roadmap)
+* [Changelog](http://cyberduck.io/changelog/)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="cyberduck.install" version="[5.2.2.21483]" />
+    </dependencies>
+  </metadata>
+</package>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>claws-mail</id>
+    <title>Claws Mail</title>
+    <version>3.14.1.1</version>
+    <authors>Claws Mail Team</authors>
+    <owners>dtgm</owners>
+    <summary>The user-friendly, lightweight, and fast email client</summary>
+    <description>
+Claws Mail is a GTK+ based, lightweight, and fast e-mail client and newsreader. Supports POP3, APOP, IMAP, SMTP, SMTP AUTH, NNTP, LDAP, multiple accounts, spell-checking, addressbook, SSL, GPG, filtering, i18n, &amp; more. It is further extended by plugins.
+
+#### Documentation
+* [Features](http://www.claws-mail.org/features.php)
+* [Screenshots](http://www.claws-mail.org/screenshots.php?section=general)
+* [FAQ](http://www.claws-mail.org/faq/index.php/Main_Page)
+
+#### Community
+* irc.freenode.net, channel #claws
+
+#### Customization
+* [Themes](http://www.claws-mail.org/themes.php)
+* [Plugins](http://www.claws-mail.org/plugins.php)
+* [Tools](http://www.claws-mail.org/tools.php)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/claws-mail/</packageSourceUrl>
+    <projectUrl>http://www.claws-mail.org/win32/</projectUrl>
+    <projectSourceUrl>http://git.claws-mail.org/?p=claws.git;a=tree</projectSourceUrl>
+    <bugTrackerUrl>http://www.thewildbeast.co.uk/claws-mail/bugzilla/index.cgi</bugTrackerUrl>
+    <docsUrl>http://www.claws-mail.org/documentation.php</docsUrl>
+    <mailingListUrl>http://www.claws-mail.org/MLs.php</mailingListUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/cf7540fa1e42a55b4a09b0fd2c5f390b88dea4fd/icons/claws-mail.png</iconUrl>
+    <tags>email client mua mh smtp imap nntp ldap gpg i18n gtk admin</tags>
+    <copyright>© 2001,2005 Claws Mail Team</copyright>
+    <licenseUrl>http://www.claws-mail.org/COPYING</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [News](http://www.claws-mail.org/news.php)
+* [TODO](http://git.claws-mail.org/?p=claws.git;a=blob;f=TODO;hb=HEAD)
+* [Changelog](http://git.claws-mail.org/?p=claws.git;a=blob;f=RELEASE_NOTES;hb=HEAD)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

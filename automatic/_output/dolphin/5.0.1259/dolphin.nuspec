@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>dolphin</id>
+    <title>Dolphin</title>
+    <version>5.0.1259-beta</version>
+    <authors>Dolphin Emulator Project</authors>
+    <owners>dtgm</owners>
+    <summary>Cross platform GameCube, Wii, and Triforce emulator</summary>
+    <description>
+Dolphin is an emulator for running GameCube, Wii, and Triforce games on Windows, Linux, OS X, and recent Android devices.
+
+It allows PC gamers to enjoy games for these two consoles in full HD (1080p) with several enhancements: compatibility with all PC controllers, turbo speed, networked multiplayer, and even more!
+
+#### Documentation
+* [Screenshots](https://dolphin-emu.org/media/)
+* [FAQ](https://dolphin-emu.org/docs/faq/)
+* [Wiki](https://wiki.dolphin-emu.org/)
+* [Game compatibility](https://dolphin-emu.org/compat/)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/dolphin/</packageSourceUrl>
+    <projectUrl>https://dolphin-emu.org/</projectUrl>
+    <projectSourceUrl>https://github.com/dolphin-emu/dolphin</projectSourceUrl>
+    <bugTrackerUrl>https://bugs.dolphin-emu.org/projects/emulator/issues</bugTrackerUrl>
+    <docsUrl>https://dolphin-emu.org/docs/guides/</docsUrl>
+    <mailingListUrl>https://forums.dolphin-emu.org/</mailingListUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/c3e44f1c2df6d5c2cfb6c4bc686e77cd82b82ec4/icons/dolphin.png</iconUrl>
+    <tags>gaming emulator wii gamecube</tags>
+    <copyright>© Dolphin Emulator Project</copyright>
+    <licenseUrl>https://github.com/dolphin-emu/dolphin/blob/master/license.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [News](https://dolphin-emu.org/blog/)
+* [Feeds](https://dolphin-emu.org/blog/feeds/)
+* [Changelog](https://dolphin-emu.org/download/list/master/)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="vcredist2015" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
