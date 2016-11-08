@@ -1,6 +1,6 @@
 ﻿$packageName = 'peerblock'
 $installerType = 'exe'
-$url = 'https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/peerblock/PeerBlock-Setup_v1.2_r693.exe'
+$url = 'https://www.iblocklist.com/files/PeerBlock-Setup_v1.2_r693.exe'
 $silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
 $validExitCodes = @(0)
 

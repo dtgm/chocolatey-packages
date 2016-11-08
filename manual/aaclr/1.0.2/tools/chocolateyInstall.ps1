@@ -1,8 +1,8 @@
 ﻿$packageName = 'aaclr'
-$url = 'https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/stexbar/AAClr-1.0.2.zip'
+$url = 'https://downloads.sourceforge.net/project/stefanstools/AAClr/AAClr-1.0.2.zip'
 $checksum = 'bd3dd74a453d4704aac112db5bdc88e7880aeeaf'
 $checksumType = 'sha1'
-$url64 = 'https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/stexbar/AAClr64-1.0.2.zip'
+$url64 = 'https://downloads.sourceforge.net/project/stefanstools/AAClr/AAClr64-1.0.2.zip'
 $checksum64 = '6c2b51030bf70a5c2f15180f26e69c2343adc97a'
 $checksumType64 = 'sha1'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
