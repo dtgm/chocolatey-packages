@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>rufus</id>
+    <version>2.11</version>
+    <title>Rufus</title>
+    <authors>Pete "Akeo" Batard</authors>
+    <owners>dtgm</owners>
+    <summary>Create bootable USB drives from Windows and Linux images</summary>
+    <description>
+Rufus is a utility that helps format and create bootable USB flash drives, such as USB keys/pendrives, memory sticks, etc.
+
+It can be especially useful for cases where:
+
+* you need to create USB installation media from bootable ISOs (Windows, Linux, UEFI, etc.)
+* you need to work on a system that doesn't have an OS installed
+* you need to flash a BIOS or other firmware from DOS
+* you want to run a low-level utility
+
+Despite its small size, Rufus provides everything you need!
+
+Oh, and Rufus is fast. For instance it's about twice as fast as UNetbootin, Universal USB Installer or Windows 7 USB download tool, on the creation of a Windows 7 USB installation drive from an ISO. It is also marginally faster on the creation of Linux bootable USB from ISOs (http://rufus.akeo.ie/#ref1).
+
+[FAQ](https://github.com/pbatard/rufus/wiki/FAQ)
+[Supported ISOs](http://rufus.akeo.ie/#ref2)
+    </description>
+    <releaseNotes>https://github.com/pbatard/rufus/blob/master/ChangeLog.txt</releaseNotes>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/rufus/</packageSourceUrl>
+    <projectUrl>http://rufus.akeo.ie/</projectUrl>
+    <projectSourceUrl>https://github.com/pbatard/rufus/</projectSourceUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/b3aba1acb55094c68db73f87e4db4d72df664794/icons/rufus.png</iconUrl>
+    <licenseUrl>http://www.gnu.org/licenses/gpl-3.0.html</licenseUrl>
+    <copyright>Akeo Consulting</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>liveusb bootdisk linux windows</tags>
+    <dependencies>
+      <dependency id="rufus.install" version="[2.11]" />
+    </dependencies>
+  </metadata>
+</package>

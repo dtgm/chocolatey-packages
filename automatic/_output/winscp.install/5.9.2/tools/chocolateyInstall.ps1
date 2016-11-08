@@ -3,7 +3,7 @@ $packageSearch = 'WinSCP 5.9.2'
 $packageVersion = '5.9.2'
 $versionShort = ($packageVersion).Replace(".","")
 $url = 'https://sourceforge.net/projects/winscp/files/WinSCP/5.9.2/WinSCP-5.9.2-Setup.exe'
-$checksum = ''
+$checksum = 'ee792526726fa077081502232e04de61110e4d4e'
 $checksumType = 'sha1'
 $validExitCodes = @(0)
 
