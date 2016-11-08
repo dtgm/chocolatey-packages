@@ -4,8 +4,8 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>1386760</LastFileSize>
-    <LastFileDate>2016-01-28T14:00:45-07:00</LastFileDate>
+    <LastFileSize>2540070</LastFileSize>
+    <LastFileDate>2016-10-20T15:02:55.6991095</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -126,11 +126,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\keepass-plugin-keeanywhere_1.0.0.plgx</PreviousLocation>
+    <PreviousLocation>F:\exe\keepass-plugin-keeanywhere_1.3.0.plgx</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
-    <Enabled>true</Enabled>
+    <Enabled>false</Enabled>
     <FileHippoId />
-    <LastUpdated>2016-06-14T19:21:10.9222921-06:00</LastUpdated>
+    <LastUpdated>2016-10-20T15:02:55.6991095</LastUpdated>
     <TargetPath>{saveDir}\{appname}_{version}.{url:ext}</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>keepass-plugin-keeanywhere</Name>
