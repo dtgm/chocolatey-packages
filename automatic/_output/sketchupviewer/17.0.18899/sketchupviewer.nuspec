@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>sketchupviewer</id>
+    <title>SketchUp Viewer</title>
+    <version>17.0.18899</version>
+    <authors>Trimble Navigation Limited</authors>
+    <owners>dtgm</owners>
+    <summary>View SketchUp design files</summary>
+    <description>
+Anyone can use the free SketchUp Viewer to view and print models created in SketchUp. Your clients can use the SketchUp Viewer to review designs that you send via email or upload to a shared location on the internet.
+
+Because it does not include tools for editing models, the SketchUp Viewer is much easier to use for people who are unfamiliar with SketchUp. Models viewed with the SketchUp Viewer are also protected from unintentional alteration, ensuring that your audience sees exactly what you intend for them to see.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/sketchupviewer/</packageSourceUrl>
+    <projectUrl>https://www.sketchup.com/products/sketchup-viewer</projectUrl>
+    <docsUrl>https://www.sketchup.com/learn</docsUrl>
+    <mailingListUrl>https://forums.sketchup.com/</mailingListUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/e4afdf52b860db8cc19fd056cb09a8e7e9f0e0b3/icons/sketchupviewer.png</iconUrl>
+    <tags>3d modeling viewer admin</tags>
+    <copyright>© 2012 Trimble Navigation Limited</copyright>
+    <licenseUrl>https://www.sketchup.com/license/b/sketchup-viewer</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Changelog](https://help.sketchup.com/en/article/141303)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="dotnet4.0" />
+      <dependency id="chocolatey-uninstall.extension" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
