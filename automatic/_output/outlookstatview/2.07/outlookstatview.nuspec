@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>outlookstatview</id>
+    <title>OutlookStatView</title>
+    <version>2.07</version>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm</owners>
+    <summary>Outlook statistics software for your mailbox</summary>
+    <description>
+OutlookStatView scans your Outlook mailbox, and display a general statistics about the users that you communicate via emails.
+
+For each user/email, the following information is displayed: The number of outgoing messages that you sent to the user (separated by to/cc/bcc), the number of incoming message that the user sent to you, the total size of messages sent by the user, the email client software used by this user, and the time range that you send/received emails with the specified user. 
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/outlookstatview/</packageSourceUrl>
+    <projectUrl>http://www.nirsoft.net/utils/outlook_statistics.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/outlookstatview.png</iconUrl>
+    <tags>statistics mailbox email outlook</tags>
+    <copyright>© 2009 NirSoft</copyright>
+    <licenseUrl>http://www.nirsoft.net/utils/outlook_statistics.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

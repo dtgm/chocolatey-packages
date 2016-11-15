@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>github</id>
+    <title>GitHub Desktop</title>
+    <version>3.3.3.0</version>
+    <authors>GitHub Inc</authors>
+    <owners>dtgm</owners>
+    <summary>Git client for GitHub.com project hosting site</summary>
+    <description>
+GitHub Desktop includes a fully functional version of [msysgit](https://chocolatey.org/packages/git) — no need to install anything extra. You can pull up a PowerShell console within the context of any repository. GitHub for Windows even includes the amazing [posh-git](https://chocolatey.org/packages/poshgit) utility for your command line pleasure.
+
+### GitHub.com Account
+* Requires a [free account](https://github.com/join) for creating or contributing to GitHub repositories.
+* Free to use for public projects.
+* Private repositories require a [paid plan](https://github.com/pricing).
+
+### Documentation
+* [GitHub for Windows](https://windows.github.com/help.html)
+* [msysgit](https://github.com/msysgit/msysgit/wiki) (included)
+* [posh-git](https://github.com/dahlbyk/posh-git) (included)
+* [GitHub.com](https://help.github.com/) (web interface)
+* [GitHub Flow](https://guides.github.com/introduction/flow/index.html) (branch-based workflow)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/github/</packageSourceUrl>
+    <projectUrl>https://windows.github.com</projectUrl>
+    <tags>unattended git client github scm distributed gui posh-git cli admin</tags>
+    <copyright>© 2012 GitHub Inc</copyright>
+    <licenseUrl>https://windows.github.com/eula.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/c75f45774c122e8417e1c4df31c10cc59e934158/icons/github.png</iconUrl>
+    <releaseNotes>
+#### Program
+* [Changelog](https://windows.github.com/release-notes.html)
+
+##### Install locations:
+* $Env:LocalAppData\GitHub
+* $Env:AppData\GitHub
+
+#### GitHub.com
+* [Site Status](https://status.github.com/)
+* [Site Policy](https://help.github.com/categories/site-policy/)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="autohotkey.portable" />
+      <dependency id="dotnet4.5" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
