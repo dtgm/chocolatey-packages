@@ -3,7 +3,7 @@ $installerType = 'exe'
 $silentArgs = '/S'
 $validExitCodes = @(0)
 $url = 'http://www.nirsoft.net/toolsdownload/iepv_setup.exe'
-$checksum = '{checksum}'
+$checksum = '95f6b8569672a50243a1445793ad3424f9c03ff09e56373c7447100e3858b3e1'
 $checksumType = 'sha256'
 
 $chocTempDir = Join-Path $Env:Temp "chocolatey"

@@ -1,6 +1,6 @@
 ﻿$packageName = 'iepv.portable'
 $url = 'http://www.nirsoft.net/toolsdownload/iepv.zip'
-$checksum = '{checksum}'
+$checksum = '5fb60debcada978e60b1d1c1a6ff062a76f6893cc9a965543eae8e76f1a9cade'
 $checksumType = 'sha256'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $installFile = Join-Path $toolsDir "iepv.exe"
