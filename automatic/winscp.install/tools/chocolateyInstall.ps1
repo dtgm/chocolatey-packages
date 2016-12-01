@@ -36,6 +36,11 @@ if ($language -ne 'en') {
   
   # install translation file if it exists
   $wc = New-Object Net.WebClient
+  if ((Get-WmiObject Win32_ComputerSystem).PartOfDomain) {
+    $proxy = [System.Net.WebRequest]::GetSystemWebProxy()
+    $proxy.Credentials = [System.Net.CredentialCache]::DefaultCredentials
+    $wc.proxy = $proxy
+  }
   $html = $wc.DownloadString("http://www.winscp.net/eng/translations.php")
   $compatLangs = [Regex]::Matches($trans, "\w{2}(?=\.zip)")
   if ($compatLangs.Value -contains "$language") {
