@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>mediainfo</id>
+    <version>0.7.91</version>
+    <title>MediaInfo</title>
+    <authors>Jérôme Martinez</authors>
+    <owners>dtgm</owners>
+    <summary>Unified display of the most relevant technical and tag data for audio and video files</summary>
+    <description>
+MediaInfo supplies technical and tag information about a video or audio file. Supports many audio and video formats, with different methods of viewing information.
+
+### Display
+* Container: format, profile, commercial name of the format, duration, overall bit rate, writing application and library, title, author, director, album, track number, date, duration...
+* Video: format, codec id, aspect, frame rate, bit rate, color space, chroma subsampling, bit depth, scan type, scan order...
+* Audio: format, codec id, sample rate, channels, bit depth, language, bit rate...
+* Text: format, codec id, language of subtitle...
+* Chapters: count of chapters, list of chapters...
+
+### Analyticals
+* Container: MPEG-4, QuickTime, Matroska, AVI, MPEG-PS (including unprotected DVD), MPEG-TS (including unprotected Blu-ray), MXF, GXF, LXF, WMV, FLV, Real...
+* Tags: Id3v1, Id3v2, Vorbis comments, APE tags...
+* Video: MPEG-1/2 Video, H.263, MPEG-4 Visual (including DivX, XviD), H.264/AVC, Dirac...
+* Audio: MPEG Audio (including MP3), AC3, DTS, AAC, Dolby E, AES3, FLAC...
+* Subtitles: CEA-608, CEA-708, DTVCC, SCTE-20, SCTE-128, ATSC/53, CDP, DVB Subtitle, Teletext, SRT, SSA, ASS, SAMI...
+
+### Features
+* Read many video and audio file formats
+* View information in different formats (text, sheet, tree, HTML...)
+* Customise these viewing formats
+* Export information as text, CSV, HTML...
+* Graphical user interface, command line interface, or library (.dll/.so/.dylib) versions available
+* Integrate with the shell (drag 'n' drop, and Context menu)
+* Internationalisation: display any language on any operating system
+* Localisation capability (for which volunteers are needed - please contact me!)
+
+#### Documentation
+* [Screenshots](http://mediaarea.net/en/MediaInfo/Screenshots)
+* [FAQ](http://mediaarea.net/en/MediaInfo/Support/FAQ)
+* [Supported formats](http://mediaarea.net/en/MediaInfo/Support/Formats)
+* [Supported tags](http://mediaarea.net/en/MediaInfo/Support/Tags)
+* [Forum](http://sourceforge.net/p/mediainfo/discussion/)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/mediainfo/</packageSourceUrl>
+    <projectUrl>http://mediaarea.net/en/MediaInfo</projectUrl>
+    <projectSourceUrl>http://sourceforge.net/p/mediainfo/code/HEAD/tree/</projectSourceUrl>
+    <bugTrackerUrl>http://sourceforge.net/p/mediainfo/bugs/</bugTrackerUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/63827a08643582e89d636e350bfa8aa6c62eab55/icons/mediainfo.svg</iconUrl>
+    <licenseUrl>http://mediaarea.net/en/MediaInfo/License</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <copyright>© 2002 MediaArea.net SARL</copyright>
+    <tags>media info tag metadata file-formats file-analysis admin</tags>
+    <releaseNotes>
+#### Program
+* [Changelog](http://mediaarea.net/MediaInfo/ChangeLog)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
