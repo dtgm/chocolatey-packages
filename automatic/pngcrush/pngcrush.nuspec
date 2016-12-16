@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>{{PackageName}}</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Glenn Randers-Pehrson</authors>
+    <owners>dtgm</owners>
+    <summary>PNG optimizer</summary>
+    <description>
+Pngcrush is an optimizer for PNG (Portable Network Graphics) files. It can be run from a commandline in an MSDOS window, or from a UNIX or LINUX commandline.
+
+Its main purpose is to reduce the size of the PNG IDAT datastream by trying various compression levels and PNG filter methods. It also can be used to remove unwanted ancillary chunks, or to add certain chunks including gAMA, tRNS, iCCP, and textual chunks.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
+    <projectUrl>http://pmt.sourceforge.net/{{PackageName}}/index.html</projectUrl>
+    <projectSourceUrl>https://sourceforge.net/p/pmt/code/ci/{{PackageName}}/tree/</projectSourceUrl>
+    <bugTrackerUrl>https://sourceforge.net/p/pmt/_list/tickets</bugTrackerUrl>
+    <docsUrl>http://www.libpng.org/pub/png/src/pngcheck-2.3.0.README</docsUrl>
+    <mailingListUrl>https://sourceforge.net/p/pmt/mailman/</mailingListUrl>
+    <tags>png mng libpng cli</tags>
+    <copyright>© Glenn Randers-Pehrson</copyright>
+    <licenseUrl>https://sourceforge.net/p/pmt/code/ci/{{PackageName}}/tree/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Changelog](https://sourceforge.net/p/pmt/code/ci/{{PackageName}}/tree/ChangeLog.html)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
