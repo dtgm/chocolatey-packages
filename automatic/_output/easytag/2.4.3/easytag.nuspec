@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>easytag</id>
+    <title>EasyTAG</title>
+    <version>2.4.3</version>
+    <authors>Jerome Couderc</authors>
+    <owners>dtgm</owners>
+    <summary>Utility for viewing and editing tags</summary>
+    <description>
+EasyTAG is a simple application for viewing and editing tags in audio files. It supports MP3, MP2, MP4/AAC, FLAC, Ogg Opus, Ogg Speex, Ogg Vorbis, MusePack, Monkey's Audio, and WavPack files. And works under Linux or Windows.
+
+#### Features
+* View, edit, write tags of MP3, MP2 files (ID3 tag with pictures), FLAC files (FLAC Vorbis tag), Ogg Opus files (Ogg Vorbis tag), Ogg Speex (Ogg Vorbis tag), Ogg Vorbis files (Ogg Vorbis tag), MP4/AAC (MP4/AAC tag), MusePack, Monkey's Audio files and WavPack files (APE tag)
+* Can edit more tag fields: title, artist, album, disc number, year, track number, comment, composer, original artist/performer, copyright, URL, encoder name and attached picture
+* Auto tagging: filename and directory to automatically complete the fields (masks)
+* Ability to rename files and directories from the tag (using masks) or by loading a text file
+* Process selected files of the selected directory
+* Ability to browse subdirectories
+* Recursion for tagging, removing, renaming, saving…
+* Can set a field (artist, title,…) to all other files
+* Read and display file header information (bitrate, time,…)
+* Auto completion of the date if a partial one is entered
+* Undo and redo last changes
+* Ability to process fields of tag and file name (convert letters into uppercase, lowercase,…
+* Ability to open a directory or a file with an external program
+* CDDB support using Freedb.org and Gnudb.org servers (manual and automatic search)
+* A tree based browser or a view by artist &amp; album
+* A list to select files
+* A playlist generator window
+* A file searching window
+* Straightforward and explicit interface
+* Translations into many languages
+* Written in C and using GTK+ for the GUI
+* Packages available for Linux and Windows
+
+#### Documentation
+* [Screenshots](https://wiki.gnome.org/Apps/EasyTAG/Screenshots)
+* [FAQ](https://wiki.gnome.org/Apps/EasyTAG/FAQ)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/easytag/</packageSourceUrl>
+    <projectUrl>https://wiki.gnome.org/Apps/EasyTAG</projectUrl>
+    <projectSourceUrl>https://git.gnome.org/browse/easytag/</projectSourceUrl>
+    <bugTrackerUrl>https://bugzilla.gnome.org/page.cgi?id%3Dbrowse.html%26product%3Deasytag</bugTrackerUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/28a825942a022470e0e8af338d87863c0b80c616/icons/easytag.png</iconUrl>
+    <tags>tagging organization admin</tags>
+    <copyright>© Jerome Couderc</copyright>
+    <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

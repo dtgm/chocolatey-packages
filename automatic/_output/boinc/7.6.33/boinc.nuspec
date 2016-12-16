@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>boinc</id>
+    <version>7.6.33</version>
+    <title>BOINC</title>
+    <authors>University of California</authors>
+    <owners>dtgm</owners>
+    <summary>Berkeley Open Infrastructure for Network Computing</summary>
+    <description>
+Berkeley Open Infrastructure for Network Computing (BOINC) uses the idle time on your computer (Windows, Mac, Linux, or Android) to cure diseases, study global warming, discover pulsars, and do many other types of scientific research.
+
+After installing, run `BoincMgr.exe` and choose a [BOINC project](http://boinc.berkeley.edu/projects.php) to contribute to.
+
+### Documentation
+* [Help](http://boinc.berkeley.edu/wiki/BOINC_Help)
+* [User manual](http://boinc.berkeley.edu/wiki/User_manual)
+* [Development](http://boinc.berkeley.edu/trac/wiki/WikiStart)
+
+### Community
+* [Forum](http://boinc.berkeley.edu/dev/)
+    </description>
+    <language>en-us</language>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/boinc/</packageSourceUrl>
+    <projectUrl>http://boinc.berkeley.edu/</projectUrl>
+    <projectSourceUrl>http://boinc.berkeley.edu/trac/wiki/SourceCodeGit</projectSourceUrl>
+    <bugTrackerUrl>http://boinc.berkeley.edu/wiki/Release_Notes#Known_Issues</bugTrackerUrl>
+    <mailingListUrl>http://boinc.berkeley.edu/email_lists.php</mailingListUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/48cba782eaa66669e6d75f0fd7a550d897127e8a/icons/boinc.png</iconUrl>
+    <licenseUrl>http://boinc.berkeley.edu/gitweb/?p=boinc-v2.git;a=blob;f=COPYRIGHT;hb=HEAD</licenseUrl>
+    <copyright>© University of California</copyright>	
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>distributed-computing science admin</tags>
+    <releaseNotes>
+#### Program
+* [Release notes](http://boinc.berkeley.edu/wiki/Release_Notes)
+* [Version history](http://boinc.berkeley.edu/trac/wiki/VersionHistory)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
