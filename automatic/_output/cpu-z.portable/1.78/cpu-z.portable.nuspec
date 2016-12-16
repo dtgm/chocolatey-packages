@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>cpu-z.portable</id>
+    <title>CPU-Z (Portable)</title>
+    <version>1.78</version>
+    <authors>CPUID</authors>
+    <owners>dtgm</owners>
+    <summary>Freeware system information profiler</summary>
+    <description>
+CPU-Z is a freeware that gathers information on some of the main devices of your system:
+
+* Processor name and number, codename, process, package, cache levels.
+* Mainboard and chipset.
+* Memory type, size, timings, and module specifications (SPD).
+* Real time measurement of each core's internal frequency, memory frequency.
+
+#### Documentation
+* [FAQ](http://www.cpuid.com/softwares/cpu-z.html#faq)
+* [Manual](http://www.cpuid.com/softwares/cpu-z.html#install)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/cpu-z.portable/</packageSourceUrl>
+    <projectUrl>http://www.cpuid.com/softwares/cpu-z.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/3ef1b07d454c0560a5a89eae545b79af6a10d588/icons/cpu-z.png</iconUrl>
+    <tags>system information hardware</tags>
+    <copyright>© CPUID</copyright>
+    <licenseUrl>http://www.cpuid.com/softwares/hwmonitor-pro/eula.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Changelog](http://www.cpuid.com/softwares/cpu-z.html#version-history)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
