@@ -4,8 +4,8 @@
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64)</UserAgent>
     <UserNotes />
-    <LastFileSize>5979193</LastFileSize>
-    <LastFileDate>2016-08-18T20:45:17-05:00</LastFileDate>
+    <LastFileSize>5952586</LastFileSize>
+    <LastFileDate>2016-12-01T17:22:17-06:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -31,7 +31,7 @@
             <Url />
             <StartText>'7z'])" href="https://github.com/bliker/cmder/releases/download/v</StartText>
             <EndText>/cmder.7z"</EndText>
-            <TextualContent>{urlPath:regex:(?&lt;=releases/download/)[\d\.]{3,\}(?=/)}</TextualContent>
+            <TextualContent>{urlPath:regex:(?&lt;=releases/download/v?)[\d\.]{3,\}(?=/)}</TextualContent>
             <Name>version</Name>
           </UrlVariable>
         </value>
@@ -128,11 +128,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\cmdermini_1.3.1.zip</PreviousLocation>
+    <PreviousLocation>F:\exe\cmdermini_1.3.2.zip</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2016-11-29T19:35:34.3220757-06:00</LastUpdated>
+    <LastUpdated>2016-12-16T00:30:37.0541898-06:00</LastUpdated>
     <TargetPath>{saveDir}\{appname}_{version}.{url:ext}</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>cmdermini</Name>
