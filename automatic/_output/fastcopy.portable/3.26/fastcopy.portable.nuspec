@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>fastcopy.portable</id>
+    <title>FastCopy (Portable)</title>
+    <version>3.26</version>
+    <authors>Hiroaki Shirouzu</authors>
+    <owners>dtgm</owners>
+    <summary>Fastest Copy/Delete Software</summary>
+    <description>
+FastCopy is the Fastest Copy/Delete Software on Windows. 
+
+It supports UNICODE and over MAX_PATH (260 byte) file pathnames. 
+
+It automatically selects different methods according to whether Source and DestDir are in the same or different HDD. Diff HDD Reading and writing are processed respectively in parallel by separate threads. 
+Same HDD Reading is processed until the big buffer fills. When the big buffer filled, writing is started and processed in bulk.  
+
+Because Reading/Writing are processed with no OS cache at all, other applications don't easily become slow. 
+
+It can achieve Reading/Writing performance that is close to device limit. 
+
+Include/Exclude Filter (UNIX Wildcard style) can be specified. 
+
+It runs fast and does not hog resources, because MFC is not used. (Designed using Win32 API and C Runtime only) 
+
+You can modify this software, because all source code has been opened to the public in the BSD license.
+
+Command line [manual](http://ipmsg.org/tools/fastcopy.html.en#cmdline)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/fastcopy.portable/</packageSourceUrl>
+    <projectUrl>http://ipmsg.org/tools/fastcopy.html.en</projectUrl>
+    <projectSourceUrl>http://ipmsg.org/archive/FastCopy326src.zip</projectSourceUrl>
+    <docsUrl>http://ipmsg.org/tools/fastcopy.html.en#usage</docsUrl>
+    <mailingListUrl>https://groups.google.com/forum/#!forum/fastcopy-bb-eng</mailingListUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/94763114e3fe73533621fa5a5a1c5a3d96b97e54/icons/fastcopy.png</iconUrl>
+    <tags>fast copy explorer gui cli</tags>
+    <copyright>© 2004 Hiroaki Shirouzu</copyright>
+    <licenseUrl>http://ipmsg.org/tools/fastcopy.html.en#license</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <language>en-US</language>
+    <releaseNotes>
+#### Program
+* [Changelog](http://ipmsg.org/tools/fastcopy.html.en#history)
+* 3.0 or later, FastCopy's settings file has been renamed from FastCopy.ini to FastCopy2.ini.
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
