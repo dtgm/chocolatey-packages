@@ -1,12 +1,9 @@
 $packageName = 'spybot'
 $packageSearch = "Spybot - Search and Destroy*"
 $installerType = 'exe'
-#$silentArgs = '/SILENT'
-$validExitCodes = @(0)
+$silentArgs = '/SILENT'
 
-   [array]$spybot = Get-UninstallRegistryKey -SoftwareName "Spybot*"
- $file = $spybot.QuietUninstallString
-  if ( $null -eq $file ) { $file = $spybot.UninstallString }
-return $file
-										  
-Uninstall-ChocolateyPackage -PackageName $packageName -FileType $installerType -validExitCodes $validExitCodes -File $file
+$spybotreg = Get-UninstallRegistryKey -SoftwareName $packageSearch
+$spybot = $spybotreg.UninstallString
+									  
+Uninstall-ChocolateyPackage -PackageName $packageName -FileType $installerType -SilentArgs $silentArgs -File $spybot
