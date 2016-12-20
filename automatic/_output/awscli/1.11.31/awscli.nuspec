@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>awscli</id>
+    <title>AWS Command Line Interface</title>
+    <version>1.11.31</version>
+    <authors>Amazon Web Services</authors>
+    <owners>dtgm</owners>
+    <summary>Command Line Interface to manage AWS services</summary>
+    <description>
+The AWS Command Line Interface (CLI) is a unified tool to manage your AWS services. With just one tool to download and configure, you can control multiple AWS services from the command line and automate them through scripts.
+
+The AWS CLI introduces a new set of simple file commands for efficient file transfers to and from Amazon S3. 
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/awscli/</packageSourceUrl>
+    <projectUrl>http://aws.amazon.com/cli/</projectUrl>
+    <projectSourceUrl>http://github.com/aws/aws-cli</projectSourceUrl>
+    <bugTrackerUrl>http://github.com/aws/aws-cli/issues</bugTrackerUrl>
+    <docsUrl>http://aws.amazon.com/documentation/cli/</docsUrl>
+    <mailingListUrl>http://developer.amazonwebservices.com/connect/forum.jspa?forumID=150</mailingListUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/da04b3370b2e7c2e48ad24e66379b031fadab647/icons/awscli.png</iconUrl>
+    <tags>aws cli cloud amazon admin</tags>
+    <copyright>© 2012 Amazon.com, Inc.</copyright>
+    <licenseUrl>https://github.com/aws/aws-cli/blob/develop/LICENSE.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Release notes](https://aws.amazon.com/releasenotes/CLI?browse=1)
+* [Changelog](https://github.com/aws/aws-cli/blob/develop/CHANGELOG.rst)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
