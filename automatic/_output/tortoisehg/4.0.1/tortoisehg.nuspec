@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>tortoisehg</id>
+    <title>TortoiseHg</title>
+    <version>4.0.1</version>
+    <authors>Steve Borho</authors>
+    <owners>dtgm</owners>
+    <summary>Mercurial source control management client implemented as File Explorer shell extension</summary>
+    <description>
+TortoiseHg is a set of graphical tools and a shell extension for the Mercurial distributed revision control system.
+
+TortoiseHg consists of a shell extension, which provides overlay icons and context menus in your file explorer, and a command line program named thg.exe which can launch the TortoiseHg tools. Binary packages of TortoiseHg for Windows come with Mercurial and a merge tool and are thus completely ready for use "Out of the Box".
+
+TortoiseHg is primarily written in Python and PyQt (the Windows shell extension being the notable exception). The thg script and TortoiseHg dialogs can be used on any platform that supports PyQt, including Mac OS X.
+
+[User Documentation](http://tortoisehg.bitbucket.org/docs.html)
+[Frequently Asked Questions (FAQ)](http://tortoisehg.readthedocs.org/en/latest/faq.html)
+[Screenshots](http://tortoisehg.bitbucket.org/screenshots.html)
+[Developer documentation](https://bitbucket.org/tortoisehg/thg/wiki/developers/Home)
+    </description>
+    <tags>hg mercurial scm revision-control admin</tags>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/tortoisehg/</packageSourceUrl>
+    <projectUrl>http://tortoisehg.bitbucket.org/</projectUrl>
+    <projectSourceUrl>https://bitbucket.org/tortoisehg/thg/src</projectSourceUrl>
+    <copyright>© Steve Borho</copyright>
+    <licenseUrl>https://bitbucket.org/tortoisehg/thg/src/2874791e505e3a6c7b18b6e2e88074c52f833448/COPYING.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/36f12da334cc567ab7a147f0698cb0dcaca042ad/icons/tortoisehg.svg</iconUrl>
+    <releaseNotes>
+#### Program
+* https://bitbucket.org/tortoisehg/thg/wiki/ReleaseNotes
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

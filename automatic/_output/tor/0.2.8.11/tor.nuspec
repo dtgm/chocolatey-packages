@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>tor</id>
+    <title>Tor</title>
+    <version>0.2.8.11</version>
+    <authors>Tor Project</authors>
+    <owners>dtgm</owners>
+    <summary>Anonymizing overlay network for TCP</summary>
+    <description>
+Tor is a connection-oriented anonymizing communication service. Users choose a source-routed path through a set of nodes, and negotiate a "virtual circuit" through the network, in which each node knows its predecessor and successor, but no others. Traffic flowing down the circuit is unwrapped by a symmetric key at each node, which reveals the downstream node.
+
+Basically, Tor provides a distributed network of servers or relays ("onion routers"). Users bounce their TCP streams -- web traffic, ftp, ssh, etc. -- around the network, and recipients, observers, and even the relays themselves have difficulty tracking the source of the stream.
+
+The way most people use Tor is with [Tor Browser](https://chocolatey.org/packages/tor-browser), which is a feature-stripped version of Firefox.
+
+This package provides a command-line interface for creating Tor clients and configuring relay services.
+
+#### Documentation
+* [FAQ](https://www.torproject.org/docs/faq.html)
+* [Wiki](https://trac.torproject.org/projects/tor/wiki)
+* [Sample.torrc](https://gitweb.torproject.org/tor.git/plain/src/config/torrc.sample.in)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/tor/</packageSourceUrl>
+    <projectUrl>https://www.torproject.org/</projectUrl>
+    <projectSourceUrl>https://gitweb.torproject.org/tor.git/tree/</projectSourceUrl>
+    <bugTrackerUrl>https://trac.torproject.org/projects/tor</bugTrackerUrl>
+    <docsUrl>https://www.torproject.org/docs/tor-manual.html#content</docsUrl>
+    <mailingListUrl>https://www.torproject.org/docs/documentation.html#MailingLists</mailingListUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/007624f9eb18e2256d53e5080c6e7d857674b7ea/icons/tor.png</iconUrl>
+    <tags>tor relay privacy anonymity security onion network service cli</tags>
+    <copyright>© The Tor Project, Inc.</copyright>
+    <licenseUrl>https://gitweb.torproject.org/tor.git/tree/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Roadmap](https://trac.torproject.org/projects/tor/roadmap)
+* [Changelog](https://blog.torproject.org/category/tags/stable)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>multipar.install</id>
+    <title>MultiPar (Install)</title>
+    <version>1.2.9.9</version>
+    <authors>Yutaka Sawada</authors>
+    <owners>dtgm</owners>
+    <summary>Next-generation of Parchive (PAR3) to protect data</summary>
+    <description>
+MultiPar is the next-generation of Parchive (PAR3) to protect data.
+
+Mutlipar can do file verification, error detection, correction and recovery to protect your files and folders from deletion, copy errors, download errors, software errors, hardware errors, virus infection, malicious tampering, and all other forms of data corruption.
+
+#### Documentation
+* [Screenshots](http://multipar.eu/screenshots)
+* [Manual](http://multipar.eu/read-me/introduction)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/multipar.install/</packageSourceUrl>
+    <projectUrl>http://multipar.eu/</projectUrl>
+    <projectSourceUrl>http://multipar.eu/source</projectSourceUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/366eab15b8506be79a99a44622344068039ea868/icons/multipar.png</iconUrl>
+    <tags>file par par2 par3 parchive admin</tags>
+    <copyright>© 2008 Yutaka Sawada</copyright>
+    <licenseUrl>http://wikipedia.org/wiki/Freeware</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Changelog](http://multipar.eu/changelog)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
