@@ -1,10 +1,10 @@
-﻿$packageName = '{{PackageName}}'
+﻿$packageName = 'winrar'
 $installerType = 'exe'
 $url = 'http://www.rarlab.com/rar/wrar'
 $url64 = 'http://www.rarlab.com/rar/winrar-x64-'
 $silentArgs = '/S'
 $LCID = (Get-UICulture).LCID
-$url_version_dot= '{{PackageVersion}}'
+$url_version_dot= '5.40'
 $url_version = (Split-Path $url_version_dot -leaf).ToString().Replace(".", "")
 $validExitCodes = @(0)
 
@@ -336,7 +336,7 @@ try {
   ##English --- all
   else{
     $url64 = $url64+$url_version+'.exe'
-	$checksum64 = '{{Checksumx64}}'
+	$checksum64 = 'd73cc6a97c3edde637c7d952ee2e0efc5b09937e5300cb0ecaffda70f4efdef0'
 	$checksumType64 = 'sha256'
   }  
    
@@ -642,7 +642,7 @@ try {
   ##English --- all
   else{
     $url = $url+$url_version+'.exe'
-	$checksum = '{{Checksum}}'
+	$checksum = 'ea70bdaf4336db36f564562dc58daf41816f86eeeb904c22b375431932c3faf8'
 	$checksumType = 'sha256'
   } 
 

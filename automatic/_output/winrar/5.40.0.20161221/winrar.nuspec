@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
-    <id>{{PackageName}}</id>
+    <id>winrar</id>
     <title>WinRAR</title>
-    <version>{{PackageVersion}}</version>
+    <version>5.40.0.20161221</version>
     <authors>win.rar GmbH</authors>
     <owners>dtgm</owners>
     <summary>A powerful archive manager</summary>
@@ -14,10 +14,10 @@ WinRAR is a powerful archive manager. It can backup your data and reduce the siz
 
 You can try WinRAR before you [buy](https://shop.win-rar.com/16/purl-shop-1984-1-n).
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/winrar/</packageSourceUrl>
     <projectUrl>http://www.win-rar.com/</projectUrl>
     <docsUrl>http://www.win-rar.com/faq.html</docsUrl>
-    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/7b7d24ec7b94193a1a70b145b43ab6bd9aeab468/icons/{{PackageName}}.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/7b7d24ec7b94193a1a70b145b43ab6bd9aeab468/icons/winrar.png</iconUrl>
     <tags>trial rar compression archive nagware admin</tags>
     <copyright>© 2002 Alexander Roshal</copyright>
     <licenseUrl>http://www.win-rar.com/winrarlicense.html</licenseUrl>
