@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>firefox-nightly</id>
+    <title>Firefox Nightly</title>
+    <version>53.0.1.2016122120-alpha</version>
+    <authors>Mozilla</authors>
+    <owners>dtgm</owners>
+    <summary>Web browser of the latest experimental features for testing</summary>
+    <description>
+Firefox Nightly builds are under active development and should be used only by advanced users for testing experimental features.
+
+#### Firefox channels (development cycle)
+
+Every 6 weeks, Firefox developers take the current stable features of each build and introduce them into the next stable channel for further development. The Developer Edition is a special build containing features never moved forward since they would be rarely used by the average user and needlessly consume resources.
+
+* [Firefox](https://chocolatey.org/packages/firefox)
+* [Firefox Beta](https://chocolatey.org/packages/firefox-beta)
+* [Firefox Developer Edition](https://chocolatey.org/packages/firefox-dev)
+* Firefox Nightly (you are here)
+
+[Forum](http://forums.mozillazine.org/viewforum.php?f=23)
+[Mozilla Developer Network documentation](https://developer.mozilla.org/en-US/docs/mozilla-central)
+[Privacy policy](https://www.mozilla.org/en-US/privacy/firefox/)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/firefox-nightly/</packageSourceUrl>
+    <projectUrl>https://www.mozilla.org/firefox/nightly/</projectUrl>
+    <projectSourceUrl>https://hg.mozilla.org/mozilla-central/</projectSourceUrl>
+    <mailingListUrl>https://mail.mozilla.org/listinfo/nightly-testers</mailingListUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/34eed6fa346faeb2d0b97cf77868cf26c2af247b/icons/firefox-nightly.png</iconUrl>
+    <tags>browser mozilla firefox alpha admin</tags>
+    <copyright>© Mozilla Foundation</copyright>
+    <licenseUrl>http://www.mozilla.org/MPL/2.0/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+[News](https://www.squarefree.com/burningedge/)
+[Report bugs](https://bugzilla.mozilla.org/enter_bug.cgi?product=Firefox)
+[Source code changelog](https://hg.mozilla.org/mozilla-central/log/)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="chocolatey-uninstall.extension" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
