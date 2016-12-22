@@ -1,8 +1,8 @@
-﻿$packageName = 'systemninja.portable'
-$url = 'https://singularlabs.com/download/10298/'
-$checksum = '7100e6b670088dac5ee673b65b747cc982bfbe6b92d14998c63aec66a6c3d9e7'
-$checksumType = 'sha256'
+﻿$packageName = 'babelpad'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+$url = 'http://www.babelstone.co.uk/Software/7907/BabelPad.zip'
+$checksum = '53df6579c8f71fdfeac42f4853ca14f58cbb23916ef4dcbe3a9c4510a7853649'
+$checksumType = 'sha256'
 
 Install-ChocolateyZipPackage -PackageName "$packageName" `
                              -Url "$url" `

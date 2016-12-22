@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>ums</id>
+    <title>Universal Media Server</title>
+    <version>6.5.2</version>
+    <authors>SubJunk</authors>
+    <owners>dtgm</owners>
+    <summary>DLNA-compliant UPnP Media Server</summary>
+    <description>
+Universal Media Server streams many media formats with minimal configuration. It is a DLNA-compliant UPnP Media Server that supports all major operating systems, with versions for Windows, Linux and Mac OS X. The program streams or transcodes video, audio and image formats with little or no configuration.
+
+UMS is powered by bundled versions of FFmpeg, MEncoder, tsMuxeR, MediaInfo and more, which combine to offer support for a wide range of media formats.
+
+UMS is a fork of [PS3 Media Server](https://chocolatey.org/packages/ps3mediaserver) by shagrath. UMS was started by SubJunk, an official developer of PMS, in order to ensure greater stability and file-compatibility.
+
+#### Documentation
+* [FAQ](http://www.universalmediaserver.com/faq/)
+* [Wiki](https://github.com/UniversalMediaServer/UniversalMediaServer/wiki)
+* [Plugins](http://www.universalmediaserver.com/plugins/)
+* [Media server comparison](http://www.universalmediaserver.com/comparison/)
+
+#### Community
+* [Forum](http://www.universalmediaserver.com/forum/)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/ums/</packageSourceUrl>
+    <projectUrl>http://www.universalmediaserver.com/</projectUrl>
+    <projectSourceUrl>https://github.com/UniversalMediaServer/UniversalMediaServer/</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/UniversalMediaServer/UniversalMediaServer/issues</bugTrackerUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/3d3e31a2eabede197532058b97ab0eb5d1ce8a4c/icons/ums.png</iconUrl>
+    <tags>dlna-server media-center admin</tags>
+    <copyright>© Universal Media Server</copyright>
+    <licenseUrl>https://raw.githubusercontent.com/UniversalMediaServer/UniversalMediaServer/master/LICENSE.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [News](http://www.universalmediaserver.com/news/)
+* [Release log](http://sourceforge.net/projects/unimediaserver/files/Official%20Releases/Windows/)
+* [Changelog](https://github.com/UniversalMediaServer/UniversalMediaServer/blob/master/CHANGELOG.txt)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="javaruntime" version="7.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

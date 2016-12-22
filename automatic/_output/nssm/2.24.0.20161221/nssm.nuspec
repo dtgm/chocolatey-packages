@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>nssm</id>
+    <title>NSSM - the Non-Sucking Service Manager</title>
+    <version>2.24.0.20161221</version>
+    <authors>Iain Patterson</authors>
+    <owners>dtgm</owners>
+    <summary>Service helper program similar to srvany and cygrunsrv</summary>
+    <description>
+NSSM is a service helper which doesn't suck. It can start any application as an NT service and will restart the service if it fails for any reason. srvany and other service helper programs suck because they don't handle failure of the application running as a service. If you use such a program you may see a service listed as started when in fact the application has died. nssm monitors the running service and will restart it if it dies. With nssm you know that if a service says it's running, it really is. Alternatively, if your application is well-behaved you can configure nssm to absolve all responsibility for restarting it and let Windows take care of recovery actions.
+
+nssm logs its progress to the system Event Log so you can get some idea of why an application isn't behaving as it should.
+
+nssm also features a graphical service installation and removal facility. Admittedly this does suck. I hate trying to make GUIs
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/nssm/</packageSourceUrl>
+    <projectUrl>http://nssm.cc/</projectUrl>
+    <projectSourceUrl>http://git.nssm.cc/?p=nssm.git</projectSourceUrl>
+	<docsUrl>http://nssm.cc/commands</docsUrl>
+    <tags>service</tags>
+    <copyright>© Iain Patterson</copyright>
+    <licenseUrl>https://git.nssm.cc/?p=nssm.git;a=blob;f=README.txt;h=12db7e88a4cd83edb7023b2b92e7d3d5eabf1175;hb=HEAD#l882</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/72c34e8125f4ca555516844f95297cd7206d1721/icons/nssm.png</iconUrl>
+    <releaseNotes>
+#### Program
+* [Changelog](http://nssm.cc/changelog)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+* Added checksum
+* Fixed download URL
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

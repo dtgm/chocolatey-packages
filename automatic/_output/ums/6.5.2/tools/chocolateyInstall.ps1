@@ -1,8 +1,8 @@
-﻿$packageName = 'systemninja.install'
-$installerType = 'exe'
-$silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
-$url = 'https://singularlabs.com/download/10294/'
-$checksum = 'be9964db5db446cfd2c0c72c7a4a02f5a7f327405c122bba2634d3e980ce35c2'
+﻿$packageName = 'ums'
+$installerType = 'exe'	
+$silentArgs = '/S'
+$url = 'https://sourceforge.net/projects/unimediaserver/files/Official%20Releases/Windows//UMS-6.5.2-Java7.exe/download'
+$checksum = 'be8a73751fabd99669a7524dd58a047a8d224f19271d4f3a4f540f26a55404c6'
 $checksumType = 'sha256'
 $validExitCodes = @(0)
 
