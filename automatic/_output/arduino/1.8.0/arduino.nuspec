@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>arduino</id>
+    <title>Arduino IDE</title>
+    <version>1.8.0</version>
+    <authors>Arduino team</authors>
+    <owners>dtgm</owners>
+    <summary>IDE for the Arduino prototyping platform</summary>
+    <description>
+Arduino integrated development environment (IDE) is a cross-platform application written in Java, and derives from the IDE for the Processing programming language and the Wiring projects. It is designed to introduce programming to artists and other newcomers unfamiliar with software development. It includes a code editor with features such as syntax highlighting, brace matching, and automatic indentation, and is also capable of compiling and uploading programs to the board with a single click. A program or code written for Arduino is called a sketch.
+
+Arduino programs are written in C or C++. The Arduino IDE comes with a software library called "Wiring" from the original Wiring project, which makes many common input/output operations much easier.
+
+#### Documentation
+* [FAQ](http://www.arduino.cc/en/Main/FAQ)
+* [Getting Started](http://www.arduino.cc/en/Guide/HomePage)
+* [Examples](http://www.arduino.cc/en/Tutorial/HomePage)
+* [Language Reference](http://www.arduino.cc/en/Reference/HomePage)
+* [Manuals](http://playground.arduino.cc/Main/ManualsAndCurriculum)
+
+#### Community
+* [User forum](http://arduino.cc/forum/)
+* [Wiki playground](http://playground.arduino.cc/)
+* [StackExchange](http://arduino.stackexchange.com/)
+* [Twitter](https://twitter.com/arduino)
+* [Facebook](https://www.facebook.com/official.arduino)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/arduino/</packageSourceUrl>
+    <projectUrl>http://arduino.cc/en/Main/Software/</projectUrl>
+    <projectSourceUrl>https://github.com/arduino/Arduino</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/arduino/Arduino/issues</bugTrackerUrl>
+    <docsUrl>https://www.arduino.cc/Guide/</docsUrl>
+    <mailingListUrl>https://groups.google.com/a/arduino.cc/forum/#!forum/developers</mailingListUrl>
+    <tags>ide programming electronics microcontroller arduino admin</tags>
+    <copyright>© 2005 Arduino</copyright>
+    <licenseUrl>https://raw.githubusercontent.com/arduino/Arduino/master/license.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/33917e4e28f4279109e07783e79e538e3ad7e96b/icons/arduino.png</iconUrl>
+    <releaseNotes>
+#### Program
+* [News](http://blog.arduino.cc/)
+* [Changelog](https://github.com/arduino/Arduino/releases/tag/1.8.0)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="autohotkey.portable" />
+      <dependency id="chocolatey-uninstall.extension" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
