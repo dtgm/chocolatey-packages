@@ -1,6 +1,6 @@
 ﻿$packageName = 'totalcommander'
-$url = 'http://tcmd900.s3.amazonaws.com/tcmd900x32_64.exe'
-$checksum = 'd10f3615a10d056742857a18c8c3fe6a338a8e8e200b0cdd5c2cce43a5dbd4a4'
+$url = 'http://tcmd900.s3.amazonaws.com/tcmd900ax32_64.exe'
+$checksum = 'a5631261c60421a5f99e0669f4493980a68b2598088a745348ae505a939b6fe7'
 $url64 = $url
 $checksum64 = $checksum
 $installerType = 'exe'
