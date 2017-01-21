@@ -14,7 +14,7 @@ This directory contains files from [Ketarin](https://chocolatey.org/packages/ket
 [Source code SVN](http://scm.flyspray.org/repos/ketarin/)
 
 
-Ketarin is a program to scrape webpages for content matching regex patterns, store it in built-in and/or user-defined variables, and use that information to populate a local SQLite database file.  Application entries may be uploaded or downloaded via an online repository or created and maintained locally.  Ketarin will then download the installation file, typically an MSI or EXE, to a local folder dependent on detecting a never version available.  Ketarin  may continue to attempt to run specified batch commands or c# scripts.  Typically, the scripting commands are used to silently install the program, but any commandline program may be triggered upon detection of an available application update.  
+Ketarin is a program to scrape webpages for content matching regex patterns, store it in built-in and/or user-defined variables, and use that information to populate a local SQLite database file.  Application entries may be uploaded or downloaded via an online repository or created and maintained locally.  Ketarin will then download the installation file, typically an MSI or EXE, to a local folder dependent on detecting a newer version available.  Ketarin  may continue to attempt to run specified batch commands or c# scripts.  Typically, the scripting commands are used to silently install the program, but any commandline program may be triggered upon detection of an available application update.  
 
 Ketarin's tagline is "Keep your setup packages up-to-date..."
 
