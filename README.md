@@ -146,3 +146,46 @@ For ease of transition between OS', it is recommended to use the same ID as used
 * Redhat Fedora: https://admin.fedoraproject.org/pkgdb/ -- Others: http://rpm.pbone.net/, http://rpmfind.net/, 
 * Gentoo: [categories](https://packages.gentoo.org/categories/), [text list](http://distfiles.gentoo.org/distfiles/) (also at [MIRROR](https://www.gentoo.org/downloads/mirrors/)/pub/gentoo/distfiles/)
 * Arch: [repos](https://wiki.archlinux.org/index.php/Official_repositories), [mirror text list](https://www.archlinux.org/mirrorlist/all/)
+
+## Contributing
+
+These packages are a community effort. Your help is appreciated!
+
+### Reporting broken/outdated packages
+
+If packages from this repository fail to install or a new version has been released by the software vendor for a particular package, please report it in any or all of the following ways:
+
+Github issue: https://github.com/dtgm/chocolatey-packages/issues/new
+Disqus comment on the package's gallery page: https://chocolatey.org/packages/PKGID#discussion
+Send an email on the package's gallery page: https://chocolatey.org/packages/PKGID/ContactOwners
+
+#### Broken packages
+
+If the package fails to install or uninstall via `choco`, please include debug information from the console:  
+`choco install PKGID --yes --verbose --debug`
+
+#### Outdated packages
+
+If the package is not up to date, please include the following if possible:
+* latest version number
+* release date
+* URL to the install binary
+
+### Submitting fixes (Pull Requests)
+
+This repository uses Git for management. If you don't know what Git is, or don't want to create a local copy of this repository, GitHub allows you to edit text files and publish back changes to this repository entirely from their website. For example, to fix a spelling error in this README.md file:
+
+1. Sign up for a free GitHub account
+  https://github.com/join
+2. Fork this repository
+  https://github.com/dtgm/chocolatey-packages
+3. Make changes to your forked repository
+  https://github.com/YOU/chocolatey-packages/edit/master/README.md
+4. Commit (save) changes to your repository
+  For absolute beginners, only make edits to a single file and commit to the `master` branch. Note that you can make multiple commits to any one or multiple files and they will all show up in the Pull request which is why you want to use branching. That way you group related changes together. For example, if you see a common spelling error in many files, you may want to change all those text files containing just that spelling error under a specific branch like "Spelling-error-01". Name your branch whatever makes sense to you that is related to the change you are making.
+5. Create a new Pull Request (PR)
+  https://github.com/YOU/chocolatey-packages/pulls
+
+Note that GitHub also has its own text paste bin at https://gist.github.com/
+
+For more help with using GitHub, see https://help.github.com/
