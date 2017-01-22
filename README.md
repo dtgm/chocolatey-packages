@@ -171,19 +171,19 @@ If the package is not up to date, please include the following if possible:
 * release date
 * URL to the install binary
 
-### Submitting fixes (Pull Requests)
+### Submitting fixes
 
 This repository uses Git for management. If you don't know what Git is, or don't want to create a local copy of this repository, GitHub allows you to edit text files and publish back changes to this repository entirely from their website. For example, to fix a spelling error in this README.md file:
 
-1. Sign up for a free GitHub account
+1. Sign up for a free GitHub account  
   https://github.com/join
-2. Fork this repository
+2. Fork this repository  
   https://github.com/dtgm/chocolatey-packages
-3. Make changes to your forked repository
+3. Make changes to your forked repository  
   https://github.com/YOU/chocolatey-packages/edit/master/README.md
-4. Commit (save) changes to your repository
+4. Commit (save) changes to your repository  
   For absolute beginners, only make edits to a single file and commit to the `master` branch. Note that you can make multiple commits to any one or multiple files and they will all show up in the Pull request which is why you want to use branching. That way you group related changes together. For example, if you see a common spelling error in many files, you may want to change all those text files containing just that spelling error under a specific branch like "Spelling-error-01". Name your branch whatever makes sense to you that is related to the change you are making.
-5. Create a new Pull Request (PR)
+5. Create a new Pull Request (PR)  
   https://github.com/YOU/chocolatey-packages/pulls
 
 Note that GitHub also has its own text paste bin at https://gist.github.com/
