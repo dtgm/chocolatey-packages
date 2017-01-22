@@ -3,7 +3,7 @@
   <metadata>
     <id>manictime</id>
     <title>ManicTime</title>
-    <version>3.7.4</version>
+    <version>3.7.3</version>
     <authors>Yutaka Sawada</authors>
     <owners>dtgm</owners>
     <summary>Track and catalog window activity</summary>
@@ -31,7 +31,7 @@ ManicTime automatically records your computer usage. It remembers which apps you
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
     <dependencies>
-      <dependency id="manictime.install" version="[3.7.4]" />
+      <dependency id="manictime.install" version="[3.7.3]" />
     </dependencies>
   </metadata>
 </package>
