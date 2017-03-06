@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
+  <metadata>
+    <id>0ad</id>
+    <title>0 A.D.</title>
+    <version>0.0.21</version>
+    <authors>Wildfire Games</authors>
+    <owners>dtgm</owners>
+    <summary>Open-source, cross-platform, real-time strategy (RTS) game of ancient warfare</summary>
+    <description>
+Historically based war/economy game that allows players to relive or rewrite the history of Western civilizations, focusing on the years between 500 B.C.E. and 500 A.D.
+
+The project is highly ambitious, involving state-of-the-art 3D graphics, detailed artwork, sound, and a flexible and powerful custom-built game engine.
+
+#### Disk requirements
+Install file is about 570 MB and extracts to about 1.51 GB.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/0ad/</packageSourceUrl>
+    <projectUrl>http://play0ad.com/</projectUrl>
+    <projectSourceUrl>http://trac.wildfiregames.com/browser</projectSourceUrl>
+    <bugTrackerUrl>http://trac.wildfiregames.com/report</bugTrackerUrl>
+    <docsUrl>http://trac.wildfiregames.com/wiki</docsUrl>
+    <mailingListUrl>https://wildfiregames.com/forum/</mailingListUrl>
+    <tags>rts historical game zero-ad admin</tags>
+    <copyright>© Wildfire Games</copyright>
+    <licenseUrl>http://trac.wildfiregames.com/browser/ps/trunk/LICENSE.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/c5f2bd99b11d91687fee996fe614eb129933f4fd/icons/0ad.png</iconUrl>
+    <releaseNotes>
++#### Program
+* [Roadmap](http://trac.wildfiregames.com/roadmap)
+* [Changelog](http://trac.wildfiregames.com/log/ps)
+
++#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

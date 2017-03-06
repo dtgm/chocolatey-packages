@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>openra</id>
+    <title>OpenRA</title>
+    <version>2016.10.19</version>
+    <authors>OpenRA Developers</authors>
+    <owners>dtgm</owners>
+    <summary>Free, real-time strategy game engine supporting early Westwood classics</summary>
+    <description>
+OpenRA is a Libre/Free Real Time Strategy project that recreates the classic Command &amp; Conquer titles.
+    
+We include recreations of C&amp;C (Tiberian Dawn), C&amp;C: Red Alert, and Dune 2000. These are not intended to be perfect copies, but instead combine the classic gameplay of the originals with modern improvements such as unit veterancy and the fog of war.
+
+OpenRA's primary focus is cross-platform multiplayer between Windows, OS X, and Linux; however, we include a number of single-player missions, and also support skirmish games against AI bots.
+
+#### Community
+* [Forum](http://www.sleipnirstuff.com/forum/viewforum.php?f=80)
+* [IRC](http://webchat.freenode.net/?channels=openra)
+* [Facebook](https://www.facebook.com/openra)
+* [Google+](https://www.google.com/+OpenraNet)
+* [Twitter](http://twitter.com/openRA)
+* [Reddit](http://www.reddit.com/r/openra)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/openra/</packageSourceUrl>
+    <projectUrl>http://www.openra.net/</projectUrl>
+    <projectSourceUrl>https://github.com/OpenRA/OpenRA</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/OpenRA/OpenRA/issues</bugTrackerUrl>
+    <docsUrl>https://github.com/OpenRA/OpenRA/wiki</docsUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/af7524cb4c99e84e52ed0803e43f018f546ec2d2/icons/openra.png</iconUrl>
+    <tags>game rts red-alert command-and-conquer admin</tags>
+    <copyright>© 2007 OpenRA Developers</copyright>
+    <licenseUrl>https://github.com/OpenRA/OpenRA/blob/bleed/COPYING</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Release log](http://www.openra.net/news/)
+* [Changelog](https://github.com/OpenRA/OpenRA/wiki/Changelog)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

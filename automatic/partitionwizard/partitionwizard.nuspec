@@ -28,7 +28,7 @@ This package installs the free edition of Partition Wizard. [Additional features
     <projectUrl>http://www.partitionwizard.com/free-partition-manager.html</projectUrl>
     <docsUrl>http://www.partitionwizard.com/help/</docsUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/408ded4dd91e2df4543abc86857677fb7e10c0d3/icons/{{PackageName}}.png</iconUrl>
-    <tags>freeware filesystem partition disk tools admin</tags>
+    <tags>freeware filesystem partition disk tools admin notsilent</tags>
     <copyright>© 2009 MiniTool Solution Ltd</copyright>
     <licenseUrl>http://www.partitionwizard.com/terms_conditions.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

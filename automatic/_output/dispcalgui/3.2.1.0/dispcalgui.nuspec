@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
+  <metadata>
+    <id>dispcalgui</id>
+    <title>dispcalGUI</title>
+    <version>3.2.1.0</version>
+    <authors>Florian Hoech</authors>
+    <owners>dtgm</owners>
+    <summary>Open Source Display Calibration and Characterization powered by Argyll CMS</summary>
+    <description>
+dispcalGUI is a graphical user interface developed by Florian Höch for the display calibration and profiling tools of Argyll CMS, an open source color management system developed by Graeme Gill.
+
+Calibrate and characterize your display devices using one of the many supported hardware sensors, with support for multi-display setups and a variety of available settings like customizable whitepoint, luminance, tone response curve as well as the option to create matrix and look-up-table ICC profiles, with optional gamut mapping, as well as some proprietary 3D LUT formats.
+
+#### Features
+* Support of colorimeter correction for different screens via correction matrices or calibration specral sample files (the latter only for specific colorimeters i.e. i1 Display Pro, ColorMunki Display and Spyder 4).
+* Profile verification and measurement report: Check the quality of profiles and 3D LUTs via measurements. Also supports custom CGATS files (e.g. FOGRA, GRACoL/IDEAlliance, SWOP) and using of reference profiles to obtain test values.
+* Test chart editor: Create charts with any amount of color patches, easy copy &amp; paste from CGATS, CSV files (only tab-delimited) and spreadsheet applications.
+* Create synthetic ICC (matrix) profiles with custom primaries, white- and blackpoint as well as tone response.
+
+[Screenshots](http://dispcalgui.hoech.net/#screenshots)  
+[Supported instruments](http://dispcalgui.hoech.net/#instruments)  
+[Forum](http://sourceforge.net/p/dispcalgui/discussion/932493/)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/dispcalgui/</packageSourceUrl>
+    <projectUrl>http://dispcalgui.hoech.net/</projectUrl>
+    <projectSourceUrl>https://sourceforge.net/p/dispcalgui/code/</projectSourceUrl>
+    <bugTrackerUrl>http://dispcalgui.hoech.net/#issues</bugTrackerUrl>
+    <docsUrl>http://dispcalgui.hoech.net/#usage</docsUrl>
+    <mailingListUrl>https://lists.sourceforge.net/lists/listinfo/dispcalgui-users</mailingListUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/4f3a35e135d040f084d6e748e299201a3737b142/icons/dispcalgui.png</iconUrl>
+    <tags>graphics calibration frontend gui</tags>
+    <copyright>© 2008 Florian Hoech</copyright>
+    <licenseUrl>https://www.gnu.org/licenses/gpl-3.0.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [News](https://sourceforge.net/p/dispcalgui/news/)
+* [Roadmap](http://dispcalgui.hoech.net/#todo)
+* [Changelog](http://dispcalgui.hoech.net/#changelog)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="dispcalgui.install" version="[3.2.1.0]" />
+    </dependencies>
+  </metadata>
+</package>

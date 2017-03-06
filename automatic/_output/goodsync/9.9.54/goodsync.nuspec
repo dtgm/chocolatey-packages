@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>goodsync</id>
+    <title>GoodSync</title>
+    <version>9.9.54</version>
+    <authors>Siber Systems Inc</authors>
+    <owners>dtgm</owners>
+    <summary>Synchronize and backup files such as photos, financial documents, MP3s, e-mails between desktops, laptops, servers, and external drives</summary>
+    <description>
+Reliable, bi-directional synchronization of files between computers and devices.
+
+Free with limited functionality: synchronize a maximum of 100 private files via local drives, thumbdrives, network shares, WebDAV, or FTP.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/goodsync/</packageSourceUrl>
+    <projectUrl>https://www.goodsync.com/for-windows-desktop</projectUrl>
+    <bugTrackerUrl>https://www.goodsync.com/php/gsss/main</bugTrackerUrl>
+    <docsUrl>https://www.goodsync.com/manual</docsUrl>
+    <tags>trial sync cloud admin</tags>
+    <copyright>© 2009 Siber Systems</copyright>
+    <licenseUrl>http://www.goodsync.com/license</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/d1e037cc7c943fda29b9067b3b1c3229d99402ff/icons/goodsync.png</iconUrl>
+    <releaseNotes>
+[What's new](https://www.goodsync.com/news-windows)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>komodo-edit</id>
+    <title>Komodo Edit</title>
+    <version>10.1.1.17414</version>
+    <authors>ActiveState</authors>
+    <owners>dtgm</owners>
+    <summary>Free, fast and multi-language code editor</summary>
+    <description>
+Komodo Edit is the free and open-source counterpart of Komodo IDE. Cross-Platform IDE for all your major languages, 
+including Python, PHP, Go, Ruby, Perl, Tcl, NodeJS, HTML, CSS and JavaScript.
+
+#### Features
+
+* Track Changes: Easily reference what changes you have made, revert back or share the change via kopy.io.
+* Commando: Quick access to all your files, tools, bookmarks, you name it. Commando paves the way!
+* Markdown Preview: Preview your markdown files in real-time (as you write them).
+* Kopy.io Integration
+* Minimap
+
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/komodo-edit/</packageSourceUrl>
+    <projectUrl>http://komodoide.com/komodo-edit/</projectUrl>
+    <projectSourceUrl>https://github.com/Komodo/KomodoEdit</projectSourceUrl>
+    <docsUrl>http://docs.activestate.com/komodo</docsUrl>
+    <tags>ide text editor admin</tags>
+    <copyright>© ActiveState Software Inc</copyright>
+    <licenseUrl>http://www.activestate.com/komodo-edit/license-agreement</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/f1254a06081b52a28a36d07266fd45353bbb99a4/icons/komodo-edit.png</iconUrl>
+    <releaseNotes>
+[Changelog](http://komodoide.com/changelog/latest/)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

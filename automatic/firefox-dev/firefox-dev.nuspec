@@ -14,11 +14,11 @@ By using the Developer Edition, you gain access to tools and platform features a
 
 Additionally, the following experimental developer tools are persistent features of Firefox Developer Edition:
 
-#### [WebIDE](https://developer.mozilla.org/docs/Tools/WebIDE)
+##### [WebIDE](https://developer.mozilla.org/docs/Tools/WebIDE)
 
 Allows you to develop, deploy and debug Web apps directly in your browser, or on a Firefox OS device. It lets you create a new Firefox OS app (which is just a web app) from a template, or open up the code of an existing app. From there you can edit the app’s files. It’s one click to run the app in a simulator and one more to debug it with the developer tools. Web IDE - YouTube
 
-#### [Valence](https://developer.mozilla.org/docs/Tools/Firefox_Tools_Adapter) (previously called Firefox Tools Adapter) 
+##### [Valence](https://developer.mozilla.org/docs/Tools/Firefox_Tools_Adapter) (previously called Firefox Tools Adapter) 
 
 Lets you develop and debug your app across multiple browsers and devices by connecting the Firefox dev tools to other major browser engines. Valence also extends the awesome tools we've built to debug Firefox OS and Firefox for Android to the other major mobile browsers including Chrome on Android and Safari on iOS. So far these tools include our Inspector, Debugger and Console and Style Editor.
 
@@ -28,7 +28,7 @@ Inspect and interact with Web Audio API in real time to ensure that all audio no
 
 Additional developer tools also available in the release build (via F12 key): [Responsive Design View](https://developer.mozilla.org/docs/Tools/Responsive_Design_View), [Page Inspector](https://developer.mozilla.org/docs/Tools/Page_Inspector), [Web Console](https://developer.mozilla.org/docs/Tools/Web_Console), [JavaScript Debugger](https://developer.mozilla.org/docs/Tools/Debugger), [Network Monitor](https://developer.mozilla.org/docs/Tools/Network_Monitor), and [Style Editor](https://developer.mozilla.org/docs/Tools/Style_Editor).
 
-### Firefox channels (development cycle)
+#### Firefox channels (development cycle)
 
 Every 6 weeks, Firefox developers take the current stable features of each build and introduce them into the next stable channel for further development. The Developer Edition is a special build containing features never moved forward since they would be rarely used by the average user and needlessly consume resources.
 

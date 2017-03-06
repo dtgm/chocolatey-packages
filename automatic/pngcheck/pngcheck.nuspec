@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>pngcheck</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Alexander Lehmann,Andreas Dilger,Greg Roelofs</authors>
+    <owners>dtgm</owners>
+    <summary>Test PNG, JNG or MNG image files for corruption, and print size/type info</summary>
+    <description>
+pngcheck verifies the integrity of PNG, JNG and MNG files (by checking the internal 32-bit CRCs and decompressing the image data); it can optionally dump almost all of the chunk-level information in the image in human-readable form. For example, it can be used to print the basic statistics about an image (dimensions, bit depth, etc.); to list the color and transparency info in its palette (assuming it has one); or to extract the embedded text annotations. This is a command-line program with batch capabilities.
+
+#### Executables
+
+`pngcheck.exe` - test PNG, JNG or MNG image files for corruption, and print size/type info.
+`pngsplit.exe` - break a PNG, MNG or JNG image into constituent chunks (numbered for easy reassembly)
+`png-fix-IDAT-windowsize.exe` - fix minor zlib-header breakage caused by libpng 1.2.6
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
+    <projectUrl>http://www.libpng.org/pub/png/apps/pngcheck.html</projectUrl>
+    <projectSourceUrl>https://sourceforge.net/projects/png-mng/files/pngcheck/{{PackageVersion}}/</projectSourceUrl>
+    <docsUrl>http://www.libpng.org/pub/png/src/pngcheck-2.3.0.README</docsUrl>
+    <mailingListUrl>https://sourceforge.net/p/png-mng/mailman/</mailingListUrl>
+    <tags>png mng libpng debug cli</tags>
+    <copyright>© 2000-2007 Greg Roelofs</copyright>
+    <licenseUrl>https://opensource.org/licenses/gpl-2.0.php</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Changelog](http://www.libpng.org/pub/png/src/pngcheck-2.3.0.CHANGELOG)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

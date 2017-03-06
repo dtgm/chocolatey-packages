@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>nsis.portable</id>
+    <title>Nullsoft Scriptable Install System (Portable)</title>
+    <version>3.01</version>
+    <authors>NSIS Team</authors>
+    <owners>dtgm</owners>
+    <summary>Windows installer development tool</summary>
+    <description>
+NSIS (Nullsoft Scriptable Install System) is a professional open source system to create Windows installers. It is designed to be as small and flexible as possible and is therefore very suitable for internet distribution.
+
+Being a user's first experience with your product, a stable and reliable installer is an important component of succesful software. With NSIS you can create such installers that are capable of doing everything that is needed to setup your software.
+
+NSIS is script-based and allows you to create the logic to handle even the most complex installation tasks. Many plug-ins and scripts are already available: you can create web installers, communicate with Windows and other software components, install or update shared components and more.
+
+[Screenshots](http://nsis.sourceforge.net/Screenshots)
+[FAQ](http://nsis.sourceforge.net/FAQ)
+[Developer Center](http://nsis.sourceforge.net/Developer_Center)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/nsis.portable/</packageSourceUrl>
+    <projectUrl>http://nsis.sourceforge.net/</projectUrl>
+    <projectSourceUrl>https://sourceforge.net/p/nsis/code/HEAD/tree/</projectSourceUrl>
+    <bugTrackerUrl>http://nsis.sourceforge.net/Bug_Reports</bugTrackerUrl>
+    <docsUrl>http://nsis.sourceforge.net/Support</docsUrl>
+    <mailingListUrl>http://nsis.sourceforge.net/Community</mailingListUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/7d5e648830fdca7a958270dae82fba8c7fe44f5d/icons/nsis.png</iconUrl>
+    <tags>installer build developer programming</tags>
+    <copyright>© 1999 NSIS Contributors</copyright>
+    <licenseUrl>http://nsis.sourceforge.net/License</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [News](http://nsis.sourceforge.net/News)
+* [Changelog](http://nsis.sourceforge.net/Change_Log)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

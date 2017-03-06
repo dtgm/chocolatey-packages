@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>telegram.install</id>
+    <title>Telegram (Install)</title>
+    <version>0.10.19</version>
+    <authors>Pavel Durov,Nikolai Durov</authors>
+    <owners>dtgm</owners>
+    <summary>Cloud-based synchronized messaging app with a focus on speed and security</summary>
+    <description>
+Telegram is a cloud-based synchronized messaging app with a focus on speed and security. It's superfast, simple and free. You can use Telegram on all your devices at the same time - [Android](https://telegram.org/dl/android), [iOS](https://telegram.org/dl/ios), [WP](https://telegram.org/dl/wp), [Firefox](https://marketplace.firefox.com/app/telegram), [Chrome](https://telegram.org/dl/webogram/chromeapp), [Web Browser](https://telegram.org/dl/webogram), [Mac](https://telegram.org/dl/osx), [Linux](https://desktop.telegram.org/linux), and Windows desktop (this package) - your messages sync seamlessly across any of your phones, tablets or computers.
+
+With Telegram, you can send messages, photos, videos and files of any type (doc, zip, mp3, etc) to people who are in your phone contacts and have Telegram. You can also create groups for up to 200 people or send broadcasts to up to 100 contacts. As a result, Telegram is like SMS and email combined - and can take care of all your personal or business messaging needs.
+
+#### [Features](https://telegram.org/#why-switch-to-Telegram)
+
+#### Documentation
+* [FAQ](https://telegram.org/faq)
+* [FAQ-Technical](https://core.telegram.org/techfaq)
+* [API](https://core.telegram.org/api)
+* [Protocol](https://core.telegram.org/mtproto)
+* [Schema](https://core.telegram.org/schema)
+
+#### Community
+* [Facebook](https://telegram.org/faq#facebook)
+* [Twitter](https://telegram.org/faq#twitter)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/telegram.install/</packageSourceUrl>
+    <projectUrl>https://desktop.telegram.org/</projectUrl>
+    <projectSourceUrl>https://telegram.org/apps#source-code</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/telegramdesktop/tdesktop/issues</bugTrackerUrl>
+    <docsUrl>https://telegram.org/faq</docsUrl>
+    <tags>im messenger chat synchronized cloud admin</tags>
+    <copyright>© 2013 Pavel Durov and Nikolai Durov</copyright>
+    <licenseUrl>https://github.com/telegramdesktop/tdesktop/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/22f97d7004cdb3702d7ac64d4fc81b47e25e89cf/icons/telegram.png</iconUrl>
+    <releaseNotes>
+#### Program
+* [News](https://telegram.org/blog)
+* [Changelog](https://desktop.telegram.org/#changelog)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

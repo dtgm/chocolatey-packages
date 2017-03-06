@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>bitmessage</id>
+    <title>Bitmessage</title>
+    <version>0.6.1</version>
+    <authors>Jonathan Warren</authors>
+    <owners>dtgm</owners>
+    <summary>P2P communications protocol used to send encrypted messages to another person or to many subscribers</summary>
+    <description>
+Bitmessage is decentralized and trustless, meaning that you need-not inherently trust any entities like root certificate authorities. It uses strong authentication which means that the sender of a message cannot be spoofed, and it aims to hide "non-content" data, like the sender and receiver of messages, from passive eavesdroppers like those running warrantless wiretapping programs.
+
+[Community support forum](https://bitmessage.org/forum/)
+[Frequently Asked Questions](https://bitmessage.org/wiki/FAQ)
+[Source code repository](https://github.com/Bitmessage/PyBitmessage)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/bitmessage/</packageSourceUrl>
+    <projectUrl>https://bitmessage.org</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/7360d0d0c008f92e6ae5c5f2e8fcb3a09d0772ef/icons/bitmessage.svg</iconUrl>
+    <tags>encryption p2p privacy communications</tags>
+    <copyright>© Bitmessage</copyright>
+    <licenseUrl>http://opensource.org/licenses/mit-license.php</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>https://bitmessage.org/wiki/Changelog</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

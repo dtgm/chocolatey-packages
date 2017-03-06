@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
   <metadata>
     <id>newsbin</id>
@@ -14,13 +14,13 @@ Newsbin is a NNTP client. A connection to a NNTP service is required.
 * [15 day trial](https://www.newsbin.com/trialkey.php)
 * [Buy](http://www.newsbin.com/buy.php)
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/newsbin/6.70</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/newsbin/</packageSourceUrl>
     <projectUrl>http://www.newsbin.com/</projectUrl>
     <bugTrackerUrl>http://forums.newsbin.com/viewforum.php?f=37</bugTrackerUrl>
     <mailingListUrl>http://forums.newsbin.com/</mailingListUrl>
     <docsUrl>http://help.newsbin.com/index.php</docsUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/18cb8dc097f5ce53195cbdb0c11c788f3cced423/icons/newsbin.png</iconUrl>
-    <tags>nntp client shareware trial</tags>
+    <tags>nntp client shareware trial admin</tags>
     <copyright>© DJI Interprises, LLC</copyright>
     <licenseUrl>http://www.newsbin.com/license.php</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

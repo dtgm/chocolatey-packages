@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
     <id>{{PackageName}}</id>
     <title>Cmder</title>
@@ -21,7 +21,16 @@ Combines utility of 3 distinct tools:
 This package uncompresses to 250 MB and includes Unix commands via bundled msysgit.
 See [cmdermini](https://chocolatey.org/packages/cmdermini) (7 MB) for basic console without bundled msysgit.
 
-By default, this package installs into `$env:ChocolateyToolsLocation\cmder`
+#### Install location
+
+This package installs into the `cmder` subdirectory of the path defined in the environment variable:
+
+* &lt;chocolatey-0.9.10: `$env:ChocolateyBinRoot`
+* &gt;=chocolatey-0.9.10: `$env:ChocolateyToolsLocation`
+
+To determine installed chocolatey version: `choco -v`
+
+Note that when upgrading to &gt;=0.9.10, if `$env:ChocolateyBinRoot` exists, the value will be preserved and variable updated to new name. If neither variable exists, the default location is used: `$env:SystemDrive\tools`
     </description>
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://cmder.net/</projectUrl>
@@ -38,7 +47,7 @@ By default, this package installs into `$env:ChocolateyToolsLocation\cmder`
 * [Changelog](https://github.com/cmderdev/cmder/blob/master/CHANGELOG.md)
 
 #### Package
-* Manually built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+* Automatically (stable releases only) built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
     <dependencies>
       <dependency id="vcredist2010" />

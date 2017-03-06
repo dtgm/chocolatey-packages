@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>superantispyware</id>
+    <title>SUPERAntiSpyware</title>
+    <version>6.0.1228</version>
+    <authors>SUPERAntiSpyware</authors>
+    <owners>dtgm</owners>
+    <summary>Anti-spyware scanner</summary>
+    <description>
+Detects and remove spyware, adware, malware, trojans, rogue software, worms, rootkits, parasites and other potentially harmful software applications, as well as restore modified system settings.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/superantispyware/</packageSourceUrl>
+    <projectUrl>http://www.superantispyware.com/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/d1e037cc7c943fda29b9067b3b1c3229d99402ff/icons/superantispyware.png</iconUrl>
+    <tags>unattended anti-spyware anti-malware adware trojan admin</tags>
+    <copyright>© Support.com Inc</copyright>
+    <licenseUrl>http://www.superantispyware.com/eula.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Changelog](http://www.superantispyware.com/producthistory.html?id=SUPERANTISPYWAREFREE)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="autohotkey.portable" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

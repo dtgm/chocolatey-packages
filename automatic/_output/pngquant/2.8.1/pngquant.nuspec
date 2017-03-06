@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>pngquant</id>
+    <title>pngquant</title>
+    <version>2.8.1</version>
+    <authors>Kornel Lesiński</authors>
+    <owners>dtgm</owners>
+    <summary>Lossy PNG compressor</summary>
+    <description>
+pngquant is a command-line conversion utility and library to [quantize](https://wikipedia.org/wiki/Quantization_%28image_processing%29) (lossy compression) and [dither](https://wikipedia.org/wiki/Dither) truecolor PNG images, especially those with a full alpha channel, down to 8-bit (or smaller) RGBA-palette PNGs. Such images are usually two to four times smaller than the full 32-bit versions, and partial transparency is preserved quite nicely. This makes pngquant especially useful both for Web sites and for PlayStation 2 development, where one of the texture formats is RGBA-palette-based (though not PNG-compressed). This is the same technique used for many of the images on the Miscellaneous Transparent PNGs page (http://www.libpng.org/pub/png/pngs-img.html), and the results are often indistinguishable from the original, truecolor PNG images.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/pngquant/</packageSourceUrl>
+    <projectUrl>https://pngquant.org/</projectUrl>
+    <projectSourceUrl>https://github.com/pornel/pngquant</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/pornel/pngquant/issues</bugTrackerUrl>
+    <docsUrl>https://pngquant.org/#manual</docsUrl>
+    <tags>png compress cli</tags>
+    <copyright>© 2009-Current Kornel Lesiński, 1997-2002 Greg Roelofs, 1989,1991 Jef Poskanzer</copyright>
+    <licenseUrl>https://github.com/pornel/pngquant/blob/master/COPYRIGHT</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Changelog](https://raw.githubusercontent.com/pornel/pngquant/master/CHANGELOG)
+* [Old homepage](http://www.libpng.org/pub/png/apps/pngquant.html)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

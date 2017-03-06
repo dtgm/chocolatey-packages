@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>aria2</id>
+    <title>aria2</title>
+    <version>1.30.0.1</version>
+    <authors>Tatsuhiro Tsujikawa</authors>
+    <owners>tonigellida dtgm</owners>
+    <summary>CLI Metalink/BitTorrent client</summary>
+    <description>
+aria2 is a multi-protocol &amp; multi-source, cross platform download utility.  The supported protocols are HTTP(S), FTP, BitTorrent, Metalink. It can download a file from multiple sources/protocols and tries to utilize your maximum download bandwidth.
+
+### Features
+* Multi-Connection Download. aria2 can download a file from multiple sources/protocols and tries to utilize your maximum download bandwidth. Really speeds up your download experience.
+* Lightweight. aria2 doesn’t require much memory and CPU time. When disk cache is off, the physical memory usage is typically 4MiB (normal HTTP/FTP downloads) to 9MiB (BitTorrent downloads). CPU usage in BitTorrent with download speed of 2.8MiB/sec is around 6%.
+* Fully Featured BitTorrent Client. All features you want in BitTorrent client are available: DHT, PEX, Encryption, Magnet URI, Web-Seeding, Selective Downloads, Local Peer Discovery and UDP tracker.
+* Metalink Enabled. aria2 supports The Metalink Download Description Format (aka Metalink v4), Metalink version 3 and Metalink/HTTP. Metalink offers the file verification, HTTP/FTP/BitTorrent integration and the various configurations for language, location, OS, etc.
+* Remote Control. aria2 supports RPC interface to control the aria2 process. The supported interfaces are JSON-RPC (over HTTP and WebSocket) and XML-RPC.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/aria2/</packageSourceUrl>
+    <projectUrl>https://aria2.github.io/</projectUrl>
+    <projectSourceUrl>https://github.com/tatsuhiro-t/aria2</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/tatsuhiro-t/aria2/issues</bugTrackerUrl>
+    <docsUrl>https://aria2.github.io/manual/en/html/index.html</docsUrl>
+    <tags>cli download manager ftp bittorrent metalink</tags>
+    <copyright>© Tatsuhiro Tsujikawa</copyright>
+    <licenseUrl>https://github.com/tatsuhiro-t/aria2/blob/master/COPYING</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/732a79a2b9e31faef3b3206fddc25e192d6b516b/icons/aria2.png</iconUrl>
+    <releaseNotes>
+#### Program
+* [Changelog](https://github.com/tatsuhiro-t/aria2/releases/)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>procdump</id>
+    <title>ProcDump</title>
+    <version>8.20</version>
+    <authors>Mark Russinovich</authors>
+    <owners>dtgm</owners>
+    <summary>Command-line utility to capture process dumps</summary>
+    <description>
+ProcDump is a command-line utility whose primary purpose is monitoring an application for CPU spikes and generating crash dumps. 
+
+#### Command line usage
+
+__procdump__ [__-a__] [[__-c__|__-cl__ _CPU usage_] [__-u__] [__-s__ _seconds_]] [__-n__ _exceeds_] [__-e__ [1 [__-b__]] [__-f__ &lt;filter,...&gt;] [__-g__] [__-h__] [__-l__] [__-m__|__-ml__ _commit usage_] [__-ma__ | __-mp__] [__-o__] [__-p__|__-pl__ _counter threshold_] [__-r__] [__-t__] [__-d__ &lt;_callback DLL_&gt;] [__-64__] &lt;[__-w__] &lt;_process name_ | _service name_ | _PID_&gt; [_dump file_] | __-i__ &lt;dump file&gt; | __-u__ | __-x__ &lt;dump file&gt; &lt;image file&gt; [_arguments_] &gt;] [__-?__ [ __-e__]
+
+__-a__
+`     Avoid outage. Requires -r. If the trigger will cause the target to suspend for a prolonged time due to an exceeded concurrent dump limit, the trigger will be skipped`
+
+__-b__
+`     Treat debug breakpoints as exceptions (otherwise ignore them)`
+
+__-c__
+`     CPU threshold at which to create a dump of the process`
+
+__-cl__
+`     CPU threshold below which to create a dump of the process`
+
+__-d__
+`     Invoke the minidump callback routine named MiniDumpCallbackRoutine of the specified DLL`
+
+__-e__
+`     Write a dump when the process encounters an unhandled exception. Include the 1 to create dump on first chance exceptions`
+
+__-f__
+`     Filter the first chance exceptions. Wildcards (*) are supported. To just display the names without dumping, use a blank ("") filter`
+
+__-g__
+`     Run as a native debugger in a managed process (no interop)`
+
+__-h__
+`     Write dump if process has a hung window (does not respond to window messages for at least 5 seconds)`
+
+__-i__
+`     Install ProcDump as the AeDebug postmortem debugger. Only -ma, -mp, -d and -r are supported as additional options`
+
+__-l__
+`     Display the debug logging of the process`
+
+__-m__
+`     Memory commit threshold in MB at which to create a dump`
+
+__-ma__
+`     Write a dump file with all process memory. The default dump format only includes thread and handle information`
+
+__-ml__
+`     Trigger when memory commit drops below specified MB value`
+
+__-mp__
+`     Write a dump file with thread and handle information, and all read/write process memory. To minimize dump size, memory areas larger than 512MB are searched for, and if found, the largest area is excluded. A memory area is the collection of same sized memory allocation areas. The removal of this (cache) memory reduces Exchange and SQL Server dumps by over 90%`
+
+__-n__
+`     Number of dumps to write before exiting`
+
+__-o__
+`     Overwrite an existing dump file`
+
+__-p__
+`     Trigger on the specified performance counter when the threshold is exceeded. Note: to specify a process counter when there are multiple instances of the process running, use the process ID with the following syntax: "\Process(&lt;name&gt;`_&lt;pid&gt;)\counter"`
+
+__-pl__
+`     Trigger when performance counter falls below the specified value`
+
+__-r__
+`     Dump using a clone. Concurrent limit is optional (default 1, max 5).  CAUTION: a high concurrency value may impact system performance`
+      
+  * Windows 7, 8 : Uses Reflection. OS doesn't support -e.      
+  * Windows 8.1+ : Uses PSS. All trigger types are supported.      
+
+__-s__
+`     Consecutive seconds before dump is written (default is 10)`
+
+__-t__
+`     Write a dump when the process terminates`
+
+__-u__
+`     Treat CPU usage relative to a single core (used with -c).  As the only option, Uninstalls ProcDump as the postmortem debugger`
+
+__-w__
+`     Wait for the specified process to launch if it's not running`
+
+__-x__
+`     Launch the specified image with optional arguments. If it is a Store Application or Package, ProcDump will start on the next activation (only)`
+
+__-64__
+`     By default ProcDump will capture a 32-bit dump of a 32-bit process when running on 64-bit Windows. This option overrides to create a 64-bit dump. Only use for WOW64 subsystem debugging`
+
+__-?__
+`     Use -? -e to see example command lines`
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/procdump/</packageSourceUrl>
+    <projectUrl>https://technet.microsoft.com/sysinternals/dd996900</projectUrl>
+    <mailingListUrl>http://forum.sysinternals.com/</mailingListUrl>
+    <tags>debug process dump sysinternals cli</tags>
+    <copyright>© Mark Russinovich</copyright>
+    <licenseUrl>https://technet.microsoft.com/sysinternals/bb469936</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [News](http://blogs.technet.com/Sysinternals)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

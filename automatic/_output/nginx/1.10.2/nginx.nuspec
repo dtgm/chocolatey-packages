@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>nginx</id>
+    <title>nginx</title>
+    <version>1.10.2</version>
+    <authors>Igor Sysoev</authors>
+    <owners>dtgm</owners>
+    <summary>HTTP and reverse proxy server</summary>
+    <description>
+nginx [engine x] is an HTTP and reverse proxy server, a mail proxy server, a generic TCP/UDP proxy server, as well as a load balancer and an HTTP cache.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/nginx/</packageSourceUrl>
+    <projectUrl>http://nginx.org</projectUrl>
+    <projectSourceUrl>https://trac.nginx.org/nginx/browser</projectSourceUrl>
+    <bugTrackerUrl>https://trac.nginx.org/nginx</bugTrackerUrl>
+    <docsUrl>http://nginx.org/docs/</docsUrl>
+    <mailingListUrl>http://nginx.org/en/support.html</mailingListUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/c3aabd0695aa9882f3a8540b9a7196be8d8c2839/icons/nginx.png</iconUrl>
+    <tags>webserver proxy caching load-balancing</tags>
+    <copyright>© Nginx, Inc.</copyright>
+    <licenseUrl>http://nginx.org/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [News](https://www.nginx.com/blog/)
+* [Roadmap](https://trac.nginx.org/nginx/roadmap)
+* [Changelog](http://nginx.org/en/CHANGES)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

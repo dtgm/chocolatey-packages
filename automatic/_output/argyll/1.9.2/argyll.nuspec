@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>argyll</id>
+    <title>Argyll CMS</title>
+    <version>1.9.2</version>
+    <authors>Graeme Gill</authors>
+    <owners>dtgm</owners>
+    <summary>Color Management System, calibrator and profiler</summary>
+    <description>
+Argyll Color Management System is an ICC compatible color management system, available as Open Source. It supports accurate ICC profile creation for scanners, cameras and film recorders, and calibration and profiling of displays and RGB &amp; CMYK printers. Device Link can be created with a wide variety of advanced options, including specialized Video calibration standards  and 3dLuts. Spectral sample data is supported, allowing a selection of illuminants observer types, and paper fluorescent whitener additive compensation. Profiles can also incorporate source specific gamut mappings for perceptual and saturation intents. Gamut mapping and profile linking uses the CIECAM02 appearance model, a unique gamut mapping algorithm, and a wide selection of rendering intents. It also includes code for the fastest portable 8 bit raster color conversion engine available anywhere, as well as support for fast, fully accurate 16 bit conversion. Device color gamuts can also be viewed and compared using a VRML viewer. Comprehensive documentation is provided for each major tool, and a general guide to using the tools for typical color management tasks is also available. A mailing list provides support for more advanced usage.
+
+Argyll is a collection of source code that compiles into a set of command line tools, licensed under the GNU licensing terms.
+
+Argyll also includes a general purpose ICC V2 profile format access library, icclib, and a general purpose CGATS file format I/O library.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/argyll/</packageSourceUrl>
+    <projectUrl>http://argyllcms.com/</projectUrl>
+    <projectSourceUrl>http://argyllcms.com/downloadsrc.html</projectSourceUrl>
+    <docsUrl>http://argyllcms.com/doc/ArgyllDoc.html</docsUrl>
+    <mailingListUrl>http://argyllcms.com/mailinglist.html</mailingListUrl>
+    <tags>graphics calibration color management cli</tags>
+    <copyright>© 1995 Graeme Gill</copyright>
+    <licenseUrl>https://www.gnu.org/licenses/agpl-3.0.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Changelog](http://argyllcms.com/doc/ChangesSummary.html)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

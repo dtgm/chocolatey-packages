@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>netbscanner</id>
+    <title>NetBScanner</title>
+    <version>1.11</version>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm</owners>
+    <summary>NetBIOS scanner</summary>
+    <description>
+NetBScanner is a network scanner tool that scans all computers in the IP addresses range you choose, using NetBIOS protocol.
+
+For every computer located by this NetBIOS scanner, the following information is displayed: IP Address, Computer Name, Workgroup or Domain, MAC Address, and the company that manufactured the network adapter (determined according to the MAC address).
+
+NetBScanner also shows whether a computer is a Master Browser.
+
+You can easily select one or more computers found by NetBScanner, and then export the list into csv/tab-delimited/xml/html file. 
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/netbscanner/</packageSourceUrl>
+    <projectUrl>http://www.nirsoft.net/utils/netbios_scanner.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/netbscanner.png</iconUrl>
+    <tags>network scanner netbios</tags>
+    <copyright>© 2012 NirSoft</copyright>
+    <licenseUrl>http://www.nirsoft.net/utils/netbios_scanner.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

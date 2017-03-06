@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>graphicsmagick</id>
+    <title>GraphicsMagick</title>
+    <version>1.3.25</version>
+    <authors>GraphicsMagick Group</authors>
+    <owners>dtgm</owners>
+    <summary>Swiss army knife of image processing</summary>
+    <description>
+GraphicsMagick is the swiss army knife of image processing. It provides a robust and efficient collection of tools and libraries which support reading, writing, and manipulating an image in over 88 major formats including important formats like DPX, GIF, JPEG, JPEG-2000, PNG, PDF, PNM, and TIFF.
+
+Image processing is multi-threaded (see the [multi-thread benchmark](http://www.graphicsmagick.org/OpenMP.html) results) using OpenMP so that CPU-bound tasks scale linearly as processor cores are added. OpenMP support requires compilation with GCC 4.2 (or later), or use of any C compiler supporting at least the OpenMP 2.0 specification.
+
+GraphicsMagick is originally derived from ImageMagick 5.5.2 as of November 2002 but has been completely independent of the ImageMagick project since then.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/graphicsmagick/</packageSourceUrl>
+    <projectUrl>http://www.graphicsmagick.org</projectUrl>
+    <projectSourceUrl>https://sourceforge.net/p/graphicsmagick/code/</projectSourceUrl>
+    <bugTrackerUrl>https://sourceforge.net/p/graphicsmagick/bugs/</bugTrackerUrl>
+    <docsUrl>https://sourceforge.net/p/graphicsmagick/wiki/</docsUrl>
+    <mailingListUrl>https://sourceforge.net/p/graphicsmagick/mailman/</mailingListUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/c6a683db00f02ebb520e0cb539e86124483dac27/icons/graphicsmagick.png</iconUrl>
+    <tags>image graphics magick convert openmp admin</tags>
+    <copyright>© 2002 GraphicsMagick Group</copyright>
+    <licenseUrl>http://www.graphicsmagick.org/Copyright.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [News](http://www.graphicsmagick.org/NEWS.html)
+* [Changelog](http://www.graphicsmagick.org/Changelog.html)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies> 
+      <dependency id="chocolatey-uninstall.extension" /> 
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

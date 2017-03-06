@@ -1,11 +1,11 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="39ef21a7-4091-4668-8c0a-94707d4f299f">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>1806328</LastFileSize>
-    <LastFileDate>2016-02-09T17:23:40.9376065</LastFileDate>
+    <LastFileSize>377766</LastFileSize>
+    <LastFileDate>2016-08-14T14:16:29-05:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Avoid</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -21,7 +21,7 @@
     <Variables>
       <item>
         <key>
-          <string>yopush</string>
+          <string>nopush</string>
         </key>
         <value>
           <UrlVariable>
@@ -32,7 +32,7 @@
             <StartText>&lt;span class="appver" itemprop="softwareVersion"&gt;</StartText>
             <EndText />
             <TextualContent>--nopush</TextualContent>
-            <Name>yopush</Name>
+            <Name>nopush</Name>
           </UrlVariable>
         </value>
       </item>
@@ -73,8 +73,36 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>0</TextualContent>
+            <TextualContent>2</TextualContent>
             <Name>cscript</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url64</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>http://www.rarlab.com/rar/winrar-x64-{version:replace:.:}.exe</TextualContent>
+            <Name>url64</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>checksum64file</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>{url64}</TextualContent>
+            <Name>checksum64file</Name>
           </UrlVariable>
         </value>
       </item>
@@ -85,12 +113,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\wrar531.exe</PreviousLocation>
+    <PreviousLocation>C:\exe\winrar_5.40.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2016-02-09T17:23:40.9376065</LastUpdated>
-    <TargetPath>{workdir}\</TargetPath>
+    <LastUpdated>2016-12-21T16:45:12.0390455-06:00</LastUpdated>
+    <TargetPath>{saveDir}\{appname}_{version}.{url:ext}</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>winrar</Name>
   </ApplicationJob>

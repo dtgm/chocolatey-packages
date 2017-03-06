@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>apktool</id>
+    <title>Apktool</title>
+    <version>2.2.1</version>
+    <authors>Ryszard Wiśniewski</authors>
+    <owners>dtgm</owners>
+    <summary>Tool for reverse engineering Android apk files</summary>
+    <description>
+A tool for reverse engineering 3rd party, closed, binary Android apps. It can decode resources to nearly original form and rebuild them after making some modifications; it makes possible to debug smali code step by step. Also it makes working with an app easier because of project-like file structure and automation of some repetitive tasks like building apk, etc.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/apktool</packageSourceUrl>
+    <projectUrl>http://ibotpeaches.github.io/Apktool/</projectUrl>
+    <projectSourceUrl>https://github.com/iBotPeaches/Apktool</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/iBotPeaches/Apktool/issues</bugTrackerUrl>
+    <docsUrl>http://ibotpeaches.github.io/Apktool/documentation/</docsUrl>
+    <mailingListUrl>http://ibotpeaches.github.io/Apktool/#links-of-interest</mailingListUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/0e8f8df66be31aa4ebbed0397a149a5ce3aaf7e9/icons/apktool.png</iconUrl>
+    <tags>apk smali android admin</tags>
+    <copyright>© 2014 Ryszard Wiśniewski</copyright>
+    <licenseUrl>https://raw.githubusercontent.com/iBotPeaches/Apktool/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [News](http://ibotpeaches.github.io/Apktool/#news)
+* [Roadmap](https://github.com/iBotPeaches/Apktool/milestones)
+* [Changelog](http://ibotpeaches.github.io/Apktool/changes/)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="javaruntime" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

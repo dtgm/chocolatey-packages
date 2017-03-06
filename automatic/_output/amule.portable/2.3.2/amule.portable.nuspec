@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>amule.portable</id>
+    <title>aMule (Portable)</title>
+    <version>2.3.2</version>
+    <authors>aMule</authors>
+    <owners>dtgm</owners>
+    <summary>All-platform eMule P2P Client</summary>
+    <description>
+aMule stands for all-platform eMule file-sharing program. It is affiliated with the eMule project and was forked from xMule on 08/2003. It connects to the eDonkey2000 network, supports Linux, Mac, Solaris, *BSD platforms, and nearly every processor arch.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/amule.portable/</packageSourceUrl>
+    <projectUrl>http://www.amule.org/</projectUrl>
+    <projectSourceUrl>https://github.com/amule-project/amule</projectSourceUrl>
+    <bugTrackerUrl>http://bugs.amule.org/</bugTrackerUrl>
+    <docsUrl>http://wiki.amule.org/</docsUrl>
+    <mailingListUrl>http://forum.amule.org/</mailingListUrl>
+    <tags>p2p torrent dht filesharing</tags>
+    <copyright>© 2003 aMule</copyright>
+    <licenseUrl>https://github.com/amule-project/amule/blob/master/docs/COPYING</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/5a894be4ad3bdf4d8998120d801b409f0f1b194f/icons/amule.png</iconUrl>
+    <releaseNotes>
+#### Program
+* [Changelog](http://wiki.amule.org/wiki/Changelog_latest)
+* [SVN Changelog](http://bugs.amule.org/changelog_page.php)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

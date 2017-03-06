@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>duplicatefilefinder</id>
+    <title>Duplicate File Finder</title>
+    <version>6.1.0.0</version>
+    <authors>Auslogics</authors>
+    <owners>dtgm</owners>
+    <summary>Sort through images, music, videos and other personal files to remove duplicate copies</summary>
+    <description>
+Duplicate File Finder will help you locate and remove useless file duplicates to free up disk space and better organize your file collections. You will have full control in being able to look through the list of duplicates and decide which copy to keep. 
+
+#### Features
+* Free -- This program is totally free with no term limitations for home or commercial use. Free regular updates included.
+* Smart algorithm -- The software uses intelligent algorithms to compare not only file names, but also contents to ensure no false search results.
+* Gives you full control -- You can specify the file types to look for, then go through the search results and decide which copies to delete.
+
+[Screenshots](http://www.auslogics.com/en/software/duplicate-file-finder/popup/screenshots/)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/duplicatefilefinder/</packageSourceUrl>
+    <projectUrl>http://www.auslogics.com/en/software/duplicate-file-finder/</projectUrl>
+    <docsUrl>http://www.auslogics.com/en/support/product/duplicate-file-finder/</docsUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/74b4deb4238ff4592c0f410cf0edd540832558c7/icons/duplicatefilefinder.png</iconUrl>
+    <tags>file-duplicates deduplication admin</tags>
+    <copyright>© 2009 Auslogics</copyright>
+    <licenseUrl>http://www.auslogics.com/en/support/product/duplicate-file-finder/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Changelog](http://www.auslogics.com/en/software/duplicate-file-finder/popup/history/)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="chocolatey-uninstall.extension" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

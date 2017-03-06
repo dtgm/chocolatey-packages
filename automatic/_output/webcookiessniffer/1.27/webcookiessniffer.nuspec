@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>webcookiessniffer</id>
+    <title>WebCookiesSniffer</title>
+    <version>1.27</version>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm</owners>
+    <summary>Capture Web site cookies</summary>
+    <description>
+WebCookiesSniffer is a packet sniffer tool that captures all Web site cookies sent between the Web browser and the Web server and displays them in a simple cookies table.
+
+The upper pane of WebCookiesSniffer displays the cookie string and the Web site/host name that sent or received this cookie.
+
+When selecting a cookie string in the upper pane, WebCookiesSniffer parses the cookie string and displays the cookies as name-value format in the lower pane. 
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/webcookiessniffer/</packageSourceUrl>
+    <projectUrl>http://www.nirsoft.net/utils/web_cookies_sniffer.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/webcookiessniffer.png</iconUrl>
+    <tags>cookies sniffer packet browser</tags>
+    <copyright>© 2011 NirSoft</copyright>
+    <licenseUrl>http://www.nirsoft.net/utils/web_cookies_sniffer.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

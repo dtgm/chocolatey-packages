@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>sumo</id>
+    <title>SUMo</title>
+    <version>5.0.7.339</version>
+    <authors>KC Softwares</authors>
+    <owners>dtgm</owners>
+    <summary>Keep your PC up-to-date by using the most recent version of your favorite software</summary>
+    <description>
+SUMo (__S__oftware __U__pdate __Mo__nitor) keeps your PC up-to-date and safe by using the most recent version of your favorite software.
+
+Unlike built-in auto update features, SUMo tells you if updates are available before you need to use your software.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/sumo/</packageSourceUrl>
+    <projectUrl>http://www.kcsoftwares.com/?sumo</projectUrl>
+    <bugTrackerUrl>http://www.kcsoftwares.com/bugs/view_all_bug_page.php</bugTrackerUrl>
+    <tags>update-notifier admin</tags>
+    <copyright>© KC Softwares</copyright>
+    <licenseUrl>http://www.kcsoftwares.com/legal/ToU.pdf</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/d1e037cc7c943fda29b9067b3b1c3229d99402ff/icons/sumo.png</iconUrl>
+    <releaseNotes>
+[Changelog](http://www.kcsoftwares.com/bugs/changelog_page.php?project_id=11)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="autohotkey.portable" />
+    </dependencies>
+  </metadata>
+</package>

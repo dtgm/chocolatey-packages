@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>freefilesync</id>
+    <title>FreeFileSync</title>
+    <version>8.5</version>
+    <authors>Zenju</authors>
+    <owners>dtgm</owners>
+    <summary>Free backup software to synchronize files and folders</summary>
+    <description>
+FreeFileSync is a free Open Source software that helps you synchronize files and synchronize folders for Windows, Linux and Mac OS X. It is designed to save your time setting up and running backup jobs while having nice visual feedback along the way.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/freefilesync/</packageSourceUrl>
+    <projectUrl>http://www.freefilesync.org/</projectUrl>
+    <projectSourceUrl>http://www.freefilesync.org/download/FreeFileSync_8.5_Source.zip</projectSourceUrl>
+    <docsUrl>https://sourceforge.net/p/freefilesync/manual/</docsUrl>
+    <mailingListUrl>http://www.freefilesync.org/forum/</mailingListUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/169e7e206630814704e57af5467c514a70c6c83e/icons/freefilesync.png</iconUrl>
+    <tags>freefilesync sync opencandy admin</tags>
+    <copyright>© Zenju</copyright>
+    <licenseUrl>https://opensource.org/licenses/gpl-3.0.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [RSS News](http://www.freefilesync.org/news-feed.php)
+* [Changelog current](http://www.freefilesync.org/download.php)
+* [Changelog previous](http://www.freefilesync.org/archive.php)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

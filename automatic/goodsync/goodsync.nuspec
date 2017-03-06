@@ -11,14 +11,12 @@
 Reliable, bi-directional synchronization of files between computers and devices.
 
 Free with limited functionality: synchronize a maximum of 100 private files via local drives, thumbdrives, network shares, WebDAV, or FTP.
-
-[Features](https://www.goodsync.com/features)
-[User manual](https://www.goodsync.com/manual)
-[FAQ](https://www.goodsync.com/faq)
     </description>
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>https://www.goodsync.com/for-windows-desktop</projectUrl>
-    <tags>trial-version sync cloud admin</tags>
+    <bugTrackerUrl>https://www.goodsync.com/php/gsss/main</bugTrackerUrl>
+    <docsUrl>https://www.goodsync.com/manual</docsUrl>
+    <tags>trial sync cloud admin</tags>
     <copyright>© 2009 Siber Systems</copyright>
     <licenseUrl>http://www.goodsync.com/license</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

@@ -4,13 +4,14 @@
     <id>fastcopy.install</id>
     <version>3.13</version>
     <title>FastCopy</title>
-    <authors>SHIROUZU Hiroaki</authors>
-    <owners>Teknowledgist</owners>
+    <authors>Hiroaki Shirouzu</authors>
+    <owners>Teknowledgist,dtgm</owners>
     <licenseUrl>http://ipmsg.org/tools/fastcopy.html.en#license</licenseUrl>
     <projectUrl>http://ipmsg.org/tools/fastcopy.html.en</projectUrl>
     <iconUrl>https://cdn.rawgit.com/teknowledgist/Chocolatey-packages/master/Icons/FastCopy_icon.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>FastCopy is **the Fastest Copy/Delete Software on Windows**.
+    <description>
+FastCopy is **the Fastest Copy/Delete Software on Windows**.
 
 It supports UNICODE and over MAX_PATH (260 characters) file pathnames.
 
@@ -30,14 +31,15 @@ It runs fast and does not hog resources, because MFC is not used. (Designed usin
 
 * This package will install the FastCopy shell extension.
 * Install and uninstall of this package does have a few windows flash open and close.  I.E. This package is not silent, but it is no-touch.
-* Upon uninstall, a .dll file remains locked by explorer and will not be deleted until a reboot.
+* Upon uninstall, a `.dll` file remains locked by explorer and will not be deleted until a reboot.
 
-### Option
+#### Package parameters
 
-* NoSubs - The FastCopy Explorer shell extension choices will not appear in a submenu (as is the default) but rather on the main context menu.
+* `/NoSubs` - The FastCopy Explorer shell extension choices will not appear in a submenu (as is the default) but rather on the main context menu.
 
 This parameter can be requested on installation of the package like so:
-  `choco install fastcopy.install -params '"/NoSubs"'`</description>
+  `choco install fastcopy.install -params '"/NoSubs"'`
+    </description>
     <summary>The Fastest Copy/Delete Software on Windows.</summary>
     <releaseNotes>http://ipmsg.org/tools/fastcopy.html.en#history</releaseNotes>
     <copyright>Copyright © 2004-2016 by SHIROUZU Hiroaki</copyright>

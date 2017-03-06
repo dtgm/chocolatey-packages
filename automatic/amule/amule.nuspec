@@ -9,22 +9,25 @@
     <summary>All-platform eMule P2P Client</summary>
     <description>
 aMule stands for all-platform eMule file-sharing program. It is affiliated with the eMule project and was forked from xMule on 08/2003. It connects to the eDonkey2000 network, supports Linux, Mac, Solaris, *BSD platforms, and nearly every processor arch.
-
-[FAQ](http://wiki.amule.org/wiki/AMule_Project_FAQ:About)
-[Wiki](http://wiki.amule.org/wiki/AMule)
-[Forum](http://forum.amule.org/)
     </description>
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://www.amule.org/</projectUrl>
-    <projectSourceUrl>http://amule.sourceforge.net/tarballs/tarballs.xml</projectSourceUrl>
-    <tags>p2p torrent dht filesharing</tags>
+    <projectSourceUrl>https://github.com/amule-project/amule</projectSourceUrl>
+    <bugTrackerUrl>http://bugs.amule.org/</bugTrackerUrl>
+    <docsUrl>http://wiki.amule.org/</docsUrl>
+    <mailingListUrl>http://forum.amule.org/</mailingListUrl>
+    <tags>p2p torrent dht filesharing admin</tags>
     <copyright>© 2003 aMule</copyright>
-    <licenseUrl>http://wiki.amule.org/wiki/GNU_FDL</licenseUrl>
+    <licenseUrl>https://github.com/amule-project/amule/blob/master/docs/COPYING</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/5a894be4ad3bdf4d8998120d801b409f0f1b194f/icons/amule.png</iconUrl>
     <releaseNotes>
-[Changelog](http://wiki.amule.org/wiki/Changelog_latest)
-[SVN Changelog](http://bugs.amule.org/changelog_page.php)
+#### Program
+* [Changelog](http://wiki.amule.org/wiki/Changelog_latest)
+* [SVN Changelog](http://bugs.amule.org/changelog_page.php)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
     <dependencies>
       <dependency id="{{PackageName}}.install" version="[{{PackageVersion}}]" />

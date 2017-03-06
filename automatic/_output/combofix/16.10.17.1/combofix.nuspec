@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>combofix</id>
+    <title>ComboFix</title>
+    <version>16.10.17.1</version>
+    <authors>sUBs</authors>
+    <owners>dtgm</owners>
+    <summary>Malware scanner and cleaner for advanced users</summary>
+    <description>
+Scans your computer for known malware, and when found, attempts to clean these infections automatically.
+
+Combofix is a smart spyware and malware removal application known for its speed and effectiveness.
+
+ComboFix also displays a report that can be used by trained helpers to remove malware that is not automatically removed by the program.
+
+Due to the power of this tool it is strongly advised that you do not attempt to act upon any of the information displayed by ComboFix without supervision from someone who has been properly trained.
+
+If you do so, it may lead to problems with the normal functionality of your computer.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/combofix/</packageSourceUrl>
+    <projectUrl>http://www.bleepingcomputer.com/download/combofix/</projectUrl>
+    <docsUrl>http://www.bleepingcomputer.com/combofix/</docsUrl>
+    <mailingListUrl>http://www.bleepingcomputer.com/forums/</mailingListUrl>
+    <tags>anti-malware malware-remover</tags>
+    <copyright>© sUBs</copyright>
+    <licenseUrl>http://www.bleepingcomputer.com/user-agreement/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/1f25d7fb778819e076af2529bffc11fa600d1a45/icons/combofix.png</iconUrl>
+    <releaseNotes>
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

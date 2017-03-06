@@ -5,7 +5,7 @@
     <UserAgent />
     <UserNotes />
     <LastFileSize>6481574</LastFileSize>
-    <LastFileDate>2016-05-07T15:04:37-06:00</LastFileDate>
+    <LastFileDate>2016-05-14T01:50:25.8121518</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -85,7 +85,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>1</TextualContent>
+            <TextualContent>2</TextualContent>
             <Name>cscript</Name>
           </UrlVariable>
         </value>
@@ -101,7 +101,7 @@
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2016-05-14T01:50:25.8121518-06:00</LastUpdated>
+    <LastUpdated>2016-05-14T01:50:25.8121518</LastUpdated>
     <TargetPath>{saveDir}\{appname}_{version}.{url:ext}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>apktool</Name>

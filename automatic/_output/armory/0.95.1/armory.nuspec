@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>armory</id>
+    <title>Armory Wallet</title>
+    <version>0.95.1</version>
+    <authors>Armory Developers</authors>
+    <owners>dtgm</owners>
+    <summary>Open source Bitcoin wallet with cold storage and multi-signature support</summary>
+    <description>
+Armory is the most full-featured Bitcoin wallet management application available. It enables multiple encrypted wallets, permanent one-time "paper backups" for those wallets, and even a system for storing Bitcoins on an offline computer to keep them safe from online attackers. Armory is constantly being improved, with multiple security and feature releases per month.
+
+Armory’s focus is on bringing the most advanced functionality to Bitcoin users. It comes with an impressive set of features that are not available in any other client. However, Armory was designed from the start with a split interface, allowing the user to choose a "Standard" mode that provides a more appropriate level of information and options for users new to Bitcoin. The ability to tailor information to the user's Bitcoin experience level is what will help Armory become the most widely-used desktop application for Bitcoin wallet management!
+
+Although the Bitcoin network is good at securely transferring money, it is the users' responsibility to protect their own digital wallets, usually stored on their own computer. Never has personal computer security been so important, yet very few applications exist which provide such high levels of security and usability at the same time.
+
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/armory/</packageSourceUrl>
+    <projectUrl>https://bitcoinarmory.com/</projectUrl>
+    <projectSourceUrl>https://github.com/etotheipi/BitcoinArmory</projectSourceUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/08c52664dc77ed8f8087ea403fa245755212ae6d/icons/armory.png</iconUrl>
+    <tags>bitcoin btc wallet cryptocurrency security admin</tags>
+    <copyright>© Armory Technologies, Inc</copyright>
+    <licenseUrl>https://raw.githubusercontent.com/etotheipi/BitcoinArmory/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>https://bitcoinarmory.com/changelog/</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

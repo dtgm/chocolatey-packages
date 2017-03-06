@@ -10,6 +10,8 @@
     <description>
 WinRAR is a powerful archive manager. It can backup your data and reduce the size of email attachments, decompress RAR, ZIP and other files downloaded from Internet and create new archives in RAR and ZIP file format.
 
+You can find themes for WinRAR [here](http://www.rarlab.com/themes.htm).
+
 #### Commercial software
 
 You can try WinRAR before you [buy](https://shop.win-rar.com/16/purl-shop-1984-1-n).
@@ -29,6 +31,7 @@ You can try WinRAR before you [buy](https://shop.win-rar.com/16/purl-shop-1984-1
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+* Checksums are only supported for the English installer
     </releaseNotes>
   </metadata>
   <files>

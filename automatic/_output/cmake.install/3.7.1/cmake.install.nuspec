@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>cmake.install</id>
+    <title>CMake (Install)</title>
+    <version>3.7.1</version>
+    <authors>Andy Cedilnik,Bill Hoffman,Brad King,Ken Martin,Alexander Neundorf</authors>
+    <owners>dtgm</owners>
+    <summary>Cross-platform, open-source build system including CMake, CTest, CPack, and CMake-GUI</summary>
+    <description>
+CMake is a family of tools designed to build, test and package software. CMake is used to control the software compilation process using simple platform and compiler independent configuration files. CMake generates native makefiles and workspaces that can be used in the compiler environment of your choice.
+
+[Development](http://www.cmake.org/developer-resources/)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/cmake.install/</packageSourceUrl>
+    <projectUrl>http://www.cmake.org/</projectUrl>
+    <projectSourceUrl>http://www.cmake.org/gitweb?p=cmake.git;a=summary</projectSourceUrl>
+    <bugTrackerUrl>https://public.kitware.com/Bug/</bugTrackerUrl>
+    <docsUrl>http://www.cmake.org/documentation/</docsUrl>
+    <mailingListUrl>https://cmake.org/mailing-lists/</mailingListUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/4a10ab83c85abbcd25c72624739f130bd7ccba2c/icons/cmake.png</iconUrl>
+    <tags>compiler make build admin</tags>
+    <copyright>©  2000 Kitware Inc</copyright>
+    <licenseUrl>http://www.cmake.org/licensing/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [News](http://www.kitware.com/news/home/browse/CMake)
+* [Changelog](http://www.cmake.org/download/#latest)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

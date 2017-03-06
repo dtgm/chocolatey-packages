@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>jstock</id>
+    <title>JStock</title>
+    <version>1.0.7.17</version>
+    <authors>Yan Cheng Cheok</authors>
+    <owners>dtgm</owners>
+    <summary>Manage and track stock investments</summary>
+    <description>
+JStock is a free stock market software for 26 countries. It provides Stock watchlist, Intraday stock price snapshot, Stock indicator editor, Stock indicator scanner and Portfolio management. Free SMS/email alert supported. It integrates seamlessly with Android.
+
+[Features](http://jstock.org/features.html)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/jstock/</packageSourceUrl>
+    <projectUrl>http://jstock.org</projectUrl>
+    <projectSourceUrl>https://github.com/yccheok/jstock</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/yccheok/jstock/issues</bugTrackerUrl>
+    <docsUrl>http://jstock.org/help.html</docsUrl>
+    <mailingListUrl>https://trello.com/b/RCBNdkoo/jstock-free-stock-market-software</mailingListUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/73f66d0487e883d1119a25e17bbb768809c455b8/icons/jstock.png</iconUrl>
+    <tags>stocks investing market java admin</tags>
+    <copyright>© 2007 Yan Cheng Cheok</copyright>
+    <licenseUrl>http://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Changelog](https://github.com/yccheok/jstock/releases)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="autohotkey.portable" />
+      <dependency id="javaruntime" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>pwgen.install</id>
+    <title>PWGen (Install)</title>
+    <version>2.9.0</version>
+    <authors>Christian Thoeing</authors>
+    <owners>dtgm</owners>
+    <summary>Generator of cryptographically-strong passwords</summary>
+    <description>
+PWGen is a professional password generator capable of creating large amounts of cryptographically-secure passwords or passphrases consisting of words from a word list. It uses a “random pool” technique to generate random data based on user inputs (keystrokes, mouse handling) and volatile system parameters. PWGen provides lots of options to customize passwords to the users’ various needs. Additionally, it offers strong text encryption and the creation of random data files (e.g., key files).
+
+[Screenshots](https://sourceforge.net/p/pwgen-win/wiki/)
+[Forum](https://sourceforge.net/p/pwgen-win/discussion/)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/pwgen.install/</packageSourceUrl>
+    <projectUrl>http://pwgen-win.sourceforge.net/</projectUrl>
+    <projectSourceUrl>https://sourceforge.net/projects/pwgen-win/files/PWGen/2.9.0/</projectSourceUrl>
+    <bugTrackerUrl>https://sourceforge.net/p/pwgen-win/bugs/</bugTrackerUrl>
+    <tags>security admin</tags>
+    <copyright>© 2002 Christian Thoeing</copyright>
+    <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/dba349b9548d05d8969bec8f060fd7c7f255c539/icons/pwgen.png</iconUrl>
+    <releaseNotes>
+#### Program
+* News: [RSS](http://pwgen-win.sourceforge.net/feed.xml)
+* [Changelog](https://sourceforge.net/projects/pwgen-win/files/PWGen/2.9.0/)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes> 
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>  
+</package>

@@ -40,8 +40,6 @@ Every 6 weeks, Firefox developers take the current stable features of each build
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
-* Security: This package does not verify the download with checksum due to frequent updates.
-* Updating: This package is only built once for each new version release.
     </releaseNotes>
     <dependencies>
       <dependency id="chocolatey-uninstall.extension" />

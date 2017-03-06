@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>copay</id>
+    <title>Copay</title>
+    <version>2.7.0</version>
+    <authors>BitPay</authors>
+    <owners>dtgm</owners>
+    <summary>Open-source, multi-platform, multi-signature, secure bitcoin wallet platform</summary>
+    <description>
+Copay is an easy-to-use, open-source, multiplatform, multisignature, secure bitcoin wallet platform for both individuals and companies. Copay uses [Bitcore Wallet Service](https://github.com/bitpay/bitcore-wallet-service) (BWS) for peer synchronization and network interfacing.
+
+Copay is a true bitcoin wallet, not an account service. Secure your personal funds with multiple signatures, or just one.
+
+Take security into your own hands and avoid trusting third parties with your savings. Like a joint-checking account, your Copay wallet can have multiple users. To send money, the group approves each transaction.
+
+Manage shared funds with friends and coworkers. Share a wallet with your child and introduce them to bitcoin. Copay makes sharing a wallet simple and secure.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/copay/</packageSourceUrl>
+    <projectUrl>https://copay.io/</projectUrl>
+    <projectSourceUrl>https://github.com/bitpay/copay/</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/bitpay/copay/issues/</bugTrackerUrl>
+    <docsUrl>https://github.com/bitpay/copay/wiki/</docsUrl>
+    <iconUrl>https://cdn.rawgit.com/bitpay/copay/320de62f137715d238b7cf1c25dcd73efd6e4e09/public/img/icons/icon.png</iconUrl>
+    <tags>bitcoin btc cryptocurrency wallet multisig admin</tags>
+    <copyright>© 2016 BitPay</copyright>
+    <licenseUrl>https://github.com/bitpay/copay/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Changelog](https://github.com/bitpay/copay/releases/tag/v2.7.0)
+* [Terms of Use](https://copay.io/disclaimer)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="chocolatey-uninstall.extension" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

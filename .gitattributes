@@ -2,10 +2,32 @@
 
 # disable all text files from being normalized; end of line conversion will be retained
 #* -text
-# enable all text files to LF \n U+00A0
+# All text files ,enable end of line coversion to LF \n U+00A0
 * text eol=lf
 
-# Enable end of line conversion for specific files
-#*.nuspec text eol=lf
-#*.ps1 text eol=lf
-#*.ketarin.xml text eol=crlf
+# Mark binary files
+*.7z binary
+*.chm binary
+*.pdf binary
+*.data binary
+*.db  binary
+*.dll binary
+*.exe binary
+*.gif binary
+*.ico binary
+*.jpg binary
+*.jpeg binary
+*.nupkg binary
+*.pack binary
+*.png binary
+*.rar binary
+*.svgz binary
+*.tar binary
+*.gz binary
+*.gzip binary
+*.bzip2 binary
+*.zip binary
+
+# Mark specific files to use CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>gramps</id>
+    <title>Gramps</title>
+    <version>4.2.5</version>
+    <authors>Gramps Developers</authors>
+    <owners>dtgm</owners>
+    <summary>Genealogical research software</summary>
+    <description>
+Gramps is a genealogy program for Linux, Windows, Mac, and FreeBSD that allows you to easily build and keep track of your family tree. It supports the GEDCOM standard, allows fine grained privacy controls and can generate many different types of reports (descendant trees, graphs, connection diagrams, ....)
+
+* [Features](https://gramps-project.org/features/)
+* [IRC](irc://irc.freenode.net/#gramps)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/gramps/</packageSourceUrl>
+    <projectUrl>http://gramps-project.org/</projectUrl>
+    <projectSourceUrl>https://github.com/gramps-project/gramps</projectSourceUrl>
+    <bugTrackerUrl>http://bugs.gramps-project.org/</bugTrackerUrl>
+    <docsUrl>https://gramps-project.org/wiki/</docsUrl>
+    <mailingListUrl>http://sourceforge.net/p/gramps/mailman/</mailingListUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/f3917d2a806aa32320466ce7c69003628d51effa/icons/gramps.svg</iconUrl>
+    <tags>genealogy family-tree admin</tags>
+    <copyright>© Gramps Project</copyright>
+    <licenseUrl>https://github.com/gramps-project/gramps/blob/master/COPYING</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [News](https://gramps-project.org/blog/)
+* [Roadmap](https://gramps-project.org/wiki/index.php?title=Category:GEPS)
+* [Changelog](https://github.com/gramps-project/gramps/releases)
+
+#### Package
+* __Automatically built__; if this package's version is out of date by more than a day of the program's version, please [contact the maintainer](https://chocolatey.org/packages/gramps/ContactOwners).
+* Packaged by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <provides>gramps</provides>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

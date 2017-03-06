@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
+  <metadata>
+    <id>crystaldiskmark</id>
+    <title>CrystalDiskMark</title>
+    <version>5.2.0</version>
+    <authors>Noriyuki Miyazaki</authors>
+    <owners>dtgm</owners>
+    <summary>Storage disk benchmark</summary>
+    <description>
+CrystalDiskMark is a small benchmark utility for your Hard Disk Drives (HDDs) and Solid State Disks (SSDs).
+
+#### Features
+* Measure sequential reads/writes speed
+* Measure random 512KB, 4KB, 4KB (Queue Depth=32) reads/writes speed
+* Select test data (Random, 0Fill, 1Fill)
+* Theme support
+* Multi-Language support
+
+#### Important Notice
+* "MB/s" means 1,000,000 byte/sec
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/crystaldiskmark/</packageSourceUrl>
+    <projectUrl>http://crystalmark.info/software/CrystalDiskMark/index-e.html</projectUrl>
+    <docsUrl>http://crystalmark.info/software/CrystalDiskMark/manual-en/</docsUrl>
+    <tags>benchmark storage drive admin</tags>
+    <copyright>© 2007 Noriyuki Miyazaki</copyright>
+    <licenseUrl>http://crystalmark.info/software/CrystalDiskMark/manual-en/License.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/d1e037cc7c943fda29b9067b3b1c3229d99402ff/icons/crystaldiskmark.png</iconUrl>
+    <releaseNotes>
+#### Program
+* [Changelog](http://crystalmark.info/software/CrystalDiskMark/manual-en/History.html)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="chocolatey-uninstall.extension" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

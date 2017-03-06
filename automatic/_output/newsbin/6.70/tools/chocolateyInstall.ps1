@@ -1,8 +1,8 @@
-$packageName = 'newsbin'
+﻿$packageName = 'newsbin'
 $installerType = 'exe'
 $silentArgs = '/S /D=C:\Program Files\Newsbin'
-$url = 'http://www.newsbin.com/downloads/nb662-full.exe'
-$checksum = '497d114039585271b89fe954cea473fe32f33772'
+$url = 'http://www.newsbin.com/downloads/nb670-full.exe'
+$checksum = '17468be95623274f80c9386b0d01558bd7b0f8c0bc110e8e78782f6db7877f86'
 $checksumType = 'sha1'
 $url64 = "$url"
 $checksum64 = "$checksum"

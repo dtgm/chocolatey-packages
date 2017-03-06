@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>winrar</id>
+    <title>WinRAR</title>
+    <version>5.40</version>
+    <authors>win.rar GmbH</authors>
+    <owners>dtgm</owners>
+    <summary>A powerful archive manager</summary>
+    <description>
+WinRAR is a powerful archive manager. It can backup your data and reduce the size of email attachments, decompress RAR, ZIP and other files downloaded from Internet and create new archives in RAR and ZIP file format.
+
+#### Commercial software
+
+You can try WinRAR before you [buy](https://shop.win-rar.com/16/purl-shop-1984-1-n).
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/winrar/</packageSourceUrl>
+    <projectUrl>http://www.win-rar.com/</projectUrl>
+    <docsUrl>http://www.win-rar.com/faq.html</docsUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/7b7d24ec7b94193a1a70b145b43ab6bd9aeab468/icons/winrar.png</iconUrl>
+    <tags>trial rar compression archive nagware admin</tags>
+    <copyright>© 2002 Alexander Roshal</copyright>
+    <licenseUrl>http://www.win-rar.com/winrarlicense.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [News](http://www.win-rar.com/latestnews.html)
+* [Changelog](http://www.rarlab.com/rarnew.htm)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

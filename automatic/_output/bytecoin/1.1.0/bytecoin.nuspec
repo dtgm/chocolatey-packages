@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>bytecoin</id>
+    <title>Bytecoin Wallet</title>
+    <version>1.1.0</version>
+    <authors>Bytecoin Project</authors>
+    <owners>dtgm</owners>
+    <summary>First cryptocurrency created with CryptoNote technology</summary>
+    <description>
+Bytecoin is an open decentralized cryptocurrency. Anyone interested can join Bytecoin network and take part in currency development. As well as the Internet, Bytecoin is international by its nature. Bytecoin allows safe and secure transactions around the globe and offers the convenience of instant fee-free money transactions.
+
+Bytecoin is the Next Generation cryptocurrency and the first cryptocurrency created with the CryptoNote technology. The ring signatures technology is used to provide Bytecoin with completely untraceable and anonymous transactions.
+
+### Community
+* [Twitter](https://twitter.com/Bytecoin_dev)
+* [Reddit](http://www.reddit.com/r/BytecoinBCN/)
+* [Ecosystem](https://bytecoin.org/ecosystem/)
+
+### Documentation
+General
+
+* [How bytecoin works](https://bytecoin.org/info/)
+* [Wiki](https://wiki.bytecoin.org/)
+
+Technical
+
+* [Specifications](https://bytecoin.org/specifications/)
+* [CryptoNote technology](https://bytecoin.org/cryptonote/)
+* [Developer blog](https://bytecoin.org/blog/)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/bytecoin/</packageSourceUrl>
+    <projectUrl>https://bytecoin.org/</projectUrl>
+    <projectSourceUrl>https://github.com/amjuarez/bytecoin</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/amjuarez/bytecoin/issues</bugTrackerUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/3adf6dc10e926f2ac7d8b20a65f841332923dc6e/icons/bytecoin.png</iconUrl>
+    <tags>bcn p2p anonymity cryptonote cryptonight cpu-mining</tags>
+    <copyright>© 2011 Bytecoin Project</copyright>
+    <licenseUrl>https://github.com/amjuarez/bytecoin/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [News](https://bytecoin.org/news/)
+* [Roadmap](https://bytecoin.org/roadmap/)
+* [Changelog](https://github.com/amjuarez/bytecoin/blob/master/ReleaseNotes.txt)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

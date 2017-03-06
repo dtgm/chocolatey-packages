@@ -17,9 +17,9 @@ Invisible Internet Project (I2P) is an anonymous network, exposing a simple laye
 * Executing "Start I2P.exe" will start background service and launch default browser to connect to local console
 * Interface is via web browser with default address http://localhost:7657/index.jsp
 * [Ports used](https://geti2p.net/en/faq#ports) 
-* Configuration page: http://localhost:7657/confignet.jsp
-  * If inbound TCP is forwarded, also enable inbound TCP
-  * Adjust bandwidth settings as appropriate
+* Configuration page: http://localhost:7657/confignet.jsp  
+- If inbound TCP is forwarded, also enable inbound TCP  
+- Adjust bandwidth settings as appropriate
     </description>
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>https://geti2p.net</projectUrl>

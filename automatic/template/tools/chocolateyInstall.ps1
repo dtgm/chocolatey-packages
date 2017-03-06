@@ -196,7 +196,7 @@ $checksumType = 'sha256'
 $url64 = '{{DownloadUrlx64}}'
 $checksum64 = '{{Checksumx64}}'
 $checksumType64 = 'sha256'
-$toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+$toolsDir = Split-Path -parent $MyInvocation.MyCommand.Definition
 $installFile = Join-Path $toolsDir "$($packageName).exe"
 
 Get-ChocolateyWebFile -PackageName "$packageName" `
@@ -218,7 +218,7 @@ $packageName = '{{PackageName}}'
 $url = '{{DownloadUrl}}'
 $checksum = '{{Checksum}}'
 $checksumType = 'sha256'
-$toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+$toolsDir = Split-Path -parent $MyInvocation.MyCommand.Definition
 $installFile = Join-Path $toolsDir "$($packageName).exe"
 
 Get-ChocolateyWebFile -PackageName "$packageName" `
@@ -238,7 +238,7 @@ $checksumType = 'sha256'
 $url64 = '{{DownloadUrlx64}}'
 $checksum64 = '{{Checksumx64}}'
 $checksumType64 = 'sha256'
-$toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+$toolsDir = Split-Path -parent $MyInvocation.MyCommand.Definition
 $installFile = Join-Path $toolsDir "$($packageName).exe"
 
 Install-ChocolateyZipPackage -PackageName "$packageName" `
@@ -261,7 +261,7 @@ $checksumType = 'sha256'
 $url64 = "$url"
 $checksum64 = "$checksum"
 $checksumType64 = "$checksumType"
-$toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+$toolsDir = Split-Path -parent $MyInvocation.MyCommand.Definition
 $installFile = Join-Path $toolsDir "$($packageName).exe"
 
 Install-ChocolateyZipPackage -PackageName "$packageName" `
@@ -285,7 +285,7 @@ $checksumType = 'sha256'
 $url64 = $urlArray[1]
 $checksum64 = '{{Checksumx64}}'
 $checksumType64 = 'sha256'
-$toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+$toolsDir = Split-Path -parent $MyInvocation.MyCommand.Definition
 $installFile = Join-Path $toolsDir "$($packageName).exe"
 
 Install-ChocolateyZipPackage -PackageName "$packageName" `
@@ -312,7 +312,7 @@ $checksumType = 'sha256'
 $url64 = '{{DownloadUrlx64}}'
 $checksum64 = '{{Checksumx64}}'
 $checksumType64 = 'sha256'
-$toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+$toolsDir = Split-Path -parent $MyInvocation.MyCommand.Definition
 
 Install-ChocolateyZipPackage -PackageName "$packageName" `
                              -Url "$url" `
@@ -331,7 +331,7 @@ $checksumType = 'sha256'
 $url64 = $url
 $checksum64 = $checksum
 $checksumType64 = $checksumType
-$toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+$toolsDir = Split-Path -parent $MyInvocation.MyCommand.Definition
 
 Install-ChocolateyZipPackage -PackageName "$packageName" `
                              -Url "$url" `
@@ -347,7 +347,7 @@ $packageName = '{{PackageName}}'
 $url = '{{DownloadUrl}}'
 $checksum = '{{Checksum}}'
 $checksumType = 'sha256'
-$toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+$toolsDir = Split-Path -parent $MyInvocation.MyCommand.Definition
 $installFile = Join-Path $toolsDir "$($packageName).exe"
 
 Install-ChocolateyZipPackage -PackageName "$packageName" `
@@ -364,7 +364,7 @@ Set-Content -Path ("$installFile.gui") `
             
 $ErrorActionPreference = 'Stop'; # stop on all errors
 $packageName = '{{PackageName}}'
-$toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+$toolsDir = Split-Path -parent $MyInvocation.MyCommand.Definition
 $url = '{{DownloadUrl}}'
  
 $packageArgs = @{
@@ -477,7 +477,7 @@ $url = '{{DownloadUrlx64}}'
 $checksum = '{{Checksum}}'
 $checksumType = 'sha256'
 $validExitCodes = @(0)
-$toolsDir = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
+$toolsDir = Split-Path -parent $MyInvocation.MyCommand.Definition
 
 $install32File = "$toolsDir\setup32bit.exe"
 $install32Opts = "$toolsDir\setup32bit.xml"

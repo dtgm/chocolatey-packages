@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>macrocreator.portable</id>
+    <title>Pulover's Macro Creator (Portable)</title>
+    <version>5.0.5</version>
+    <authors>Rodolfo U. Batista</authors>
+    <owners>dtgm</owners>
+    <summary></summary>
+    <description>
+Pulover's Macro Creator is a free automation tool and script generator based on AutoHotkey language. It features a large range of automation commands, has a built-in recorder and can capture inputs in its interface. The macros can be executed from the program itself or you can export them to AutoHotkey Script format.
+
+[Features](http://www.macrocreator.com/highlights/)  
+[Screenshots](http://www.macrocreator.com/screenshots/)
+   </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/macrocreator.portable/</packageSourceUrl>
+    <projectUrl>http://www.macrocreator.com/</projectUrl>
+    <projectSourceUrl>https://github.com/Pulover/PuloversMacroCreator</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/Pulover/PuloversMacroCreator/issues</bugTrackerUrl>
+    <docsUrl>http://www.macrocreator.com/help/</docsUrl>
+    <mailingListUrl>https://autohotkey.com/boards/viewtopic.php?f=6%26t=143</mailingListUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/5916f6094315ccd6f3037a1bffe0531f4962c4dd/icons/macrocreator.png</iconUrl>
+    <tags>ahk automation recorder script generator</tags>
+    <copyright>© 2013 Rodolfo U. Batista</copyright>
+    <licenseUrl>https://github.com/Pulover/PuloversMacroCreator/blob/master/License.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Changelog](https://github.com/Pulover/PuloversMacroCreator/releases)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="autohotkey.portable" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

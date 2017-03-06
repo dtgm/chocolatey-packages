@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
+  <metadata>
+    <id>foldit</id>
+    <title>Foldit</title>
+    <version>0.0.20160904</version>
+    <authors>UW Center for Game Science</authors>
+    <owners>dtgm</owners>
+    <summary>Solve puzzles for science research</summary>
+    <description>
+Foldit is an online game in which humans try to solve one of the hardest computational problems in biology: protein folding. You don't need to know anything about biology to play the game, although a little background will help. Most of the players of Foldit are not biologists.
+
+[Science behind Foldit](http://fold.it/portal/info/about)
+
+#### Documentation
+* [New players](http://foldit.wikia.com/wiki/Foldit_Wiki#New_Players)
+* [FAQ](http://fold.it/portal/info/faq)
+* [Wiki](http://foldit.wikia.com/)
+
+#### Community
+* [Forum](http://fold.it/portal/forum/5)
+* [Facebook](https://www.facebook.com/folditgame)
+* [Twitter](https://twitter.com/foldit)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/foldit/</packageSourceUrl>
+    <projectUrl>http://fold.it/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/c519b8cc25a75ba3119d9e61bcf0f7fb21a906d6/icons/foldit.png</iconUrl>
+    <tags>citizen-science biology protein-folding game puzzle admin</tags>
+    <copyright>© Center for Game Science at University of Washington</copyright>
+    <licenseUrl>http://fold.it/portal/legal</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [News](http://fold.it/portal/blog)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

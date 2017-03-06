@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>kodi</id>
+    <title>Kodi</title>
+    <version>17.0</version>
+    <authors>XBMC Foundation</authors>
+    <owners>dtgm</owners>
+    <summary>Media player and entertainment hub</summary>
+    <description>
+Kodi (formerly known as XBMC) is an award-winning free and open source (GPL) software media player and entertainment hub that can be installed on Linux, OSX, Windows, iOS, and Android, featuring a 10-foot user interface for use with televisions and remote controls. It allows users to play and view most videos, music, podcasts, and other digital media files from local and network storage media and the internet. 
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/kodi/</packageSourceUrl>
+    <projectUrl>http://kodi.tv/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/b661f890dffb1beca5dd6dd0b660bc7e32244e5d/icons/kodi.svg</iconUrl>
+    <tags>mediaserver video dlna admin</tags>
+    <copyright>© XBMC Foundation</copyright>
+    <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>http://kodi.tv/tag/release/</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

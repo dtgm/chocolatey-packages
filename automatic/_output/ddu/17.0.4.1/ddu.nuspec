@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
+  <metadata>
+    <id>ddu</id>
+    <title>Display Driver Uninstaller</title>
+    <version>17.0.4.1</version>
+    <authors>Ghislain Harvey,Shady757</authors>
+    <owners>dtgm</owners>
+    <summary>Utility to completely remove system drivers</summary>
+    <description>
+Display Driver Uninstaller is a driver removal utility that can help you completely remove Graphics Processing Unit (GPU) display card drivers and packages (AMD/NVIDIA) from your system without leaving leftovers behind; including registry keys, folders and files, services, and the driver store.
+
+The AMD/NVIDIA video drivers can normally be uninstalled from the Windows Control panel, this driver uninstaller program was designed to be used in cases where the standard driver uninstall fails, or whenever you need to thoroughly delete NVIDIA and ATI video card drivers.
+
+The current effect after you use this driver removal will be similar as if its the first time you install a new driver just like a fresh, clean install of Windows. As with any tool of this kind, we recommend creating a new system restore point before using it, so that you can revert your system at any time if you run into problems.
+
+#### Usage
+* The tool can be used in Normal mode but for absolute stability when using DDU, Safe Mode is always recommended.
+* We would like to gather feedback from everyone, [tell us](http://www.wagnardmobile.com/DDU/contact.htm) if it was successful or not. 
+* Make a backup or a system restore. (but it should normally be pretty safe.)
+
+#### Community
+* [Forum - NVIDIA](http://forums.guru3d.com/showthread.php?t=379506#posts)
+* [Forum - AMD](http://forums.guru3d.com/showthread.php?t=379505#posts)
+* [Twitter](https://twitter.com/Wagnard)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/ddu/</packageSourceUrl>
+    <projectUrl>http://www.wagnardmobile.com/forums/viewforum.php?f=5</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/c0fc93b64a6310ad3f806da5164a5aa6adf9244a/icons/ddu.png</iconUrl>
+    <tags>driver uninstaller nvidia ati</tags>
+    <copyright>© Ghislain Harvey</copyright>
+    <licenseUrl>http://wikipedia.org/wiki/Freeware</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Changelog](http://www.wagnardmobile.com/DDU/?q=node/22)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

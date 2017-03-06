@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>drivergenius</id>
+    <title>Driver Genius</title>
+    <version>16.0.0.249</version>
+    <authors>Driver-Soft Inc</authors>
+    <owners>dtgm</owners>
+    <summary>Professional driver management tool and hardware diagnostics</summary>
+    <description>
+Driver Genius is a professional driver management tool that features both driver management and hardware diagnostics.
+
+#### Features
+* Find the latest drivers for your computer. One click to update all drivers silently.
+* Automatically check for driver updates, make your drivers are always up to date.
+* Quickly backup all drivers in your computer. Free to backup all drivers now!
+* Package all drivers to an executable auto installer. One click to restore all drivers.
+* Remove invalid or useless drivers, improve system performance and stability.
+* New system information tool. Detailed hardware inventory.
+* Hardware temperature monitor. Protect your CPU, GPU and HDD.
+
+#### Documentation
+* [FAQ](http://www.driver-soft.com/faq.html)
+* [Driver database](http://www.driver-soft.com/drivers.html)
+
+#### Commercial software
+This package installs the Free version. [Additional features](http://www.driver-soft.com/order.html) may be acquired by purchasing a license.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/drivergenius/</packageSourceUrl>
+    <projectUrl>http://www.driver-soft.com/product.html</projectUrl>
+    <docsUrl>http://www.driver-soft.com/userguide.html</docsUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/408ded4dd91e2df4543abc86857677fb7e10c0d3/icons/drivergenius.png</iconUrl>
+    <tags>freeware driver manager admin</tags>
+    <copyright>© 2002 Driver-Soft Inc</copyright>
+    <licenseUrl>http://www.driver-soft.com/license.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Changelog](http://www.driver-soft.com/download.html)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>manictime.install</id>
+    <title>ManicTime (Install)</title>
+    <version>3.6.7</version>
+    <authors>Yutaka Sawada</authors>
+    <owners>dtgm</owners>
+    <summary>Track and catalog window activity</summary>
+    <description>
+ManicTime automatically records your computer usage. It remembers which apps you've used and for how long. It will also remember which web sites you've visited and which documents you've worked on. All this data will help you keep track of your work hours.
+
+#### Trial/Freeware (limited functionality)
+* &lt;=15 days: all features available
+* &gt;15 days: [limited freeware](http://manictime.com/#pricing)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/manictime.install/</packageSourceUrl>
+    <projectUrl>http://manictime.com/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/9af2b8b359e29150ded46e952b0421cdee37c9d0/icons/manictime.png</iconUrl>
+    <bugTrackerUrl>http://www.manictime.com/support/</bugTrackerUrl>
+    <docsUrl>http://support.manictime.com/</docsUrl>
+    <tags>time activity tracker productivity admin</tags>
+    <copyright>© 2008 ManicTime</copyright>
+    <licenseUrl>http://www.manictime.com/pricing</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Changelog](http://www.manictime.com/releases)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="dotnet4.5" />
+    </dependencies>
+  </metadata>
+</package>

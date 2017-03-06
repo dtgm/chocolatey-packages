@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
+  <metadata>
+    <id>monodevelop</id>
+    <title>MonoDevelop</title>
+    <version>6.1.1.15</version>
+    <authors>Xamarin</authors>
+    <owners>dtgm</owners>
+    <summary>Cross platform IDE for C#, F# and more</summary>
+    <description>
+MonoDevelop is a free GNOME IDE primarily designed for C# and other .NET languages, although open to any kind of language. However, MonoDevelop hopes to be more than just an IDE: it intends to be an extensible platform upon which any kind of development tool can be built.
+
+MonoDevelop was originally a port of the SharpDevelop IDE to Gtk#, but it has evolved a lot since the initial port.
+
+There are numerous goals that MonoDevelop hopes to achieve. Some of these are:
+
+* To create a best of breed development environment for Unix systems for Mono.
+* Since its written in Gtk#, and we like Gtk# and we get good support from Gtk#, most likely it will add functionality to improve the Gtk# experience.
+* We want to integrate the tools we have been building so far, so things like MonoDoc, NUnit-Gtk and the debugger should target MonoDevelop.
+
+#### Documentation
+* [Screenshots](http://www.monodevelop.com/screenshots/)
+* [FAQ](http://www.monodevelop.com/help/faq/)
+* [Manual](http://www.monodevelop.com/documentation/)
+* [Developers](http://www.monodevelop.com/developers/)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/monodevelop/</packageSourceUrl>
+    <projectUrl>http://monodevelop.com/</projectUrl>
+    <projectSourceUrl>https://github.com/mono/mono</projectSourceUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/bae8c08374744857d3b9827c9a1463c94a683ea8/icons/monodevelop.png</iconUrl>
+    <tags>mono ide dotnet admin</tags>
+    <copyright>© MonoDevelop Project</copyright>
+    <licenseUrl>http://www.gnu.org/licenses/lgpl-2.1.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Release notes](http://www.monodevelop.com/documentation/release-notes/)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="dotnet4.5" />
+      <dependency id="gtksharp" version="[2.12.22, 3.0)" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

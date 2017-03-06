@@ -4,8 +4,8 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>5660069</LastFileSize>
-    <LastFileDate>2016-04-13T07:18:50.1049919</LastFileDate>
+    <LastFileSize>5659337</LastFileSize>
+    <LastFileDate>2016-06-30T05:26:00-06:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Avoid</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -85,11 +85,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\combofix_..exe</PreviousLocation>
+    <PreviousLocation>F:\exe\combofix_16.6.30.1.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
-    <Enabled>false</Enabled>
+    <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2016-04-13T07:18:50.1049919</LastUpdated>
+    <LastUpdated>2016-07-03T11:07:31.1670183-06:00</LastUpdated>
     <TargetPath>{saveDir}\{appname}_{version}.{url:ext}</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>combofix</Name>

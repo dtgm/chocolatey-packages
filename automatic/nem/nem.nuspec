@@ -33,7 +33,7 @@ If you have difficulty remembering secure passwords, consider using secure passw
 #### Getting started
 1. Start `$env:ProgramFiles\nemwallet\wallet.exe` - Once the client starts, it will begin downloading and syncing the NEM blockchain via port 7890. It may be necessary to setup [port forwarding](http://portforward.com/english/routers/port_forwarding/) on your router.
 2. Connect to http://127.0.0.1:8989 - The interface is a locally run service that is accessed via web browser
-3. [Acquire XEM](http://nem.io/#buyheader)
+3. [Acquire XEM](http://nem.io/buy.html)
 4. [Tutorials](http://blog.nem.io/nem-tutorial-list/)
     </description>
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>

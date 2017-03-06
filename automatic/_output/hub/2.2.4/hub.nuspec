@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>hub</id>
+    <title>hub</title>
+    <version>2.2.4</version>
+    <authors>GitHub Inc</authors>
+    <owners>dtgm</owners>
+    <summary>Command line wrapper for git that makes you better at GitHub</summary>
+    <description>
+hub is a command line tool that wraps git in order to extend it with extra features and commands that make working with GitHub easier.
+
+`$ hub clone github/hub`
+
+`# expands to:`
+`$ git clone git://github.com/github/hub.git`
+
+#### Graphical User Interface (GUI)
+
+See [github](https://chocolatey.org/packages/github)
+
+#### Requirements
+* [Free GitHub.com account](https://github.com/join) for creating or contributing to GitHub repositories.
+* Free to use for public projects.
+* Private repositories require a [paid plan](https://github.com/pricing).
+
+#### Documentation
+* [GitHub.com](https://help.github.com/) (web interface)
+* [GitHub Flow](https://guides.github.com/introduction/flow/index.html) (branch-based workflow)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/hub/</packageSourceUrl>
+    <projectUrl>https://hub.github.com/</projectUrl>
+    <projectSourceUrl>https://github.com/github/hub</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/github/hub/issues</bugTrackerUrl>
+    <docsUrl>https://hub.github.com/hub.1.html</docsUrl>
+    <tags>cli github git scm distributed tabexpansion</tags>
+    <copyright>© 2009 Chris Wanstrath</copyright>
+    <licenseUrl>https://github.com/github/hub/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/c75f45774c122e8417e1c4df31c10cc59e934158/icons/github.png</iconUrl>
+    <releaseNotes>
+#### Program
+* [Changelog](https://github.com/github/hub/releases/tag/v2.2.4)
+
+#### GitHub.com
+* [Site Status](https://status.github.com/)
+* [Site Policy](https://help.github.com/categories/site-policy/)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="git" version="1.7.3" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

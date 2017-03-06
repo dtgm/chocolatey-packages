@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>bluetoothlogview</id>
+    <title>BluetoothLogView</title>
+    <version>1.12</version>
+    <authors>Nir Sofer</authors>
+    <owners>dtgm</owners>
+    <summary>Creates a log of Bluetooth devices activity around you</summary>
+    <description>
+BluetoothLogView is a small utility that monitors the activity of Bluetooth devices around you, and displays a log of Bluetooth devices on the main window.
+
+Every time that a new Bluetooth device arrives to your area and when the device leaves your area, a new log line is added with the following information:
+
+Device Name, Device Address, Event Time, Event Type ('Device Arrival' or 'Device Left'), Device Type, and the company that created the device.
+
+BluetoothLogView also allows you to specify a description for every device (according to its MAC address) that will appear under the 'Description' column.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/bluetoothlogview/</packageSourceUrl>
+    <projectUrl>http://www.nirsoft.net/utils/bluetooth_log_view.html</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2697586f564894b3346352497da46f320a02e725/icons/bluetoothlogview.png</iconUrl>
+    <tags>log trace phone monitor</tags>
+    <copyright>© 2012 NirSoft</copyright>
+    <licenseUrl>http://www.nirsoft.net/utils/bluetooth_log_view.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

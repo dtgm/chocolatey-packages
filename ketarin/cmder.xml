@@ -1,11 +1,11 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
-  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="fa80a778-36f0-424d-8a6f-1dcebc5fcbc8">
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="89f51e28-23e0-410c-ab47-084415f9e05b">
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64)</UserAgent>
     <UserNotes />
-    <LastFileSize>25904204</LastFileSize>
-    <LastFileDate>2016-02-04T19:53:51.0826734</LastFileDate>
+    <LastFileSize>44002434</LastFileSize>
+    <LastFileDate>2016-12-01T17:23:51-06:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -31,7 +31,7 @@
             <Url />
             <StartText>'7z'])" href="https://github.com/bliker/cmder/releases/download/v</StartText>
             <EndText>/cmder.7z"</EndText>
-            <TextualContent>{getUrl:regex:(?&lt;=/v)[\d\.]{3,\}(?=/)}</TextualContent>
+            <TextualContent>{urlPath:regex:(?&lt;=releases/download/v?)[\d\.]{3,\}(?=/)}</TextualContent>
             <Name>version</Name>
           </UrlVariable>
         </value>
@@ -59,23 +59,23 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>https://github.com/{getUrl}</TextualContent>
+            <TextualContent>{urlHost}/{urlPath}</TextualContent>
             <Name>url</Name>
           </UrlVariable>
         </value>
       </item>
       <item>
         <key>
-          <string>getUrl</string>
+          <string>urlPath</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>[^ "'&lt;&gt;\*]+\.7z</Regex>
+            <Regex>/?([^ "'&lt;&gt;\*]+cmder\.7z)</Regex>
             <Url>https://github.com/bliker/cmder/releases/latest</Url>
             <TextualContent />
-            <Name>getUrl</Name>
+            <Name>urlPath</Name>
           </UrlVariable>
         </value>
       </item>
@@ -107,6 +107,20 @@
           </UrlVariable>
         </value>
       </item>
+      <item>
+        <key>
+          <string>urlHost</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>https://github.com</TextualContent>
+            <Name>urlHost</Name>
+          </UrlVariable>
+        </value>
+      </item>
     </Variables>
     <ExecuteCommand />
     <ExecutePreCommand />
@@ -114,12 +128,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\cmder.7z</PreviousLocation>
+    <PreviousLocation>F:\exe\cmder_1.3.2.7z</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2016-02-04T19:53:51.0826734</LastUpdated>
-    <TargetPath>{workdir}\</TargetPath>
+    <LastUpdated>2016-12-16T00:28:23.1398014-06:00</LastUpdated>
+    <TargetPath>{saveDir}\{appname}_{version}.{url:ext}</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>cmder</Name>
   </ApplicationJob>

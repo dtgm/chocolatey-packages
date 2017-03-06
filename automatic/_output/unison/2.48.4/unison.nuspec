@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>unison</id>
+    <title>Unison</title>
+    <version>2.48.4</version>
+    <authors>Benjamin C. Pierce</authors>
+    <owners>dtgm</owners>
+    <summary>File-synchronization tool for OSX, Unix, and Windows</summary>
+    <description>
+Unison is a file-synchronization tool for OSX, Unix, and Windows. It allows two replicas of a collection of files and directories to be stored on different hosts (or different disks on the same host), modified separately, and then brought up to date by propagating the changes in each replica to the other.
+
+Unison shares a number of features with tools such as configuration management packages (CVS, PRCS, Subversion, BitKeeper, etc.), distributed filesystems (Coda, etc.), uni-directional mirroring utilities (rsync, etc.), and other synchronizers (Intellisync, Reconcile, etc). However, there are several points where it differs:
+
+* Unison runs on both Windows and many flavors of Unix (Solaris, Linux, OS X, etc.) systems. Moreover, Unison works across platforms, allowing you to synchronize a Windows laptop with a Unix server, for example.
+* Unlike simple mirroring or backup utilities, Unison can deal with updates to both replicas of a distributed directory structure. Updates that do not conflict are propagated automatically. Conflicting updates are detected and displayed.
+* Unlike a distributed filesystem, Unison is a user-level program: there is no need to modify the kernel or to have superuser privileges on either host.
+* Unison works between any pair of machines connected to the internet, communicating over either a direct socket link or tunneling over an encrypted ssh connection. It is careful with network bandwidth, and runs well over slow links such as PPP connections. Transfers of small updates to large files are optimized using a compression protocol similar to rsync.
+* Unison is resilient to failure. It is careful to leave the replicas and its own private structures in a sensible state at all times, even in case of abnormal termination or communication failures.
+* Unison has a clear and precise specification.
+* Unison is free; full source code is available under the GNU Public License.
+
+[FAQ](https://alliance.seas.upenn.edu/~bcpierce/wiki/index.php)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/unison/</packageSourceUrl>
+    <projectUrl>http://www.cis.upenn.edu/~bcpierce/unison/</projectUrl>
+    <projectSourceUrl>http://www.seas.upenn.edu/~bcpierce/unison//svn-instructions.html</projectSourceUrl>
+    <docsUrl>http://www.cis.upenn.edu/~bcpierce/unison/docs.html</docsUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/2ce2d40089b0a2bc24fcecd137584328feeb9fd2/icons/unison.svg</iconUrl>
+    <tags>backup sync gtk</tags>
+    <copyright>© 1998 Benjamin C. Pierce, 2014 Alan Schmitt</copyright>
+    <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+[Changelog](http://www.cis.upenn.edu/~bcpierce/unison/changes.html)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

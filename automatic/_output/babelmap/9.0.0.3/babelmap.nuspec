@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
+  <metadata>
+    <id>babelmap</id>
+    <title>BabelMap</title>
+    <version>9.0.0.3</version>
+    <authors>Andrew West</authors>
+    <owners>dtgm</owners>
+    <summary>Unicode character map utility</summary>
+    <description>
+BabelMap is a free character map application for Windows that allows you to browse through the entire Unicode character repertoire of over 113,000 characters, or search for a particular character by name or by code point. Characters can then be copied to the clipboard for use in any Unicode-aware application.
+
+[Forum](https://groups.google.com/forum/#!forum/babelstone)  
+[BabelMap Online](http://www.babelstone.co.uk/Unicode/babelmap.html)
+
+#### Freeware
+* Fully functional for personal or commercial use.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/babelmap/</packageSourceUrl>
+    <projectUrl>http://www.babelstone.co.uk/Software/BabelMap.html</projectUrl>
+    <tags>freeware unicode font-viewer font-analysis typeface</tags>
+    <copyright>© Andrew West</copyright>
+    <licenseUrl>http://wikipedia.org/wiki/Freeware</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/292b969d03c6b69d4f7b6ffa822b4095189c8595/icons/babelmap.png</iconUrl>
+    <releaseNotes>http://www.babelstone.co.uk/Software/BabelMap.html#download</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
