@@ -1,17 +1,26 @@
-﻿<?xml version="1.0"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
-    <id>fastcopy.install</id>
-    <version>3.13</version>
-    <title>FastCopy</title>
-    <authors>Hiroaki Shirouzu</authors>
-    <owners>Teknowledgist,dtgm</owners>
-    <licenseUrl>http://ipmsg.org/tools/fastcopy.html.en#license</licenseUrl>
+    <!-- == PACKAGE SPECIFIC SECTION == -->
+    <id>{{PackageName}}</id>
+    <version>{{PackageVersion}}</version>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/FastCopy.install</packageSourceUrl>
+    <owners>Teknowledgist, dtgm</owners>
+    <!-- == SOFTWARE SPECIFIC SECTION == -->
+    <title>FastCopy (install)</title>
+    <authors>SHIROUZU Hiroaki</authors>
     <projectUrl>http://ipmsg.org/tools/fastcopy.html.en</projectUrl>
     <iconUrl>https://cdn.rawgit.com/teknowledgist/Chocolatey-packages/master/Icons/FastCopy_icon.png</iconUrl>
+    <copyright>Copyright © 2004-2017 by SHIROUZU Hiroaki</copyright>
+    <licenseUrl>http://ipmsg.org/tools/fastcopy.html.en#license</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>
-FastCopy is **the Fastest Copy/Delete Software on Windows**.
+    <projectSourceUrl>http://ipmsg.org/archive/FastCopy313src.zip</projectSourceUrl>
+    <mailingListUrl>https://groups.google.com/forum/#!forum/fastcopy-bb-eng</mailingListUrl>
+    <docsUrl>http://ipmsg.org/tools/fastcopy.html.en#usage</docsUrl>
+    <tags>fastcopy copy delete explorer shell notsilent admin</tags>
+    <summary>The Fastest Copy/Delete Software on Windows.</summary>
+    <description>FastCopy is **the Fastest Copy/Delete Software on Windows**.
 
 It supports UNICODE and over MAX_PATH (260 characters) file pathnames.
 
@@ -31,24 +40,22 @@ It runs fast and does not hog resources, because MFC is not used. (Designed usin
 
 * This package will install the FastCopy shell extension.
 * Install and uninstall of this package does have a few windows flash open and close.  I.E. This package is not silent, but it is no-touch.
-* Upon uninstall, a `.dll` file remains locked by explorer and will not be deleted until a reboot.
+* Upon uninstall, a .dll file remains locked by explorer and will not be deleted until a reboot.
 
-#### Package parameters
+### Option
 
-* `/NoSubs` - The FastCopy Explorer shell extension choices will not appear in a submenu (as is the default) but rather on the main context menu.
+* NoSubs - The FastCopy Explorer shell extension choices will not appear in a submenu (as is the default) but rather on the main context menu.
 
 This parameter can be requested on installation of the package like so:
   `choco install fastcopy.install -params '"/NoSubs"'`
     </description>
-    <summary>The Fastest Copy/Delete Software on Windows.</summary>
     <releaseNotes>http://ipmsg.org/tools/fastcopy.html.en#history</releaseNotes>
-    <copyright>Copyright © 2004-2016 by SHIROUZU Hiroaki</copyright>
     <language>en-US</language>
-    <tags>fastcopy copy delete explorer shell notsilent admin</tags>
-    <projectSourceUrl>http://ipmsg.org/archive/FastCopy313src.zip</projectSourceUrl>
-    <packageSourceUrl>https://github.com/teknowledgist/Chocolatey-packages/tree/master/FastCopy.install</packageSourceUrl>
     <dependencies>
       <dependency id="autohotkey.portable" version="1.1" />
     </dependencies>
   </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
 </package>

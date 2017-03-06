@@ -1,5 +1,5 @@
 ﻿; Uninstall
-Run, c:\Program Files\FastCopy\setup.exe, , Min, setupID
+Run, %1%, , Min, setupID
 WinWait, FastCopy Setup
 ControlClick, 2. Uninstall, FastCopy Setup
 ControlClick, Start, FastCopy Setup
