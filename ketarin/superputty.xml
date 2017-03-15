@@ -40,24 +40,54 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>version[ :\(]+([\d\.]+)</Regex>
-            <Url>https://code.google.com/p/superputty/wiki/Downloads?tm=2</Url>
+            <Regex>(?&lt;=&lt;a href="/jimradford/superputty/releases/download/.*/SuperPuTTY-).*?(?=.zip)</Regex>
+            <Url>https://github.com/jimradford/superputty/releases</Url>
+            <StartText>"&gt;SuperPuTTY-</StartText>
+            <EndText>%20%28stable</EndText>
+            <TextualContent />
             <Name>version</Name>
           </UrlVariable>
         </value>
       </item>
       <item>
         <key>
-          <string>getUrl</string>
+          <string>zipUrl</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>RegularExpression</VariableType>
-            <Regex>"/?([^"'&lt;&gt;\*]+\.zip)</Regex>
-            <Url>https://code.google.com/p/superputty/wiki/Downloads?tm=2</Url>
-            <TextualContent />
-            <Name>getUrl</Name>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>https://github.com/jimradford/superputty/releases/download/{version}/SuperPuTTY-{version}.zip</TextualContent>
+            <Name>zipUrl</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>msiUrl</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>https://github.com/jimradford/superputty/releases/download/{version}/SuperPuttySetup-v{version}.msi</TextualContent>
+            <Name>msiUrl</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>msiDebugUrl</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>https://github.com/jimradford/superputty/releases/download/{version}/SuperPuttySetup-v{version}-DEBUG.msi</TextualContent>
+            <Name>msiDebugUrl</Name>
           </UrlVariable>
         </value>
       </item>
@@ -71,7 +101,7 @@
             <VariableType>Textual</VariableType>
             <Regex />
             <Url />
-            <TextualContent>{getUrl}</TextualContent>
+            <TextualContent>{zipUrl}</TextualContent>
             <Name>url</Name>
           </UrlVariable>
         </value>
