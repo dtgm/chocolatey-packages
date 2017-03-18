@@ -1,11 +1,11 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
-  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="261fcd30-b8ad-4e05-913a-522f7952c646">
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="c6b03a1f-de25-4dfc-891e-33819caa9bc4">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>1855488</LastFileSize>
-    <LastFileDate>2015-10-26T16:42:30-05:00</LastFileDate>
+    <LastFileSize>601580</LastFileSize>
+    <LastFileDate>2015-10-26T16:42:07-05:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -21,7 +21,7 @@
     <Variables>
       <item>
         <key>
-          <string>yopush</string>
+          <string>nopush</string>
         </key>
         <value>
           <UrlVariable>
@@ -29,7 +29,7 @@
             <VariableType>Textual</VariableType>
             <Regex />
             <TextualContent>--nopush</TextualContent>
-            <Name>yopush</Name>
+            <Name>nopush</Name>
           </UrlVariable>
         </value>
       </item>
@@ -52,15 +52,15 @@
       </item>
       <item>
         <key>
-          <string>msiUrl</string>
+          <string>zipUrl</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>https://github.com/jimradford/superputty/releases/download/{version}/SuperPuttySetup-v{version}.msi</TextualContent>
-            <Name>msiUrl</Name>
+            <TextualContent>https://github.com/jimradford/superputty/releases/download/{version}/SuperPuTTY-{version}.zip</TextualContent>
+            <Name>zipUrl</Name>
           </UrlVariable>
         </value>
       </item>
@@ -74,7 +74,7 @@
             <VariableType>Textual</VariableType>
             <Regex />
             <Url />
-            <TextualContent>{msiUrl}</TextualContent>
+            <TextualContent>{zipUrl}</TextualContent>
             <Name>url</Name>
           </UrlVariable>
         </value>
@@ -88,7 +88,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>0</TextualContent>
+            <TextualContent>2</TextualContent>
             <Name>cscript</Name>
           </UrlVariable>
         </value>
@@ -100,13 +100,13 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\exe\superputty_1.4.0.8.msi\SuperPuttySetup-v1.4.0.8.msi</PreviousLocation>
+    <PreviousLocation>C:\exe\superputty.portable_1.4.0.8.zip\SuperPuTTY-1.4.0.8.zip</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2017-03-18T18:29:49.6652343-05:00</LastUpdated>
+    <LastUpdated>2017-03-18T18:30:00.9211907-05:00</LastUpdated>
     <TargetPath>{saveDir}\{appname}_{version}.{url:ext}\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
-    <Name>superputty</Name>
+    <Name>superputty.portable</Name>
   </ApplicationJob>
 </Jobs>
