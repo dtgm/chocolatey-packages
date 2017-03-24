@@ -9,11 +9,11 @@ $validExitCodes = @(0)
 
 $language = (Get-Culture).TwoLetterISOLanguageName.ToLower()
 if ($language -eq $null) {
-    $language = 'en' # default language
+    $language = 'en'
 }
 
 $installerType = 'exe'
-$silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP- /LANG=$language'
+$silentArgs = "/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP- /LANG=$language"
 
 Install-ChocolateyPackage -PackageName "$packageName" `
                           -FileType "$installerType" `
