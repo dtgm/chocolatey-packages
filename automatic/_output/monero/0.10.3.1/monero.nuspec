@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>monero</id>
+    <title>Monero Core</title>
+    <version>0.10.3.1</version>
+    <authors>Monero Project</authors>
+    <owners>dtgm</owners>
+    <summary>Secure, private, untraceable cryptocurrency</summary>
+    <description>
+Monero Core consists of several applications, including monerod (the daemon used if running a full node, as it maintains the connection to the Monero network) and monero-wallet-cli (a Monero account manager application), as well as several other helper applications.
+
+Monero (XMR) is a private, secure, untraceable, decentralised digital currency. You are your bank, you control your funds, and nobody can trace your transfers unless you allow them to do so.
+
+**Privacy:** Monero uses a cryptographically sound system to allow you to send and receive funds without your transactions being easily revealed on the blockchain (the ledger of transactions that everyone has). This ensures that your purchases, receipts, and all transfers remain absolutely private by default.
+
+**Security:** Using the power of a distributed peer-to-peer consensus network, every transaction on the network is cryptographically secured. Individual wallets have a 25 word mnemonic seed that is only displayed once, and can be written down to backup the wallet. Wallet files are encrypted with a passphrase to ensure they are useless if stolen.
+
+**Untraceability:** By taking advantage of ring signatures, a special property of a certain type of cryptography, Monero is able to ensure that transactions are not only untraceable, but have an optional measure of ambiguity that ensures that transactions cannot easily be tied back to an individual user or computer.
+
+### Community
+* [Forum](https://forum.getmonero.org/)
+* [Bitcointalk](https://bitcointalk.org/index.php?topic=583449.0)
+* [Reddit](https://www.reddit.com/r/monero/)
+* [StackExchange](https://monero.stackexchange.com/)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/monero/</packageSourceUrl>
+    <projectUrl>https://getmonero.org/</projectUrl>
+    <projectSourceUrl>https://github.com/monero-project/bitmonero</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/monero-project/bitmonero/issues</bugTrackerUrl>
+	<docsUrl>https://getmonero.org/knowledge-base/user-guides/</docsUrl>
+    <mailingListUrl>https://forum.getmonero.org/</mailingListUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/c4590da27cbdd25c5866eefaf0b8a4e54864c018/icons/monero.png</iconUrl>
+    <tags>xmr p2p anonymity cryptonote cryptonight</tags>
+    <copyright>© 2014 Monero Project</copyright>
+    <licenseUrl>https://github.com/monero-project/monero/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Blog](https://getmonero.org/blog/)
+* [Roadmap](https://getmonero.org/design-goals/)
+* [Changelog](https://github.com/monero-project/monero/releases)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

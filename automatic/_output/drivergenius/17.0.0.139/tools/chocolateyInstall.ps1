@@ -1,8 +1,8 @@
-﻿$packageName = 'glasswire'
+﻿$packageName = 'drivergenius'
 $installerType = 'exe'
-$silentArgs = '/S'
-$url = 'https://download.glasswire.com/GlassWireSetup.exe'
-$checksum = 'f3448068acd6ba33a9b1dc1a1296724b47384f9ab7f0e0715137873f2570f109'
+$silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
+$url = 'http://www.driver-soft.com/products/DG_Setup.exe'
+$checksum = '115aea224d55e3235f2a783df2aafc269b5c2a44ba5e77bd752cb122594d3bc2'
 $checksumType = 'sha256'
 $validExitCodes = @(0)
 

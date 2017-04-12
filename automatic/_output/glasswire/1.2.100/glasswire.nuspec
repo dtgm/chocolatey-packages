@@ -9,25 +9,11 @@
     <summary>Firewall and network monitor that visualizes network data over time to assist in malware discovery</summary>
     <description>
 GlassWire is a free network monitor and security tool with a built in firewall. GlassWire displays your network activity on an easy to understand graph while searching for unusual Internet behavior that could indicate malware or violations of your privacy. Once unusual network activity is discovered you're instantly alerted with detailed information so you can protect your computer, privacy, and data.
-
-#### [Features](https://www.glasswire.com/features/)
-
-#### [Privacy Policy](https://www.glasswire.com/privacy/)
-
-#### Documentation
-* [Quick start guide](https://www.glasswire.com/quickstartguide/)
-* [Alert dictionary](https://www.glasswire.com/dictionary/)
-* [FAQ](https://www.glasswire.com/faq/)
-* [Manual](https://www.glasswire.com/userguide/)
-
-#### Community
-* [Forum](https://forum.glasswire.com/)
-* [Facebook](https://www.facebook.com/glasswirelabs)
-* [Google+](https://plus.google.com/+glasswire)
-* [Twitter](https://twitter.com/GlassWireLabs)
     </description>
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/glasswire/</packageSourceUrl>
     <projectUrl>https://www.glasswire.com</projectUrl>
+    <docsUrl>https://www.glasswire.com/help/</docsUrl>
+    <mailingListUrl>https://forum.glasswire.com/</mailingListUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/22579bfcdad1270bc825226ae0d75618b42a1b9d/icons/glasswire.png</iconUrl>
     <tags>visualize network traffic monitor firewall malware freeware admin</tags>
     <copyright>© 2013 GlassWire</copyright>
@@ -37,6 +23,7 @@ GlassWire is a free network monitor and security tool with a built in firewall. 
 #### Program
 * [News](https://blog.glasswire.com/)
 * [Changelog](https://www.glasswire.com/changes/)
+* [Privacy Policy](https://www.glasswire.com/privacy/)
 
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
