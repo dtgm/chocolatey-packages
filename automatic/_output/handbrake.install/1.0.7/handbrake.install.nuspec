@@ -37,6 +37,9 @@ HandBrake is a tool for converting video from nearly any format to a selection o
 #### Package
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
+	<dependencies>
+      <dependency id="dotnet4.6" />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
