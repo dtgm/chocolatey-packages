@@ -1,4 +1,4 @@
-﻿$packageName = '{{PackageName}}'
+$packageName = '{{PackageName}}'
 $installerType = 'exe'
 $silentArgs = '/S'
 $url = '{{DownloadUrl}}'
@@ -13,3 +13,8 @@ Install-ChocolateyPackage -PackageName "$packageName" `
                           -ValidExitCodes $validExitCodes `
                           -Checksum "$checksum" `
                           -ChecksumType "$checksumType"
+
+$installDir = "${Env:ProgramFiles(x86)}\GNU\GnuPG"
+if (Test-Path $installDir) {
+  Install-BinFile gpg $installDir\pub\gpg.exe
+} else { Write-Warning "Can't find $packageName installation directory" }
