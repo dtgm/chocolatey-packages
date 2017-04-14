@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>Bitcoin Unlimited</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Bitcoin Unlimited</authors>
+    <owners>dtgm</owners>
+    <summary>Software-based online payment system</summary>
+    <description>
+Bitcoin Unlimited is an implementation of a full Bitcoin Core node. By running it, you express an interest to the Bitcoin network to make specific changes to the Bitcoin protocol, including changes to Bitcoin's blockchain blocksize.
+
+The Bitcoin Unlimited client is not a competitive block scaling proposal like BIP-101, BIP-102, etc. Instead it tracks consensus. This means that it tracks the blockchain that the hash power majority follows, irrespective of blocksize, and signals its ability to accept larger blocks via protocol and block versioning fields.
+
+If you support an increase in the blocksize limit by any means -- or just support Bitcoin conflict resolution as originally envisioned by its founder -- consider running a Bitcoin Unlimited client.
+
+### Disk requirements
+* {{PackageGuid}} 
+* Size increases based on quantity of transactions ([growth chart](https://blockchain.info/charts/blocks-size))
+* Blockchain is slowly downloaded only when Bitcoin Unlimited is running and connected to network
+* Blockchain default location is `%AppData%\Bitcoin\data`
+
+### Security
+* This program should only be installed on a trusted machine.
+* By default, upon first execution Bitcoin Unlimited creates an unencrypted wallet file at `%AppData%\Bitcoin\wallet.dat`
+* Wallet.dat stores all your private keys for public Bitcoin addresses. If this file is not encrypted, anyone with access to the file may withdraw funds from addresses stored in the file. For this reason, you should encrypt the file as soon as possible with Bitcoin Unlimited.
+* After encrypting wallet.dat, back up wallet.dat to at least one other storage medium.
+* More information about [securing your wallet](https://bitcoin.org/en/secure-your-wallet)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
+    <projectUrl>https://www.bitcoinunlimited.info/</projectUrl>
+    <projectSourceUrl>https://github.com/BitcoinUnlimited/BitcoinUnlimited</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/BitcoinUnlimited/BitcoinUnlimited/issues</bugTrackerUrl>
+    <mailingListUrl>https://www.bitcoinunlimited.info/contact-us</mailingListUrl>
+	<docsUrl>https://www.bitcoinunlimited.info/faq</docsUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/1ee4d2d9a5c7b19315b9155256d7c87bc5ae8246/icons/{{PackageName}}.png</iconUrl>
+    <tags>bitcoin btc wallet crypto currency p2p protocol</tags>
+    <copyright>© 2015 Bitcoin Unlimited</copyright>
+    <licenseUrl>https://github.com/BitcoinUnlimited/BitcoinUnlimited/blob/release/COPYING</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Release notes](https://www.bitcoinunlimited.info/download)
+
+#### Bitcoin network
+* [Network status](https://bitcoin.org/en/alerts) (Bitcoin hard-forks)
+* [Network health](https://getaddr.bitnodes.io/)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <conflicts>bitcoin</conflicts>
+    <dependencies>
+      <dependency id="{{PackageName}}.install" version="[{{PackageVersion}}]" />
+    </dependencies>
+  </metadata>
+</package>
