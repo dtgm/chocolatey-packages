@@ -1,16 +1,17 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="8657926f-b679-4600-9d60-844ff9718362">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>32262960</LastFileSize>
-    <LastFileDate>2016-02-04T18:13:57.6110122</LastFileDate>
+    <LastFileSize>46932040</LastFileSize>
+    <LastFileDate>2017-03-23T00:01:42-05:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
     <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
@@ -41,8 +42,8 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=&lt;Program_Version&gt;)[\d\.]{3,}</Regex>
-            <Url>http://www.partitionwizard.com/pad/pwhe.xml</Url>
+            <Regex>(?&lt;=Partition Wizard\s+)[\d.]{3,}</Regex>
+            <Url>https://www.partitionwizard.com/free-partition-manager.html</Url>
             <Name>version</Name>
           </UrlVariable>
         </value>
@@ -54,24 +55,10 @@
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <TextualContent>{getUrl}</TextualContent>
-            <Name>url</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>getUrl</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=&lt;Primary_Download_URL&gt;)[^ "'&lt;&gt;\*]+\.exe</Regex>
-            <Url>http://www.partitionwizard.com/pad/pwhe.xml</Url>
-            <Name>getUrl</Name>
+            <Regex>[^ "'&lt;&gt;\*]+\.exe</Regex>
+            <Url>https://www.partitionwizard.com/free-partition-manager.html</Url>
+            <Name>url</Name>
           </UrlVariable>
         </value>
       </item>
@@ -96,12 +83,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\pwfree91.exe</PreviousLocation>
+    <PreviousLocation>C:\exe\partitionwizard_10.2.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2016-02-04T18:13:57.6110122</LastUpdated>
-    <TargetPath>{workdir}\</TargetPath>
+    <LastUpdated>2017-04-22T10:59:46.9621761-05:00</LastUpdated>
+    <TargetPath>{saveDir}\{appname}_{version}.{url:ext}</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>partitionwizard</Name>
   </ApplicationJob>
