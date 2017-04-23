@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>mist</id>
+    <title>Mist</title>
+    <version>0.8.9</version>
+    <authors>Ethereum Foundation</authors>
+    <owners>dtgm</owners>
+    <summary>Browse and use Ðapps on the Ethereum network</summary>
+    <description>
+Mist is a graphical browser for decentralized web applications (DApp). Ethereum is a decentralized blockchain platform that runs smart contracts: applications that run exactly as programmed without any possibility of downtime, censorship, fraud or third party interference.
+
+These apps run on a custom built  blockchain, an enormously powerful shared global infrastructure that can move value around and represent the ownership of property. This enables developers to create markets, store registries of debts or promises, move funds in accordance with instructions given long in the past (like a will or a futures contract) and many other things that have not been invented yet, all without a middle man or counterparty risk.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/mist/</packageSourceUrl>
+    <projectUrl>https://www.ethereum.org/</projectUrl>
+    <projectSourceUrl>https://github.com/ethereum/mist</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/ethereum/mist/issues</bugTrackerUrl>
+    <docsUrl>http://ethdocs.org</docsUrl>
+    <mailingListUrl>https://www.ethereum.org/#community</mailingListUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/0066b08e1609b0feab9ee7c5f4e258f6ada23a79/icons/mist.png</iconUrl>
+    <tags>p2p blockchain protocol</tags>
+    <copyright>© Ethereum Foundation</copyright>
+    <licenseUrl>https://github.com/ethereum/mist/blob/master/COPYING</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Changelog](https://github.com/ethereum/mist/releases)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+	<dependencies>
+      <dependency id="dotnet4.6" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
