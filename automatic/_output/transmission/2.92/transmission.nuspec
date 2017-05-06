@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>transmission</id>
+    <title>Transmission</title>
+    <version>2.92</version>
+    <authors>Transmission Project</authors>
+    <owners>dtgm</owners>
+    <summary>Fast, easy, and free BitTorrent client</summary>
+    <description>
+Transmission is a cross-platform BitTorrent client that is open source, easy, powerful, and lean.
+
+* Uses fewer resources than other clients
+* Native Mac, GTK+ and Qt GUI clients
+* Daemon ideal for servers, embedded systems, and headless use
+* All these can be remote controlled by Web and Terminal clients
+* Local Peer Discovery
+* Full encryption, DHT, µTP, PEX and Magnet Link support
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/transmission/</packageSourceUrl>
+    <projectUrl>https://transmissionbt.com/</projectUrl>
+	<projectSourceUrl>https://github.com/transmission/transmission</projectSourceUrl>
+	<bugTrackerUrl>https://github.com/transmission/transmission/issues/</bugTrackerUrl>
+	<mailingListUrl>https://forum.transmissionbt.com/</mailingListUrl>
+	<docsUrl>https://github.com/transmission/transmission/wiki</docsUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/da0540782070a0603a6f86cbdf6b183662d8a49a/icons/transmission.svg</iconUrl>
+    <tags>transmission qt torrent magnet p2p admin</tags>
+    <copyright>© 2005 Transmission Project</copyright>
+    <licenseUrl>https://github.com/transmission/transmission/blob/master/COPYING</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Release notes](https://github.com/transmission/transmission/releases)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+</package>
