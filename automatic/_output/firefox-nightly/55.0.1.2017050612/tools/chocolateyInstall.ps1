@@ -1,0 +1,21 @@
+﻿$packageName = 'firefox-nightly'
+$installerType = 'exe'
+$silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
+$url = 'https://archive.mozilla.org/pub/firefox/nightly/latest-mozilla-central/firefox-55.0a1.en-US.win32.installer.exe'
+$checksum = '75099a4faa8fb9e268abdac33ca2f2419a2adcba6d1ccfb97ea92cc39e963ab1'
+$checksumType = 'sha256'
+$url64 = 'https://archive.mozilla.org/pub/firefox/nightly/latest-mozilla-central/firefox-55.0a1.en-US.win64.installer.exe'
+$checksum64 = 'c0083e8488610371c73e6e11db17e810f53a193a5a92c12207e4b94073bd5393'
+$checksumType64 = 'sha256'
+$validExitCodes = @(0)
+
+Install-ChocolateyPackage -PackageName "$packageName" `
+                          -FileType "$installerType" `
+                          -SilentArgs "$silentArgs" `
+                          -Url "$url" `
+                          -Url64bit "$url64" `
+                          -ValidExitCodes $validExitCodes `
+                          -Checksum "$checksum" `
+                          -ChecksumType "$checksumType" `
+                          -Checksum64 "$checksum64" `
+                          -ChecksumType64 "$checksumType64"
