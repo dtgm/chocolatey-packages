@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>gsmartcontrol</id>
+    <title>GSmartControl</title>
+    <version>0.9.0</version>
+    <authors>Alexander Shaduri</authors>
+    <owners>dtgm</owners>
+    <summary>
+Hard disk drive and SSD health inspection tool
+    </summary>
+    <description>
+GSmartControl is a graphical user interface (GUI) for smartctl (from smartmontools package), which is a tool for querying and controlling SMART (Self-Monitoring, Analysis, and Reporting Technology) data on modern hard disk and solid-state drives. It allows you to inspect the drive's SMART data to determine its health, as well as run various tests on it.
+
+GSmartControl supports ATA drives (both PATA and SATA), various USB to ATA bridges and drives behind some RAID controllers (selected models of 3ware, Areca, Adaptec, Intel RAID controllers). See smartmontools USB support overview for an (incomplete) list of supported USB to ATA bridges.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/gsmartcontrol/</packageSourceUrl>
+    <projectUrl>http://gsmartcontrol.sourceforge.net/</projectUrl>
+    <tags>s.m.a.r.t. gui hardware disk reporting monitoring admin</tags>
+    <copyright>© Alexander Shaduri</copyright>
+    <licenseUrl>http://gsmartcontrol.sourceforge.net/home/index.php/License</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/master/icons/gsmartcontrol.png</iconUrl>
+    <releaseNotes>
+http://www.smartmontools.org/browser/tags/RELEASE_6_3/smartmontools/NEWS
+    </releaseNotes>
+    <!--<dependencies>
+      <dependency id="" />
+    </dependencies>-->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
