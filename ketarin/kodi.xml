@@ -71,8 +71,8 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>[^ "'&lt;&gt;\*]+\.exe</Regex>
-            <Url>http://kodi.tv/download/</Url>
+            <Regex>[^ "'&lt;&gt;\*]+(?<!_rc.)\.exe</Regex>
+            <Url>http://mirrors.kodi.tv/releases/win32/</Url>
             <Name>urlPath</Name>
           </UrlVariable>
         </value>
