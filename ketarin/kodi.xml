@@ -57,7 +57,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
             <Regex>(?&lt;=ResponseUri: )[^\r\n]+</Regex>
-            <Url>{urlPath}</Url>
+            <Url>http://mirrors.kodi.tv/releases/win32/{urlPath}</Url>
             <TextualContent />
             <Name>url</Name>
           </UrlVariable>
@@ -101,7 +101,7 @@
             <VariableType>Textual</VariableType>
             <Regex />
             <Url />
-            <TextualContent>{urlPath}</TextualContent>
+            <TextualContent>http://mirrors.kodi.tv/releases/win32/{urlPath}</TextualContent>
             <Name>url64</Name>
           </UrlVariable>
         </value>
