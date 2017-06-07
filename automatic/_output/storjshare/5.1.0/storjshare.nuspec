@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>storjshare</id>
+    <title>Storj Share</title>
+    <version>5.1.0</version>
+    <authors>Storj Labs Inc.</authors>
+    <owners>dtgm</owners>
+    <summary>Blockchain-based, encrypted, distributed object storage</summary>
+    <description>
+Storj Share is an open-source application that allows users to rent out their excess hard drive space in exchange for SJCX, a cryptocurrency similar to Bitcoin. Those running Storj Share will act as decentralized cloud storage nodes for the Storj network.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/storjshare/</packageSourceUrl>
+    <projectUrl>https://storj.io/share.html</projectUrl>
+    <projectSourceUrl>https://github.com/Storj/storjshare-gui</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/Storj/storjshare-gui/issues</bugTrackerUrl>
+    <mailingListUrl>https://storj.io/community.html</mailingListUrl>
+	<docsUrl>https://docs.storj.io/</docsUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/4aa7f006cd1ac786be96a7a90c2c19c0f5183093/icons/storjshare.png</iconUrl>
+    <tags>cryptocurrency blockchain p2p cloud storage admin</tags>
+    <copyright>© Storj Labs Inc.</copyright>
+    <licenseUrl>https://github.com/Storj/storjshare-gui/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Blog](https://blog.storj.io/)
+* [Release notes](https://github.com/Storj/storjshare-gui/releases)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
