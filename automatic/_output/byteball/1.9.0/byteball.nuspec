@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>byteball</id>
+    <title>Byteball Wallet</title>
+    <version>1.9.0</version>
+    <authors>Byteball</authors>
+    <owners>dtgm</owners>
+    <summary>A wallet for decentralized value</summary>
+    <description>
+Byteball is a wallet for storage and transfer of decentralized value. Byteball allows you to do something that traditional currencies can't: conditional payments. You set a condition when the payee receives the money. If the condition is not met, you get your money back.
+
+Byteball data is stored and ordered using directed acyclic graph (DAG) rather than blockchain. This allows all users to secure each other's data by referencing earlier data units created by other users, and also removes scalability limits common for blockchains, such as blocksize issue.
+
+The consensus algorithm used to protect from double-spends is based on establishing a total order within the DAG. This is achieved by selecting a chain, called main chain, which gravitates towards units issued by commonly recognized reputable users — witnesses.
+   </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/byteball/</packageSourceUrl>
+    <projectUrl>https://byteball.org</projectUrl>
+    <projectSourceUrl>https://github.com/byteball/byteball</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/byteball/byteball/issues</bugTrackerUrl>
+    <iconUrl>https://cdn.rawgit.com/byteball/byteball/e1e29620587d4a8744777af3e713c53940e1773a/public/img/icons/icon-white-256.png</iconUrl>
+    <tags>wallet byteball decentralized multisignature dag</tags>
+    <copyright>© 2016 Byteball</copyright>
+    <licenseUrl>https://github.com/byteball/byteball/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Changelog](https://github.com/byteball/byteball/releases)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
