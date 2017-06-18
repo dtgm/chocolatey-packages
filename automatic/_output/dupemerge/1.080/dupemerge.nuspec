@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>dupemerge</id>
+    <title>Dupemerge</title>
+    <version>1.080</version>
+    <authors>Hermann Schinagl</authors>
+    <owners>dtgm</owners>
+    <summary>Command line file integrity and file deduplication utility</summary>
+    <description>
+### Overview
+
+Dupemerge searches for identical files on a logical drive and creates hardlinks among those files, thus saving lots of hard disk space. Most hard disks contain quite a lot of completely identical files, which consume a lot of disk space. This waste of space can be drastically reduced by using the NTFS file system hardlink functionality to link the identical files ("dupes") together.
+
+### Technical
+
+Dupemerge creates a cryptological hashsum for each file found below the given paths and compares those hashes to each other to find the dupes. There is no file date comparison involved in detecting dupes, only the size and content of the files.
+
+To speed up comparison, only files with the same size get compared to each other. Furthermore the hashsums for equal sized files get calculated incrementally, which means that during the first pass only the first 4 kilobyte are hashed and compared, and during the next rounds more and more data are hashed and compared. 
+
+Due to long run time on large disks, a file which has already been hashsummed might change before all dupes to that file are found. To prevent false hardlink creation due to intermediate changes, dupemerge saves the file write time of a file when it hashsums the file and checks back if this time changed when it tries to hardlink dupes. 
+
+#### Multiple Runs
+
+If dupemerge is run once, hardlinks among identical files are created. To save time during a second run on the same locations, dupemerge checks if a file is already a hardlink, and tries to find the other hardlinks by comparing the unique NTFS file-id. This saves a lot of time, because checksums for large files need not be created twice. 
+
+#### Transaction based Hardlinking
+
+Before DupeMerge hardlinks file together it renames the file to a temporary name, then creates the hardlink, and afterwards deletes the temporary file. All that is done to be able to roll-back the operation if e.g the hardlinking failes. 
+
+#### TimeStamp Handling
+
+A tupel of hardlinks for one file has always the one timestamp. This is by design of NTFS. But things are a bit confusing sometimes, because after hardlinking the same timestamp is only shown, after the hardlink was once e.g. opened/accessed. So it may happen, that immediatley after dupemerge one observes different timestamps within a tupel of hardlinks, but after such a hardlink has been opened for e.g. read, the timestamp changes to the timestamp of the whole tupel. That's also by design of NTFS. 
+
+
+Dupemerge has a dupe-find algorithm which is tuned to perform especially well on large server disks, where it has been tested in depth to guarantee data integrity.
+
+### Documentation
+* [FAQ](http://schinagl.priv.at/nt/dupemerge/dupemerge.html#faq)
+* [Manual](http://schinagl.priv.at/nt/dupemerge/dupemerge.html#introduction)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/dupemerge/</packageSourceUrl>
+    <projectUrl>http://schinagl.priv.at/nt/dupemerge/dupemerge.html</projectUrl>
+    <tags>cli ntfs data-integrity checksum dedupe freeware</tags>
+    <copyright>© 2005 Hermann Schinagl</copyright>
+    <licenseUrl>http://schinagl.priv.at/nt/dupemerge/license.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Changelog](http://schinagl.priv.at/nt/dupemerge/dupemerge.html#history)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="vcredist2005" version="8.0.6.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
