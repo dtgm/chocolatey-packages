@@ -111,7 +111,7 @@
             <VariableType>Textual</VariableType>
             <Regex />
             <Url>https://code.google.com/p/duplicati/wiki/Downloads?tm=2</Url>
-            <TextualContent>http://api.thebrain.com/?a=doDirectDownload&amp;id=76</TextualContent>
+            <TextualContent>http://salesapi.thebrain.com/?a=doDirectDownload&amp;id=76</TextualContent>
             <Name>url64</Name>
           </UrlVariable>
         </value>
@@ -135,7 +135,7 @@ chocopkgup /p {appname}.install /v "{version}00" /u "{preupdate-url}" /u64 "{url
     <FileHippoId />
     <LastUpdated>2014-08-23T00:47:37.4586839-05:00</LastUpdated>
     <TargetPath>C:\dev\Chocolatey\_work\</TargetPath>
-    <FixedDownloadUrl>http://api.thebrain.com/?a=doDirectDownload&amp;id=70</FixedDownloadUrl>
+    <FixedDownloadUrl>http://salesapi.thebrain.com/?a=doDirectDownload&amp;id=70</FixedDownloadUrl>
     <Name>thebrain</Name>
   </ApplicationJob>
 </Jobs>
