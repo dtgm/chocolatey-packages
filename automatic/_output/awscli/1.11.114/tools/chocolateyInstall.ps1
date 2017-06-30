@@ -1,11 +1,11 @@
-$packageName = 'thebrain.install'
-$installerType = 'exe'
-$silentArgs = '-q -overwrite'
-$url = 'http://salesapi.thebrain.com/?a=doDirectDownload&id=70'
-$checksum = 'f4f35883860da32c75fa5637729f142b14476cc775683875b0cae2c3c62dd924'
+$packageName = 'awscli'
+$installerType = 'msi'
+$silentArgs = '/quiet /qn /norestart'
+$url = 'https://s3.amazonaws.com/aws-cli/AWSCLI32-1.11.114.msi'
+$checksum = 'ca739a27f3fb89df791dabf2305f5899265678a8756f0e74ae403850855bb05e'
 $checksumType = 'sha256'
-$url64 = 'http://salesapi.thebrain.com/?a=doDirectDownload&id=76'
-$checksum64 = '{checksumx64}'
+$url64 = 'https://s3.amazonaws.com/aws-cli/AWSCLI64-1.11.114.msi'
+$checksum64 = 'a446922baa963932b55f902a86b32a88bc4b31f7720f322a3c053a20bf14e238'
 $checksumType64 = 'sha256'
 $validExitCodes = @(0)
 
