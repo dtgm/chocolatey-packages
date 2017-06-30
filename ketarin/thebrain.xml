@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="7f4bcd0d-badf-42c1-a996-823a58b465e3">
     <WebsiteUrl />
@@ -9,12 +9,13 @@ direct access
 http://assets.thebrain.com/downloads/TheBrain_windows_8_0_1_2.exe
 http://assets.thebrain.com/downloads/TheBrain_windows-x64_8_0_1_2.exe</UserNotes>
     <LastFileSize>29510656</LastFileSize>
-    <LastFileDate>2016-02-11T18:50:12.8488402</LastFileDate>
+    <LastFileDate>2016-09-21T01:34:37-05:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
     <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
@@ -48,7 +49,7 @@ http://assets.thebrain.com/downloads/TheBrain_windows-x64_8_0_1_2.exe</UserNotes
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>http://api.thebrain.com/?a=doDirectDownload&amp;id=70</TextualContent>
+            <TextualContent>https://salesapi.thebrain.com/?a=doDirectDownload&amp;id=70</TextualContent>
             <Name>url</Name>
           </UrlVariable>
         </value>
@@ -102,12 +103,12 @@ http://assets.thebrain.com/downloads/TheBrain_windows-x64_8_0_1_2.exe</UserNotes
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\TheBrain_windows_8_0_2_2.exe</PreviousLocation>
+    <PreviousLocation>C:\exe\thebrain_8.0.2.200.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2016-02-11T18:50:12.8488402</LastUpdated>
-    <TargetPath>{workdir}\</TargetPath>
+    <LastUpdated>2017-06-29T22:58:44.7717908-05:00</LastUpdated>
+    <TargetPath>{saveDir}\{appname}_{version}.{url:ext}</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>thebrain</Name>
   </ApplicationJob>

@@ -5,7 +5,7 @@
     <UserAgent>Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)</UserAgent>
     <UserNotes />
     <LastFileSize>44053765</LastFileSize>
-    <LastFileDate>2016-02-09T00:07:54-07:00</LastFileDate>
+    <LastFileDate>2016-06-20T23:32:59.1607535</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -58,7 +58,7 @@
             <VariableType>Textual</VariableType>
             <Regex />
             <Url />
-            <TextualContent>http://api.thebrain.com/?a=doDirectDownload&amp;id=73</TextualContent>
+            <TextualContent>https://salesapi.thebrain.com/?a=doDirectDownload&amp;id=73</TextualContent>
             <Name>getUrl</Name>
           </UrlVariable>
         </value>
@@ -98,11 +98,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\thebrain.portable_8.0.2.2.zip</PreviousLocation>
+    <PreviousLocation>C:\exe\thebrain.portable_8.0.2.2.zip</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2016-06-20T22:32:59.1607535-06:00</LastUpdated>
+    <LastUpdated>2016-06-20T23:32:59.1607535</LastUpdated>
     <TargetPath>{saveDir}\{appname}_{version}.{url:ext}</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>thebrain.portable</Name>
