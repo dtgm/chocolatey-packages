@@ -1,16 +1,17 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="25a0f456-1cd6-4d29-90a5-6fcce16617cb">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>5904448</LastFileSize>
-    <LastFileDate>2015-11-06T22:58:09.2402813</LastFileDate>
+    <LastFileSize>9166680</LastFileSize>
+    <LastFileDate>2017-06-21T03:17:49-05:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
     <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
@@ -55,7 +56,7 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>href="/?{urlPath}/([\d\.]{3,})</Regex>
+            <Regex>href="/?{urlPath}/([\d\.]{3,})(?=/)</Regex>
             <Url>{urlHost}/{urlPath}</Url>
             <Name>version</Name>
           </UrlVariable>
@@ -111,8 +112,8 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=\.exe).*?([A-Fa-f0-9]{40})</Regex>
-            <Url>{urlHost}/{urlPath}/{version}/winscp{version:replace:.:}readme.txt</Url>
+            <Regex>(?&lt;=\.exe).*?([A-Fa-f0-9]{64})</Regex>
+            <Url>{urlHost}/{urlPath}/{version}/</Url>
             <TextualContent />
             <Name>checksum</Name>
           </UrlVariable>
@@ -153,12 +154,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\winscp576setup.exe</PreviousLocation>
+    <PreviousLocation>C:\exe\winscp.install_5.9.6.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-11-06T22:58:09.2402813</LastUpdated>
-    <TargetPath>{workdir}\</TargetPath>
+    <LastUpdated>2017-06-29T23:39:50.2953962-05:00</LastUpdated>
+    <TargetPath>{saveDir}\{appname}_{version}.{url:ext}</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>winscp.install</Name>
   </ApplicationJob>

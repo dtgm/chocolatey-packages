@@ -1,16 +1,17 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="04deb981-4791-4618-a797-dbc8bbf86328">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>5904448</LastFileSize>
-    <LastFileDate>2015-11-06T22:57:59.5182903</LastFileDate>
+    <LastFileSize>9166680</LastFileSize>
+    <LastFileDate>2017-06-21T03:17:49-05:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
     <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
@@ -55,7 +56,7 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>href="/?{urlPath}/([\d\.]{3,})</Regex>
+            <Regex>href="/?{urlPath}/([\d\.]{3,})(?=/)</Regex>
             <Url>{urlHost}/{urlPath}</Url>
             <Name>version</Name>
           </UrlVariable>
@@ -138,12 +139,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\winscp576setup.exe</PreviousLocation>
+    <PreviousLocation>C:\exe\winscp_5.9.6.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-11-06T22:57:59.5182903</LastUpdated>
-    <TargetPath>{workdir}\</TargetPath>
+    <LastUpdated>2017-06-29T23:40:24.4541872-05:00</LastUpdated>
+    <TargetPath>{saveDir}\{appname}_{version}.{url:ext}</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>winscp</Name>
   </ApplicationJob>
