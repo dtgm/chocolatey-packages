@@ -86,7 +86,7 @@
             <VariableType>Textual</VariableType>
             <Regex />
             <Url />
-            <TextualContent>http://api.thebrain.com/?a=doDirectDownload&amp;id=70</TextualContent>
+            <TextualContent>http://salesapi.thebrain.com/?a=doDirectDownload&amp;id=70</TextualContent>
             <Name>getUrl</Name>
           </UrlVariable>
         </value>
@@ -101,7 +101,7 @@
             <VariableType>Textual</VariableType>
             <Regex />
             <Url />
-            <TextualContent>http://api.thebrain.com/?a=doDirectDownload&amp;id=76</TextualContent>
+            <TextualContent>http://salesapi.thebrain.com/?a=doDirectDownload&amp;id=76</TextualContent>
             <Name>getUrl64</Name>
           </UrlVariable>
         </value>
@@ -144,7 +144,7 @@
             <VariableType>RegularExpression</VariableType>
             <Regex />
             <PostData>a=doDirectDownload&amp;id=76</PostData>
-            <Url>http://api.thebrain.com/</Url>
+            <Url>http://salesapi.thebrain.com/</Url>
             <Name>x</Name>
           </UrlVariable>
         </value>

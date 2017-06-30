@@ -58,7 +58,7 @@
             <VariableType>Textual</VariableType>
             <Regex />
             <Url />
-            <TextualContent>http://api.thebrain.com/?a=doDirectDownload&amp;id=73</TextualContent>
+            <TextualContent>http://salesapi.thebrain.com/?a=doDirectDownload&amp;id=73</TextualContent>
             <Name>getUrl</Name>
           </UrlVariable>
         </value>
