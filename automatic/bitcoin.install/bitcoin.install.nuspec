@@ -45,7 +45,7 @@ New transactions are approved by computing a value determined dynamically by rec
     <bugTrackerUrl>https://github.com/bitcoin/bitcoin/issues</bugTrackerUrl>
     <mailingListUrl>https://sourceforge.net/p/bitcoin/mailman/</mailingListUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/19d35dff574b7496b92f235fa1503d47b861871a/icons/bitcoin.svg</iconUrl>
-    <tags>bitcoin btc wallet crypto currency p2p admin</tags>
+    <tags>bitcoin btc blockchain wallet crypto currency p2p admin</tags>
     <copyright>© 2009 Bitcoin Project</copyright>
     <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

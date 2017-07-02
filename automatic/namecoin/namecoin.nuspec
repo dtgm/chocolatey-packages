@@ -28,7 +28,7 @@ Namecoin was the first fork of Bitcoin and still is one of the most innovative a
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://namecoin.info/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/8ae1bc789979b1188d2945bfaeef34e29d0dcc39/icons/{{PackageName}}.png</iconUrl>
-    <tags>namecoin nmc wallet cryptocurrency p2p admin</tags>
+    <tags>namecoin nmc blockchain wallet cryptocurrency p2p admin</tags>
     <copyright>© Namecoin Project</copyright>
     <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

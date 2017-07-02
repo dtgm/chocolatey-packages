@@ -20,7 +20,7 @@ mSIGNA is built atop, three custom libraries, CoinCore, CoinQ, and CoinDB, which
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>https://ciphrex.com/products/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/ciphrex/CoinVault/4e4f47d84582ffd29c9e8d1996d508e679e6d608/res/icons/app_icons/256x256.png</iconUrl>
-    <tags>bitcoin btc wallet cryptocurrency admin</tags>
+    <tags>bitcoin btc blockchain wallet cryptocurrency admin</tags>
     <copyright>© 2013 Ciphrex Corporation</copyright>
     <licenseUrl>https://raw.githubusercontent.com/ciphrex/CoinVault/master/docs/eula.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

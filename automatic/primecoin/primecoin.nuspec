@@ -21,7 +21,7 @@ The innovative prime proof-of-work in Primecoin not only provides security and m
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://primecoin.io/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/9856ff4757b8ace9a7b612e953b068bbe21b211c/icons/{{PackageName}}.png</iconUrl>
-    <tags>primecoin xpm wallet cryptocurrency p2p admin</tags>
+    <tags>primecoin xpm blockchain wallet cryptocurrency p2p admin</tags>
     <copyright>© Primecoin</copyright>
     <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

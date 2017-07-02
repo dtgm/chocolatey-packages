@@ -19,7 +19,7 @@ Although the Bitcoin network is good at securely transferring money, it is the u
     <projectUrl>https://bitcoinarmory.com/</projectUrl>
     <projectSourceUrl>https://github.com/etotheipi/BitcoinArmory</projectSourceUrl>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/08c52664dc77ed8f8087ea403fa245755212ae6d/icons/{{PackageName}}.png</iconUrl>
-    <tags>bitcoin btc wallet cryptocurrency security admin</tags>
+    <tags>bitcoin btc blockchain wallet cryptocurrency security admin</tags>
     <copyright>© Armory Technologies, Inc</copyright>
     <licenseUrl>https://raw.githubusercontent.com/etotheipi/BitcoinArmory/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
