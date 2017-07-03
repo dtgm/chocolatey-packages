@@ -11,12 +11,7 @@ $version = '{{PackageVersion}}'
 $url = '{{DownloadUrl}}'
 $checksum = '{{Checksum}}'
 $checksumType = 'sha256'
-$url64 = '{{DownloadUrlx64}}'
-$checksum64 = '{{Checksumx64}}'
-$checksumType64 = 'sha256'
-
-$fileName = "mongodb-win32-i386-$version"
-if (Get-ProcessorBits 64) {$fileName = "mongodb-win32-x86`_64-$version"}
+$fileName = "mongodb-win32-x86_64-2008plus-ssl-$version"
 
 Write-Verbose "Default install location is `'$env:ChocolateyToolsLocation`'"
 $binRoot = Get-ToolsLocation
@@ -66,11 +61,8 @@ if (Test-Path $mongoDaemon){
 Install-ChocolateyZipPackage -PackageName "$packageName" `
                              -Url "$url" `
                              -UnzipLocation "$binRoot" `
-                             -Url64bit "$url64" `
                              -Checksum "$checksum" `
-                             -ChecksumType "$checksumType" `
-                             -Checksum64 "$checksum64" `
-                             -ChecksumType64 "$checksumType64"
+                             -ChecksumType "$checksumType"
 
 $extractPath = Join-Path $binRoot $fileName                             
 Rename-Item -Path $extractPath `

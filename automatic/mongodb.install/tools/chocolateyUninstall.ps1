@@ -1,5 +1,5 @@
 ﻿$packageName = '{{PackageName}}'
-$packageSearch = "$packageName*"
+$packageSearch = "mongodb*"
 $installerType = 'msi'
 $silentArgs = '/quiet /qn /norestart'
 $validExitCodes = @(0,3010)
