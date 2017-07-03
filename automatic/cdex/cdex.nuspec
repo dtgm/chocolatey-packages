@@ -12,12 +12,20 @@ CDex can extract the data directly (digital) from an Audio CD, which is generall
     </description>
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://cdex.mu/</projectUrl>
+    <projectSourceUrl>http://cdex.mu/sourcecode</projectSourceUrl>
+    <docsUrl>http://cdex.mu/support</docsUrl>
     <tags>unattended audio cd ripper extract cdda encoder admin</tags>
     <copyright>Ariane Paola Gomes, Georgy Berdyshev</copyright>
     <licenseUrl>http://cdex.mu/license</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/5df5d849c2feb6a30225bad1f7a8e27d4cd2fa65/icons/{{PackageName}}.png</iconUrl>
-    <releaseNotes>http://cdex.mu/</releaseNotes>
+    <releaseNotes>
+#### Program
+* [Changelog](http://cdex.mu/#main-content) ([RSS](http://cdex.mu/rss.xml))
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
     <dependencies>
       <dependency id="autohotkey.portable" />
     </dependencies>

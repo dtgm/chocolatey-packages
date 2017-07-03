@@ -1,16 +1,17 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="0b919915-783b-4745-a939-0c9bb5b5f4ee">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>13223378</LastFileSize>
-    <LastFileDate>2016-02-10T11:35:14.9213884</LastFileDate>
+    <LastFileSize>371457</LastFileSize>
+    <LastFileDate>2017-06-29T11:08:36-05:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
     <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
@@ -30,7 +31,7 @@
             <Url />
             <StartText>&lt;title&gt;Download CDex - Open Source Digital Audio CD Extractor </StartText>
             <EndText>&lt;/</EndText>
-            <TextualContent>{urlPathFull:regex:(?&lt;=CDex-)[\d\.]+(?=-)}</TextualContent>
+            <TextualContent>{urlPathFull:regex:(?&lt;=CDex-)[\d\.]+(?=\.exe)}</TextualContent>
             <Name>version</Name>
           </UrlVariable>
         </value>
@@ -86,7 +87,7 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>([A-Fa-f0-9]{40})</Regex>
+            <Regex>([A-Fa-f0-9]{64})</Regex>
             <Url>http://cdex.mu/download</Url>
             <Name>checksum</Name>
           </UrlVariable>
@@ -127,12 +128,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\CDex-1.79-win32.exe</PreviousLocation>
+    <PreviousLocation>C:\exe\cdex_1.87.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2016-02-10T11:35:14.9213884</LastUpdated>
-    <TargetPath>{workdir}\</TargetPath>
+    <LastUpdated>2017-07-02T19:16:23.4878355-05:00</LastUpdated>
+    <TargetPath>{saveDir}\{appname}_{version}.{url:ext}</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>cdex</Name>
   </ApplicationJob>
