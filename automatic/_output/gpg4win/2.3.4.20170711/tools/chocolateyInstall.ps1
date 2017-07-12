@@ -6,7 +6,7 @@ $checksum = '26c38609dd4e67bbee65091d09f35356dcac0b58'
 $checksumType = 'sha1'
 $validExitCodes = @(0)
 
-Write-Verbose "Stop service `"dirmngr`" if already running"
+Write-Verbose "Stop service `"DirMngr`" if already running"
 if (Get-Service -Name dirmngr -ErrorAction SilentlyContinue) {
   Start-ChocolateyProcessAsAdmin "net stop `"dirmngr`""
 }
