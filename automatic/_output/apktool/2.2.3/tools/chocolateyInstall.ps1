@@ -1,7 +1,7 @@
 $packageName = 'apktool'
 $url = 'https://bitbucket.org/iBotPeaches/apktool/downloads/apktool_2.2.3.jar'
 $checksum = '8d05868a9fdef7ed43742b44f45c10a77263526b236e478cc9602d6a4e053f87'
-$checksumType = 'sha1'
+$checksumType = 'sha256'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $installFile = Join-Path $toolsDir "apktool.jar"
 
