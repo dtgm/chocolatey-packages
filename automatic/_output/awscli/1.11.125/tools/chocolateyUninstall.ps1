@@ -1,4 +1,4 @@
-﻿$packageName = 'awscli'
+$packageName = 'awscli'
 $packageSearch = "AWS Command Line Interface"
 $installerType = 'msi'
 $silentArgs = '/quiet /qn /norestart'
