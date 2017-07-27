@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>unetbootin</id>
+    <title>UNetbootin</title>
+    <version>6.5.5</version>
+    <authors>Geza Kovacs</authors>
+    <owners>dtgm</owners>
+    <summary>Bootable live USB creator for Ubuntu, Fedora, and Linux distributions</summary>
+    <description>
+UNetbootin allows you to create bootable Live USB drives for Ubuntu and other Linux distributions without burning a CD. You can either let UNetbootin download one of the many distributions supported out-of-the-box for you, or supply your own Linux .iso file.
+
+[Development guide](https://sourceforge.net/p/unetbootin/wiki/development/)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/unetbootin/</packageSourceUrl>
+    <projectUrl>http://unetbootin.sourceforge.net/</projectUrl>
+    <projectSourceUrl>https://github.com/unetbootin/unetbootin</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/unetbootin/unetbootin/issues</bugTrackerUrl>
+    <docsUrl>https://sourceforge.net/p/unetbootin/wiki/</docsUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/d8c99dfc60128974e0eaad517dbeadfb5af97142/icons/unetbootin.png</iconUrl>
+    <tags>bootable liveusb linux</tags>
+    <copyright>© 2008 Geza Kovacs</copyright>
+    <licenseUrl>http://unetbootin.github.io/#credits</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* Geza Kovacs is looking for a [new maintainer](https://sourceforge.net/p/unetbootin/wiki/development/#interested-new-maintainer) to take over UNetbootin software.
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
