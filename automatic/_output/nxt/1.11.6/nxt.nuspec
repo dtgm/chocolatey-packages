@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>nxt</id>
+    <title>Nxt Client</title>
+    <version>1.11.6</version>
+    <authors>Nxt Organization</authors>
+    <owners>dtgm</owners>
+    <summary>Open source economic system based on cryptography and blockchain technology</summary>
+    <description>
+Nxt Client is an open source peer-to-peer cryptocurrency and payment network launched in November 2013 by anonymous software developer BCNext. It uses proof-of-stake to reach consensus for transactions - as such there is a static money supply and no mining as with Bitcoin.
+
+#### Security
+Unlike Bitcoin or other altcoins, there is no local wallet with Nxt.  More specifically, the coin uses a “brain wallet”, which is to say that wallets are decentralized and kept on the network.  When you create an account in Nxt, your secret passphrase is used to create your account number.  Once your account number is generated, you can unlock it and access it by using your passphrase on any running Nxt node.
+
+For this reason, a __very secure password__ is __extremely important__. To estimate how secure your password is, consider testing some fake passwords similar in character selection and formatting to passwords you generally use at https://howsecureismypassword.net/.
+
+If you have difficulty remembering secure passwords, consider using secure password managers such as webapp [LastPass](https://lastpass.com/) or localhost software like [KeePass](https://chocolatey.org/packages/keepass).
+
+#### Documentation
+* [Demo](https://nxt.org/demo/)
+* [FAQ](https://nxt.org/about/faq/)
+* [About](https://nxt.org/about/)
+* [Wiki](https://wiki.nxtcrypto.org/)
+* [Developer docs](https://nxt.org/developers/)
+
+#### Community
+* [Forum](https://nxtforum.org/)
+* [BitcoinTalk](https://bitcointalk.org/index.php?topic=587007.0)
+* [Subreddit](http://www.reddit.com/r/Nxt)
+* [Facebook](https://www.facebook.com/nxtcrypto)
+* [Google+](https://plus.google.com/+NxtcommunityOrg)
+* [Twitter](https://twitter.com/NxtCommunity)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/nxt/</packageSourceUrl>
+    <projectUrl>http://nxt.org/</projectUrl>
+    <projectSourceUrl>https://bitbucket.org/JeanLucPicard/nxt/src</projectSourceUrl>
+    <bugTrackerUrl>https://bitbucket.org/JeanLucPicard/nxt/issues</bugTrackerUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/ec964ef16307dd212f9a58c5ca64795488fba3f0/icons/nxt.png</iconUrl>
+    <tags>p2p cryptocurrency proof-of-stake</tags>
+    <copyright>© 2013 The Nxt Core Developers</copyright>
+    <licenseUrl>https://bitbucket.org/JeanLucPicard/nxt/raw/master/LICENSE.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Roadmap](https://wiki.nxtcrypto.org/wiki/Planned_Features)
+* [Changelog](https://bitbucket.org/JeanLucPicard/nxt/raw/master/changelogs/nxt-client-1.11.6.changelog.txt)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="javaruntime" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
