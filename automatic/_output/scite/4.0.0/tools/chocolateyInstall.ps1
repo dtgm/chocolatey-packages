@@ -1,11 +1,11 @@
-$packageName = 'zimbra-desktop'
+$packageName = 'scite'
 $installerType = 'msi'
 $silentArgs = '/quiet /qn /norestart'
-$url = 'https://s3.amazonaws.com/files.zimbra.com/downloads/zdesktop/7.3.1/b13063/zdesktop_7_3_1_ga_b13063_20170628044139_win32.msi'
-$checksum = '09c4d465a6b90032d649e18646a2484f'
+$url = 'http://www.ebswift.com/uploads/7/0/4/0/70403747/scite-4.0.0x86.msi'
+$checksum = '9aa0a5cd045622c7db9c07090b83ac9a0c32f34554c2b8d2ac9e875f6a294c22'
 $checksumType = 'sha256'
-$url64 = 'https://s3.amazonaws.com/files.zimbra.com/downloads/zdesktop/7.3.1/b13063/zdesktop_7_3_1_ga_b13063_20170628044139_win64.msi'
-$checksum64 = 'e4f660fa32f875394866c05b70f1cccfb015f5679808f18109641e1991496028'
+$url64 = 'http://www.ebswift.com/uploads/7/0/4/0/70403747/scite-4.0.0x64.msi'
+$checksum64 = 'e5685a9267720a79d7c01e854935dc835f3392bab10408fb03266a13ce98d16b'
 $checksumType64 = 'sha256'
 $validExitCodes = @(0)
 
@@ -19,4 +19,3 @@ Install-ChocolateyPackage -PackageName "$packageName" `
                           -ChecksumType "$checksumType" `
                           -Checksum64 "$checksum64" `
                           -ChecksumType64 "$checksumType64"
-

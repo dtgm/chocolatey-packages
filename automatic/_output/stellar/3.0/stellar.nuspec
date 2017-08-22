@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>stellar</id>
+    <title>Stellar Wallet</title>
+    <version>3.0</version>
+    <authors>stellarchat</authors>
+    <owners>dtgm</owners>
+    <summary>Stellar desktop client</summary>
+    <description>
+Stellar Desktop Client is an open source desktop client. It allows you to encrypt your secret key and store it as a file locally on your computer. Easily trust, send, and trade all within the client.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/stellar/</packageSourceUrl>
+    <projectUrl>https://github.com/stellarchat/desktop-client</projectUrl>
+    <projectSourceUrl>https://github.com/stellarchat/desktop-client</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/stellarchat/desktop-client/issues</bugTrackerUrl>
+    <mailingListUrl>https://www.stellar.org/community/</mailingListUrl>
+	<docsUrl>https://stellarorg.zendesk.com</docsUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/b41a596b04bca39457d32ca82dfbaa04c55b8efd/icons/stellar.png</iconUrl>
+    <tags>stellar lumen lum wallet crypto currency p2p</tags>
+    <copyright>© 2017 stellarchat</copyright>
+    <licenseUrl>https://github.com/stellarchat/desktop-client/blob/2eb73c3cc924732ca8c84a0b1cd42dc9b3d3b821/package.json#L14</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Release notes](https://github.com/stellarchat/desktop-client/releases)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
