@@ -39,8 +39,11 @@ I created this application, because I couldn't find anything like it when I need
 
   * `$Env:ChocolateyInstall\lib\ChocolateyPackageUpdater\tools\chocopkgup\ketarinupdate.cmd`
     * Ensure the correct ketarin.exe file is being executed:
-    *  `PS C:\> (get-command ketarin.exe).Definition
-        C:\ProgramData\chocolatey\bin\Ketarin.exe`
+    *  
+```
+	PS C:\> (get-command ketarin.exe).Definition
+        C:\ProgramData\chocolatey\bin\Ketarin.exe
+```
 
 3. Run ketarin.exe
 
