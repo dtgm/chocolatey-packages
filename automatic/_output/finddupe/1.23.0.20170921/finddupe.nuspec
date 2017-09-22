@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>finddupe</id>
+    <title>FindDupe</title>
+    <version>1.23.0.20170921</version>
+    <authors>Matthias Wandel</authors>
+    <owners>dtgm</owners>
+    <summary>Find duplicate files on your computer with commandline</summary>
+    <description>
+Finddupe is a commandline tool for quick detection of duplicate files on a hard drive under Windows. Duplicate files can be detected, hardlinked, or deleted. Finddupe can also search for hardlinked files on your computer.
+
+#### Use cases:
+* Deleting duplicate files: When working thru somebody elses photo collection, or MP3 collection, this tool is useful for deleting the files that are duplicate. Depending on how the media is organized, there can be a lot of duplicate files in a collection.
+* Freeing hard drive space: Sometimes its intentional to have certain media in multiple places. By running finddupe, and hard linking the identical files, you can keep the files in multiple places, while only having one physical copy on the hard drive.
+* Detecting changed files for backup: Finddupe is useful for detecting which files have changed and need backing up. Simply back up the media, and then run finddupe to eliminate those files in the copy that are already contained in a previous backup.
+* Detecting hardlinked groups of files: Unknown to most, the winodws NTFS file system has the ability to hard link files together. If you use finddupe with the -listlink option, finddupe will search for files that appear in multiple places as hard links.
+	</description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/finddupe/</packageSourceUrl>
+    <projectUrl>http://www.sentex.net/~mwandel/finddupe/</projectUrl>
+    <projectSourceUrl>http://www.sentex.net/%7Emwandel/finddupe/finddupe-src.zip</projectSourceUrl>
+    <tags>duplicate deduplication cli</tags>
+    <copyright>© Matthias Wandel</copyright>
+    <licenseUrl>https://creativecommons.org/licenses/publicdomain/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* No changes
+
+#### Package
+* Added checksum
+* Cleaned up nuspec
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
