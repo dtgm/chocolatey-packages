@@ -1,8 +1,8 @@
-$packageName = 'cyberduck.install'
+$packageName = 'dumo'
 $installerType = 'exe'
-$silentArgs = '/S'
-$url = 'https://update.cyberduck.io/windows/Cyberduck-Installer-6.2.10.26754.exe'
-$checksum = '56594fde0a41a070fad536ece1a4b27504b448a8b8be6f7cd188e4b690251dc8'
+$silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
+$url = 'http://www.kcsoftwares.com/files/dumo_lite.exe'
+$checksum = '23ce885ffce89d25cd0f6f9b5d035cc512a16ac6123b29c4ad5dd6e5282af4cb'
 $checksumType = 'sha256'
 $validExitCodes = @(0)
 
