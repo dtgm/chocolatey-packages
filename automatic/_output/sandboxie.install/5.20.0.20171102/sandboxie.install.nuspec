@@ -2,8 +2,8 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
     <id>sandboxie.install</id>
-    <title>Sandboxie (Install)</title>
-    <version>5.20</version>
+    <title>[DEPRECATED] Sandboxie (Install)</title>
+    <version>5.20.0.20171102</version>
     <authors>Ronen "tzuk" Tzur</authors>
     <owners>dtgm</owners>
     <summary>Executes processes in a protected, isolated space, otherwise known as a "sandbox"</summary>
