@@ -1,6 +1,6 @@
-﻿$packageName = 'electrum.portable'
+$packageName = 'electrum.portable'
 $url = 'https://download.electrum.org/3.0.1/electrum-3.0.1-portable.exe'
-$checksum = '{checksum}'
+$checksum = '65c2e124c37012a06c7958d9147d866bee36f927eaf17007f006258280921303'
 $checksumType = 'sha256'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $installFile = Join-Path $toolsDir "electrum.exe"
