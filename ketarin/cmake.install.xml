@@ -70,9 +70,23 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>/?([^ "'&lt;&gt;\*]+\.msi)</Regex>
+            <Regex>/?([^ "'&lt;&gt;\*]+-win32-x86\.msi)</Regex>
             <Url>http://www.cmake.org/download/</Url>
             <Name>urlPath</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>urlPath64</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>/?([^ "'&lt;&gt;\*]+-win64-x64\.msi)</Regex>
+            <Url>http://www.cmake.org/download/</Url>
+            <Name>urlPath64</Name>
           </UrlVariable>
         </value>
       </item>
@@ -101,6 +115,34 @@
             <Regex />
             <TextualContent>2</TextualContent>
             <Name>cscript</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>checksum64file</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>{url64}</TextualContent>
+            <Name>checksum64file</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url64</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>{urlHost}/{urlPath64}</TextualContent>
+            <Name>url64</Name>
           </UrlVariable>
         </value>
       </item>
