@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>sonarr</id>
+    <title>sonarr</title>
+    <version>2.0.0.4326</version>
+    <authors>Mark McDowall,Keivan Beigi</authors>
+    <owners>dtgm</owners>
+    <summary>PVR for Usenet and BitTorrent</summary>
+    <description>
+Sonarr (formerly NzbDrone) is a PVR for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sorts and renames them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.
+
+[Features](https://github.com/Sonarr/Sonarr#major-features-include)
+
+#### Community
+* [IRC](http://webchat.freenode.net/?channels=#sonarr)
+* [Twitter](https://twitter.com/sonarrtv)
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/sonarr/</packageSourceUrl>
+    <projectUrl>https://sonarr.tv/</projectUrl>
+    <projectSourceUrl>https://github.com/Sonarr/Sonarr</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/Sonarr/Sonarr/issues</bugTrackerUrl>
+    <docsUrl>https://wiki.sonarr.tv/</docsUrl>
+    <mailingListUrl>https://forums.sonarr.tv/</mailingListUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/de2650317146de310280831f624da36d0c3374e3/icons/sonarr.svg</iconUrl>
+    <tags>pvr p2p filesharing torrent nntp admin</tags>
+    <copyright>© 2010 Mark McDowall, Keivan Beigi</copyright>
+    <licenseUrl>http://www.gnu.org/licenses/gpl-3.0.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [Changelog](https://github.com/Sonarr/Sonarr/releases)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+    <dependencies>
+      <dependency id="autohotkey.portable" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
