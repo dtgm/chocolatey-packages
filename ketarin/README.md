@@ -30,17 +30,20 @@ I created this application, because I couldn't find anything like it when I need
 1. `choco install chocolateypackageupdater`
 > This will install two additional chocolatey packages: **nuget.commandline** and **ketarin**
 2. Configure installed chocolateypackageupdater files: 
-  * `$Env:ChocolateyInstall\tools\chocopkgup\chocopkgup.exe.config`
+  * `$Env:ChocolateyInstall\lib\ChocolateyPackageUpdater\tools\chocopkgup\chocopkgup.exe.config`
     * Modify xml "add" tag with keyvalue "PackagesFolder" with value of "C:\path\to\chocolaty\packages" so it looks like:
 `<add key="PackagesFolder" value="C:\path\to\chocolatey\packages"/>`
     * "C:\path\to\chocolaty\packages\" will be the root folder of your chocolatey packages where each sub-directory will a different package where folder-name is equal to the "packageId"
   
 	  Note: packages will be published to an automatically generated sub-folder "_output" in this location by chocopkgup.exe.
 
-  * $Env:ChocolateyInstall\tools\chocopkgup\ketarinupdate.cmd**
+  * `$Env:ChocolateyInstall\lib\ChocolateyPackageUpdater\tools\chocopkgup\ketarinupdate.cmd`
     * Ensure the correct ketarin.exe file is being executed:
-    *  `PS C:\> (get-command ketarin.exe).Definition
-        C:\ProgramData\chocolatey\bin\Ketarin.exe`
+    *  
+```
+	PS C:\> (get-command ketarin.exe).Definition
+        C:\ProgramData\chocolatey\bin\Ketarin.exe
+```
 
 3. Run ketarin.exe
 
