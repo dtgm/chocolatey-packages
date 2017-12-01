@@ -1,1 +1,0 @@
-Write-Host "No work to do, all self contained during base uninstall."
