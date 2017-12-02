@@ -226,7 +226,7 @@ Actual download=http://www.sandboxie.com/SandboxieInstall32-412.exe
     <FileHippoId />
     <LastUpdated>2016-10-20T15:39:07.8990373</LastUpdated>
     <TargetPath>{saveDir}\{appname}_{version}.{url:ext}</TargetPath>
-    <FixedDownloadUrl>{url}</FixedDownloadUrl>
+    <FixedDownloadUrl>https://www.sandboxie.com/{url}</FixedDownloadUrl>
     <Name>sandboxie.install</Name>
   </ApplicationJob>
 </Jobs>
