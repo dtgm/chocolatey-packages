@@ -4,7 +4,6 @@ $installerType = 'exe'
 $silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
 $validExitCodes = @(0)
 
-$spybotreg = Get-UninstallRegistryKey -SoftwareName $packageSearch
 Get-ItemProperty -Path @('HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*',
 				                 'HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*',
 				                 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*') `
