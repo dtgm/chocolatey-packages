@@ -1,9 +1,18 @@
 $packageName = 'spybot'
 $packageSearch = "Spybot - Search and Destroy*"
 $installerType = 'exe'
+-$silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
+-$validExitCodes = @(0)
 $silentArgs = '/SILENT'
 
 $spybotreg = Get-UninstallRegistryKey -SoftwareName $packageSearch
-$spybot = $spybotreg.UninstallString
-									  
-Uninstall-ChocolateyPackage -PackageName $packageName -FileType $installerType -SilentArgs $silentArgs -File $spybot
+-Get-ItemProperty -Path @('HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*',
+-				                 'HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*',
+-				                 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*') `
+-                 -ErrorAction:SilentlyContinue `
+-| Where-Object   {$_.DisplayName -like $packageSearch} `
+-| ForEach-Object {Uninstall-ChocolateyPackage -PackageName "$packageName" `
+-								                              -FileType "$installerType" `
+-								                              -SilentArgs "$($silentArgs)" `
+-								                              -File "$($_.UninstallString)" `
+-                                              -ValidExitCodes $validExitCodes}
