@@ -41,7 +41,6 @@ Reporting (based on XLST stylesheets and graphs), loan administration, item impo
     </releaseNotes>
     <dependencies>
       <dependency id="javaruntime" version="7.0" />
-      <dependency id="chocolatey-fosshub.extension" />
     </dependencies>
   </metadata>
   <files>
