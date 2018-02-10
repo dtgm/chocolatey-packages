@@ -18,9 +18,6 @@ $zipFile = Join-Path $tempDir '{{DownloadUrlx64}}'
 $installFile32 = "$tempDir\setup32bit.exe"
 $installFile64 = "$tempDir\setup64bit.exe"
 
-Write-Debug 'Helper "Get-UrlFromFosshub" provided by "chocolatey-fosshub.extension"'
-$url = Get-UrlFromFosshub $url
-
 Get-ChocolateyWebFile -PackageName "$packageName" `
                       -FileFullPath "$zipFile" `
                       -Url "$url" `
