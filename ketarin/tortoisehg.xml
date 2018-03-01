@@ -41,7 +41,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
             <Regex>[^ "'&lt;&gt;\*]+.msi"&gt;([\d\.]+)</Regex>
-            <Url>http://tortoisehg.bitbucket.org/download/index.html</Url>
+            <Url>https://tortoisehg.bitbucket.io/download/index.html</Url>
             <Name>version</Name>
           </UrlVariable>
         </value>
@@ -83,7 +83,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
             <Regex>[^ "'&lt;&gt;\*]+x86\.msi</Regex>
-            <Url>http://tortoisehg.bitbucket.org/download/index.html</Url>
+            <Url>https://tortoisehg.bitbucket.io/download/index.html</Url>
             <Name>getUrl</Name>
           </UrlVariable>
         </value>
@@ -97,7 +97,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
             <Regex>[^ "'&lt;&gt;\*]+x64\.msi</Regex>
-            <Url>http://tortoisehg.bitbucket.org/download/index.html</Url>
+            <Url>https://tortoisehg.bitbucket.io/download/index.html</Url>
             <Name>getUrl64</Name>
           </UrlVariable>
         </value>

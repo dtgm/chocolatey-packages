@@ -28,7 +28,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
             <Regex>Version\s*:\s*&lt;code&gt;([\d\.]+)</Regex>
-            <Url>http://www.kcsoftwares.com/?download</Url>
+            <Url>https://www.kcsoftwares.com/?download</Url>
             <StartText>&lt;h3&gt;SUMo&lt;/h3&gt;
 						&lt;small&gt;Version : &lt;code&gt;</StartText>
             <EndText>&lt;/code&gt; / </EndText>
@@ -46,7 +46,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>http://www.kcsoftwares.com/files/sumo_lite.exe</TextualContent>
+            <TextualContent>https://www.kcsoftwares.com/files/sumo_lite.exe</TextualContent>
             <Name>url</Name>
           </UrlVariable>
         </value>

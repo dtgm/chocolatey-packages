@@ -59,7 +59,7 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>&lt;a href="/([^ "'&lt;&gt;\*]+CrystalDiskMark{versionFull}-en\.exe)</Regex>
+            <Regex>&lt;a href="/([^ "'&lt;&gt;\*]+CrystalDiskMark{versionFull}\.exe)</Regex>
             <Url>{urlBase}/projects/crystaldiskmark/releases/</Url>
             <Name>urlPath</Name>
           </UrlVariable>
