@@ -76,7 +76,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>https://www.stunnel.org/downloads/archive/{version:split:.:0}.x/stunnel-{version}-installer.exe</TextualContent>
+            <TextualContent>https://www.stunnel.org/downloads/archive/{version:split:.:0}.x/stunnel-{version}-win32-installer.exe</TextualContent>
             <Name>url</Name>
           </UrlVariable>
         </value>
