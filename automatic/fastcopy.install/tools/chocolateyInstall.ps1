@@ -1,19 +1,25 @@
-﻿$packageName = 'fastcopy.install'
+﻿$packageName = '{{PackageName}}'
+$url32       ='{{DownloadUrl}}'
+$checkSum32  = '{{Checksum}}'
+$url64       ='{{DownloadUrlx64}}'
+$checkSum64  = '{{Checksumx64}}'
 
-$url='http://ftp.vector.co.jp/66/88/2323/FastCopy313.zip'
-
-If (Get-ProcessorBits -eq '64') {
-   $url='http://ftp.vector.co.jp/66/88/2323/FastCopy313_x64.zip'
+$DownloadArgs = @{
+   PackageName         = $packageName
+   FileFullPath        = "$env:TEMP\$packageName\Download.zip"
+   Url                 = $url32
+   Url64bit            = $url64
+   Checksum            = $checkSum32
+   Checksum64          = $checkSum64
+   ChecksumType        = 'sha256'
+   GetOriginalFilename = $true
 }
 
-$WorkingDir = Join-Path $env:TEMP $packageName
-$ZipPath = Join-Path $WorkingDir $url.split('/')[-1]
-
 # Download zip
-Get-ChocolateyWebFile $packageName $ZipPath $url
+$ZipPath = Get-ChocolateyWebFile @DownloadArgs
  
 # Extract zip
-Get-ChocolateyUnzip $ZipPath $WorkingDir
+Get-ChocolateyUnzip $ZipPath (Split-Path $ZipPath)
 
 $UserArguments = @{}
 
@@ -38,12 +44,9 @@ if ($env:chocolateyPackageParameters) {
    } else { Throw 'Package Parameters were found but were invalid (REGEX Failure)' }
 } else { Write-Debug 'No Package Parameters Passed in' }
 
-
-$ScriptDir = Split-Path -parent $MyInvocation.MyCommand.Definition
-
 # Win7 complains the installer didn't run correctly.  This will prevent that.
 Set-Variable __COMPAT_LAYER=!Vista
 
-& AutoHotKey $(Join-Path $ScriptDir 'chocolateyInstall.ahk') $(Join-Path (Split-Path $ZipPath) 'setup.exe') $NoSubs
+& AutoHotKey $(Join-Path $env:ChocolateyPackageFolder 'tools\chocolateyInstall.ahk') $(Join-Path (Split-Path $ZipPath) 'setup.exe') $NoSubs
 
 
