@@ -1,7 +1,7 @@
 ﻿# generated vars
-$packageName = '{{PackageName}}'
-$url = '{{DownloadUrlx64}}'
-$checksum = '{{Checksum}}'
+$packageName = 'keepass.portable'
+$url = 'https://sourceforge.net/projects/keepass/files/KeePass%202.x/2.38/KeePass-2.38.zip'
+$checksum = 'DB71CBA72C321ECAEDA7EEC6F4E71E215864D4113AB9E29DC97AD4D56C80A7A9'
 
 # static vars
 $checksumType = 'sha256'

@@ -4,19 +4,19 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>3064848</LastFileSize>
-    <LastFileDate>2016-03-13T13:23:24.8262343</LastFileDate>
+    <LastFileSize>3231080</LastFileSize>
+    <LastFileDate>2018-01-09T10:12:20-06:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
-    <VariableChangeIndicator />
+    <VariableChangeIndicator>version</VariableChangeIndicator>
     <HashVariable />
     <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
     <ExclusiveDownload>false</ExclusiveDownload>
-    <HttpReferer>https://sourceforge.net/projects/keepass/files/KeePass%202.x/</HttpReferer>
+    <HttpReferer />
     <SetupInstructions />
     <Variables>
       <item>
@@ -123,16 +123,16 @@
       </item>
       <item>
         <key>
-          <string>getChecksum</string>
+          <string>checksumFull</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>\.exe.*?SHA1[\s:]+([a-z0-9 ]{40,44})</Regex>
-            <Url>http://keepass.info/integrity.html</Url>
+            <Regex>(?&lt;=\.exe.*?SHA-256.*?&lt;code&gt;)[a-z0-9 ]+(?=&lt;/code&gt;)</Regex>
+            <Url>https://keepass.info/integrity.html</Url>
             <TextualContent />
-            <Name>getChecksum</Name>
+            <Name>checksumFull</Name>
           </UrlVariable>
         </value>
       </item>
@@ -145,7 +145,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>{getChecksum:replace: :}</TextualContent>
+            <TextualContent>{checksumFull:replace: :}</TextualContent>
             <Name>checksum</Name>
           </UrlVariable>
         </value>
@@ -171,11 +171,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\keepass.install_2.32.exe</PreviousLocation>
+    <PreviousLocation>C:\exe\keepass.install_2.38.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2016-03-13T13:23:24.8262343</LastUpdated>
+    <LastUpdated>2018-03-29T12:39:46.907234-05:00</LastUpdated>
     <TargetPath>{saveDir}\{appname}_{version}.{url:ext}</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>keepass.install</Name>

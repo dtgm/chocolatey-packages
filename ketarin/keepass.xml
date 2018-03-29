@@ -4,8 +4,8 @@
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>3078328</LastFileSize>
-    <LastFileDate>2016-06-12T11:27:28.022207</LastFileDate>
+    <LastFileSize>3231080</LastFileSize>
+    <LastFileDate>2018-01-09T10:12:20-06:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -142,11 +142,11 @@
     <ExecutePreCommandType>PowerShell</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\keepass_2.34.exe</PreviousLocation>
+    <PreviousLocation>C:\exe\keepass_2.38.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2016-06-12T11:27:28.022207</LastUpdated>
+    <LastUpdated>2018-03-29T12:32:02.5818176-05:00</LastUpdated>
     <TargetPath>{saveDir}\{appname}_{version}.{url:ext}</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>keepass</Name>
