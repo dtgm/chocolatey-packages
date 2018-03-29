@@ -1,16 +1,17 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="e9930ae1-6729-4ccb-9dcc-a35779fd0f95">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>8267997</LastFileSize>
-    <LastFileDate>2016-02-04T19:29:05.3560757</LastFileDate>
+    <LastFileSize>7798280</LastFileSize>
+    <LastFileDate>2017-11-12T04:09:01-06:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
     <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
@@ -44,7 +45,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
             <Regex>(?&lt;=ResponseUri: )[^\r\n]+</Regex>
-            <Url>http://sourceforge.net/projects/gsmartcontrol/files/{version}/gsmartcontrol-{version}.exe/download</Url>
+            <Url>https://sourceforge.net/projects/gsmartcontrol/files/{version}/gsmartcontrol-{version}-win32.exe/download</Url>
             <TextualContent />
             <Name>url</Name>
           </UrlVariable>
@@ -59,22 +60,22 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>http://sourceforge.net/projects/gsmartcontrol/files/{version}/gsmartcontrol-{version}.exe/download</TextualContent>
+            <TextualContent>{urlArray}</TextualContent>
             <Name>url64</Name>
           </UrlVariable>
         </value>
       </item>
       <item>
         <key>
-          <string>nopush</string>
+          <string>getUrl64</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>--nopush</TextualContent>
-            <Name>nopush</Name>
+            <TextualContent>https://sourceforge.net/projects/gsmartcontrol/files/{version}/gsmartcontrol-{version}-win64.exe/download</TextualContent>
+            <Name>getUrl64</Name>
           </UrlVariable>
         </value>
       </item>
@@ -92,6 +93,49 @@
           </UrlVariable>
         </value>
       </item>
+      <item>
+        <key>
+          <string>checksum64file</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=ResponseUri: )[^\r\n]+</Regex>
+            <Url>{getUrl64}</Url>
+            <TextualContent />
+            <Name>checksum64file</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>urlArray</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>@('https://sourceforge.net/projects/gsmartcontrol/files/{version}/gsmartcontrol-{version}-win32.exe/download', 'https://sourceforge.net/projects/gsmartcontrol/files/{version}/gsmartcontrol-{version}-win64.exe/download')</TextualContent>
+            <Name>urlArray</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>nopush</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>--nopush</TextualContent>
+            <Name>nopush</Name>
+          </UrlVariable>
+        </value>
+      </item>
     </Variables>
     <ExecuteCommand />
     <ExecutePreCommand />
@@ -99,12 +143,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\gsmartcontrol-0.8.7.exe</PreviousLocation>
+    <PreviousLocation>C:\exe\gsmartcontrol_1.1.3.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2016-02-04T19:29:05.3560757</LastUpdated>
-    <TargetPath>{workdir}\</TargetPath>
+    <LastUpdated>2018-03-29T14:17:29.6475075-05:00</LastUpdated>
+    <TargetPath>{saveDir}\{appname}_{version}.{url:ext}</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>gsmartcontrol</Name>
   </ApplicationJob>
