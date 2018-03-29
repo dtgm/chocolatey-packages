@@ -1,16 +1,17 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="f76f0271-0044-4208-8970-a7683c6ae728">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>23420928</LastFileSize>
-    <LastFileDate>2016-02-09T17:30:27.8477964</LastFileDate>
+    <LastFileSize>24829952</LastFileSize>
+    <LastFileDate>2018-03-10T12:19:30-06:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
     <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
@@ -41,7 +42,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
             <Regex>[^ "'&lt;&gt;\*]+.msi"&gt;([\d\.]+)</Regex>
-            <Url>https://tortoisehg.bitbucket.io/download/index.html</Url>
+            <Url>http://tortoisehg.bitbucket.io/download/index.html</Url>
             <Name>version</Name>
           </UrlVariable>
         </value>
@@ -83,7 +84,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
             <Regex>[^ "'&lt;&gt;\*]+x86\.msi</Regex>
-            <Url>https://tortoisehg.bitbucket.io/download/index.html</Url>
+            <Url>http://tortoisehg.bitbucket.io/download/index.html</Url>
             <Name>getUrl</Name>
           </UrlVariable>
         </value>
@@ -97,7 +98,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
             <Regex>[^ "'&lt;&gt;\*]+x64\.msi</Regex>
-            <Url>https://tortoisehg.bitbucket.io/download/index.html</Url>
+            <Url>http://tortoisehg.bitbucket.io/download/index.html</Url>
             <Name>getUrl64</Name>
           </UrlVariable>
         </value>
@@ -138,12 +139,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\tortoisehg-3.7.1-x86.msi</PreviousLocation>
+    <PreviousLocation>C:\exe\tortoisehg_4.5.2.msi</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2016-02-09T17:30:27.8477964</LastUpdated>
-    <TargetPath>{workdir}\</TargetPath>
+    <LastUpdated>2018-03-29T06:18:01.2513972-05:00</LastUpdated>
+    <TargetPath>{saveDir}\{appname}_{version}.{url:ext}</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>tortoisehg</Name>
   </ApplicationJob>
