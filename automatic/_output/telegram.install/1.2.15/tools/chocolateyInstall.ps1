@@ -1,10 +1,10 @@
-$packageName = 'stunnel'
-$url = 'https://www.stunnel.org/downloads/archive/5.x/stunnel-5.44-win32-installer.exe'
-$checksum = '4099650ae7be17b81412a0d4caa91db19c8678c8d8d2975398814e583f4c51aa'
-$checksumType = 'sha256'
+$packageName = 'telegram.install'
 $installerType = 'exe'
-$silentArgs = '/S'
-$validExitCodes = @(0)
+$url = 'https://github.com/telegramdesktop/tdesktop/releases/download/v1.2.15/tsetup.1.2.15.exe'
+$checksum = 'a5f68d612323a671b23c5dacd5f78323e3213bd683db6bdc93e1b58a2e18c3eb'
+$checksumType = 'sha256'
+$silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
+$validExitCodes = @(0) 
 
 Install-ChocolateyPackage -PackageName "$packageName" `
                           -FileType "$installerType" `

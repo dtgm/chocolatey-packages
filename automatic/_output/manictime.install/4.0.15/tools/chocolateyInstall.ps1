@@ -1,10 +1,10 @@
-$packageName = 'stunnel'
-$url = 'https://www.stunnel.org/downloads/archive/5.x/stunnel-5.44-win32-installer.exe'
-$checksum = '4099650ae7be17b81412a0d4caa91db19c8678c8d8d2975398814e583f4c51aa'
+$packageName = 'manictime.install'
+$installerType = 'msi'
+$silentArgs = '/quiet /qn /norestart'
+$url = 'https://cdn.manictime.com/setup/v4_0_15_0/ManicTimeSetup.msi'
+$checksum = '81e44f22e24300ce9999ac803359111dc2cc63e6f23153e9f654819acd832a1d'
 $checksumType = 'sha256'
-$installerType = 'exe'
-$silentArgs = '/S'
-$validExitCodes = @(0)
+$validExitCodes = @(0, 3010)
 
 Install-ChocolateyPackage -PackageName "$packageName" `
                           -FileType "$installerType" `

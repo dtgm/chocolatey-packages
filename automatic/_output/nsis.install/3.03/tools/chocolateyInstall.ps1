@@ -1,9 +1,9 @@
-$packageName = 'stunnel'
-$url = 'https://www.stunnel.org/downloads/archive/5.x/stunnel-5.44-win32-installer.exe'
-$checksum = '4099650ae7be17b81412a0d4caa91db19c8678c8d8d2975398814e583f4c51aa'
-$checksumType = 'sha256'
+$packageName = 'nsis.install'
 $installerType = 'exe'
 $silentArgs = '/S'
+$url = 'https://sourceforge.net/projects/nsis/files/NSIS%203/3.03/nsis-3.03-setup.exe/download'
+$checksum = 'bd3b15ab62ec6b0c7a00f46022d441af03277be893326f6fea8e212dc2d77743'
+$checksumType = 'sha256'
 $validExitCodes = @(0)
 
 Install-ChocolateyPackage -PackageName "$packageName" `

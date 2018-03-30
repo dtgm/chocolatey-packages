@@ -1,9 +1,9 @@
-$packageName = 'stunnel'
-$url = 'https://www.stunnel.org/downloads/archive/5.x/stunnel-5.44-win32-installer.exe'
-$checksum = '4099650ae7be17b81412a0d4caa91db19c8678c8d8d2975398814e583f4c51aa'
-$checksumType = 'sha256'
+﻿$packageName = 'jstock'
 $installerType = 'exe'
 $silentArgs = '/S'
+$url = 'https://github.com/yccheok/jstock/releases/download/release_1-0-7-32/jstock-1.0.7.32-setup.exe'
+$checksum = '3b0b75f83eeb7c8432f80b70d197cbdc'
+$checksumType = 'md5'
 $validExitCodes = @(0)
 
 Install-ChocolateyPackage -PackageName "$packageName" `

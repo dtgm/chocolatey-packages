@@ -1,9 +1,9 @@
-$packageName = 'stunnel'
-$url = 'https://www.stunnel.org/downloads/archive/5.x/stunnel-5.44-win32-installer.exe'
-$checksum = '4099650ae7be17b81412a0d4caa91db19c8678c8d8d2975398814e583f4c51aa'
-$checksumType = 'sha256'
+$packageName = 'mediainfo'
 $installerType = 'exe'
 $silentArgs = '/S'
+$url = 'http://mediaarea.net/download/binary/mediainfo-gui/18.03.1/MediaInfo_GUI_18.03.1_Windows.exe'
+$checksum = 'fb40bbcd20a0ca6ce5113cd0f1a76b2531cde7fdb399854277068371efcbae41'
+$checksumType = 'sha256'
 $validExitCodes = @(0)
 
 Install-ChocolateyPackage -PackageName "$packageName" `
