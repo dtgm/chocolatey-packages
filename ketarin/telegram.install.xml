@@ -1,16 +1,17 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="fb97edca-5b8f-4720-9fe9-ce4bec79d9ab">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>16235536</LastFileSize>
-    <LastFileDate>2016-02-16T11:48:57.7794745</LastFileDate>
+    <LastFileSize>22407392</LastFileSize>
+    <LastFileDate>2018-03-29T15:21:28.8070489</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
     <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
@@ -28,22 +29,22 @@
             <VariableType>Textual</VariableType>
             <Regex />
             <Url />
-            <TextualContent>{url:regex:(?&lt;=tsetup\.)[\d\.]{3,\}(?=\.exe)}</TextualContent>
+            <TextualContent>{urlPath:regex:(?&lt;=telegramdesktop/tdesktop/releases/download/v)[\d.]{3,\}(?=/tsetup[\d.]{3,\}\.exe)}</TextualContent>
             <Name>version</Name>
           </UrlVariable>
         </value>
       </item>
       <item>
         <key>
-          <string>url</string>
+          <string>urlPath</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=ResponseUri: )[^\r\n]+</Regex>
-            <Url>https://tdesktop.com/win</Url>
-            <Name>url</Name>
+            <Regex>/?([^ "'&lt;&gt;\*]+\.exe)</Regex>
+            <Url>https://github.com/telegramdesktop/tdesktop/releases/latest</Url>
+            <Name>urlPath</Name>
           </UrlVariable>
         </value>
       </item>
@@ -75,6 +76,20 @@
           </UrlVariable>
         </value>
       </item>
+      <item>
+        <key>
+          <string>url</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>https://github.com/{urlPath}</TextualContent>
+            <Name>url</Name>
+          </UrlVariable>
+        </value>
+      </item>
     </Variables>
     <ExecuteCommand />
     <ExecutePreCommand />
@@ -82,12 +97,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\tsetup.0.9.24.exe</PreviousLocation>
+    <PreviousLocation>C:\exe\telegram.install_1.2.15.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2016-02-16T11:48:57.7794745</LastUpdated>
-    <TargetPath>{workdir}\</TargetPath>
+    <LastUpdated>2018-03-29T15:21:28.8070489</LastUpdated>
+    <TargetPath>{saveDir}\{appname}_{version}.{url:ext}</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>telegram.install</Name>
   </ApplicationJob>

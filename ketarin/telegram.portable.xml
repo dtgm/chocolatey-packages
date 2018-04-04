@@ -1,16 +1,17 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="ebcc1fc8-b04c-42ee-8678-ea2e972e25ae">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>17883073</LastFileSize>
-    <LastFileDate>2016-02-16T11:48:59.0035073</LastFileDate>
+    <LastFileSize>25300944</LastFileSize>
+    <LastFileDate>2018-03-29T15:21:34.2680506</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
     <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
@@ -25,9 +26,10 @@
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=tsetup\.)([\d\.]+)(?=\.exe[\r\n]+)</Regex>
-            <Url>https://tdesktop.com/win</Url>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <Url />
+            <TextualContent>{urlPath:regex:(?&lt;=telegramdesktop/tdesktop/releases/download/v)[\d.]{3,\}(?=/tportable[\d.]{3,\}\.zip)}</TextualContent>
             <Name>version</Name>
           </UrlVariable>
         </value>
@@ -42,22 +44,22 @@
             <VariableType>Textual</VariableType>
             <Regex />
             <Url />
-            <TextualContent>{getUrl}/tportable.{version}.zip</TextualContent>
+            <TextualContent>https://github.com/{urlPath}</TextualContent>
             <Name>url</Name>
           </UrlVariable>
         </value>
       </item>
       <item>
         <key>
-          <string>getUrl</string>
+          <string>urlPath</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=ResponseUri: )([^\r\n]+)/</Regex>
-            <Url>https://tdesktop.com/win</Url>
-            <Name>getUrl</Name>
+            <Regex>/?([^ "'&lt;&gt;\*]+\.zip)</Regex>
+            <Url>https://github.com/telegramdesktop/tdesktop/releases/latest</Url>
+            <Name>urlPath</Name>
           </UrlVariable>
         </value>
       </item>
@@ -96,12 +98,12 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\tportable.0.9.24.zip</PreviousLocation>
+    <PreviousLocation>C:\exe\telegram.portable_1.2.15.zip</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2016-02-16T11:48:59.0035073</LastUpdated>
-    <TargetPath>{workdir}\</TargetPath>
+    <LastUpdated>2018-03-29T15:21:34.2680506</LastUpdated>
+    <TargetPath>{saveDir}\{appname}_{version}.{url:ext}</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>telegram.portable</Name>
   </ApplicationJob>
