@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
-    <id>{{PackageName}}</id>
+    <id>sandboxie.install</id>
     <title>Sandboxie (Install)</title>
-    <version>{{PackageVersion}}</version>
+    <version>5.24</version>
     <authors>Ronen "tzuk" Tzur</authors>
     <owners>dtgm</owners>
     <summary>Executes processes in a protected, isolated space, otherwise known as a "sandbox"</summary>
@@ -32,7 +32,7 @@ A process sandbox helps to manage and limit access permissions a process has to 
 * [Forum](http://forums.sandboxie.com/phpBB3/)
     </description>
     <tags>security virtualization forensics shareware nagscreen admin</tags>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/sandboxie.install/</packageSourceUrl>
     <projectUrl>http://www.sandboxie.com/</projectUrl>
     <copyright>© 2004 Sandboxie Holdings LLC, © Dec 2013 Invincea</copyright>
     <licenseUrl>http://www.sandboxie.com/index.php?EndUserLicenseAgreement</licenseUrl>

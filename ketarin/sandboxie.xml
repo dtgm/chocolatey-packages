@@ -2,15 +2,15 @@
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="336b03e4-e14a-4fe9-9934-9eb34555035f">
     <WebsiteUrl />
-    <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64)</UserAgent>
+    <UserAgent />
     <UserNotes>{version}=4.12
 
 {url}=http://www.sandboxie.com/SandboxieInstall32-{version:split:.:0}{version:split:.:1}.exe
 
 Actual download=http://www.sandboxie.com/SandboxieInstall32-412.exe
 </UserNotes>
-    <LastFileSize>173366</LastFileSize>
-    <LastFileDate>2016-10-20T15:39:03.8508839</LastFileDate>
+    <LastFileSize>2476560</LastFileSize>
+    <LastFileDate>2018-03-08T21:42:32-06:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -45,7 +45,7 @@ Actual download=http://www.sandboxie.com/SandboxieInstall32-412.exe
       </item>
       <item>
         <key>
-          <string>url64</string>
+          <string>urlPath64</string>
         </key>
         <value>
           <UrlVariable>
@@ -54,13 +54,13 @@ Actual download=http://www.sandboxie.com/SandboxieInstall32-412.exe
             <Regex>(?&lt;=64-bit).*?([^ "'&lt;&gt;\*]+\.exe)"</Regex>
             <Url>https://www.sandboxie.com/index.php?AllVersions</Url>
             <TextualContent />
-            <Name>url64</Name>
+            <Name>urlPath64</Name>
           </UrlVariable>
         </value>
       </item>
       <item>
         <key>
-          <string>url</string>
+          <string>urlPath</string>
         </key>
         <value>
           <UrlVariable>
@@ -69,7 +69,7 @@ Actual download=http://www.sandboxie.com/SandboxieInstall32-412.exe
             <Regex>(?&lt;=32-bit).*?([^ "'&lt;&gt;\*]+\.exe)"</Regex>
             <Url>https://www.sandboxie.com/index.php?AllVersions</Url>
             <TextualContent />
-            <Name>url</Name>
+            <Name>urlPath</Name>
           </UrlVariable>
         </value>
       </item>
@@ -131,15 +131,29 @@ Actual download=http://www.sandboxie.com/SandboxieInstall32-412.exe
       </item>
       <item>
         <key>
-          <string>packageGuid</string>
+          <string>url</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent />
-            <Name>packageGuid</Name>
+            <TextualContent>https://www.sandboxie.com/{urlPath}</TextualContent>
+            <Name>url</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url64</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>https://www.sandboxie.com/{urlPath64}</TextualContent>
+            <Name>url64</Name>
           </UrlVariable>
         </value>
       </item>
@@ -150,13 +164,13 @@ Actual download=http://www.sandboxie.com/SandboxieInstall32-412.exe
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\sandboxie_5.14.exe</PreviousLocation>
+    <PreviousLocation>C:\exe\sandboxie_5.24.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2016-10-20T15:39:03.8508839</LastUpdated>
+    <LastUpdated>2018-04-04T00:04:03.7761339-05:00</LastUpdated>
     <TargetPath>{saveDir}\{appname}_{version}.{url:ext}</TargetPath>
-    <FixedDownloadUrl>https://www.sandboxie.com/{url}</FixedDownloadUrl>
+    <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>sandboxie</Name>
   </ApplicationJob>
 </Jobs>
