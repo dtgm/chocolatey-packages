@@ -1,14 +1,14 @@
-$packageName = 'git-annex'
+﻿$packageName = 'i2p'
 $installerType = 'exe'
-$silentArgs = '/S /D=C:\Program Files\Git'
-$url = 'https://downloads.kitenet.net/git-annex/windows/current/git-annex-installer.exe'
-$checksum = '09c252e55706a58be8302b3b806591f7899d062404d866258fd3aa25349b6f8c'
+$silentArgs = ''
+$url = 'https://download.i2p2.de/releases/0.9.34/i2pinstall_0.9.34_windows.exe'
+$checksum = '{checksum}'
 $checksumType = 'sha256'
 $validExitCodes = @(0)
 
-$scriptPath = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
-$ahkExe = 'AutoHotKey'
+$scriptPath = Split-Path -parent $MyInvocation.MyCommand.Definition
 $ahkFile = Join-Path $scriptPath "chocolateyInstall.ahk"
+$ahkExe = 'AutoHotKey'
 Start-Process $ahkExe $ahkFile
 
 Install-ChocolateyPackage -PackageName "$packageName" `
