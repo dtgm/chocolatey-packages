@@ -1,4 +1,4 @@
-﻿$packageName = 'i2p'
+$packageName = 'i2p'
 $validExitCodes = @(0)
 
 Write-Debug "Verify java environment is configured"
