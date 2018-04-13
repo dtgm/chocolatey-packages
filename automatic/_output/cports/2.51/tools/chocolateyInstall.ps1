@@ -1,11 +1,12 @@
-$packageName = 'dolphin'
-$url = 'https://dl.dolphin-emu.org/builds/dolphin-master-5.0-6953-x64.7z'
-$checksum = 'd2073b382a01b72b2d35252b473fb57abc2a6ce4f1fbad071025851ccf66c8a7'
+﻿$packageName = 'cports'
+$url = 'http://www.nirsoft.net/utils/cports.zip'
+$checksum = '{checksum}'
 $checksumType = 'sha256'
-$url64 = $url
-$checksum64 = $checksum
-$checksumType64 = $checksumType
+$url64 = 'http://www.nirsoft.net/utils/cports-x64.zip'
+$checksum64 = '{checksumx64}'
+$checksumType64 = 'sha256'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+$installFile = Join-Path $toolsDir "$($packageName).exe"
 
 Install-ChocolateyZipPackage -PackageName "$packageName" `
                              -Url "$url" `
@@ -15,3 +16,6 @@ Install-ChocolateyZipPackage -PackageName "$packageName" `
                              -ChecksumType "$checksumType" `
                              -Checksum64 "$checksum64" `
                              -ChecksumType64 "$checksumType64"
+
+Set-Content -Path ("$installFile.gui") `
+            -Value $null
