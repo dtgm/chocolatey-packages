@@ -1,4 +1,4 @@
-﻿$packageName = 'electrum.install'
+$packageName = 'electrum.install'
 $packageSearch = $packageName
 $installerType = 'exe'
 $silentArgs = '/S'

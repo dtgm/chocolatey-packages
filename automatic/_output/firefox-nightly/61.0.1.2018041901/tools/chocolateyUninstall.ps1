@@ -1,5 +1,6 @@
-$packageName = 'duplicatefilefinder'
-$packageSearch = "Auslogics Duplicate*"
+﻿$packageName = 'firefox-nightly'
+$softwareVersion = '61.0.1.2018041901-alpha' -Replace "^(\d+)\.(\d+)\.(\d+)[^-]+-([a-z]).*",'$1.$2$4$3'
+$softwareName = "Nightly $softwareVersion*"
 $installerType = 'exe'
 $silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
 $validExitCodes = @(0)
