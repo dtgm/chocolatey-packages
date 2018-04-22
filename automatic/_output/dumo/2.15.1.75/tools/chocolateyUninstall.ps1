@@ -1,4 +1,4 @@
-﻿$packageName = 'dumo'
+$packageName = 'dumo'
 $packageSearch = 'KC Softwares DUMo'
 $installerType = 'exe'
 $silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'

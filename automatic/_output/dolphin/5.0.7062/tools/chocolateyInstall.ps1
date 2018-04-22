@@ -1,6 +1,6 @@
-﻿$packageName = 'dolphin'
+$packageName = 'dolphin'
 $url = 'https://dl.dolphin-emu.org/builds/dolphin-master-5.0-7062-x64.7z'
-$checksum = '{checksum}'
+$checksum = '826ed007f4ad7454b6710adc2ea1edfcee89fb40dbd88fdd76abf3904e4cc3df'
 $checksumType = 'sha256'
 $url64 = $url
 $checksum64 = $checksum
