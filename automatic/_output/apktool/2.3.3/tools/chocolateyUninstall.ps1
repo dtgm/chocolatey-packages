@@ -1,4 +1,4 @@
-﻿$packageName = 'apktool'
+$packageName = 'apktool'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $installBat = Join-Path -Path $toolsDir `
                         -ChildPath "apktool.bat"

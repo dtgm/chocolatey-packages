@@ -1,15 +1,16 @@
-$packageName = 'awscli'
-$packageSearch = "AWS Command Line Interface"
-$installerType = 'msi'
-$silentArgs = '/quiet /qn /norestart'
+﻿$packageName = 'cdex'
+$packageSearch = "$packageName"
+$installerType = 'exe'
+$silentArgs = '/S'
 $validExitCodes = @(0)
 
 Get-ItemProperty -Path @('HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*',
                          'HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*',
                          'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*') `
                  -ErrorAction:SilentlyContinue `
-| Where-Object   {$_.DisplayName -like $packageSearch} `
+| Where-Object   {$_.PSChildName -like $packageSearch} `
 | ForEach-Object {Uninstall-ChocolateyPackage -PackageName "$packageName" `
                                               -FileType "$installerType" `
-                                              -SilentArgs "$($_.PSChildName) $silentArgs" `
+                                              -SilentArgs "$($silentArgs)" `
+                                              -File "$($_.UninstallString.Replace('"',''))" `
                                               -ValidExitCodes $validExitCodes}
