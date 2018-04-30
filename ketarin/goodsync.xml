@@ -45,7 +45,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>https://www.goodsync.com/download/GoodSync-Setup.msi</TextualContent>
+            <TextualContent>https://www.goodsync.com/download/GoodSync-v10-Setup.msi</TextualContent>
             <Name>url</Name>
           </UrlVariable>
         </value>
@@ -85,7 +85,7 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\GoodSync-Setup.msi</PreviousLocation>
+    <PreviousLocation>F:\exe\GoodSync-v10-Setup.msi</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
