@@ -1,11 +1,11 @@
-$packageName = 'dispcalgui.portable'
-$toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url = 'https://sourceforge.net/projects/dispcalgui/files/release/3.5.3.0/DisplayCAL-3.5.3.0-win32.zip/download'
-$checksum = 'b8956398633c59d1de5958865057e750e3fb5e53977b9f385c4cf58bc4e8c56c'
+﻿$packageName = 'dolphin'
+$url = 'https://dl.dolphin-emu.org/builds/dolphin-master-5.0-7106-x64.7z'
+$checksum = '{checksum}'
 $checksumType = 'sha256'
-$url64 = "$url"
-$checksum64 = "$checksum"
-$checksumType64 = "$checksumType"
+$url64 = $url
+$checksum64 = $checksum
+$checksumType64 = $checksumType
+$toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 Install-ChocolateyZipPackage -PackageName "$packageName" `
                              -Url "$url" `

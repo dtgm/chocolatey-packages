@@ -1,4 +1,4 @@
-﻿$packageName = 'dispcalgui.install'
+$packageName = 'dispcalgui.install'
 $packageSearch = "$packageName"
 $installerType = 'exe'
 $silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
