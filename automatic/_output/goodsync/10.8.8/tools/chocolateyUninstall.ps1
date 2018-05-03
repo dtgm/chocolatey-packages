@@ -1,4 +1,4 @@
-﻿$packageName = 'goodsync'
+$packageName = 'goodsync'
 $installerType = 'msi'
 $silentArgs = '/quiet /qn /norestart'
 $validExitCodes = @(0)
