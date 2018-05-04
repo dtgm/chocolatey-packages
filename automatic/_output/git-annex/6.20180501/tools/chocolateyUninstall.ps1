@@ -1,4 +1,4 @@
-﻿$packageName = 'git-annex'
+$packageName = 'git-annex'
 $installerType = 'exe'
 $silentArgs = '/S'
 $validExitCodes = @(0)
