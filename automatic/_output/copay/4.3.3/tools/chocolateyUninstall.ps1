@@ -1,4 +1,4 @@
-﻿$packageName = 'copay'
+$packageName = 'copay'
 $softwareName = 'Copay version 4.3.3'
 $installerType = 'exe'
 $silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
