@@ -51,6 +51,6 @@ if (!(Test-Path $configFilePath))
 }    
 
 # register MongoDB server as a Windows Service
-Invoke-Command "$Path\$version\bin\mongod.exe --config '$Path\$version\mongod.cfg' --install"
+& "$Path\$version\bin\mongod.exe" --config "$Path\$version\mongod.cfg" --install
 # start the service
 Start-Service -Name MongoDB
