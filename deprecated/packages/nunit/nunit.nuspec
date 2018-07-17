@@ -1,18 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
-    <id>{{PackageName}}</id>
-    <title>NUnit</title>
-    <version>{{PackageVersion}}</version>
+    <id>nunit</id>
+    <title>[Deprecated] NUnit</title>
+    <version>3.4.0.20180717</version>
     <authors>Charlie Poole,Rob Prouse</authors>
     <owners>dtgm</owners>
     <summary>Unit-testing framework for all .Net languages</summary>
     <description>
+**NOTE:** This package has been deprecated in favour of the [NUnit 3 Console Runner](https://chocolatey.org/packages/nunit-console-runner) package.  Please use this package instead.
+
 NUnit is a unit-testing framework for all .Net languages. Initially ported from JUnit, it is an xUnit based unit testing tool for Microsoft .NET. It is written entirely in C# and has been completely redesigned to take advantage of many .NET language features, for example custom attributes and other reflection related capabilities. NUnit brings xUnit to all .NET languages.
     </description>
     <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>http://www.nunit.org/</projectUrl>
-    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/f741d8520fd414f8b453562e3091854efcf79305/icons/{{PackageName}}.png</iconUrl>
     <projectSourceUrl>https://github.com/nunit/nunit</projectSourceUrl>
     <bugTrackerUrl>https://github.com/nunit/nunit/issues</bugTrackerUrl>
     <docsUrl>http://www.nunit.org/index.php?p=documentation</docsUrl>
@@ -30,10 +31,8 @@ NUnit is a unit-testing framework for all .Net languages. Initially ported from 
 * Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
     </releaseNotes>
     <dependencies>
-      <dependency id="{{PackageName}}.install" version="[{{PackageVersion}}]" />
+      <dependency id="nunit-console-runner" />
     </dependencies>
   </metadata>
-  <files>
-    <file src="tools\**" target="tools" />
-  </files>
+  <files />
 </package>
