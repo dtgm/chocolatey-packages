@@ -1,20 +1,20 @@
-﻿$packageName = '{{PackageName}}'
-$installerType = 'exe'
-$silentArgs = ''
-$url = '{{DownloadUrl}}'
-$checksum = '{{Checksum}}'
-$checksumType = 'sha256'
-$validExitCodes = @(0)
+$packageArgs = @{
+  packageName            = '{{PackageName}}'
+  FileFullPath           = "$env:TMP\i2pinstall_windows.exe"
+  url                    = '{{DownloadUrl}}'
+  checksum               = '{{Checksum}}'
+  checksumType           = 'sha256'
+}
+Get-ChocolateyWebFile @packageArgs
 
-$scriptPath = Split-Path -parent $MyInvocation.MyCommand.Definition
-$ahkFile = Join-Path $scriptPath "chocolateyInstall.ahk"
-$ahkExe = 'AutoHotKey'
-Start-Process $ahkExe $ahkFile
+$config = "INSTALL_PATH=$("$env:PROGRAMFILES\i2p" -replace '\\','\\')"
 
-Install-ChocolateyPackage -PackageName "$packageName" `
-                          -FileType "$installerType" `
-                          -SilentArgs "$silentArgs" `
-                          -Url "$url" `
-                          -ValidExitCodes $validExitCodes `
-                          -Checksum "$checksum" `
-                          -ChecksumType "$checksumType"
+[IO.File]::WriteAllLines("$env:TMP\i2pinstall_windows.properties", $config, (New-Object System.Text.UTF8Encoding $False))
+
+$packageArgs = @{
+  packageName            = "$env:chocolateyPackageName"
+  FileType               = 'exe'
+  SilentArgs             = "-jar `"$env:TMP\i2pinstall_windows.exe`" -options `"$env:TMP\i2pinstall_windows.properties`""
+  File                   = (get-command java.exe).Definition
+}
+Install-ChocolateyInstallPackage @packageArgs
