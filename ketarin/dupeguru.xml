@@ -27,7 +27,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>http://download.hardcoded.net/{getUrl}</TextualContent>
+            <TextualContent>{getUrl}</TextualContent>
             <Name>url</Name>
           </UrlVariable>
         </value>
@@ -40,8 +40,8 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>(?&lt;=itemprop="softwareVersion"&gt;)([\d\.]+)(?=&lt;)</Regex>
-            <Url>http://www.hardcoded.net/dupeguru/</Url>
+            <Regex>(?&lt;=Latest Version: &lt;strong&gt;)([\d\.]+)(?=&lt;)</Regex>
+            <Url>https://dupeguru.voltaicideas.net/</Url>
             <Name>version</Name>
           </UrlVariable>
         </value>
@@ -82,8 +82,8 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>/?([^ "'&lt;&gt;\*]+{version}\.msi)</Regex>
-            <Url>http://download.hardcoded.net/</Url>
+            <Regex>(https:\/\/github\.com\/arsenetar\/dupeguru\/releases\/download\/.+?dupeGuru_win64_{version}\.exe)</Regex>
+            <Url>https://dupeguru.voltaicideas.net/</Url>
             <Name>getUrl</Name>
           </UrlVariable>
         </value>
@@ -95,7 +95,7 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\dupeguru_win64_3.9.1.msi</PreviousLocation>
+    <PreviousLocation>F:\exe\dupeguru_win64_4.0.3.exe</PreviousLocation>
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
