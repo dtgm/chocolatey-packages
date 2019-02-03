@@ -42,7 +42,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
             <Regex>(?&lt;=&lt;b&gt;&lt;span&gt;v&lt;/span&gt;)[\d\.]+</Regex>
-            <Url>http://www.manictime.com/Download/</Url>
+            <Url>https://www.manictime.com/Download/</Url>
             <Name>version</Name>
           </UrlVariable>
         </value>
@@ -70,7 +70,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
             <Regex>[^ "'&lt;&gt;\*]+\.msi</Regex>
-            <Url>http://www.manictime.com/Download/</Url>
+            <Url>https://www.manictime.com/Download/</Url>
             <Name>getUrl</Name>
           </UrlVariable>
         </value>
