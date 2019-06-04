@@ -40,19 +40,14 @@ if ($pluginPath.Count -eq 0) {
   $pluginPath = Join-Path $installPath "Plugins"
   [System.IO.Directory]::CreateDirectory($pluginPath)
 }
+# move PLGX to folder so it is clear which plugins are managed via choco
+$installPath = Join-Path $pluginPath $packageName
 # download and extract PLGX file into Plugins dir
 Install-ChocolateyZipPackage -PackageName "$packageName" `
                              -Url "$url" `
                              -UnzipLocation "$pluginPath" `
                              -Checksum "$checksum" `
                              -ChecksumType "$checksumType"
-# rename PLGX file so it is clear which plugins are managed via choco
-foreach ($i in Get-ChildItem -Path $pluginPath) {
-  Rename-Item -Path $i.Fullname `
-              -NewName $i.Name.Replace($typName,$packageName) `
-              -Force `
-              -ErrorAction SilentlyContinue
-}
 # report state
 if ( Get-Process -Name "KeePass" `
                  -ErrorAction SilentlyContinue ) {
