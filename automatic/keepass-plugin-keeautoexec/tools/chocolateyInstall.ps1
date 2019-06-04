@@ -45,7 +45,7 @@ $installPath = Join-Path $pluginPath $packageName
 # download and extract PLGX file into Plugins dir
 Install-ChocolateyZipPackage -PackageName "$packageName" `
                              -Url "$url" `
-                             -UnzipLocation "$pluginPath" `
+                             -UnzipLocation "$installPath" `
                              -Checksum "$checksum" `
                              -ChecksumType "$checksumType"
 # report state
