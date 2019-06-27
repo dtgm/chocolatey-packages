@@ -6,7 +6,7 @@ $checksumType = 'sha1'
 $url64 = 'http://download.microsoft.com/download/8/B/4/8B42259F-5D70-43F4-AC2E-4B208FD8D66A/vcredist_x64.EXE'
 $checksum64 = 'ee916012783024dac67fc606457377932c826f05'
 $checksumType64 = 'sha1'
-$silentArgs = '/Q'
+$silentArgs = '/Q /norestart'
 $validExitCodes = @(0,3010)  # http://msdn.microsoft.com/en-us/library/aa368542(VS.85).aspx
 
 Install-ChocolateyPackage -PackageName "$packageName" `
