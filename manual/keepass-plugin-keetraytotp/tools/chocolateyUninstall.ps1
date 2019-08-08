@@ -6,8 +6,8 @@ if ($psver -ge 3) {
   function Get-ChildItemDir {Get-ChildItem $args}
 }
 
-$packageName = '{{PackageName}}'
-$typName = 'TrayTotp.plgx'
+$packageName = 'keepass-plugin-keetraytotp'
+$typName = 'KeeTrayTOTP.plgx'
 $packageSearch = 'KeePass Password Safe'
 
 try {

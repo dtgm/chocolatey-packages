@@ -6,11 +6,11 @@ if ($psver -ge 3) {
   function Get-ChildItemDir {Get-ChildItem $args}
 }
 
-$packageName = '{{PackageName}}'
+$packageName = 'keepass-plugin-keetraytotp'
 $packageSearch = 'KeePass Password Safe'
-$url = '{{DownloadUrlx64}}'
-$checksum = '{{Checksum}}'
-$checksumType = 'sha256'
+$url = 'https://github.com/victor-rds/KeeTrayTOTP/releases/download/0.98-Beta/KeeTrayTOTP.plgx'
+#$checksum = '{{Checksum}}'
+#$checksumType = 'sha256'
 
 try {
 Write-Verbose "Searching registry for installed KeePass..."
@@ -53,9 +53,9 @@ if ($pluginPath.Count -eq 0) {
 $installFile = Join-Path $pluginPath "$($packageName).plgx"
 Get-ChocolateyWebFile -PackageName "$packageName" `
                       -FileFullPath "$installFile" `
-                      -Url "$url" `
-                      -Checksum "$checksum" `
-                      -ChecksumType "$checksumType"
+                      -Url "$url" #`
+#                      -Checksum "$checksum" `
+#                      -ChecksumType "$checksumType"
 if ( Get-Process -Name "KeePass" `
                  -ErrorAction SilentlyContinue ) {
   Write-Warning "$($packageSearch) is currently running. Plugin will be available at next restart of $($packageSearch)." 
