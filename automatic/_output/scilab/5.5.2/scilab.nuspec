@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
+  <metadata>
+    <id>scilab</id>
+    <title>Scilab</title>
+    <version>5.5.2</version>
+    <authors>Scilab Enterprises</authors>
+    <owners>dtgm</owners>
+    <summary>Scientific software for analysis and modeling numerical computation</summary>
+    <description>
+Scilab is free and open source software for numerical computation providing a powerful computing environment for engineering and scientific applications. 
+
+Scilab includes hundreds of mathematical functions. It has a high level programming language allowing access to advanced data structures, 2-D and 3-D graphical functions.
+
+#### [Features](https://www.scilab.org/scilab/features/)
+
+* Maths and Simulation for usual engineering and science applications including mathematical operations and data analysis.
+* 2-D and 3-D Visualization graphics functions to visualize, annotate and export data and many ways to create and customize various types of plots and charts. 
+* Optimization algorithms to solve constrained and unconstrained continuous and discrete optimization problems.
+* Statistics tools to perform data analysis and modeling.
+* Control System Design and Analyse standard algorithms and tools for control system study.
+* Signal Processing to visualize, analyze and filter signals in time and frequency domains. 
+* Application Development to increase Scilab native functionalities and manage data exchanges with external tools.
+* Xcos - Hybrid dynamic systems modeler and simulator for modeling mechanical systems, hydraulic circuits, control systems...
+
+#### Scilab as a platform
+
+Thanks to its ability to interconnect with [third-party technologies](https://www.scilab.org/scilab/interoperability/calculation_engine) and [applications](https://www.scilab.org/scilab/interoperability/connection_applications), Scilab can also act as a unique platform to bring together codes written in [different programming languages](https://www.scilab.org/scilab/interoperability/connection_languages) in a single, unified language, thus facilitating their distribution, their back-up and use.
+
+#### [Documentation](http://www.scilab.org/en/resources/documentation)
+* [Screenshots](https://www.scilab.org/scilab/gallery)
+* [Tutorials](http://www.scilab.org/en/resources/documentation/tutorials)
+* [Matlab-Scilab command equivalents](http://help.scilab.org/docs/current/fr_FR/section_36184e52ee88ad558380be4e92d3de21.html)
+* [Wiki](http://wiki.scilab.org/)
+* [Manual](http://help.scilab.org/)
+
+#### Community
+* [File exchange](http://fileexchange.scilab.org/)
+* [Forum](http://scilab.developpez.com/) (Français)
+* [Mail list](http://www.scilab.org/en/development/ml)
+* [IRC](http://www.scilab.org/resources/user_community/irc)
+* [Social media platforms](http://www.scilab.org/community/connect)
+    </description>
+    <projectUrl>https://www.scilab.org/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/d11226adb2eea0b1211ccdb429a16d52c2e5718c/icons/scilab.png</iconUrl>
+    <tags>mathematics numerical computation</tags>
+    <copyright>© Scilab Enterprises S.A.S, Inria</copyright>
+    <licenseUrl>https://www.scilab.org/scilab/license</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+#### Program
+* [What's New?](http://www.scilab.org/community/news/20150401/)
+* [Release notes](http://www.scilab.org/community/news/20150401/release_notes/)
+* [Changelog](http://gitweb.scilab.org/?p=scilab.git;a=tree;f=scilab)
+* [Known issues](http://bugzilla.scilab.org/)
+* [Development](https://www.scilab.org/development/)
+* [Version history](https://www.scilab.org/scilab/history/version/)
+* [Source code](https://www.scilab.org/development/sources/)
+
+#### Package
+* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
