@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>bulkrenameutility.portable</id>
+    <title>Bulk Rename Utility (Portable)</title>
+    <version>2.7.1.0</version>
+    <authors>Jim Willsher, TGRMN Software</authors>
+    <owners>dtgm</owners>
+    <summary>Rename multiple files quickly with previews and undo</summary>
+    <description>
+Bulk Rename Utility allows you to easily rename files and folders recursively based upon find-replace, character place, fields, sequences, regular expressions, EXIF data, and more.
+
+### Features
+* Rename multiple files quickly, according to many flexible criteria.
+* Rename files in many ways: add, replace, insert text into file names. Convert case, add numbers. Remove or change file extensions.
+* Check the detailed preview before renaming.
+* Rename photos using EXIF meta data (i.e. "Date Picture Taken", "Resolution" and other information embedded in all JPG photo files) Rename your holiday pictures from a meaningless dsc1790.jpg to NewYork1.jpg in a flash.
+* Rename MP3 files using ID3 tags (a.k.a. MP3 ID3 tag renaming).
+* Change files' creation and modification time stamps.
+    </description>
+    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/_output/bulkrenameutility.portable/2.7.1.0</packageSourceUrl>
+    <projectUrl>http://www.bulkrenameutility.co.uk/</projectUrl>
+    <docsUrl>http://www.bulkrenameutility.co.uk/Downloads/BRU_Manual.pdf</docsUrl>
+    <mailingListUrl>http://www.bulkrenameutility.co.uk/forum/</mailingListUrl>
+    <tags>freeware batch rename regex file</tags>
+    <copyright>© 2002 TGRMN Software</copyright>
+    <licenseUrl>http://www.bulkrenameutility.co.uk/License.php</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/4039ff8f517da1f1d35f59ac7c7f28a3d5645a9a/icons/bulkrenameutility.png</iconUrl>
+    <releaseNotes>http://www.bulkrenameutility.co.uk/Files/BRUChangelog.pdf</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
