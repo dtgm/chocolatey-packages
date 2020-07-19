@@ -1,1 +1,0 @@
-﻿#Install-VirtualPackage '{{PackageName}}.portable' '{{PackageName}}.install'
