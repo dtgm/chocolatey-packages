@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>rufus.install</id>
+    <version>3.11.1678.0</version>
+    <title>Rufus (Install)</title>
+    <authors>Akeo Consulting</authors>
+    <owners>Muhammad Hussein Ammari</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/pbatard/rufus/blob/master/LICENSE.txt</licenseUrl>
+    <projectUrl>https://rufus.ie/</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/xmha97/chocolatey-coreteampackages/master/icons/rufus.install.png</iconUrl>
+    <description>Rufus is a utility that helps format and create bootable USB flash drives, such as USB keys/pendrives, memory sticks, etc.
+
+It can be especially useful for cases where:
+
+- you need to create USB installation media from bootable ISOs (Windows, Linux, UEFI, etc.)
+- you need to work on a system that doesn't have an OS installed
+- you need to flash a BIOS or other firmware from DOS
+- you want to run a low-level utility
+
+## Features
+
+* Format USB, flash card and virtual drives to FAT/FAT32/NTFS/UDF/exFAT/ReFS
+* Create DOS bootable USB drives, using [FreeDOS](http://www.freedos.org/) or MS-DOS
+* Create BIOS or UEFI bootable drives, including [UEFI bootable NTFS](https://github.com/pbatard/uefi-ntfs)
+* Create bootable drives from bootable ISOs (Windows, Linux, etc.)
+* Create bootable drives from bootable disk images, including compressed ones
+* Create [Windows To Go](https://en.wikipedia.org/wiki/Windows_To_Go) drives
+* Twice as fast as Microsoft's USB/DVD tool or UNetbootin, on ISO -&gt; USB creation.
+* Perform bad blocks checks, including detection of "fake" flash drives
+* Compute MD5, SHA-1 and SHA-256 checksums of the selected image
+* Modern and familiar UI, with more than [35 languages natively supported](https://github.com/pbatard/rufus/wiki/FAQ#What_languages_are_natively_supported_by_Rufus)
+* Small footprint. No installation required.
+* Portable
+* 100% [Free Software](http://www.gnu.org/philosophy/free-sw.en.html) ([GPL v3](http://www.gnu.org/licenses/gpl-3.0.en.html))
+
+* [FAQ](https://github.com/pbatard/rufus/wiki/FAQ)
+* [Supported ISOs](https://rufus.ie/en_IE.html/#ref2)
+
+
+![screenshot](https://cdn.jsdelivr.net/gh/chocolatey/chocolatey-coreteampackages@6fdcf3ea1d6e0661c3b05ead97a70f92eaba218a/automatic/rufus/screenshot.png)</description>
+    <summary>Create bootable USB drives from Windows and Linux images</summary>
+    <releaseNotes>https://github.com/pbatard/rufus/blob/master/ChangeLog.txt</releaseNotes>
+    <copyright>Copyright © 2011-2020 Pete Batard / Akeo</copyright>
+    <tags>liveusb usb bootdisk linux windows foss</tags>
+    <packageSourceUrl>https://github.com/chocolatey-community/chocolatey-coreteampackages/tree/master/automatic/rufus</packageSourceUrl>
+    <docsUrl>https://github.com/xmha97/donyacalendar-cli/wiki</docsUrl>
+    <bugTrackerUrl>https://github.com/pbatard/rufus/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/pbatard/rufus/</projectSourceUrl>
+  </metadata>
+</package>

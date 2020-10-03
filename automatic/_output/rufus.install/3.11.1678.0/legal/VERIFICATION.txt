@@ -1,0 +1,17 @@
+VERIFICATION
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+
+The installer have been downloaded from their official download link listed on <https://api.github.com/repos/pbatard/rufus/releases>
+and can be verified like this:
+
+1. Download the following installer:
+  32-Bit: <https://github.com/pbatard/rufus/releases/download/v3.11/Rufus-3.11.appx>
+2. You can use one of the following methods to obtain the checksum
+  - Use powershell function 'Get-Filehash'
+  - Use chocolatey utility 'checksum.exe'
+
+  checksum type: sha256
+  checksum32: 66376E1C2A184F9921D18557BD7A82142B60BB58301F04B5BDEF167196041E5F
+
+File 'LICENSE.txt' is obtained from <https://github.com/pbatard/rufus/blob/master/LICENSE.txt>
