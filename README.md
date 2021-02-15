@@ -9,7 +9,6 @@ Nuget is mainly designed for installing developer libraries.
 Presentation resources (read the Odata feed and presents it to you in various methods and formats)
 
 * Web: [Chocolatey.org](https://chocolatey.org/packages)
-* Web: [NuGetFeed.org](http://nugetfeed.org/)
 * App: [ChocolateyGUI](https://chocolatey.org/packages/ChocolateyGUI)
 * App: [OuiGuiChocolatey](https://chocolatey.org/packages/OuiGuiChocolatey)
 * Cmd: [choco list -h](https://chocolatey.org/packages/Chocolatey)
@@ -107,16 +106,17 @@ Only packages that __never__ get updated should be here.
 Note that while Nupkg files may contain any binary file, typically, they only contain essential wrapper information explaining where the install program is located and how to install the program.  However, since packages in this folder may no longer have an official published source, they may be more likely to contain the executable or install file(s) directly within the zipped nupkg file.
 
 ## Others' repositories
-* https://github.com/ferventcoder/chocolatey-packages
-* https://github.com/chocolatey/chocolatey-coreteampackages
 * https://github.com/alanstevens/ChocoPackages
 * https://github.com/AnthonyMastrean/chocolateypackages
-* https://github.com/MarkRobertJohnson/ChocolateyPackages
-* https://github.com/ComFreek/chocolatey-packages
-* https://github.com/yoshimov/chocolatey-packages
-* https://github.com/Redsandro/chocolatey
 * https://github.com/aronovgj/choco-auto
-* [DEPRECATED] https://github.com/adgellida/chocolateyautomaticpackages
+* https://github.com/chocolatey/chocolatey-coreteampackages
+* https://github.com/ComFreek/chocolatey-packages
+* https://github.com/ferventcoder/chocolatey-packages
+* https://github.com/tunisiano187/Chocolatey-packages
+* [Last update 2016] https://github.com/MarkRobertJohnson/ChocolateyPackages
+* [Last update 2018] https://github.com/Redsandro/chocolatey
+* [Last update 2016] https://github.com/yoshimov/chocolatey-packages
+* [DEPRECATED 2018] https://github.com/adgellida/chocolateyautomaticpackages
 
 
 ## Package name -- Package id
