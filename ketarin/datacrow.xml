@@ -1,11 +1,11 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
-  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="fae14ca8-a649-46b8-aadc-f32c8f113e89">
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="f6304352-2ad4-48dc-8eb2-c8f72d6c67fc">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
-    <LastFileSize>87579137</LastFileSize>
-    <LastFileDate>2015-07-04T02:35:24-06:00</LastFileDate>
+    <LastFileSize>87918643</LastFileSize>
+    <LastFileDate>2017-10-16T13:18:59+05:30</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -35,119 +35,58 @@
       </item>
       <item>
         <key>
-          <string>versionFull</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <Url />
-            <TextualContent>{urlFile:regex:(?&lt;=datacrow_)[\d_.-]{3,\}(?=_win)}</TextualContent>
-            <Name>versionFull</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
           <string>version</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <Url />
-            <TextualContent>{versionFull:replace:_:.}</TextualContent>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>(?&lt;=&lt;title&gt;Download DataCrow\s*)[\d\.]+</Regex>
+            <Url>{dlPageUrl}</Url>
             <Name>version</Name>
           </UrlVariable>
         </value>
       </item>
       <item>
         <key>
-          <string>urlFile</string>
+          <string>checksum</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>{appname}_[^ "'&lt;&gt;\*]+installer\.zip</Regex>
-            <Url>http://www.fosshub.com/Data-Crow.html</Url>
-            <TextualContent />
-            <Name>urlFile</Name>
+            <Regex>(?&lt;=MD5 Checksum:\s*&lt;[^&gt;]+&gt;\s*&lt;[^&gt;]+&gt;\s*)\w+</Regex>
+            <Url>{dlPageUrl}</Url>
+            <Name>checksum</Name>
           </UrlVariable>
         </value>
       </item>
       <item>
         <key>
-          <string>urlHost</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <Url />
-            <TextualContent>http://www.fosshub.com/genLink/Data-Crow</TextualContent>
-            <Name>urlHost</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>url</string>
+          <string>downloadUrl</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>(http[^"]*windows_installer.zip)</Regex>
-            <Url>http://www.fosshub.com/Data-Crow.html/{urlFile}</Url>
-            <TextualContent />
-            <Name>url</Name>
+            <Regex>https://filehippo.com/download_datacrow_windows/download/\w+/(?=[^&gt;]+&gt;\s*&lt;span&gt;download latest version)</Regex>
+            <Url>{dlPageUrl}</Url>
+            <StartText>program-header-download-link green button-link active long download-button</StartText>
+            <Name>downloadUrl</Name>
           </UrlVariable>
         </value>
       </item>
       <item>
         <key>
-          <string>url64</string>
+          <string>dlPageUrl</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <Url />
-            <TextualContent>{urlFile}</TextualContent>
-            <Name>url64</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>cscript</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <TextualContent>2</TextualContent>
-            <Name>cscript</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>packageGuid</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <TextualContent>{urlHost}/{urlFile}</TextualContent>
-            <Name>packageGuid</Name>
+            <TextualContent>https://filehippo.com/download_datacrow_windows/</TextualContent>
+            <Name>dlPageUrl</Name>
           </UrlVariable>
         </value>
       </item>
@@ -158,13 +97,13 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>F:\exe\datacrow_4_1_0_windows_installer.zip</PreviousLocation>
+    <PreviousLocation />
     <DeletePreviousFile>false</DeletePreviousFile>
     <Enabled>true</Enabled>
-    <FileHippoId />
-    <LastUpdated>2016-02-20T12:53:41.4731122-07:00</LastUpdated>
+    <FileHippoId>datacrow_windows</FileHippoId>
+    <LastUpdated xsi:nil="true" />
     <TargetPath>{workdir}\</TargetPath>
-    <FixedDownloadUrl>{url}</FixedDownloadUrl>
+    <FixedDownloadUrl>{downloadUrl}</FixedDownloadUrl>
     <Name>datacrow</Name>
   </ApplicationJob>
 </Jobs>
