@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="4b928fe7-2d45-4f67-9a30-89b1cabfc60c">
     <WebsiteUrl />
@@ -11,6 +11,7 @@
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
     <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
@@ -70,7 +71,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>https://winauth.com</TextualContent>
+            <TextualContent>https://winauth.github.io</TextualContent>
             <Name>urlHost</Name>
           </UrlVariable>
         </value>
@@ -84,7 +85,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
             <Regex>[^ "'&lt;&gt;\*]+\.zip</Regex>
-            <Url>https://winauth.com/download/</Url>
+            <Url>https://winauth.github.io/winauth/download.html</Url>
             <Name>urlPath</Name>
           </UrlVariable>
         </value>
