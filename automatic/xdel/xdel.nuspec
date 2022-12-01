@@ -6,9 +6,9 @@
     <version>{{PackageVersion}}</version>
     <authors>Hermann Schinagl</authors>
     <owners>dtgm</owners>
-    <summary>Delete subdirectories recursivley with support for junction/symbolic links</summary>
+    <summary>Delete subdirectories recursively with support for junctions / symbolic links</summary>
     <description>
-The NTFS filesystem of NT4/W2K/WXP supports the junction/symbolic link functionality. Deleting subdirectories recursivley can be done by various of tools, but only xdel is aware of junctions/symbolic link, and instead of crawling recursivley down a junction/symbolic link, xdel simply unlinks the junction/symbolic link, and so does no harm to contents chained into a hierarchy via junctions/symbolic link.
+The NTFS filesystem of NT4/W2K/WXP supports the junction/symbolic link functionality. Deleting subdirectories recursively can be done by various tools, but only xdel is aware of junctions / symbolic links, and instead of crawling recursively down a junction / symbolic link, xdel simply unlinks the junction / symbolic link, and so does no harm to contents chained into a hierarchy via junctions / symbolic links.
 
 Furthermore xdel.exe properly deletes very long pathnames with more than 256 characters. 
 
@@ -16,7 +16,7 @@ Furthermore xdel.exe properly deletes very long pathnames with more than 256 cha
 
 `xdel.exe` is a typical command line utility.
 
-Recursivly delete directory hierarchies. e.g.:
+Recursively delete directory hierarchies. e.g.:
 
     `xdel x:\dir\dir2`
 
